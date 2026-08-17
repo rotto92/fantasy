@@ -35,12 +35,12 @@ jobs:
           .venv/bin/python -m pip install --disable-pip-version-check openpyxl
       - name: Install JavaScript dependencies
         run: npm ci
-      - name: Audit imported release files
-        run: npm run audit:release-import
       - name: Install pinned Chromium for browser contracts
         run: npm run browser:install
       - name: Build the Pages bundle
         run: npm run build
+      - name: Audit generated release files
+        run: npm run audit:release-import
       - name: Run browser contracts
         run: |
           VITE_BASE=/ npm run dev -- --host 127.0.0.1 > /tmp/fantasy-vite.log 2>&1 &

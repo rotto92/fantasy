@@ -128,6 +128,9 @@ const evidenceDetail = (await page.locator(".detail-panel").innerText()).toLocal
 if (!evidenceDetail.includes("ankka") || !evidenceDetail.includes("source and continuity") || !evidenceDetail.includes("no normalized archetype id")) {
   failures.push(`selected source evidence did not expose identity and mapping status: ${evidenceDetail}`);
 }
+if (!evidenceDetail.includes("review status:") || !evidenceDetail.includes("canon status:") || !evidenceDetail.includes("caution:")) {
+  failures.push(`aggregate evidence omitted status or caution context: ${evidenceDetail}`);
+}
 
 await page.locator("#search").fill("Ank-ka");
 const punctuationText = await page.locator("#search-results").innerText();

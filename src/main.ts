@@ -365,6 +365,7 @@ let foldingMap: Record<string, string> = {};
 let currentZoom: d3.ZoomBehavior<SVGSVGElement, unknown> | null = null;
 let currentTransform = d3.zoomIdentity;
 let resizeTimer = 0;
+let restoringDetailFocus = false;
 
 const nodeById = new Map<string, ConceptNode>();
 const domainById = new Map<DomainId, DomainRecord>();
@@ -753,16 +754,16 @@ function accessibleNodeLabel(node: ConceptNode): string {
   return `${node.label}, ${node.tier === 2 ? "constellation family" : node.domainLabel}, ${node.evidenceCount} evidence examples`;
 }
 
-function activateNode(positioned: PositionedNode): void {
-  selectNode(positioned.node.id, false);
-  if (positioned.node.tier === 2) zoomToNode(positioned.node.id);
+function activateNode(positioned: PositionedNode, refreshRelationView = true): void {
+  selectNode(positioned.node.id, false, "click", null, refreshRelationView);
+  if (positioned.node.tier === 2 && viewMode === "constellations") zoomToNode(positioned.node.id);
 }
 
 function handleNodeKeydown(event: KeyboardEvent, positioned: PositionedNode): void {
   if (event.key !== "Enter" && event.key !== " ") return;
   event.preventDefault();
   event.stopPropagation();
-  activateNode(positioned);
+  activateNode(positioned, viewMode !== "relations");
 }
 
 function hideTooltip(): void {
@@ -1008,7 +1009,9 @@ function renderConstellations(): void {
     .on("mouseenter", (event, positioned) => showTooltip(event as MouseEvent, positioned.node))
     .on("mousemove", (event, positioned) => showTooltip(event as MouseEvent, positioned.node))
     .on("mouseleave", hideTooltip)
-    .on("focus", (_event, positioned) => selectNode(positioned.node.id, false))
+    .on("focus", (_event, positioned) => {
+      if (!restoringDetailFocus) selectNode(positioned.node.id, false);
+    })
     .on("keydown", handleNodeKeydown)
     .on("click", (event, positioned) => {
       event.stopPropagation();
@@ -1152,6 +1155,7 @@ function renderRelations(): void {
     .data(positioned)
     .join("g")
     .attr("class", (item) => `concept-star relation-star ${item.node.id === selected.id ? "is-selected" : ""}`)
+    .attr("data-node-id", (item) => item.node.id)
     .attr("transform", (item) => `translate(${item.x},${item.y})`);
   marks.append("circle").attr("class", "star-corona").attr("r", (item) => item.r * 3).attr("fill", (item) => colorFor(item.node));
   marks.append("path").attr("class", "family-core").attr("d", (item) => starPath(item.r, item.r * 0.42, 5)).attr("fill", (item) => colorFor(item.node));
@@ -1169,11 +1173,19 @@ function renderRelations(): void {
     .on("mouseenter", (event, item) => showTooltip(event as MouseEvent, item.node))
     .on("mousemove", (event, item) => showTooltip(event as MouseEvent, item.node))
     .on("mouseleave", hideTooltip)
-    .on("focus", (_event, item) => selectNode(item.node.id, false, "click", null, false))
+    .on("focus", (_event, item) => {
+      if (!restoringDetailFocus) selectNode(item.node.id, false, "click", null, false);
+    })
     .on("keydown", handleNodeKeydown)
     .on("click", (_event, item) => selectNode(item.node.id, false));
   installZoom(svg, layer, () => undefined);
   updateScope(positioned.map((item) => item.node));
+}
+
+function updateRelationSelection(): void {
+  document.querySelectorAll<SVGGElement>("#atlas-svg .relation-star").forEach((mark) => {
+    mark.classList.toggle("is-selected", mark.dataset.nodeId === selectedNodeId);
+  });
 }
 
 function renderCatalogue(): void {
@@ -1314,7 +1326,14 @@ function closeDetail(): void {
 }
 
 function hideDetail(): void {
+  const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   detailPanel?.classList.remove("is-open");
+  if (focusBelongsToDetail) {
+    const selectedMark = document.querySelector<HTMLElement>("#atlas-svg .is-selected");
+    restoringDetailFocus = true;
+    (selectedMark ?? searchInput).focus();
+    restoringDetailFocus = false;
+  }
 }
 
 function renderDiscoveryDetail(record: DiscoveryRecord): void {
@@ -1428,6 +1447,9 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     if (character.work_or_witness) card.append(element("small", "", `Work / witness: ${character.work_or_witness}`));
     if (character.evidence_level) card.append(element("small", "", `Evidence: ${character.evidence_level}`));
     if (citation?.locator) card.append(element("small", "", `Citation: ${citation.locator}`));
+    if (character.review_status) card.append(element("small", "", `Review status: ${character.review_status}`));
+    if (character.canon_status) card.append(element("small", "", `Canon status: ${character.canon_status}`));
+    card.append(element("small", "", `Caution: ${character.comparison_cautions.join(" ") || "No additional comparison caution recorded."}`));
     card.append(element("small", "", character.description));
     if (citation?.url) {
       const link = element("a", "evidence-link", "Open supporting citation") as HTMLAnchorElement;
@@ -1705,8 +1727,9 @@ function selectNode(
     updateConstellationSelection();
     updateSemanticZoom(currentTransform);
     if (zoom && nodeId) zoomToNode(nodeId);
-  } else if (viewMode === "relations" && refreshRelationView) {
-    renderRelations();
+  } else if (viewMode === "relations") {
+    if (refreshRelationView) renderRelations();
+    else updateRelationSelection();
   }
 }
 
@@ -1830,11 +1853,11 @@ function fitView(): void {
 function bindEvents(): void {
   document.querySelectorAll<HTMLButtonElement>(".view-button").forEach((button) => {
     button.addEventListener("click", () => {
+      const query = searchInput.value.trim();
       viewMode = button.dataset.view as ViewMode;
-      searchInput.value = "";
-      researchQuery = "";
-      searchResults.hidden = true;
+      researchQuery = viewMode === "research" ? query : "";
       render();
+      showSearchResults(query);
     });
   });
   domainFilter.addEventListener("change", () => {
@@ -1884,8 +1907,9 @@ function bindEvents(): void {
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       searchInput.value = "";
-      searchResults.hidden = true;
       researchQuery = "";
+      if (viewMode === "research") renderResearch();
+      showSearchResults("");
     }
     if (event.key === "Enter") {
       const first = searchResults.querySelector<HTMLButtonElement>(".search-result");

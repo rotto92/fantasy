@@ -98,8 +98,13 @@ if (!connected) {
   if (!(await relationTarget.evaluate((node) => node.isConnected && node === document.activeElement))) {
     failures.push("relation-map focus was detached while selecting a keyboard target");
   }
+  await relationTarget.press("Enter");
+  if (!(await relationTarget.evaluate((node) => node.isConnected && node === document.activeElement))) {
+    failures.push("relation-map focus was detached during keyboard activation");
+  }
 }
 
+await page.locator("#search").fill("");
 await page.locator('[data-view="catalogue"]').click();
 const familySections = await page.locator(".catalogue-family").count();
 if (familySections !== concepts.meta.counts.families) failures.push(`expected ${concepts.meta.counts.families} catalogue families, got ${familySections}`);
@@ -124,6 +129,17 @@ if (!(await page.locator(".research-table tbody tr").filter({ hasText: "Guild Wa
   failures.push("research search did not route corpus character evidence to its source pass");
 }
 if (!(await page.locator("#search-results .search-result").count())) failures.push("research search omitted the corpus discovery result");
+await page.locator("#search").press("Escape");
+if ((await page.locator("#search").inputValue()) || (await page.locator(".research-table tbody tr").count()) !== sourceRows) {
+  failures.push("research Escape left a stale filtered table");
+}
+await page.locator("#search").fill("Ankka");
+await page.locator('[data-view="constellations"]').click();
+if ((await page.locator("#search").inputValue()) !== "Ankka") failures.push("view switch discarded the corpus search query");
+await page.locator('[data-view="research"]').click();
+if ((await page.locator("#search").inputValue()) !== "Ankka" || !(await page.locator(".research-table tbody tr").filter({ hasText: "Guild Wars" }).count())) {
+  failures.push("Research did not retain the corpus search context across view switches");
+}
 await page.locator("#search").fill("no-source-or-corpus-record");
 if (!(await page.locator(".research-empty").isVisible())) failures.push("research search has no zero-result recovery");
 await page.locator("#search").fill("");
@@ -138,7 +154,7 @@ if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.co
   failures.push("mobile concept selection did not open the detail drawer");
 }
 await mobile.locator(".mobile-detail-close").click();
-if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")) || !(await mobile.locator("#focus-banner").isVisible()) || (await mobile.locator("#atlas-svg .is-selected").count()) !== 1) {
+if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")) || !(await mobile.locator("#focus-banner").isVisible()) || (await mobile.locator("#atlas-svg .is-selected").count()) !== 1 || !(await mobile.locator("#atlas-svg .is-selected").evaluate((node) => node === document.activeElement))) {
   failures.push("closing the mobile detail drawer discarded the search focus");
 }
 
