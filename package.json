@@ -19,7 +19,7 @@
     "build": "npm run generate && tsc --noEmit && vite build",
     "preview": "vite preview",
     "test:smoke": "node tests/smoke.mjs",
-    "test:discovery": "node tests/discovery.mjs",
+    "test:discovery": ".venv/bin/python tests/generated_contracts.py && node tests/discovery.mjs",
     "test:audit": "python3 tests/release_audit.py",
     "test:static": "node tests/static-base.mjs"
   },

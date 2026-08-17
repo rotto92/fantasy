@@ -162,6 +162,21 @@ def fold_identity(value: Any) -> str:
     return "".join(character for character in normalized.casefold() if character.isalnum())
 
 
+def identity_tokens(value: Any) -> tuple[str, ...]:
+    normalized = unicodedata.normalize("NFKD", str(value or "")).casefold()
+    without_marks = "".join(character for character in normalized if not unicodedata.combining(character))
+    return tuple(fold_identity(token) for token in re.findall(r"[^\W_]+", without_marks) if fold_identity(token))
+
+
+def contains_identity_tokens(value: Any, candidate: Any) -> bool:
+    value_tokens = identity_tokens(value)
+    candidate_tokens = identity_tokens(candidate)
+    return bool(candidate_tokens) and any(
+        value_tokens[index : index + len(candidate_tokens)] == candidate_tokens
+        for index in range(len(value_tokens) - len(candidate_tokens) + 1)
+    )
+
+
 def source_work_names(audit: dict[str, Any]) -> list[str]:
     names: list[str] = []
     for witness in audit.get("work_or_witnesses", []):
@@ -451,14 +466,15 @@ def main() -> None:
     if duplicate_relationships:
         errors.append(f"Duplicate relationship IDs: {', '.join(sorted(duplicate_relationships))}")
 
-    character_terms_by_source_dimension: dict[tuple[str, str], set[str]] = defaultdict(set)
+    character_terms_by_source_dimension: dict[tuple[str, str], dict[str, str]] = defaultdict(dict)
     for character in all_characters:
         for dimension, values in character.get("dimensions", {}).items():
-            character_terms_by_source_dimension[(str(character.get("source_id", "")), dimension)].update(
-                fold_identity(value.get("term", ""))
-                for value in values
-                if str(value.get("term", "")).strip()
-            )
+            for value in values:
+                term = str(value.get("term", "")).strip()
+                if term:
+                    character_terms_by_source_dimension[(str(character.get("source_id", "")), dimension)][
+                        fold_identity(term)
+                    ] = term
 
     term_ids: list[str] = []
     term_count_by_source: Counter[str] = Counter()
@@ -511,20 +527,28 @@ def main() -> None:
         ):
             errors.append(f"{context}: identity_forms must be an array of non-empty strings when present")
             identity_forms = []
-        canonical_parts = {
-            fold_identity(value)
-            for value in re.split(r"\s*/\s*", str(record.get("canonical_term", "")))
-            if str(value).strip()
-        }
+        identity_fields = [
+            str(record.get(field_name, "")).strip()
+            for field_name in ("canonical_term", "transliteration", "original_script")
+            if str(record.get(field_name, "")).strip()
+        ]
+        whole_identity_forms = {fold_identity(value) for value in identity_fields}
         character_terms = character_terms_by_source_dimension.get(
             (str(record.get("source_id", "")), str(record.get("dimension", ""))),
-            set(),
+            {},
         )
-        identity_bearing_parts = canonical_parts & character_terms
         explicit_identity_forms = {fold_identity(value) for value in identity_forms}
-        if len(canonical_parts) > 1 and not identity_bearing_parts.issubset(explicit_identity_forms):
+        missing_identity_forms = sorted(
+            term
+            for folded_term, term in character_terms.items()
+            if folded_term not in whole_identity_forms
+            and folded_term not in explicit_identity_forms
+            and any(contains_identity_tokens(identity_field, term) for identity_field in identity_fields)
+        )
+        if missing_identity_forms:
             errors.append(
-                f"{context}: compound character-linked terms must declare every matching identity_form"
+                f"{context}: character-linked compound identity forms must be explicit: "
+                + ", ".join(missing_identity_forms)
             )
         if record.get("dimension") not in DIMENSIONS:
             errors.append(f"{context}: invalid dimension {record.get('dimension')}")
@@ -628,6 +652,11 @@ def main() -> None:
             if not isinstance(claim_ids, list) or not all(isinstance(value, str) and value for value in claim_ids):
                 errors.append(f"{ledger_path.relative_to(ROOT)}: reviewed_claim_ids must contain stable claim IDs")
                 continue
+            inspected_count = entry.get("inspected_count")
+            if isinstance(inspected_count, int) and len(set(claim_ids)) != inspected_count:
+                errors.append(
+                    f"{ledger_path.relative_to(ROOT)}: reviewed_claim_ids do not match the documented inspected_count"
+                )
             reviewed_claim_ids.update(claim_ids)
     unknown_review_claim_ids = sorted(reviewed_claim_ids - raw_claim_ids)
     if unknown_review_claim_ids:
@@ -667,24 +696,21 @@ def main() -> None:
 
     required_mapping_quarantine_ids = {
         *[
-            str(record.get("character_id", ""))
+            f"dimension:{record.get('character_id', '')}:{dimension}"
             for record in all_characters
             if record.get("character_id") not in configured_quarantine_ids
-            and any(
-                value.get("archetype_ids")
-                for values in record.get("dimensions", {}).values()
-                for value in values
-            )
+            for dimension, values in record.get("dimensions", {}).items()
+            if any(value.get("archetype_ids") for value in values)
             and (
                 record.get("review_status") == "needs-review"
                 or (
                     bool(record.get("comparison_cautions"))
-                    and f"character:{record.get('character_id', '')}" not in reviewed_claim_ids
+                    and f"dimension:{record.get('character_id', '')}:{dimension}" not in reviewed_claim_ids
                 )
             )
         ],
         *[
-            str(record.get("term_id", ""))
+            f"source-term:{record.get('term_id', '')}"
             for record in all_terms
             if record.get("term_id") not in configured_quarantine_ids
             and bool(record.get("archetype_ids"))
@@ -701,11 +727,9 @@ def main() -> None:
     if not isinstance(mapping_quarantine, dict):
         errors.append("independent-review index: mapping_quarantine must be an object")
         mapping_quarantine = {}
-    configured_mapping_quarantine_ids = {
-        str(value) for value in mapping_quarantine.get("record_ids", [])
-    } if isinstance(mapping_quarantine.get("record_ids", []), list) else set()
-    if configured_mapping_quarantine_ids != required_mapping_quarantine_ids:
-        errors.append("independent-review index: mapping quarantine does not match unresolved needs-review mappings")
+    if mapping_quarantine.get("policy") != "unreviewed-sensitive-claim-mappings":
+        errors.append("independent-review index: mapping quarantine policy is not claim-based")
+    configured_mapping_quarantine_ids = required_mapping_quarantine_ids
     if required_mapping_quarantine_ids and not str(mapping_quarantine.get("reason", "")).strip():
         errors.append("independent-review index: mapping quarantine requires a containment reason")
 
@@ -723,13 +747,12 @@ def main() -> None:
         if record.get("term_id") not in configured_quarantine_ids
     ]
     for record in promoted_characters:
-        if record.get("character_id") not in configured_mapping_quarantine_ids:
-            continue
-        for values in record.get("dimensions", {}).values():
-            for value in values:
-                value["archetype_ids"] = []
+        for dimension, values in record.get("dimensions", {}).items():
+            if f"dimension:{record.get('character_id', '')}:{dimension}" in configured_mapping_quarantine_ids:
+                for value in values:
+                    value["archetype_ids"] = []
     for record in promoted_terms:
-        if record.get("term_id") in configured_mapping_quarantine_ids:
+        if f"source-term:{record.get('term_id', '')}" in configured_mapping_quarantine_ids:
             record["archetype_ids"] = []
 
     promoted_claim_ids = {
@@ -839,7 +862,7 @@ def main() -> None:
                 "claimCoverage": round(review_claim_coverage, 6),
                 "minimumClaimCoverage": MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE,
                 "quarantinedRecordIds": sorted(configured_quarantine_ids),
-                "quarantinedMappingRecordIds": sorted(configured_mapping_quarantine_ids),
+                "quarantinedMappingClaimIds": sorted(configured_mapping_quarantine_ids),
             },
             "quarantinedBundles": [str(path.relative_to(ROOT)) for path in quarantined_bundle_dirs],
             "visualContract": "Characters and source-native terms are searchable evidence; normalized beings and classes remain the graph nodes.",

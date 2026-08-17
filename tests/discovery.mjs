@@ -27,7 +27,8 @@ if (discovery.records.some((record) => Object.hasOwn(record, "searchText"))) {
 }
 const ankkaRecord = discovery.records.find((record) => record.id === "character:CHR-SRC162-001");
 const sanskritAsuraRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC277-004");
-const abhimanyu = research.characters.find((character) => character.canonical_name === "Abhimanyu");
+const acceptedMappedCharacterRecord = discovery.records.find((record) => record.kind === "character" && record.relatedConceptIds.length);
+const acceptedMappedCharacter = research.characters.find((character) => character.character_id === acceptedMappedCharacterRecord?.characterIds[0]);
 const mappedConcept = concepts.nodes.find((node) => node.examples?.length);
 const xeniaRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC001-007");
 const aetherbladesRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC162-002");
@@ -39,8 +40,15 @@ const remadeTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC
 const remadeRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC050-003");
 const crisisTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC050-005");
 const crisisRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC050-005");
+const firstLawCompoundTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC051-004");
+const firstLawCompoundRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC051-004");
+const lodossCompoundTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC075-002");
+const lodossCompoundRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC075-002");
+const dndCompoundTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC272-003");
+const dndCompoundRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC272-003");
 const theosTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC001-001");
 const theosRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC001-001");
+const quarantinedDimensionRecord = discovery.records.find((record) => record.kind === "dimension-term" && record.sourceId === "SRC-050" && record.label === "weaving and reality-altering action");
 const chineseTerms = research.sourceTerms.filter((term) => term.source_id === "SRC-279");
 const jotunnRecord = discovery.records.find((record) => record.kind === "dimension-term" && record.sourceId === "SRC-002" && record.label === "jötunn");
 const dvergrTerm = research.sourceTerms.find((term) => term.canonical_term === "dvergr" && term.source_id === "SRC-002");
@@ -86,6 +94,17 @@ if (!remadeTerm?.identity_forms?.includes("Remade") || !remadeTerm.identity_form
 if (!crisisTerm?.identity_forms?.includes("crisis energy") || !crisisTerm.identity_forms.includes("crisis conductor") || !crisisRecord?.characterExamples.includes("Isaac Dan der Grimnebulin")) {
   failures.push("explicit crisis-energy identities did not link representative character evidence");
 }
+if (!firstLawCompoundTerm?.identity_forms?.includes("the Inquisition") || !firstLawCompoundRecord?.characterExamples.includes("Sand dan Glokta")) {
+  failures.push("semicolon-delimited source-term identity did not link representative character evidence");
+}
+if (!lodossCompoundTerm?.identity_forms?.includes("elf") || !lodossCompoundRecord?.characterExamples.includes("ディードリット")) {
+  failures.push("transliteration identity did not link representative character evidence");
+}
+for (const [identity, character] of [["bard", "Edgin"], ["barbarian", "Holga"], ["paladin", "Xenk"], ["sorcerer", "Simon"], ["druid", "Doric"]]) {
+  if (!dndCompoundTerm?.identity_forms?.includes(identity) || !dndCompoundRecord?.characterExamples.includes(character)) {
+    failures.push(`comma/and-delimited identity ${identity} omitted ${character}`);
+  }
+}
 for (const term of chineseTerms) {
   const locators = term.citations.map((citation) => citation.locator);
   if (!locators.some((locator) => term.work_or_witness.includes(locator)) || term.work_or_witness.startsWith("Shanhai jing; Huainanzi;")) {
@@ -114,6 +133,10 @@ const reviewedPromotedClaims = [...reviewedClaimIds].filter((claimId) => promote
 if (reviewCoverage?.reviewedClaims !== reviewedPromotedClaims.length || reviewCoverage?.totalClaims !== promotedClaimIds.size) {
   failures.push("compiled review coverage is not the exact reviewed-claim intersection");
 }
+const relationshipLedger = reviewLedgers.find((ledger) => !Array.isArray(ledger) && ledger.scanned_count === 1258);
+if (!relationshipLedger || relationshipLedger.reviewed_claim_ids.length !== relationshipLedger.inspected_count || relationshipLedger.reviewed_claim_ids.length >= relationshipLedger.scanned_count) {
+  failures.push("relationship structural scans still inflate substantive claim-review coverage");
+}
 for (const recordId of reviewCoverage?.quarantinedRecordIds ?? []) {
   if (research.characters.some((record) => record.character_id === recordId)
     || research.relationships.some((record) => record.relationship_id === recordId)
@@ -121,15 +144,14 @@ for (const recordId of reviewCoverage?.quarantinedRecordIds ?? []) {
     failures.push(`independent-review quarantine promoted unresolved record ${recordId}`);
   }
 }
-for (const recordId of reviewCoverage?.quarantinedMappingRecordIds ?? []) {
-  const character = research.characters.find((record) => record.character_id === recordId);
-  const term = research.sourceTerms.find((record) => record.term_id === recordId);
+for (const claimId of reviewCoverage?.quarantinedMappingClaimIds ?? []) {
+  const [claimKind, recordId, dimension] = claimId.split(":");
+  const character = claimKind === "dimension" ? research.characters.find((record) => record.character_id === recordId) : undefined;
+  const term = claimKind === "source-term" ? research.sourceTerms.find((record) => record.term_id === recordId) : undefined;
   const retainedMappings = character
-    ? Object.values(character.dimensions).flat().flatMap((value) => value.archetype_ids)
+    ? (character.dimensions[dimension] ?? []).flatMap((value) => value.archetype_ids)
     : term?.archetype_ids ?? [];
-  if ((!character && !term) || retainedMappings.length) {
-    failures.push(`mapping quarantine did not retain and unmap ${recordId}`);
-  }
+  if ((!character && !term) || retainedMappings.length) failures.push(`mapping quarantine did not retain and unmap ${claimId}`);
 }
 if (!jotunnRecord?.continuity.includes("Poetic Edda witness") || !jotunnRecord.continuity.includes("Prose Edda witness") || !jotunnRecord.work.includes("Vafþrúðnismál") || !jotunnRecord.work.includes("Gylfaginning")) {
   failures.push("grouped jötunn evidence collapsed its continuity or work provenance");
@@ -138,14 +160,22 @@ const dvergrWork = dvergrTerm?.work_or_witness ?? "";
 if (!dvergrRecord || dvergrRecord.work !== dvergrWork || dvergrRecord.work.includes("Gylfaginning") || !dvergrSourceRecord?.work.includes("Gylfaginning")) {
   failures.push("dvergr discovery provenance overclaims the source-wide witness list");
 }
-if (dvergrExample || !(reviewCoverage?.quarantinedMappingRecordIds ?? []).includes(dvergrTerm?.term_id)) {
+if (dvergrExample || !(reviewCoverage?.quarantinedMappingClaimIds ?? []).includes(`source-term:${dvergrTerm?.term_id}`)) {
   failures.push("unreviewed dvergr mapping still contributes concept evidence");
 }
 if (!mortalFamily?.evidenceCount || !mortalFamily.sourceCount || !mortalFamily.examples.some((example) => example.kind === "character-example")) {
   failures.push("tier-2 Mortal and Natural Peoples omitted descendant evidence");
 }
-if (!theosTerm || theosTerm.archetype_ids.length || theosRecord?.normalizedConceptIds.length || !theosRecord?.mappingQuarantined || !(reviewCoverage?.quarantinedMappingRecordIds ?? []).includes("STM-SRC001-001")) {
+if (!theosTerm || theosTerm.archetype_ids.length || theosRecord?.normalizedConceptIds.length || !theosRecord?.mappingQuarantined || !(reviewCoverage?.quarantinedMappingClaimIds ?? []).includes("source-term:STM-SRC001-001")) {
   failures.push("unreviewed culturally cautioned theos mapping was promoted");
+}
+const jadeEmperor = research.characters.find((character) => character.character_id === "CHR-SRC279-014");
+if ((jadeEmperor?.dimensions.being_types ?? []).some((value) => value.archetype_ids.length)
+  || !(reviewCoverage?.quarantinedMappingClaimIds ?? []).includes("dimension:CHR-SRC279-014:being_types")) {
+  failures.push("generic character review still bypasses culturally sensitive dimension review");
+}
+if (!quarantinedDimensionRecord?.mappingQuarantined || quarantinedDimensionRecord.normalizedConceptIds.length) {
+  failures.push("grouped dimension evidence conceals its withheld mapping status");
 }
 const allConceptExamples = concepts.nodes.flatMap((node) => node.examples ?? []);
 const allAffinityEvidence = concepts.edges.filter((edge) => edge.kind === "affinity").flatMap((edge) => edge.evidence ?? []);
@@ -154,6 +184,9 @@ if (allConceptExamples.some((example) => example.kind === "source-entry") || all
 }
 if (allConceptExamples.some((example) => example.id === "STM-SRC001-001")) {
   failures.push("unreviewed culturally sensitive source-term mapping still contributes concept evidence");
+}
+if (!concepts.edges.some((edge) => edge.kind === "affinity" && (edge.source === mortalFamily?.id || edge.target === mortalFamily?.id) && edge.evidence?.length)) {
+  failures.push("tier-2 family evidence did not produce evidence-backed related concepts");
 }
 if (discovery.meta.coverage?.being_types?.excludedRows !== 0 || discovery.meta.coverage?.roles_and_vocations?.excludedRows !== 0) {
   failures.push("being and role coverage reports unexplained exclusions");
@@ -211,6 +244,8 @@ await page.locator("#zoom-in").click();
 await page.waitForTimeout(350);
 const visibleConceptLabels = await page.locator("#atlas-svg .concept-label:visible").count();
 if (visibleConceptLabels > 24) failures.push(`wide constellation label budget exceeded: ${visibleConceptLabels}`);
+const visibleFamilyLabels = await page.locator("#atlas-svg .family-label:visible").count();
+if (visibleFamilyLabels > 12) failures.push(`wide constellation family-label budget exceeded: ${visibleFamilyLabels}`);
 await page.locator("#fit-view").click();
 await page.waitForTimeout(350);
 const rovingSpecific = page.locator("#atlas-svg .specific-star:visible").first();
@@ -240,7 +275,7 @@ if (mappedConcept) {
   for (const value of [mappedExample?.work, mappedExample?.reviewStatus, mappedExample?.canonStatus, mappedExample?.caution]) {
     if (value && !mappedText.includes(value.toLocaleLowerCase())) failures.push(`mapped concept evidence omitted provenance: ${value}`);
   }
-  for (const selector of [".citation-card small", ".dimension-note"]) {
+  for (const selector of [".citation-card small", ".citation-card span", ".dimension-note", ".evidence-row", ".concept-stat-grid span", ".attribute-item small"]) {
     const element = page.locator(selector).first();
     if (!(await element.count())) {
       failures.push(`${selector} has no rendered contrast fixture`);
@@ -342,18 +377,22 @@ for (const id of exactHumanEvidenceIds) {
   if (!shownHumanIds.has(id)) failures.push(`paginated human search omitted accepted evidence ${id}`);
 }
 
-await page.locator("#search").fill("Abhimanyu");
-await page.locator(".search-result").first().click();
+await page.locator("#search").fill(acceptedMappedCharacterRecord?.label ?? "");
+await page.locator(".search-result").filter({ hasText: acceptedMappedCharacterRecord?.label ?? "" }).first().click();
 const sourceContextBeforeNavigation = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
-if (!sourceContextBeforeNavigation.includes("droṇa parva") || !sourceContextBeforeNavigation.includes("mahābhārata")) {
+if (!acceptedMappedCharacterRecord
+  || !sourceContextBeforeNavigation.includes(acceptedMappedCharacterRecord.work.toLocaleLowerCase())
+  || !sourceContextBeforeNavigation.includes(acceptedMappedCharacterRecord.sourceTitle.toLocaleLowerCase())) {
   failures.push("source evidence detail did not expose work and series before related navigation");
 }
-if (abhimanyu && (!sourceContextBeforeNavigation.includes(abhimanyu.evidence_level.toLocaleLowerCase()) || !sourceContextBeforeNavigation.includes(abhimanyu.citations[0]?.locator.toLocaleLowerCase() ?? ""))) {
+if (acceptedMappedCharacter && (!sourceContextBeforeNavigation.includes(acceptedMappedCharacter.evidence_level.toLocaleLowerCase()) || !sourceContextBeforeNavigation.includes(acceptedMappedCharacter.citations[0]?.locator.toLocaleLowerCase() ?? ""))) {
   failures.push("representative evidence detail omitted evidence level or citation locator");
 }
 await page.locator(".primary-button").filter({ hasText: "Open related concept" }).click();
 const sourceContextAfterNavigation = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
-if (!sourceContextAfterNavigation.includes("why this matched") || !sourceContextAfterNavigation.includes("droṇa parva") || !sourceContextAfterNavigation.includes("open discovery citation")) {
+if (!sourceContextAfterNavigation.includes("why this matched")
+  || !sourceContextAfterNavigation.includes(acceptedMappedCharacterRecord?.work.toLocaleLowerCase() ?? "")
+  || !sourceContextAfterNavigation.includes("open discovery citation")) {
   failures.push("related concept navigation discarded discovery context or citation evidence");
 }
 const nearbyConcept = page.locator(".detail-section").filter({ hasText: "Nearby stars" }).locator(".relation-button").first();
@@ -411,6 +450,15 @@ if (!foldedDvergrDetail.includes(`work / witness\n${dvergrWork.toLocaleLowerCase
   failures.push(`dvergr detail did not separate claim provenance from source scope: ${dvergrDetail}`);
 }
 
+await page.locator("#search").fill("dīv");
+await page.locator(".search-result").filter({ hasText: "Source-native term" }).first().click();
+const divCitationSection = page.locator(".detail-section").filter({ hasText: "Term evidence and caution" });
+const renderedDivCitations = await divCitationSection.locator(".citation-card").allTextContents();
+if (renderedDivCitations.length !== shahnamehDiv?.citations.length
+  || shahnamehDiv.citations.some((citation) => !renderedDivCitations.some((text) => text.includes(citation.locator)))) {
+  failures.push("source-term detail hid one or more claim-specific citations");
+}
+
 await page.locator("#search").fill("Aetherblades");
 await page.locator(".search-result").filter({ hasText: "Source-native term · Guild Wars" }).first().click();
 const aetherbladesDetail = await page.locator(".detail-panel").innerText();
@@ -447,6 +495,22 @@ if (limitedAudit) {
   if (!limitedResearch.includes(limitedAudit.completion_status.toLocaleLowerCase()) || !limitedResearch.includes("caution:")) {
     failures.push(`Research hid the actual limited audit status: ${limitedResearch}`);
   }
+}
+
+await page.locator('.view-button[data-view="research"]').click();
+for (const [selector, background] of [[".research-card small", [11, 18, 31]], [".research-table th", [11, 19, 32]], [".scope-cell", [8, 14, 24]]]) {
+  const element = page.locator(selector).first();
+  const ratio = await element.evaluate((node, backgroundColor) => {
+    const values = getComputedStyle(node).color.match(/[\d.]+/g)?.slice(0, 3).map(Number) ?? [];
+    const luminance = (channels) => channels
+      .map((channel) => channel / 255)
+      .map((channel) => channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4)
+      .reduce((sum, channel, index) => sum + channel * [0.2126, 0.7152, 0.0722][index], 0);
+    const foreground = luminance(values);
+    const backdrop = luminance(backgroundColor);
+    return (Math.max(foreground, backdrop) + 0.05) / (Math.min(foreground, backdrop) + 0.05);
+  }, background);
+  if (ratio < 4.5) failures.push(`${selector} contrast is ${ratio.toFixed(2)}:1`);
 }
 
 const mobile = await browser.newPage({ viewport: { width: 375, height: 812 } });

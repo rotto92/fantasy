@@ -16,7 +16,7 @@
     "term_id": "STM-SRC255-002",
     "source_id": "SRC-255",
     "work_or_witness": "Dragonheart · Synopsis; Dragonheart · About",
-    "canonical_term":"knight and dragon slayer","original_language":"English official synopsis terms","original_script":"","transliteration":"","literal_gloss":"","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"none","definition":"Universal's premise concerns a knight and a dragon; the authorized synopsis further frames Bowen as a once-chivalrous knight who becomes a for-profit dragon slayer.","cultural_caution":"These are fictional role descriptors, not real historical chivalry, occupation, or a generalized violence classification.","citations":[
+    "canonical_term":"knight and dragon slayer","identity_forms":["knight"],"original_language":"English official synopsis terms","original_script":"","transliteration":"","literal_gloss":"","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"none","definition":"Universal's premise concerns a knight and a dragon; the authorized synopsis further frames Bowen as a once-chivalrous knight who becomes a for-profit dragon slayer.","cultural_caution":"These are fictional role descriptors, not real historical chivalry, occupation, or a generalized violence classification.","citations":[
       {
         "url":"https://www.universalpicturesathome.com/movies/dragonheart","locator":"Synopsis","supports":["A knight encountering a dragon."]
       },

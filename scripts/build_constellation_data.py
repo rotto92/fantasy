@@ -180,8 +180,19 @@ def main() -> None:
     for evidence_id, evidence_kind, mapped_ids in evidence_groups:
         people = sorted(archetype_id for archetype_id in mapped_ids if archetype_id.startswith("PPL-"))
         roles = sorted(archetype_id for archetype_id in mapped_ids if archetype_id.startswith("ROL-"))
-        for people_id, role_id in itertools.product(people, roles):
-            pair = (people_id, role_id)
+        people_families = {
+            archetype_id if int(selected[archetype_id].get("tier") or 0) == 2 else parent_by_id.get(archetype_id, "")
+            for archetype_id in people
+        }
+        role_families = {
+            archetype_id if int(selected[archetype_id].get("tier") or 0) == 2 else parent_by_id.get(archetype_id, "")
+            for archetype_id in roles
+        }
+        pairs = {
+            *itertools.product(people, roles),
+            *itertools.product(sorted(people_families - {""}), sorted(role_families - {""})),
+        }
+        for pair in sorted(pairs):
             affinity_counts[pair] += 1
             if len(affinity_evidence[pair]) < 8:
                 affinity_evidence[pair].append({"id": evidence_id, "kind": evidence_kind})

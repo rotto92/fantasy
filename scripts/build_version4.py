@@ -275,13 +275,13 @@ def main() -> None:
 
     guide_headers = ["Principle", "Version_4_Implementation", "Reason"]
     guide_rows = [
-        ["One visual noun", "Every visible point is a named character.", "Prevents a character, source, class, and race from appearing ontologically equivalent."],
-        ["Attributes are dimensions", "Being, culture, role, power, affiliation, transformation, artifact, cosmology, ritual/law, narrative, and mechanics are character fields.", "Allows the same characters to be regrouped and compared without a graph hairball."],
-        ["No global edges", "Relationships appear only in a selected character's local constellation.", "Maintains readable labels and makes every line interpretable."],
-        ["Regions are not nodes", "Circle-packed fields communicate grouping and support zoom; they are containers, not entities.", "Provides overview and drill-down without fake source/archetype nodes."],
+        ["One visual noun", "Every visible point is a normalized being/entity or role/vocation concept.", "Keeps source-native characters, sources, and terms as evidence rather than ontologically equivalent graph nodes."],
+        ["Evidence is attached", "Characters and source-native terms supply cited examples, dimensions, and provenance for normalized concepts.", "Preserves source identity while allowing concepts to be compared without promoting evidence records into the graph."],
+        ["No global edges", "Relationships appear only in a selected normalized concept's local constellation.", "Maintains readable labels and makes every displayed relationship interpretable."],
+        ["Families organize concepts", "Tier-2 normalized families group specific archetypes and support bounded zoom and progressive disclosure.", "Provides overview and drill-down without fake source or character nodes."],
         ["Independent lenses", "Arrange, nested group, color, and x/y comparison dimensions are selected independently.", "Exposes different analytical questions without changing the underlying evidence."],
         ["Coverage is separate", "All corpus sources appear in Character Research Audit and the Research dashboard; focused review is tracked in Independent Reviews.", "A bounded source pass is not confused with exhaustive franchise research or a full second review."],
-        ["Evidence first", "Characters, relationships, and source terms require claim-level citations and locators.", "Separates canonical research from orientation data."],
+        ["Evidence first", "Characters, relationships, source terms, and normalized mappings require claim-level citations, locators, and review status.", "Separates accepted evidence from retained or quarantined research metadata."],
     ]
     sheet = add_sheet(workbook, "Character Viz Guide", guide_headers, guide_rows)
     set_widths(sheet, {"A": 25, "B": 70, "C": 70})
@@ -289,14 +289,14 @@ def main() -> None:
     if "Data Dictionary" in workbook.sheetnames:
         dictionary = workbook["Data Dictionary"]
         dictionary_rows = [
-            ("Character Catalogue", "Character_ID", "Text / primary key", "Yes", "Stable named-character identifier within a source pass.", "Only characters become visual marks."),
+            ("Character Catalogue", "Character_ID", "Text / primary key", "Yes", "Stable named-character identifier within a source pass.", "Characters remain evidence records and never become public graph nodes."),
             ("Character Dimensions", "Character_ID", "Foreign key", "Yes", "Links a character to source-native dimensional attributes.", "Archetype mappings may be empty when analogy would distort."),
             ("Character Relationships", "Source_Character_ID / Target_Character_ID", "Foreign keys", "Yes", "Evidence-backed character-to-character relationship.", "Non-character endpoints are prohibited."),
             ("Character Source Terms", "Canonical_Term", "Text", "Yes", "Source-native comparison and filter vocabulary.", "Does not replace linguistic, ritual, or cultural meaning."),
             ("Character Source Terms", "Work_or_Witness", "Text", "Yes", "Claim-specific work, edition, episode, or other bounded witness.", "Source-wide audit scope remains separate."),
             ("Character Research Audit", "Character_Pass_Status", "Controlled text", "Yes", "Completeness against a declared witness scope and coverage rule.", "Independent second review is tracked separately."),
             ("Independent Reviews", "Review_Status", "Controlled text", "Yes", "Focused source-review and corpus-wide contract-audit status.", "Pending means no focused independent second review is yet recorded."),
-            ("Character Viz Guide", "Principle", "Text", "Yes", "Version 4 interaction and visual-grammar rule.", "Supersedes V3 Viz Archive for the public explorer."),
+            ("Character Viz Guide", "Principle", "Text", "Yes", "Version 4 normalized-concept interaction and visual-grammar rule.", "Defines the public explorer's normalized-concept graph and evidence boundary."),
         ]
         for row in dictionary_rows:
             dictionary.append(row)
@@ -308,13 +308,13 @@ def main() -> None:
         start["A1"] = "Fantasy & High-Fantasy Comparative Archetype Atlas — Version 4.0"
         start["A1"].font = Font(color=GOLD, bold=True, size=18)
         start["A2"] = (
-            f"Character-first visual layer: {len(characters)} citation-backed character records, {len(relationships)} "
-            f"character-only relationships, and {len(audits)} scoped source passes; "
+            f"Normalized-concept visual layer with {len(characters)} citation-backed character evidence records, {len(relationships)} "
+            f"character-only evidence relationships, and {len(audits)} scoped source passes; "
             f"focused independent review is recorded for {review_index.get('reviewed_source_count', 0)} sources and remains pending for "
             f"{review_index.get('pending_source_count', len(audits))}."
         )
         start["A2"].font = Font(color=TEAL, italic=True, size=10)
-        start["A3"] = "A character-first evidence atlas: characters are visual marks; ontology, source, medium, and continuity are analytical dimensions"
+        start["A3"] = "A normalized-concept atlas: being/entity and role/vocation concepts are visual marks; characters and source-native terms are cited evidence"
         start["B5"] = "4.0"
         start["A6"] = "Source fingerprint"
         start["B6"] = fingerprint

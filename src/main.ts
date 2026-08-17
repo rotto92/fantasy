@@ -1092,6 +1092,7 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
     }
   }
   const labelBudget = compactViewport ? 8 : stage.clientWidth < 1100 ? 16 : 24;
+  const familyLabelBudget = compactViewport ? 8 : 12;
   const familyLabelCandidates = [...positionById.values()]
     .filter((positioned) => positioned.node.tier === 2)
     .filter((positioned) => selected
@@ -1103,7 +1104,7 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
       || d3.ascending(left.node.label, right.node.label)
       || d3.ascending(left.node.id, right.node.id));
   const visibleFamilyLabels = new Set(
-    familyLabelCandidates.slice(0, labelBudget).map((positioned) => positioned.node.id),
+    familyLabelCandidates.slice(0, familyLabelBudget).map((positioned) => positioned.node.id),
   );
   const specificLabelCandidates = [...positionById.values()]
     .filter((positioned) => positioned.node.tier === 3)
@@ -1827,12 +1828,12 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
       if (term.mapping_relation) evidenceSection.append(element("p", "dimension-note", `Mapping relation: ${term.mapping_relation}`));
       if (term.review_status) evidenceSection.append(element("p", "dimension-note", `Review status: ${term.review_status}`));
       if (term.cultural_caution) evidenceSection.append(element("p", "dimension-note", term.cultural_caution));
-      const citation = term.citations[0];
-      if (citation?.url) {
+      for (const citation of term.citations) {
         const link = element("a", "citation-card", `${citation.locator} ↗`) as HTMLAnchorElement;
         link.href = citation.url;
         link.target = "_blank";
         link.rel = "noreferrer";
+        for (const support of citation.supports) link.append(element("small", "", support));
         evidenceSection.append(link);
       }
       detailContent.append(evidenceSection);
