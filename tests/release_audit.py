@@ -16,8 +16,11 @@ def kinds(findings: list[dict[str, str]]) -> set[str]:
     return {item["kind"] for item in findings}
 
 
+backslash = chr(92)
 assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "file:///" + "tmp/private.txt"))
 assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "/" + "home/alice/private.txt"))
+assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "C:" + backslash + "Users" + backslash + "alice" + backslash + "private.txt"))
+assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), backslash * 2 + "fileserver" + backslash + "private-share" + backslash + "notes.txt"))
 assert "unreviewed-opaque-binary" in kinds(review_opaque(Path("unreviewed.png"), b"opaque"))
 reviewed_path = Path(next(iter(REVIEWED_OPAQUE_FILES)))
 assert "opaque-binary-hash-mismatch" in kinds(review_opaque(reviewed_path, b"changed"))
@@ -36,6 +39,21 @@ with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
     )
     assert clean.returncode == 0, clean.stdout + clean.stderr
     assert json.loads(clean.stdout)["scope"] == f"published artifact tree: {relative.as_posix()}"
+    (artifact / "paths.txt").write_text(
+        "D:" + backslash + "private" + backslash + "release.txt\n"
+        + backslash * 2 + "server" + backslash + "share" + backslash + "release.txt",
+        encoding="utf-8",
+    )
+    paths = subprocess.run(
+        [sys.executable, "scripts/audit_release_import.py", "--artifact-root", relative.as_posix()],
+        cwd=root,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    assert paths.returncode == 1
+    assert any(item["kind"] == "machine-local-path" for item in json.loads(paths.stdout)["findings"])
+    (artifact / "paths.txt").unlink()
     token = "gh" + "p_" + "a" * 24
     (artifact / "bundle.js").write_text(f'const leaked = "{token}";', encoding="utf-8")
     rejected = subprocess.run(

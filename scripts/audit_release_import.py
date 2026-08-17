@@ -63,6 +63,12 @@ LOCAL_PATH_PATTERN = re.compile(
 LOCAL_FILE_URL_PATTERN = re.compile(
     r"\bfile:///(?:home|Users|tmp|var)/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+", re.IGNORECASE
 )
+WINDOWS_DRIVE_PATH_PATTERN = re.compile(
+    r"(?<![A-Za-z0-9])[A-Za-z]:" + r"[\\/](?:[^\s<>:\"|?*]+[\\/])*[^\s<>:\"|?*]+"
+)
+WINDOWS_UNC_PATH_PATTERN = re.compile(
+    re.escape("\\" * 2) + r"[A-Za-z0-9._-]+\\[A-Za-z0-9$._-]+(?:\\[^\s\\/:*?\"<>|]+)*"
+)
 SENSITIVE_NAME_PATTERN = re.compile(
     r"(?:^|[._-])(credentials?|secrets?|tokens?|private|passwords?|\.env)(?:$|[._-])", re.IGNORECASE
 )
@@ -135,7 +141,12 @@ def scan_text(path: Path, text: str) -> list[dict[str, str]]:
         findings.append(finding(path, "personal-data", "email address"))
     if SOCIAL_SECURITY_NUMBER_PATTERN.search(text):
         findings.append(finding(path, "social-security-number", "US Social Security number"))
-    if LOCAL_PATH_PATTERN.search(text) or LOCAL_FILE_URL_PATTERN.search(text):
+    if (
+        LOCAL_PATH_PATTERN.search(text)
+        or LOCAL_FILE_URL_PATTERN.search(text)
+        or WINDOWS_DRIVE_PATH_PATTERN.search(text)
+        or WINDOWS_UNC_PATH_PATTERN.search(text)
+    ):
         findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
     return findings
 

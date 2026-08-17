@@ -207,6 +207,17 @@ def source_work_name_sequences(audit: dict[str, Any]) -> list[str]:
     return sequences
 
 
+def claim_witness_identity(record: dict[str, Any], audit: dict[str, Any]) -> str:
+    explicit = str(record.get("witness_identity", "")).strip()
+    if explicit:
+        return explicit
+    work_or_witness = str(record.get("work_or_witness", "")).strip()
+    source_title = str(audit.get("source_title", "")).strip()
+    if fold_identity(work_or_witness) == fold_identity(f"{source_title} section"):
+        return ""
+    return work_or_witness
+
+
 def claim_ids_for_character(record: dict[str, Any]) -> list[str]:
     character_id = str(record.get("character_id", ""))
     return [
@@ -510,6 +521,14 @@ def main() -> None:
             errors.append(f"{context}: work_or_witness must identify the claim-specific work or witness")
         else:
             audit = audits_by_source.get(str(record.get("source_id", "")), {})
+            witness_identity = claim_witness_identity(record, audit)
+            if not witness_identity:
+                errors.append(f"{context}: witness_identity must identify the work separately from its locator")
+            elif record.get("witness_identity") and not any(
+                contains_identity_tokens(witness_identity, name)
+                for name in source_work_names(audit)
+            ):
+                errors.append(f"{context}: witness_identity must match a declared source-audit witness")
             if any(
                 work_or_witness == sequence or work_or_witness.startswith(f"{sequence} · ")
                 for sequence in source_work_name_sequences(audit)
@@ -752,8 +771,53 @@ def main() -> None:
                 for value in values:
                     value["archetype_ids"] = []
     for record in promoted_terms:
+        witness_identity = str(record.get("witness_identity", "")).strip()
+        if witness_identity and not str(record.get("work_or_witness", "")).startswith(witness_identity):
+            record["work_or_witness"] = f"{witness_identity} · {record.get('work_or_witness', '')}"
         if f"source-term:{record.get('term_id', '')}" in configured_mapping_quarantine_ids:
             record["archetype_ids"] = []
+
+    promoted_character_counts = Counter(str(record.get("source_id", "")) for record in promoted_characters)
+    promoted_relationship_counts = Counter(str(record.get("source_id", "")) for record in promoted_relationships)
+    promoted_term_counts = Counter(str(record.get("source_id", "")) for record in promoted_terms)
+
+    def review_lanes(audit: dict[str, Any]) -> dict[str, dict[str, str]]:
+        source_id = str(audit.get("source_id", ""))
+        completed = int(audit.get("completed_character_count", 0) or 0)
+        in_scope = int(audit.get("in_scope_character_count", 0) or 0)
+        focused_review = review_status_map.get(source_id)
+        return {
+            "scoped": {
+                "status": "pass-complete",
+                "label": "Pass complete",
+                "detail": str(audit.get("continuity_scope", "")),
+            },
+            "characterPass": {
+                "status": "pass-complete",
+                "label": str(audit.get("completion_status", "pass-complete")),
+                "detail": f"{promoted_character_counts[source_id]} accepted records from {completed} of {in_scope} completed in scope",
+            },
+            "terminologyPass": {
+                "status": "pass-complete",
+                "label": "Pass complete",
+                "detail": f"{promoted_term_counts[source_id]} accepted source-term records",
+            },
+            "relationshipPass": {
+                "status": "pass-complete",
+                "label": "Pass complete",
+                "detail": f"{promoted_relationship_counts[source_id]} accepted relationship records",
+            },
+            "secondReview": {
+                "status": "reviewed" if focused_review else "not-started",
+                "label": "Reviewed" if focused_review else "Not started",
+                "detail": "Focused claim review recorded" if focused_review else "Focused source review remains pending",
+            },
+            "continuityReview": {
+                "status": "reviewed",
+                "label": "Reviewed",
+                "detail": "Continuity scope and declared witnesses validated",
+            },
+        }
 
     promoted_claim_ids = {
         *[
@@ -890,6 +954,7 @@ def main() -> None:
             [
                 {
                     **row,
+                    "review_lanes": review_lanes(row),
                     "independent_review": review_status_map.get(
                         str(row.get("source_id", "")),
                         {

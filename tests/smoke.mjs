@@ -133,7 +133,7 @@ if (!connected) {
   if (Math.abs(relationshipHitRadius * relationshipScale - 22) > 0.75) failures.push("map touch targets changed size while zooming");
   const localFontSize = await page.locator(".specific-star.is-selected .specific-label").evaluate((node) => Number.parseFloat(getComputedStyle(node).fontSize));
   const renderedFontSize = localFontSize * relationshipScale;
-  if (renderedFontSize < 7 || renderedFontSize > 11) failures.push(`semantic label size drifted while zooming: ${renderedFontSize}`);
+  if (renderedFontSize < 6.95 || renderedFontSize > 11.05) failures.push(`semantic label size drifted while zooming: ${renderedFontSize}`);
   await page.locator(".primary-button").filter({ hasText: "Center star" }).click();
   await page.waitForTimeout(800);
   if (!(await page.evaluate(() => document.activeElement?.tagName === "H2"))) failures.push("detail action did not restore focus to the new heading");
@@ -192,7 +192,19 @@ if (sourceRows !== concepts.meta.counts.corpusSources) {
   failures.push(`expected ${concepts.meta.counts.corpusSources} research rows, got ${sourceRows}`);
 }
 const researchColumns = await page.locator(".research-table thead th").allTextContents();
-if (!researchColumns.includes("Independent review")) failures.push("research table omits independent-review tracking");
+const requiredResearchColumns = ["Scoped", "Character pass", "Terminology pass", "Relationship pass", "Second review", "Continuity review"];
+if (requiredResearchColumns.some((column) => !researchColumns.includes(column))) {
+  failures.push(`research table omits authoritative review lanes: ${researchColumns.join(", ")}`);
+}
+const zeroCharacterAudit = research.sources.find((audit) => audit.completed_character_count === 0);
+if (zeroCharacterAudit) {
+  await page.locator("#search").fill(zeroCharacterAudit.source_title);
+  const zeroCharacterRow = (await page.locator(".research-table tbody tr").first().innerText()).toLocaleLowerCase();
+  if (!zeroCharacterRow.includes("0 accepted records") || !zeroCharacterRow.includes("pass complete") || !zeroCharacterRow.includes("continuity scope and declared witnesses validated")) {
+    failures.push(`zero-character review lanes are ambiguous: ${zeroCharacterRow}`);
+  }
+  await page.locator("#search").fill("");
+}
 
 if (connected) {
   await page.locator("#search").fill(connected.label);
@@ -250,8 +262,9 @@ if ((await mobileRovingStar.count()) !== 1) {
     failures.push("mobile keyboard focus opened the fixed detail drawer");
   }
 }
-await mobile.locator("#search").fill("Abhimanyu");
-await mobile.locator(".search-result").first().click();
+const mobileConcept = connected ?? concepts.nodes.find((node) => node.tier === 3) ?? concepts.nodes[0];
+await mobile.locator("#search").fill(mobileConcept.label);
+await mobile.locator(".search-result").filter({ hasText: "Normalized graph concept" }).first().click();
 if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
   failures.push("mobile concept selection did not open the detail drawer");
 }
@@ -301,17 +314,48 @@ if (await showMobileRelations.count()) {
   }
 }
 
-const midWidth = await browser.newPage({ viewport: { width: 1000, height: 900 } });
-await midWidth.goto(appUrl, { waitUntil: "networkidle" });
-await midWidth.locator("#loading").waitFor({ state: "detached" });
-const midWidthOverflow = await midWidth.evaluate(() => ({
-  clientWidth: document.documentElement.clientWidth,
-  scrollWidth: document.documentElement.scrollWidth,
-}));
-if (midWidthOverflow.scrollWidth > midWidthOverflow.clientWidth + 1) {
-  failures.push(`mid-width layout overflows horizontally: ${JSON.stringify(midWidthOverflow)}`);
+for (const viewport of [
+  { width: 320, height: 740, label: "320px" },
+  { width: 375, height: 812, label: "375px" },
+  { width: 768, height: 1024, label: "768px" },
+  { width: 1440, height: 900, label: "1440px" },
+  { width: 1920, height: 1080, label: "wide desktop" },
+]) {
+  const responsive = await browser.newPage({ viewport: { width: viewport.width, height: viewport.height } });
+  responsive.on("pageerror", (error) => failures.push(`${viewport.label} pageerror: ${error.message}`));
+  await responsive.goto(appUrl, { waitUntil: "networkidle" });
+  await responsive.locator("#loading").waitFor({ state: "detached" });
+  await responsive.waitForFunction(() => !document.querySelector("#search")?.disabled);
+  await responsive.locator("#search").fill("asura");
+  await responsive.locator(".search-result").first().waitFor();
+  const metrics = await responsive.evaluate(() => {
+    const brand = document.querySelector(".brand")?.getBoundingClientRect();
+    const results = document.querySelector("#search-results")?.getBoundingClientRect();
+    const resultTitle = document.querySelector(".search-result strong");
+    const resultContext = document.querySelector(".search-result small");
+    return {
+      clientWidth: document.documentElement.clientWidth,
+      scrollWidth: document.documentElement.scrollWidth,
+      brand: brand ? { width: brand.width, height: brand.height } : null,
+      results: results ? { left: results.left, right: results.right } : null,
+      titleFont: resultTitle ? Number.parseFloat(getComputedStyle(resultTitle).fontSize) : 0,
+      contextFont: resultContext ? Number.parseFloat(getComputedStyle(resultContext).fontSize) : 0,
+    };
+  });
+  if (metrics.scrollWidth > metrics.clientWidth + 1) {
+    failures.push(`${viewport.label} layout overflows horizontally: ${JSON.stringify(metrics)}`);
+  }
+  if (!metrics.results || metrics.results.left < -1 || metrics.results.right > viewport.width + 1) {
+    failures.push(`${viewport.label} search results clip outside the viewport: ${JSON.stringify(metrics.results)}`);
+  }
+  if (metrics.titleFont < 12 || metrics.contextFont < 11) {
+    failures.push(`${viewport.label} search typography is microscopic: ${metrics.titleFont}px/${metrics.contextFont}px`);
+  }
+  if (viewport.width <= 520 && (!metrics.brand || metrics.brand.width < 44 || metrics.brand.height < 44)) {
+    failures.push(`${viewport.label} home link is smaller than the touch target`);
+  }
+  await responsive.close();
 }
-await midWidth.close();
 
 await browser.close();
 

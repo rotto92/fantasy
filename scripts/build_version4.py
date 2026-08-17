@@ -320,10 +320,10 @@ def main() -> None:
         start["B6"] = fingerprint
 
     workbook.properties.title = "Fantasy & High-Fantasy Comparative Archetype Atlas — Version 4.0"
-    workbook.properties.subject = "Character-first comparative fantasy ontology with citation-backed source research"
+    workbook.properties.subject = "Normalized-concept fantasy atlas with citation-backed character and source-term evidence"
     workbook.properties.description = (
-        "Version 4 retains the comparative ontology and adds a citation-backed first-pass character evidence layer. "
-        "Only characters are visualization nodes; all other concepts are dimensions."
+        "Version 4 renders normalized being/entity and role/vocation concepts as graph nodes. "
+        "Characters and source-native terms remain citation-backed evidence records."
     )
     workbook.calculation = CalcProperties(calcMode="auto", fullCalcOnLoad=True, forceFullCalc=True, calcOnSave=True)
     workbook.save(args.output)

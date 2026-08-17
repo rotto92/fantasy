@@ -126,6 +126,13 @@ interface SourceAudit {
   source_audit?: AuditLimits;
   audit?: AuditLimits;
   independent_review?: { review_types: string[]; unresolved_limits?: string[] };
+  review_lanes: Record<"scoped" | "characterPass" | "terminologyPass" | "relationshipPass" | "secondReview" | "continuityReview", ReviewLane>;
+}
+
+interface ReviewLane {
+  status: "pass-complete" | "reviewed" | "not-started";
+  label: string;
+  detail: string;
 }
 
 interface AuditLimits {
@@ -521,6 +528,10 @@ function auditStatusPresentation(audit: SourceAudit | undefined): { label: strin
       ? "This audit is intentionally limited and does not establish character-level completeness."
       : "No additional caution recorded beyond the bounded corpus scope.";
   return { label, className, caution };
+}
+
+function laneClassName(status: ReviewLane["status"]): string {
+  return status === "not-started" ? "not-started" : "complete";
 }
 
 function sourceScopeLabel(sourceId: string): string {
@@ -1532,9 +1543,6 @@ function renderResearch(): void {
   board.hidden = false;
   board.replaceChildren();
   hideTooltip();
-  const characterCounts = d3.rollup(research.characters, (values) => values.length, (record) => record.source_id);
-  const relationCounts = d3.rollup(research.relationships, (values) => values.length, (record) => record.source_id);
-  const termCounts = d3.rollup(research.sourceTerms, (values) => values.length, (record) => record.source_id);
   const reviewed = research.meta.reviewCoverage?.focusedReviewedSources ?? 0;
   const summary = element("div", "research-summary");
   const facts: Array<[number, string, string]> = [
@@ -1560,7 +1568,7 @@ function renderResearch(): void {
   const table = element("table", "research-table");
   const header = element("thead");
   const headerRow = element("tr");
-  for (const label of ["Source / continuity", "Priority", "Scope", "Characters", "Relations", "Terms", "Pass status", "Independent review"]) {
+  for (const label of ["Source / continuity", "Scoped", "Character pass", "Terminology pass", "Relationship pass", "Second review", "Continuity review"]) {
     headerRow.append(element("th", "", label));
   }
   header.append(headerRow);
@@ -1575,22 +1583,22 @@ function renderResearch(): void {
     const audit = auditBySource.get(source.sourceId);
     const row = element("tr", "is-researched");
     const sourceCell = element("td", "source-cell");
-    sourceCell.append(element("strong", "", source.title), element("span", "", `${source.medium} · ${source.region}`));
-    row.append(sourceCell, element("td", "", source.priorityTier), element("td", "scope-cell", audit?.continuity_scope ?? source.continuityUnit));
-    row.append(element("td", "number-cell", String(characterCounts.get(source.sourceId) ?? 0)));
-    row.append(element("td", "number-cell", String(relationCounts.get(source.sourceId) ?? 0)));
-    row.append(element("td", "number-cell", String(termCounts.get(source.sourceId) ?? 0)));
-    const status = element("td");
-    const statusPresentation = auditStatusPresentation(audit);
-    status.append(
-      element("span", `status-pill ${statusPresentation.className}`, statusPresentation.label),
-      element("small", "dimension-note", `Caution: ${statusPresentation.caution}`),
+    sourceCell.append(
+      element("strong", "", source.title),
+      element("span", "", `${source.medium} · ${source.region} · ${source.priorityTier}`),
+      element("small", "dimension-note", audit?.continuity_scope ?? source.continuityUnit),
+      element("small", "dimension-note", `Caution: ${auditStatusPresentation(audit).caution}`),
     );
-    row.append(status);
-    const review = element("td");
-    const hasReview = Boolean(audit?.independent_review?.review_types?.length);
-    review.append(element("span", `status-pill ${hasReview ? "complete" : "not-started"}`, hasReview ? "Focused review" : "Second review pending"));
-    row.append(review);
+    row.append(sourceCell);
+    for (const laneName of ["scoped", "characterPass", "terminologyPass", "relationshipPass", "secondReview", "continuityReview"] as const) {
+      const lane = audit?.review_lanes?.[laneName];
+      const cell = element("td", "review-lane");
+      cell.append(
+        element("span", `status-pill ${lane ? laneClassName(lane.status) : "not-started"}`, lane?.label ?? "Not started"),
+        element("small", "dimension-note", lane?.detail ?? "No validated lane status is recorded"),
+      );
+      row.append(cell);
+    }
     body.append(row);
   }
   table.append(body);
@@ -1612,6 +1620,19 @@ function detailSection(title: string): HTMLElement {
   const section = element("section", "detail-section");
   section.append(element("h3", "", title));
   return section;
+}
+
+function appendCitationLinks(container: HTMLElement, citations: Citation[], label = "Open supporting citation"): void {
+  for (const citation of citations) {
+    const link = element("a", "citation-card evidence-citation") as HTMLAnchorElement;
+    link.href = citation.url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    link.append(element("strong", "", citation.locator || label));
+    link.append(element("span", "", `${label} ↗`));
+    for (const support of citation.supports) link.append(element("small", "", support));
+    container.append(link);
+  }
 }
 
 function closeDetail(): void {
@@ -1771,7 +1792,6 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   const characters = record.characterIds.map((id) => characterById.get(id)).filter((character): character is ResearchCharacter => Boolean(character));
   for (const character of characters.slice(0, 8)) {
     const card = element("article", "citation-card");
-    const citation = character.citations[0];
     card.append(element("strong", "", character.canonical_name));
     card.append(element("span", "", `${character.source_title} · ${character.continuity}`));
     if (character.work_or_witness) card.append(element("small", "", `Work / witness: ${character.work_or_witness}`));
@@ -1780,18 +1800,11 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
       .filter(Boolean);
     if (dimensionTerms.length) card.append(element("small", "", `Dimensions: ${dimensionTerms.join(" · ")}`));
     if (character.evidence_level) card.append(element("small", "", `Evidence: ${character.evidence_level}`));
-    if (citation?.locator) card.append(element("small", "", `Citation: ${citation.locator}`));
     if (character.review_status) card.append(element("small", "", `Review status: ${character.review_status}`));
     if (character.canon_status) card.append(element("small", "", `Canon status: ${character.canon_status}`));
     card.append(element("small", "", `Caution: ${character.comparison_cautions.join(" ") || "No additional comparison caution recorded."}`));
     card.append(element("small", "", character.description));
-    if (citation?.url) {
-      const link = element("a", "evidence-link", "Open supporting citation") as HTMLAnchorElement;
-      link.href = citation.url;
-      link.target = "_blank";
-      link.rel = "noreferrer";
-      card.append(link);
-    }
+    appendCitationLinks(card, character.citations);
     characterSection.append(card);
   }
   if (!characters.length && record.kind !== "source") characterSection.append(element("p", "detail-copy", "This source-native record has no character example in its witness; its citation remains the evidence anchor."));
@@ -1804,15 +1817,17 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     evidenceSection.append(element("p", "dimension-note", `Status: ${statusPresentation.label}`));
     evidenceSection.append(element("p", "dimension-note", `Caution: ${statusPresentation.caution}`));
     if (audit?.evidence_basis) evidenceSection.append(element("p", "detail-copy", `Evidence basis: ${audit.evidence_basis}`));
-    const citation = audit?.citations[0];
-    if (citation?.locator) evidenceSection.append(element("p", "dimension-note", `Citation: ${citation.locator}`));
-    const evidenceUrl = citation?.url ?? corpusSource?.referenceUrl ?? record.url;
-    if (evidenceUrl) {
-      const link = element("a", "evidence-link", "Open supporting source evidence ↗") as HTMLAnchorElement;
-      link.href = evidenceUrl;
-      link.target = "_blank";
-      link.rel = "noreferrer";
-      evidenceSection.append(link);
+    if (audit?.citations.length) {
+      appendCitationLinks(evidenceSection, audit.citations, "Open supporting source evidence");
+    } else {
+      const evidenceUrl = corpusSource?.referenceUrl ?? record.url;
+      if (evidenceUrl) {
+        const link = element("a", "evidence-link", "Open supporting source evidence ↗") as HTMLAnchorElement;
+        link.href = evidenceUrl;
+        link.target = "_blank";
+        link.rel = "noreferrer";
+        evidenceSection.append(link);
+      }
     }
     detailContent.append(evidenceSection);
   }
@@ -1828,14 +1843,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
       if (term.mapping_relation) evidenceSection.append(element("p", "dimension-note", `Mapping relation: ${term.mapping_relation}`));
       if (term.review_status) evidenceSection.append(element("p", "dimension-note", `Review status: ${term.review_status}`));
       if (term.cultural_caution) evidenceSection.append(element("p", "dimension-note", term.cultural_caution));
-      for (const citation of term.citations) {
-        const link = element("a", "citation-card", `${citation.locator} ↗`) as HTMLAnchorElement;
-        link.href = citation.url;
-        link.target = "_blank";
-        link.rel = "noreferrer";
-        for (const support of citation.supports) link.append(element("small", "", support));
-        evidenceSection.append(link);
-      }
+      appendCitationLinks(evidenceSection, term.citations);
       detailContent.append(evidenceSection);
     }
   }
@@ -2008,16 +2016,11 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
     examples.append(element("p", "detail-copy", "This star is structurally useful in the framework, but no source-specific entry, mapped character example, or source term currently points to it. It remains visible as framework—not as a canonical claim about any source."));
   } else {
     for (const example of representativeExamples(node.examples, 10)) {
-      const card = example.url ? element("a", "citation-card") : element("div", "citation-card");
-      if (card instanceof HTMLAnchorElement) {
-        card.href = example.url;
-        card.target = "_blank";
-        card.rel = "noreferrer";
-      }
+      const card = element("article", "citation-card");
       card.append(element("strong", "", example.label));
       const character = characterById.get(example.id);
       const term = sourceTermById.get(example.id);
-      const citation = character?.citations[0] ?? term?.citations[0];
+      const citations = character?.citations ?? term?.citations ?? [];
       const work = example.work || character?.work_or_witness || (term ? discoveryRecordById(`source-term:${term.term_id}`)?.work : "") || discoveryRecordById(`source:${example.sourceId}`)?.work;
       const reviewStatus = example.reviewStatus || character?.review_status || term?.review_status;
       const canonStatus = example.canonStatus || character?.canon_status;
@@ -2025,13 +2028,21 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
       card.append(element("span", "", [example.sourceTitle, example.continuity, work, titleCase(example.kind)].filter(Boolean).join(" · ")));
       const sourceScope = term ? sourceScopeLabel(example.sourceId) : "";
       if (sourceScope) card.append(element("small", "", `Source-wide scope: ${sourceScope}`));
-      if (example.evidenceLevel || example.evidenceBasis || citation?.locator) {
-        card.append(element("small", "", [example.evidenceLevel, example.evidenceBasis && `Evidence basis: ${example.evidenceBasis}`, citation?.locator].filter(Boolean).join(" · ")));
+      if (example.evidenceLevel || example.evidenceBasis) {
+        card.append(element("small", "", [example.evidenceLevel, example.evidenceBasis && `Evidence basis: ${example.evidenceBasis}`].filter(Boolean).join(" · ")));
       }
       if (reviewStatus) card.append(element("small", "", `Review status: ${reviewStatus}`));
       if (canonStatus) card.append(element("small", "", `Canon status: ${canonStatus}`));
       if (caution) card.append(element("small", "", `Caution: ${caution}`));
       if (example.summary) card.append(element("small", "", compactLabel(example.summary, 240)));
+      if (citations.length) appendCitationLinks(card, citations);
+      else if (example.url) {
+        const link = element("a", "evidence-link", "Open supporting citation ↗") as HTMLAnchorElement;
+        link.href = example.url;
+        link.target = "_blank";
+        link.rel = "noreferrer";
+        card.append(link);
+      }
       examples.append(card);
     }
   }

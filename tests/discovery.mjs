@@ -40,6 +40,7 @@ const remadeTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC
 const remadeRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC050-003");
 const crisisTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC050-005");
 const crisisRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC050-005");
+const goldenSunTerms = research.sourceTerms.filter((term) => /^STM-SRC172-00[3-6]$/.test(term.term_id));
 const firstLawCompoundTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC051-004");
 const firstLawCompoundRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC051-004");
 const lodossCompoundTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC075-002");
@@ -67,6 +68,14 @@ if (!research.sourceTerms.every((term) => typeof term.work_or_witness === "strin
 }
 if (!research.sourceTerms.every((term) => term.citations.every((citation) => term.work_or_witness.includes(citation.locator)))) {
   failures.push("source-term work provenance does not pair every citation with its locator");
+}
+const goldenSunWitness = "Nintendo of America, New update! A pair of golden games have been added for Nintendo Switch Online + Expansion Pack members, 16 January 2024";
+if (goldenSunTerms.length !== 4 || goldenSunTerms.some((term) => term.witness_identity !== goldenSunWitness || !term.work_or_witness.includes(goldenSunWitness))) {
+  failures.push("Golden Sun source terms do not identify the Nintendo page separately from the section locator");
+}
+const reviewLaneNames = ["scoped", "characterPass", "terminologyPass", "relationshipPass", "secondReview", "continuityReview"];
+if (research.sources.some((audit) => reviewLaneNames.some((lane) => !audit.review_lanes?.[lane]?.status || !audit.review_lanes[lane].detail))) {
+  failures.push("compiled research omits an authoritative review-lane status");
 }
 const shahnamehDiv = research.sourceTerms.find((term) => term.term_id === "STM-SRC011-003");
 if (!shahnamehDiv?.work_or_witness.includes("Ferdowsi, Shāhnāmeh") || !shahnamehDiv.work_or_witness.includes("Encyclopaedia Iranica, DĪV") || shahnamehDiv.work_or_witness.includes("Vols. I–VI cited in this pass")) {
@@ -275,7 +284,7 @@ if (mappedConcept) {
   for (const value of [mappedExample?.work, mappedExample?.reviewStatus, mappedExample?.canonStatus, mappedExample?.caution]) {
     if (value && !mappedText.includes(value.toLocaleLowerCase())) failures.push(`mapped concept evidence omitted provenance: ${value}`);
   }
-  for (const selector of [".citation-card small", ".citation-card span", ".dimension-note", ".evidence-row", ".concept-stat-grid span", ".attribute-item small"]) {
+  for (const selector of [".citation-card strong", ".citation-card small", ".citation-card span", ".dimension-note", ".evidence-row", ".concept-stat-grid span", ".attribute-item small"]) {
     const element = page.locator(selector).first();
     if (!(await element.count())) {
       failures.push(`${selector} has no rendered contrast fixture`);
@@ -292,6 +301,10 @@ if (mappedConcept) {
       return (Math.max(foreground, background) + 0.05) / (Math.min(foreground, background) + 0.05);
     });
     if (ratio < 4.5) failures.push(`${selector} contrast is ${ratio.toFixed(2)}:1`);
+  }
+  for (const selector of [".citation-card strong", ".concept-stat-grid span"]) {
+    const fontSize = Number.parseFloat(await page.locator(selector).first().evaluate((node) => getComputedStyle(node).fontSize));
+    if (fontSize < 11) failures.push(`${selector} remains microscopic at ${fontSize}px`);
   }
 }
 
@@ -459,6 +472,32 @@ if (renderedDivCitations.length !== shahnamehDiv?.citations.length
   failures.push("source-term detail hid one or more claim-specific citations");
 }
 
+const baldr = research.characters.find((character) => character.character_id === "CHR-SRC002-006");
+await page.locator("#search").fill("Baldr");
+await page.locator('.search-result[data-discovery-id="character:CHR-SRC002-006"]').click();
+const baldrCard = page.locator(".detail-section").filter({ hasText: "Representative characters" }).locator("article.citation-card").filter({ hasText: "Baldr" }).first();
+const baldrCitations = await baldrCard.locator(".evidence-citation").allTextContents();
+if (!baldr || baldrCitations.length !== baldr.citations.length || baldr.citations.some((citation) => !baldrCitations.some((text) => text.includes(citation.locator)))) {
+  failures.push("character detail hid one or more claim-specific citations");
+}
+
+const irishAudit = research.sources.find((audit) => audit.source_id === "SRC-003");
+await page.locator("#search").fill("Irish Mythological Cycle");
+await page.locator(".search-result").filter({ hasText: "Source / series · Irish Mythological Cycle" }).first().click();
+const irishCitations = await page.locator(".detail-section").filter({ hasText: "Source evidence and status" }).locator(".evidence-citation").allTextContents();
+if (!irishAudit || irishCitations.length !== irishAudit.citations.length || irishAudit.citations.some((citation) => !irishCitations.some((text) => text.includes(citation.locator)))) {
+  failures.push("source detail hid one or more claim-specific citations");
+}
+
+const gucumatz = research.characters.find((character) => character.character_id === "CHR-SRC021-002");
+await page.locator("#search").fill("Divine and Celestial Beings");
+await page.locator(".search-result").filter({ hasText: "Normalized graph concept" }).first().click();
+const gucumatzCard = page.locator(".detail-section").filter({ hasText: "Source evidence and examples" }).locator("article.citation-card").filter({ hasText: "Gucumatz" }).first();
+const gucumatzCitations = await gucumatzCard.locator(".evidence-citation").allTextContents();
+if (!gucumatz || gucumatzCitations.length !== gucumatz.citations.length || gucumatz.citations.some((citation) => !gucumatzCitations.some((text) => text.includes(citation.locator)))) {
+  failures.push("concept evidence detail hid one or more claim-specific citations");
+}
+
 await page.locator("#search").fill("Aetherblades");
 await page.locator(".search-result").filter({ hasText: "Source-native term · Guild Wars" }).first().click();
 const aetherbladesDetail = await page.locator(".detail-panel").innerText();
@@ -498,7 +537,7 @@ if (limitedAudit) {
 }
 
 await page.locator('.view-button[data-view="research"]').click();
-for (const [selector, background] of [[".research-card small", [11, 18, 31]], [".research-table th", [11, 19, 32]], [".scope-cell", [8, 14, 24]]]) {
+for (const [selector, background] of [[".research-card small", [11, 18, 31]], [".research-table th", [11, 19, 32]], [".review-lane .dimension-note", [8, 14, 24]], [".micro-stat", [9, 15, 27]], [".scope-fact span", [9, 15, 27]], [".legend-item", [9, 15, 27]], [".legend-note", [9, 15, 27]], [".statusbar", [5, 9, 18]]]) {
   const element = page.locator(selector).first();
   const ratio = await element.evaluate((node, backgroundColor) => {
     const values = getComputedStyle(node).color.match(/[\d.]+/g)?.slice(0, 3).map(Number) ?? [];

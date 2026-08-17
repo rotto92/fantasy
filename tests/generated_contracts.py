@@ -21,6 +21,9 @@ assert "selected normalized concept" in guide_rows["No global edges"]
 start = workbook["Start Here"]
 assert "normalized-concept atlas" in str(start["A3"].value).lower()
 assert "characters and source-native terms are cited evidence" in str(start["A3"].value).lower()
+assert "normalized-concept" in str(workbook.properties.subject).lower()
+assert "concepts as graph nodes" in str(workbook.properties.description).lower()
+assert "only characters are visualization nodes" not in str(workbook.properties.description).lower()
 
 dictionary = workbook["Data Dictionary"]
 dictionary_rows = [tuple(str(value or "") for value in row) for row in dictionary.iter_rows(values_only=True)]

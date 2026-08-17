@@ -236,19 +236,19 @@ select {
   font-size: 10px;
 }
 select:focus { border-color: rgba(112, 214, 200, 0.34); }
-.micro-stat { color: #617089; font-size: 8px; letter-spacing: 0.05em; text-transform: uppercase; }
+.micro-stat { color: var(--evidence-muted); font-size: 8px; letter-spacing: 0.05em; text-transform: uppercase; }
 .scope-summary { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; margin-top: 3px; }
 .scope-fact { padding: 9px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, 0.018); }
 .scope-fact strong { display: block; font: 600 17px/1 Georgia, serif; }
-.scope-fact span { display: block; margin-top: 5px; color: #65748a; font-size: 8px; line-height: 1.25; text-transform: uppercase; }
+.scope-fact span { display: block; margin-top: 5px; color: var(--evidence-muted); font-size: 8px; line-height: 1.25; text-transform: uppercase; }
 
 .legend-section { padding-top: 15px; border-top: 1px solid var(--line); }
 .color-legend { display: grid; gap: 4px; margin-top: 10px; }
-.legend-item { display: grid; grid-template-columns: 7px minmax(0, 1fr) auto; align-items: center; gap: 8px; min-height: 24px; color: #8e9cb0; font-size: 9px; }
-.legend-item strong { color: #5e6d83; font-weight: 500; font-variant-numeric: tabular-nums; }
+.legend-item { display: grid; grid-template-columns: 7px minmax(0, 1fr) auto; align-items: center; gap: 8px; min-height: 24px; color: var(--evidence-muted); font-size: 9px; }
+.legend-item strong { color: var(--evidence-muted); font-weight: 500; font-variant-numeric: tabular-nums; }
 .legend-swatch { width: 7px; height: 7px; border-radius: 50%; box-shadow: 0 0 9px currentColor; }
 .legend-value { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.legend-note { margin: 12px 0 0; color: #5e6d82; font-size: 9px; line-height: 1.55; }
+.legend-note { margin: 12px 0 0; color: var(--evidence-muted); font-size: 9px; line-height: 1.55; }
 
 .atlas-stage {
   grid-area: stage;
@@ -501,7 +501,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   gap: 20px;
   padding: 0 13px;
   border-top: 1px solid var(--line);
-  color: #5f6e84;
+  color: var(--evidence-muted);
   background: #050912;
   font-size: 8.5px;
 }
@@ -703,7 +703,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   .quality-notice { display: grid; align-items: start; gap: 7px; line-height: 1.45; }
   .quality-notice strong { line-height: 1.4; }
   .table-swipe-hint { display: block; margin: 0 2px 7px; color: #718098; font-size: 8px; letter-spacing: 0.03em; }
-  .research-table { min-width: 760px; }
+  .research-table { min-width: 1080px; }
 }
 
 @media (max-width: 1040px) {
@@ -783,6 +783,7 @@ body { font-size: var(--body-size); }
 .statusbar { font-size: var(--micro-size); }
 .overview-header h2, .character-header h2 { font-size: clamp(1.45rem, 1.2rem + 1vw, 2rem); }
 .character-subtitle, .evidence-row, .detail-copy, .detail-copy.lead, .attribute-item span, .citation-card span, .citation-card small { font-size: var(--small-size); }
+.citation-card strong { font-size: var(--small-size); }
 .evidence-badge, .status-pill { font-size: var(--micro-size); }
 .detail-section h3 { margin-bottom: 12px; }
 .dimension-chip, .relation-button { min-height: 44px; font-size: var(--small-size); }
@@ -793,6 +794,7 @@ body { font-size: var(--body-size); }
 .catalogue-intro > p:last-child, .catalogue-family-heading small, .concept-card span, .concept-card small { font-size: var(--small-size); }
 .concept-card strong { font-size: 0.9375rem; }
 .attribute-item small { font-size: var(--micro-size); }
+.concept-stat-grid span { font-size: var(--micro-size); }
 .evidence-link { color: var(--teal); font-size: var(--small-size); }
 
 button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
@@ -802,8 +804,8 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 
 @media (max-width: 520px) {
   #app { grid-template-rows: 66px minmax(0, 1fr) 30px; }
-  .topbar { grid-template-columns: 36px minmax(0, 1fr); gap: 8px; padding-inline: 8px; }
-  .brand { justify-content: center; }
+  .topbar { grid-template-columns: 44px minmax(0, 1fr); gap: 8px; padding-inline: 8px; }
+  .brand { justify-content: center; min-width: 44px; min-height: 44px; }
   .brand-sigil { width: 30px; height: 30px; }
   .search-wrap { min-width: 0; height: 42px; }
   .search-wrap input { min-width: 0; }
