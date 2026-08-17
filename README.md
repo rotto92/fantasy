@@ -89,7 +89,10 @@ cross-series connections only from shared normalized concept IDs.
 Before a Pages artifact is built, `npm run audit:release-import` inventories all
 tracked release inputs and scans them for credential-like filenames, private key
 markers, high-signal tokens, email addresses, accidental absolute local paths,
-files larger than 50 MiB, and matching text inside retained binary archives.
+local `file://` URLs, files larger than 50 MiB, and matching text inside retained
+binary archives. Opaque files fail closed unless their visually reviewed bytes
+match the explicit SHA-256 allowlist in the audit script; any changed or new
+opaque artifact requires another publication review.
 Reproducible outputs and machine-local folders
 (`node_modules/`, `.venv/`, `dist/`, caches, temporary folders, and bytecode)
 are explicit exclusions. A finding fails the release workflow; it is not

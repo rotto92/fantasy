@@ -54,6 +54,43 @@ if (await accessibleStar.getAttribute("role") !== "button" || await accessibleSt
   await accessibleStar.press("Enter");
   if (!(await page.locator(".concept-detail-header").isVisible())) failures.push("keyboard activation did not open concept detail");
   await page.waitForFunction(() => document.activeElement?.tagName === "H2");
+  await page.waitForTimeout(800);
+}
+
+const denseTarget = await page.evaluate(() => {
+  const stageBounds = document.querySelector("#stage")?.getBoundingClientRect();
+  const marks = [...document.querySelectorAll("#atlas-svg .specific-star")]
+    .filter((mark) => getComputedStyle(mark).display !== "none")
+    .map((mark) => {
+      const core = mark.querySelector(".specific-core");
+      const bounds = core?.getBoundingClientRect();
+      return bounds ? { id: mark.getAttribute("data-node-id"), x: bounds.x + bounds.width / 2, y: bounds.y + bounds.height / 2 } : null;
+    })
+    .filter((mark) => mark
+      && stageBounds
+      && mark.x >= Math.max(0, stageBounds.left)
+      && mark.x <= Math.min(innerWidth, stageBounds.right)
+      && mark.y >= Math.max(0, stageBounds.top)
+      && mark.y <= Math.min(innerHeight, stageBounds.bottom));
+  let nearest = null;
+  for (let left = 0; left < marks.length; left += 1) {
+    for (let right = left + 1; right < marks.length; right += 1) {
+      const distance = Math.hypot(marks[left].x - marks[right].x, marks[left].y - marks[right].y);
+      if (!nearest || distance < nearest.distance) nearest = { ...marks[left], distance };
+    }
+  }
+  return nearest;
+});
+if (!denseTarget || denseTarget.distance >= 44) {
+  failures.push("map does not expose a dense touch-target regression case");
+} else {
+  await page.mouse.click(denseTarget.x, denseTarget.y);
+  const selectedDenseTarget = await page.locator("#atlas-svg .is-selected").count()
+    ? await page.locator("#atlas-svg .is-selected").getAttribute("data-node-id")
+    : null;
+  if (selectedDenseTarget !== denseTarget.id) {
+    failures.push(`overlapping touch targets selected ${selectedDenseTarget ?? "nothing"} instead of nearest ${denseTarget.id} (${denseTarget.distance}px separation)`);
+  }
 }
 
 const connected = concepts.nodes.find((node) =>
@@ -81,6 +118,8 @@ if (!connected) {
   const relationshipTransform = await page.locator(".constellation-map").getAttribute("transform");
   const relationshipScale = Number(relationshipTransform?.match(/scale\(([^)]+)\)/)?.[1] ?? 0);
   if (relationshipScale < 0.72 || relationshipScale > 2.65) failures.push(`search relationship overview used an excessive zoom: ${relationshipScale}`);
+  const relationshipHitRadius = Number(await page.locator("#atlas-svg .concept-star").first().locator(".star-hit-area").getAttribute("r"));
+  if (Math.abs(relationshipHitRadius * relationshipScale - 22) > 0.75) failures.push("map touch targets changed size while zooming");
   const localFontSize = await page.locator(".specific-star.is-selected .specific-label").evaluate((node) => Number.parseFloat(getComputedStyle(node).fontSize));
   const renderedFontSize = localFontSize * relationshipScale;
   if (renderedFontSize < 7 || renderedFontSize > 11) failures.push(`semantic label size drifted while zooming: ${renderedFontSize}`);
@@ -109,6 +148,7 @@ if (!connected) {
     failures.push("relation-map focus was detached during keyboard activation");
   }
   await page.keyboard.press("Escape");
+  await page.waitForFunction(() => document.activeElement?.id === "search");
   if ((await page.locator("#atlas-svg .relation-prompt").count()) !== 1 || (await page.locator("#atlas-svg .relation-star").count()) !== 0) {
     failures.push("Escape left stale relation-map content after clearing the selection");
   }
@@ -179,6 +219,14 @@ await mobile.goto(appUrl, { waitUntil: "networkidle" });
 await mobile.locator("#loading").waitFor({ state: "detached" });
 const mobileZoomBox = await mobile.locator("#zoom-in").boundingBox();
 if (!mobileZoomBox || mobileZoomBox.width < 44 || mobileZoomBox.height < 44) failures.push("mobile zoom control is smaller than the touch target");
+const mobileFamilyLabels = mobile.locator("#atlas-svg .family-label:visible");
+if ((await mobileFamilyLabels.count()) > 8) failures.push("mobile constellation exceeds its progressive family-label budget");
+for (const label of await mobileFamilyLabels.all()) {
+  if (Number.parseFloat(await label.evaluate((node) => getComputedStyle(node).fontSize)) < 12) {
+    failures.push("mobile constellation renders a microscopic family label");
+    break;
+  }
+}
 await mobile.locator("#search").fill("Abhimanyu");
 await mobile.locator(".search-result").first().click();
 if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
@@ -186,6 +234,14 @@ if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.co
 }
 const mobileCloseBox = await mobile.locator(".mobile-detail-close").boundingBox();
 if (!mobileCloseBox || mobileCloseBox.width < 44 || mobileCloseBox.height < 44) failures.push("mobile detail close control is smaller than the touch target");
+const mobileFocusClearBox = await mobile.locator("#focus-clear").boundingBox();
+if (!mobileFocusClearBox || mobileFocusClearBox.width < 44 || mobileFocusClearBox.height < 44) failures.push("mobile focus-clear control is smaller than the touch target");
+const mobileDetailActionBox = await mobile.locator(".detail-actions button").first().boundingBox();
+if (!mobileDetailActionBox || mobileDetailActionBox.height < 44) failures.push("mobile detail action is smaller than the touch target");
+if (await mobile.locator(".relation-button").count()) {
+  const mobileRelationActionBox = await mobile.locator(".relation-button").first().boundingBox();
+  if (!mobileRelationActionBox || mobileRelationActionBox.height < 44) failures.push("mobile relation action is smaller than the touch target");
+}
 await mobile.locator(".mobile-detail-close").click();
 if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")) || !(await mobile.locator("#focus-banner").isVisible()) || (await mobile.locator("#atlas-svg .is-selected").count()) !== 1 || !(await mobile.locator("#atlas-svg .is-selected").evaluate((node) => node === document.activeElement))) {
   failures.push("closing the mobile detail drawer discarded the search focus");
@@ -193,10 +249,33 @@ if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.cont
 await mobile.locator('[data-view="catalogue"]').click();
 await mobile.locator(".mobile-detail-close").click();
 const catalogueCard = mobile.locator(".concept-card").first();
+const catalogueLabel = (await catalogueCard.locator("strong").innerText()).trim();
 await catalogueCard.click();
 await mobile.locator(".mobile-detail-close").click();
 if (!(await mobile.locator(".concept-card").first().evaluate((node) => node === document.activeElement))) {
   failures.push("catalogue detail close focused a stale hidden map control");
+}
+await mobile.locator('[data-view="constellations"]').click();
+await mobile.locator(".mobile-detail-close").click();
+await mobile.locator("#search").fill(catalogueLabel);
+await mobile.locator(".search-result").filter({ hasText: catalogueLabel }).first().click();
+await mobile.locator(".mobile-detail-close").click();
+if (!(await mobile.locator("#atlas-svg .is-selected").evaluate((node) => node === document.activeElement))) {
+  failures.push("constellation detail close preferred a hidden catalogue control");
+}
+await mobile.locator("#search").fill(catalogueLabel);
+await mobile.locator(".search-result").filter({ hasText: catalogueLabel }).first().click();
+const showMobileRelations = mobile.locator(".detail-actions button").filter({ hasText: "Show relations" });
+if (await showMobileRelations.count()) {
+  await showMobileRelations.click();
+  const relationLabels = mobile.locator("#atlas-svg .relation-label:visible");
+  if ((await relationLabels.count()) > 7) failures.push("mobile Relations exceeds its progressive label budget");
+  for (const label of await relationLabels.all()) {
+    if (Number.parseFloat(await label.evaluate((node) => getComputedStyle(node).fontSize)) < 12) {
+      failures.push("mobile Relations renders a microscopic label");
+      break;
+    }
+  }
 }
 
 const midWidth = await browser.newPage({ viewport: { width: 1000, height: 900 } });

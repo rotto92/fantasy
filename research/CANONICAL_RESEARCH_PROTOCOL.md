@@ -1,12 +1,16 @@
-# Canonical Character Research Protocol
+# Canonical Concept-Evidence Research Protocol
 
 ## Purpose
 
-The atlas compares fantasy through named characters. A visible point in the
-main visualization is always a character. Peoples, roles, classes, powers,
-cultures, institutions, states, artifacts, cosmologies, laws, sources, media,
-and continuities are dimensions attached to characters and are never promoted
-to peer-level character nodes.
+The public atlas compares fantasy through normalized concepts. A visible point
+in the main visualization is a normalized being/entity or class/vocation
+concept. Named characters, source-native terms, sources, and continuities are
+evidence records attached to those concepts or corpus-wide discovery results;
+they are not promoted to graph nodes.
+
+This protocol governs the character and source-term evidence layer. Character
+records remain the claim-level research unit, while the compiler projects their
+supported normalized archetypes into the concept graph.
 
 The existing normalized taxonomy remains a comparison vocabulary. It does not
 replace a source's own terminology, and a mapping never establishes exact

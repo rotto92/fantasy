@@ -40,7 +40,7 @@ jobs:
       - name: Build the Pages bundle
         run: npm run build
       - name: Audit generated release files
-        run: npm run audit:release-import
+        run: npm run test:audit && npm run audit:release-import
       - name: Run browser contracts
         run: |
           VITE_BASE=/ npm run dev -- --host 127.0.0.1 > "$RUNNER_TEMP/fantasy-vite.log" 2>&1 &

@@ -10,7 +10,6 @@ native evidence to normalized graph nodes.
 from __future__ import annotations
 
 import json
-import re
 import sys
 import unicodedata
 from collections import Counter, defaultdict
@@ -74,7 +73,18 @@ def fold(value: Any) -> str:
 
 
 def fold_tokens(value: Any) -> list[str]:
-    return unique([fold(token) for token in re.findall(r"[\w]+", str(value or ""), flags=re.UNICODE)])
+    tokens: list[str] = []
+    token: list[str] = []
+    for character in str(value or ""):
+        if character.isalnum():
+            token.append(character)
+        elif token:
+            tokens.append("".join(token))
+            token = []
+    if token:
+        tokens.append("".join(token))
+    folded_tokens = [fold(value) for value in tokens]
+    return [value for value in folded_tokens if value]
 
 
 def first_url(citations: list[dict[str, Any]]) -> str:

@@ -600,7 +600,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
 .relation-star .family-core { stroke-width: 0.8; }
 .relation-label {
   fill: #c2cede;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 600;
   paint-order: stroke;
   stroke: #070c16;
@@ -766,16 +766,16 @@ body { font-size: var(--body-size); }
 .focus-copy > span { font-size: var(--micro-size); }
 .focus-copy strong { font-size: 1rem; }
 .focus-copy small { font-size: var(--micro-size); line-height: 1.35; white-space: normal; }
-.focus-action { min-height: 36px; font-size: var(--micro-size); }
-.focus-clear { width: 36px; height: 36px; }
+.focus-action { min-height: 44px; font-size: var(--micro-size); }
+.focus-clear { width: 44px; height: 44px; }
 .statusbar { font-size: var(--micro-size); }
 .overview-header h2, .character-header h2 { font-size: clamp(1.45rem, 1.2rem + 1vw, 2rem); }
 .character-subtitle, .evidence-row, .detail-copy, .detail-copy.lead, .attribute-item span, .citation-card span, .citation-card small { font-size: var(--small-size); }
 .evidence-badge, .status-pill { font-size: var(--micro-size); }
 .detail-section h3 { margin-bottom: 12px; }
-.dimension-chip, .relation-button { min-height: 40px; font-size: var(--small-size); }
+.dimension-chip, .relation-button { min-height: 44px; font-size: var(--small-size); }
 .dimension-chip small, .dimension-note, .relation-button small, .caution-list, .reading-list { font-size: var(--micro-size); }
-.primary-button, .secondary-button { min-height: 40px; font-size: var(--micro-size); }
+.primary-button, .secondary-button { min-height: 44px; font-size: var(--micro-size); }
 .research-card span, .research-card small, .quality-notice, .research-table, .research-table th, .research-table td { font-size: var(--small-size); }
 .research-table th { font-size: var(--micro-size); }
 .catalogue-intro > p:last-child, .catalogue-family-heading small, .concept-card span, .concept-card small { font-size: var(--small-size); }

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import subprocess
 import sys
@@ -36,9 +37,28 @@ EMAIL_PATTERN = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b"
 LOCAL_PATH_PATTERN = re.compile(
     r"(?<![A-Za-z0-9:/_-])/(?:home|Users|tmp|var)/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+"
 )
+LOCAL_FILE_URL_PATTERN = re.compile(
+    r"\bfile:///(?:home|Users|tmp|var)/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+", re.IGNORECASE
+)
 SENSITIVE_NAME_PATTERN = re.compile(
     r"(?:^|[._-])(credentials?|secrets?|tokens?|private|passwords?|\.env)(?:$|[._-])", re.IGNORECASE
 )
+REVIEWED_OPAQUE_FILES = {
+    "atlas-preview.png": "db6b98da5539d84858365ff56a39733b026e93113a2cb0dd5899c35d5f238b67",
+    "atlas-v4-17sources.png": "59aefdf651b51e470cedbf1209435b97d5b21c422408f91f444d5c786412568f",
+    "atlas-v4-aggregated.png": "4f767c294903bb026d1627de6220765be48a4da8f89d9fb73fee66982c57f3f2",
+    "atlas-v4-clean.png": "91754e330e6b98589830d50661c577f3d51240fd2e45c4e2e4b3ad1177a4992e",
+    "atlas-v4-detail.png": "690645e12ab2d09de69c125dbec15d9e3cd43fe5ab18804ac3c1f3e0a07819ef",
+    "atlas-v4-final-atlas.png": "9bc4687a31ecd245973f8ed1e7478a090fb520c908f2dca2c1ec0805cbd108bc",
+    "atlas-v4-final-compare.png": "7d3eba9fcfbd842421175ebac7c49fa8d9290d4598f7f4ddfba3cc68f6fa442d",
+    "atlas-v4-final-mobile-atlas.png": "3050f51bc0ef3db75e9fc774a142a352a96d03dfbb44eec88dd2bb121a8410af",
+    "atlas-v4-final-mobile-research.png": "fb05efaa625467dcd86e60dfc15fac2a0caeaaded2721efc4015a0c03d2cb540",
+    "atlas-v4-final-research.png": "fa142669ec79b65670709517ceb75a5cf870c5e141602b69785439852477c4d9",
+    "atlas-v4-matrix.png": "0e37651ac1d20d3655628d07094833dc4936884ee0f8aa8a57ad00d7e7a4a14d",
+    "atlas-v4-preview.png": "6bca8e4d6e943294e812dfa7cab427262948bce5eea67be8ee6de114280f83d6",
+    "atlas-v4-relations.png": "c337ac569a69c4b83464aee4396efe73a15ab14e8dd8d883c1c6924a2ad39dff",
+    "atlas-v4-research.png": "8a0519e33c541b575e3cfd3261996a162f88b92753b43c494c564bd202040398",
+}
 
 
 def tracked_paths() -> list[Path]:
@@ -57,6 +77,38 @@ def finding(path: Path, kind: str, detail: str) -> dict[str, str]:
     return {"path": path.as_posix(), "kind": kind, "detail": detail}
 
 
+def decode_text(content: bytes) -> str | None:
+    try:
+        text = content.decode("utf-8")
+    except UnicodeDecodeError:
+        return None
+    return None if "\0" in text else text
+
+
+def scan_text(path: Path, text: str) -> list[dict[str, str]]:
+    findings: list[dict[str, str]] = []
+    if PRIVATE_KEY_PATTERN.search(text):
+        findings.append(finding(path, "private-key", "private key marker"))
+    for label, pattern in TOKEN_PATTERNS:
+        if pattern.search(text):
+            findings.append(finding(path, label, "credential token pattern"))
+    if EMAIL_PATTERN.search(text):
+        findings.append(finding(path, "personal-data", "email address"))
+    if LOCAL_PATH_PATTERN.search(text) or LOCAL_FILE_URL_PATTERN.search(text):
+        findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
+    return findings
+
+
+def review_opaque(path: Path, content: bytes) -> list[dict[str, str]]:
+    expected = REVIEWED_OPAQUE_FILES.get(path.as_posix())
+    digest = hashlib.sha256(content).hexdigest()
+    if expected is None:
+        return [finding(path, "unreviewed-opaque-binary", f"opaque binary requires reviewed SHA-256 allowlist entry ({digest})")]
+    if digest != expected:
+        return [finding(path, "opaque-binary-hash-mismatch", f"expected {expected}, found {digest}")]
+    return []
+
+
 def scan_file(path: Path) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
     if SENSITIVE_NAME_PATTERN.search(path.name):
@@ -67,10 +119,11 @@ def scan_file(path: Path) -> list[dict[str, str]]:
         findings.append(finding(path, "oversized-file", f"{size} bytes exceeds {MAX_FILE_BYTES} bytes"))
         return findings
     content = absolute.read_bytes()
-    texts = [content.decode("latin-1")]
     if zipfile.is_zipfile(absolute):
         with zipfile.ZipFile(absolute) as archive:
             for member in archive.infolist():
+                if member.is_dir():
+                    continue
                 member_path = Path(f"{path.as_posix()}::{member.filename}")
                 if SENSITIVE_NAME_PATTERN.search(Path(member.filename).name):
                     findings.append(finding(member_path, "suspicious-filename", "credential-like archive member filename"))
@@ -83,17 +136,12 @@ def scan_file(path: Path) -> list[dict[str, str]]:
                         )
                     )
                     continue
-                texts.append(archive.read(member).decode("latin-1"))
-    for text in texts:
-        if PRIVATE_KEY_PATTERN.search(text):
-            findings.append(finding(path, "private-key", "private key marker"))
-        for label, pattern in TOKEN_PATTERNS:
-            if pattern.search(text):
-                findings.append(finding(path, label, "credential token pattern"))
-        if EMAIL_PATTERN.search(text):
-            findings.append(finding(path, "personal-data", "email address"))
-        if LOCAL_PATH_PATTERN.search(text):
-            findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
+                member_content = archive.read(member)
+                member_text = decode_text(member_content)
+                findings.extend(scan_text(member_path, member_text) if member_text is not None else review_opaque(member_path, member_content))
+        return findings
+    text = decode_text(content)
+    findings.extend(scan_text(path, text) if text is not None else review_opaque(path, content))
     return findings
 
 
@@ -112,6 +160,9 @@ def main() -> int:
         "maxFileBytes": MAX_FILE_BYTES,
         "excludedPrefixes": list(EXCLUDED_PREFIXES),
         "excludedSuffixes": list(EXCLUDED_SUFFIXES),
+        "reviewedOpaqueFiles": [
+            {"path": path, "sha256": digest} for path, digest in sorted(REVIEWED_OPAQUE_FILES.items())
+        ],
         "includedFileCount": len(included),
         "includedBytes": sum(size for _, size in sizes),
         "extensions": dict(sorted(extension_counts.items())),

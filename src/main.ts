@@ -335,6 +335,7 @@ const familyPalette = [
   "#90a9ef",
   "#c2b4f2",
 ];
+const touchTargetRadius = 22;
 
 const dimensionLabels: Record<string, string> = {
   being_types: "Being / species / entity",
@@ -447,6 +448,31 @@ function foldSearch(value: string): string {
 
 function motionDuration(duration: number): number {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : duration;
+}
+
+function updateScreenSpaceHitAreas(
+  svg: d3.Selection<SVGSVGElement, unknown, null, undefined>,
+  transform: d3.ZoomTransform,
+): void {
+  svg.selectAll<SVGCircleElement, PositionedNode>(".star-hit-area").attr("r", touchTargetRadius / transform.k);
+}
+
+function closestRenderedNode(
+  event: MouseEvent,
+  layer: SVGGElement | null,
+  marks: SVGGElement[],
+): PositionedNode | undefined {
+  const matrix = layer?.getScreenCTM();
+  if (!matrix) return undefined;
+  let closest: { positioned: PositionedNode; distance: number } | undefined;
+  for (const mark of marks) {
+    if (getComputedStyle(mark).display === "none") continue;
+    const positioned = d3.select<SVGGElement, PositionedNode>(mark).datum();
+    const center = new DOMPoint(positioned.x, positioned.y).matrixTransform(matrix);
+    const distance = Math.hypot(event.clientX - center.x, event.clientY - center.y);
+    if (distance <= touchTargetRadius && (!closest || distance < closest.distance)) closest = { positioned, distance };
+  }
+  return closest?.positioned;
 }
 
 function auditStatusPresentation(audit: SourceAudit | undefined): { label: string; className: string; caution: string } {
@@ -954,7 +980,18 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
   const showSpecific = Boolean(selected) || detailLevel === "all" || (detailLevel === "auto" && (!compactViewport || transform.k >= 1.3));
   const showSpecificLabels =
     detailLevel === "all" ? transform.k >= 1.5 : transform.k >= (filtersActive ? 2.25 : 3.35);
+  const compactFamilyLabels = new Set<string>();
+  if (compactViewport) {
+    for (const domain of concepts.domains) {
+      [...positionById.values()]
+        .filter((positioned) => positioned.node.tier === 2 && positioned.node.domainId === domain.id)
+        .sort((left, right) => d3.descending(left.node.evidenceCount, right.node.evidenceCount) || d3.ascending(left.node.label, right.node.label))
+        .slice(0, 4)
+        .forEach((positioned) => compactFamilyLabels.add(positioned.node.id));
+    }
+  }
   const glyphScale = 1 / Math.pow(transform.k, 0.58);
+  updateScreenSpaceHitAreas(svg, transform);
   svg.selectAll<SVGGElement, PositionedNode>(".star-glyph").attr("transform", `scale(${glyphScale})`);
   svg
     .selectAll<SVGGElement, PositionedNode>(".specific-star")
@@ -983,15 +1020,18 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
       const dy = positioned.y - familyPosition.y;
       return Math.abs(dx) < 5 ? (dy > 0 ? positioned.r + 9 : -positioned.r - 7) / transform.k : 3 / transform.k;
     })
-    .style("font-size", `${Math.max(10, 9) / transform.k}px`)
+    .style("font-size", `${11 / transform.k}px`)
     .style("stroke-width", `${3.2 / transform.k}px`);
   svg
     .selectAll<SVGTextElement, PositionedNode>(".family-label")
+    .style("display", (positioned) =>
+      !compactViewport || positioned.node.id === context?.familyId || compactFamilyLabels.has(positioned.node.id) ? "" : "none",
+    )
     .attr("y", (positioned) => {
       const offset = compactViewport ? positioned.clusterR + 11 : -positioned.clusterR - 5;
       return offset / transform.k;
     })
-    .style("font-size", `${Math.max(compactViewport ? 9 : 10.5, compactViewport ? 8.4 : 10.5) / transform.k}px`)
+    .style("font-size", `${(compactViewport ? 12 : 11) / transform.k}px`)
     .style("stroke-width", `${3.2 / transform.k}px`);
   svg.selectAll<SVGTextElement, unknown>(".sky-title").style("display", transform.k > 1.55 ? "none" : "");
   svg
@@ -1097,7 +1137,7 @@ function renderConstellations(): void {
   marks
     .append("circle")
     .attr("class", "star-hit-area")
-    .attr("r", (positioned) => Math.max(22, positioned.r + 10))
+    .attr("r", touchTargetRadius)
     .attr("fill", "#fff")
     .attr("fill-opacity", 0)
     .attr("pointer-events", "all");
@@ -1147,7 +1187,7 @@ function renderConstellations(): void {
     .on("keydown", handleNodeKeydown)
     .on("click", (event, positioned) => {
       event.stopPropagation();
-      activateNode(positioned);
+      activateNode(closestRenderedNode(event as MouseEvent, layer.node(), marks.nodes()) ?? positioned);
     });
 
   svg.on("click", () => selectNode(null, false));
@@ -1292,7 +1332,7 @@ function renderRelations(): void {
   marks
     .append("circle")
     .attr("class", "star-hit-area")
-    .attr("r", (item) => Math.max(22, item.r + 10))
+    .attr("r", touchTargetRadius)
     .attr("fill", "#fff")
     .attr("fill-opacity", 0)
     .attr("pointer-events", "all");
@@ -1303,7 +1343,7 @@ function renderRelations(): void {
     .attr("class", "relation-label")
     .attr("text-anchor", "middle")
     .attr("y", (item) => item.r + 18)
-    .text((item) => compactLabel(chartLabel(item.node), 24));
+    .text((item) => compactLabel(chartLabel(item.node), stage.clientWidth < 620 ? 18 : 24));
   marks
     .attr("role", "button")
     .attr("tabindex", 0)
@@ -1316,8 +1356,22 @@ function renderRelations(): void {
       if (!restoringDetailFocus) selectNode(item.node.id, false, "click", null, false);
     })
     .on("keydown", handleNodeKeydown)
-    .on("click", (_event, item) => selectNode(item.node.id, false));
-  installZoom(svg, layer, () => undefined);
+    .on("click", (event, item) => {
+      event.stopPropagation();
+      selectNode((closestRenderedNode(event as MouseEvent, layer.node(), marks.nodes()) ?? item).node.id, false);
+    });
+  const updateRelationZoom = (transform: d3.ZoomTransform): void => {
+    const compactViewport = stage.clientWidth < 620;
+    updateScreenSpaceHitAreas(svg, transform);
+    svg
+      .selectAll<SVGTextElement, PositionedNode>(".relation-label")
+      .style("display", (item, index) => !compactViewport || item.node.id === selected.id || index < 7 ? "" : "none")
+      .attr("y", (item) => item.r + 18 / transform.k)
+      .style("font-size", `${12 / transform.k}px`)
+      .style("stroke-width", `${3.2 / transform.k}px`);
+  };
+  installZoom(svg, layer, updateRelationZoom);
+  updateRelationZoom(d3.zoomIdentity);
   updateScope(positioned.map((item) => item.node));
 }
 
@@ -1464,6 +1518,7 @@ function detailSection(title: string): HTMLElement {
 
 function closeDetail(): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
+  const focusBelongsToRelationMap = viewMode === "relations" && svgElement.contains(document.activeElement);
   selectedNodeId = null;
   selectedDiscoveryId = null;
   selectedDiscoveryContextId = null;
@@ -1477,7 +1532,7 @@ function closeDetail(): void {
   } else if (viewMode === "relations") {
     renderRelations();
   }
-  if (focusBelongsToDetail) searchInput.focus();
+  if (focusBelongsToDetail || focusBelongsToRelationMap) requestAnimationFrame(() => searchInput.focus());
 }
 
 function focusDetailHeading(): void {
@@ -1488,14 +1543,20 @@ function hideDetail(): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   detailPanel?.classList.remove("is-open");
   if (focusBelongsToDetail) {
-    const catalogueControl = [...board.querySelectorAll<HTMLElement>("[data-node-id]")]
-      .find((control) => control.dataset.nodeId === selectedNodeId);
-    const selectedMark = viewMode === "constellations" || viewMode === "relations"
-      ? [...svgElement.querySelectorAll<HTMLElement>(".is-selected")]
-        .find((mark) => mark.dataset.nodeId === selectedNodeId && mark.isConnected && svgElement.style.display !== "none")
-      : null;
+    const candidates = viewMode === "catalogue" && !board.hidden
+      ? [...board.querySelectorAll<HTMLElement>("[data-node-id]")]
+      : viewMode === "constellations" || viewMode === "relations"
+        ? [...svgElement.querySelectorAll<SVGElement>(".is-selected")]
+        : [];
+    const returnTarget = candidates.find((candidate) =>
+      candidate.dataset.nodeId === selectedNodeId
+      && candidate.isConnected
+      && candidate.getClientRects().length > 0
+      && getComputedStyle(candidate).visibility !== "hidden"
+      && getComputedStyle(candidate).display !== "none",
+    );
     restoringDetailFocus = true;
-    (catalogueControl ?? selectedMark ?? searchInput).focus();
+    (returnTarget ?? searchInput).focus();
     restoringDetailFocus = false;
   }
 }
@@ -1512,7 +1573,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   const header = element("header", "character-header discovery-detail-header");
   header.append(element("p", "eyebrow", record.kindLabel));
   const title = element("h2", "", record.label);
-  title.tabIndex = -1;
+  title.setAttribute("tabindex", "-1");
   header.append(title);
   header.append(element("p", "character-subtitle", [record.sourceTitle, record.continuity].filter(Boolean).join(" · ") || "Accepted corpus record"));
   const evidence = element("div", "evidence-row");
@@ -1733,7 +1794,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
   const header = element("header", "character-header concept-detail-header");
   header.append(element("p", "eyebrow", node.tier === 2 ? `${node.domainLabel} family` : node.domainLabel));
   const title = element("h2", "", node.label);
-  title.tabIndex = -1;
+  title.setAttribute("tabindex", "-1");
   header.append(title);
   const parent = node.parentId ? nodeById.get(node.parentId) : undefined;
   header.append(element("p", "character-subtitle", parent ? `${node.domainLabel} › ${parent.label}` : node.domainLabel));

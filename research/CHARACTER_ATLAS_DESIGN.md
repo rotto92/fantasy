@@ -1,16 +1,15 @@
-# Character Atlas — Interaction Design
+# Concept Constellations — Interaction Design
 
 ## The design correction
 
-The old visualization treated sources, domains, archetypes, source entries,
-orientation phrases, and adaptations as peer-level nodes. That made an
-ontological category look like the same kind of thing as a character and made
-the complete corpus appear as an edge hairball.
+Earlier visualizations treated sources, concepts, and characters as peer-level
+nodes, then briefly made every character a graph point. Both approaches made
+the bounded evidence corpus visually compete with the comparison vocabulary.
 
-Version 4 uses one visual noun:
+The public release uses one visual noun:
 
-> Every point is a character. Everything else is a lens, region, encoding,
-> filter, relationship label, or detail field.
+> Every point is a normalized concept. Characters, source-native terms,
+> sources, and continuities are evidence, discovery results, or detail fields.
 
 The workbook may remain relational, but the public visualization does not need
 to expose the storage model.
@@ -37,8 +36,8 @@ to expose the storage model.
 
 ### 1. Atlas map — default
 
-A zoomable circle-packed map. Large translucent regions are groups, not nodes;
-small luminous marks inside them are characters.
+A zoomable constellation map. Large luminous marks are normalized families;
+smaller marks are specific normalized concepts.
 
 - `Arrange by`: source, being type, culture, role, power tradition,
   affiliation, transformation, narrative function, medium, or continuity.
@@ -46,58 +45,54 @@ small luminous marks inside them are characters.
 - `Color by`: an independent dimension or evidence status.
 - `Size by`: uniform by default; optional relationship degree or attribute
   richness.
-- Zoomed out: region names, character counts, and selected coverage signal.
-- Mid zoom: character marks and only a small label budget.
-- Close zoom: character labels and high-confidence attribute glyphs.
+- Zoomed out: concept-family names and selected coverage signal.
+- Mid zoom: specific concept marks and a small readable label budget.
+- Close zoom: selected, related, and nearby concept labels.
 
 Changing the arrangement is a deliberate animated regrouping. Positions do not
 pretend to have geographic meaning.
 
 ### 2. Attribute matrix — comparison
 
-A categorical x/y grid for answering explicit questions such as “which being
-types occupy which roles?” Characters remain the only marks.
+A categorical x/y grid can answer explicit evidence questions such as “which
+being types occupy which roles?” without changing the concept graph.
 
 - `X dimension` and `Y dimension` are user-selected.
-- Multi-valued characters appear once using a declared primary/highest-
-  confidence value; alternate values remain visible in the profile and can be
-  expanded deliberately.
+- Multi-valued character evidence uses declared confidence and keeps alternate
+  values visible in the evidence profile.
 - Color supplies a third dimension.
 - Empty cells are informative and remain visible.
 - A small-multiple mode compares selected sources without drawing edges.
 
 ### 3. Relationship constellation — local only
 
-Selecting a character opens a one-hop character-to-character constellation.
+Selecting a concept opens a bounded concept-to-concept constellation.
 
-- The selected character is central.
-- Neighbours are grouped by relationship family.
-- Edges are typed and readable because the scene is deliberately small.
-- `Expand` adds one chosen relationship type or one additional hop.
-- `Isolate`, `undo`, and breadcrumbs prevent loss of context.
-- Sources, races, classes, powers, artifacts, and places never become endpoints.
+- The selected concept is central.
+- Taxonomy neighbours and siblings come from the normalized taxonomy.
+- Cross-family affinities require shared mapped concepts or explicit evidence.
+- Text coincidence never creates an edge.
+- Source, character, and source-term records remain evidence rather than nodes.
 
 ## Detail profile
 
-The profile is a readable character card, not a database dump:
+The profile is a readable concept card, not a database dump:
 
-1. Name, aliases, source, continuity, and evidence state.
-2. Source-native identity statement.
-3. Dimension ribbons: being, culture, role, power, affiliation,
-   transformation, artifact, cosmology, law/ritual, narrative, mechanics.
-4. Relationships to other characters.
+1. Normalized label, family, domain, definition, and framework status.
+2. Source traditions and representative characters.
+3. Source-native terms with mapping distinctions.
+4. Evidence-backed related concepts.
 5. Comparison cautions and continuity differences.
 6. Claim-level evidence with work/chapter/page/section locators.
 
-Clicking a dimension value changes the atlas lens to that dimension and isolates
-the matching characters.
+Activating source evidence preserves its discovery explanation while opening a
+supported normalized concept.
 
 ## Visual grammar
 
-- Character: a circular star mark. Shape does not change by ontology.
-- Selected character: larger corona and persistent name.
-- Group: softly bounded field with label and count; never selectable as though
-  it were a character. Clicking its field zooms into it.
+- Concept: a circular or star-shaped luminous mark.
+- Selected concept: larger corona and persistent name.
+- Family: a larger mark and softly bounded field around specific concepts.
 - Color: one declared meaning at a time, stated in the legend.
 - Evidence: small outer ring or profile badge, never the same fill channel used
   by the active color dimension.
@@ -107,7 +102,7 @@ the matching characters.
 ## Density rules
 
 - No global edges.
-- No more than 24 persistent character labels in a scene.
+- No more than 24 persistent concept labels in a scene.
 - No more than 12 group labels at one hierarchy level without aggregation.
 - Groups with fewer than three visible characters may be combined under
   `Other` unless explicitly selected.
@@ -130,10 +125,10 @@ sources to dominate the character map.
 
 ## First implementation slice
 
-1. Compile validated character research into `public/data/characters.json`.
-2. Replace the global Sigma graph with a D3 circle-packed atlas map.
-3. Add arrange/color lenses and semantic labels.
-4. Add the local character-only relationship constellation.
-5. Add the source-coverage matrix.
-6. Add the x/y attribute matrix after the foundational interaction model is
-   stable.
+1. Compile validated research into `public/data/characters.json`.
+2. Compile normalized concepts and evidence-backed affinities into
+   `public/data/constellations.json`.
+3. Compile corpus-wide discovery into `public/data/discovery.json`.
+4. Render normalized concepts as the only global and local graph nodes.
+5. Keep source coverage in the Research dashboard.
+6. Preserve character and source-term records as evidence and discovery detail.

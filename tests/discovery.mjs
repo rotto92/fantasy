@@ -98,6 +98,11 @@ if (!(await page.locator("#search-results .search-result").filter({ hasText: "An
   failures.push("multi-word continuity search omitted the Ankka evidence record");
 }
 
+await page.locator("#search").fill("Fantasy_47v16");
+if (!(await page.locator("#search-results").innerText()).includes("Elric of Melniboné")) {
+  failures.push("underscore-separated work identifier search omitted the Elric witness");
+}
+
 await page.locator("#search").fill("ashura");
 const ashuraText = await page.locator("#search-results").innerText();
 if (!ashuraText.includes("Mahābhārata") || ashuraText.includes("Guild Wars") || ashuraText.includes("Paraśurāma") || ashuraText.includes("Rāmāyaṇa")) {
