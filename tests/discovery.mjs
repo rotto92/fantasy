@@ -318,17 +318,25 @@ await discoveryRecoveryPage.route("**/data/discovery.json", async (route) => {
   else await route.continue();
 });
 await discoveryRecoveryPage.goto(appUrl, { waitUntil: "domcontentloaded" });
-const discoveryRetry = discoveryRecoveryPage.locator("#loading button", { hasText: "Retry discovery" });
+const discoveryRetry = discoveryRecoveryPage.locator("#discovery-notice button", { hasText: "Retry discovery" });
 await discoveryRetry.waitFor();
 await discoveryRecoveryPage.waitForFunction(() => document.activeElement?.textContent === "Retry discovery");
 if (!(await discoveryRecoveryPage.locator("#status-summary").textContent())?.includes("class/race/entity stars")
   || await discoveryRecoveryPage.locator("#search").getAttribute("aria-busy") !== null
-  || !(await discoveryRetry.evaluate((node) => node === document.activeElement))) {
-  failures.push("discovery failure did not preserve the atlas with a focused, settled retry control");
+  || !(await discoveryRetry.evaluate((node) => node === document.activeElement))
+  || await discoveryRecoveryPage.locator("#loading").count() !== 0
+  || !(await discoveryRecoveryPage.locator("#atlas-svg").isVisible())) {
+  failures.push("discovery failure did not preserve the usable atlas with a focused, settled retry control");
+}
+await discoveryRecoveryPage.locator('.view-button[data-view="research"]').click();
+if (!(await discoveryRecoveryPage.locator("#coverage-board").isVisible())) {
+  failures.push("discovery recovery notice blocked an already loaded atlas view");
 }
 await discoveryRetry.click();
 await discoveryRecoveryPage.waitForFunction(() => !document.querySelector("#search")?.disabled);
-await discoveryRecoveryPage.locator("#loading").waitFor({ state: "detached" });
+if (await discoveryRecoveryPage.locator("#discovery-notice").isVisible()) {
+  failures.push("successful discovery retry left the recovery notice visible");
+}
 if (discoveryAttempts !== 2) failures.push(`discovery retry made ${discoveryAttempts} discovery requests`);
 await discoveryRecoveryPage.close();
 

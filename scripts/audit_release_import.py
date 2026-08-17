@@ -15,6 +15,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+RELEASE_CONFIG = ROOT / "release.config.json"
+PUBLIC_BASE_PATTERN = re.compile(r"/(?:[A-Za-z0-9._~-]+/)*")
 MAX_FILE_BYTES = 50 * 1024 * 1024
 EXCLUDED_PREFIXES = (
     ".git/",
@@ -97,6 +99,7 @@ APPROVED_PUBLIC_PATH_REFERENCES: dict[str, frozenset[str]] = {
     "index.html": frozenset({"/src/main.ts"}),
     "tests/discovery.mjs": frozenset(
         {
+            "/data/constellations.json",
             "/data/discovery.json",
             "/public/data/characters.json",
             "/public/data/constellations.json",
@@ -118,6 +121,16 @@ APPROVED_PUBLIC_PATH_REFERENCES: dict[str, frozenset[str]] = {
 APPROVED_PUBLIC_PATH_REFERENCES["scripts/audit_release_import.py"] = frozenset().union(
     *APPROVED_PUBLIC_PATH_REFERENCES.values()
 )
+
+
+def configured_public_base() -> str:
+    try:
+        value = json.loads(RELEASE_CONFIG.read_text(encoding="utf-8"))["publicBase"]
+    except (OSError, json.JSONDecodeError, KeyError, TypeError) as error:
+        raise ValueError(f"invalid release configuration: {error}") from error
+    if not isinstance(value, str) or PUBLIC_BASE_PATTERN.fullmatch(value) is None:
+        raise ValueError("release publicBase must be an absolute URL path ending in /")
+    return value
 
 
 def tracked_paths() -> list[Path]:
@@ -164,8 +177,15 @@ def approved_archive_internal_paths(path: Path, references: set[str]) -> set[str
     }
 
 
-def scan_text(path: Path, text: str) -> list[dict[str, str]]:
+def scan_text(
+    path: Path,
+    text: str,
+    *,
+    policy_path: Path | None = None,
+    approved_public_paths: frozenset[str] = frozenset(),
+) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
+    approval_path = policy_path or path
     if PRIVATE_KEY_PATTERN.search(text):
         findings.append(finding(path, "private-key", "private key marker"))
     for label, pattern in TOKEN_PATTERNS:
@@ -193,18 +213,21 @@ def scan_text(path: Path, text: str) -> list[dict[str, str]]:
     }
     approved_references = (
         APPROVED_PUBLIC_PATH_REFERENCES.get("*", frozenset())
-        | APPROVED_PUBLIC_PATH_REFERENCES.get(path.as_posix(), frozenset())
+        | APPROVED_PUBLIC_PATH_REFERENCES.get(approval_path.as_posix(), frozenset())
+        | approved_public_paths
     )
     approved_references = approved_references | approved_archive_internal_paths(
-        path, local_path_references
+        approval_path, local_path_references
     )
     if local_path_references - approved_references:
         findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
     return findings
 
 
-def review_opaque(path: Path, content: bytes) -> list[dict[str, str]]:
-    expected = REVIEWED_OPAQUE_FILES.get(path.as_posix())
+def review_opaque(
+    path: Path, content: bytes, *, policy_path: Path | None = None
+) -> list[dict[str, str]]:
+    expected = REVIEWED_OPAQUE_FILES.get((policy_path or path).as_posix())
     digest = hashlib.sha256(content).hexdigest()
     if expected is None:
         return [finding(path, "unreviewed-opaque-binary", f"opaque binary requires reviewed SHA-256 allowlist entry ({digest})")]
@@ -213,8 +236,14 @@ def review_opaque(path: Path, content: bytes) -> list[dict[str, str]]:
     return []
 
 
-def scan_file(path: Path) -> list[dict[str, str]]:
+def scan_file(
+    path: Path,
+    *,
+    policy_path: Path | None = None,
+    approved_public_paths: frozenset[str] = frozenset(),
+) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
+    approval_path = policy_path or path
     if SENSITIVE_NAME_PATTERN.search(path.name):
         findings.append(finding(path, "suspicious-filename", "credential-like filename"))
     absolute = ROOT / path
@@ -240,6 +269,7 @@ def scan_file(path: Path) -> list[dict[str, str]]:
                 if member.is_dir():
                     continue
                 member_path = Path(f"{path.as_posix()}::{member.filename}")
+                member_policy_path = Path(f"{approval_path.as_posix()}::{member.filename}")
                 if SENSITIVE_NAME_PATTERN.search(Path(member.filename).name):
                     findings.append(finding(member_path, "suspicious-filename", "credential-like archive member filename"))
                 if member.file_size > MAX_FILE_BYTES:
@@ -253,10 +283,28 @@ def scan_file(path: Path) -> list[dict[str, str]]:
                     continue
                 member_content = archive.read(member)
                 member_text = decode_text(member_content)
-                findings.extend(scan_text(member_path, member_text) if member_text is not None else review_opaque(member_path, member_content))
+                findings.extend(
+                    scan_text(
+                        member_path,
+                        member_text,
+                        policy_path=member_policy_path,
+                        approved_public_paths=approved_public_paths,
+                    )
+                    if member_text is not None
+                    else review_opaque(member_path, member_content, policy_path=member_policy_path)
+                )
         return findings
     text = decode_text(content)
-    findings.extend(scan_text(path, text) if text is not None else review_opaque(path, content))
+    findings.extend(
+        scan_text(
+            path,
+            text,
+            policy_path=approval_path,
+            approved_public_paths=approved_public_paths,
+        )
+        if text is not None
+        else review_opaque(path, content, policy_path=approval_path)
+    )
     return findings
 
 
@@ -267,14 +315,33 @@ def main() -> int:
     try:
         if args.artifact_root:
             included = artifact_paths(args.artifact_root)
+            artifact_root = (ROOT / args.artifact_root).resolve()
+            policy_paths = {
+                path: (ROOT / path).relative_to(artifact_root) for path in included
+            }
+            public_base = configured_public_base()
+            approved_public_paths = frozenset(
+                f"{public_base}{path.as_posix()}" for path in policy_paths.values()
+            )
             scope = f"published artifact tree: {args.artifact_root.as_posix()}"
         else:
             included = [path for path in tracked_paths() if not excluded(path)]
+            policy_paths = {path: path for path in included}
+            public_base = None
+            approved_public_paths = frozenset()
             scope = "tracked release inputs in the current worktree"
     except ValueError as error:
         print(str(error), file=sys.stderr)
         return 2
-    findings = [item for path in included for item in scan_file(path)]
+    findings = [
+        item
+        for path in included
+        for item in scan_file(
+            path,
+            policy_path=policy_paths[path],
+            approved_public_paths=approved_public_paths,
+        )
+    ]
     findings.sort(key=lambda item: (item["path"], item["kind"], item["detail"]))
     extension_counts = Counter(path.suffix.lower() or "[no extension]" for path in included)
     sizes = sorted(
@@ -283,6 +350,7 @@ def main() -> int:
     )
     report = {
         "scope": scope,
+        "publicBase": public_base,
         "maxFileBytes": MAX_FILE_BYTES,
         "excludedPrefixes": list(EXCLUDED_PREFIXES),
         "excludedSuffixes": list(EXCLUDED_SUFFIXES),

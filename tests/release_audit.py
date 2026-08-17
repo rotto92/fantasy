@@ -41,8 +41,23 @@ unix_local_paths = [
 assert all("machine-local-path" in kinds(scan_text(Path("fixture.txt"), value)) for value in unix_local_paths)
 APPROVED_PUBLIC_PATH_REFERENCES["fixture.txt"] = frozenset({unix_local_paths[2]})
 assert "machine-local-path" not in kinds(scan_text(Path("fixture.txt"), unix_local_paths[2]))
-APPROVED_PUBLIC_PATH_REFERENCES["fixture.txt"] = frozenset({slash + "fantasy/assets/app.js"})
-assert "machine-local-path" not in kinds(scan_text(Path("fixture.txt"), slash + "fantasy/assets/app.js"))
+public_asset_path = slash + "fantasy/assets/app.js"
+assert "machine-local-path" not in kinds(
+    scan_text(
+        Path("dist/index.html"),
+        public_asset_path,
+        policy_path=Path("index.html"),
+        approved_public_paths=frozenset({public_asset_path}),
+    )
+)
+assert "machine-local-path" in kinds(
+    scan_text(
+        Path("dist/index.html"),
+        slash + "fantasy/home/alice/private.txt",
+        policy_path=Path("index.html"),
+        approved_public_paths=frozenset({public_asset_path}),
+    )
+)
 APPROVED_PUBLIC_PATH_REFERENCES.pop("fixture.txt")
 assert "machine-local-path" not in kinds(
     scan_text(Path("workbook.xlsx::[Content_Types].xml"), slash + "xl/worksheets/sheet1.xml")
@@ -56,7 +71,12 @@ root = Path(__file__).resolve().parents[1]
 with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
     artifact = Path(directory)
     relative = artifact.relative_to(root)
-    (artifact / "index.html").write_text("<h1>Published artifact</h1>", encoding="utf-8")
+    (artifact / "assets").mkdir()
+    (artifact / "assets" / "app.js").write_text("export {};", encoding="utf-8")
+    (artifact / "index.html").write_text(
+        f'<script type="module" src="{slash}fantasy{slash}assets{slash}app.js"></script>',
+        encoding="utf-8",
+    )
     clean = subprocess.run(
         [sys.executable, "scripts/audit_release_import.py", "--artifact-root", relative.as_posix()],
         cwd=root,
@@ -74,7 +94,8 @@ with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
         + slash + "run" + slash + "user" + slash + "1000" + slash + "token\n"
         + slash + "Volumes" + slash + "private" + slash + "release.txt\n"
         + "file:" + slash * 3 + "etc" + slash + "private-service.conf\n"
-        + "file:" + slash * 3 + "srv" + slash + "private" + slash + "release.txt",
+        + "file:" + slash * 3 + "srv" + slash + "private" + slash + "release.txt\n"
+        + slash + "fantasy" + slash + "home" + slash + "alice" + slash + "private.txt",
         encoding="utf-8",
     )
     paths = subprocess.run(

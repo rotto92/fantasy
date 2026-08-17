@@ -387,6 +387,24 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
 }
 .loading-state p { max-width: min(34rem, calc(100% - 32px)); margin: 0; text-align: center; line-height: 1.5; }
 .loading-state .primary-button { min-height: 44px; padding-inline: 16px; }
+.discovery-notice {
+  position: absolute;
+  top: 76px;
+  left: 50%;
+  z-index: 55;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  width: min(460px, calc(100% - 24px));
+  padding: 12px;
+  border: 1px solid rgba(239, 200, 122, 0.32);
+  border-radius: 10px;
+  box-shadow: 0 14px 48px rgba(0, 0, 0, 0.38);
+  transform: translateX(-50%);
+}
+.discovery-notice p { margin: 0; color: var(--ink); font-size: var(--small-size, 0.8125rem); line-height: 1.45; }
+.discovery-notice .primary-button { white-space: nowrap; }
 .loader-star { color: var(--gold); font-size: 30px; animation: pulse 1.5s ease-in-out infinite; }
 @keyframes pulse { 50% { opacity: 0.42; transform: scale(1.22) rotate(45deg); } }
 
@@ -819,6 +837,8 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
   .focus-banner { grid-template-columns: auto minmax(0, 1fr) auto; }
   .focus-copy strong { font-size: 0.9375rem; }
   .detail-panel.is-open { width: min(390px, 94vw); }
+  .discovery-notice { top: 68px; grid-template-columns: 1fr; }
+  .discovery-notice .primary-button { width: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {

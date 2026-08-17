@@ -311,6 +311,7 @@ const focusTitle = byId<HTMLElement>("focus-title");
 const focusContext = byId<HTMLElement>("focus-context");
 const tooltip = byId<HTMLDivElement>("tooltip");
 const loading = byId<HTMLDivElement>("loading");
+const discoveryNotice = byId<HTMLElement>("discovery-notice");
 const detailPanel = document.querySelector<HTMLElement>(".detail-panel");
 const detailContent = byId<HTMLDivElement>("detail-content");
 const searchInput = byId<HTMLInputElement>("search");
@@ -2406,11 +2407,34 @@ function showLoadError(message: string, retryLabel: string, retry: () => Promise
   requestAnimationFrame(() => retryButton.focus());
 }
 
+function showDiscoveryProgress(): void {
+  discoveryNotice.setAttribute("role", "status");
+  discoveryNotice.setAttribute("aria-live", "polite");
+  discoveryNotice.replaceChildren(element("p", "", "Retrying corpus discovery…"));
+  discoveryNotice.hidden = false;
+}
+
+function showDiscoveryError(message: string): void {
+  searchInput.disabled = true;
+  searchInput.removeAttribute("aria-busy");
+  const retryButton = element("button", "primary-button", "Retry discovery");
+  retryButton.type = "button";
+  retryButton.addEventListener("click", () => void loadDiscoveryData(true));
+  discoveryNotice.setAttribute("role", "alert");
+  discoveryNotice.setAttribute("aria-live", "assertive");
+  discoveryNotice.replaceChildren(
+    element("p", "", `${message}. Search is unavailable; the loaded atlas views remain available.`),
+    retryButton,
+  );
+  discoveryNotice.hidden = false;
+  requestAnimationFrame(() => retryButton.focus());
+}
+
 async function loadDiscoveryData(showProgress = false): Promise<void> {
   searchInput.disabled = true;
   searchInput.setAttribute("aria-busy", "true");
   searchInput.placeholder = "Loading corpus discovery…";
-  if (showProgress) showLoadingState("Retrying corpus discovery…");
+  if (showProgress) showDiscoveryProgress();
   try {
     const discoveryResponse = await fetch(assetUrl("data/discovery.json"));
     if (!discoveryResponse.ok) throw new Error("Unable to load corpus discovery data");
@@ -2427,11 +2451,13 @@ async function loadDiscoveryData(showProgress = false): Promise<void> {
     searchInput.disabled = false;
     searchInput.removeAttribute("aria-busy");
     searchInput.placeholder = viewMode === "research" ? "Find a source, work, or tradition…" : "Search the bounded corpus…";
-    if (loading.isConnected) loading.remove();
+    discoveryNotice.hidden = true;
+    discoveryNotice.replaceChildren();
+    if (showProgress) searchInput.focus();
   } catch (error) {
     searchInput.placeholder = "Corpus discovery unavailable";
-    const message = error instanceof Error ? error.message : "Unable to load corpus discovery data.";
-    showLoadError(message, "Retry discovery", () => loadDiscoveryData(true));
+    const message = error instanceof Error ? error.message : "Unable to load corpus discovery data";
+    showDiscoveryError(message);
   }
 }
 
