@@ -71,8 +71,16 @@ def scan_file(path: Path) -> list[dict[str, str]]:
     if zipfile.is_zipfile(absolute):
         with zipfile.ZipFile(absolute) as archive:
             for member in archive.infolist():
-                if member.file_size <= MAX_FILE_BYTES:
-                    texts.append(archive.read(member).decode("latin-1"))
+                if member.file_size > MAX_FILE_BYTES:
+                    findings.append(
+                        finding(
+                            path,
+                            "oversized-archive-member",
+                            f"{member.filename} is {member.file_size} bytes and exceeds {MAX_FILE_BYTES} bytes",
+                        )
+                    )
+                    continue
+                texts.append(archive.read(member).decode("latin-1"))
     for text in texts:
         if PRIVATE_KEY_PATTERN.search(text):
             findings.append(finding(path, "private-key", "private key marker"))

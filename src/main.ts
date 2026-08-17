@@ -113,6 +113,8 @@ interface SourceAudit {
   completion_status: string;
   completed_character_count: number;
   citations: Citation[];
+  content_cautions?: string[];
+  evidence_basis?: string;
   independent_review?: { review_types: string[] };
 }
 
@@ -1205,6 +1207,7 @@ function renderCatalogue(): void {
     const section = element("section", "catalogue-family");
     const heading = element("button", "catalogue-family-heading") as HTMLButtonElement;
     heading.type = "button";
+    heading.dataset.nodeId = family.id;
     heading.style.setProperty("--family-color", colorFor(family));
     heading.append(element("span", "catalogue-star", "✦"));
     const headingCopy = element("span");
@@ -1216,6 +1219,7 @@ function renderCatalogue(): void {
     for (const node of children) {
       const card = element("button", "concept-card") as HTMLButtonElement;
       card.type = "button";
+      card.dataset.nodeId = node.id;
       card.style.setProperty("--family-color", colorFor(node));
       card.append(element("strong", "", node.label));
       card.append(element("span", "", compactLabel(node.definition || "Framework archetype", 145)));
@@ -1312,6 +1316,7 @@ function detailSection(title: string): HTMLElement {
 }
 
 function closeDetail(): void {
+  const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   selectedNodeId = null;
   selectedDiscoveryId = null;
   selectedDiscoveryContextId = null;
@@ -1322,16 +1327,27 @@ function closeDetail(): void {
   if (viewMode === "constellations") {
     updateConstellationSelection();
     updateSemanticZoom(currentTransform);
+  } else if (viewMode === "relations") {
+    renderRelations();
   }
+  if (focusBelongsToDetail) searchInput.focus();
+}
+
+function focusDetailHeading(): void {
+  requestAnimationFrame(() => detailContent.querySelector<HTMLElement>("h2")?.focus());
 }
 
 function hideDetail(): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   detailPanel?.classList.remove("is-open");
   if (focusBelongsToDetail) {
-    const selectedMark = document.querySelector<HTMLElement>("#atlas-svg .is-selected");
+    const catalogueControl = [...board.querySelectorAll<HTMLElement>("[data-node-id]")]
+      .find((control) => control.dataset.nodeId === selectedNodeId);
+    const selectedMark = viewMode === "constellations" || viewMode === "relations"
+      ? document.querySelector<HTMLElement>("#atlas-svg .is-selected")
+      : null;
     restoringDetailFocus = true;
-    (selectedMark ?? searchInput).focus();
+    (catalogueControl ?? selectedMark ?? searchInput).focus();
     restoringDetailFocus = false;
   }
 }
@@ -1463,6 +1479,23 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   if (!characters.length && record.kind !== "source") characterSection.append(element("p", "detail-copy", "This source-native record has no character example in its witness; its citation remains the evidence anchor."));
   if (record.kind === "source") {
     characterSection.append(element("p", "detail-copy", `${record.characterExamples.length} representative character records are indexed for this source. Search a name to inspect its bounded evidence.`));
+    const audit = auditBySource.get(record.sourceId);
+    const corpusSource = corpusBySource.get(record.sourceId);
+    const evidenceSection = detailSection("Source evidence and status");
+    evidenceSection.append(element("p", "dimension-note", `Status: ${audit?.completion_status ?? "No audit status recorded"}`));
+    evidenceSection.append(element("p", "dimension-note", `Caution: ${audit?.content_cautions?.join(" ") || "This bounded source pass is not a completeness claim beyond the accepted corpus."}`));
+    if (audit?.evidence_basis) evidenceSection.append(element("p", "detail-copy", `Evidence basis: ${audit.evidence_basis}`));
+    const citation = audit?.citations[0];
+    if (citation?.locator) evidenceSection.append(element("p", "dimension-note", `Citation: ${citation.locator}`));
+    const evidenceUrl = citation?.url ?? corpusSource?.referenceUrl ?? record.url;
+    if (evidenceUrl) {
+      const link = element("a", "evidence-link", "Open supporting source evidence ↗") as HTMLAnchorElement;
+      link.href = evidenceUrl;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      evidenceSection.append(link);
+    }
+    detailContent.append(evidenceSection);
   }
   detailContent.append(characterSection);
 
@@ -1717,6 +1750,7 @@ function selectNode(
   discoveryContextId: string | null = null,
   refreshRelationView = true,
 ): void {
+  const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   selectedDiscoveryId = null;
   selectedDiscoveryContextId = discoveryContextId;
   selectedNodeId = nodeId;
@@ -1731,9 +1765,11 @@ function selectNode(
     if (refreshRelationView) renderRelations();
     else updateRelationSelection();
   }
+  if (focusBelongsToDetail) focusDetailHeading();
 }
 
 function render(): void {
+  const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   const [kicker, description] = viewCopy[viewMode];
   viewKicker.textContent = kicker;
   viewDescription.textContent = description;
@@ -1751,6 +1787,7 @@ function render(): void {
   updateLegend();
   renderDetail();
   renderFocusBanner();
+  if (focusBelongsToDetail) focusDetailHeading();
 }
 
 function populateFilters(): void {
@@ -1941,7 +1978,9 @@ function bindEvents(): void {
     detailLevelSelect.value = "auto";
     lineModeSelect.value = "taxonomy";
     searchInput.value = "";
+    researchQuery = "";
     render();
+    showSearchResults("");
   });
   byId<HTMLButtonElement>("zoom-in").addEventListener("click", () => {
     if (currentZoom) d3.select(svgElement).transition().duration(motionDuration(250)).call(currentZoom.scaleBy, 1.5);

@@ -673,7 +673,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   .research-summary { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1040px) {
   #app {
     grid-template-columns: 1fr;
     grid-template-rows: 66px minmax(0, 1fr) 29px;
@@ -693,7 +693,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   .research-table { min-width: 760px; }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 1040px) {
   .view-switcher { gap: 0; }
   .view-button { flex: 1; padding: 0 5px; font-size: 8px; }
   .view-button::after { right: 7px; left: 7px; }

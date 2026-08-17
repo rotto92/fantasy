@@ -138,6 +138,13 @@ if (!punctuationText.includes("Ankka")) {
   failures.push(`punctuation-tolerant character search omitted Ankka: ${punctuationText}`);
 }
 
+await page.locator("#search").fill("The Once and Future King");
+await page.locator(".search-result").filter({ hasText: "Source / series · The Once and Future King" }).first().click();
+const sourceOnlyDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
+if (!sourceOnlyDetail.includes("source evidence and status") || !sourceOnlyDetail.includes("status: pass-complete") || !sourceOnlyDetail.includes("caution:") || !sourceOnlyDetail.includes("open supporting source evidence")) {
+  failures.push(`zero-character source detail omitted evidence/status/caution: ${sourceOnlyDetail}`);
+}
+
 await browser.close();
 
 if (failures.length) {

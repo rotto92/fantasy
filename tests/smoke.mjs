@@ -84,10 +84,12 @@ if (!connected) {
   if (renderedFontSize < 7 || renderedFontSize > 11) failures.push(`semantic label size drifted while zooming: ${renderedFontSize}`);
   await page.locator(".primary-button").filter({ hasText: "Center star" }).click();
   await page.waitForTimeout(800);
+  if (!(await page.evaluate(() => document.activeElement?.tagName === "H2"))) failures.push("detail action did not restore focus to the new heading");
   const drillTransform = await page.locator(".constellation-map").getAttribute("transform");
   const drillScale = Number(drillTransform?.match(/scale\(([^)]+)\)/)?.[1] ?? 0);
   if (drillScale < relationshipScale || drillScale > 4.3) failures.push(`staged drill-down zoom is outside its bounded range: ${drillScale}`);
-  await page.locator("#focus-relations").click();
+  await page.locator(".detail-actions .secondary-button").filter({ hasText: "Show relations" }).click();
+  await page.waitForFunction(() => document.activeElement?.tagName === "H2");
   const relationNodes = await page.locator("#atlas-svg .relation-star").count();
   const relationLines = await page.locator("#atlas-svg .local-relation-line").count();
   if (relationNodes < 2 || relationLines < 1 || relationNodes > 25) {
@@ -101,6 +103,10 @@ if (!connected) {
   await relationTarget.press("Enter");
   if (!(await relationTarget.evaluate((node) => node.isConnected && node === document.activeElement))) {
     failures.push("relation-map focus was detached during keyboard activation");
+  }
+  await page.keyboard.press("Escape");
+  if ((await page.locator("#atlas-svg .relation-prompt").count()) !== 1 || (await page.locator("#atlas-svg .relation-star").count()) !== 0) {
+    failures.push("Escape left stale relation-map content after clearing the selection");
   }
 }
 
@@ -142,7 +148,11 @@ if ((await page.locator("#search").inputValue()) !== "Ankka" || !(await page.loc
 }
 await page.locator("#search").fill("no-source-or-corpus-record");
 if (!(await page.locator(".research-empty").isVisible())) failures.push("research search has no zero-result recovery");
-await page.locator("#search").fill("");
+await page.locator("#search").fill("Ankka");
+await page.locator("#reset-view").click();
+if ((await page.locator("#search").inputValue()) || (await page.locator(".research-table tbody tr").count()) !== sourceRows || !(await page.locator("#search-results").isHidden())) {
+  failures.push("Reset left stale research or discovery search state");
+}
 
 const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
 mobile.on("pageerror", (error) => failures.push(`mobile pageerror: ${error.message}`));
@@ -157,6 +167,25 @@ await mobile.locator(".mobile-detail-close").click();
 if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")) || !(await mobile.locator("#focus-banner").isVisible()) || (await mobile.locator("#atlas-svg .is-selected").count()) !== 1 || !(await mobile.locator("#atlas-svg .is-selected").evaluate((node) => node === document.activeElement))) {
   failures.push("closing the mobile detail drawer discarded the search focus");
 }
+await mobile.locator('[data-view="catalogue"]').click();
+await mobile.locator(".mobile-detail-close").click();
+await mobile.locator(".concept-card").first().click();
+await mobile.locator(".mobile-detail-close").click();
+if (!(await mobile.locator(".concept-card").first().evaluate((node) => node === document.activeElement))) {
+  failures.push("catalogue detail close focused a stale hidden map control");
+}
+
+const midWidth = await browser.newPage({ viewport: { width: 1000, height: 900 } });
+await midWidth.goto(appUrl, { waitUntil: "networkidle" });
+await midWidth.locator("#loading").waitFor({ state: "detached" });
+const midWidthOverflow = await midWidth.evaluate(() => ({
+  clientWidth: document.documentElement.clientWidth,
+  scrollWidth: document.documentElement.scrollWidth,
+}));
+if (midWidthOverflow.scrollWidth > midWidthOverflow.clientWidth + 1) {
+  failures.push(`mid-width layout overflows horizontally: ${JSON.stringify(midWidthOverflow)}`);
+}
+await midWidth.close();
 
 await browser.close();
 
