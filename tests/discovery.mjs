@@ -12,6 +12,13 @@ const reviewLedgers = await Promise.all(
 );
 const appUrl = process.env.FANTASY_TEST_URL ?? "http://127.0.0.1:5173/";
 const failures = [];
+const foldContractValue = (value) => [...String(value)
+  .normalize("NFKD")
+  .replace(/\p{Mark}/gu, "")
+  .toLocaleLowerCase()]
+  .map((character) => discovery.meta.foldingMap?.[character] ?? character)
+  .join("")
+  .replace(/[^\p{Letter}\p{Number}]/gu, "");
 
 if (discovery.meta.scope?.kind !== "bounded-accepted-research-corpus") {
   failures.push("discovery index does not declare the accepted bounded corpus scope");
@@ -24,6 +31,15 @@ if (JSON.stringify(discovery.meta.dimensionLabels) !== JSON.stringify(research.d
 }
 if (discovery.records.some((record) => Object.hasOwn(record, "searchText"))) {
   failures.push("discovery index still carries the unused searchText payload");
+}
+const missingAuditSourceTitles = research.sources.filter((audit) => {
+  const sourceRecord = discovery.records.find((record) => record.id === `source:${audit.source_id}`);
+  const foldedAuditTitle = foldContractValue(audit.source_title);
+  return !sourceRecord?.searchFields.some(([label, foldedValue]) =>
+    label === "source / series" && foldedValue === foldedAuditTitle);
+});
+if (missingAuditSourceTitles.length) {
+  failures.push(`validated audit source titles are not discoverable for ${missingAuditSourceTitles.map((audit) => audit.source_id).join(", ")}`);
 }
 const ankkaRecord = discovery.records.find((record) => record.id === "character:CHR-SRC162-001");
 const sanskritAsuraRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC277-004");
@@ -614,6 +630,29 @@ for (const label of ["Human and Near-Human Peoples", "Deities", "Warrior or Figh
   }
   const evidenceText = await page.locator(".detail-section").filter({ hasText: "Source evidence and examples" }).innerText();
   if (!evidenceText.includes("Character Example")) failures.push(`${label} detail sampling omitted character evidence`);
+}
+
+for (const [sourceId, auditTitle, corpusTitle] of [
+  ["SRC-087", "The Burning Kingdoms", "The Jasmine Throne"],
+  ["SRC-009", "The Thousand and One Nights", "One Thousand and One Nights"],
+]) {
+  await page.locator("#search").fill(auditTitle);
+  const sourceResult = page.locator(`.search-result[data-discovery-id="source:${sourceId}"]`).first();
+  try {
+    await sourceResult.waitFor({ state: "visible", timeout: 3_000 });
+  } catch {
+    failures.push(`${auditTitle} did not return its accepted source record`);
+    continue;
+  }
+  const sourceResultText = await sourceResult.innerText();
+  if (!sourceResultText.includes(`Source / series · ${corpusTitle}`) || !sourceResultText.includes("Matched source / series")) {
+    failures.push(`${auditTitle} did not explain its source / series alias match: ${sourceResultText}`);
+  }
+  await sourceResult.click();
+  const sourceWhy = await page.locator(".detail-section").filter({ hasText: "Why this matched" }).first().innerText();
+  if (!sourceWhy.includes(auditTitle) || !sourceWhy.includes("source / series")) {
+    failures.push(`${auditTitle} detail did not preserve its source / series match context: ${sourceWhy}`);
+  }
 }
 
 await page.locator("#search").fill("The Once and Future King");

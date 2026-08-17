@@ -121,9 +121,18 @@ def source_work_label(audit: dict[str, Any]) -> str:
     return "; ".join(source_work_labels(audit))
 
 
-def source_fields(source: dict[str, Any]) -> list[list[Any]]:
+def source_identity_titles(source: dict[str, Any], audit: dict[str, Any]) -> list[str]:
+    return unique(
+        [
+            str(source.get("title", "")).strip(),
+            str(audit.get("source_title", "")).strip(),
+        ]
+    )
+
+
+def source_fields(source: dict[str, Any], audit: dict[str, Any]) -> list[list[Any]]:
     return [
-        field("source / series", source.get("title")),
+        *[field("source / series", title) for title in source_identity_titles(source, audit)],
         field("continuity", source.get("continuityUnit")),
         field("medium", source.get("medium")),
         field("region / tradition", source.get("region")),
@@ -180,6 +189,7 @@ def main() -> None:
 
     for character in research["characters"]:
         source = sources.get(str(character["source_id"]), {})
+        audit = audits.get(str(character["source_id"]), {})
         related_ids = concept_ids(
             [value for value in character.get("dimensions", {}).values() for value in value],
             valid_concept_ids,
@@ -189,7 +199,7 @@ def main() -> None:
         fields = [
             field("character", character.get("canonical_name")),
             *[field("alias", alias) for alias in character.get("aliases", [])],
-            *source_fields(source),
+            *source_fields(source, audit),
             field("continuity", character.get("continuity")),
             field("work / witness", character.get("work_or_witness")),
             *[
@@ -238,8 +248,9 @@ def main() -> None:
         if term_dimension in DIMENSION_LABELS:
             dimension_row_keys[term_dimension].add(f"source-term:{term['term_id']}")
         source = sources.get(str(term["source_id"]), {})
+        audit = audits.get(str(term["source_id"]), {})
         term_work = str(term.get("work_or_witness", "")).strip()
-        source_scope = source_work_label(audits.get(str(term["source_id"]), {}))
+        source_scope = source_work_label(audit)
         identity_forms = unique(
             [
                 canonical,
@@ -285,7 +296,7 @@ def main() -> None:
             field("transliteration", term.get("transliteration")),
             field("literal gloss", term.get("literal_gloss")),
             field(DIMENSION_LABELS.get(term.get("dimension", ""), term.get("dimension", "")), canonical),
-            *source_fields(source),
+            *source_fields(source, audit),
             field("work / witness", term_work),
             field("source-wide scope", source_scope),
             field("original language", term.get("original_language")),
@@ -325,6 +336,7 @@ def main() -> None:
         first = rows[0]
         first_character = first["character"]
         source = sources.get(source_id, {})
+        audit = audits.get(source_id, {})
         terms = [str(row["value"].get("term", "")).strip() for row in rows]
         display_term = terms[0]
         character_ids = unique([str(row["character"]["character_id"]) for row in rows])
@@ -347,7 +359,7 @@ def main() -> None:
         )
         fields = [
             field(DIMENSION_LABELS.get(dimension, dimension), display_term),
-            *source_fields(source),
+            *source_fields(source, audit),
             *[field("character", name) for name in character_names],
             *[
                 field("continuity", row["character"].get("continuity"))
@@ -400,8 +412,11 @@ def main() -> None:
         supporting = records_by_source.get(source_id, [])
         character_ids = sorted({character_id for record in supporting for character_id in record.get("characterIds", [])})
         related_ids = sorted(source_concepts.get(source_id, set()))
-        source_work = source_work_label(audits.get(source_id, {}))
-        fields = source_fields(source) + [
+        audit = audits.get(source_id, {})
+        identity_titles = source_identity_titles(source, audit)
+        source_work = source_work_label(audit)
+        fields = source_fields(source, audit) + [
+            *[field("alias", title) for title in identity_titles[1:]],
             field("work / witness", source_work),
             field("source id", source_id),
             field("first appearance", source.get("firstAppearance")),
@@ -412,7 +427,7 @@ def main() -> None:
                 "kind": "source",
                 "kindLabel": "Source / series",
                 "label": source["title"],
-                "aliases": [],
+                "aliases": identity_titles[1:],
                 "sourceId": source_id,
                 "sourceTitle": source["title"],
                 "dimension": "source",
