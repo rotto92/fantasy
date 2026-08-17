@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC189-001",
     "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · Product header: Red Hook Studios developer/publisher and 19 Jan 2016 release date",
     "canonical_term": "Darkest Dungeon original base-game witness",
     "original_language": "English video-game product lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC189-002",
     "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · Product overview",
     "canonical_term": "psychological-stress gothic-horror expedition",
     "original_language": "English game-premise lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC189-003",
     "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · Affliction System",
     "canonical_term": "Affliction System",
     "original_language": "English game-system lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC189-004",
     "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · About This Game: hero classes; permanent death; procedural dungeons; Darkest Dungeon · Product overview",
     "canonical_term": "hero-class and procedural-roster boundary",
     "original_language": "English player-roster lexicon",
     "original_script": "",
@@ -105,6 +109,7 @@
   {
     "term_id": "STM-SRC189-005",
     "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · About This Game: town recovery and camp feature list",
     "canonical_term": "town recovery and camp preparation",
     "original_language": "English game-loop lexicon",
     "original_script": "",
@@ -129,6 +134,7 @@
   {
     "term_id": "STM-SRC189-006",
     "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · Reclaim Your Ancestor's Estate; The Crimson Court section; Darkest Dungeon · About This Game: narration system",
     "canonical_term": "Ancestor's estate and narration framing boundary",
     "original_language": "English narrative-framing lexicon",
     "original_script": "",
@@ -160,6 +166,7 @@
   {
     "term_id": "STM-SRC189-007",
     "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · The Crimson Court and The Fire's Edge sections; Darkest Dungeon · Bundles and downloadable-content sections",
     "canonical_term": "DLC, sequel, and post-release boundary",
     "original_language": "English product-continuity lexicon",
     "original_script": "",

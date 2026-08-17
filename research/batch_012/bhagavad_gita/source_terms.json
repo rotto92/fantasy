@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC278-001",
     "source_id": "SRC-278",
+    "work_or_witness": "Bhagavad Gītā 2.7, Sanskrit root verse",
     "canonical_term": "dharma",
     "original_language": "Sanskrit",
     "original_script": "धर्म",
@@ -18,6 +19,7 @@
   {
     "term_id": "STM-SRC278-002",
     "source_id": "SRC-278",
+    "work_or_witness": "Bhagavad Gītā 2.48, Sanskrit root verse",
     "canonical_term": "yoga",
     "original_language": "Sanskrit",
     "original_script": "योग",
@@ -34,6 +36,7 @@
   {
     "term_id": "STM-SRC278-003",
     "source_id": "SRC-278",
+    "work_or_witness": "Bhagavad Gītā 2.48, Sanskrit root verse",
     "canonical_term": "karma",
     "original_language": "Sanskrit",
     "original_script": "कर्म",
@@ -50,6 +53,7 @@
   {
     "term_id": "STM-SRC278-004",
     "source_id": "SRC-278",
+    "work_or_witness": "Bhagavad Gītā 9.34, Sanskrit root verse",
     "canonical_term": "bhakti",
     "original_language": "Sanskrit",
     "original_script": "भक्ति",
@@ -66,6 +70,7 @@
   {
     "term_id": "STM-SRC278-005",
     "source_id": "SRC-278",
+    "work_or_witness": "Bhagavad Gītā 3.27, Sanskrit root verse",
     "canonical_term": "prakṛti and guṇa",
     "original_language": "Sanskrit",
     "original_script": "प्रकृति; गुण",
@@ -82,6 +87,7 @@
   {
     "term_id": "STM-SRC278-006",
     "source_id": "SRC-278",
+    "work_or_witness": "Bhagavad Gītā 11.8, Sanskrit root verse",
     "canonical_term": "divya cakṣus",
     "original_language": "Sanskrit",
     "original_script": "दिव्यं चक्षुः",
@@ -98,6 +104,7 @@
   {
     "term_id": "STM-SRC278-007",
     "source_id": "SRC-278",
+    "work_or_witness": "Bhagavad Gītā 11.8, Sanskrit root verse",
     "canonical_term": "aiśvara yoga",
     "original_language": "Sanskrit",
     "original_script": "योगमैश्वरम्",

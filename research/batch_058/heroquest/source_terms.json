@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC121-001",
     "source_id": "SRC-121",
+    "work_or_witness": "HeroQuest Game System · Product Info; Mythical Heroes",
     "canonical_term": "hero roles",
     "original_language": "English",
     "original_script": "",
@@ -18,6 +19,7 @@
   {
     "term_id": "STM-SRC121-002",
     "source_id": "SRC-121",
+    "work_or_witness": "HeroQuest Game System · Product Info",
     "canonical_term": "dungeon crawl",
     "original_language": "English",
     "original_script": "",
@@ -34,6 +36,7 @@
   {
     "term_id": "STM-SRC121-003",
     "source_id": "SRC-121",
+    "work_or_witness": "HeroQuest Game System · Product Info",
     "canonical_term": "semi-cooperative play",
     "original_language": "English",
     "original_script": "",
@@ -50,6 +53,7 @@
   {
     "term_id": "STM-SRC121-004",
     "source_id": "SRC-121",
+    "work_or_witness": "HeroQuest Game System · Product Info; Limitless Replayability",
     "canonical_term": "quests",
     "original_language": "English",
     "original_script": "",
@@ -66,6 +70,7 @@
   {
     "term_id": "STM-SRC121-005",
     "source_id": "SRC-121",
+    "work_or_witness": "HeroQuest Game System · Product Info; Stunning Artwork",
     "canonical_term": "monsters",
     "original_language": "English",
     "original_script": "",
@@ -82,6 +87,7 @@
   {
     "term_id": "STM-SRC121-006",
     "source_id": "SRC-121",
+    "work_or_witness": "HeroQuest Game System · A typical player turn using the companion app",
     "canonical_term": "movement and action turn",
     "original_language": "English",
     "original_script": "",
@@ -98,6 +104,7 @@
   {
     "term_id": "STM-SRC121-007",
     "source_id": "SRC-121",
+    "work_or_witness": "HeroQuest Game System · A typical player turn using the companion app",
     "canonical_term": "attack, defense, and body points",
     "original_language": "English",
     "original_script": "",
@@ -114,6 +121,7 @@
   {
     "term_id": "STM-SRC121-008",
     "source_id": "SRC-121",
+    "work_or_witness": "HeroQuest Game System · Digital Zargon",
     "canonical_term": "Digital Zargon",
     "original_language": "English",
     "original_script": "",

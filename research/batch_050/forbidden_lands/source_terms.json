@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC116-001",
     "source_id": "SRC-116",
+    "work_or_witness": "Forbidden Lands · Rogues & Raiders in a Cursed World",
     "canonical_term": "Forbidden Lands",
     "original_language": "English setting/game lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC116-002",
     "source_id": "SRC-116",
+    "work_or_witness": "Forbidden Lands Core Boxed Set · Core Boxed Set opening description",
     "canonical_term": "raiders and rogues",
     "original_language": "English game/setting lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC116-003",
     "source_id": "SRC-116",
+    "work_or_witness": "Forbidden Lands · The Game",
     "canonical_term": "hex-map exploration and journey procedures",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC116-004",
     "source_id": "SRC-116",
+    "work_or_witness": "Forbidden Lands · The Game: stronghold development",
     "canonical_term": "stronghold",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC116-005",
     "source_id": "SRC-116",
+    "work_or_witness": "Forbidden Lands Errata · Opening statement",
     "canonical_term": "fifth-printing core-set errata",
     "original_language": "English game-product lexicon",
     "original_script": "",

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC199-001",
     "source_id": "SRC-199",
+    "work_or_witness": "Claymore, Vol. 1 · Product metadata",
     "canonical_term": "Claymore, Vol. 1 English VIZ witness",
     "original_language": "English publication metadata",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC199-002",
     "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Series description; Claymore, Vol. 1 · Vol. 1 description",
     "canonical_term": "Yoma",
     "original_language": "English fictional term in the selected VIZ localization",
     "original_script": "",
@@ -57,6 +59,7 @@
   {
     "term_id": "STM-SRC199-003",
     "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Series description",
     "canonical_term": "Claymores",
     "original_language": "English fictional organization/warrior term",
     "original_script": "",
@@ -81,6 +84,7 @@
   {
     "term_id": "STM-SRC199-004",
     "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Series heading and description",
     "canonical_term": "sword-wielding women-warrior presentation",
     "original_language": "English publisher-description lexicon",
     "original_script": "",
@@ -105,6 +109,7 @@
   {
     "term_id": "STM-SRC199-005",
     "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Series description",
     "canonical_term": "humanity-loss transformation risk",
     "original_language": "English fictional transformation lexicon",
     "original_script": "",
@@ -129,6 +134,7 @@
   {
     "term_id": "STM-SRC199-006",
     "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Creator biography; Claymore Manga product list",
     "canonical_term": "anime, video-game, and later-volume boundary",
     "original_language": "English publication-continuity lexicon",
     "original_script": "",

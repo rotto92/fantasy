@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC198-001",
     "source_id": "SRC-198",
+    "work_or_witness": "Fullmetal Alchemist · official series description",
     "canonical_term": "alchemy",
     "original_language": "English",
     "original_script": "alchemy",
@@ -18,6 +19,7 @@
   {
     "term_id": "STM-SRC198-002",
     "source_id": "SRC-198",
+    "work_or_witness": "Japanese Fullmetal Alchemist Vol. 1 official product synopsis",
     "canonical_term": "human transmutation",
     "original_language": "Japanese",
     "original_script": "人体錬成",
@@ -34,6 +36,7 @@
   {
     "term_id": "STM-SRC198-003",
     "source_id": "SRC-198",
+    "work_or_witness": "Fullmetal Alchemist · official series description",
     "canonical_term": "automail",
     "original_language": "English",
     "original_script": "auto-mail",
@@ -50,6 +53,7 @@
   {
     "term_id": "STM-SRC198-004",
     "source_id": "SRC-198",
+    "work_or_witness": "Fullmetal Alchemist · Fullmetal Edition, Vol. 1 synopsis",
     "canonical_term": "Philosopher's Stone",
     "original_language": "English",
     "original_script": "Philosopher's Stone",
@@ -66,6 +70,7 @@
   {
     "term_id": "STM-SRC198-005",
     "source_id": "SRC-198",
+    "work_or_witness": "Fullmetal Alchemist · official series description",
     "canonical_term": "State Alchemist",
     "original_language": "English",
     "original_script": "State Alchemist",
@@ -82,6 +87,7 @@
   {
     "term_id": "STM-SRC198-006",
     "source_id": "SRC-198",
+    "work_or_witness": "Fullmetal Alchemist · Fullmetal Edition, Vol. 1 synopsis",
     "canonical_term": "soul in a suit of armor",
     "original_language": "English",
     "original_script": "soul in a suit of armor",
@@ -98,6 +104,7 @@
   {
     "term_id": "STM-SRC198-007",
     "source_id": "SRC-198",
+    "work_or_witness": "Fullmetal Alchemist · Fullmetal Edition, Vol. 1 bibliographic metadata; Fullmetal Alchemist · VIZ shop product description",
     "canonical_term": "Fullmetal Edition, Vol. 1",
     "original_language": "English",
     "original_script": "Fullmetal Alchemist: Fullmetal Edition, Vol. 1",

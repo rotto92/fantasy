@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC095-001",
     "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’ and Sigil and the Outlands description",
     "canonical_term": "Sigil, the City of Doors",
     "original_language": "English D&D setting terminology",
     "original_script": "Sigil, the City of Doors",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC095-002",
     "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
     "canonical_term": "Outlands",
     "original_language": "English D&D setting terminology",
     "original_script": "Outlands",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC095-003",
     "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’",
     "canonical_term": "Outer Planes",
     "original_language": "English D&D setting terminology",
     "original_script": "Outer Planes",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC095-004",
     "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
     "canonical_term": "gate-towns",
     "original_language": "English D&D setting terminology",
     "original_script": "gate-towns",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC095-005",
     "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
     "canonical_term": "factions",
     "original_language": "English D&D setting terminology",
     "original_script": "factions",
@@ -122,6 +127,7 @@
   {
     "term_id": "STM-SRC095-006",
     "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’",
     "canonical_term": "portals",
     "original_language": "English D&D setting terminology",
     "original_script": "portals",

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC107-001",
     "source_id": "SRC-107",
+    "work_or_witness": "Shadowrun: Sixth World Core Rulebook, City Edition: Hong Kong · Product Description: Shadowrun, Sixth World; In 2080",
     "canonical_term": "Sixth World",
     "original_language": "English setting lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC107-002",
     "source_id": "SRC-107",
+    "work_or_witness": "Shadowrun: Sixth World Core Rulebook, City Edition: Hong Kong · Product Description: Risk Is the Reward",
     "canonical_term": "shadowrunners",
     "original_language": "English setting/game lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC107-003",
     "source_id": "SRC-107",
+    "work_or_witness": "Shadowrun: Sixth World Core Rulebook, City Edition: Hong Kong · Product Description: Risk Is the Reward",
     "canonical_term": "megacorps",
     "original_language": "English setting lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC107-004",
     "source_id": "SRC-107",
+    "work_or_witness": "Shadowrun: Sixth World Core Rulebook, City Edition: Hong Kong · Product Description: character possibilities",
     "canonical_term": "elf shaman / ork street samurai / dwarf rigger",
     "original_language": "English game-product lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC107-005",
     "source_id": "SRC-107",
+    "work_or_witness": "Shadowrun: Sixth World Core Rulebook, City Edition: Hong Kong · Product Description: City Edition: Hong Kong",
     "canonical_term": "updated Sixth World rules content",
     "original_language": "English product/rules lexicon",
     "original_script": "",

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC130-001",
     "source_id": "SRC-130",
+    "work_or_witness": "Final Fantasy Tactics · Story description",
     "canonical_term": "獵子戦争",
     "original_language": "Japanese",
     "original_script": "獵子戦争",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC130-002",
     "source_id": "SRC-130",
+    "work_or_witness": "Final Fantasy Tactics · Edition introduction (new movies and new jobs); Final Fantasy Tactics · Book description (new-job added elements)",
     "canonical_term": "ジョブ",
     "original_language": "Japanese",
     "original_script": "ジョブ",
@@ -57,6 +59,7 @@
   {
     "term_id": "STM-SRC130-003",
     "source_id": "SRC-130",
+    "work_or_witness": "Final Fantasy Tactics · Story description (国家イヴァリース)",
     "canonical_term": "イヴァリース",
     "original_language": "Japanese",
     "original_script": "イヴァリース",

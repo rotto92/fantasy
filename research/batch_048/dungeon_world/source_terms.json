@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC112-001",
     "source_id": "SRC-112",
+    "work_or_witness": "Dungeon World: About the Game · About the Game opening",
     "canonical_term": "Play to find out what happens",
     "original_language": "English game-design lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC112-002",
     "source_id": "SRC-112",
+    "work_or_witness": "Dungeon World: About the Game · Gamemaster's Toolkit",
     "canonical_term": "Moves",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC112-003",
     "source_id": "SRC-112",
+    "work_or_witness": "Dungeon World: About the Game · Gamemaster's Toolkit",
     "canonical_term": "Fronts",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC112-004",
     "source_id": "SRC-112",
+    "work_or_witness": "Dungeon World: About the Game · Gamemaster's Toolkit",
     "canonical_term": "Agenda",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC112-005",
     "source_id": "SRC-112",
+    "work_or_witness": "Dungeon World: About the Game · Open License",
     "canonical_term": "Creative Commons Attribution license",
     "original_language": "English licensing lexicon",
     "original_script": "",

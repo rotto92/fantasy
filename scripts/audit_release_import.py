@@ -28,11 +28,22 @@ EXCLUDED_PREFIXES = (
 )
 EXCLUDED_SUFFIXES = (".pyc", ".pyo", ".swp", ".swo", ".tmp")
 
-PRIVATE_KEY_PATTERN = re.compile("-" * 5 + r"BEGIN [A-Z ]+ PRIVATE KEY" + "-" * 5)
+PRIVATE_KEY_PATTERN = re.compile("-" * 5 + r"BEGIN (?:[A-Z ]+ PRIVATE KEY|PGP PRIVATE KEY BLOCK)" + "-" * 5)
 TOKEN_PATTERNS = (
-    ("cloud-access-key", re.compile(r"\bAKIA[0-9A-Z]{16}\b")),
+    ("cloud-access-key", re.compile(r"\b(?:AKIA|ASIA)[0-9A-Z]{16}\b")),
     ("github-token", re.compile(r"\bgh[pousr]_[A-Za-z0-9_]{20,}\b")),
+    ("gitlab-token", re.compile(r"\bglpat-[A-Za-z0-9_-]{20,}\b")),
+    ("npm-token", re.compile(r"\bnpm_[A-Za-z0-9]{36}\b")),
+    ("stripe-live-secret", re.compile(r"\bsk_live_[A-Za-z0-9]{16,}\b")),
     ("slack-token", re.compile(r"\bxox[baprs]-[A-Za-z0-9-]{20,}\b")),
+    ("jwt-token", re.compile(r"\beyJ[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}\b")),
+)
+BEARER_TOKEN_PATTERN = re.compile(
+    r"(?i)\bbearer\s+[A-Za-z0-9._~+/=-]{24,}"
+)
+CREDENTIAL_URL_PATTERN = re.compile(
+    r"\b(?:https?|postgres(?:ql)?|mysql|mongodb(?:\+srv)?|redis|amqps?)://[^\s:/?#]+:[^@\s/?#]{4,}@[^\s/]+",
+    re.IGNORECASE,
 )
 EMAIL_PATTERN = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
 LOCAL_PATH_PATTERN = re.compile(
@@ -103,6 +114,10 @@ def scan_text(path: Path, text: str) -> list[dict[str, str]]:
     for label, pattern in TOKEN_PATTERNS:
         if pattern.search(text):
             findings.append(finding(path, label, "credential token pattern"))
+    if BEARER_TOKEN_PATTERN.search(text):
+        findings.append(finding(path, "bearer-token", "authorization bearer credential"))
+    if CREDENTIAL_URL_PATTERN.search(text):
+        findings.append(finding(path, "credential-url", "credential-bearing URL"))
     if EMAIL_PATTERN.search(text):
         findings.append(finding(path, "personal-data", "email address"))
     if LOCAL_PATH_PATTERN.search(text) or LOCAL_FILE_URL_PATTERN.search(text):

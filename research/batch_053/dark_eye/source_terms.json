@@ -1,42 +1,42 @@
 [
   {
-    "term_id":"STM-SRC109-001","source_id":"SRC-109","canonical_term":"Aventuria","original_language":"English The Dark Eye setting terminology","original_script":"Aventuria","transliteration":"not applicable","literal_gloss":"fictional game continent","dimension":"cosmologies_and_realms","archetype_ids":[],"mapping_relation":"none",
+    "term_id":"STM-SRC109-001","source_id":"SRC-109","work_or_witness":"The Dark Eye · Official English line overview, ‘Aventuria’ and ‘The Core Rules’ sections","canonical_term":"Aventuria","original_language":"English The Dark Eye setting terminology","original_script":"Aventuria","transliteration":"not applicable","literal_gloss":"fictional game continent","dimension":"cosmologies_and_realms","archetype_ids":[],"mapping_relation":"none",
     "definition":"The continent and principal game-setting context introduced by the English Core Rules.",
     "cultural_caution":"A fictional setting location, not a real continent, a character endpoint, or an exhaustive claim about every Aventurian publication or localization.",
     "citations":[{"url":"https://ulisses-us.com/games/tde/","locator":"Official English line overview, ‘Aventuria’ and ‘The Core Rules’ sections","supports":["Aventuria as the selected English Core Rules setting context."]}],"review_status":"researched"
   },
   {
-    "term_id":"STM-SRC109-002","source_id":"SRC-109","canonical_term":"Dere","original_language":"English The Dark Eye setting terminology","original_script":"Dere","transliteration":"not applicable","literal_gloss":"fictional setting world","dimension":"cosmologies_and_realms","archetype_ids":[],"mapping_relation":"none",
+    "term_id":"STM-SRC109-002","source_id":"SRC-109","work_or_witness":"The Dark Eye · Official English line overview, ‘Aventuria’ section","canonical_term":"Dere","original_language":"English The Dark Eye setting terminology","original_script":"Dere","transliteration":"not applicable","literal_gloss":"fictional setting world","dimension":"cosmologies_and_realms","archetype_ids":[],"mapping_relation":"none",
     "definition":"The fictional world in which the official English overview locates the continent of Aventuria.",
     "cultural_caution":"A fictional cosmology/world term, not a claim about Earth, real cosmology, or the world model of every TDE edition or game adaptation.",
     "citations":[{"url":"https://ulisses-us.com/games/tde/","locator":"Official English line overview, ‘Aventuria’ section","supports":["Dere as the setting-world context for Aventuria."]}],"review_status":"researched"
   },
   {
-    "term_id":"STM-SRC109-003","source_id":"SRC-109","canonical_term":"species","original_language":"English The Dark Eye character-creation terminology","original_script":"Species","transliteration":"not applicable","literal_gloss":"fictional character-origin category","dimension":"being_types","archetype_ids":[],"mapping_relation":"mechanical",
+    "term_id":"STM-SRC109-003","source_id":"SRC-109","work_or_witness":"The Dark Eye · Official English line overview, Core Rules species section and Core Rules overview","canonical_term":"species","original_language":"English The Dark Eye character-creation terminology","original_script":"Species","transliteration":"not applicable","literal_gloss":"fictional character-origin category","dimension":"being_types","archetype_ids":[],"mapping_relation":"mechanical",
     "definition":"A character-creation category presented in the English Core Rules overview alongside culture and profession.",
     "cultural_caution":"A fictional game category, not a real-world racial taxonomy, a collective character endpoint, or a claim about real biological or cultural identity.",
     "citations":[{"url":"https://ulisses-us.com/games/tde/","locator":"Official English line overview, Core Rules species section and Core Rules overview","supports":["Species as a selected English Core Rules character-creation category."]}],"review_status":"researched"
   },
   {
-    "term_id":"STM-SRC109-004","source_id":"SRC-109","canonical_term":"cultures","original_language":"English The Dark Eye character-creation terminology","original_script":"cultures","transliteration":"not applicable","literal_gloss":"fictional social-origin category","dimension":"cultures","archetype_ids":[],"mapping_relation":"mechanical",
+    "term_id":"STM-SRC109-004","source_id":"SRC-109","work_or_witness":"The Dark Eye · Official English line overview, Core Rules overview and culture sections","canonical_term":"cultures","original_language":"English The Dark Eye character-creation terminology","original_script":"cultures","transliteration":"not applicable","literal_gloss":"fictional social-origin category","dimension":"cultures","archetype_ids":[],"mapping_relation":"mechanical",
     "definition":"A character-creation and setting category presented in the English Core Rules overview.",
     "cultural_caution":"A fictional game-setting category. It does not establish facts about real ethnic groups, nations, cultures, or historical societies, and limited core coverage is not an exhaustive depiction of Aventuria.",
     "citations":[{"url":"https://ulisses-us.com/games/tde/","locator":"Official English line overview, Core Rules overview and culture sections","supports":["Cultures as selected English Core Rules setting/character categories."]}],"review_status":"researched"
   },
   {
-    "term_id":"STM-SRC109-005","source_id":"SRC-109","canonical_term":"professions","original_language":"English The Dark Eye character-creation terminology","original_script":"Professions","transliteration":"not applicable","literal_gloss":"character education/vocation category","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"mechanical",
+    "term_id":"STM-SRC109-005","source_id":"SRC-109","work_or_witness":"The Dark Eye · Official English line overview, ‘Professions’ section","canonical_term":"professions","original_language":"English The Dark Eye character-creation terminology","original_script":"Professions","transliteration":"not applicable","literal_gloss":"character education/vocation category","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"mechanical",
     "definition":"The core-rule category reflecting a hero’s education and associated skills, combat techniques, special abilities, and statistics.",
     "cultural_caution":"A fictional character-building category, not a real occupation, status judgment, or a named character endpoint.",
     "citations":[{"url":"https://ulisses-us.com/games/tde/","locator":"Official English line overview, ‘Professions’ section","supports":["Profession as the selected Core Rules character-education category."]}],"review_status":"researched"
   },
   {
-    "term_id":"STM-SRC109-006","source_id":"SRC-109","canonical_term":"Magical Professions","original_language":"English The Dark Eye character-creation terminology","original_script":"Magical Professions","transliteration":"not applicable","literal_gloss":"spellcaster profession category","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"mechanical",
+    "term_id":"STM-SRC109-006","source_id":"SRC-109","work_or_witness":"The Dark Eye · Official English line overview, ‘Professions’ section","canonical_term":"Magical Professions","original_language":"English The Dark Eye character-creation terminology","original_script":"Magical Professions","transliteration":"not applicable","literal_gloss":"spellcaster profession category","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"mechanical",
     "definition":"A profession category that the English Core Rules overview says is available when a hero takes the Spellcaster advantage.",
     "cultural_caution":"A source-specific tabletop category, not a real magic-practice claim, an inherent trait, or a named individual endpoint.",
     "citations":[{"url":"https://ulisses-us.com/games/tde/","locator":"Official English line overview, ‘Professions’ section","supports":["Magical Professions and their stated Spellcaster-advantage condition."]}],"review_status":"researched"
   },
   {
-    "term_id":"STM-SRC109-007","source_id":"SRC-109","canonical_term":"Blessed Professions","original_language":"English The Dark Eye character-creation terminology","original_script":"Blessed Professions","transliteration":"not applicable","literal_gloss":"divine-profession category","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"mechanical",
+    "term_id":"STM-SRC109-007","source_id":"SRC-109","work_or_witness":"The Dark Eye · Official English line overview, ‘Professions’ section","canonical_term":"Blessed Professions","original_language":"English The Dark Eye character-creation terminology","original_script":"Blessed Professions","transliteration":"not applicable","literal_gloss":"divine-profession category","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"mechanical",
     "definition":"A profession category that the English Core Rules overview says is available when a hero takes the Blessed advantage.",
     "cultural_caution":"A fictional game category involving Aventurian divine powers, not a real religious office, a claim about living faiths, or a deity/character endpoint.",
     "citations":[{"url":"https://ulisses-us.com/games/tde/","locator":"Official English line overview, ‘Professions’ section","supports":["Blessed Professions and their stated Blessed-advantage condition."]}],"review_status":"researched"

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC047-001",
     "source_id": "SRC-047",
+    "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · Orbit edition page: contributors, on-sale date, publisher, ISBN-13, and ‘Translated from original Polish by Danusia Stok’",
     "canonical_term": "The Last Wish (Orbit 2022, Danusia Stok translation)",
     "original_language": "English",
     "original_script": "The Last Wish",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC047-002",
     "source_id": "SRC-047",
+    "work_or_witness": "publisher description, paragraphs beginning ‘Geralt the Witcher’ and ‘Geralt is a Witcher’; The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
     "canonical_term": "witcher",
     "original_language": "English",
     "original_script": "Witcher",
@@ -57,6 +59,7 @@
   {
     "term_id": "STM-SRC047-003",
     "source_id": "SRC-047",
+    "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · publisher description, ‘monsters plaguing humanity’ and ‘monsters that plague the world’ wording; The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
     "canonical_term": "monster",
     "original_language": "English",
     "original_script": "monsters",
@@ -88,6 +91,7 @@
   {
     "term_id": "STM-SRC047-004",
     "source_id": "SRC-047",
+    "work_or_witness": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
     "canonical_term": "Wyzima",
     "original_language": "English",
     "original_script": "Wyzima",
@@ -112,6 +116,7 @@
   {
     "term_id": "STM-SRC047-005",
     "source_id": "SRC-047",
+    "work_or_witness": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
     "canonical_term": "striga",
     "original_language": "English",
     "original_script": "striga",
@@ -136,6 +141,7 @@
   {
     "term_id": "STM-SRC047-006",
     "source_id": "SRC-047",
+    "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · publisher description, paragraph beginning ‘Geralt is a Witcher’",
     "canonical_term": "mysterious elixir",
     "original_language": "English",
     "original_script": "mysterious elixir",

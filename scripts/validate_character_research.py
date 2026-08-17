@@ -385,6 +385,7 @@ def main() -> None:
                 "term_id",
                 "source_id",
                 "canonical_term",
+                "work_or_witness",
                 "dimension",
                 "archetype_ids",
                 "mapping_relation",
@@ -400,6 +401,11 @@ def main() -> None:
         term_count_by_source[str(record.get("source_id", ""))] += 1
         if record.get("source_id") not in sources_by_id:
             errors.append(f"{context}: unknown Source_ID {record.get('source_id')}")
+        work_or_witness = record.get("work_or_witness")
+        if not isinstance(work_or_witness, str) or not work_or_witness.strip():
+            errors.append(f"{context}: work_or_witness must be a non-empty string")
+        elif not any(character.isalpha() for character in work_or_witness):
+            errors.append(f"{context}: work_or_witness must identify the claim-specific work or witness")
         if record.get("dimension") not in DIMENSIONS:
             errors.append(f"{context}: invalid dimension {record.get('dimension')}")
         archetype_ids = record.get("archetype_ids")

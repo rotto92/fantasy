@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC110-001",
     "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings Roleplaying Core Rulebook · Core Rulebook: Honor is Stronger than Steel",
     "canonical_term": "Rokugan / Emerald Empire",
     "original_language": "English setting lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC110-002",
     "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings Roleplaying Core Rulebook · Core Rulebook setting description: duty in service to lord, Clan, and Emperor",
     "canonical_term": "samurai",
     "original_language": "Japanese-derived setting lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC110-003",
     "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings Roleplaying Core Rulebook · Enter Rokugan: Emerald Empire and seven Great Clans",
     "canonical_term": "Great Clans",
     "original_language": "English setting lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC110-004",
     "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings · The Role of the Five Rings",
     "canonical_term": "Ring Values / elemental approaches",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC110-005",
     "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings · Craft Your Story: Game of 20 Questions",
     "canonical_term": "Game of Twenty Questions",
     "original_language": "English game-rules lexicon",
     "original_script": "",

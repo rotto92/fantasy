@@ -2,7 +2,7 @@
   "meta": {
     "title": "Fantasy Concept Constellations",
     "version": "5.0-concept-constellations",
-    "sourceFingerprint": "sha256:69cfde3d8ebd53c9180a45e6c576e003b742d17fb32f6bffca41925f8c463245",
+    "sourceFingerprint": "sha256:d48758093e3576d514c45ee3a1f5b35d56b1822549b9a458391b213ca11210b6",
     "visualContract": "Every graph node is a normalized being/race/entity or class/vocation archetype. Characters and sources are evidence, never nodes.",
     "counts": {
       "nodes": 482,
@@ -174,7 +174,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
-          "work": "9.105–566",
+          "work": "Homer, Odyssey · 9.105–566",
           "reviewStatus": "researched",
           "caution": "Hesiodic smith Cyclopes and Homeric Polyphemus are not identical social types."
         },
@@ -318,7 +318,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Character and relationship claims cite Christenson’s scholarly translation/commentary at part and page level; a second Christenson primary transcription is used only where its folio/line text directly confirms a recorded K’iche’ form. Source terms retain K’iche’ forms and mark translation/cultural cautions. The edition is used as a translation/transcription witness, not as a substitute for living K’iche’ authority.",
           "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
-          "work": "Part 4: creation of people; Christenson 2007, pp. 156–176",
+          "work": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 4: creation of people; Christenson 2007, pp. 156–176",
           "reviewStatus": "researched",
           "caution": "Do not read narrative maize creation as modern biological race taxonomy."
         },
@@ -994,7 +994,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
           "url": "https://encykorea.aks.ac.kr/Article/E0036434",
-          "work": "Definition; Contents; Current status",
+          "work": "Collected oral-folktale types: Fox-Marble Tale and Dokkaebi tales · Definition; Contents; Current status",
           "reviewStatus": "researched",
           "caution": "Do not treat gumiho as a fixed ‘female fox monster,’ a universal Korean creature species, or an automatic analogue to Chinese or Japanese fox traditions. The recorded tales have variants and specific social contexts."
         },
@@ -1042,7 +1042,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary tale text in a scholarly digital edition, with page-level locators. The bibliographic record identifies the edition and pages. The pass is complete only against the declared named-agent rule for no. 159.",
           "url": "https://feb-web.ru/feb/skazki/texts/af0/af1/af1-300-.htm?cmd=p",
-          "work": "no. 159, pp. 300, 303",
+          "work": "Марья Моревна [Marya Morevna], tale no. 159 · no. 159, pp. 300, 303",
           "reviewStatus": "researched",
           "caution": "These specific form changes should not be extrapolated into a shared Slavic animal-person race or a general shapeshifter class."
         },
@@ -1106,7 +1106,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://ctext.org/wiki.pl?chapter=866956&if=gb",
-          "work": "Pu Songling, Liaozhai zhiyi, “Yingning”",
+          "work": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Pu Songling, Liaozhai zhiyi, “Yingning”",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -1821,7 +1821,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character, relationship, and term has a section-level citation to CELT (Corpus of Electronic Texts), University College Cork's scholarly/institutional edition pages. The source audit cites edition records and records witness status.",
           "url": "https://celt.ucc.ie/published/T300010/text001.html",
-          "work": "section 1",
+          "work": "Irish Mythological Cycle · section 1",
           "reviewStatus": "researched",
           "caution": "Do not equate this medieval learned-literary group with a generic fae race."
         },
@@ -1869,7 +1869,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
           "url": "https://encykorea.aks.ac.kr/Article/E0019655",
-          "work": "Definition; Contents, conclusion; Contents",
+          "work": "Munjeonbonpuri and Chasabonpuri · Definition; Contents, conclusion; Korean Mythology and Folklore · Contents",
           "reviewStatus": "researched",
           "caution": "This does not make jowangsin a generic household-spirit race. Historical accounts also note Buddhist and Chinese associations, which remain separate contextual layers."
         },
@@ -1933,7 +1933,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
-          "work": "5.1–227",
+          "work": "Homer, Odyssey · 5.1–227",
           "reviewStatus": "researched",
           "caution": "Avoid reducing all nymphai to one fantasy species."
         },
@@ -2634,7 +2634,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://academic.oup.com/edited-volume/61799/chapter-abstract/546319250",
-          "work": "Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
+          "work": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -2682,7 +2682,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
           "url": "https://encykorea.aks.ac.kr/Article/E0055151",
-          "work": "Contents, opening explanation and Gangnim conclusion",
+          "work": "Korean Mythology and Folklore · Contents, opening explanation and Gangnim conclusion",
           "reviewStatus": "researched",
           "caution": "Psychopomp is only a functional comparison. Chasa belongs to a particular Jeju ritual narrative and its underworld administration, not a universal ‘reaper’ class."
         },
@@ -2746,7 +2746,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text records are limited to claim-specific Qur'anic passages. Two academic sources are used only to document the need to distinguish Qur'anic theology from later theological, folkloric, and literary formations; no folklore claim supplies a character record here.",
           "url": "https://quran.com/an-naml/39",
-          "work": "Qur'an 27:39",
+          "work": "Jinn Traditions · Qur'an 27:39",
           "reviewStatus": "researched",
           "caution": "This term is retained as a source term rather than turned into a character node or a fantasy 'efreet' subtype. Later literary and game uses are separate continuities."
         },
@@ -2794,7 +2794,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text records are limited to claim-specific Qur'anic passages. Two academic sources are used only to document the need to distinguish Qur'anic theology from later theological, folkloric, and literary formations; no folklore claim supplies a character record here.",
           "url": "https://quran.com/al-jinn/1",
-          "work": "Qur'an 72:1; Qur'an 72:14",
+          "work": "Jinn Traditions · Qur'an 72:1; Jinn Traditions · Qur'an 72:14",
           "reviewStatus": "researched",
           "caution": "Do not equate jinn with 'genies,' wish-granters, demons, or a single fantasy species. The term has Qur'anic, theological, literary, regional, and living-context histories that must remain distinguished."
         },
@@ -2993,7 +2993,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
-          "work": "104–115",
+          "work": "Hesiod, Theogony · 104–115",
           "reviewStatus": "researched",
           "caution": "Not a generic fantasy race."
         },
@@ -3089,7 +3089,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Kojiki uses the University of Virginia Japanese Text Initiative; Nihon Shoki uses an identified historical translation locator; Sekien records cite named catalogue entries with National Diet Library as the institutional reference. Each scope limitation is explicit.",
           "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
-          "work": "Book 1",
+          "work": "Kojiki · Book 1",
           "reviewStatus": "researched",
           "caution": "Not a generic deity species and not a substitute for Shinto practice."
         },
@@ -3185,7 +3185,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "BORI’s official metadata establishes the reference continuity. Individual narrative claims use the accessible Ganguli translation with parva/section locators and explicit non-equivalence warning; a future CE-Sanskrit/critical-translation check is required before source-critical integration.",
           "url": "https://sacred-texts.com/hin/maha/index.htm",
-          "work": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+          "work": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
           "reviewStatus": "researched",
           "caution": "Not a generic celestial species."
         },
@@ -3297,7 +3297,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Museum object documentation, UCL university teaching text, and Gardiner’s critical publication/Chester Beatty witness; citations retain witness/page/spell-frame distinctions.",
           "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
-          "work": "EA10470,3 frame 3",
+          "work": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · EA10470,3 frame 3",
           "reviewStatus": "researched",
           "caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category."
         },
@@ -3329,7 +3329,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://www.metmuseum.org/ja/essays/daoism-and-daoist-art",
-          "work": "Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
+          "work": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -3425,7 +3425,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records cite the exact Te Ara story page and named section/paragraph. Te Ara is an authoritative public encyclopedia, and its pages preserve the stated regional or named-source framing where relevant. This pass is complete only for the exact selected Te Ara reference episodes, counts, and coverage rule; it is not a claim of completion for living, diverse Māori traditions or any unselected iwi/hapū witness.",
           "url": "https://teara.govt.nz/en/traditional-maori-religion-nga-karakia-a-te-maori/page-1",
-          "work": "‘Ngā atua – the gods’, opening and §§ ‘Rangi, Papa and their children’ and ‘Other supernatural beings’, paras. 1–3",
+          "work": "Māori Mythology · ‘Ngā atua – the gods’, opening and §§ ‘Rangi, Papa and their children’ and ‘Other supernatural beings’, paras. 1–3",
           "reviewStatus": "needs-review",
           "caution": "Do not treat atua as a standardized fantasy pantheon, a species, or an exact equivalent of ‘god’; relationships, names, and meanings are witness- and community-specific."
         },
@@ -3537,7 +3537,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
-          "work": "132–138",
+          "work": "Hesiod, Theogony · 132–138",
           "reviewStatus": "researched",
           "caution": "The mapping is an analytical aid, not equivalence with modern 'titans'."
         },
@@ -3569,7 +3569,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://academic.oup.com/edited-volume/61799/chapter-abstract/546319250",
-          "work": "Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
+          "work": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -3870,7 +3870,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
           "url": "https://archive.org/details/shahnama02firduoft",
-          "work": "Vol. II, pp. 57–59, ‘The Sixth’ and ‘Seventh Course’ (Arzhang Dīv and White Dīv); DĪV, opening paragraphs and Shahnameh discussion",
+          "work": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. II, pp. 57–59, ‘The Sixth’ and ‘Seventh Course’ (Arzhang Dīv and White Dīv); Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · DĪV, opening paragraphs and Shahnameh discussion",
           "reviewStatus": "researched",
           "caution": "Do not equate dīv wholesale with a Western ‘demon,’ generic monster species, jinn, or historical ethnic group. Its meanings and portrayal vary across Iranian religious, literary, and folk contexts."
         },
@@ -4207,7 +4207,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text citations to the Bellows Poetic Edda and Brodeur Prose Edda translations, with poem/stanza or book/chapter locators; no Wikipedia, fan-wiki, or adaptation evidence used.",
           "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
-          "work": "Selected Eddic witness scope: no named draugr character record added",
+          "work": "Norse Mythology · Selected Eddic witness scope: no named draugr character record added",
           "reviewStatus": "needs-review",
           "caution": "Included as an unmixed terminology note because the workbook's SRC-002 orientation names it; a saga-specific pass is needed for character claims."
         },
@@ -4709,7 +4709,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
           "url": "https://archive.org/details/shahnama01firduoft",
-          "work": "Vol. I, pp. 239–251, ‘The Birth of Zal’ and his return; SIMORḠ, opening definition and pre-Islamic tradition discussion",
+          "work": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. I, pp. 239–251, ‘The Birth of Zal’ and his return; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · SIMORḠ, opening definition and pre-Islamic tradition discussion",
           "reviewStatus": "researched",
           "caution": "The functional ‘guardian beast’ mapping does not represent the full religious, literary, iconographic, or regional history of Simorgh/Sēnmurw."
         },
@@ -4773,7 +4773,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
-          "work": "Li Chaowei, Liu Yi zhuan",
+          "work": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Li Chaowei, Liu Yi zhuan",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -5272,7 +5272,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
           "url": "https://encykorea.aks.ac.kr/Article/E0036434",
-          "work": "Definition; Contents; Current status",
+          "work": "Collected oral-folktale types: Fox-Marble Tale and Dokkaebi tales · Definition; Contents; Current status",
           "reviewStatus": "researched",
           "caution": "Do not treat gumiho as a fixed ‘female fox monster,’ a universal Korean creature species, or an automatic analogue to Chinese or Japanese fox traditions. The recorded tales have variants and specific social contexts."
         },
@@ -5320,7 +5320,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary tale text in a scholarly digital edition, with page-level locators. The bibliographic record identifies the edition and pages. The pass is complete only against the declared named-agent rule for no. 159.",
           "url": "https://feb-web.ru/feb/skazki/texts/af0/af1/af1-300-.htm?cmd=p",
-          "work": "no. 159, pp. 300, 303",
+          "work": "Марья Моревна [Marya Morevna], tale no. 159 · no. 159, pp. 300, 303",
           "reviewStatus": "researched",
           "caution": "These specific form changes should not be extrapolated into a shared Slavic animal-person race or a general shapeshifter class."
         },
@@ -5368,7 +5368,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://ctext.org/wiki.pl?chapter=866956&if=gb",
-          "work": "Pu Songling, Liaozhai zhiyi, “Yingning”",
+          "work": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Pu Songling, Liaozhai zhiyi, “Yingning”",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -5961,7 +5961,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Character and relationship claims cite Christenson’s scholarly translation/commentary at part and page level; a second Christenson primary transcription is used only where its folio/line text directly confirms a recorded K’iche’ form. Source terms retain K’iche’ forms and mark translation/cultural cautions. The edition is used as a translation/transcription witness, not as a substitute for living K’iche’ authority.",
           "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
-          "work": "Part 4: creation of people; Christenson 2007, pp. 156–176",
+          "work": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 4: creation of people; Christenson 2007, pp. 156–176",
           "reviewStatus": "researched",
           "caution": "Do not read narrative maize creation as modern biological race taxonomy."
         },
@@ -8765,7 +8765,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
-          "work": "9.105–566",
+          "work": "Homer, Odyssey · 9.105–566",
           "reviewStatus": "researched",
           "caution": "Hesiodic smith Cyclopes and Homeric Polyphemus are not identical social types."
         }
@@ -9853,7 +9853,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
-          "work": "5.1–227",
+          "work": "Homer, Odyssey · 5.1–227",
           "reviewStatus": "researched",
           "caution": "Avoid reducing all nymphai to one fantasy species."
         }
@@ -9910,7 +9910,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
           "url": "https://encykorea.aks.ac.kr/Article/E0019655",
-          "work": "Definition; Contents, conclusion; Contents",
+          "work": "Munjeonbonpuri and Chasabonpuri · Definition; Contents, conclusion; Korean Mythology and Folklore · Contents",
           "reviewStatus": "researched",
           "caution": "This does not make jowangsin a generic household-spirit race. Historical accounts also note Buddhist and Chinese associations, which remain separate contextual layers."
         }
@@ -10377,7 +10377,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text records are limited to claim-specific Qur'anic passages. Two academic sources are used only to document the need to distinguish Qur'anic theology from later theological, folkloric, and literary formations; no folklore claim supplies a character record here.",
           "url": "https://quran.com/an-naml/39",
-          "work": "Qur'an 27:39",
+          "work": "Jinn Traditions · Qur'an 27:39",
           "reviewStatus": "researched",
           "caution": "This term is retained as a source term rather than turned into a character node or a fantasy 'efreet' subtype. Later literary and game uses are separate continuities."
         },
@@ -10393,7 +10393,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text records are limited to claim-specific Qur'anic passages. Two academic sources are used only to document the need to distinguish Qur'anic theology from later theological, folkloric, and literary formations; no folklore claim supplies a character record here.",
           "url": "https://quran.com/al-jinn/1",
-          "work": "Qur'an 72:1; Qur'an 72:14",
+          "work": "Jinn Traditions · Qur'an 72:1; Jinn Traditions · Qur'an 72:14",
           "reviewStatus": "researched",
           "caution": "Do not equate jinn with 'genies,' wish-granters, demons, or a single fantasy species. The term has Qur'anic, theological, literary, regional, and living-context histories that must remain distinguished."
         }
@@ -10435,7 +10435,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://academic.oup.com/edited-volume/61799/chapter-abstract/546319250",
-          "work": "Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
+          "work": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -10667,7 +10667,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
           "url": "https://encykorea.aks.ac.kr/Article/E0055151",
-          "work": "Contents, opening explanation and Gangnim conclusion",
+          "work": "Korean Mythology and Folklore · Contents, opening explanation and Gangnim conclusion",
           "reviewStatus": "researched",
           "caution": "Psychopomp is only a functional comparison. Chasa belongs to a particular Jeju ritual narrative and its underworld administration, not a universal ‘reaper’ class."
         }
@@ -10827,7 +10827,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
-          "work": "104–115",
+          "work": "Hesiod, Theogony · 104–115",
           "reviewStatus": "researched",
           "caution": "Not a generic fantasy race."
         },
@@ -10875,7 +10875,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Kojiki uses the University of Virginia Japanese Text Initiative; Nihon Shoki uses an identified historical translation locator; Sekien records cite named catalogue entries with National Diet Library as the institutional reference. Each scope limitation is explicit.",
           "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
-          "work": "Book 1",
+          "work": "Kojiki · Book 1",
           "reviewStatus": "researched",
           "caution": "Not a generic deity species and not a substitute for Shinto practice."
         },
@@ -10971,7 +10971,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records cite the exact Te Ara story page and named section/paragraph. Te Ara is an authoritative public encyclopedia, and its pages preserve the stated regional or named-source framing where relevant. This pass is complete only for the exact selected Te Ara reference episodes, counts, and coverage rule; it is not a claim of completion for living, diverse Māori traditions or any unselected iwi/hapū witness.",
           "url": "https://teara.govt.nz/en/traditional-maori-religion-nga-karakia-a-te-maori/page-1",
-          "work": "‘Ngā atua – the gods’, opening and §§ ‘Rangi, Papa and their children’ and ‘Other supernatural beings’, paras. 1–3",
+          "work": "Māori Mythology · ‘Ngā atua – the gods’, opening and §§ ‘Rangi, Papa and their children’ and ‘Other supernatural beings’, paras. 1–3",
           "reviewStatus": "needs-review",
           "caution": "Do not treat atua as a standardized fantasy pantheon, a species, or an exact equivalent of ‘god’; relationships, names, and meanings are witness- and community-specific."
         },
@@ -11067,7 +11067,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Museum object documentation, UCL university teaching text, and Gardiner’s critical publication/Chester Beatty witness; citations retain witness/page/spell-frame distinctions.",
           "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
-          "work": "EA10470,3 frame 3",
+          "work": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · EA10470,3 frame 3",
           "reviewStatus": "researched",
           "caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category."
         },
@@ -11115,7 +11115,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://academic.oup.com/edited-volume/61799/chapter-abstract/546319250",
-          "work": "Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
+          "work": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -11211,7 +11211,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "BORI’s official metadata establishes the reference continuity. Individual narrative claims use the accessible Ganguli translation with parva/section locators and explicit non-equivalence warning; a future CE-Sanskrit/critical-translation check is required before source-critical integration.",
           "url": "https://sacred-texts.com/hin/maha/index.htm",
-          "work": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+          "work": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
           "reviewStatus": "researched",
           "caution": "Not a generic celestial species."
         },
@@ -12177,7 +12177,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://www.metmuseum.org/ja/essays/daoism-and-daoist-art",
-          "work": "Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
+          "work": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -12305,7 +12305,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
-          "work": "132–138",
+          "work": "Hesiod, Theogony · 132–138",
           "reviewStatus": "researched",
           "caution": "The mapping is an analytical aid, not equivalence with modern 'titans'."
         },
@@ -12591,7 +12591,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
           "url": "https://archive.org/details/shahnama02firduoft",
-          "work": "Vol. II, pp. 57–59, ‘The Sixth’ and ‘Seventh Course’ (Arzhang Dīv and White Dīv); DĪV, opening paragraphs and Shahnameh discussion",
+          "work": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. II, pp. 57–59, ‘The Sixth’ and ‘Seventh Course’ (Arzhang Dīv and White Dīv); Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · DĪV, opening paragraphs and Shahnameh discussion",
           "reviewStatus": "researched",
           "caution": "Do not equate dīv wholesale with a Western ‘demon,’ generic monster species, jinn, or historical ethnic group. Its meanings and portrayal vary across Iranian religious, literary, and folk contexts."
         },
@@ -13627,7 +13627,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text citations to the Bellows Poetic Edda and Brodeur Prose Edda translations, with poem/stanza or book/chapter locators; no Wikipedia, fan-wiki, or adaptation evidence used.",
           "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
-          "work": "Selected Eddic witness scope: no named draugr character record added",
+          "work": "Norse Mythology · Selected Eddic witness scope: no named draugr character record added",
           "reviewStatus": "needs-review",
           "caution": "Included as an unmixed terminology note because the workbook's SRC-002 orientation names it; a saga-specific pass is needed for character claims."
         }
@@ -14147,7 +14147,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
-          "work": "Li Chaowei, Liu Yi zhuan",
+          "work": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Li Chaowei, Liu Yi zhuan",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -15000,7 +15000,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
           "url": "https://archive.org/details/shahnama01firduoft",
-          "work": "Vol. I, pp. 239–251, ‘The Birth of Zal’ and his return; SIMORḠ, opening definition and pre-Islamic tradition discussion",
+          "work": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. I, pp. 239–251, ‘The Birth of Zal’ and his return; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · SIMORḠ, opening definition and pre-Islamic tradition discussion",
           "reviewStatus": "researched",
           "caution": "The functional ‘guardian beast’ mapping does not represent the full religious, literary, iconographic, or regional history of Simorgh/Sēnmurw."
         },
@@ -15407,7 +15407,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Character and relationship claims are cited to the selected Book and chapter loci in the Caxton-divided text. The witness distinction is corroborated by the British Library catalogue and De Montfort University's Malory project; the Gutenberg edition is used for the claim-level readable text and preserves the Caxton book/chapter structure.",
           "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
-          "work": "Caxton Preface; Book I, chapters 7–8",
+          "work": "Le Morte Darthur · Caxton Preface; Book I, chapters 7–8",
           "reviewStatus": "researched",
           "caution": "Medieval knighthood is a social, legal, military, and ethical formation; it is not equivalent to a universal game combat class."
         },
@@ -15503,7 +15503,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
           "url": "https://archive.org/details/shahnama02firduoft",
-          "work": "Vol. II, pp. 44–76, ‘The Seven Courses of Rustam’; ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam as foremost Iranian hero",
+          "work": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. II, pp. 44–76, ‘The Seven Courses of Rustam’; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam as foremost Iranian hero",
           "reviewStatus": "researched",
           "caution": "‘Champion’ is only a functional atlas label. Pahlavān carries Persian epic, ethical, and later cultural resonances that exceed competitive or occupational senses."
         },
@@ -15567,7 +15567,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific chapter locators in the declared published English witness, supplemented for scope and terminology by Indiana University's description of the distinct Fa-Digi Sisòkò performance and scholarly discussion of Sunjata variants and Mande kinship.",
           "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf",
-          "work": "'The First Kings of Mali,' pp. 2-3; 'The Buffalo Woman,' pp. 4-11",
+          "work": "D. T. Niane, Sundiata: An Epic of Old Mali · 'The First Kings of Mali,' pp. 2-3; 'The Buffalo Woman,' pp. 4-11",
           "reviewStatus": "researched",
           "caution": "This functional map does not turn Mande hunting knowledge, ritual, or social identity into a generic ranger class."
         },
@@ -16249,7 +16249,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
-          "work": "9.345–566",
+          "work": "Homer, Odyssey · 9.345–566",
           "reviewStatus": "researched",
           "caution": "Functional mapping to trickster is not a lexical equivalence."
         },
@@ -16637,7 +16637,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claims cite runo- and line-level locations in Avoin Kalevala, SKS’s critically commented edition of the 1849 text. SKS identifies the text as an 1849 critical edition and documents Kalevala’s compiled relationship to oral-poetry sources.",
           "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_09.xml",
-          "work": "Runo 9, lines 1–250",
+          "work": "Kalevala · Runo 9, lines 1–250",
           "reviewStatus": "researched",
           "caution": "Avoid equating a culturally specific term with a generic wizard class."
         },
@@ -17824,7 +17824,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
           "url": "https://encykorea.aks.ac.kr/Article/E0020479",
-          "work": "Regional characteristics",
+          "work": "Bari Gongju / Baridegi regional narrative songs · Regional characteristics",
           "reviewStatus": "researched",
           "caution": "The English ‘shaman’ crosswalk is functional and imprecise; mudang is not a fantasy class and individual practitioners are not introduced as character nodes here."
         },
@@ -18164,7 +18164,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
-          "work": "Kṣitigarbha Sutra, ch. 8, sections 1–5",
+          "work": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa; Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra · Kṣitigarbha Sutra, ch. 8, sections 1–5",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -18212,7 +18212,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claims cite runo- and line-level locations in Avoin Kalevala, SKS’s critically commented edition of the 1849 text. SKS identifies the text as an 1849 critical edition and documents Kalevala’s compiled relationship to oral-poetry sources.",
           "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
-          "work": "Runo 10, lines 1–422",
+          "work": "Kalevala · Runo 10, lines 1–422",
           "reviewStatus": "researched",
           "caution": "The role is literary and craft-specific; it is not an RPG profession claim."
         },
@@ -18324,7 +18324,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific chapter locators in the declared published English witness, supplemented for scope and terminology by Indiana University's description of the distinct Fa-Digi Sisòkò performance and scholarly discussion of Sunjata variants and Mande kinship.",
           "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf",
-          "work": "'The Words of the Griot Mamadou Kouyaté,' p. 1; 'Nana Triban and Balla Fasséké,' pp. 56-58; publication description",
+          "work": "D. T. Niane, Sundiata: An Epic of Old Mali · 'The Words of the Griot Mamadou Kouyaté,' p. 1; 'Nana Triban and Balla Fasséké,' pp. 56-58; John William Johnson, Son-Jara: The Mande Epic Performance by Jeli Fa-Digi Sisòkò · publication description",
           "reviewStatus": "researched",
           "caution": "Do not reduce jeli to a fantasy bard, a generic storyteller, or a caste/class mechanic. Roles, terminology, and authority vary by language, lineage, performance, and social context."
         },
@@ -19003,7 +19003,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific chapter locators in the declared published English witness, supplemented for scope and terminology by Indiana University's description of the distinct Fa-Digi Sisòkò performance and scholarly discussion of Sunjata variants and Mande kinship.",
           "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf",
-          "work": "'Kouroukan Fougan or The Division of the World,' pp. 73-78; 'Niani,' pp. 79-82",
+          "work": "D. T. Niane, Sundiata: An Epic of Old Mali · 'Kouroukan Fougan or The Division of the World,' pp. 73-78; 'Niani,' pp. 79-82",
           "reviewStatus": "researched",
           "caution": "The workbook's 'Warlord Ruler' is only an analytic comparison; it neither defines Mande sovereignty nor supports a claim that rule rested solely on conquest."
         },
@@ -21920,7 +21920,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Character and relationship claims are cited to the selected Book and chapter loci in the Caxton-divided text. The witness distinction is corroborated by the British Library catalogue and De Montfort University's Malory project; the Gutenberg edition is used for the claim-level readable text and preserves the Caxton book/chapter structure.",
           "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
-          "work": "Caxton Preface; Book I, chapters 7–8",
+          "work": "Le Morte Darthur · Caxton Preface; Book I, chapters 7–8",
           "reviewStatus": "researched",
           "caution": "Medieval knighthood is a social, legal, military, and ethical formation; it is not equivalent to a universal game combat class."
         },
@@ -22926,7 +22926,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific chapter locators in the declared published English witness, supplemented for scope and terminology by Indiana University's description of the distinct Fa-Digi Sisòkò performance and scholarly discussion of Sunjata variants and Mande kinship.",
           "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf",
-          "work": "'The First Kings of Mali,' pp. 2-3; 'The Buffalo Woman,' pp. 4-11",
+          "work": "D. T. Niane, Sundiata: An Epic of Old Mali · 'The First Kings of Mali,' pp. 2-3; 'The Buffalo Woman,' pp. 4-11",
           "reviewStatus": "researched",
           "caution": "This functional map does not turn Mande hunting knowledge, ritual, or social identity into a generic ranger class."
         },
@@ -23585,7 +23585,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
           "url": "https://archive.org/details/shahnama02firduoft",
-          "work": "Vol. II, pp. 44–76, ‘The Seven Courses of Rustam’; ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam as foremost Iranian hero",
+          "work": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. II, pp. 44–76, ‘The Seven Courses of Rustam’; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam as foremost Iranian hero",
           "reviewStatus": "researched",
           "caution": "‘Champion’ is only a functional atlas label. Pahlavān carries Persian epic, ethical, and later cultural resonances that exceed competitive or occupational senses."
         },
@@ -25046,7 +25046,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
           "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
-          "work": "9.345–566",
+          "work": "Homer, Odyssey · 9.345–566",
           "reviewStatus": "researched",
           "caution": "Functional mapping to trickster is not a lexical equivalence."
         },
@@ -25994,7 +25994,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claims cite runo- and line-level locations in Avoin Kalevala, SKS’s critically commented edition of the 1849 text. SKS identifies the text as an 1849 critical edition and documents Kalevala’s compiled relationship to oral-poetry sources.",
           "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_09.xml",
-          "work": "Runo 9, lines 1–250",
+          "work": "Kalevala · Runo 9, lines 1–250",
           "reviewStatus": "researched",
           "caution": "Avoid equating a culturally specific term with a generic wizard class."
         },
@@ -28615,7 +28615,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
           "url": "https://encykorea.aks.ac.kr/Article/E0020479",
-          "work": "Regional characteristics",
+          "work": "Bari Gongju / Baridegi regional narrative songs · Regional characteristics",
           "reviewStatus": "researched",
           "caution": "The English ‘shaman’ crosswalk is functional and imprecise; mudang is not a fantasy class and individual practitioners are not introduced as character nodes here."
         },
@@ -29622,7 +29622,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific chapter locators in the declared published English witness, supplemented for scope and terminology by Indiana University's description of the distinct Fa-Digi Sisòkò performance and scholarly discussion of Sunjata variants and Mande kinship.",
           "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf",
-          "work": "'The Words of the Griot Mamadou Kouyaté,' p. 1; 'Nana Triban and Balla Fasséké,' pp. 56-58; publication description",
+          "work": "D. T. Niane, Sundiata: An Epic of Old Mali · 'The Words of the Griot Mamadou Kouyaté,' p. 1; 'Nana Triban and Balla Fasséké,' pp. 56-58; John William Johnson, Son-Jara: The Mande Epic Performance by Jeli Fa-Digi Sisòkò · publication description",
           "reviewStatus": "researched",
           "caution": "Do not reduce jeli to a fantasy bard, a generic storyteller, or a caste/class mechanic. Roles, terminology, and authority vary by language, lineage, performance, and social context."
         },
@@ -29698,7 +29698,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claims cite runo- and line-level locations in Avoin Kalevala, SKS’s critically commented edition of the 1849 text. SKS identifies the text as an 1849 critical edition and documents Kalevala’s compiled relationship to oral-poetry sources.",
           "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
-          "work": "Runo 10, lines 1–422",
+          "work": "Kalevala · Runo 10, lines 1–422",
           "reviewStatus": "researched",
           "caution": "The role is literary and craft-specific; it is not an RPG profession claim."
         },
@@ -29842,7 +29842,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claims cite runo- and line-level locations in Avoin Kalevala, SKS’s critically commented edition of the 1849 text. SKS identifies the text as an 1849 critical edition and documents Kalevala’s compiled relationship to oral-poetry sources.",
           "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
-          "work": "Runo 10, lines 1–422",
+          "work": "Kalevala · Runo 10, lines 1–422",
           "reviewStatus": "researched",
           "caution": "The role is literary and craft-specific; it is not an RPG profession claim."
         },
@@ -30761,7 +30761,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
           "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
-          "work": "Kṣitigarbha Sutra, ch. 8, sections 1–5",
+          "work": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa; Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra · Kṣitigarbha Sutra, ch. 8, sections 1–5",
           "reviewStatus": "researched",
           "caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition."
         },
@@ -31869,7 +31869,7 @@
           "evidenceLevel": "",
           "evidenceBasis": "Claim-specific chapter locators in the declared published English witness, supplemented for scope and terminology by Indiana University's description of the distinct Fa-Digi Sisòkò performance and scholarly discussion of Sunjata variants and Mande kinship.",
           "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf",
-          "work": "'Kouroukan Fougan or The Division of the World,' pp. 73-78; 'Niani,' pp. 79-82",
+          "work": "D. T. Niane, Sundiata: An Epic of Old Mali · 'Kouroukan Fougan or The Division of the World,' pp. 73-78; 'Niani,' pp. 79-82",
           "reviewStatus": "researched",
           "caution": "The workbook's 'Warlord Ruler' is only an analytic comparison; it neither defines Mande sovereignty nor supports a claim that rule rested solely on conquest."
         },

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC106-001",
     "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Fourth Edition Core Books · Official line overview, ‘Core Rulebooks’",
     "canonical_term": "Barsaive",
     "original_language": "English Earthdawn setting terminology",
     "original_script": "Barsaive",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC106-002",
     "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
     "canonical_term": "Namegivers",
     "original_language": "English Earthdawn setting terminology",
     "original_script": "Namegivers",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC106-003",
     "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Fourth Edition Core Books · Official line overview, Earthdawn Gamemaster’s Screen description",
     "canonical_term": "Disciplines",
     "original_language": "English Earthdawn rules terminology",
     "original_script": "Disciplines",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC106-004",
     "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, Player’s Guide rules description",
     "canonical_term": "Circles",
     "original_language": "English Earthdawn rules terminology",
     "original_script": "Circles",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC106-005",
     "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
     "canonical_term": "Horrors",
     "original_language": "English Earthdawn setting terminology",
     "original_script": "Horrors",
@@ -122,6 +127,7 @@
   {
     "term_id": "STM-SRC106-006",
     "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
     "canonical_term": "Scourge",
     "original_language": "English Earthdawn setting terminology",
     "original_script": "Scourge",
@@ -146,6 +152,7 @@
   {
     "term_id": "STM-SRC106-007",
     "source_id": "SRC-106",
+    "work_or_witness": "What’s in a Name? · Official article, opening paragraph",
     "canonical_term": "pattern magic",
     "original_language": "English Earthdawn rules terminology",
     "original_script": "pattern magic",
@@ -170,6 +177,7 @@
   {
     "term_id": "STM-SRC106-008",
     "source_id": "SRC-106",
+    "work_or_witness": "What’s in a Name? · Official article, opening paragraphs and thread-item note",
     "canonical_term": "thread items",
     "original_language": "English Earthdawn rules terminology",
     "original_script": "thread items",

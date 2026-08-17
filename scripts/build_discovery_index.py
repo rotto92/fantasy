@@ -121,12 +121,6 @@ def source_work_label(audit: dict[str, Any]) -> str:
     return "; ".join(source_work_labels(audit))
 
 
-def citation_work_label(citations: list[dict[str, Any]]) -> str:
-    return "; ".join(
-        unique([str(citation.get("locator", "")).strip() for citation in citations])
-    )
-
-
 def source_fields(source: dict[str, Any]) -> list[list[Any]]:
     return [
         field("source / series", source.get("title")),
@@ -237,12 +231,23 @@ def main() -> None:
         if term_dimension in DIMENSION_LABELS:
             dimension_row_keys[term_dimension].add(f"source-term:{term['term_id']}")
         source = sources.get(str(term["source_id"]), {})
-        term_work = citation_work_label(term.get("citations", []))
+        term_work = str(term.get("work_or_witness", "")).strip()
         source_scope = source_work_label(audits.get(str(term["source_id"]), {}))
-        matching_rows = dimension_rows_by_key.get(
-            (term_dimension, fold(canonical), str(term["source_id"])),
-            [],
+        identity_forms = unique(
+            [
+                canonical,
+                str(term.get("transliteration", "")).strip(),
+                str(term.get("original_script", "")).strip(),
+            ]
         )
+        matching_rows_by_key: dict[str, dict[str, Any]] = {}
+        for identity in identity_forms:
+            for row in dimension_rows_by_key.get(
+                (term_dimension, fold(identity), str(term["source_id"])),
+                [],
+            ):
+                matching_rows_by_key.setdefault(str(row["coverageKey"]), row)
+        matching_rows = list(matching_rows_by_key.values())
         matching_character_ids = unique(
             [str(row["character"]["character_id"]) for row in matching_rows]
         )

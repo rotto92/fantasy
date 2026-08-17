@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC102-001",
     "source_id": "SRC-102",
+    "work_or_witness": "Warhammer Age of Sigmar · Official Core Book description, first paragraph",
     "canonical_term": "Mortal Realms",
     "original_language": "English Warhammer Age of Sigmar terminology",
     "original_script": "Mortal Realms",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC102-002",
     "source_id": "SRC-102",
+    "work_or_witness": "Warhammer Age of Sigmar Core Book · Official preview, Core Book paragraph",
     "canonical_term": "eight realms",
     "original_language": "English Warhammer Age of Sigmar terminology",
     "original_script": "eight realms",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC102-003",
     "source_id": "SRC-102",
+    "work_or_witness": "Download the Warhammer Age of Sigmar Core Rules, Battle Profiles, and More for Free · Official rules rollout, downloads description",
     "canonical_term": "Core Rules",
     "original_language": "English Warhammer Age of Sigmar rules terminology",
     "original_script": "Core Rules",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC102-004",
     "source_id": "SRC-102",
+    "work_or_witness": "Download the Warhammer Age of Sigmar Core Rules, Battle Profiles, and More for Free · Official rules rollout, downloads description",
     "canonical_term": "Advanced Rules",
     "original_language": "English Warhammer Age of Sigmar rules terminology",
     "original_script": "Advanced Rules",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC102-005",
     "source_id": "SRC-102",
+    "work_or_witness": "Download the Warhammer Age of Sigmar Core Rules, Battle Profiles, and More for Free · Official rules rollout, downloads description",
     "canonical_term": "Spearhead",
     "original_language": "English Warhammer Age of Sigmar rules terminology",
     "original_script": "Spearhead",
@@ -122,6 +127,7 @@
   {
     "term_id": "STM-SRC102-006",
     "source_id": "SRC-102",
+    "work_or_witness": "Warhammer Age of Sigmar · Official Skaventide article, Core Book contents paragraph",
     "canonical_term": "Path to Glory: Ascension",
     "original_language": "English Warhammer Age of Sigmar rules terminology",
     "original_script": "Path to Glory: Ascension",

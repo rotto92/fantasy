@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC105-001",
     "source_id": "SRC-105",
+    "work_or_witness": "Exalted Third Edition · Release announcement: revitalized and expanded Creation",
     "canonical_term": "Creation",
     "original_language": "English setting lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC105-002",
     "source_id": "SRC-105",
+    "work_or_witness": "Character Creation: Exalted 3rd Edition · Introduction and Step One: Character Concept and Caste",
     "canonical_term": "Solar Exalted",
     "original_language": "English game/setting lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC105-003",
     "source_id": "SRC-105",
+    "work_or_witness": "Character Creation: Exalted 3rd Edition · Step One and Step Three: Character Concept and Caste; Abilities",
     "canonical_term": "Caste and Favored Abilities",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC105-004",
     "source_id": "SRC-105",
+    "work_or_witness": "Exalted Third Edition Mechanics Overview · Charms and Magic",
     "canonical_term": "Charms",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC105-005",
     "source_id": "SRC-105",
+    "work_or_witness": "Exalted Third Edition Mechanics Overview · Social System",
     "canonical_term": "Intimacies and social influence",
     "original_language": "English game-rules lexicon",
     "original_script": "",

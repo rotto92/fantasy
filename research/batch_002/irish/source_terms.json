@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC003-001",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 1",
     "canonical_term": "Túatha Dé Danann",
     "original_language": "Middle Irish",
     "original_script": "Túatha Dé Danann",
@@ -28,6 +29,7 @@
   {
     "term_id": "STM-SRC003-002",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 8",
     "canonical_term": "Fomoire",
     "original_language": "Middle Irish",
     "original_script": "Fomoire",
@@ -52,6 +54,7 @@
   {
     "term_id": "STM-SRC003-003",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 1",
     "canonical_term": "geis / ges",
     "original_language": "Middle Irish",
     "original_script": "geis",
@@ -78,6 +81,7 @@
   {
     "term_id": "STM-SRC003-004",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 4",
     "canonical_term": "flaithius",
     "original_language": "Middle Irish",
     "original_script": "flaithius",
@@ -104,6 +108,7 @@
   {
     "term_id": "STM-SRC003-005",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 167",
     "canonical_term": "síd",
     "original_language": "Middle Irish",
     "original_script": "síd",
@@ -130,6 +135,7 @@
   {
     "term_id": "STM-SRC003-006",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 1",
     "canonical_term": "druídecht",
     "original_language": "Middle Irish",
     "original_script": "druídecht",
@@ -154,6 +160,7 @@
   {
     "term_id": "STM-SRC003-009",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 5",
     "canonical_term": "fidchell",
     "original_language": "Middle Irish",
     "original_script": "fidchell",
@@ -178,6 +185,7 @@
   {
     "term_id": "STM-SRC003-012",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 17",
     "canonical_term": "clann",
     "original_language": "Middle Irish",
     "original_script": "clann",
@@ -202,6 +210,7 @@
   {
     "term_id": "STM-SRC003-013",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 1",
     "canonical_term": "cumhacht",
     "original_language": "Middle Irish",
     "original_script": "cumhacht",
@@ -226,6 +235,7 @@
   {
     "term_id": "STM-SRC003-014",
     "source_id": "SRC-003",
+    "work_or_witness": "Irish Mythological Cycle · section 4",
     "canonical_term": "Tara / Temair",
     "original_language": "Middle Irish",
     "original_script": "Temair",

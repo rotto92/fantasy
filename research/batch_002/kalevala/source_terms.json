@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC006-001",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 3, lines 1–550",
     "canonical_term": "runo",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "runo",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC006-002",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 3, lines 1–550",
     "canonical_term": "laulu",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "laulu",
@@ -53,6 +55,7 @@
   {
     "term_id": "STM-SRC006-003",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 17, lines 1–650",
     "canonical_term": "sana",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "sana",
@@ -80,6 +83,7 @@
   {
     "term_id": "STM-SRC006-004",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 9, lines 1–250",
     "canonical_term": "tietäjä",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "tietäjä",
@@ -106,6 +110,7 @@
   {
     "term_id": "STM-SRC006-005",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 10, lines 1–422",
     "canonical_term": "seppä",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "seppä",
@@ -133,6 +138,7 @@
   {
     "term_id": "STM-SRC006-006",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 10, lines 1–422",
     "canonical_term": "Sampo",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "Sampo",
@@ -159,6 +165,7 @@
   {
     "term_id": "STM-SRC006-007",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 40, lines 1–500",
     "canonical_term": "kantele",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "kantele",
@@ -183,6 +190,7 @@
   {
     "term_id": "STM-SRC006-008",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 31, lines 1–200",
     "canonical_term": "suku",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "suku",
@@ -207,6 +215,7 @@
   {
     "term_id": "STM-SRC006-009",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 10, lines 1–422",
     "canonical_term": "Pohjola",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "Pohjola",
@@ -231,6 +240,7 @@
   {
     "term_id": "STM-SRC006-010",
     "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 16, lines 1–500",
     "canonical_term": "Tuonela",
     "original_language": "Finnish (1849 Kalevala)",
     "original_script": "Tuonela",

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC137-001",
     "source_id": "SRC-137",
+    "work_or_witness": "Diablo · Lilith has returned section",
     "canonical_term": "Sanctuary",
     "original_language": "English (North American localization)",
     "original_script": "Sanctuary",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC137-002",
     "source_id": "SRC-137",
+    "work_or_witness": "Diablo · A New Saga overview",
     "canonical_term": "Wanderer",
     "original_language": "English (North American localization)",
     "original_script": "wanderer",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC137-003",
     "source_id": "SRC-137",
+    "work_or_witness": "Diablo · June 6, 2023 paragraph",
     "canonical_term": "Barbarian, Druid, Necromancer, Rogue, and Sorceress",
     "original_language": "English (North American localization)",
     "original_script": "Barbarian, Druid, Necromancer, Rogue, Sorceress",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC137-004",
     "source_id": "SRC-137",
+    "work_or_witness": "Diablo · Lilith has returned section",
     "canonical_term": "High Heavens",
     "original_language": "English (North American localization)",
     "original_script": "High Heavens",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC137-005",
     "source_id": "SRC-137",
+    "work_or_witness": "Diablo · Explore Your Way: Fields of Hatred paragraph",
     "canonical_term": "Fields of Hatred",
     "original_language": "English (North American localization)",
     "original_script": "Fields of Hatred",
@@ -122,6 +127,7 @@
   {
     "term_id": "STM-SRC137-006",
     "source_id": "SRC-137",
+    "work_or_witness": "Diablo · Story section",
     "canonical_term": "dark ritual",
     "original_language": "English (North American localization)",
     "original_script": "dark ritual",

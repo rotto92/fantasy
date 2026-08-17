@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC013-001",
     "source_id": "SRC-013",
+    "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · EA10470,3 frame 3",
     "canonical_term": "nṯr",
     "original_language": "Middle Egyptian",
     "original_script": "nṯr",
@@ -28,6 +29,7 @@
   {
     "term_id": "STM-SRC013-002",
     "source_id": "SRC-013",
+    "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · Contendings, recto pp. 1–16",
     "canonical_term": "nswt",
     "original_language": "Middle Egyptian",
     "original_script": "nswt",
@@ -52,6 +54,7 @@
   {
     "term_id": "STM-SRC013-003",
     "source_id": "SRC-013",
+    "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · EA10470,3 frame 3",
     "canonical_term": "mꜣꜥt",
     "original_language": "Middle Egyptian",
     "original_script": "mꜣꜥt",
@@ -76,6 +79,7 @@
   {
     "term_id": "STM-SRC013-004",
     "source_id": "SRC-013",
+    "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · Book of the Dead of Nu, Spell 125B, address to assessors",
     "canonical_term": "rn",
     "original_language": "Middle Egyptian",
     "original_script": "rn",
@@ -100,6 +104,7 @@
   {
     "term_id": "STM-SRC013-005",
     "source_id": "SRC-013",
+    "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · Book of the Dead of Nu, Chapter 125 context and associated Book of the Dead tradition",
     "canonical_term": "bꜣ",
     "original_language": "Middle Egyptian",
     "original_script": "bꜣ",
@@ -124,6 +129,7 @@
   {
     "term_id": "STM-SRC013-006",
     "source_id": "SRC-013",
+    "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · Book of the Dead corpus context; Spell 125 is one component of a wider funerary collection",
     "canonical_term": "ḫprw",
     "original_language": "Middle Egyptian",
     "original_script": "ḫprw",

@@ -155,6 +155,7 @@ can act as a filter, grouping dimension, or explanatory legend:
   "term_id": "STM-SRC001-001",
   "source_id": "SRC-001",
   "canonical_term": "",
+  "work_or_witness": "",
   "original_language": "",
   "original_script": "",
   "transliteration": "",
@@ -168,6 +169,10 @@ can act as a filter, grouping dimension, or explanatory legend:
   "review_status": "researched|needs-review|disputed"
 }
 ```
+
+`work_or_witness` names the claim-specific textual, edition, episode, game
+version, or other bounded witness; citation `locator` values locate the claim
+within that witness and do not substitute for its identity.
 
 ## Evidence rules
 

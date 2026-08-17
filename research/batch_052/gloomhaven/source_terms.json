@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC119-001",
     "source_id": "SRC-119",
+    "work_or_witness": "Gloomhaven · 2017 retrospective: first-printing delivery",
     "canonical_term": "first-printing Gloomhaven",
     "original_language": "English board-game product lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC119-002",
     "source_id": "SRC-119",
+    "work_or_witness": "So it's a new printing, not a new edition · Gloomhaven second-printing discussion",
     "canonical_term": "printing revisions and errata boundary",
     "original_language": "English board-game product lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC119-003",
     "source_id": "SRC-119",
+    "work_or_witness": "What is Gloomhaven?: party of mercenaries, classes, personal quest and retirement",
     "canonical_term": "mercenary classes and player naming",
     "original_language": "English board-game rules lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC119-004",
     "source_id": "SRC-119",
+    "work_or_witness": "Gloomhaven repository: Envelope Contents and spoiler notes",
     "canonical_term": "sealed envelopes and spoiler shields",
     "original_language": "English board-game product lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC119-005",
     "source_id": "SRC-119",
+    "work_or_witness": "The Big Announcements · Digital Gloomhaven announcement, 7 August 2018",
     "canonical_term": "digital true-port boundary",
     "original_language": "English adaptation/product lexicon",
     "original_script": "",

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC120-001",
     "source_id": "SRC-120",
+    "work_or_witness": "Road to Legend · Into the Dungeon",
     "canonical_term": "heroes and the overlord",
     "original_language": "English board-game rules lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC120-002",
     "source_id": "SRC-120",
+    "work_or_witness": "Road to Legend · Product description, lines 69–70",
     "canonical_term": "linked campaign quests",
     "original_language": "English board-game product lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC120-003",
     "source_id": "SRC-120",
+    "work_or_witness": "Road to Legend introduction and product description",
     "canonical_term": "Terrinoth",
     "original_language": "English setting name",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC120-004",
     "source_id": "SRC-120",
+    "work_or_witness": "Road to Legend · Into the Dungeon; Grow Your Collection; Runes, Heroes, and Legends · 2012 – Descent: Journeys in the Dark Second Edition",
     "canonical_term": "Road to Legend cooperative mode",
     "original_language": "English companion-app product lexicon",
     "original_script": "",
@@ -105,6 +109,7 @@
   {
     "term_id": "STM-SRC120-005",
     "source_id": "SRC-120",
+    "work_or_witness": "Descent: Journeys in the Dark Second Edition Errata and FAQ · Title page: Errata and FAQ Version 1.5, updated 2/9/2015",
     "canonical_term": "Second Edition Errata and FAQ v1.5",
     "original_language": "English rules-support lexicon",
     "original_script": "",

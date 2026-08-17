@@ -71,16 +71,6 @@ def source_work_label(audit: dict[str, Any]) -> str:
     return "; ".join(source_work_labels(audit))
 
 
-def citation_work_label(citations: list[dict[str, Any]]) -> str:
-    return "; ".join(
-        dict.fromkeys(
-            str(citation.get("locator", "")).strip()
-            for citation in citations
-            if str(citation.get("locator", "")).strip()
-        )
-    )
-
-
 def stratified_examples(values: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
     kind_order = {"character-example": 0, "source-term": 1, "source-entry": 2}
     remaining = sorted(
@@ -207,7 +197,7 @@ def main() -> None:
             "evidenceLevel": term.get("evidence_level", ""),
             "evidenceBasis": audits.get(str(term["source_id"]), {}).get("evidence_basis", ""),
             "url": first_url(term.get("citations", [])),
-            "work": citation_work_label(term.get("citations", [])),
+            "work": term.get("work_or_witness", ""),
             "reviewStatus": term["review_status"],
             "caution": term["cultural_caution"],
         }

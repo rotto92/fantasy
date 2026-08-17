@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC101-001",
     "source_id": "SRC-101",
+    "work_or_witness": "Warhammer: The Old World Rulebook · FAQ & Designer's Notes, 7 July 2026",
     "canonical_term": "Warhammer: The Old World Rulebook 1.5",
     "original_language": "English game-product lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC101-002",
     "source_id": "SRC-101",
+    "work_or_witness": "Warhammer: The Old World FAQ and Errata: Rulebook · Document title and Rulebook FAQ/Errata entries",
     "canonical_term": "FAQ and Errata",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC101-003",
     "source_id": "SRC-101",
+    "work_or_witness": "Old World Almanack: Your First Look at the Rules · The Turn, rules overview",
     "canonical_term": "rounds, turns, and phases",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC101-004",
     "source_id": "SRC-101",
+    "work_or_witness": "Old World Almanack: Your First Look at the Rules · The Turn, Strategy Phase",
     "canonical_term": "Strategy Phase",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC101-005",
     "source_id": "SRC-101",
+    "work_or_witness": "Old World Almanack: Your First Look at the Rules · Article introduction and rules overview",
     "canonical_term": "regiment-scale battle",
     "original_language": "English game-description lexicon",
     "original_script": "",

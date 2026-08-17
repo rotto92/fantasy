@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC019-001",
     "source_id": "SRC-019",
+    "work_or_witness": "Kojiki · Book 1",
     "canonical_term": "kami",
     "original_language": "Japanese",
     "original_script": "神",
@@ -28,6 +29,7 @@
   {
     "term_id": "STM-SRC019-002",
     "source_id": "SRC-019",
+    "work_or_witness": "Toriyama Sekien yōkai catalogues · Gazu Hyakki Yagyō title/entries",
     "canonical_term": "yōkai",
     "original_language": "Japanese",
     "original_script": "妖怪",
@@ -52,6 +54,7 @@
   {
     "term_id": "STM-SRC019-003",
     "source_id": "SRC-019",
+    "work_or_witness": "Toriyama Sekien yōkai catalogues · catalogue context",
     "canonical_term": "oni",
     "original_language": "Japanese",
     "original_script": "鬼",
@@ -76,6 +79,7 @@
   {
     "term_id": "STM-SRC019-004",
     "source_id": "SRC-019",
+    "work_or_witness": "Toriyama Sekien yōkai catalogues · Konjaku Gazu Zoku Hyakki, Tengu",
     "canonical_term": "tengu",
     "original_language": "Japanese",
     "original_script": "天狗",
@@ -100,6 +104,7 @@
   {
     "term_id": "STM-SRC019-005",
     "source_id": "SRC-019",
+    "work_or_witness": "Toriyama Sekien yōkai catalogues · Konjaku Gazu Zoku Hyakki, Kitsune",
     "canonical_term": "kitsune",
     "original_language": "Japanese",
     "original_script": "狐",
@@ -124,6 +129,7 @@
   {
     "term_id": "STM-SRC019-006",
     "source_id": "SRC-019",
+    "work_or_witness": "Toriyama Sekien yōkai catalogues · Konjaku Hyakki Shūi, Kasa-obake",
     "canonical_term": "tsukumogami",
     "original_language": "Japanese",
     "original_script": "付喪神",
@@ -148,6 +154,7 @@
   {
     "term_id": "STM-SRC019-007",
     "source_id": "SRC-019",
+    "work_or_witness": "Nihon Shoki · Book V, sections 5–8",
     "canonical_term": "miko",
     "original_language": "Japanese",
     "original_script": "巫女",
@@ -172,6 +179,7 @@
   {
     "term_id": "STM-SRC019-008",
     "source_id": "SRC-019",
+    "work_or_witness": "Toriyama Sekien yōkai catalogues · catalogue context",
     "canonical_term": "onmyōji",
     "original_language": "Japanese",
     "original_script": "陰陽師",
@@ -196,6 +204,7 @@
   {
     "term_id": "STM-SRC019-009",
     "source_id": "SRC-019",
+    "work_or_witness": "Kojiki · Book 1, Yomi/purification",
     "canonical_term": "kegare",
     "original_language": "Japanese",
     "original_script": "穢れ",
@@ -223,6 +232,7 @@
   {
     "term_id": "STM-SRC019-010",
     "source_id": "SRC-019",
+    "work_or_witness": "Kojiki · Book 1, Yomi",
     "canonical_term": "Yomi",
     "original_language": "Japanese",
     "original_script": "黄泉",
@@ -249,6 +259,7 @@
   {
     "term_id": "STM-SRC019-011",
     "source_id": "SRC-019",
+    "work_or_witness": "Kojiki · Book 1",
     "canonical_term": "utsushiyo",
     "original_language": "Japanese",
     "original_script": "現世",

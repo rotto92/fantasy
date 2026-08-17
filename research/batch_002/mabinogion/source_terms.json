@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC004-001",
     "source_id": "SRC-004",
+    "work_or_witness": "Pwyll, Prince of Dyved, opening exchange sequence",
     "canonical_term": "Annwvyn",
     "original_language": "Middle Welsh",
     "original_script": "Annwvyn",
@@ -24,6 +25,7 @@
   {
     "term_id": "STM-SRC004-002",
     "source_id": "SRC-004",
+    "work_or_witness": "The Mabinogion · Content of the White Book of Rhydderch, lines 173–180",
     "canonical_term": "mabinogi",
     "original_language": "Middle Welsh",
     "original_script": "mabinogi",

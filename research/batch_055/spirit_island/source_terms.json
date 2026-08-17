@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC124-001",
     "source_id": "SRC-124",
+    "work_or_witness": "Spirit Island · Product info and Release Date",
     "canonical_term": "original Spirit Island core game",
     "original_language": "English board-game product lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC124-002",
     "source_id": "SRC-124",
+    "work_or_witness": "Spirit Island · Contents; Product info; Highly Thematic",
     "canonical_term": "Spirit panels and elemental powers",
     "original_language": "English board-game component lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC124-003",
     "source_id": "SRC-124",
+    "work_or_witness": "Spirit Island · Product info",
     "canonical_term": "Dahan and colonizing Invaders",
     "original_language": "English game-setting lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC124-004",
     "source_id": "SRC-124",
+    "work_or_witness": "Spirit Island · Contents; Product info",
     "canonical_term": "Fear and Blight",
     "original_language": "English board-game rules lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC124-005",
     "source_id": "SRC-124",
+    "work_or_witness": "Spirit Island · Contents; Thrilling Adversaries; Challenging Spirits",
     "canonical_term": "Power, Presence, adversary, and scenario systems",
     "original_language": "English board-game rules lexicon",
     "original_script": "",
@@ -122,6 +127,7 @@
   {
     "term_id": "STM-SRC124-006",
     "source_id": "SRC-124",
+    "work_or_witness": "Spirit Island line page · Spirit Island line product list",
     "canonical_term": "expansion and standalone-product boundary",
     "original_language": "English product-line lexicon",
     "original_script": "",
@@ -146,6 +152,7 @@
   {
     "term_id": "STM-SRC124-007",
     "source_id": "SRC-124",
+    "work_or_witness": "Major Blight Card Setup Erratum, 22 July 2022",
     "canonical_term": "Blight setup erratum boundary",
     "original_language": "English rules-support lexicon",
     "original_script": "",
@@ -170,6 +177,7 @@
   {
     "term_id": "STM-SRC124-008",
     "source_id": "SRC-124",
+    "work_or_witness": "How is the digital version different from the physical version?",
     "canonical_term": "Handelabra digital adaptation boundary",
     "original_language": "English digital-product lexicon",
     "original_script": "",

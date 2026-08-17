@@ -164,6 +164,7 @@ interface ResearchCharacter {
 interface ResearchSourceTerm {
   term_id: string;
   source_id: string;
+  work_or_witness: string;
   canonical_term: string;
   original_language: string;
   original_script: string;
@@ -2244,9 +2245,8 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
     more.addEventListener("click", () => {
       showSearchResults(query, matches.length + searchResultPageSize);
       requestAnimationFrame(() => {
-        const nextMore = searchResults.querySelector<HTMLButtonElement>(".search-more");
         const resultButtons = searchResults.querySelectorAll<HTMLButtonElement>(".search-result");
-        (nextMore ?? resultButtons[resultButtons.length - 1])?.focus();
+        resultButtons[matches.length]?.focus();
       });
     });
     searchResults.append(more);

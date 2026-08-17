@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC100-001",
     "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, description opening",
     "canonical_term": "Old World",
     "original_language": "English Warhammer Fantasy Roleplay terminology",
     "original_script": "Old World",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC100-002",
     "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, feature list, ‘Four distinct Character Species’",
     "canonical_term": "Character Species",
     "original_language": "English WFRP Fourth Edition rules terminology",
     "original_script": "Character Species",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC100-003",
     "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, feature list, ‘64 distinct careers’",
     "canonical_term": "careers",
     "original_language": "English WFRP Fourth Edition rules terminology",
     "original_script": "careers",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC100-004",
     "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, feature list, major religions and miracles",
     "canonical_term": "miracles",
     "original_language": "English WFRP Fourth Edition rules terminology",
     "original_script": "miracles",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC100-005",
     "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, feature list, ‘Spells from eight different magical traditions’",
     "canonical_term": "magical traditions",
     "original_language": "English WFRP Fourth Edition rules terminology",
     "original_script": "magical traditions",
@@ -122,6 +127,7 @@
   {
     "term_id": "STM-SRC100-006",
     "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, Old World description, Chaos paragraphs",
     "canonical_term": "Chaos corruption",
     "original_language": "English Warhammer Fantasy Roleplay terminology",
     "original_script": "corrupting force of Chaos",
@@ -146,6 +152,7 @@
   {
     "term_id": "STM-SRC100-007",
     "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay · Official physical-product page, additional information, ‘Game System: D100’",
     "canonical_term": "D100",
     "original_language": "English tabletop rules terminology",
     "original_script": "D100",

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC195-001",
     "source_id": "SRC-195",
+    "work_or_witness": "Berserk Deluxe Volume 1 · Product details and edition description",
     "canonical_term": "Berserk Deluxe Volume 1 English collection",
     "original_language": "English publication metadata",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC195-002",
     "source_id": "SRC-195",
+    "work_or_witness": "Berserk digital series page · Series description",
     "canonical_term": "English translation in original Japanese right-to-left format",
     "original_language": "English/Japanese publication-format lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC195-003",
     "source_id": "SRC-195",
+    "work_or_witness": "Berserk digital series page · Series description and editor statement; Berserk Deluxe Volume 1 · Author & Illustrator metadata",
     "canonical_term": "Kentaro Miura original-work boundary",
     "original_language": "Japanese/English creator-credit lexicon",
     "original_script": "三浦建太郎",
@@ -81,6 +84,7 @@
   {
     "term_id": "STM-SRC195-004",
     "source_id": "SRC-195",
+    "work_or_witness": "Notice of Berserk's resumption · 『ベルセルク』再開のお知らせ, 7 June 2022; continuation credit",
     "canonical_term": "post-Miura Studio Gaga / Kouji Mori continuation boundary",
     "original_language": "Japanese publication-credit lexicon",
     "original_script": "原作・三浦建太郎　漫画・スタジオ我画　監修・森恒二",
@@ -105,6 +109,7 @@
   {
     "term_id": "STM-SRC195-005",
     "source_id": "SRC-195",
+    "work_or_witness": "Berserk digital series page · Series description",
     "canonical_term": "adult horror and extreme-content boundary",
     "original_language": "English publisher-content lexicon",
     "original_script": "",
@@ -129,6 +134,7 @@
   {
     "term_id": "STM-SRC195-006",
     "source_id": "SRC-195",
+    "work_or_witness": "Berserk digital series page · Series description; Berserk · Official Guidebook description and publication details",
     "canonical_term": "adaptation and guidebook separation",
     "original_language": "English publication-continuity lexicon",
     "original_script": "",

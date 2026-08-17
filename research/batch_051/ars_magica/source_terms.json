@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC104-001",
     "source_id": "SRC-104",
+    "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, opening description",
     "canonical_term": "Mythic Europe",
     "original_language": "English Ars Magica setting terminology",
     "original_script": "Mythic Europe",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC104-002",
     "source_id": "SRC-104",
+    "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, opening description; Ars Magica Fifth Edition Character Sheet · Official Fifth Edition Character Sheet, header",
     "canonical_term": "magus / magi",
     "original_language": "English Ars Magica role terminology",
     "original_script": "magus / magi",
@@ -57,6 +59,7 @@
   {
     "term_id": "STM-SRC104-003",
     "source_id": "SRC-104",
+    "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, opening description; Ars Magica Fifth Edition Character Sheet · Official Fifth Edition Character Sheet, header ‘Covenant’ field",
     "canonical_term": "covenant",
     "original_language": "English Ars Magica setting/rules terminology",
     "original_script": "Covenant",
@@ -88,6 +91,7 @@
   {
     "term_id": "STM-SRC104-004",
     "source_id": "SRC-104",
+    "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, description bullet on troupe-style roleplaying",
     "canonical_term": "troupe-style roleplaying",
     "original_language": "English Ars Magica rules terminology",
     "original_script": "troupe-style roleplaying",
@@ -112,6 +116,7 @@
   {
     "term_id": "STM-SRC104-005",
     "source_id": "SRC-104",
+    "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, magic-system description; Ars Magica Fifth Edition Character Sheet · Official Fifth Edition Character Sheet, ‘Magical Arts’ section",
     "canonical_term": "Magical Arts",
     "original_language": "English Ars Magica rules terminology",
     "original_script": "Magical Arts",
@@ -143,6 +148,7 @@
   {
     "term_id": "STM-SRC104-006",
     "source_id": "SRC-104",
+    "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, magic-system description; Ars Magica Fifth Edition Character Sheet · Official Fifth Edition Character Sheet, ‘Magical Arts’ Technique and Form tables",
     "canonical_term": "Techniques and Forms",
     "original_language": "English Ars Magica rules terminology",
     "original_script": "Techniques and Forms",

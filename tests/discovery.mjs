@@ -27,6 +27,8 @@ const mappedConcept = concepts.nodes.find((node) => node.examples?.length);
 const mappedSourceTermExample = concepts.nodes.flatMap((node) => node.examples ?? []).find((example) => example.id === mappedSourceTerm?.term_id);
 const xeniaRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC001-007");
 const aetherbladesRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC162-002");
+const chanjiaoTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC017-006");
+const chanjiaoRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC017-006");
 const jotunnRecord = discovery.records.find((record) => record.kind === "dimension-term" && record.sourceId === "SRC-002" && record.label === "jötunn");
 const dvergrTerm = research.sourceTerms.find((term) => term.canonical_term === "dvergr" && term.source_id === "SRC-002");
 const dvergrRecord = discovery.records.find((record) => record.id === `source-term:${dvergrTerm?.term_id}`);
@@ -39,13 +41,26 @@ if (!mappedConcept) failures.push("no mapped concept remains available for the f
 if (!xeniaRecord?.normalizedConceptIds.includes("LAW-801") || !xeniaRecord.normalizedConceptIds.includes("LAW-802") || xeniaRecord.relatedConceptIds.length) {
   failures.push("non-graph normalized mappings were not preserved separately from graph-selectable links");
 }
+if (!research.sourceTerms.every((term) => typeof term.work_or_witness === "string" && /\p{Letter}/u.test(term.work_or_witness))) {
+  failures.push("source-term schema omitted identity-bearing claim work provenance");
+}
+if (!xeniaRecord?.work.includes("Homer, Odyssey") || !xeniaRecord.work.includes("9.105–566")) {
+  failures.push("xenia discovery provenance does not identify its Odyssey witness");
+}
 for (const name of ["Ankka", "Ivan", "Mai Trin", "Scarlet"]) {
   if (!aetherbladesRecord?.characterExamples.includes(name)) failures.push(`Aetherblades source-term evidence omitted ${name}`);
+}
+const chanjiaoCharacters = research.characters.filter((character) =>
+  character.source_id === chanjiaoTerm?.source_id
+  && (character.dimensions?.[chanjiaoTerm?.dimension] ?? []).some((value) => value.term === chanjiaoTerm?.transliteration),
+);
+for (const character of chanjiaoCharacters) {
+  if (!chanjiaoRecord?.characterExamples.includes(character.canonical_name)) failures.push(`Chanjiao source-term evidence omitted ${character.canonical_name}`);
 }
 if (!jotunnRecord?.continuity.includes("Poetic Edda witness") || !jotunnRecord.continuity.includes("Prose Edda witness") || !jotunnRecord.work.includes("Vafþrúðnismál") || !jotunnRecord.work.includes("Gylfaginning")) {
   failures.push("grouped jötunn evidence collapsed its continuity or work provenance");
 }
-const dvergrWork = dvergrTerm?.citations.map((citation) => citation.locator).filter(Boolean).join("; ") ?? "";
+const dvergrWork = dvergrTerm?.work_or_witness ?? "";
 if (!dvergrRecord || dvergrRecord.work !== dvergrWork || dvergrRecord.work.includes("Gylfaginning") || !dvergrSourceRecord?.work.includes("Gylfaginning")) {
   failures.push("dvergr discovery provenance overclaims the source-wide witness list");
 }
@@ -179,6 +194,18 @@ const exactHumanEvidenceIds = discovery.records
   .map((record) => record.id);
 if (exactHumanEvidenceIds.length <= 12) failures.push("human fixture no longer exercises search pagination");
 await page.locator("#search").fill("human");
+const firstMore = page.locator("#search-results .search-more");
+await firstMore.focus();
+await firstMore.press("Enter");
+await page.waitForFunction(() => document.activeElement?.classList.contains("search-result"));
+const firstExpandedIds = await page.locator("#search-results .search-result").evaluateAll((buttons) =>
+  buttons.map((button) => button.getAttribute("data-discovery-id")),
+);
+const firstExpandedFocus = await page.evaluate(() => document.activeElement?.getAttribute("data-discovery-id"));
+if (firstExpandedFocus !== firstExpandedIds[12]) failures.push("pagination did not focus the first newly revealed result");
+await page.keyboard.press("Tab");
+const secondExpandedFocus = await page.evaluate(() => document.activeElement?.getAttribute("data-discovery-id"));
+if (secondExpandedFocus !== firstExpandedIds[13]) failures.push("pagination focus order skipped newly revealed results");
 while (await page.locator("#search-results .search-more").count()) {
   await page.locator("#search-results .search-more").click();
 }
@@ -239,8 +266,15 @@ for (const [query, expected] of [["DAngeline", "Kushiel's Legacy"], ["Kiche", "P
 await page.locator("#search").fill("xenia");
 await page.locator(".search-result").filter({ hasText: "Source-native term · Ancient Greek Mythology" }).first().click();
 const xeniaDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
-if (!xeniaDetail.includes("normalized family") || !xeniaDetail.includes("hospitality, kinship & social metaphysics (law-800)") || !xeniaDetail.includes("normalized mapping") || !xeniaDetail.includes("sacred hospitality (law-801)") || !xeniaDetail.includes("guest–host reciprocity (law-802)") || !xeniaDetail.includes("outside the being/class graph")) {
+if (!xeniaDetail.includes("work / witness\nhomer, odyssey · 9.105–566") || !xeniaDetail.includes("normalized family") || !xeniaDetail.includes("hospitality, kinship & social metaphysics (law-800)") || !xeniaDetail.includes("normalized mapping") || !xeniaDetail.includes("sacred hospitality (law-801)") || !xeniaDetail.includes("guest–host reciprocity (law-802)") || !xeniaDetail.includes("outside the being/class graph")) {
   failures.push(`xenia detail discarded non-graph normalized mappings: ${xeniaDetail}`);
+}
+
+await page.locator("#search").fill("Chanjiao");
+await page.locator(".search-result").filter({ hasText: `Source-native term · ${chanjiaoRecord?.sourceTitle}` }).first().click();
+const chanjiaoDetail = await page.locator(".detail-panel").innerText();
+for (const character of chanjiaoCharacters) {
+  if (!chanjiaoDetail.includes(character.canonical_name)) failures.push(`Chanjiao detail omitted representative character ${character.canonical_name}`);
 }
 
 await page.locator("#search").fill("dvergr");

@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC192-001",
     "source_id": "SRC-192",
+    "work_or_witness": "Shadowrun Returns · Product header: developer, publisher, and release date",
     "canonical_term": "Shadowrun Returns original English PC witness",
     "original_language": "English video-game product lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC192-002",
     "source_id": "SRC-192",
+    "work_or_witness": "Shadowrun Returns · Man Meets Magic and Machine",
     "canonical_term": "magic, machine, and 2054 setting frame",
     "original_language": "English game-setting lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC192-003",
     "source_id": "SRC-192",
+    "work_or_witness": "Shadowrun Returns · Man Meets Magic and Machine",
     "canonical_term": "player Shadowrunner boundary",
     "original_language": "English player-role lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC192-004",
     "source_id": "SRC-192",
+    "work_or_witness": "Shadowrun Returns · Introduction",
     "canonical_term": "Seattle mysterious-killer investigation",
     "original_language": "English game-story lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC192-005",
     "source_id": "SRC-192",
+    "work_or_witness": "Shadowrun Returns · Main features: Gripping Tactical Combat and Skill-Based Character Progression",
     "canonical_term": "classless skill progression and cyber-magic tactics",
     "original_language": "English game-system lexicon",
     "original_script": "",
@@ -122,6 +127,7 @@
   {
     "term_id": "STM-SRC192-006",
     "source_id": "SRC-192",
+    "work_or_witness": "Shadowrun Returns · Introduction; Shadowrun Trilogy Arriving on Consoles on June 21, 2022 · 20 April 2022 press release, paragraph 2",
     "canonical_term": "tabletop-setting and CRPG adaptation boundary",
     "original_language": "English continuity lexicon",
     "original_script": "",
@@ -153,6 +159,7 @@
   {
     "term_id": "STM-SRC192-007",
     "source_id": "SRC-192",
+    "work_or_witness": "Shadowrun Trilogy Arriving on Consoles on June 21, 2022 · 20 April 2022 press release, paragraphs 1-2; Shadowrun Returns · Main game and product details",
     "canonical_term": "Trilogy, sequel, port, and add-on boundary",
     "original_language": "English product-continuity lexicon",
     "original_script": "",

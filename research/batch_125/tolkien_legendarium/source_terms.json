@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC026-001",
     "source_id": "SRC-026",
+    "work_or_witness": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’ · ‘What is the difference between The Silmarillion and the ‘Silmarillion’?’",
     "canonical_term": "The Silmarillion (1977)",
     "original_language": "English",
     "original_script": "The Silmarillion",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC026-002",
     "source_id": "SRC-026",
+    "work_or_witness": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’ · 1977 presentation, paragraph beginning ‘The Silmarillion is the history of the Elder Days, the First Age of the world’",
     "canonical_term": "Elder Days / First Age",
     "original_language": "English",
     "original_script": "Elder Days; First Age",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC026-003",
     "source_id": "SRC-026",
+    "work_or_witness": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’ · ‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, sentence on taking one of the Silmarilli from the Iron Crown",
     "canonical_term": "Silmaril",
     "original_language": "English",
     "original_script": "Silmarilli",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC026-004",
     "source_id": "SRC-026",
+    "work_or_witness": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’ · ‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, ‘Beren the outlawed mortal’",
     "canonical_term": "mortal",
     "original_language": "English",
     "original_script": "mortal",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC026-005",
     "source_id": "SRC-026",
+    "work_or_witness": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’ · ‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, ‘Lúthien ... an elf of royalty’",
     "canonical_term": "elf of royalty",
     "original_language": "English",
     "original_script": "elf of royalty",
@@ -122,6 +127,7 @@
   {
     "term_id": "STM-SRC026-006",
     "source_id": "SRC-026",
+    "work_or_witness": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’ · 1977 presentation, paragraphs beginning ‘At the time of my father’s death’ and ‘I set myself, therefore, to work out a single text’",
     "canonical_term": "posthumous editorial single-text presentation",
     "original_language": "English",
     "original_script": "single text",

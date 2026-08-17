@@ -47,6 +47,35 @@ with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
     )
     assert rejected.returncode == 1
     assert any(item["kind"] == "github-token" for item in json.loads(rejected.stdout)["findings"])
+    secret_values = {
+        "npm.txt": "npm" + "_" + "a" * 36,
+        "stripe.txt": "sk" + "_live_" + "b" * 24,
+        "gitlab.txt": "glpat" + "-" + "c" * 24,
+        "bearer.txt": "Authorization" + ": " + "Bearer " + "d" * 32,
+        "jwt.txt": "ey" + "JhbGciOiJIUzI1NiJ9" + "." + "ey" + "JzdWIiOiIxMjM0NTY3ODkwIn0" + "." + "signaturevalue123456",
+        "private-key.txt": "-" * 5 + "BEGIN PGP PRIVATE KEY BLOCK" + "-" * 5,
+        "url.txt": "https://" + "service:" + "password123" + "@example.invalid/private",
+    }
+    for filename, value in secret_values.items():
+        (artifact / filename).write_text(value, encoding="utf-8")
+    credentials = subprocess.run(
+        [sys.executable, "scripts/audit_release_import.py", "--artifact-root", relative.as_posix()],
+        cwd=root,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    assert credentials.returncode == 1
+    credential_kinds = kinds(json.loads(credentials.stdout)["findings"])
+    assert {
+        "npm-token",
+        "stripe-live-secret",
+        "gitlab-token",
+        "bearer-token",
+        "jwt-token",
+        "private-key",
+        "credential-url",
+    } <= credential_kinds
     (artifact / "linked.html").symlink_to("index.html")
     linked = subprocess.run(
         [sys.executable, "scripts/audit_release_import.py", "--artifact-root", relative.as_posix()],

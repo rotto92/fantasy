@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC103-001",
     "source_id": "SRC-103",
+    "work_or_witness": "The One Ring Core Rules · Includes: rules for travelling across the land (Journey)",
     "canonical_term": "Journey",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -26,6 +27,7 @@
   {
     "term_id": "STM-SRC103-002",
     "source_id": "SRC-103",
+    "work_or_witness": "The One Ring Core Rules · Includes: rules for meeting personalities of Middle-earth (Council)",
     "canonical_term": "Council",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -50,6 +52,7 @@
   {
     "term_id": "STM-SRC103-003",
     "source_id": "SRC-103",
+    "work_or_witness": "The One Ring game page · Overview and The setting: year 2965 of the Third Age",
     "canonical_term": "the Shadow",
     "original_language": "English licensed-setting/game lexicon",
     "original_script": "",
@@ -74,6 +77,7 @@
   {
     "term_id": "STM-SRC103-004",
     "source_id": "SRC-103",
+    "work_or_witness": "The One Ring Core Rules · Includes: in-depth information on six Patrons",
     "canonical_term": "Patrons",
     "original_language": "English game-rules lexicon",
     "original_script": "",
@@ -98,6 +102,7 @@
   {
     "term_id": "STM-SRC103-005",
     "source_id": "SRC-103",
+    "work_or_witness": "The One Ring Core Rules · Includes: Loremaster advice, rules for magical treasure, the Shadow, and the Eye of Mordor",
     "canonical_term": "Eye of Mordor",
     "original_language": "English licensed-setting/game lexicon",
     "original_script": "",

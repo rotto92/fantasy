@@ -2,6 +2,7 @@
   {
     "term_id": "STM-SRC010-001",
     "source_id": "SRC-010",
+    "work_or_witness": "Jinn Traditions · Qur'an 72:1; Jinn Traditions · Qur'an 72:14",
     "canonical_term": "jinn",
     "original_language": "Arabic",
     "original_script": "الجن",
@@ -35,6 +36,7 @@
   {
     "term_id": "STM-SRC010-002",
     "source_id": "SRC-010",
+    "work_or_witness": "Jinn Traditions · Qur'an 21:82; Jinn Traditions · Qur'an 20:120",
     "canonical_term": "shayatin",
     "original_language": "Arabic",
     "original_script": "الشياطين",
@@ -66,6 +68,7 @@
   {
     "term_id": "STM-SRC010-003",
     "source_id": "SRC-010",
+    "work_or_witness": "Jinn Traditions · Qur'an 27:39",
     "canonical_term": "ifrit",
     "original_language": "Arabic",
     "original_script": "عفريت",
@@ -92,6 +95,7 @@
   {
     "term_id": "STM-SRC010-004",
     "source_id": "SRC-010",
+    "work_or_witness": "Jinn Traditions · Qur'an 55:15",
     "canonical_term": "marij min nar",
     "original_language": "Arabic",
     "original_script": "مارج من نار",
@@ -116,6 +120,7 @@
   {
     "term_id": "STM-SRC010-005",
     "source_id": "SRC-010",
+    "work_or_witness": "Jinn Traditions · Qur'an 34:14",
     "canonical_term": "al-ghayb",
     "original_language": "Arabic",
     "original_script": "الغيب",
@@ -140,6 +145,7 @@
   {
     "term_id": "STM-SRC010-006",
     "source_id": "SRC-010",
+    "work_or_witness": "Jinn Traditions · Qur'an 34:12",
     "canonical_term": "bi-idhni rabbihi",
     "original_language": "Arabic",
     "original_script": "بإذن ربه",
