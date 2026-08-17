@@ -15,7 +15,7 @@
   "completed_character_count": 49,
   "omissions": ["The full poem contains many more named royals, warriors, envoys, and historical figures than this foundational pass.", "Anonymous dīvs, dragons, armies, and collective peoples are dimensions or narrative entities, not character nodes.", "Figures prominent in later oral epics, modern retellings, and illustrated manuscript traditions are excluded unless they act in Ferdowsi's poem under this witness."],
   "uncertainties": ["The Warner translation is complete but early and uses dated transliterations; normalized names are supplied alongside aliases.", "The poem reshapes earlier Iranian mythic, Zoroastrian, and historical material; this pass records the poem, not a reconstruction of those traditions.", "Dīv is semantically broad and context-dependent; mappings are deliberately partial."],
-  "completion_status": "pass-complete against the declared witness scope",
+  "completion_status": "pass-complete",
   "evidence_basis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
   "citations": [
     {"url":"https://archive.org/details/shahnama01firduoft","locator":"Vol. I, Warner & Warner (1905), title and contents","supports":["identified translation witness"]},

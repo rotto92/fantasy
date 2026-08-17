@@ -2,15 +2,17 @@
   "meta": {
     "title": "Fantasy Character Atlas",
     "version": "4.0-research",
-    "sourceFingerprint": "sha256:d604920b49ac1646d742c910800291accb792385f9cd18906ad2183f5146414f",
+    "sourceFingerprint": "sha256:97135c93bdf13207d2271418e60eb66c265316c13aa6065cbbe7df7ae5e22f4d",
     "sourceWorkbook": "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
     "counts": {
       "source_audits": 281,
-      "characters": 1573,
-      "relationships": 1258,
-      "source_terms": 1881,
+      "characters": 1568,
+      "relationships": 1252,
+      "source_terms": 1879,
       "errors": 0,
-      "warnings": 14
+      "warnings": 14,
+      "quarantined_records": 13,
+      "quarantined_mappings": 45
     },
     "researchCoverage": {
       "corpusSources": 281,
@@ -38,7 +40,73 @@
       "pendingFullSecondReviewSources": 191,
       "retainedWarningSources": 13,
       "retainedWarningFlags": 14,
-      "corpusWideContractReviews": 2
+      "corpusWideContractReviews": 2,
+      "reviewedClaims": 2509,
+      "totalClaims": 9586,
+      "claimCoverage": 0.261736,
+      "minimumClaimCoverage": 0.2,
+      "quarantinedRecordIds": [
+        "CHR-SRC002-045",
+        "CHR-SRC067-003",
+        "CHR-SRC067-008",
+        "CHR-SRC067-009",
+        "CHR-SRC067-010",
+        "REL-SRC002-043",
+        "REL-SRC067-003",
+        "REL-SRC067-007",
+        "REL-SRC067-008",
+        "REL-SRC067-009",
+        "REL-SRC067-010",
+        "STM-SRC067-002",
+        "STM-SRC067-006"
+      ],
+      "quarantinedMappingRecordIds": [
+        "CHR-SRC001-025",
+        "CHR-SRC001-042",
+        "CHR-SRC002-033",
+        "CHR-SRC002-036",
+        "CHR-SRC003-032",
+        "CHR-SRC009-001",
+        "CHR-SRC009-002",
+        "CHR-SRC009-003",
+        "CHR-SRC009-004",
+        "CHR-SRC009-005",
+        "CHR-SRC009-006",
+        "CHR-SRC009-008",
+        "CHR-SRC009-009",
+        "CHR-SRC009-010",
+        "CHR-SRC009-011",
+        "CHR-SRC009-012",
+        "CHR-SRC009-013",
+        "CHR-SRC009-014",
+        "CHR-SRC009-015",
+        "CHR-SRC009-016",
+        "CHR-SRC009-017",
+        "CHR-SRC009-018",
+        "CHR-SRC009-019",
+        "CHR-SRC009-020",
+        "CHR-SRC009-021",
+        "CHR-SRC009-022",
+        "CHR-SRC009-023",
+        "CHR-SRC009-024",
+        "CHR-SRC009-026",
+        "CHR-SRC009-027",
+        "CHR-SRC009-028",
+        "CHR-SRC009-029",
+        "CHR-SRC009-030",
+        "CHR-SRC015-034",
+        "CHR-SRC020-005",
+        "CHR-SRC023-027",
+        "CHR-SRC050-010",
+        "STM-SRC002-002",
+        "STM-SRC002-005",
+        "STM-SRC002-013",
+        "STM-SRC015-005",
+        "STM-SRC024-001",
+        "STM-SRC024-003",
+        "STM-SRC024-007",
+        "STM-SRC050-004"
+      ]
     },
     "quarantinedBundles": [
       "research/batch_006/yoruba_ifa"
@@ -4154,7 +4222,7 @@
         "Æsir/Vanir and jötunn are source terms with shifting genealogical and narrative use; they are not treated as fixed fantasy races.",
         "Some figures occur under variant spellings or are distinguished differently in prose and verse; aliases preserve discoverability while records retain the named witness basis."
       ],
-      "completion_status": "pass-complete for the declared Eddic witness scope only",
+      "completion_status": "pass-complete",
       "evidence_basis": "Primary-text citations to the Bellows Poetic Edda and Brodeur Prose Edda translations, with poem/stanza or book/chapter locators; no Wikipedia, fan-wiki, or adaptation evidence used.",
       "last_reviewed": "2026-08-04",
       "citations": [
@@ -4807,7 +4875,7 @@
         "The poem reshapes earlier Iranian mythic, Zoroastrian, and historical material; this pass records the poem, not a reconstruction of those traditions.",
         "Dīv is semantically broad and context-dependent; mappings are deliberately partial."
       ],
-      "completion_status": "pass-complete against the declared witness scope",
+      "completion_status": "pass-complete",
       "evidence_basis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
       "citations": [
         {
@@ -22506,9 +22574,7 @@
         "being_types": [
           {
             "term": "anthropos / mortal human",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "high",
             "note": "Mortal status is textual, not an ethnic category."
           }
@@ -23521,9 +23587,7 @@
         "being_types": [
           {
             "term": "anthropos / mortal human",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "high",
             "note": "Mortal status is textual, not an ethnic category."
           }
@@ -25959,9 +26023,7 @@
         "being_types": [
           {
             "term": "jötunn",
-            "archetype_ids": [
-              "PPL-108"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "partial comparative mapping"
           }
@@ -27114,9 +27176,7 @@
         "power_traditions": [
           {
             "term": "sea association",
-            "archetype_ids": [
-              "PWR-213"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "comparative only"
           }
@@ -27201,81 +27261,6 @@
       ],
       "spoiler_level": "light",
       "review_status": "researched"
-    },
-    {
-      "character_id": "CHR-SRC002-045",
-      "canonical_name": "Sigrdrífa",
-      "aliases": [
-        "Brynhildr",
-        "Brynhild"
-      ],
-      "source_id": "SRC-002",
-      "source_title": "Norse Mythology",
-      "continuity": "Poetic Edda heroic witness; identity relation disputed",
-      "work_or_witness": "Sigrdrífumál",
-      "character_kind": "individual",
-      "description": "Named awakened valkyrja who gives Sigurðr counsel and runic instruction; this pass does not silently equate her with Brynhildr beyond the alias caution.",
-      "dimensions": {
-        "being_types": [
-          {
-            "term": "valkyrja",
-            "archetype_ids": [
-              "PPL-405"
-            ],
-            "confidence": "low",
-            "note": "partial servitor comparison"
-          }
-        ],
-        "cultures": [],
-        "roles_and_vocations": [
-          {
-            "term": "counselor",
-            "archetype_ids": [],
-            "confidence": "low",
-            "note": "episode-specific"
-          }
-        ],
-        "power_traditions": [
-          {
-            "term": "runes",
-            "archetype_ids": [
-              "PWR-501"
-            ],
-            "confidence": "moderate",
-            "note": "instruction in poem"
-          }
-        ],
-        "affiliations": [],
-        "states_and_transformations": [
-          {
-            "term": "awakened from enchanted sleep",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "prose opening"
-          }
-        ],
-        "artifacts_and_vehicles": [],
-        "cosmologies_and_realms": [],
-        "metaphysical_laws_and_rituals": [],
-        "narrative_archetypes": [],
-        "game_mechanics": []
-      },
-      "canon_status": "attested; identity with Brynhildr disputed",
-      "evidence_level": "primary-text",
-      "citations": [
-        {
-          "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
-          "locator": "Sigrdrífumál prose opening; st. 1–37",
-          "supports": [
-            "name, awakening, counsel, and runic instruction"
-          ]
-        }
-      ],
-      "comparison_cautions": [
-        "Brynhildr is retained only as a discovery alias; a separate witness-level identity study is required."
-      ],
-      "spoiler_level": "moderate",
-      "review_status": "disputed"
     },
     {
       "character_id": "CHR-SRC002-044",
@@ -30782,9 +30767,7 @@
         "being_types": [
           {
             "term": "Túatha Dé Danann",
-            "archetype_ids": [
-              "PPL-200"
-            ],
+            "archetype_ids": [],
             "confidence": "moderate",
             "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
           }
@@ -30796,10 +30779,7 @@
         "states_and_transformations": [
           {
             "term": "transformation and rebirth",
-            "archetype_ids": [
-              "PWR-310",
-              "STA-202"
-            ],
+            "archetype_ids": [],
             "confidence": "moderate",
             "note": "Witness-specific sequence; not a generic shapeshifter identity."
           }
@@ -37853,9 +37833,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -37902,9 +37880,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -37951,9 +37927,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38000,9 +37974,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38049,9 +38021,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38098,9 +38068,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38147,9 +38115,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38196,9 +38162,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38245,9 +38209,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38294,9 +38256,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38343,9 +38303,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38392,9 +38350,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38441,9 +38397,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38490,9 +38444,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38539,9 +38491,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38588,9 +38538,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38637,9 +38585,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38686,9 +38632,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38735,9 +38679,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38784,9 +38726,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38833,9 +38773,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38882,9 +38820,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38931,9 +38867,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -38980,9 +38914,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -39123,9 +39055,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -39172,9 +39102,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -39221,9 +39149,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -39270,9 +39196,7 @@
         "being_types": [
           {
             "term": "human person",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious comparison only."
           }
@@ -44025,9 +43949,7 @@
         "being_types": [
           {
             "term": "human sage",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "not a class"
           }
@@ -46101,7 +46023,7 @@
               "PPL-501",
               "PPL-1004"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Do not flatten yaoguai into a demon race."
           }
         ],
@@ -46113,7 +46035,7 @@
             "archetype_ids": [
               "PWR-114"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel practice."
           }
         ],
@@ -46126,7 +46048,7 @@
           {
             "term": "episode antagonist",
             "archetype_ids": [],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "No moral essence inferred."
           }
         ],
@@ -46170,7 +46092,7 @@
               "PPL-501",
               "PPL-1004"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not a demon/beastfolk ancestry."
           }
         ],
@@ -46181,7 +46103,7 @@
             "archetype_ids": [
               "ROL-721"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Narrative ruler only."
           }
         ],
@@ -46192,7 +46114,7 @@
               "PWR-114",
               "PWR-310"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native framework."
           }
         ],
@@ -46214,7 +46136,7 @@
             "archetype_ids": [
               "NAR-302"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "No fixed moral essence."
           }
         ],
@@ -46257,7 +46179,7 @@
             "archetype_ids": [
               "PPL-801"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Chinese dragon kings are distinct."
           }
         ],
@@ -46268,7 +46190,7 @@
             "archetype_ids": [
               "ROL-716"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Rulership comparison."
           }
         ],
@@ -46289,7 +46211,7 @@
             "archetype_ids": [
               "COS-518"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Source geography."
           }
         ],
@@ -46345,7 +46267,7 @@
             "archetype_ids": [
               "ROL-716"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Political comparison."
           }
         ],
@@ -46368,7 +46290,7 @@
               "LAW-508",
               "LAW-704"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel cosmology."
           }
         ],
@@ -46412,7 +46334,7 @@
             "archetype_ids": [
               "PPL-404"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "No equation to angelic being."
           }
         ],
@@ -46423,7 +46345,7 @@
             "archetype_ids": [
               "ROL-139"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Plot role."
           }
         ],
@@ -46433,7 +46355,7 @@
             "archetype_ids": [
               "PWR-310"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native system retained."
           }
         ],
@@ -46488,7 +46410,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native category retained."
           }
         ],
@@ -46511,7 +46433,7 @@
               "ART-102",
               "ART-218"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Source treasures."
           }
         ],
@@ -46557,7 +46479,7 @@
             "archetype_ids": [
               "PPL-401"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not a generic deity."
           }
         ],
@@ -46576,7 +46498,7 @@
             "archetype_ids": [
               "PWR-103"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Not a spell list."
           }
         ],
@@ -46596,7 +46518,7 @@
             "archetype_ids": [
               "COS-201"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Source geography."
           }
         ],
@@ -46641,7 +46563,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native category retained."
           }
         ],
@@ -46660,7 +46582,7 @@
             "archetype_ids": [
               "PWR-207"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Effect comparison."
           }
         ],
@@ -46671,7 +46593,7 @@
             "archetype_ids": [
               "STA-202"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Episode disguise."
           }
         ],
@@ -46718,7 +46640,7 @@
             "archetype_ids": [
               "PPL-401"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Office/status is novel-specific."
           }
         ],
@@ -46729,7 +46651,7 @@
             "archetype_ids": [
               "ROL-716"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Administrative role only."
           }
         ],
@@ -46740,7 +46662,7 @@
             "archetype_ids": [
               "COS-119"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel bureaucracy."
           }
         ],
@@ -46753,7 +46675,7 @@
               "COS-119",
               "COS-202"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Literary cosmology."
           }
         ],
@@ -46763,7 +46685,7 @@
             "archetype_ids": [
               "LAW-518"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel’s office satire."
           }
         ],
@@ -46807,7 +46729,7 @@
             "archetype_ids": [
               "PPL-401"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Do not reduce Yama traditions to a generic death god."
           }
         ],
@@ -46827,7 +46749,7 @@
             "archetype_ids": [
               "COS-119"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel bureaucracy."
           }
         ],
@@ -46839,7 +46761,7 @@
             "archetype_ids": [
               "COS-210"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "No Christian infernal binary."
           }
         ],
@@ -46849,7 +46771,7 @@
             "archetype_ids": [
               "LAW-704"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel episode."
           }
         ],
@@ -46893,7 +46815,7 @@
             "archetype_ids": [
               "PPL-401"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not generic deity."
           }
         ],
@@ -46923,7 +46845,7 @@
             "archetype_ids": [
               "COS-201"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Literary geography."
           }
         ],
@@ -46968,7 +46890,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native category retained."
           }
         ],
@@ -46980,7 +46902,7 @@
             "archetype_ids": [
               "PWR-310"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "No gender-essentializing mapping."
           }
         ],
@@ -47036,7 +46958,7 @@
             "archetype_ids": [
               "PPL-401"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not generic deity mapping."
           }
         ],
@@ -47047,7 +46969,7 @@
             "archetype_ids": [
               "ROL-307"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel presentation."
           }
         ],
@@ -47057,7 +46979,7 @@
             "archetype_ids": [
               "PWR-513"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not fantasy crafting."
           }
         ],
@@ -47069,7 +46991,7 @@
             "archetype_ids": [
               "ART-218"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Named implement."
           }
         ],
@@ -47079,7 +47001,7 @@
             "archetype_ids": [
               "COS-119"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel cosmology."
           }
         ],
@@ -47124,7 +47046,7 @@
             "archetype_ids": [
               "PPL-404"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Office-based status."
           }
         ],
@@ -47135,7 +47057,7 @@
             "archetype_ids": [
               "ROL-141"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Military comparison."
           }
         ],
@@ -47146,7 +47068,7 @@
             "archetype_ids": [
               "COS-119"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel bureaucracy."
           }
         ],
@@ -47157,7 +47079,7 @@
             "archetype_ids": [
               "ART-105"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Office-associated object."
           }
         ],
@@ -47203,7 +47125,7 @@
             "archetype_ids": [
               "PPL-404"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "No angelic equivalence."
           }
         ],
@@ -47214,7 +47136,7 @@
             "archetype_ids": [
               "ROL-139"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Narrative role."
           }
         ],
@@ -47234,7 +47156,7 @@
             "archetype_ids": [
               "ART-202"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Source regalia."
           }
         ],
@@ -47280,7 +47202,7 @@
             "archetype_ids": [
               "PPL-406"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Xian is not generic ascension."
           }
         ],
@@ -47291,7 +47213,7 @@
             "archetype_ids": [
               "ROL-933"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Comparative label."
           }
         ],
@@ -47302,7 +47224,7 @@
               "PWR-114",
               "PWR-310"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native framework."
           }
         ],
@@ -47312,7 +47234,7 @@
             "archetype_ids": [
               "INS-425"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Institution comparison."
           }
         ],
@@ -47325,7 +47247,7 @@
             "archetype_ids": [
               "LAW-806"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel relation."
           }
         ],
@@ -47369,7 +47291,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Do not conflate luocha with generic demons."
           }
         ],
@@ -47392,7 +47314,7 @@
               "ART-102",
               "ART-218"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Climate-changing source artifact."
           }
         ],
@@ -47438,7 +47360,7 @@
               "PPL-501",
               "PPL-1004"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "No generic foxfolk equation."
           }
         ],
@@ -47497,7 +47419,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native category retained."
           }
         ],
@@ -47510,7 +47432,7 @@
               "PWR-201",
               "PWR-310"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not a game spell school."
           }
         ],
@@ -47528,7 +47450,7 @@
             "archetype_ids": [
               "STA-425"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Status change."
           }
         ],
@@ -47575,7 +47497,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native category retained."
           }
         ],
@@ -47588,7 +47510,7 @@
               "PWR-216",
               "PWR-310"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Effect comparison."
           }
         ],
@@ -47644,7 +47566,7 @@
             "archetype_ids": [
               "PPL-404"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Heavenly Court status only."
           }
         ],
@@ -47655,7 +47577,7 @@
             "archetype_ids": [
               "ROL-101"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Role only."
           }
         ],
@@ -47674,7 +47596,7 @@
             "archetype_ids": [
               "STA-425"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Office/status change."
           }
         ],
@@ -47684,7 +47606,7 @@
             "archetype_ids": [
               "ART-208"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Named weapon."
           }
         ],
@@ -47729,7 +47651,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native category retained."
           }
         ],
@@ -47752,7 +47674,7 @@
               "ART-102",
               "ART-218"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Source treasures."
           }
         ],
@@ -47799,7 +47721,7 @@
               "PPL-1001",
               "PPL-1002"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Allegorical identity episode."
           }
         ],
@@ -47811,7 +47733,7 @@
             "archetype_ids": [
               "PWR-310"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Source-specific."
           }
         ],
@@ -47825,7 +47747,7 @@
             "archetype_ids": [
               "LAW-608"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Episode structure."
           }
         ],
@@ -47835,7 +47757,7 @@
             "archetype_ids": [
               "NAR-327"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Functional only."
           }
         ],
@@ -47879,7 +47801,7 @@
             "archetype_ids": [
               "PPL-1001"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not a generic species."
           }
         ],
@@ -47890,7 +47812,7 @@
             "archetype_ids": [
               "ROL-123"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Martial/monastic comparison only."
           }
         ],
@@ -47901,7 +47823,7 @@
               "PWR-114",
               "PWR-310"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native vocabularies retain priority."
           }
         ],
@@ -47921,7 +47843,7 @@
               "ART-208",
               "ART-210"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Named changing-size weapon."
           }
         ],
@@ -47932,7 +47854,7 @@
               "COS-119",
               "COS-201"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Literary cosmology."
           }
         ],
@@ -47943,7 +47865,7 @@
             "archetype_ids": [
               "NAR-125"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Plot role only."
           }
         ],
@@ -48000,7 +47922,7 @@
               "ROL-404",
               "ROL-420"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Does not capture Tang Buddhist status."
           }
         ],
@@ -48023,7 +47945,7 @@
               "LAW-103",
               "LAW-814"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel allegory, not generic quest mechanics."
           }
         ],
@@ -48033,7 +47955,7 @@
             "archetype_ids": [
               "NAR-125"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Functional only."
           }
         ],
@@ -48076,7 +47998,7 @@
             "archetype_ids": [
               "PPL-401"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not a generic deity."
           }
         ],
@@ -48095,7 +48017,7 @@
             "archetype_ids": [
               "PWR-103"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Not transferable magic."
           }
         ],
@@ -48108,7 +48030,7 @@
             "archetype_ids": [
               "COS-201"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel sacred geography."
           }
         ],
@@ -48119,7 +48041,7 @@
             "archetype_ids": [
               "ROL-724"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Narrative function only."
           }
         ],
@@ -48191,7 +48113,7 @@
             "archetype_ids": [
               "COS-119"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Literary cosmology."
           }
         ],
@@ -48201,7 +48123,7 @@
             "archetype_ids": [
               "LAW-704"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel episode."
           }
         ],
@@ -48245,7 +48167,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not demon/undead race."
           }
         ],
@@ -48257,7 +48179,7 @@
             "archetype_ids": [
               "PWR-310"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native transformations."
           }
         ],
@@ -48268,7 +48190,7 @@
             "archetype_ids": [
               "STA-202"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Episode-specific."
           }
         ],
@@ -48281,7 +48203,7 @@
             "archetype_ids": [
               "NAR-327"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Functional only."
           }
         ],
@@ -48323,7 +48245,7 @@
             "archetype_ids": [
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Native category retained."
           }
         ],
@@ -48335,7 +48257,7 @@
             "archetype_ids": [
               "PWR-204"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Effect comparison."
           }
         ],
@@ -48392,7 +48314,7 @@
               "PPL-404",
               "PPL-501"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "The plot complicates fixed categories."
           }
         ],
@@ -48412,7 +48334,7 @@
             "archetype_ids": [
               "COS-119"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel cosmology."
           }
         ],
@@ -48422,7 +48344,7 @@
             "archetype_ids": [
               "STA-202"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Narrative transformation."
           }
         ],
@@ -48469,7 +48391,7 @@
             "archetype_ids": [
               "PPL-801"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Chinese dragon ontology is distinct."
           }
         ],
@@ -48498,7 +48420,7 @@
               "STA-202",
               "STA-210"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Redemptive novel transformation."
           }
         ],
@@ -48508,7 +48430,7 @@
             "archetype_ids": [
               "ART-508"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Vehicle mapping, not objecthood."
           }
         ],
@@ -48520,7 +48442,7 @@
             "archetype_ids": [
               "NAR-208"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Party function."
           }
         ],
@@ -48564,7 +48486,7 @@
             "archetype_ids": [
               "PPL-1004"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Not a stable fantasy ancestry."
           }
         ],
@@ -48575,7 +48497,7 @@
             "archetype_ids": [
               "ROL-101"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Role only."
           }
         ],
@@ -48594,7 +48516,7 @@
             "archetype_ids": [
               "STA-211"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Novel-specific."
           }
         ],
@@ -48604,7 +48526,7 @@
             "archetype_ids": [
               "ART-208"
             ],
-            "confidence": "partial",
+            "confidence": "moderate",
             "note": "Named weapon."
           }
         ],
@@ -48616,7 +48538,7 @@
             "archetype_ids": [
               "NAR-208"
             ],
-            "confidence": "functional",
+            "confidence": "moderate",
             "note": "Does not reduce allegorical role."
           }
         ],
@@ -53494,9 +53416,7 @@
         "states_and_transformations": [
           {
             "term": "postmortem installation as cheukdo buin",
-            "archetype_ids": [
-              "STA-425"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Source-specific office outcome, not a generic creature change."
           }
@@ -57725,9 +57645,7 @@
         "being_types": [
           {
             "term": "human commander",
-            "archetype_ids": [
-              "PPL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Cautious analytic comparison."
           }
@@ -57736,9 +57654,7 @@
         "roles_and_vocations": [
           {
             "term": "warrior commander",
-            "archetype_ids": [
-              "ROL-101"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Campaign role only."
           }
@@ -68640,10 +68556,7 @@
         "power_traditions": [
           {
             "term": "weaving and reality-altering action",
-            "archetype_ids": [
-              "PWR-412",
-              "PWR-521"
-            ],
+            "archetype_ids": [],
             "confidence": "low",
             "note": "Partial functional comparison only; the Weaver's agency is not a spell school."
           }
@@ -78684,125 +78597,6 @@
       "review_status": "needs-review"
     },
     {
-      "character_id": "CHR-SRC067-009",
-      "canonical_name": "Nsaka Ne Vampi",
-      "aliases": [
-        "Nsaka de Vampi",
-        "Nsaka"
-      ],
-      "source_id": "SRC-067",
-      "source_title": "Black Leopard, Red Wolf",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "work_or_witness": "Black Leopard, Red Wolf (Riverhead, 2019), chapters 6–8, 18, 21, and 23–24",
-      "character_kind": "individual",
-      "description": "A named mercenary and Nyka's lover who enters the early party and later features in Tracker's contested account of betrayals, the Boy, and Nyka's return.",
-      "dimensions": {
-        "being_types": [],
-        "cultures": [],
-        "roles_and_vocations": [
-          {
-            "term": "mercenary",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "Narrated role, not a class mapping."
-          }
-        ],
-        "power_traditions": [],
-        "affiliations": [
-          {
-            "term": "Boy-search party",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "Association changes across Tracker's account."
-          }
-        ],
-        "states_and_transformations": [],
-        "artifacts_and_vehicles": [],
-        "cosmologies_and_realms": [],
-        "metaphysical_laws_and_rituals": [],
-        "narrative_archetypes": [],
-        "game_mechanics": []
-      },
-      "canon_status": "named material party member in the declared novel cohort",
-      "evidence_level": "primary-text",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 6–8, 18, 21, and 23–24",
-          "supports": [
-            "Tracker names Nsaka, recounts early party participation and relationship with Nyka, and narrates later conflict involving Nsaka."
-          ]
-        }
-      ],
-      "comparison_cautions": [
-        "Spelling is ambiguous in external transcriptions; aliases preserve variants without splitting one individual into multiple nodes.",
-        "Tracker's accusations and later causal sequence are not independently adjudicated here."
-      ],
-      "spoiler_level": "major",
-      "review_status": "disputed"
-    },
-    {
-      "character_id": "CHR-SRC067-008",
-      "canonical_name": "Nyka",
-      "aliases": [],
-      "source_id": "SRC-067",
-      "source_title": "Black Leopard, Red Wolf",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "work_or_witness": "Black Leopard, Red Wolf (Riverhead, 2019), chapters 6–8, 21, and 23–25",
-      "character_kind": "individual",
-      "description": "A named mercenary and Nsaka's lover who is present in the early search party and returns in Tracker's late account with a radically changed condition and role.",
-      "dimensions": {
-        "being_types": [],
-        "cultures": [],
-        "roles_and_vocations": [
-          {
-            "term": "mercenary",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "Narrated role, not a class mapping."
-          }
-        ],
-        "power_traditions": [],
-        "affiliations": [
-          {
-            "term": "Boy-search party",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "Early membership and later reappearance are narrated."
-          }
-        ],
-        "states_and_transformations": [
-          {
-            "term": "changed after contact with Ipundulu, in Tracker's testimony",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "Do not infer a stable species/category from the narrator's late account."
-          }
-        ],
-        "artifacts_and_vehicles": [],
-        "cosmologies_and_realms": [],
-        "metaphysical_laws_and_rituals": [],
-        "narrative_archetypes": [],
-        "game_mechanics": []
-      },
-      "canon_status": "named material party member in the declared novel cohort",
-      "evidence_level": "primary-text",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 6–8, 21, and 23–25",
-          "supports": [
-            "Tracker names Nyka in the early party, identifies the relationship with Nsaka, and recounts Nyka's late return and altered condition."
-          ]
-        }
-      ],
-      "comparison_cautions": [
-        "Nyka's reported transformation and final actions are among Tracker's most consequential claims and remain testimony-bound."
-      ],
-      "spoiler_level": "major",
-      "review_status": "disputed"
-    },
-    {
       "character_id": "CHR-SRC067-004",
       "canonical_name": "Sadogo",
       "aliases": [
@@ -78864,78 +78658,6 @@
       ],
       "spoiler_level": "major",
       "review_status": "needs-review"
-    },
-    {
-      "character_id": "CHR-SRC067-003",
-      "canonical_name": "Sogolon",
-      "aliases": [
-        "the Moon Witch",
-        "Sologon"
-      ],
-      "source_id": "SRC-067",
-      "source_title": "Black Leopard, Red Wolf",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "work_or_witness": "Black Leopard, Red Wolf (Riverhead, 2019), chapters 8, 11, 16, 21, and 25",
-      "character_kind": "individual",
-      "description": "A named magical agent, called the Moon Witch, who joins the Boy search and repeatedly acts at cross-purposes with Tracker in his testimony. The record does not decide whether Tracker's accusations against her are true.",
-      "dimensions": {
-        "being_types": [],
-        "cultures": [],
-        "roles_and_vocations": [
-          {
-            "term": "Moon Witch",
-            "archetype_ids": [],
-            "confidence": "high",
-            "note": "Novel's title for Sogolon; no mapping to a historical witchcraft tradition."
-          }
-        ],
-        "power_traditions": [
-          {
-            "term": "runes and magic attributed to Sogolon",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "Recorded as Tracker's narrated observation; details are not generalized."
-          }
-        ],
-        "affiliations": [
-          {
-            "term": "Boy-search party",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "Her collaboration is unstable and contested."
-          }
-        ],
-        "states_and_transformations": [],
-        "artifacts_and_vehicles": [],
-        "cosmologies_and_realms": [],
-        "metaphysical_laws_and_rituals": [],
-        "narrative_archetypes": [],
-        "game_mechanics": []
-      },
-      "canon_status": "named material party agent in the declared novel cohort",
-      "evidence_level": "primary-text",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 8, 11, 16, 21, and 25",
-          "supports": [
-            "Tracker's testimony places Sogolon in the party and narrates her magical actions, conflict, and late role."
-          ]
-        },
-        {
-          "url": "https://www.penguinrandomhouse.com/books/561305/black-leopard-red-wolf-by-marlon-james/9780735220171/readers-guide/",
-          "locator": "Reader's Guide question 7",
-          "supports": [
-            "Official guide identifies Sogolon's quest as a major issue across the novel."
-          ]
-        }
-      ],
-      "comparison_cautions": [
-        "Moon Witch is the novel's fictional title, not a claim about any African historical or living religious practice.",
-        "Sologon is retained as an attested spelling/voice variant; it is not a separate character node."
-      ],
-      "spoiler_level": "major",
-      "review_status": "disputed"
     },
     {
       "character_id": "CHR-SRC067-001",
@@ -79014,70 +78736,6 @@
       ],
       "spoiler_level": "major",
       "review_status": "researched"
-    },
-    {
-      "character_id": "CHR-SRC067-010",
-      "canonical_name": "the Aesi",
-      "aliases": [
-        "Aesi"
-      ],
-      "source_id": "SRC-067",
-      "source_title": "Black Leopard, Red Wolf",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "work_or_witness": "Black Leopard, Red Wolf (Riverhead, 2019), chapters 8, 16, 18, 21, and 24",
-      "character_kind": "individual",
-      "description": "The named, title-like singular agent called the Aesi in Tracker's account, connected to court power and to the party's magical/political conflict. The definite article is retained because the text's designation is not reduced to a generic office.",
-      "dimensions": {
-        "being_types": [],
-        "cultures": [],
-        "roles_and_vocations": [
-          {
-            "term": "the Aesi",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "A singular source designation whose exact institutional or ontological sense is not normalized."
-          }
-        ],
-        "power_traditions": [
-          {
-            "term": "magic attributed to the Aesi in Tracker's testimony",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "No generalized necromancer or sorcerer label is imposed."
-          }
-        ],
-        "affiliations": [
-          {
-            "term": "Kwash Dara's court, as narrated",
-            "archetype_ids": [],
-            "confidence": "moderate",
-            "note": "Court is an affiliation dimension, not a node."
-          }
-        ],
-        "states_and_transformations": [],
-        "artifacts_and_vehicles": [],
-        "cosmologies_and_realms": [],
-        "metaphysical_laws_and_rituals": [],
-        "narrative_archetypes": [],
-        "game_mechanics": []
-      },
-      "canon_status": "named material adversarial agent in the declared novel cohort",
-      "evidence_level": "primary-text",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 8, 16, 18, 21, and 24",
-          "supports": [
-            "Tracker identifies the Aesi and recounts the agent's courtly, magical, and adversarial actions in the search conflict."
-          ]
-        }
-      ],
-      "comparison_cautions": [
-        "The Aesi may function as a proper designation rather than an office; it is retained exactly and is not expanded into historical or folkloric taxonomy.",
-        "All motives and causal claims are Tracker's testimony in this witness."
-      ],
-      "spoiler_level": "major",
-      "review_status": "disputed"
     },
     {
       "character_id": "CHR-SRC068-004",
@@ -80910,7 +80568,7 @@
       "comparison_cautions": [
         "No later identity, memory, species, kingdom, magic, or adaptation claim is included."
       ],
-      "spoiler_level": "minor",
+      "spoiler_level": "light",
       "review_status": "researched"
     },
     {
@@ -80975,7 +80633,7 @@
       "comparison_cautions": [
         "No later political role, identity, or translation-localization inference."
       ],
-      "spoiler_level": "minor",
+      "spoiler_level": "light",
       "review_status": "researched"
     },
     {
@@ -81040,7 +80698,7 @@
       "comparison_cautions": [
         "No later political role, identity, or translation-localization inference."
       ],
-      "spoiler_level": "minor",
+      "spoiler_level": "light",
       "review_status": "researched"
     },
     {
@@ -81690,7 +81348,7 @@
       "comparison_cautions": [
         "No RPG spell/class mechanics or later continuity material."
       ],
-      "spoiler_level": "minor",
+      "spoiler_level": "light",
       "review_status": "researched"
     },
     {
@@ -81739,7 +81397,7 @@
       "comparison_cautions": [
         "No adaptation-specific portrayal, spell list, or later role."
       ],
-      "spoiler_level": "minor",
+      "spoiler_level": "light",
       "review_status": "researched"
     },
     {
@@ -81797,7 +81455,7 @@
       "comparison_cautions": [
         "No replay, anime, manga, game, class, or later-novel material is included."
       ],
-      "spoiler_level": "minor",
+      "spoiler_level": "light",
       "review_status": "researched"
     },
     {
@@ -81853,7 +81511,7 @@
       "comparison_cautions": [
         "Do not supply a personal name, adaptation identity, or later-novel motive."
       ],
-      "spoiler_level": "minor",
+      "spoiler_level": "light",
       "review_status": "researched"
     },
     {
@@ -104716,7 +104374,7 @@
           {
             "term": "opening supernatural antagonist",
             "archetype_ids": [],
-            "confidence": "medium",
+            "confidence": "moderate",
             "note": "The synopsis identifies conflict with demons including Sesshomaru; this does not fix a later role or outcome."
           }
         ],
@@ -106826,7 +106484,7 @@
           {
             "term": "black arts",
             "archetype_ids": [],
-            "confidence": "medium",
+            "confidence": "moderate",
             "note": "Synopsis attributes experiments to a clan of Sorcerers; no individual En spell is asserted."
           }
         ],
@@ -126944,27 +126602,6 @@
       "note": "This later conflict coexists with the teacher relationship."
     },
     {
-      "relationship_id": "REL-SRC002-043",
-      "source_id": "SRC-002",
-      "source_character_id": "CHR-SRC002-045",
-      "target_character_id": "CHR-SRC002-044",
-      "relationship_type": "mentor",
-      "label": "Sigrdrífa gives Sigurðr counsel and runic instruction.",
-      "direction": "directed",
-      "continuity": "Poetic Edda heroic witness",
-      "citations": [
-        {
-          "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
-          "locator": "Sigrdrífumál st. 1–37",
-          "supports": [
-            "instruction and counsel"
-          ]
-        }
-      ],
-      "confidence": "high",
-      "note": "The record retains the contested Sigrdrífa/Brynhildr identity caution."
-    },
-    {
       "relationship_id": "REL-SRC002-044",
       "source_id": "SRC-002",
       "source_character_id": "CHR-SRC002-046",
@@ -139614,27 +139251,6 @@
       "note": "Tracker's perception of this relationship is entangled with his jealousy; no motive attribution is added."
     },
     {
-      "relationship_id": "REL-SRC067-003",
-      "source_id": "SRC-067",
-      "source_character_id": "CHR-SRC067-008",
-      "target_character_id": "CHR-SRC067-009",
-      "relationship_type": "lover",
-      "label": "Nyka and Nsaka Ne Vampi are presented as lovers in Tracker's account.",
-      "direction": "undirected",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 6–8 and 23–24",
-          "supports": [
-            "Tracker identifies Nyka and Nsaka's partnership and narrates their later conflict."
-          ]
-        }
-      ],
-      "confidence": "moderate",
-      "note": "Names and later events are preserved as Tracker recounts them; spelling variants are recorded in Nsaka's aliases."
-    },
-    {
       "relationship_id": "REL-SRC067-004",
       "source_id": "SRC-067",
       "source_character_id": "CHR-SRC067-001",
@@ -139696,90 +139312,6 @@
       ],
       "confidence": "high",
       "note": "The relationship is narrated by Tracker; private motives are not inferred."
-    },
-    {
-      "relationship_id": "REL-SRC067-007",
-      "source_id": "SRC-067",
-      "source_character_id": "CHR-SRC067-001",
-      "target_character_id": "CHR-SRC067-003",
-      "relationship_type": "opponent",
-      "label": "Tracker repeatedly presents Sogolon as an adversarial and sometimes collaborating party agent.",
-      "direction": "undirected",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 8, 11, 16, 21, and 25",
-          "supports": [
-            "Tracker narrates repeated disputes, temporary collaboration, and consequential claims involving Sogolon."
-          ]
-        }
-      ],
-      "confidence": "moderate",
-      "note": "This is Tracker's adversarial characterization, not a determination of Sogolon's actual motives or guilt."
-    },
-    {
-      "relationship_id": "REL-SRC067-008",
-      "source_id": "SRC-067",
-      "source_character_id": "CHR-SRC067-003",
-      "target_character_id": "CHR-SRC067-010",
-      "relationship_type": "opponent",
-      "label": "Tracker describes Sogolon and the Aesi as opposed in the Boy-search conflict.",
-      "direction": "undirected",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 16, 18, 21, and 24",
-          "supports": [
-            "Tracker's account places Sogolon and the Aesi in the linked magical and political conflict around the Boy."
-          ]
-        }
-      ],
-      "confidence": "low",
-      "note": "The relationship is deliberately marked low-confidence because the narrator's causal framing is contested."
-    },
-    {
-      "relationship_id": "REL-SRC067-009",
-      "source_id": "SRC-067",
-      "source_character_id": "CHR-SRC067-006",
-      "target_character_id": "CHR-SRC067-010",
-      "relationship_type": "opponent",
-      "label": "Bunshi and the Aesi confront one another in Tracker's late Kongor account.",
-      "direction": "undirected",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapter 21",
-          "supports": [
-            "Tracker narrates the Aesi's confrontation with Bunshi during the Kongor conflict."
-          ]
-        }
-      ],
-      "confidence": "moderate",
-      "note": "Narrow scene relationship only; no claim of a wider cosmological feud."
-    },
-    {
-      "relationship_id": "REL-SRC067-010",
-      "source_id": "SRC-067",
-      "source_character_id": "CHR-SRC067-001",
-      "target_character_id": "CHR-SRC067-008",
-      "relationship_type": "opponent",
-      "label": "Tracker describes Nyka as a former party associate who returns in a hostile final conflict.",
-      "direction": "undirected",
-      "continuity": "Black Leopard, Red Wolf — Tracker's framed testimony",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 6–8 and 23–25",
-          "supports": [
-            "Tracker narrates Nyka's early participation and later hostile confrontation."
-          ]
-        }
-      ],
-      "confidence": "moderate",
-      "note": "The later confrontation, condition, and blame remain Tracker's account."
     },
     {
       "relationship_id": "REL-SRC128-001",
@@ -152239,9 +151771,7 @@
       "transliteration": "Vanir",
       "literal_gloss": "Vanir (group name)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A named divine grouping associated in the prose witness with Njörðr, Freyr, and Freyja and a settlement after conflict.",
       "cultural_caution": "The group is not a fixed biological people and must not be treated as such.",
@@ -152320,9 +151850,7 @@
       "transliteration": "álfr; plural álfar",
       "literal_gloss": "elf",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-102"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A named category in Eddic diction; the selected witnesses do not supply a single modern-style elf ontology.",
       "cultural_caution": "The mapping is strictly comparative and should not import Tolkienian or game-ancestry traits.",
@@ -152533,9 +152061,7 @@
       "transliteration": "draugr; plural draugar",
       "literal_gloss": "the dead/ghost (context-dependent)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-612"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A later Old Norse literary term often translated as barrow-dead; it is not a prominent named agent category in this bounded Eddic pass.",
       "cultural_caution": "Included as an unmixed terminology note because the workbook's SRC-002 orientation names it; a saga-specific pass is needed for character claims.",
@@ -155108,9 +154634,7 @@
       "transliteration": "vara",
       "literal_gloss": "boon",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-207"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A granted boon that shapes later events, including Rāvaṇa's protections in the Uttarakāṇḍa layer.",
       "cultural_caution": "A boon is not automatically a game buff or invulnerability rule.",
@@ -155205,6 +154729,10 @@
       "source_id": "SRC-009",
       "work_or_witness": "Burton, The Book of the Thousand Nights and a Night, Vol. 1 · The Fisherman and the Jinni, Night 3",
       "canonical_term": "Jinn / Jinni",
+      "identity_forms": [
+        "Jinn",
+        "Jinni"
+      ],
       "original_language": "English (Burton translation)",
       "original_script": "Jinn / Jinni",
       "transliteration": "",
@@ -155765,7 +155293,7 @@
     {
       "term_id": "STM-SRC279-001",
       "source_id": "SRC-279",
-      "work_or_witness": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
+      "work_or_witness": "Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
       "canonical_term": "神",
       "original_language": "Chinese",
       "original_script": "神",
@@ -155792,7 +155320,7 @@
     {
       "term_id": "STM-SRC279-002",
       "source_id": "SRC-279",
-      "work_or_witness": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
+      "work_or_witness": "Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
       "canonical_term": "仙",
       "original_language": "Chinese",
       "original_script": "仙",
@@ -155819,7 +155347,7 @@
     {
       "term_id": "STM-SRC279-003",
       "source_id": "SRC-279",
-      "work_or_witness": "Orientation scholarship · Robert Hymes, Way and Byway, ch. 2, pp. 26–46",
+      "work_or_witness": "Robert Hymes, Way and Byway, ch. 2, pp. 26–46",
       "canonical_term": "天庭",
       "original_language": "Chinese",
       "original_script": "天庭",
@@ -155846,7 +155374,7 @@
     {
       "term_id": "STM-SRC279-004",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Shangqing Lingbao dafa, vol. 33, section 1",
+      "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
       "canonical_term": "籙",
       "original_language": "Chinese",
       "original_script": "籙",
@@ -155873,7 +155401,7 @@
     {
       "term_id": "STM-SRC279-005",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Shangqing Lingbao dafa, vol. 33, sections 19–25",
+      "work_or_witness": "Shangqing Lingbao dafa, vol. 33, sections 19–25",
       "canonical_term": "符",
       "original_language": "Chinese",
       "original_script": "符",
@@ -155900,7 +155428,7 @@
     {
       "term_id": "STM-SRC279-006",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Shangqing Lingbao dafa, vol. 33, section 1",
+      "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
       "canonical_term": "黃籙齋",
       "original_language": "Chinese",
       "original_script": "黃籙齋",
@@ -155925,7 +155453,7 @@
     {
       "term_id": "STM-SRC279-007",
       "source_id": "SRC-279",
-      "work_or_witness": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses · Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
+      "work_or_witness": "Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
       "canonical_term": "祖先",
       "original_language": "Chinese",
       "original_script": "祖先",
@@ -155952,7 +155480,7 @@
     {
       "term_id": "STM-SRC279-008",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Li Chaowei, Liu Yi zhuan",
+      "work_or_witness": "Li Chaowei, Liu Yi zhuan",
       "canonical_term": "龍",
       "original_language": "Chinese",
       "original_script": "龍",
@@ -155979,7 +155507,7 @@
     {
       "term_id": "STM-SRC279-009",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Pu Songling, Liaozhai zhiyi, “Yingning”",
+      "work_or_witness": "Pu Songling, Liaozhai zhiyi, “Yingning”",
       "canonical_term": "狐",
       "original_language": "Chinese",
       "original_script": "狐",
@@ -156006,7 +155534,7 @@
     {
       "term_id": "STM-SRC279-010",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa; Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra · Kṣitigarbha Sutra, ch. 8, sections 1–5",
+      "work_or_witness": "Kṣitigarbha Sutra, ch. 8, sections 1–5",
       "canonical_term": "閻羅",
       "original_language": "Chinese",
       "original_script": "閻羅",
@@ -156033,7 +155561,7 @@
     {
       "term_id": "STM-SRC279-011",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa; Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra · Kṣitigarbha Sutra, ch. 8",
+      "work_or_witness": "Kṣitigarbha Sutra, ch. 8",
       "canonical_term": "地獄",
       "original_language": "Chinese",
       "original_script": "地獄",
@@ -156061,7 +155589,7 @@
     {
       "term_id": "STM-SRC279-012",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Taishang dongxuan lingbao shihao gongde yinyuan miaojing, section 8",
+      "work_or_witness": "Taishang dongxuan lingbao shihao gongde yinyuan miaojing, section 8",
       "canonical_term": "洞天",
       "original_language": "Chinese",
       "original_script": "洞天",
@@ -156088,7 +155616,7 @@
     {
       "term_id": "STM-SRC279-013",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Yiwén lèijù 92 quotation of Shanhai jing and Guo Pu commentary on Jingwei",
+      "work_or_witness": "Yiwén lèijù 92 quotation of Shanhai jing and Guo Pu commentary on Jingwei",
       "canonical_term": "化",
       "original_language": "Chinese",
       "original_script": "化",
@@ -156113,7 +155641,7 @@
     {
       "term_id": "STM-SRC279-014",
       "source_id": "SRC-279",
-      "work_or_witness": "Shanhai jing; Huainanzi; Liu Yi zhuan; Liaozhai zhiyi; Yuhuang jing; Shangqing Lingbao dafa · Shangqing Lingbao dafa, vol. 33, section 1",
+      "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
       "canonical_term": "三界",
       "original_language": "Chinese",
       "original_script": "三界",
@@ -156869,9 +156397,7 @@
       "transliteration": "atua",
       "literal_gloss": "divine presence; often glossed ‘god’",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Te Ara identifies atua as central to Māori religion and uses ‘gods’ as an English gloss; its creation reference calls Tāne an atua (divine presence).",
       "cultural_caution": "Do not treat atua as a standardized fantasy pantheon, a species, or an exact equivalent of ‘god’; relationships, names, and meanings are witness- and community-specific.",
@@ -156921,9 +156447,7 @@
       "transliteration": "whakapapa",
       "literal_gloss": "genealogy; layered relations",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-800"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A framework linking animate and inanimate, known and unknown phenomena in terrestrial and spiritual worlds; Te Ara says it organizes, preserves, and transmits relationships, knowledge, tikanga, philosophies, and spiritualities.",
       "cultural_caution": "Do not reduce whakapapa to a fantasy family-tree mechanic, ancestry stat, or database provenance field. It is living mātauranga and varies in use, recitation, and authority.",
@@ -157023,9 +156547,7 @@
       "transliteration": "Te Ika-a-Māui",
       "literal_gloss": "the fish of Māui",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-500"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Name for the North Island in the selected Māui fishing account; the cited page also records divergent regional accounts of Māui’s canoe and the land’s form.",
       "cultural_caution": "This is sacred and relational geography, not a generic fantasy map feature or an evidence-free claim about all Māori land traditions. Keep the cited Ngāti Porou and Ngāti Toarangatira variants visible.",
@@ -158623,6 +158145,10 @@
       "source_id": "SRC-050",
       "work_or_witness": "Perdido Street Station, Chapters 4 and 10 printed witness",
       "canonical_term": "Remade / remaking",
+      "identity_forms": [
+        "Remade",
+        "remaking"
+      ],
       "original_language": "Bas-Lag fictional lexicon",
       "original_script": "",
       "transliteration": "",
@@ -158653,10 +158179,7 @@
       "transliteration": "",
       "literal_gloss": "wonder-working/magic (historically variable)",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-101",
-        "PWR-516"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The novel's term for practices and theories that interact with material inquiry and technology, including Isaac's research setting.",
       "cultural_caution": "The mapping is deliberately partial: thaumaturgy in Bas-Lag is not a coherent spell list, a player resource, or a direct equivalent of science, engineering, or real esoteric practice.",
@@ -158779,38 +158302,6 @@
       "review_status": "researched"
     },
     {
-      "term_id": "STM-SRC067-002",
-      "source_id": "SRC-067",
-      "work_or_witness": "Black Leopard, Red Wolf · Chapters 8, 16, 21, and 25; Black Leopard, Red Wolf · Reader's Guide question 7",
-      "canonical_term": "Moon Witch",
-      "original_language": "English",
-      "original_script": "",
-      "transliteration": "",
-      "literal_gloss": "",
-      "dimension": "roles_and_vocations",
-      "archetype_ids": [],
-      "mapping_relation": "none",
-      "definition": "A title applied to Sogolon in this novel's testimony and publisher context.",
-      "cultural_caution": "It is not a claim about African historical or living witchcraft, a biological being type, or an interchangeable fantasy class.",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 8, 16, 21, and 25",
-          "supports": [
-            "Tracker names Sogolon and narrates her magic and search involvement."
-          ]
-        },
-        {
-          "url": "https://www.penguinrandomhouse.com/books/561305/black-leopard-red-wolf-by-marlon-james/9780735220171/readers-guide/",
-          "locator": "Reader's Guide question 7",
-          "supports": [
-            "Publisher guide identifies Sogolon and her quest as central to the novel."
-          ]
-        }
-      ],
-      "review_status": "disputed"
-    },
-    {
       "term_id": "STM-SRC067-003",
       "source_id": "SRC-067",
       "work_or_witness": "Black Leopard, Red Wolf · Chapters 8–10 and 21",
@@ -158884,31 +158375,6 @@
         }
       ],
       "review_status": "needs-review"
-    },
-    {
-      "term_id": "STM-SRC067-006",
-      "source_id": "SRC-067",
-      "work_or_witness": "Black Leopard, Red Wolf · Chapters 18, 21, and 24",
-      "canonical_term": "white science and black math",
-      "original_language": "English (novel vocabulary)",
-      "original_script": "",
-      "transliteration": "",
-      "literal_gloss": "",
-      "dimension": "power_traditions",
-      "archetype_ids": [],
-      "mapping_relation": "none",
-      "definition": "A source-specific phrase associated with the Aesi and the novel's magical/political conflict.",
-      "cultural_caution": "The phrase is preserved without breaking it into racialized, historical, or real-world scientific categories; its meaning remains context-dependent and testimony-bound.",
-      "citations": [
-        {
-          "url": "https://books.google.com/books?id=WtJfDwAAQBAJ",
-          "locator": "Chapters 18, 21, and 24",
-          "supports": [
-            "Tracker uses this vocabulary in describing the late conflict involving the Aesi."
-          ]
-        }
-      ],
-      "review_status": "disputed"
     },
     {
       "term_id": "STM-SRC128-001",
@@ -171920,7 +171386,7 @@
     {
       "term_id": "STM-SRC097-001",
       "source_id": "SRC-097",
-      "work_or_witness": "Spelljammer: Adventures in Space; Astral Adventurer's Guide · Contents, Chapter 2: Fire in Wildspace, creating a Wildspace system, and travel sections",
+      "work_or_witness": "Astral Adventurer's Guide · Contents, Chapter 2: Fire in Wildspace, creating a Wildspace system, and travel sections",
       "canonical_term": "Wildspace",
       "original_language": "English setting lexicon",
       "original_script": "",
@@ -171945,7 +171411,7 @@
     {
       "term_id": "STM-SRC097-002",
       "source_id": "SRC-097",
-      "work_or_witness": "Spelljammer: Adventures in Space; Astral Adventurer's Guide · Contents, Chapter 2: The Astral Plane and Traversing the Astral Sea",
+      "work_or_witness": "Astral Adventurer's Guide · Contents, Chapter 2: The Astral Plane and Traversing the Astral Sea",
       "canonical_term": "Astral Plane and Astral Sea",
       "original_language": "English setting lexicon",
       "original_script": "",
@@ -171970,7 +171436,7 @@
     {
       "term_id": "STM-SRC097-003",
       "source_id": "SRC-097",
-      "work_or_witness": "Spelljammer: Adventures in Space; Astral Adventurer's Guide · Contents, Chapter 2: Air Envelopes; Gravity Planes; Overlapping Gravity Planes",
+      "work_or_witness": "Astral Adventurer's Guide · Contents, Chapter 2: Air Envelopes; Gravity Planes; Overlapping Gravity Planes",
       "canonical_term": "air envelopes and gravity planes",
       "original_language": "English game/setting lexicon",
       "original_script": "",
@@ -171995,7 +171461,7 @@
     {
       "term_id": "STM-SRC097-004",
       "source_id": "SRC-097",
-      "work_or_witness": "Spelljammer: Adventures in Space; Astral Adventurer's Guide · Contents, Chapter 2: Spelljamming Ships; Spelljammer Vessels; Cost of a Spelljamming Helm; Spelljammer: Adventures in Space · Astral Adventurer's Guide errata, Speed update",
+      "work_or_witness": "Astral Adventurer's Guide · Contents, Chapter 2: Spelljamming Ships; Spelljammer Vessels; Cost of a Spelljamming Helm; Astral Adventurer's Guide errata · Speed update",
       "canonical_term": "spelljamming ships and spelljamming helm",
       "original_language": "English game/setting lexicon",
       "original_script": "",
@@ -172027,7 +171493,7 @@
     {
       "term_id": "STM-SRC097-005",
       "source_id": "SRC-097",
-      "work_or_witness": "Spelljammer: Adventures in Space; Astral Adventurer's Guide · Contents, Chapter 2: Spelljammer Duels; Ship-to-Ship Combat; Crashing",
+      "work_or_witness": "Astral Adventurer's Guide · Contents, Chapter 2: Spelljammer Duels; Ship-to-Ship Combat; Crashing",
       "canonical_term": "spelljammer duels and ship-to-ship combat",
       "original_language": "English game/setting lexicon",
       "original_script": "",
@@ -173612,7 +173078,7 @@
     {
       "term_id": "STM-SRC089-001",
       "source_id": "SRC-089",
-      "work_or_witness": "D&D Beyond Basic Rules (2024); D&D Beyond Basic Rules (2024), Character Origins · Character Origins, ‘Character Species’ and ‘Parts of a Species’",
+      "work_or_witness": "D&D Beyond Basic Rules (2024), Character Origins · Character Origins, ‘Character Species’ and ‘Parts of a Species’",
       "canonical_term": "species",
       "original_language": "English rules terminology",
       "original_script": "species",
@@ -173637,7 +173103,7 @@
     {
       "term_id": "STM-SRC089-002",
       "source_id": "SRC-089",
-      "work_or_witness": "D&D Beyond Basic Rules (2024); D&D Beyond Basic Rules (2024), Character Origins · Character Origins, ‘Character Backgrounds’ and ‘Parts of a Background’",
+      "work_or_witness": "D&D Beyond Basic Rules (2024), Character Origins · Character Origins, ‘Character Backgrounds’ and ‘Parts of a Background’",
       "canonical_term": "background",
       "original_language": "English rules terminology",
       "original_script": "background",
@@ -201555,6 +201021,74 @@
     "reviewed_source_count": 90,
     "pending_source_count": 191,
     "pending_source_scope": "191 of 281 compiled source IDs have not yet received a focused source-specific review or the dedicated zero-character audit.",
+    "record_quarantine": {
+      "reason": "Unreviewed disputed records, normalized needs-review mappings, and relationships that depend on quarantined character identities are retained in their source bundles but excluded from public data and workbook promotion pending focused second review.",
+      "record_ids": [
+        "CHR-SRC002-045",
+        "CHR-SRC067-003",
+        "CHR-SRC067-008",
+        "CHR-SRC067-009",
+        "CHR-SRC067-010",
+        "REL-SRC002-043",
+        "REL-SRC067-003",
+        "REL-SRC067-007",
+        "REL-SRC067-008",
+        "REL-SRC067-009",
+        "REL-SRC067-010",
+        "STM-SRC067-002",
+        "STM-SRC067-006"
+      ]
+    },
+    "mapping_quarantine": {
+      "reason": "Needs-review character and source-term evidence remains discoverable with its source-native dimensions, but unresolved normalized archetype mappings are cleared from public data and workbook promotion until focused second review.",
+      "record_ids": [
+        "CHR-SRC001-025",
+        "CHR-SRC001-042",
+        "CHR-SRC002-033",
+        "CHR-SRC002-036",
+        "CHR-SRC003-032",
+        "CHR-SRC009-001",
+        "CHR-SRC009-002",
+        "CHR-SRC009-003",
+        "CHR-SRC009-004",
+        "CHR-SRC009-005",
+        "CHR-SRC009-006",
+        "CHR-SRC009-008",
+        "CHR-SRC009-009",
+        "CHR-SRC009-010",
+        "CHR-SRC009-011",
+        "CHR-SRC009-012",
+        "CHR-SRC009-013",
+        "CHR-SRC009-014",
+        "CHR-SRC009-015",
+        "CHR-SRC009-016",
+        "CHR-SRC009-017",
+        "CHR-SRC009-018",
+        "CHR-SRC009-019",
+        "CHR-SRC009-020",
+        "CHR-SRC009-021",
+        "CHR-SRC009-022",
+        "CHR-SRC009-023",
+        "CHR-SRC009-024",
+        "CHR-SRC009-026",
+        "CHR-SRC009-027",
+        "CHR-SRC009-028",
+        "CHR-SRC009-029",
+        "CHR-SRC009-030",
+        "CHR-SRC015-034",
+        "CHR-SRC020-005",
+        "CHR-SRC023-027",
+        "CHR-SRC050-010",
+        "STM-SRC002-002",
+        "STM-SRC002-005",
+        "STM-SRC002-013",
+        "STM-SRC015-005",
+        "STM-SRC024-001",
+        "STM-SRC024-003",
+        "STM-SRC024-007",
+        "STM-SRC050-004"
+      ]
+    },
     "warning_sources_reviewed": [
       "SRC-004",
       "SRC-007",

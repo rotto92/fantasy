@@ -9,6 +9,7 @@ only when every structural and evidence gate passes.
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import re
 from collections import Counter, defaultdict
@@ -51,6 +52,23 @@ RELATIONSHIP_TYPES = {
     "transformed-by",
     "other",
 }
+CONFIDENCE_LEVELS = {"high", "moderate", "low"}
+EVIDENCE_LEVELS = {
+    "primary-text",
+    "official-reference",
+    "official-metadata",
+    "publisher-metadata",
+    "scholarly-reference",
+}
+SPOILER_LEVELS = {"none", "light", "moderate", "major"}
+REVIEW_STATUSES = {"researched", "needs-review", "disputed"}
+MAPPING_RELATIONS = {"exact", "close", "partial", "functional", "mechanical", "visual", "none"}
+COMPLETION_STATUSES = {
+    "pass-complete",
+    "narrow-metadata-pass-complete",
+    "evidence-insufficient-zero-character-audit",
+}
+MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE = 0.20
 DISALLOWED_EVIDENCE_HOSTS = {
     "wikipedia.org",
     "fandom.com",
@@ -138,6 +156,19 @@ def source_sort_key(source_id: str) -> tuple[int, str]:
     return (int(match.group(1)) if match else 999999, source_id)
 
 
+def source_work_name_sequences(audit: dict[str, Any]) -> list[str]:
+    names = [
+        str(witness.get("work", "")).strip()
+        for witness in audit.get("work_or_witnesses", [])
+        if isinstance(witness, dict) and str(witness.get("work", "")).strip()
+    ]
+    sequences: list[str] = []
+    for start in range(len(names)):
+        for end in range(start + 2, len(names) + 1):
+            sequences.append("; ".join(names[start:end]))
+    return sequences
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--workbook", type=Path, default=DEFAULT_WORKBOOK)
@@ -220,12 +251,13 @@ def main() -> None:
     missing_source_audits = sorted(set(sources_by_id) - set(source_audit_ids), key=source_sort_key)
     if missing_source_audits:
         errors.append(f"Missing source audits: {', '.join(missing_source_audits)}")
+    audits_by_source = {str(record.get("source_id")): record for record in all_sources}
     for record in all_sources:
         status = str(record.get("completion_status", "")).strip().lower()
-        if not status or "in-progress" in status:
+        if status not in COMPLETION_STATUSES:
             errors.append(
                 f"source audit {record.get('source_id', '<unknown>')}: "
-                "completion_status must be a terminal bounded-pass status"
+                f"invalid completion_status {record.get('completion_status')}"
             )
 
     character_ids: list[str] = []
@@ -278,6 +310,12 @@ def main() -> None:
             errors.append(f"{context}: aliases must be an array")
         if not isinstance(record.get("comparison_cautions"), list):
             errors.append(f"{context}: comparison_cautions must be an array")
+        if record.get("evidence_level") not in EVIDENCE_LEVELS:
+            errors.append(f"{context}: invalid evidence_level {record.get('evidence_level')}")
+        if record.get("spoiler_level") not in SPOILER_LEVELS:
+            errors.append(f"{context}: invalid spoiler_level {record.get('spoiler_level')}")
+        if record.get("review_status") not in REVIEW_STATUSES:
+            errors.append(f"{context}: invalid review_status {record.get('review_status')}")
         dimensions = record.get("dimensions")
         if not isinstance(dimensions, dict):
             errors.append(f"{context}: dimensions must be an object")
@@ -296,6 +334,8 @@ def main() -> None:
                         errors.append(f"{value_context}: dimension value must be an object")
                         continue
                     require(value, ("term", "archetype_ids", "confidence", "note"), value_context, errors)
+                    if value.get("confidence") not in CONFIDENCE_LEVELS:
+                        errors.append(f"{value_context}: invalid confidence {value.get('confidence')}")
                     archetype_ids = value.get("archetype_ids", [])
                     if not isinstance(archetype_ids, list):
                         errors.append(f"{value_context}: archetype_ids must be an array")
@@ -366,6 +406,8 @@ def main() -> None:
             errors.append(f"{context}: invalid relationship_type {record.get('relationship_type')}")
         if record.get("direction") not in {"directed", "undirected"}:
             errors.append(f"{context}: direction must be directed or undirected")
+        if record.get("confidence") not in CONFIDENCE_LEVELS:
+            errors.append(f"{context}: invalid confidence {record.get('confidence')}")
         if record.get("source_id") not in sources_by_id:
             errors.append(f"{context}: unknown Source_ID {record.get('source_id')}")
         validate_citations(record.get("citations"), context, errors, warnings)
@@ -406,6 +448,15 @@ def main() -> None:
             errors.append(f"{context}: work_or_witness must be a non-empty string")
         elif not any(character.isalpha() for character in work_or_witness):
             errors.append(f"{context}: work_or_witness must identify the claim-specific work or witness")
+        else:
+            audit = audits_by_source.get(str(record.get("source_id", "")), {})
+            if any(work_or_witness.startswith(f"{sequence} · ") for sequence in source_work_name_sequences(audit)):
+                errors.append(f"{context}: work_or_witness must not prepend the source-wide witness scope")
+        identity_forms = record.get("identity_forms", [])
+        if not isinstance(identity_forms, list) or not all(
+            isinstance(value, str) and value.strip() for value in identity_forms
+        ):
+            errors.append(f"{context}: identity_forms must be an array of non-empty strings when present")
         if record.get("dimension") not in DIMENSIONS:
             errors.append(f"{context}: invalid dimension {record.get('dimension')}")
         archetype_ids = record.get("archetype_ids")
@@ -415,13 +466,16 @@ def main() -> None:
             for archetype_id in archetype_ids:
                 if archetype_id not in archetypes_by_id:
                     errors.append(f"{context}: unknown archetype ID {archetype_id}")
+        if record.get("mapping_relation") not in MAPPING_RELATIONS:
+            errors.append(f"{context}: invalid mapping_relation {record.get('mapping_relation')}")
+        if record.get("review_status") not in REVIEW_STATUSES:
+            errors.append(f"{context}: invalid review_status {record.get('review_status')}")
         validate_citations(record.get("citations"), context, errors, warnings)
 
     duplicate_terms = [value for value, count in Counter(term_ids).items() if value and count > 1]
     if duplicate_terms:
         errors.append(f"Duplicate source term IDs: {', '.join(sorted(duplicate_terms))}")
 
-    audits_by_source = {str(record.get("source_id")): record for record in all_sources}
     for source_id, audit in audits_by_source.items():
         count = character_count_by_source[source_id]
         declared = audit.get("completed_character_count")
@@ -464,6 +518,104 @@ def main() -> None:
     if review_index and indexed_warning_sources != warning_source_ids:
         errors.append("independent-review index: retained warning source IDs do not match current validator warnings")
 
+    claim_source_ids = [
+        *[
+            str(record.get("source_id", ""))
+            for record in all_characters
+            for _ in range(1 + sum(len(values) for values in record.get("dimensions", {}).values()))
+        ],
+        *[str(record.get("source_id", "")) for record in all_relationships],
+        *[str(record.get("source_id", "")) for record in all_terms],
+    ]
+    reviewed_claim_count = sum(source_id in review_status_map for source_id in claim_source_ids)
+    review_claim_coverage = reviewed_claim_count / len(claim_source_ids) if claim_source_ids else 0.0
+    if review_claim_coverage < MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE:
+        errors.append(
+            "independent-review index: reviewed claim sample "
+            f"{review_claim_coverage:.1%} is below the required {MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE:.0%}"
+        )
+
+    unresolved_character_ids = {
+        str(record.get("character_id", ""))
+        for record in all_characters
+        if record.get("review_status") == "disputed"
+    }
+    unresolved_term_ids = {
+        str(record.get("term_id", ""))
+        for record in all_terms
+        if record.get("review_status") == "disputed"
+    }
+    dependent_relationship_ids = {
+        str(record.get("relationship_id", ""))
+        for record in all_relationships
+        if record.get("source_character_id") in unresolved_character_ids
+        or record.get("target_character_id") in unresolved_character_ids
+    }
+    required_quarantine_ids = unresolved_character_ids | unresolved_term_ids | dependent_relationship_ids
+    record_quarantine = review_index.get("record_quarantine", {})
+    if not isinstance(record_quarantine, dict):
+        errors.append("independent-review index: record_quarantine must be an object")
+        record_quarantine = {}
+    configured_quarantine_ids = {
+        str(value) for value in record_quarantine.get("record_ids", [])
+    } if isinstance(record_quarantine.get("record_ids", []), list) else set()
+    if configured_quarantine_ids != required_quarantine_ids:
+        errors.append("independent-review index: record quarantine does not match unresolved disputed records")
+    if required_quarantine_ids and not str(record_quarantine.get("reason", "")).strip():
+        errors.append("independent-review index: record quarantine requires a containment reason")
+
+    required_mapping_quarantine_ids = {
+        *[
+            str(record.get("character_id", ""))
+            for record in all_characters
+            if record.get("review_status") == "needs-review"
+            and any(
+                value.get("archetype_ids")
+                for values in record.get("dimensions", {}).values()
+                for value in values
+            )
+        ],
+        *[
+            str(record.get("term_id", ""))
+            for record in all_terms
+            if record.get("review_status") == "needs-review" and bool(record.get("archetype_ids"))
+        ],
+    }
+    mapping_quarantine = review_index.get("mapping_quarantine", {})
+    if not isinstance(mapping_quarantine, dict):
+        errors.append("independent-review index: mapping_quarantine must be an object")
+        mapping_quarantine = {}
+    configured_mapping_quarantine_ids = {
+        str(value) for value in mapping_quarantine.get("record_ids", [])
+    } if isinstance(mapping_quarantine.get("record_ids", []), list) else set()
+    if configured_mapping_quarantine_ids != required_mapping_quarantine_ids:
+        errors.append("independent-review index: mapping quarantine does not match unresolved needs-review mappings")
+    if required_mapping_quarantine_ids and not str(mapping_quarantine.get("reason", "")).strip():
+        errors.append("independent-review index: mapping quarantine requires a containment reason")
+
+    promoted_characters = [
+        copy.deepcopy(record)
+        for record in all_characters
+        if record.get("character_id") not in configured_quarantine_ids
+    ]
+    promoted_relationships = [
+        record for record in all_relationships if record.get("relationship_id") not in configured_quarantine_ids
+    ]
+    promoted_terms = [
+        copy.deepcopy(record)
+        for record in all_terms
+        if record.get("term_id") not in configured_quarantine_ids
+    ]
+    for record in promoted_characters:
+        if record.get("character_id") not in configured_mapping_quarantine_ids:
+            continue
+        for values in record.get("dimensions", {}).values():
+            for value in values:
+                value["archetype_ids"] = []
+    for record in promoted_terms:
+        if record.get("term_id") in configured_mapping_quarantine_ids:
+            record["archetype_ids"] = []
+
     input_paths = [
         args.workbook,
         DIMENSION_SCHEMA_PATH,
@@ -505,6 +657,11 @@ def main() -> None:
             "pending_sources": len(sources_by_id) - reviewed_source_count,
             "retained_warning_sources": len(warning_source_ids),
             "corpus_wide_reviews": len(review_index.get("corpus_wide_reviews", [])),
+            "reviewed_claims": reviewed_claim_count,
+            "total_claims": len(claim_source_ids),
+            "claim_coverage": round(review_claim_coverage, 6),
+            "quarantined_records": len(configured_quarantine_ids),
+            "quarantined_mappings": len(configured_mapping_quarantine_ids),
         },
         "errors": errors,
         "warnings": warnings,
@@ -522,7 +679,14 @@ def main() -> None:
             "version": "4.0-research",
             "sourceFingerprint": fingerprint,
             "sourceWorkbook": args.workbook.name,
-            "counts": report["counts"],
+            "counts": {
+                **report["counts"],
+                "characters": len(promoted_characters),
+                "relationships": len(promoted_relationships),
+                "source_terms": len(promoted_terms),
+                "quarantined_records": len(configured_quarantine_ids),
+                "quarantined_mappings": len(configured_mapping_quarantine_ids),
+            },
             "researchCoverage": {
                 "corpusSources": len(source_rows),
                 "characterResearchedSources": len(all_sources),
@@ -535,6 +699,12 @@ def main() -> None:
                 "retainedWarningSources": len(warning_source_ids),
                 "retainedWarningFlags": len(warnings),
                 "corpusWideContractReviews": len(review_index.get("corpus_wide_reviews", [])),
+                "reviewedClaims": reviewed_claim_count,
+                "totalClaims": len(claim_source_ids),
+                "claimCoverage": round(review_claim_coverage, 6),
+                "minimumClaimCoverage": MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE,
+                "quarantinedRecordIds": sorted(configured_quarantine_ids),
+                "quarantinedMappingRecordIds": sorted(configured_mapping_quarantine_ids),
             },
             "quarantinedBundles": [str(path.relative_to(ROOT)) for path in quarantined_bundle_dirs],
             "visualContract": "Characters and source-native terms are searchable evidence; normalized beings and classes remain the graph nodes.",
@@ -576,9 +746,9 @@ def main() -> None:
             ],
             key=lambda row: source_sort_key(str(row.get("source_id", ""))),
         ),
-        "characters": sorted(all_characters, key=lambda row: (source_sort_key(str(row.get("source_id", ""))), str(row.get("canonical_name", "")))),
-        "relationships": all_relationships,
-        "sourceTerms": all_terms,
+        "characters": sorted(promoted_characters, key=lambda row: (source_sort_key(str(row.get("source_id", ""))), str(row.get("canonical_name", "")))),
+        "relationships": promoted_relationships,
+        "sourceTerms": promoted_terms,
         "independentReviews": review_index,
         "taxonomy": {
             archetype_id: {
@@ -594,8 +764,9 @@ def main() -> None:
     args.output.write_text(json.dumps(compiled, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         "Validated "
-        f"{len(all_characters)} characters, {len(all_relationships)} character relationships, "
-        f"and {len(all_terms)} source terms across {len(all_sources)} source passes."
+        f"{len(promoted_characters)} characters, {len(promoted_relationships)} character relationships, "
+        f"and {len(promoted_terms)} source terms across {len(all_sources)} source passes "
+        f"({len(configured_quarantine_ids)} unresolved records quarantined)."
     )
 
 

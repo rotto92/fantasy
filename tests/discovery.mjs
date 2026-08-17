@@ -22,13 +22,21 @@ if (discovery.records.some((record) => Object.hasOwn(record, "searchText"))) {
 const ankkaRecord = discovery.records.find((record) => record.id === "character:CHR-SRC162-001");
 const sanskritAsuraRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC277-004");
 const abhimanyu = research.characters.find((character) => character.canonical_name === "Abhimanyu");
-const mappedSourceTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC002-005");
+const conceptIds = new Set(concepts.nodes.map((node) => node.id));
+const mappedSourceTerm = research.sourceTerms.find((term) =>
+  term.review_status === "researched" && term.archetype_ids.some((archetypeId) => conceptIds.has(archetypeId)),
+);
 const mappedConcept = concepts.nodes.find((node) => node.examples?.length);
 const mappedSourceTermExample = concepts.nodes.flatMap((node) => node.examples ?? []).find((example) => example.id === mappedSourceTerm?.term_id);
 const xeniaRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC001-007");
 const aetherbladesRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC162-002");
 const chanjiaoTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC017-006");
 const chanjiaoRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC017-006");
+const jinnTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC009-001");
+const jinnRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC009-001");
+const remadeTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC050-003");
+const remadeRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC050-003");
+const chineseTerms = research.sourceTerms.filter((term) => term.source_id === "SRC-279");
 const jotunnRecord = discovery.records.find((record) => record.kind === "dimension-term" && record.sourceId === "SRC-002" && record.label === "jötunn");
 const dvergrTerm = research.sourceTerms.find((term) => term.canonical_term === "dvergr" && term.source_id === "SRC-002");
 const dvergrRecord = discovery.records.find((record) => record.id === `source-term:${dvergrTerm?.term_id}`);
@@ -56,6 +64,39 @@ const chanjiaoCharacters = research.characters.filter((character) =>
 );
 for (const character of chanjiaoCharacters) {
   if (!chanjiaoRecord?.characterExamples.includes(character.canonical_name)) failures.push(`Chanjiao source-term evidence omitted ${character.canonical_name}`);
+}
+if (!jinnTerm?.identity_forms?.includes("Jinn") || !jinnTerm.identity_forms.includes("Jinni") || !jinnRecord?.characterExamples.includes("The Jinni") || !jinnRecord.characterExamples.includes("The Jinni of the Ring")) {
+  failures.push("explicit Jinn/Jinni identities did not link representative character evidence");
+}
+if (!remadeTerm?.identity_forms?.includes("Remade") || !remadeTerm.identity_forms.includes("remaking") || !remadeRecord?.characterExamples.includes("Mr. Motley")) {
+  failures.push("explicit Remade/remaking identities did not link representative character evidence");
+}
+for (const term of chineseTerms) {
+  const locators = term.citations.map((citation) => citation.locator);
+  if (!locators.some((locator) => term.work_or_witness.includes(locator)) || term.work_or_witness.startsWith("Shanhai jing; Huainanzi;")) {
+    failures.push(`${term.term_id} does not preserve claim-specific Chinese witness provenance`);
+  }
+}
+const reviewCoverage = research.meta.reviewCoverage;
+if (!reviewCoverage || reviewCoverage.claimCoverage < reviewCoverage.minimumClaimCoverage || reviewCoverage.minimumClaimCoverage !== 0.2) {
+  failures.push("compiled research does not enforce the 20% independent-review claim gate");
+}
+for (const recordId of reviewCoverage?.quarantinedRecordIds ?? []) {
+  if (research.characters.some((record) => record.character_id === recordId)
+    || research.relationships.some((record) => record.relationship_id === recordId)
+    || research.sourceTerms.some((record) => record.term_id === recordId)) {
+    failures.push(`independent-review quarantine promoted unresolved record ${recordId}`);
+  }
+}
+for (const recordId of reviewCoverage?.quarantinedMappingRecordIds ?? []) {
+  const character = research.characters.find((record) => record.character_id === recordId);
+  const term = research.sourceTerms.find((record) => record.term_id === recordId);
+  const retainedMappings = character
+    ? Object.values(character.dimensions).flat().flatMap((value) => value.archetype_ids)
+    : term?.archetype_ids ?? [];
+  if ((!character && !term) || retainedMappings.length) {
+    failures.push(`mapping quarantine did not retain and unmap ${recordId}`);
+  }
 }
 if (!jotunnRecord?.continuity.includes("Poetic Edda witness") || !jotunnRecord.continuity.includes("Prose Edda witness") || !jotunnRecord.work.includes("Vafþrúðnismál") || !jotunnRecord.work.includes("Gylfaginning")) {
   failures.push("grouped jötunn evidence collapsed its continuity or work provenance");
@@ -125,6 +166,20 @@ await page.goto(appUrl, { waitUntil: "networkidle" });
 await page.locator("#loading").waitFor({ state: "detached" });
 await page.waitForFunction(() => !document.querySelector("#search")?.disabled);
 
+await page.locator("#detail-level").selectOption("all");
+const rovingSpecific = page.locator("#atlas-svg .specific-star:visible").first();
+if (!(await rovingSpecific.count())) {
+  failures.push("all-detail constellation has no roving specific star fixture");
+} else {
+  await rovingSpecific.focus();
+  await page.locator("#detail-level").selectOption("families");
+  await page.locator("#detail-level").selectOption("all");
+  const rovingTabs = page.locator('#atlas-svg .concept-star[tabindex="0"]');
+  if ((await rovingTabs.count()) !== 1 || !(await rovingTabs.first().isVisible())) {
+    failures.push("detail-level changes left a hidden duplicate map tab stop");
+  }
+}
+
 if (mappedConcept) {
   await page.locator("#search").fill(mappedConcept.label);
   await page.locator(".search-result").first().waitFor();
@@ -138,6 +193,24 @@ if (mappedConcept) {
   const mappedExample = mappedConcept.examples?.[0];
   for (const value of [mappedExample?.work, mappedExample?.reviewStatus, mappedExample?.canonStatus, mappedExample?.caution]) {
     if (value && !mappedText.includes(value.toLocaleLowerCase())) failures.push(`mapped concept evidence omitted provenance: ${value}`);
+  }
+  for (const selector of [".citation-card small", ".dimension-note"]) {
+    const element = page.locator(selector).first();
+    if (!(await element.count())) {
+      failures.push(`${selector} has no rendered contrast fixture`);
+      continue;
+    }
+    const ratio = await element.evaluate((node) => {
+      const values = getComputedStyle(node).color.match(/[\d.]+/g)?.slice(0, 3).map(Number) ?? [];
+      const luminance = (channels) => channels
+        .map((channel) => channel / 255)
+        .map((channel) => channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4)
+        .reduce((sum, channel, index) => sum + channel * [0.2126, 0.7152, 0.0722][index], 0);
+      const foreground = luminance(values);
+      const background = luminance([7, 12, 22]);
+      return (Math.max(foreground, background) + 0.05) / (Math.min(foreground, background) + 0.05);
+    });
+    if (ratio < 4.5) failures.push(`${selector} contrast is ${ratio.toFixed(2)}:1`);
   }
 }
 
@@ -153,6 +226,11 @@ if (!(await page.locator("#search-results .search-result small").allTextContents
 await page.locator("#search").fill("GuildWars2");
 if (!(await page.locator("#search-results").innerText()).includes("Ankka")) {
   failures.push("concatenated continuity search omitted the Ankka evidence");
+}
+
+await page.locator("#search").fill("SongOfIceAndFire");
+if (!(await page.locator("#search-results").innerText()).includes("A Song of Ice and Fire")) {
+  failures.push("five-token spacing-tolerant source-title search omitted A Song of Ice and Fire");
 }
 
 await page.locator("#search").fill("Guild Wars 2");
@@ -322,6 +400,24 @@ if (limitedAudit) {
     failures.push(`Research hid the actual limited audit status: ${limitedResearch}`);
   }
 }
+
+const mobile = await browser.newPage({ viewport: { width: 375, height: 812 } });
+await mobile.goto(appUrl, { waitUntil: "networkidle" });
+await mobile.locator("#loading").waitFor({ state: "detached" });
+await mobile.waitForFunction(() => !document.querySelector("#search")?.disabled);
+await mobile.locator("#search").fill("Abhimanyu");
+await mobile.locator(".search-result").first().click();
+if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
+  failures.push("mobile search fixture did not open the detail drawer");
+}
+await mobile.keyboard.press("/");
+await mobile.locator("#search").fill("asura");
+if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))
+  || !(await mobile.locator("#search-results").isVisible())
+  || (await mobile.locator("#search-results").innerText()).includes("Ankka") === false) {
+  failures.push("slash search remained obscured by the compact detail drawer");
+}
+await mobile.close();
 
 await browser.close();
 

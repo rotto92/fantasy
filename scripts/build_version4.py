@@ -183,7 +183,7 @@ def main() -> None:
     set_widths(sheet, {"A": 20, "B": 12, "C": 20, "D": 24, "E": 20, "F": 24, "G": 18, "H": 33, "I": 12, "J": 30, "K": 12, "L": 35, "M": 34, "N": 68})
 
     term_headers = [
-        "Term_ID", "Source_ID", "Canonical_Term", "Original_Language", "Original_Script",
+        "Term_ID", "Source_ID", "Work_or_Witness", "Canonical_Term", "Identity_Forms", "Original_Language", "Original_Script",
         "Transliteration", "Literal_Gloss", "Dimension", "Archetype_IDs", "Archetype_Names",
         "Mapping_Relation", "Definition", "Cultural_Caution", "Primary_Reference_URL", "Citation_Summary", "Review_Status",
     ]
@@ -192,7 +192,7 @@ def main() -> None:
         archetype_ids = row.get("archetype_ids", [])
         term_rows.append(
             [
-                row["term_id"], row["source_id"], row["canonical_term"], row.get("original_language", ""),
+                row["term_id"], row["source_id"], row["work_or_witness"], row["canonical_term"], joined(row.get("identity_forms", [])), row.get("original_language", ""),
                 row.get("original_script", ""), row.get("transliteration", ""), row.get("literal_gloss", ""),
                 row["dimension"], joined(archetype_ids),
                 joined(taxonomy.get(archetype_id, {}).get("name", archetype_id) for archetype_id in archetype_ids),
@@ -202,7 +202,7 @@ def main() -> None:
             ]
         )
     sheet = add_sheet(workbook, "Character Source Terms", term_headers, term_rows)
-    set_widths(sheet, {"A": 18, "B": 12, "C": 25, "D": 18, "E": 20, "F": 18, "G": 26, "H": 29, "I": 20, "J": 28, "K": 17, "L": 44, "M": 48, "N": 34, "O": 68, "P": 15})
+    set_widths(sheet, {"A": 18, "B": 12, "C": 38, "D": 25, "E": 24, "F": 18, "G": 20, "H": 18, "I": 26, "J": 29, "K": 20, "L": 28, "M": 17, "N": 44, "O": 48, "P": 34, "Q": 68, "R": 15})
 
     audit_headers = [
         "Source_ID", "Source_Title", "Medium", "Region_Tradition", "Priority_Tier", "Character_Pass_Status",
@@ -293,6 +293,7 @@ def main() -> None:
             ("Character Dimensions", "Character_ID", "Foreign key", "Yes", "Links a character to source-native dimensional attributes.", "Archetype mappings may be empty when analogy would distort."),
             ("Character Relationships", "Source_Character_ID / Target_Character_ID", "Foreign keys", "Yes", "Evidence-backed character-to-character relationship.", "Non-character endpoints are prohibited."),
             ("Character Source Terms", "Canonical_Term", "Text", "Yes", "Source-native comparison and filter vocabulary.", "Does not replace linguistic, ritual, or cultural meaning."),
+            ("Character Source Terms", "Work_or_Witness", "Text", "Yes", "Claim-specific work, edition, episode, or other bounded witness.", "Source-wide audit scope remains separate."),
             ("Character Research Audit", "Character_Pass_Status", "Controlled text", "Yes", "Completeness against a declared witness scope and coverage rule.", "Independent second review is tracked separately."),
             ("Independent Reviews", "Review_Status", "Controlled text", "Yes", "Focused source-review and corpus-wide contract-audit status.", "Pending means no focused independent second review is yet recorded."),
             ("Character Viz Guide", "Principle", "Text", "Yes", "Version 4 interaction and visual-grammar rule.", "Supersedes V3 Viz Archive for the public explorer."),

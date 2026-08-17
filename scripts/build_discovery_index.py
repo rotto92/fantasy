@@ -238,6 +238,11 @@ def main() -> None:
                 canonical,
                 str(term.get("transliteration", "")).strip(),
                 str(term.get("original_script", "")).strip(),
+                *[
+                    str(value).strip()
+                    for value in term.get("identity_forms", [])
+                    if str(value).strip()
+                ],
             ]
         )
         matching_rows_by_key: dict[str, dict[str, Any]] = {}
@@ -269,6 +274,7 @@ def main() -> None:
         fields = [
             field("source-native term", canonical),
             *[field("alias", alias) for alias in aliases],
+            *[field("identity form", identity) for identity in term.get("identity_forms", [])],
             field("transliteration", term.get("transliteration")),
             field("literal gloss", term.get("literal_gloss")),
             field(DIMENSION_LABELS.get(term.get("dimension", ""), term.get("dimension", "")), canonical),

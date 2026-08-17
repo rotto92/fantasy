@@ -32,6 +32,10 @@ PRIVATE_KEY_PATTERN = re.compile("-" * 5 + r"BEGIN (?:[A-Z ]+ PRIVATE KEY|PGP PR
 TOKEN_PATTERNS = (
     ("cloud-access-key", re.compile(r"\b(?:AKIA|ASIA)[0-9A-Z]{16}\b")),
     ("github-token", re.compile(r"\bgh[pousr]_[A-Za-z0-9_]{20,}\b")),
+    ("github-token", re.compile(r"\bgithub_pat_[A-Za-z0-9_]{20,}\b")),
+    ("openai-token", re.compile(r"\bsk-(?:proj-|svcacct-)[A-Za-z0-9_-]{20,}\b")),
+    ("openai-token", re.compile(r"\bsk-[A-Za-z0-9]{32,}\b")),
+    ("anthropic-token", re.compile(r"\bsk-ant-[A-Za-z0-9_-]{20,}\b")),
     ("gitlab-token", re.compile(r"\bglpat-[A-Za-z0-9_-]{20,}\b")),
     ("npm-token", re.compile(r"\bnpm_[A-Za-z0-9]{36}\b")),
     ("stripe-live-secret", re.compile(r"\bsk_live_[A-Za-z0-9]{16,}\b")),
@@ -40,6 +44,12 @@ TOKEN_PATTERNS = (
 )
 BEARER_TOKEN_PATTERN = re.compile(
     r"(?i)\bbearer\s+[A-Za-z0-9._~+/=-]{24,}"
+)
+BASIC_AUTH_PATTERN = re.compile(
+    r"(?i)\bauthorization\s*:\s*basic\s+[A-Za-z0-9+/]{16,}={0,2}(?![A-Za-z0-9+/=])"
+)
+SOCIAL_SECURITY_NUMBER_PATTERN = re.compile(
+    r"(?<!\d)(?!000|666|9\d{2})\d{3}[- ](?!00)\d{2}[- ](?!0000)\d{4}(?!\d)"
 )
 CREDENTIAL_URL_PATTERN = re.compile(
     r"\b(?:https?|postgres(?:ql)?|mysql|mongodb(?:\+srv)?|redis|amqps?)://[^\s:/?#]+:[^@\s/?#]{4,}@[^\s/]+",
@@ -116,10 +126,14 @@ def scan_text(path: Path, text: str) -> list[dict[str, str]]:
             findings.append(finding(path, label, "credential token pattern"))
     if BEARER_TOKEN_PATTERN.search(text):
         findings.append(finding(path, "bearer-token", "authorization bearer credential"))
+    if BASIC_AUTH_PATTERN.search(text):
+        findings.append(finding(path, "basic-auth", "authorization basic credential"))
     if CREDENTIAL_URL_PATTERN.search(text):
         findings.append(finding(path, "credential-url", "credential-bearing URL"))
     if EMAIL_PATTERN.search(text):
         findings.append(finding(path, "personal-data", "email address"))
+    if SOCIAL_SECURITY_NUMBER_PATTERN.search(text):
+        findings.append(finding(path, "social-security-number", "US Social Security number"))
     if LOCAL_PATH_PATTERN.search(text) or LOCAL_FILE_URL_PATTERN.search(text):
         findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
     return findings

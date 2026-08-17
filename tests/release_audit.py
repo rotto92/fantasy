@@ -48,6 +48,11 @@ with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
     assert rejected.returncode == 1
     assert any(item["kind"] == "github-token" for item in json.loads(rejected.stdout)["findings"])
     secret_values = {
+        "github-fine-grained.txt": "github" + "_pat_" + "a" * 32,
+        "openai.txt": "sk" + "-proj-" + "b" * 32,
+        "anthropic.txt": "sk" + "-ant-api03-" + "c" * 32,
+        "basic.txt": "Authorization" + ": " + "Basic " + "d" * 24,
+        "ssn.txt": "123" + "-45-" + "6789",
         "npm.txt": "npm" + "_" + "a" * 36,
         "stripe.txt": "sk" + "_live_" + "b" * 24,
         "gitlab.txt": "glpat" + "-" + "c" * 24,
@@ -68,6 +73,11 @@ with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
     assert credentials.returncode == 1
     credential_kinds = kinds(json.loads(credentials.stdout)["findings"])
     assert {
+        "github-token",
+        "openai-token",
+        "anthropic-token",
+        "basic-auth",
+        "social-security-number",
         "npm-token",
         "stripe-live-secret",
         "gitlab-token",

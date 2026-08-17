@@ -43,7 +43,7 @@ research; integration happens only after validation.
   "completed_character_count": 0,
   "omissions": [],
   "uncertainties": [],
-  "completion_status": "scoped|in-progress|pass-complete|blocked",
+  "completion_status": "pass-complete|narrow-metadata-pass-complete|evidence-insufficient-zero-character-audit",
   "evidence_basis": "",
   "citations": [{"url": "", "locator": "", "supports": [""]}],
   "last_reviewed": "YYYY-MM-DD"
@@ -106,7 +106,7 @@ Required fields:
     "game_mechanics": []
   },
   "canon_status": "",
-  "evidence_level": "primary-text|official-reference|scholarly-reference|secondary-orientation",
+  "evidence_level": "primary-text|official-reference|official-metadata|publisher-metadata|scholarly-reference",
   "citations": [{"url": "", "locator": "", "supports": [""]}],
   "comparison_cautions": [],
   "spoiler_level": "none|light|moderate|major",
@@ -155,6 +155,7 @@ can act as a filter, grouping dimension, or explanatory legend:
   "term_id": "STM-SRC001-001",
   "source_id": "SRC-001",
   "canonical_term": "",
+  "identity_forms": [],
   "work_or_witness": "",
   "original_language": "",
   "original_script": "",
@@ -173,6 +174,10 @@ can act as a filter, grouping dimension, or explanatory legend:
 `work_or_witness` names the claim-specific textual, edition, episode, game
 version, or other bounded witness; citation `locator` values locate the claim
 within that witness and do not substitute for its identity.
+`identity_forms` records explicit equivalent forms used by character dimension
+evidence when the canonical term, transliteration, and original script do not
+contain those forms individually. Compound prose labels are never split by the
+compiler to infer identity.
 
 ## Evidence rules
 
@@ -206,3 +211,8 @@ within that witness and do not substitute for its identity.
 - Canonical research and corpus-orientation data remain visibly separate.
 - A second-pass reviewer samples at least 20 percent of claims and all disputed
   or culturally sensitive mappings before workbook promotion.
+- Review coverage is calculated over characters, populated character
+  dimensions, relationships, and source terms. Unreviewed disputed records and
+  `needs-review` normalized mappings remain in their source bundles as retained
+  research, but must be listed in the independent-review quarantine and are not
+  promoted to public data or the workbook.

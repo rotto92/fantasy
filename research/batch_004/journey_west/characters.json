@@ -20,7 +20,7 @@
           "archetype_ids": [
             "PPL-1001"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not a generic species."
         }
       ],
@@ -31,7 +31,7 @@
           "archetype_ids": [
             "ROL-123"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Martial/monastic comparison only."
         }
       ],
@@ -42,7 +42,7 @@
             "PWR-114",
             "PWR-310"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native vocabularies retain priority."
         }
       ],
@@ -62,7 +62,7 @@
             "ART-208",
             "ART-210"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Named changing-size weapon."
         }
       ],
@@ -73,7 +73,7 @@
             "COS-119",
             "COS-201"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Literary cosmology."
         }
       ],
@@ -84,7 +84,7 @@
           "archetype_ids": [
             "NAR-125"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Plot role only."
         }
       ],
@@ -141,7 +141,7 @@
             "ROL-404",
             "ROL-420"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Does not capture Tang Buddhist status."
         }
       ],
@@ -164,7 +164,7 @@
             "LAW-103",
             "LAW-814"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel allegory, not generic quest mechanics."
         }
       ],
@@ -174,7 +174,7 @@
           "archetype_ids": [
             "NAR-125"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Functional only."
         }
       ],
@@ -218,7 +218,7 @@
           "archetype_ids": [
             "PPL-1004"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not a stable fantasy ancestry."
         }
       ],
@@ -229,7 +229,7 @@
           "archetype_ids": [
             "ROL-101"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Role only."
         }
       ],
@@ -248,7 +248,7 @@
           "archetype_ids": [
             "STA-211"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel-specific."
         }
       ],
@@ -258,7 +258,7 @@
           "archetype_ids": [
             "ART-208"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Named weapon."
         }
       ],
@@ -270,7 +270,7 @@
           "archetype_ids": [
             "NAR-208"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Does not reduce allegorical role."
         }
       ],
@@ -313,7 +313,7 @@
           "archetype_ids": [
             "PPL-404"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Heavenly Court status only."
         }
       ],
@@ -324,7 +324,7 @@
           "archetype_ids": [
             "ROL-101"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Role only."
         }
       ],
@@ -343,7 +343,7 @@
           "archetype_ids": [
             "STA-425"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Office/status change."
         }
       ],
@@ -353,7 +353,7 @@
           "archetype_ids": [
             "ART-208"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Named weapon."
         }
       ],
@@ -399,7 +399,7 @@
           "archetype_ids": [
             "PPL-801"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Chinese dragon ontology is distinct."
         }
       ],
@@ -428,7 +428,7 @@
             "STA-202",
             "STA-210"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Redemptive novel transformation."
         }
       ],
@@ -438,7 +438,7 @@
           "archetype_ids": [
             "ART-508"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Vehicle mapping, not objecthood."
         }
       ],
@@ -450,7 +450,7 @@
           "archetype_ids": [
             "NAR-208"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Party function."
         }
       ],
@@ -493,7 +493,7 @@
           "archetype_ids": [
             "PPL-401"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not a generic deity."
         }
       ],
@@ -512,7 +512,7 @@
           "archetype_ids": [
             "PWR-103"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Not a spell list."
         }
       ],
@@ -532,7 +532,7 @@
           "archetype_ids": [
             "COS-201"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Source geography."
         }
       ],
@@ -577,7 +577,7 @@
           "archetype_ids": [
             "PPL-401"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not a generic deity."
         }
       ],
@@ -596,7 +596,7 @@
           "archetype_ids": [
             "PWR-103"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Not transferable magic."
         }
       ],
@@ -609,7 +609,7 @@
           "archetype_ids": [
             "COS-201"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel sacred geography."
         }
       ],
@@ -620,7 +620,7 @@
           "archetype_ids": [
             "ROL-724"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Narrative function only."
         }
       ],
@@ -663,7 +663,7 @@
           "archetype_ids": [
             "PPL-401"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Office/status is novel-specific."
         }
       ],
@@ -674,7 +674,7 @@
           "archetype_ids": [
             "ROL-716"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Administrative role only."
         }
       ],
@@ -685,7 +685,7 @@
           "archetype_ids": [
             "COS-119"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel bureaucracy."
         }
       ],
@@ -698,7 +698,7 @@
             "COS-119",
             "COS-202"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Literary cosmology."
         }
       ],
@@ -708,7 +708,7 @@
           "archetype_ids": [
             "LAW-518"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel’s office satire."
         }
       ],
@@ -752,7 +752,7 @@
           "archetype_ids": [
             "PPL-401"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not generic deity mapping."
         }
       ],
@@ -763,7 +763,7 @@
           "archetype_ids": [
             "ROL-307"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel presentation."
         }
       ],
@@ -773,7 +773,7 @@
           "archetype_ids": [
             "PWR-513"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not fantasy crafting."
         }
       ],
@@ -785,7 +785,7 @@
           "archetype_ids": [
             "ART-218"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Named implement."
         }
       ],
@@ -795,7 +795,7 @@
           "archetype_ids": [
             "COS-119"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel cosmology."
         }
       ],
@@ -840,7 +840,7 @@
           "archetype_ids": [
             "PPL-404"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "No equation to angelic being."
         }
       ],
@@ -851,7 +851,7 @@
           "archetype_ids": [
             "ROL-139"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Plot role."
         }
       ],
@@ -861,7 +861,7 @@
           "archetype_ids": [
             "PWR-310"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native system retained."
         }
       ],
@@ -917,7 +917,7 @@
           "archetype_ids": [
             "PPL-404"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "No angelic equivalence."
         }
       ],
@@ -928,7 +928,7 @@
           "archetype_ids": [
             "ROL-139"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Narrative role."
         }
       ],
@@ -948,7 +948,7 @@
           "archetype_ids": [
             "ART-202"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Source regalia."
         }
       ],
@@ -994,7 +994,7 @@
           "archetype_ids": [
             "PPL-404"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Office-based status."
         }
       ],
@@ -1005,7 +1005,7 @@
           "archetype_ids": [
             "ROL-141"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Military comparison."
         }
       ],
@@ -1016,7 +1016,7 @@
           "archetype_ids": [
             "COS-119"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel bureaucracy."
         }
       ],
@@ -1027,7 +1027,7 @@
           "archetype_ids": [
             "ART-105"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Office-associated object."
         }
       ],
@@ -1073,7 +1073,7 @@
           "archetype_ids": [
             "PPL-406"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Xian is not generic ascension."
         }
       ],
@@ -1084,7 +1084,7 @@
           "archetype_ids": [
             "ROL-933"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Comparative label."
         }
       ],
@@ -1095,7 +1095,7 @@
             "PWR-114",
             "PWR-310"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native framework."
         }
       ],
@@ -1105,7 +1105,7 @@
           "archetype_ids": [
             "INS-425"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Institution comparison."
         }
       ],
@@ -1118,7 +1118,7 @@
           "archetype_ids": [
             "LAW-806"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel relation."
         }
       ],
@@ -1173,7 +1173,7 @@
           "archetype_ids": [
             "ROL-716"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Political comparison."
         }
       ],
@@ -1196,7 +1196,7 @@
             "LAW-508",
             "LAW-704"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel cosmology."
         }
       ],
@@ -1269,7 +1269,7 @@
           "archetype_ids": [
             "COS-119"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Literary cosmology."
         }
       ],
@@ -1279,7 +1279,7 @@
           "archetype_ids": [
             "LAW-704"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel episode."
         }
       ],
@@ -1323,7 +1323,7 @@
           "archetype_ids": [
             "PPL-801"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Chinese dragon kings are distinct."
         }
       ],
@@ -1334,7 +1334,7 @@
           "archetype_ids": [
             "ROL-716"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Rulership comparison."
         }
       ],
@@ -1355,7 +1355,7 @@
           "archetype_ids": [
             "COS-518"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Source geography."
         }
       ],
@@ -1401,7 +1401,7 @@
             "PPL-501",
             "PPL-1004"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Do not flatten yaoguai into a demon race."
         }
       ],
@@ -1413,7 +1413,7 @@
           "archetype_ids": [
             "PWR-114"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel practice."
         }
       ],
@@ -1426,7 +1426,7 @@
         {
           "term": "episode antagonist",
           "archetype_ids": [],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "No moral essence inferred."
         }
       ],
@@ -1468,7 +1468,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native category retained."
         }
       ],
@@ -1480,7 +1480,7 @@
           "archetype_ids": [
             "PWR-204"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Effect comparison."
         }
       ],
@@ -1537,7 +1537,7 @@
             "PPL-404",
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "The plot complicates fixed categories."
         }
       ],
@@ -1557,7 +1557,7 @@
           "archetype_ids": [
             "COS-119"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel cosmology."
         }
       ],
@@ -1567,7 +1567,7 @@
           "archetype_ids": [
             "STA-202"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Narrative transformation."
         }
       ],
@@ -1614,7 +1614,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not demon/undead race."
         }
       ],
@@ -1626,7 +1626,7 @@
           "archetype_ids": [
             "PWR-310"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native transformations."
         }
       ],
@@ -1637,7 +1637,7 @@
           "archetype_ids": [
             "STA-202"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Episode-specific."
         }
       ],
@@ -1650,7 +1650,7 @@
           "archetype_ids": [
             "NAR-327"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Functional only."
         }
       ],
@@ -1692,7 +1692,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native category retained."
         }
       ],
@@ -1715,7 +1715,7 @@
             "ART-102",
             "ART-218"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Source treasures."
         }
       ],
@@ -1760,7 +1760,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native category retained."
         }
       ],
@@ -1783,7 +1783,7 @@
             "ART-102",
             "ART-218"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Source treasures."
         }
       ],
@@ -1829,7 +1829,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native category retained."
         }
       ],
@@ -1842,7 +1842,7 @@
             "PWR-201",
             "PWR-310"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not a game spell school."
         }
       ],
@@ -1860,7 +1860,7 @@
           "archetype_ids": [
             "STA-425"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Status change."
         }
       ],
@@ -1908,7 +1908,7 @@
             "PPL-501",
             "PPL-1004"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not a demon/beastfolk ancestry."
         }
       ],
@@ -1919,7 +1919,7 @@
           "archetype_ids": [
             "ROL-721"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Narrative ruler only."
         }
       ],
@@ -1930,7 +1930,7 @@
             "PWR-114",
             "PWR-310"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native framework."
         }
       ],
@@ -1952,7 +1952,7 @@
           "archetype_ids": [
             "NAR-302"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "No fixed moral essence."
         }
       ],
@@ -1995,7 +1995,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Do not conflate luocha with generic demons."
         }
       ],
@@ -2018,7 +2018,7 @@
             "ART-102",
             "ART-218"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Climate-changing source artifact."
         }
       ],
@@ -2064,7 +2064,7 @@
             "PPL-501",
             "PPL-1004"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "No generic foxfolk equation."
         }
       ],
@@ -2124,7 +2124,7 @@
             "PPL-1001",
             "PPL-1002"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Allegorical identity episode."
         }
       ],
@@ -2136,7 +2136,7 @@
           "archetype_ids": [
             "PWR-310"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Source-specific."
         }
       ],
@@ -2150,7 +2150,7 @@
           "archetype_ids": [
             "LAW-608"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Episode structure."
         }
       ],
@@ -2160,7 +2160,7 @@
           "archetype_ids": [
             "NAR-327"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Functional only."
         }
       ],
@@ -2203,7 +2203,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native category retained."
         }
       ],
@@ -2216,7 +2216,7 @@
             "PWR-216",
             "PWR-310"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Effect comparison."
         }
       ],
@@ -2272,7 +2272,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native category retained."
         }
       ],
@@ -2291,7 +2291,7 @@
           "archetype_ids": [
             "PWR-207"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "Effect comparison."
         }
       ],
@@ -2302,7 +2302,7 @@
           "archetype_ids": [
             "STA-202"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Episode disguise."
         }
       ],
@@ -2349,7 +2349,7 @@
           "archetype_ids": [
             "PPL-501"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Native category retained."
         }
       ],
@@ -2361,7 +2361,7 @@
           "archetype_ids": [
             "PWR-310"
           ],
-          "confidence": "functional",
+          "confidence": "moderate",
           "note": "No gender-essentializing mapping."
         }
       ],
@@ -2417,7 +2417,7 @@
           "archetype_ids": [
             "PPL-401"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Do not reduce Yama traditions to a generic death god."
         }
       ],
@@ -2437,7 +2437,7 @@
           "archetype_ids": [
             "COS-119"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel bureaucracy."
         }
       ],
@@ -2449,7 +2449,7 @@
           "archetype_ids": [
             "COS-210"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "No Christian infernal binary."
         }
       ],
@@ -2459,7 +2459,7 @@
           "archetype_ids": [
             "LAW-704"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Novel episode."
         }
       ],
@@ -2503,7 +2503,7 @@
           "archetype_ids": [
             "PPL-401"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Not generic deity."
         }
       ],
@@ -2533,7 +2533,7 @@
           "archetype_ids": [
             "COS-201"
           ],
-          "confidence": "partial",
+          "confidence": "moderate",
           "note": "Literary geography."
         }
       ],

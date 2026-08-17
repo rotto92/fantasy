@@ -166,6 +166,7 @@ interface ResearchSourceTerm {
   source_id: string;
   work_or_witness: string;
   canonical_term: string;
+  identity_forms?: string[];
   original_language: string;
   original_script: string;
   transliteration: string;
@@ -565,13 +566,7 @@ function buildDiscoveryLookup(records: DiscoveryRecord[]): DiscoveryLookup {
       if (foldedValue) terms.add(foldedValue);
       foldedTokens.forEach((token) => terms.add(token));
       for (let start = 0; start + 1 < foldedTokens.length; start += 1) {
-        let joined = foldedTokens[start];
-        for (let end = start + 1; end < Math.min(foldedTokens.length, start + 4); end += 1) {
-          joined += foldedTokens[end];
-          if (end === start + 1 || foldedTokens.slice(start, end + 1).some((token) => token.length <= 2)) {
-            terms.add(joined);
-          }
-        }
+        terms.add(foldedTokens.slice(start).join(""));
       }
     }
     for (const term of terms) {
@@ -985,11 +980,13 @@ function renderedNodeMarks(): SVGGElement[] {
 }
 
 function setRovingNode(nodeId: string, focus = false): void {
+  svgElement.querySelectorAll<SVGGElement>(".concept-star")
+    .forEach((mark) => mark.setAttribute("tabindex", "-1"));
   const marks = renderedNodeMarks();
   const target = marks.find((mark) => mark.dataset.nodeId === nodeId);
   if (!target) return;
   rovingNodeId = nodeId;
-  marks.forEach((mark) => mark.setAttribute("tabindex", mark === target ? "0" : "-1"));
+  target.setAttribute("tabindex", "0");
   if (focus) target.focus();
 }
 
@@ -2312,6 +2309,11 @@ function bindEvents(): void {
       renderResearch();
     }
     showSearchResults(query);
+  });
+  searchInput.addEventListener("focus", () => {
+    if (window.matchMedia("(max-width: 1040px)").matches) {
+      detailPanel?.classList.remove("is-open");
+    }
   });
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
