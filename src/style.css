@@ -175,6 +175,17 @@ kbd {
 .search-result strong { font-size: 11px; font-weight: 600; }
 .search-result span { color: var(--quiet); font-size: 9px; }
 .search-result small { color: #6f7f96; font-size: 8px; }
+.search-more {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid rgba(112, 214, 200, 0.22);
+  border-radius: 7px;
+  color: var(--teal);
+  background: rgba(112, 214, 200, 0.06);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.search-more:hover { background: rgba(112, 214, 200, 0.12); }
 .search-empty { margin: 0; padding: 12px; color: var(--quiet); font-size: 10px; }
 
 .lens-panel {

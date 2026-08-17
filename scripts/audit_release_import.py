@@ -60,6 +60,7 @@ REVIEWED_OPAQUE_FILES = {
     "atlas-v4-relations.png": "c337ac569a69c4b83464aee4396efe73a15ab14e8dd8d883c1c6924a2ad39dff",
     "atlas-v4-research.png": "8a0519e33c541b575e3cfd3261996a162f88b92753b43c494c564bd202040398",
 }
+REVIEWED_SYMLINKS = {"CLAUDE.md": "AGENTS.md"}
 
 
 def tracked_paths() -> list[Path]:
@@ -125,7 +126,16 @@ def scan_file(path: Path) -> list[dict[str, str]]:
         findings.append(finding(path, "suspicious-filename", "credential-like filename"))
     absolute = ROOT / path
     if absolute.is_symlink():
-        return findings + [finding(path, "published-symlink", f"symlink target {absolute.readlink()} requires review")]
+        target = absolute.readlink().as_posix()
+        if REVIEWED_SYMLINKS.get(path.as_posix()) != target:
+            return findings + [finding(path, "published-symlink", f"symlink target {target} is not approved")]
+        try:
+            resolved = absolute.resolve(strict=True)
+        except (OSError, RuntimeError) as error:
+            return findings + [finding(path, "published-symlink", f"approved symlink is invalid: {error}")]
+        if resolved == ROOT or ROOT not in resolved.parents or not resolved.is_file():
+            return findings + [finding(path, "published-symlink", f"approved symlink target {target} is not an in-worktree file")]
+        absolute = resolved
     size = absolute.stat().st_size
     if size > MAX_FILE_BYTES:
         findings.append(finding(path, "oversized-file", f"{size} bytes exceeds {MAX_FILE_BYTES} bytes"))
@@ -175,7 +185,7 @@ def main() -> int:
     findings.sort(key=lambda item: (item["path"], item["kind"], item["detail"]))
     extension_counts = Counter(path.suffix.lower() or "[no extension]" for path in included)
     sizes = sorted(
-        ((path.as_posix(), (ROOT / path).stat().st_size) for path in included),
+        ((path.as_posix(), (ROOT / path).lstat().st_size) for path in included),
         key=lambda item: (-item[1], item[0]),
     )
     report = {

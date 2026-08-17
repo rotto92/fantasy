@@ -71,6 +71,16 @@ def source_work_label(audit: dict[str, Any]) -> str:
     return "; ".join(source_work_labels(audit))
 
 
+def citation_work_label(citations: list[dict[str, Any]]) -> str:
+    return "; ".join(
+        dict.fromkeys(
+            str(citation.get("locator", "")).strip()
+            for citation in citations
+            if str(citation.get("locator", "")).strip()
+        )
+    )
+
+
 def stratified_examples(values: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
     kind_order = {"character-example": 0, "source-term": 1, "source-entry": 2}
     remaining = sorted(
@@ -197,7 +207,7 @@ def main() -> None:
             "evidenceLevel": term.get("evidence_level", ""),
             "evidenceBasis": audits.get(str(term["source_id"]), {}).get("evidence_basis", ""),
             "url": first_url(term.get("citations", [])),
-            "work": source_work_label(audits.get(str(term["source_id"]), {})),
+            "work": citation_work_label(term.get("citations", [])),
             "reviewStatus": term["review_status"],
             "caution": term["cultural_caution"],
         }
@@ -250,11 +260,30 @@ def main() -> None:
     def descendants(node_id: str) -> int:
         return sum(1 + descendants(child_id) for child_id in children.get(node_id, []))
 
+    rolled_examples: dict[str, list[dict[str, Any]]] = {}
+
+    def examples_with_descendants(node_id: str) -> list[dict[str, Any]]:
+        if node_id in rolled_examples:
+            return rolled_examples[node_id]
+        combined = [*examples.get(node_id, [])]
+        for child_id in sorted(children.get(node_id, [])):
+            combined.extend(examples_with_descendants(child_id))
+        deduplicated: dict[tuple[str, str, str], dict[str, Any]] = {}
+        for example in combined:
+            key = (
+                str(example.get("kind", "")),
+                str(example.get("id", "")),
+                str(example.get("sourceId", "")),
+            )
+            deduplicated.setdefault(key, example)
+        rolled_examples[node_id] = list(deduplicated.values())
+        return rolled_examples[node_id]
+
     output_nodes: list[dict[str, Any]] = []
     for node_id, node in selected.items():
         record = node.get("record", {})
         domain = INCLUDED_DOMAINS[node["domain"]]
-        node_examples = examples.get(node_id, [])
+        node_examples = examples_with_descendants(node_id)
         source_ids = sorted({str(example.get("sourceId", "")) for example in node_examples if example.get("sourceId")})
         parent_id = parent_by_id.get(node_id, "")
         family_id = node_id if int(node.get("tier") or 0) == 2 else parent_id

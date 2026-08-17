@@ -28,6 +28,11 @@ const mappedSourceTermExample = concepts.nodes.flatMap((node) => node.examples ?
 const xeniaRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC001-007");
 const aetherbladesRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC162-002");
 const jotunnRecord = discovery.records.find((record) => record.kind === "dimension-term" && record.sourceId === "SRC-002" && record.label === "jötunn");
+const dvergrTerm = research.sourceTerms.find((term) => term.canonical_term === "dvergr" && term.source_id === "SRC-002");
+const dvergrRecord = discovery.records.find((record) => record.id === `source-term:${dvergrTerm?.term_id}`);
+const dvergrSourceRecord = discovery.records.find((record) => record.id === `source:${dvergrTerm?.source_id}`);
+const dvergrExample = concepts.nodes.flatMap((node) => node.examples ?? []).find((example) => example.id === dvergrTerm?.term_id);
+const mortalFamily = concepts.nodes.find((node) => node.label === "Mortal and Natural Peoples");
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
@@ -39,6 +44,16 @@ for (const name of ["Ankka", "Ivan", "Mai Trin", "Scarlet"]) {
 }
 if (!jotunnRecord?.continuity.includes("Poetic Edda witness") || !jotunnRecord.continuity.includes("Prose Edda witness") || !jotunnRecord.work.includes("Vafþrúðnismál") || !jotunnRecord.work.includes("Gylfaginning")) {
   failures.push("grouped jötunn evidence collapsed its continuity or work provenance");
+}
+const dvergrWork = dvergrTerm?.citations.map((citation) => citation.locator).filter(Boolean).join("; ") ?? "";
+if (!dvergrRecord || dvergrRecord.work !== dvergrWork || dvergrRecord.work.includes("Gylfaginning") || !dvergrSourceRecord?.work.includes("Gylfaginning")) {
+  failures.push("dvergr discovery provenance overclaims the source-wide witness list");
+}
+if (!dvergrExample || dvergrExample.work !== dvergrWork || dvergrExample.work.includes("Gylfaginning")) {
+  failures.push("dvergr concept evidence overclaims the source-wide witness list");
+}
+if (!mortalFamily?.evidenceCount || !mortalFamily.sourceCount || !mortalFamily.examples.some((example) => example.kind === "character-example")) {
+  failures.push("tier-2 Mortal and Natural Peoples omitted descendant evidence");
 }
 if (mappedSourceTerm && mappedSourceTermExample) {
   const source = research.corpusSources.find((item) => item.sourceId === mappedSourceTerm.source_id);
@@ -159,6 +174,21 @@ await page.locator("#search").fill("Kreiß");
 const kreissText = await page.locator("#search-results").innerText();
 if (!kreissText.includes("Kreiß")) failures.push(`compiler-compatible Unicode folding omitted Kreiß: ${kreissText}`);
 
+const exactHumanEvidenceIds = discovery.records
+  .filter((record) => ["being_types", "roles_and_vocations"].includes(record.dimension) && record.foldedLabel === "human")
+  .map((record) => record.id);
+if (exactHumanEvidenceIds.length <= 12) failures.push("human fixture no longer exercises search pagination");
+await page.locator("#search").fill("human");
+while (await page.locator("#search-results .search-more").count()) {
+  await page.locator("#search-results .search-more").click();
+}
+const shownHumanIds = new Set(await page.locator("#search-results .search-result").evaluateAll((buttons) =>
+  buttons.map((button) => button.getAttribute("data-discovery-id")),
+));
+for (const id of exactHumanEvidenceIds) {
+  if (!shownHumanIds.has(id)) failures.push(`paginated human search omitted accepted evidence ${id}`);
+}
+
 await page.locator("#search").fill("Abhimanyu");
 await page.locator(".search-result").first().click();
 const sourceContextBeforeNavigation = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
@@ -209,8 +239,16 @@ for (const [query, expected] of [["DAngeline", "Kushiel's Legacy"], ["Kiche", "P
 await page.locator("#search").fill("xenia");
 await page.locator(".search-result").filter({ hasText: "Source-native term · Ancient Greek Mythology" }).first().click();
 const xeniaDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
-if (!xeniaDetail.includes("normalized mapping") || !xeniaDetail.includes("sacred hospitality (law-801)") || !xeniaDetail.includes("guest–host reciprocity (law-802)") || !xeniaDetail.includes("outside the being/class graph")) {
+if (!xeniaDetail.includes("normalized family") || !xeniaDetail.includes("hospitality, kinship & social metaphysics (law-800)") || !xeniaDetail.includes("normalized mapping") || !xeniaDetail.includes("sacred hospitality (law-801)") || !xeniaDetail.includes("guest–host reciprocity (law-802)") || !xeniaDetail.includes("outside the being/class graph")) {
   failures.push(`xenia detail discarded non-graph normalized mappings: ${xeniaDetail}`);
+}
+
+await page.locator("#search").fill("dvergr");
+await page.locator(".search-result").filter({ hasText: `Source-native term · ${dvergrRecord?.sourceTitle}` }).first().click();
+const dvergrDetail = await page.locator(".detail-panel").innerText();
+const foldedDvergrDetail = dvergrDetail.toLocaleLowerCase();
+if (!foldedDvergrDetail.includes(`work / witness\n${dvergrWork.toLocaleLowerCase()}`) || !foldedDvergrDetail.includes("source-wide scope") || !foldedDvergrDetail.includes("gylfaginning")) {
+  failures.push(`dvergr detail did not separate claim provenance from source scope: ${dvergrDetail}`);
 }
 
 await page.locator("#search").fill("Aetherblades");
@@ -220,9 +258,13 @@ for (const name of ["Ankka", "Ivan", "Mai Trin", "Scarlet"]) {
   if (!aetherbladesDetail.includes(name)) failures.push(`Aetherblades detail omitted representative character ${name}`);
 }
 
-for (const label of ["Human and Near-Human Peoples", "Deities", "Warrior or Fighter"]) {
+for (const label of ["Human and Near-Human Peoples", "Deities", "Warrior or Fighter", "Mortal and Natural Peoples"]) {
   await page.locator("#search").fill(label);
   await page.locator(".search-result").filter({ hasText: "Normalized graph concept" }).first().click();
+  if (label === "Mortal and Natural Peoples") {
+    const evidenceBadge = (await page.locator(".detail-panel .evidence-badge").first().innerText()).toLocaleLowerCase();
+    if (evidenceBadge !== "mapped evidence") failures.push("Mortal and Natural Peoples still presents descendant evidence as framework-only");
+  }
   const evidenceText = await page.locator(".detail-section").filter({ hasText: "Source evidence and examples" }).innerText();
   if (!evidenceText.includes("Character Example")) failures.push(`${label} detail sampling omitted character evidence`);
 }

@@ -115,6 +115,7 @@ interface SourceAudit {
   source_id: string;
   source_title: string;
   continuity_scope: string;
+  work_or_witnesses?: Array<string | { work?: string; edition?: string }>;
   completion_status: string;
   completed_character_count: number;
   citations: Citation[];
@@ -337,6 +338,7 @@ const familyPalette = [
   "#c2b4f2",
 ];
 const touchTargetRadius = 22;
+const searchResultPageSize = 12;
 
 let dimensionLabels: Record<string, string> = {};
 
@@ -521,12 +523,35 @@ function auditStatusPresentation(audit: SourceAudit | undefined): { label: strin
   return { label, className, caution };
 }
 
+function sourceScopeLabel(sourceId: string): string {
+  return [...new Set((auditBySource.get(sourceId)?.work_or_witnesses ?? []).map((witness) =>
+    typeof witness === "string"
+      ? witness.trim()
+      : [witness.work, witness.edition].filter(Boolean).join(" · ").trim(),
+  ).filter(Boolean))].join("; ");
+}
+
 function assetUrl(path: string): string {
   return `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
 }
 
 function discoveryRecordById(id: string | null): DiscoveryRecord | undefined {
   return id ? discovery?.records.find((record) => record.id === id) : undefined;
+}
+
+function normalizedFamilyLabel(conceptId: string): string {
+  let currentId = conceptId;
+  const visited = new Set<string>();
+  while (currentId && !visited.has(currentId)) {
+    visited.add(currentId);
+    const taxonomy = research.taxonomy[currentId];
+    if (!taxonomy) break;
+    if (Number(taxonomy.tier) === 2) return `${taxonomy.name} (${currentId})`;
+    currentId = taxonomy.parentId;
+  }
+  const node = nodeById.get(conceptId);
+  const family = node ? nodeById.get(node.familyId) ?? node : undefined;
+  return family ? `${family.label} (${family.id})` : "";
 }
 
 function buildDiscoveryLookup(records: DiscoveryRecord[]): DiscoveryLookup {
@@ -1707,18 +1732,15 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
 
   const context = detailSection("Source and continuity");
   const contextGrid = element("div", "attribute-grid");
-  const normalizedFamilies = [...new Set(record.relatedConceptIds.map((id) => {
-    const node = nodeById.get(id);
-    return node ? nodeById.get(node.familyId)?.label ?? node.label : "";
-  }).filter(Boolean))].join(", ");
+  const normalizedFamilies = [...new Set(record.normalizedConceptIds.map(normalizedFamilyLabel).filter(Boolean))].join(", ");
   const normalizedMappings = record.normalizedConceptIds
     .map((id) => `${research.taxonomy[id]?.name ?? id} (${id})`)
-    .slice(0, 12)
     .join(", ");
   const contextValues: Array<[string, string]> = [
     ["Source / series", record.sourceTitle],
     ["Continuity", record.continuity],
     ["Work / witness", record.work],
+    ["Source-wide scope", record.kind === "source-term" ? sourceScopeLabel(record.sourceId) : ""],
     ["Evidence dimension", dimensionLabels[record.dimension] ?? record.dimension],
     ["Normalized family", normalizedFamilies],
     ["Normalized mapping", normalizedMappings],
@@ -1939,6 +1961,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
       ["Source / series", discoveryContext.sourceTitle],
       ["Continuity", discoveryContext.continuity],
       ["Work / witness", discoveryContext.work],
+      ["Source-wide scope", discoveryContext.kind === "source-term" ? sourceScopeLabel(discoveryContext.sourceId) : ""],
       ["Evidence dimension", dimensionLabels[discoveryContext.dimension] ?? discoveryContext.dimension],
     ]) {
       if (!value) continue;
@@ -2024,6 +2047,8 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
       const canonStatus = example.canonStatus || character?.canon_status;
       const caution = example.caution || term?.cultural_caution || character?.comparison_cautions.join(" ");
       card.append(element("span", "", [example.sourceTitle, example.continuity, work, titleCase(example.kind)].filter(Boolean).join(" · ")));
+      const sourceScope = term ? sourceScopeLabel(example.sourceId) : "";
+      if (sourceScope) card.append(element("small", "", `Source-wide scope: ${sourceScope}`));
       if (example.evidenceLevel || example.evidenceBasis || citation?.locator) {
         card.append(element("small", "", [example.evidenceLevel, example.evidenceBasis && `Evidence basis: ${example.evidenceBasis}`, citation?.locator].filter(Boolean).join(" · ")));
       }
@@ -2146,14 +2171,15 @@ function populateFilters(): void {
   }
 }
 
-function showSearchResults(query: string): void {
+function showSearchResults(query: string, limit = searchResultPageSize): void {
   searchResults.replaceChildren();
   lastSearchQuery = query;
   if (!query) {
     searchResults.hidden = true;
     return;
   }
-  const matches = discoveryMatches(query).slice(0, 12);
+  const allMatches = discoveryMatches(query);
+  const matches = allMatches.slice(0, limit);
   if (!matches.length) {
     const empty = element("div", "search-empty");
     empty.append(
@@ -2165,6 +2191,7 @@ function showSearchResults(query: string): void {
   for (const { record, fields } of matches) {
     const button = element("button", "search-result") as HTMLButtonElement;
     button.type = "button";
+    button.dataset.discoveryId = record.id;
     const matchReason = fields.length
       ? `Matched ${fields.slice(0, 3).join(" · ")}`
       : "Matched indexed corpus evidence";
@@ -2208,6 +2235,21 @@ function showSearchResults(query: string): void {
       });
     });
     searchResults.append(button);
+  }
+  if (matches.length < allMatches.length) {
+    const remaining = allMatches.length - matches.length;
+    const additional = Math.min(searchResultPageSize, remaining);
+    const more = element("button", "search-more", `Show ${additional} more · ${remaining} remaining`) as HTMLButtonElement;
+    more.type = "button";
+    more.addEventListener("click", () => {
+      showSearchResults(query, matches.length + searchResultPageSize);
+      requestAnimationFrame(() => {
+        const nextMore = searchResults.querySelector<HTMLButtonElement>(".search-more");
+        const resultButtons = searchResults.querySelectorAll<HTMLButtonElement>(".search-result");
+        (nextMore ?? resultButtons[resultButtons.length - 1])?.focus();
+      });
+    });
+    searchResults.append(more);
   }
   searchResults.hidden = false;
 }

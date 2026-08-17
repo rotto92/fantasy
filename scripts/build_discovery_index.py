@@ -121,6 +121,12 @@ def source_work_label(audit: dict[str, Any]) -> str:
     return "; ".join(source_work_labels(audit))
 
 
+def citation_work_label(citations: list[dict[str, Any]]) -> str:
+    return "; ".join(
+        unique([str(citation.get("locator", "")).strip() for citation in citations])
+    )
+
+
 def source_fields(source: dict[str, Any]) -> list[list[Any]]:
     return [
         field("source / series", source.get("title")),
@@ -231,7 +237,8 @@ def main() -> None:
         if term_dimension in DIMENSION_LABELS:
             dimension_row_keys[term_dimension].add(f"source-term:{term['term_id']}")
         source = sources.get(str(term["source_id"]), {})
-        source_work = source_work_label(audits.get(str(term["source_id"]), {}))
+        term_work = citation_work_label(term.get("citations", []))
+        source_scope = source_work_label(audits.get(str(term["source_id"]), {}))
         matching_rows = dimension_rows_by_key.get(
             (term_dimension, fold(canonical), str(term["source_id"])),
             [],
@@ -261,7 +268,8 @@ def main() -> None:
             field("literal gloss", term.get("literal_gloss")),
             field(DIMENSION_LABELS.get(term.get("dimension", ""), term.get("dimension", "")), canonical),
             *source_fields(source),
-            field("work / witness", source_work),
+            field("work / witness", term_work),
+            field("source-wide scope", source_scope),
             field("original language", term.get("original_language")),
             field("original script", term.get("original_script")),
         ]
@@ -277,7 +285,7 @@ def main() -> None:
                 "sourceTitle": source.get("title", term["source_id"]),
                 "dimension": term.get("dimension", ""),
                 "continuity": source.get("continuityUnit", "Source-native terminology record"),
-                "work": source_work,
+                "work": term_work,
                 "characterIds": matching_character_ids,
                 "characterExamples": matching_character_names[:6],
                 "relatedConceptIds": [

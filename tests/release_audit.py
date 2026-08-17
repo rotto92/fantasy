@@ -47,5 +47,27 @@ with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
     )
     assert rejected.returncode == 1
     assert any(item["kind"] == "github-token" for item in json.loads(rejected.stdout)["findings"])
+    (artifact / "linked.html").symlink_to("index.html")
+    linked = subprocess.run(
+        [sys.executable, "scripts/audit_release_import.py", "--artifact-root", relative.as_posix()],
+        cwd=root,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    assert linked.returncode == 1
+    assert any(
+        item["path"].endswith("linked.html") and item["kind"] == "published-symlink"
+        for item in json.loads(linked.stdout)["findings"]
+    )
+
+tracked = subprocess.run(
+    [sys.executable, "scripts/audit_release_import.py"],
+    cwd=root,
+    check=False,
+    capture_output=True,
+    text=True,
+)
+assert tracked.returncode == 0, tracked.stdout + tracked.stderr
 
 print("Release audit regression test passed.")
