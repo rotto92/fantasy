@@ -535,6 +535,9 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
 }
 
 .concept-star { cursor: pointer; transition: opacity 180ms ease; }
+.concept-star:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+.concept-star:focus-visible .family-core,
+.concept-star:focus-visible .specific-core { stroke: var(--gold); stroke-width: 2px; }
 .star-corona { opacity: 0.17; filter: blur(1.8px); pointer-events: none; }
 .family-core {
   stroke: rgba(255, 255, 255, 0.88);

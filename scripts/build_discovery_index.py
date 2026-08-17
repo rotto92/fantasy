@@ -13,7 +13,6 @@ import json
 import re
 import unicodedata
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -56,6 +55,10 @@ def fold(value: Any) -> str:
     return "".join(character for character in without_marks.casefold() if character.isalnum())
 
 
+def fold_tokens(value: Any) -> list[str]:
+    return unique([fold(token) for token in re.findall(r"[\w]+", str(value or ""), flags=re.UNICODE)])
+
+
 def first_url(citations: list[dict[str, Any]]) -> str:
     return str(citations[0].get("url", "")) if citations else ""
 
@@ -64,8 +67,9 @@ def unique(values: list[str]) -> list[str]:
     return list(dict.fromkeys(value for value in values if value))
 
 
-def field(label: str, value: Any) -> dict[str, str]:
-    return {"label": label, "value": str(value or "")}
+def field(label: str, value: Any) -> dict[str, Any]:
+    text = str(value or "")
+    return {"label": label, "value": text, "foldedValue": fold(text), "foldedTokens": fold_tokens(text)}
 
 
 def source_lookup(research: dict[str, Any]) -> dict[str, dict[str, Any]]:
@@ -117,9 +121,8 @@ def main() -> None:
     characters_by_id = {str(character["character_id"]): character for character in research["characters"]}
 
     records: list[dict[str, Any]] = []
-    dimension_groups: dict[tuple[str, str, str], dict[str, Any]] = {}
     dimension_rows_by_key: dict[tuple[str, str, str], list[dict[str, Any]]] = defaultdict(list)
-    dimension_row_counts: Counter[str] = Counter()
+    dimension_row_keys: dict[str, set[str]] = defaultdict(set)
 
     for character in research["characters"]:
         source = sources.get(str(character["source_id"]), {})
@@ -160,12 +163,13 @@ def main() -> None:
             }
         )
 
-        for row in dimension_values:
+        for row_index, row in enumerate(dimension_values):
             dimension = str(row["dimension"])
             term = str(row["term"])
-            dimension_row_counts[dimension] += 1
+            coverage_key = f"character:{character['character_id']}:{dimension}:{row_index}"
+            dimension_row_keys[dimension].add(coverage_key)
             key = (dimension, fold(term), str(character["source_id"]))
-            dimension_rows_by_key[key].append({"character": character, "value": row})
+            dimension_rows_by_key[key].append({"character": character, "value": row, "coverageKey": coverage_key})
 
     for term in research["sourceTerms"]:
         canonical = str(term.get("canonical_term", "")).strip()
@@ -173,7 +177,7 @@ def main() -> None:
             continue
         term_dimension = str(term.get("dimension", ""))
         if term_dimension in DIMENSION_LABELS:
-            dimension_row_counts[term_dimension] += 1
+            dimension_row_keys[term_dimension].add(f"source-term:{term['term_id']}")
         source = sources.get(str(term["source_id"]), {})
         aliases: list[str] = []
         alias_note = ""
@@ -189,6 +193,7 @@ def main() -> None:
                 break
         fields = [
             field("source-native term", canonical),
+            *[field("alias", alias) for alias in aliases],
             field("transliteration", term.get("transliteration")),
             field("literal gloss", term.get("literal_gloss")),
             field(DIMENSION_LABELS.get(term.get("dimension", ""), term.get("dimension", "")), canonical),
@@ -208,7 +213,7 @@ def main() -> None:
                 "sourceTitle": source.get("title", term["source_id"]),
                 "dimension": term.get("dimension", ""),
                 "continuity": source.get("continuityUnit", "Source-native terminology record"),
-                "work": term.get("original_language", ""),
+                "work": "",
                 "characterIds": [],
                 "characterExamples": [],
                 "relatedConceptIds": [
@@ -219,6 +224,7 @@ def main() -> None:
                 "url": first_url(term.get("citations", [])),
                 "searchFields": fields,
                 "searchText": search_text(fields, aliases),
+                "coverageKeys": [f"source-term:{term['term_id']}"] if term_dimension in DIMENSION_LABELS else [],
             }
         )
 
@@ -270,6 +276,7 @@ def main() -> None:
                 "url": first_url(first["character"].get("citations", [])),
                 "searchFields": fields,
                 "searchText": search_text(fields),
+                "coverageKeys": [row["coverageKey"] for row in rows],
             }
         )
     records_by_source: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -362,32 +369,46 @@ def main() -> None:
             }
             for other_id, _count in sorted(
                 counts.items(),
-                key=lambda item: (-item[1], sources[item[0]]["title"].casefold()),
+                key=lambda item: (-item[1], sources[item[0]]["title"].casefold(), item[0]),
             )[:16]
         ]
-        for source_id, counts in connection_pairs.items()
+        for source_id, counts in sorted(connection_pairs.items())
     }
 
     coverage: dict[str, dict[str, Any]] = {}
     for dimension, label in DIMENSION_LABELS.items():
-        # Every non-empty row is represented by a grouped dimension-term record;
-        # no row is quarantined by this projection.
-        missing: list[str] = []
+        expected = dimension_row_keys[dimension]
+        projected = [
+            coverage_key
+            for record in records
+            if record.get("dimension") == dimension
+            for coverage_key in record.get("coverageKeys", [])
+        ]
+        projected_set = set(projected)
+        if len(projected) != len(projected_set):
+            raise ValueError(f"Discovery projection duplicated {dimension} coverage keys")
+        unexpected = sorted(projected_set - expected)
+        if unexpected:
+            raise ValueError(f"Discovery projection emitted unknown {dimension} coverage keys: {unexpected[:3]}")
+        missing = sorted(expected - projected_set)
+        if missing:
+            raise ValueError(f"Discovery projection omitted {dimension} coverage keys: {missing[:3]}")
         coverage[dimension] = {
             "label": label,
-            "acceptedRows": dimension_row_counts[dimension],
-            "discoverableRows": dimension_row_counts[dimension] - len(missing),
+            "acceptedRows": len(expected),
+            "discoverableRows": len(expected & projected_set),
             "excludedRows": len(missing),
             "missingRows": missing,
-            "exclusionRule": "No non-empty accepted dimension row is excluded; each row is grouped into a source-preserving evidence result.",
+            "exclusionRule": "An accepted non-empty row is discoverable only when its compiler provenance key is emitted by a source-preserving evidence result.",
         }
 
-    records.sort(key=lambda record: (record["kind"], fold(record["label"]), record["id"]))
+    for record in records:
+        record["foldedLabel"] = fold(record["label"])
+    records.sort(key=lambda record: (record["kind"], record["foldedLabel"], record["id"]))
     output = {
         "meta": {
             "title": "Fantasy Atlas Discovery Index",
             "version": "1.0-bounded-discovery",
-            "generatedAt": datetime.now(timezone.utc).isoformat(),
             "scope": {
                 "kind": "bounded-accepted-research-corpus",
                 "meaning": "Complete only for imported, non-quarantined research bundles accepted by validate_character_research.py.",
@@ -411,7 +432,7 @@ def main() -> None:
     OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         f"Wrote {OUTPUT_PATH.relative_to(ROOT)}: {len(records)} records; "
-        f"{sum(item['acceptedRows'] for item in coverage.values())} accepted dimension rows covered."
+        f"{sum(item['discoverableRows'] for item in coverage.values())} accepted dimension rows covered."
     )
 
 

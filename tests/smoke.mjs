@@ -1,10 +1,10 @@
 import { readFile } from "node:fs/promises";
-import { chromium } from "playwright-core";
+import { launchBrowser } from "./browser.mjs";
 
 const concepts = JSON.parse(await readFile(new URL("../public/data/constellations.json", import.meta.url), "utf8"));
 const research = JSON.parse(await readFile(new URL("../public/data/characters.json", import.meta.url), "utf8"));
-const browser = await chromium.launch({
-  executablePath: "/usr/bin/chromium",
+const appUrl = process.env.FANTASY_TEST_URL ?? "http://127.0.0.1:5173/";
+const browser = await launchBrowser({
   headless: true,
   args: ["--no-sandbox", "--enable-unsafe-swiftshader"],
 });
@@ -16,7 +16,7 @@ page.on("console", (message) => {
   if (message.type() === "error") failures.push(`console: ${message.text()}`);
 });
 
-await page.goto("http://127.0.0.1:5173/", { waitUntil: "networkidle" });
+await page.goto(appUrl, { waitUntil: "networkidle" });
 await page.locator("#loading").waitFor({ state: "detached" });
 
 const status = await page.locator("#status-summary").textContent();
@@ -43,6 +43,16 @@ if (specificMarks !== concepts.meta.counts.specificArchetypes) failures.push(`ex
 if (taxonomyLines !== concepts.meta.counts.taxonomyEdges) failures.push(`expected ${concepts.meta.counts.taxonomyEdges} taxonomy lines, got ${taxonomyLines}`);
 if ((await page.locator("#atlas-svg .character-mark").count()) !== 0) failures.push("character nodes remain in the graph");
 if ((await page.locator("#atlas-svg .affinity-line:visible").count()) !== 0) failures.push("global affinity lines are visible before selection");
+
+const accessibleStar = page.locator("#atlas-svg .concept-star").first();
+if (await accessibleStar.getAttribute("role") !== "button" || await accessibleStar.getAttribute("tabindex") !== "0" || !(await accessibleStar.getAttribute("aria-label"))) {
+  failures.push("map concepts are missing semantic keyboard control metadata");
+} else {
+  await accessibleStar.focus();
+  if (!(await accessibleStar.evaluate((node) => node === document.activeElement))) failures.push("map concept cannot receive keyboard focus");
+  await accessibleStar.press("Enter");
+  if (!(await page.locator(".concept-detail-header").isVisible())) failures.push("keyboard activation did not open concept detail");
+}
 
 const connected = concepts.nodes.find((node) =>
   node.tier === 3 && concepts.edges.some((edge) => edge.kind === "affinity" && (edge.source === node.id || edge.target === node.id)),
@@ -99,7 +109,7 @@ if (!researchColumns.includes("Independent review")) failures.push("research tab
 
 const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
 mobile.on("pageerror", (error) => failures.push(`mobile pageerror: ${error.message}`));
-await mobile.goto("http://127.0.0.1:5173/", { waitUntil: "networkidle" });
+await mobile.goto(appUrl, { waitUntil: "networkidle" });
 await mobile.locator("#loading").waitFor({ state: "detached" });
 await mobile.locator("#search").fill(connected?.label ?? concepts.nodes[0].label);
 await mobile.locator(".search-result").first().click();

@@ -35,6 +35,8 @@ jobs:
           .venv/bin/python -m pip install --disable-pip-version-check openpyxl
       - name: Install JavaScript dependencies
         run: npm ci
+      - name: Install pinned Chromium for browser contracts
+        run: npx --yes playwright@1.62.1 install chromium
       - name: Build the Pages bundle
         run: npm run build
       - name: Run browser contracts

@@ -177,6 +177,8 @@ interface ResearchPayload {
 interface DiscoveryField {
   label: string;
   value: string;
+  foldedValue: string;
+  foldedTokens: string[];
 }
 
 interface DiscoveryRecord {
@@ -184,6 +186,7 @@ interface DiscoveryRecord {
   kind: DiscoveryKind;
   kindLabel: string;
   label: string;
+  foldedLabel: string;
   aliases: string[];
   aliasNote?: string;
   sourceId: string;
@@ -399,6 +402,10 @@ function foldSearch(value: string): string {
     .replace(/[^\p{Letter}\p{Number}]+/gu, "");
 }
 
+function motionDuration(duration: number): number {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : duration;
+}
+
 function assetUrl(path: string): string {
   return `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
 }
@@ -407,20 +414,18 @@ function discoveryRecordById(id: string | null): DiscoveryRecord | undefined {
   return id ? discovery.records.find((record) => record.id === id) : undefined;
 }
 
-function matchedDiscoveryFields(record: DiscoveryRecord, query: string): string[] {
-  const foldedQuery = foldSearch(query);
+function matchedDiscoveryFields(record: DiscoveryRecord, foldedQuery: string): string[] {
   if (!foldedQuery) return [];
   return [...new Set(
     record.searchFields
-      .filter((field) => foldSearch(field.value).includes(foldedQuery))
+      .filter((field) => field.foldedValue === foldedQuery || field.foldedTokens.some((token) => token === foldedQuery || token.startsWith(foldedQuery)))
       .map((field) => field.label),
   )];
 }
 
-function discoveryMatchScore(record: DiscoveryRecord, query: string, fields: string[]): number {
-  const foldedQuery = foldSearch(query);
-  const label = foldSearch(record.label);
-  const alias = record.aliases.some((value) => foldSearch(value) === foldedQuery);
+function discoveryMatchScore(record: DiscoveryRecord, foldedQuery: string, fields: string[]): number {
+  const label = record.foldedLabel;
+  const alias = fields.includes("alias");
   const kindWeight: Record<DiscoveryKind, number> = {
     concept: 24,
     character: 19,
@@ -438,11 +443,11 @@ function discoveryMatches(query: string): Array<{ record: DiscoveryRecord; field
   const foldedQuery = foldSearch(query);
   if (!foldedQuery) return [];
   return discovery.records
-    .map((record) => ({ record, fields: matchedDiscoveryFields(record, query) }))
-    .filter(({ record, fields }) => fields.length > 0 || record.searchText.includes(foldedQuery))
+    .map((record) => ({ record, fields: matchedDiscoveryFields(record, foldedQuery) }))
+    .filter(({ fields }) => fields.length > 0)
     .sort((left, right) => {
-      const leftScore = discoveryMatchScore(left.record, query, left.fields);
-      const rightScore = discoveryMatchScore(right.record, query, right.fields);
+      const leftScore = discoveryMatchScore(left.record, foldedQuery, left.fields);
+      const rightScore = discoveryMatchScore(right.record, foldedQuery, right.fields);
       return d3.descending(leftScore, rightScore)
         || d3.ascending(left.record.label, right.record.label)
         || d3.ascending(left.record.id, right.record.id);
@@ -570,7 +575,11 @@ function clearStage(): d3.Selection<SVGSVGElement, unknown, null, undefined> {
   currentTransform = d3.zoomIdentity;
   positionById.clear();
   const [width, height] = stageSize();
-  svg.attr("viewBox", `0 0 ${width} ${height}`);
+  svg
+    .attr("viewBox", `0 0 ${width} ${height}`)
+    .attr("role", "group")
+    .attr("aria-labelledby", "atlas-map-title");
+  svg.append("title").attr("id", "atlas-map-title").text("Interactive class, race, and entity constellation map");
   return svg;
 }
 
@@ -721,6 +730,22 @@ function showTooltip(event: MouseEvent, node: ConceptNode): void {
   tooltip.style.left = `${Math.min(bounds.width - 270, Math.max(12, event.clientX - bounds.left + 14))}px`;
   tooltip.style.top = `${Math.min(bounds.height - 115, Math.max(12, event.clientY - bounds.top + 14))}px`;
   tooltip.hidden = false;
+}
+
+function accessibleNodeLabel(node: ConceptNode): string {
+  return `${node.label}, ${node.tier === 2 ? "constellation family" : node.domainLabel}, ${node.evidenceCount} evidence examples`;
+}
+
+function activateNode(positioned: PositionedNode): void {
+  selectNode(positioned.node.id, false);
+  if (positioned.node.tier === 2) zoomToNode(positioned.node.id);
+}
+
+function handleNodeKeydown(event: KeyboardEvent, positioned: PositionedNode): void {
+  if (event.key !== "Enter" && event.key !== " ") return;
+  event.preventDefault();
+  event.stopPropagation();
+  activateNode(positioned);
 }
 
 function hideTooltip(): void {
@@ -959,13 +984,18 @@ function renderConstellations(): void {
       : -positioned.r - 5)
     .text((positioned) => chartLabel(positioned.node));
   marks
+    .attr("role", "button")
+    .attr("tabindex", 0)
+    .attr("focusable", "true")
+    .attr("aria-label", (positioned) => accessibleNodeLabel(positioned.node))
     .on("mouseenter", (event, positioned) => showTooltip(event as MouseEvent, positioned.node))
     .on("mousemove", (event, positioned) => showTooltip(event as MouseEvent, positioned.node))
     .on("mouseleave", hideTooltip)
+    .on("focus", (_event, positioned) => selectNode(positioned.node.id, false))
+    .on("keydown", handleNodeKeydown)
     .on("click", (event, positioned) => {
       event.stopPropagation();
-      selectNode(positioned.node.id, false);
-      if (positioned.node.tier === 2) zoomToNode(positioned.node.id);
+      activateNode(positioned);
     });
 
   svg.on("click", () => selectNode(null, false));
@@ -991,7 +1021,7 @@ function zoomToNode(nodeId: string): void {
   d3
     .select(svgElement)
     .transition()
-    .duration(720)
+    .duration(motionDuration(720))
     .ease(d3.easeCubicInOut)
     .call(currentZoom.transform, transform);
 }
@@ -1023,7 +1053,7 @@ function zoomToSelection(nodeId: string): void {
   d3
     .select(svgElement)
     .transition()
-    .duration(720)
+    .duration(motionDuration(720))
     .ease(d3.easeCubicInOut)
     .call(currentZoom.transform, transform);
 }
@@ -1115,9 +1145,15 @@ function renderRelations(): void {
     .attr("y", (item) => item.r + 18)
     .text((item) => compactLabel(chartLabel(item.node), 24));
   marks
+    .attr("role", "button")
+    .attr("tabindex", 0)
+    .attr("focusable", "true")
+    .attr("aria-label", (item) => accessibleNodeLabel(item.node))
     .on("mouseenter", (event, item) => showTooltip(event as MouseEvent, item.node))
     .on("mousemove", (event, item) => showTooltip(event as MouseEvent, item.node))
     .on("mouseleave", hideTooltip)
+    .on("focus", (_event, item) => selectNode(item.node.id, false))
+    .on("keydown", handleNodeKeydown)
     .on("click", (_event, item) => selectNode(item.node.id, false));
   installZoom(svg, layer, () => undefined);
   updateScope(positioned.map((item) => item.node));
@@ -1291,7 +1327,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   if (actions.childElementCount) detailContent.append(actions);
 
   const why = detailSection("Why this matched");
-  const matched = matchedDiscoveryFields(record, lastSearchQuery);
+  const matched = matchedDiscoveryFields(record, foldSearch(lastSearchQuery));
   why.append(element("p", "detail-copy", matched.length
     ? `“${lastSearchQuery}” matched ${matched.join(", ")}. The result is an evidence record, not a claim that similarly spelled traditions are identical.`
     : "This result is part of the deterministic discovery projection for the accepted corpus."));
@@ -1374,6 +1410,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     if (term) {
       const evidenceSection = detailSection("Term evidence and caution");
       evidenceSection.append(element("p", "detail-copy", term.definition || "A source-native terminology record."));
+      if (term.original_language) evidenceSection.append(element("p", "dimension-note", `Source language: ${term.original_language}`));
       if (term.original_script || term.transliteration) evidenceSection.append(element("p", "dimension-note", [term.original_script, term.transliteration].filter(Boolean).join(" · ")));
       if (term.cultural_caution) evidenceSection.append(element("p", "dimension-note", term.cultural_caution));
       const citation = term.citations[0];
@@ -1436,7 +1473,7 @@ function relationLabel(selected: ConceptNode, other: ConceptNode): string {
   return selected.parentId && selected.parentId === other.parentId ? "Sibling archetype" : "Related concept";
 }
 
-function renderConceptDetail(node: ConceptNode): void {
+function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryRecord): void {
   detailContent.replaceChildren();
   detailPanel?.classList.add("is-open");
   const close = element("button", "mobile-detail-close", "×") as HTMLButtonElement;
@@ -1471,6 +1508,35 @@ function renderConceptDetail(node: ConceptNode): void {
   });
   actions.append(center, relations);
   detailContent.append(actions);
+
+  if (discoveryContext) {
+    const match = detailSection("Why this matched");
+    const matched = matchedDiscoveryFields(discoveryContext, foldSearch(lastSearchQuery));
+    match.append(element("p", "detail-copy", matched.length
+      ? `“${lastSearchQuery}” matched ${matched.join(", ")} in the normalized concept index. The source evidence below remains attached to this concept without merging traditions.`
+      : "This normalized concept was selected from the deterministic discovery projection."));
+    const contextGrid = element("div", "attribute-grid");
+    for (const [label, value] of [
+      ["Source / series", discoveryContext.sourceTitle],
+      ["Continuity", discoveryContext.continuity],
+      ["Work / witness", discoveryContext.work],
+      ["Evidence dimension", dimensionLabels[discoveryContext.dimension] ?? discoveryContext.dimension],
+    ]) {
+      if (!value) continue;
+      const item = element("div", "attribute-item");
+      item.append(element("small", "", label), element("span", "", value));
+      contextGrid.append(item);
+    }
+    match.append(contextGrid);
+    if (discoveryContext.url) {
+      const citation = element("a", "evidence-link", "Open discovery citation ↗") as HTMLAnchorElement;
+      citation.href = discoveryContext.url;
+      citation.target = "_blank";
+      citation.rel = "noreferrer";
+      match.append(citation);
+    }
+    detailContent.append(match);
+  }
 
   const stats = element("div", "concept-stat-grid");
   for (const [value, label] of [
@@ -1531,7 +1597,12 @@ function renderConceptDetail(node: ConceptNode): void {
         card.rel = "noreferrer";
       }
       card.append(element("strong", "", example.label));
-      card.append(element("span", "", `${example.sourceTitle} · ${titleCase(example.kind)}`));
+      const character = characterById.get(example.id);
+      const term = sourceTermById.get(example.id);
+      const citation = character?.citations[0] ?? term?.citations[0];
+      const work = character?.work_or_witness;
+      card.append(element("span", "", [example.sourceTitle, example.continuity, work, titleCase(example.kind)].filter(Boolean).join(" · ")));
+      if (example.evidenceLevel || citation?.locator) card.append(element("small", "", [example.evidenceLevel, citation?.locator].filter(Boolean).join(" · ")));
       if (example.summary) card.append(element("small", "", compactLabel(example.summary, 240)));
       examples.append(card);
     }
@@ -1549,8 +1620,8 @@ function renderConceptDetail(node: ConceptNode): void {
 function renderDetail(): void {
   const discoveryRecord = discoveryRecordById(selectedDiscoveryId);
   const node = selectedNodeId ? nodeById.get(selectedNodeId) : undefined;
-  if (discoveryRecord) renderDiscoveryDetail(discoveryRecord);
-  else if (node) renderConceptDetail(node);
+  if (discoveryRecord?.kind !== "concept" && discoveryRecord) renderDiscoveryDetail(discoveryRecord);
+  else if (node) renderConceptDetail(node, discoveryRecord?.kind === "concept" ? discoveryRecord : undefined);
   else renderOverviewDetail();
 }
 
@@ -1667,13 +1738,13 @@ function showSearchResults(query: string): void {
     if (record.characterExamples.length) {
       button.append(element("small", "result-examples", `Characters: ${record.characterExamples.slice(0, 3).join(", ")}`));
     }
-    if (record.aliasNote && foldSearch(query) !== foldSearch(record.label)) {
+    if (record.aliasNote && foldSearch(query) !== record.foldedLabel) {
       button.append(element("small", "result-caution", "Alias is scoped to this source witness; traditions are not merged."));
     }
     button.addEventListener("click", () => {
       searchInput.value = record.label;
       searchResults.hidden = true;
-      selectedDiscoveryId = record.kind === "concept" ? null : record.id;
+      selectedDiscoveryId = record.id;
       selectedNodeId = record.conceptId ?? record.relatedConceptIds[0] ?? null;
       selectionOrigin = selectedNodeId ? "search" : null;
       viewMode = record.kind === "source" && !selectedNodeId ? "research" : "constellations";
@@ -1697,7 +1768,7 @@ function showSearchResults(query: string): void {
 
 function fitView(): void {
   if (!currentZoom) return;
-  d3.select(svgElement).transition().duration(450).call(currentZoom.transform, d3.zoomIdentity);
+  d3.select(svgElement).transition().duration(motionDuration(450)).call(currentZoom.transform, d3.zoomIdentity);
 }
 
 function bindEvents(): void {
@@ -1793,10 +1864,10 @@ function bindEvents(): void {
     render();
   });
   byId<HTMLButtonElement>("zoom-in").addEventListener("click", () => {
-    if (currentZoom) d3.select(svgElement).transition().duration(250).call(currentZoom.scaleBy, 1.5);
+    if (currentZoom) d3.select(svgElement).transition().duration(motionDuration(250)).call(currentZoom.scaleBy, 1.5);
   });
   byId<HTMLButtonElement>("zoom-out").addEventListener("click", () => {
-    if (currentZoom) d3.select(svgElement).transition().duration(250).call(currentZoom.scaleBy, 1 / 1.5);
+    if (currentZoom) d3.select(svgElement).transition().duration(motionDuration(250)).call(currentZoom.scaleBy, 1 / 1.5);
   });
   byId<HTMLButtonElement>("fit-view").addEventListener("click", fitView);
   byId<HTMLButtonElement>("focus-relations").addEventListener("click", () => {

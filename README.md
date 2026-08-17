@@ -75,10 +75,11 @@ cross-series connections only from shared normalized concept IDs.
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` builds from `main`, runs the browser/data/static
-contracts, uploads `dist/`, and deploys it with the least permissions needed by
-GitHub Pages. The Vite base is `/fantasy/` in Actions and `/` for local
-development; `VITE_BASE` can override it for a local Pages-style build.
+`.github/workflows/pages.yml` builds from `main`, provisions pinned Chromium for
+the browser/data/static contracts, uploads `dist/`, and deploys it with the
+least permissions needed by GitHub Pages. The Vite base is `/fantasy/` in
+Actions and `/` for local development; `VITE_BASE` can override it for a local
+Pages-style build.
 
 ## Main files
 
