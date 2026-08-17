@@ -228,6 +228,7 @@ interface DiscoveryPayload {
     };
     counts: Record<string, number>;
     coverage: Record<string, DiscoveryCoverage>;
+    foldingMap: Record<string, string>;
     normalizationRules: Array<{ id: string; sourceIds: string[]; canonical: string; aliases: string[]; note: string }>;
     sourceConnections: Record<string, SourceConnection[]>;
   };
@@ -351,6 +352,7 @@ let discovery: DiscoveryPayload;
 let viewMode: ViewMode = "constellations";
 let selectedNodeId: string | null = null;
 let selectedDiscoveryId: string | null = null;
+let selectedDiscoveryContextId: string | null = null;
 let selectionOrigin: SelectionOrigin = null;
 let selectedDomain = "" as "" | DomainId;
 let selectedFamily = "";
@@ -360,6 +362,7 @@ let detailLevel: DetailLevel = "auto";
 let lineMode: LineMode = "taxonomy";
 let researchQuery = "";
 let lastSearchQuery = "";
+let foldingMap: Record<string, string> = {};
 let currentZoom: d3.ZoomBehavior<SVGSVGElement, unknown> | null = null;
 let currentTransform = d3.zoomIdentity;
 let resizeTimer = 0;
@@ -395,10 +398,13 @@ function compactLabel(value: string, maximum = 34): string {
 }
 
 function foldSearch(value: string): string {
-  return value
+  const lowered = value
     .normalize("NFKD")
     .replace(/\p{Diacritic}/gu, "")
-    .toLocaleLowerCase()
+    .toLowerCase();
+  return [...lowered]
+    .map((character) => foldingMap[character] ?? character)
+    .join("")
     .replace(/[^\p{Letter}\p{Number}]+/gu, "");
 }
 
@@ -1238,12 +1244,12 @@ function renderResearch(): void {
   header.append(headerRow);
   table.append(header);
   const body = element("tbody");
+  const matchedSourceIds = researchQuery
+    ? new Set(discoveryMatches(researchQuery).map(({ record }) => record.sourceId).filter(Boolean))
+    : null;
   const sources = research.corpusSources
     .filter((source) => !selectedSource || source.sourceId === selectedSource)
-    .filter((source) => {
-      if (!researchQuery) return true;
-      return [source.title, source.medium, source.region, source.priorityTier].join(" ").toLocaleLowerCase().includes(researchQuery);
-    })
+    .filter((source) => !matchedSourceIds || matchedSourceIds.has(source.sourceId))
     .sort((left, right) => d3.ascending(left.title, right.title));
   for (const source of sources) {
     const audit = auditBySource.get(source.sourceId);
@@ -1264,8 +1270,17 @@ function renderResearch(): void {
     body.append(row);
   }
   table.append(body);
-  tableWrap.append(table);
-  board.append(tableWrap);
+  if (researchQuery && !sources.length) {
+    const empty = element("div", "search-empty research-empty");
+    empty.append(
+      element("strong", "", `No research source is connected to “${researchQuery}”.`),
+      element("span", "", "The corpus search above may still show a concept result; try a source, character, work, continuity, or source-native term."),
+    );
+    board.append(empty);
+  } else {
+    tableWrap.append(table);
+    board.append(tableWrap);
+  }
   visibleCount.textContent = `${sources.length} source passes`;
 }
 
@@ -1278,6 +1293,7 @@ function detailSection(title: string): HTMLElement {
 function closeDetail(): void {
   selectedNodeId = null;
   selectedDiscoveryId = null;
+  selectedDiscoveryContextId = null;
   selectionOrigin = null;
   detailPanel?.classList.remove("is-open");
   renderDetail();
@@ -1312,8 +1328,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     const concept = element("button", "primary-button", "Open related concept") as HTMLButtonElement;
     concept.type = "button";
     concept.addEventListener("click", () => {
-      selectedDiscoveryId = null;
-      selectNode(selectedNodeId, true, "search");
+      selectNode(selectedNodeId, true, "search", selectedDiscoveryId);
     });
     actions.append(concept);
     const relations = element("button", "secondary-button", "Show relations") as HTMLButtonElement;
@@ -1358,8 +1373,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     button.type = "button";
     button.append(element("span", "relation-star", "✦"), element("strong", "", node.label), element("small", "", `${node.domainLabel} · ${node.sourceCount} sources`));
     button.addEventListener("click", () => {
-      selectedDiscoveryId = null;
-      selectNode(node.id, true, "search");
+      selectNode(node.id, true, "search", selectedDiscoveryId);
     });
     relatedList.append(button);
   }
@@ -1387,12 +1401,16 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   const characters = record.characterIds.map((id) => characterById.get(id)).filter((character): character is ResearchCharacter => Boolean(character));
   for (const character of characters.slice(0, 8)) {
     const card = element("article", "citation-card");
+    const citation = character.citations[0];
     card.append(element("strong", "", character.canonical_name));
     card.append(element("span", "", `${character.source_title} · ${character.continuity}`));
+    if (character.work_or_witness) card.append(element("small", "", `Work / witness: ${character.work_or_witness}`));
+    if (character.evidence_level) card.append(element("small", "", `Evidence: ${character.evidence_level}`));
+    if (citation?.locator) card.append(element("small", "", `Citation: ${citation.locator}`));
     card.append(element("small", "", character.description));
-    if (character.citations[0]?.url) {
+    if (citation?.url) {
       const link = element("a", "evidence-link", "Open supporting citation") as HTMLAnchorElement;
-      link.href = character.citations[0].url;
+      link.href = citation.url;
       link.target = "_blank";
       link.rel = "noreferrer";
       card.append(link);
@@ -1578,7 +1596,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
     const button = element("button", "relation-button") as HTMLButtonElement;
     button.type = "button";
     button.append(element("span", "relation-star", "✦"), element("strong", "", neighbor.node.label), element("small", "", relationLabel(node, neighbor.node)));
-    button.addEventListener("click", () => selectNode(neighbor.node.id, false));
+    button.addEventListener("click", () => selectNode(neighbor.node.id, false, discoveryContext ? "search" : "click", discoveryContext?.id ?? null));
     relationList.append(button);
   }
   if (!neighbors.length) relationList.append(element("p", "detail-copy", "No local taxonomy or evidence affinity is recorded."));
@@ -1619,9 +1637,11 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
 
 function renderDetail(): void {
   const discoveryRecord = discoveryRecordById(selectedDiscoveryId);
+  const discoveryContext = discoveryRecordById(selectedDiscoveryContextId)
+    ?? (discoveryRecord?.kind === "concept" ? discoveryRecord : undefined);
   const node = selectedNodeId ? nodeById.get(selectedNodeId) : undefined;
   if (discoveryRecord?.kind !== "concept" && discoveryRecord) renderDiscoveryDetail(discoveryRecord);
-  else if (node) renderConceptDetail(node, discoveryRecord?.kind === "concept" ? discoveryRecord : undefined);
+  else if (node) renderConceptDetail(node, discoveryContext);
   else renderOverviewDetail();
 }
 
@@ -1643,8 +1663,14 @@ function renderFocusBanner(): void {
   focusBanner.hidden = false;
 }
 
-function selectNode(nodeId: string | null, zoom: boolean, origin: SelectionOrigin = "click"): void {
+function selectNode(
+  nodeId: string | null,
+  zoom: boolean,
+  origin: SelectionOrigin = "click",
+  discoveryContextId: string | null = null,
+): void {
   selectedDiscoveryId = null;
+  selectedDiscoveryContextId = discoveryContextId;
   selectedNodeId = nodeId;
   selectionOrigin = nodeId ? origin : null;
   renderDetail();
@@ -1745,6 +1771,7 @@ function showSearchResults(query: string): void {
       searchInput.value = record.label;
       searchResults.hidden = true;
       selectedDiscoveryId = record.id;
+      selectedDiscoveryContextId = null;
       selectedNodeId = record.conceptId ?? record.relatedConceptIds[0] ?? null;
       selectionOrigin = selectedNodeId ? "search" : null;
       viewMode = record.kind === "source" && !selectedNodeId ? "research" : "constellations";
@@ -1820,11 +1847,10 @@ function bindEvents(): void {
   searchInput.addEventListener("input", () => {
     const query = searchInput.value.trim();
     if (viewMode === "research") {
-      researchQuery = query.toLocaleLowerCase();
+      researchQuery = query;
       renderResearch();
-    } else {
-      showSearchResults(query);
     }
+    showSearchResults(query);
   });
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
@@ -1847,6 +1873,7 @@ function bindEvents(): void {
   byId<HTMLButtonElement>("reset-view").addEventListener("click", () => {
     selectedNodeId = null;
     selectedDiscoveryId = null;
+    selectedDiscoveryContextId = null;
     selectionOrigin = null;
     selectedDomain = "";
     selectedFamily = "";
@@ -1884,6 +1911,7 @@ function bindEvents(): void {
     viewMode = "constellations";
     selectedNodeId = null;
     selectedDiscoveryId = null;
+    selectedDiscoveryContextId = null;
     selectionOrigin = null;
     render();
   });
@@ -1906,6 +1934,7 @@ async function loadData(): Promise<void> {
     concepts = (await conceptResponse.json()) as ConstellationPayload;
     research = (await researchResponse.json()) as ResearchPayload;
     discovery = (await discoveryResponse.json()) as DiscoveryPayload;
+    foldingMap = discovery.meta.foldingMap ?? {};
     for (const domain of concepts.domains) domainById.set(domain.id, domain);
     for (const node of concepts.nodes) nodeById.set(node.id, node);
     taxonomyEdges.push(...concepts.edges.filter((edge) => edge.kind === "taxonomy"));

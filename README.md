@@ -26,6 +26,17 @@ the Sanskrit Mahābhārata source-term witness remain separate results. The
 `ashura` search alias is explicitly limited to that Sanskrit witness; unrelated
 source-native uses are not merged.
 
+The original discovery defect was a graph-boundary defect, not a missing graph
+node: mapped normalized concepts were searchable through the constellation
+records, while Ankka's accepted source-native `asura` evidence and the SRC-277
+Sanskrit `asura` term had no concept ID. The smallest safe counterfactual was to
+project every accepted research record into the corpus index, preserving source
+identity and leaving unmapped evidence out of the graph. The same boundary
+applies to other unmapped source-native characters and terms, including the
+Unicode-sensitive `Kreiß` record. Browser regressions compare a mapped concept
+with `asura`, scoped `ashura`, `Kreiß`, and punctuation-tolerant Ankka searches;
+they also verify that the scoped alias does not reach Rāmāyaṇa's Paraśurāma.
+
 ## Local setup
 
 ```bash
@@ -73,6 +84,14 @@ The source tree under `research/` is the authoritative research bundle. The
 compiler keeps source/continuity identity in every evidence result and derives
 cross-series connections only from shared normalized concept IDs.
 
+Before a Pages artifact is built, `npm run audit:release-import` inventories all
+tracked release inputs and scans them for credential-like filenames, private key
+markers, high-signal tokens, email addresses, accidental absolute local paths,
+and files larger than 50 MiB. Reproducible outputs and machine-local folders
+(`node_modules/`, `.venv/`, `dist/`, caches, temporary folders, and bytecode)
+are explicit exclusions. A finding fails the release workflow; it is not
+silently published or counted as accepted research.
+
 ## GitHub Pages
 
 `.github/workflows/pages.yml` builds from `main`, provisions pinned Chromium for
@@ -86,7 +105,8 @@ Pages-style build.
 - `src/main.ts` — constellation, catalogue, relation, research, discovery search, and evidence detail behavior.
 - `src/style.css` — responsive night-sky visual system, readable typography, focus states, touch layout, and reduced motion.
 - `scripts/build_discovery_index.py` — corpus-wide discovery projection and machine-checked coverage metadata.
+- `scripts/audit_release_import.py` — deterministic pre-publication inventory and sensitive-content scan.
 - `scripts/validate_character_research.py` — research bundle validation and accepted-corpus compiler.
 - `tests/smoke.mjs` — graph, relations, catalogue, research, and mobile browser contract.
-- `tests/discovery.mjs` — `asura`/`ashura`, punctuation-tolerant search, coverage, and result evidence regression contract.
+- `tests/discovery.mjs` — mapped/source-native diagnosis, `asura`/`ashura`, Unicode and punctuation-tolerant search, coverage, and result evidence regression contract.
 - `tests/static-base.mjs` — Pages asset/data base-path contract.

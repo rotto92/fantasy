@@ -107,6 +107,15 @@ if (sourceRows !== concepts.meta.counts.corpusSources) {
 const researchColumns = await page.locator(".research-table thead th").allTextContents();
 if (!researchColumns.includes("Independent review")) failures.push("research table omits independent-review tracking");
 
+await page.locator("#search").fill("Ankka");
+if (!(await page.locator(".research-table tbody tr").filter({ hasText: "Guild Wars" }).count())) {
+  failures.push("research search did not route corpus character evidence to its source pass");
+}
+if (!(await page.locator("#search-results .search-result").count())) failures.push("research search omitted the corpus discovery result");
+await page.locator("#search").fill("no-source-or-corpus-record");
+if (!(await page.locator(".research-empty").isVisible())) failures.push("research search has no zero-result recovery");
+await page.locator("#search").fill("");
+
 const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
 mobile.on("pageerror", (error) => failures.push(`mobile pageerror: ${error.message}`));
 await mobile.goto(appUrl, { waitUntil: "networkidle" });

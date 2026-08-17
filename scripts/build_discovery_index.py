@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -47,6 +48,23 @@ VARIANT_RULES = [
         "note": "Search alias for the Sanskrit witness only; it does not merge unrelated source-native uses.",
     }
 ]
+
+
+def casefold_replacements() -> dict[str, str]:
+    replacements: dict[str, str] = {}
+    for codepoint in range(sys.maxunicode + 1):
+        character = chr(codepoint)
+        normalized = "".join(
+            value for value in unicodedata.normalize("NFKD", character) if not unicodedata.combining(value)
+        )
+        lowered = normalized.lower()
+        folded = normalized.casefold()
+        if len(lowered) == 1 and lowered != folded:
+            replacements[lowered] = folded
+    return dict(sorted(replacements.items()))
+
+
+FOLDING_REPLACEMENTS = casefold_replacements()
 
 
 def fold(value: Any) -> str:
@@ -258,6 +276,7 @@ def main() -> None:
             ],
         ]
         record_id = f"dimension:{dimension}:{folded_term}:{source_id}"
+        work_values = unique([str(row["character"].get("work_or_witness", "")) for row in rows])
         records.append(
             {
                 "id": record_id,
@@ -269,7 +288,7 @@ def main() -> None:
                 "sourceTitle": first_character["source_title"],
                 "dimension": dimension,
                 "continuity": first_character["continuity"],
-                "work": first_character["work_or_witness"],
+                "work": work_values[0] if len(work_values) == 1 else "",
                 "characterIds": character_ids,
                 "characterExamples": character_names[:6],
                 "relatedConceptIds": related_ids,
@@ -424,6 +443,7 @@ def main() -> None:
                 "sources": sum(record["kind"] == "source" for record in records),
             },
             "coverage": coverage,
+            "foldingMap": FOLDING_REPLACEMENTS,
             "normalizationRules": VARIANT_RULES,
             "sourceConnections": source_connections,
         },

@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -17,6 +15,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Check out source
         uses: actions/checkout@v4
@@ -35,6 +35,8 @@ jobs:
           .venv/bin/python -m pip install --disable-pip-version-check openpyxl
       - name: Install JavaScript dependencies
         run: npm ci
+      - name: Audit imported release files
+        run: npm run audit:release-import
       - name: Install pinned Chromium for browser contracts
         run: npx --yes playwright@1.62.1 install chromium
       - name: Build the Pages bundle
@@ -56,6 +58,10 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
