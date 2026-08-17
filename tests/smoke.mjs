@@ -111,12 +111,27 @@ if (!connected) {
   if ((await page.locator("#atlas-svg .relation-prompt").count()) !== 1 || (await page.locator("#atlas-svg .relation-star").count()) !== 0) {
     failures.push("Escape left stale relation-map content after clearing the selection");
   }
+
+  await page.locator("#search").fill(connected.label);
+  await page.locator(".search-result").first().click();
+  await page.locator("#focus-relations").click();
+  await page.waitForFunction(() => document.activeElement?.getAttribute("data-node-id") !== null);
+  if (!(await page.evaluate(() => document.activeElement?.classList.contains("relation-star")))) {
+    failures.push("focus-relations left focus outside the live relation map");
+  }
+  await page.locator('[data-view="constellations"]').click();
+  await page.locator("#focus-clear").click();
+  if (!(await page.evaluate(() => document.activeElement?.id === "search"))) {
+    failures.push("focus-clear left focus inside the hidden focus banner");
+  }
 }
 
 await page.locator("#search").fill("");
 await page.locator('[data-view="catalogue"]').click();
 const familySections = await page.locator(".catalogue-family").count();
 if (familySections !== concepts.meta.counts.families) failures.push(`expected ${concepts.meta.counts.families} catalogue families, got ${familySections}`);
+await page.locator(".concept-card").first().click();
+await page.waitForFunction(() => document.activeElement?.tagName === "H2");
 
 await page.locator('[data-view="research"]').click();
 const sourceRows = await page.locator(".research-table tbody tr").count();

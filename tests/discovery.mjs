@@ -21,9 +21,17 @@ const sanskritAsuraRecord = discovery.records.find((record) => record.id === "so
 const abhimanyu = research.characters.find((character) => character.canonical_name === "Abhimanyu");
 const mappedSourceTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC002-005");
 const mappedConcept = concepts.nodes.find((node) => node.examples?.length);
+const mappedSourceTermExample = concepts.nodes.flatMap((node) => node.examples ?? []).find((example) => example.id === mappedSourceTerm?.term_id);
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
+if (mappedSourceTerm && mappedSourceTermExample) {
+  const source = research.corpusSources.find((item) => item.sourceId === mappedSourceTerm.source_id);
+  const audit = research.sources.find((item) => item.source_id === mappedSourceTerm.source_id);
+  if (mappedSourceTermExample.continuity !== source?.continuityUnit) failures.push("source-term concept evidence omitted source continuity");
+  if (mappedSourceTermExample.evidenceLevel === mappedSourceTerm.review_status) failures.push("source-term concept evidence mislabeled review status as evidence level");
+  if (mappedSourceTermExample.evidenceBasis !== audit?.evidence_basis) failures.push("source-term concept evidence omitted its evidence basis");
+}
 if (discovery.meta.coverage?.being_types?.excludedRows !== 0 || discovery.meta.coverage?.roles_and_vocations?.excludedRows !== 0) {
   failures.push("being and role coverage reports unexplained exclusions");
 }
@@ -78,6 +86,11 @@ if (!asuraText.includes("Ankka") || !asuraText.includes("Guild Wars")) {
 }
 if (!(await page.locator("#search-results .search-result small").allTextContents()).some((text) => text.includes("Matched"))) {
   failures.push("search results do not explain why the query matched");
+}
+
+await page.locator("#search").fill("GuildWars2");
+if (!(await page.locator("#search-results").innerText()).includes("Ankka")) {
+  failures.push("concatenated continuity search omitted the Ankka evidence");
 }
 
 await page.locator("#search").fill("Guild Wars 2");

@@ -19,6 +19,7 @@ interface ConstellationExample {
   summary: string;
   distinction: string;
   evidenceLevel: string;
+  evidenceBasis?: string;
   url: string;
   work?: string;
   reviewStatus?: string;
@@ -118,8 +119,21 @@ interface SourceAudit {
   completed_character_count: number;
   citations: Citation[];
   content_cautions?: string[];
+  omissions?: string[];
+  uncertainties?: string[];
+  coverage_rule?: string;
   evidence_basis?: string;
-  independent_review?: { review_types: string[] };
+  source_audit?: AuditLimits;
+  audit?: AuditLimits;
+  independent_review?: { review_types: string[]; unresolved_limits?: string[] };
+}
+
+interface AuditLimits {
+  omissions?: string[];
+  uncertainties?: string[];
+  unresolved_limits?: string[];
+  cultural_caution?: string;
+  second_pass_needed?: string;
 }
 
 interface DimensionValue {
@@ -407,19 +421,11 @@ function foldSearchToken(value: string): string {
   const lowered = value
     .normalize("NFKD")
     .replace(/\p{Diacritic}/gu, "")
-    .toLocaleLowerCase();
+    .toLowerCase();
   return [...lowered]
     .map((character) => foldingMap[character] ?? character)
     .join("")
     .replace(/[^\p{Letter}\p{Number}]+/gu, "");
-}
-
-function foldSearchTokens(value: string): string[] {
-  const normalized = value
-    .normalize("NFKD")
-    .replace(/\p{Diacritic}/gu, "")
-    .toLocaleLowerCase();
-  return normalized.split(/[^\p{Letter}\p{Number}]+/gu).map(foldSearchToken).filter(Boolean);
 }
 
 function foldSearch(value: string): string {
@@ -433,12 +439,29 @@ function motionDuration(duration: number): number {
 function auditStatusPresentation(audit: SourceAudit | undefined): { label: string; className: string; caution: string } {
   if (!audit) return { label: "missing", className: "not-started", caution: "No source audit is recorded." };
   const label = audit.completion_status.trim() || "status-not-recorded";
-  const normalized = label.toLocaleLowerCase();
+  const normalized = label.toLowerCase();
   const limited = normalized.includes("insufficient") || normalized.includes("narrow");
   const className = limited ? "in-progress" : normalized.includes("complete") || normalized.includes("pass") ? "complete" : "not-started";
-  const caution = audit.content_cautions?.join(" ") || (limited
-    ? "This audit is intentionally limited and does not establish character-level completeness."
-    : "No additional caution recorded beyond the bounded corpus scope.");
+  const nestedLimits = [audit.source_audit, audit.audit].filter((value): value is AuditLimits => Boolean(value));
+  const recordedLimits = [...new Set([
+    ...(audit.content_cautions ?? []),
+    ...(audit.omissions ?? []).map((value) => `Omission: ${value}`),
+    ...(audit.uncertainties ?? []).map((value) => `Uncertainty: ${value}`),
+    ...(audit.independent_review?.unresolved_limits ?? []).map((value) => `Review limit: ${value}`),
+    ...(audit.coverage_rule ? [`Coverage rule: ${audit.coverage_rule}`] : []),
+    ...nestedLimits.flatMap((details) => [
+      ...(details.omissions ?? []).map((value) => `Omission: ${value}`),
+      ...(details.uncertainties ?? []).map((value) => `Uncertainty: ${value}`),
+      ...(details.unresolved_limits ?? []).map((value) => `Review limit: ${value}`),
+      ...(details.cultural_caution ? [details.cultural_caution] : []),
+      ...(details.second_pass_needed ? [`Review note: ${details.second_pass_needed}`] : []),
+    ]),
+  ].filter(Boolean))];
+  const caution = recordedLimits.length
+    ? `Recorded limits: ${recordedLimits.join(" ")}`
+    : limited
+      ? "This audit is intentionally limited and does not establish character-level completeness."
+      : "No additional caution recorded beyond the bounded corpus scope.";
   return { label, className, caution };
 }
 
@@ -450,15 +473,26 @@ function discoveryRecordById(id: string | null): DiscoveryRecord | undefined {
   return id ? discovery.records.find((record) => record.id === id) : undefined;
 }
 
+function hasFoldedTokenWindow(tokens: string[], foldedQuery: string): boolean {
+  for (let start = 0; start < tokens.length; start += 1) {
+    let joined = "";
+    for (let end = start; end < tokens.length; end += 1) {
+      joined += tokens[end];
+      if (joined === foldedQuery) return true;
+      if (!foldedQuery.startsWith(joined)) break;
+    }
+  }
+  return false;
+}
+
 function matchedDiscoveryFields(record: DiscoveryRecord, query: string): string[] {
   const foldedQuery = foldSearch(query);
   if (!foldedQuery) return [];
-  const queryTokens = foldSearchTokens(query);
   return [...new Set(
     record.searchFields
       .filter((field) => field.foldedValue === foldedQuery
         || field.foldedTokens.some((token) => token === foldedQuery || token.startsWith(foldedQuery))
-        || (queryTokens.length > 1 && field.foldedTokens.some((_token, index) => field.foldedTokens.slice(index, index + queryTokens.length).join("") === foldedQuery)))
+        || hasFoldedTokenWindow(field.foldedTokens, foldedQuery))
       .map((field) => field.label),
   )];
 }
@@ -1257,7 +1291,10 @@ function renderCatalogue(): void {
     const headingCopy = element("span");
     headingCopy.append(element("strong", "", family.label), element("small", "", `${children.length} specific archetypes · ${family.sourceCount} mapped sources`));
     heading.append(headingCopy);
-    heading.addEventListener("click", () => selectNode(family.id, false));
+    heading.addEventListener("click", () => {
+      selectNode(family.id, false);
+      focusDetailHeading();
+    });
     section.append(heading);
     const grid = element("div", "concept-card-grid");
     for (const node of children) {
@@ -1268,7 +1305,10 @@ function renderCatalogue(): void {
       card.append(element("strong", "", node.label));
       card.append(element("span", "", compactLabel(node.definition || "Framework archetype", 145)));
       card.append(element("small", "", node.evidenceCount ? `${node.sourceCount} sources · ${node.evidenceCount} examples` : "Framework only · evidence mapping pending"));
-      card.addEventListener("click", () => selectNode(node.id, false));
+      card.addEventListener("click", () => {
+        selectNode(node.id, false);
+        focusDetailHeading();
+      });
       grid.append(card);
     }
     section.append(grid);
@@ -1535,8 +1575,9 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     const audit = auditBySource.get(record.sourceId);
     const corpusSource = corpusBySource.get(record.sourceId);
     const evidenceSection = detailSection("Source evidence and status");
-    evidenceSection.append(element("p", "dimension-note", `Status: ${audit?.completion_status ?? "No audit status recorded"}`));
-    evidenceSection.append(element("p", "dimension-note", `Caution: ${audit?.content_cautions?.join(" ") || "This bounded source pass is not a completeness claim beyond the accepted corpus."}`));
+    const statusPresentation = auditStatusPresentation(audit);
+    evidenceSection.append(element("p", "dimension-note", `Status: ${statusPresentation.label}`));
+    evidenceSection.append(element("p", "dimension-note", `Caution: ${statusPresentation.caution}`));
     if (audit?.evidence_basis) evidenceSection.append(element("p", "detail-copy", `Evidence basis: ${audit.evidence_basis}`));
     const citation = audit?.citations[0];
     if (citation?.locator) evidenceSection.append(element("p", "dimension-note", `Citation: ${citation.locator}`));
@@ -1756,7 +1797,9 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
       const canonStatus = example.canonStatus || character?.canon_status;
       const caution = example.caution || term?.cultural_caution || character?.comparison_cautions.join(" ");
       card.append(element("span", "", [example.sourceTitle, example.continuity, work, titleCase(example.kind)].filter(Boolean).join(" · ")));
-      if (example.evidenceLevel || citation?.locator) card.append(element("small", "", [example.evidenceLevel, citation?.locator].filter(Boolean).join(" · ")));
+      if (example.evidenceLevel || example.evidenceBasis || citation?.locator) {
+        card.append(element("small", "", [example.evidenceLevel, example.evidenceBasis && `Evidence basis: ${example.evidenceBasis}`, citation?.locator].filter(Boolean).join(" · ")));
+      }
       if (reviewStatus) card.append(element("small", "", `Review status: ${reviewStatus}`));
       if (canonStatus) card.append(element("small", "", `Canon status: ${canonStatus}`));
       if (caution) card.append(element("small", "", `Caution: ${caution}`));
@@ -2051,12 +2094,19 @@ function bindEvents(): void {
   byId<HTMLButtonElement>("fit-view").addEventListener("click", fitView);
   byId<HTMLButtonElement>("focus-relations").addEventListener("click", () => {
     if (!selectedNodeId) return;
+    const nodeId = selectedNodeId;
     viewMode = "relations";
     render();
+    requestAnimationFrame(() => {
+      const mark = [...document.querySelectorAll<SVGGElement>("#atlas-svg .relation-star")]
+        .find((candidate) => candidate.dataset.nodeId === nodeId && candidate.isConnected);
+      (mark ?? detailContent.querySelector<HTMLElement>("h2") ?? searchInput).focus();
+    });
   });
   byId<HTMLButtonElement>("focus-clear").addEventListener("click", () => {
     selectNode(null, false);
     fitView();
+    searchInput.focus();
   });
   document.querySelector<HTMLAnchorElement>(".brand")?.addEventListener("click", (event) => {
     event.preventDefault();
