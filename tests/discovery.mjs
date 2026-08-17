@@ -59,6 +59,7 @@ const dvergrExample = concepts.nodes.flatMap((node) => node.examples ?? []).find
 const mortalFamily = concepts.nodes.find((node) => node.label === "Mortal and Natural Peoples");
 const egyptianTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC013-001");
 const boundaryRecord = research.researchBoundaries?.find((record) => record.term_id === "STM-SRC033-001");
+const semanticRoleTermIds = ["STM-SRC192-003", "STM-SRC218-002"];
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
@@ -116,6 +117,15 @@ if (!egyptianTerm?.witness_identity.includes("Papyrus of Ani") || !egyptianTerm.
 }
 if (!boundaryRecord || boundaryRecord.record_kind !== "research-boundary" || research.sourceTerms.some((term) => term.term_id === boundaryRecord.term_id) || discovery.records.some((record) => record.id === `source-term:${boundaryRecord.term_id}`)) {
   failures.push("research coverage boundaries leaked into semantic source-term discovery");
+}
+if (!research.sourceTerms.every((term) => term.record_kind === "source-term") || !research.researchBoundaries?.every((record) => record.record_kind === "research-boundary")) {
+  failures.push("compiled source-term records do not preserve their validated record kind");
+}
+for (const termId of semanticRoleTermIds) {
+  if (!research.sourceTerms.some((term) => term.term_id === termId && term.record_kind === "source-term")
+    || !discovery.records.some((record) => record.id === `source-term:${termId}` && record.dimension === "roles_and_vocations")) {
+    failures.push(`semantic role evidence ${termId} was misclassified as a research boundary`);
+  }
 }
 if (research.sourceTerms.some((term) => term.term_id === "STM-SRC002-013") || discovery.records.some((record) => record.id === "source-term:STM-SRC002-013") || !research.meta.reviewCoverage.quarantinedRecordIds.includes("STM-SRC002-013")) {
   failures.push("unsupported draugr evidence was not quarantined from public discovery");
@@ -278,6 +288,49 @@ if (!(await stagedPage.locator("#status-summary").textContent())?.includes("clas
 releaseDiscovery();
 await stagedPage.waitForFunction(() => !document.querySelector("#search")?.disabled);
 await stagedPage.close();
+
+const initialRecoveryPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
+let initialDataAttempts = 0;
+await initialRecoveryPage.route("**/data/constellations.json", async (route) => {
+  initialDataAttempts += 1;
+  if (initialDataAttempts === 1) await route.fulfill({ status: 503, contentType: "application/json", body: "{}" });
+  else await route.continue();
+});
+await initialRecoveryPage.goto(appUrl, { waitUntil: "domcontentloaded" });
+const initialRetry = initialRecoveryPage.locator("#loading button", { hasText: "Retry atlas data" });
+await initialRetry.waitFor();
+await initialRecoveryPage.waitForFunction(() => document.activeElement?.textContent === "Retry atlas data");
+if (await initialRecoveryPage.locator("#search").getAttribute("aria-busy") !== null
+  || !(await initialRetry.evaluate((node) => node === document.activeElement))) {
+  failures.push("initial data failure did not expose a focused, settled retry control");
+}
+await initialRetry.click();
+await initialRecoveryPage.waitForFunction(() => !document.querySelector("#search")?.disabled);
+await initialRecoveryPage.locator("#loading").waitFor({ state: "detached" });
+if (initialDataAttempts !== 2) failures.push(`initial data retry made ${initialDataAttempts} constellation requests`);
+await initialRecoveryPage.close();
+
+const discoveryRecoveryPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
+let discoveryAttempts = 0;
+await discoveryRecoveryPage.route("**/data/discovery.json", async (route) => {
+  discoveryAttempts += 1;
+  if (discoveryAttempts === 1) await route.fulfill({ status: 503, contentType: "application/json", body: "{}" });
+  else await route.continue();
+});
+await discoveryRecoveryPage.goto(appUrl, { waitUntil: "domcontentloaded" });
+const discoveryRetry = discoveryRecoveryPage.locator("#loading button", { hasText: "Retry discovery" });
+await discoveryRetry.waitFor();
+await discoveryRecoveryPage.waitForFunction(() => document.activeElement?.textContent === "Retry discovery");
+if (!(await discoveryRecoveryPage.locator("#status-summary").textContent())?.includes("class/race/entity stars")
+  || await discoveryRecoveryPage.locator("#search").getAttribute("aria-busy") !== null
+  || !(await discoveryRetry.evaluate((node) => node === document.activeElement))) {
+  failures.push("discovery failure did not preserve the atlas with a focused, settled retry control");
+}
+await discoveryRetry.click();
+await discoveryRecoveryPage.waitForFunction(() => !document.querySelector("#search")?.disabled);
+await discoveryRecoveryPage.locator("#loading").waitFor({ state: "detached" });
+if (discoveryAttempts !== 2) failures.push(`discovery retry made ${discoveryAttempts} discovery requests`);
+await discoveryRecoveryPage.close();
 
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 await page.goto(appUrl, { waitUntil: "networkidle" });

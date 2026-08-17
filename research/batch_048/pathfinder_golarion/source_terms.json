@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC098-001",
+    "record_kind": "source-term",
     "source_id": "SRC-098",
     "work_or_witness": "We Should Travel By Map! · Official post, closing paragraph",
     "canonical_term": "Golarion",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC098-002",
+    "record_kind": "source-term",
     "source_id": "SRC-098",
     "work_or_witness": "Pathfinder Lost Omens: World Guide · Official product page, ‘Claim Your Destiny’",
     "canonical_term": "Age of Lost Omens",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC098-003",
+    "record_kind": "source-term",
     "source_id": "SRC-098",
     "work_or_witness": "Tales of Lost Omens · Official post, opening paragraphs",
     "canonical_term": "Inner Sea region",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC098-004",
+    "record_kind": "source-term",
     "source_id": "SRC-098",
     "work_or_witness": "We Should Travel By Map! · Official post, ‘Our first stop is at Absalom’ paragraph",
     "canonical_term": "Absalom",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC098-005",
+    "record_kind": "source-term",
     "source_id": "SRC-098",
     "work_or_witness": "We Should Travel By Map! · Official post, Absalom paragraph",
     "canonical_term": "Pathfinder Society",
@@ -126,6 +131,7 @@
   },
   {
     "term_id": "STM-SRC098-006",
+    "record_kind": "source-term",
     "source_id": "SRC-098",
     "work_or_witness": "We Should Travel By Map! · Official post, Absalom paragraph on Pathfinder tools",
     "canonical_term": "wayfinder",
@@ -151,6 +157,7 @@
   },
   {
     "term_id": "STM-SRC098-007",
+    "record_kind": "source-term",
     "source_id": "SRC-098",
     "work_or_witness": "We Should Travel By Map! · Official post, closing paragraph",
     "canonical_term": "backgrounds and archetypes",

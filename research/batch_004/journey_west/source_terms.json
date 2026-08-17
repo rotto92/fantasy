@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC016-001",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–5.",
     "canonical_term": "xian",
@@ -28,6 +29,7 @@
   },
   {
     "term_id": "STM-SRC016-002",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–7.",
     "canonical_term": "shenxian",
@@ -56,6 +58,7 @@
   },
   {
     "term_id": "STM-SRC016-003",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 16–17; 27; 40–42.",
     "canonical_term": "yaoguai",
@@ -83,6 +86,7 @@
   },
   {
     "term_id": "STM-SRC016-004",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 7–8; 98–100.",
     "canonical_term": "fo",
@@ -110,6 +114,7 @@
   },
   {
     "term_id": "STM-SRC016-005",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8; 17; 42.",
     "canonical_term": "pusa",
@@ -137,6 +142,7 @@
   },
   {
     "term_id": "STM-SRC016-006",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 73.",
     "canonical_term": "daoshi",
@@ -162,6 +168,7 @@
   },
   {
     "term_id": "STM-SRC016-007",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–2; 16–17.",
     "canonical_term": "xiulian",
@@ -189,6 +196,7 @@
   },
   {
     "term_id": "STM-SRC016-008",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 4–7.",
     "canonical_term": "Tian ting",
@@ -217,6 +225,7 @@
   },
   {
     "term_id": "STM-SRC016-009",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 4.",
     "canonical_term": "Banmawen",
@@ -242,6 +251,7 @@
   },
   {
     "term_id": "STM-SRC016-010",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 18–19.",
     "canonical_term": "Tianpeng yuan shuai",
@@ -269,6 +279,7 @@
   },
   {
     "term_id": "STM-SRC016-011",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 2.",
     "canonical_term": "di sha qishi’er bian",
@@ -296,6 +307,7 @@
   },
   {
     "term_id": "STM-SRC016-012",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 19.",
     "canonical_term": "tian gang sanshiliu bian",
@@ -323,6 +335,7 @@
   },
   {
     "term_id": "STM-SRC016-013",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 3–4.",
     "canonical_term": "Ruyi jingu bang",
@@ -351,6 +364,7 @@
   },
   {
     "term_id": "STM-SRC016-014",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 19.",
     "canonical_term": "jiuchi dingpa",
@@ -378,6 +392,7 @@
   },
   {
     "term_id": "STM-SRC016-015",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 22.",
     "canonical_term": "jiangmo zhang",
@@ -405,6 +420,7 @@
   },
   {
     "term_id": "STM-SRC016-016",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 14.",
     "canonical_term": "jingu",
@@ -432,6 +448,7 @@
   },
   {
     "term_id": "STM-SRC016-017",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8; 12; 98–100.",
     "canonical_term": "qu jing",
@@ -459,6 +476,7 @@
   },
   {
     "term_id": "STM-SRC016-018",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–2; 19; 22.",
     "canonical_term": "shitu",
@@ -486,6 +504,7 @@
   },
   {
     "term_id": "STM-SRC016-019",
+    "record_kind": "source-term",
     "source_id": "SRC-016",
     "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15.",
     "canonical_term": "gongcao",

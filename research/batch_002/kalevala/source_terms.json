@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC006-001",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 3, lines 1–550",
     "canonical_term": "runo",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC006-002",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 3, lines 1–550",
     "canonical_term": "laulu",
@@ -54,6 +56,7 @@
   },
   {
     "term_id": "STM-SRC006-003",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 17, lines 1–650",
     "canonical_term": "sana",
@@ -82,6 +85,7 @@
   },
   {
     "term_id": "STM-SRC006-004",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 9, lines 1–250",
     "canonical_term": "tietäjä",
@@ -109,6 +113,7 @@
   },
   {
     "term_id": "STM-SRC006-005",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 10, lines 1–422",
     "canonical_term": "seppä",
@@ -137,6 +142,7 @@
   },
   {
     "term_id": "STM-SRC006-006",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 10, lines 1–422",
     "canonical_term": "Sampo",
@@ -164,6 +170,7 @@
   },
   {
     "term_id": "STM-SRC006-007",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 40, lines 1–500",
     "canonical_term": "kantele",
@@ -189,6 +196,7 @@
   },
   {
     "term_id": "STM-SRC006-008",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 31, lines 1–200",
     "canonical_term": "suku",
@@ -214,6 +222,7 @@
   },
   {
     "term_id": "STM-SRC006-009",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 10, lines 1–422",
     "canonical_term": "Pohjola",
@@ -239,6 +248,7 @@
   },
   {
     "term_id": "STM-SRC006-010",
+    "record_kind": "source-term",
     "source_id": "SRC-006",
     "work_or_witness": "Kalevala · Runo 16, lines 1–500",
     "canonical_term": "Tuonela",

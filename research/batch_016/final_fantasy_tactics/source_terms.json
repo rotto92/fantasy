@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC130-001",
+    "record_kind": "source-term",
     "source_id": "SRC-130",
     "work_or_witness": "Final Fantasy Tactics · Story description",
     "canonical_term": "獵子戦争",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC130-002",
+    "record_kind": "source-term",
     "source_id": "SRC-130",
     "work_or_witness": "Final Fantasy Tactics · Edition introduction (new movies and new jobs); Final Fantasy Tactics · Book description (new-job added elements)",
     "canonical_term": "ジョブ",
@@ -58,6 +60,7 @@
   },
   {
     "term_id": "STM-SRC130-003",
+    "record_kind": "source-term",
     "source_id": "SRC-130",
     "work_or_witness": "Final Fantasy Tactics · Story description (国家イヴァリース)",
     "canonical_term": "イヴァリース",

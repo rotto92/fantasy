@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC281-001",
+    "record_kind": "source-term",
     "source_id": "SRC-281",
     "work_or_witness": "Age of Mythology: Retold Available Now! · Which Pantheon Should You Choose?, paragraph 1",
     "canonical_term": "pantheon",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC281-002",
+    "record_kind": "source-term",
     "source_id": "SRC-281",
     "work_or_witness": "Age of Mythology: Retold Available Now! · What's New for Retold?, paragraph 1; Age of Mythology: Retold – Update 19.14612 · Major/Minor Gods sections, including Communal Hearth, Spy, and Blood Pact entries",
     "canonical_term": "God Power",
@@ -58,6 +60,7 @@
   },
   {
     "term_id": "STM-SRC281-003",
+    "record_kind": "source-term",
     "source_id": "SRC-281",
     "work_or_witness": "Age of Mythology: Retold Available Now! · What's New for Retold?, paragraph 1; Age of Mythology: Retold – Update 19.14612 · Major/Minor Gods and technology sections, e.g. Guiding Flame and Blood Pact",
     "canonical_term": "Favor",
@@ -90,6 +93,7 @@
   },
   {
     "term_id": "STM-SRC281-004",
+    "record_kind": "source-term",
     "source_id": "SRC-281",
     "work_or_witness": "Age of Mythology: Retold Available Now! · What's New for Retold?, paragraph 1",
     "canonical_term": "Wonder Age",
@@ -115,6 +119,7 @@
   },
   {
     "term_id": "STM-SRC281-005",
+    "record_kind": "source-term",
     "source_id": "SRC-281",
     "work_or_witness": "Age of Mythology: Retold Available Now! · What's New for Retold?, paragraph 1; Age of Mythology: Retold – Update 19.14612 · Myth Units sections, including Minotaur, Nemean Lion, Hydra, and Qinglong entries",
     "canonical_term": "Myth Unit",
@@ -147,6 +152,7 @@
   },
   {
     "term_id": "STM-SRC281-006",
+    "record_kind": "source-term",
     "source_id": "SRC-281",
     "work_or_witness": "Age of Mythology: Retold Available Now! · What's New for Retold?, paragraph 1",
     "canonical_term": "Hirdman",
@@ -172,6 +178,7 @@
   },
   {
     "term_id": "STM-SRC281-007",
+    "record_kind": "source-term",
     "source_id": "SRC-281",
     "work_or_witness": "Age of Mythology: Retold Available Now! · What's New for Retold?, paragraph 1; Age of Mythology: Retold – Update 19.14612 · Norse Hero Units, Godi entry",
     "canonical_term": "Godi",

@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC180-001",
+    "record_kind": "source-term",
     "source_id": "SRC-180",
     "work_or_witness": "TRIANGLE STRATEGY · About this item",
     "canonical_term": "original Nintendo Switch US-English release",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC180-002",
+    "record_kind": "source-term",
     "source_id": "SRC-180",
     "work_or_witness": "TRIANGLE STRATEGY official character and story portal · Story",
     "canonical_term": "Norzelia and the three nations",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC180-003",
+    "record_kind": "source-term",
     "source_id": "SRC-180",
     "work_or_witness": "TRIANGLE STRATEGY · Product description",
     "canonical_term": "Utility, Morality, Liberty, and the Scales of Conviction",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC180-004",
+    "record_kind": "source-term",
     "source_id": "SRC-180",
     "work_or_witness": "Challenge convictions in the TRIANGLE STRATEGY game, available now · Challenging choices; TRIANGLE STRATEGY · Bolster your convictions and discover multiple paths through the story",
     "canonical_term": "branching allies and route outcomes",
@@ -108,6 +112,7 @@
   },
   {
     "term_id": "STM-SRC180-005",
+    "record_kind": "source-term",
     "source_id": "SRC-180",
     "work_or_witness": "TRIANGLE STRATEGY · Control multi-tiered terrain to strategically secure victory",
     "canonical_term": "multi-tier terrain and elemental combat",
@@ -133,6 +138,7 @@
   },
   {
     "term_id": "STM-SRC180-006",
+    "record_kind": "research-boundary",
     "source_id": "SRC-180",
     "work_or_witness": "Challenge convictions in the TRIANGLE STRATEGY game, available now · Free demo available",
     "canonical_term": "Prologue Demo boundary",
@@ -158,6 +164,7 @@
   },
   {
     "term_id": "STM-SRC180-007",
+    "record_kind": "research-boundary",
     "source_id": "SRC-180",
     "work_or_witness": "A tactical RPG that will challenge your convictions! TRIANGLE STRATEGY is out on Steam · Steam release announcement, 13 October 2022",
     "canonical_term": "later Steam and Digital Deluxe boundary",

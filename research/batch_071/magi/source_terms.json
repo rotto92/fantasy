@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC201-001",
+    "record_kind": "source-term",
     "source_id": "SRC-201",
     "work_or_witness": "Magi: The Labyrinth of Magic · Volume 1 synopsis, line 51",
     "canonical_term": "djinn",
@@ -18,6 +19,7 @@
   },
   {
     "term_id": "STM-SRC201-002",
+    "record_kind": "source-term",
     "source_id": "SRC-201",
     "work_or_witness": "Magi: The Labyrinth of Magic · official series description, line 31",
     "canonical_term": "Dungeons",
@@ -35,6 +37,7 @@
   },
   {
     "term_id": "STM-SRC201-003",
+    "record_kind": "source-term",
     "source_id": "SRC-201",
     "work_or_witness": "Magi: The Labyrinth of Magic · Volume 1 synopsis, line 51",
     "canonical_term": "endless dunes",
@@ -52,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC201-004",
+    "record_kind": "source-term",
     "source_id": "SRC-201",
     "work_or_witness": "Magi: The Labyrinth of Magic · official Magi series description, lines 25-31",
     "canonical_term": "One Thousand and One Nights inspiration",
@@ -69,6 +73,7 @@
   },
   {
     "term_id": "STM-SRC201-005",
+    "record_kind": "source-term",
     "source_id": "SRC-201",
     "work_or_witness": "Magi: The Labyrinth of Magic · Volume 1 bibliographic metadata, lines 22-69",
     "canonical_term": "VIZ English Volume 1",

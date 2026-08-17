@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC255-001",
+    "record_kind": "research-boundary",
     "source_id": "SRC-255",
     "work_or_witness": "Dragonheart · Details",
     "canonical_term":"Dragonheart 1996 feature-film witness","original_language":"English official film metadata","original_script":"","transliteration":"","literal_gloss":"","dimension":"game_mechanics","archetype_ids":[],"mapping_relation":"none","definition":"Selected witness is Rob Cohen's 1996 Dragonheart feature film, as identified by Universal and AFI.","cultural_caution":"This film-continuity label excludes sequels, prequels, novelizations, games, and derivative works as independent evidence.","citations":[
@@ -14,6 +15,7 @@
   },
   {
     "term_id": "STM-SRC255-002",
+    "record_kind": "source-term",
     "source_id": "SRC-255",
     "work_or_witness": "Dragonheart · Synopsis; Dragonheart · About",
     "canonical_term":"knight and dragon slayer","identity_forms":["knight"],"original_language":"English official synopsis terms","original_script":"","transliteration":"","literal_gloss":"","dimension":"roles_and_vocations","archetype_ids":[],"mapping_relation":"none","definition":"Universal's premise concerns a knight and a dragon; the authorized synopsis further frames Bowen as a once-chivalrous knight who becomes a for-profit dragon slayer.","cultural_caution":"These are fictional role descriptors, not real historical chivalry, occupation, or a generalized violence classification.","citations":[
@@ -27,6 +29,7 @@
   },
   {
     "term_id": "STM-SRC255-003",
+    "record_kind": "source-term",
     "source_id": "SRC-255",
     "work_or_witness": "Dragonheart · Synopsis; Dragonheart · About",
     "canonical_term":"dragon","original_language":"English official synopsis term","original_script":"","transliteration":"","literal_gloss":"","dimension":"being_types","archetype_ids":[],"mapping_relation":"none","definition":"Dragon is the nonhuman fictional being type used in the selected film descriptions; Draco is specifically called the last dragon.","cultural_caution":"This is a fictional source descriptor only, not a real biological, cultural, spiritual, or species classification.","citations":[
@@ -40,6 +43,7 @@
   },
   {
     "term_id": "STM-SRC255-004",
+    "record_kind": "source-term",
     "source_id": "SRC-255",
     "work_or_witness": "Dragonheart · About",
     "canonical_term":"staged dragon slayings","original_language":"English authorized synopsis term","original_script":"","transliteration":"","literal_gloss":"","dimension":"narrative_archetypes","archetype_ids":[],"mapping_relation":"none","definition":"Bowen and Draco's arrangement is described as acting out dragon slayings, rather than an independently evidenced account of literal killings in this pass.","cultural_caution":"This term records a fictional plot arrangement without inferring detailed violence, death, or a real-world analogue.","citations":[
@@ -50,6 +54,7 @@
   },
   {
     "term_id": "STM-SRC255-005",
+    "record_kind": "research-boundary",
     "source_id": "SRC-255",
     "work_or_witness": "Dragonheart · Synopsis and Details; Dragonheart · About",
     "canonical_term":"shared-heart, soul, life-and-death, youth, and injury evidence boundary","original_language":"Research boundary","original_script":"","transliteration":"","literal_gloss":"","dimension":"metaphysical_laws_and_rituals","archetype_ids":[],"mapping_relation":"none","definition":"The selected official and authorized descriptions do not establish a shared-heart or soul bond, its mechanism, spiritual beliefs, life-and-death rules, a youth/age timeline, or direct bodily-injury detail. This is an evidence boundary, not a claim that such material is absent from the film.","cultural_caution":"This boundary neither minimizes fictional harms nor supplies spiritual, medical, anatomical, age, or real-world analogies unsupported by the selected descriptions.","citations":[
@@ -63,6 +68,7 @@
   },
   {
     "term_id": "STM-SRC255-006",
+    "record_kind": "source-term",
     "source_id": "SRC-255",
     "work_or_witness": "Dragonheart · Details and Collections",
     "canonical_term":"franchise-continuity exclusion","original_language":"Research boundary","original_script":"","transliteration":"","literal_gloss":"","dimension":"game_mechanics","archetype_ids":[],"mapping_relation":"none","definition":"No sequel, prequel, novelization, game, or broader-franchise lore is merged into this source pass, even where a distributor presents related editions or collections.","cultural_caution":"Collection or franchise presentation is not treated as evidence that distinct works share a single story witness or character record.","citations":[

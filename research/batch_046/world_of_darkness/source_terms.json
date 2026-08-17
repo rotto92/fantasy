@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC108-001",
+    "record_kind": "source-term",
     "source_id": "SRC-108",
     "work_or_witness": "Vampire: The Masquerade 5th Edition Roleplaying Game Core Rulebook · Description: world of the Kindred up until tonight",
     "canonical_term": "Kindred",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC108-002",
+    "record_kind": "source-term",
     "source_id": "SRC-108",
     "work_or_witness": "Vampire: The Masquerade, 5th edition Core Book · Description: Hunger and the innovative Hunger cycle",
     "canonical_term": "Hunger",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC108-003",
+    "record_kind": "source-term",
     "source_id": "SRC-108",
     "work_or_witness": "Vampire: The Masquerade 5th Edition Roleplaying Game Core Rulebook · Description: survival, supremacy, and fading humanity",
     "canonical_term": "Humanity",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC108-004",
+    "record_kind": "source-term",
     "source_id": "SRC-108",
     "work_or_witness": "Vampire: The Masquerade, 5th edition Core Book · Description: system-supported character coteries",
     "canonical_term": "coteries",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC108-005",
+    "record_kind": "source-term",
     "source_id": "SRC-108",
     "work_or_witness": "Vampire: The Masquerade, 5th edition Core Book · Description: Loresheets and The Memoriam",
     "canonical_term": "Loresheets and The Memoriam",

@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC127-001",
+    "record_kind": "source-term",
     "source_id": "SRC-127",
     "work_or_witness": "Tactics Ogre: Wheel of Fortune product detail · Product description, opening paragraph",
     "canonical_term": "マルチストーリー＆マルチエンディング (multi-story & multi-ending)",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC127-002",
+    "record_kind": "source-term",
     "source_id": "SRC-127",
     "work_or_witness": "Tactics Ogre: Wheel of Fortune product detail · Product description, opening paragraph; Tactics Ogre: Reborn—Battle Design · Unit-related: unit-level management",
     "canonical_term": "クラス (class)",
@@ -58,6 +60,7 @@
   },
   {
     "term_id": "STM-SRC127-003",
+    "record_kind": "source-term",
     "source_id": "SRC-127",
     "work_or_witness": "Tactics Ogre: Wheel of Fortune product detail · Product description, opening paragraph",
     "canonical_term": "運命の輪 (Wheel of Fortune)",
@@ -83,6 +86,7 @@
   },
   {
     "term_id": "STM-SRC127-004",
+    "record_kind": "source-term",
     "source_id": "SRC-127",
     "work_or_witness": "PSP software Tactics Ogre: Wheel of Fortune—release-date announcement · Original Tarot Cards, paragraphs 1–2",
     "canonical_term": "大アルカナ (major arcana)",
@@ -108,6 +112,7 @@
   },
   {
     "term_id": "STM-SRC127-005",
+    "record_kind": "source-term",
     "source_id": "SRC-127",
     "work_or_witness": "Tactics Ogre: Reborn—Battle Design · Wheel of Fortune-related: Wheel of Fortune C.H.A.R.I.O.T.",
     "canonical_term": "運命の輪 C.H.A.R.I.O.T. (Wheel of Fortune C.H.A.R.I.O.T.)",

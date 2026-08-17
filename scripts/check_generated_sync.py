@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 GENERATED_PATHS = (
     "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
     "fantasy_high_fantasy_archetype_atlas_v4.xlsx",
-    "public/data/atlas.json",
+    "generated/atlas.json",
     "public/data/characters.json",
     "public/data/constellations.json",
     "public/data/discovery.json",

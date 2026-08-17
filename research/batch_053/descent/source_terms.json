@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC120-001",
+    "record_kind": "source-term",
     "source_id": "SRC-120",
     "work_or_witness": "Road to Legend · Into the Dungeon",
     "canonical_term": "heroes and the overlord",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC120-002",
+    "record_kind": "source-term",
     "source_id": "SRC-120",
     "work_or_witness": "Road to Legend · Product description, lines 69–70",
     "canonical_term": "linked campaign quests",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC120-003",
+    "record_kind": "source-term",
     "source_id": "SRC-120",
     "work_or_witness": "Road to Legend introduction and product description",
     "canonical_term": "Terrinoth",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC120-004",
+    "record_kind": "source-term",
     "source_id": "SRC-120",
     "work_or_witness": "Road to Legend · Into the Dungeon; Grow Your Collection; Runes, Heroes, and Legends · 2012 – Descent: Journeys in the Dark Second Edition",
     "canonical_term": "Road to Legend cooperative mode",
@@ -108,6 +112,7 @@
   },
   {
     "term_id": "STM-SRC120-005",
+    "record_kind": "source-term",
     "source_id": "SRC-120",
     "work_or_witness": "Descent: Journeys in the Dark Second Edition Errata and FAQ · Title page: Errata and FAQ Version 1.5, updated 2/9/2015",
     "canonical_term": "Second Edition Errata and FAQ v1.5",

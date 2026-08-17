@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC189-001",
+    "record_kind": "research-boundary",
     "source_id": "SRC-189",
     "work_or_witness": "Darkest Dungeon · Product header: Red Hook Studios developer/publisher and 19 Jan 2016 release date",
     "canonical_term": "Darkest Dungeon original base-game witness",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC189-002",
+    "record_kind": "source-term",
     "source_id": "SRC-189",
     "work_or_witness": "Darkest Dungeon · Product overview",
     "canonical_term": "psychological-stress gothic-horror expedition",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC189-003",
+    "record_kind": "source-term",
     "source_id": "SRC-189",
     "work_or_witness": "Darkest Dungeon · Affliction System",
     "canonical_term": "Affliction System",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC189-004",
+    "record_kind": "research-boundary",
     "source_id": "SRC-189",
     "work_or_witness": "Darkest Dungeon · About This Game: hero classes; permanent death; procedural dungeons; Darkest Dungeon · Product overview",
     "canonical_term": "hero-class and procedural-roster boundary",
@@ -108,6 +112,7 @@
   },
   {
     "term_id": "STM-SRC189-005",
+    "record_kind": "source-term",
     "source_id": "SRC-189",
     "work_or_witness": "Darkest Dungeon · About This Game: town recovery and camp feature list",
     "canonical_term": "town recovery and camp preparation",
@@ -133,6 +138,7 @@
   },
   {
     "term_id": "STM-SRC189-006",
+    "record_kind": "research-boundary",
     "source_id": "SRC-189",
     "work_or_witness": "Darkest Dungeon · Reclaim Your Ancestor's Estate; The Crimson Court section; Darkest Dungeon · About This Game: narration system",
     "canonical_term": "Ancestor's estate and narration framing boundary",
@@ -165,6 +171,7 @@
   },
   {
     "term_id": "STM-SRC189-007",
+    "record_kind": "research-boundary",
     "source_id": "SRC-189",
     "work_or_witness": "Darkest Dungeon · The Crimson Court and The Fire's Edge sections; Darkest Dungeon · Bundles and downloadable-content sections",
     "canonical_term": "DLC, sequel, and post-release boundary",

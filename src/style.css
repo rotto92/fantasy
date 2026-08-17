@@ -385,6 +385,8 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   background: #070c16;
   font-size: 11px;
 }
+.loading-state p { max-width: min(34rem, calc(100% - 32px)); margin: 0; text-align: center; line-height: 1.5; }
+.loading-state .primary-button { min-height: 44px; padding-inline: 16px; }
 .loader-star { color: var(--gold); font-size: 30px; animation: pulse 1.5s ease-in-out infinite; }
 @keyframes pulse { 50% { opacity: 0.42; transform: scale(1.22) rotate(45deg); } }
 

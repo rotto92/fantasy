@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC012-001",
+    "record_kind": "source-term",
     "source_id": "SRC-012",
     "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet I, lines 1–62 (Gilgameš and Uruk opening)",
     "canonical_term": "šarru",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC012-002",
+    "record_kind": "source-term",
     "source_id": "SRC-012",
     "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet V, lines 1–100 (approach to Ḫumbaba and Cedar Forest)",
     "canonical_term": "mēlammu",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC012-003",
+    "record_kind": "source-term",
     "source_id": "SRC-012",
     "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet XI, lines 1–34 (Gilgameš questions Uta-napišti’s exceptional condition); Epic of Gilgamesh · SOAS BAPLar, Tablet XI, lines 1–34, transcription and translation after George",
     "canonical_term": "napīštu",
@@ -83,6 +86,7 @@
   },
   {
     "term_id": "STM-SRC012-004",
+    "record_kind": "source-term",
     "source_id": "SRC-012",
     "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet X, lines 200–320 (Urshanabi and crossing toward Uta-napišti)",
     "canonical_term": "mê mūti",
@@ -108,6 +112,7 @@
   },
   {
     "term_id": "STM-SRC012-005",
+    "record_kind": "source-term",
     "source_id": "SRC-012",
     "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet V, lines 1–300 (Cedar Forest and Ḫumbaba episode)",
     "canonical_term": "qīštu",
@@ -133,6 +138,7 @@
   },
   {
     "term_id": "STM-SRC012-006",
+    "record_kind": "source-term",
     "source_id": "SRC-012",
     "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet III, lines 1–190",
     "canonical_term": "Elders of Uruk",

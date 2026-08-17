@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC122-001",
+    "record_kind": "source-term",
     "source_id": "SRC-122",
     "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Product title, Avalon Hill F6652, and product features; 2024 Holiday product guide · 2024 Holiday guide",
     "canonical_term": "Fifth Edition core game",
@@ -33,6 +34,7 @@
   },
   {
     "term_id": "STM-SRC122-002",
+    "record_kind": "source-term",
     "source_id": "SRC-122",
     "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Product info; 12 Detailed Character Figures",
     "canonical_term": "Character cards and matching figures",
@@ -58,6 +60,7 @@
   },
   {
     "term_id": "STM-SRC122-003",
+    "record_kind": "source-term",
     "source_id": "SRC-122",
     "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Product info; Find the Talisman",
     "canonical_term": "Talisman, Crown of Command, and elder dragon",
@@ -83,6 +86,7 @@
   },
   {
     "term_id": "STM-SRC122-004",
+    "record_kind": "source-term",
     "source_id": "SRC-122",
     "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Travel Through a Magical Land; 100 Illustrated Adventure Cards",
     "canonical_term": "three regions and Adventure cards",
@@ -108,6 +112,7 @@
   },
   {
     "term_id": "STM-SRC122-005",
+    "record_kind": "source-term",
     "source_id": "SRC-122",
     "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Product info component list",
     "canonical_term": "Alignment and Fate tokens",
@@ -133,6 +138,7 @@
   },
   {
     "term_id": "STM-SRC122-006",
+    "record_kind": "research-boundary",
     "source_id": "SRC-122",
     "work_or_witness": "Talisman Alliances: Fate Beckons · Product info; First-Ever Expansion of Talisman, Fifth Edition",
     "canonical_term": "Fifth Edition expansion boundary",
@@ -158,6 +164,7 @@
   },
   {
     "term_id": "STM-SRC122-007",
+    "record_kind": "research-boundary",
     "source_id": "SRC-122",
     "work_or_witness": "Talisman: Digital 5th Edition Manual, introduction",
     "canonical_term": "Talisman: Digital 5th Edition boundary",

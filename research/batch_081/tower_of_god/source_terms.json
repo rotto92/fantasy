@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC237-001",
+    "record_kind": "source-term",
     "source_id": "SRC-237",
     "work_or_witness": "Tower of God — WEBTOON Season 1 opening witness · Official Korean series synopsis",
     "canonical_term": "Tower",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC237-002",
+    "record_kind": "source-term",
     "source_id": "SRC-237",
     "work_or_witness": "Tower of God — WEBTOON Season 1 opening witness · Official Korean series synopsis",
     "canonical_term": "tests",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC237-003",
+    "record_kind": "source-term",
     "source_id": "SRC-237",
     "work_or_witness": "Tower of God — WEBTOON Season 1 opening witness · [Season 1] Ep. 1 - 1F.Headon's Floor, episode_no=2",
     "canonical_term": "Headon's Floor",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC237-004",
+    "record_kind": "source-term",
     "source_id": "SRC-237",
     "work_or_witness": "Tower of God — WEBTOON Season 1 opening witness · Official English series description/tagline",
     "canonical_term": "desire",

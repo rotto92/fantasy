@@ -2384,57 +2384,95 @@ function bindEvents(): void {
   });
 }
 
-async function loadData(): Promise<void> {
+function showLoadingState(message: string): void {
+  const star = element("span", "loader-star", "✦");
+  star.setAttribute("aria-hidden", "true");
+  loading.removeAttribute("role");
+  loading.setAttribute("aria-live", "polite");
+  loading.replaceChildren(star, element("p", "", message));
+  if (!loading.isConnected) stage.append(loading);
+}
+
+function showLoadError(message: string, retryLabel: string, retry: () => Promise<void>): void {
+  searchInput.disabled = true;
+  searchInput.removeAttribute("aria-busy");
+  const retryButton = element("button", "primary-button", retryLabel);
+  retryButton.type = "button";
+  retryButton.addEventListener("click", () => void retry());
+  loading.setAttribute("role", "alert");
+  loading.setAttribute("aria-live", "assertive");
+  loading.replaceChildren(element("p", "", message), retryButton);
+  if (!loading.isConnected) stage.append(loading);
+  requestAnimationFrame(() => retryButton.focus());
+}
+
+async function loadDiscoveryData(showProgress = false): Promise<void> {
+  searchInput.disabled = true;
+  searchInput.setAttribute("aria-busy", "true");
+  searchInput.placeholder = "Loading corpus discovery…";
+  if (showProgress) showLoadingState("Retrying corpus discovery…");
   try {
-    searchInput.disabled = true;
-    searchInput.setAttribute("aria-busy", "true");
-    const [conceptResponse, researchResponse] = await Promise.all([
-      fetch(assetUrl("data/constellations.json")),
-      fetch(assetUrl("data/characters.json")),
-    ]);
-    if (!conceptResponse.ok || !researchResponse.ok) throw new Error("Unable to load compiled atlas data");
-    concepts = (await conceptResponse.json()) as ConstellationPayload;
-    research = (await researchResponse.json()) as ResearchPayload;
-    dimensionLabels = research.dimensionLabels;
-    for (const domain of concepts.domains) domainById.set(domain.id, domain);
-    for (const node of concepts.nodes) nodeById.set(node.id, node);
-    taxonomyEdges.push(...concepts.edges.filter((edge) => edge.kind === "taxonomy"));
-    affinityEdges.push(...concepts.edges.filter((edge) => edge.kind === "affinity"));
-    for (const audit of research.sources) auditBySource.set(audit.source_id, audit);
-    for (const source of research.corpusSources) corpusBySource.set(source.sourceId, source);
-    for (const character of research.characters) characterById.set(character.character_id, character);
-    for (const term of research.sourceTerms) sourceTermById.set(term.term_id, term);
-    populateFilters();
-    bindEvents();
-    updateLegend();
-    render();
-    loading.remove();
-    searchInput.placeholder = "Loading corpus discovery…";
-    await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()));
     const discoveryResponse = await fetch(assetUrl("data/discovery.json"));
     if (!discoveryResponse.ok) throw new Error("Unable to load corpus discovery data");
-    discovery = (await discoveryResponse.json()) as DiscoveryPayload;
+    const loadedDiscovery = (await discoveryResponse.json()) as DiscoveryPayload;
     for (const [dimension, label] of Object.entries(research.dimensionLabels)) {
-      if (discovery.meta.dimensionLabels[dimension] !== label) {
+      if (loadedDiscovery.meta.dimensionLabels[dimension] !== label) {
         throw new Error(`Discovery dimension schema is out of sync for ${dimension}`);
       }
     }
+    discovery = loadedDiscovery;
     foldingMap = discovery.meta.foldingMap ?? {};
     discoveryLookup = buildDiscoveryLookup(discovery.records);
     dimensionLabels = discovery.meta.dimensionLabels;
     searchInput.disabled = false;
     searchInput.removeAttribute("aria-busy");
     searchInput.placeholder = viewMode === "research" ? "Find a source, work, or tradition…" : "Search the bounded corpus…";
+    if (loading.isConnected) loading.remove();
+  } catch (error) {
+    searchInput.placeholder = "Corpus discovery unavailable";
+    const message = error instanceof Error ? error.message : "Unable to load corpus discovery data.";
+    showLoadError(message, "Retry discovery", () => loadDiscoveryData(true));
+  }
+}
+
+async function loadData(): Promise<void> {
+  searchInput.disabled = true;
+  searchInput.setAttribute("aria-busy", "true");
+  showLoadingState("Charting constellations…");
+  let loadedConcepts: ConstellationPayload;
+  let loadedResearch: ResearchPayload;
+  try {
+    const [conceptResponse, researchResponse] = await Promise.all([
+      fetch(assetUrl("data/constellations.json")),
+      fetch(assetUrl("data/characters.json")),
+    ]);
+    if (!conceptResponse.ok || !researchResponse.ok) throw new Error("Unable to load compiled atlas data");
+    loadedConcepts = (await conceptResponse.json()) as ConstellationPayload;
+    loadedResearch = (await researchResponse.json()) as ResearchPayload;
   } catch (error) {
     const message = error instanceof Error ? error.message : "Unable to load the atlas.";
-    if (loading.isConnected) loading.replaceChildren(element("p", "", message));
-    else {
-      searchInput.disabled = true;
-      searchInput.removeAttribute("aria-busy");
-      searchInput.placeholder = "Corpus discovery unavailable";
-      statusSummary.textContent = `${statusSummary.textContent ?? "Atlas loaded"} · ${message}`;
-    }
+    showLoadError(message, "Retry atlas data", loadData);
+    return;
   }
+
+  concepts = loadedConcepts;
+  research = loadedResearch;
+  dimensionLabels = research.dimensionLabels;
+  for (const domain of concepts.domains) domainById.set(domain.id, domain);
+  for (const node of concepts.nodes) nodeById.set(node.id, node);
+  taxonomyEdges.push(...concepts.edges.filter((edge) => edge.kind === "taxonomy"));
+  affinityEdges.push(...concepts.edges.filter((edge) => edge.kind === "affinity"));
+  for (const audit of research.sources) auditBySource.set(audit.source_id, audit);
+  for (const source of research.corpusSources) corpusBySource.set(source.sourceId, source);
+  for (const character of research.characters) characterById.set(character.character_id, character);
+  for (const term of research.sourceTerms) sourceTermById.set(term.term_id, term);
+  populateFilters();
+  bindEvents();
+  updateLegend();
+  render();
+  loading.remove();
+  await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()));
+  await loadDiscoveryData();
 }
 
 void loadData();

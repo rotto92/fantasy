@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC019-001",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Kojiki · Book 1",
     "canonical_term": "kami",
@@ -28,6 +29,7 @@
   },
   {
     "term_id": "STM-SRC019-002",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Toriyama Sekien yōkai catalogues · Gazu Hyakki Yagyō title/entries",
     "canonical_term": "yōkai",
@@ -53,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC019-003",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Toriyama Sekien yōkai catalogues · catalogue context",
     "canonical_term": "oni",
@@ -78,6 +81,7 @@
   },
   {
     "term_id": "STM-SRC019-004",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Toriyama Sekien yōkai catalogues · Konjaku Gazu Zoku Hyakki, Tengu",
     "canonical_term": "tengu",
@@ -103,6 +107,7 @@
   },
   {
     "term_id": "STM-SRC019-005",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Toriyama Sekien yōkai catalogues · Konjaku Gazu Zoku Hyakki, Kitsune",
     "canonical_term": "kitsune",
@@ -128,6 +133,7 @@
   },
   {
     "term_id": "STM-SRC019-006",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Toriyama Sekien yōkai catalogues · Konjaku Hyakki Shūi, Kasa-obake",
     "canonical_term": "tsukumogami",
@@ -153,6 +159,7 @@
   },
   {
     "term_id": "STM-SRC019-007",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Nihon Shoki · Book V, sections 5–8",
     "canonical_term": "miko",
@@ -178,6 +185,7 @@
   },
   {
     "term_id": "STM-SRC019-008",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Toriyama Sekien yōkai catalogues · catalogue context",
     "canonical_term": "onmyōji",
@@ -203,6 +211,7 @@
   },
   {
     "term_id": "STM-SRC019-009",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Kojiki · Book 1, Yomi/purification",
     "canonical_term": "kegare",
@@ -231,6 +240,7 @@
   },
   {
     "term_id": "STM-SRC019-010",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Kojiki · Book 1, Yomi",
     "canonical_term": "Yomi",
@@ -258,6 +268,7 @@
   },
   {
     "term_id": "STM-SRC019-011",
+    "record_kind": "source-term",
     "source_id": "SRC-019",
     "work_or_witness": "Kojiki · Book 1",
     "canonical_term": "utsushiyo",

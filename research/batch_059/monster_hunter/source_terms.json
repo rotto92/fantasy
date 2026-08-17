@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC186-001",
+    "record_kind": "source-term",
     "source_id": "SRC-186",
     "work_or_witness": "Monster Hunter Wilds · Product heading and 2025.02.28 date marker",
     "canonical_term": "Monster Hunter Wilds North American base game",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC186-002",
+    "record_kind": "source-term",
     "source_id": "SRC-186",
     "work_or_witness": "Monster Hunter Wilds · Story",
     "canonical_term": "Forbidden Lands expedition",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC186-003",
+    "record_kind": "source-term",
     "source_id": "SRC-186",
     "work_or_witness": "Monster Hunter Wilds · A Living World",
     "canonical_term": "Fallow, Inclemency, and Plenty",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC186-004",
+    "record_kind": "source-term",
     "source_id": "SRC-186",
     "work_or_witness": "Monster Hunter Wilds · Product overview; Hunting",
     "canonical_term": "Hunter, hunting, harvesting, and crafting loop",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC186-005",
+    "record_kind": "research-boundary",
     "source_id": "SRC-186",
     "work_or_witness": "Capcom Snapshots: Monster Hunter Wilds · Capcom Snapshots: Palicoes section",
     "canonical_term": "custom Hunter and Palico boundary",
@@ -126,6 +131,7 @@
   },
   {
     "term_id": "STM-SRC186-006",
+    "record_kind": "research-boundary",
     "source_id": "SRC-186",
     "work_or_witness": "Monster Hunter Wilds · Deluxe Edition and Premium Deluxe Edition; content caveat; Capcom Snapshots: Monster Hunter Wilds",
     "canonical_term": "post-launch update and cosmetic DLC boundary",
@@ -158,6 +164,7 @@
   },
   {
     "term_id": "STM-SRC186-007",
+    "record_kind": "research-boundary",
     "source_id": "SRC-186",
     "work_or_witness": "Monster Hunter Wilds: Ascendance - Official Reveal Trailer",
     "canonical_term": "Monster Hunter Wilds: Ascendance expansion boundary",

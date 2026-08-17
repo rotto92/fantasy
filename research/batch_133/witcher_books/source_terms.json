@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC047-001",
+    "record_kind": "source-term",
     "source_id": "SRC-047",
     "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · Orbit edition page: contributors, on-sale date, publisher, ISBN-13, and ‘Translated from original Polish by Danusia Stok’",
     "canonical_term": "The Last Wish (Orbit 2022, Danusia Stok translation)",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC047-002",
+    "record_kind": "source-term",
     "source_id": "SRC-047",
     "work_or_witness": "publisher description, paragraphs beginning ‘Geralt the Witcher’ and ‘Geralt is a Witcher’; The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
     "canonical_term": "witcher",
@@ -58,6 +60,7 @@
   },
   {
     "term_id": "STM-SRC047-003",
+    "record_kind": "source-term",
     "source_id": "SRC-047",
     "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · publisher description, ‘monsters plaguing humanity’ and ‘monsters that plague the world’ wording; The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
     "canonical_term": "monster",
@@ -90,6 +93,7 @@
   },
   {
     "term_id": "STM-SRC047-004",
+    "record_kind": "source-term",
     "source_id": "SRC-047",
     "work_or_witness": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
     "canonical_term": "Wyzima",
@@ -115,6 +119,7 @@
   },
   {
     "term_id": "STM-SRC047-005",
+    "record_kind": "source-term",
     "source_id": "SRC-047",
     "work_or_witness": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
     "canonical_term": "striga",
@@ -140,6 +145,7 @@
   },
   {
     "term_id": "STM-SRC047-006",
+    "record_kind": "source-term",
     "source_id": "SRC-047",
     "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · publisher description, paragraph beginning ‘Geralt is a Witcher’",
     "canonical_term": "mysterious elixir",

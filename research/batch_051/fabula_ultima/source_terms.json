@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC117-001",
+    "record_kind": "source-term",
     "source_id": "SRC-117",
     "work_or_witness": "FABULA ULTIMA TTJRPG Core Rulebook · Core overview: Create your own setting together",
     "canonical_term": "collaborative world creation",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC117-002",
+    "record_kind": "source-term",
     "source_id": "SRC-117",
     "work_or_witness": "FABULA ULTIMA TTJRPG Core Rulebook · Core overview: Fifteen Classes to mix and match",
     "canonical_term": "Classes",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC117-003",
+    "record_kind": "source-term",
     "source_id": "SRC-117",
     "work_or_witness": "FABULA ULTIMA TTJRPG Core Rulebook · Core overview: Game Master tools and Villains",
     "canonical_term": "Villains",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC117-004",
+    "record_kind": "source-term",
     "source_id": "SRC-117",
     "work_or_witness": "FABULA ULTIMA Third-Party License Style Guide · Terminology table: Fabula Points, Ultima Points",
     "canonical_term": "Fabula Points and Ultima Points",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC117-005",
+    "record_kind": "source-term",
     "source_id": "SRC-117",
     "work_or_witness": "FABULA ULTIMA TTJRPG Core Rulebook · Core overview opening and ruleset description",
     "canonical_term": "JRPG inspiration",

@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC003-001",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 1",
     "canonical_term": "Túatha Dé Danann",
@@ -28,6 +29,7 @@
   },
   {
     "term_id": "STM-SRC003-002",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 8",
     "canonical_term": "Fomoire",
@@ -53,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC003-003",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 1",
     "canonical_term": "geis / ges",
@@ -80,6 +83,7 @@
   },
   {
     "term_id": "STM-SRC003-004",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 4",
     "canonical_term": "flaithius",
@@ -107,6 +111,7 @@
   },
   {
     "term_id": "STM-SRC003-005",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 167",
     "canonical_term": "síd",
@@ -134,6 +139,7 @@
   },
   {
     "term_id": "STM-SRC003-006",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 1",
     "canonical_term": "druídecht",
@@ -159,6 +165,7 @@
   },
   {
     "term_id": "STM-SRC003-009",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 5",
     "canonical_term": "fidchell",
@@ -184,6 +191,7 @@
   },
   {
     "term_id": "STM-SRC003-012",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 17",
     "canonical_term": "clann",
@@ -209,6 +217,7 @@
   },
   {
     "term_id": "STM-SRC003-013",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 1",
     "canonical_term": "cumhacht",
@@ -234,6 +243,7 @@
   },
   {
     "term_id": "STM-SRC003-014",
+    "record_kind": "source-term",
     "source_id": "SRC-003",
     "work_or_witness": "Irish Mythological Cycle · section 4",
     "canonical_term": "Tara / Temair",

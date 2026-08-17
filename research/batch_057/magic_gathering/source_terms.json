@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC118-001",
+    "record_kind": "source-term",
     "source_id": "SRC-118",
     "work_or_witness": "Magic: The Gathering — Wilds of Eldraine · Opening; Once Upon a Time",
     "canonical_term": "Eldraine",
@@ -18,6 +19,7 @@
   },
   {
     "term_id": "STM-SRC118-002",
+    "record_kind": "source-term",
     "source_id": "SRC-118",
     "work_or_witness": "Magic: The Gathering — Wilds of Eldraine · Once Upon a Time",
     "canonical_term": "Wicked Slumber",
@@ -35,6 +37,7 @@
   },
   {
     "term_id": "STM-SRC118-003",
+    "record_kind": "source-term",
     "source_id": "SRC-118",
     "work_or_witness": "Magic: The Gathering — Wilds of Eldraine · Sleeping Beauty (Blue-Black), Characters and Story",
     "canonical_term": "High Fae",
@@ -52,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC118-004",
+    "record_kind": "source-term",
     "source_id": "SRC-118",
     "work_or_witness": "Magic: The Gathering — Wilds of Eldraine · The Characters of Wilds of Eldraine",
     "canonical_term": "spark",
@@ -69,6 +73,7 @@
   },
   {
     "term_id": "STM-SRC118-005",
+    "record_kind": "source-term",
     "source_id": "SRC-118",
     "work_or_witness": "Magic: The Gathering — Wilds of Eldraine · Role Tokens",
     "canonical_term": "Role tokens",
@@ -86,6 +91,7 @@
   },
   {
     "term_id": "STM-SRC118-006",
+    "record_kind": "source-term",
     "source_id": "SRC-118",
     "work_or_witness": "Magic: The Gathering — Wilds of Eldraine · Bargain",
     "canonical_term": "bargain",
@@ -103,6 +109,7 @@
   },
   {
     "term_id": "STM-SRC118-007",
+    "record_kind": "source-term",
     "source_id": "SRC-118",
     "work_or_witness": "Magic: The Gathering — Wilds of Eldraine · Adventures",
     "canonical_term": "Adventure",
@@ -120,6 +127,7 @@
   },
   {
     "term_id": "STM-SRC118-008",
+    "record_kind": "source-term",
     "source_id": "SRC-118",
     "work_or_witness": "Magic: The Gathering — Wilds of Eldraine · Enchanting Tales",
     "canonical_term": "Enchanting Tales",

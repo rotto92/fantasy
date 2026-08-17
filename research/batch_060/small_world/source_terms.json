@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC125-001",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "What's in the box; About Small World",
     "canonical_term": "fantasy races",
@@ -18,6 +19,7 @@
   },
   {
     "term_id": "STM-SRC125-002",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "What's in the box; About Small World",
     "canonical_term": "Special Power badges",
@@ -35,6 +37,7 @@
   },
   {
     "term_id": "STM-SRC125-003",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "About Small World",
     "canonical_term": "race and power combination",
@@ -52,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC125-004",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "Opening description; About Small World",
     "canonical_term": "conquest and control",
@@ -69,6 +73,7 @@
   },
   {
     "term_id": "STM-SRC125-005",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "About Small World",
     "canonical_term": "regions and adjacent lands",
@@ -86,6 +91,7 @@
   },
   {
     "term_id": "STM-SRC125-006",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "About Small World",
     "canonical_term": "decline",
@@ -103,6 +109,7 @@
   },
   {
     "term_id": "STM-SRC125-007",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "Small World · What's in the box",
     "canonical_term": "Victory Coins",
@@ -120,6 +127,7 @@
   },
   {
     "term_id": "STM-SRC125-008",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "Small World · What's in the box",
     "canonical_term": "Reinforcement Die",
@@ -137,6 +145,7 @@
   },
   {
     "term_id": "STM-SRC125-009",
+    "record_kind": "source-term",
     "source_id": "SRC-125",
     "work_or_witness": "Small World · What's in the box",
     "canonical_term": "Heroes and Dragon pieces",

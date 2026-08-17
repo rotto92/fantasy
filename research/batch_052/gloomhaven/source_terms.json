@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC119-001",
+    "record_kind": "source-term",
     "source_id": "SRC-119",
     "work_or_witness": "Gloomhaven · 2017 retrospective: first-printing delivery",
     "canonical_term": "first-printing Gloomhaven",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC119-002",
+    "record_kind": "research-boundary",
     "source_id": "SRC-119",
     "work_or_witness": "So it's a new printing, not a new edition · Gloomhaven second-printing discussion",
     "canonical_term": "printing revisions and errata boundary",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC119-003",
+    "record_kind": "source-term",
     "source_id": "SRC-119",
     "work_or_witness": "What is Gloomhaven?: party of mercenaries, classes, personal quest and retirement",
     "canonical_term": "mercenary classes and player naming",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC119-004",
+    "record_kind": "source-term",
     "source_id": "SRC-119",
     "work_or_witness": "Gloomhaven repository: Envelope Contents and spoiler notes",
     "canonical_term": "sealed envelopes and spoiler shields",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC119-005",
+    "record_kind": "research-boundary",
     "source_id": "SRC-119",
     "work_or_witness": "The Big Announcements · Digital Gloomhaven announcement, 7 August 2018",
     "canonical_term": "digital true-port boundary",

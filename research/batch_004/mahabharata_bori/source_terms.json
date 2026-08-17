@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC277-001",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Vana Parva, section 313; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "dharma",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC277-002",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 95; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "varṇa",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC277-003",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "deva",
@@ -78,6 +81,7 @@
   },
   {
     "term_id": "STM-SRC277-004",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 67; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "asura",
@@ -103,6 +107,7 @@
   },
   {
     "term_id": "STM-SRC277-005",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 154; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "rākṣasa",
@@ -128,6 +133,7 @@
   },
   {
     "term_id": "STM-SRC277-007",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "vara",
@@ -155,6 +161,7 @@
   },
   {
     "term_id": "STM-SRC277-008",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 95; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "śāpa",
@@ -182,6 +189,7 @@
   },
   {
     "term_id": "STM-SRC277-009",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 102; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "vrata",
@@ -210,6 +218,7 @@
   },
   {
     "term_id": "STM-SRC277-010",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 155; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "astra",
@@ -235,6 +244,7 @@
   },
   {
     "term_id": "STM-SRC277-011",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "yajña",
@@ -262,6 +272,7 @@
   },
   {
     "term_id": "STM-SRC277-012",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Bhagavad Gītā Parva, section 23–42; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "kṣatriya",
@@ -287,6 +298,7 @@
   },
   {
     "term_id": "STM-SRC277-013",
+    "record_kind": "source-term",
     "source_id": "SRC-277",
     "work_or_witness": "The Mahabharata of Krishna-Dwaipayana Vyasa · Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
     "canonical_term": "rājasūya",

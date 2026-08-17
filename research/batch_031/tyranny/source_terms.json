@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC145-001",
+    "record_kind": "source-term",
     "source_id": "SRC-145",
     "work_or_witness": "Tyranny game page: Release Date and Platforms",
     "canonical_term": "Tyranny original base-game release",
@@ -18,6 +19,7 @@
   },
   {
     "term_id": "STM-SRC145-002",
+    "record_kind": "source-term",
     "source_id": "SRC-145",
     "work_or_witness": "Tyranny · The Story section: 'Law and Order'",
     "canonical_term": "Fatebinder",
@@ -35,6 +37,7 @@
   },
   {
     "term_id": "STM-SRC145-003",
+    "record_kind": "source-term",
     "source_id": "SRC-145",
     "work_or_witness": "Tyranny · The Story section: 'Law and Order'",
     "canonical_term": "Kyros' law",
@@ -52,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC145-004",
+    "record_kind": "source-term",
     "source_id": "SRC-145",
     "work_or_witness": "Tyranny · The Story section: 'Law and Order'",
     "canonical_term": "Archon of Justice",
@@ -69,6 +73,7 @@
   },
   {
     "term_id": "STM-SRC145-005",
+    "record_kind": "source-term",
     "source_id": "SRC-145",
     "work_or_witness": "Tyranny · Overview: 'Sometimes, Evil Wins'",
     "canonical_term": "the Tiers",
@@ -86,6 +91,7 @@
   },
   {
     "term_id": "STM-SRC145-006",
+    "record_kind": "source-term",
     "source_id": "SRC-145",
     "work_or_witness": "Tyranny · Overview: 'Sometimes, Evil Wins'",
     "canonical_term": "Kyros' armies",
@@ -103,6 +109,7 @@
   },
   {
     "term_id": "STM-SRC145-007",
+    "record_kind": "source-term",
     "source_id": "SRC-145",
     "work_or_witness": "Tyranny · The Story section: 'Bend the World to Your Will'",
     "canonical_term": "reputation with Kyros' army factions",
@@ -120,6 +127,7 @@
   },
   {
     "term_id": "STM-SRC145-008",
+    "record_kind": "source-term",
     "source_id": "SRC-145",
     "work_or_witness": "Tyranny · The Story section: 'Bend the World to Your Will'",
     "canonical_term": "world-shaping choices",

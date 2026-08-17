@@ -64,6 +64,7 @@ EVIDENCE_LEVELS = {
 SPOILER_LEVELS = {"none", "light", "moderate", "major"}
 REVIEW_STATUSES = {"researched", "needs-review", "disputed"}
 MAPPING_RELATIONS = {"exact", "close", "partial", "functional", "mechanical", "visual", "none"}
+SOURCE_TERM_RECORD_KINDS = {"source-term", "research-boundary"}
 COMPLETION_STATUSES = {
     "pass-complete",
     "narrow-metadata-pass-complete",
@@ -75,7 +76,6 @@ DISALLOWED_EVIDENCE_HOSTS = {
     "fandom.com",
     "reddit.com",
 }
-RESEARCH_BOUNDARY_TERM_PATTERN = re.compile(r"\b(?:boundary|witness)\b", re.IGNORECASE)
 WITNESS_IDENTITY_STOP_WORDS = {
     "a",
     "an",
@@ -490,7 +490,7 @@ def claim_witness_identity(record: dict[str, Any], audit: dict[str, Any]) -> str
 
 
 def is_research_boundary_record(record: dict[str, Any]) -> bool:
-    return bool(RESEARCH_BOUNDARY_TERM_PATTERN.search(str(record.get("canonical_term", ""))))
+    return record.get("record_kind") == "research-boundary"
 
 
 def claim_ids_for_character(record: dict[str, Any]) -> list[str]:
@@ -546,12 +546,20 @@ def main() -> None:
         all_relationships.extend(load_array(bundle / "relationships.json", errors))
         all_term_records.extend(load_array(bundle / "source_terms.json", errors))
 
-    all_boundaries = [
-        {**record, "record_kind": "research-boundary"}
-        for record in all_term_records
-        if is_research_boundary_record(record)
-    ]
+    for record in all_term_records:
+        if record.get("record_kind") not in SOURCE_TERM_RECORD_KINDS:
+            errors.append(
+                f"source term {record.get('term_id', '<unknown>')}: invalid record_kind {record.get('record_kind')}"
+            )
+    all_boundaries = [record for record in all_term_records if is_research_boundary_record(record)]
     all_terms = [record for record in all_term_records if not is_research_boundary_record(record)]
+    duplicate_term_record_ids = [
+        value
+        for value, count in Counter(str(record.get("term_id", "")) for record in all_term_records).items()
+        if value and count > 1
+    ]
+    if duplicate_term_record_ids:
+        errors.append(f"Duplicate source term record IDs: {', '.join(sorted(duplicate_term_record_ids))}")
 
     source_audit_ids: list[str] = []
     for record in all_sources:
@@ -769,7 +777,6 @@ def main() -> None:
                         fold_identity(term)
                     ] = term
 
-    term_ids: list[str] = []
     term_count_by_source: Counter[str] = Counter()
     term_witness_identities: dict[str, str] = {}
     for record in all_terms:
@@ -779,6 +786,7 @@ def main() -> None:
             record,
             (
                 "term_id",
+                "record_kind",
                 "source_id",
                 "canonical_term",
                 "work_or_witness",
@@ -793,7 +801,6 @@ def main() -> None:
             context,
             errors,
         )
-        term_ids.append(term_id)
         term_count_by_source[str(record.get("source_id", ""))] += 1
         if record.get("source_id") not in sources_by_id:
             errors.append(f"{context}: unknown Source_ID {record.get('source_id')}")
@@ -864,30 +871,20 @@ def main() -> None:
             errors.append(f"{context}: invalid review_status {record.get('review_status')}")
         validate_citations(record.get("citations"), context, errors, warnings)
 
-    duplicate_terms = [value for value, count in Counter(term_ids).items() if value and count > 1]
-    if duplicate_terms:
-        errors.append(f"Duplicate source term IDs: {', '.join(sorted(duplicate_terms))}")
-
-    boundary_ids: list[str] = []
     for record in all_boundaries:
         boundary_id = str(record.get("term_id", ""))
         context = f"research boundary {boundary_id or '<unknown>'}"
         require(
             record,
-            ("term_id", "source_id", "canonical_term", "definition", "citations", "review_status"),
+            ("term_id", "record_kind", "source_id", "canonical_term", "definition", "citations", "review_status"),
             context,
             errors,
         )
-        boundary_ids.append(boundary_id)
         if record.get("source_id") not in sources_by_id:
             errors.append(f"{context}: unknown Source_ID {record.get('source_id')}")
         if record.get("review_status") not in REVIEW_STATUSES:
             errors.append(f"{context}: invalid review_status {record.get('review_status')}")
         validate_citations(record.get("citations"), context, errors, warnings)
-    duplicate_boundaries = [value for value, count in Counter(boundary_ids).items() if value and count > 1]
-    if duplicate_boundaries:
-        errors.append(f"Duplicate research boundary IDs: {', '.join(sorted(duplicate_boundaries))}")
-
     for source_id, audit in audits_by_source.items():
         count = character_count_by_source[source_id]
         declared = audit.get("completed_character_count")

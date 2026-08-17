@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC200-001",
+    "record_kind": "research-boundary",
     "source_id": "SRC-200",
     "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 book metadata",
     "canonical_term": "Made in Abyss Vol. 1 Seven Seas English witness",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC200-002",
+    "record_kind": "source-term",
     "source_id": "SRC-200",
     "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 synopsis",
     "canonical_term": "the Abyss",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC200-003",
+    "record_kind": "source-term",
     "source_id": "SRC-200",
     "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 synopsis",
     "canonical_term": "Cave Raiders",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC200-004",
+    "record_kind": "source-term",
     "source_id": "SRC-200",
     "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 synopsis",
     "canonical_term": "lost relics and monstrous creatures",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC200-005",
+    "record_kind": "research-boundary",
     "source_id": "SRC-200",
     "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 synopsis",
     "canonical_term": "child protagonist and peril boundary",
@@ -126,6 +131,7 @@
   },
   {
     "term_id": "STM-SRC200-006",
+    "record_kind": "research-boundary",
     "source_id": "SRC-200",
     "work_or_witness": "Made in Abyss Anthology license announcement · Anthology license announcement; Made in Abyss: Binary Star Falling into Darkness · Story and game overview",
     "canonical_term": "anime, film, anthology, and Binary Star game boundary",

@@ -13,6 +13,15 @@ const mimeTypes = {
   ".svg": "image/svg+xml",
 };
 
+let legacyAtlasPublished = false;
+try {
+  await stat(resolve(distRoot, "data/atlas.json"));
+  legacyAtlasPublished = true;
+} catch (error) {
+  if (error?.code !== "ENOENT") throw error;
+}
+if (legacyAtlasPublished) throw new Error("Built Pages artifact publishes the legacy workbook graph");
+
 const server = createServer(async (request, response) => {
   try {
     const pathname = decodeURIComponent(new URL(request.url ?? "/", "http://127.0.0.1").pathname);

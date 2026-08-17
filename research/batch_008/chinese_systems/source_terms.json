@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC279-001",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
     "canonical_term": "神",
@@ -28,6 +29,7 @@
   },
   {
     "term_id": "STM-SRC279-002",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
     "canonical_term": "仙",
@@ -55,6 +57,7 @@
   },
   {
     "term_id": "STM-SRC279-003",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Robert Hymes, Way and Byway, ch. 2, pp. 26–46",
     "canonical_term": "天庭",
@@ -82,6 +85,7 @@
   },
   {
     "term_id": "STM-SRC279-004",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
     "canonical_term": "籙",
@@ -109,6 +113,7 @@
   },
   {
     "term_id": "STM-SRC279-005",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Shangqing Lingbao dafa, vol. 33, sections 19–25",
     "canonical_term": "符",
@@ -136,6 +141,7 @@
   },
   {
     "term_id": "STM-SRC279-006",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
     "canonical_term": "黃籙齋",
@@ -161,6 +167,7 @@
   },
   {
     "term_id": "STM-SRC279-007",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
     "canonical_term": "祖先",
@@ -188,6 +195,7 @@
   },
   {
     "term_id": "STM-SRC279-008",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Li Chaowei, Liu Yi zhuan",
     "canonical_term": "龍",
@@ -215,6 +223,7 @@
   },
   {
     "term_id": "STM-SRC279-009",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Pu Songling, Liaozhai zhiyi, “Yingning”",
     "canonical_term": "狐",
@@ -242,6 +251,7 @@
   },
   {
     "term_id": "STM-SRC279-010",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Kṣitigarbha Sutra, ch. 8, sections 1–5",
     "canonical_term": "閻羅",
@@ -269,6 +279,7 @@
   },
   {
     "term_id": "STM-SRC279-011",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Kṣitigarbha Sutra, ch. 8",
     "canonical_term": "地獄",
@@ -297,6 +308,7 @@
   },
   {
     "term_id": "STM-SRC279-012",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Taishang dongxuan lingbao shihao gongde yinyuan miaojing, section 8",
     "canonical_term": "洞天",
@@ -324,6 +336,7 @@
   },
   {
     "term_id": "STM-SRC279-013",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Yiwén lèijù 92 quotation of Shanhai jing and Guo Pu commentary on Jingwei",
     "canonical_term": "化",
@@ -349,6 +362,7 @@
   },
   {
     "term_id": "STM-SRC279-014",
+    "record_kind": "source-term",
     "source_id": "SRC-279",
     "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
     "canonical_term": "三界",

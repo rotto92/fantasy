@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC206-001",
+    "record_kind": "source-term",
     "source_id": "SRC-206",
     "work_or_witness": "One Piece · Volume 1 synopsis, line 50",
     "canonical_term": "pirate",
@@ -18,6 +19,7 @@
   },
   {
     "term_id": "STM-SRC206-002",
+    "record_kind": "source-term",
     "source_id": "SRC-206",
     "work_or_witness": "One Piece · Volume 1 synopsis, line 50",
     "canonical_term": "King of the Pirates",
@@ -35,6 +37,7 @@
   },
   {
     "term_id": "STM-SRC206-003",
+    "record_kind": "source-term",
     "source_id": "SRC-206",
     "work_or_witness": "One Piece · Volume 1 synopsis, line 50",
     "canonical_term": "Gum-Gum Devil Fruit",
@@ -52,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC206-004",
+    "record_kind": "source-term",
     "source_id": "SRC-206",
     "work_or_witness": "One Piece · Volume 1 synopsis, line 50",
     "canonical_term": "Devil Fruit",
@@ -69,6 +73,7 @@
   },
   {
     "term_id": "STM-SRC206-005",
+    "record_kind": "source-term",
     "source_id": "SRC-206",
     "work_or_witness": "One Piece · Volume 1 synopsis, line 50",
     "canonical_term": "One Piece",
@@ -86,6 +91,7 @@
   },
   {
     "term_id": "STM-SRC206-006",
+    "record_kind": "source-term",
     "source_id": "SRC-206",
     "work_or_witness": "One Piece · Volume 1 bibliographic metadata, lines 19-69",
     "canonical_term": "VIZ English Volume 1",
@@ -103,6 +109,7 @@
   },
   {
     "term_id": "STM-SRC206-007",
+    "record_kind": "source-term",
     "source_id": "SRC-206",
     "work_or_witness": "ONE PIECE 1 official bibliographic record and synopsis",
     "canonical_term": "ONE PIECE 1",

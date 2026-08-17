@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC124-001",
+    "record_kind": "source-term",
     "source_id": "SRC-124",
     "work_or_witness": "Spirit Island · Product info and Release Date",
     "canonical_term": "original Spirit Island core game",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC124-002",
+    "record_kind": "source-term",
     "source_id": "SRC-124",
     "work_or_witness": "Spirit Island · Contents; Product info; Highly Thematic",
     "canonical_term": "Spirit panels and elemental powers",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC124-003",
+    "record_kind": "source-term",
     "source_id": "SRC-124",
     "work_or_witness": "Spirit Island · Product info",
     "canonical_term": "Dahan and colonizing Invaders",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC124-004",
+    "record_kind": "source-term",
     "source_id": "SRC-124",
     "work_or_witness": "Spirit Island · Contents; Product info",
     "canonical_term": "Fear and Blight",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC124-005",
+    "record_kind": "source-term",
     "source_id": "SRC-124",
     "work_or_witness": "Spirit Island · Contents; Thrilling Adversaries; Challenging Spirits",
     "canonical_term": "Power, Presence, adversary, and scenario systems",
@@ -126,6 +131,7 @@
   },
   {
     "term_id": "STM-SRC124-006",
+    "record_kind": "research-boundary",
     "source_id": "SRC-124",
     "work_or_witness": "Spirit Island line page · Spirit Island line product list",
     "canonical_term": "expansion and standalone-product boundary",
@@ -151,6 +157,7 @@
   },
   {
     "term_id": "STM-SRC124-007",
+    "record_kind": "research-boundary",
     "source_id": "SRC-124",
     "work_or_witness": "Major Blight Card Setup Erratum, 22 July 2022",
     "canonical_term": "Blight setup erratum boundary",
@@ -176,6 +183,7 @@
   },
   {
     "term_id": "STM-SRC124-008",
+    "record_kind": "research-boundary",
     "source_id": "SRC-124",
     "work_or_witness": "How is the digital version different from the physical version?",
     "canonical_term": "Handelabra digital adaptation boundary",

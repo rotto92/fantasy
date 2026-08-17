@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC076-001",
+    "record_kind": "source-term",
     "source_id": "SRC-076",
     "work_or_witness": "スレイヤーズ １ · Official synopsis, lines 790–792",
     "canonical_term": "魔道士",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC076-002",
+    "record_kind": "source-term",
     "source_id": "SRC-076",
     "work_or_witness": "スレイヤーズ １ · Official synopsis, lines 790–792",
     "canonical_term": "剣士",

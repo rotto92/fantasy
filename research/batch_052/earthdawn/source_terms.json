@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC106-001",
+    "record_kind": "source-term",
     "source_id": "SRC-106",
     "work_or_witness": "Earthdawn Fourth Edition Core Books · Official line overview, ‘Core Rulebooks’",
     "canonical_term": "Barsaive",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC106-002",
+    "record_kind": "source-term",
     "source_id": "SRC-106",
     "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
     "canonical_term": "Namegivers",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC106-003",
+    "record_kind": "source-term",
     "source_id": "SRC-106",
     "work_or_witness": "Earthdawn Fourth Edition Core Books · Official line overview, Earthdawn Gamemaster’s Screen description",
     "canonical_term": "Disciplines",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC106-004",
+    "record_kind": "source-term",
     "source_id": "SRC-106",
     "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, Player’s Guide rules description",
     "canonical_term": "Circles",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC106-005",
+    "record_kind": "source-term",
     "source_id": "SRC-106",
     "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
     "canonical_term": "Horrors",
@@ -126,6 +131,7 @@
   },
   {
     "term_id": "STM-SRC106-006",
+    "record_kind": "source-term",
     "source_id": "SRC-106",
     "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
     "canonical_term": "Scourge",
@@ -151,6 +157,7 @@
   },
   {
     "term_id": "STM-SRC106-007",
+    "record_kind": "source-term",
     "source_id": "SRC-106",
     "work_or_witness": "What’s in a Name? · Official article, opening paragraph",
     "canonical_term": "pattern magic",
@@ -176,6 +183,7 @@
   },
   {
     "term_id": "STM-SRC106-008",
+    "record_kind": "source-term",
     "source_id": "SRC-106",
     "work_or_witness": "What’s in a Name? · Official article, opening paragraphs and thread-item note",
     "canonical_term": "thread items",

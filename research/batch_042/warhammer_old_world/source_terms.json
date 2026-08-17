@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC101-001",
+    "record_kind": "source-term",
     "source_id": "SRC-101",
     "work_or_witness": "Warhammer: The Old World Rulebook · FAQ & Designer's Notes, 7 July 2026",
     "canonical_term": "Warhammer: The Old World Rulebook 1.5",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC101-002",
+    "record_kind": "source-term",
     "source_id": "SRC-101",
     "work_or_witness": "Warhammer: The Old World FAQ and Errata: Rulebook · Document title and Rulebook FAQ/Errata entries",
     "canonical_term": "FAQ and Errata",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC101-003",
+    "record_kind": "source-term",
     "source_id": "SRC-101",
     "work_or_witness": "Old World Almanack: Your First Look at the Rules · The Turn, rules overview",
     "canonical_term": "rounds, turns, and phases",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC101-004",
+    "record_kind": "source-term",
     "source_id": "SRC-101",
     "work_or_witness": "Old World Almanack: Your First Look at the Rules · The Turn, Strategy Phase",
     "canonical_term": "Strategy Phase",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC101-005",
+    "record_kind": "source-term",
     "source_id": "SRC-101",
     "work_or_witness": "Old World Almanack: Your First Look at the Rules · Article introduction and rules overview",
     "canonical_term": "regiment-scale battle",

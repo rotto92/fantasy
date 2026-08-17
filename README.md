@@ -16,9 +16,9 @@ show the source/series, continuity, work or witness, character examples,
 normalized concept links, and citations where available.
 
 The promoted public corpus currently contains 281 bounded source passes, 1,568
-characters, 1,252 character relationships, 1,757 source-native terms, 121
+characters, 1,252 character relationships, 1,759 source-native terms, 119
 non-semantic research-boundary records, 482 normalized graph concepts, and
-7,497 discovery records. The retained research bundles contain 1,573
+7,499 discovery records. The retained research bundles contain 1,573
 characters, 1,258 relationships, and 1,881 term/boundary records; 14 disputed
 or dependent records remain quarantined, and unreviewed sensitive normalized
 mappings are withheld claim by claim without removing their source evidence.
@@ -67,8 +67,8 @@ VITE_BASE=/fantasy/ npm run build
 npm run test:static
 ```
 
-`npm run build` regenerates the Version 3 workbook, extracts the normalized
-atlas, validates all non-quarantined research bundles, compiles the concept
+`npm run build` regenerates the Version 3 workbook, extracts the internal normalized
+atlas intermediate, validates all non-quarantined research bundles, compiles the concept
 constellations, builds the corpus-wide discovery index, regenerates the Version
 4 workbook, type-checks the app, and writes the Vite bundle to `dist/`.
 `npm run generate` runs only the tracked generation chain. Generated metadata

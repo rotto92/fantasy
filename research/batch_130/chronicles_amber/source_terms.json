@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC039-001",
+    "record_kind": "research-boundary",
     "source_id": "SRC-039",
     "work_or_witness": "The Chronicles of Amber — Nine Princes in Amber (1970), Chapter 1 · Nine princes in amber; Roger Zelazny; [1st ed.], Doubleday, Garden City, N.Y., 1970",
     "canonical_term": "Nine Princes in Amber (1970) Chapter 1 witness",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC039-002",
+    "record_kind": "source-term",
     "source_id": "SRC-039",
     "work_or_witness": "The Chronicles of Amber — Nine Princes in Amber (1970), Chapter 1 · Roger Zelazny, Nine princes in amber, [1st ed.], Doubleday, 1970; Chapter 1",
     "canonical_term": "Greenwood",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC039-003",
+    "record_kind": "source-term",
     "source_id": "SRC-039",
     "work_or_witness": "The Chronicles of Amber — Nine Princes in Amber (1970), Chapter 1 · ‘Some Sort of Family Squabble,’ Roger Zelazny retrospective interview excerpt; The Chronicles of Amber — Nine Princes in Amber (1970), Chapter 1 · Roger Zelazny, Nine princes in amber, [1st ed.], Doubleday, 1970; Chapter 1",
     "canonical_term": "reported memory loss",
@@ -83,6 +86,7 @@
   },
   {
     "term_id": "STM-SRC039-004",
+    "record_kind": "source-term",
     "source_id": "SRC-039",
     "work_or_witness": "The Chronicles of Amber — Nine Princes in Amber (1970), Chapter 1 · ‘Some Sort of Family Squabble,’ Roger Zelazny retrospective interview excerpt",
     "canonical_term": "opening identity uncertainty",

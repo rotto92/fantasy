@@ -25,7 +25,7 @@ from reproducible import source_fingerprint
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = ROOT / "fantasy_high_fantasy_archetype_atlas_v3.xlsx"
-DEFAULT_OUTPUT = ROOT / "public" / "data" / "atlas.json"
+DEFAULT_OUTPUT = ROOT / "generated" / "atlas.json"
 
 DOMAIN_COLORS = {
     "People & Beings": "#66d9c6",

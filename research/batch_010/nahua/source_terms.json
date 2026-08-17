@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC280-001",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 1, fol. 34v, image metadata",
     "canonical_term": "teotl",
@@ -18,6 +19,7 @@
   },
   {
     "term_id": "STM-SRC280-002",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 1, fol. 34v, image metadata; Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 2, fol. 135r",
     "canonical_term": "ixiptlahtli / ixiptla",
@@ -35,6 +37,7 @@
   },
   {
     "term_id": "STM-SRC280-003",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 1, fol. 34r, Nahuatl transcription",
     "canonical_term": "ilhuicac",
@@ -52,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC280-004",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 12, fol. 14v, Lockhart note 1 and Nahuatl-to-English translation",
     "canonical_term": "Mictlan",
@@ -69,6 +73,7 @@
   },
   {
     "term_id": "STM-SRC280-005",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 12, fol. 14v, Lockhart note 1 and Nahuatl-to-English translation",
     "canonical_term": "Tlalocan",
@@ -86,6 +91,7 @@
   },
   {
     "term_id": "STM-SRC280-006",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 4, fol. 82r, image metadata",
     "canonical_term": "tonalpohualli",
@@ -103,6 +109,7 @@
   },
   {
     "term_id": "STM-SRC280-007",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 4, fol. 82r, image metadata",
     "canonical_term": "tonalli",
@@ -120,6 +127,7 @@
   },
   {
     "term_id": "STM-SRC280-008",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 2, fol. 120r, heading and Nahuatl transcription; Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 2, fol. 135r",
     "canonical_term": "tlamanaliztli",
@@ -137,6 +145,7 @@
   },
   {
     "term_id": "STM-SRC280-009",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 2, fol. 120r, heading Tlenamaquiliztli and Nahuatl transcription",
     "canonical_term": "tlenamaquiliztli",
@@ -154,6 +163,7 @@
   },
   {
     "term_id": "STM-SRC280-010",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 2, fol. 135r, Nahuatl transcription and Anderson–Dibble translation",
     "canonical_term": "yaomiqui",
@@ -171,6 +181,7 @@
   },
   {
     "term_id": "STM-SRC280-011",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Leyenda de los Soles in Códice Chimalpopoca · Leyenda de los Soles, UNAM ed., pp. 119–122, especially p. 121",
     "canonical_term": "Nahui Ollin / naollin",
@@ -188,6 +199,7 @@
   },
   {
     "term_id": "STM-SRC280-012",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Códice Boturini / Tira de la Peregrinación · INAH digital Boturini introduction, lines 31–39; Mexica (Aztec) Mythology and Ritual Traditions · INAH, 'El documento,' lines 23–35 and 56–78",
     "canonical_term": "Aztlan",
@@ -205,6 +217,7 @@
   },
   {
     "term_id": "STM-SRC280-013",
+    "record_kind": "source-term",
     "source_id": "SRC-280",
     "work_or_witness": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20 · Florentine Codex, bk. 8, fol. 1r, heading and first chapter",
     "canonical_term": "tlatoani / tlatocayotl",

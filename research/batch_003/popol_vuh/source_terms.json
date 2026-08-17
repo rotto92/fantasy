@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC021-001",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Prologue; Christenson 2007, pp. 67–69",
     "canonical_term": "Popol Wuj",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC021-002",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Prologue; Christenson 2007, pp. 67–69",
     "canonical_term": "K’iche’",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC021-003",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 1: primordial deliberation; Christenson 2007, pp. 67–76",
     "canonical_term": "Tz’aqol / B’itol",
@@ -78,6 +81,7 @@
   },
   {
     "term_id": "STM-SRC021-004",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
     "canonical_term": "Uk’u’x Kaj",
@@ -106,6 +110,7 @@
   },
   {
     "term_id": "STM-SRC021-005",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 3: Xibalba trials; Christenson 2007, pp. 105–155",
     "canonical_term": "Xib’alb’a",
@@ -133,6 +138,7 @@
   },
   {
     "term_id": "STM-SRC021-006",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 3: Hero Twins; Christenson 2007, pp. 124–155",
     "canonical_term": "Junajpu / Xb’alanke",
@@ -158,6 +164,7 @@
   },
   {
     "term_id": "STM-SRC021-007",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 4: creation of people; Christenson 2007, pp. 156–176",
     "canonical_term": "winaq",
@@ -185,6 +192,7 @@
   },
   {
     "term_id": "STM-SRC021-008",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
     "canonical_term": "k’ux",
@@ -210,6 +218,7 @@
   },
   {
     "term_id": "STM-SRC021-009",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Prologue; Christenson 2007, pp. 67–69",
     "canonical_term": "q’alajisaxik",
@@ -235,6 +244,7 @@
   },
   {
     "term_id": "STM-SRC021-010",
+    "record_kind": "source-term",
     "source_id": "SRC-021",
     "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 3: Hero Twins; Christenson 2007, pp. 105–124",
     "canonical_term": "k’ajol",

@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC199-001",
+    "record_kind": "research-boundary",
     "source_id": "SRC-199",
     "work_or_witness": "Claymore, Vol. 1 · Product metadata",
     "canonical_term": "Claymore, Vol. 1 English VIZ witness",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC199-002",
+    "record_kind": "source-term",
     "source_id": "SRC-199",
     "work_or_witness": "Claymore series page · Series description; Claymore, Vol. 1 · Vol. 1 description",
     "canonical_term": "Yoma",
@@ -58,6 +60,7 @@
   },
   {
     "term_id": "STM-SRC199-003",
+    "record_kind": "source-term",
     "source_id": "SRC-199",
     "work_or_witness": "Claymore series page · Series description",
     "canonical_term": "Claymores",
@@ -83,6 +86,7 @@
   },
   {
     "term_id": "STM-SRC199-004",
+    "record_kind": "source-term",
     "source_id": "SRC-199",
     "work_or_witness": "Claymore series page · Series heading and description",
     "canonical_term": "sword-wielding women-warrior presentation",
@@ -108,6 +112,7 @@
   },
   {
     "term_id": "STM-SRC199-005",
+    "record_kind": "source-term",
     "source_id": "SRC-199",
     "work_or_witness": "Claymore series page · Series description",
     "canonical_term": "humanity-loss transformation risk",
@@ -133,6 +138,7 @@
   },
   {
     "term_id": "STM-SRC199-006",
+    "record_kind": "research-boundary",
     "source_id": "SRC-199",
     "work_or_witness": "Claymore series page · Creator biography; Claymore Manga product list",
     "canonical_term": "anime, video-game, and later-volume boundary",

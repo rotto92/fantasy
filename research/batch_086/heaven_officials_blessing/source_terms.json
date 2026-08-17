@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC241-001",
+    "record_kind": "source-term",
     "source_id": "SRC-241",
     "work_or_witness": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1 · Official Volume 1 synopsis",
     "canonical_term": "godhood",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC241-002",
+    "record_kind": "source-term",
     "source_id": "SRC-241",
     "work_or_witness": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1 · Official Volume 1 synopsis",
     "canonical_term": "ascension",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC241-003",
+    "record_kind": "source-term",
     "source_id": "SRC-241",
     "work_or_witness": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1 · Official Volume 1 synopsis",
     "canonical_term": "Mortal Realm",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC241-004",
+    "record_kind": "source-term",
     "source_id": "SRC-241",
     "work_or_witness": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1 · Official Volume 1 synopsis",
     "canonical_term": "violent ghosts",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC241-005",
+    "record_kind": "source-term",
     "source_id": "SRC-241",
     "work_or_witness": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1 · Official Volume 1 synopsis",
     "canonical_term": "troublemaking spirits",
@@ -126,6 +131,7 @@
   },
   {
     "term_id": "STM-SRC241-006",
+    "record_kind": "source-term",
     "source_id": "SRC-241",
     "work_or_witness": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1 · Official Seven Seas novel series page",
     "canonical_term": "Tian Guan Ci Fu",

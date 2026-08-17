@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC011-001",
+    "record_kind": "source-term",
     "source_id": "SRC-011",
     "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. I · Vol. I, contents and pp. 118–237, headings for successive reigns; Encyclopaedia Iranica, KINGSHIP · KINGSHIP, headword and linked subentries",
     "canonical_term": "šāh",
@@ -33,6 +34,7 @@
   },
   {
     "term_id": "STM-SRC011-002",
+    "record_kind": "source-term",
     "source_id": "SRC-011",
     "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. II · Vol. II, pp. 44–76, ‘The Seven Courses of Rustam’; Encyclopaedia Iranica, ŠĀH-NĀMA V. EXCURSUS · ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam as foremost Iranian hero",
     "canonical_term": "pahlavān",
@@ -67,6 +69,7 @@
   },
   {
     "term_id": "STM-SRC011-003",
+    "record_kind": "source-term",
     "source_id": "SRC-011",
     "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. II · Vol. II, pp. 57–59, ‘The Sixth’ and ‘Seventh Course’ (Arzhang Dīv and White Dīv); Encyclopaedia Iranica, DĪV · DĪV, opening paragraphs and Shahnameh discussion",
     "canonical_term": "dīv",
@@ -101,6 +104,7 @@
   },
   {
     "term_id": "STM-SRC011-004",
+    "record_kind": "source-term",
     "source_id": "SRC-011",
     "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. I · Vol. I, pp. 239–251, ‘The Birth of Zal’ and his return; Encyclopaedia Iranica, SIMORḠ · SIMORḠ, opening definition and pre-Islamic tradition discussion",
     "canonical_term": "Sīmorgh",
@@ -135,6 +139,7 @@
   },
   {
     "term_id": "STM-SRC011-005",
+    "record_kind": "source-term",
     "source_id": "SRC-011",
     "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. I · Vol. I, pp. 131–145, ‘The Greatness and Fall of Jamshid’; Encyclopaedia Iranica, FARR(AH) · FARR(AH), opening definition and attestations",
     "canonical_term": "farr / xᵛarənah",
@@ -170,6 +175,7 @@
   },
   {
     "term_id": "STM-SRC011-006",
+    "record_kind": "source-term",
     "source_id": "SRC-011",
     "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. I · Vol. I, pp. 189–232, Fereydun’s partition and conflict among Salm, Tur, and Iraj; Encyclopaedia Iranica, ŠĀH-NĀMA · ŠĀH-NĀMA, overview of Iran’s continuous narrative and contested claim",
     "canonical_term": "Īrān / Tūrān",

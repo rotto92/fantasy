@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC246-001",
+    "record_kind": "source-term",
     "source_id": "SRC-246",
     "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
     "canonical_term": "reborn into another world",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC246-002",
+    "record_kind": "source-term",
     "source_id": "SRC-246",
     "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
     "canonical_term": "mastermind",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC246-003",
+    "record_kind": "source-term",
     "source_id": "SRC-246",
     "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
     "canonical_term": "organization",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC246-004",
+    "record_kind": "source-term",
     "source_id": "SRC-246",
     "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
     "canonical_term": "evil cult backstory",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC246-005",
+    "record_kind": "source-term",
     "source_id": "SRC-246",
     "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
     "canonical_term": "imaginary adversaries turned real",

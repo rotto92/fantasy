@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC104-001",
+    "record_kind": "source-term",
     "source_id": "SRC-104",
     "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, opening description",
     "canonical_term": "Mythic Europe",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC104-002",
+    "record_kind": "source-term",
     "source_id": "SRC-104",
     "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, opening description; Ars Magica Fifth Edition Character Sheet · Official Fifth Edition Character Sheet, header",
     "canonical_term": "magus / magi",
@@ -58,6 +60,7 @@
   },
   {
     "term_id": "STM-SRC104-003",
+    "record_kind": "source-term",
     "source_id": "SRC-104",
     "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, opening description; Ars Magica Fifth Edition Character Sheet · Official Fifth Edition Character Sheet, header ‘Covenant’ field",
     "canonical_term": "covenant",
@@ -90,6 +93,7 @@
   },
   {
     "term_id": "STM-SRC104-004",
+    "record_kind": "source-term",
     "source_id": "SRC-104",
     "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, description bullet on troupe-style roleplaying",
     "canonical_term": "troupe-style roleplaying",
@@ -115,6 +119,7 @@
   },
   {
     "term_id": "STM-SRC104-005",
+    "record_kind": "source-term",
     "source_id": "SRC-104",
     "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, magic-system description; Ars Magica Fifth Edition Character Sheet · Official Fifth Edition Character Sheet, ‘Magical Arts’ section",
     "canonical_term": "Magical Arts",
@@ -147,6 +152,7 @@
   },
   {
     "term_id": "STM-SRC104-006",
+    "record_kind": "source-term",
     "source_id": "SRC-104",
     "work_or_witness": "Ars Magica 5E Standard Edition · Official Standard Edition product page, magic-system description; Ars Magica Fifth Edition Character Sheet · Official Fifth Edition Character Sheet, ‘Magical Arts’ Technique and Form tables",
     "canonical_term": "Techniques and Forms",

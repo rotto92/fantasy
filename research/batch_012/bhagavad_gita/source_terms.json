@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC278-001",
+    "record_kind": "source-term",
     "source_id": "SRC-278",
     "work_or_witness": "Bhagavad Gītā 2.7, Sanskrit root verse",
     "canonical_term": "dharma",
@@ -18,6 +19,7 @@
   },
   {
     "term_id": "STM-SRC278-002",
+    "record_kind": "source-term",
     "source_id": "SRC-278",
     "work_or_witness": "Bhagavad Gītā 2.48, Sanskrit root verse",
     "canonical_term": "yoga",
@@ -35,6 +37,7 @@
   },
   {
     "term_id": "STM-SRC278-003",
+    "record_kind": "source-term",
     "source_id": "SRC-278",
     "work_or_witness": "Bhagavad Gītā 2.48, Sanskrit root verse",
     "canonical_term": "karma",
@@ -52,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC278-004",
+    "record_kind": "source-term",
     "source_id": "SRC-278",
     "work_or_witness": "Bhagavad Gītā 9.34, Sanskrit root verse",
     "canonical_term": "bhakti",
@@ -69,6 +73,7 @@
   },
   {
     "term_id": "STM-SRC278-005",
+    "record_kind": "source-term",
     "source_id": "SRC-278",
     "work_or_witness": "Bhagavad Gītā 3.27, Sanskrit root verse",
     "canonical_term": "prakṛti and guṇa",
@@ -86,6 +91,7 @@
   },
   {
     "term_id": "STM-SRC278-006",
+    "record_kind": "source-term",
     "source_id": "SRC-278",
     "work_or_witness": "Bhagavad Gītā 11.8, Sanskrit root verse",
     "canonical_term": "divya cakṣus",
@@ -103,6 +109,7 @@
   },
   {
     "term_id": "STM-SRC278-007",
+    "record_kind": "source-term",
     "source_id": "SRC-278",
     "work_or_witness": "Bhagavad Gītā 11.8, Sanskrit root verse",
     "canonical_term": "aiśvara yoga",

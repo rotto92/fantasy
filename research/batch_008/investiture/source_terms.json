@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC017-001",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 99",
     "canonical_term": "封神",
@@ -28,6 +29,7 @@
   },
   {
     "term_id": "STM-SRC017-002",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 99",
     "canonical_term": "封神榜",
@@ -55,6 +57,7 @@
   },
   {
     "term_id": "STM-SRC017-003",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 99",
     "canonical_term": "封神臺",
@@ -80,6 +83,7 @@
   },
   {
     "term_id": "STM-SRC017-004",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 15",
     "canonical_term": "仙",
@@ -107,6 +111,7 @@
   },
   {
     "term_id": "STM-SRC017-005",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 13",
     "canonical_term": "真人",
@@ -134,6 +139,7 @@
   },
   {
     "term_id": "STM-SRC017-006",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 15",
     "canonical_term": "闡教",
@@ -161,6 +167,7 @@
   },
   {
     "term_id": "STM-SRC017-007",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 72",
     "canonical_term": "截教",
@@ -188,6 +195,7 @@
   },
   {
     "term_id": "STM-SRC017-008",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 15",
     "canonical_term": "玉虛宮",
@@ -215,6 +223,7 @@
   },
   {
     "term_id": "STM-SRC017-009",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 72",
     "canonical_term": "碧遊宮",
@@ -242,6 +251,7 @@
   },
   {
     "term_id": "STM-SRC017-010",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 46",
     "canonical_term": "法寶",
@@ -269,6 +279,7 @@
   },
   {
     "term_id": "STM-SRC017-011",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 16",
     "canonical_term": "符",
@@ -296,6 +307,7 @@
   },
   {
     "term_id": "STM-SRC017-012",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 15",
     "canonical_term": "打神鞭",
@@ -323,6 +335,7 @@
   },
   {
     "term_id": "STM-SRC017-013",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 78",
     "canonical_term": "誅仙陣",
@@ -348,6 +361,7 @@
   },
   {
     "term_id": "STM-SRC017-014",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 50",
     "canonical_term": "黃河陣",
@@ -373,6 +387,7 @@
   },
   {
     "term_id": "STM-SRC017-015",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 1",
     "canonical_term": "天命",
@@ -400,6 +415,7 @@
   },
   {
     "term_id": "STM-SRC017-016",
+    "record_kind": "source-term",
     "source_id": "SRC-017",
     "work_or_witness": "封神演義, chapter 99",
     "canonical_term": "天庭",

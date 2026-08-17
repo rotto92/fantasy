@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC013-001",
+    "record_kind": "source-term",
     "source_id": "SRC-013",
     "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · EA10470,3 frame 3",
     "canonical_term": "nṯr",
@@ -28,6 +29,7 @@
   },
   {
     "term_id": "STM-SRC013-002",
+    "record_kind": "source-term",
     "source_id": "SRC-013",
     "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · Contendings, recto pp. 1–16",
     "canonical_term": "nswt",
@@ -53,6 +55,7 @@
   },
   {
     "term_id": "STM-SRC013-003",
+    "record_kind": "source-term",
     "source_id": "SRC-013",
     "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · EA10470,3 frame 3",
     "canonical_term": "mꜣꜥt",
@@ -78,6 +81,7 @@
   },
   {
     "term_id": "STM-SRC013-004",
+    "record_kind": "source-term",
     "source_id": "SRC-013",
     "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · Book of the Dead of Nu, Spell 125B, address to assessors",
     "canonical_term": "rn",
@@ -103,6 +107,7 @@
   },
   {
     "term_id": "STM-SRC013-005",
+    "record_kind": "source-term",
     "source_id": "SRC-013",
     "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · Book of the Dead of Nu, Chapter 125 context and associated Book of the Dead tradition",
     "canonical_term": "bꜣ",
@@ -128,6 +133,7 @@
   },
   {
     "term_id": "STM-SRC013-006",
+    "record_kind": "source-term",
     "source_id": "SRC-013",
     "work_or_witness": "Ancient Egyptian Mythology: bounded New Kingdom witnesses · Book of the Dead corpus context; Spell 125 is one component of a wider funerary collection",
     "canonical_term": "ḫprw",

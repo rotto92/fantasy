@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC095-001",
+    "record_kind": "source-term",
     "source_id": "SRC-095",
     "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’ and Sigil and the Outlands description",
     "canonical_term": "Sigil, the City of Doors",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC095-002",
+    "record_kind": "source-term",
     "source_id": "SRC-095",
     "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
     "canonical_term": "Outlands",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC095-003",
+    "record_kind": "source-term",
     "source_id": "SRC-095",
     "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’",
     "canonical_term": "Outer Planes",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC095-004",
+    "record_kind": "source-term",
     "source_id": "SRC-095",
     "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
     "canonical_term": "gate-towns",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC095-005",
+    "record_kind": "source-term",
     "source_id": "SRC-095",
     "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
     "canonical_term": "factions",
@@ -126,6 +131,7 @@
   },
   {
     "term_id": "STM-SRC095-006",
+    "record_kind": "source-term",
     "source_id": "SRC-095",
     "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’",
     "canonical_term": "portals",

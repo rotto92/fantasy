@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC114-001",
+    "record_kind": "source-term",
     "source_id": "SRC-114",
     "work_or_witness": "Burning Wheel Gold Revised · Product description: characters whose beliefs propel the story",
     "canonical_term": "Beliefs",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC114-002",
+    "record_kind": "source-term",
     "source_id": "SRC-114",
     "work_or_witness": "Burning Wheel Gold Revised · Product description: character creation",
     "canonical_term": "character past, ethics, scars, goals, and dreams",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC114-003",
+    "record_kind": "source-term",
     "source_id": "SRC-114",
     "work_or_witness": "Burning Wheel Gold Revised · Product description: dramatic systems",
     "canonical_term": "tests of nerve and social conflict",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC114-004",
+    "record_kind": "source-term",
     "source_id": "SRC-114",
     "work_or_witness": "Burning Wheel Gold Revised · Product description: dramatic systems",
     "canonical_term": "dangerous sorcery and miraculous faith",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC114-005",
+    "record_kind": "source-term",
     "source_id": "SRC-114",
     "work_or_witness": "Burning Wheel Gold Revised: Hub and Spokes PDF · Hub and Spokes PDF product description",
     "canonical_term": "Hub and Spokes",

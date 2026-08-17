@@ -1,6 +1,7 @@
 [
   {
     "term_id":"STM-SRC014-001",
+    "record_kind": "source-term",
     "source_id":"SRC-014",
     "work_or_witness": "Mahābhārata — Sanskrit epic-tradition orientation · Simon Brodbeck, ‘Mahābhārata,’ Introduction, lines 2580–2584; Mahābhārata — Sanskrit epic-tradition orientation · Ganguli translation witness, Vana Parva title page",
     "canonical_term":"parva",
@@ -18,6 +19,7 @@
   },
   {
     "term_id":"STM-SRC014-002",
+    "record_kind": "source-term",
     "source_id":"SRC-014",
     "work_or_witness": "Mahābhārata — Sanskrit epic-tradition orientation · Ganguli translation witness, page title and Vana Parva Nalopakhyana heading, Section LVI",
     "canonical_term":"Nalopākhyāna",
@@ -35,6 +37,7 @@
   },
   {
     "term_id":"STM-SRC014-003",
+    "record_kind": "source-term",
     "source_id":"SRC-014",
     "work_or_witness": "Mahābhārata — Sanskrit epic-tradition orientation · Ganguli translation witness, Vana Parva, Nalopākhyāna, Section LVII; Mahābhārata — Sanskrit epic-tradition orientation · Ganguli translation witness, Vana Parva, Nalopākhyāna, Section LVI",
     "canonical_term":"swayamvara",
@@ -52,6 +55,7 @@
   },
   {
     "term_id":"STM-SRC014-004",
+    "record_kind": "source-term",
     "source_id":"SRC-014",
     "work_or_witness": "Mahābhārata — Sanskrit epic-tradition orientation · Kanad Sinha, From Dāśarājña to Kurukṣetra, abstract",
     "canonical_term":"itihāsa",
@@ -69,6 +73,7 @@
   },
   {
     "term_id":"STM-SRC014-005",
+    "record_kind": "source-term",
     "source_id":"SRC-014",
     "work_or_witness": "Mahābhārata — Sanskrit epic-tradition orientation · Pamela Lothspeich, ‘Mahābhārata in Hindu Tradition,’ Introduction, lines 2603–2608",
     "canonical_term":"textual, oral, and performative Mahābhārata traditions",

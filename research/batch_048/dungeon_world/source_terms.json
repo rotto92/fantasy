@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC112-001",
+    "record_kind": "source-term",
     "source_id": "SRC-112",
     "work_or_witness": "Dungeon World: About the Game · About the Game opening",
     "canonical_term": "Play to find out what happens",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC112-002",
+    "record_kind": "source-term",
     "source_id": "SRC-112",
     "work_or_witness": "Dungeon World: About the Game · Gamemaster's Toolkit",
     "canonical_term": "Moves",
@@ -51,6 +53,7 @@
   },
   {
     "term_id": "STM-SRC112-003",
+    "record_kind": "source-term",
     "source_id": "SRC-112",
     "work_or_witness": "Dungeon World: About the Game · Gamemaster's Toolkit",
     "canonical_term": "Fronts",
@@ -76,6 +79,7 @@
   },
   {
     "term_id": "STM-SRC112-004",
+    "record_kind": "source-term",
     "source_id": "SRC-112",
     "work_or_witness": "Dungeon World: About the Game · Gamemaster's Toolkit",
     "canonical_term": "Agenda",
@@ -101,6 +105,7 @@
   },
   {
     "term_id": "STM-SRC112-005",
+    "record_kind": "source-term",
     "source_id": "SRC-112",
     "work_or_witness": "Dungeon World: About the Game · Open License",
     "canonical_term": "Creative Commons Attribution license",

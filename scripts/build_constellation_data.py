@@ -19,7 +19,7 @@ from reproducible import source_fingerprint
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ATLAS_PATH = ROOT / "public" / "data" / "atlas.json"
+ATLAS_PATH = ROOT / "generated" / "atlas.json"
 CHARACTER_PATH = ROOT / "public" / "data" / "characters.json"
 OUTPUT_PATH = ROOT / "public" / "data" / "constellations.json"
 

@@ -1,6 +1,7 @@
 [
   {
     "term_id": "STM-SRC046-001",
+    "record_kind": "research-boundary",
     "source_id": "SRC-046",
     "work_or_witness": "A Game of Thrones, Prologue · Excerpt heading and HTML lines 244–319",
     "canonical_term": "authorized Prologue excerpt boundary",
@@ -26,6 +27,7 @@
   },
   {
     "term_id": "STM-SRC046-002",
+    "record_kind": "source-term",
     "source_id": "SRC-046",
     "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 263–270, 277, and 308–319",
     "canonical_term": "Night's Watch / putting on the black",
@@ -52,6 +54,7 @@
   },
   {
     "term_id": "STM-SRC046-003",
+    "record_kind": "source-term",
     "source_id": "SRC-046",
     "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 263–266 and 310–316",
     "canonical_term": "the Wall",
@@ -77,6 +80,7 @@
   },
   {
     "term_id": "STM-SRC046-004",
+    "record_kind": "source-term",
     "source_id": "SRC-046",
     "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 246–255 and 263–265",
     "canonical_term": "wildlings",
@@ -102,6 +106,7 @@
   },
   {
     "term_id": "STM-SRC046-005",
+    "record_kind": "source-term",
     "source_id": "SRC-046",
     "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 263–266",
     "canonical_term": "haunted forest",
@@ -127,6 +132,7 @@
   },
   {
     "term_id": "STM-SRC046-006",
+    "record_kind": "source-term",
     "source_id": "SRC-046",
     "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 275–306 and 310–316",
     "canonical_term": "winter / deadly cold",

@@ -1,6 +1,7 @@
 [
   {
     "term_id":"STM-SRC267-001",
+    "record_kind": "source-term",
     "source_id":"SRC-267",
     "work_or_witness": "The Lord of the Rings: The Rings of Power — Season 1 Episode 1 opening witness · Prime Video Season 1 listing, lines 203–208",
     "canonical_term":"Middle-earth",
@@ -18,6 +19,7 @@
   },
   {
     "term_id":"STM-SRC267-002",
+    "record_kind": "source-term",
     "source_id":"SRC-267",
     "work_or_witness": "The Lord of the Rings: The Rings of Power — Season 1 Episode 1 opening witness · Prime Video Season 1 listing, lines 234–248, Episode 1 official synopsis",
     "canonical_term":"ancient evil's return",
@@ -35,6 +37,7 @@
   },
   {
     "term_id":"STM-SRC267-003",
+    "record_kind": "source-term",
     "source_id":"SRC-267",
     "work_or_witness": "The Lord of the Rings: The Rings of Power — Season 1 Episode 1 opening witness · Prime Video Season 1 listing, lines 234–248, Episode 1 official synopsis",
     "canonical_term":"Harfoot community",
@@ -52,6 +55,7 @@
   },
   {
     "term_id":"STM-SRC267-004",
+    "record_kind": "source-term",
     "source_id":"SRC-267",
     "work_or_witness": "The Lord of the Rings: The Rings of Power — Season 1 Episode 1 opening witness · Prime Video Season 1 listing, lines 234–248, Episode 1 official synopsis",
     "canonical_term":"Harfoot community's most deeply held rule",
