@@ -94,6 +94,32 @@ def source_lookup(research: dict[str, Any]) -> dict[str, dict[str, Any]]:
     return {str(source["sourceId"]): source for source in research["corpusSources"]}
 
 
+def audit_lookup(research: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    return {str(audit["source_id"]): audit for audit in research["sources"]}
+
+
+def source_work_labels(audit: dict[str, Any]) -> list[str]:
+    labels: list[str] = []
+    for witness in audit.get("work_or_witnesses", []):
+        if isinstance(witness, str):
+            label = witness.strip()
+        elif isinstance(witness, dict):
+            label = " · ".join(
+                str(witness.get(key, "")).strip()
+                for key in ("work", "edition")
+                if str(witness.get(key, "")).strip()
+            )
+        else:
+            label = ""
+        if label:
+            labels.append(label)
+    return unique(labels)
+
+
+def source_work_label(audit: dict[str, Any]) -> str:
+    return "; ".join(source_work_labels(audit))
+
+
 def source_fields(source: dict[str, Any]) -> list[dict[str, str]]:
     return [
         field("source / series", source.get("title")),
@@ -129,6 +155,7 @@ def main() -> None:
     research = json.loads(RESEARCH_PATH.read_text(encoding="utf-8"))
     concepts = json.loads(CONCEPTS_PATH.read_text(encoding="utf-8"))
     sources = source_lookup(research)
+    audits = audit_lookup(research)
     valid_concept_ids = {str(node["id"]) for node in concepts["nodes"]}
     characters_by_id = {str(character["character_id"]): character for character in research["characters"]}
 
@@ -190,6 +217,7 @@ def main() -> None:
         if term_dimension in DIMENSION_LABELS:
             dimension_row_keys[term_dimension].add(f"source-term:{term['term_id']}")
         source = sources.get(str(term["source_id"]), {})
+        source_work = source_work_label(audits.get(str(term["source_id"]), {}))
         aliases: list[str] = []
         alias_note = ""
         for rule in VARIANT_RULES:
@@ -209,6 +237,7 @@ def main() -> None:
             field("literal gloss", term.get("literal_gloss")),
             field(DIMENSION_LABELS.get(term.get("dimension", ""), term.get("dimension", "")), canonical),
             *source_fields(source),
+            field("work / witness", source_work),
             field("original language", term.get("original_language")),
             field("original script", term.get("original_script")),
         ]
@@ -224,7 +253,7 @@ def main() -> None:
                 "sourceTitle": source.get("title", term["source_id"]),
                 "dimension": term.get("dimension", ""),
                 "continuity": source.get("continuityUnit", "Source-native terminology record"),
-                "work": "",
+                "work": source_work,
                 "characterIds": [],
                 "characterExamples": [],
                 "relatedConceptIds": [
@@ -301,7 +330,12 @@ def main() -> None:
         supporting = records_by_source.get(source_id, [])
         character_ids = sorted({character_id for record in supporting for character_id in record.get("characterIds", [])})
         related_ids = sorted(source_concepts.get(source_id, set()))
-        fields = source_fields(source) + [field("source id", source_id), field("first appearance", source.get("firstAppearance"))]
+        source_work = source_work_label(audits.get(source_id, {}))
+        fields = source_fields(source) + [
+            field("work / witness", source_work),
+            field("source id", source_id),
+            field("first appearance", source.get("firstAppearance")),
+        ]
         records.append(
             {
                 "id": f"source:{source_id}",
@@ -313,7 +347,7 @@ def main() -> None:
                 "sourceTitle": source["title"],
                 "dimension": "source",
                 "continuity": source.get("continuityUnit", ""),
-                "work": "",
+                "work": source_work,
                 "characterIds": character_ids,
                 "characterExamples": [characters_by_id[character_id]["canonical_name"] for character_id in character_ids[:6]],
                 "relatedConceptIds": related_ids,

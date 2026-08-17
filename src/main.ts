@@ -414,6 +414,18 @@ function motionDuration(duration: number): number {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : duration;
 }
 
+function auditStatusPresentation(audit: SourceAudit | undefined): { label: string; className: string; caution: string } {
+  if (!audit) return { label: "missing", className: "not-started", caution: "No source audit is recorded." };
+  const label = audit.completion_status.trim() || "status-not-recorded";
+  const normalized = label.toLocaleLowerCase();
+  const limited = normalized.includes("insufficient") || normalized.includes("narrow");
+  const className = limited ? "in-progress" : normalized.includes("complete") || normalized.includes("pass") ? "complete" : "not-started";
+  const caution = audit.content_cautions?.join(" ") || (limited
+    ? "This audit is intentionally limited and does not establish character-level completeness."
+    : "No additional caution recorded beyond the bounded corpus scope.");
+  return { label, className, caution };
+}
+
 function assetUrl(path: string): string {
   return `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
 }
@@ -1286,7 +1298,11 @@ function renderResearch(): void {
     row.append(element("td", "number-cell", String(relationCounts.get(source.sourceId) ?? 0)));
     row.append(element("td", "number-cell", String(termCounts.get(source.sourceId) ?? 0)));
     const status = element("td");
-    status.append(element("span", "status-pill complete", audit ? "Complete for scope" : "Missing"));
+    const statusPresentation = auditStatusPresentation(audit);
+    status.append(
+      element("span", `status-pill ${statusPresentation.className}`, statusPresentation.label),
+      element("small", "dimension-note", `Caution: ${statusPresentation.caution}`),
+    );
     row.append(status);
     const review = element("td");
     const hasReview = Boolean(audit?.independent_review?.review_types?.length);
@@ -1861,6 +1877,7 @@ function showSearchResults(query: string): void {
       selectedNodeId = record.conceptId ?? record.relatedConceptIds[0] ?? null;
       selectionOrigin = selectedNodeId ? "search" : null;
       viewMode = record.kind === "source" && !selectedNodeId ? "research" : "constellations";
+      researchQuery = viewMode === "research" ? record.label : "";
       selectedDomain = "";
       selectedFamily = "";
       selectedSource = "";

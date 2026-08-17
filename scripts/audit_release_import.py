@@ -71,10 +71,13 @@ def scan_file(path: Path) -> list[dict[str, str]]:
     if zipfile.is_zipfile(absolute):
         with zipfile.ZipFile(absolute) as archive:
             for member in archive.infolist():
+                member_path = Path(f"{path.as_posix()}::{member.filename}")
+                if SENSITIVE_NAME_PATTERN.search(Path(member.filename).name):
+                    findings.append(finding(member_path, "suspicious-filename", "credential-like archive member filename"))
                 if member.file_size > MAX_FILE_BYTES:
                     findings.append(
                         finding(
-                            path,
+                            member_path,
                             "oversized-archive-member",
                             f"{member.filename} is {member.file_size} bytes and exceeds {MAX_FILE_BYTES} bytes",
                         )

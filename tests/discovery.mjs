@@ -141,8 +141,21 @@ if (!punctuationText.includes("Ankka")) {
 await page.locator("#search").fill("The Once and Future King");
 await page.locator(".search-result").filter({ hasText: "Source / series · The Once and Future King" }).first().click();
 const sourceOnlyDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
-if (!sourceOnlyDetail.includes("source evidence and status") || !sourceOnlyDetail.includes("status: pass-complete") || !sourceOnlyDetail.includes("caution:") || !sourceOnlyDetail.includes("open supporting source evidence")) {
+if (!sourceOnlyDetail.includes("source evidence and status") || !sourceOnlyDetail.includes("status: pass-complete") || !sourceOnlyDetail.includes("work / witness\nthe once and future king") || !sourceOnlyDetail.includes("caution:") || !sourceOnlyDetail.includes("open supporting source evidence")) {
   failures.push(`zero-character source detail omitted evidence/status/caution: ${sourceOnlyDetail}`);
+}
+if (await page.locator(".research-table tbody tr").count() !== 1 || !(await page.locator(".research-table tbody tr").first().innerText()).toLocaleLowerCase().includes("pass-complete")) {
+  failures.push("source result did not preserve its query and actual audit status in Research");
+}
+
+const limitedAudit = research.sources.find((audit) => audit.completion_status.includes("insufficient") || audit.completion_status.includes("narrow"));
+if (limitedAudit) {
+  await page.locator("#search").fill(limitedAudit.source_title);
+  await page.locator(".search-result").filter({ hasText: `Source / series · ${limitedAudit.source_title}` }).first().click();
+  const limitedResearch = (await page.locator(".research-table tbody tr").first().innerText()).toLocaleLowerCase();
+  if (!limitedResearch.includes(limitedAudit.completion_status.toLocaleLowerCase()) || !limitedResearch.includes("caution:")) {
+    failures.push(`Research hid the actual limited audit status: ${limitedResearch}`);
+  }
 }
 
 await browser.close();
