@@ -201,6 +201,10 @@ interface DiscoveryField {
   foldedTokens: string[];
 }
 
+interface DiscoveryLookup {
+  tokenPrefixes: Map<string, number[]>;
+}
+
 interface DiscoveryRecord {
   id: string;
   kind: DiscoveryKind;
@@ -382,6 +386,7 @@ let lineMode: LineMode = "taxonomy";
 let researchQuery = "";
 let lastSearchQuery = "";
 let foldingMap: Record<string, string> = {};
+let discoveryLookup: DiscoveryLookup = { tokenPrefixes: new Map() };
 let currentZoom: d3.ZoomBehavior<SVGSVGElement, unknown> | null = null;
 let currentTransform = d3.zoomIdentity;
 let resizeTimer = 0;
@@ -426,6 +431,14 @@ function foldSearchToken(value: string): string {
     .map((character) => foldingMap[character] ?? character)
     .join("")
     .replace(/[^\p{Letter}\p{Number}]+/gu, "");
+}
+
+function foldSearchTokens(value: string): string[] {
+  const normalized = value
+    .normalize("NFKD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase();
+  return normalized.split(/[^\p{Letter}\p{Number}]+/gu).map(foldSearchToken).filter(Boolean);
 }
 
 function foldSearch(value: string): string {
@@ -473,6 +486,38 @@ function discoveryRecordById(id: string | null): DiscoveryRecord | undefined {
   return id ? discovery.records.find((record) => record.id === id) : undefined;
 }
 
+function buildDiscoveryLookup(records: DiscoveryRecord[]): DiscoveryLookup {
+  const tokenPrefixes = new Map<string, number[]>();
+  records.forEach((record, recordIndex) => {
+    const prefixes = new Set<string>();
+    for (const field of record.searchFields) {
+      for (const token of field.foldedTokens) {
+        for (let length = 1; length <= token.length; length += 1) prefixes.add(token.slice(0, length));
+      }
+    }
+    for (const prefix of prefixes) {
+      const indexes = tokenPrefixes.get(prefix);
+      if (indexes) indexes.push(recordIndex);
+      else tokenPrefixes.set(prefix, [recordIndex]);
+    }
+  });
+  return { tokenPrefixes };
+}
+
+function discoveryCandidates(query: string, foldedQuery: string): DiscoveryRecord[] {
+  const queryTokens = foldSearchTokens(query);
+  if (queryTokens.length > 1) {
+    const indexes = discoveryLookup.tokenPrefixes.get(queryTokens[0]);
+    if (indexes) return indexes.map((index) => discovery.records[index]);
+  }
+  const indexes = new Set<number>();
+  const minimumPrefixLength = foldedQuery.length > 1 ? 2 : 1;
+  for (let length = minimumPrefixLength; length <= foldedQuery.length; length += 1) {
+    for (const index of discoveryLookup.tokenPrefixes.get(foldedQuery.slice(0, length)) ?? []) indexes.add(index);
+  }
+  return [...indexes].map((index) => discovery.records[index]);
+}
+
 function hasFoldedTokenWindow(tokens: string[], foldedQuery: string): boolean {
   for (let start = 0; start < tokens.length; start += 1) {
     let joined = "";
@@ -485,12 +530,12 @@ function hasFoldedTokenWindow(tokens: string[], foldedQuery: string): boolean {
   return false;
 }
 
-function matchedDiscoveryFields(record: DiscoveryRecord, query: string): string[] {
-  const foldedQuery = foldSearch(query);
+function matchedDiscoveryFields(record: DiscoveryRecord, foldedQuery: string): string[] {
   if (!foldedQuery) return [];
   return [...new Set(
     record.searchFields
       .filter((field) => field.foldedValue === foldedQuery
+        || field.foldedValue.startsWith(foldedQuery)
         || field.foldedTokens.some((token) => token === foldedQuery || token.startsWith(foldedQuery))
         || hasFoldedTokenWindow(field.foldedTokens, foldedQuery))
       .map((field) => field.label),
@@ -516,8 +561,8 @@ function discoveryMatchScore(record: DiscoveryRecord, foldedQuery: string, field
 function discoveryMatches(query: string): Array<{ record: DiscoveryRecord; fields: string[] }> {
   const foldedQuery = foldSearch(query);
   if (!foldedQuery) return [];
-  return discovery.records
-    .map((record) => ({ record, fields: matchedDiscoveryFields(record, query) }))
+  return discoveryCandidates(query, foldedQuery)
+    .map((record) => ({ record, fields: matchedDiscoveryFields(record, foldedQuery) }))
     .filter(({ fields }) => fields.length > 0)
     .sort((left, right) => {
       const leftScore = discoveryMatchScore(left.record, foldedQuery, left.fields);
@@ -1049,6 +1094,13 @@ function renderConstellations(): void {
     )
     .attr("data-node-id", (positioned) => positioned.node.id)
     .attr("transform", (positioned) => `translate(${positioned.x},${positioned.y})`);
+  marks
+    .append("circle")
+    .attr("class", "star-hit-area")
+    .attr("r", (positioned) => Math.max(22, positioned.r + 10))
+    .attr("fill", "#fff")
+    .attr("fill-opacity", 0)
+    .attr("pointer-events", "all");
   const glyphs = marks.append("g").attr("class", "star-glyph");
   glyphs
     .append("circle")
@@ -1237,6 +1289,13 @@ function renderRelations(): void {
     .attr("class", (item) => `concept-star relation-star ${item.node.id === selected.id ? "is-selected" : ""}`)
     .attr("data-node-id", (item) => item.node.id)
     .attr("transform", (item) => `translate(${item.x},${item.y})`);
+  marks
+    .append("circle")
+    .attr("class", "star-hit-area")
+    .attr("r", (item) => Math.max(22, item.r + 10))
+    .attr("fill", "#fff")
+    .attr("fill-opacity", 0)
+    .attr("pointer-events", "all");
   marks.append("circle").attr("class", "star-corona").attr("r", (item) => item.r * 3).attr("fill", (item) => colorFor(item.node));
   marks.append("path").attr("class", "family-core").attr("d", (item) => starPath(item.r, item.r * 0.42, 5)).attr("fill", (item) => colorFor(item.node));
   marks
@@ -1481,7 +1540,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   if (actions.childElementCount) detailContent.append(actions);
 
   const why = detailSection("Why this matched");
-  const matched = matchedDiscoveryFields(record, lastSearchQuery);
+    const matched = matchedDiscoveryFields(record, foldSearch(lastSearchQuery));
   why.append(element("p", "detail-copy", matched.length
     ? `“${lastSearchQuery}” matched ${matched.join(", ")}. The result is an evidence record, not a claim that similarly spelled traditions are identical.`
     : "This result is part of the deterministic discovery projection for the accepted corpus."));
@@ -1703,7 +1762,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
 
   if (discoveryContext) {
     const match = detailSection("Why this matched");
-    const matched = matchedDiscoveryFields(discoveryContext, lastSearchQuery);
+    const matched = matchedDiscoveryFields(discoveryContext, foldSearch(lastSearchQuery));
     match.append(element("p", "detail-copy", matched.length
       ? `“${lastSearchQuery}” matched ${matched.join(", ")} in the normalized concept index. The source evidence below remains attached to this concept without merging traditions.`
       : "This normalized concept was selected from the deterministic discovery projection."));
@@ -2137,6 +2196,7 @@ async function loadData(): Promise<void> {
     research = (await researchResponse.json()) as ResearchPayload;
     discovery = (await discoveryResponse.json()) as DiscoveryPayload;
     foldingMap = discovery.meta.foldingMap ?? {};
+    discoveryLookup = buildDiscoveryLookup(discovery.records);
     for (const domain of concepts.domains) domainById.set(domain.id, domain);
     for (const node of concepts.nodes) nodeById.set(node.id, node);
     taxonomyEdges.push(...concepts.edges.filter((edge) => edge.kind === "taxonomy"));

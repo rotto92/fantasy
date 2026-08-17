@@ -272,7 +272,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
 }
 .view-note p:last-child { margin: 5px 0 0; color: #7f8da2; font-size: 9px; line-height: 1.48; }
 .zoom-controls { position: absolute; bottom: 17px; left: 16px; z-index: 8; display: grid; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; }
-.zoom-controls button { width: 34px; height: 32px; border: 0; border-bottom: 1px solid var(--line); color: #9cabbf; background: transparent; cursor: pointer; }
+.zoom-controls button { width: 44px; height: 44px; border: 0; border-bottom: 1px solid var(--line); color: #9cabbf; background: transparent; cursor: pointer; }
 .zoom-controls button:last-child { border: 0; }
 .zoom-controls button:hover { color: #fff; background: rgba(255, 255, 255, 0.06); }
 
@@ -535,6 +535,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
 }
 
 .concept-star { cursor: pointer; transition: opacity 180ms ease; }
+.star-hit-area { pointer-events: all; }
 .concept-star:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
 .concept-star:focus-visible .family-core,
 .concept-star:focus-visible .specific-core { stroke: var(--gold); stroke-width: 2px; }
@@ -714,8 +715,8 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
     float: right;
     display: grid;
     place-items: center;
-    width: 30px;
-    height: 30px;
+    width: 44px;
+    height: 44px;
     margin: -8px -6px 4px 8px;
     border: 1px solid var(--line-strong);
     border-radius: 50%;

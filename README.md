@@ -94,6 +94,9 @@ Reproducible outputs and machine-local folders
 (`node_modules/`, `.venv/`, `dist/`, caches, temporary folders, and bytecode)
 are explicit exclusions. A finding fails the release workflow; it is not
 silently published or counted as accepted research.
+The Pages browser smoke step writes only the ephemeral runner log
+`$RUNNER_TEMP/fantasy-vite.log`; it is outside tracked release inputs and is
+never published.
 
 ## GitHub Pages
 

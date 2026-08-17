@@ -48,6 +48,7 @@ const accessibleStar = page.locator("#atlas-svg .concept-star").first();
 if (await accessibleStar.getAttribute("role") !== "button" || await accessibleStar.getAttribute("tabindex") !== "0" || !(await accessibleStar.getAttribute("aria-label"))) {
   failures.push("map concepts are missing semantic keyboard control metadata");
 } else {
+  if (Number(await accessibleStar.locator(".star-hit-area").getAttribute("r")) < 22) failures.push("map concepts are missing touch-sized hit areas");
   await accessibleStar.focus();
   if (!(await accessibleStar.evaluate((node) => node === document.activeElement))) failures.push("map concept cannot receive keyboard focus");
   await accessibleStar.press("Enter");
@@ -176,11 +177,15 @@ const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
 mobile.on("pageerror", (error) => failures.push(`mobile pageerror: ${error.message}`));
 await mobile.goto(appUrl, { waitUntil: "networkidle" });
 await mobile.locator("#loading").waitFor({ state: "detached" });
+const mobileZoomBox = await mobile.locator("#zoom-in").boundingBox();
+if (!mobileZoomBox || mobileZoomBox.width < 44 || mobileZoomBox.height < 44) failures.push("mobile zoom control is smaller than the touch target");
 await mobile.locator("#search").fill("Abhimanyu");
 await mobile.locator(".search-result").first().click();
 if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
   failures.push("mobile concept selection did not open the detail drawer");
 }
+const mobileCloseBox = await mobile.locator(".mobile-detail-close").boundingBox();
+if (!mobileCloseBox || mobileCloseBox.width < 44 || mobileCloseBox.height < 44) failures.push("mobile detail close control is smaller than the touch target");
 await mobile.locator(".mobile-detail-close").click();
 if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")) || !(await mobile.locator("#focus-banner").isVisible()) || (await mobile.locator("#atlas-svg .is-selected").count()) !== 1 || !(await mobile.locator("#atlas-svg .is-selected").evaluate((node) => node === document.activeElement))) {
   failures.push("closing the mobile detail drawer discarded the search focus");

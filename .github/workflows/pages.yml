@@ -43,7 +43,7 @@ jobs:
         run: npm run audit:release-import
       - name: Run browser contracts
         run: |
-          VITE_BASE=/ npm run dev -- --host 127.0.0.1 > /tmp/fantasy-vite.log 2>&1 &
+          VITE_BASE=/ npm run dev -- --host 127.0.0.1 > "$RUNNER_TEMP/fantasy-vite.log" 2>&1 &
           sleep 2
           npm run test:smoke
           npm run test:discovery
