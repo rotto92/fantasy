@@ -57,11 +57,13 @@ CREDENTIAL_URL_PATTERN = re.compile(
     re.IGNORECASE,
 )
 EMAIL_PATTERN = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
+UNIX_MACHINE_LOCAL_ROOTS = ("home", "Users", "tmp", "var", "root", "etc", "opt", "mnt")
+UNIX_MACHINE_LOCAL_ROOT_PATTERN = "|".join(UNIX_MACHINE_LOCAL_ROOTS)
 LOCAL_PATH_PATTERN = re.compile(
-    r"(?<![A-Za-z0-9:/_-])/(?:home|Users|tmp|var)/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+"
+    rf"(?<![A-Za-z0-9:/_-])/(?:{UNIX_MACHINE_LOCAL_ROOT_PATTERN})/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+"
 )
 LOCAL_FILE_URL_PATTERN = re.compile(
-    r"\bfile:///(?:home|Users|tmp|var)/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+", re.IGNORECASE
+    rf"\bfile:///(?:{UNIX_MACHINE_LOCAL_ROOT_PATTERN})/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+", re.IGNORECASE
 )
 WINDOWS_DRIVE_PATH_PATTERN = re.compile(
     r"(?<![A-Za-z0-9])[A-Za-z]:" + r"[\\/](?:[^\s<>:\"|?*]+[\\/])*[^\s<>:\"|?*]+"
@@ -89,6 +91,7 @@ REVIEWED_OPAQUE_FILES = {
     "atlas-v4-research.png": "8a0519e33c541b575e3cfd3261996a162f88b92753b43c494c564bd202040398",
 }
 REVIEWED_SYMLINKS = {"CLAUDE.md": "AGENTS.md"}
+APPROVED_PUBLIC_PATH_REFERENCES: dict[str, frozenset[str]] = {}
 
 
 def tracked_paths() -> list[Path]:
@@ -141,12 +144,18 @@ def scan_text(path: Path, text: str) -> list[dict[str, str]]:
         findings.append(finding(path, "personal-data", "email address"))
     if SOCIAL_SECURITY_NUMBER_PATTERN.search(text):
         findings.append(finding(path, "social-security-number", "US Social Security number"))
-    if (
-        LOCAL_PATH_PATTERN.search(text)
-        or LOCAL_FILE_URL_PATTERN.search(text)
-        or WINDOWS_DRIVE_PATH_PATTERN.search(text)
-        or WINDOWS_UNC_PATH_PATTERN.search(text)
-    ):
+    local_path_references = {
+        match.group(0)
+        for pattern in (
+            LOCAL_PATH_PATTERN,
+            LOCAL_FILE_URL_PATTERN,
+            WINDOWS_DRIVE_PATH_PATTERN,
+            WINDOWS_UNC_PATH_PATTERN,
+        )
+        for match in pattern.finditer(text)
+    }
+    approved_references = APPROVED_PUBLIC_PATH_REFERENCES.get(path.as_posix(), frozenset())
+    if local_path_references - approved_references:
         findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
     return findings
 

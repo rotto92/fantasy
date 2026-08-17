@@ -49,6 +49,36 @@ const accessibleStar = page.locator("#atlas-svg .concept-star").first();
 if (await accessibleStar.getAttribute("role") !== "button" || await accessibleStar.getAttribute("tabindex") !== "0" || !(await accessibleStar.getAttribute("aria-label"))) {
   failures.push("map concepts are missing semantic keyboard control metadata");
 } else {
+  await accessibleStar.hover({ force: true });
+  await page.locator("#tooltip:not([hidden]) small").waitFor();
+  const tooltipEvidence = await page.locator("#tooltip small").evaluate((node) => {
+    const parseColor = (value) => (value.match(/[\d.]+/g) ?? []).map(Number);
+    const foreground = parseColor(getComputedStyle(node).color);
+    const tooltipBackground = parseColor(getComputedStyle(node.parentElement).backgroundColor);
+    const stageBackground = parseColor(getComputedStyle(document.querySelector("#stage")).backgroundColor);
+    const alpha = tooltipBackground[3] ?? 1;
+    const background = tooltipBackground.slice(0, 3).map((channel, index) => (
+      channel * alpha + (stageBackground[index] ?? 0) * (1 - alpha)
+    ));
+    const luminance = (color) => {
+      const channels = color.slice(0, 3).map((channel) => {
+        const normalized = channel / 255;
+        return normalized <= 0.04045 ? normalized / 12.92 : ((normalized + 0.055) / 1.055) ** 2.4;
+      });
+      return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
+    };
+    const foregroundLuminance = luminance(foreground);
+    const backgroundLuminance = luminance(background);
+    return {
+      fontSize: Number.parseFloat(getComputedStyle(node).fontSize),
+      contrast: (Math.max(foregroundLuminance, backgroundLuminance) + 0.05)
+        / (Math.min(foregroundLuminance, backgroundLuminance) + 0.05),
+    };
+  });
+  if (tooltipEvidence.fontSize < 13 || tooltipEvidence.contrast < 4.5) {
+    failures.push(`tooltip evidence is unreadable: ${tooltipEvidence.fontSize}px at ${tooltipEvidence.contrast.toFixed(2)}:1`);
+  }
+  await page.mouse.move(0, 0);
   if ((await page.locator('#atlas-svg .concept-star[tabindex="0"]').count()) !== 1) failures.push("constellation map does not expose one roving tab stop");
   if (Number(await accessibleStar.locator(".star-hit-area").getAttribute("r")) < 22) failures.push("map concepts are missing touch-sized hit areas");
   await accessibleStar.focus();
@@ -200,7 +230,7 @@ const zeroCharacterAudit = research.sources.find((audit) => audit.completed_char
 if (zeroCharacterAudit) {
   await page.locator("#search").fill(zeroCharacterAudit.source_title);
   const zeroCharacterRow = (await page.locator(".research-table tbody tr").first().innerText()).toLocaleLowerCase();
-  if (!zeroCharacterRow.includes("0 accepted records") || !zeroCharacterRow.includes("pass complete") || !zeroCharacterRow.includes("continuity scope and declared witnesses validated")) {
+  if (!zeroCharacterRow.includes("0 accepted records") || !zeroCharacterRow.includes("pass complete") || !zeroCharacterRow.includes("no lane-specific continuity or witness review is recorded")) {
     failures.push(`zero-character review lanes are ambiguous: ${zeroCharacterRow}`);
   }
   await page.locator("#search").fill("");

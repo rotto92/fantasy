@@ -130,7 +130,7 @@ interface SourceAudit {
 }
 
 interface ReviewLane {
-  status: "pass-complete" | "reviewed" | "not-started";
+  status: "pass-complete" | "reviewed" | "in-progress" | "not-started";
   label: string;
   detail: string;
 }
@@ -531,7 +531,9 @@ function auditStatusPresentation(audit: SourceAudit | undefined): { label: strin
 }
 
 function laneClassName(status: ReviewLane["status"]): string {
-  return status === "not-started" ? "not-started" : "complete";
+  if (status === "not-started") return "not-started";
+  if (status === "in-progress") return "in-progress";
+  return "complete";
 }
 
 function sourceScopeLabel(sourceId: string): string {

@@ -9,7 +9,12 @@ import tempfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from scripts.audit_release_import import REVIEWED_OPAQUE_FILES, review_opaque, scan_text
+from scripts.audit_release_import import (
+    APPROVED_PUBLIC_PATH_REFERENCES,
+    REVIEWED_OPAQUE_FILES,
+    review_opaque,
+    scan_text,
+)
 
 
 def kinds(findings: list[dict[str, str]]) -> set[str]:
@@ -21,6 +26,18 @@ assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "file:///" +
 assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "/" + "home/alice/private.txt"))
 assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "C:" + backslash + "Users" + backslash + "alice" + backslash + "private.txt"))
 assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), backslash * 2 + "fileserver" + backslash + "private-share" + backslash + "notes.txt"))
+slash = chr(47)
+unix_local_paths = [
+    slash + "root/.ssh/id_ed25519",
+    slash + "etc/private-service.conf",
+    slash + "opt/private/config.json",
+    slash + "mnt/backup/private.txt",
+    "file:" + slash * 3 + "root/.ssh/id_ed25519",
+]
+assert all("machine-local-path" in kinds(scan_text(Path("fixture.txt"), value)) for value in unix_local_paths)
+APPROVED_PUBLIC_PATH_REFERENCES["fixture.txt"] = frozenset({unix_local_paths[2]})
+assert "machine-local-path" not in kinds(scan_text(Path("fixture.txt"), unix_local_paths[2]))
+APPROVED_PUBLIC_PATH_REFERENCES.pop("fixture.txt")
 assert "unreviewed-opaque-binary" in kinds(review_opaque(Path("unreviewed.png"), b"opaque"))
 reviewed_path = Path(next(iter(REVIEWED_OPAQUE_FILES)))
 assert "opaque-binary-hash-mismatch" in kinds(review_opaque(reviewed_path, b"changed"))
@@ -41,7 +58,9 @@ with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
     assert json.loads(clean.stdout)["scope"] == f"published artifact tree: {relative.as_posix()}"
     (artifact / "paths.txt").write_text(
         "D:" + backslash + "private" + backslash + "release.txt\n"
-        + backslash * 2 + "server" + backslash + "share" + backslash + "release.txt",
+        + backslash * 2 + "server" + backslash + "share" + backslash + "release.txt\n"
+        + slash + "root" + slash + ".ssh" + slash + "id_ed25519\n"
+        + "file:" + slash * 3 + "etc" + slash + "private-service.conf",
         encoding="utf-8",
     )
     paths = subprocess.run(

@@ -371,7 +371,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
 }
 .tooltip strong { font-size: 11px; }
 .tooltip span { color: #8d9cb2; font-size: 9px; }
-.tooltip small { color: #66758b; font-size: 8px; }
+.tooltip small { color: var(--evidence-muted); font-size: var(--small-size, 0.8125rem); line-height: 1.35; }
 
 .loading-state {
   position: absolute;

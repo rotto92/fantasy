@@ -66,6 +66,9 @@ if (xeniaRecord?.normalizedConceptIds.length || !xeniaRecord?.mappingQuarantined
 if (!research.sourceTerms.every((term) => typeof term.work_or_witness === "string" && /\p{Letter}/u.test(term.work_or_witness))) {
   failures.push("source-term schema omitted identity-bearing claim work provenance");
 }
+if (!research.sourceTerms.every((term) => typeof term.witness_identity === "string" && /\p{Letter}/u.test(term.witness_identity))) {
+  failures.push("source-term schema omitted a witness identity separate from its locator");
+}
 if (!research.sourceTerms.every((term) => term.citations.every((citation) => term.work_or_witness.includes(citation.locator)))) {
   failures.push("source-term work provenance does not pair every citation with its locator");
 }
@@ -73,9 +76,34 @@ const goldenSunWitness = "Nintendo of America, New update! A pair of golden game
 if (goldenSunTerms.length !== 4 || goldenSunTerms.some((term) => term.witness_identity !== goldenSunWitness || !term.work_or_witness.includes(goldenSunWitness))) {
   failures.push("Golden Sun source terms do not identify the Nintendo page separately from the section locator");
 }
+const irishTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC003-001");
+const irishWitness = "Cath Maige Tuired: The Second Battle of Mag Tuired";
+if (irishTerm?.witness_identity !== irishWitness || !irishTerm.work_or_witness.includes(irishWitness)) {
+  failures.push("Irish source terms do not resolve the cited declared witness separately from section locators");
+}
+const wizardryTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC154-002");
+const wizardryWitness = "Drecom: Official release version of Wizardry: Proving Grounds of the Mad Overlord available on consoles & PC";
+if (wizardryTerm?.witness_identity !== wizardryWitness || !wizardryTerm.work_or_witness.includes(wizardryWitness)) {
+  failures.push("Wizardry source terms do not resolve the cited declared witness separately from section locators");
+}
 const reviewLaneNames = ["scoped", "characterPass", "terminologyPass", "relationshipPass", "secondReview", "continuityReview"];
 if (research.sources.some((audit) => reviewLaneNames.some((lane) => !audit.review_lanes?.[lane]?.status || !audit.review_lanes[lane].detail))) {
   failures.push("compiled research omits an authoritative review-lane status");
+}
+const jinnAudit = research.sources.find((audit) => audit.source_id === "SRC-010");
+if (jinnAudit?.review_lanes.secondReview.status !== "in-progress" || !jinnAudit.review_lanes.secondReview.detail.includes("3 of 15") || jinnAudit.review_lanes.continuityReview.status !== "not-started") {
+  failures.push("SRC-010 review lanes do not distinguish reviewed character claims from completion-status and continuity review");
+}
+if (research.sources.some((audit) => audit.review_lanes.terminologyPass.status === "pass-complete" || audit.review_lanes.relationshipPass.status === "pass-complete")) {
+  failures.push("record counts were promoted into undeclared terminology or relationship pass completion");
+}
+const focusedReviewedSources = research.sources.filter((audit) => audit.review_lanes.secondReview.status !== "not-started").length;
+if (research.meta.reviewCoverage.focusedReviewedSources !== focusedReviewedSources) {
+  failures.push("public focused-review source count is not derived from reviewed claim IDs");
+}
+const fullyReviewedSources = research.sources.filter((audit) => audit.review_lanes.secondReview.status === "reviewed").length;
+if (research.meta.reviewCoverage.pendingFullSecondReviewSources !== research.sources.length - fullyReviewedSources) {
+  failures.push("public pending full-review count treats partial claim samples as completed source reviews");
 }
 const shahnamehDiv = research.sourceTerms.find((term) => term.term_id === "STM-SRC011-003");
 if (!shahnamehDiv?.work_or_witness.includes("Ferdowsi, Shāhnāmeh") || !shahnamehDiv.work_or_witness.includes("Encyclopaedia Iranica, DĪV") || shahnamehDiv.work_or_witness.includes("Vols. I–VI cited in this pass")) {

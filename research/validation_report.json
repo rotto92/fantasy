@@ -1,5 +1,5 @@
 {
-  "source_fingerprint": "sha256:e5a883e554ad0b0225920a388b6032903f4f8d42f85b521aac3d02b73ae2b612",
+  "source_fingerprint": "sha256:ae82d662d87ff55d222df82c3dafa0561e8d4abe9ee2f6ca24b81168cd8bfd47",
   "status": "valid",
   "bundles": [
     "research/batch_001/greek",
@@ -1597,8 +1597,8 @@
     }
   },
   "independent_review": {
-    "reviewed_sources": 90,
-    "pending_sources": 191,
+    "reviewed_sources": 67,
+    "pending_sources": 214,
     "retained_warning_sources": 13,
     "corpus_wide_reviews": 2,
     "reviewed_claims": 2062,

@@ -196,6 +196,72 @@ def source_work_names(audit: dict[str, Any]) -> list[str]:
     return names
 
 
+def source_work_entries(audit: dict[str, Any]) -> list[tuple[str, str]]:
+    entries: list[tuple[str, str]] = []
+    for witness in audit.get("work_or_witnesses", []):
+        if isinstance(witness, str):
+            name = witness.strip()
+            url = ""
+        elif isinstance(witness, dict):
+            name = str(
+                witness.get("work")
+                or witness.get("work_or_witness")
+                or witness.get("witness")
+                or ""
+            ).strip()
+            url = str(witness.get("url", "")).strip()
+        else:
+            name = ""
+            url = ""
+        if name:
+            entries.append((name, url))
+    return entries
+
+
+def urls_identify_same_witness(left: Any, right: Any) -> bool:
+    left_url = urlparse(str(left or "").strip())
+    right_url = urlparse(str(right or "").strip())
+    if not left_url.netloc or left_url.netloc.casefold() != right_url.netloc.casefold():
+        return False
+    left_location = (left_url.path.rstrip("/"), left_url.query)
+    right_location = (right_url.path.rstrip("/"), right_url.query)
+    if left_location == right_location:
+        return True
+    left_document_ids = {
+        token.casefold()
+        for token in re.findall(r"[A-Za-z]+\d{4,}[A-Za-z0-9]*", left_url.path)
+    }
+    right_document_ids = {
+        token.casefold()
+        for token in re.findall(r"[A-Za-z]+\d{4,}[A-Za-z0-9]*", right_url.path)
+    }
+    return bool(left_document_ids & right_document_ids)
+
+
+def audit_witness_for_citation(citation: dict[str, Any], audit: dict[str, Any]) -> str:
+    entries = source_work_entries(audit)
+    citation_url = citation.get("url", "")
+    url_matches = {
+        name
+        for name, witness_url in entries
+        if witness_url and urls_identify_same_witness(citation_url, witness_url)
+    }
+    if len(url_matches) == 1:
+        return next(iter(url_matches))
+    audit_citations = audit.get("citations", [])
+    citation_indexes = [
+        index
+        for index, audit_citation in enumerate(audit_citations)
+        if isinstance(audit_citation, dict)
+        and urls_identify_same_witness(citation_url, audit_citation.get("url", ""))
+    ]
+    if len(entries) == len(audit_citations) and len(citation_indexes) == 1:
+        return entries[citation_indexes[0]][0]
+    if len(entries) == 1:
+        return entries[0][0]
+    return ""
+
+
 def source_work_name_sequences(audit: dict[str, Any]) -> list[str]:
     names = source_work_names(audit)
     sequences = ["; ".join(names)] if len(names) > 1 else []
@@ -212,9 +278,31 @@ def claim_witness_identity(record: dict[str, Any], audit: dict[str, Any]) -> str
     if explicit:
         return explicit
     work_or_witness = str(record.get("work_or_witness", "")).strip()
+    declared_in_work = [
+        name for name in source_work_names(audit) if contains_identity_tokens(work_or_witness, name)
+    ]
+    if declared_in_work:
+        return "; ".join(dict.fromkeys(declared_in_work))
     source_title = str(audit.get("source_title", "")).strip()
-    if fold_identity(work_or_witness) == fold_identity(f"{source_title} section"):
-        return ""
+    embedded_identities = [
+        segment.split(" · ", 1)[0].strip()
+        for segment in work_or_witness.split(";")
+        if " · " in segment
+    ]
+    if embedded_identities and all(
+        fold_identity(identity) != fold_identity(source_title)
+        and fold_identity(identity) != fold_identity(f"About {source_title}")
+        for identity in embedded_identities
+    ):
+        return "; ".join(dict.fromkeys(embedded_identities))
+    citations = record.get("citations", [])
+    resolved = [
+        audit_witness_for_citation(citation, audit)
+        for citation in citations
+        if isinstance(citation, dict)
+    ]
+    if resolved and all(resolved):
+        return "; ".join(dict.fromkeys(resolved))
     return work_or_witness
 
 
@@ -489,6 +577,7 @@ def main() -> None:
 
     term_ids: list[str] = []
     term_count_by_source: Counter[str] = Counter()
+    term_witness_identities: dict[str, str] = {}
     for record in all_terms:
         term_id = str(record.get("term_id", ""))
         context = f"source term {term_id or '<unknown>'}"
@@ -524,8 +613,11 @@ def main() -> None:
             witness_identity = claim_witness_identity(record, audit)
             if not witness_identity:
                 errors.append(f"{context}: witness_identity must identify the work separately from its locator")
-            elif record.get("witness_identity") and not any(
+            else:
+                term_witness_identities[term_id] = witness_identity
+            if record.get("witness_identity") and not any(
                 contains_identity_tokens(witness_identity, name)
+                or contains_identity_tokens(name, witness_identity)
                 for name in source_work_names(audit)
             ):
                 errors.append(f"{context}: witness_identity must match a declared source-audit witness")
@@ -654,6 +746,7 @@ def main() -> None:
     if isinstance(zero_character_audit, dict) and zero_character_audit.get("ledger"):
         review_ledger_names.add(str(zero_character_audit["ledger"]))
     reviewed_claim_ids: set[str] = set()
+    reviewed_claim_ids_by_ledger: dict[str, set[str]] = {}
     review_ledger_paths: list[Path] = []
     for ledger_name in sorted(review_ledger_names):
         ledger_path = REVIEW_INDEX.parent / ledger_name
@@ -664,6 +757,7 @@ def main() -> None:
             errors.append(f"{ledger_path.relative_to(ROOT)}: cannot load review ledger ({exc})")
             continue
         entries = ledger if isinstance(ledger, list) else [ledger]
+        ledger_claim_ids: set[str] = set()
         for entry in entries:
             if not isinstance(entry, dict):
                 continue
@@ -676,7 +770,9 @@ def main() -> None:
                 errors.append(
                     f"{ledger_path.relative_to(ROOT)}: reviewed_claim_ids do not match the documented inspected_count"
                 )
-            reviewed_claim_ids.update(claim_ids)
+            ledger_claim_ids.update(claim_ids)
+        reviewed_claim_ids_by_ledger[ledger_name] = ledger_claim_ids
+        reviewed_claim_ids.update(ledger_claim_ids)
     unknown_review_claim_ids = sorted(reviewed_claim_ids - raw_claim_ids)
     if unknown_review_claim_ids:
         errors.append(
@@ -771,8 +867,9 @@ def main() -> None:
                 for value in values:
                     value["archetype_ids"] = []
     for record in promoted_terms:
-        witness_identity = str(record.get("witness_identity", "")).strip()
-        if witness_identity and not str(record.get("work_or_witness", "")).startswith(witness_identity):
+        witness_identity = term_witness_identities.get(str(record.get("term_id", "")), "")
+        record["witness_identity"] = witness_identity
+        if witness_identity and not contains_identity_tokens(record.get("work_or_witness", ""), witness_identity):
             record["work_or_witness"] = f"{witness_identity} · {record.get('work_or_witness', '')}"
         if f"source-term:{record.get('term_id', '')}" in configured_mapping_quarantine_ids:
             record["archetype_ids"] = []
@@ -780,44 +877,6 @@ def main() -> None:
     promoted_character_counts = Counter(str(record.get("source_id", "")) for record in promoted_characters)
     promoted_relationship_counts = Counter(str(record.get("source_id", "")) for record in promoted_relationships)
     promoted_term_counts = Counter(str(record.get("source_id", "")) for record in promoted_terms)
-
-    def review_lanes(audit: dict[str, Any]) -> dict[str, dict[str, str]]:
-        source_id = str(audit.get("source_id", ""))
-        completed = int(audit.get("completed_character_count", 0) or 0)
-        in_scope = int(audit.get("in_scope_character_count", 0) or 0)
-        focused_review = review_status_map.get(source_id)
-        return {
-            "scoped": {
-                "status": "pass-complete",
-                "label": "Pass complete",
-                "detail": str(audit.get("continuity_scope", "")),
-            },
-            "characterPass": {
-                "status": "pass-complete",
-                "label": str(audit.get("completion_status", "pass-complete")),
-                "detail": f"{promoted_character_counts[source_id]} accepted records from {completed} of {in_scope} completed in scope",
-            },
-            "terminologyPass": {
-                "status": "pass-complete",
-                "label": "Pass complete",
-                "detail": f"{promoted_term_counts[source_id]} accepted source-term records",
-            },
-            "relationshipPass": {
-                "status": "pass-complete",
-                "label": "Pass complete",
-                "detail": f"{promoted_relationship_counts[source_id]} accepted relationship records",
-            },
-            "secondReview": {
-                "status": "reviewed" if focused_review else "not-started",
-                "label": "Reviewed" if focused_review else "Not started",
-                "detail": "Focused claim review recorded" if focused_review else "Focused source review remains pending",
-            },
-            "continuityReview": {
-                "status": "reviewed",
-                "label": "Reviewed",
-                "detail": "Continuity scope and declared witnesses validated",
-            },
-        }
 
     promoted_claim_ids = {
         *[
@@ -836,6 +895,105 @@ def main() -> None:
             "independent-review index: reviewed claim sample "
             f"{review_claim_coverage:.1%} is below the required {MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE:.0%}"
         )
+
+    promoted_claim_ids_by_source: dict[str, set[str]] = defaultdict(set)
+    for record in promoted_characters:
+        promoted_claim_ids_by_source[str(record.get("source_id", ""))].update(claim_ids_for_character(record))
+    for record in promoted_relationships:
+        promoted_claim_ids_by_source[str(record.get("source_id", ""))].add(
+            f"relationship:{record.get('relationship_id', '')}"
+        )
+    for record in promoted_terms:
+        promoted_claim_ids_by_source[str(record.get("source_id", ""))].add(
+            f"source-term:{record.get('term_id', '')}"
+        )
+    reviewed_claim_source_count = sum(
+        bool(claim_ids & reviewed_claim_ids)
+        for claim_ids in promoted_claim_ids_by_source.values()
+    )
+    fully_reviewed_claim_source_count = sum(
+        bool(claim_ids) and claim_ids <= reviewed_claim_ids
+        for claim_ids in promoted_claim_ids_by_source.values()
+    )
+
+    def counted_review_lane(reviewed: int, total: int, pending_detail: str) -> dict[str, str]:
+        if reviewed == 0:
+            return {"status": "not-started", "label": "Not started", "detail": pending_detail}
+        if reviewed < total:
+            return {
+                "status": "in-progress",
+                "label": "In progress",
+                "detail": f"{reviewed} of {total} accepted claims have recorded focused review",
+            }
+        return {
+            "status": "reviewed",
+            "label": "Reviewed",
+            "detail": f"All {total} accepted claims have recorded focused review",
+        }
+
+    def review_lanes(audit: dict[str, Any]) -> dict[str, dict[str, str]]:
+        source_id = str(audit.get("source_id", ""))
+        completed = int(audit.get("completed_character_count", 0) or 0)
+        in_scope = int(audit.get("in_scope_character_count", 0) or 0)
+        source_claims = promoted_claim_ids_by_source[source_id]
+        reviewed_source_claims = source_claims & reviewed_claim_ids
+        source_review = review_status_map.get(source_id, {})
+        review_types = [
+            str(value).casefold()
+            for value in source_review.get("review_types", [])
+        ] if isinstance(source_review, dict) else []
+        continuity_review_recorded = any(
+            any(keyword in review_type for keyword in ("continuity", "locator", "textual-boundary", "witness"))
+            for review_type in review_types
+        )
+        continuity_review_claims = source_claims & {
+            claim_id
+            for ledger_name in source_review.get("ledgers", [])
+            for claim_id in reviewed_claim_ids_by_ledger.get(str(ledger_name), set())
+        } if continuity_review_recorded and isinstance(source_review, dict) else set()
+        continuity_lane = counted_review_lane(
+            len(continuity_review_claims),
+            len(source_claims),
+            "No lane-specific continuity or witness review is recorded",
+        ) if continuity_review_recorded else {
+            "status": "not-started",
+            "label": "Not started",
+            "detail": "No lane-specific continuity or witness review is recorded",
+        }
+        relationship_count = promoted_relationship_counts[source_id]
+        relationship_lane = {
+            "status": "in-progress" if relationship_count else "not-started",
+            "label": "Evidence recorded" if relationship_count else "Not started",
+            "detail": (
+                f"{relationship_count} accepted relationship records are validated; no relationship-pass completion declaration is recorded"
+                if relationship_count
+                else "No accepted relationship evidence or relationship-pass completion declaration is recorded"
+            ),
+        }
+        return {
+            "scoped": {
+                "status": "pass-complete",
+                "label": "Pass complete",
+                "detail": str(audit.get("continuity_scope", "")),
+            },
+            "characterPass": {
+                "status": "pass-complete",
+                "label": str(audit.get("completion_status", "pass-complete")),
+                "detail": f"{promoted_character_counts[source_id]} accepted records from {completed} of {in_scope} completed in scope",
+            },
+            "terminologyPass": {
+                "status": "in-progress",
+                "label": "Evidence recorded",
+                "detail": f"{promoted_term_counts[source_id]} accepted source-term records are validated; no terminology-pass completion declaration is recorded",
+            },
+            "relationshipPass": relationship_lane,
+            "secondReview": counted_review_lane(
+                len(reviewed_source_claims),
+                len(source_claims),
+                "No accepted claim IDs have recorded focused second review",
+            ),
+            "continuityReview": continuity_lane,
+        }
 
     input_paths = [
         args.workbook,
@@ -875,8 +1033,8 @@ def main() -> None:
             for source_id in sorted(character_count_by_source, key=source_sort_key)
         },
         "independent_review": {
-            "reviewed_sources": reviewed_source_count,
-            "pending_sources": len(sources_by_id) - reviewed_source_count,
+            "reviewed_sources": fully_reviewed_claim_source_count,
+            "pending_sources": len(sources_by_id) - fully_reviewed_claim_source_count,
             "retained_warning_sources": len(warning_source_ids),
             "corpus_wide_reviews": len(review_index.get("corpus_wide_reviews", [])),
             "reviewed_claims": reviewed_claim_count,
@@ -916,8 +1074,8 @@ def main() -> None:
             },
             "qualityWarnings": warnings,
             "reviewCoverage": {
-                "focusedReviewedSources": reviewed_source_count,
-                "pendingFullSecondReviewSources": len(sources_by_id) - reviewed_source_count,
+                "focusedReviewedSources": reviewed_claim_source_count,
+                "pendingFullSecondReviewSources": len(sources_by_id) - fully_reviewed_claim_source_count,
                 "retainedWarningSources": len(warning_source_ids),
                 "retainedWarningFlags": len(warnings),
                 "corpusWideContractReviews": len(review_index.get("corpus_wide_reviews", [])),
