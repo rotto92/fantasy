@@ -1,0 +1,44 @@
+[
+  {
+    "relationship_id": "REL-SRC046-001",
+    "source_id": "SRC-046",
+    "source_character_id": "CHR-SRC046-003",
+    "target_character_id": "CHR-SRC046-001",
+    "relationship_type": "other",
+    "label": "issues the patrol order to Will",
+    "direction": "directed",
+    "continuity": "A Game of Thrones novel continuity; Penguin Random House authorized Prologue excerpt, opening through mounted departure",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 308–319",
+        "supports": [
+          "Waymar questions Will, orders him to lead onward, and Will leads the party."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "A narrow excerpt-level command relation only; it is not a kinship, rank-hierarchy, military, class, or later-series claim."
+  },
+  {
+    "relationship_id": "REL-SRC046-002",
+    "source_id": "SRC-046",
+    "source_character_id": "CHR-SRC046-003",
+    "target_character_id": "CHR-SRC046-002",
+    "relationship_type": "other",
+    "label": "issues the patrol order binding Gared",
+    "direction": "directed",
+    "continuity": "A Game of Thrones novel continuity; Penguin Random House authorized Prologue excerpt, opening through mounted departure",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 308–319",
+        "supports": [
+          "The order is given, honor binds the three to obey, and Gared rides in the rear."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "A narrow excerpt-level command relation only; it is not a kinship, rank-hierarchy, military, class, or later-series claim."
+  }
+]

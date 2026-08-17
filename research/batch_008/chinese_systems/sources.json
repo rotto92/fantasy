@@ -1,0 +1,67 @@
+[
+  {
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity_scope": "An explicitly limited systems pass across selected witnesses: early received literary texts (Shanhai jing and Huainanzi); Tang and Qing literary tales (Liu Yi zhuan and Liaozhai zhiyi); identified Daoist Lingbao/Yuhuang texts; a Buddhist Kṣitigarbha sutra; one Shanghai local chronicle notice; and specified academic/museum orientation sources. It does not represent a single “Chinese mythology,” nor an exhaustive Daoist, Buddhist, popular, local, ethnic, regional, historical, or living corpus. Journey to the West and Investiture of the Gods are excluded as primary evidence for this source.",
+    "work_or_witnesses": [
+      {
+        "work": "Shanhai jing; Huainanzi",
+        "edition": "Chinese Text Project digital primary-text witnesses; cited by named chapter/passage.",
+        "url": "https://ctext.org/"
+      },
+      {
+        "work": "Liu Yi zhuan; Liaozhai zhiyi",
+        "edition": "Chinese Text Project digital literary witnesses; cited by tale/chapter.",
+        "url": "https://ctext.org/"
+      },
+      {
+        "work": "Yuhuang jing; Shangqing Lingbao dafa",
+        "edition": "Chinese Text Project digital Daoist textual witnesses; cited by named chapter/section.",
+        "url": "https://ctext.org/"
+      },
+      {
+        "work": "Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra",
+        "edition": "Chinese Text Project digital Buddhist scripture witness, cited to chapter/section.",
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en"
+      },
+      {
+        "work": "Orientation scholarship",
+        "edition": "Robert Hymes, Way and Byway, ch. 2 (2002); Oxford Research Encyclopedia, “Daoism and Popular Religion in Imperial China” (2017); Metropolitan Museum, “Daoism and Daoist Art.”",
+        "url": "https://academic.oup.com/california-scholarship-online/book/22574/chapter-abstract/182917844"
+      }
+    ],
+    "coverage_rule": "Only named beings or historically named persons who materially act in one of the enumerated witnesses, plus names necessary to show the witness-specific treatment of celestial assembly, dragons, foxes, underworld administration, local City God reception, sacred geography, and transformation. Generic gods, anonymous ancestor/ghost categories, unnamed dragons, generic offices, and figures supplied only by novels, opera, television, games, fan canons, or unspecific web summaries are excluded.",
+    "in_scope_character_count": 19,
+    "completed_character_count": 19,
+    "omissions": [
+      "All unnamed ancestors, ghosts, local gods, spirit-mediums, temple officials, and ritual practitioners",
+      "The large majority of named figures in every selected text",
+      "All people/figures known only from Journey to the West, Investiture of the Gods, later adaptations, or popular summaries",
+      "Regional, ethnic, diasporic, and living-practice traditions not individually witnessed here"
+    ],
+    "uncertainties": [
+      "Textual chronology, redaction, translation, transmission, regional reception, and identity claims vary substantially across sources.",
+      "Terms may cross Daoist, Buddhist, literary, local, and popular settings without denoting the same ontology or institution.",
+      "The local Qin Yubo item is intentionally a local-chronicle case, not proof of a general City God system."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Claim-specific citations point to identified primary textual sections or to bounded academic/museum orientation sources. This pass is complete only for the declared finite witness set and coverage rule; it does not claim to complete the living, overlapping, historically layered complex named in the source title.",
+    "citations": [
+      {
+        "url": "https://academic.oup.com/edited-volume/61799/chapter-abstract/546319250",
+        "locator": "Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
+        "supports": [
+          "Daoism and Chinese popular religion require differentiated historical treatment."
+        ]
+      },
+      {
+        "url": "https://academic.oup.com/california-scholarship-online/book/22574/chapter-abstract/182917844",
+        "locator": "Robert Hymes, Way and Byway, ch. 2, pp. 26–46",
+        "supports": [
+          "Celestial bureaucracy is a model deployed in particular Daoist/local contexts."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

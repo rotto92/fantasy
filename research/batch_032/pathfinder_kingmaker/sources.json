@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "SRC-146",
+    "source_title": "Pathfinder: Kingmaker",
+    "continuity_scope": "Pathfinder: Kingmaker Enhanced Edition base game, English-language Owlcat website witness, with the original PC game release dated 25 September 2018 by Owlcat. Enhanced Edition is treated as the free last-version update described by Owlcat; paid DLC story/companion content, later ports, patches after this edition notice, tabletop Kingmaker Adventure Path editions, and other Pathfinder game continuities are excluded.",
+    "work_or_witnesses": [
+      "Owlcat: Pathfinder: Kingmaker official game page, Meet Your Companions",
+      "Owlcat: Enhanced Edition and 'Beneath the Stolen Lands' DLC are here!",
+      "Owlcat: From a Virtual Table to a Real Table: Pathfinder: Kingmaker's Second Life",
+      "Owlcat: Interview with Narrative Designer Chris Avellone"
+    ],
+    "coverage_rule": "All 11 named stable companions individually listed with a role and short profile in Owlcat's selected Enhanced Edition base-game 'Meet Your Companions' roster: Linzi, Amiri, Tristian, Octavia, Regongar, Valerie, Harrim, Jaethal, Jubilost, Ekundayo, and Nok-Nok. The player-created ruler/baron(ess) is excluded. No additional NPC, antagonist, deity, or DLC companion is included without an equivalent individual first-party profile in the selected base-game witness.",
+    "in_scope_character_count": 11,
+    "completed_character_count": 11,
+    "omissions": [
+      "The player-created main character/ruler/baron or baroness, all player builds, choices, alignment, kingdom, romances, recruits, quests, deaths, and endings.",
+      "All named NPCs, antagonists, rulers, deities, monsters, and other dramatic individuals outside the 11-person official base-game companion roster.",
+      "DLC companions and stories, including paid DLC such as Beneath the Stolen Lands; classes, ancestries, deities, alignments, factions, kingdom offices, locations, items, spells, and tabletop rules as character nodes.",
+      "The Paizo tabletop Kingmaker Adventure Path, its 2022 anniversary reissue and companion guide, Pathfinder 2e, D&D 5e adaptation, Pathfinder: Wrath of the Righteous, non-English localization, unreviewed patches/ports, adaptations, fan/community/wiki materials, walkthroughs, and secondary character databases."
+    ],
+    "uncertainties": [
+      "The roster page is an official high-level companion presentation, not a quest/dialogue/codex archive. It supports only the short, direct descriptions and role labels recorded here.",
+      "Owlcat describes the CRPG as an adaptation that changed and expanded the tabletop narrative while implementing Pathfinder 1e rules as faithfully as possible. Tabletop material is contextual only and does not establish CRPG-specific character claims in this pass.",
+      "Companions may join, react to choices, leave, or betray the player; party composition and personal arcs are branch-dependent. Optional recruitment, romance, alignment, kingdom office, deaths, and endings are not represented as universal facts.",
+      "Enhanced Edition is a free update to the last version and has mechanical changes; the selected companion roster is used only as the official base-game profile witness. No claim is made that every historical patch/platform/localization has identical content.",
+      "Some entries use in-universe first-person roster copy. Its named identity, role labels, and explicit biographical statements are retained, while evaluative voice and unlisted detail are not treated as exhaustive fact."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Owlcat game, edition, developer, and narrative-designer pages only. No fan wiki, Wikipedia, community guide, walkthrough, review, or unofficial database is used as canonical evidence.",
+    "citations": [
+      {"url": "https://kingmaker.owlcat.games/", "locator": "About the Game; Meet Your Companions section", "supports": ["Enhanced Edition framing, player/kingdom choice framing, and the 11 individually profiled base-game companions"]},
+      {"url": "https://kingmaker.owlcat.games/node/211", "locator": "Enhanced Edition and 'Beneath the Stolen Lands' DLC are here!: included-features list", "supports": ["Enhanced Edition as last-version update and its DLC distinction"]},
+      {"url": "https://owlcat.games/es/news/90", "locator": "Lines 42-46, 52-56", "supports": ["25 September 2018 original release date and CRPG/tabletop adaptation distinction"]},
+      {"url": "https://kingmaker.owlcat.games/node/13", "locator": "Interview: companion interactions, optional relationship outcomes, and replayability answers", "supports": ["Choice-dependent companion arcs, relationships, and outcomes"]}
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "source_id": "SRC-195",
+    "source_title": "Berserk",
+    "continuity_scope": "Berserk Deluxe Volume 1, Dark Horse Manga's English hardcover edition (ISBN 9781506711980; published 26 March 2019), collecting the English Berserk volumes 1–3. This is a narrow edition/metadata audit and not a franchise-wide Berserk pass. It excludes all material after the collected volume range; all anime, films, games, guidebooks, novels, merchandise, other translations/localizations, adaptations, and commentary; and the post-Miura continuation credited to Studio Gaga under Kouji Mori's supervision.",
+    "work_or_witnesses": [
+      {
+        "work": "Berserk Deluxe Volume 1",
+        "edition": "Dark Horse Manga English hardcover, ISBN 9781506711980, 696 pages, published 26 March 2019; collects Berserk volumes 1–3.",
+        "url": "https://www.penguinrandomhouse.com/books/606571/berserk-deluxe-volume-1-by-kentaro-miura/"
+      },
+      {
+        "work": "Berserk digital series page",
+        "edition": "Dark Horse Digital publisher series metadata; used for English-translation, original Japanese right-to-left format, creator, and adult-content statements.",
+        "url": "https://digital.darkhorse.com/series/826/berserk"
+      },
+      {
+        "work": "Notice of Berserk's resumption",
+        "edition": "Hakusensha official notice, 7 June 2022; used only for the post-Miura continuation-credit boundary.",
+        "url": "https://www.hakusensha.co.jp/information/63802/"
+      }
+    ],
+    "coverage_rule": "Metadata-only, zero-character pass. This audit accepts only individual named dramatic-character claims supported by page/chapter/panel locators in the selected English Deluxe Volume 1 or direct official character/story profiles for that same collected range. The accessible publisher material establishes edition, creator, format, and broad adult-content framing but supplies no chapter/page/panel-level primary locator and no direct character dossier. Therefore no individual character or relationship is inferred from synopsis copy, later volumes, adaptations, guidebooks, memories, or unofficial sources. Bands, factions, apostles as a category, brands, artifacts, places, cosmology, and narrative functions remain terms/dimensions.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named people, supernatural beings, and dramatic agents in the collected volumes 1–3, including any protagonist, companion, antagonist, or referenced figure; no claim-level primary manga locator or official character dossier is present in the selected accessible evidence set.",
+      "Mercenary bands, factions, apostles as a category, brands, weapons, artifacts, places, cosmology, violence, trauma, plot devices, narrative archetypes, and unnamed entities as character nodes.",
+      "Every chapter outside the English volumes 1–3 collection; anime, films, games, guidebooks, novels, merchandise, other translations, adaptations, and commentary.",
+      "All post-Miura continuation material credited to Studio Gaga and supervised by Kouji Mori."
+    ],
+    "content_cautions": [
+      "Dark Horse labels Berserk for mature readers and describes it as violent and horrifying; its product material warns that it is not for readers who are squeamish or easily offended.",
+      "The work is widely marketed as adult horror/fantasy. This scoped audit does not reproduce panels or quote narrative text, but researchers should anticipate extreme graphic violence, blood/gore, sexual violence and abuse themes, coercion, torture, body horror, death, trauma, and other distressing material before opening the primary volume."
+    ],
+    "uncertainties": [
+      "The accessible official/publisher witnesses do not expose a legal, chapter- and page-addressable preview of the selected 696-page edition. The pass therefore cannot responsibly create a named-character record, establish a relationship, or verify the nonlinear ordering of the opening from a panel/sequence locator.",
+      "Dark Horse establishes an English translation presented in the original Japanese right-to-left format, but the selected accessible direct publisher page does not identify an individual translator in its displayed metadata. This audit does not guess one.",
+      "The edition's current sales metadata states that it collects volumes 1–3, but it is not used to equate layout, pagination, or wording with Japanese tankobon pages or any other English edition.",
+      "Hakusensha's 2022 resumption notice confirms a different continuation credit. It does not alter authorship or evidence for the selected 2019 English collection."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Dark Horse Digital establishes that Berserk is Kentaro Miura's English-translated manga presented in original Japanese right-to-left format and marked for mature readers. The Dark Horse Manga product metadata distributed by Penguin Random House establishes the exact English Deluxe Volume 1 ISBN, publication date, page count, and volumes 1–3 collection. Hakusensha's official 2022 notice establishes the later credit line: original work by Kentaro Miura, manga by Studio Gaga, supervised by Kouji Mori. No fan wiki, Wikipedia, scanlation, panel reproduction, adaptation, guidebook, plot database, or cross-media material is used to supply character claims.",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/606571/berserk-deluxe-volume-1-by-kentaro-miura/",
+        "locator": "Product details: ISBN, publication date, pages, publisher, and included Berserk volumes 1–3",
+        "supports": [
+          "The exact selected English Deluxe Volume 1 edition and collected range."
+        ]
+      },
+      {
+        "url": "https://digital.darkhorse.com/series/826/berserk",
+        "locator": "Series description and editor statement",
+        "supports": [
+          "Kentaro Miura creation, English translation/right-to-left format, mature-content framing, and the existence of separate anime adaptations."
+        ]
+      },
+      {
+        "url": "https://www.hakusensha.co.jp/information/63802/",
+        "locator": "7 June 2022 resumption notice; continuation credit",
+        "supports": [
+          "The post-Miura continuation boundary: original work Kentaro Miura, manga Studio Gaga, supervision Kouji Mori."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

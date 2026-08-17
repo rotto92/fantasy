@@ -1,0 +1,122 @@
+[
+  {
+    "term_id": "STM-SRC112-001",
+    "source_id": "SRC-112",
+    "canonical_term": "Play to find out what happens",
+    "original_language": "English game-design lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The official statement of Dungeon World's collaborative, open-outcome play principle.",
+    "cultural_caution": "A table-play principle, not a claim that any published example, actual-play event, or player-created character is fixed canon or a reproducible plot outcome.",
+    "citations": [
+      {
+        "url": "https://www.dungeon-world.com/about/",
+        "locator": "About the Game opening",
+        "supports": [
+          "The official site describes Dungeon World as a tabletop game and says to play to find out what happens."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC112-002",
+    "source_id": "SRC-112",
+    "canonical_term": "Moves",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Rules procedures described by the official game overview as ways to drive play forward.",
+    "cultural_caution": "A mechanical procedure triggered by fictional play, not a character class, personality trait, or a guarantee that different tables will narrate the same event.",
+    "citations": [
+      {
+        "url": "https://www.dungeon-world.com/about/",
+        "locator": "Gamemaster's Toolkit",
+        "supports": [
+          "The official overview defines Moves as ways to drive the game forward."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC112-003",
+    "source_id": "SRC-112",
+    "canonical_term": "Fronts",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The GM tool described as keeping the world around players living and evolving.",
+    "cultural_caution": "A facilitator's planning tool, not a named faction, war, region, or independently canonical timeline. Its details are created for a particular game.",
+    "citations": [
+      {
+        "url": "https://www.dungeon-world.com/about/",
+        "locator": "Gamemaster's Toolkit",
+        "supports": [
+          "The official overview describes Fronts as helping the GM keep the world around players living and evolving."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC112-004",
+    "source_id": "SRC-112",
+    "canonical_term": "Agenda",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The GM guidance term identified by the official overview as keeping facilitation on track.",
+    "cultural_caution": "A role-at-the-table guide, not a fictional political agenda, an NPC motive, or an instruction to override player consent or boundaries.",
+    "citations": [
+      {
+        "url": "https://www.dungeon-world.com/about/",
+        "locator": "Gamemaster's Toolkit",
+        "supports": [
+          "The official overview says the GM's Agenda helps keep the game on track."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC112-005",
+    "source_id": "SRC-112",
+    "canonical_term": "Creative Commons Attribution license",
+    "original_language": "English licensing lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official site's stated open license for the text of Dungeon World, allowing attributed derivative use.",
+    "cultural_caution": "A license is not canon authority. It permits derivative material but does not merge hacks, supplements, actual plays, characters, or campaign events into the original 2012 rules witness.",
+    "citations": [
+      {
+        "url": "https://www.dungeon-world.com/about/",
+        "locator": "Open License",
+        "supports": [
+          "The official site states that Dungeon World's text is released under a Creative Commons Attribution license and can be used to make/distribute/sell derivatives."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "source_id":"SRC-060",
+    "source_title":"The Priory of the Orange Tree",
+    "continuity_scope":"Samantha Shannon, The Priory of the Orange Tree, Bloomsbury Publishing US first hardcover, 26 February 2019, ISBN 9781635570298, 896 pages. This is one original-English novel witness only. The novel’s named focalization strands and part/chapter locators are used rather than later paperback/ebook pagination. It does not combine the 2023 prequel, later Roots of Chaos works, adaptations, bonus material, or author commentary with this novel’s canon.",
+    "work_or_witnesses":[
+      {"work":"The Priory of the Orange Tree","edition":"Bloomsbury Publishing US first hardcover, 26 February 2019, ISBN 9781635570298; 896 pages. Bloomsbury Winter 2019 catalogue primary publication record.","url":"https://media.bloomsbury.com/rep/files/bloomsbury-adult-w19-catalogsm.pdf"},
+      {"work":"The Priory of the Orange Tree","edition":"Bloomsbury Google Books bibliographic/preview record, 2019 US edition, 848-page electronic pagination; used as limited primary-text access and to cross-check names/terms, not as a substitute for the declared hardcover pagination.","url":"https://books.google.com/books/about/The_Priory_of_the_Orange_Tree.html?id=49RdDwAAQBAJ"},
+      {"work":"The Priory of the Orange Tree","edition":"Bloomsbury UK paperback page, used only to distinguish the 2020 paperback ISBN/format from the declared 2019 US first hardcover.","url":"https://www.bloomsbury.com/uk/priory-of-the-orange-tree-9781408883358/"},
+      {"work":"Samantha Shannon author page","edition":"Official author biography, used only to distinguish The Priory from later Roots of Chaos publications, never as story-canon evidence.","url":"https://www.samanthashannon.co.uk/about"}
+    ],
+    "coverage_rule":"Include the four named viewpoint anchors (Ead Duryan, Queen Sabran IX, Tané, and Niclays Roos), Ead/Sabran's material named court-and-journey counterpart Loth Beck, the named human antagonist Kalyba, and the two named dramatic dragons Nayimathun and Fýredel. This eight-person rule spans the West court/Priory, East dragonrider, displaced alchemist, political ally, magical adversary, and named dragon perspectives. Other named figures, collective peoples, courts/orders, dragon kinds, religions, magic, artifacts, and places remain dimensions/terms.",
+    "in_scope_character_count":8,
+    "completed_character_count":8,
+    "omissions":[
+      "A Day of Fallen Night, Among the Burning Flowers, all later or future Roots of Chaos work, any prequel chronology, and all cross-work explanation of characters/terms",
+      "Adaptations, games, interviews, essays, annotations, maps, deleted material, translations, audiobook performance, reissues, and the 2020 paperback as independent continuity evidence",
+      "Named but non-cohort rulers, courtiers, Priory sisters, dragonriders, sailors, warriors, dragons, wyrms, and other supporting figures",
+      "The Priory, House Berethnet, Virtudom, the Six Virtues, courts, regions, peoples, dragon orders/kinds, magic, the orange tree/fruit, relics, and narrative viewpoints as character nodes"
+    ],
+    "uncertainties":[
+      "The novel moves among several named viewpoints across West and East. Descriptions identify the focalization strand and do not treat any one limited viewpoint, court record, legend, or secret identity claim as omnisciently confirmed fact.",
+      "Ead's hidden Priory allegiance and court persona are recorded as a secret identity within the novel, not as separate characters. Relationship and role statements remain temporally qualified where concealment matters.",
+      "US hardcover (896 pages), UK paperback (848 pages), and digital editions repaginate; named viewpoint/part/chapter locators are used rather than transferring a page from another format.",
+      "The book is copyright-controlled and the available digital preview is limited. No public-domain claim or extended quotation is made.",
+      "The novel employs diverse fictional cultures, languages, faiths, and dragon traditions. Possible real-world inspirations are not one-to-one equivalences: fictional region/people/religion terms are neither mapped to real nations/ethnicities nor treated as ethnographic claims.",
+      "The novel contains political/religious persecution, grief, violence, threatened reproductive control, and a central queer relationship. Records identify consensual relationship content and harmful structures without stereotyping or sensationalizing either."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Character, relationship, and term claims are bounded to the declared 2019 primary novel and located by its named POV/part/chapter strands; Bloomsbury's catalog supplies first-US-edition metadata and publisher summary. The Bloomsbury Google Books record supports limited searchable primary-text cross-checking. The official author page is used only to delimit later works, never as narrative canon. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://media.bloomsbury.com/rep/files/bloomsbury-adult-w19-catalogsm.pdf","locator":"Bloomsbury Winter 2019 catalogue, The Priory of the Orange Tree entry","supports":["26 February 2019 US hardcover, ISBN 9781635570298, 896-page metadata, and publisher-described Ead/Sabran/Tané premise."]},
+      {"url":"https://books.google.com/books/about/The_Priory_of_the_Orange_Tree.html?id=49RdDwAAQBAJ","locator":"The Priory of the Orange Tree, 2019 Bloomsbury US digital preview/search record; named POV chapter strands","supports":["Limited primary-text cross-checking for named individuals, terms, and their chapter-locator context."]},
+      {"url":"https://www.bloomsbury.com/uk/priory-of-the-orange-tree-9781408883358/","locator":"Bloomsbury UK 2020 paperback product details","supports":["Edition/pagination difference from the declared 2019 US first hardcover."]},
+      {"url":"https://www.samanthashannon.co.uk/about","locator":"Official author biography, Roots of Chaos listing","supports":["Later-work boundary only; not used to establish story facts."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

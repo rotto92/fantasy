@@ -1,0 +1,36 @@
+[
+  {
+    "character_id": "CHR-SRC204-001",
+    "canonical_name": "Naruto",
+    "aliases": [],
+    "source_id": "SRC-204",
+    "source_title": "Naruto",
+    "continuity": "VIZ English Naruto, Vol. 1 (2003)",
+    "work_or_witness": "VIZ Volume 1 product synopsis and free-preview reader landing page",
+    "character_kind": "individual",
+    "description": "A troublemaking child in the Village Hidden in the Leaves who struggles to graduate from Ninja Academy and aims to become the next Hokage.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Ninja Academy student", "archetype_ids": [], "confidence": "high", "note": "VIZ directly says Naruto is struggling to graduate from Ninja Academy; it does not state his rank, deployment, or professional status."}],
+      "power_traditions": [],
+      "affiliations": [{"term": "Village Hidden in the Leaves", "archetype_ids": [], "confidence": "high", "note": "The VIZ synopsis places Naruto in the village; no clan, team, or broader village membership system is inferred."}],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "Village Hidden in the Leaves", "archetype_ids": [], "confidence": "high", "note": "Direct VIZ setting name; no geographical equivalence or comprehensive setting detail is asserted."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [{"term": "aspiring Hokage", "archetype_ids": [], "confidence": "high", "note": "VIZ states Naruto's goal may be to become the next Hokage; it is an opening aspiration, not an achievement or fate claim."}],
+      "game_mechanics": []
+    },
+    "canon_status": "The only named individual directly described by the selected VIZ English Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://www.viz.com/manga-books/manga/naruto-volume-1/product/91", "locator": "Volume 1 synopsis, line 85", "supports": ["Naruto name, troublemaking-child/Ninja-Academy premise, Village Hidden in the Leaves, and next-Hokage aspiration"]}],
+    "comparison_cautions": [
+      "This entry records a fictional child in a ninja-training institution. It neither asserts historical ninja equivalence nor establishes child-soldier deployment, rank, combat ability, chakra/jutsu, clan, family history, or later development.",
+      "The product synopsis reports a past fatal village attack but does not say Naruto caused it, is the fox spirit, has a particular relationship to it, or experiences a specified form of bullying/isolation.",
+      "No anime, film, game, novel, guidebook, later-manga, Boruto, or outcome material is imported."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "source_id": "SRC-255",
+    "source_title": "Dragonheart",
+    "source_type": "film",
+    "continuity_scope": "Original 1996 Dragonheart feature-film continuity only. This pass uses Universal's official product record, Universal-licensed Apple TV distribution metadata and synopsis, and the AFI Catalog record; it excludes sequels, prequels, novelizations, games, and other franchise material.",
+    "work_or_witnesses":[{"work":"Dragonheart","edition":"1996 feature film, Universal Pictures at Home record","url":"https://www.universalpicturesathome.com/movies/dragonheart"},{"work":"Dragonheart","edition":"1996 feature film, AFI Catalog record","url":"https://catalog.afi.com/Film/60137-DRAGONHEART"},{"work":"Dragonheart","edition":"Universal-licensed Apple TV film record","url":"https://tv.apple.com/us/movie/dragonheart/umc.cmc.1r6u2kruxx9zawqvtiex4wfji"}],
+    "coverage_rule": "Include only named individual dramatic characters whose identity and character-specific claims are directly supported by the selected records. Bowen, Draco, and King Einon meet that threshold. Other credited roles are not expanded without a character-specific claim in the selected evidence.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions":["Named roles listed only in cast metadata without character-specific narrative claims in the selected sources, including Gilbert, Kara, Aislinn, Felton, Brok, Hewe, King Freyne, and young Einon.","Dragon species, knighthood, staged-slaying arrangement, shared-heart/soul wording, artifacts, places, beliefs, and political roles as character nodes.","Sequels, prequels, novelizations, games, and all broader Dragonheart franchise lore."],
+    "content_cautions":["The selected records mention action/violence, a tyrant, and death and destruction only in summary-level language. They do not support scene-by-scene violence, death, injury, or age claims.","The task's shared-heart/soul wording is not treated as established lore here: the selected official and authorized descriptions do not state its mechanism or spiritual meaning.","Sean Connery's voice credit is used only as casting corroboration; Draco's dragon identity is supported by the Apple synopsis itself."],
+    "uncertainties":["The selected materials are official/authorized product summaries and a film catalog record, not a full authorized screenplay or scene-by-scene primary transcript.","No absence claim is made about shared-heart, spiritual, age, death, or injury material in the film; those details are simply not established by the selected descriptions.","Apple's record identifies Universal Pictures as studio and © 1996 Universal City Studios; it is used as authorized distribution metadata and synopsis evidence, not as a substitute for a screenplay."],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Universal's official product record establishes the 1996 film and broad premise. Apple TV's Universal-studio and Universal-copyright record supplies the selected named synopsis claims. AFI corroborates the 1996 film and credited Bowen/Einon roles. No fan wiki or Wikipedia was used.",
+    "citations":[
+      {"url":"https://www.universalpicturesathome.com/movies/dragonheart","locator":"Synopsis and Details","supports":["1996 Dragonheart film identity, Universal copyright, PG-13 action/violence rating, and knight-and-dragon premise."]},
+      {"url":"https://tv.apple.com/us/movie/dragonheart/umc.cmc.1r6u2kruxx9zawqvtiex4wfji","locator":"About; Cast & Crew; Studio Universal Pictures; © 1996 Universal City Studios","supports":["Named synopsis claims for Bowen, Draco, and King Einon, including staged dragon slayings and their confrontation with Einon."]},
+      {"url":"https://catalog.afi.com/Film/60137-DRAGONHEART","locator":"Details and Cast","supports":["1996 film record and role-credit corroboration for Bowen and Einon."]}
+    ],
+    "last_reviewed":"2026-08-06"
+  }
+]

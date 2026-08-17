@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "SRC-119",
+    "source_title": "Gloomhaven",
+    "continuity_scope": "Cephalofair Games' original Gloomhaven board game, first printing, delivered to first-printing backers in early 2017. This is a board-game/campaign-system audit, not a broad Gloomhaven-world pass. It excludes later original-game printings, Gloomhaven Second Edition, the digital adaptation, Frosthaven, Jaws of the Lion, Forgotten Circles, mercenary packs, novels/other media, and player campaigns. The first printing is a distinct physical rules/component witness; later rebalancing, rulebook/scenario-book changes, and class content are not retroactively applied.",
+    "work_or_witnesses": [
+      {
+        "work": "Gloomhaven",
+        "edition": "Original board game, first printing; Cephalofair reports delivery to first-printing backers in early 2017.",
+        "url": "https://cephalofair.com/blogs/blog/thoughts-old-year-2017"
+      },
+      {
+        "work": "So it's a new printing, not a new edition",
+        "edition": "Official printing-history clarification; used to distinguish the original first printing from later printings and not as second-edition evidence.",
+        "url": "https://cephalofair.com/blogs/chronicle/new-printing-not-new-edition"
+      },
+      {
+        "work": "The Big Announcements",
+        "edition": "Official 2018 adaptation announcement; used only for digital-adaptation separation.",
+        "url": "https://cephalofair.com/blogs/blog/the-big-announcements"
+      }
+    ],
+    "coverage_rule": "Terms-only board-game/campaign-system audit. The original first-printing product supplies player-selected mercenary classes, player naming/choices, sealed components, and branching scenario play rather than a bounded set of fixed named dramatic protagonists. No character or relationship records are made. Classes, races, factions, conditions, items, locations, scenarios, envelopes, campaign systems, and mechanics remain terms/dimensions. A named mercenary may be added only in a separate exact official product witness that directly profiles a stable dramatic identity; a class, miniature, personal quest, player name, or table outcome is insufficient.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All player-named mercenaries, unnamed mercenary classes, miniatures, scenario enemies/NPCs, and campaign outcomes because the first-printing rules system does not supply a bounded claim-level dramatic-character cohort in this audit.",
+      "All classes, races, factions, conditions, items, locations, scenarios, envelopes, campaign systems, and rules as character nodes.",
+      "All later original-game printings, Gloomhaven Second Edition, Gloomhaven Digital, Frosthaven, Jaws of the Lion, Forgotten Circles, mercenary packs, any novel or other adaptation, and home/player campaign continuities."
+    ],
+    "content_cautions": [
+      "The game involves tactical violence, weapons, monsters, injury/death, dungeon danger, scarcity/reward systems, moral choices, and potentially dark scenario content. Groups should choose campaign content with appropriate safety and accessibility boundaries.",
+      "Sealed envelopes, unlocked components, and branching scenarios are intended spoiler-sensitive mechanisms. This audit records the system boundary but does not expose contents, plot outcomes, character identities, or puzzle solutions."
+    ],
+    "uncertainties": [
+      "Cephalofair's accessible official first-printing history confirms the 2017 delivery but does not provide a single consolidated first-printing errata PDF in this restricted witness set. No unverified community errata or later printing correction is applied.",
+      "Cephalofair states later original-game printings were still printings rather than a new edition, despite updated rulebook/scenario-book/cards and balance changes. Those later changes are explicitly outside the selected first-printing witness.",
+      "A 2018 official post describes the digital product as a true port intended to retain original mechanics; it remains a separate adaptation and does not establish tabletop character or campaign facts."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Cephalofair official publishing history and product documentation only. The 2017 post establishes original first-printing delivery; the official printing clarification establishes later-printing/errata/rebalancing boundaries; the official current Gloomhaven documentation identifies spoiler shields, sealed envelopes, class packs, campaign tracking, and branching-play systems but is used only to characterize those product mechanisms, not as an original-printing rules witness; and the 2018 post separates the digital adaptation. No fan wiki, spoiler database, or player campaign is used.",
+    "citations": [
+      {
+        "url": "https://cephalofair.com/blogs/blog/thoughts-old-year-2017",
+        "locator": "Thoughts on the Old Year 2017, 26 December 2017",
+        "supports": [
+          "Cephalofair says Gloomhaven was delivered to first-printing backers early in 2017 and identifies the separate second-printing Kickstarter."
+        ]
+      },
+      {
+        "url": "https://cephalofair.com/blogs/chronicle/new-printing-not-new-edition",
+        "locator": "Gloomhaven second-printing discussion",
+        "supports": [
+          "Official distinction between first/second/third printings, second-printing rulebook/scenario-book/component/balance changes, and the statement that those were not a new edition."
+        ]
+      },
+      {
+        "url": "https://cephalofair.com/pages/gloomhaven",
+        "locator": "Gloomhaven repository: spoiler notes, sealed-envelope components, rulebook/FAQ, and campaign-sheet errata",
+        "supports": [
+          "Official current product documentation for spoiler-sensitive envelope/component mechanisms and campaign-system boundaries; no post-2017 claims are imported into this first-printing pass."
+        ]
+      },
+      {
+        "url": "https://cephalofair.com/blogs/blog/the-big-announcements",
+        "locator": "Digital Gloomhaven announcement, 7 August 2018",
+        "supports": [
+          "Cephalofair's separate digital-adaptation/true-port boundary."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

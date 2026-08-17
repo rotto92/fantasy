@@ -1,0 +1,36 @@
+[
+  {
+    "source_id": "SRC-147",
+    "source_title": "Pathfinder: Wrath of the Righteous",
+    "continuity_scope": "Pathfinder: Wrath of the Righteous Enhanced Edition, English-language official Owlcat campaign witness. The edition boundary is PC v2.0.0 / the console Enhanced Edition release: the free PC update and the console package described by Owlcat. The pass records only the selected main-campaign presentation; it does not import character/story claims from free DLC, paid DLC, later patches, other platforms, or tabletop continuities.",
+    "work_or_witnesses": [
+      "Owlcat: Pathfinder: Wrath of the Righteous official game page, The Game / Mythic Paths / Crusade Commander",
+      "Owlcat: Pathfinder: Wrath of the Righteous Enhanced Edition on PC and Consoles Out Now",
+      "Owlcat: The New Adventure – Pathfinder: Wrath of the Righteous"
+    ],
+    "coverage_rule": "All stable named non-avatar dramatic agents directly named and functionally described in the selected official campaign overview: Areelu Vorlesh, Deskari, and Baphomet. The player-created Commander is excluded. No companion, NPC, crusade leader, deity, demon, or other individual is added without an equivalent individual claim-level Owlcat profile or direct in-game witness in the selected source set.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "The player-created hero/Commander, all player name, ancestry, class, build, alignment, mythic path, crusade, romances, choices, recruits, allies, deaths, and endings.",
+      "All named companions, NPCs, antagonists, crusade leaders, deities, angels, demons, and other individuals not functionally profiled in the selected official overview.",
+      "Mythic paths, classes, ancestries, alignments, factions, deities, crusades, rules, armies, items, locations, rituals, and systems as character nodes.",
+      "All paid DLC and its characters/stories, including Through the Ashes, The Lord of Nothing, and A Dance of Masks; free DLC content; later patch-specific content; non-English localization; ports; the tabletop Wrath of the Righteous Adventure Path; Pathfinder 1e/2e books; other Pathfinder games; adaptations; fan/community/wiki materials; walkthroughs; and secondary character databases."
+    ],
+    "uncertainties": [
+      "The game page is a high-level campaign witness, not an exhaustive cast directory or in-game dialogue/quest/codex archive. This is therefore a deliberately narrow three-character pass.",
+      "Owlcat states that the CRPG is based on the tabletop Adventure Path but includes new characters, plots, elements, and adapted mythic-path mechanics. Tabletop material is contextual only and does not establish CRPG-specific claims here.",
+      "Mythic paths and crusade choices are player-controlled and can permanently change the player character, companions, and world. No path, party, alliance, alignment shift, romance, death, or ending is made universal.",
+      "Enhanced Edition v2.0.0 adds patch- and platform-specific functionality, quest outcomes, and epilogues. The character claims remain limited to the campaign overview and are not claims about every historical/current build or DLC state.",
+      "Only English wording was reviewed. The official page describes antagonistic forces in campaign-premise language; no independent in-world adjudication or unlisted motive/power is inferred."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Owlcat campaign, edition, and development-announcement pages only. No fan wiki, Wikipedia, community guide, review, walkthrough, tabletop summary, or unofficial database is used as canonical evidence.",
+    "citations": [
+      {"url":"https://wrath.owlcat.games/","locator":"The Game, Mythic Paths, and Crusade Commander sections; lines 29-33 and 41-158","supports":["Campaign premise, Areelu Vorlesh, Deskari, Baphomet, Worldwound, player mythic paths, and crusade systems"]},
+      {"url":"https://wrath.owlcat.games/news/65","locator":"Enhanced Edition announcement, lines 14-41","supports":["Enhanced Edition v2.0.0, free-DLC package, platform scope, and edition-specific features"]},
+      {"url":"https://owlcat.games/news/31?email=2025","locator":"The New Adventure announcement, lines 41-55","supports":["Tabletop Adventure Path adaptation hierarchy, added CRPG material, mythic-path divergence, and player-choice framing"]}
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

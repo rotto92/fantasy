@@ -1,0 +1,22 @@
+[
+  {
+    "source_id":"SRC-091","source_title":"Greyhawk",
+    "continuity_scope":"Terms-only audit bound to Wizards of the Coast's 2024 Dungeon Master's Guide (revised fifth edition; official D&D Beyond material labels it ‘5.5e’ as of March 2026) and its official Greyhawk-return announcement. This is one 2024 Greyhawk presentation, not a merger of every TSR, Wizards, Living Greyhawk, novel, adventure, or licensed continuity.",
+    "work_or_witnesses":[
+      {"work":"Dungeon Master's Guide (2024)","edition":"Wizards of the Coast revised fifth-edition core rulebook, 2024","url":"https://marketplace.dndbeyond.com/rulebooks/3710000"},
+      {"work":"Greyhawk Returns in the 2024 Dungeon Master's Guide","edition":"Official D&D Beyond announcement, October 21 2024; editorial label clarification March 2 2026","url":"https://www.dndbeyond.com/posts/1834-greyhawk-returns-in-the-2024-dungeon-masters-guide"},
+      {"work":"Dungeon Master's Guide (2024) errata","edition":"Official errata document","url":"https://media.dndbeyond.com/compendium-images/errata/DMG-24/DMG-24_v1.pdf"}
+    ],
+    "coverage_rule":"No individual characters are included because the accessible official product and announcement evidence describe a customizable setting, maps, history, and artifacts but do not provide a stable claim-level profile of a named dramatic individual from the exact witness. Places, setting tools, historical events, factions, deities, monsters, artifacts, and rules remain terms/context.",
+    "in_scope_character_count":0,"completed_character_count":0,
+    "omissions":["All named characters and deities, including figures merely mentioned in product/announcement copy, until a first-party adventure/manual text supplies claim-level individual evidence.","All TSR-era, 3.x, Living Greyhawk, Pathfinder, novel, organized-play, video-game, adaptation, and fan-created continuities.","All core-D&D mechanics, ancestries, classes, alignments, spells, monsters, items, and planes that are not specifically a Greyhawk setting term in the selected witness."],
+    "uncertainties":["Greyhawk has multiple publications and retcons across editions; this audit makes no continuity reconciliation or source-hierarchy claim beyond privileging the exact 2024 Wizards witness for included terms.","The 2024 product presents Greyhawk as customizable and as a foundation for a DM's own worlds, so content is not a fixed campaign history.","‘2024’ is the rules-edition label. Official D&D Beyond later relabeled the updated fifth-edition content ‘5.5e’ for clarity; that editorial label does not create a separate Greyhawk continuity.","The official errata document is recorded as a version/maintenance boundary, not parsed for setting claims; future updates may change digital presentation."],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Official D&D Beyond/Wizards product and announcement material establishes the exact 2024 product context, Greyhawk's customizable-setting status, Eastern Oerik/Free City map context, the Greyhawk Gazetteer, and selected setting terms. No accessible first-party text profiles named dramatic individuals sufficiently for character records.",
+    "citations":[
+      {"url":"https://marketplace.dndbeyond.com/rulebooks/3710000","locator":"Official product page, ‘Ready-made Adventure’ and product specifications","supports":["2024 Dungeon Master's Guide as the selected product and Greyhawk's customizable ready-to-use setting role."]},
+      {"url":"https://www.dndbeyond.com/posts/1834-greyhawk-returns-in-the-2024-dungeon-masters-guide","locator":"Official announcement, editor’s note and ‘Getting into Greyhawk’/‘Life During Wartime’","supports":["2024/5.5e label clarification, map/gazetteer context, and setting-specific terms." ]},
+      {"url":"https://media.dndbeyond.com/compendium-images/errata/DMG-24/DMG-24_v1.pdf","locator":"Official Dungeon Master's Guide (2024) errata document","supports":["Errata/version-maintenance boundary." ]}
+    ],"last_reviewed":"2026-08-05"
+  }
+]

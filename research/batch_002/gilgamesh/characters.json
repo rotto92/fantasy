@@ -1,0 +1,904 @@
+[
+  {
+    "character_id": "CHR-SRC012-001",
+    "canonical_name": "Gilgamesh",
+    "aliases": [
+      "Gilgameš",
+      "Bilgames"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "King of Uruk and the poem’s protagonist; after Enkidu’s death he travels in search of Utnapishtim and a way beyond mortality.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Gilgamesh’s mixed divine-human status",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Retained source-specifically; not collapsed into deity or human archetype."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=538",
+        "locator": "George 2003, Vol. I, Tablet I, lines 1–110 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-002",
+    "canonical_name": "Enkidu",
+    "aliases": [],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The wild man created in response to Uruk’s distress; Shamhat draws him into human society, he becomes Gilgamesh’s companion, and his death drives the later quest.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human / mortal person in the poem",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Enkidu and Utnapishtim have exceptional origin or condition; this is not a claim of ordinary human status."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "Enkidu’s death and lament",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical narrative label, not an Akkadian source category."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=538",
+        "locator": "George 2003, Vol. I, Tablet I, lines 1–110 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-003",
+    "canonical_name": "Shamhat",
+    "aliases": [
+      "Šamḫat"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The woman sent to encounter Enkidu; she initiates his separation from the animals and guides him toward Uruk’s human world.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human / mortal person in the poem",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Enkidu and Utnapishtim have exceptional origin or condition; this is not a claim of ordinary human status."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=538",
+        "locator": "George 2003, Vol. I, Tablet I, lines 1–110 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-004",
+    "canonical_name": "Ninsun",
+    "aliases": [
+      "Ninsuna"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "Gilgamesh’s divine mother, who adopts Enkidu as kin and prays to Shamash for the two heroes before the Cedar Forest expedition.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=570",
+        "locator": "George 2003, Vol. I, Tablet III, lines 1–190 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-005",
+    "canonical_name": "Shamash",
+    "aliases": [
+      "Šamaš",
+      "Utu"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The sun god and patron of Gilgamesh’s expedition; he aids the heroes against Humbaba and speaks to Enkidu after the divine judgment.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=599",
+        "locator": "George 2003, Vol. I, Tablet V, lines 1–300 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-006",
+    "canonical_name": "Aruru",
+    "aliases": [
+      "Aruru",
+      "Mami"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The goddess who fashions Enkidu at the gods’ request in the Standard Babylonian opening.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=538",
+        "locator": "George 2003, Vol. I, Tablet I, lines 1–110 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-007",
+    "canonical_name": "Humbaba",
+    "aliases": [
+      "Ḫumbaba",
+      "Huwawa"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The fearsome guardian of the Cedar Forest, defeated and killed by Gilgamesh and Enkidu with Shamash’s aid.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Ḫumbaba, Cedar Forest guardian",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Ontology left unmapped rather than equating the guardian with a generic demon or monster."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=599",
+        "locator": "George 2003, Vol. I, Tablet V, lines 1–300 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-008",
+    "canonical_name": "Ishtar",
+    "aliases": [
+      "Ištar",
+      "Inanna"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The goddess who propositions Gilgamesh and, after he refuses, demands the Bull of Heaven from Anu; she mourns the Bull’s death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-009",
+    "canonical_name": "Anu",
+    "aliases": [
+      "An"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The high god and Ishtar’s father, who gives her the Bull of Heaven after her demand and warning.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-010",
+    "canonical_name": "Bull of Heaven",
+    "aliases": [
+      "Bull of Heaven (GUD.AN.NA)"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The named heavenly bull released against Uruk; Gilgamesh and Enkidu kill it, provoking the gods’ subsequent deliberation.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Bull of Heaven",
+          "archetype_ids": [
+            "PPL-820"
+          ],
+          "confidence": "moderate",
+          "note": "Functional legendary-beast mapping; its divine context remains primary."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-011",
+    "canonical_name": "Utnapishtim",
+    "aliases": [
+      "Uta-napišti",
+      "Ut-napishtim the Faraway"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The flood survivor whom Gilgamesh reaches beyond the Waters of Death; he explains the divine flood and tests Gilgamesh’s pursuit of lasting life.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human / mortal person in the poem",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Enkidu and Utnapishtim have exceptional origin or condition; this is not a claim of ordinary human status."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-012",
+    "canonical_name": "Siduri",
+    "aliases": [],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The tavern-keeper encountered on Gilgamesh’s journey; she questions him at the gate and directs him toward Urshanabi.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=669",
+        "locator": "George 2003, Vol. I, Tablet X, lines 1–320 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-013",
+    "canonical_name": "Urshanabi",
+    "aliases": [
+      "Ur-šanabi"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "Utnapishtim’s boatman, who transports Gilgamesh across the Waters of Death after the loss of his stone helpers.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=669",
+        "locator": "George 2003, Vol. I, Tablet X, lines 1–320 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-014",
+    "canonical_name": "Ea",
+    "aliases": [
+      "Ea",
+      "Enki"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The god who secretly warns Utnapishtim of the gods’ flood decision through the reed wall and later addresses the divine assembly.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-015",
+    "canonical_name": "Enlil",
+    "aliases": [
+      "Ellil"
+    ],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The god who leads the flood decision in Utnapishtim’s account and later grants Utnapishtim and his wife exceptional life.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-016",
+    "canonical_name": "Adad",
+    "aliases": [],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "The storm god whose thunder and storm are part of the flood’s destruction in Utnapishtim’s account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-017",
+    "canonical_name": "Ninurta",
+    "aliases": [],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "A named god active in the flood account, associated there with tearing out the dikes before the storm breaks.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC012-018",
+    "canonical_name": "Ennugi",
+    "aliases": [],
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "work_or_witness": "George 2003, The Babylonian Gilgamesh Epic, Vol. I, Chapter 11; cited tablet and lines",
+    "character_kind": "individual",
+    "description": "A named god active in the flood account, associated there with tearing out the posts before the storm breaks.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named Mesopotamian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Broad analytical category only; the gods’ identities, cults, and relationships are source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting character within declared Standard Babylonian Tablets I–XI witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300 (composite Standard Babylonian text)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not merge this Standard Babylonian reconstruction with Old Babylonian, Sumerian, Hittite, Hurrian, or later adaptive versions. Line locations identify a modern composite reconstruction from fragmentary manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  }
+]

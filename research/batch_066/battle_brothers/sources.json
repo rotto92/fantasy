@@ -1,0 +1,22 @@
+[
+  {
+    "source_id": "SRC-190",
+    "source_title": "Battle Brothers",
+    "continuity_scope": "Battle Brothers 1.0, English PC full release by Overhype Studios on 24 March 2017. This is a procedural base-game campaign-system pass, not a particular player campaign or a later patch/DLC/console witness.",
+    "work_or_witnesses": ["Battle Brothers 1.0 full release (Overhype Studios; 24 March 2017)", "Overhype official Features page", "Overhype official Strategic Worldmap page", "Overhype official Full Release announcement", "Overhype official 2021 Anniversary Sale post"],
+    "coverage_rule": "Terms-only audit. No player-recruited Battle Brother is a stable canonical individual because Overhype states that campaign characters, world map, combat maps, factions, and the nature of the crisis are procedurally generated. No fixed named dramatic NPC is directly profiled in the selected 1.0 official witness set. Backgrounds, parties, contracts, crises, equipment, injuries, and factions remain terms.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": ["All player-created/recruited brothers, procedurally generated factions/employers/enemies, and playthrough-specific events/outcomes are omitted as nonstable character identities.", "The Digital Lore & Art Book, soundtrack, later patches, free Lindwurm content, paid expansions, Nintendo Switch and PlayStation console ports, mods, and current 1.5 update material are separate witnesses.", "No named NPC or monster roster is inferred from community material, changelogs, or player campaigns."],
+    "uncertainties": ["The selected full-release page identifies Battle Brothers 1.0 but does not itself provide a frozen executable/hash; later updates change content and balance.", "Several developer blog pages predate 1.0 and are used only where final-release Features repeats their generic mechanics; pre-alpha design claims are not elevated to 1.0 canon.", "This pass describes a game system featuring war, invasions, undead, brutal injury, death, and possible return as undead; it does not characterize those themes as a fixed narrative sequence.", "Pass-complete denotes completion under the zero-character, selected-witness rule, not exhaustion of procedural in-game event text."],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Overhype Studios' official developer blog and final 1.0 feature list. No fan wiki, Wikipedia, mod documentation, or player-campaign material is used.",
+    "citations": [
+      {"url":"https://battlebrothersgame.com/full-release/","locator":"Full Release!, 24 March 2017; final 1.0 feature list","supports":["full-release date, 1.0 framing, and base-game feature list"]},
+      {"url":"https://battlebrothersgame.com/features/","locator":"Gameplay and Features","supports":["mercenary-company premise, procedural campaign, worldmap/tactical layers, injuries, permadeath, backgrounds, development, equipment, events, and crises"]},
+      {"url":"https://battlebrothersgame.com/strategic-worldmap/","locator":"The Strategic Worldmap / World Simulation","supports":["randomly generated world, player company banner, procedurally generated factions, and player decision boundary"]},
+      {"url":"https://battlebrothersgame.com/anniversary-sale/","locator":"Anniversary Sale, 27 April 2021","supports":["Early Access/full-release dates, three expansion-sized DLCs, and Nintendo Switch release boundary"]}
+    ],
+    "last_reviewed":"2026-08-06"
+  }
+]

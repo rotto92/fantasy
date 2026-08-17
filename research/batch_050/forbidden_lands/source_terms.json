@@ -1,0 +1,122 @@
+[
+  {
+    "term_id": "STM-SRC116-001",
+    "source_id": "SRC-116",
+    "canonical_term": "Forbidden Lands",
+    "original_language": "English setting/game lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The named fictional cursed-world setting and the title of Free League's first-edition survival roleplaying game.",
+    "cultural_caution": "A fictional fantasy setting, not a real territory, people, or historical society. No core-product claim here establishes a real-world cultural or social analogue.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/games/forbidden-lands/",
+        "locator": "Rogues & Raiders in a Cursed World",
+        "supports": [
+          "Free League identifies Forbidden Lands as a cursed-world classic-fantasy survival RPG."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC116-002",
+    "source_id": "SRC-116",
+    "canonical_term": "raiders and rogues",
+    "original_language": "English game/setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "functional",
+    "definition": "The official core-product framing for player-created adventurers who make their own mark rather than receive dictated missions.",
+    "cultural_caution": "Fictional player-role framing, not a description of real crime, property, political resistance, ethnicity, or an assertion about a named character's actions.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/shop/forbidden-lands/core-boxed-set/",
+        "locator": "Core Boxed Set opening description",
+        "supports": [
+          "Free League describes the player role as raiders and rogues making their own mark on a cursed world."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC116-003",
+    "source_id": "SRC-116",
+    "canonical_term": "hex-map exploration and journey procedures",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core game's player-directed map exploration and travel procedures, including scouting, foraging, hunting, camp, rest, hazards, and encounters.",
+    "cultural_caution": "A survival/hexcrawl procedure, not a canonical map history or proof that a table's route, resource state, encounter, injury, or place discovery occurred in shared fiction.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/games/forbidden-lands/",
+        "locator": "The Game",
+        "supports": [
+          "Free League describes map exploration, travel/scouting/foraging/hunting/camp/rest procedures, hazards, and encounters."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC116-004",
+    "source_id": "SRC-116",
+    "canonical_term": "stronghold",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core game's player-developed defended base, created from a conquered castle or dungeon and expanded with features and defenses.",
+    "cultural_caution": "A player-campaign construction system, not a pre-existing character affiliation, a claim of rightful possession, or an endorsement of conquest over real places or peoples.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/games/forbidden-lands/",
+        "locator": "The Game: stronghold development",
+        "supports": [
+          "Free League describes converting an old castle or dungeon into a player-character stronghold and developing it."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC116-005",
+    "source_id": "SRC-116",
+    "canonical_term": "fifth-printing core-set errata",
+    "original_language": "English game-product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Free League's official clarification/change boundary for the latest fifth printing of the core set.",
+    "cultural_caution": "A printing-specific rules boundary, not a fictional historical retcon or a reason to assume all copies have identical mechanics. Consult the exact printing and official errata for a detailed rule claim.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/wp-content/uploads/2023/09/FBL-ENG_errata-1.pdf",
+        "locator": "Opening statement",
+        "supports": [
+          "Official errata identifies significant clarifications and changes in the latest fifth printing of the core set."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

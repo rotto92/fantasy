@@ -1,0 +1,17 @@
+[
+  {
+    "source_id": "SRC-215",
+    "source_title": "Log Horizon, Vol. 1 (light novel): The Beginning of Another World",
+    "continuity_scope": "Yen Press/Yen On English Log Horizon, Vol. 1 light novel, paperback ISBN 9780316383059 (21 April 2015) and digital ISBN 9781975309848 (18 February 2020), 230 pages; author Mamare Touno and artist Kazuhiro Hara. The selected witness is the exact official Yen Press Volume 1 metadata/synopsis page. No public prose chapter/page preview was surfaced there, so this is an explicitly narrow metadata pass. The Japanese Enterbrain light novel, web publication, manga, anime, games, later volumes, guidebooks, and every other adaptation are separate witnesses or continuities.",
+    "work_or_witnesses": ["Mamare Touno and Kazuhiro Hara, Log Horizon, Vol. 1: The Beginning of Another World, Yen On English light-novel edition", "Yen Press, exact Volume 1 official metadata and synopsis"],
+    "coverage_rule": "All named individual dramatic figures in the selected official Volume 1 synopsis: Shiroe, Naotsugu, and Akatsuki. This narrow metadata pass is not a full cast extraction. Gamers, guardians, assassins, guilds, monsters, food, Elder Tales, the game world, systems, places, and themes are dimensions or terms, not character nodes.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": ["All named or unnamed figures not named in the exact Volume 1 synopsis; all player/offline names, avatars, guilds, and later cast details absent from it.", "Detailed prose chapters, skills, races, items, governance, politics, game mechanics, death outcomes, and later developments; Japanese novel/web publication, manga, anime, games, later volumes, guidebooks, and adaptations.", "Fan wikis, Wikipedia, databases, reviews, social summaries, and long prose or illustration reproduction."],
+    "uncertainties": ["The selected Yen Press page names author and artist but does not state a translator or expose public prose chapter/page locators. This three-record result is complete only under the named-synopsis rule.", "The synopsis calls the people Japanese gamers and Elder Tales an MMORPG that becomes cold hard reality. It does not identify individual players' offline identities, prove a particular avatar/body relationship, or set out a full game-system/governance model; none is inferred.", "Entrapment, monsters, inability to die, and survival pressure are source-fiction content. They are not claims about real games, digital identity, health, safety, or death."],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Yen Press exact Volume 1 metadata/synopsis only; no public primary prose excerpt was available. No fan or secondary source is used as canonical evidence.",
+    "citations": [{"url":"https://yenpress.com/titles/9781975309848-log-horizon-vol-1-light-novel","locator":"Official Volume 1 metadata and synopsis","supports":["Selected English editions, author/artist, ISBN/date/page metadata, Elder Tales MMORPG premise, trapped gamers, Shiroe, Naotsugu, Akatsuki, monsters, flavorless food, inability to die, and shared adventure"]}],
+    "last_reviewed": "2026-08-06"
+  }
+]

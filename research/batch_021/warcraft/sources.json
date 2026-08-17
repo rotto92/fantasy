@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "SRC-135",
+    "source_title": "Warcraft",
+    "continuity_scope": "World of Warcraft: Dragonflight, Patch 10.0 launch baseline (North American English; global launch 28 November 2022). Character claims are limited to Blizzard's official Dragon Aspects recap used as a launch-era witness, not to later Dragonflight patches, other World of Warcraft expansions, Warcraft strategy-game campaigns, novels, comics, adaptations, or Classic variants.",
+    "work_or_witnesses": [
+      "Blizzard: World of Warcraft: Dragonflight Now Live! (28 November 2022)",
+      "Blizzard: The Story So Far: Take Wing Through Time with the Dragon Aspects",
+      "Blizzard: Mark Your Calendars: The Journey to the Dragon Isles Begins November 28"
+    ],
+    "coverage_rule": "All individually named Dragon Aspects given individual profile subsections in the selected official Dragon Aspects recap: Alexstrasza, Nozdormu, and Neltharion. The player-created adventurer and the broad dragonflights, races, factions, classes, units, artifacts, zones, and systems remain dimensions/source terms.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "Player-created heroes/adventurers and all player-selected race, class, faction, and specialization identities.",
+      "Other named figures mentioned in the recap or launch materials (Ysera, Kalecgos, Thrall, Malygos, and others), because they do not have their own selected individual profile subsection under this narrow witness rule.",
+      "All later Dragonflight patches, Season 1 content, game modes, current retail state, Classic variants, other Warcraft games, novels, Chronicle volumes, comics, films, and other adaptations.",
+      "Dragonflights, dragonkind, dracthyr, Evoker, the Dragon Soul, Dragon Isles, major factions, dungeons, raids, and Dragonriding as character nodes."
+    ],
+    "uncertainties": [
+      "World of Warcraft is live service. This pass fixes the 10.0 launch date and does not treat later patches as evidence for the launch baseline.",
+      "The official aspect article is a retrospective publisher recap. It is authoritative first-party orientation for the stated claims, but it does not resolve Chronicle-versus-game-text source hierarchy, future retcons, or every in-world narrator's reliability.",
+      "The launch materials are North American English. Localization variants and naming differences are not merged without a matching official witness.",
+      "The recap contains historical spoilers and an explicitly foreseen possible future for Nozdormu; only its qualified wording is retained."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Blizzard World of Warcraft pages for launch date, selected character profiles, relationship claims, and terminology. No fan wiki, Wikipedia, or community guide is used as evidence.",
+    "citations": [
+      {
+        "url": "https://worldofwarcraft.blizzard.com/en-us/news/23873409/world-of-warcraft-dragonflight-now-live",
+        "locator": "Dragonflight Now Live!, 28 November 2022; opening overview and Dragon Isles sections",
+        "supports": ["Dragonflight launch, Dragon Isles framing, and 10.0 live-service scope"]
+      },
+      {
+        "url": "https://worldofwarcraft.blizzard.com/en-us/news/23876527/the-story-so-far-take-wing-through-time-with-the-dragon-aspects",
+        "locator": "Alexstrasza, Nozdormu, and Neltharion individual subsections; Dragon Soul and Aftermath sections",
+        "supports": ["Selected character profiles and all named-character relationship claims"]
+      },
+      {
+        "url": "https://worldofwarcraft.blizzard.com/en-us/news/23859631/mark-your-calendars-the-journey-to-the-dragon-isles-begins-november-28",
+        "locator": "Global release schedule; Dragonriding; New Talent System",
+        "supports": ["Exact launch time/date and base-release mechanics"]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

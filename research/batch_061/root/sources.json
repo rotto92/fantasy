@@ -1,0 +1,37 @@
+[
+  {
+    "source_id": "SRC-126",
+    "source_title": "Root: A Game of Woodland Might and Right",
+    "continuity_scope": "Terms-only audit bound to the 2018 first printing of Leder Games' Root base board game. Leder Games identifies Root as released in 2018. Current product/resources and the Oct. 2025 Law of Root are used only to identify enduring terminology and later rules hierarchy; they do not silently replace this first-printing witness. Third printing introduced corrections and minor faction-board balance adjustments, so later printings and current Law text remain separate rules witnesses.",
+    "work_or_witnesses": [
+      "Root: A Game of Woodland Might and Right, Leder Games, first printing, 2018",
+      "Root base-game official product page",
+      "Leder Games Rules Library: Law of Root, updated October 8, 2025 (later rules witness)",
+      "Root Upgrade Kit / FAQ (printing-change witness)"
+    ],
+    "coverage_rule": "Include a named individual only where the first-printing core directly profiles a stable dramatic person. Marquise de Cat, Eyrie Dynasties, Woodland Alliance, and Vagabond are player-selected faction/role systems; their boards, leaders, and classes are not character nodes. The available official core material profiles asymmetric play systems and a variable contest, not named people. No individual qualifies.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All expansions, hirelings, landmark/deck packs, Clockwork bots, later maps, current 2025 Homeland material, and their names or story claims.",
+      "Root: The Roleplaying Game, Root Digital, Tabletop Simulator, fiction, recordings, and player sessions.",
+      "Named faction labels, Eyrie leader cards, Vagabond character cards/classes, quests, items, and any player-selected story outcomes.",
+      "Third and later board-game printings as rules/errata witnesses beyond the documented boundary."
+    ],
+    "uncertainties": [
+      "The core box printing number must be read beside its barcode; this pass fixes first printing conceptually but does not claim a particular owned physical copy was inspected.",
+      "Leder Games says third printing introduced corrections and minor balance adjustments to faction boards. The current Law of Root has further updates, including rules changed after later expansions/printings; those changes are not applied here.",
+      "The product's woodland species/faction imagery and political language are genre/game constructions. The game frames war, extraction, rebellion, monarchy, policing, dominance, and conquest; it should not be treated as a model of real species, peoples, colonial histories, or political movements.",
+      "Player choice and asymmetric faction objectives mean individual sessions cannot establish a single canonical winner, alliance, or narrative outcome."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Leder Games product, rules-library, FAQ, and upgrade-kit evidence only. No fan wikis, Wikipedia, play reports, or non-official lore summaries were used.",
+    "citations": [
+      {"url": "https://ledergames.com/pages/about", "locator": "About Leder Games", "supports": ["States that Leder Games released Root in 2018."]},
+      {"url": "https://ledergames.com/products/root-a-game-of-woodland-might-and-right", "locator": "A Game of Woodland Might and Right; Asymmetric Design; Resources", "supports": ["Defines the base factions as asymmetric player systems and supplies base-game terms/components."]},
+      {"url": "https://ledergames.com/products/root-upgrade-kit", "locator": "Root Upgrade Kit", "supports": ["States that third printing introduced corrections and minor faction-board balance adjustments for first/second-printing owners."]},
+      {"url": "https://rules.ledergames.com/?locale=en-US&printing=p1&product=root", "locator": "Golden Rules; Game Structure; update dated October 8, 2025", "supports": ["Identifies the current Law as a later rules authority and documents its rules hierarchy."]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

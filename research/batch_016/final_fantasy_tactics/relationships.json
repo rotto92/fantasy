@@ -1,0 +1,23 @@
+[
+  {
+    "relationship_id": "REL-SRC130-001",
+    "source_id": "SRC-130",
+    "source_character_id": "CHR-SRC130-001",
+    "target_character_id": "CHR-SRC130-002",
+    "relationship_type": "companion",
+    "label": "childhood friends who grew up together",
+    "direction": "undirected",
+    "continuity": "FINAL FANTASY TACTICS 獵子戦争, Japanese PSP launch edition (10 May 2007)",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/fft_shi/",
+        "locator": "Story description (ディリータはラムザの幼なじみとして共に育てられた)",
+        "supports": [
+          "Delita and Ramza grew up together as childhood friends"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Companion is the closest permitted relationship type for the official synopsis's childhood-friend wording; it does not imply a party-membership or later alliance claim."
+  }
+]

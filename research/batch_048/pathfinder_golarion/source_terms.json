@@ -1,0 +1,170 @@
+[
+  {
+    "term_id": "STM-SRC098-001",
+    "source_id": "SRC-098",
+    "canonical_term": "Golarion",
+    "original_language": "English Pathfinder setting terminology",
+    "original_script": "Golarion",
+    "transliteration": "not applicable",
+    "literal_gloss": "campaign world",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The Pathfinder campaign world named by Paizo’s official World Guide support article as the setting for games.",
+    "cultural_caution": "A fictional campaign-world term, not a character endpoint or a claim that this one 2019 setting guide exhausts all Golarion continuity.",
+    "citations": [
+      {
+        "url": "https://paizo.com/blog/we-should-travel-by-map",
+        "locator": "Official post, closing paragraph",
+        "supports": [
+          "Golarion as the named Pathfinder game-world context for the selected World Guide."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC098-002",
+    "source_id": "SRC-098",
+    "canonical_term": "Age of Lost Omens",
+    "original_language": "English Pathfinder setting terminology",
+    "original_script": "Age of Lost Omens",
+    "transliteration": "not applicable",
+    "literal_gloss": "setting age",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The uncertain setting age named in the 2019 World Guide product description.",
+    "cultural_caution": "A source-specific setting-era label, not a real historical period, a universal Pathfinder timeline, or a character identity.",
+    "citations": [
+      {
+        "url": "https://store.paizo.com/pathfinder-lost-omens-world-guide/",
+        "locator": "Official product page, ‘Claim Your Destiny’",
+        "supports": [
+          "Age of Lost Omens as the World Guide’s setting-age framing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC098-003",
+    "source_id": "SRC-098",
+    "canonical_term": "Inner Sea region",
+    "original_language": "English Pathfinder setting terminology",
+    "original_script": "Inner Sea region",
+    "transliteration": "not applicable",
+    "literal_gloss": "setting region",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The geographic focus divided into the World Guide’s ten metaregions in Paizo’s official preview material.",
+    "cultural_caution": "A setting geography term, not a named individual, a real-world sea, or a claim that all Golarion regions receive equal coverage in this product.",
+    "citations": [
+      {
+        "url": "https://paizo.com/blog/tales-of-lost-omens?page=3",
+        "locator": "Official post, opening paragraphs",
+        "supports": [
+          "Inner Sea region as the ten-metaregion focus of the World Guide."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC098-004",
+    "source_id": "SRC-098",
+    "canonical_term": "Absalom",
+    "original_language": "English Pathfinder setting terminology",
+    "original_script": "Absalom",
+    "transliteration": "not applicable",
+    "literal_gloss": "setting city",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A location in the World Guide support article, identified as home to the Starstone Cathedral and the Pathfinder Society.",
+    "cultural_caution": "A fictional setting place, not a character endpoint or a comprehensive city history across editions and adaptations.",
+    "citations": [
+      {
+        "url": "https://paizo.com/blog/we-should-travel-by-map",
+        "locator": "Official post, ‘Our first stop is at Absalom’ paragraph",
+        "supports": [
+          "Absalom’s selected World Guide place context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC098-005",
+    "source_id": "SRC-098",
+    "canonical_term": "Pathfinder Society",
+    "original_language": "English Pathfinder setting terminology",
+    "original_script": "Pathfinder Society",
+    "transliteration": "not applicable",
+    "literal_gloss": "setting organization",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The organization named in the World Guide support article as based in Absalom.",
+    "cultural_caution": "An organization term, not a collective character endpoint, a claim about individual membership, or a statement of Pathfinder Society organized-play rules.",
+    "citations": [
+      {
+        "url": "https://paizo.com/blog/we-should-travel-by-map",
+        "locator": "Official post, Absalom paragraph",
+        "supports": [
+          "Pathfinder Society as a selected World Guide organization term."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC098-006",
+    "source_id": "SRC-098",
+    "canonical_term": "wayfinder",
+    "original_language": "English Pathfinder setting terminology",
+    "original_script": "wayfinder",
+    "transliteration": "not applicable",
+    "literal_gloss": "Pathfinder equipment",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "An iconic tool of the Pathfinder Society identified in the World Guide support article.",
+    "cultural_caution": "An item/category term, not a character endpoint, an exhaustive item-stat record, or a claim about ownership by any individual.",
+    "citations": [
+      {
+        "url": "https://paizo.com/blog/we-should-travel-by-map",
+        "locator": "Official post, Absalom paragraph on Pathfinder tools",
+        "supports": [
+          "Wayfinders as selected Pathfinder Society tools in the World Guide context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC098-007",
+    "source_id": "SRC-098",
+    "canonical_term": "backgrounds and archetypes",
+    "original_language": "English Pathfinder Second Edition rules terminology",
+    "original_script": "backgrounds and archetypes",
+    "transliteration": "not applicable",
+    "literal_gloss": "character-option categories",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Character-option categories that Paizo’s World Guide support article says the product includes alongside regional material.",
+    "cultural_caution": "Rules/option categories, not character endpoints or proof that any named character has chosen a given background or archetype; terminology is legacy 2019 second edition, not presumed remaster wording.",
+    "citations": [
+      {
+        "url": "https://paizo.com/blog/we-should-travel-by-map",
+        "locator": "Official post, closing paragraph",
+        "supports": [
+          "World Guide inclusion of backgrounds and archetypes as character options."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

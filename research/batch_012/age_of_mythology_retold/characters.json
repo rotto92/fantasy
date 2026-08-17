@@ -1,0 +1,121 @@
+[
+  {
+    "character_id": "CHR-SRC281-001",
+    "canonical_name": "Arkantos",
+    "aliases": [],
+    "source_id": "SRC-281",
+    "source_title": "Age of Mythology: Retold",
+    "continuity": "Retold official launch campaign witness; mechanics bounded through Update 19.14612 (8 June 2026)",
+    "work_or_witness": "The Fall of the Trident, as described in the official launch announcement",
+    "character_kind": "individual",
+    "description": "Named campaign agent whom the official launch description says players follow with unlikely allies in a quest to thwart Gargarensis's world-shattering plans.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "campaign hero",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "An interface/narrative role in this commercial game witness, not a claim about a traditional heroic office."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "questing protagonist",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "A limited comparative description of the official launch synopsis, not a universal narrative classification."
+        }
+      ],
+      "game_mechanics": [
+        {
+          "term": "The Fall of the Trident campaign player-followed agent",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official post says players follow Arkantos; it does not establish a complete ability kit or full campaign roster."
+        }
+      ]
+    },
+    "canon_status": "named central campaign agent in the selected official Retold launch witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "Jump Into a Campaign, paragraph 1",
+        "supports": [
+          "The official description says players follow Arkantos and allies in The Fall of the Trident.",
+          "It identifies Arkantos's quest as thwarting Gargarensis's plans."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Arkantos is recorded only as a fictional game-campaign character in this dated Retold witness; this record does not make him a figure of any traditional mythic corpus.",
+      "No combat class, ethnicity, lineage, divine relationship, or full campaign biography is inferred from the selected promotional description."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC281-002",
+    "canonical_name": "Gargarensis",
+    "aliases": [],
+    "source_id": "SRC-281",
+    "source_title": "Age of Mythology: Retold",
+    "continuity": "Retold official launch campaign witness; mechanics bounded through Update 19.14612 (8 June 2026)",
+    "work_or_witness": "The Fall of the Trident, as described in the official launch announcement",
+    "character_kind": "individual",
+    "description": "Named cyclops whose world-shattering plans are the objective Arkantos and allies seek to thwart in the official launch description.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "cyclops",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The game's launch text calls this named individual a cyclops. This is game-specific descriptive terminology, not a general claim about Greek Cyclopes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "campaign antagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Limited to the stated opposition in the official game synopsis."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named campaign opponent in the selected official Retold launch witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "Jump Into a Campaign, paragraph 1",
+        "supports": [
+          "The official description identifies Gargarensis as a cyclops with world-shattering plans.",
+          "It identifies Arkantos's quest as seeking to thwart those plans."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Gargarensis is a named fictional game character, not a node representing the generic cyclops category.",
+      "The game label must not be used as evidence for Greek mythic witnesses, taxonomy, genealogy, or traditional characterization."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

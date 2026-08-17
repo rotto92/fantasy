@@ -1,0 +1,54 @@
+[
+  {
+    "source_id": "SRC-035",
+    "source_title": "Earthsea",
+    "continuity_scope": "A character-layer pass limited to Ursula K. Le Guin's A Wizard of Earthsea, not the full Earthsea cycle. The declared witness is the English Clarion Books paperback, 11 September 2012, ISBN 9780547722023. Chapter titles and numbers are the precise narrative locators because they remain stable across printings; no page number is transferred from another edition.",
+    "work_or_witnesses": [
+      {
+        "work": "A Wizard of Earthsea",
+        "edition": "Clarion Books paperback, 11 September 2012, ISBN 9780547722023",
+        "url": "https://bookshop.org/p/books/a-wizard-of-earthsea-1-ursula-k-le-guin/6389611?ean=9780547722023"
+      },
+      {
+        "work": "A Wizard of Earthsea",
+        "edition": "Author estate bibliography and book page; original publication Parnassus/Houghton Mifflin 1968, current Clarion Books context",
+        "url": "https://www.ursulakleguin.com/a-wizard-of-earthsea"
+      }
+    ],
+    "coverage_rule": "Include Ged; his named teachers and Roke peers who materially shape the plot (Ogion, Nemmerle, Vetch, Jasper); named individual adversaries or instruments of the shadow crisis (Serret, Benderesk, Skiorh); the named individual dragon adversary Yevaud; and Pechvarry, the named local host whose encounter marks a decisive cost of the pursuit. This is a 10-individual cohort for one novel, not a list of every Earthsea name.",
+    "in_scope_character_count": 10,
+    "completed_character_count": 10,
+    "omissions": [
+      "The Tombs of Atuan, The Farthest Shore, Tehanu, Tales from Earthsea, The Other Wind, Earthsea short fiction, essays, graphic-novel adaptation, television/miniseries adaptations, and all later continuities.",
+      "The unnamed shadow, unnamed dragons, peoples, islands, Roke School, the Archipelago, spells, true names, the Old Speech, the Equilibrium, and the Stone of Terrenon as nodes; they remain source terms or character dimensions.",
+      "Named but non-cohort figures such as Ged's parents, village witches, Roke masters without a material individual plot function, Pendor's other dragons, and minor sailors or villagers.",
+      "Claims about all Earthsea cultures, Le Guin's complete philosophy, or a universal reading of the novel's naming ethics."
+    ],
+    "uncertainties": [
+      "The selected ISBN has conflicting public pagination metadata: Bookshop lists 272 pages, while some catalog and Google Books records list 251. The ISBN, date, publisher, and chapter locators are fixed; page-level verification must use a physical or licensed copy of the selected printing before quotation or page-specific scholarship.",
+      "The novel's account of true names and the Old Speech is intentionally contextual. It is not a generic true-name spell system, a password mechanic, or authority over persons.",
+      "The shadow is excluded because it is not given an independent personal name in the declared witness. Its changing relation to Ged is recorded only as a state/term and relationship context.",
+      "Descriptions are concise paraphrases and omit long quotation from the copyrighted novel."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary claims are cited to the declared printed novel by exact chapter title/number. The author estate bibliography and book page establish original and current publication context; the edition-specific trade record establishes the selected ISBN/date. No fan wiki, Wikipedia, or plot-summary site is canonical evidence.",
+    "citations": [
+      {
+        "url": "https://bookshop.org/p/books/a-wizard-of-earthsea-1-ursula-k-le-guin/6389611?ean=9780547722023",
+        "locator": "Clarion Books paperback metadata: ISBN 9780547722023, 11 September 2012",
+        "supports": ["Declared edition identity and accessible page-count report."]
+      },
+      {
+        "url": "https://www.ursulakleguin.com/a-wizard-of-earthsea",
+        "locator": "Author estate book page; synopsis",
+        "supports": ["A Wizard of Earthsea as Ged/Sparrowhawk's story of releasing a shadow, naming, dragon encounter, and restored balance."]
+      },
+      {
+        "url": "https://www.ursulakleguin.com/bibliography",
+        "locator": "The Books of Earthsea bibliography section",
+        "supports": ["Original 1968 Parnassus/Houghton Mifflin publication and the distinct six-book Earthsea sequence beyond this pass."]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

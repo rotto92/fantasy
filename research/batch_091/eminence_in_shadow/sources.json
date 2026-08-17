@@ -1,0 +1,36 @@
+[
+  {
+    "source_id": "SRC-246",
+    "source_title": "The Eminence in Shadow, Vol. 1 (light novel)",
+    "continuity_scope": "Yen On/Yen Press's authorized English light-novel Volume 1 hardback, ISBN 978-1-975359-05-8, released 11 August 2020 (with the same product page also listing a digital edition, ISBN 978-1-975359-06-5). This pass is limited to the official product-page metadata and exact Volume 1 synopsis; no unlicensed or untranscribed novel text is used. Manga, anime, game, audio adaptation, later light-novel volumes, and every other adaptation are separate continuities/witnesses.",
+    "work_or_witnesses": [
+      "Daisuke Aizawa and Touzai, The Eminence in Shadow, Vol. 1 (light novel), authorized English Yen On edition",
+      "Yen Press official Volume 1 product page and synopsis"
+    ],
+    "coverage_rule": "Include named individual dramatic figures directly named in the exact official Volume 1 synopsis. Cid is the sole named individual. His imagined mastermind role is a stated aspiration/persona, not a separate person node, and the synopsis does not name it Shadow or give Cid a family name. The organization, cult, adversaries, reincarnation, past life, new world, imagination, role-play, and conspiracy premise are dimensional terms or audit context. Its unnamed members and all unnamed adversaries are excluded.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "All persons not named in the selected publisher synopsis, including organization members and adversaries.",
+      "Any Japanese-script/romanized family name, alias, codename, organization name, cult name, faction structure, power, skill, artifact, location, reincarnation mechanism, or identity reveal absent from this exact source text.",
+      "All detailed Volume 1 scenes and later light-novel material; manga, anime, game, audio adaptation, web publication, promotional artwork, fan wikis, Wikipedia, databases, reviews, and social summaries."
+    ],
+    "uncertainties": [
+      "The official English Volume 1 synopsis names the protagonist only as Cid. It supplies neither Japanese script, a surname, nor the word Shadow as a personal alias; no familiar franchise expansion is imported.",
+      "The synopsis says Cid is reborn into another world and says he jokingly recruits members to an organization while inventing an evil-cult backstory. It does not state the mechanism, former-life identity, age, gender identity, powers, skills, membership list, organization name, cult name, or any real-world conspiracy claim.",
+      "The page has a Teen age rating. Although it refers to an evil cult and imaginary adversaries becoming real, the selected summary does not substantiate a concrete violent act, coercion, injury, death, youth circumstance, or sexual-content event. Deception/role-play is fictional premise material, not safety guidance."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Yen Press/Yen On Volume 1 metadata and synopsis only. The evidence window is deliberately narrower than the full authorized novel and does not mix related manga, anime, game, or audio pages.",
+    "citations": [
+      {
+        "url": "https://yenpress.com/titles/9781975359058-the-eminence-in-shadow-vol-1-light-novel",
+        "locator": "Official Yen Press The Eminence in Shadow, Vol. 1 (light novel) product page: synopsis and full details",
+        "supports": [
+          "Authorized light-novel Volume 1 identity, Daisuke Aizawa/Touzai credit, release/ISBN/Teen metadata, Cid, past life, rebirth into another world, mastermind aspiration, organization recruitment, fabricated cult backstory, and real adversaries premise"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

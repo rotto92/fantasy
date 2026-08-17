@@ -1,0 +1,122 @@
+[
+  {
+    "term_id": "STM-SRC103-001",
+    "source_id": "SRC-103",
+    "canonical_term": "Journey",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Core Rules' named procedure for travelling across the land.",
+    "cultural_caution": "A game procedure, not evidence that a literary character took a particular journey or that every Middle-earth travel episode follows this rules structure.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/",
+        "locator": "Includes: rules for travelling across the land (Journey)",
+        "supports": [
+          "Free League identifies Journey as the game's travel rules."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC103-002",
+    "source_id": "SRC-103",
+    "canonical_term": "Council",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Core Rules' named procedure for meeting personalities of Middle-earth.",
+    "cultural_caution": "A game procedure for play, not a literary transcript or a basis for asserting a relationship, motive, or social status for a named Tolkien character.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/",
+        "locator": "Includes: rules for meeting personalities of Middle-earth (Council)",
+        "supports": [
+          "Free League identifies Council as the game's meeting/social rules."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC103-003",
+    "source_id": "SRC-103",
+    "canonical_term": "the Shadow",
+    "original_language": "English licensed-setting/game lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "A named threat and rules subject in the Core Rules' campaign frame, as the game presents heroes in a land threatened by a growing Shadow.",
+    "cultural_caution": "Licensed game framing only. Do not reduce Tolkien's literary moral, spiritual, or historical themes to a generic alignment, sanity meter, or clinical condition; rules effects and literary meaning require separate evidence.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/games/the-one-ring/",
+        "locator": "Overview and The setting: year 2965 of the Third Age",
+        "supports": [
+          "Free League frames the game around a returning/lengthening Shadow and lists rules for the Shadow."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC103-004",
+    "source_id": "SRC-103",
+    "canonical_term": "Patrons",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "functional",
+    "definition": "Individuals who sponsor the adventures of Player-heroes in the Core Rules' game framework.",
+    "cultural_caution": "A source-specific player-character sponsorship role. It is not by itself evidence of a literary character's complete affiliation network or an instruction to promote a patron office into a character node.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/",
+        "locator": "Includes: in-depth information on six Patrons",
+        "supports": [
+          "Free League defines Patrons as individuals sponsoring Player-hero adventures."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC103-005",
+    "source_id": "SRC-103",
+    "canonical_term": "Eye of Mordor",
+    "original_language": "English licensed-setting/game lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "A named Core Rules subject included with Loremaster guidance for bringing Middle-earth to play.",
+    "cultural_caution": "The product page establishes a game-rule subject only; it does not establish the term's full literary interpretation, chronology, or effects outside this licensed second-edition rules context.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/",
+        "locator": "Includes: Loremaster advice, rules for magical treasure, the Shadow, and the Eye of Mordor",
+        "supports": [
+          "Free League lists the Eye of Mordor as a Core Rules topic."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

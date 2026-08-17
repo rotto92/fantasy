@@ -1,0 +1,129 @@
+[
+  {
+    "term_id": "STM-SRC127-001",
+    "source_id": "SRC-127",
+    "canonical_term": "マルチストーリー＆マルチエンディング (multi-story & multi-ending)",
+    "original_language": "Japanese",
+    "original_script": "マルチストーリー＆マルチエンディング",
+    "transliteration": "maruchi sutōrī ando maruchi endingu",
+    "literal_gloss": "multiple-story and multiple-ending",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The official product description says the PSP title retains a multi-story/multi-ending system in which developments and conclusions vary by player choice.",
+    "cultural_caution": "A route/ending system is not a character, faction, morality node, or authorization to flatten mutually exclusive paths into one relationship graph.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/tacticsogre/",
+        "locator": "Product description, opening paragraph",
+        "supports": [
+          "The PSP product description identifies multi-story/multi-ending as a retained original system and says choices change developments and conclusions."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC127-002",
+    "source_id": "SRC-127",
+    "canonical_term": "クラス (class)",
+    "original_language": "Japanese",
+    "original_script": "クラス",
+    "transliteration": "kurasu",
+    "literal_gloss": "class",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The PSP product description says the title retains character development while adding new characters and classes; later official comparison states that Wheel of Fortune managed levels by class.",
+    "cultural_caution": "Class is a version-specific rules category, not a character, social caste, universal occupation, or graph endpoint.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/tacticsogre/",
+        "locator": "Product description, opening paragraph",
+        "supports": [
+          "The product description identifies character development and the addition of new classes."
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/tor/battledesign/",
+        "locator": "Unit-related: unit-level management",
+        "supports": [
+          "The later official comparison says Wheel of Fortune used class-level management, changed in Reborn to unit-level management."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC127-003",
+    "source_id": "SRC-127",
+    "canonical_term": "運命の輪 (Wheel of Fortune)",
+    "original_language": "Japanese",
+    "original_script": "運命の輪",
+    "transliteration": "unmei no wa",
+    "literal_gloss": "wheel of fate/fortune",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The official product description identifies the Wheel of Fortune as a new PSP system added alongside revised scenario, characters, and classes.",
+    "cultural_caution": "This is a named game system, not a cosmological law, divination doctrine, character, or justification for treating all branching results as simultaneous canon.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/tacticsogre/",
+        "locator": "Product description, opening paragraph",
+        "supports": [
+          "The product description lists the Wheel of Fortune as a new system in the PSP title."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC127-004",
+    "source_id": "SRC-127",
+    "canonical_term": "大アルカナ (major arcana)",
+    "original_language": "Japanese",
+    "original_script": "大アルカナ",
+    "transliteration": "dai arukana",
+    "literal_gloss": "major arcana",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Square Enix's PSP release announcement says tarot cards play an important role in the game and describes a 22-card major-arcana preorder-card set.",
+    "cultural_caution": "The use of tarot imagery in a fictional game and preorder item does not establish real divination practice, a character ability, or a metaphysical entity node.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/company/ja/news/2010/html/68b886fb96bc08bbe2b941bd88be94e7.html",
+        "locator": "Original Tarot Cards, paragraphs 1–2",
+        "supports": [
+          "Tarot cards have a major role in the PSP game and the announced set contains 22 major arcana."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC127-005",
+    "source_id": "SRC-127",
+    "canonical_term": "運命の輪 C.H.A.R.I.O.T. (Wheel of Fortune C.H.A.R.I.O.T.)",
+    "original_language": "Japanese / English acronym",
+    "original_script": "運命の輪 C.H.A.R.I.O.T.",
+    "transliteration": "unmei no wa chariot",
+    "literal_gloss": "Wheel of Fortune C.H.A.R.I.O.T.",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Later official Reborn comparison documentation explicitly names Wheel of Fortune C.H.A.R.I.O.T. as the legacy system for replaying from a recorded action/turn position during battle.",
+    "cultural_caution": "This term is documented through a later official comparison page, not a 2010 in-game manual page; it remains an edition-specific rules feature, not literal time travel or a character power.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/tor/battledesign/",
+        "locator": "Wheel of Fortune-related: Wheel of Fortune C.H.A.R.I.O.T.",
+        "supports": [
+          "The official comparison page names C.H.A.R.I.O.T. and describes replaying from a recorded turn/position during battle."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  }
+]

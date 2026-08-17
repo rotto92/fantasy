@@ -1,0 +1,177 @@
+[
+  {
+    "term_id": "STM-SRC180-001",
+    "source_id": "SRC-180",
+    "canonical_term": "original Nintendo Switch US-English release",
+    "original_language": "English video-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The selected TRIANGLE STRATEGY Nintendo Switch US release, dated 4 March 2022; Nintendo lists Square Enix as manufacturer and multiple supported languages including American English.",
+    "cultural_caution": "A version/platform/localization witness, not a statement that Steam, Digital Deluxe, later console/VR releases, demos, patches, or all localized scripts have identical text or content.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/triangle-strategy-114283/",
+        "locator": "About this item",
+        "supports": [
+          "Nintendo lists Switch system, 4 March 2022 release date, Square Enix manufacturer, and language support."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC180-002",
+    "source_id": "SRC-180",
+    "canonical_term": "Norzelia and the three nations",
+    "original_language": "English game-setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official setup identifies Norzelia as the continent where Glenbrook, Aesfrost, and Hyzante compete for power around salt and iron after a historically fragile peace.",
+    "cultural_caution": "Fictional nations and resource conflict only. They are affiliations/settings, not character endpoints or direct analogues for real states, peoples, or historical conflicts.",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Story",
+        "supports": [
+          "Square Enix identifies Norzelia, the three nations, and their salt/iron conflict."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC180-003",
+    "source_id": "SRC-180",
+    "canonical_term": "Utility, Morality, Liberty, and the Scales of Conviction",
+    "original_language": "English game-system lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Nintendo describes three convictions—Utility, Morality, and Liberty—that shape Serenoa's worldview, influence story development, and frame momentous votes through the Scales of Conviction.",
+    "cultural_caution": "These are source-specific branching-game variables, not stable diagnostic labels, universal moral categories, or proof that any character holds the same position in every route.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/triangle-strategy-114283/",
+        "locator": "Product description",
+        "supports": [
+          "Nintendo describes the three convictions and momentous votes on the Scales of Conviction."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC180-004",
+    "source_id": "SRC-180",
+    "canonical_term": "branching allies and route outcomes",
+    "original_language": "English game-system lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Nintendo states that decisions can send the story in different directions and affect which characters join Serenoa's cause; players can replay to see other choices impact the adventure.",
+    "cultural_caution": "Recruitment, votes, deaths, alliances, and endings are route/player-state outcomes. Do not convert any one route into universal biography, party membership, or relationship canon.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/challenge-convictions-in-the-triangle-strategy-game-available-now/",
+        "locator": "Challenging choices",
+        "supports": [
+          "Nintendo says choices can send the story in different directions and affect characters who join the cause."
+        ]
+      },
+      {
+        "url": "https://www.nintendo.com/us/store/products/triangle-strategy-switch/",
+        "locator": "Bolster your convictions and discover multiple paths through the story",
+        "supports": [
+          "Nintendo says convictions influence who joins and replaying exposes other choice impacts."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC180-005",
+    "source_id": "SRC-180",
+    "canonical_term": "multi-tier terrain and elemental combat",
+    "original_language": "English tactical-combat lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Nintendo describes tactical multi-tiered maps, positional advantages, flanking follow-up attacks, and elemental chain reactions such as fire, ice, lightning, and water interactions.",
+    "cultural_caution": "Combat systems and elements are mechanics, not character identities or proof that every officially profiled person possesses any particular power/class in all routes.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/triangle-strategy-switch/",
+        "locator": "Control multi-tiered terrain to strategically secure victory",
+        "supports": [
+          "Nintendo explains terrain, flanking, follow-up attacks, and elemental chain-reaction combat."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC180-006",
+    "source_id": "SRC-180",
+    "canonical_term": "Prologue Demo boundary",
+    "original_language": "English demo-product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Nintendo's free Prologue Demo permits play through the first three chapters and allows progress to transfer to the full Switch game.",
+    "cultural_caution": "A limited pre-release/demo witness, not coverage of the full game. It cannot establish later routes, recruits, deaths, endings, or post-launch version behavior.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/challenge-convictions-in-the-triangle-strategy-game-available-now/",
+        "locator": "Free demo available",
+        "supports": [
+          "Nintendo says the Prologue Demo covers the first three chapters and transfers progress to the full game."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC180-007",
+    "source_id": "SRC-180",
+    "canonical_term": "later Steam and Digital Deluxe boundary",
+    "original_language": "English product-distribution lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Square Enix announced TRIANGLE STRATEGY's Steam availability and a Digital Deluxe bundle in October 2022, after the selected March 2022 Switch release.",
+    "cultural_caution": "A separate later platform/package boundary. Availability, bundles, platform behavior, version updates, or later promotional framing do not establish the selected Switch witness's text or route facts.",
+    "citations": [
+      {
+        "url": "https://www.square-enix-games.com/en_US/home/tactical-rpg-will-challenge-convictions-triangle-strategy-out-steam",
+        "locator": "Steam release announcement, 13 October 2022",
+        "supports": [
+          "Square Enix identifies Steam availability and a Digital Deluxe bundle."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

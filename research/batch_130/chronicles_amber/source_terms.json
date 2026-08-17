@@ -1,0 +1,105 @@
+[
+  {
+    "term_id": "STM-SRC039-001",
+    "source_id": "SRC-039",
+    "canonical_term": "Nine Princes in Amber (1970) Chapter 1 witness",
+    "original_language": "English",
+    "original_script": "Nine Princes in Amber",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected first-edition opening-chapter witness: Roger Zelazny’s Nine Princes in Amber, published by Doubleday in 1970.",
+    "cultural_caution": "This is a specific printed-edition and chapter boundary, not a merge of later novels, posthumous or other-author continuations, adaptations, games, translations, or reader reference summaries.",
+    "citations": [
+      {
+        "url": "https://search.worldcat.org/title/Nine-princes-in-amber/oclc/1036768024",
+        "locator": "Nine princes in amber; Roger Zelazny; [1st ed.], Doubleday, Garden City, N.Y., 1970",
+        "supports": [
+          "author/title/first-edition/publisher/year identification"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC039-002",
+    "source_id": "SRC-039",
+    "canonical_term": "Greenwood",
+    "original_language": "English",
+    "original_script": "Greenwood",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The named hospital setting of the selected opening chapter.",
+    "cultural_caution": "A fictional place/institution term, not a character node and not evidence about real hospitals, psychiatric care, medication, disability, coercion, or professional practice.",
+    "citations": [
+      {
+        "url": "https://search.worldcat.org/title/Nine-princes-in-amber/oclc/1036768024",
+        "locator": "Roger Zelazny, Nine princes in amber, [1st ed.], Doubleday, 1970; Chapter 1",
+        "supports": [
+          "Greenwood as the opening hospital setting"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC039-003",
+    "source_id": "SRC-039",
+    "canonical_term": "reported memory loss",
+    "original_language": "English",
+    "original_script": "amnesia",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The opening narrative condition in which the narrator reports missing personal memories and seeks information about his situation.",
+    "cultural_caution": "The creator discusses amnesia as a narrative device. This term does not diagnose the character, establish a medical cause or treatment, generalize about disability or mental health, or imply unreliable testimony in every respect.",
+    "citations": [
+      {
+        "url": "https://reactormag.com/a-few-words-from-roger-zelazny-part-seven-rogers-vision-of-amber/",
+        "locator": "‘Some Sort of Family Squabble,’ Roger Zelazny retrospective interview excerpt",
+        "supports": [
+          "amnesia as the opening information-discovery device", "hospital awakening context"
+        ]
+      },
+      {
+        "url": "https://search.worldcat.org/title/Nine-princes-in-amber/oclc/1036768024",
+        "locator": "Roger Zelazny, Nine princes in amber, [1st ed.], Doubleday, 1970; Chapter 1",
+        "supports": [
+          "the chapter-level primary witness for the narrator’s reported memory gap"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC039-004",
+    "source_id": "SRC-039",
+    "canonical_term": "opening identity uncertainty",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected chapter’s limited first-person structure: the narrator and reader receive incomplete information about his identity and circumstances.",
+    "cultural_caution": "A formal narrative description, not a clinical, legal, moral, or philosophical claim about personal identity. It does not license importing later revelations or treating the character’s local name as permanently settled.",
+    "citations": [
+      {
+        "url": "https://reactormag.com/a-few-words-from-roger-zelazny-part-seven-rogers-vision-of-amber/",
+        "locator": "‘Some Sort of Family Squabble,’ Roger Zelazny retrospective interview excerpt",
+        "supports": [
+          "Zelazny’s explanation that the protagonist learns answers alongside the reader because of memory loss"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

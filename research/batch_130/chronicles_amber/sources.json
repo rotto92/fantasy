@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "SRC-039",
+    "source_title": "The Chronicles of Amber — Nine Princes in Amber (1970), Chapter 1",
+    "continuity_scope": "Roger Zelazny’s Nine Princes in Amber, first edition (Doubleday, 1970), Chapter 1 only. This is a bounded opening-text witness, not a pass over the full novel or The Chronicles of Amber as a whole. Later chapters, the remaining Corwin novels, the Merlin novels, later short fiction, post-Zelazny continuations, adaptations, games, reference works, and all translation/edition-specific variations are excluded.",
+    "work_or_witnesses": [
+      "Roger Zelazny, Nine Princes in Amber, Doubleday first edition, 1970, Chapter 1",
+      "WorldCat catalog record for the first edition (bibliographic verification only)",
+      "Theodore Krulik, ‘A Few Words from Roger Zelazny, Part Seven: Roger’s Vision of Amber,’ Reactor (creator interview/context, used only to corroborate the opening amnesia device and not to add later plot facts)"
+    ],
+    "coverage_rule": "Include the one named individual dramatic participant directly present and identified within Chapter 1: the first-person narrator under the hospital-recorded name Carl Corey. Unnamed hospital staff remain omissions. A name on a hospital record is not treated as sufficient evidence to add an absent person as a character node. The later name Corwin, his alleged family links, Amber/Shadow cosmology, succession, Pattern/Logrus, powers, artifacts, places beyond the immediate named hospital, travel mechanics, and later identity disclosures remain terms or omissions rather than characters or relationships.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "The narrator’s later identity, aliases, claimed royal status, parentage, siblings, and family relationships are deliberately not imported into this Chapter 1 pass. No kinship relationship is added.",
+      "Evelyn Flaumel is a name in the chapter’s hospital-record context but is not directly present under this pass’s dramatic-participant rule; unnamed nurses, orderlies, and other staff are likewise excluded.",
+      "Amber, Shadow, Courts of Chaos, Pattern, Logrus, Trumps, monarchy/succession, powers, artifacts, non-Earth places, and inter-world travel are outside this opening witness or are retained only as excluded concepts; none becomes a character node.",
+      "Chapters 2 onward, all later Amber books and short stories, continuations by other authors, tabletop/computer-game adaptations, prospective screen adaptation material, summaries, and reference works are excluded.",
+      "Hospitalization, medication, injury, coercion, family violence, disability/body, gender, class, and monarchy are not expanded beyond the limited narrative facts needed here. The pass makes no clinical diagnosis, moral assessment, or real-world social inference."
+    ],
+    "uncertainties": [
+      "Chapter 1 supplies ‘Carl Corey’ while the narrator reports incomplete memory. This pass preserves that local identifier and does not silently replace it with a later-revealed name.",
+      "The narrator’s account and hospital materials are early, incomplete, and potentially strategic or unreliable within the fiction. Reported medical and family circumstances are not independently adjudicated.",
+      "‘Amnesia’ appears as a literary plot device in the creator’s retrospective discussion. It is not treated here as a verified clinical diagnosis, a cause of behavior, or a generalized mental-health category.",
+      "The public catalog verifies the original 1970 edition but is bibliographic rather than a full online text. Detailed claims are tied to the published primary text’s Chapter 1 locator; the creator-interview source is corroborative context only."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "The exact published primary-text witness is Nine Princes in Amber (Doubleday, 1970), Chapter 1, cited at chapter level. WorldCat provides library-catalog confirmation of the author, title, first-edition label, publisher, place, and year. A Reactor article preserves Roger Zelazny’s retrospective explanation that the opening hospital/amnesia setup lets reader and protagonist discover information together. No fan wiki, Wikipedia, unlicensed transcript, or later-continuity summary establishes a record.",
+    "citations": [
+      {
+        "url": "https://search.worldcat.org/title/Nine-princes-in-amber/oclc/1036768024",
+        "locator": "Nine princes in amber; Roger Zelazny; [1st ed.], Doubleday, Garden City, N.Y., 1970",
+        "supports": [
+          "exact edition identity", "author", "publisher", "place", "year"
+        ]
+      },
+      {
+        "url": "https://reactormag.com/a-few-words-from-roger-zelazny-part-seven-rogers-vision-of-amber/",
+        "locator": "‘Some Sort of Family Squabble,’ Roger Zelazny retrospective interview excerpt",
+        "supports": [
+          "Nine Princes in Amber begins with the protagonist waking in a hospital", "amnesia as an opening discovery device", "need not to assume later family/identity facts from the opening"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

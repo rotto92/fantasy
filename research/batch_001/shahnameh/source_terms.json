@@ -1,0 +1,197 @@
+[
+  {
+    "term_id": "STM-SRC011-001",
+    "source_id": "SRC-011",
+    "canonical_term": "šāh",
+    "original_language": "New Persian",
+    "original_script": "شاه",
+    "transliteration": "šāh",
+    "literal_gloss": "king",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The title borne by the poem’s rulers; succession and legitimacy are narrative and ethical matters, not a portable game-class role.",
+    "cultural_caution": "Do not collapse the poem’s many forms of kingship into a uniform monarchy or infer historical Iranian institutions from a single epic episode.",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, contents and pp. 118–237, headings for successive reigns",
+        "supports": [
+          "The translation witness organizes its opening cycles by the reigns of named kings."
+        ]
+      },
+      {
+        "url": "https://www.iranicaonline.org/articles/kingship/",
+        "locator": "KINGSHIP, headword and linked subentries",
+        "supports": [
+          "Iranian kingship has historically varied institutions and concepts."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC011-002",
+    "source_id": "SRC-011",
+    "canonical_term": "pahlavān",
+    "original_language": "New Persian",
+    "original_script": "پهلوان",
+    "transliteration": "pahlavān",
+    "literal_gloss": "hero; champion",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [
+      "ROL-139"
+    ],
+    "mapping_relation": "functional",
+    "definition": "A heroic designation in the poem’s martial world, represented here through its leading named bearers such as Rostam; it is not treated as a bounded profession or player class.",
+    "cultural_caution": "‘Champion’ is only a functional atlas label. Pahlavān carries Persian epic, ethical, and later cultural resonances that exceed competitive or occupational senses.",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 44–76, ‘The Seven Courses of Rustam’",
+        "supports": [
+          "Rostam’s exceptional heroic martial function in the poem."
+        ]
+      },
+      {
+        "url": "https://www.iranicaonline.org/articles/sahnama-excursus/",
+        "locator": "ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam as foremost Iranian hero",
+        "supports": [
+          "Scholarly characterization of Rostam’s heroic position."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC011-003",
+    "source_id": "SRC-011",
+    "canonical_term": "dīv",
+    "original_language": "New Persian",
+    "original_script": "دیو",
+    "transliteration": "dīv",
+    "literal_gloss": "demon; monster; fiend (context-dependent)",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-501"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A broad epic label applied to hostile nonhuman beings, including the White Dīv and the Black Dīv; the poem can also use it in relation to Iblis/Ahriman.",
+    "cultural_caution": "Do not equate dīv wholesale with a Western ‘demon,’ generic monster species, jinn, or historical ethnic group. Its meanings and portrayal vary across Iranian religious, literary, and folk contexts.",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 57–59, ‘The Sixth’ and ‘Seventh Course’ (Arzhang Dīv and White Dīv)",
+        "supports": [
+          "Named dīvs act as antagonists in the poem."
+        ]
+      },
+      {
+        "url": "https://www.iranicaonline.org/articles/div/",
+        "locator": "DĪV, opening paragraphs and Shahnameh discussion",
+        "supports": [
+          "The term’s broad and shifting Iranian literary meanings, including its Shahnameh usage."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC011-004",
+    "source_id": "SRC-011",
+    "canonical_term": "Sīmorgh",
+    "original_language": "New Persian",
+    "original_script": "سیمرغ",
+    "transliteration": "Sīmorgh",
+    "literal_gloss": "fabulous/mythical bird",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-820"
+    ],
+    "mapping_relation": "functional",
+    "definition": "The named fabulous bird that rears Zal and later aids Rostam; retained as a source-specific being rather than reduced to a generic bird creature.",
+    "cultural_caution": "The functional ‘guardian beast’ mapping does not represent the full religious, literary, iconographic, or regional history of Simorgh/Sēnmurw.",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 239–251, ‘The Birth of Zal’ and his return",
+        "supports": [
+          "Simorgh’s care for Zal in the poem."
+        ]
+      },
+      {
+        "url": "https://www.iranicaonline.org/articles/simorg/",
+        "locator": "SIMORḠ, opening definition and pre-Islamic tradition discussion",
+        "supports": [
+          "Simorgh’s wider Iranian mythic history."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC011-005",
+    "source_id": "SRC-011",
+    "canonical_term": "farr / xᵛarənah",
+    "original_language": "New Persian / Avestan",
+    "original_script": "فر / xᵛarənah-",
+    "transliteration": "farr; xᵛarənah",
+    "literal_gloss": "glory; royal/divine fortune",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-508",
+      "LAW-509"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A source-context term relevant to the poem’s presentation of legitimate or lost royal glory, especially in Jamshid’s fall; it is not a quantified power resource.",
+    "cultural_caution": "Farr/xᵛarənah is neither simply ‘mana’ nor an interchangeable universal mandate. The poem’s account must be distinguished from Avestan, Pahlavi, and later political-theological uses.",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–145, ‘The Greatness and Fall of Jamshid’",
+        "supports": [
+          "The translation describes Jamshid’s loss of grace before his fall."
+        ]
+      },
+      {
+        "url": "https://www.iranicaonline.org/articles/farrah/",
+        "locator": "FARR(AH), opening definition and attestations",
+        "supports": [
+          "The scholarly definition and linguistic history of farr/xᵛarənah."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC011-006",
+    "source_id": "SRC-011",
+    "canonical_term": "Īrān / Tūrān",
+    "original_language": "New Persian",
+    "original_script": "ایران / توران",
+    "transliteration": "Īrān / Tūrān",
+    "literal_gloss": "Iran / Turan",
+    "dimension": "cultures",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Major poem-internal political and narrative designations structuring dynastic and heroic conflict; they are not racial species labels or direct equivalents of present-day nation-states.",
+    "cultural_caution": "Avoid mapping these epic terms to modern ethnicity, borders, or immutable civilizational blocs. Their meanings vary across Iranian textual traditions and are shaped by the poem’s narrative.",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 189–232, Fereydun’s partition and conflict among Salm, Tur, and Iraj",
+        "supports": [
+          "The poem’s early framing of territorial and dynastic division."
+        ]
+      },
+      {
+        "url": "https://www.iranicaonline.org/articles/sah-nama/",
+        "locator": "ŠĀH-NĀMA, overview of Iran’s continuous narrative and contested claim",
+        "supports": [
+          "Scholarly orientation on the epic’s Iran-centered collective narrative."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

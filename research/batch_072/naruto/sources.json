@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "SRC-204",
+    "source_title": "Naruto",
+    "continuity_scope": "Naruto, Vol. 1, VIZ English paperback/digital edition (16 August 2003; ISBN 978-1-56931-900-0; 192 pages), credited to Masashi Kishimoto. This is a narrow English manga-volume pass. Shueisha's original Japanese NARUTO―ナルト― 1 (3 March 2000; ISBN 4-08-872840-8) is included only as a separate original-edition/translation boundary, not merged wording or character evidence.",
+    "work_or_witnesses": [
+      "Naruto, Vol. 1, VIZ English paperback/digital edition (16 August 2003)",
+      "VIZ Volume 1 free-preview reader landing page",
+      "NARUTO―ナルト― 1, Shueisha Japanese print/digital product listing (3 March 2000)",
+      "NARUTO OFFICIAL SITE anime index"
+    ],
+    "coverage_rule": "Include only named individual dramatic characters directly named by the selected VIZ English Volume 1 product synopsis. This yields Naruto alone. The leader is identified only by the title Hokage and the nine-tailed fox spirit is unnamed, so each remains a term rather than a character endpoint. The VIZ preview landing page exposes no practical searchable chapter/panel text; therefore no character or relationship claim is inferred from untranscribed panels.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "All named classmates, teachers, rivals, family, village leaders, antagonists, clans, teams, and tailed beings are omitted because the selected VIZ synopsis does not individually name them.",
+      "Later manga volumes/chapters, the Japanese serialization and original Volume 1 text, anime, films, games, novels, guidebooks, stage productions, merchandise, and all other adaptations are separate witnesses.",
+      "Boruto manga/anime is separately indexed by the official site and is not evidence for this Naruto Volume 1 pass.",
+      "Ninja ranks, teams, villages, clans, chakra, jutsu, tailed beasts, items, places, and thematic concepts remain terms/dimensions rather than character nodes unless an individual is directly named and described in the selected witness.",
+      "The synopsis reports a past attack and deaths but does not establish a complete account of violence, child-soldier deployment, bullying, isolation, trauma, or resolution; those broader-franchise topics are not imported."
+    ],
+    "uncertainties": [
+      "The VIZ product page contains a primary Volume 1 preview reader, but its browser-readable landing page lacks text/panel or chapter locators. This pass is consequently narrow official-metadata research rather than a panel-level primary-text extraction.",
+      "VIZ's synopsis supports Naruto as a troublemaking child struggling to graduate from Ninja Academy and aspiring to the next Hokage, but it gives no named peers, instructor, exact age, family history, ninja rank, clan, chakra/jutsu, fox relationship, or outcome.",
+      "The Japanese Shueisha Volume 1 synopsis gives an original-language framing of Naruto as a Ninja Academy problem child in Konohagakure and includes a birth-secret tease. It is not treated as proof of identical English localization wording or as a license to add detail.",
+      "'Ninja,' 'Hokage,' Konohagakure, and character names are fictional manga terms in this witness. No claim is made that its ninja institutions, techniques, people, or naming conventions represent real historical Japanese ninja, Japanese culture, or any single etymology/inspiration.",
+      "Past attack/death, child training, potential bullying/isolation, and child-soldier readings are content/interpretive cautions only. The selected metadata directly supports only a past fatal attack and a child academy premise, not the rest."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "VIZ first-party English Volume 1 product/preview metadata, with Shueisha and the franchise official site used only to document original-edition, anime, game, and Boruto separation. No fan wiki, Wikipedia, anime recap, external character database, novel, game, guidebook, or uninspected panel transcription is used as character evidence.",
+    "citations": [
+      {"url": "https://www.viz.com/manga-books/manga/naruto-volume-1/product/91", "locator": "Naruto, Vol. 1, lines 53-104; free-preview reader lines 154-203", "supports": ["VIZ English Volume 1 identity, Naruto name, Village Hidden in the Leaves, past nine-tailed fox-spirit attack/deaths, Hokage title, Ninja Academy premise, goal, date, ISBN, page count, Teen rating, and preview-reader boundary"]},
+      {"url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=4-08-8728408", "locator": "NARUTO―ナルト― 1 bibliographic record and synopsis, lines 58-95", "supports": ["separate Japanese original Volume 1, date, ISBN, 192 pages, Masashi Kishimoto credit, Konohagakure/Ninja Academy/Hokage wording, and anime-film labeling"]},
+      {"url": "https://naruto-official.com/en/anime", "locator": "official anime index, lines 14-24 and 38-59", "supports": ["separate official anime entries for NARUTO, NARUTO SHIPPUDEN, and BORUTO, plus separate Comics/Games site navigation"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "relationship_id": "REL-SRC201-001",
+    "source_id": "SRC-201",
+    "source_character_id": "CHR-SRC201-001",
+    "target_character_id": "CHR-SRC201-002",
+    "relationship_type": "companion",
+    "label": "friends traveling together",
+    "direction": "undirected",
+    "continuity": "VIZ English Magi: The Labyrinth of Magic, Vol. 1 (2013)",
+    "citations": [{"url": "https://www.viz.com/manga-books/manga/magi-volume-1-0/product/3232", "locator": "Volume 1 synopsis, line 51", "supports": ["Alibaba as Aladdin's friend and their stated shared journey"]}],
+    "confidence": "high",
+    "note": "Supports friendship and shared travel only; no party order, history, conflict, or later outcome is inferred."
+  },
+  {
+    "relationship_id": "REL-SRC201-002",
+    "source_id": "SRC-201",
+    "source_character_id": "CHR-SRC201-001",
+    "target_character_id": "CHR-SRC201-003",
+    "relationship_type": "companion",
+    "label": "traveling together",
+    "direction": "undirected",
+    "continuity": "VIZ English Magi: The Labyrinth of Magic, Vol. 1 (2013)",
+    "citations": [{"url": "https://www.viz.com/manga-books/manga/magi-volume-1-0/product/3232", "locator": "Volume 1 synopsis, line 51", "supports": ["Aladdin setting out together with the djinn Ugo"]}],
+    "confidence": "high",
+    "note": "The synopsis supports stated travel companionship only, not creator/created status, ownership, magical linkage, or future relationship events."
+  }
+]

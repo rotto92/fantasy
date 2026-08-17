@@ -1,0 +1,55 @@
+[
+  {
+    "source_id": "SRC-080",
+    "source_title": "Kalpa Imperial",
+    "continuity_scope": "Single-story pass bound to the official Small Beer Press English excerpt of “The End of a Dynasty or The Natural History of Ferrets,” from Angélica Gorodischer's Kalpa Imperial as translated by Ursula K. Le Guin. This tale is treated as a separate framed account inside a multi-story cycle; it is not flattened with other Kalpa tales, Spanish editions, or adaptations.",
+    "work_or_witnesses": [
+      {
+        "work": "The End of a Dynasty or The Natural History of Ferrets",
+        "edition": "Official Small Beer Press online English excerpt from Kalpa Imperial, translated by Ursula K. Le Guin",
+        "url": "https://smallbeerpress.com/free-stuff-to-read/2017/10/20/the-end-of-a-dynasty-or-the-natural-history-of-ferrets/"
+      },
+      {
+        "work": "Kalpa Imperial",
+        "edition": "Small Beer Press English edition, 2003; paper ISBN 9781931520058; translated by Ursula K. Le Guin",
+        "url": "https://smallbeerpress.com/books/2003/08/15/kalpa-imperial/"
+      }
+    ],
+    "coverage_rule": "Five individual named or stable-title-designated dramatic characters and seven direct within-story relations in the official English story text. The unnamed storyteller frame, dynasties, offices, peoples, cities, empire, and generic guards/servants remain dimensions or context rather than characters.",
+    "in_scope_character_count": 5,
+    "completed_character_count": 5,
+    "omissions": [
+      "All people and stories outside “The End of a Dynasty or The Natural History of Ferrets,” including any cross-tale identity or chronology claims.",
+      "The anonymous storyteller/frame voice, whose identity and reliability remain unspecified in this tale.",
+      "Generic guards, servants, teachers, nobles, soldiers, officials, and the unnamed rival of the Ninth Emperor.",
+      "Spanish-edition wording and name variants not present in this official English witness."
+    ],
+    "uncertainties": [
+      "Kalpa Imperial is a story cycle with multiple storytellers and a repeatedly rising/falling nameless empire; this pass is not a unified-series continuity map.",
+      "Narrator attributions distinguish hearsay, legend, and history-book claims; they are not silently upgraded to omniscient fact.",
+      "Loo’Loö may not be his actual name, and the Ninth Emperor's personal name is deliberately unavailable in the story.",
+      "Gorodischer is an Argentine writer and this is Le Guin's English translation. The fictional empire is not reduced to a generic or automatic allegory of Argentina or Latin America; in the publisher-hosted interview, Gorodischer rejects a simple allegorical reading while noting the book was written during dictatorship and concerns power.",
+      "The story includes state ritual, political repression, public humiliation, threatened execution, war, betrayal accusations, attempted filicide, death, and bodily coercion; later reign details are spoilers."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "The official Small Beer Press English excerpt supplies the full selected story text and character-level evidence. The book record confirms the collection's eleven-chapter, multiple-storyteller structure and author/translator/edition context; the author interview supplies only the non-allegory/context caution.",
+    "citations": [
+      {
+        "url": "https://smallbeerpress.com/free-stuff-to-read/2017/10/20/the-end-of-a-dynasty-or-the-natural-history-of-ferrets/",
+        "locator": "Official full English excerpt, opening through closing paragraphs",
+        "supports": ["All within-story character, relationship, title, Protocol, and ceremony claims."]
+      },
+      {
+        "url": "https://smallbeerpress.com/books/2003/08/15/kalpa-imperial/",
+        "locator": "Publisher book record, description and edition metadata",
+        "supports": ["Eleven-chapter multiple-storyteller cycle structure; author, translator, and English-edition metadata."]
+      },
+      {
+        "url": "https://smallbeerpress.com/20-questions-with-angelica-gorodischer/",
+        "locator": "Author interview, response on allegory and military-dictatorship context",
+        "supports": ["Caution against reducing the fictional empire to a simple political allegory."]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

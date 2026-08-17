@@ -1,0 +1,33 @@
+[
+  {
+    "source_id": "SRC-193",
+    "source_title": "Hades",
+    "continuity_scope": "Supergiant Games Hades v1.0 launch on 17 September 2020 for Nintendo Switch, Steam, and Epic Games Store. This pass uses the release announcement/FAQ as the fixed witness, not Early Access builds, later PC patches, 2021 PlayStation/Xbox versions, 2024 iOS/Netflix version, Hades II, or other adaptations. The launch itself added a true ending, new events, a weapon variant, a final-boss variant, and late-game unlocks; none of their outcomes are generalized here.",
+    "work_or_witnesses": [
+      "Supergiant Games, Hades: Now Out of Early Access!",
+      "Supergiant Games, Hades FAQ",
+      "Supergiant Games, Pre-Order: PUP Zagreus & Nendoroid Megaera"
+    ],
+    "coverage_rule": "Only individual game characters directly given an unambiguous role/designation by the selected Supergiant launch or product text: Zagreus ('immortal Prince of the Underworld'), Hades ('god of the dead' whom the game asks the player to defy), and Megaera ('First of the Furies'). This is intentionally not a full cast. The selected official launch notice says there are thirty voiced characters but does not supply a complete profile index; all other names in patch/event lists are omitted rather than rebuilt from fan databases. Olympians, underworld groups, boons, weapons, places, runs, and systems are terms/dimensions.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "Nyx, Achilles, Thanatos, Dusa, Charon, Persephone, Olympian deities, Furies, shades, bosses, and all other named or unnamed game figures not role-profiled under this deliberately narrow witness rule.",
+      "All player-selected boons, weapons, aspects, keepsakes, difficulty settings, dialogue/affinity progression, repeated run outcomes, story order, boss variants, endings, and every mutable build or relationship state.",
+      "Early Access versions and early-ending variants, post-launch patches, PlayStation/Xbox/iOS versions, merchandise depictions, Hades II early-access/full-release content, crossovers, classical/modern Greek textual traditions as independent sources, fan wikis, Wikipedia, guides, and community databases."
+    ],
+    "uncertainties": [
+      "Supergiant's retained official pages are launch/FAQ/product materials rather than an exhaustive Hades character codex. The three-card scope is complete against the stated role-identification rule only.",
+      "The game explicitly reimagines a Greek-myth Underworld. These are Supergiant's game-character interpretations; no claim is made that their parentage, powers, temperament, relationships, or chronology match any ancient or living tradition.",
+      "Hades is a single-player rogue-like, whose narrative and character events unfold across repeated escape attempts. Dialogue, affinity, and ending progression are therefore not fixed record attributes."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Supergiant Games first-party launch, FAQ, and official product-post evidence only. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {"url":"https://www.supergiantgames.com/blog/hades-now-out-of-early-access/","locator":"v1.0 Launch; About the Game","supports":["v1.0 date/platforms, 30 voiced characters, launch-content boundary, Zagreus, god-of-the-dead opposition, Olympian powers, mythic weapons, Underworld, and repeat-attempt structure"]},
+      {"url":"https://www.supergiantgames.com/blog/hades-faq/","locator":"What is Hades?; release history; Early Access; single-player","supports":["Greek-myth adaptation framing, rogue-like/repeated-build design, release history, difficulty/progression, player-controlled narrative engagement, and solo-only status"]},
+      {"url":"https://www.supergiantgames.com/blog/pre-order-pup-zagreus-nendoroid-megaera/","locator":"Megaera, the First of the Furies","supports":["Megaera's official First-of-the-Furies designation"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

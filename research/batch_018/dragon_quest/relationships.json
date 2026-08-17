@@ -1,0 +1,17 @@
+[
+  {
+    "relationship_id": "REL-SRC132-001",
+    "source_id": "SRC-132",
+    "source_character_id": "CHR-SRC132-001",
+    "target_character_id": "CHR-SRC132-002",
+    "relationship_type": "opponent",
+    "label": "Ortega's quest was to defeat Baramos",
+    "direction": "directed",
+    "continuity": "DRAGON QUEST III HD-2D Remake, North American English launch edition (14 November 2024)",
+    "citations": [
+      {"url":"https://dragonquest.square-enix-games.com/games/en-us/dragon-quest-3-hd2d-remake/","locator":"Story, lines 12-17","supports":["Ortega undertook a quest to defeat Baramos"]}
+    ],
+    "confidence": "high",
+    "note": "This records only the declared adversarial quest; it does not claim a final confrontation or outcome beyond the official synopsis's statement that Ortega failed."
+  }
+]

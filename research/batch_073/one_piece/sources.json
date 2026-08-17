@@ -1,0 +1,39 @@
+[
+  {
+    "source_id": "SRC-206",
+    "source_title": "One Piece",
+    "continuity_scope": "One Piece, Vol. 1, VIZ English paperback/digital edition (2 September 2003; ISBN 978-1-56931-901-7; 216 pages), credited to Eiichiro Oda. This is a narrow English manga-volume pass. Shueisha's original Japanese ONE PIECE 1 (24 December 1997; ISBN 4-08-872509-3) is used only as a separate original-edition/translation boundary, not merged wording or character evidence.",
+    "work_or_witnesses": [
+      "One Piece, Vol. 1, VIZ English paperback/digital edition (2 September 2003)",
+      "VIZ Volume 1 free-preview reader landing page",
+      "VIZ official One Piece series page",
+      "ONE PIECE 1, Shueisha Japanese print/digital product listing (24 December 1997)",
+      "ONE PIECE official authorized links page"
+    ],
+    "coverage_rule": "Include only named individual dramatic characters directly named by the selected VIZ English Volume 1 synopsis: Monkey D. Luffy and the buccaneer \"Red-Haired\" Shanks. Their explicitly stated formative inspiration relationship is included. The legendary One Piece is an item, and pirate/King-of-the-Pirates are roles; neither creates a character node. The preview-reader landing page exposes no practical searchable chapter/panel text, so claims remain official-metadata level.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "All other Volume 1 names, Luffy's later crew, pirate and marine groups, factions, islands/seas, Devil Fruit users, and antagonists are omitted because the selected VIZ synopsis does not name/profile them.",
+      "All later manga volumes/chapters, Japanese serialization and original Volume 1 wording, anime, films, games, novels, guidebooks, stage works, live-action, card game, merchandise, and other adaptations are separate witnesses.",
+      "Pirate/marine roles, crews/factions, Devil Fruits as a category, items, islands/seas, and themes remain terms/dimensions rather than character nodes; Haki is absent from this witness and is not added.",
+      "The selected metadata frames fictional piracy, a hazardous loss of swimming ability, and a Teen-rated adventure but does not establish colonial systems, a history of real-world piracy, a full violence/death record, coercion, or outcomes. Such broader-franchise material is not imported."
+    ],
+    "uncertainties": [
+      "The VIZ Volume 1 product page provides a primary reader landing page but no browser-searchable chapter/panel text or locator. It proves an official preview, not a panel-level text extraction.",
+      "VIZ supports Luffy's childhood inspiration, accidental Gum-Gum Devil Fruit consumption, rubber-stretching ability, inability to swim, rowboat departure, and One Piece objective. It does not provide a full Devil Fruit taxonomy, pirate-law system, crew roster, Haki, combat record, or outcome.",
+      "The Japanese Shueisha Volume 1 metadata gives its own original-language synopsis and names G. Roger. That name and wording are not transferred into this English-edition pass.",
+      "Piracy is source-specific adventure terminology here, not a statement about real historical pirates, colonialism, maritime law, or present-day communities. Violence, hazardous seafaring, and disability-related implications are cautions rather than exhaustive plot or clinical claims.",
+      "VIZ's official series page and the authorized One Piece links page visibly distinguish manga/comics, anime, live action, games, novels, and other products; none is treated as interchangeable continuity evidence."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "VIZ first-party English Volume 1 product/preview and series metadata, with Shueisha and the authorized One Piece official page used only to document original-edition and adaptation separation. No fan wiki, Wikipedia, anime recap, game database, novel, guidebook, live-action summary, or uninspected panel transcription is used as character evidence.",
+    "citations": [
+      {"url": "https://www.viz.com/manga-books/manga/one-piece-volume-1-0/product/139", "locator": "One Piece, Vol. 1, lines 19-69; free-preview reader lines 115-166", "supports": ["VIZ English edition identity, Luffy/Shanks names, Shanks alias, inspiration, Gum-Gum Devil Fruit, rubber stretching, swimming loss, pirate goal, rowboat, One Piece treasure, date, ISBN, pages, Teen rating, and reader boundary"]},
+      {"url": "https://www.viz.com/one-piece?locale=en", "locator": "official One Piece series description, lines 60-67", "supports": ["Luffy's pirate-king dream, ability/cost synopsis, One Piece objective, creator, 1997 serial debut, and separate VIZ novel/art-book products"]},
+      {"url": "https://www.shueisha.co.jp/books/items/contents.html?isbn=4-08-872509-3&title=books.shueisha.co.jp", "locator": "ONE PIECE 1 official bibliographic record and synopsis", "supports": ["separate Japanese Volume 1, date, ISBN, creator, original-language synopsis, G. Roger name in that separate witness, and anime-film labels"]},
+      {"url": "https://one-piece.com/op/links_eng?trk=public_post_comment-text", "locator": "authorized official links, lines 12-16 and 31-101", "supports": ["officially separated comics/manga, anime, live action, game, card-game, and app categories"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

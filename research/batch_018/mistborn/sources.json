@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-052",
+    "source_title":"Mistborn",
+    "continuity_scope":"Brandon Sanderson, Mistborn: The Final Empire (Tor, 2006), the first novel of the original Mistborn trilogy, limited further to its prologue through Chapter 3 opening-recruitment arc. This pass does not combine the later shorter display title Mistborn with a different textual edition, and does not claim material from The Well of Ascension, The Hero of Ages, Secret History, Era Two, the wider Cosmere, unpublished/draft ‘Prime’ works, or adaptations.",
+    "work_or_witnesses":[
+      {"work":"Mistborn: The Final Empire","edition":"Tor, 2006, original novel witness; chapter locators use Prologue and Chapters 1–3. Later publisher listings commonly display the book as Mistborn with the subtitle The Final Empire.","url":"https://us.macmillan.com/books/9781250318541/mistborn/"},
+      {"work":"Mistborn Prologue; Chapters One–Three","edition":"Official Brandon Sanderson sample-chapter publication of the final novel text; used for direct opening-arc evidence.","url":"https://www.brandonsanderson.com/blogs/blog/mistborn-prologue"},
+      {"work":"The Mistborn Saga – The Original Trilogy","edition":"Author's official series page; used for title, 2006 first-book, and series-boundary context.","url":"https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy"}
+    ],
+    "coverage_rule":"Include only the four named individual agents who materially define the prologue-to-Chapter-3 transition from oppression to Vin's recruitment: Vin, Kelsier, Camon, and Lord Tresting. This covers the recruited skaa thief, the recruiting Mistborn/rebellion organizer, her immediate criminal-crew leader, and the named plantation noble whose defeat establishes Kelsier's methods. Crews, skaa, nobles, obligators, the Steel Ministry, metals, Allomancy, Mistings, Mistborn as a category, Luthadel, the Final Empire, the Lord Ruler, the Pits of Hathsin, mists, and all unnamed people remain dimensions/source terms. The pass is complete only for this four-person, first-three-chapter cohort.",
+    "in_scope_character_count":4,
+    "completed_character_count":4,
+    "omissions":[
+      "All chapters after Chapter 3 of Mistborn: The Final Empire, including later crew members and all end-of-novel outcomes except where a title/edition caution requires noting their exclusion",
+      "The rest of the original trilogy, Secret History and other companions, Era Two, other Cosmere works, drafts/Prime works, and all adaptations",
+      "Every unnamed or collective figure, including Camon's crew, plantation skaa, Tresting's servants/taskmasters, obligators, and Kelsier's later crew members",
+      "All peoples/classes, crews, factions, metals, powers, artifacts, locations, institutions, mechanics, and named metaphysical or political entities, which remain dimensions/source terms"
+    ],
+    "uncertainties":[
+      "The 2006 novel is commonly referred to as Mistborn, Mistborn 1, or Mistborn: The Final Empire. This audit treats those as title/display variants for the specified first novel only; no assertion is made that every later printing, translation, or omnibus has identical pagination or paratext.",
+      "Primary locators use chapter rather than page because pagination changes across the hardcover, trade, mass-market, ebook, and current publisher display editions. The exact declared textual unit is Prologue–Chapter 3 of the 2006 novel.",
+      "Mistborn contains major secret-identity, history, and cosmological revelations. This pass intentionally records no hidden identity, later-era retcon, or climax resolution; descriptions are limited to what the declared early arc establishes and receive major spoiler labels where necessary.",
+      "The fictional terms skaa and noblemen portray a coercive hereditary class order. They are retained as source-specific social terms and are not mapped to real peoples, castes, ethnicities, or histories. The opening contains enslavement, sexual coercion, racist/classist narration voiced by oppressors, physical abuse, and lethal violence; these are documented without endorsement."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Direct opening-arc claims use Brandon Sanderson's official publication of the Prologue and Chapters 1–3, with chapter locators; records also cite the original novel's matching chapter units through the publisher edition page. Sanderson's official annotations and series page supply authorial context for title variants, chapter focus, and the distinction between the published novel and discarded Prime material. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://www.brandonsanderson.com/blogs/blog/mistborn-prologue","locator":"Published Mistborn: The Final Empire Prologue, official sample chapter","supports":["The Final Empire's skaa oppression, Kelsier's role, Lord Tresting, Allomancy, and the opening inciting action."]},
+      {"url":"https://www.brandonsanderson.com/blogs/blog/mistborn-chapter-one","locator":"Published Mistborn: The Final Empire Chapter One, official sample chapter","supports":["Vin's early viewpoint, Camon's crew, and the early recruitment arc."]},
+      {"url":"https://www.brandonsanderson.com/blogs/blog/mistborn-chapter-three","locator":"Published Mistborn: The Final Empire Chapter Three, official sample chapter","supports":["Vin's transition into Kelsier's team and the early allomantic-cohort framing."]},
+      {"url":"https://www.brandonsanderson.com/pages/the-mistborn-saga-the-original-trilogy","locator":"Book 1: The Final Empire introduction and synopsis","supports":["The first book's 2006 date, original-trilogy boundary, and heist/rebellion premise."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

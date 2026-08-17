@@ -1,0 +1,273 @@
+[
+  {
+    "term_id": "STM-SRC019-001",
+    "source_id": "SRC-019",
+    "canonical_term": "kami",
+    "original_language": "Japanese",
+    "original_script": "神",
+    "transliteration": "kami",
+    "literal_gloss": "deity/sacred presence",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Term used for sacred/divine beings in Kojiki and Nihon Shoki episodes.",
+    "cultural_caution": "Not a generic deity species and not a substitute for Shinto practice.",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1",
+        "supports": [
+          "Term used for sacred/divine beings in Kojiki and Nihon Shoki episodes."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC019-002",
+    "source_id": "SRC-019",
+    "canonical_term": "yōkai",
+    "original_language": "Japanese",
+    "original_script": "妖怪",
+    "transliteration": "yōkai",
+    "literal_gloss": "strange/uncanny apparition",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Historical umbrella term relevant to Sekien’s illustrated catalogues.",
+    "cultural_caution": "Do not flatten yōkai into monsters or a coherent folklore race.",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Gazu Hyakki Yagyō title/entries",
+        "supports": [
+          "Historical umbrella term relevant to Sekien’s illustrated catalogues."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC019-003",
+    "source_id": "SRC-019",
+    "canonical_term": "oni",
+    "original_language": "Japanese",
+    "original_script": "鬼",
+    "transliteration": "oni",
+    "literal_gloss": "oni",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A historically variable category, not directly used as a character-node mapping in this bounded set.",
+    "cultural_caution": "Do not translate mechanically as demon.",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "catalogue context",
+        "supports": [
+          "A historically variable category, not directly used as a character-node mapping in this bounded set."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC019-004",
+    "source_id": "SRC-019",
+    "canonical_term": "tengu",
+    "original_language": "Japanese",
+    "original_script": "天狗",
+    "transliteration": "tengu",
+    "literal_gloss": "heavenly dog",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Named entry in Sekien’s catalogue.",
+    "cultural_caution": "Buddhist, mountain, local, and artistic histories remain distinct.",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Konjaku Gazu Zoku Hyakki, Tengu",
+        "supports": [
+          "Named entry in Sekien’s catalogue."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC019-005",
+    "source_id": "SRC-019",
+    "canonical_term": "kitsune",
+    "original_language": "Japanese",
+    "original_script": "狐",
+    "transliteration": "kitsune",
+    "literal_gloss": "fox",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Fox yōkai entry in Sekien’s catalogue.",
+    "cultural_caution": "Do not generalize catalogue representation to all kitsune traditions.",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Konjaku Gazu Zoku Hyakki, Kitsune",
+        "supports": [
+          "Fox yōkai entry in Sekien’s catalogue."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC019-006",
+    "source_id": "SRC-019",
+    "canonical_term": "tsukumogami",
+    "original_language": "Japanese",
+    "original_script": "付喪神",
+    "transliteration": "tsukumogami",
+    "literal_gloss": "tool/object spirit",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Historical category relevant to object-yōkai cataloguing.",
+    "cultural_caution": "Not a generic construct or animated-object category.",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Konjaku Hyakki Shūi, Kasa-obake",
+        "supports": [
+          "Historical category relevant to object-yōkai cataloguing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC019-007",
+    "source_id": "SRC-019",
+    "canonical_term": "miko",
+    "original_language": "Japanese",
+    "original_script": "巫女",
+    "transliteration": "miko",
+    "literal_gloss": "female ritual specialist",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Modern/early modern term not asserted as the office of Mimaki-hime in the selected chronicle episode.",
+    "cultural_caution": "Marked needs-review; do not project present practice backward.",
+    "citations": [
+      {
+        "url": "https://www.sacred-texts.com/shi/nihon/",
+        "locator": "Book V, sections 5–8",
+        "supports": [
+          "Modern/early modern term not asserted as the office of Mimaki-hime in the selected chronicle episode."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC019-008",
+    "source_id": "SRC-019",
+    "canonical_term": "onmyōji",
+    "original_language": "Japanese",
+    "original_script": "陰陽師",
+    "transliteration": "onmyōji",
+    "literal_gloss": "yin-yang specialist",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Later court office not witness-supported as a character role in this pass.",
+    "cultural_caution": "Retained only to record exclusion; no character mapping.",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "catalogue context",
+        "supports": [
+          "Later court office not witness-supported as a character role in this pass."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC019-009",
+    "source_id": "SRC-019",
+    "canonical_term": "kegare",
+    "original_language": "Japanese",
+    "original_script": "穢れ",
+    "transliteration": "kegare",
+    "literal_gloss": "pollution/defilement",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-402",
+      "LAW-403"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Purification/pollution framework relevant to Izanagi’s return and Sujin’s plague episode.",
+    "cultural_caution": "Do not reduce ritual purity to morality or a status effect.",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Yomi/purification",
+        "supports": [
+          "Purification/pollution framework relevant to Izanagi’s return and Sujin’s plague episode."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC019-010",
+    "source_id": "SRC-019",
+    "canonical_term": "Yomi",
+    "original_language": "Japanese",
+    "original_script": "黄泉",
+    "transliteration": "Yomi",
+    "literal_gloss": "realm of the dead",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-301"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Realm associated with Izanami after death.",
+    "cultural_caution": "Not automatically equivalent to any later Buddhist hell.",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Yomi",
+        "supports": [
+          "Realm associated with Izanami after death."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC019-011",
+    "source_id": "SRC-019",
+    "canonical_term": "utsushiyo",
+    "original_language": "Japanese",
+    "original_script": "現世",
+    "transliteration": "utsushiyo",
+    "literal_gloss": "manifest world",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "World/realm language in early chronicle cosmology.",
+    "cultural_caution": "Contextual term; no generic world-layer mapping.",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1",
+        "supports": [
+          "World/realm language in early chronicle cosmology."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

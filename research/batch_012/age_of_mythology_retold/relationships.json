@@ -1,0 +1,23 @@
+[
+  {
+    "relationship_id": "REL-SRC281-001",
+    "source_id": "SRC-281",
+    "source_character_id": "CHR-SRC281-001",
+    "target_character_id": "CHR-SRC281-002",
+    "relationship_type": "opponent",
+    "label": "Arkantos and his allies quest to thwart Gargarensis's world-shattering plans.",
+    "direction": "undirected",
+    "continuity": "Retold official launch campaign witness",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "Jump Into a Campaign, paragraph 1",
+        "supports": [
+          "The launch description explicitly frames Arkantos's quest against Gargarensis's plans."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Campaign-level opposition only; the selected source does not warrant an expanded alliance, kinship, or mythic-tradition relationship graph."
+  }
+]

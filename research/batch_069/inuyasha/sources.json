@@ -1,0 +1,31 @@
+[
+  {
+    "source_id": "SRC-202",
+    "source_title": "Inuyasha (VIZBIG Edition), Vol. 1",
+    "continuity_scope": "VIZ Media's English VIZBIG Edition, Vol. 1 paperback, ISBN 9781421532806, released 10 November 2009, 576 pages. This is the selected English three-in-one-style volume witness; the available official reader supplies Chapter 1 (32 pages) as a primary location, while the supported character pass is restricted to the named figures and facts in VIZ's exact-volume synopsis. Rumiko Takahashi's Japanese Shogakukan serialization/volumes, any separately issued English volumes, later VIZBIG volumes/chapters, anime series and films, games, guidebooks, sequel/spinoff works, and all other adaptations are separate continuities or witnesses.",
+    "work_or_witnesses": [
+      "Rumiko Takahashi, Inuyasha (VIZBIG Edition), Vol. 1, VIZ Media English edition; official VIZ Manga Chapter 1 reader (32 pages)",
+      "VIZ Media, Inuyasha (VIZBIG Edition), Vol. 1 official product metadata and synopsis"
+    ],
+    "coverage_rule": "All named individual dramatic figures named in the selected VIZ Volume 1 synopsis: Kagome, Inuyasha, and Sesshomaru. This is a conservative official-metadata pass, not a complete cast extraction from all 576 pages. Demons/half demons as generic categories, magic, the Shikon Jewel and its shards, the shrine well, places, time travel, alliances, historical framing, and themes are dimensions or source terms rather than character nodes.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "Every named or unnamed person, demon, spirit, animal, group, and later-introduced figure not named in VIZ's selected Volume 1 synopsis, even if they appear in the reader or elsewhere in the volume.",
+      "Events, powers, identities, relationships, outcomes, artifacts, and cast developments after the restrained opening premise; later manga volumes and VIZBIG editions; the Japanese source text except as a separate bibliographic witness; and all anime, films, games, guidebooks, sequel/spinoff works, and other adaptations.",
+      "Fan wikis, Wikipedia, databases, reviews, social summaries, and any panel-by-panel reproduction or visual identification beyond the stated official metadata evidence window."
+    ],
+    "uncertainties": [
+      "VIZ's consulted Volume 1 metadata does not name a translator or provide a full cast list. The three-character result is complete only under the synopsis-named rule, and the English terminology is retained rather than reverse-mapped to Japanese terms.",
+      "The story's 'ancient' or feudal Japan is a fictional time-travel setting. It must not be read as a statement about real Sengoku-period history, present-day Japan, or Japanese religious/folklore practice; VIZ's English 'demon' and 'half demon' labels are source-specific fantasy categories, not a generalized claim about yōkai traditions.",
+      "The consulted opening metadata does not establish reincarnation, a shared identity, or identity equivalence for Kagome and any other person. No such equivalence is recorded. Demon conflict, weapons/magic implications, and threatened violence are fictional-content cautions, not real-world guidance."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official VIZ Volume 1 product metadata/synopsis and the official VIZ Manga Chapter 1 location only. The available reader establishes a primary chapter locator; claims are kept to the publisher's exact-volume metadata where no panel-level transcription was needed. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {"url":"https://www.viz.com/manga-books/manga/inuyasha-vizbig-edition-volume-1-0/product/2160","locator":"Official product metadata and synopsis for Inuyasha (VIZBIG Edition), Vol. 1","supports":["English edition title, Rumiko Takahashi credit, release date, ISBN, page count, opening time-travel premise, Kagome, Inuyasha, Sesshomaru, Shikon Jewel, demon conflict, magic, shards, and alliances"]},
+      {"url":"https://www.viz.com/vizmanga/inuyasha-vizbig-edition-chapter-1/chapter/27162","locator":"Official VIZ Manga reader, Inuyasha (VIZBIG Edition), Chapter 1; 32 pages","supports":["Primary Chapter 1 locator and selected-edition reader boundary"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

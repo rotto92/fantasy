@@ -1,0 +1,32 @@
+[
+  {
+    "source_id": "SRC-187",
+    "source_title": "Pokémon Legends: Z-A",
+    "continuity_scope": "The Pokémon Company International English (US) base Pokémon Legends: Z-A Nintendo Switch release, dated 16 October 2025. The Nintendo Switch 2 Edition is a separate platform/version state with improved graphics and frame rates; its upgrade relationship does not make the editions interchangeable evidence. Mega Dimension is post-main-story DLC and excluded, as are other Pokémon games/generations, paired versions, remakes, anime, manga, TCG, mobile/service titles, and other adaptations.",
+    "work_or_witnesses": [
+      "The Pokémon Company International, Pokémon Legends: Z-A English (US) Characters index and selected character profiles",
+      "The Pokémon Company International, Pokémon Legends: Z-A release-date and base/DLC product pages"
+    ],
+    "coverage_rule": "All nineteen stable individual profile cards on the selected base-game English Characters index: Lida, Naveen, AZ, Eternal Flower Floette, Jett, Vinnie, Mable, Emma, Corbeau, Philippe, Canari, Tarragon, Ivor, Gwynn, Jacinthe, Lebanne, Grisham, Griselle, and L. The index's avatar is excluded because it is player-created/nameable. Its single 'Urbain or Taunie' profile is excluded because the character encountered is determined by player-selected appearance. Eternal Flower Floette is included because the official individual profile expressly distinguishes her from other Floette and names AZ as her partner; generic species and partner Pokémon are not nodes.",
+    "in_scope_character_count": 19,
+    "completed_character_count": 19,
+    "omissions": [
+      "The player avatar/name, player-appearance-dependent Urbain/Taunie alternative, all unprofiled humans and all generic species/forms, including Staryu, Scraggy, Eelektross, Zygarde, and other player-selected/catchable Pokémon.",
+      "Catching, evolving, moves, teams, battles, research rewards, rankings, online activity, paths, relationships, victory/loss states, cosmetic choices, and all player-variable outcomes.",
+      "Mega Dimension and its post-main-story characters/content, Nintendo Switch 2 Edition-specific visual/performance behavior, updates, save/transfer states, bonuses, all other game generations/versions/remakes, anime, manga, TCG, film, mobile/service works, fan wikis, Wikipedia, walkthroughs, and community databases."
+    ],
+    "uncertainties": [
+      "The official profile pages are concise character introductions. In particular, profile language such as 'seems,' 'apparently,' and claimed age is preserved as qualified rather than extended into unlisted history or outcomes.",
+      "The website warns that some screenshots are from the Switch 2 version and actual play may vary. This pass therefore uses its written base-game profiles only and treats performance/visual differences separately.",
+      "Pokémon battles, catching, and evolution are fictional child/family entertainment systems in the described game; no real-world animal, combat, or child-safety claim is made from them."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "The Pokémon Company International first-party English site only. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {"url":"https://legends.pokemon.com/en-us/story-world/characters","locator":"Characters index: The People and Pokémon of Lumiose City","supports":["Nineteen-card coverage set, avatar boundary, and player-conditional Urbain/Taunie boundary"]},
+      {"url":"https://legends.pokemon.com/en-us/news/release-date?pubDate=20250528","locator":"Release Date; Nintendo Switch 2 Edition","supports":["16 October 2025 date and Switch versus Switch 2 Edition distinction"]},
+      {"url":"https://legends.pokemon.com/en-us/dlc","locator":"Mega Dimension","supports":["Post-main-story DLC boundary"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

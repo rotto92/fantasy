@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-151",
+    "source_title":"Elden Ring",
+    "continuity_scope":"ELDEN RING base game, English-language official Bandai Namco product-page release boundary (25 February 2022). The character claims use the original-game product page and official base-game story-trailer transcript only. Shadow of the Erdtree, later patches and patch-specific mechanics, Tarnished Edition, Nightreign, regional/localized texts, and adaptations are excluded continuities.",
+    "work_or_witnesses":[
+      "Bandai Namco Europe: ELDEN RING official product page",
+      "Bandai Namco Europe: ELDEN RING – Story Summary Explained (official story-trailer transcript)",
+      "Bandai Namco Europe: Shadow of the Erdtree official expansion page"
+    ],
+    "coverage_rule":"All stable named non-avatar dramatic individuals directly named and functionally described in the selected official base-game product/trailer witnesses: Queen Marika the Eternal and Melina. The player-created Tarnished is an excluded avatar role. No other NPC, boss, demigod, deity, companion, faction leader, or individual is added without a claim-level official profile or reproducible direct dialogue/item-description locator.",
+    "in_scope_character_count":2,
+    "completed_character_count":2,
+    "omissions":[
+      "The player-created Tarnished, all chosen class/build, Great Rune, grace, online interaction, player choices, allies, paths, deaths, and endings.",
+      "All named NPCs, bosses, demigods, gods, companions, invaders, merchants, and other dramatic individuals beyond Marika and Melina because the selected official base-game witnesses do not give them individual claim-level profiles or direct in-game dialogue/item-description locators.",
+      "Classes, demigods as a category, factions, items, places, runes, grace, mechanics, mounts, enemies, and online systems as character nodes.",
+      "Shadow of the Erdtree and its Land of Shadow/Miquella/Messmer content; later patches; Tarnished Edition; Nightreign; adaptations; regional/localized editions; fan/community/wiki sources; guides, walkthroughs, lore videos, data mines, item-description transcription archives, and secondary databases."
+    ],
+    "uncertainties":[
+      "The selected official product material is a high-level premise, and the official story-summary page is a trailer transcript. Direct in-game item descriptions and full dialogue/codex locators were not accessible in the reviewed first-party evidence, so detailed lore interpretation is intentionally excluded.",
+      "Marika's product-page description is official campaign framing; no unlisted motive, identity theory, family detail, chronology, state, or ending is inferred. Melina's direct trailer lines establish an offer to the avatar only; no universal outcome of that accord is asserted.",
+      "The base game is selected at the listed release boundary. Later patches can alter balance, summon-pool behavior, UI, and content support; no patch state is universalized.",
+      "Shadow of the Erdtree is a separately sold expansion requiring the base game and adding enemies, bosses, plotlines, equipment, skills, and magic. It is not folded into base-game character evidence.",
+      "English wording was reviewed. Japanese and other localized item/dialogue wording may differ, and ambiguous item-description traditions remain unresolved. Branching endings and multiplayer are not represented as fixed canon events."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Bandai Namco official product, story-trailer transcript, and expansion pages only. No fan wiki, Wikipedia, community source, review, walkthrough, lore video, mod, data mine, or secondary database is used as canonical evidence.",
+    "citations":[
+      {"url":"https://en.bandainamcoent.eu/elden-ring/elden-ring","locator":"Official product-page opening premise and release line","supports":["25 February 2022 base-game release, Marika, Elden Ring, Erdtree, Great Runes, Shattering, Greater Will, Tarnished, grace, Lands Between, and Elden Lord goal"]},
+      {"url":"https://en.bandainamcoent.eu/elden-ring/news/elden-ring-story-summary-explained","locator":"Official story-trailer transcript: opening history and Melina dialogue lines","supports":["Great-Rune/demigod conflict framing, Tarnished arrival, Melina's self-identification, accord offer, and Erdtree journey framing"]},
+      {"url":"https://en.bandainamcoent.eu/elden-ring/elden-ring/shadow-of-the-erdtree","locator":"Key Features and Editions sections","supports":["Shadow of the Erdtree as separate expansion requiring the base game and adding new content"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

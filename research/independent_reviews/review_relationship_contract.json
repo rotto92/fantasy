@@ -1,0 +1,79 @@
+{
+  "reviewer_lane": "lotr_canonical",
+  "reviewed_at": "2026-08-06",
+  "scope": "All non-quarantined, validator-included relationship bundles (281 source passes).",
+  "scanned_count": 1258,
+  "heuristic_flags": {
+    "missing_endpoint": 0,
+    "non_individual_or_conceptual_endpoint": 0,
+    "self_loop": 0,
+    "source_id_mismatch": 0,
+    "invalid_relationship_type": 0,
+    "invalid_direction": 0,
+    "empty_or_conceptual_label": 0,
+    "malformed_or_non_claim_specific_citation": 0,
+    "exact_duplicate": 0,
+    "reverse_duplicate": 0,
+    "continuity_exact_string_mismatch": 364,
+    "continuity_conflict_after_semantic_review": 0,
+    "third_named_character_in_label_candidates": 56
+  },
+  "inspected_count": 89,
+  "inspection_method": "Manually reviewed all 11 pre-repair enum exceptions, all 56 third-name endpoint candidates, the continuity conflict candidate, and 24 deterministic risk samples (three each for lover, spouse, kin, opponent, mentor, student, transformed-by, and other). Structural checks covered all 1,258 records. The 364 exact continuity-string differences are nested witness/chapter or pooled-corpus wording, not conflicting selected continuities.",
+  "confirmed_violations": [
+    {
+      "kind": "invalid relationship_type enum values",
+      "count": 11,
+      "relationship_ids": [
+        "REL-SRC019-016",
+        "REL-SRC030-009",
+        "REL-SRC030-010",
+        "REL-SRC030-011",
+        "REL-SRC030-012",
+        "REL-SRC057-004",
+        "REL-SRC068-005",
+        "REL-SRC068-006",
+        "REL-SRC068-007",
+        "REL-SRC069-001",
+        "REL-SRC069-002"
+      ]
+    },
+    {
+      "kind": "wrong endpoints for stated claim",
+      "relationship_id": "REL-SRC001-003",
+      "detail": "The label and cited claim are Cronus overthrows Uranus, but the stored edge was Gaia to Cronus."
+    },
+    {
+      "kind": "indirect, non-endpoint relationship claim",
+      "relationship_id": "REL-SRC001-041",
+      "detail": "The record linked Medusa to Andromeda only through Perseus's intervening rescue, rather than asserting a relationship between its two endpoints."
+    }
+  ],
+  "changes": [
+    {
+      "files": [
+        "research/batch_005/japan/relationships.json",
+        "research/batch_020/narnia/relationships.json"
+      ],
+      "change": "Normalized five unsupported guide types to other; the cited journey-local claims and endpoint directions remain unchanged."
+    },
+    {
+      "files": [
+        "research/batch_024/poppy_war/relationships.json",
+        "research/batch_031/who_fears_death/relationships.json",
+        "research/batch_032/akata_witch/relationships.json"
+      ],
+      "change": "Normalized six unsupported friend types to companion; the cited individual-to-individual claims remain unchanged."
+    },
+    {
+      "file": "research/batch_001/greek/relationships.json",
+      "change": "Corrected REL-SRC001-003 to Cronus -> Uranus, and removed REL-SRC001-041 because it represented an indirect three-character event rather than an endpoint relationship."
+    }
+  ],
+  "unresolved_cases": [],
+  "validator_result": {
+    "command": "npm run research:validate",
+    "status": "pass",
+    "output": "Validated 1573 characters, 1258 character relationships, and 1881 source terms across 281 source passes."
+  }
+}

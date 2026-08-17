@@ -1,0 +1,28 @@
+[
+  {
+    "source_id":"SRC-261",
+    "source_title":"She-Ra and the Princesses of Power",
+    "continuity_scope":"DreamWorks/Netflix animated-series continuity beginning in 2018, bounded to the opening witness of Season 1, Episodes 1–2 (\"The Sword Part 1\" and \"The Sword Part 2\"). This pass uses only Netflix and DreamWorks official series, press, and character-directory records. It excludes the 1980s series, comics, toys, games, later seasons, and all Masters of the Universe continuities.",
+    "work_or_witnesses":[
+      {"work":"She-Ra and the Princesses of Power","edition":"Netflix official series record","url":"https://www.netflix.com/title/80179762"},
+      {"work":"She-Ra and the Princesses of Power","edition":"DreamWorks official series and Characters record","url":"https://www.dreamworks.com/shows/she-ra-and-the-princesses-of-power"},
+      {"work":"She-Ra and the Princesses of Power","edition":"Netflix Media Center series synopsis and 2018 DreamWorks/Netflix cast announcement","url":"https://media.netflix.com/en/only-on-netflix/80179762"},
+      {"work":"She-Ra and the Princesses of Power","edition":"About Netflix, 18 May 2018 cast announcement","url":"https://about.netflix.com/en/news/dreamworks-animation-television-and-netflix-reveal-cast-for-all-new-original-series-she-ra-and-the-princesses-of-power"}
+    ],
+    "coverage_rule":"Include named individual dramatic characters with a role-specific claim in the selected official series synopsis, DreamWorks Characters directory, or Netflix/DreamWorks cast announcement, limited to Adora/She-Ra, Catra, Glimmer, Bow, and Shadow Weaver—the named early ensemble directly connected to the opening Horde/Rebellion premise. Princess titles, Horde/Rebellion institutions, magic, the sword, places, technology, species, and transformations are terms rather than character nodes.",
+    "in_scope_character_count":5,
+    "completed_character_count":5,
+    "omissions":["All other named cast roles, including Angella, Hordak, Scorpia, Entrapta, Perfuma, Seahawk, Mermista, Frosta, Castaspella, and Netossa, because the bounded opening pass does not need their later-series development.","All unnamed soldiers, rebels, princesses, Horde personnel, and non-individual groups.","Princess roles, Horde and Rebellion factions, the Sword of Protection, magic, places, technology, transformations, species, and beliefs as character nodes.","The 1980s continuity, comics, toys, games, later seasons, and Masters of the Universe material."],
+    "content_cautions":["Adora is described as an orphan and a soldier, but the selected public records do not establish a numerical age or license a child-soldier, trauma, diagnosis, or real-world coercion classification.","The sources frame a fictional armed conflict between the Horde and Rebellion. This pass records only limited source wording and does not reproduce violence or infer real-world war experience.","Netflix applies an LGBTQ+ TV Shows service category to the series, but the selected opening witness does not establish an individual character's orientation, gender identity, or later relationship outcome; none is assigned here.","No disability, body, anatomy, medical, or mental-health classification is inferred from animated design, magical transformation, or character behavior."],
+    "uncertainties":["Netflix's public title page and DreamWorks' public show page provide series-level synopsis, cast, and character-directory material; they do not expose a public scene-by-scene transcript or timestamped credits for the two opening episodes. Claims are therefore limited to their direct official wording and marked at official-reference level.","DreamWorks' character directory summarizes the series as a whole. Where it contains later-arc language, that language is not used to add later-season outcomes, identities, or relationship labels to this opening-witness pass.","The official sources use both orphan and orphaned-princess wording for Adora. This pass records only the source wording without attempting to resolve family history or age."],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Netflix's official title and Media Center pages establish the service synopsis, Adora/She-Ra transformation, and series-level cast. DreamWorks' official show page and Characters directory provide role-specific descriptions for the early ensemble. The About Netflix announcement confirms the 2018 Netflix/DreamWorks production and named role credits. No fan wiki or Wikipedia was used.",
+    "citations":[
+      {"url":"https://www.netflix.com/title/80179762","locator":"Series title page, synopsis, More Details, and Cast","supports":["Soldier Adora, the magic sword, She-Ra identity, Rebellion/Horde premise, cast listing, and LGBTQ+ service-category boundary."]},
+      {"url":"https://www.dreamworks.com/shows/she-ra-and-the-princesses-of-power","locator":"About and Characters: Adora/She-Ra, Glimmer, Bow, Catra, Shadow Weaver","supports":["DreamWorks' series premise and character-directory claims used in this bounded pass."]},
+      {"url":"https://media.netflix.com/en/only-on-netflix/80179762","locator":"Synopsis and Series credits","supports":["Netflix Media Center synopsis, Adora/She-Ra transformation, Horde/Rebellion premise, and named cast-role credits."]},
+      {"url":"https://about.netflix.com/en/news/dreamworks-animation-television-and-netflix-reveal-cast-for-all-new-original-series-she-ra-and-the-princesses-of-power","locator":"18 May 2018 announcement, paragraphs 1–3","supports":["2018 DreamWorks Animation Television/Netflix series identity, named role credits, and production premise."]}
+    ],
+    "last_reviewed":"2026-08-06"
+  }
+]

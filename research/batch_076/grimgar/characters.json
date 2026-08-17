@@ -1,0 +1,36 @@
+[
+  {
+    "character_id": "CHR-SRC217-001",
+    "canonical_name": "Haruhiro",
+    "aliases": [],
+    "source_id": "SRC-217",
+    "source_title": "Grimgar of Fantasy and Ash",
+    "continuity": "J-Novel Club English light novel Level 1",
+    "work_or_witness": "J-Novel Club Level 1 official synopsis",
+    "character_kind": "individual",
+    "description": "A person who awakens in darkness with little memory beyond his name and, with others in the same situation, forms a party, learns Skills, and takes first steps in Grimgar as a Trainee Volunteer Soldier in order to survive.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Trainee Volunteer Soldier", "archetype_ids": [], "confidence": "high", "note": "Direct J-Novel Club term. It is a source-specific survival/training role, not a real military rank or proof of a class system."}],
+      "power_traditions": [{"term": "Skills", "archetype_ids": [], "confidence": "high", "note": "J-Novel Club says Haruhiro learns Skills; no named skills, mechanics, class, or capability list is inferred."}],
+      "affiliations": [{"term": "unnamed survival party", "archetype_ids": [], "confidence": "high", "note": "The official synopsis says Haruhiro forms a party with others in the same situation, but supplies no names or permanent roster."}],
+      "states_and_transformations": [{"term": "amnesia / limited memories", "archetype_ids": [], "confidence": "high", "note": "The official synopsis says he and the others remember little more than their names; cause, prior identity, duration, and recovery are unknown."}],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "Grimgar", "archetype_ids": [], "confidence": "high", "note": "The official synopsis names Grimgar as the world in which Haruhiro takes his first steps; no map, origin, or formal isekai mechanism is supplied."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [{"term": "survival protagonist", "archetype_ids": [], "confidence": "high", "note": "The stated reason for party formation, skills, and volunteer-soldier status is survival; no later leadership or outcome is inferred."}],
+      "game_mechanics": []
+    },
+    "canon_status": "The only named individual directly described by the selected J-Novel Club English Level 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://j-novel.club/series/grimar-of-fantasy-and-ash", "locator": "Level 1 official synopsis", "supports": ["Haruhiro name, darkness/amnesia, limited names-only memories, party formation, Skills, Grimgar, Trainee Volunteer Soldier, and survival premise"]}],
+    "comparison_cautions": [
+      "Memory loss/identity uncertainty is preserved as stated. The source does not identify Haruhiro's prior life, provide a medical or psychological explanation, or establish recovery.",
+      "The party is unnamed in selected metadata, so no named companions, relationship edges, party permanence, roles, or later loss/death history are inferred.",
+      "Survival in a dangerous game-like world signals possible violence/grief content, but the metadata does not establish a permadeath mechanic, individual death, injury, trauma outcome, or later anime/manga/game event."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

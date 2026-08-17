@@ -1,0 +1,122 @@
+[
+  {
+    "term_id": "STM-SRC107-001",
+    "source_id": "SRC-107",
+    "canonical_term": "Sixth World",
+    "original_language": "English setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The named Shadowrun setting/edition frame in the selected Core Rulebook product, presented as a 2080 world shaped by technology and magic.",
+    "cultural_caution": "A fictional cyberpunk-fantasy setting, not a prediction or description of real societies, corporations, technology, cultures, or religions. It has no asserted Earthdawn link in this audit.",
+    "citations": [
+      {
+        "url": "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-core-rulebook-city-edition-hong-kong",
+        "locator": "Product Description: Shadowrun, Sixth World; In 2080",
+        "supports": [
+          "Catalyst identifies the selected Sixth World product and its 2080 technology-and-magic setting frame."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC107-002",
+    "source_id": "SRC-107",
+    "canonical_term": "shadowrunners",
+    "original_language": "English setting/game lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "functional",
+    "definition": "The individuals described by the selected Core Rulebook product as resisting or surviving in the margins through specialized skills.",
+    "cultural_caution": "A fictional player-character and genre role. It is not a real occupation, criminal identity, political label, or evidence of a specific named character's conduct.",
+    "citations": [
+      {
+        "url": "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-core-rulebook-city-edition-hong-kong",
+        "locator": "Product Description: Risk Is the Reward",
+        "supports": [
+          "Catalyst describes shadowrunners as people who resist or live in the margins and use indispensable skills."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC107-003",
+    "source_id": "SRC-107",
+    "canonical_term": "megacorps",
+    "original_language": "English setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "functional",
+    "definition": "The massive corporations described as controlling the selected product's 2080 world through technology and magic.",
+    "cultural_caution": "A fictional dystopian institution. It should not be treated as a claim about a real company, a real person's employer, or an exhaustive model of corporate power.",
+    "citations": [
+      {
+        "url": "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-core-rulebook-city-edition-hong-kong",
+        "locator": "Product Description: Risk Is the Reward",
+        "supports": [
+          "Catalyst says massive megacorps control the 2080 setting through technology and magic."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC107-004",
+    "source_id": "SRC-107",
+    "canonical_term": "elf shaman / ork street samurai / dwarf rigger",
+    "original_language": "English game-product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Examples on the selected product page of combining game metatype and specialized runner-role options.",
+    "cultural_caution": "Examples of fictional game options, not real ethnic, racial, cultural, military, spiritual, or occupational categories. The terms should remain separate dimensions rather than being flattened into one universal archetype.",
+    "citations": [
+      {
+        "url": "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-core-rulebook-city-edition-hong-kong",
+        "locator": "Product Description: character possibilities",
+        "supports": [
+          "Catalyst lists elf shaman, ork street samurai, and dwarf rigger as example player possibilities."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC107-005",
+    "source_id": "SRC-107",
+    "canonical_term": "updated Sixth World rules content",
+    "original_language": "English product/rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Catalyst's product-level description of City Edition: Hong Kong as containing the full updated rules content of Shadowrun, Sixth World.",
+    "cultural_caution": "A product-version statement, not a narrative retcon or proof that each 2019/2020 original-core errata entry has identical wording or effect in City Edition. Consult the exact printing for a mechanical claim.",
+    "citations": [
+      {
+        "url": "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-core-rulebook-city-edition-hong-kong",
+        "locator": "Product Description: City Edition: Hong Kong",
+        "supports": [
+          "Catalyst states City Edition contains the full updated rules content of Shadowrun, Sixth World."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

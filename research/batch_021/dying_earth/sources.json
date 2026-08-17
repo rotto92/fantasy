@@ -1,0 +1,38 @@
+[
+  {
+    "source_id":"SRC-029",
+    "source_title":"The Dying Earth",
+    "continuity_scope":"Jack Vance, “Mazirian the Magician,” the second story in the original English 1950 Hillman Periodicals collection The Dying Earth. This pass is one story witness only, using its story title as the stable locator. It does not aggregate the other five 1950 collection stories, later Cugel books, Rhialto stories, renamed/revised editions, authorized continuations, or game/adaptation material.",
+    "work_or_witnesses":[
+      {"work":"The Dying Earth","edition":"Hillman Periodicals, New York, 1950; English paperback; 176 pages in the catalogued first edition. Internet Archive controlled digital-lending record used as the primary reading witness; access may require a loan.","url":"https://archive.org/details/bwb_Y0-BWO-254"},
+      {"work":"Mazirian the Magician","edition":"Spatterlight Press / Jack Vance estate authorized ebook, 2012, ISBN 978-1-61947-028-6. The estate identifies it as originally published in 1950 as The Dying Earth and lists its six 1950 stories.","url":"https://www.jackvance.com/ebooks/shop/?q22_action=view&q22_id=47"},
+      {"work":"The Dying Earth","edition":"Open Library bibliographic record for the 1950 Hillman Periodicals English edition, linked to LCCN 50058129 and OCLC 8479962.","url":"https://openlibrary.org/books/OL26220582M/The_Dying_Earth"},
+      {"work":"Jack Vance biography","edition":"Official Jack Vance site, used for the author's description of the 1950 collection title and later returns to the setting.","url":"https://www.jackvance.com/jackvance/bio/"}
+    ],
+    "coverage_rule":"Include all named individual dramatic agents who materially act in “Mazirian the Magician”: the eponymous magician, his named captive Turjan of Miir, the named woman T'sain, and the named ghoul-bear Thrang. The speaking but individually unnamed Twk-man and Deodand, the unnamed vat-grown figure, unnamed captive women, generic creatures, and contextual/offstage names remain outside the character graph. Spells, vocations, peoples, magic objects, artificial-life methods, places, and dying-world concepts remain dimensions/source terms.",
+    "in_scope_character_count":4,
+    "completed_character_count":4,
+    "omissions":[
+      "The other five 1950 stories: “Turjan of Miir,” “T'sais,” “Liane the Wayfarer,” “Ulan Dhor Ends a Dream,” and “Guyal of Sfere,” including their protagonists and events",
+      "The Eyes of the Overworld/Cugel the Clever, Cugel's Saga/Cugel: the Skybreak Spatterlight, Rhialto the Marvellous, Michael Shea's authorized Cugel continuation, Songs of the Dying Earth, roleplaying games, and all other adaptations or tie-ins",
+      "Later or translated editions, audiobook performances, cover art, and the Vance Integral Edition title preference, except as edition metadata",
+      "Individually unnamed speakers/creatures and all non-person entities: Twk-men, Deodands, ghoul-bears, spells, talismans, live boots, the garden, the Lake of Dreams, and the dying Earth"
+    ],
+    "uncertainties":[
+      "The official estate identifies the 1950 six-story unit by the later author-preferred collection title Mazirian the Magician, whereas this pass keeps the original 1950 collection title as its publication witness and the individual story title as scope. That metadata distinction does not merge the six stories.",
+      "Pagination differs across Hillman, Pocket, Mayflower, Baen, integral, ebook, and omnibus editions; the exact story title, rather than a transposed page number, locates every claim.",
+      "The Internet Archive primary witness is access-restricted/loan-based and the work remains copyright-controlled. No public-domain status is claimed, and no extended quotation is used.",
+      "The story contains captivity, torture threats, stalking, attempted sexual violence, bodily violence, and period-gendered narration. Records describe these as content and coercion, not as entertainment, consent, or generic archetypes.",
+      "No source-native term is mapped to a normalized archetype. Magic and artificial life are left unmapped rather than equated with real religions, scientific practices, cultures, or role-playing mechanics."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Claim-level evidence is the controlled primary reading witness, cited by the exact story “Mazirian the Magician.” Official Jack Vance/Spatterlight pages establish authorized edition, original 1950 collection identity, six-story contents, later-book separation, and copyright-bound availability. Open Library provides institutional bibliographic cross-checking. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://archive.org/details/bwb_Y0-BWO-254","locator":"The Dying Earth controlled digital-lending scan, “Mazirian the Magician” story section","supports":["Primary story evidence for the four named individuals, their actions, relationships, source terms, and content cautions."]},
+      {"url":"https://www.jackvance.com/ebooks/shop/?q22_action=view&q22_id=47","locator":"Spatterlight/Jack Vance shop, “Mazirian the Magician,” summary and part-of-series text","supports":["Authorized 2012 edition metadata; original 1950 title; exact six-story contents; dying-Earth setting context."]},
+      {"url":"https://openlibrary.org/books/OL26220582M/The_Dying_Earth","locator":"1950 Hillman Periodicals edition details, publication date/publisher/language/pages/LCCN/OCLC","supports":["Bibliographic identification of the first collection witness."]},
+      {"url":"https://www.jackvance.com/jackvance/bio/","locator":"Official biography, “WORK” paragraphs on The Dying Earth and later Cugel/Rhialto returns","supports":["The 1950 collection's original-title context and separation from later setting returns."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

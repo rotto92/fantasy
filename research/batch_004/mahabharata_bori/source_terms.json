@@ -1,0 +1,304 @@
+[
+  {
+    "term_id": "STM-SRC277-001",
+    "source_id": "SRC-277",
+    "canonical_term": "dharma",
+    "original_language": "Sanskrit",
+    "original_script": "धर्म",
+    "transliteration": "dharma",
+    "literal_gloss": "that which upholds; duty/order",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Normative, legal, social, and cosmic discourse central to Yudhiṣṭhira’s dilemmas.",
+    "cultural_caution": "Never equate dharma with a D&D alignment, a single moral rule, or a game mechanic.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Vana Parva, section 313; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Normative, legal, social, and cosmic discourse central to Yudhiṣṭhira’s dilemmas."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-002",
+    "source_id": "SRC-277",
+    "canonical_term": "varṇa",
+    "original_language": "Sanskrit",
+    "original_script": "वर्ण",
+    "transliteration": "varṇa",
+    "literal_gloss": "social category/color",
+    "dimension": "cultures",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A textual social category whose use requires historical and contextual analysis.",
+    "cultural_caution": "Do not model varṇa as race, class, or character build.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 95; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "A textual social category whose use requires historical and contextual analysis."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-003",
+    "source_id": "SRC-277",
+    "canonical_term": "deva",
+    "original_language": "Sanskrit",
+    "original_script": "देव",
+    "transliteration": "deva",
+    "literal_gloss": "shining one/deity",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Divine agents such as Indra, Sūrya, and Agni.",
+    "cultural_caution": "Not a generic celestial species.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Divine agents such as Indra, Sūrya, and Agni."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-004",
+    "source_id": "SRC-277",
+    "canonical_term": "asura",
+    "original_language": "Sanskrit",
+    "original_script": "असुर",
+    "transliteration": "asura",
+    "literal_gloss": "asura",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Sanskrit cosmological category; meanings and opponents vary by context.",
+    "cultural_caution": "Do not translate mechanically as demon or fiend.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 67; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Sanskrit cosmological category; meanings and opponents vary by context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-005",
+    "source_id": "SRC-277",
+    "canonical_term": "rākṣasa",
+    "original_language": "Sanskrit",
+    "original_script": "राक्षस",
+    "transliteration": "rākṣasa",
+    "literal_gloss": "rākṣasa",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Category applied to figures such as Hiḍimbā and Ghaṭotkaca.",
+    "cultural_caution": "Do not flatten rākṣasa into monster, demon, or a fantasy race.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 154; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Category applied to figures such as Hiḍimbā and Ghaṭotkaca."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-007",
+    "source_id": "SRC-277",
+    "canonical_term": "vara",
+    "original_language": "Sanskrit",
+    "original_script": "वर",
+    "transliteration": "vara",
+    "literal_gloss": "boon",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-201"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Divine gift/boon structure in weapon and birth narratives.",
+    "cultural_caution": "A functional comparison, not a rules reward.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Divine gift/boon structure in weapon and birth narratives."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-008",
+    "source_id": "SRC-277",
+    "canonical_term": "śāpa",
+    "original_language": "Sanskrit",
+    "original_script": "शाप",
+    "transliteration": "śāpa",
+    "literal_gloss": "curse",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-204"
+    ],
+    "mapping_relation": "close",
+    "definition": "Binding curse that shapes Pāṇḍu’s life and later narratives.",
+    "cultural_caution": "Source-specific force and ethics must remain visible.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 95; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Binding curse that shapes Pāṇḍu’s life and later narratives."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-009",
+    "source_id": "SRC-277",
+    "canonical_term": "vrata",
+    "original_language": "Sanskrit",
+    "original_script": "व्रत",
+    "transliteration": "vrata",
+    "literal_gloss": "vow/observance",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-101",
+      "LAW-102"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Self-binding vow, exemplified by Bhīṣma’s renunciation.",
+    "cultural_caution": "Do not treat vratā as a power-optimization constraint.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 102; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Self-binding vow, exemplified by Bhīṣma’s renunciation."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-010",
+    "source_id": "SRC-277",
+    "canonical_term": "astra",
+    "original_language": "Sanskrit",
+    "original_script": "अस्त्र",
+    "transliteration": "astra",
+    "literal_gloss": "weapon, often invoked missile",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Named weapon traditions and invocations are important in epic warfare.",
+    "cultural_caution": "Do not reduce astras to a generic spell list or loot item.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 155; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Named weapon traditions and invocations are important in epic warfare."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-011",
+    "source_id": "SRC-277",
+    "canonical_term": "yajña",
+    "original_language": "Sanskrit",
+    "original_script": "यज्ञ",
+    "transliteration": "yajña",
+    "literal_gloss": "sacrifice/ritual offering",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-301"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Ritual such as the rājasūya structures political and sacred action.",
+    "cultural_caution": "Ritual context is not a resource economy or game quest.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Ritual such as the rājasūya structures political and sacred action."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-012",
+    "source_id": "SRC-277",
+    "canonical_term": "kṣatriya",
+    "original_language": "Sanskrit",
+    "original_script": "क्षत्रिय",
+    "transliteration": "kṣatriya",
+    "literal_gloss": "ruler/warrior social estate",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "A contextual social-role term in royal and war discourse.",
+    "cultural_caution": "Do not map to a fantasy fighter class or assume fixed historical practice.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhagavad Gītā Parva, section 23–42; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "A contextual social-role term in royal and war discourse."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC277-013",
+    "source_id": "SRC-277",
+    "canonical_term": "rājasūya",
+    "original_language": "Sanskrit",
+    "original_script": "राजसूय",
+    "transliteration": "rājasūya",
+    "literal_gloss": "royal consecration sacrifice",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-301",
+      "LAW-509"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Royal ritual context for Yudhiṣṭhira’s assembly and Śiśupāla episode.",
+    "cultural_caution": "Requires historical-ritual context; not a generic coronation event.",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Royal ritual context for Yudhiṣṭhira’s assembly and Śiśupāla episode."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

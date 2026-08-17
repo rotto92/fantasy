@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "SRC-205",
+    "source_title": "Bleach, Vol. 1",
+    "continuity_scope": "VIZ Media English Bleach, Vol. 1 paperback/digital edition, ISBN 9781591164418 (publisher product page lists eISBN-13 9781421543642), credited to Tite Kubo and released by VIZ on 17 June 2011. The selected witness is the exact official VIZ Volume 1 page and its 59-page free preview reader. VIZ exposes no individual chapter locator for that preview, so the primary locator is recorded as Volume 1 preview pages 1–59 and claims are further limited to the publisher's Volume 1 synopsis. The Japanese Shueisha serialization/volumes, later English volumes and omnibus editions, anime, films, games, novels, guidebooks, sequel/spinoff works, and every other adaptation are separate witnesses or continuities.",
+    "work_or_witnesses": [
+      "Tite Kubo, Bleach, Vol. 1, VIZ Media English edition; official 59-page free preview reader",
+      "VIZ Media, Bleach, Vol. 1 official product metadata and synopsis"
+    ],
+    "coverage_rule": "All named individual dramatic figures named in the selected VIZ Volume 1 synopsis: Ichigo Kurosaki and Rukia Kuchiki. This is a narrow official-metadata pass rather than a complete extraction of the 59-page preview or full volume. Soul Reapers and Hollows as categories, Soul Society, spiritual powers/energy, ghosts and other spirits, family, places, factions, weapons, and themes are dimensions or terms rather than character nodes.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "Every named or unnamed person, Soul Reaper, Hollow, spirit, ghost, faction, weapon/entity, and later-introduced figure not named in the selected VIZ Volume 1 synopsis, including figures visually present but not textually identified under this metadata rule.",
+      "All detailed preview or volume events, later identities, powers, training, weapons, faction structures, deaths, transformations, battles, outcomes, and later arc material; the original Japanese text except as a separate bibliographic witness; and later volumes/omnibus editions, anime, films, games, novels, guidebooks, sequel/spinoff works, and other adaptations.",
+      "Fan wikis, Wikipedia, databases, reviews, social summaries, and long quotation or panel-by-panel reproduction."
+    ],
+    "uncertainties": [
+      "The consulted VIZ product page credits story and art but does not name a translator. Its metadata labels the book as 192 pages while the free-preview reader exposes 59 preview pages; this pass does not infer a chapter breakdown from either display.",
+      "Soul Reaper, Soul Society, Hollow, ghost, spirit, and afterlife language are source-specific manga fiction in this record. They are not descriptions of real religion, death, spiritual practice, or a claim that any tradition uses these terms in the same way.",
+      "The premise includes attacks, predatory spirits, threatened family members, power loss/transfer, death and afterlife imagery, and paranormal violence. These are fictional content cautions, not real-world medical, safety, or religious guidance."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official VIZ Volume 1 product metadata/synopsis plus its official 59-page free-preview reader location. The reader provides the primary-volume locator but not separately exposed chapter identifiers; detailed claims remain constrained to the publisher synopsis. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {"url":"https://www.viz.com/manga-books/manga/bleach-volume-1-0/product/167","locator":"Official product metadata and synopsis; official Volume 1 free preview reader, pp. 1–59","supports":["Selected English edition, Tite Kubo credit, release/ISBN/page metadata, 59-page preview boundary, Ichigo, Rukia, Soul Reaper, Soul Society, Hollow, power transfer, dangerous spirits, and opening protection/peace premise"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

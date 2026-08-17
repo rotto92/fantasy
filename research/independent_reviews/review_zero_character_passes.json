@@ -1,0 +1,133 @@
+{
+  "reviewer_lane": "gita_canonical",
+  "reviewed_at": "2026-08-06",
+  "enumeration": {
+    "criterion": "Every sources.json entry with completed_character_count == 0, enumerated programmatically across research/batch_*/**/sources.json.",
+    "total": 67,
+    "source_ids": [
+      "SRC-033", "SRC-034", "SRC-037", "SRC-038", "SRC-041", "SRC-071", "SRC-072", "SRC-084",
+      "SRC-089", "SRC-090", "SRC-091", "SRC-092", "SRC-093", "SRC-094", "SRC-095", "SRC-096", "SRC-097", "SRC-098", "SRC-099", "SRC-100", "SRC-101", "SRC-102", "SRC-103", "SRC-104", "SRC-105", "SRC-106", "SRC-107", "SRC-108", "SRC-109", "SRC-110", "SRC-111", "SRC-112", "SRC-113", "SRC-114", "SRC-115", "SRC-116", "SRC-117", "SRC-119", "SRC-120", "SRC-122", "SRC-123", "SRC-124", "SRC-125", "SRC-126",
+      "SRC-140", "SRC-142", "SRC-143", "SRC-144", "SRC-148", "SRC-150", "SRC-157", "SRC-158", "SRC-165", "SRC-177", "SRC-186", "SRC-188", "SRC-189", "SRC-190", "SRC-192", "SRC-195", "SRC-199", "SRC-210", "SRC-216", "SRC-218", "SRC-220", "SRC-221", "SRC-245"
+    ]
+  },
+  "checks": {
+    "exact_bounded_witness_or_continuity": {
+      "result": "pass: 67/67",
+      "detail": "Each audit names a single edition, release, rules product, bounded opening segment, or clearly separated publisher-metadata witness. None was treated as an exhaustive franchise census."
+    },
+    "nonzero_cited_source_terms": {
+      "result": "pass after remediation: 67/67",
+      "detail": "SRC-071, SRC-072, and SRC-084 were the only zero-term bundles. Each now has one narrow, citation-backed bibliographic or scope-boundary term; no lore or characters were invented."
+    },
+    "authoritative_citations": {
+      "result": "pass: 67/67",
+      "detail": "The audited records use declared first-party publisher, developer, licensor, official store/manual, author-authorized, or primary-text witnesses. The review retained access limitations where those witnesses do not expose claim-level character evidence."
+    },
+    "zero_character_reason_omissions_and_uncertainties": {
+      "result": "pass: 67/67",
+      "detail": "Every pass expressly explains why no stable named dramatic individual is in scope or supportable, and preserves omissions/uncertainties for avatars, procedural play, unlicensed text access, adaptation boundaries, translations, and scope separation."
+    },
+    "completion_status_nonexhaustive": {
+      "result": "pass: 67/67",
+      "detail": "All pass-complete labels are constrained by their declared witness/coverage rule. SRC-071, SRC-072, and SRC-084 use evidence-insufficient-zero-character-audit instead of suggesting that a whole novel or franchise has been exhaustively researched."
+    },
+    "review_groups": [
+      {
+        "group": "bounded fiction, manga, or publisher-metadata witnesses",
+        "source_ids": ["SRC-033", "SRC-034", "SRC-037", "SRC-038", "SRC-041", "SRC-071", "SRC-072", "SRC-084", "SRC-195", "SRC-199", "SRC-210", "SRC-216", "SRC-218", "SRC-220", "SRC-221", "SRC-245"],
+        "result": "retained zeroes: either the precise primary segment contains no named individual (SRC-037), or the accessible authorized witness is edition/premise metadata rather than a claim-level chapter, page, panel, or individual dossier."
+      },
+      {
+        "group": "digital-game release and product witnesses",
+        "source_ids": ["SRC-140", "SRC-142", "SRC-143", "SRC-144", "SRC-148", "SRC-150", "SRC-157", "SRC-158", "SRC-165", "SRC-177", "SRC-186", "SRC-188", "SRC-189", "SRC-190", "SRC-192"],
+        "result": "retained zeroes: the cited official materials support edition, player-avatar, procedural, package, or setting/mechanics claims but not reproducible named-NPC profiles with claim-level locators."
+      },
+      {
+        "group": "licensed tabletop rules and setting-product witnesses",
+        "source_ids": ["SRC-089", "SRC-090", "SRC-091", "SRC-092", "SRC-093", "SRC-094", "SRC-095", "SRC-096", "SRC-097", "SRC-098", "SRC-099", "SRC-100", "SRC-101", "SRC-102", "SRC-103", "SRC-104", "SRC-105", "SRC-106", "SRC-107", "SRC-108", "SRC-109", "SRC-110", "SRC-111", "SRC-112", "SRC-113", "SRC-114", "SRC-115", "SRC-116", "SRC-117"],
+        "result": "retained terms-only zeroes: core rules, setting catalogues, and emergent-fiction systems have no audited fixed character cohort in the selected accessible witness. Named persons require separately scoped official profiles, scenarios, or literary witnesses."
+      },
+      {
+        "group": "board-game and campaign-system witnesses",
+        "source_ids": ["SRC-119", "SRC-120", "SRC-122", "SRC-123", "SRC-124", "SRC-125", "SRC-126"],
+        "result": "retained terms-only zeroes: cards, roles, factions, player-controlled panels, miniatures, and variable campaign outcomes are not automatically stable dramatic-character records. Several are flagged below for a richer official profile check."
+      }
+    ]
+  },
+  "changes": [
+    {
+      "source_id": "SRC-071",
+      "changes": [
+        "Added STM-SRC071-001, a Korean-title bibliographic witness term grounded only in the existing Naver publisher listing.",
+        "Clarified that the term is an evidence boundary, not internal lore; retained evidence-insufficient-zero-character-audit."
+      ]
+    },
+    {
+      "source_id": "SRC-072",
+      "changes": [
+        "Added STM-SRC072-001, a Japanese-title/edition bibliographic witness term grounded only in existing Shinchosha records.",
+        "Clarified that the term is an evidence boundary, not internal lore; retained evidence-insufficient-zero-character-audit."
+      ]
+    },
+    {
+      "source_id": "SRC-084",
+      "changes": [
+        "Added STM-SRC084-001, an authorized work/fiction-boundary term grounded only in the existing Bright Weavings citation.",
+        "Changed completion_status from pass-complete to evidence-insufficient-zero-character-audit and clarified that no primary text is available for character or relationship claims."
+      ]
+    }
+  ],
+  "flagged_for_future_richer_witness": [
+    {
+      "source_id": "SRC-033",
+      "reason": "The authorized whole-work framing names Arthur/Merlin; retain the zero now, but a controlled authorized opening-text witness could support a narrowly located character pass."
+    },
+    {
+      "source_id": "SRC-034",
+      "reason": "The publisher gives named-character orientation for the exact volume, but no claim-level text locator. A licensed preview or direct official profile should be checked before any expansion."
+    },
+    {
+      "source_id": "SRC-096",
+      "reason": "The selected product indexes Strahd von Zarovich. Index presence remains insufficient here, but an official exact-product profile or text passage would warrant a separate character-witness review."
+    },
+    {
+      "source_id": "SRC-115",
+      "reason": "The selected official materials refer to named short-fiction/errata examples. The current record rightly rejects those as unprofiled examples; a direct official profile should be assessed rather than treating the core rules as cast-free by default."
+    },
+    {
+      "source_id": "SRC-120",
+      "reason": "A richer official Second Edition hero/villain profile witness should be checked: sheets and components alone were not accepted as biographies in this mechanics-only pass."
+    },
+    {
+      "source_id": "SRC-123",
+      "reason": "Named Mage Knight hero cards/avatars may be stable individuals if an official base-game profile source is available; the current product metadata is not enough."
+    },
+    {
+      "source_id": "SRC-124",
+      "reason": "The eight named Spirit panels may merit an exact official narrative-profile audit; the current zero conservatively treats player-controlled panels as mechanics rather than dramatic biographies."
+    },
+    {
+      "source_id": "SRC-126",
+      "reason": "Marquise de Cat is a named faction-role framing in the official core product. The variable faction system is not enough here, but a direct official character profile should be checked."
+    },
+    {
+      "source_id": "SRC-186",
+      "reason": "The declared official materials name Nata, Alma, and Olivia, while the official character page was inaccessible. A reproducible Capcom profile witness could support narrowly sourced records."
+    },
+    {
+      "source_id": "SRC-210",
+      "reason": "The exact official synopsis names Momonga and Ainz Ooal Gown but does not safely resolve the alias or give a direct dossier. A licensed text/profile witness is needed."
+    },
+    {
+      "source_id": "SRC-220",
+      "reason": "The exact KADOKAWA metadata names Bojji and Kage but lacks page-level support. A primary-page or official profile witness should be checked before character records are made."
+    }
+  ],
+  "unresolved_cases": [
+    "SRC-071 and SRC-072 remain deliberately evidence-insufficient: no accessible primary Korean/Japanese text or complete authoritative translation was available for character-level claims.",
+    "SRC-084 remains deliberately evidence-insufficient: the authorized work page identifies the novel and its fictional framing but is not a stable primary-text witness.",
+    "The eleven flagged sources are not defects remediable from the present citations. They require a separate, directly accessible official character/profile or primary-text witness; no weak character record was added.",
+    "For procedural, avatar-led, collaborative, and board-game systems, a named card, class, faction, or player role remains insufficient unless a future witness directly establishes a stable dramatic individual."
+  ],
+  "validator_result": "pass: full repository validation completed after remediation (1573 characters, 1259 relationships, 1881 source terms, 281 source passes)"
+}

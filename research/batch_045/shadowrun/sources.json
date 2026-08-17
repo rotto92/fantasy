@@ -1,0 +1,67 @@
+[
+  {
+    "source_id": "SRC-107",
+    "source_title": "Shadowrun",
+    "continuity_scope": "Catalyst Game Labs' Shadowrun: Sixth World Core Rulebook, City Edition: Hong Kong, limited to the current official Catalyst product page and the official Shadowrun Sixth World resources/errata archive. The product page states that City Edition: Hong Kong contains the full updated rules content of Shadowrun, Sixth World, with extra Hong Kong art, fiction, contacts, and plot hooks. This is a specific Sixth World rules-product pass, not a general Shadowrun continuity pass; it excludes earlier editions, Earthdawn links, novels, videogames, supplements, missions, and home campaigns.",
+    "work_or_witnesses": [
+      {
+        "work": "Shadowrun: Sixth World Core Rulebook, City Edition: Hong Kong",
+        "edition": "Catalyst's current City Edition: Hong Kong product; public product page describes full updated Sixth World rules content plus location material but does not state a publication date.",
+        "url": "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-core-rulebook-city-edition-hong-kong"
+      },
+      {
+        "work": "Shadowrun Sixth World resources",
+        "edition": "Official resources page listing SR6 Core Rulebook errata from August 2019 and February 2020, plus a comprehensive FAQ.",
+        "url": "https://shadowrunsixthworld.com/resources/"
+      },
+      {
+        "work": "SR6 Core Rulebook Errata",
+        "edition": "Official February 2020 errata document for the original Sixth World core-rulebook printings; used only as a version/errata boundary.",
+        "url": "https://www.shadowrunsixthworld.com/wp-content/uploads/SR6-Core-Rulebook-Errata-Feb-2020.pdf"
+      }
+    ],
+    "coverage_rule": "Terms-only rules/setting audit. The accessible official City Edition page supplies a product-level rules frame but does not expose a bounded, claim-level set of named dramatic character profiles. No character or relationship records are made. Metatypes, archetypal runner roles, corporations/factions, magic traditions, the Matrix, cyberware, items, places, and game rules remain terms/dimensions. The City Edition's additional fiction, contacts, and plot hooks are not ingested from product description; a separate exact accessible product witness is required for any named-character claim.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named Sixth World characters, including City Edition contacts and fiction figures, because the selected public product description does not provide their claim-level profiles.",
+      "All metatypes, archetypes, corporations, factions, magic traditions, Matrix entities, cyberware, equipment, locations, and rules as character nodes.",
+      "All prior Shadowrun editions, Earthdawn links, novels, videogames, adventures/missions, Sixth World Companion and other supplements, external adaptations, fan material, and home-campaign outcomes."
+    ],
+    "content_cautions": [
+      "The official product framing depicts a dystopian world of corporate domination, social marginalization, crime, surveillance, technology, magic, and potentially lethal risk. Material involving weapons, injury, coercion, exploitation, and inequality should be handled with table-appropriate boundaries.",
+      "Metatype, cultural, corporate, and spiritual imagery are fictional game constructs; they must not be mapped onto real peoples, disability, ethnicity, religion, or social class without qualified, source-specific evidence."
+    ],
+    "uncertainties": [
+      "The official City Edition page says it contains full updated rules content, while the resource archive separately lists 2019 and 2020 original-core errata. This pass records both as version evidence but does not assume or reconstruct which individual errata entries are incorporated in City Edition without a page-level City Edition witness.",
+      "The accessible official product page does not give a City Edition publication date; the review date is recorded instead of inventing one.",
+      "No Earthdawn connection, retcon, or shared-timeline claim is established by this restricted official witness set. Such claims remain outside this source pass even where other franchise materials discuss them."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Catalyst Game Labs' official store and the official Shadowrun Sixth World resource site only. The City Edition page establishes the exact selected product, 2080 setting frame, megacorporate technology-and-magic premise, runner roles, and updated-rules claim; resources establish the published errata archive. No fan wiki, community resource, or adaptation is used.",
+    "citations": [
+      {
+        "url": "https://store.catalystgamelabs.com/products/shadowrun-sixth-world-core-rulebook-city-edition-hong-kong",
+        "locator": "Product Description: Risk Is the Reward",
+        "supports": [
+          "Exact City Edition product; 2080 setting, megacorporate technology/magic premise, shadowrunner roles, and statement that it contains full updated Sixth World rules content."
+        ]
+      },
+      {
+        "url": "https://shadowrunsixthworld.com/resources/",
+        "locator": "Resources: SR6 Core Rulebook Errata – Feb 2020 and Aug 2019",
+        "supports": [
+          "Official availability of two dated Sixth World core-rulebook errata documents and FAQ resource boundary."
+        ]
+      },
+      {
+        "url": "https://www.shadowrunsixthworld.com/wp-content/uploads/SR6-Core-Rulebook-Errata-Feb-2020.pdf",
+        "locator": "Title page and entries: Shadowrun, Sixth World Errata, February 2020",
+        "supports": [
+          "Dated original-core errata witness, including character-archetype and rule corrections."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

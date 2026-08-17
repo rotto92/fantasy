@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity_scope": "Bounded historical-witness pass: Kojiki Book 1 episodes; Nihon Shoki Books III and V selected episodes; Toriyama Sekien’s Gazu Hyakki Yagyō, Konjaku Gazu Zoku Hyakki, and Konjaku Hyakki Shūi catalogue entries. It does not define Shinto practice, Buddhist traditions, local folklore, all yōkai, later visual catalogues, or modern media.",
+    "work_or_witnesses": [
+      {
+        "work": "Kojiki",
+        "edition": "Japanese Text Initiative, University of Virginia, digital text",
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html"
+      },
+      {
+        "work": "Nihon Shoki",
+        "edition": "identified historical translation, selected Books III and V",
+        "url": "https://www.sacred-texts.com/shi/nihon/"
+      },
+      {
+        "work": "Toriyama Sekien yōkai catalogues",
+        "edition": "historical illustrated catalogues; National Diet Library digital collections reference",
+        "url": "https://dl.ndl.go.jp/"
+      }
+    ],
+    "coverage_rule": "Major named acting kami, rulers, and Otherworld beings in the declared chronicle episodes, plus named catalogue beings that represent distinct historically bounded yōkai entries. Generic categories and unnamed beings are terms or omissions, never nodes.",
+    "in_scope_character_count": 31,
+    "completed_character_count": 31,
+    "omissions": [
+      "All local kami, shrine traditions, ritual practice, Buddhist entities, most yōkai, later catalogues, modern manga/anime/games",
+      "Unidentified or generic catalogue figures and unnamed animals/collectives",
+      "Historical claims beyond the declared literary/catalogue witnesses"
+    ],
+    "uncertainties": [
+      "Kojiki and Nihon Shoki differ in chronology, genealogies, and versions; this pass does not harmonize them.",
+      "Sekien catalogues are early-modern visual/literary works, not direct evidence for all folklore.",
+      "Terms such as miko and onmyōji are retained with explicit non-support/exclusion cautions where not evidenced in the selected witnesses."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Kojiki uses the University of Virginia Japanese Text Initiative; Nihon Shoki uses an identified historical translation locator; Sekien records cite named catalogue entries with National Diet Library as the institutional reference. Each scope limitation is explicit.",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1",
+        "supports": [
+          "Kojiki textual witness for creation, cave, land, and sea episodes."
+        ]
+      },
+      {
+        "url": "https://www.ndl.go.jp/en/",
+        "locator": "Digital Collections institutional catalogue context",
+        "supports": [
+          "National Diet Library is the institutional reference for historical Japanese printed materials."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

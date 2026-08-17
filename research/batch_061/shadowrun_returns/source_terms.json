@@ -1,0 +1,184 @@
+[
+  {
+    "term_id": "STM-SRC192-001",
+    "source_id": "SRC-192",
+    "canonical_term": "Shadowrun Returns original English PC witness",
+    "original_language": "English video-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected English Shadowrun Returns base-game Steam product witness, listing Harebrained Schemes as developer, Paradox Interactive as publisher, and a 25 July 2013 release date.",
+    "cultural_caution": "This is a bounded product/date witness, not a claim that all regional localizations, later builds, mobile versions, console ports, remasters, or bundled editions are textually identical.",
+    "citations": [
+      {
+        "url": "https://store.steampowered.com/app/234650/Shadowrun_Returns/",
+        "locator": "Product header: developer, publisher, and release date",
+        "supports": [
+          "The selected base-game witness and its date/attribution."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC192-002",
+    "source_id": "SRC-192",
+    "canonical_term": "magic, machine, and 2054 setting frame",
+    "original_language": "English game-setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Paradox frames Shadowrun Returns in 2054, where magic has returned, mythic creatures have awakened, technology merges with flesh and consciousness, and elves, trolls, orks, and dwarves coexist amid powerful corporations.",
+    "cultural_caution": "This is fictional cyberpunk-fantasy setting language. Metatypes, magic, technology, consciousness, and corporations are setting dimensions, never person records or real-world social categories in this pass.",
+    "citations": [
+      {
+        "url": "https://www.paradoxinteractive.com/games/shadowrun-returns/about",
+        "locator": "Man Meets Magic and Machine",
+        "supports": [
+          "The 2054 magic/technology and metatype/corporate setting frame."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC192-003",
+    "source_id": "SRC-192",
+    "canonical_term": "player Shadowrunner boundary",
+    "original_language": "English player-role lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official premise addresses the player as a Shadowrunner: a mercenary on society's fringes who takes jobs for powerful or desperate clients. This is the player role, not a fixed named protagonist.",
+    "cultural_caution": "Name, appearance, metatype, skills, choices, companions, and ending are player-configurable or session-dependent. The role must not be converted into a shared individual character node.",
+    "citations": [
+      {
+        "url": "https://www.paradoxinteractive.com/games/shadowrun-returns/about",
+        "locator": "Man Meets Magic and Machine",
+        "supports": [
+          "Paradox's second-person definition of the Shadowrunner player role."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC192-004",
+    "source_id": "SRC-192",
+    "canonical_term": "Seattle mysterious-killer investigation",
+    "original_language": "English game-story lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official introduction presents a search for a mysterious killer across the Seattle metroplex, from slums to powerful megacorporations, requiring assistance from other runners and use of technology and magic.",
+    "cultural_caution": "This is a broad spoiler-light marketing premise. It does not identify the killer, establish a named victim or companion, resolve the investigation, or select any player branch/ending.",
+    "citations": [
+      {
+        "url": "https://www.paradoxinteractive.com/games/shadowrun-returns/about",
+        "locator": "Introduction",
+        "supports": [
+          "The Seattle mysterious-killer investigation and general team/technology/magic setup."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC192-005",
+    "source_id": "SRC-192",
+    "canonical_term": "classless skill progression and cyber-magic tactics",
+    "original_language": "English game-system lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The official feature description presents turn-based tactical combat and classless progression from a chosen starting archetype. It names Street Samurai, Physical Adepts, Shamans, Mages, Riggers, and Deckers, including spirit summoning, drones, and projecting consciousness into computer systems.",
+    "cultural_caution": "These are gameplay archetypes and technical/magical systems, not stable character identities. The word 'classless' describes progression; it does not erase the official starting-archetype terminology or establish a tabletop-rules equivalence.",
+    "citations": [
+      {
+        "url": "https://www.paradoxinteractive.com/games/shadowrun-returns/about",
+        "locator": "Main features: Gripping Tactical Combat and Skill-Based Character Progression",
+        "supports": [
+          "The tactical-combat loop, starting archetypes, classless progression, magic, drones, and decking/system language."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC192-006",
+    "source_id": "SRC-192",
+    "canonical_term": "tabletop-setting and CRPG adaptation boundary",
+    "original_language": "English continuity lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Paradox describes Shadowrun Returns as Jordan Weisman's modernization of the classic Shadowrun setting as a single-player, turn-based tactical RPG; its press release identifies Weisman as creator of the original tabletop RPG.",
+    "cultural_caution": "Shared setting provenance does not make tabletop editions, novels, older games, or their characters/events automatically identical to this CRPG's continuity. No cross-medium fact is imported without an exact witness.",
+    "citations": [
+      {
+        "url": "https://www.paradoxinteractive.com/games/shadowrun-returns/about",
+        "locator": "Introduction",
+        "supports": [
+          "Returns is presented as a single-player tactical-RPG modernization of the classic Shadowrun setting."
+        ]
+      },
+      {
+        "url": "https://www.paradoxinteractive.com/media/press-releases/press-release/shadowrun-trilogy-arriving-on-consoles-on-june-21-2022",
+        "locator": "20 April 2022 press release, paragraph 2",
+        "supports": [
+          "Paradox identifies Jordan Weisman as creator of the original Shadowrun tabletop RPG."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC192-007",
+    "source_id": "SRC-192",
+    "canonical_term": "Trilogy, sequel, port, and add-on boundary",
+    "original_language": "English product-continuity lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Paradox identifies the 2022 Shadowrun Trilogy as a console remaster with upscaled graphics, improved performance, and controller-optimized gameplay; it separately identifies Dragonfall - Director's Cut and Hong Kong - Extended Edition as standalone sequels. The Returns store page also distinguishes base game, soundtrack, and Anthology.",
+    "cultural_caution": "Remaster performance/UI changes, console presentation, sequel stories, and Anthology short stories are separate witnesses. They do not provide evidence for the selected 2013 English PC base-game characters, outcomes, or rule behavior.",
+    "citations": [
+      {
+        "url": "https://www.paradoxinteractive.com/media/press-releases/press-release/shadowrun-trilogy-arriving-on-consoles-on-june-21-2022",
+        "locator": "20 April 2022 press release, paragraphs 1-2",
+        "supports": [
+          "The 2022 console-remaster changes and the standalone-sequel distinction."
+        ]
+      },
+      {
+        "url": "https://www.paradoxinteractive.com/games/shadowrun-returns/buy",
+        "locator": "Main game and product details",
+        "supports": [
+          "Paradox distinguishes base game, soundtrack, and Anthology, and lists supported PC languages/platforms."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

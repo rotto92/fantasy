@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "SRC-105",
+    "source_title": "Exalted",
+    "continuity_scope": "Onyx Path's Exalted Third Edition core rulebook, released in PDF and print on 20 April 2016, limited to the official release announcement, official Third Edition mechanics overview, official character-creation article, and official product-line index. This is the Solar-focused core product's rules/setting frame only. It does not merge Exalted first or second edition, Exalted: Essence, later Third Edition Exalt books, supplements, fiction, comics, games, community content, or home campaigns.",
+    "work_or_witnesses": [
+      {
+        "work": "Exalted Third Edition",
+        "edition": "Core rulebook; official release announcement dated 20 April 2016.",
+        "url": "https://theonyxpath.com/now-available-exalted-third-edition/"
+      },
+      {
+        "work": "Exalted Third Edition Mechanics Overview",
+        "edition": "Official rules-development overview; used for mechanics and Third Edition comparison boundaries.",
+        "url": "https://theonyxpath.com/exalted-third-edition-mechanics-overview/"
+      },
+      {
+        "work": "Character Creation: Exalted 3rd Edition",
+        "edition": "Official worked player-character example; used only to identify core Solar/Caste/Charm terminology, not as a canonical character witness.",
+        "url": "https://theonyxpath.com/character-creation-exalted-3rd-edition/"
+      },
+      {
+        "work": "Exalted products",
+        "edition": "Official product index, last updated 1 December 2024; used for core-versus-supplement boundaries.",
+        "url": "https://theonyxpath.com/exalted-products/"
+      }
+    ],
+    "coverage_rule": "Terms-only rules/setting audit. The selected official material explains a player-driven core game, its Solar character options, and a broad setting frame, but does not expose a bounded, claim-level corpus of named dramatic characters. No character or relationship records are made. Exalt types, castes, factions, gods and spirits, Charms, artifacts, Creation, cosmology, and rules remain terms/dimensions. Named figures may be added only through a separate exact official witness that profiles that individual; sample player characters and Storyteller-created characters are never canonically inferred.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named Exalted, gods, spirits, rulers, Storyteller characters, and the illustrative player character Ayesha, because no selected witness is a bounded dramatic-character profile corpus.",
+      "All Exalt types other than the core product's Solar character option, as well as factions, castes, cults, Charms, artifacts, regions, Creation, cosmology, and mechanics as character nodes.",
+      "Earlier editions, Exalted: Essence, Dragon-Blooded, Lunars, Exigents, Sidereals, Abyssals, other supplements, fiction, comics, games, unofficial material, and campaign outcomes."
+    ],
+    "content_cautions": [
+      "Official core framing includes combat, warfare, death, political domination, coercive social influence, and religious/cosmological imagery. These are fictional game subjects and should be handled with table-appropriate content boundaries.",
+      "The setting's imperial, cultural, and spiritual imagery is not a substitute for real-world history, living religion, or social identity."
+    ],
+    "uncertainties": [
+      "The 2016 release announcement calls Third Edition a revitalized and expanded Creation and says its system redesign takes elements from earlier editions. This audit records no cross-edition identity, timeline, or retcon reconciliation.",
+      "Official material evidences a pre-publication/early-publication correction process for the advance PDF, but no dated, consolidated official core-rulebook errata document was found in this restricted witness set. No unverified errata is applied.",
+      "Official product pages distinguish Third Edition core and later books; later product availability does not backfill their rules, setting details, or named profiles into this core pass."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Onyx Path official pages only. The release announcement establishes the exact Third Edition core product/date, Solar focus, Creation setting, and its relationship to earlier edition design; the mechanics overview identifies Third Edition procedures; the official worked example establishes selected terminology; and the product index distinguishes core material from subsequent product lines. The audit does not use fan wikis or infer facts from game play.",
+    "citations": [
+      {
+        "url": "https://theonyxpath.com/now-available-exalted-third-edition/",
+        "locator": "Now Available: Exalted Third Edition!!!, 20 April 2016",
+        "supports": [
+          "Core release date, Third Edition's revitalized/expanded Creation, Solar Exalted return, and stated redesign relationship to prior editions."
+        ]
+      },
+      {
+        "url": "https://theonyxpath.com/exalted-third-edition-mechanics-overview/",
+        "locator": "Third Edition mechanics overview: Combat, Character Resources, Charms and Magic, Social System, and Storyteller Characters",
+        "supports": [
+          "Edition-specific combat, Charm, Intimacy/social-influence, and Storyteller-character rules context."
+        ]
+      },
+      {
+        "url": "https://theonyxpath.com/exalted-products/",
+        "locator": "Exalted products, last updated 1 December 2024",
+        "supports": [
+          "Official distinction of Exalted 3rd Edition core product from later Exalt books and other product lines."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

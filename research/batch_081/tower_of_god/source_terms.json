@@ -1,0 +1,98 @@
+[
+  {
+    "term_id": "STM-SRC237-001",
+    "source_id": "SRC-237",
+    "canonical_term": "Tower",
+    "original_language": "Korean",
+    "original_script": "탑",
+    "transliteration": "tap",
+    "literal_gloss": "tower",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The named setting entered by the unnamed boy in the official Naver setup; WEBTOON's English description presents it as a place associated with desired ends.",
+    "cultural_caution": "A source-fiction setting term, not a claim about a real building, cosmology, or religious structure.",
+    "citations": [
+      {
+        "url": "https://m.comic.naver.com/webtoon/list?titleId=183559",
+        "locator": "Official Korean series synopsis",
+        "supports": [
+          "An unnamed boy enters the Tower"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC237-002",
+    "source_id": "SRC-237",
+    "canonical_term": "tests",
+    "original_language": "Korean",
+    "original_script": "시험",
+    "transliteration": "siheom",
+    "literal_gloss": "test",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official Naver synopsis says the Tower tests the boy who enters it.",
+    "cultural_caution": "A fictional challenge premise. No procedure, pass condition, participant category, injury, coercive act, or safety guidance is established by this brief source text.",
+    "citations": [
+      {
+        "url": "https://m.comic.naver.com/webtoon/list?titleId=183559",
+        "locator": "Official Korean series synopsis",
+        "supports": [
+          "The Tower tests the unnamed boy"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC237-003",
+    "source_id": "SRC-237",
+    "canonical_term": "Headon's Floor",
+    "original_language": "English",
+    "original_script": "1F.Headon's Floor",
+    "transliteration": "",
+    "literal_gloss": "first-floor place name",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The floor/place name in the official English opening-reader title, [Season 1] Ep. 1 - 1F.Headon's Floor.",
+    "cultural_caution": "A source-fiction location term. The title alone does not establish a character record, office, or role claim for Headon.",
+    "citations": [
+      {
+        "url": "https://www.webtoons.com/en/fantasy/tower-of-god/season-1-ep-1-1fheadons-floor/viewer?episode_no=2&title_no=95",
+        "locator": "[Season 1] Ep. 1 - 1F.Headon's Floor, episode_no=2",
+        "supports": [
+          "Exact floor/place title"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC237-004",
+    "source_id": "SRC-237",
+    "canonical_term": "desire",
+    "original_language": "English",
+    "original_script": "What do you desire?",
+    "transliteration": "",
+    "literal_gloss": "desire",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official English series description frames the Tower through possible desired ends, including wealth, honor, authority, revenge, or something beyond them.",
+    "cultural_caution": "Broad promotional premise language, not an assigned motivation, moral category, or guarantee that an entrant receives a desire.",
+    "citations": [
+      {
+        "url": "https://www.webtoons.com/en/fantasy/tower-of-god/list?title_no=95",
+        "locator": "Official English series description/tagline",
+        "supports": [
+          "The Tower is framed through desire and possible desired ends"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

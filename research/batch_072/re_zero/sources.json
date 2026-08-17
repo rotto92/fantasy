@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "SRC-211",
+    "source_title": "Re:ZERO -Starting Life in Another World-, Vol. 1 (light novel)",
+    "continuity_scope": "Yen Press/Yen On English Re:ZERO -Starting Life in Another World-, Vol. 1 light novel, paperback ISBN 9780316315302 and digital ISBN 9780316398398, released 19 July 2016, 248 pages; author Tappei Nagatsuki and artist Shinichirou Otsuka. The selected witness is the exact official Yen Press Volume 1 metadata/synopsis page. No public prose chapter/page preview or primary-text locator was surfaced on that page, so this is an explicitly narrow metadata pass. The Japanese MF Bunko J light novel, web novel, manga, anime, games, later light-novel volumes, side stories, guidebooks, and every other adaptation are separate witnesses or continuities.",
+    "work_or_witnesses": [
+      "Tappei Nagatsuki and Shinichirou Otsuka, Re:ZERO -Starting Life in Another World-, Vol. 1, Yen On English light-novel edition",
+      "Yen Press, exact Volume 1 official metadata and synopsis"
+    ],
+    "coverage_rule": "All named individual dramatic figures in the selected official Volume 1 synopsis: Subaru Natsuki only. The described silver-haired beauties and cat fairies are unnamed and remain generic dimensions/terms, not nodes. Races, roles, authorities, magic, objects, places, isekai systems, death-loop mechanisms, and themes are dimensions or terms rather than characters.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "Every named or unnamed figure not named in the selected Yen Press Volume 1 synopsis, including the unnamed silver-haired beauties, cat fairies, any character identifiable only from cover/illustration knowledge, and all later-introduced cast members.",
+      "All detailed Volume 1 events, chapters, relationships, places, factions, races, magic, authorities, deaths, loop checkpoints, memory effects, identities, outcomes, and later material; the Japanese light novel and web novel; manga, anime, games, later volumes, side stories, guidebooks, and every other adaptation.",
+      "Fan wikis, Wikipedia, databases, reviews, social summaries, and long prose or illustration reproduction."
+    ],
+    "uncertainties": [
+      "The consulted Yen Press page credits author and artist but does not name a translator or expose a public prose chapter/page preview. The one-character result is complete only under the exact named-synopsis rule, not a complete Volume 1 cast pass.",
+      "The page calls Subaru's ability time travel that requires his death to use. It does not use the label 'Return by Death,' establish a checkpoint/loop rule, or describe which memories/identities persist; those details are deliberately not inferred from later novels, web novel, or adaptations.",
+      "Repeated death, life-threatening danger, trauma, and self-harm-adjacent framing are fictional content in this record. They are not instructions, endorsement, mental-health advice, or a real-world account of identity, memory, death, or time travel."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Yen Press metadata and exact Volume 1 synopsis only. A primary prose excerpt was not publicly available on the selected page, so every factual claim is restricted to its publisher metadata. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {"url":"https://yenpress.com/titles/9780316315302-re-starting-life-in-another-world-vol-1-light-novel","locator":"Official Volume 1 metadata and synopsis","supports":["Selected English light-novel edition, author/artist, ISBNs, release date, page count, Subaru name, convenience-store origin, summoning to another world, unnamed cat fairies, life-threatening situation, and death-triggered time travel premise"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

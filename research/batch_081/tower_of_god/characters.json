@@ -1,0 +1,54 @@
+[
+  {
+    "character_id": "CHR-SRC237-001",
+    "canonical_name": "Bam",
+    "aliases": [
+      "밤"
+    ],
+    "source_id": "SRC-237",
+    "source_title": "Tower of God — WEBTOON Season 1 opening witness",
+    "continuity": "Original Tower of God webtoon; English WEBTOON Season 1 opening witness, with official WEBTOON-name localization verification",
+    "work_or_witness": "Official WEBTOON Season 1 opening readers; official Crunchyroll article on original-WEBTOON name localization",
+    "character_kind": "individual",
+    "description": "The original WEBTOON's main character, named Bam; the official localization reference gives the Korean form 밤 and explains it as night. The retained opening-reader locators provide no accessible transcribed action or dialogue, so no further opening profile is inferred.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "main character",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Directly stated for the original WEBTOON by the official localization article."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly identified as the original WEBTOON's main character in the selected official naming reference.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.crunchyroll.com/news/latest/2020/4/1/why-does-crunchyroll-use-bam-in-the-tower-of-god-subtitles",
+        "locator": "Official Crunchyroll article, discussion of original WEBTOON naming",
+        "supports": [
+          "Bam is the original WEBTOON's main character",
+          "밤 is the Korean name form and is explained as night"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not identify the unnamed boy in Naver's brief synopsis as Bam within this narrow evidence set; the selected synopsis itself does not make that mapping.",
+      "Do not import anime plot or adaptation-only names: the official article's mention of Japanese Yoru/夜 is localization context, not a WEBTOON alias entered here.",
+      "No Shinsu, climb/test mechanic, ability, affiliation, relationship, violence/coercion, child status, or later development is asserted for Bam in this pass."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

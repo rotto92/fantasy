@@ -1,0 +1,21 @@
+[
+  {
+    "source_id": "SRC-188",
+    "source_title": "The Banner Saga",
+    "continuity_scope": "The Banner Saga 1, English PlayStation 4 base release (Stoic LLC; 12 January 2016) as the selected product witness. The original 2014 PC release and later releases are acknowledged but not inspected as character-text witnesses.",
+    "work_or_witnesses": ["The Banner Saga 1 PS4 English base release (Stoic LLC; 12 January 2016)", "PlayStation Store English product page", "PlayStation Blog, 'The Banner Saga Arrives on PS4 January 12th, 2016' (Stoic/Versus Evil publisher statement)", "PlayStation Blog trilogy-development article (2018)"],
+    "coverage_rule": "Terms-only audit. No named individual is included unless a selected first-party/direct-game witness offers a claim-level character profile sufficient for a record. The selected official release, storefront, and publisher materials describe player choice, caravan persistence, permanent loss, setting inspiration, and trilogy status, but do not do so for a named character.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": ["All named characters, clans, leaders, enemies, gods, and heroes are omitted: no claim-level first-party character-profile source was accessible in the selected witness set.", "The Banner Saga 2 and 3, any save-import continuation, tabletop/live projects, DLC, and later ports/localizations are separate continuity/media witnesses.", "Player-selected caravan members, permanent deaths, dialogue/travel/combat outcomes, party composition, and endings are deliberately not universalized."],
+    "uncertainties": ["The official PS4 product page is a 2016 port-storefront witness, not an inspected 2014 PC build or a complete game script.", "First-party material says saves transfer an 'exact caravan, character, and story choices' to Banner Saga 2; this confirms branching continuity but does not establish a single canon survivor roster.", "The PlayStation listing reports multiple screen languages, but this pass is bound to English terminology and makes no claim that names/text are identical across all localizations.", "Because official character evidence is sparse in accessible archives, pass-complete here means complete against this zero-character coverage rule only."],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Stoic/Versus Evil publisher statement and PlayStation first-party product pages. No fan wiki, Wikipedia, walkthrough, or secondary roster has been used as canonical evidence.",
+    "citations": [
+      {"url":"https://www.playstation.com/en-il/games/the-banner-saga/","locator":"Banner Saga 1 product page","supports":["PS4 platform, Stoic publisher, 12 January 2016 release, English listing, choice-driven narrative, and permanent character-loss mechanic"]},
+      {"url":"https://blog.playstation.com/?p=167254","locator":"The Banner Saga Arrives on PS4 January 12th, 2016","supports":["caravan travel, player-directed choices, survival framing, save import of caravan/character/story choices into Banner Saga 2, and localizations"]},
+      {"url":"https://blog.it.playstation.com/2018/07/26/la-storia-della-creazione-dellepico-gdr-sui-vichinghi-the-banner-saga-per-mano-di-tre-sviluppatori-in-un-garage/","locator":"Versus Evil producer article, opening","supports":["Stoic development origin and The Banner Saga 3 as trilogy conclusion context"]}
+    ],
+    "last_reviewed":"2026-08-06"
+  }
+]

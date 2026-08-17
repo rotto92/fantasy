@@ -1,0 +1,30 @@
+{
+  "reviewer_lane": "aom-retold-canonical",
+  "reviewed_at": "2026-08-06",
+  "scanned_count": 1573,
+  "heuristic_flags": {
+    "scope": "Compiled, non-quarantined character records only.",
+    "tested_for": [
+      "plural or collective names",
+      "generic units, classes, artifacts, places, systems, and abstractions",
+      "unnamed or unstable title-only identities",
+      "non-agentive manifestations and player slots",
+      "same-source duplicate aliases"
+    ],
+    "quarantined_exclusion": "The 25-record SRC-022 draft in research/batch_006/yoruba_ifa was excluded because QUARANTINED.md explicitly removes it from compilation. Its duplicate Ọ̀rúnmìlà record, Ìbejì category record, and Olórun title record were observed only in that excluded historical draft."
+  },
+  "inspected_count": 1573,
+  "confirmed_violations": [],
+  "changes": [
+    "Restored research/batch_006/yoruba_ifa exactly to its quarantined historical-draft state: 25 characters, 5 relationships, and 8 source terms; QUARANTINED.md was left unchanged.",
+    "Did not modify the valid replacement research/batch_122/yoruba_orisa_research.",
+    "No compiled character-node remediation was needed after the root's Gilgamesh and EverQuest fixes."
+  ],
+  "unresolved_cases": [
+    "Stable title-designated dramatic agents remain valid when their declared witness identifies one acting figure; a title alone is not a disqualifier.",
+    "A player-facing protagonist is retained only where the scoped witness supplies a stable dramatic identity and actions; interchangeable player slots remain excluded by the contract.",
+    "Named avatars are retained only where the declared witness treats them as separately named, agentive entities rather than interchangeable manifestations.",
+    "The excluded SRC-022 historical draft remains a provenance artifact, not canonical evidence or compiled coverage."
+  ],
+  "validator_result": "valid: 0 errors, 14 warnings; compiled corpus is 1,573 characters, 1,258 relationships, and 1,881 source terms across 281 source passes"
+}

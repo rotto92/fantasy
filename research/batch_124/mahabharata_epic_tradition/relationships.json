@@ -1,0 +1,41 @@
+[
+  {
+    "relationship_id":"REL-SRC014-001",
+    "source_id":"SRC-014",
+    "source_character_id":"CHR-SRC014-001",
+    "target_character_id":"CHR-SRC014-002",
+    "relationship_type":"other",
+    "label":"Ugraśravas Sauti recounts the narrative in response to Śaunaka’s request",
+    "direction":"directed",
+    "continuity":"Bounded Sanskrit epic-tradition orientation; Ganguli translation witness, Adi Parva Sections I and IV",
+    "citations":[{"url":"https://sacred-texts.com/hin/m01/m01005.htm","locator":"Ganguli translation witness, Adi Parva, Section IV","supports":["Śaunaka returns to the sacrifice and Sauti agrees to narrate when questioned"]}],
+    "confidence":"high",
+    "note":"A textual-frame narration relationship only; not a historical teacher–student lineage, a caste/varna claim, or proof of how all Mahābhārata traditions are performed."
+  },
+  {
+    "relationship_id":"REL-SRC014-002",
+    "source_id":"SRC-014",
+    "source_character_id":"CHR-SRC014-003",
+    "target_character_id":"CHR-SRC014-004",
+    "relationship_type":"spouse",
+    "label":"Damayantī chooses Nala as husband in the declared swayamvara narrative",
+    "direction":"undirected",
+    "continuity":"Bounded Sanskrit epic-tradition orientation; Ganguli translation witness, Vana Parva Nalopākhyāna Section LVI",
+    "citations":[{"url":"https://sacred-texts.com/hin/m03/m03056.htm","locator":"Ganguli translation witness, Vana Parva, Nalopākhyāna, Section LVI","supports":["Damayantī chooses Nala as husband"]}],
+    "confidence":"high",
+    "note":"A limited marriage/choice relation in one translation witness. It is not a universal legal, gender, caste/varna, consent, or regional-tradition claim."
+  },
+  {
+    "relationship_id":"REL-SRC014-003",
+    "source_id":"SRC-014",
+    "source_character_id":"CHR-SRC014-005",
+    "target_character_id":"CHR-SRC014-006",
+    "relationship_type":"spouse",
+    "label":"Sāvitrī selects Satyavān as husband in the declared embedded narrative",
+    "direction":"undirected",
+    "continuity":"Bounded Sanskrit epic-tradition orientation; Ganguli translation witness, Vana Parva Pativratā-māhātmya Section CCXLII",
+    "citations":[{"url":"https://www.wisdomlib.org/hinduism/book/the-mahabharata-mohan/d/doc7576.html","locator":"Ganguli translation witness, Vana Parva, Pativratā-māhātmya, Section CCXLII","supports":["The translation identifies Sāvitrī’s chosen husband as Satyavān"]}],
+    "confidence":"high",
+    "note":"A limited embedded-narrative marriage relation. It is not a universal legal, gender, caste/varna, consent, or regional-tradition claim."
+  }
+]

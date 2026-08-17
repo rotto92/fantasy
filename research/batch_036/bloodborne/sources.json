@@ -1,0 +1,38 @@
+[
+  {
+    "source_id":"SRC-150",
+    "source_title":"Bloodborne",
+    "continuity_scope":"Bloodborne base game at its North American PlayStation 4 release boundary (24 March 2015), English-language PlayStation product and launch witnesses. The Old Hunters is excluded as a later DLC story expansion, as are Game of the Year/Complete bundles, patch-specific systems, other regions/localizations, demos, and all other FromSoftware/Souls continuities.",
+    "work_or_witnesses":[
+      "PlayStation: Bloodborne official US product page",
+      "PlayStation.Blog: Bloodborne arrives exclusively on PS4 this week – watch the launch video",
+      "PlayStation.Blog: Bloodborne expansion The Old Hunters launches on 24th November",
+      "PlayStation.Blog: Bloodborne Game of the Year Edition launches"
+    ],
+    "coverage_rule":"Zero-character evidence-constrained base-game pass. The selected official product and launch pages provide the base release, Yharnam, scourge-of-the-beast premise, player-facing action/chalice/online systems, and later-DLC boundary, but no reproducible direct in-game dialogue or item-description locators and no individual named NPC/boss profiles. The player Hunter is excluded as an avatar role. No fan source is used to manufacture a cast.",
+    "in_scope_character_count":0,
+    "completed_character_count":0,
+    "omissions":[
+      "The player-created Hunter, all origin/class, build, blood/insight values, Chalice progression, choices, co-op/invasions, deaths, and endings.",
+      "All named NPCs, bosses, hunters, Great Ones, beasts, factions, and other dramatic individuals because no selected first-party witness provides an individual claim-level profile or direct in-game dialogue/item-description locator.",
+      "Origins/classes, Great Ones as a category, factions, items, weapons, places, insight, blood, Chalice systems, online systems, diseases, and mechanics as character nodes.",
+      "The Old Hunters, Game of the Year/Complete bundles, DLC NPCs/stories/items, patch 1.07 and its post-launch features, regional/localized editions, adaptations, other Souls games, fan/community/wiki material, guides, walkthroughs, lore videos, data-mines, dialogue/item-description transcriptions, and secondary character databases."
+    ],
+    "uncertainties":[
+      "The selected official materials are high-level product/launch witnesses. Direct in-game dialogue and item descriptions, which are necessary for detailed Bloodborne character claims and often invite interpretation, were inaccessible in reviewed first-party sources. The pass remains terms-only.",
+      "The official product page's illness/scourge wording is a premise, not a detailed medical, metaphysical, factional, or character-by-character account. No interpretation of blood, insight, Great Ones, or endings is asserted.",
+      "The US product page is current storefront material and lists a Complete Edition Bundle, while this audit selects the original base-release boundary. The Old Hunters is separately documented as later DLC and is not folded into the pass.",
+      "English wording was reviewed. Other localization texts may differ; no translation-equivalence claim is made.",
+      "Chalice dungeons can be procedurally generated and shared; online play may change. Multiplayer/co-op outcomes and player narrative choices are non-universal."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party PlayStation product and PlayStation.Blog launch/edition pages only. No fan wiki, Wikipedia, community guide, review, walkthrough, item-transcription archive, lore video, mod, data mine, or secondary source is used as canonical evidence.",
+    "citations":[
+      {"url":"https://www.playstation.com/en-us/games/bloodborne/","locator":"Product description, Chalice Dungeons feature, editions, and product metadata","supports":["Yharnam, endemic illness, base PS4 release date, weapons/combat, online framing, Chalice dungeons, and current bundle distinction"]},
+      {"url":"https://blog.playstation.com/archive/2015/03/24/bloodborne-arrives-exclusively-ps4-week-watch-launch-video","locator":"Launch article: opening premise paragraph","supports":["Launch-era base-game Yharnam and scourge-of-the-beast premise"]},
+      {"url":"https://blog.playstation.com/archive/2015/09/15/bloodborne-expansion-the-old-hunters-launches-on-24th-november","locator":"Announcement: description of The Old Hunters as an expansion","supports":["The Old Hunters later DLC boundary and its separate story/NPC material"]},
+      {"url":"https://blog.playstation.com/archive/2015/10/13/bloodborne-game-of-the-year-edition-launches-on-25th-november/","locator":"Opening announcement","supports":["Game of the Year bundle boundary combining base game and The Old Hunters"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

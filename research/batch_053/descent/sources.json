@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "SRC-120",
+    "source_title": "Descent: Journeys in the Dark",
+    "continuity_scope": "Fantasy Flight Games' Descent: Journeys in the Dark Second Edition core board game, released in 2012. This audit is limited to the Second Edition core rules/product and the core-applicable portion of the official 2015 Errata and FAQ v1.5. It excludes first edition, all Second Edition physical expansions and hero/monster packs, Road to Legend app campaigns, Descent: Legends of the Dark, novels and other adaptations, and every player-created or table-specific campaign outcome.",
+    "work_or_witnesses": [
+      {
+        "work": "Your Dungeon-Delving Guide",
+        "edition": "Fantasy Flight Games archive notice, 14 June 2012; announces that the rules for Descent: Journeys in the Dark Second Edition are online.",
+        "url": "https://www.fantasyflightgames.com/en/news/2012/6/14/your-dungeon-delving-guide/"
+      },
+      {
+        "work": "Runes, Heroes, and Legends",
+        "edition": "Fantasy Flight Games 25-year Terrinoth retrospective, 8 December 2023; identifies the 2012 Second Edition and distinguishes its later companion app and Descent: Legends of the Dark.",
+        "url": "https://www.fantasyflightgames.com/en/news/2023/12/8/runes-heroes-and-legends/"
+      },
+      {
+        "work": "Descent: Journeys in the Dark Second Edition Errata and FAQ",
+        "edition": "Official Errata and FAQ v1.5, updated 9 February 2015; used only where a clarification expressly concerns the selected core game, not expansions.",
+        "url": "https://images-cdn.fantasyflightgames.com/filer_public/ce/d7/ced72c29-a9f9-4914-9819-9b477d929157/descent_second_edition_faq_v15.pdf"
+      },
+      {
+        "work": "Road to Legend",
+        "edition": "Fantasy Flight Games companion-app announcement, 15 March 2016; used solely to define the app/adaptation and expansion boundary.",
+        "url": "https://www.fantasyflightgames.com/en/news/2016/3/15/road-to-legend/"
+      }
+    ],
+    "coverage_rule": "Terms-only Second Edition core-game audit. The bounded official witnesses establish a player-role and campaign-mechanics product, but do not directly profile a reproducible cohort of stable named dramatic individuals. No character or relationship records are made. Hero archetypes, selectable heroes/classes, overlord systems, monsters, items, quests, places, scenarios, app-generated content, and player-campaign results remain terms or dimensions. A named hero, villain, or other figure may be added only through a separately scoped official witness that directly profiles that figure as a stable dramatic individual; a hero sheet, class, miniature, scenario role, or player outcome is insufficient.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All playable hero sheets, generic archetypes/classes, overlord cards and systems, monsters, items, quests, settings, and scenario outcomes because none is a directly profiled stable dramatic individual in this restricted audit.",
+      "All first-edition Descent material; all Second Edition expansions, hero/monster packs, and their named or scenario-specific content; Road to Legend app campaigns and downloadable content; Descent: Legends of the Dark; novels and other adaptations; and home or player campaign continuities.",
+      "Specific campaign branches, quest resolutions, rewards, defeats, hidden information, and app-generated encounter sequences. These are not converted into fixed cross-table canon."
+    ],
+    "content_cautions": [
+      "The product presents dungeon exploration, tactical fantasy violence, monsters, weapons, hostile magic, peril, and defeat. Specific quest and expansion themes were not exhaustively audited here.",
+      "Campaign branching, opponent information, and app-managed map/enemy placement can make table or app experiences spoiler-sensitive. This audit records only high-level system boundaries and does not expose campaign outcomes or hidden content."
+    ],
+    "uncertainties": [
+      "The accessible official rules announcement establishes that Second Edition rules were online in June 2012, but this restricted pass does not reconstruct every core rulebook page or every named component from a copy of the physical box.",
+      "The official Errata and FAQ v1.5 covers both Second Edition and expansions. This audit does not import an expansion clarification into the core witness unless it is expressly core-applicable, and it does not assume this is the final historical errata version without a later official document in the selected evidence set.",
+      "Road to Legend uses the core set and can draw on owned expansions, but its app-controlled overlord, quest presentation, campaign tracking, and generated choices are a separate product mode rather than evidence for the traditional core game's fixed narrative facts."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Fantasy Flight Games official publication history, official Second Edition rules announcement, official errata/FAQ document, and official Road to Legend announcement only. The 2012 and 2023 records establish edition/date and later-product separation; the app announcement describes traditional player roles, Terrinoth, linked campaign quests, the cooperative-app change, and the expansion boundary. No fan wiki, unofficial rules repository, play report, or player campaign is used.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2012/6/14/your-dungeon-delving-guide/",
+        "locator": "Your Dungeon-Delving Guide, 14 June 2012, subtitle",
+        "supports": [
+          "Fantasy Flight Games announced that rules for Descent: Journeys in the Dark Second Edition were online."
+        ]
+      },
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2023/12/8/runes-heroes-and-legends/",
+        "locator": "2012 – Descent: Journeys in the Dark Second Edition",
+        "supports": [
+          "Fantasy Flight Games identifies the Second Edition as a 2012 release and describes Road to Legend and Descent: Legends of the Dark as later developments."
+        ]
+      },
+      {
+        "url": "https://images-cdn.fantasyflightgames.com/filer_public/ce/d7/ced72c29-a9f9-4914-9819-9b477d929157/descent_second_edition_faq_v15.pdf",
+        "locator": "Title page: Errata and FAQ Version 1.5, updated 2/9/2015",
+        "supports": [
+          "Official Second Edition errata/FAQ version and date; its stated scope includes Second Edition and expansions."
+        ]
+      },
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2016/3/15/road-to-legend/",
+        "locator": "Into the Dungeon; Increasing Your Power; product description",
+        "supports": [
+          "Traditional Descent roles, Terrinoth, linked quests, Road to Legend's app-controlled cooperative mode, and the relationship between the app, core set, and physical expansions."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

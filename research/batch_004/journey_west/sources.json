@@ -1,0 +1,52 @@
+[
+  {
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity_scope": "A character pass for the complete 100-chapter Ming novel as translated and edited by Anthony C. Yu (revised edition, 2012, four volumes). It does not stand for the wider Xuanzang narrative tradition, Chinese religious traditions or mythology as a whole, regional/performative retellings, or later adaptations.",
+    "work_or_witnesses": [
+      {
+        "work": "The Journey to the West (Xiyou ji)",
+        "edition": "Anthony C. Yu, translated and edited, revised edition, University of Chicago Press, 2012, 4 vols.; complete 100-chapter English translation.",
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html"
+      },
+      {
+        "work": "Xiyou ji narrative tradition",
+        "edition": "Andrew H. Plaks, “The Journey to the West,” Masterworks of Asian Literature in Comparative Perspective; used only to distinguish the novel from the wider story-cycle.",
+        "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781315484617-32/journey-west-andrew-plaks"
+      }
+    ],
+    "coverage_rule": "All four named pilgrimage-party members, principal named divine/celestial agents and imperial officials who materially direct the plot, named teachers and rulers central to its setup, and the principal named yaoguai antagonists or family/faction leaders in major episodic arcs. Generic offices, anonymous demons, named one-scene minor victims, and all entities from non-novel continuities are excluded.",
+  "in_scope_character_count": 32,
+  "completed_character_count": 32,
+    "omissions": [
+      "The historical Xuanzang and pre-novel pilgrimage materials",
+      "Chinese religious traditions and mythic figures not acting in this 100-chapter novel",
+      "Regional, theatrical, oral, illustrated, television, film, game, comic, and other later adaptations",
+      "Most named minor demons, local rulers, attendants, and single-chapter supernatural agents"
+    ],
+    "uncertainties": [
+      "Wu Cheng’en is a traditional, not uncontested, attribution; this pass makes no authorship determination.",
+      "English labels such as “demon,” “immortal,” “celestial,” “monster,” and “spirit” are translation/comparison conveniences, not interchangeable native categories.",
+      "Buddhist, Daoist, and popular-religious figures and terminology are represented as the novel deploys them; workbook mappings remain partial or absent."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary-text claims use chapter locators in Yu’s complete 2012 translation; University of Chicago Press metadata confirms the translation’s four-volume complete form. A scholarly orientation source is used only for the novel/story-cycle boundary.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Yu revised edition, vol. 1, publisher description and table of contents, esp. lines 83–86, 112–165.",
+        "supports": [
+          "Complete four-volume translation, 100-chapter novel scope, pilgrimage premise, and pinyin editorial framing."
+        ]
+      },
+      {
+        "url": "https://www.taylorfrancis.com/chapters/edit/10.4324/9781315484617-32/journey-west-andrew-plaks",
+        "locator": "Andrew H. Plaks, “The Journey to the West,” opening discussion of the broader Chinese story-cycle.",
+        "supports": [
+          "The novel must be distinguished from the longer Xuanzang/Journey narrative tradition."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

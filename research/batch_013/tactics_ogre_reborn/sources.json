@@ -1,0 +1,78 @@
+[
+  {
+    "source_id": "SRC-128",
+    "source_title": "Tactics Ogre: Reborn",
+    "continuity_scope": "Square Enix's launch-release Tactics Ogre: Reborn for PlayStation 5, PlayStation 4, Nintendo Switch, and Steam, dated 11 November 2022. The character witness is Square Enix's Japanese official product page; its Roman-alphabet display names are retained where they differ from other localizations. The pass is version-specific: it does not silently merge the 1995 Tactics Ogre, the PSP Tactics Ogre: Let Us Cling Together, later patches, or other Ogre Battle works. It relates to SRC-127 only as a versioned reworking within the broader Ogre Battle/Tactics Ogre source family.",
+    "work_or_witnesses": [
+      {
+        "work": "Tactics Ogre: Reborn official Japanese product page",
+        "edition": "Square Enix Japanese launch-era product page; Story, Character, and System sections.",
+        "url": "https://www.jp.square-enix.com/tor/"
+      },
+      {
+        "work": "Tactics Ogre: Reborn | Available Now",
+        "edition": "Square Enix English launch announcement, published 14 November 2022.",
+        "url": "https://www.square-enix-games.com/en_US/home/tactics-ogre-reborn-launch-trailer"
+      },
+      {
+        "work": "Take a new look at Tactics Ogre: Reborn",
+        "edition": "Square Enix English systems overview, published 25 August 2022.",
+        "url": "https://amp.square-enix-games.com/en_US/news/tactics-ogre-reborn-preview"
+      },
+      {
+        "work": "Square Enix Support: Pricing, Supported Platforms, Release Date",
+        "edition": "Square Enix product-specification KB article 81324.",
+        "url": "https://support.na.square-enix.com/faqarticle.php?id=19149&kid=81324&la=1&ret=main"
+      }
+    ],
+    "coverage_rule": "Include every individually named, non-generic character profile in the selected official Japanese product page's displayed Character module: Denim Powell, Catiua Powell, Vyce Bozeck, Lanselot Hamilton, Warren Moon, Canopus Wolph, Mirdyn Walhorn, and Gildas W. Byrne. Include only relationships directly stated in those profiles. Jobs/classes, orders, peoples, named political groups, elements, equipment, spells, tarot, maps, victory conditions, and gameplay systems remain dimensions or source terms and never become character nodes. This rule is complete for that eight-profile web module, not for the full branching game cast.",
+    "in_scope_character_count": 8,
+    "completed_character_count": 8,
+    "omissions": [
+      "Every named character not displayed in the selected official Character module, including Dorgalua, Tristan, Prancet, and antagonists or recruits named only in story, maps, route-exclusive scenes, Warren Report entries, postgame material, or other promotional assets",
+      "All player-generated, generic, and collectively described units",
+      "Jobs/classes, orders, peoples, factions, elements, weapons, magic, deities, tarot cards, equipment, battle objectives, and the Valerian Isles as non-character graph nodes",
+      "The 1995 original, the PSP version, other Ogre Battle titles, and post-launch changes not independently versioned in the cited material"
+    ],
+    "uncertainties": [
+      "Square Enix's cited release/support materials identify the release date and platforms but do not publish an executable build number; this is consequently bounded as the 11 November 2022 launch release, not a numbered patch snapshot.",
+      "The Japanese product page uses Roman-alphabet character names such as Denim Powell and Warren Moon, whereas other localizations use different spellings. This pass retains the selected witness's names and does not normalize them by fan sources.",
+      "The game has a branching narrative whose choices can make allies become foes; absent claim-specific scene/codex locators, no route-dependent relationship is inferred beyond the profile statements.",
+      "The official page says Reborn restores elements from the original Tactics Ogre and changes the class-level system used in Tactics Ogre: Wheel of Fortune. That establishes versioned adaptation context, not mechanical identity with SRC-127."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Square Enix materials only. The Japanese product page supplies the bounded character profiles and its System section documents Reborn-specific unit-level progression and inherited/returned systems. The English launch announcement identifies Denam Pavel's Walister-resistance premise, and the English systems article documents the release's multi-scenario, classes, elements, tarot, and RT terminology. The support article fixes the published release date and platforms.",
+    "citations": [
+      {
+        "url": "https://support.na.square-enix.com/faqarticle.php?id=19149&kid=81324&la=1&ret=main",
+        "locator": "KB Article 81324, Product Specifications: Release Date and Platforms",
+        "supports": [
+          "Tactics Ogre: Reborn released on 11 November 2022 for PS5, PS4, Nintendo Switch, and Steam."
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/tor/",
+        "locator": "Character section; System sections on unit-level management, elements, multi-story/multi-ending, units/classes, and battle flow",
+        "supports": [
+          "The selected eight-character profile module and Reborn-specific systems documentation.",
+          "Reborn changes the PSP-era class-level management to unit-level management and describes elements as returning from the original Tactics Ogre."
+        ]
+      },
+      {
+        "url": "https://www.square-enix-games.com/en_US/home/tactics-ogre-reborn-launch-trailer",
+        "locator": "Launch announcement, paragraphs 1–2",
+        "supports": [
+          "The English launch framing of Denam Pavel, the Walister resistance, political conflict, player decisions, and revised presentation."
+        ]
+      },
+      {
+        "url": "https://amp.square-enix-games.com/en_US/news/tactics-ogre-reborn-preview",
+        "locator": "Tarot Cards and Character Creation; Elements explained; Units and classes; The Battle System; A branching narrative with multiple endings",
+        "supports": [
+          "English terminology and mechanics for tarot, elements, units/classes, RT/AT battle flow, and branching narrative."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

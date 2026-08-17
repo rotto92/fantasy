@@ -1,0 +1,55 @@
+[
+  {
+    "source_id": "SRC-114",
+    "source_title": "Burning Wheel",
+    "continuity_scope": "Burning Wheel HQ's Burning Wheel Gold Revised, the official store's stated definitive Burning Wheel book. This pass is limited to the current Gold Revised core-product page and its official free Hub and Spokes first-chapter PDF. The public official product pages do not state a release/printing date; they do state that the physical book has included a free PDF since 4 August 2023. This is an emergent-fiction core-rules pass, separate from prior Burning Wheel editions, Burning Wheel Codex/Anthology, demo adventures, actual plays, hacks, and home campaigns.",
+    "work_or_witnesses": [
+      {
+        "work": "Burning Wheel Gold Revised",
+        "edition": "Current Burning Wheel HQ core product; called the definitive Burning Wheel book and incorporates author revisions and errata.",
+        "url": "https://www.burningwheel.com/products/burning-wheel-gold-revised"
+      },
+      {
+        "work": "Burning Wheel Gold Revised: Hub and Spokes PDF",
+        "edition": "Official free PDF of the basic rules, identified as the first chapter of Burning Wheel Gold Revised.",
+        "url": "https://www.burningwheel.com/products/burning-wheel-gold-revised-hub-and-spokes-pdf?variant=45570204434618"
+      }
+    ],
+    "coverage_rule": "Terms-only emergent-fiction audit. The selected core rules make player-created characters' beliefs, pasts, ethics, and choices drive a particular table's story; they do not establish a bounded canonical dramatic cast. No character or relationship records are made. Lifepaths, stocks, beliefs/instincts/traits, skills, artha, conflicts, items, setting assumptions, and rules remain terms/dimensions. A named example or actual-play figure is excluded unless a separate official witness profiles it as a stable dramatic individual independent of a particular game.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named examples, pregenerated characters, actual-play characters, player characters, and GM-created figures, because the selected emergent-fiction core witness does not establish a stable canonical cast.",
+      "All lifepaths, stocks, beliefs, instincts, traits, skills, artha, conflicts, items, setting assumptions, and rules as character nodes.",
+      "Earlier Burning Wheel versions, Burning Wheel Codex, Anthology, Twilight in the Duchy Verdorben and other adventures/supplements, hacks, third-party work, actual plays, and home campaigns."
+    ],
+    "content_cautions": [
+      "The official product describes trials of belief, tests of nerve, social conflict, dangerous sorcery, miraculous faith, and brutal martial combat. Campaigns can therefore involve violence, injury, death, coercion, religion, trauma, poverty, social power, and moral pressure; groups should set appropriate boundaries and safety practices.",
+      "Character beliefs, ethics, scars, goals, and dreams are table-created material. Rules that reward dramatic pressure are not permission to force a player into unwanted content or to treat a fictional trait as a real person's moral or psychological status."
+    ],
+    "uncertainties": [
+      "Burning Wheel HQ labels Gold Revised definitive and says it incorporates author adjustments, revisions, and errata, but accessible product copy does not give a line-by-line change log or a printing date. This audit does not reconstruct prior-edition changes or individual errata wording.",
+      "The Hub and Spokes chapter is offered free, while the full book/PDF is a store product. The accessible store records do not state an open-content or general derivative-work license; free access to that chapter is not treated as a license beyond the product page's terms.",
+      "The rules expressly put choices and character creation at the center of a story, so identities, setting facts, relationships, and outcomes arising in a campaign remain table-specific rather than transferable canon."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Burning Wheel HQ official store pages only. The core product page establishes Gold Revised as the definitive book, says revisions/errata are incorporated, explains beliefs and player choices as story drivers, and identifies conflict/magic/faith/combat systems. The Hub and Spokes page establishes the free basic-rules/first-chapter access boundary. No wiki, hack, actual play, or community campaign is used.",
+    "citations": [
+      {
+        "url": "https://www.burningwheel.com/products/burning-wheel-gold-revised",
+        "locator": "Burning Wheel Gold Revised product description",
+        "supports": [
+          "Definitive Gold Revised product, incorporated adjustments/revisions/errata, belief-driven player characters, conflict/magic/faith/combat features, and physical-book PDF inclusion from 4 August 2023."
+        ]
+      },
+      {
+        "url": "https://www.burningwheel.com/products/burning-wheel-gold-revised-hub-and-spokes-pdf?variant=45570204434618",
+        "locator": "Hub and Spokes PDF product description",
+        "supports": [
+          "Official free PDF access to the basic rules as the first chapter of Gold Revised."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

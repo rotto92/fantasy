@@ -1,0 +1,135 @@
+[
+  {
+    "source_id": "SRC-164",
+    "reviewer_lane": "lotr_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_050/runescape/sources.json",
+      "research/batch_050/runescape/characters.json",
+      "research/batch_050/runescape/relationships.json",
+      "research/batch_050/runescape/source_terms.json"
+    ],
+    "outcome": "Retained with the evidence-concentration warning. The ten declared records are exactly the ten individual entries in Jagex's dated official guest-profile table; sampled high-risk claims (the named pet spaniel, the Duke/Lord engagement, commoner origin, and service/kinship links) match that table and its profile-level locators.",
+    "changes": [
+      "No source-bundle claims or citations changed.",
+      "No independent URL was added: the separate Jagex release notice corroborates release and prerequisite context but does not repeat the individual roster profiles, so it would not directly support the same character claims."
+    ],
+    "unresolved_limits": [
+      "The official 15 March 2023 Jagex roster page is the sole direct first-party witness for all ten guest profiles.",
+      "The record remains limited to the pre-launch profile table and does not infer the murderer, player-specific states, or later quest outcomes."
+    ],
+    "validator_result": {
+      "command": "npm run research:validate",
+      "status": "passed-with-retained-evidence-concentration-warning",
+      "counts": "1573 characters, 1259 character relationships, and 1878 source terms across 281 source passes",
+      "warning": "SRC-164: 10 character records depend on one evidence URL; prioritize independent source-to-claim review"
+    }
+  },
+  {
+    "source_id": "SRC-168",
+    "reviewer_lane": "lotr_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_054/suikoden/sources.json",
+      "research/batch_054/suikoden/characters.json",
+      "research/batch_054/suikoden/relationships.json",
+      "research/batch_054/suikoden/source_terms.json"
+    ],
+    "outcome": "Retained with the evidence-concentration warning. The selected 17-character coverage rule is the exact published Konami Suikoden I card set, and sampled high-risk profile claims (runes, military titles, romance/protection wording, sworn siblinghood, dragon-knight status, and the 27 True Runes wording) match the named cards and locators.",
+    "changes": [
+      "No source-bundle claims or citations changed.",
+      "No independent URL was added: Konami's launch and system pages directly support remaster/release and mechanics boundaries but not individual-card facts; adding them to character records would be citation padding."
+    ],
+    "unresolved_limits": [
+      "The official Asia-English character-card page is the sole direct witness for the entire bounded card roster.",
+      "The pass remains only a card-set pass; it does not claim to cover all Suikoden I characters, player-variable Hero data, original releases, or later installments."
+    ],
+    "validator_result": {
+      "command": "npm run research:validate",
+      "status": "passed-with-retained-evidence-concentration-warning",
+      "counts": "1573 characters, 1259 character relationships, and 1878 source terms across 281 source passes",
+      "warning": "SRC-168: 17 character records depend on one evidence URL; prioritize independent source-to-claim review"
+    }
+  },
+  {
+    "source_id": "SRC-184",
+    "reviewer_lane": "lotr_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_064/mana_series/sources.json",
+      "research/batch_064/mana_series/characters.json",
+      "research/batch_064/mana_series/relationships.json",
+      "research/batch_064/mana_series/source_terms.json"
+    ],
+    "outcome": "Evidence-concentration warning resolved without changing scope. Square Enix's separate English game page directly corroborates the exact Val/Hinna opening, their childhood friendship, Val's soul-guard role, and Hinna's Alm of Fire appointment.",
+    "changes": [
+      "Added the independent first-party Square Enix game-page citation to Val and Hinna character records.",
+      "Added the same direct story-page citation to their explicitly recorded childhood-friend/pilgrimage relationship.",
+      "No later plot, route, party, outcome, or series-continuity material was added."
+    ],
+    "unresolved_limits": [
+      "The remaining profile-specific characters still rely on the selected Square Enix character-introduction witness, appropriately limited to its stated profiles.",
+      "No claim is made that Visions of Mana shares an exact timeline or character identity with another Mana entry."
+    ],
+    "validator_result": {
+      "command": "npm run research:validate",
+      "status": "passed-warning-resolved",
+      "counts": "1573 characters, 1259 character relationships, and 1878 source terms across 281 source passes",
+      "warning": "No SRC-184 evidence-concentration warning remains in validation_report.json."
+    }
+  },
+  {
+    "source_id": "SRC-279",
+    "reviewer_lane": "lotr_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_008/chinese_systems/sources.json",
+      "research/batch_008/chinese_systems/characters.json",
+      "research/batch_008/chinese_systems/relationships.json",
+      "research/batch_008/chinese_systems/source_terms.json"
+    ],
+    "outcome": "Completion status changed from in-progress to pass-complete for the declared finite textual and institutional witness set only: 19 in-scope records and 19 completed records. Character and term records retain Chinese script, transliteration, translation, witness, literary/Daoist/Buddhist/local differentiation, and living-tradition cautions where applicable.",
+    "changes": [
+      "Changed completion_status to pass-complete.",
+      "Rewrote evidence_basis to state explicitly that completion applies only to the declared finite witnesses and coverage rule, not to Chinese mythology or living traditions as a whole.",
+      "Updated last_reviewed to 2026-08-06."
+    ],
+    "unresolved_limits": [
+      "The pass remains non-exhaustive across historical periods, regions, ethnic traditions, Daoist, Buddhist, literary, local, popular, diasporic, and living practices.",
+      "Translation, transmission, chronology, and ontology remain witness-specific; no term is treated as a pan-Chinese equivalent."
+    ],
+    "validator_result": {
+      "command": "npm run research:validate",
+      "status": "passed-pass-complete-counts-match",
+      "counts": "19 in-scope characters; 19 completed characters",
+      "warning": "No evidence-concentration warning for SRC-279."
+    }
+  },
+  {
+    "source_id": "SRC-280",
+    "reviewer_lane": "lotr_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_010/nahua/sources.json",
+      "research/batch_010/nahua/characters.json",
+      "research/batch_010/nahua/relationships.json",
+      "research/batch_010/nahua/source_terms.json"
+    ],
+    "outcome": "Completion status changed from in-progress to pass-complete for the exact Florentine Codex folios and Leyenda de los Soles pages declared by the coverage rule: 15 in-scope records and 15 completed records. Colonial mediation, Nahuatl orthography/translation limitations, pictorial-witness cautions, and living-Nahua boundaries remain explicit.",
+    "changes": [
+      "Changed completion_status to pass-complete.",
+      "Rewrote evidence_basis to state explicitly that completion applies only to the declared folios/pages and coverage rule, not to Mexica, Nahua, pre-contact, colonial, regional, or living traditions beyond them.",
+      "Updated last_reviewed to 2026-08-06."
+    ],
+    "unresolved_limits": [
+      "The selected colonial manuscripts and editions are not transparent records of a single pre-contact canon.",
+      "No universal pantheon, cosmology, translation equivalence, contemporary community practice, historical itinerary, or adaptation identity is asserted."
+    ],
+    "validator_result": {
+      "command": "npm run research:validate",
+      "status": "passed-pass-complete-counts-match",
+      "counts": "15 in-scope characters; 15 completed characters",
+      "warning": "No evidence-concentration warning for SRC-280."
+    }
+  }
+]

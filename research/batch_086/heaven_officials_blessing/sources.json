@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "SRC-241",
+    "source_title": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1",
+    "continuity_scope": "Seven Seas Entertainment's authorized English paperback novel Volume 1, ISBN 978-1-64827-917-1, released 14 December 2021, translated by Suika (yummysuika) with editor Pengie (pengiesama). This pass is bounded to the publisher's exact Volume 1 product-page synopsis and metadata; it does not transcribe the novel text. The original Chinese web novel, later English volumes, deluxe rereleases, donghua, manhua, audio drama, live action, and all other adaptations are separate witnesses/continuities.",
+    "work_or_witnesses": [
+      "Mo Xiang Tong Xiu, Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1, Seven Seas Entertainment authorized English paperback",
+      "Seven Seas official Volume 1 product page and synopsis"
+    ],
+    "coverage_rule": "Include every named individual dramatic figure in the selected official Volume 1 synopsis: Xie Lian and San Lang. Gods, ghosts, spirits, crown-prince status, godhood/ascension, debts, heavens, Mortal Realm, hunting, powers, curses, and genre labels remain character dimensions or source terms. The unnamed gods, living people, ghosts, spirits, old friends, foes, and historical kingdom have no named individual record. The synopsis does not identify a separate person behind San Lang or establish later identity claims.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "All individuals not named in the exact publisher synopsis, including unnamed gods, ghosts, spirits, friends, foes, living people, and residents of Xie Lian's former kingdom.",
+      "All additional Volume 1 prose details not stated in the publisher synopsis, including scenes, dialogue, offices, temples, cultivation/ascension system rules, spiritual powers, artifacts, places, family detail, named hostile entities, identity reveals, and outcomes.",
+      "Chinese web-novel text; English Volumes 2–8; deluxe editions; donghua, manhua, audio drama, live action; promotion artwork; fan wikis, Wikipedia, databases, reviews, and social summaries."
+    ],
+    "uncertainties": [
+      "The Seven Seas synopsis uses the English forms Xie Lian and San Lang but does not supply Chinese-script personal names. No Chinese-script aliases are reconstructed in the character records.",
+      "The synopsis calls San Lang a young man and says Xie Lian feels an instant connection, but only indicates that San Lang is more than he appears. It does not establish his underlying identity, age, rank, powers, affiliation, or later relationship status.",
+      "Seven Seas labels the series Danmei/Boys' Love and describes it as an epic historical fantasy, but the selected Volume 1 synopsis does not state a romance outcome or consent/sexual-content event; no such claim is made.",
+      "The synopsis contains fictional falls/banishment, debt, violent ghosts, spirits preying on the living, and past horrors. It does not establish concrete injury, death scene, self-harm, coercion, or a real religious practice. Gods and heavens are source-fiction terminology in this record, not assertions about a living faith."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official authorized-publisher Volume 1 metadata and exact synopsis only. The series page is used only to confirm Seven Seas' official English series/title context and the Chinese title script 天官赐福; it is not used to add plot beyond the Volume 1 synopsis.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Seven Seas Volume 1 product page: metadata and synopsis",
+        "supports": [
+          "Authorized English Volume 1 identity, creator, translation/editor credit, release date, ISBN, Xie Lian, San Lang, former crown-prince status, ascensions/fall, Mortal Realm assignment, ghosts/spirits, and instant connection"
+        ]
+      },
+      {
+        "url": "https://sevenseasentertainment.com/series/heaven-officials-blessing-tian-guan-ci-fu-novel/",
+        "locator": "Official Seven Seas novel series page",
+        "supports": [
+          "Official English series identity, Chinese title script 天官赐福, author, danmei/Boys' Love genre label, and eight-volume series boundary"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

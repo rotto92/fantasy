@@ -1,0 +1,124 @@
+[
+  {
+    "character_id": "CHR-SRC130-001",
+    "canonical_name": "Ramza",
+    "aliases": [],
+    "source_id": "SRC-130",
+    "source_title": "Final Fantasy Tactics",
+    "continuity": "FINAL FANTASY TACTICS 獵子戦争, Japanese PSP launch edition (10 May 2007)",
+    "work_or_witness": "Square Enix product-detail story synopsis",
+    "character_kind": "individual",
+    "description": "One of the two young figures through whose lives the official synopsis says the truths buried in the historical shadow of the Lion War are revealed; history does not tell his name.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Ivalice",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The selected edition's official synopsis places the Lion War in the country of Ivalice; it gives no more specific local affiliation for Ramza in this witness."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "historically unrecorded young figure",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official synopsis contrasts Ramza with the recorded hero and says history does not tell Ramza's name."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named central figure in the selected edition's official story synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/fft_shi/",
+        "locator": "Story description (獵子戦争の歴史の陰に埋もれた真実と、ふたりの若者の生き様が明らかになる; 歴史にその名は語られていないラムザ)",
+        "supports": [
+          "Ramza is named as one of the two young figures in the story premise",
+          "The synopsis states that history does not tell Ramza's name",
+          "Ivalice is the setting named in the same synopsis"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This intentionally does not infer a job, faction, surname, family, route, or later plot development from broader franchise knowledge.",
+      "The canonical label follows the directly witnessed Japanese given name; no unverified localization variant is merged into this record."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC130-002",
+    "canonical_name": "Delita",
+    "aliases": [],
+    "source_id": "SRC-130",
+    "source_title": "Final Fantasy Tactics",
+    "continuity": "FINAL FANTASY TACTICS 獵子戦争, Japanese PSP launch edition (10 May 2007)",
+    "work_or_witness": "Square Enix product-detail story synopsis",
+    "character_kind": "individual",
+    "description": "A common-born young man who grew up with Ramza as a childhood friend and is described by the official synopsis as the hero who brought the Lion War to an end.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "hero credited with ending the Lion War",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official synopsis calls Delita the hero who brought the Lion War to its conclusion; this is a synopsis role, not an inferred player-job classification."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Ivalice",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The selected edition's official synopsis places the Lion War in the country of Ivalice; it gives no further local affiliation for Delita in this witness."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "common-born childhood friend",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official synopsis identifies Delita as common-born and as having grown up with Ramza as a childhood friend."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named central figure in the selected edition's official story synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/fft_shi/",
+        "locator": "Story description (獵子戦争を終結に導いた英雄ディリータ; 平民の生まれでありながら、ラムザの幼なじみとして共に育てられた)",
+        "supports": [
+          "Delita is identified as the hero who ended the Lion War",
+          "Delita is described as common-born",
+          "Delita grew up with Ramza as a childhood friend",
+          "Ivalice is the setting named in the same synopsis"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record does not infer a job, faction, surname, later political status, or route-specific actions from other editions or franchise works.",
+      "The canonical label follows the directly witnessed Japanese given name; no unverified localization variant is merged into this record."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

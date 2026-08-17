@@ -1,0 +1,48 @@
+[
+  {
+    "source_id": "SRC-123",
+    "source_title": "Mage Knight Board Game",
+    "continuity_scope": "Terms-only audit bound to WizKids' original Mage Knight Board Game, SKU 70495, released November 2011. The witness is the base board game only. It is not the earlier Mage Knight collectible miniatures game, the 2018 Ultimate Edition (SKU 73455), The Lost Legion, Krang, Shades of Tezla, later expansions, digital adaptations, novels, or player sessions.",
+    "work_or_witnesses": [
+      "Mage Knight Board Game, WizKids SKU 70495, November 2011 base game",
+      "WizKids Mage Knight base-game overview, rules link, walkthrough link, and Official FAQ link",
+      "WizKids Mage Knight: Ultimate Edition product page (boundary witness only)"
+    ],
+    "coverage_rule": "The base game gives each player control of a Mage Knight through a miniature, cards, tokens, scenario choice, and player decisions; it does not directly profile a stable dramatic individual in the accessible official base-product text. Named hero cards/avatars therefore remain outside character records, as do units, monsters, spells, sites, artifacts, and cards. No individual satisfies the evidence rule.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "Named hero cards/avatars and all player-selected or player-developed in-session identities, because the accessible official core witness supplies no claim-level biography or fixed plot role for them.",
+      "The earlier collectible miniatures game and all non-board-game Mage Knight continuities.",
+      "The Lost Legion, Krang, Shades of Tezla, Ultimate Edition, Apocalypse Dragon, Emergence, Dual Color Cards, and any other expansions or promotional scenarios.",
+      "Digital adaptations, novels, recordings, reviews, home rules, and player sessions.",
+      "Named expansion-only people and entities such as Volkare, Wolfhawk, Krang, Braevalar, Coral, and the Apocalypse Dragon."
+    ],
+    "uncertainties": [
+      "The official base page links to an archived March 2012 searchable rulebook, walkthrough, and FAQ v1.0, but the archived wizkidsgames.com URLs returned server errors during this review. Their existence is recorded; unverified detailed rules or corrections are not imported.",
+      "No complete official base-game errata/retcon history was accessible beyond the page's Official FAQ link. The 2018 Ultimate Edition advertises integrated rules and new cards, but is a separate edition and is not treated as a correction to this 2011 pass.",
+      "The official overview's 'Mage Knight' can mean a player-controlled avatar/role in play, rather than one fixed named narrative person. Card, miniature, and token depictions do not alone establish biography or continuity.",
+      "The game includes conquest, combat, warlike leadership, looting/burning a monastery in a player-choice example, and fantasy violence. Its empire, council, magic, and religious-site vocabulary is fictional gameplay framing, not a claim about real institutions or traditions."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official WizKids base-product, shop, and edition-boundary pages only. No fan wikis, Wikipedia, unofficial rule scans, or play reports establish claims.",
+    "citations": [
+      {
+        "url": "https://wizkids.com/mage-knight/",
+        "locator": "Overview; Details; Starter Set; links 'Download Rules' and 'Official FAQ'",
+        "supports": ["Identifies the original board game as November 2011 SKU 70495 and supplies the high-level base-game setting and mechanics claims."]
+      },
+      {
+        "url": "https://wizkids.com/mage-knight-ultimate-edition/",
+        "locator": "Details; Mage Knight: Ultimate Edition",
+        "supports": ["Defines Ultimate Edition as a December 2018 separate product containing the base game and all three prior expansions, with integrated rules and new cards."]
+      },
+      {
+        "url": "https://shop.wizkids.com/products/mage-knight-board-game",
+        "locator": "Mage Knight Board Game (Standard Edition), Code 70495; Description",
+        "supports": ["Corroborates SKU 70495 and its board-game component/setting description."]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

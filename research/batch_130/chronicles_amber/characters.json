@@ -1,0 +1,72 @@
+[
+  {
+    "character_id": "CHR-SRC039-001",
+    "canonical_name": "Carl Corey",
+    "aliases": [],
+    "source_id": "SRC-039",
+    "source_title": "The Chronicles of Amber — Nine Princes in Amber (1970), Chapter 1",
+    "continuity": "Nine Princes in Amber (Doubleday, 1970), Chapter 1 first-edition witness",
+    "work_or_witness": "Nine Princes in Amber (1970), Chapter 1",
+    "character_kind": "individual",
+    "description": "The first-person narrator, identified in the opening hospital context as Carl Corey, who reports substantial gaps in autobiographical memory while attempting to leave the facility and learn basic facts about his situation.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "reported memory loss",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Chapter-1 first-person account only. ‘Amnesia’ is treated as narrative language for incomplete memory, not as a verified diagnosis, disability label, medical cause, or explanation of personality."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Greenwood hospital context",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The immediate opening setting only; no later geographic, institutional, or cross-world association is inferred."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "identity-seeking first-person narrator",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "A limited opening-chapter narrative role, not an assertion that his identity, memory, motives, or later revelations are settled in this witness."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named, directly present first-person dramatic participant in the selected Chapter 1 witness; local identifier retained as printed",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://search.worldcat.org/title/Nine-princes-in-amber/oclc/1036768024",
+        "locator": "Roger Zelazny, Nine princes in amber, [1st ed.], Doubleday, 1970; Chapter 1",
+        "supports": [
+          "primary witness edition", "Carl Corey’s Chapter 1 local identifier", "opening hospital setting", "first-person memory-gap context"
+        ]
+      },
+      {
+        "url": "https://reactormag.com/a-few-words-from-roger-zelazny-part-seven-rogers-vision-of-amber/",
+        "locator": "‘Some Sort of Family Squabble,’ Roger Zelazny retrospective interview excerpt",
+        "supports": [
+          "author’s description of the hospital awakening and amnesia as the reader/protagonist discovery device"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Carl Corey is retained as the Chapter 1 local identifier; this record does not merge it with a later name, royal title, family membership, or wider Amber continuity.",
+      "Memory loss is a narrative report, not a medical diagnosis or mental-health characterization. Hospital care, medication, injury, and potential coercion are not interpreted beyond the witness’s limited viewpoint.",
+      "No claim is made about gender, disability, body, class, monarchy, violence, morality, or real-world institutional practice from this fictional opening."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

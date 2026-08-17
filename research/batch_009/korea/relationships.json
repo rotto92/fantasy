@@ -1,0 +1,41 @@
+[
+  {
+    "relationship_id":"REL-SRC020-001", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-001", "target_character_id":"CHR-SRC020-002", "relationship_type":"spouse", "label":"Bari and Mujangseung become lifelong partners in the Central-Western variant", "direction":"undirected", "continuity":"Bari Gongju Central-Western regional witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0020479","locator":"Regional characteristics, Central-Western region","supports":["Mujangseung is the medicinal-water guardian and Bari’s lifelong partner in the Central-Western form."]}], "confidence":"moderate", "note":"Regional-variant relation only."
+  },
+  {
+    "relationship_id":"REL-SRC020-002", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-003", "target_character_id":"CHR-SRC020-004", "relationship_type":"spouse", "label":"Nam Seonbi and Yeosan Buin are spouses", "direction":"undirected", "continuity":"Jeju Munjeonbonpuri witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, opening","supports":["Nam Seonbi and Yeosan Buin marry and have seven sons."]}], "confidence":"high", "note":""
+  },
+  {
+    "relationship_id":"REL-SRC020-003", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-005", "target_character_id":"CHR-SRC020-003", "relationship_type":"lover", "label":"Daughter of Gwiil seduces Nam Seonbi and becomes his concubine", "direction":"directed", "continuity":"Jeju Munjeonbonpuri witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, Odong episode","supports":["Gwiil’s daughter seduces Nam Seonbi, who takes her as a concubine."]}], "confidence":"high", "note":""
+  },
+  {
+    "relationship_id":"REL-SRC020-004", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-005", "target_character_id":"CHR-SRC020-004", "relationship_type":"opponent", "label":"Daughter of Gwiil murders Yeosan Buin", "direction":"directed", "continuity":"Jeju Munjeonbonpuri witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, pond episode","supports":["Gwiil’s daughter pushes Yeosan Buin into the water and kills her."]}], "confidence":"high", "note":""
+  },
+  {
+    "relationship_id":"REL-SRC020-005", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-006", "target_character_id":"CHR-SRC020-004", "relationship_type":"kin", "label":"Nokdaesaengi is Yeosan Buin’s youngest son", "direction":"directed", "continuity":"Jeju Munjeonbonpuri witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, opening and sons’ response","supports":["Yeosan Buin has seven sons; the named youngest son Nokdaesaengi acts with them after her death."]}], "confidence":"high", "note":""
+  },
+  {
+    "relationship_id":"REL-SRC020-006", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-006", "target_character_id":"CHR-SRC020-005", "relationship_type":"opponent", "label":"Nokdaesaengi exposes the Daughter of Gwiil’s deception", "direction":"directed", "continuity":"Jeju Munjeonbonpuri witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, sons’ response","supports":["The youngest son discovers the hidden livers and thereby exposes the impostor’s scheme."]}], "confidence":"high", "note":""
+  },
+  {
+    "relationship_id":"REL-SRC020-007", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-008", "target_character_id":"CHR-SRC020-007", "relationship_type":"patron", "label":"Yeomra Wang appoints Gangnim as a chasa", "direction":"directed", "continuity":"Jeju Chasabonpuri witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0055151","locator":"Contents, Gangnim conclusion","supports":["Yeomra Wang takes Gangnim’s soul and appoints him to seize people as a chasa."]}], "confidence":"high", "note":"Patron is a functional relationship label; the source’s exact relation is sovereign appointment."
+  },
+  {
+    "relationship_id":"REL-SRC020-008", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-007", "target_character_id":"CHR-SRC020-010", "relationship_type":"opponent", "label":"Gangnim takes Dongbangsak to the underworld", "direction":"directed", "continuity":"Jeju Chasabonpuri witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0055151","locator":"Contents, Dongbangsak episode","supports":["Gangnim identifies Dongbangsak and takes him to the underworld."]}], "confidence":"high", "note":""
+  },
+  {
+    "relationship_id":"REL-SRC020-009", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-009", "target_character_id":"CHR-SRC020-007", "relationship_type":"other", "label":"Gimchi Wonim claims Gangnim’s body in Yeomra Wang’s body-and-soul proposal", "direction":"directed", "continuity":"Jeju Chasabonpuri witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0055151","locator":"Contents, body/soul proposal","supports":["Gimchi Wonim selects Gangnim’s body while Yeomra Wang takes Gangnim’s soul."]}], "confidence":"high", "note":"No narrower relationship type is appropriate."
+  },
+  {
+    "relationship_id":"REL-SRC020-010", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-014", "target_character_id":"CHR-SRC020-015", "relationship_type":"lover", "label":"Dead King Jinji returns to Tohwa-nyeo and fathers Bihyeong", "direction":"directed", "continuity":"Samguk Yusa Bihyeongrang witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Contents, opening through birth","supports":["After Tohwa-nyeo’s husband dies, the dead king returns and Bihyeong is born."]}], "confidence":"high", "note":""
+  },
+  {
+    "relationship_id":"REL-SRC020-011", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-014", "target_character_id":"CHR-SRC020-011", "relationship_type":"creator", "label":"King Jinji fathers Bihyeong", "direction":"directed", "continuity":"Samguk Yusa Bihyeongrang witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Contents, Bihyeong’s birth","supports":["Bihyeong is born from the dead king’s union with Tohwa-nyeo."]}], "confidence":"high", "note":"Creator is used only for parentage because the schema has no parent relation."
+  },
+  {
+    "relationship_id":"REL-SRC020-012", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-015", "target_character_id":"CHR-SRC020-011", "relationship_type":"creator", "label":"Tohwa-nyeo bears Bihyeong", "direction":"directed", "continuity":"Samguk Yusa Bihyeongrang witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Contents, Bihyeong’s birth","supports":["Tohwa-nyeo gives birth to Bihyeong."]}], "confidence":"high", "note":"Creator is used only for parentage because the schema has no parent relation."
+  },
+  {
+    "relationship_id":"REL-SRC020-013", "source_id":"SRC-020", "source_character_id":"CHR-SRC020-011", "target_character_id":"CHR-SRC020-012", "relationship_type":"opponent", "label":"Bihyeong has Gil Dal captured and killed", "direction":"directed", "continuity":"Samguk Yusa Bihyeongrang witness", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Contents","supports":["Bihyeong orders ghosts to capture and kill Gil Dal after his fox transformation and flight."]}], "confidence":"high", "note":""
+  }
+]

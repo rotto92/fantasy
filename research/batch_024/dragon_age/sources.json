@@ -1,0 +1,63 @@
+[
+  {
+    "source_id": "SRC-138",
+    "source_title": "Dragon Age",
+    "continuity_scope": "Dragon Age: The Veilguard base game, worldwide launch baseline (English; 31 October 2024). This is a release-level pass within a multi-game, choice-reactive franchise: it excludes Origins, Dragon Age II, Inquisition, all earlier world-state outcomes, later patches/editions, the Vows & Vengeance tie-in, books, comics, television, and future retcons.",
+    "work_or_witnesses": [
+      "BioWare: Unveiling The Veilguard: Cast and Characters Detailed at San Diego Comic-Con (31 July 2024)",
+      "BioWare: Dragon Age: The Veilguard Is Coming October 31; Pre-Orders Open Now! (15 August 2024)",
+      "EA: Dragon Age: The Veilguard base-game product page",
+      "EA: Journal #7 - Progression & Companions (4 September 2024)"
+    ],
+    "coverage_rule": "All named individual companions given a dedicated descriptive paragraph in BioWare's selected official cast article: Lucanis Dellamorte, Neve Gallus, Emmrich Volkarin, and Lace Harding. The witness identifies other Veilguard companions but does not give them equivalent dedicated profiles, so they are excluded rather than filled in from unaudited sources. Player-created Rook and every choice-dependent romance, faction choice, class, race, background, quest result, and companion outcome remain terms or omissions, never fixed character/relationship assertions.",
+    "in_scope_character_count": 4,
+    "completed_character_count": 4,
+    "omissions": [
+      "Player-created Rook; the player-selected Warrior, Rogue, and Mage classes; player-selected race, faction, appearance, backstory, build, equipment, and dialogue choices.",
+      "Bellara Lutare, Davrin, and Taash: named in EA's seven-companion roster but not provided a dedicated descriptive paragraph in the selected BioWare cast witness.",
+      "Manfred and Illario: named only as, respectively, Emmrich's skeletal assistant and Lucanis's cousin in the selected witness, without a dedicated source-character profile.",
+      "All optional Rook romances, companion-to-companion pairings, approval states, personal-quest outcomes, world-state decisions, and ending conditions.",
+      "Factions, peoples, creatures, gods, places, artifacts, classes, abilities, equipment, quests, and mechanics as character nodes."
+    ],
+    "uncertainties": [
+      "The selected cast article is official pre-launch character presentation, not a complete in-game codex or finished-game cast list. Pass completion is only for its four dedicated character paragraphs.",
+      "Dragon Age narratives incorporate imported and player-authored world states. Neither the selected pages nor this pass establish a single universal state for earlier games or for Veilguard choices.",
+      "The EA product page lists the present language options; this pass preserves English names/terms and does not merge localized variants.",
+      "The BioWare page says Harding returns after Inquisition, but this pass records only the stated Veilguard baseline and does not import her earlier-game biography.",
+      "The franchise may receive patches, edition changes, supplementary media, or retcons after the stated launch boundary."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party BioWare and EA character, release, product, and progression pages. No fan wiki, Wikipedia, community guide, or unsourced secondary summary is used as evidence.",
+    "citations": [
+      {
+        "url": "https://blog.bioware.com/2024/07/31/unveiling-the-veilguard-cast-and-characters-detailed-at-san-diego-comic-con/",
+        "locator": "Meet the Cast; Full of Character sections (Lucanis, Neve, Emmrich, Lace Harding paragraphs)",
+        "supports": [
+          "The reproducible four-character witness set, their individual descriptions, and the Veilguard premise"
+        ]
+      },
+      {
+        "url": "https://blog.bioware.com/2024/08/15/release-date-preorder-blog/",
+        "locator": "Opening release announcement; paragraphs on player choice and companions",
+        "supports": [
+          "Worldwide 31 October 2024 launch scope; Rook as player role; choice-dependent fellowship and personal stories"
+        ]
+      },
+      {
+        "url": "https://www.ea.com/games/dragon-age/dragon-age-the-veilguard/buy",
+        "locator": "Game Features; About the game; Release Date sections",
+        "supports": [
+          "Base-game boundary, seven-companion context, character customization, supported languages, and release time"
+        ]
+      },
+      {
+        "url": "https://www.ea.com/games/dragon-age/dragon-age-the-veilguard/news/combat-and-progression",
+        "locator": "Companions' Progression section",
+        "supports": [
+          "Companion bonds, conversations, decisions, missions, and relationship variability as game systems"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

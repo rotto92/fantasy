@@ -1,0 +1,67 @@
+[
+  {
+    "source_id": "SRC-127",
+    "source_title": "Tactics Ogre / Ogre Battle",
+    "continuity_scope": "Narrow legacy-title witness: Square Enix's Japanese PSP release タクティクスオウガ 運命の輪 (Tactics Ogre: Wheel of Fortune), released 11 November 2010. This is a reimagining/remake made by a core group from the 1995 Super Famicom Tactics Ogre, with revised battle design, substantial scenario revision, added characters/classes, and the new Wheel of Fortune system. It is not the 1995 original, the 2011 rerelease, Tactics Ogre: Reborn (SRC-128), any other Ogre Battle title, or an undifferentiated 'Ogre Battle Saga' canon.",
+    "work_or_witnesses": [
+      {
+        "work": "PSP software Tactics Ogre: Wheel of Fortune—release-date announcement",
+        "edition": "Square Enix Japanese news release, 17 August 2010, for the PSP title released 11 November 2010.",
+        "url": "https://www.jp.square-enix.com/company/ja/news/2010/html/68b886fb96bc08bbe2b941bd88be94e7.html"
+      },
+      {
+        "work": "Tactics Ogre: Wheel of Fortune product detail",
+        "edition": "Square Enix official Japanese product listing; Japanese PSP version, 2010/2011 product information.",
+        "url": "https://www.jp.square-enix.com/game/detail/tacticsogre/"
+      },
+      {
+        "work": "Tactics Ogre: Reborn—Battle Design",
+        "edition": "Square Enix official comparative documentation, 2022; used only to identify legacy Wheel of Fortune systems when it explicitly names them.",
+        "url": "https://www.jp.square-enix.com/tor/battledesign/"
+      }
+    ],
+    "coverage_rule": "Include every individually named character directly identified by the selected 2010 Square Enix announcement or product detail at claim level. The accessible official witness directly identifies only the protagonist, デニム (Denim), without a full character roster or claim-level character biographies; therefore this narrow pass contains only that one edition-specific record and no relationships. Classes, routes, factions, tarot, alignment, elements, equipment, named systems, and places are retained as source terms or attributes only. No names are copied from SRC-128, fan wikis, walkthroughs, scripts, or later edition profiles.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "All other named people in the PSP game, including any party members, antagonists, recruits, historical figures, route-exclusive characters, and later-system additions not named in the selected claim-level official witness",
+      "All characters and relationships already researched for the separately scoped 2022 Tactics Ogre: Reborn pass (SRC-128); similar names across editions require edition-specific evidence and IDs",
+      "The 1995 Super Famicom original, 2011 PSP rerelease, 2022 Reborn, and every other Ogre Battle title",
+      "All classes, units, routes, factions, tarot cards, alignment concepts, elements, weapons, equipment, spells, systems, places, and generic or player-created units"
+    ],
+    "uncertainties": [
+      "The cited 2010 official announcement establishes the PSP title, date, setting, protagonist, player-choice premise, and remake changes, but it does not expose a full cast list, scene transcript, or chapter/codex character records. This is therefore not a full Wheel of Fortune character pass.",
+      "Square Enix's current product-detail page retains a high-level description but does not provide stable in-page character profile locators in the accessible rendering.",
+      "The 2022 Reborn documentation is later comparative reference, not a substitute for PSP in-game text. It is used only where it expressly identifies a Wheel of Fortune mechanic; no character or relationship claim relies on it.",
+      "Japanese legacy names and later English/localized spellings may differ. No cross-edition record is joined or deduplicated on a name alone."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Square Enix release and product materials only. The 2010 announcement directly identifies the PSP release date, its fictional Valeria setting, its protagonist Denim, choice-shaped story, original-1995 production relation, battle-design changes, and tarot promotion. The official product description frames the PSP title as retaining original game systems while substantially revising the scenario and adding characters/classes and the Wheel of Fortune system. Later official Reborn documentation is cited only for explicit version comparison, including PSP class-level management and named legacy time systems.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/company/ja/news/2010/html/68b886fb96bc08bbe2b941bd88be94e7.html",
+        "locator": "News release, 17 August 2010, paragraphs 1–4; Product Overview; Original Tarot Cards",
+        "supports": [
+          "The Japanese PSP release date is 11 November 2010.",
+          "The story is told from the young protagonist Denim's perspective and player choice changes the world.",
+          "The PSP game is a reimagining by core staff from the 1995 original with visual and battle-design changes/new elements, and uses 22 major-arcana tarot cards."
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/tacticsogre/",
+        "locator": "Product description, opening paragraph and product information",
+        "supports": [
+          "The PSP title presents Valeria's conflict from Denim's perspective, keeps original multi-story/multiple-ending and character-development systems, and adds/revises scenario, characters, classes, and the Wheel of Fortune system."
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/tor/battledesign/",
+        "locator": "Unit-related: unit-level management; Wheel of Fortune C.H.A.R.I.O.T.",
+        "supports": [
+          "Reborn explicitly distinguishes its unit-level management from Wheel of Fortune's class-level management and names Wheel of Fortune C.H.A.R.I.O.T. as a legacy time-reversal system."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

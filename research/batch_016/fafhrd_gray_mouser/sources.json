@@ -1,0 +1,35 @@
+[
+  {
+    "source_id":"SRC-028",
+    "source_title":"Fafhrd and the Gray Mouser",
+    "continuity_scope":"Fritz Leiber, Jr.'s “Two Sought Adventure” exactly as published in Unknown, vol. 1 no. 6 (August 1939). This is the original magazine witness and uses its original title, not the later title “The Jewels in the Forest,” its collection texts, later revised/expanded collections, later Lankhmar/Nehwon stories, post-Leiber continuations, comics, games, or other adaptations.",
+    "work_or_witnesses":[
+      {"work":"“Two Sought Adventure”","edition":"Unknown, vol. 1 no. 6, August 1939; published as by Fritz Leiber, Jr.; Internet Archive scan identifier Unknown_v01n06_1939-08_JvH-slpn.","url":"https://archive.org/details/Unknown_v01n06_1939-08_JvH-slpn"},
+      {"work":"Fritz Leiber entry","edition":"The Encyclopedia of Science Fiction, bibliography/context entry; used to distinguish the August 1939 publication from the later title and collections, not as evidence for plot claims.","url":"https://sf-encyclopedia.com/entry/leiber_fritz"},
+      {"work":"Gateway Essentials: Fritz Leiber","edition":"Hachette publisher feature; used only for publication-context corroboration.","url":"https://www.hachette.co.uk/authors/2016/09/23/gateway-essentials-fritz-leiber/"}
+    ],
+    "coverage_rule":"Include all named individual protagonists, the named material rival, the named onstage claimant to the Angarngi legacy, and the named deceased architect whose documented trap physically drives the climax: Fafhrd, the Gray Mouser, Lord Rannarsh, Arvlan of Angarngi, and Urgaan of Angarngi. Unnamed peasants, Rannarsh's unnamed retainers, unnamed/collective divinities, the unnamed gray guardian, the House of Angarngi, treasure, magic, and locations remain dimensions or source terms. This pass is complete only for that five-person cohort in this exact 1939 story.",
+    "in_scope_character_count":5,
+    "completed_character_count":5,
+    "omissions":[
+      "Every Fafhrd and Gray Mouser work other than the August 1939 “Two Sought Adventure” magazine witness, including the retitled “The Jewels in the Forest” and all collection/revision variants",
+      "The remaining Lankhmar/Nehwon sequence, material by Harry Otto Fischer or later writers, and all comics, games, screen works, and other adaptations",
+      "Unnamed peasants, the peasant girl, Rannarsh's unnamed henchmen, the unnamed gray guardian/house-beast, and unnamed supernatural powers",
+      "Gods, locations, the House of Angarngi, treasure, weapons, prayers, cantrips, and magic, which are terms/dimensions rather than character nodes"
+    ],
+    "uncertainties":[
+      "The story has a title and publication-history ambiguity: it first appeared as “Two Sought Adventure” in August 1939 and was later retitled “The Jewels in the Forest”; this pass does not conflate the magazine wording with later texts or collection order.",
+      "The Internet Archive makes a scan accessible but is not treated as a copyright or public-domain determination. The story remains subject to applicable rights; this pass supplies no extended quotation or legal advice.",
+      "Urgaan is a deceased offstage figure. His identity, motives, and acts are mediated by documents and Arvlan's account inside the story; those claims are intentionally qualified rather than treated as independently observed fact.",
+      "The 1939 narration labels Fafhrd a barbarian and assigns rural/city contrasts to characters. These are retained only as period, source-specific fictional language and are not mapped to real peoples, classes, cultures, or ethnicities."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"All character, relationship, and source-term claims use the August 1939 Unknown scan and its downloadable full-text transcription, cited by story title and line range. The Encyclopedia of Science Fiction and Hachette provide bibliographic context for the first publication and later variant/sequence history.",
+    "citations":[
+      {"url":"https://archive.org/download/Unknown_v01n06_1939-08_JvH-slpn/Unknown_v01n06_1939-08_JvH-slpn_djvu.txt","locator":"“Two Sought Adventure,” full-text lines 11937–14865 in the Internet Archive transcription of Unknown, vol. 1 no. 6 (August 1939)","supports":["The primary witness, its named characters, the Angarngi-house plot, and the climax."]},
+      {"url":"https://sf-encyclopedia.com/entry/leiber_fritz","locator":"Fafhrd and Gray Mouser discussion, paragraphs identifying “Two Sought Adventure” (August 1939 Unknown) and the “The Jewels in the Forest” variant/collection history","supports":["Original publication and later title/collection distinction."]},
+      {"url":"https://www.hachette.co.uk/authors/2016/09/23/gateway-essentials-fritz-leiber/","locator":"Gateway Essentials feature, paragraph beginning “Making their debut in the August 1939 issue of Unknown”","supports":["Publisher-context corroboration that the pair debuted in the August 1939 issue."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

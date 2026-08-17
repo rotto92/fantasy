@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "SRC-178",
+    "source_title": "BRAVELY DEFAULT II",
+    "continuity_scope": "Nintendo of America English BRAVELY DEFAULT II for Nintendo Switch, released 26 February 2021. This pass is limited to the selected Nintendo Store description and its four named core adventurers in the Excillant opening premise. The earlier Bravely Default: Flying Fairy / For the Sequel versions and their regional localizations, Bravely Second, other Bravely titles, the Windows release, the Final Demo as a separately playable state, Switch 2 compatibility behavior, DLC/editions, patches, and later outcomes are separate continuities or product states.",
+    "work_or_witnesses": [
+      "Nintendo of America, BRAVELY DEFAULT II for Nintendo Switch official Store page"
+    ],
+    "coverage_rule": "All four named core adventurers explicitly named together in the selected official opening description: Seth, Gloria, Elvis, and Adelle. Orpheus and Dag occur only as named boss/job examples, not core-adventurer profiles, so they remain outside this deliberately bounded four-figure pass. Jobs, abilities, Asterisks, Crystals, kingdoms, the world, enemies, and mechanics are terms/dimensions rather than character nodes.",
+    "in_scope_character_count": 4,
+    "completed_character_count": 4,
+    "omissions": [
+      "Orpheus, Dag, every other named or unnamed NPC, boss, enemy, faction, kingdom, and unprofiled party figure; the official page does not make them part of the four-core-adventurer coverage rule.",
+      "Player-selected jobs, skills, abilities, tactics, party configurations, boss outcomes, endings, and all other mutable gameplay or story states.",
+      "The original 3DS Flying Fairy / For the Sequel releases and their localization differences, Bravely Second and all other series entries, Windows and demo versions, DLC, patches, ports, special editions, fan wikis, Wikipedia, walkthroughs, and community databases."
+    ],
+    "uncertainties": [
+      "Nintendo's concise product description provides an opening premise rather than individual full character dossiers; no unmentioned biography, combat role, origin, or outcome is inferred.",
+      "The Nintendo page calls this a brand-new entry with a new world and characters, but this pass does not reconstruct broader franchise continuity or treat similarly named systems across releases as identical.",
+      "The page lists the Final Demo and Switch 2 compatibility information; neither is treated as evidence that its selectable jobs, save behavior, or play experience exactly matches the 2021 base release."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Nintendo of America first-party English Store page only. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/bravely-default-ii-switch/",
+        "locator": "A brand-new entry in the Bravely series!; story and system description; release date/languages",
+        "supports": [
+          "Nintendo Switch English release scope/date, four-core-adventurer opening premise, Excillant, Musa, Crystals, book, jobs, Asterisks, and Brave/Default mechanics"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

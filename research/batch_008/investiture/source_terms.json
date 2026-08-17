@@ -1,0 +1,410 @@
+[
+  {
+    "term_id": "STM-SRC017-001",
+    "source_id": "SRC-017",
+    "canonical_term": "封神",
+    "original_language": "Literary Chinese",
+    "original_script": "封神",
+    "transliteration": "fengshen",
+    "literal_gloss": "Investiture/deification",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "STA-207"
+    ],
+    "mapping_relation": "partial",
+    "definition": "The novel's postwar assignment of named dead to divine offices; not a generic leveling or evolution mechanic.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/99/zh",
+        "locator": "封神演義, chapter 99",
+        "supports": [
+          "The novel's postwar assignment of named dead to divine offices; not a generic leveling or evolution mechanic."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-002",
+    "source_id": "SRC-017",
+    "canonical_term": "封神榜",
+    "original_language": "Literary Chinese",
+    "original_script": "封神榜",
+    "transliteration": "Fengshen bang",
+    "literal_gloss": "Investiture Register",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [
+      "ART-402"
+    ],
+    "mapping_relation": "functional",
+    "definition": "The register governing the novel's investiture; its exact textual status must not be reduced to a generic prophecy book.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/99/zh",
+        "locator": "封神演義, chapter 99",
+        "supports": [
+          "The register governing the novel's investiture; its exact textual status must not be reduced to a generic prophecy book."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-003",
+    "source_id": "SRC-017",
+    "canonical_term": "封神臺",
+    "original_language": "Literary Chinese",
+    "original_script": "封神臺",
+    "transliteration": "Fengshen tai",
+    "literal_gloss": "Terrace of Investiture",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Novel-specific ritual/cosmic site used in the final investiture.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/99/zh",
+        "locator": "封神演義, chapter 99",
+        "supports": [
+          "Novel-specific ritual/cosmic site used in the final investiture."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-004",
+    "source_id": "SRC-017",
+    "canonical_term": "仙",
+    "original_language": "Literary Chinese",
+    "original_script": "仙",
+    "transliteration": "xian",
+    "literal_gloss": "transcendent/immortal",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-406"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Translation varies; xian in this novel is not simply an ascended-mortal class.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/15/zh",
+        "locator": "封神演義, chapter 15",
+        "supports": [
+          "Translation varies; xian in this novel is not simply an ascended-mortal class."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-005",
+    "source_id": "SRC-017",
+    "canonical_term": "真人",
+    "original_language": "Literary Chinese",
+    "original_script": "真人",
+    "transliteration": "zhenren",
+    "literal_gloss": "perfected person",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [
+      "ROL-917"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A literary/religious title in the novel; the mapping is a retrieval aid, not an exact title equivalence.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/13/zh",
+        "locator": "封神演義, chapter 13",
+        "supports": [
+          "A literary/religious title in the novel; the mapping is a retrieval aid, not an exact title equivalence."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-006",
+    "source_id": "SRC-017",
+    "canonical_term": "闡教",
+    "original_language": "Literary Chinese",
+    "original_script": "闡教",
+    "transliteration": "Chanjiao",
+    "literal_gloss": "Teaching of Elucidation",
+    "dimension": "affiliations",
+    "archetype_ids": [
+      "INS-425"
+    ],
+    "mapping_relation": "functional",
+    "definition": "A novel sect/teaching alignment and teacher-disciple network, not a direct historical institutional record.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/15/zh",
+        "locator": "封神演義, chapter 15",
+        "supports": [
+          "A novel sect/teaching alignment and teacher-disciple network, not a direct historical institutional record."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-007",
+    "source_id": "SRC-017",
+    "canonical_term": "截教",
+    "original_language": "Literary Chinese",
+    "original_script": "截教",
+    "transliteration": "Jiejiao",
+    "literal_gloss": "Teaching of Interception",
+    "dimension": "affiliations",
+    "archetype_ids": [
+      "INS-425"
+    ],
+    "mapping_relation": "functional",
+    "definition": "A novel sect/teaching alignment centered at Biyou Palace, not a general religious category.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/72/zh",
+        "locator": "封神演義, chapter 72",
+        "supports": [
+          "A novel sect/teaching alignment centered at Biyou Palace, not a general religious category."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-008",
+    "source_id": "SRC-017",
+    "canonical_term": "玉虛宮",
+    "original_language": "Literary Chinese",
+    "original_script": "玉虛宮",
+    "transliteration": "Yuxu gong",
+    "literal_gloss": "Jade Void Palace",
+    "dimension": "affiliations",
+    "archetype_ids": [
+      "INS-424"
+    ],
+    "mapping_relation": "functional",
+    "definition": "Yuanshi Tianzun's novel residence/teaching center.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/15/zh",
+        "locator": "封神演義, chapter 15",
+        "supports": [
+          "Yuanshi Tianzun's novel residence/teaching center."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-009",
+    "source_id": "SRC-017",
+    "canonical_term": "碧遊宮",
+    "original_language": "Literary Chinese",
+    "original_script": "碧遊宮",
+    "transliteration": "Biyou gong",
+    "literal_gloss": "Azure Wandering Palace",
+    "dimension": "affiliations",
+    "archetype_ids": [
+      "INS-424"
+    ],
+    "mapping_relation": "functional",
+    "definition": "Tongtian Jiaozhu's novel residence/teaching center.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/72/zh",
+        "locator": "封神演義, chapter 72",
+        "supports": [
+          "Tongtian Jiaozhu's novel residence/teaching center."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-010",
+    "source_id": "SRC-017",
+    "canonical_term": "法寶",
+    "original_language": "Literary Chinese",
+    "original_script": "法寶",
+    "transliteration": "fabao",
+    "literal_gloss": "dharma/numinous treasure",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [
+      "ART-201"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A broad source-native category of supernatural implements; not every fabao is a weapon.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/46/zh",
+        "locator": "封神演義, chapter 46",
+        "supports": [
+          "A broad source-native category of supernatural implements; not every fabao is a weapon."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-011",
+    "source_id": "SRC-017",
+    "canonical_term": "符",
+    "original_language": "Literary Chinese",
+    "original_script": "符",
+    "transliteration": "fu",
+    "literal_gloss": "talisman",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-506"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Textual/ritual talismans in the novel; not a generic spell-card mechanic.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/16/zh",
+        "locator": "封神演義, chapter 16",
+        "supports": [
+          "Textual/ritual talismans in the novel; not a generic spell-card mechanic."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-012",
+    "source_id": "SRC-017",
+    "canonical_term": "打神鞭",
+    "original_language": "Literary Chinese",
+    "original_script": "打神鞭",
+    "transliteration": "Dashen bian",
+    "literal_gloss": "God-Beating Whip",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [
+      "ART-201"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Jiang Ziya's named implement in the novel.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/15/zh",
+        "locator": "封神演義, chapter 15",
+        "supports": [
+          "Jiang Ziya's named implement in the novel."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-013",
+    "source_id": "SRC-017",
+    "canonical_term": "誅仙陣",
+    "original_language": "Literary Chinese",
+    "original_script": "誅仙陣",
+    "transliteration": "Zhuxian zhen",
+    "literal_gloss": "Immortal-Slaying Sword Array",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A named novel formation; no exact normalized equivalent is asserted.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/78/zh",
+        "locator": "封神演義, chapter 78",
+        "supports": [
+          "A named novel formation; no exact normalized equivalent is asserted."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-014",
+    "source_id": "SRC-017",
+    "canonical_term": "黃河陣",
+    "original_language": "Literary Chinese",
+    "original_script": "黃河陣",
+    "transliteration": "Huanghe zhen",
+    "literal_gloss": "Yellow River Array",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The Three Sisters' named formation; preserved without forced mapping.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "The Three Sisters' named formation; preserved without forced mapping."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-015",
+    "source_id": "SRC-017",
+    "canonical_term": "天命",
+    "original_language": "Literary Chinese",
+    "original_script": "天命",
+    "transliteration": "tianming",
+    "literal_gloss": "Heaven's mandate/command",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-207"
+    ],
+    "mapping_relation": "partial",
+    "definition": "The novel's cosmic authorization of dynastic change; it is not reducible to a generic curse or game quest.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/1/zh",
+        "locator": "封神演義, chapter 1",
+        "supports": [
+          "The novel's cosmic authorization of dynastic change; it is not reducible to a generic curse or game quest."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC017-016",
+    "source_id": "SRC-017",
+    "canonical_term": "天庭",
+    "original_language": "Literary Chinese",
+    "original_script": "天庭",
+    "transliteration": "tianting",
+    "literal_gloss": "Heavenly court",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Novel's celestial administrative horizon, presented through the final investiture; distinguish from broader religious traditions.",
+    "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/99/zh",
+        "locator": "封神演義, chapter 99",
+        "supports": [
+          "Novel's celestial administrative horizon, presented through the final investiture; distinguish from broader religious traditions."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

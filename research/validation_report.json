@@ -1,0 +1,1622 @@
+{
+  "generated_at": "2026-08-17T02:38:09.399209+00:00",
+  "status": "valid",
+  "bundles": [
+    "research/batch_001/greek",
+    "research/batch_001/norse",
+    "research/batch_001/shahnameh",
+    "research/batch_002/gilgamesh",
+    "research/batch_002/irish",
+    "research/batch_002/kalevala",
+    "research/batch_002/mabinogion",
+    "research/batch_003/egypt",
+    "research/batch_003/popol_vuh",
+    "research/batch_004/journey_west",
+    "research/batch_004/mahabharata_bori",
+    "research/batch_005/japan",
+    "research/batch_005/ramayana",
+    "research/batch_006/arabian_nights",
+    "research/batch_007/jinn",
+    "research/batch_007/sundiata",
+    "research/batch_008/chinese_systems",
+    "research/batch_008/investiture",
+    "research/batch_009/korea",
+    "research/batch_009/maori",
+    "research/batch_010/nahua",
+    "research/batch_011/arthurian",
+    "research/batch_011/maui_cycles",
+    "research/batch_011/slavic",
+    "research/batch_012/age_of_mythology_retold",
+    "research/batch_012/bhagavad_gita",
+    "research/batch_012/lotr",
+    "research/batch_013/bas_lag",
+    "research/batch_013/black_leopard_red_wolf",
+    "research/batch_013/tactics_ogre_reborn",
+    "research/batch_014/conan_howard",
+    "research/batch_014/earthsea",
+    "research/batch_014/tactics_ogre_legacy",
+    "research/batch_015/discworld",
+    "research/batch_015/elric",
+    "research/batch_015/final_fantasy",
+    "research/batch_016/fafhrd_gray_mouser",
+    "research/batch_016/final_fantasy_tactics",
+    "research/batch_016/memory_sorrow_thorn",
+    "research/batch_017/final_fantasy_xiv",
+    "research/batch_017/grimm",
+    "research/batch_017/realm_elderlings",
+    "research/batch_018/dragon_quest",
+    "research/batch_018/mistborn",
+    "research/batch_018/wheel_of_time",
+    "research/batch_019/black_company",
+    "research/batch_019/fire_emblem",
+    "research/batch_019/first_law",
+    "research/batch_020/elder_scrolls",
+    "research/batch_020/gormenghast",
+    "research/batch_020/narnia",
+    "research/batch_021/dying_earth",
+    "research/batch_021/his_dark_materials",
+    "research/batch_021/warcraft",
+    "research/batch_022/malazan",
+    "research/batch_022/stormlight",
+    "research/batch_022/world_of_warcraft",
+    "research/batch_023/broken_earth",
+    "research/batch_023/diablo",
+    "research/batch_023/kingkiller",
+    "research/batch_024/dragon_age",
+    "research/batch_024/gentleman_bastard",
+    "research/batch_024/poppy_war",
+    "research/batch_025/baldurs_gate",
+    "research/batch_025/daevabad",
+    "research/batch_025/priory_orange_tree",
+    "research/batch_026/broken_empire",
+    "research/batch_026/green_bone_saga",
+    "research/batch_026/icewind_dale",
+    "research/batch_027/kushiels_legacy",
+    "research/batch_027/locked_tomb",
+    "research/batch_027/planescape_torment",
+    "research/batch_028/book_new_sun",
+    "research/batch_028/children_blood_bone",
+    "research/batch_028/neverwinter_nights",
+    "research/batch_029/divinity",
+    "research/batch_029/moribito",
+    "research/batch_029/powder_mage",
+    "research/batch_030/jonathan_strange_norrell",
+    "research/batch_030/mortal_journey",
+    "research/batch_030/pillars_of_eternity",
+    "research/batch_031/condor_heroes",
+    "research/batch_031/tyranny",
+    "research/batch_031/who_fears_death",
+    "research/batch_032/akata_witch",
+    "research/batch_032/inheritance_cycle",
+    "research/batch_032/pathfinder_kingmaker",
+    "research/batch_033/bird_drinks_tears",
+    "research/batch_033/deed_paksenarrion",
+    "research/batch_033/pathfinder_wrath",
+    "research/batch_034/dark_souls",
+    "research/batch_034/osten_ard",
+    "research/batch_034/twelve_kingdoms",
+    "research/batch_035/demons_souls",
+    "research/batch_035/guin_saga",
+    "research/batch_035/jasmine_throne",
+    "research/batch_036/bloodborne",
+    "research/batch_036/forgotten_realms",
+    "research/batch_036/lodoss_war",
+    "research/batch_037/dragonlance",
+    "research/batch_037/elden_ring",
+    "research/batch_037/slayers",
+    "research/batch_038/dark_sun",
+    "research/batch_038/grandmaster_demonic_cultivation",
+    "research/batch_038/legend_of_zelda",
+    "research/batch_039/kalpa_imperial",
+    "research/batch_039/ravenloft",
+    "research/batch_039/ultima",
+    "research/batch_040/lions_al_rassan",
+    "research/batch_040/spelljammer",
+    "research/batch_040/wizardry",
+    "research/batch_041/books_of_earthsea",
+    "research/batch_041/might_and_magic",
+    "research/batch_041/runequest_glorantha",
+    "research/batch_042/heroes_might_magic",
+    "research/batch_042/spear_cuts_water",
+    "research/batch_042/warhammer_old_world",
+    "research/batch_043/amina_al_sirafi",
+    "research/batch_043/dragons_dogma",
+    "research/batch_043/the_one_ring",
+    "research/batch_044/dungeons_dragons",
+    "research/batch_044/exalted",
+    "research/batch_044/fable",
+    "research/batch_045/gothic",
+    "research/batch_045/greyhawk",
+    "research/batch_045/shadowrun",
+    "research/batch_046/eberron",
+    "research/batch_046/risen",
+    "research/batch_046/world_of_darkness",
+    "research/batch_047/legend_five_rings",
+    "research/batch_047/planescape_setting",
+    "research/batch_047/witcher_games",
+    "research/batch_048/dungeon_world",
+    "research/batch_048/guild_wars",
+    "research/batch_048/pathfinder_golarion",
+    "research/batch_049/burning_wheel",
+    "research/batch_049/everquest",
+    "research/batch_049/warhammer_fantasy_roleplay",
+    "research/batch_050/age_of_sigmar",
+    "research/batch_050/forbidden_lands",
+    "research/batch_050/runescape",
+    "research/batch_051/ars_magica",
+    "research/batch_051/fabula_ultima",
+    "research/batch_051/lineage",
+    "research/batch_052/black_desert",
+    "research/batch_052/earthdawn",
+    "research/batch_052/gloomhaven",
+    "research/batch_053/dark_eye",
+    "research/batch_053/descent",
+    "research/batch_053/lost_ark",
+    "research/batch_054/suikoden",
+    "research/batch_054/talisman",
+    "research/batch_054/thirteenth_age",
+    "research/batch_055/blades_in_dark",
+    "research/batch_055/disgaea",
+    "research/batch_055/spirit_island",
+    "research/batch_056/chrono",
+    "research/batch_056/etrian_odyssey",
+    "research/batch_056/symbaroum",
+    "research/batch_057/magic_gathering",
+    "research/batch_057/triangle_strategy",
+    "research/batch_057/xenoblade",
+    "research/batch_058/golden_sun",
+    "research/batch_058/heroquest",
+    "research/batch_058/saga",
+    "research/batch_059/breath_of_fire",
+    "research/batch_059/mage_knight",
+    "research/batch_059/monster_hunter",
+    "research/batch_060/darkest_dungeon",
+    "research/batch_060/small_world",
+    "research/batch_060/tales_series",
+    "research/batch_061/root",
+    "research/batch_061/shadowrun_returns",
+    "research/batch_061/ys",
+    "research/batch_062/berserk",
+    "research/batch_062/octopath_traveler",
+    "research/batch_062/shin_megami_tensei",
+    "research/batch_063/bravely_default",
+    "research/batch_063/claymore",
+    "research/batch_063/vagrant_story",
+    "research/batch_064/made_in_abyss",
+    "research/batch_064/mana_series",
+    "research/batch_064/unicorn_overlord",
+    "research/batch_065/banner_saga",
+    "research/batch_065/demon_slayer",
+    "research/batch_065/ni_no_kuni",
+    "research/batch_066/battle_brothers",
+    "research/batch_066/hunter_x_hunter",
+    "research/batch_066/pokemon",
+    "research/batch_067/arcanum",
+    "research/batch_067/hades",
+    "research/batch_067/overlord",
+    "research/batch_068/delicious_dungeon",
+    "research/batch_068/hollow_knight",
+    "research/batch_068/shield_hero",
+    "research/batch_069/frieren",
+    "research/batch_069/inuyasha",
+    "research/batch_069/sword_art_online",
+    "research/batch_070/bleach",
+    "research/batch_070/fullmetal_alchemist",
+    "research/batch_070/goblin_slayer",
+    "research/batch_071/magi",
+    "research/batch_071/ranking_kings",
+    "research/batch_071/yu_yu_hakusho",
+    "research/batch_072/naruto",
+    "research/batch_072/re_zero",
+    "research/batch_072/witch_hat_atelier",
+    "research/batch_073/black_clover",
+    "research/batch_073/one_piece",
+    "research/batch_073/slime_isekai",
+    "research/batch_074/fate",
+    "research/batch_074/log_horizon",
+    "research/batch_074/nausicaa",
+    "research/batch_075/ancient_magus_bride",
+    "research/batch_075/jujutsu_kaisen",
+    "research/batch_075/mushoku_tensei",
+    "research/batch_076/dorohedoro",
+    "research/batch_076/grimgar",
+    "research/batch_076/omniscient_reader",
+    "research/batch_077/attack_on_titan",
+    "research/batch_077/seven_deadly_sins",
+    "research/batch_078/escaflowne",
+    "research/batch_078/faraway_paladin",
+    "research/batch_079/fairy_tail",
+    "research/batch_079/spirited_away",
+    "research/batch_080/chainsaw_man",
+    "research/batch_080/princess_mononoke",
+    "research/batch_081/dragon_ball",
+    "research/batch_081/tower_of_god",
+    "research/batch_082/solo_leveling",
+    "research/batch_083/god_of_high_school",
+    "research/batch_084/the_kings_avatar",
+    "research/batch_085/soul_land",
+    "research/batch_086/heaven_officials_blessing",
+    "research/batch_087/legend_of_hei",
+    "research/batch_088/apothecary_diaries",
+    "research/batch_089/ascendance_bookworm",
+    "research/batch_090/so_im_a_spider",
+    "research/batch_091/eminence_in_shadow",
+    "research/batch_092/dark_crystal",
+    "research/batch_093/labyrinth",
+    "research/batch_094/willow",
+    "research/batch_095/legend_1985",
+    "research/batch_096/neverending_story_film",
+    "research/batch_097/princess_bride",
+    "research/batch_098/conan_films",
+    "research/batch_099/excalibur_film",
+    "research/batch_100/dragonheart",
+    "research/batch_101/pans_labyrinth",
+    "research/batch_102/avatar_last_airbender",
+    "research/batch_103/dragon_prince",
+    "research/batch_104/adventure_time",
+    "research/batch_105/owl_house",
+    "research/batch_106/she_ra_princesses",
+    "research/batch_107/castlevania_animated",
+    "research/batch_108/arcane",
+    "research/batch_109/game_of_thrones",
+    "research/batch_110/house_of_dragon",
+    "research/batch_111/lotr_film_trilogy",
+    "research/batch_112/rings_of_power",
+    "research/batch_113/witcher_tv",
+    "research/batch_114/wheel_of_time_tv",
+    "research/batch_115/carnival_row",
+    "research/batch_116/legend_vox_machina",
+    "research/batch_117/dnd_honor_among_thieves",
+    "research/batch_118/xena",
+    "research/batch_119/hercules_legendary_journeys",
+    "research/batch_120/shannara_chronicles",
+    "research/batch_121/dark_crystal_age_resistance",
+    "research/batch_122/yoruba_orisa_research",
+    "research/batch_123/chinese_xianxia_tradition",
+    "research/batch_124/mahabharata_epic_tradition",
+    "research/batch_125/tolkien_legendarium",
+    "research/batch_126/once_and_future_king",
+    "research/batch_127/chronicles_prydain",
+    "research/batch_128/last_unicorn",
+    "research/batch_129/dragonriders_pern",
+    "research/batch_130/chronicles_amber",
+    "research/batch_131/riftwar",
+    "research/batch_132/asoiaf",
+    "research/batch_133/witcher_books"
+  ],
+  "quarantinedBundles": [
+    "research/batch_006/yoruba_ifa"
+  ],
+  "counts": {
+    "source_audits": 281,
+    "characters": 1573,
+    "relationships": 1258,
+    "source_terms": 1881,
+    "errors": 0,
+    "warnings": 14
+  },
+  "character_counts_by_source": {
+    "SRC-001": 45,
+    "SRC-002": 49,
+    "SRC-003": 42,
+    "SRC-004": 41,
+    "SRC-005": 23,
+    "SRC-006": 27,
+    "SRC-007": 11,
+    "SRC-008": 5,
+    "SRC-009": 30,
+    "SRC-010": 3,
+    "SRC-011": 49,
+    "SRC-012": 18,
+    "SRC-013": 13,
+    "SRC-014": 6,
+    "SRC-015": 37,
+    "SRC-016": 32,
+    "SRC-017": 40,
+    "SRC-018": 3,
+    "SRC-019": 31,
+    "SRC-020": 15,
+    "SRC-021": 32,
+    "SRC-022": 1,
+    "SRC-023": 27,
+    "SRC-024": 10,
+    "SRC-025": 5,
+    "SRC-026": 2,
+    "SRC-027": 4,
+    "SRC-028": 5,
+    "SRC-029": 4,
+    "SRC-030": 8,
+    "SRC-031": 12,
+    "SRC-032": 8,
+    "SRC-035": 10,
+    "SRC-036": 4,
+    "SRC-039": 1,
+    "SRC-040": 8,
+    "SRC-042": 8,
+    "SRC-043": 10,
+    "SRC-044": 14,
+    "SRC-045": 11,
+    "SRC-046": 3,
+    "SRC-047": 2,
+    "SRC-048": 11,
+    "SRC-049": 8,
+    "SRC-050": 9,
+    "SRC-051": 7,
+    "SRC-052": 4,
+    "SRC-053": 10,
+    "SRC-054": 6,
+    "SRC-055": 10,
+    "SRC-056": 9,
+    "SRC-057": 9,
+    "SRC-058": 7,
+    "SRC-059": 8,
+    "SRC-060": 8,
+    "SRC-061": 8,
+    "SRC-062": 8,
+    "SRC-063": 10,
+    "SRC-064": 8,
+    "SRC-065": 7,
+    "SRC-066": 10,
+    "SRC-067": 10,
+    "SRC-068": 8,
+    "SRC-069": 7,
+    "SRC-070": 9,
+    "SRC-073": 3,
+    "SRC-074": 7,
+    "SRC-075": 4,
+    "SRC-076": 2,
+    "SRC-077": 1,
+    "SRC-078": 2,
+    "SRC-079": 4,
+    "SRC-080": 5,
+    "SRC-081": 7,
+    "SRC-082": 6,
+    "SRC-083": 1,
+    "SRC-085": 2,
+    "SRC-086": 2,
+    "SRC-087": 2,
+    "SRC-088": 1,
+    "SRC-118": 5,
+    "SRC-121": 1,
+    "SRC-127": 1,
+    "SRC-128": 8,
+    "SRC-129": 5,
+    "SRC-130": 2,
+    "SRC-131": 5,
+    "SRC-132": 2,
+    "SRC-133": 6,
+    "SRC-134": 3,
+    "SRC-135": 3,
+    "SRC-136": 4,
+    "SRC-137": 3,
+    "SRC-138": 4,
+    "SRC-139": 6,
+    "SRC-141": 4,
+    "SRC-145": 2,
+    "SRC-146": 11,
+    "SRC-147": 3,
+    "SRC-149": 3,
+    "SRC-151": 2,
+    "SRC-152": 1,
+    "SRC-153": 1,
+    "SRC-154": 2,
+    "SRC-155": 14,
+    "SRC-156": 3,
+    "SRC-159": 4,
+    "SRC-160": 6,
+    "SRC-161": 6,
+    "SRC-162": 5,
+    "SRC-163": 5,
+    "SRC-164": 10,
+    "SRC-166": 5,
+    "SRC-167": 4,
+    "SRC-168": 17,
+    "SRC-169": 10,
+    "SRC-170": 3,
+    "SRC-171": 6,
+    "SRC-172": 4,
+    "SRC-173": 1,
+    "SRC-174": 6,
+    "SRC-175": 6,
+    "SRC-176": 6,
+    "SRC-178": 4,
+    "SRC-179": 8,
+    "SRC-180": 4,
+    "SRC-181": 16,
+    "SRC-182": 2,
+    "SRC-183": 8,
+    "SRC-184": 12,
+    "SRC-185": 2,
+    "SRC-187": 19,
+    "SRC-191": 2,
+    "SRC-193": 3,
+    "SRC-194": 1,
+    "SRC-196": 1,
+    "SRC-197": 3,
+    "SRC-198": 2,
+    "SRC-200": 1,
+    "SRC-201": 3,
+    "SRC-202": 3,
+    "SRC-203": 4,
+    "SRC-204": 1,
+    "SRC-205": 2,
+    "SRC-206": 2,
+    "SRC-207": 4,
+    "SRC-208": 3,
+    "SRC-209": 3,
+    "SRC-211": 1,
+    "SRC-212": 1,
+    "SRC-213": 1,
+    "SRC-214": 1,
+    "SRC-215": 3,
+    "SRC-217": 1,
+    "SRC-219": 1,
+    "SRC-222": 3,
+    "SRC-223": 2,
+    "SRC-224": 4,
+    "SRC-225": 2,
+    "SRC-226": 2,
+    "SRC-227": 2,
+    "SRC-228": 2,
+    "SRC-229": 3,
+    "SRC-230": 1,
+    "SRC-231": 2,
+    "SRC-232": 2,
+    "SRC-233": 2,
+    "SRC-234": 2,
+    "SRC-235": 1,
+    "SRC-236": 1,
+    "SRC-237": 1,
+    "SRC-238": 1,
+    "SRC-239": 3,
+    "SRC-240": 1,
+    "SRC-241": 2,
+    "SRC-242": 2,
+    "SRC-243": 2,
+    "SRC-244": 1,
+    "SRC-246": 1,
+    "SRC-247": 2,
+    "SRC-248": 3,
+    "SRC-249": 3,
+    "SRC-250": 7,
+    "SRC-251": 2,
+    "SRC-252": 7,
+    "SRC-253": 6,
+    "SRC-254": 11,
+    "SRC-255": 3,
+    "SRC-256": 3,
+    "SRC-257": 4,
+    "SRC-258": 5,
+    "SRC-259": 3,
+    "SRC-260": 3,
+    "SRC-261": 5,
+    "SRC-262": 4,
+    "SRC-263": 5,
+    "SRC-264": 15,
+    "SRC-265": 3,
+    "SRC-266": 12,
+    "SRC-267": 4,
+    "SRC-268": 7,
+    "SRC-269": 7,
+    "SRC-270": 4,
+    "SRC-271": 8,
+    "SRC-272": 6,
+    "SRC-273": 3,
+    "SRC-274": 7,
+    "SRC-275": 5,
+    "SRC-276": 3,
+    "SRC-277": 49,
+    "SRC-278": 4,
+    "SRC-279": 19,
+    "SRC-280": 15,
+    "SRC-281": 2
+  },
+  "dimension_value_counts": {
+    "affiliations": 640,
+    "artifacts_and_vehicles": 238,
+    "being_types": 1048,
+    "cosmologies_and_realms": 490,
+    "cultures": 174,
+    "game_mechanics": 49,
+    "metaphysical_laws_and_rituals": 182,
+    "narrative_archetypes": 311,
+    "power_traditions": 380,
+    "roles_and_vocations": 1082,
+    "states_and_transformations": 280
+  },
+  "evidence_concentration_by_source": {
+    "SRC-001": {
+      "character_records": 45,
+      "unique_character_citation_urls": 7,
+      "unique_character_citation_locators": 44
+    },
+    "SRC-002": {
+      "character_records": 49,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 51
+    },
+    "SRC-003": {
+      "character_records": 42,
+      "unique_character_citation_urls": 19,
+      "unique_character_citation_locators": 19
+    },
+    "SRC-004": {
+      "character_records": 41,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 37
+    },
+    "SRC-005": {
+      "character_records": 23,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 22
+    },
+    "SRC-006": {
+      "character_records": 27,
+      "unique_character_citation_urls": 16,
+      "unique_character_citation_locators": 21
+    },
+    "SRC-007": {
+      "character_records": 11,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-008": {
+      "character_records": 5,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-009": {
+      "character_records": 30,
+      "unique_character_citation_urls": 5,
+      "unique_character_citation_locators": 13
+    },
+    "SRC-010": {
+      "character_records": 3,
+      "unique_character_citation_urls": 5,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-011": {
+      "character_records": 49,
+      "unique_character_citation_urls": 6,
+      "unique_character_citation_locators": 16
+    },
+    "SRC-012": {
+      "character_records": 18,
+      "unique_character_citation_urls": 6,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-013": {
+      "character_records": 13,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-014": {
+      "character_records": 6,
+      "unique_character_citation_urls": 5,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-015": {
+      "character_records": 37,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 37
+    },
+    "SRC-016": {
+      "character_records": 32,
+      "unique_character_citation_urls": 4,
+      "unique_character_citation_locators": 29
+    },
+    "SRC-017": {
+      "character_records": 40,
+      "unique_character_citation_urls": 27,
+      "unique_character_citation_locators": 27
+    },
+    "SRC-018": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-019": {
+      "character_records": 31,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 19
+    },
+    "SRC-020": {
+      "character_records": 15,
+      "unique_character_citation_urls": 4,
+      "unique_character_citation_locators": 15
+    },
+    "SRC-021": {
+      "character_records": 32,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 15
+    },
+    "SRC-022": {
+      "character_records": 1,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-023": {
+      "character_records": 27,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 21
+    },
+    "SRC-024": {
+      "character_records": 10,
+      "unique_character_citation_urls": 7,
+      "unique_character_citation_locators": 9
+    },
+    "SRC-025": {
+      "character_records": 5,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-026": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-027": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-028": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-029": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-030": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-031": {
+      "character_records": 12,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 11
+    },
+    "SRC-032": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 8
+    },
+    "SRC-035": {
+      "character_records": 10,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-036": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-039": {
+      "character_records": 1,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-040": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-042": {
+      "character_records": 8,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-043": {
+      "character_records": 10,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 10
+    },
+    "SRC-044": {
+      "character_records": 14,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 12
+    },
+    "SRC-045": {
+      "character_records": 11,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 11
+    },
+    "SRC-046": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-047": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-048": {
+      "character_records": 11,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-049": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-050": {
+      "character_records": 9,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 9
+    },
+    "SRC-051": {
+      "character_records": 7,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-052": {
+      "character_records": 4,
+      "unique_character_citation_urls": 4,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-053": {
+      "character_records": 10,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 9
+    },
+    "SRC-054": {
+      "character_records": 6,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-055": {
+      "character_records": 10,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 8
+    },
+    "SRC-056": {
+      "character_records": 9,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-057": {
+      "character_records": 9,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-058": {
+      "character_records": 7,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-059": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-060": {
+      "character_records": 8,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 10
+    },
+    "SRC-061": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-062": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-063": {
+      "character_records": 10,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 10
+    },
+    "SRC-064": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-065": {
+      "character_records": 7,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-066": {
+      "character_records": 10,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 15
+    },
+    "SRC-067": {
+      "character_records": 10,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 12
+    },
+    "SRC-068": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-069": {
+      "character_records": 7,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-070": {
+      "character_records": 9,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 11
+    },
+    "SRC-073": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-074": {
+      "character_records": 7,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 9
+    },
+    "SRC-075": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-076": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-077": {
+      "character_records": 1,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-078": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-079": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-080": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-081": {
+      "character_records": 7,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-082": {
+      "character_records": 6,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-083": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-085": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-086": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-087": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-088": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-118": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-121": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-127": {
+      "character_records": 1,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-128": {
+      "character_records": 8,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 9
+    },
+    "SRC-129": {
+      "character_records": 5,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-130": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-131": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-132": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-133": {
+      "character_records": 6,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-134": {
+      "character_records": 3,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-135": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-136": {
+      "character_records": 4,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-137": {
+      "character_records": 3,
+      "unique_character_citation_urls": 5,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-138": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-139": {
+      "character_records": 6,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-141": {
+      "character_records": 4,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-145": {
+      "character_records": 2,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-146": {
+      "character_records": 11,
+      "unique_character_citation_urls": 4,
+      "unique_character_citation_locators": 14
+    },
+    "SRC-147": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-149": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-151": {
+      "character_records": 2,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-152": {
+      "character_records": 1,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-153": {
+      "character_records": 1,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-154": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-155": {
+      "character_records": 14,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 10
+    },
+    "SRC-156": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-159": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-160": {
+      "character_records": 6,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-161": {
+      "character_records": 6,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-162": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-163": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-164": {
+      "character_records": 10,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 10
+    },
+    "SRC-166": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-167": {
+      "character_records": 4,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-168": {
+      "character_records": 17,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 17
+    },
+    "SRC-169": {
+      "character_records": 10,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 11
+    },
+    "SRC-170": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-171": {
+      "character_records": 6,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-172": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-173": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-174": {
+      "character_records": 6,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-175": {
+      "character_records": 6,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-176": {
+      "character_records": 6,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-178": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-179": {
+      "character_records": 8,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 8
+    },
+    "SRC-180": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-181": {
+      "character_records": 16,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 17
+    },
+    "SRC-182": {
+      "character_records": 2,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-183": {
+      "character_records": 8,
+      "unique_character_citation_urls": 8,
+      "unique_character_citation_locators": 8
+    },
+    "SRC-184": {
+      "character_records": 12,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 13
+    },
+    "SRC-185": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-187": {
+      "character_records": 19,
+      "unique_character_citation_urls": 19,
+      "unique_character_citation_locators": 19
+    },
+    "SRC-191": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-193": {
+      "character_records": 3,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-194": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-196": {
+      "character_records": 1,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-197": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-198": {
+      "character_records": 2,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-200": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-201": {
+      "character_records": 3,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-202": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-203": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-204": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-205": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-206": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-207": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-208": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-209": {
+      "character_records": 3,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-211": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-212": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-213": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-214": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-215": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-217": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-219": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-222": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-223": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-224": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-225": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-226": {
+      "character_records": 2,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-227": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-228": {
+      "character_records": 2,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-229": {
+      "character_records": 3,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-230": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-231": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-232": {
+      "character_records": 2,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-233": {
+      "character_records": 2,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-234": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-235": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-236": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-237": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-238": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-239": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-240": {
+      "character_records": 1,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-241": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-242": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-243": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-244": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-246": {
+      "character_records": 1,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-247": {
+      "character_records": 2,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-248": {
+      "character_records": 3,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-249": {
+      "character_records": 3,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-250": {
+      "character_records": 7,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-251": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-252": {
+      "character_records": 7,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-253": {
+      "character_records": 6,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-254": {
+      "character_records": 11,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 12
+    },
+    "SRC-255": {
+      "character_records": 3,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-256": {
+      "character_records": 3,
+      "unique_character_citation_urls": 4,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-257": {
+      "character_records": 4,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-258": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-259": {
+      "character_records": 3,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-260": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-261": {
+      "character_records": 5,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 8
+    },
+    "SRC-262": {
+      "character_records": 4,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-263": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-264": {
+      "character_records": 15,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 11
+    },
+    "SRC-265": {
+      "character_records": 3,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-266": {
+      "character_records": 12,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 10
+    },
+    "SRC-267": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    },
+    "SRC-268": {
+      "character_records": 7,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-269": {
+      "character_records": 7,
+      "unique_character_citation_urls": 3,
+      "unique_character_citation_locators": 4
+    },
+    "SRC-270": {
+      "character_records": 4,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-271": {
+      "character_records": 8,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-272": {
+      "character_records": 6,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 2
+    },
+    "SRC-273": {
+      "character_records": 3,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 3
+    },
+    "SRC-274": {
+      "character_records": 7,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 8
+    },
+    "SRC-275": {
+      "character_records": 5,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-276": {
+      "character_records": 3,
+      "unique_character_citation_urls": 2,
+      "unique_character_citation_locators": 5
+    },
+    "SRC-277": {
+      "character_records": 49,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 38
+    },
+    "SRC-278": {
+      "character_records": 4,
+      "unique_character_citation_urls": 7,
+      "unique_character_citation_locators": 6
+    },
+    "SRC-279": {
+      "character_records": 19,
+      "unique_character_citation_urls": 10,
+      "unique_character_citation_locators": 17
+    },
+    "SRC-280": {
+      "character_records": 15,
+      "unique_character_citation_urls": 5,
+      "unique_character_citation_locators": 7
+    },
+    "SRC-281": {
+      "character_records": 2,
+      "unique_character_citation_urls": 1,
+      "unique_character_citation_locators": 1
+    }
+  },
+  "independent_review": {
+    "reviewed_sources": 90,
+    "pending_sources": 191,
+    "retained_warning_sources": 13,
+    "corpus_wide_reviews": 2
+  },
+  "errors": [],
+  "warnings": [
+    "SRC-004: 41 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-277: 49 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-015: 37 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-023: 27 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-007: 11 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-035: 10 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-045: 11 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-044: 14 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-048: 11 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-048: only 3 unique locators for 11 characters; check claim granularity",
+    "SRC-164: 10 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-168: 17 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-264: 15 character records depend on one evidence URL; prioritize independent source-to-claim review",
+    "SRC-266: 12 character records depend on one evidence URL; prioritize independent source-to-claim review"
+  ]
+}

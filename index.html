@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An interactive constellation map of fantasy races, beings, entities, classes, and vocations."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23070b14'/%3E%3Cpath d='M32 7l4.4 20.6L57 32l-20.6 4.4L32 57l-4.4-20.6L7 32l20.6-4.4z' fill='%23efc87a'/%3E%3C/svg%3E" />
+    <title>Fantasy Concept Constellations</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Fantasy Concept Constellations home">
+          <span class="brand-sigil" aria-hidden="true">✦</span>
+          <span>
+            <span class="eyebrow">Comparative concept map</span>
+            <strong>Fantasy Atlas</strong>
+          </span>
+        </a>
+
+        <nav class="view-switcher" aria-label="Atlas view">
+          <button class="view-button is-active" data-view="constellations">Constellations</button>
+          <button class="view-button" data-view="catalogue">Catalogue</button>
+          <button class="view-button" data-view="relations">Relations</button>
+          <button class="view-button" data-view="research">Research</button>
+        </nav>
+
+        <div class="search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input id="search" type="search" autocomplete="off" placeholder="Search the bounded corpus…" aria-label="Search characters, beings, roles, sources, and concepts" />
+          <kbd>/</kbd>
+          <div id="search-results" class="search-results" hidden></div>
+        </div>
+      </header>
+
+      <aside class="lens-panel panel-surface">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Star chart controls</p>
+            <h2>Navigate the skies</h2>
+          </div>
+          <button id="reset-view" class="quiet-button">Reset</button>
+        </div>
+
+        <div class="view-note">
+          <p id="view-kicker" class="eyebrow">Concept constellations</p>
+          <p id="view-description">Every star is a race, being/entity, class, or vocation. Lines show taxonomy or evidence-backed affinity.</p>
+        </div>
+
+        <section id="constellation-controls" class="control-section">
+          <label for="domain-filter">Sky</label>
+          <select id="domain-filter">
+            <option value="">Both skies</option>
+            <option value="beings">Beings &amp; Peoples</option>
+            <option value="classes">Classes &amp; Vocations</option>
+          </select>
+
+          <label for="detail-level">Star detail</label>
+          <select id="detail-level">
+            <option value="auto">Reveal detail as I zoom</option>
+            <option value="families">Families only</option>
+            <option value="all">Show all archetypes</option>
+          </select>
+
+          <label for="line-mode">Constellation lines</label>
+          <select id="line-mode">
+            <option value="taxonomy">Subtype hierarchy</option>
+            <option value="all">Hierarchy + selected affinities</option>
+            <option value="none">No lines</option>
+          </select>
+        </section>
+
+        <section id="catalogue-controls" class="control-section" hidden>
+          <label for="family-filter">Family</label>
+          <select id="family-filter">
+            <option value="">All families</option>
+          </select>
+        </section>
+
+        <section class="control-section">
+          <label for="source-filter">Source evidence</label>
+          <select id="source-filter">
+            <option value="">All mapped sources</option>
+          </select>
+
+          <label for="evidence-filter">Evidence</label>
+          <select id="evidence-filter">
+            <option value="">All framework stars</option>
+            <option value="evidenced">Has mapped examples</option>
+            <option value="framework">Framework only</option>
+          </select>
+        </section>
+
+        <section class="control-section source-scope">
+          <div class="section-heading-row">
+            <h3>Visible field</h3>
+            <span id="visible-count" class="micro-stat"></span>
+          </div>
+          <div id="scope-summary" class="scope-summary"></div>
+        </section>
+
+        <section class="legend-section">
+          <div class="section-heading-row">
+            <h3 id="legend-title">How to read the sky</h3>
+            <span class="micro-stat">visual grammar</span>
+          </div>
+          <div id="color-legend" class="color-legend"></div>
+          <p class="legend-note">Large named stars are families. Small stars are specific archetypes. Characters, sources, artifacts, and powers appear only as evidence in the detail panel.</p>
+        </section>
+      </aside>
+
+      <main id="stage" class="atlas-stage">
+        <svg id="atlas-svg" role="img" aria-label="Interactive class, race, and entity constellation map"></svg>
+        <div id="coverage-board" class="coverage-board" hidden></div>
+        <section id="focus-banner" class="focus-banner panel-surface" aria-live="polite" hidden>
+          <span class="focus-sigil" aria-hidden="true">✦</span>
+          <div class="focus-copy">
+            <span id="focus-kicker">Focused concept</span>
+            <strong id="focus-title"></strong>
+            <small id="focus-context"></small>
+          </div>
+          <button id="focus-relations" class="focus-action" type="button">Relations</button>
+          <button id="focus-clear" class="focus-clear" type="button" aria-label="Clear focused concept">×</button>
+        </section>
+        <div id="tooltip" class="tooltip" hidden></div>
+
+        <div id="zoom-controls" class="zoom-controls panel-surface" aria-label="Map zoom controls">
+          <button id="zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+          <button id="zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
+          <button id="fit-view" title="Fit view" aria-label="Fit view">⌂</button>
+        </div>
+
+        <div id="loading" class="loading-state">
+          <span class="loader-star">✦</span>
+          <p>Charting constellations…</p>
+        </div>
+      </main>
+
+      <aside class="detail-panel panel-surface" aria-live="polite">
+        <div id="detail-content"></div>
+      </aside>
+
+      <footer class="statusbar">
+        <div id="status-summary">Loading fantasy concept constellations…</div>
+        <div>Scroll or pinch to zoom · drag to pan · search any accepted term, character, source, or concept</div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

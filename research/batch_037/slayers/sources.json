@@ -1,0 +1,39 @@
+[
+  {
+    "source_id": "SRC-076",
+    "source_title": "Slayers",
+    "continuity_scope": "Narrow publisher-metadata pass bound to 神坂一 (Kanzaka Hajime)'s スレイヤーズ １, Fujimi Fantasia Bunko ISBN 9784049263008, this 2008 novel edition only. Excludes anime, manga, films, games, later novel arcs, and all localization continuities.",
+    "work_or_witnesses": [
+      {
+        "work": "スレイヤーズ １",
+        "edition": "富士見ファンタジア文庫, 2008, ISBN 9784049263008",
+        "url": "https://www.kadokawa.co.jp/product/301809000029/"
+      }
+    ],
+    "coverage_rule": "Two individual named characters and one direct encounter relation supported by KADOKAWA's official synopsis only. No unverified novel, adaptation, party, spell, artifact, or later-series information is asserted.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "All characters beyond the official first-volume synopsis, including names and events from the rest of the novel.",
+      "All anime, manga, film, game, later-novel, and localization-continuity material.",
+      "Unverified internal terminology, magic-system detail, spells, artifacts, places, parties, and comedy or RPG structures."
+    ],
+    "uncertainties": [
+      "This is a narrow publisher-metadata pass rather than a primary Japanese chapter pass; claims are restricted to the synopsis.",
+      "Japanese scripts are retained with convenience romanizations only; those romanizations do not merge a localized continuity.",
+      "The synopsis depicts violence toward bandits; broader content warnings and spoilers require access to the full text."
+    ],
+    "completion_status": "narrow-metadata-pass-complete",
+    "evidence_basis": "KADOKAWA's official record identifies the 2008 edition, author, and synopsis names リナ＝インバース and ガウリイ, describes Lina as a mage, and calls Gourry a skilled swordsman whom she meets. It is the sole basis for character-level claims.",
+    "citations": [
+      {
+        "url": "https://www.kadokawa.co.jp/product/301809000029/",
+        "locator": "KADOKAWA official record, lines 741–792",
+        "supports": [
+          "Edition and author metadata; named-character and synopsis-level role claims."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

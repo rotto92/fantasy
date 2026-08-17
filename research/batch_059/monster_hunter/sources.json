@@ -1,0 +1,67 @@
+[
+  {
+    "source_id": "SRC-186",
+    "source_title": "Monster Hunter Wilds",
+    "continuity_scope": "Monster Hunter Wilds base game, North American Capcom Town Store/Steam product witness, released 28 February 2025. This is a base-game product/system audit, not a franchise-wide Monster Hunter pass. It excludes prior titles, other platforms/localizations, cosmetic DLC, post-launch title updates, events, crossovers, the announced Monster Hunter Wilds: Ascendance expansion, and all individual player save/online sessions. The official Monster Hunter Wilds character page was inaccessible to this research environment; no NPC biography is inferred from unavailable content.",
+    "work_or_witnesses": [
+      {
+        "work": "Monster Hunter Wilds",
+        "edition": "North American Capcom Town Store base-game product listing for Steam, marked 2025.02.28; selected platform/product witness.",
+        "url": "https://us-store.captown.capcom.com/products/1196102-us"
+      },
+      {
+        "work": "Capcom Snapshots: Monster Hunter Wilds",
+        "edition": "Capcom USA official news post, 11 April 2025; used only to corroborate named NPC appearances and title-update separation, not as a character profile.",
+        "url": "https://news.capcomusa.com/lets/browse/capcom-snapshots-monster-hunter-wilds"
+      },
+      {
+        "work": "Monster Hunter Wilds: Ascendance - Official Reveal Trailer",
+        "edition": "Capcom Town official expansion announcement; used only for the future-expansion boundary.",
+        "url": "https://captown.capcom.com/en/theaters/monsterhunter/56"
+      }
+    ],
+    "coverage_rule": "Terms-only base-game audit. The selected accessible first-party product witness names Nata in the setup and mentions supporting expedition members, while a Capcom USA news post shows Alma and Olivia; neither supplies a direct claim-level profile sufficient for stable dramatic-character records in this pass. The official character page returned a 403 block in the research environment, so no character or relationship records are made. The player Hunter and Palico are explicitly avatar/customization systems, not nodes. Named/title-designated NPCs may be added only from a separately verifiable official profile page; monsters/species, weapons, guild roles, items, locales, hunting/crafting systems, and mechanics remain terms/dimensions.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "The player-created Hunter and custom Palico; Nata, Alma, Olivia, and all other named or title-designated NPCs, because the selected accessible evidence lacks a direct claim-level official profile for each individual and the official character page was unavailable to this audit.",
+      "All monster/species entities, weapon classes, armor, materials, guild roles, Seikrets, items, locales, camps, ecology cycles, quests, crafting, events, and mechanics as character nodes.",
+      "All Monster Hunter titles other than the selected Wilds base product; every localization/platform implementation; cosmetic DLC, Title Updates, live events/crossovers, announced Ascendance expansion, and player-created/online session continuities."
+    ],
+    "content_cautions": [
+      "The official product centers hunting, tracking, defeating, harvesting from, and crafting from powerful monsters, amid environmental peril and human/monster conflict. It contains fantasy violence and may involve animal-like creature harm, harvesting, weapons, and ecological disruption.",
+      "Player-created Hunter/Palico appearance, equipment, weapons, hunt decisions, crafting, multiplayer partners, captured/defeated targets, and session outcomes are variable. This audit does not turn a player avatar or hunt result into a shared dramatic identity or fixed story outcome."
+    ],
+    "uncertainties": [
+      "Capcom's official Wilds character page was blocked by a 403 response in both browser and direct retrieval during this pass. Accessible official material establishes names Nata, Alma, and Olivia only in setup/screenshot contexts, not adequate profile claims; they are deliberately omitted rather than reconstructed from memory or fan sources.",
+      "The current Capcom Town listing includes later cosmetic DLC references and warns that content/release dates can change and some content requires latest game version. Those later materials are not treated as evidence for the selected February 2025 base state.",
+      "The North American Steam store witness is not a comparison of PlayStation 5, Xbox Series X|S, other regional scripts, or later platform patches. Localized names, dialogue, cosmetics, and implementations remain unreviewed."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Capcom Town official product documentation establishes the selected date/region/product, Forbidden Lands premise, Nata setup, ecology cycles, hunting/crafting loop, base-versus-cosmetic-DLC boundary, and current-content caveat. Capcom USA official news establishes that later Free Title Update 2 content is separate and shows named NPC appearances without profile-level claims. Capcom Town's official Ascendance reveal establishes a future expansion boundary. No fan wiki, Wikipedia, database, guide, datamine, or player session is used.",
+    "citations": [
+      {
+        "url": "https://us-store.captown.capcom.com/products/1196102-us",
+        "locator": "Monster Hunter Wilds product page: 2025.02.28, Story, A Living World, Hunting, and edition/DLC sections",
+        "supports": [
+          "Selected North American base product/date, Forbidden Lands/Nata setup, ecology, hunting/crafting loop, and cosmetic-DLC/current-version boundaries."
+        ]
+      },
+      {
+        "url": "https://news.capcomusa.com/lets/browse/capcom-snapshots-monster-hunter-wilds",
+        "locator": "Capcom Snapshots: Monster Hunter Wilds, 11 April 2025",
+        "supports": [
+          "Official later appearance references for Alma and Olivia, and the separate Free Title Update 2 timing boundary."
+        ]
+      },
+      {
+        "url": "https://captown.capcom.com/en/theaters/monsterhunter/56",
+        "locator": "Monster Hunter Wilds: Ascendance - Official Reveal Trailer",
+        "supports": [
+          "Capcom's announced 2027 Ascendance expansion boundary."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

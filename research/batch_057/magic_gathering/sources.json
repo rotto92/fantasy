@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "SRC-118",
+    "source_title": "Magic: The Gathering — Wilds of Eldraine",
+    "continuity_scope": "Bound to Magic: The Gathering's Wilds of Eldraine main set (set code WOE), released September 8, 2023, and its official five-part English Magic Story released August 8-14, 2023. This is one set-story moment on the plane Eldraine after the Phyrexian invasion, not a franchise-wide Magic, plane-wide, or all-card audit. WOC Commander and WOT Enchanting Tales have separate set codes and are treated only as gameplay/product distinctions, not story continuities.",
+    "work_or_witnesses": [
+      "Wilds of Eldraine, WOE, Wizards of the Coast, September 8, 2023",
+      "Wilds of Eldraine official Magic Story, Episodes 1-5, August 8-14, 2023",
+      "A First Look at Wilds of Eldraine, Wizards of the Coast, July 28, 2023"
+    ],
+    "coverage_rule": "Include every named dramatic individual directly profiled in the official 'The Characters of Wilds of Eldraine' section of the selected set announcement and materially situated in the five-part story: Talion, Ashiok, Kellan, Will, and Rowan. Treat card names, creature types, colors, planes, factions, cards, and mechanics as terms unless the same person has a direct profile. Story prose controls plot/identity claims; product, card-gallery, and mechanics pages control release, card, and rules claims only.",
+    "in_scope_character_count": 5,
+    "completed_character_count": 5,
+    "omissions": [
+      "All Magic sets, planes, eras, novels, comics, games, and localized stories outside Wilds of Eldraine WOE and its five English episodes.",
+      "Named people and entities that occur only in card names, card art, short fiction, or unprofiled episode appearances, including Obyra, Ruby, the witch sisters, Imodane, Syr Ginger, and Tough Cookie.",
+      "Wilds of Eldraine Commander (WOC), Enchanting Tales (WOT), Arena-only release timing, and gameplay formats except where necessary to distinguish products or mechanics.",
+      "Player decks, tournament results, fan interpretations, and any claim inferred only from a card's color, type line, art, rules text, flavor text, or alternate treatment."
+    ],
+    "uncertainties": [
+      "No official retcon notice affecting the selected August-September 2023 story witness was identified. Later Magic stories may continue, revise, or contextualize these characters, but are out of scope.",
+      "The English official story is the textual witness. Official product pages have localized versions, but this pass does not compare translations, localized naming, or localization-specific wording.",
+      "Card representation, named legendary cards, and mechanics are not complete biography or plot evidence; the same character may receive different game objects or treatments without creating a new narrative continuity.",
+      "The story includes war aftermath, bereavement, nightmares, manipulation, sleep/entrapment, violence, and fairy-tale horror. Its 'fae,' royalty, and witch imagery are fictional genre constructs and should not be mapped to living cultures or spiritual traditions without further evidence."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Wizards of the Coast set, story, mechanics, and card-gallery pages only. Story pages are primary evidence for narrative events; official set material is used for release/product and rules boundaries.",
+    "citations": [
+      {
+        "url": "https://magic.wizards.com/en/products/wilds-of-eldraine",
+        "locator": "Wilds of Eldraine timeline; Magic Story links",
+        "supports": ["Sets the August 8-14 story window and September 8, 2023 release date."]
+      },
+      {
+        "url": "https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine",
+        "locator": "The Characters of Wilds of Eldraine; A New Story of Magic Unfolds",
+        "supports": ["Provides the selected direct character profiles and places the set after the Phyrexian invasion."]
+      },
+      {
+        "url": "https://magic.wizards.com/en/products/wilds-of-eldraine/card-image-gallery",
+        "locator": "Wilds of Eldraine Card Image Gallery",
+        "supports": ["Confirms the September 8, 2023 set release date."]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

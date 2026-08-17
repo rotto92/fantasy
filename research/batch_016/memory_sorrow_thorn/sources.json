@@ -1,0 +1,33 @@
+[
+  {
+    "source_id": "SRC-043",
+    "source_title": "Memory, Sorrow, and Thorn",
+    "continuity_scope": "A character-layer pass restricted to Tad Williams's The Dragonbone Chair, using the DAW paperback published 1 March 2005, ISBN 9780756402693, 672 pages. This is Book One of Memory, Sorrow, and Thorn, not completion of the trilogy, the later Osten Ard books, or any adaptation. Chapter number and title are the primary locators; no pagination is transferred from the 800-page ebook or another printing.",
+    "work_or_witnesses": [
+      {"work":"The Dragonbone Chair","edition":"DAW paperback, 1 March 2005, ISBN 9780756402693, 672 pages","url":"https://www.penguinrandomhouse.com/books/296281/the-dragonbone-chair-by-tad-williams/paperback/"},
+      {"work":"The Dragonbone Chair","edition":"Author's official Memory, Sorrow and Thorn book page; original DAW hardcover context, 25 October 1988, ISBN 9780809900039","url":"https://www.tadwilliams.com/books/series/mst/tdc/"}
+    ],
+    "coverage_rule": "Include the named individual protagonist; his named individual mentor, royal/political antagonists, and magical antagonist; the named individual royal companion; the named individual party companions or supernatural agents who materially assist the search; and the named individual supernatural adversary behind the central threat. This coherent 10-individual cohort covers the novel's principal Hayholt, road, League, and Storm King plot lines without claiming every named person in the long novel.",
+    "in_scope_character_count": 10,
+    "completed_character_count": 10,
+    "omissions": [
+      "Stone of Farewell, To Green Angel Tower, The Heart of What Was Lost, The Last King of Osten Ard, prequels, short fiction, later continuity, translations, and any screen/audio adaptation as distinct witnesses.",
+      "Osten Ard, the Hayholt, Naglimund, the League of the Scroll, the Sithi, Qanuc, Norns, Rimmersmen, churches, orders, prophecies, magic, the Dragonbone Chair, and the three swords as nodes; all are dimensional terms or contexts.",
+      "Named but non-cohort court figures, rulers, scholars, soldiers, religious figures, travelers, household staff, and temporary antagonists, including King John, Isgrimnur, Jarnauga, Cadrach, Sludig, and Qantaqa.",
+      "Conclusions supplied only by later books, including final identities, outcomes, political settlements, and later development of the selected individuals."
+    ],
+    "uncertainties": [
+      "The selected 2005 print edition and the 2005 ebook differ in listed page length (672 versus 800). All narrative locators therefore cite stable chapter number and title, not page numbers copied across formats.",
+      "The novel's historical vocabularies—Sithi/Sitha, Qanuc, troll, Norn, Rimmersman, witchwood, and religious offices—are fictional and source-specific. They are never treated as direct real-world peoples, generic ancestry options, or class systems.",
+      "Book One deliberately leaves major causal, historical, and character questions unresolved. Later trilogy/Osten Ard material is not used to settle ambiguity here.",
+      "Descriptions are brief paraphrases rather than extended quotation from the copyrighted novel."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary narrative claims are tied to the declared printed novel by exact chapter title/number. Penguin Random House supplies edition-specific metadata and a publisher synopsis; Tad Williams's official page supplies original-publication and series context. No fan wiki, Wikipedia, or unsourced plot-summary source is used as canonical evidence.",
+    "citations": [
+      {"url":"https://www.penguinrandomhouse.com/books/296281/the-dragonbone-chair-by-tad-williams/paperback/","locator":"DAW paperback metadata: ISBN 9780756402693; 1 March 2005; 672 pages; Book One description","supports":["Declared edition, series position, and official synopsis of Simon, the League, Elias, the Storm King, and the sword riddle."]},
+      {"url":"https://www.tadwilliams.com/books/series/mst/tdc/","locator":"Official book page, lines 17–25; details lines 38–43","supports":["Original 1988 DAW publication details and official Osten Ard/Simon/Sithi/Storm King context."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

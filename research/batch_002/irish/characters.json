@@ -1,0 +1,2599 @@
+[
+  {
+    "character_id": "CHR-SRC003-001",
+    "canonical_name": "Nuada",
+    "aliases": [
+      "Nuadu Airgetlám"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "King of the Túatha Dé Danann who loses his hand in the first battle and receives a functioning silver hand.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "loss and replacement of hand",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [
+        {
+          "term": "silver hand",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "fitness for kingship",
+          "archetype_ids": [
+            "LAW-509"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison; do not treat this as a universal succession law."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text011.html",
+        "locator": "section 11",
+        "supports": [
+          "King of the Túatha Dé Danann who loses his hand in the first battle and receives a functioning silver hand."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-002",
+    "canonical_name": "Lug",
+    "aliases": [
+      "Lugh",
+      "Lug Lámfhada",
+      "Samildánach"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Son of Cían and Ethniu, introduced as a powerful Tuatha Dé leader against the Fomoire.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "spear of Lug",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Son of Cían and Ethniu, introduced as a powerful Tuatha Dé leader against the Fomoire."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-003",
+    "canonical_name": "The Dagda",
+    "aliases": [
+      "Eochaid Ollathair"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Owner of the inexhaustible cauldron brought from Murias in the tale's opening account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "abundance through cauldron",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Dagda's cauldron",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text006.html",
+        "locator": "section 6",
+        "supports": [
+          "Owner of the inexhaustible cauldron brought from Murias in the tale's opening account."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-004",
+    "canonical_name": "Bres",
+    "aliases": [
+      "Bress mac Elathan"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Son of Elatha and ruler installed when Nuada is considered ineligible after mutilation.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No normalized being-type mapping: treating them as generic demons or giants would flatten contested medieval categories."
+        },
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Son of Elatha and ruler installed when Nuada is considered ineligible after mutilation."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "His mixed parentage and political position are witness-specific; no generic villain or 'half-race' mapping is supplied."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-005",
+    "canonical_name": "Balor",
+    "aliases": [
+      "Balor ua Néit"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Grandson of Nét and Fomoire figure whose daughter Ethniu bears Lug to Cían.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No normalized being-type mapping: treating them as generic demons or giants would flatten contested medieval categories."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Grandson of Nét and Fomoire figure whose daughter Ethniu bears Lug to Cían."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-006",
+    "canonical_name": "Cían",
+    "aliases": [
+      "Cian"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Son of Dian Cécht and father of Lug with Ethniu in the tale's genealogy.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Son of Dian Cécht and father of Lug with Ethniu in the tale's genealogy."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-007",
+    "canonical_name": "Ethniu",
+    "aliases": [
+      "Eithne"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Daughter of Balor and mother of Lug with Cían in this account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No normalized being-type mapping: treating them as generic demons or giants would flatten contested medieval categories."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Daughter of Balor and mother of Lug with Cían in this account."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Name forms and genealogical identifications vary in medieval Irish material."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-008",
+    "canonical_name": "Dian Cécht",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Physician who fits Nuada with a silver hand after the first battle.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "physician",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "healing craft",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text011.html",
+        "locator": "section 11",
+        "supports": [
+          "Physician who fits Nuada with a silver hand after the first battle."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-009",
+    "canonical_name": "Miach",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Son of Dian Cécht who restores Nuada's hand with flesh and blood, provoking his father's violence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "physician",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "healing craft",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "killed by father",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text033.html",
+        "locator": "section 33",
+        "supports": [
+          "Son of Dian Cécht who restores Nuada's hand with flesh and blood, provoking his father's violence."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The healing sequence is specific to Cath Maige Tuired."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-010",
+    "canonical_name": "Airmed",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Daughter of Dian Cécht who gathers the healing herbs that spring from Miach's grave.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "healer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "herbal knowledge",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text034.html",
+        "locator": "section 34",
+        "supports": [
+          "Daughter of Dian Cécht who gathers the healing herbs that spring from Miach's grave."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-011",
+    "canonical_name": "Goibniu",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Smith who makes weapons for the Túatha Dé Danann in the battle preparations.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "blacksmith",
+          "archetype_ids": [
+            "ROL-610"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text035.html",
+        "locator": "section 35",
+        "supports": [
+          "Smith who makes weapons for the Túatha Dé Danann in the battle preparations."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-012",
+    "canonical_name": "Credne",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Brazier who assists in fitting Nuada's moving silver hand.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "metalworker",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "silver hand",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text011.html",
+        "locator": "section 11",
+        "supports": [
+          "Brazier who assists in fitting Nuada's moving silver hand."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-013",
+    "canonical_name": "Luchta",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Carpenter who supplies spear-shafts in the battle preparations.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "carpenter",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text035.html",
+        "locator": "section 35",
+        "supports": [
+          "Carpenter who supplies spear-shafts in the battle preparations."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-014",
+    "canonical_name": "Ogma",
+    "aliases": [
+      "Ogmios"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Champion who obtains the sword of Tethra after battle in the tale's action.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "sword of Tethra",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text059.html",
+        "locator": "section 59",
+        "supports": [
+          "Champion who obtains the sword of Tethra after battle in the tale's action."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-015",
+    "canonical_name": "The Morrígan",
+    "aliases": [
+      "Morrígu"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Daughter of Ernmas who proclaims the battle and victory after Mag Tuired.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "battle announcer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "battle and proclamation",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text167.html",
+        "locator": "section 167",
+        "supports": [
+          "Daughter of Ernmas who proclaims the battle and victory after Mag Tuired."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not collapse the Morrígan, Badb, Macha, and Nemain into a single fixed person across all witnesses."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-016",
+    "canonical_name": "Badb",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Name associated with the proclamation of great deeds in the victory conclusion.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "battle announcer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text167.html",
+        "locator": "section 167",
+        "supports": [
+          "Name associated with the proclamation of great deeds in the victory conclusion."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Relationship to Morrígan varies by text and scholarship; retained as a distinct named record here."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-017",
+    "canonical_name": "Macha",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Named daughter of Ernmas in the tale's account of the Tuatha Dé preparations.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Named daughter of Ernmas in the tale's account of the Tuatha Dé preparations."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record does not merge Macha figures across medieval narratives."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-018",
+    "canonical_name": "Nemain",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Named among the battle-associated women in the Tuatha Dé Danann force.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Named among the battle-associated women in the Tuatha Dé Danann force."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Name and identification vary; kept witness-bound."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-019",
+    "canonical_name": "Brigid",
+    "aliases": [
+      "Brigit"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Daughter of the Dagda who laments her son Ruadan after the battle.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "lamenting mother",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text125.html",
+        "locator": "section 125",
+        "supports": [
+          "Daughter of the Dagda who laments her son Ruadan after the battle."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The medieval narrative record is not a comprehensive account of Brigid, nor a substitution for living religious traditions."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-020",
+    "canonical_name": "Ériu",
+    "aliases": [
+      "Éire"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Named daughter of Ernmas in the Tuatha Dé Danann grouping.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Named daughter of Ernmas in the Tuatha Dé Danann grouping."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Name-land associations should not be represented as a generic land-spirit category without context."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-021",
+    "canonical_name": "Banba",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Named daughter of Ernmas in the Tuatha Dé Danann grouping.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Named daughter of Ernmas in the Tuatha Dé Danann grouping."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-022",
+    "canonical_name": "Fódla",
+    "aliases": [
+      "Fodla"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Named daughter of Ernmas in the Tuatha Dé Danann grouping.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Named daughter of Ernmas in the Tuatha Dé Danann grouping."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-023",
+    "canonical_name": "Indech",
+    "aliases": [
+      "Indech mac Dé Domnann"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Fomoire leader named as father of the woman who confronts the Dagda and as a battle figure.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No normalized being-type mapping: treating them as generic demons or giants would flatten contested medieval categories."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text095.html",
+        "locator": "section 95",
+        "supports": [
+          "Fomoire leader named as father of the woman who confronts the Dagda and as a battle figure."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-024",
+    "canonical_name": "Elatha",
+    "aliases": [
+      "Elatha mac Delbaíth"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Fomoire father of Bres, named in the alliance and genealogy at the tale's opening.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No normalized being-type mapping: treating them as generic demons or giants would flatten contested medieval categories."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Fomoire father of Bres, named in the alliance and genealogy at the tale's opening."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-025",
+    "canonical_name": "Tethra",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Fomoire king whose sword is found by Ogma after battle.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Fomoire",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No normalized being-type mapping: treating them as generic demons or giants would flatten contested medieval categories."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "sword of Tethra",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text059.html",
+        "locator": "section 59",
+        "supports": [
+          "Fomoire king whose sword is found by Ogma after battle."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-026",
+    "canonical_name": "Sreng",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "Fir Bolg warrior identified as the one who cuts off Nuada's hand in the first battle recap.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual social status; not an ethnic classification."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Fir Bolg",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text011.html",
+        "locator": "section 11",
+        "supports": [
+          "Fir Bolg warrior identified as the one who cuts off Nuada's hand in the first battle recap."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-027",
+    "canonical_name": "Eochaid mac Eirc",
+    "aliases": [
+      "Eochu mac Eirc"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "work_or_witness": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "character_kind": "individual",
+    "description": "King of the Fir Bolg slain in the first battle of Mag Tuired recap.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual social status; not an ethnic classification."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Fir Bolg",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text010.html",
+        "locator": "section 10",
+        "supports": [
+          "King of the Fir Bolg slain in the first battle of Mag Tuired recap."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-028",
+    "canonical_name": "Boann",
+    "aliases": [
+      "Eithne",
+      "Bóinn"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Tochmarc Étaíne",
+    "work_or_witness": "Tochmarc Étaíne",
+    "character_kind": "individual",
+    "description": "Woman of Elcmar, also called Eithne, who bears Óengus to the Dagda in the opening version.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Woman of Elcmar, also called Eithne, who bears Óengus to the Dagda in the opening version."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The equivalence of names is stated in this version of Tochmarc Étaíne; it should not be universalized across manuscripts."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-029",
+    "canonical_name": "Elcmar",
+    "aliases": [
+      "Ealcmar"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Tochmarc Étaíne",
+    "work_or_witness": "Tochmarc Étaíne",
+    "character_kind": "individual",
+    "description": "Husband of Boann whom the Dagda sends away with geasa in the opening episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "geasa",
+          "archetype_ids": [
+            "LAW-109"
+          ],
+          "confidence": "moderate",
+          "note": "Functional comparison only; a geis is contextually embedded obligation/prohibition."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Husband of Boann whom the Dagda sends away with geasa in the opening episode."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-030",
+    "canonical_name": "Óengus",
+    "aliases": [
+      "Aengus",
+      "Mac Óc"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Tochmarc Étaíne",
+    "work_or_witness": "Tochmarc Étaíne",
+    "character_kind": "individual",
+    "description": "Son of the Dagda and Boann, fostered at Midir's house in Brí Léith.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Brí Léith",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Son of the Dagda and Boann, fostered at Midir's house in Brí Léith."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-031",
+    "canonical_name": "Midir",
+    "aliases": [
+      "Midir of Brí Léith"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Tochmarc Étaíne",
+    "work_or_witness": "Tochmarc Étaíne",
+    "character_kind": "individual",
+    "description": "Otherworldly figure who plays fidchell with Eochaid Airem and seeks Étaín.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        },
+        {
+          "term": "Otherworldly being",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping only; the Irish source does not use a modern otherworlder species taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "otherworld guide",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Brí Léith",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": "Partial otherworld-realm mapping."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text005.html",
+        "locator": "section 5",
+        "supports": [
+          "Otherworldly figure who plays fidchell with Eochaid Airem and seeks Étaín."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-032",
+    "canonical_name": "Étaín",
+    "aliases": [
+      "Etain"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Tochmarc Étaíne",
+    "work_or_witness": "Tochmarc Étaíne",
+    "character_kind": "individual",
+    "description": "Woman central to the tale's transformations and contested marriages.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "transformation and rebirth",
+          "archetype_ids": [
+            "PWR-310",
+            "STA-202"
+          ],
+          "confidence": "moderate",
+          "note": "Witness-specific sequence; not a generic shapeshifter identity."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Woman central to the tale's transformations and contested marriages."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Étaín's identities, transformations, and reincarnation sequence differ by recension; this record is limited to CELT's named text."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC003-033",
+    "canonical_name": "Fuamnach",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Tochmarc Étaíne",
+    "work_or_witness": "Tochmarc Étaíne",
+    "character_kind": "individual",
+    "description": "Midir's wife who acts against Étaín through transformation in the tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "transformative druidic action",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping only; not a modern game class."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Brí Léith",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text002.html",
+        "locator": "section 2",
+        "supports": [
+          "Midir's wife who acts against Étaín through transformation in the tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-034",
+    "canonical_name": "Eochaid Airem",
+    "aliases": [
+      "Eochu Airem"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Tochmarc Étaíne",
+    "work_or_witness": "Tochmarc Étaíne",
+    "character_kind": "individual",
+    "description": "King of Tara who seeks a queen appropriate to his sovereignty and later plays fidchell with Midir.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual social status; not an ethnic classification."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "sovereignty",
+          "archetype_ids": [
+            "LAW-509"
+          ],
+          "confidence": "moderate",
+          "note": "Partial mapping: the text connects kingship and queenhood; it is not a portable mechanics rule."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text004.html",
+        "locator": "section 4",
+        "supports": [
+          "King of Tara who seeks a queen appropriate to his sovereignty and later plays fidchell with Midir."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-035",
+    "canonical_name": "Etar",
+    "aliases": [
+      "Etar mac Echdaich"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Tochmarc Étaíne",
+    "work_or_witness": "Tochmarc Étaíne",
+    "character_kind": "individual",
+    "description": "Father of Étaín in the version where Eochaid's envoys seek an eligible queen.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual social status; not an ethnic classification."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Irish royal household",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text004.html",
+        "locator": "section 4",
+        "supports": [
+          "Father of Étaín in the version where Eochaid's envoys seek an eligible queen."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-036",
+    "canonical_name": "Lir",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "work_or_witness": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "character_kind": "individual",
+    "description": "Father who reaches the transformed children at Loch Dairbhreach after learning of their fate.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "father",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text024.html",
+        "locator": "section 24",
+        "supports": [
+          "Father who reaches the transformed children at Loch Dairbhreach after learning of their fate."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-037",
+    "canonical_name": "Bodb Derg",
+    "aliases": [
+      "Bodhbh Dearg"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "work_or_witness": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "character_kind": "individual",
+    "description": "Ruler named among the Tuatha Dé Danann and father of Aed Aithfhiosach and Fergus Fithchiollach.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text048.html",
+        "locator": "section 48",
+        "supports": [
+          "Ruler named among the Tuatha Dé Danann and father of Aed Aithfhiosach and Fergus Fithchiollach."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-038",
+    "canonical_name": "Aoife",
+    "aliases": [
+      "Aoifé"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "work_or_witness": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "character_kind": "individual",
+    "description": "Stepmother who changes Lir's four children into swans with a druidical wand.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "transformative druidic act",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping only."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "curse inflicted",
+          "archetype_ids": [
+            "LAW-206"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text017.html",
+        "locator": "section 17",
+        "supports": [
+          "Stepmother who changes Lir's four children into swans with a druidical wand."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a literary account in a much later manuscript tradition; do not turn it into a general statement about Irish women, druids, or 'witches'."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-039",
+    "canonical_name": "Fionnguala",
+    "aliases": [
+      "Finnguala"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "work_or_witness": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "character_kind": "individual",
+    "description": "Daughter of Lir and eldest of the four children transformed into swans by Aoife.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "swan transformation",
+          "archetype_ids": [
+            "PWR-310",
+            "STA-202"
+          ],
+          "confidence": "moderate",
+          "note": "Transformation is imposed, not voluntary."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "transformative curse",
+          "archetype_ids": [
+            "LAW-206"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "tragic suffering",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": "Partial narrative comparison."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text017.html",
+        "locator": "section 17",
+        "supports": [
+          "Daughter of Lir and eldest of the four children transformed into swans by Aoife."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-040",
+    "canonical_name": "Aed",
+    "aliases": [
+      "Aodh"
+    ],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "work_or_witness": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "character_kind": "individual",
+    "description": "Son of Lir, named by Fionnguala among the transformed children at the lake.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "swan transformation",
+          "archetype_ids": [
+            "PWR-310",
+            "STA-202"
+          ],
+          "confidence": "moderate",
+          "note": "Transformation is imposed, not voluntary."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text024.html",
+        "locator": "section 24",
+        "supports": [
+          "Son of Lir, named by Fionnguala among the transformed children at the lake."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-041",
+    "canonical_name": "Fiachra",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "work_or_witness": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "character_kind": "individual",
+    "description": "Son of Lir, named among the transformed children encountered by Lir.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "swan transformation",
+          "archetype_ids": [
+            "PWR-310",
+            "STA-202"
+          ],
+          "confidence": "moderate",
+          "note": "Transformation is imposed, not voluntary."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text024.html",
+        "locator": "section 24",
+        "supports": [
+          "Son of Lir, named among the transformed children encountered by Lir."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC003-042",
+    "canonical_name": "Conn",
+    "aliases": [],
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "work_or_witness": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "character_kind": "individual",
+    "description": "Son of Lir, named among the transformed children encountered by Lir.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Túatha Dé Danann",
+          "archetype_ids": [
+            "PPL-200"
+          ],
+          "confidence": "moderate",
+          "note": "A source-native collective; the fae mapping is only partial and not a claim of biological equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "swan transformation",
+          "archetype_ids": [
+            "PWR-310",
+            "STA-202"
+          ],
+          "confidence": "moderate",
+          "note": "Transformation is imposed, not voluntary."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text024.html",
+        "locator": "section 24",
+        "supports": [
+          "Son of Lir, named among the transformed children encountered by Lir."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  }
+]

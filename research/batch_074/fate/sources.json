@@ -1,0 +1,38 @@
+[
+  {
+    "source_id": "SRC-209",
+    "source_title": "Fate Franchise",
+    "continuity_scope": "Fate/stay night REMASTERED, Fate (Saber Route) official route-introduction and REMASTERED character profiles. The selected 2024 Steam/Nintendo Switch title is an HD, 16:9 remaster based on the 2012 PS Vita Fate/stay night [Réalta Nua], with Japanese, English, and Simplified Chinese support. This is an opening-premise pass for the Fate/Saber route only—not Unlimited Blade Works, Heaven's Feel, another visual-novel version, or a merged Fate franchise canon.",
+    "work_or_witnesses": [
+      "Fate/stay night REMASTERED, Fate (Saber Route) official TYPE-MOON introduction",
+      "Fate/stay night REMASTERED official TYPE-MOON profiles for Shirou Emiya and Saber",
+      "Fate/stay night REMASTERED official Aniplex product page"
+    ],
+    "coverage_rule": "Include only named individual dramatic characters directly named in the selected Fate/Saber-route introduction or the selected REMASTERED profiles and material to the stated route premise: Shirou Emiya, Saber, and Kiritsugu Emiya. Directly stated rescue and Master/Servant contract relationships are included. All other profile characters, unnamed Masters/Servants, class labels, the Holy Grail, Root, Fuyuki, mechanics, artifacts, and historic/mythic reference possibilities remain dimensions/terms or omissions rather than character nodes.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "Unlimited Blade Works (Rin Tohsaka Route) and Heaven's Feel (Sakura Matou Route) are explicitly separate route pages and are not merged into this Fate/Saber-route pass.",
+      "The original 2004 visual novel, 2012 PS Vita edition, other ports/localizations, anime, films, manga, games, novels, guidebooks, Fate/Grand Order, Fate/Zero, other Fate timelines, and all adaptations/spin-offs are separate witnesses.",
+      "All other named REMASTERED-profile individuals are omitted unless the selected Fate-route introduction itself materially identifies them for this premise; their profile availability does not merge their route-specific narratives here.",
+      "Servant classes, Heroic Spirits, Masters, magecraft, Noble Phantasms, Holy Grail systems, places, mechanics, and historical/mythic source figures remain terms/dimensions. No class, Grail, artifact, place, or source-person is made a relationship endpoint.",
+      "The selected synopsis establishes ritual competition, attacks, rescue, and IARC 16+ rating, but it does not license an exhaustive account of violence, injury, death, sexual content, abuse, route outcomes, or wider-franchise lore."
+    ],
+    "uncertainties": [
+      "The selected Fate-route introduction is Japanese source text on the official TYPE-MOON site; the REMASTERED product officially supports English, but this pass does not claim the Japanese prose is identical to its English localization wording.",
+      "Saber is an individual character name/profile and a Servant class label in the selected materials. This pass records the named REMASTERED Fate-route individual as Saber but does not infer a historical/mythic identity, alternative summon incarnation, Noble Phantasm, or cross-route equivalence.",
+      "The route introduction calls Shirou a Master saved by a sword Heroic Spirit and the Saber profile calls her one of seven Servants contracted with the protagonist. It supports their Fate-route contract/premise, not all later relationship developments or endings.",
+      "Kiritsugu is named in a past rescue and household/magecraft-learning account. The official Fate-route introduction does not call him biological or adoptive parent, does not supply a complete teaching record, and does not authorize details from other Fate works.",
+      "The Grail War is fictionalized fantasy ritual/magecraft. Historic and mythic names/concepts that occur elsewhere in Fate media are neither authenticated nor equated with living or historical traditions in this narrow pass."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "TYPE-MOON and Aniplex first-party REMASTERED route, character-profile, and product pages only. No fan wiki, Wikipedia, anime synopsis, game database, novel, guidebook, uninspected visual-novel text capture, or external historical/mythic source is used as character evidence.",
+    "citations": [
+      {"url": "https://typemoon.com/products/f-sn/introduction/fate/", "locator": "Fate (Saber Route) official introduction, lines 17-39", "supports": ["Fate/Saber-route boundary, Grail-War premise, Masters/Servants/Heroic Spirits, Shirou/Kiritsugu past rescue, magecraft-learning premise, current attack/rescue, and separate UBW/Heaven's Feel route links"]},
+      {"url": "https://typemoon.com/products/f-sn/character/01/", "locator": "Shirou Emiya REMASTERED character profile, lines 22-30", "supports": ["Shirou's name, deceased foster-father/magecraft-learning profile, novice status, Saber contract, and Grail-War involvement"]},
+      {"url": "https://typemoon.com/products/f-sn/character/04/", "locator": "Saber REMASTERED character profile, lines 22-30", "supports": ["Saber name, one-of-seven-Servants status, contract with protagonist, and class label"]},
+      {"url": "https://www.aniplex.co.jp/lineup/fate-sn-game/", "locator": "Fate/stay night REMASTERED product page, lines 45-59", "supports": ["2024 title type, Réalta Nua basis, HD remaster/16:9 layout, Steam/Switch, release date, languages, IARC 16+, Type-Moon publication, and Aniplex distribution"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

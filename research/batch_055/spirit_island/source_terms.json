@@ -1,0 +1,194 @@
+[
+  {
+    "term_id": "STM-SRC124-001",
+    "source_id": "SRC-124",
+    "canonical_term": "original Spirit Island core game",
+    "original_language": "English board-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Greater Than Games' cooperative Spirit Island core board-game product, listed with a 1 January 2017 release date for one to four players.",
+    "cultural_caution": "An exact product/edition boundary, not an assertion that later printings, expansions, Horizons, promo packs, or the digital adaptation share all component text, rules, or narrative material.",
+    "citations": [
+      {
+        "url": "https://shop.greaterthangames.com/products/spirit-island",
+        "locator": "Product info and Release Date",
+        "supports": [
+          "Greater Than Games identifies Spirit Island as a cooperative one-to-four-player game and gives a 1 January 2017 release date."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC124-002",
+    "source_id": "SRC-124",
+    "canonical_term": "Spirit panels and elemental powers",
+    "original_language": "English board-game component lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core box includes eight Spirit panels. Players act as different Spirits of the land, each presented with its own elemental powers and themed play style.",
+    "cultural_caution": "A Spirit panel is a selectable player role and rules component, not sufficient evidence of a fixed dramatic individual. The source's word 'Spirit' must not be mapped without qualification to real-world religious or cultural spirit concepts.",
+    "citations": [
+      {
+        "url": "https://shop.greaterthangames.com/products/spirit-island",
+        "locator": "Contents; Product info; Highly Thematic",
+        "supports": [
+          "Greater Than Games lists eight Spirit panels and describes different Spirits with unique elemental powers and themed play styles."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC124-003",
+    "source_id": "SRC-124",
+    "canonical_term": "Dahan and colonizing Invaders",
+    "original_language": "English game-setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cultures",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official core-product description says players work with the Dahan, described as local islanders, to defend the island against colonizing Invaders and drive the invading colonists away.",
+    "cultural_caution": "Fictional alternate-history game terminology only. Do not equate the Dahan with any real Indigenous people, treat fictional colonization as a generic adventure aesthetic, or use this term as an authoritative account of colonial violence or cultural practice.",
+    "citations": [
+      {
+        "url": "https://shop.greaterthangames.com/products/spirit-island",
+        "locator": "Product info",
+        "supports": [
+          "Greater Than Games describes Spirits working with the Dahan, identified as local islanders, against colonizing Invaders."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC124-004",
+    "source_id": "SRC-124",
+    "canonical_term": "Fear and Blight",
+    "original_language": "English board-game rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Core-game components include Fear markers/cards and Blight pieces/cards; the product description frames Blight as damage and destruction spread by colonizing Invaders.",
+    "cultural_caution": "These are source-specific counters and game-state abstractions for harm, fear, and environmental damage. They are not character identities, diagnoses, or a claim that real colonial violence is reducible to a board-game resource system.",
+    "citations": [
+      {
+        "url": "https://shop.greaterthangames.com/products/spirit-island",
+        "locator": "Contents; Product info",
+        "supports": [
+          "Greater Than Games lists Fear and Blight components and describes Invaders spreading Blight and destruction."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC124-005",
+    "source_id": "SRC-124",
+    "canonical_term": "Power, Presence, adversary, and scenario systems",
+    "original_language": "English board-game rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core product includes Major, Minor, and Unique Power cards; Spirit Presence tokens; three Adversary panels; and four Scenario panels. The product description presents these as player-power, difficulty, and replayability systems.",
+    "cultural_caution": "Powers, Presence, adversaries, and scenarios are cards/panels/tokens and rule modules, not individuals or fixed event chronology. A session's chosen adversary, scenario, and outcomes remain table-specific.",
+    "citations": [
+      {
+        "url": "https://shop.greaterthangames.com/products/spirit-island",
+        "locator": "Contents; Thrilling Adversaries; Challenging Spirits",
+        "supports": [
+          "Greater Than Games lists core power cards, Presence tokens, adversary panels, and scenario panels, and describes their replayability/difficulty use."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC124-006",
+    "source_id": "SRC-124",
+    "canonical_term": "expansion and standalone-product boundary",
+    "original_language": "English product-line lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Greater Than Games lists Spirit Island separately from Horizons of Spirit Island, Nature Incarnate, Jagged Earth, Branch & Claw, Feather and Flame, and promo/accessory products.",
+    "cultural_caution": "Line membership is not automatic core continuity. Extra Spirits, boards, cards, events, adversaries, scenarios, story material, and mechanical revisions from another product remain out of this selected core pass.",
+    "citations": [
+      {
+        "url": "https://shop.greaterthangames.com/pages/spirit-island",
+        "locator": "Spirit Island line product list",
+        "supports": [
+          "Greater Than Games lists the core game, Horizons, named expansions, promo pack, and accessory panels as separate line products."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC124-007",
+    "source_id": "SRC-124",
+    "canonical_term": "Blight setup erratum boundary",
+    "original_language": "English rules-support lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "A later Greater Than Games forum post identifies an erratum under which setup includes exactly one additional Blight in the Blight pool.",
+    "cultural_caution": "Later rules history only. It is not silently treated as the text of the selected original 2017 core witness, and the forum post's linked FAQ should be reviewed directly before making a printing-specific or comprehensive errata claim.",
+    "citations": [
+      {
+        "url": "https://forums.greaterthangames.com/t/major-blight-card-setup-erratum/29509",
+        "locator": "Major Blight Card Setup Erratum, 22 July 2022",
+        "supports": [
+          "A Greater Than Games forum post states the additional-Blight setup erratum."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC124-008",
+    "source_id": "SRC-124",
+    "canonical_term": "Handelabra digital adaptation boundary",
+    "original_language": "English digital-product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Handelabra's digital implementation aims to follow physical rules and designer intent but states that some differences are intentional, including handling of Blight cards, damage, aspects, boards, and scenarios.",
+    "cultural_caution": "A distinct adaptation/implementation boundary. Digital patches, AI, UI, saved sessions, added boards or aspects, and implementation-specific behavior do not establish physical 2017 core-game facts in this pass.",
+    "citations": [
+      {
+        "url": "https://handelabra.helpshift.com/hc/en/3-spirit-island/faq/383-how-is-the-digital-version-different-from-the-physical-version/",
+        "locator": "How is the digital version different from the physical version?",
+        "supports": [
+          "Handelabra describes intentional digital/physical differences in rules and content handling."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

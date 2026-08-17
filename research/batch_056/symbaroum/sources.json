@@ -1,0 +1,48 @@
+[
+  {
+    "source_id": "SRC-115",
+    "source_title": "Symbaroum",
+    "continuity_scope": "Terms-only audit bound to the Symbaroum Core Rulebook's 2015 Offset print edition, v1.0.9, exactly as identified in Free League's official errata. The publisher separately dates the game's Swedish first release to 2014 and English worldwide release to 2016; this apparent date tension is recorded rather than silently reconciled. The current Core Rulebook listing and the official 2019 Quick Guide serve only as publisher evidence for unchanged high-level terminology. Ruins of Symbaroum 5E is a distinct adaptation line using the 5th Edition OGL ruleset and is excluded.",
+    "work_or_witnesses": [
+      "Symbaroum Core Rulebook, 2015 Offset print edition, v1.0.9",
+      "Free League Symbaroum errata (used to identify the bounded print witness and later changes, not to retroactively replace it)",
+      "Free League Quick Guide to the Symbaroum Ruleset, 2019 (terminology orientation only)"
+    ],
+    "coverage_rule": "This core rules-and-setting product has player-created protagonists rather than an official fixed cast. Include a named individual only where official accessible core evidence supplies a claim-level dramatic profile. The product listing's short fiction excerpt and errata's stat corrections name examples but do not provide sufficient stable individual profiles in the selected public witness set; all peoples, occupations, factions, monsters, places, rules, and examples remain terms or omissions. No individual meets the rule.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "Player-created characters, campaigns, and home-setting material.",
+      "Named fictional examples and NPC-stat names, including Kvarek, Orlan, Ansel, Niha, Fenya, and Belun, because the accessible official evidence is an excerpt or a stat correction rather than a claim-level dramatic profile.",
+      "The Throne of Thorns adventure chronicle and all original-system supplements, expansions, maps, and digital modules.",
+      "Ruins of Symbaroum 5E and its Player's Guide, Gamemaster's Guide, Bestiary, adventures, and later releases.",
+      "Novels, video-game material, actual plays, fan works, and other adaptations or home campaigns."
+    ],
+    "uncertainties": [
+      "Free League's errata labels the chosen witness '2015 Offset print edition, v1.0.9,' while the publisher overview says the original game released in Swedish in 2014 and English worldwide in 2016. No official page in the reviewed set resolves the publication-language or distribution relationship of those dates.",
+      "The official errata shows successive 2017, 2018, 2019, 2020, and 2021 Offset-print corrections. They are recorded as later-source history and are not silently applied to the 2015 v1.0.9 boundary.",
+      "The current official Core Rulebook product page is not a full edition/errata statement; the 2019 Quick Guide calls itself non-comprehensive, so neither establishes complete textual coverage of the 2015 book.",
+      "The fictional setting invokes displacement, settlement and exploitation around Davokar, alongside cultural conflict, violence, corruption, body horror, death, and occult religion. These terms are described cautiously as setting/rules material, not as real peoples, histories, or clinical conditions."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Free League product, game-line, Quick Guide, errata, and Ruins of Symbaroum product pages only. No fan wikis, Wikipedia, actual plays, or third-party summaries establish claims.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/wp-content/uploads/2023/08/Symbaroum_Errata_v1.14-1.pdf",
+        "locator": "p. 1, '2015 Offset print edition, v1.0.9'; pp. 2-4, later Offset-print headings",
+        "supports": ["Identifies the exact 2015 print witness and documents later errata histories."]
+      },
+      {
+        "url": "https://freeleaguepublishing.com/games/symbaroum/",
+        "locator": "The game; The setting",
+        "supports": ["Publisher overview dates Swedish and English releases and describes the base game's player-facing system and setting conflict."]
+      },
+      {
+        "url": "https://freeleaguepublishing.com/shop/ruins-of-symbaroum-5e/",
+        "locator": "Core Game Editions; Expansions",
+        "supports": ["Free League presents Ruins of Symbaroum 5E as a separately catalogued line with its own core books and expansions."]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

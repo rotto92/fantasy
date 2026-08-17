@@ -1,0 +1,35 @@
+[
+  {
+    "source_id":"SRC-063",
+    "source_title":"The Broken Empire",
+    "continuity_scope":"Mark Lawrence, Prince of Thorns, Ace ebook, 2 August 2011, ISBN 9781937007683, 336 pages. This is a single-novel, original-English witness. Chapter locators are used because pagination varies between the ebook and later print formats. King of Thorns, Emperor of Thorns, Road Brothers, other connected works, adaptations, and author commentary are outside story canon for this pass.",
+    "work_or_witnesses":[
+      {"work":"Prince of Thorns","edition":"Ace ebook, 2 August 2011, ISBN 9781937007683, 336 pages; declared primary witness.","url":"https://www.penguinrandomhouse.com/books/308315/prince-of-thorns-by-mark-lawrence/9781937007683/"},
+      {"work":"Prince of Thorns","edition":"HarperCollins UK, 4 August 2011, ISBN 9780007423309, 416 pages; Google Books limited preview used to inspect bibliographic details and chapter-organized primary-text orientation.","url":"https://books.google.com.au/books?id=61j17lnKHbQC"},
+      {"work":"Prince of Thorns","edition":"Mark Lawrence official site post, used only to flag that Jorg narrates his own life and that first-person presentation shapes available character information.","url":"https://www.marklawrence.buzz/2015/10/did-we-read-same-book.html"}
+    ],
+    "coverage_rule":"Include Jorg Ancrath; the named road companions Makin, Rike, the Nuban, and Gorgoth; the named father/court figures Olidan, Katherine, and Sageous; and the two named endgame actors Count Renar and Corion. This ten-person cohort covers the narrator and his active band, central family/court conflict, and the named magical-political forces that materially direct the novel. Other named Brothers, soldiers, court figures, minor antagonists, victims, creatures, and background historical names are omitted.",
+    "in_scope_character_count":10,
+    "completed_character_count":10,
+    "omissions":[
+      "The two later Broken Empire novels, Road Brothers, Red Queen's War and all other broader-world links, unpublished/future material, adaptations, games, interviews, and commentary.",
+      "Named but non-cohort Brothers, guards, nobles, clergy, victims, monsters, and incidental historical figures.",
+      "The Brothers, House Ancrath, other houses and kingdoms, the Leucrota as a people, necromancy, dream magic, post-apocalyptic technology/history, artifacts, places, titles, and narrative roles as character nodes."
+    ],
+    "uncertainties":[
+      "The novel is principally Jorg's first-person account, intercut with ‘Four years earlier’ chapters. His account, what he knows, and his self-presentation are not treated as a neutral omniscient biography; contested motivation and off-page facts remain qualified.",
+      "Some labels are aliases, epithets, racialized/exonymic descriptions, or court/magical titles. They are preserved as source terminology and are not mapped one-to-one to real peoples, identities, or generic fantasy classes.",
+      "The work contains extreme violence, murder, torture, abuse, sexual violence/coercion, misogyny, and trauma. Records use non-graphic plot descriptions and do not normalize or endorse those acts.",
+      "The primary edition is copyright protected. Google Books is a limited preview and the official publisher page supplies format metadata; chapter labels, rather than unstable page claims, are used for claim locators.",
+      "Later books may clarify identities, abilities, motivations, and outcomes. Those later disclosures are intentionally not used to resolve ambiguity in this novel-only pass."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Character, relationship, and source-term records are based on the declared primary novel with exact chapter or flashback-chapter locators, supported for scope and edition information by the Ace/Penguin Random House product record and the limited Google Books bibliographic preview. The Mark Lawrence post is used only as an author-controlled note about narrative presentation, never as retrospective story-canon evidence. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://www.penguinrandomhouse.com/books/308315/prince-of-thorns-by-mark-lawrence/9781937007683/","locator":"Product details; official description","supports":["Ace ebook date, ISBN, page count, Book One position, Jorg's identity, childhood attack, return to his father's castle, Count Renar, treachery, and dark-magic framing."]},
+      {"url":"https://books.google.com.au/books?id=61j17lnKHbQC","locator":"Bibliographic record and limited preview, Chapters 1–49 including ‘Four years earlier’ sections","supports":["Primary-text witness/orientation for the named cohort, chapter locators, terminology, first-person framing, and relationships."]},
+      {"url":"https://www.marklawrence.buzz/2015/10/did-we-read-same-book.html","locator":"16 October 2015 post, discussion of Prince of Thorns narration","supports":["Author-hosted commentary that the novel is Jorg narrating his own life; used only as a caution about narrative presentation."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

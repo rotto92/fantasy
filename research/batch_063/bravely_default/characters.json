@@ -1,0 +1,170 @@
+[
+  {
+    "character_id": "CHR-SRC178-001",
+    "canonical_name": "Seth",
+    "aliases": [],
+    "source_id": "SRC-178",
+    "source_title": "BRAVELY DEFAULT II",
+    "continuity": "Nintendo of America English Nintendo Switch release (2021)",
+    "work_or_witness": "Nintendo Store: story description",
+    "character_kind": "individual",
+    "description": "The young sailor and named hero of the selected opening premise, who washes up on the shore of one of Excillant's five kingdoms before setting out on an adventure.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term": "young sailor", "archetype_ids": [], "confidence": "high", "note": "Exact official description."}
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {"term": "Excillant", "archetype_ids": [], "confidence": "high", "note": "The official opening places him on the shore of one of its five kingdoms."}
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {"term": "hero", "archetype_ids": [], "confidence": "high", "note": "The official story calls him 'our hero Seth'."}
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named core adventurer in the selected official opening description.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/bravely-default-ii-switch/",
+        "locator": "Story description: 'our hero Seth, a young sailor, washes up...'",
+        "supports": ["Name, hero framing, sailor role, shore arrival, Excillant, and opening adventure"]
+      }
+    ],
+    "comparison_cautions": ["No selected job, abilities, party composition, later relationships, or outcome is fixed by this short opening description."],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC178-002",
+    "canonical_name": "Gloria",
+    "aliases": [],
+    "source_id": "SRC-178",
+    "source_title": "BRAVELY DEFAULT II",
+    "continuity": "Nintendo of America English Nintendo Switch release (2021)",
+    "work_or_witness": "Nintendo Store: story description",
+    "character_kind": "individual",
+    "description": "Gloria of Musa is a princess who fled her kingdom after evil forces destroyed it while seeking its Crystals.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term": "princess", "archetype_ids": [], "confidence": "high", "note": "Exact official role."}
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {"term": "Musa", "archetype_ids": [], "confidence": "high", "note": "She is identified as 'Gloria of Musa'."}
+      ],
+      "states_and_transformations": [
+        {"term": "fled destroyed kingdom", "archetype_ids": [], "confidence": "high", "note": "Direct opening-premise circumstance; no later status is inferred."}
+      ],
+      "artifacts_and_vehicles": [
+        {"term": "Musa's Crystals", "archetype_ids": [], "confidence": "high", "note": "The official description says the forces sought her kingdom's Crystals."}
+      ],
+      "cosmologies_and_realms": [
+        {"term": "Musa", "archetype_ids": [], "confidence": "high", "note": "Named kingdom in her official introduction."}
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named core adventurer in the selected official opening description.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/bravely-default-ii-switch/",
+        "locator": "Story description: 'Gloria of Musa, a princess who fled her kingdom...'",
+        "supports": ["Name, Musa, princess role, flight, destruction of kingdom, and Crystal threat"]
+      }
+    ],
+    "comparison_cautions": ["The source states only the opening destruction/flight and does not establish political authority, a Crystal possession, or later restoration."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC178-003",
+    "canonical_name": "Elvis",
+    "aliases": [],
+    "source_id": "SRC-178",
+    "source_title": "BRAVELY DEFAULT II",
+    "continuity": "Nintendo of America English Nintendo Switch release (2021)",
+    "work_or_witness": "Nintendo Store: story description",
+    "character_kind": "individual",
+    "description": "One of two travelers, alongside Adelle, determined to decipher a mysterious and magical book in the official opening premise.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term": "traveler", "archetype_ids": [], "confidence": "high", "note": "The official description calls Elvis and Adelle 'two travelers'."}
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {"term": "mysterious and magical book", "archetype_ids": [], "confidence": "high", "note": "He and Adelle are determined to decipher it; ownership and contents are not claimed."}
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named core adventurer in the selected official opening description.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/bravely-default-ii-switch/",
+        "locator": "Story description: 'Elvis and Adelle, two travelers determined to decipher a mysterious and magical book'",
+        "supports": ["Name, traveler designation, and shared book-deciphering aim"]
+      }
+    ],
+    "comparison_cautions": ["The selected description supplies neither occupation beyond traveler nor the book's contents, origin, owner, or resolution."],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC178-004",
+    "canonical_name": "Adelle",
+    "aliases": [],
+    "source_id": "SRC-178",
+    "source_title": "BRAVELY DEFAULT II",
+    "continuity": "Nintendo of America English Nintendo Switch release (2021)",
+    "work_or_witness": "Nintendo Store: story description",
+    "character_kind": "individual",
+    "description": "One of two travelers, alongside Elvis, determined to decipher a mysterious and magical book in the official opening premise.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term": "traveler", "archetype_ids": [], "confidence": "high", "note": "The official description calls Elvis and Adelle 'two travelers'."}
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {"term": "mysterious and magical book", "archetype_ids": [], "confidence": "high", "note": "She and Elvis are determined to decipher it; ownership and contents are not claimed."}
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named core adventurer in the selected official opening description.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/bravely-default-ii-switch/",
+        "locator": "Story description: 'Elvis and Adelle, two travelers determined to decipher a mysterious and magical book'",
+        "supports": ["Name, traveler designation, and shared book-deciphering aim"]
+      }
+    ],
+    "comparison_cautions": ["The selected description supplies neither occupation beyond traveler nor the book's contents, origin, owner, or resolution."],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

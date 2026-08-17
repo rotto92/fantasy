@@ -1,0 +1,116 @@
+[
+  {
+    "character_id": "CHR-SRC020-001",
+    "canonical_name": "Bari Gongju",
+    "aliases": ["Baridegi", "Biridegi", "Princess Bari"],
+    "source_id": "SRC-020",
+    "source_title": "Korean Mythology and Folklore",
+    "continuity": "Bari Gongju regional shamanic-narrative witness",
+    "work_or_witness": "Bari Gongju, regional variants documented by the Academy of Korean Studies",
+    "character_kind": "individual",
+    "description": "Abandoned seventh daughter who seeks the life-giving water needed to save her parents and is associated with guiding the dead in ritual performance.",
+    "dimensions": {
+      "being_types": [], "cultures": [], "roles_and_vocations": [],
+      "power_traditions": [{"term":"guidance of the dead in ritual narrative","archetype_ids":["PWR-105"],"confidence":"low","note":"Functional comparison only; the witness describes a ritual role, not a game-like power system."}],
+      "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term":"jeoseung (realm of the dead)","archetype_ids":["COS-301"],"confidence":"moderate","note":"The source stresses horizontal rather than a universal vertical underworld model."}],
+      "metaphysical_laws_and_rituals": [{"term":"mangja cheondo gut (rite guiding the dead)","archetype_ids":["LAW-705"],"confidence":"low","note":"Partial functional mapping; a living ritual must not be reduced to a transport mechanic."}],
+      "narrative_archetypes": [{"term":"journey for life-giving water","archetype_ids":["NAR-410"],"confidence":"low","note":"Analytic plot coordinate only; variants differ."}], "game_mechanics": []
+    },
+    "canon_status": "attested across documented regional ritual variants",
+    "evidence_level": "scholarly-reference",
+    "citations": [{"url":"https://encykorea.aks.ac.kr/Article/E0020479","locator":"Narrative sections 1–13; Meaning","supports":["Bari is abandoned, obtains medicinal water after a required cost, saves her parents, and is known as a spirit guiding the dead."]}],
+    "comparison_cautions": ["Bari Gongju/Baridegi is a regionally variable ritual narrative; this record does not supply a universal version or equate her ritual status with a generic psychopomp class."],
+    "spoiler_level": "major", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC020-002",
+    "canonical_name": "Mujangseung",
+    "aliases": ["Mujang-seung"],
+    "source_id": "SRC-020", "source_title": "Korean Mythology and Folklore",
+    "continuity": "Bari Gongju Central-Western regional witness", "work_or_witness": "Bari Gongju, Central-Western variants documented by the Academy of Korean Studies", "character_kind": "individual",
+    "description": "Named guardian of the medicinal water and Bari’s destined partner in the Central-Western regional form.",
+    "dimensions": {"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[{"term":"required cost for medicinal water","archetype_ids":["LAW-214"],"confidence":"low","note":"The source gives a required act/cost but differs by variant."}],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status": "attested in Central-Western regional variant", "evidence_level": "scholarly-reference",
+    "citations": [{"url":"https://encykorea.aks.ac.kr/Article/E0020479","locator":"Regional characteristics, Central-Western region","supports":["Mujangseung appears as medicinal-water guardian and becomes Bari’s lifelong partner in this regional form."]}],
+    "comparison_cautions": ["This named guardian is regional, not a figure shared by all Bari variants."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id": "CHR-SRC020-003", "canonical_name": "Nam Seonbi", "aliases": ["Namseonbi"], "source_id": "SRC-020", "source_title": "Korean Mythology and Folklore", "continuity": "Jeju Munjeonbonpuri witness", "work_or_witness": "Munjeonbonpuri", "character_kind": "individual",
+    "description": "Husband of Yeosan Buin who travels to Odong, is deceived by Gwiil’s daughter, and later becomes the pillar deity in the Jeju household-deity origin narrative.",
+    "dimensions": {"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[{"term":"postmortem installation as jumokjisin","archetype_ids":["STA-425"],"confidence":"low","note":"Office/deity outcome is source-specific, not a generic transformation tier."}],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Jeju ritual narrative", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, opening through conclusion","supports":["Nam Seonbi is Yeosan Buin’s husband, is deceived by Gwiil’s daughter, and becomes jumokjisin after death."]}], "comparison_cautions":["A household deity origin in a Jeju ritual narrative is not evidence for a universal Korean household pantheon."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-004", "canonical_name":"Yeosan Buin", "aliases":["Yeosan Boin", "Jowangsin in this narrative"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Jeju Munjeonbonpuri witness", "work_or_witness":"Munjeonbonpuri", "character_kind":"individual",
+    "description":"Nam Seonbi’s first wife, murdered by Gwiil’s daughter, revived with flowers from Seocheon Flower Garden, and installed as the kitchen deity in this narrative.",
+    "dimensions":{"being_types":[{"term":"jowangsin (kitchen deity)","archetype_ids":["PPL-205"],"confidence":"low","note":"Partial household-spirit comparison only; the identity is a narrative-specific installation."}],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[{"term":"revived with resurrection flowers","archetype_ids":["STA-113"],"confidence":"moderate","note":"Direct narrative event; it does not establish a general resurrection rule."}],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Jeju ritual narrative", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, conclusion","supports":["Yeosan Buin is drowned, her sons obtain resurrection flowers, and she is revived and installed as jowangsin."]}], "comparison_cautions":["Jowangsin has varying Korean and transregional religious histories; this record is restricted to the Jeju narrative."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-005", "canonical_name":"Daughter of Gwiil", "aliases":["Noiljedae Gwiil-ui ttal", "Gwiil-ui ttal"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Jeju Munjeonbonpuri witness", "work_or_witness":"Munjeonbonpuri", "character_kind":"individual",
+    "description":"Uniquely designated daughter of Gwiil who seduces Nam Seonbi, kills Yeosan Buin, and ultimately becomes the outhouse deity in the narrative.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[{"term":"postmortem installation as cheukdo buin","archetype_ids":["STA-425"],"confidence":"low","note":"Source-specific office outcome, not a generic creature change."}],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"uniquely designated agent in Jeju ritual narrative", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, Odong episode through conclusion","supports":["Gwiil’s daughter seduces Nam Seonbi, murders Yeosan Buin, and becomes Cheukdo Buin after her death."]}], "comparison_cautions":["The source preserves a designation rather than an independent personal name; retained because it uniquely identifies an acting individual in this one narrative."], "spoiler_level":"major", "review_status":"needs-review"
+  },
+  {
+    "character_id":"CHR-SRC020-006", "canonical_name":"Nokdaesaengi", "aliases":["Nokdaesaeng", "youngest of the seven brothers"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Jeju Munjeonbonpuri witness", "work_or_witness":"Munjeonbonpuri", "character_kind":"individual",
+    "description":"The clever youngest son who recognizes the impostor, obtains resurrection flowers with his brothers, and becomes the front gate deity Ilmunjeon.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[{"term":"postmortem installation as ilmunjeon","archetype_ids":["STA-425"],"confidence":"low","note":"Narrative-specific deity office."}],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Jeju ritual narrative", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0019655","locator":"Contents, sons’ response through conclusion","supports":["The youngest son detects the deception, helps secure resurrection flowers, and becomes the front gate deity."]}], "comparison_cautions":["The other six brothers are not entered because this account supplies no individual names for them."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-007", "canonical_name":"Gangnim", "aliases":["Gangnim Doryeong", "Kangnim"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Jeju Chasabonpuri witness", "work_or_witness":"Chasabonpuri", "character_kind":"individual",
+    "description":"Human official recruited by Yeomra Wang whose soul is taken to the underworld; he is then appointed to seize and summon the dead.",
+    "dimensions":{"being_types":[{"term":"chasa (death messenger)","archetype_ids":["PPL-308"],"confidence":"low","note":"Partial functional comparison, not a claim that chasa equals a generic psychopomp species."}],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[{"term":"soul separated from body","archetype_ids":["STA-111"],"confidence":"low","note":"The source describes division of soul and body; this mapping is analytic only."}],"artifacts_and_vehicles":[],"cosmologies_and_realms":[{"term":"jeoseung","archetype_ids":["COS-301","COS-611"],"confidence":"moderate","note":"Direct underworld journey; no claim of a uniform Korean afterlife."}],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Jeju ritual narrative", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0055151","locator":"Contents, Yeomra Wang encounter through final appointment","supports":["Yeomra Wang takes Gangnim’s soul and appoints him as a chasa who brings people to the underworld."]}], "comparison_cautions":["Gangnim’s underworld office belongs to this Jeju narrative and ritual context; do not treat it as a standardized fantasy job."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-008", "canonical_name":"Yeomra Wang", "aliases":["Yeomra Daewang", "King Yeomra"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Jeju Chasabonpuri witness", "work_or_witness":"Chasabonpuri", "character_kind":"individual",
+    "description":"Underworld king who negotiates for Gangnim’s service, takes his soul, and appoints him a chasa.",
+    "dimensions":{"being_types":[{"term":"underworld king","archetype_ids":["PPL-401"],"confidence":"low","note":"Functional deity mapping only; Buddhist and shamanic layers must not be collapsed."}],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[{"term":"jeoseung court","archetype_ids":["COS-301","COS-312"],"confidence":"low","note":"The narrative gives an underworld ruler, not a full court cosmology."}],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Jeju ritual narrative", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0055151","locator":"Contents, Gangnim’s audience with Yeomra Wang","supports":["Yeomra Wang arranges for Gangnim’s soul and makes him a chasa."]}], "comparison_cautions":["The Yeomra name participates in wider East Asian Buddhist underworld vocabularies, but this record only reports its function in Chasabonpuri."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-009", "canonical_name":"Gimchi Wonim", "aliases":["Kimchi Wonim"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Jeju Chasabonpuri witness", "work_or_witness":"Chasabonpuri", "character_kind":"individual",
+    "description":"Official who refuses Yeomra Wang’s request to loan Gangnim, then chooses Gangnim’s body when offered a division of body and soul.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Jeju ritual narrative", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0055151","locator":"Contents, Yeomra Wang’s request and body/soul proposal","supports":["Gimchi Wonim refuses to lend Gangnim and selects Gangnim’s body in Yeomra Wang’s proposed division."]}], "comparison_cautions":["Official title and spelling follow the cited Korean scholarly reference; no historical-person identification is asserted."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-010", "canonical_name":"Dongbangsak", "aliases":["Dongbang Sak"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Jeju Chasabonpuri witness", "work_or_witness":"Chasabonpuri", "character_kind":"individual",
+    "description":"A three-thousand-year-old figure whom Gangnim identifies through a riddle-like exchange and takes to the underworld.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Jeju ritual narrative", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0055151","locator":"Contents, Dongbangsak episode","supports":["Gangnim uses the charcoal-washing exchange to identify Dongbangsak and brings him to the underworld."]}], "comparison_cautions":["The account names Dongbangsak but this pass does not infer a stable transregional biography from the episode."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-011", "canonical_name":"Bihyeongrang", "aliases":["Bihyeong"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Samguk Yusa Bihyeongrang witness", "work_or_witness":"Bihyeongrang jusa / Samguk Yusa account", "character_kind":"individual",
+    "description":"Son of the dead King Jinji and Tohwa-nyeo who commands ghosts, has Gil Dal killed, and is subsequently invoked in an apotropaic formula.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[{"term":"command over ghosts","archetype_ids":["PWR-105"],"confidence":"low","note":"Functional comparison only; not an imported spell-school classification."}],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[{"term":"beyond-evil/ghost-averting incantation","archetype_ids":["LAW-405"],"confidence":"low","note":"The account describes an apotropaic formula, not a general exorcism ruleset."}],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Samguk Yusa-derived account", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Contents and Significance/Evaluation","supports":["Bihyeong is born from a dead king’s spirit, commands ghosts, has Gil Dal killed, and becomes an object of ghost-averting belief."]}], "comparison_cautions":["This early written account and its later apotropaic reception are not a general taxonomy of Korean spirits."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-012", "canonical_name":"Gil Dal", "aliases":["Gildal"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Samguk Yusa Bihyeongrang witness", "work_or_witness":"Bihyeongrang jusa / Samguk Yusa account", "character_kind":"individual",
+    "description":"Loyal assistant who turns into a fox and flees; Bihyeong has ghosts capture and kill him.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[{"term":"fox transformation","archetype_ids":["PWR-310"],"confidence":"moderate","note":"Directly stated for this named agent; no general gumiho equivalence is implied."}],"affiliations":[],"states_and_transformations":[{"term":"turns into a fox","archetype_ids":["STA-202"],"confidence":"moderate","note":"Direct narrative event."}],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Samguk Yusa-derived account", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Contents","supports":["Gil Dal transforms into a fox and flees; Bihyeong orders ghosts to capture and kill him."]}], "comparison_cautions":["Gil Dal’s fox transformation is evidence for this account only. It does not identify him as a gumiho or define all Korean fox narratives."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-013", "canonical_name":"Duduri", "aliases":["Duduri-sin"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Samguk Yusa Bihyeongrang witness", "work_or_witness":"Bihyeongrang jusa / Samguk Yusa account", "character_kind":"individual",
+    "description":"Named supernatural builder in the Bihyeongrang account, credited with building a bridge overnight and constructing a great hall.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[{"term":"supernatural builder","archetype_ids":["ROL-616"],"confidence":"low","note":"Functional role coordinate only."}],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Samguk Yusa-derived account", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Significance/Evaluation","supports":["Duduri’s supernatural power includes building a bridge overnight and a great hall."]}], "comparison_cautions":["The source’s later belief/history discussion is not proof of one uniform being type."], "spoiler_level":"light", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-014", "canonical_name":"King Jinji", "aliases":["Jinji Daewang", "Saryun Wang"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Samguk Yusa Bihyeongrang witness", "work_or_witness":"Bihyeongrang jusa / Samguk Yusa account", "character_kind":"individual",
+    "description":"Deposed Silla king who returns after death in the appearance of his living self and fathers Bihyeong with Tohwa-nyeo.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[{"term":"postmortem return","archetype_ids":["STA-103"],"confidence":"low","note":"Narrative description only; not a generic revenant taxonomy."}],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Samguk Yusa-derived account", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Contents, opening","supports":["After his deposition and death, King Jinji returns to Tohwa-nyeo in his former appearance and Bihyeong is born."]}], "comparison_cautions":["This text’s supernatural narrative is not a historical claim about the king’s life."], "spoiler_level":"major", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC020-015", "canonical_name":"Tohwa-nyeo", "aliases":["Tohwa-nang", "Peach Blossom Lady"], "source_id":"SRC-020", "source_title":"Korean Mythology and Folklore", "continuity":"Samguk Yusa Bihyeongrang witness", "work_or_witness":"Bihyeongrang jusa / Samguk Yusa account", "character_kind":"individual",
+    "description":"Woman who refuses King Jinji while her husband is alive, receives the dead king after her husband’s death, and gives birth to Bihyeong.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[],"game_mechanics":[]},
+    "canon_status":"attested in Samguk Yusa-derived account", "evidence_level":"scholarly-reference", "citations":[{"url":"https://encykorea.aks.ac.kr/Article/E0077506","locator":"Contents, opening through Bihyeong’s birth","supports":["Tohwa-nyeo refuses the king while married, is visited after her husband’s death, and bears Bihyeong."]}], "comparison_cautions":["The source recounts a literary-religious narrative; do not interpret it as a documentary biography."], "spoiler_level":"major", "review_status":"researched"
+  }
+]

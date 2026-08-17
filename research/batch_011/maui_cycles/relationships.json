@@ -1,0 +1,67 @@
+[
+  {
+    "relationship_id": "REL-SRC025-001",
+    "source_id": "SRC-025",
+    "source_character_id": "CHR-SRC025-001",
+    "target_character_id": "CHR-SRC025-002",
+    "relationship_type": "kin",
+    "label": "Māui is Hina’s son in the selected rendering",
+    "direction": "directed",
+    "continuity": "Bounded Hawaiian institutional rendering: Māui-and-Lā account",
+    "citations": [{"url":"https://www.soest.hawaii.edu/earthsciences_archive/resources/docs/Maui_2019b.pdf","locator":"p. 20, ‘Māui Catching the Sun’","supports":["The account identifies Hina as Māui’s mother."]}],
+    "confidence": "high",
+    "note": "Kinship is retained only for the selected rendering."
+  },
+  {
+    "relationship_id": "REL-SRC025-002",
+    "source_id": "SRC-025",
+    "source_character_id": "CHR-SRC025-001",
+    "target_character_id": "CHR-SRC025-003",
+    "relationship_type": "opponent",
+    "label": "Māui snares Lā to change Lā’s speed",
+    "direction": "directed",
+    "continuity": "Bounded Hawaiian institutional rendering: Māui-and-Lā account",
+    "citations": [{"url":"https://www.soest.hawaii.edu/earthsciences_archive/resources/docs/Maui_2019b.pdf","locator":"p. 20, ‘Māui Catching the Sun’","supports":["Māui snares rays of Lā, threatens Lā, and Lā agrees to change its course in the selected account."]}],
+    "confidence": "high",
+    "note": "This is a narrative conflict/negotiation relation, not a universal celestial-enemy category."
+  },
+  {
+    "relationship_id": "REL-SRC025-003",
+    "source_id": "SRC-025",
+    "source_character_id": "CHR-SRC025-002",
+    "target_character_id": "CHR-SRC025-004",
+    "relationship_type": "kin",
+    "label": "Hina is Hinaikeahi’s parent",
+    "direction": "directed",
+    "continuity": "Bounded Hilo/Puʻu Hālaʻi institutional moʻolelo rendering",
+    "citations": [{"url":"https://hilo.hawaii.edu/chancellor/stories/2025/04/08/olelo-resource-of-the-month-moolelo/","locator":"para. 27","supports":["The selected account calls Hinaikeahi Hina’s daughter."]}],
+    "confidence": "high",
+    "note": "Parent-child relation in the selected retelling only."
+  },
+  {
+    "relationship_id": "REL-SRC025-004",
+    "source_id": "SRC-025",
+    "source_character_id": "CHR-SRC025-002",
+    "target_character_id": "CHR-SRC025-005",
+    "relationship_type": "kin",
+    "label": "Hina is Hinaikawai’s parent",
+    "direction": "directed",
+    "continuity": "Bounded Hilo/Puʻu Hālaʻi institutional moʻolelo rendering",
+    "citations": [{"url":"https://hilo.hawaii.edu/chancellor/stories/2025/04/08/olelo-resource-of-the-month-moolelo/","locator":"para. 27","supports":["The selected account calls Hinaikawai Hina’s daughter."]}],
+    "confidence": "high",
+    "note": "Parent-child relation in the selected retelling only."
+  },
+  {
+    "relationship_id": "REL-SRC025-005",
+    "source_id": "SRC-025",
+    "source_character_id": "CHR-SRC025-004",
+    "target_character_id": "CHR-SRC025-005",
+    "relationship_type": "kin",
+    "label": "Hinaikeahi and Hinaikawai are sisters",
+    "direction": "undirected",
+    "continuity": "Bounded Hilo/Puʻu Hālaʻi institutional moʻolelo rendering",
+    "citations": [{"url":"https://hilo.hawaii.edu/chancellor/stories/2025/04/08/olelo-resource-of-the-month-moolelo/","locator":"paras. 27 and 44","supports":["The selected account identifies Hinaikawai as Hinaikeahi’s younger sister."]}],
+    "confidence": "high",
+    "note": "Sibling relation in the selected retelling only."
+  }
+]

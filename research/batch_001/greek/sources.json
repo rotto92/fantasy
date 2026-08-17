@@ -1,0 +1,75 @@
+[
+  {
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity_scope": "Delimited textual-witness pass; not a claim to exhaust Greek regional, ritual, artistic, or later literary traditions.",
+    "work_or_witnesses": ["Hesiod, Theogony", "Homer, Iliad", "Homer, Odyssey", "Homeric Hymns", "Pseudo-Apollodorus, Library", "Sophocles, Oedipus Tyrannus", "Sophocles, Oedipus at Colonus"],
+    "in_scope_character_count": 45,
+    "completed_character_count": 45,
+    "omissions": ["Most named Olympians and Titans not needed for this bounded pass", "Nymphs, mortal genealogies, local heroes, cult figures, and most monsters", "Regional variants; vase/iconographic evidence; lyric, Hellenistic, Roman, and Byzantine receptions", "Tragedies and epic cycles beyond the named works, except the Oedipus at Colonus locator explicitly noted in two records"],
+    "uncertainties": ["Ancient Greek myth has variant genealogies, motives, divine jurisdictions, and characterizations; this pass preserves selected-witness provenance rather than reconciling them.", "'Pseudo-Apollodorus' is conventional modern attribution for the Library; the record retains the work title rather than treating authorship as certain.", "Some modern comparison IDs are intentionally blank where a mapping would distort a source-native ontology."],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
+    "citations": [{"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130", "locator": "edition record and lines 104–138", "supports": ["Hesiodic Theogony is a named witness in the pass and illustrates the primary-text repository basis."]}],
+    "last_reviewed": "2026-08-04",
+    "title": "Ancient Greek Mythology",
+    "medium": "mythology / archaic-to-classical literary witnesses",
+    "continuity": "Delimited textual-witness pass; not a claim to exhaust Greek regional, ritual, artistic, or later literary traditions.",
+    "witnesses": [
+      {
+        "work": "Hesiod, Theogony",
+        "repository": "Perseus Digital Library / Tufts University",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130"
+      },
+      {
+        "work": "Homer, Iliad",
+        "repository": "Perseus Digital Library / Tufts University",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133"
+      },
+      {
+        "work": "Homer, Odyssey",
+        "repository": "Perseus Digital Library / Tufts University",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135"
+      },
+      {
+        "work": "Homeric Hymns",
+        "repository": "Perseus Digital Library / Tufts University",
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns"
+      },
+      {
+        "work": "Pseudo-Apollodorus, Library",
+        "repository": "Perseus Digital Library / Tufts University",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary"
+      },
+      {
+        "work": "Sophocles, Oedipus Tyrannus",
+        "repository": "Perseus Digital Library / Tufts University",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0187"
+      },
+      {
+        "work": "Sophocles, Oedipus at Colonus",
+        "repository": "Perseus Digital Library / Tufts University",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0188"
+      }
+    ],
+    "coverage_rule": "Major named divine, primordial, heroic, royal, nymph, and monster agents materially active in the selected witnesses, plus figures needed to retain distinct ontological or narrative categories. The pass is representative and foundational, not all names in Greek literature.",
+    "source_audit": {
+      "declared_in_scope_count": 45,
+      "completed_count": 45,
+      "completion_status": "complete for the declared 45-character, six-witness representative pass",
+      "omissions": [
+        "Most named Olympians and Titans not needed for this bounded pass",
+        "Nymphs, mortal genealogies, local heroes, cult figures, and most monsters",
+        "Regional variants; vase/iconographic evidence; lyric, Hellenistic, Roman, and Byzantine receptions",
+        "Tragedies and epic cycles beyond the named works, except the Oedipus at Colonus locator explicitly noted in two records"
+      ],
+      "uncertainties": [
+        "Ancient Greek myth has variant genealogies, motives, divine jurisdictions, and characterizations; this pass preserves selected-witness provenance rather than reconciling them.",
+        "'Pseudo-Apollodorus' is conventional modern attribution for the Library; the record retains the work title rather than treating authorship as certain.",
+        "Some modern comparison IDs are intentionally blank where a mapping would distort a source-native ontology."
+      ],
+      "evidence_policy": "Every character and relationship is tied to a primary-text locator in a scholarly digital repository. URLs identify the edition/repository; locators identify the precise book, hymn, or line range.",
+      "second_pass_needed": "Yes: sample at least 20% of character claims and all needs-review/disputed records before workbook integration."
+    }
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "character_id": "CHR-SRC137-001",
+    "canonical_name": "Lilith",
+    "aliases": [
+      "Daughter of Mephisto",
+      "Sanctuary's demonic creator"
+    ],
+    "source_id": "SRC-137",
+    "source_title": "Diablo",
+    "continuity": "Diablo IV base game, launch baseline (North American English; 6 June 2023)",
+    "work_or_witness": "Blizzard Diablo IV launch-campaign premise pages",
+    "character_kind": "individual",
+    "description": "A named individual returned to Sanctuary after exile and summoning by a dark ritual. The selected official Diablo IV pages identify her as Mephisto's daughter, a progenitor of humanity, and a co-creator of Sanctuary with Inarius.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "demonic creator",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Blizzard's 2022 Diablo IV announcement calls Lilith Sanctuary's demonic creator; the record does not infer a broader generic species taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "progenitor of humanity",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Directly identified in Blizzard's official Diablo IV launch materials."
+        },
+        {
+          "term": "co-creator of Sanctuary",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The selected official pages state that Lilith and Inarius created Sanctuary together."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "returned from exile after a dark-ritual summoning",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The launch guide says Lilith was summoned by a dark ritual after a lengthy exile."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Sanctuary",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official materials describe Sanctuary as the world she and Inarius created."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "dark ritual",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The ritual is stated only as the means of her summoning; its broader rules are not inferred."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly characterized in selected official Diablo IV launch-campaign materials.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23954935/diablo-iv-launches-soonheres-what-you-need-to-know",
+        "locator": "Story section",
+        "supports": [
+          "Lilith's return, exile, dark-ritual summoning, and the player conflict"
+        ]
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/23880208/meet-your-maker-on-june-6pre-purchase-diablo-iv",
+        "locator": "Lilith has returned section",
+        "supports": [
+          "Lilith and Inarius created Sanctuary together"
+        ]
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/23189675/diablo-iv-unveiled",
+        "locator": "Lilith and Sanctuary campaign-premise paragraph",
+        "supports": [
+          "Lilith as Mephisto's daughter and a progenitor of humanity"
+        ]
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/23816540/all-hell-breaks-loose-in-2023diablo-iv-is-coming",
+        "locator": "Opening announcement paragraph",
+        "supports": [
+          "Lilith as Sanctuary's demonic creator"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This records only the stated 1.0 campaign-premise attributes, not a full account of Lilith across earlier Diablo games, later Diablo IV content, or adaptations.",
+      "'Demonic creator' is Blizzard's wording for this setting and is not mapped to a real-world religious category."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC137-002",
+    "canonical_name": "Inarius",
+    "aliases": [
+      "former archangel"
+    ],
+    "source_id": "SRC-137",
+    "source_title": "Diablo",
+    "continuity": "Diablo IV base game, launch baseline (North American English; 6 June 2023)",
+    "work_or_witness": "Blizzard Diablo IV launch-campaign premise pages",
+    "character_kind": "individual",
+    "description": "A named former archangel who has returned to Sanctuary, the world he created with Lilith. Blizzard frames the story between Inarius and Lilith as central to Diablo IV's new saga.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "former archangel of the High Heavens",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct wording of Blizzard's June 2023 Diablo IV page."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "co-creator of Sanctuary",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Blizzard states that Inarius and Lilith created Sanctuary together."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "High Heavens",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The source calls him a former archangel of the High Heavens; this does not assert a current allegiance."
+        }
+      ],
+      "states_and_transformations": [
+        {
+          "term": "returned to Sanctuary",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Directly stated in the launch-premise page."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Sanctuary",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official materials identify it as the world he and Lilith created."
+        },
+        {
+          "term": "High Heavens",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Named only as the realm attached to his former archangel status."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly characterized in selected official Diablo IV launch-campaign materials.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23880208/meet-your-maker-on-june-6pre-purchase-diablo-iv",
+        "locator": "Lilith has returned section",
+        "supports": [
+          "Inarius's former-archangel status, return, and co-creation of Sanctuary with Lilith"
+        ]
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/23952501/diablo-iv-inside-the-game-a-new-saga",
+        "locator": "A New Saga overview",
+        "supports": [
+          "Centrality of the Lilith/Inarius story and Sanctuary's creation by them"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The record preserves the source's 'former archangel' wording and does not infer a current celestial rank or allegiance.",
+      "No later campaign outcome, retcon, adaptation, or prior-game detail is included."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC137-003",
+    "canonical_name": "Mephisto",
+    "aliases": [
+      "Lord of Hatred"
+    ],
+    "source_id": "SRC-137",
+    "source_title": "Diablo",
+    "continuity": "Diablo IV base game, launch baseline (North American English; 6 June 2023)",
+    "work_or_witness": "Blizzard Diablo IV launch-campaign premise and launch-system pages",
+    "character_kind": "individual",
+    "description": "A named individual called the Lord of Hatred. In the selected official Diablo IV material he is Lilith's father and is said to have cursed areas of Sanctuary into Fields of Hatred.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Lord of Hatred",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Directly stated in the official Diablo IV overview."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Sanctuary",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official overview says he cursed specific areas of Sanctuary."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "cursing areas into Fields of Hatred",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The source only supports this setting-specific act; it does not define a general curse system."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly characterized in selected official Diablo IV launch materials.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23189675/diablo-iv-unveiled",
+        "locator": "Lilith and Sanctuary campaign-premise paragraph",
+        "supports": [
+          "Mephisto as Lilith's father"
+        ]
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/23816540/all-hell-breaks-loose-in-2023diablo-iv-is-coming",
+        "locator": "Explore Your Way: Fields of Hatred paragraph",
+        "supports": [
+          "Mephisto's Lord of Hatred title and curse of areas into Fields of Hatred"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This narrow source cohort supports his title, paternal relation, and Fields of Hatred act only; it does not supply a complete Mephisto biography.",
+      "The Fields of Hatred description is a launch-system presentation and is not treated as a player-character or faction relationship."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

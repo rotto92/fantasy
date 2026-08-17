@@ -1,0 +1,128 @@
+[
+  {
+    "character_id": "CHR-SRC026-001",
+    "canonical_name": "Beren",
+    "aliases": [],
+    "source_id": "SRC-026",
+    "source_title": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’",
+    "continuity": "The Silmarillion (1977), Chapter 19 published-text witness",
+    "work_or_witness": "‘Of Beren and Lúthien’, The Silmarillion, Chapter 19 (1977)",
+    "character_kind": "individual",
+    "description": "The named outlawed mortal at the center of the selected published chapter’s quest with Lúthien.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "outlawed mortal",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The Estate’s chapter-specific contextual account uses this wording. It is source-language fiction, not a real-world racial, ethnic, religious, or biological classification."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Silmaril quest",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Limited to the selected chapter’s account of taking one Silmaril; it does not imply ownership of all Silmarils or import an alternate textual version."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "central quest participant",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "A compact plot role for this chapter witness, not a moral alignment, personality diagnosis, or franchise-wide identity."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named central individual in the selected 1977 Chapter 19 witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/catherine-mcilwaine-beren-and-luthien/",
+        "locator": "‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, paragraph beginning ‘It is Beren the outlawed mortal’",
+        "supports": [
+          "Beren’s name", "outlawed-mortal wording", "joint Silmaril quest with Lúthien", "centrality to the selected tale"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is Beren only as represented by the 1977 edited chapter; it is not a reconciliation of Tolkien’s drafts, manuscript corpus, 2017 compilation, adaptations, or other Middle-earth works.",
+      "‘Mortal’ is retained as source-specific fictional terminology, without mapping it to real biology, race, ethnicity, religion, gender role, or morality.",
+      "The chapter includes peril and violence, but this record confines itself to non-graphic quest context."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC026-002",
+    "canonical_name": "Lúthien",
+    "aliases": [],
+    "source_id": "SRC-026",
+    "source_title": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’",
+    "continuity": "The Silmarillion (1977), Chapter 19 published-text witness",
+    "work_or_witness": "‘Of Beren and Lúthien’, The Silmarillion, Chapter 19 (1977)",
+    "character_kind": "individual",
+    "description": "The named elf of royalty who acts with Beren in the selected chapter’s central quest.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "elf of royalty",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The Estate’s chapter-specific contextual account uses this wording. It is source-language fiction, not a real-world ancestry, ethnicity, class, or gender category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Silmaril quest",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Limited to her named help in the selected chapter’s account; no independent power system or alternate-version feat is inferred."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "central quest participant",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "A compact plot role for this chapter witness, not a statement about women, nobility, agency across versions, or moral alignment."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named central individual in the selected 1977 Chapter 19 witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/catherine-mcilwaine-beren-and-luthien/",
+        "locator": "‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, paragraph beginning ‘It is Beren the outlawed mortal’",
+        "supports": [
+          "Lúthien’s name", "elf-of-royalty wording", "help in the Silmaril quest", "centrality to the selected tale"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is Lúthien only as represented by the 1977 edited chapter; the pass does not merge drafts, personal-biographical resonances, the 2017 compilation, adaptations, or other Middle-earth works.",
+      "‘Elf’ and ‘royalty’ are retained as source-specific fictional terms, without mapping them to real ethnicity, race, biology, social class, religion, or gender essence.",
+      "The chapter’s peril and romance are recorded only at a non-graphic, witness-bounded level."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  }
+]

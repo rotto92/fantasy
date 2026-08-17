@@ -1,0 +1,129 @@
+[
+  {
+    "term_id": "STM-SRC120-001",
+    "source_id": "SRC-120",
+    "canonical_term": "heroes and the overlord",
+    "original_language": "English board-game rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "In traditional Descent, up to four players take hero roles while one overlord player commands monsters and forces of evil against them.",
+    "cultural_caution": "These are game roles, not evidence that any selectable hero, monster, or overlord card is a fixed named dramatic person. No role is promoted to a character node in this audit.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2016/3/15/road-to-legend/",
+        "locator": "Into the Dungeon",
+        "supports": [
+          "Fantasy Flight Games describes the traditional hero-player and single-overlord-player roles."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC120-002",
+    "source_id": "SRC-120",
+    "canonical_term": "linked campaign quests",
+    "original_language": "English board-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Second Edition is described as a two-to-five-player board game in which adventurers undertake a campaign of linked quests while developing characters based on four fantasy archetypes.",
+    "cultural_caution": "A campaign linkage is a play-system statement, not a claim that every branch, character build, or table outcome belongs to one fixed story continuity. Quest plots and outcomes are kept outside this terms-only pass.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2016/3/15/road-to-legend/",
+        "locator": "Product description, lines 69–70",
+        "supports": [
+          "Fantasy Flight Games describes Second Edition as a campaign of linked quests with character development based on four fantasy archetypes."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC120-003",
+    "source_id": "SRC-120",
+    "canonical_term": "Terrinoth",
+    "original_language": "English setting name",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The fantasy realm in which the official product description places Second Edition's dungeon adventures and linked-quest campaign.",
+    "cultural_caution": "A setting term only. Terrinoth is not a character, a monolithic culture, or proof that all games using related setting material share the selected Second Edition core continuity.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2016/3/15/road-to-legend/",
+        "locator": "Road to Legend introduction and product description",
+        "supports": [
+          "Fantasy Flight Games places Descent's heroes and linked-quest adventures in Terrinoth."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC120-004",
+    "source_id": "SRC-120",
+    "canonical_term": "Road to Legend cooperative mode",
+    "original_language": "English companion-app product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "A later companion app for Descent that takes the traditional overlord role, controls figures and related game responsibilities, and lets the player group cooperate as heroes.",
+    "cultural_caution": "A separate app/product-mode boundary. Its app-managed quest order, map revelation, monsters, campaigns, purchased skills, owned expansions, and outcomes are not silently substituted for traditional Second Edition core rules or narrative facts.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2016/3/15/road-to-legend/",
+        "locator": "Into the Dungeon; Grow Your Collection",
+        "supports": [
+          "Fantasy Flight Games identifies Road to Legend as a companion app that assumes the overlord role, supports cooperative play, requires a core set, and can draw on physical expansions."
+        ]
+      },
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2023/12/8/runes-heroes-and-legends/",
+        "locator": "2012 – Descent: Journeys in the Dark Second Edition",
+        "supports": [
+          "Fantasy Flight Games identifies Road to Legend as the Second Edition companion app and distinguishes the much later Descent: Legends of the Dark."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC120-005",
+    "source_id": "SRC-120",
+    "canonical_term": "Second Edition Errata and FAQ v1.5",
+    "original_language": "English rules-support lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Fantasy Flight Games' official Errata and FAQ Version 1.5 for Descent: Journeys in the Dark Second Edition, updated 9 February 2015, covering the game and expansions.",
+    "cultural_caution": "Rules-support and edition-history evidence only. An erratum or FAQ does not itself establish fictional characterization, and expansion material within the document remains out of scope unless a future pass expressly selects it.",
+    "citations": [
+      {
+        "url": "https://images-cdn.fantasyflightgames.com/filer_public/ce/d7/ced72c29-a9f9-4914-9819-9b477d929157/descent_second_edition_faq_v15.pdf",
+        "locator": "Title page: Errata and FAQ Version 1.5, updated 2/9/2015",
+        "supports": [
+          "Official version/date and stated Second Edition-plus-expansions scope of the errata/FAQ."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

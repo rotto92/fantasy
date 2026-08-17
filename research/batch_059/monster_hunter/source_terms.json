@@ -1,0 +1,177 @@
+[
+  {
+    "term_id": "STM-SRC186-001",
+    "source_id": "SRC-186",
+    "canonical_term": "Monster Hunter Wilds North American base game",
+    "original_language": "English video-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The selected North American Capcom Town Store base-game product for Monster Hunter Wilds, marked 28 February 2025.",
+    "cultural_caution": "An exact region/product witness, not an assertion that other platforms, regions, localizations, bundles, updates, DLC, events, or expansion content is identical.",
+    "citations": [
+      {
+        "url": "https://us-store.captown.capcom.com/products/1196102-us",
+        "locator": "Product heading and 2025.02.28 date marker",
+        "supports": [
+          "Capcom Town identifies the selected North American product and its date."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC186-002",
+    "source_id": "SRC-186",
+    "canonical_term": "Forbidden Lands expedition",
+    "original_language": "English game-setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The base-game setup concerns a Guild expedition to the previously unsurveyed Forbidden Lands after a boy named Nata is rescued from its border following an attack on his village.",
+    "cultural_caution": "A fictional expedition/setting premise. The Forbidden Lands, Guild, village, and Nata are not character endpoints in this terms-only pass, and the setup does not justify importing later plot revelations or NPC biography.",
+    "citations": [
+      {
+        "url": "https://us-store.captown.capcom.com/products/1196102-us",
+        "locator": "Story",
+        "supports": [
+          "Capcom describes Nata's rescue and the Guild expedition into the Forbidden Lands."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC186-003",
+    "source_id": "SRC-186",
+    "canonical_term": "Fallow, Inclemency, and Plenty",
+    "original_language": "English ecology/game-cycle lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The product's changing Forbidden Lands environmental periods: harsh Fallow, perilous Inclemency, and wildlife-rich Plenty, which affect monster behavior and conditions.",
+    "cultural_caution": "Source-specific ecological/game-state labels, not cultures, people, or character identities. They should not be treated as a real-world ecological model.",
+    "citations": [
+      {
+        "url": "https://us-store.captown.capcom.com/products/1196102-us",
+        "locator": "A Living World",
+        "supports": [
+          "Capcom describes the three changing environmental periods and their effect on monsters/wildlife."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC186-004",
+    "source_id": "SRC-186",
+    "canonical_term": "Hunter, hunting, harvesting, and crafting loop",
+    "original_language": "English game-system lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The player acts as a Hunter who tracks and defeats powerful monsters, harvests materials, and forges weapons and armor; tactics adapt to monster behavior and environmental change.",
+    "cultural_caution": "A player role and combat/crafting system, not a fixed protagonist. It depicts fantasy creature violence and resource harvesting; individual weapons, equipment, captures, kills, and hunt outcomes remain player/session-specific.",
+    "citations": [
+      {
+        "url": "https://us-store.captown.capcom.com/products/1196102-us",
+        "locator": "Product overview; Hunting",
+        "supports": [
+          "Capcom describes the Hunter role, tracking/defeating monsters, harvesting materials, forging gear, and adaptive hunting tactics."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC186-005",
+    "source_id": "SRC-186",
+    "canonical_term": "custom Hunter and Palico boundary",
+    "original_language": "English player-avatar lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Capcom's official Wilds community coverage refers to a player's Hunter and custom Palico, confirming a player-defined avatar/companion presentation boundary.",
+    "cultural_caution": "The Hunter and Palico are player-generated identities and are never atlas character nodes here. Name, appearance, equipment, behavior, dialogue context, and save/session history are not shared canon.",
+    "citations": [
+      {
+        "url": "https://news.capcomusa.com/lets/browse/capcom-snapshots-monster-hunter-wilds",
+        "locator": "Capcom Snapshots: Palicoes section",
+        "supports": [
+          "Capcom USA refers to the player's Hunter and custom Palico in Wilds."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC186-006",
+    "source_id": "SRC-186",
+    "canonical_term": "post-launch update and cosmetic DLC boundary",
+    "original_language": "English product-support lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Capcom's current product listing distinguishes base-game editions from separately described cosmetic DLC packs and warns that content can change and may require the latest version; Capcom USA separately refers to Free Title Update 2.",
+    "cultural_caution": "Post-launch cosmetics, monsters, events, patches, quests, mechanics, NPC scenes, and version behavior are not retroactively imported into the selected February 2025 base-game audit.",
+    "citations": [
+      {
+        "url": "https://us-store.captown.capcom.com/products/1196102-us",
+        "locator": "Deluxe Edition and Premium Deluxe Edition; content caveat",
+        "supports": [
+          "Capcom distinguishes main game and cosmetic DLC packs and warns that content/release dates may change or require latest version."
+        ]
+      },
+      {
+        "url": "https://news.capcomusa.com/lets/browse/capcom-snapshots-monster-hunter-wilds",
+        "locator": "Capcom Snapshots: Monster Hunter Wilds",
+        "supports": [
+          "Capcom USA refers to Free Title Update 2 as a later Wilds update."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC186-007",
+    "source_id": "SRC-186",
+    "canonical_term": "Monster Hunter Wilds: Ascendance expansion boundary",
+    "original_language": "English expansion-product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Capcom announced Monster Hunter Wilds: Ascendance as a massive 2027 expansion with Master Rank, new abilities, a new land, and legendary monsters.",
+    "cultural_caution": "A future expansion is a distinct product/content boundary. Its locations, ranks, monsters, characters, stories, and systems are not evidence for the selected 2025 base-game continuity.",
+    "citations": [
+      {
+        "url": "https://captown.capcom.com/en/theaters/monsterhunter/56",
+        "locator": "Monster Hunter Wilds: Ascendance - Official Reveal Trailer",
+        "supports": [
+          "Capcom announces Ascendance as a 2027 Wilds expansion and describes its new Master Rank/content."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

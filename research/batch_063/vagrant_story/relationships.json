@@ -1,0 +1,15 @@
+[
+  {
+    "relationship_id": "REL-SRC182-001",
+    "source_id": "SRC-182",
+    "source_character_id": "CHR-SRC182-001",
+    "target_character_id": "CHR-SRC182-002",
+    "relationship_type": "opponent",
+    "label": "VKP pursuit in Leá Monde",
+    "direction": "directed",
+    "continuity": "Original Square PlayStation Vagrant Story, English PSOne Classics witness",
+    "citations": [{"url": "https://dlgames.square-enix.com/eu/en/psga/2009/vagrantstory/", "locator": "VAGRANT STORY / STORY", "supports": ["Ashley enters Leá Monde in pursuit of Sydney after the assault attributed to Sydney"]}],
+    "confidence": "high",
+    "note": "Records an explicit pursuit/opposition only; it does not adjudicate the allegation against Sydney or claim an outcome."
+  }
+]

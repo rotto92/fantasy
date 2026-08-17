@@ -1,0 +1,40 @@
+[
+  {
+    "source_id": "SRC-214",
+    "source_title": "Mushoku Tensei: Jobless Reincarnation",
+    "continuity_scope": "Mushoku Tensei: Jobless Reincarnation (Light Novel) Vol. 1, Seven Seas English revised edition (copyright page marked \"Revised Edition: March 2021\"; paperback reprint availability from May 2021; ISBN 978-1-64275-138-3; 320 pages). This is a narrow English light-novel-volume metadata pass. It does not combine the original 2019 Seven Seas edition, Japanese MF Books Volume 1, the web novel, or any adaptation.",
+    "work_or_witnesses": [
+      "Mushoku Tensei: Jobless Reincarnation (Light Novel) Vol. 1, Seven Seas English revised edition (March 2021)",
+      "Seven Seas official Volume 1 product page",
+      "KADOKAWA official Japanese MF Books Volume 1 product page",
+      "KADOKAWA official MF Books Volume 7 product page, used only for web-versus-light-novel boundary",
+      "TV anime official introduction, used only for adaptation boundary"
+    ],
+    "coverage_rule": "Include only named individual dramatic characters directly named by the selected Seven Seas English revised Volume 1 synopsis. This yields Rudeus Greyrat. The earlier-life adult is not separately named in the selected English witness and is represented only as a previous-life/identity dimension for Rudeus, never as a second character node. No relationships are added because the selected English metadata names no second individual.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "All other named light-novel characters, family members, teachers, classmates, rivals, deities, peoples, and factions are omitted because the selected Seven Seas Volume 1 synopsis does not name them.",
+      "The 2019 first Seven Seas printing/ebook text, Japanese MF Books Volume 1, web novel, manga, anime, games, later light-novel volumes, guidebooks, spin-offs, and all adaptations are separate witnesses.",
+      "Roles/classes, races/species, magic, items, places, reincarnation/isekai systems, and themes are terms/dimensions rather than character nodes unless the selected English witness individually names and describes an agent.",
+      "Sexualization, harassment, age-disparate interaction, abuse, and related sensitive material are not asserted as Volume 1 character claims from this metadata. The selected synopsis supports only adult prior-life memories in a reborn infant's body, family expulsion, social isolation, traffic death, and reincarnation; broader content must be evidenced in a separately inspected prose pass.",
+      "The official anime's later-season framing and game marketing are not evidence for this light-novel-volume pass."
+    ],
+    "uncertainties": [
+      "The Seven Seas product page provides synopsis and edition metadata but no accessible prose chapter/page excerpt. This is therefore a narrow official-metadata pass, not a primary-prose extraction or quotation.",
+      "The publisher page identifies the initial 2019 release and announces a March 2021 re-edit, saying revised paperbacks carry a specified copyright-page statement. The selected evidence does not enumerate all textual differences; no unchanged-wording claim is made.",
+      "Rudeus is the name given after rebirth in the English synopsis. It supports continuity of memories from an unnamed prior life, not a claim that the former adult is a distinct current person, an age-equivalence conclusion, or a complete theory of identity/personhood.",
+      "KADOKAWA's later MF Books Volume 7 advertisement says it depicts years not covered on the web. It supports a web/light-novel distinction at franchise level only; it is not character or plot evidence for this Volume 1 pass.",
+      "Family expulsion, prolonged social isolation/shut-in framing, traffic death, adult-memory/infant-body reincarnation, and swords-and-sorcery adventure are content cautions. Allegations or descriptions of sexualization, harassment, minors, abuse, or later conduct require page-level source evidence and are intentionally not supplied here."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Seven Seas first-party revised-English Volume 1 product metadata, with KADOKAWA and official anime pages used only to preserve original-edition, web/light-novel, and adaptation boundaries. No fan wiki, Wikipedia, anime recap, game database, uninspected prose, illustration, or secondary content analysis is used as character evidence.",
+    "citations": [
+      {"url": "https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-1/", "locator": "Volume 1 product metadata and synopsis, lines 19-52", "supports": ["English light-novel Volume 1 title, creators, initial/revised-edition notice, date, pages, ISBN, translators/adaptation credit, Rudeus name, 34-year-old shut-in premise, family expulsion, traffic death, rebirth, retained memories, and second-life intent"]},
+      {"url": "https://www.kadokawa.co.jp/product/301401000994/", "locator": "無職転生 ～異世界行ったら本気だす～ 1 official MF Books metadata and synopsis", "supports": ["separate Japanese MF Books Volume 1, 24 January 2014 date, author/illustrator, 324 pages, and original-language premise"]},
+      {"url": "https://www.kadokawa.co.jp/product/321506000201/", "locator": "無職転生 ～異世界行ったら本気だす～ 7 official MF Books synopsis", "supports": ["official statement that a later light-novel volume depicts years not addressed on the web; boundary only"]},
+      {"url": "https://mushokutensei.jp/introduction/", "locator": "official TV anime introduction, lines 4-17", "supports": ["separately produced anime seasons/adaptation framing and later material boundary"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

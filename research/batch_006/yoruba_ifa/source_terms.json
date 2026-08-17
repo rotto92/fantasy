@@ -1,0 +1,196 @@
+[
+  {
+    "term_id": "STM-SRC022-001",
+    "source_id": "SRC-022",
+    "canonical_term": "òrìṣà",
+    "original_language": "Yorùbá",
+    "original_script": "òrìṣà",
+    "transliteration": "orisa",
+    "literal_gloss": "sacred power/deity",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Sacred being/category in Yorùbá traditions.",
+    "cultural_caution": "Not a fantasy god species.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Sacred being/category in Yorùbá traditions."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC022-002",
+    "source_id": "SRC-022",
+    "canonical_term": "Ifá",
+    "original_language": "Yorùbá",
+    "original_script": "Ifá",
+    "transliteration": "Ifa",
+    "literal_gloss": "Ifá divination",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Divinatory knowledge/practice complex.",
+    "cultural_caution": "Living practice; not magic-system mechanics.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Divinatory knowledge/practice complex."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC022-003",
+    "source_id": "SRC-022",
+    "canonical_term": "àṣẹ",
+    "original_language": "Yorùbá",
+    "original_script": "àṣẹ",
+    "transliteration": "ase",
+    "literal_gloss": "authority/effectual power",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Contextual sacred efficacy/authority.",
+    "cultural_caution": "Do not translate as mana.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Contextual sacred efficacy/authority."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC022-004",
+    "source_id": "SRC-022",
+    "canonical_term": "orí",
+    "original_language": "Yorùbá",
+    "original_script": "orí",
+    "transliteration": "ori",
+    "literal_gloss": "inner head/destiny",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Destiny/personhood concept.",
+    "cultural_caution": "Do not reduce to fate stat.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Destiny/personhood concept."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC022-005",
+    "source_id": "SRC-022",
+    "canonical_term": "ìfẹ̀yàwó",
+    "original_language": "Yorùbá",
+    "original_script": "ìfẹ̀yàwó",
+    "transliteration": "possession/embodiment",
+    "literal_gloss": "embodiment",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Embodiment/possession context.",
+    "cultural_caution": "Requires lineage-specific understanding.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Embodiment/possession context."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC022-006",
+    "source_id": "SRC-022",
+    "canonical_term": "babaláwo",
+    "original_language": "Yorùbá",
+    "original_script": "babaláwo",
+    "transliteration": "babalawo",
+    "literal_gloss": "Ifá diviner",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Ritual office.",
+    "cultural_caution": "Office is not a character class.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Ritual office."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC022-007",
+    "source_id": "SRC-022",
+    "canonical_term": "oríkì",
+    "original_language": "Yorùbá",
+    "original_script": "oríkì",
+    "transliteration": "oriki",
+    "literal_gloss": "praise name/poetry",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Praise-name/poetic practice.",
+    "cultural_caution": "Do not reduce to nickname metadata.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Praise-name/poetic practice."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC022-008",
+    "source_id": "SRC-022",
+    "canonical_term": "ìdílé",
+    "original_language": "Yorùbá",
+    "original_script": "ìdílé",
+    "transliteration": "idile",
+    "literal_gloss": "lineage/household",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Lineage/household context.",
+    "cultural_caution": "Not a generic clan mechanic.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Lineage/household context."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  }
+]

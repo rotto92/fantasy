@@ -1,0 +1,4 @@
+[
+  {
+    "relationship_id":"REL-SRC193-001","source_id":"SRC-193","source_character_id":"CHR-SRC193-001","target_character_id":"CHR-SRC193-002","relationship_type":"opponent","label":"Zagreus attempts to break free from the god of the dead","direction":"directed","continuity":"Supergiant Hades v1.0 launch (2020)","citations":[{"url":"https://www.supergiantgames.com/blog/hades-now-out-of-early-access/","locator":"About the Game","supports":["Zagreus attempts to break free from the clutches of the god of the dead"]}],"confidence":"high","note":"Direct launch-premise opposition only; no kinship, encounter outcome, or ending is inferred."}
+]

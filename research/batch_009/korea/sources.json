@@ -1,0 +1,82 @@
+[
+  {
+    "source_id": "SRC-020",
+    "source_title": "Korean Mythology and Folklore",
+    "continuity_scope": "Bounded, multi-witness cultural-corpus pass. It records named agents in (1) the regional shamanic narrative Bari Gongju as documented for Seoul/Central-Western, Honam, and East Coast performance regions; (2) Jeju ritual narratives Munjeonbonpuri and Chasabonpuri; and (3) the Bihyeongrang account preserved in Samguk Yusa. It also records source terms from later, collected oral-folktale types for gumiho and dokkaebi and from a Joseon Buddhist sansin painting. These are distinct witnesses, not a single harmonized Korean canon.",
+    "work_or_witnesses": [
+      {
+        "work": "Bari Gongju / Baridegi regional narrative songs",
+        "edition": "Academy of Korean Studies, Encyclopedia of Korean Culture, scholarly witness overview",
+        "url": "https://encykorea.aks.ac.kr/Article/E0020479"
+      },
+      {
+        "work": "Munjeonbonpuri and Chasabonpuri",
+        "edition": "Academy of Korean Studies, Encyclopedia of Korean Culture, Jeju shamanic-narrative entries",
+        "url": "https://encykorea.aks.ac.kr/Article/E0019655"
+      },
+      {
+        "work": "Samguk Yusa, ‘Tohwa-nyeo and Bihyeong-rang’ account",
+        "edition": "Academy of Korean Studies, Encyclopedia of Korean Culture, Bihyeongrang jusa entry",
+        "url": "https://encykorea.aks.ac.kr/Article/E0077506"
+      },
+      {
+        "work": "Collected oral-folktale types: Fox-Marble Tale and Dokkaebi tales",
+        "edition": "Academy of Korean Studies entries citing Korean Oral Literature Compendium (1980–1988) and earlier collections",
+        "url": "https://encykorea.aks.ac.kr/Article/E0036434"
+      },
+      {
+        "work": "Mountain Spirit (Sansin) with Tiger Avatar",
+        "edition": "National Museum of Korea collection record, Joseon Buddhist painting",
+        "url": "https://www.museum.go.kr/ENG/contents/E0403000000.do?relicId=7944&schM=view&searchId=search"
+      }
+    ],
+    "coverage_rule": "Include only individually named or uniquely named/designated agents who materially act in the declared Bari, Munjeonbonpuri, Chasabonpuri, and Bihyeongrang narrative accounts. Gumiho, dokkaebi, sansin, mudang, and household categories are terms unless the selected witness gives an individual acting name. Do not turn ritual offices, generic spirits, unnamed brothers, artifacts, places, or modern retellings into character nodes.",
+    "in_scope_character_count": 15,
+    "completed_character_count": 15,
+    "omissions": [
+      "The many untranscribed regional performances, ritual lineages, and variant names of Bari Gongju, Munjeonbonpuri, and Chasabonpuri.",
+      "Generic gumiho, dokkaebi, sansin, jowangsin, chasa, mudang, and household beings that do not receive an individual acting name in a declared witness.",
+      "Dangun and other foundation narratives; local mountain and village deities; Buddhist scriptures and temple ritual; Confucian historical/ethical texts; and all modern novels, webtoons, television, games, and film adaptations."
+    ],
+    "uncertainties": [
+      "Bari Gongju is a nationwide family of more than one hundred recorded variants; names, plots, ritual use, and status vary by region. The record deliberately does not synthesize a universal biography.",
+      "The Jeju narratives are ritual performances and recorded story forms, not stable franchise continuities. Transliteration and some personal designations vary by source.",
+      "Gumiho and dokkaebi are later collected folktale categories with variable depictions; their terms do not establish a single named being or a fixed origin theory.",
+      "Sansin has folk-religious and Buddhist-temple visual layers. The museum object demonstrates a Joseon Buddhist painting context only; it is not evidence that all sansin are Buddhist or that one universal Sansin exists.",
+      "The cited accounts show Confucian filial-ethics language and Buddhist/underworld visual or naming layers, but this pass does not reduce shamanic narratives to either layer."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Claim-specific records use Academy of Korean Studies scholarly-reference entries with narrative-section locators, supplemented by a National Museum of Korea object record for the Buddhist sansin visual layer. The pass is intentionally incomplete against the broad, living corpus while complete against its narrow named-agent rule for the four declared narrative accounts.",
+    "citations": [
+      {
+        "url": "https://encykorea.aks.ac.kr/Article/E0020479",
+        "locator": "Definition; Narrative sections; Regional characteristics",
+        "supports": [
+          "Bari Gongju is a regional shamanic narrative song for rites guiding the dead, with materially different regional variants."
+        ]
+      },
+      {
+        "url": "https://encykorea.aks.ac.kr/Article/E0019655",
+        "locator": "Definition and Contents",
+        "supports": [
+          "Munjeonbonpuri is a Jeju ritual narrative explaining household deities and their relations."
+        ]
+      },
+      {
+        "url": "https://encykorea.aks.ac.kr/Article/E0055151",
+        "locator": "Contents",
+        "supports": [
+          "Chasabonpuri narrates Gangnim’s underworld service and the death-messenger role."
+        ]
+      },
+      {
+        "url": "https://encykorea.aks.ac.kr/Article/E0077506",
+        "locator": "Contents",
+        "supports": [
+          "The Bihyeongrang account derives from the Samguk Yusa story of Tohwa-nyeo and Bihyeongrang."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

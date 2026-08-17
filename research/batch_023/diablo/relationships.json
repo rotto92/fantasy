@@ -1,0 +1,44 @@
+[
+  {
+    "relationship_id": "REL-SRC137-001",
+    "source_id": "SRC-137",
+    "source_character_id": "CHR-SRC137-001",
+    "target_character_id": "CHR-SRC137-002",
+    "relationship_type": "creator",
+    "label": "co-creators of Sanctuary",
+    "direction": "undirected",
+    "continuity": "Diablo IV base game, launch baseline (North American English; 6 June 2023)",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23880208/meet-your-maker-on-june-6pre-purchase-diablo-iv",
+        "locator": "Lilith has returned section",
+        "supports": [
+          "Lilith and Inarius created Sanctuary together"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Undirected because the official statement attributes the creation jointly; Sanctuary is a realm term, not a relationship endpoint."
+  },
+  {
+    "relationship_id": "REL-SRC137-002",
+    "source_id": "SRC-137",
+    "source_character_id": "CHR-SRC137-001",
+    "target_character_id": "CHR-SRC137-003",
+    "relationship_type": "kin",
+    "label": "daughter of",
+    "direction": "directed",
+    "continuity": "Diablo IV base game, launch baseline (North American English; 6 June 2023)",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23189675/diablo-iv-unveiled",
+        "locator": "Lilith and Sanctuary campaign-premise paragraph",
+        "supports": [
+          "Lilith is Mephisto's daughter"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Direction runs from Lilith to her named father Mephisto, matching the source wording."
+  }
+]

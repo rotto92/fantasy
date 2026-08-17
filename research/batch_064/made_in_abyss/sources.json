@@ -1,0 +1,68 @@
+[
+  {
+    "source_id": "SRC-200",
+    "source_title": "Made in Abyss",
+    "continuity_scope": "Made in Abyss Vol. 1, Seven Seas Entertainment's English manga edition: story and art by Akihito Tsukushi, translated by Beni Axia Conrad, adapted by Jake Jung, lettered by James Gaubatz; released 23 January 2018; ISBN 978-1-626927-73-5; 166 pages. This is a narrow first-volume product/premise audit. It excludes every later manga volume/chapter, anime, films, the Binary Star Falling into Darkness game, anthology, guidebooks, other translations/localizations, adaptations, commentary, and player-created game outcomes.",
+    "work_or_witnesses": [
+      {
+        "work": "Made in Abyss Vol. 1",
+        "edition": "Seven Seas English manga edition, 23 January 2018; 166 pages; ISBN 978-1-626927-73-5; story and art Akihito Tsukushi; translation Beni Axia Conrad; adaptation Jake Jung; lettering James Gaubatz.",
+        "url": "https://sevenseasentertainment.com/books/made-in-abyss-vol-1/"
+      },
+      {
+        "work": "Made in Abyss Anthology license announcement",
+        "edition": "Seven Seas announcement, 13 December 2019; used only for the separate anthology/anime/movie boundary, never for Vol. 1 character claims.",
+        "url": "https://sevenseasentertainment.com/2019/12/13/seven-seas-digs-deep-with-license-of-made-in-abyss-anthology-manga/"
+      },
+      {
+        "work": "Made in Abyss: Binary Star Falling into Darkness",
+        "edition": "Spike Chunsoft official game page; used only to establish the separate 2022 action-RPG, player-avatar, and anime-story boundaries.",
+        "url": "https://www.spike-chunsoft.com/games/made-in-abyss-binary-star-falling-into-darkness/"
+      }
+    ],
+    "coverage_rule": "Narrow official-metadata pass with one directly described individual. Riko is included because the selected Seven Seas Vol. 1 page directly calls her a young orphan and identifies her goal of becoming a Cave Raider like her mother. The page calls the robot she meets 'strange' but does not give an individual name or sufficient profile, so it is omitted. No other individual has a direct Vol. 1 claim-level official dossier in the selected evidence. Cave Raider roles, relics, creatures/categories, Abyss layers/curse, artifacts, places, transformations, and themes remain terms/dimensions; no relationship is inferred from an unnamed robot or any later adaptation.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "The unnamed 'strange robot' described on the selected Vol. 1 product page and all other individuals, because the official Vol. 1 witness does not provide a direct name/profile for them. No later anthology, anime, film, game, or unofficial source is used to fill that gap.",
+      "Cave Raiders, Riko's unnamed mother, relics, creatures, Abyss layers, the Curse of the Abyss, artifacts, places, transformations, and themes as character nodes.",
+      "All later manga content, anime, films, anthology short stories, guidebooks, other editions/localizations, and the 2022 game—including its player-controlled nameless Cave Raider and game-only scenario."
+    ],
+    "content_cautions": [
+      "The selected official Vol. 1 premise places a young orphan in a perilous unexplored cave system filled with monstrous creatures and frames cave exploration as dangerous. It therefore involves a child protagonist, threats, fear, and monster peril.",
+      "The official metadata does not itemize the exact Vol. 1 extent of extreme injury, body horror, abuse, death, or other disturbing content. Those risks should be evaluated from the primary volume before using it with children or trauma-sensitive readers; this audit neither reproduces images nor treats its broad synopsis as a complete content rating.",
+      "The separate official game page characterizes the series as juxtaposing gentle art with a dark, brutal storyline, but that is series/game marketing—not itemized evidence for particular Vol. 1 scenes."
+    ],
+    "uncertainties": [
+      "No legal, text-addressable chapter/page/panel reader for Seven Seas Vol. 1 was accessible in this pass. Riko's minimal record is confined to the publisher's directly named product synopsis; no unaddressable visual-panel fact is added.",
+      "The selected English product page does not expose the Japanese Takeshobo chapter/volume pagination, original Japanese terms, or a table of contents. No claims are transferred from another edition or language.",
+      "Separate official sources confirm anime/movie and game products, but not their scene, ending, or character-identity equivalence with Vol. 1. The game additionally contains a player-controlled nameless Cave Raider and a game-specific story, which are out of scope."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Seven Seas' Vol. 1 product page establishes the exact English edition, translation/localization credits, date, ISBN, page count, Abyss premise, Cave Raider role, relic/creature framing, and the directly named Riko description. Seven Seas' anthology announcement establishes that the anthology and anime/movies are later separate products. Spike Chunsoft's official game page establishes the distinct 2022 game, its anime-story mode, player-controlled Cave Raider, and separate original game story. No fan wiki, Wikipedia, scanlation, guidebook, anime/film, game walkthrough, or later manga material supplies Vol. 1 character claims.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/made-in-abyss-vol-1/",
+        "locator": "Made in Abyss Vol. 1 metadata and synopsis",
+        "supports": [
+          "Exact English edition/translation credits and the direct Vol. 1 setting and Riko claims."
+        ]
+      },
+      {
+        "url": "https://sevenseasentertainment.com/2019/12/13/seven-seas-digs-deep-with-license-of-made-in-abyss-anthology-manga/",
+        "locator": "13 December 2019 anthology announcement",
+        "supports": [
+          "Separate anthology product and the existence of distinct anime/movie adaptations."
+        ]
+      },
+      {
+        "url": "https://www.spike-chunsoft.com/games/made-in-abyss-binary-star-falling-into-darkness/",
+        "locator": "Story and About Made in Abyss: Binary Star Falling into Darkness",
+        "supports": [
+          "The separate game, its anime-story mode, player-controlled Cave Raider, and game-specific original-story boundary."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

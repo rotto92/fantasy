@@ -1,0 +1,926 @@
+[
+  {
+    "relationship_id": "REL-SRC016-001",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-001",
+    "target_character_id": "CHR-SRC016-002",
+    "relationship_type": "student",
+    "label": "Wukong becomes Tang Sanzang’s disciple and protector.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 14.",
+        "supports": [
+          "Wukong becomes Tang Sanzang’s disciple and protector."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-002",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-001",
+    "target_character_id": "CHR-SRC016-003",
+    "relationship_type": "member-of-party",
+    "label": "Wukong and Zhu Bajie are fellow disciples.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 19.",
+        "supports": [
+          "Wukong and Zhu Bajie are fellow disciples."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-003",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-001",
+    "target_character_id": "CHR-SRC016-004",
+    "relationship_type": "member-of-party",
+    "label": "Wukong and Sha Wujing are fellow disciples.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 22.",
+        "supports": [
+          "Wukong and Sha Wujing are fellow disciples."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-004",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-001",
+    "target_character_id": "CHR-SRC016-005",
+    "relationship_type": "member-of-party",
+    "label": "Wukong and Yulong join Tang Sanzang’s party.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15.",
+        "supports": [
+          "Wukong and Yulong join Tang Sanzang’s party."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-005",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-002",
+    "target_character_id": "CHR-SRC016-003",
+    "relationship_type": "mentor",
+    "label": "Tang Sanzang receives Zhu Bajie as a disciple.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 19.",
+        "supports": [
+          "Tang Sanzang receives Zhu Bajie as a disciple."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-006",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-002",
+    "target_character_id": "CHR-SRC016-004",
+    "relationship_type": "mentor",
+    "label": "Tang Sanzang receives Sha Wujing as a disciple.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 22.",
+        "supports": [
+          "Tang Sanzang receives Sha Wujing as a disciple."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-007",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-002",
+    "target_character_id": "CHR-SRC016-005",
+    "relationship_type": "mentor",
+    "label": "Yulong serves Tang Sanzang’s pilgrimage.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15.",
+        "supports": [
+          "Yulong serves Tang Sanzang’s pilgrimage."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-008",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-006",
+    "target_character_id": "CHR-SRC016-002",
+    "relationship_type": "patron",
+    "label": "Guanyin recruits and protects Tang Sanzang.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8–12.",
+        "supports": [
+          "Guanyin recruits and protects Tang Sanzang."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-009",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-006",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "patron",
+    "label": "Guanyin arranges Wukong’s service.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8; 14.",
+        "supports": [
+          "Guanyin arranges Wukong’s service."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-010",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-006",
+    "target_character_id": "CHR-SRC016-003",
+    "relationship_type": "patron",
+    "label": "Guanyin prepares Zhu Bajie for recruitment.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 18–19.",
+        "supports": [
+          "Guanyin prepares Zhu Bajie for recruitment."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-011",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-006",
+    "target_character_id": "CHR-SRC016-004",
+    "relationship_type": "patron",
+    "label": "Guanyin prepares Sha Wujing for recruitment.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 22.",
+        "supports": [
+          "Guanyin prepares Sha Wujing for recruitment."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-012",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-006",
+    "target_character_id": "CHR-SRC016-005",
+    "relationship_type": "patron",
+    "label": "Guanyin directs Yulong’s service.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15.",
+        "supports": [
+          "Guanyin directs Yulong’s service."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-013",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-007",
+    "target_character_id": "CHR-SRC016-006",
+    "relationship_type": "patron",
+    "label": "The Buddha commissions Guanyin.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8.",
+        "supports": [
+          "The Buddha commissions Guanyin."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-014",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-007",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "The Buddha subdues Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 7.",
+        "supports": [
+          "The Buddha subdues Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-015",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-013",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "mentor",
+    "label": "Subhuti names and trains Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–2.",
+        "supports": [
+          "Subhuti names and trains Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-016",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-008",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "Heaven seeks to contain Wukong’s revolt.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 4–7.",
+        "supports": [
+          "Heaven seeks to contain Wukong’s revolt."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-017",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-008",
+    "target_character_id": "CHR-SRC016-012",
+    "relationship_type": "ruler",
+    "label": "Li Jing acts under the Jade Emperor.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 6.",
+        "supports": [
+          "Li Jing acts under the Jade Emperor."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-018",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-012",
+    "target_character_id": "CHR-SRC016-011",
+    "relationship_type": "kin",
+    "label": "Li Jing and Nezha are father and son.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 6.",
+        "supports": [
+          "Li Jing and Nezha are father and son."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-019",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-012",
+    "target_character_id": "CHR-SRC016-010",
+    "relationship_type": "ally",
+    "label": "Erlang joins Li Jing’s campaign.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 6.",
+        "supports": [
+          "Erlang joins Li Jing’s campaign."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-020",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-014",
+    "target_character_id": "CHR-SRC016-015",
+    "relationship_type": "ruler",
+    "label": "Wei Zheng serves Taizong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 10–11.",
+        "supports": [
+          "Wei Zheng serves Taizong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-021",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-016",
+    "target_character_id": "CHR-SRC016-005",
+    "relationship_type": "kin",
+    "label": "The Western Sea Dragon King is Yulong’s father.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15.",
+        "supports": [
+          "The Western Sea Dragon King is Yulong’s father."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-022",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-017",
+    "target_character_id": "CHR-SRC016-002",
+    "relationship_type": "opponent",
+    "label": "The bear steals Tang Sanzang’s cassock.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 16–17.",
+        "supports": [
+          "The bear steals Tang Sanzang’s cassock."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-023",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-017",
+    "target_character_id": "CHR-SRC016-006",
+    "relationship_type": "transformed-by",
+    "label": "Guanyin subdues and converts the bear.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 17.",
+        "supports": [
+          "Guanyin subdues and converts the bear."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-024",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-018",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "Yellow Wind Demon battles Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 20–21.",
+        "supports": [
+          "Yellow Wind Demon battles Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-025",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-020",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "White Bone Demon’s disguises provoke Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 27.",
+        "supports": [
+          "White Bone Demon’s disguises provoke Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-026",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-019",
+    "target_character_id": "CHR-SRC016-002",
+    "relationship_type": "opponent",
+    "label": "Yellow-Robed Demon endangers Tang Sanzang.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 28–31.",
+        "supports": [
+          "Yellow-Robed Demon endangers Tang Sanzang."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-027",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-021",
+    "target_character_id": "CHR-SRC016-022",
+    "relationship_type": "kin",
+    "label": "Gold-Horn and Silver-Horn are demon brothers.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 32–35.",
+        "supports": [
+          "Gold-Horn and Silver-Horn are demon brothers."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-028",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-021",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "Gold-Horn’s treasures oppose Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 32–35.",
+        "supports": [
+          "Gold-Horn’s treasures oppose Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-029",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-022",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "Silver-Horn’s treasures oppose Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 32–35.",
+        "supports": [
+          "Silver-Horn’s treasures oppose Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-030",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-023",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "Red Boy battles Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 40–42.",
+        "supports": [
+          "Red Boy battles Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-031",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-023",
+    "target_character_id": "CHR-SRC016-006",
+    "relationship_type": "transformed-by",
+    "label": "Guanyin binds Red Boy into her service.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 42.",
+        "supports": [
+          "Guanyin binds Red Boy into her service."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-032",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-024",
+    "target_character_id": "CHR-SRC016-025",
+    "relationship_type": "spouse",
+    "label": "Bull Demon King and Iron Fan are married.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 59–61.",
+        "supports": [
+          "Bull Demon King and Iron Fan are married."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-033",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-024",
+    "target_character_id": "CHR-SRC016-023",
+    "relationship_type": "kin",
+    "label": "Bull Demon King is Red Boy’s father.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 40–42.",
+        "supports": [
+          "Bull Demon King is Red Boy’s father."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-034",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-025",
+    "target_character_id": "CHR-SRC016-023",
+    "relationship_type": "kin",
+    "label": "Iron Fan is Red Boy’s mother.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 40–42.",
+        "supports": [
+          "Iron Fan is Red Boy’s mother."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-035",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-024",
+    "target_character_id": "CHR-SRC016-026",
+    "relationship_type": "lover",
+    "label": "Jade Face is Bull Demon King’s lover.",
+    "direction": "undirected",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 60.",
+        "supports": [
+          "Jade Face is Bull Demon King’s lover."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-036",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-024",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "Bull Demon King blocks Wukong’s passage.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 59–61.",
+        "supports": [
+          "Bull Demon King blocks Wukong’s passage."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-037",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-025",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "Iron Fan resists Wukong’s demand for the fan.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 59–61.",
+        "supports": [
+          "Iron Fan resists Wukong’s demand for the fan."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-038",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-027",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "Six-Eared Macaque imitates and fights Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 57–58.",
+        "supports": [
+          "Six-Eared Macaque imitates and fights Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-039",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-007",
+    "target_character_id": "CHR-SRC016-027",
+    "relationship_type": "opponent",
+    "label": "The Buddha identifies the false Monkey.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 58.",
+        "supports": [
+          "The Buddha identifies the false Monkey."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-040",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-028",
+    "target_character_id": "CHR-SRC016-002",
+    "relationship_type": "opponent",
+    "label": "Scorpion Demoness abducts Tang Sanzang.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 55.",
+        "supports": [
+          "Scorpion Demoness abducts Tang Sanzang."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-041",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-029",
+    "target_character_id": "CHR-SRC016-002",
+    "relationship_type": "opponent",
+    "label": "Hundred-Eyed Demon Lord traps the party.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 73.",
+        "supports": [
+          "Hundred-Eyed Demon Lord traps the party."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-042",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-030",
+    "target_character_id": "CHR-SRC016-002",
+    "relationship_type": "opponent",
+    "label": "Lady Earthflow abducts Tang Sanzang.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12893528.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 4, ch. 80–83.",
+        "supports": [
+          "Lady Earthflow abducts Tang Sanzang."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-043",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-031",
+    "target_character_id": "CHR-SRC016-001",
+    "relationship_type": "opponent",
+    "label": "King Yama’s officials summon Wukong.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 3.",
+        "supports": [
+          "King Yama’s officials summon Wukong."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC016-044",
+    "source_id": "SRC-016",
+    "source_character_id": "CHR-SRC016-031",
+    "target_character_id": "CHR-SRC016-014",
+    "relationship_type": "opponent",
+    "label": "Taizong faces the underworld judgment system.",
+    "direction": "directed",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 10–11.",
+        "supports": [
+          "Taizong faces the underworld judgment system."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  }
+]

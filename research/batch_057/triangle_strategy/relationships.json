@@ -1,0 +1,65 @@
+[
+  {
+    "relationship_id": "REL-SRC180-001",
+    "source_id": "SRC-180",
+    "source_character_id": "CHR-SRC180-001",
+    "target_character_id": "CHR-SRC180-002",
+    "relationship_type": "companion",
+    "label": "closest childhood friends",
+    "direction": "undirected",
+    "continuity": "Original Nintendo Switch release, US-English witness (2022); non-route-specific official profile",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Character: Prince Roland of Glenbrook",
+        "supports": [
+          "Square Enix describes Roland as Serenoa's closest friend."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Early stable friendship only; route-dependent political choices and outcomes are excluded."
+  },
+  {
+    "relationship_id": "REL-SRC180-002",
+    "source_id": "SRC-180",
+    "source_character_id": "CHR-SRC180-001",
+    "target_character_id": "CHR-SRC180-003",
+    "relationship_type": "other",
+    "label": "betrothed",
+    "direction": "undirected",
+    "continuity": "Original Nintendo Switch release, US-English witness (2022); non-route-specific official profile",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Character: Frederica Aesfrost",
+        "supports": [
+          "Square Enix identifies Frederica as Serenoa's betrothed."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Betrothal is directly profiled; marriage and all later route-dependent relationship outcomes are not asserted."
+  },
+  {
+    "relationship_id": "REL-SRC180-003",
+    "source_id": "SRC-180",
+    "source_character_id": "CHR-SRC180-004",
+    "target_character_id": "CHR-SRC180-001",
+    "relationship_type": "other",
+    "label": "steward and vowed advisor",
+    "direction": "directed",
+    "continuity": "Original Nintendo Switch release, US-English witness (2022); non-route-specific official profile",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Character: Benedict Pascal",
+        "supports": [
+          "Square Enix says Benedict vows to serve Serenoa faithfully."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Formal service/advisory relationship in the non-route-specific profile; later route votes and political actions are excluded."
+  }
+]

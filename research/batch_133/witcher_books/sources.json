@@ -1,0 +1,53 @@
+[
+  {
+    "source_id": "SRC-047",
+    "source_title": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I",
+    "continuity_scope": "The Last Wish in the specified English-language Orbit trade-paper edition (2022, ISBN 9780316452465), translated from Polish by Danusia Stok, bounded to the opening story ‘The Witcher,’ Section I only. This is a translation-specific book-continuity witness, not a claim about the Polish source text beyond the named author and publisher-documented translation credit. It does not merge CD PROJEKT games, Netflix television/animation, Polish screen adaptations, comics, other translations, later stories, novels, or folklore traditions.",
+    "work_or_witnesses": [
+      "Andrzej Sapkowski, The Last Wish, translated by Danusia Stok, Orbit trade paperback, 2022, ISBN 9780316452465, ‘The Witcher,’ Section I",
+      "Orbit/Hachette Book Group publisher page for the 2022 English edition",
+      "Hachette Book Group contributor page for Danusia Stok (translation-credit corroboration)"
+    ],
+    "coverage_rule": "Include the named individual dramatic participants directly present and acting in ‘The Witcher,’ Section I: Geralt of Rivia and Velerad. King Foltest, Princess Adda, Ostrit, and other names discussed in dialogue or backstory but not directly participating in Section I are omissions, not nodes. Witcher vocation/transformation, monsters and species, magic, Signs, potions/elixirs, artifacts, places, institutions, royalty, identity, contracts, travel, and folklore-associated terminology remain terms or omissions rather than peer character nodes.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "Foltest, Adda, Ostrit, the striga, and all other named or unnamed figures outside the two directly present Section I participants are omitted. Mention or discussion in this bounded opening segment is not sufficient for a character record.",
+      "The collection’s frame episodes and every later section of ‘The Witcher,’ as well as all other stories and novels, are excluded. Geralt’s later history, relationships, Signs, potions, equipment, transformation details, sexuality, fertility/infertility, and outcomes are not imported.",
+      "CD PROJEKT games (including the separate SRC-181 game pass), Netflix live-action/animation (including the separate SRC-268 television pass), Polish screen adaptations, comics, audio dramatizations, and other adaptations are excluded even where names or vocabulary overlap.",
+      "No factual claim about Polish folklore, real historical monarchy, ethnicity, race, gender, disability, bodily alteration, medicine, violence, sexuality, infertility, or real institutions is drawn from the English fantasy witness. Violence and bodily threat are not described graphically."
+    ],
+    "uncertainties": [
+      "This pass records the 2022 Orbit English edition and Danusia Stok’s English wording. It does not assert that every wording, name form, nuance, or folklore association is identical in the Polish original or in another translation/edition.",
+      "The publisher describes Geralt and witchers broadly for the collection; this is used only for edition-level vocabulary. Specific Section I facts are tied to the printed story’s Section I locator, not inferred from promotional copy.",
+      "‘Witcher’ is a source-specific English translated vocation/category. It is not treated as a real-world race, a generic role-playing class, a fixed biological essence, or a universal moral category.",
+      "The story’s monster terminology and court setting are fictional and translation-bound. The record does not resolve its relation to any living or historical folklore tradition, nor does it establish a clinical account of altered bodies, trauma, infertility, or mental state."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "The specified printed English translation, cited to story and Section I, is the primary witness. Orbit/Hachette’s publisher page verifies the exact 2022 English edition, ISBN, author, translator, and limited collection-level Witcher framing; Hachette’s contributor page corroborates Stok’s translation credit. No fan wiki, Wikipedia, unlicensed text, adaptation, game reference, or later-book summary establishes a character record.",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "The Last Wish, Orbit trade paperback, on sale 5 July 2022, ISBN-13 9780316452465; contributor and edition fields",
+        "supports": [
+          "Andrzej Sapkowski authorship", "Danusia Stok translation credit", "Orbit publisher", "2022 date", "ISBN", "source text translated from Polish"
+        ]
+      },
+      {
+        "url": "https://www.hachettebookgroup.com/contributor/danusia-stok/",
+        "locator": "Danusia Stok contributor page, The Last Wish listing",
+        "supports": [
+          "The Last Wish credited to Andrzej Sapkowski and translated by Danusia Stok"
+        ]
+      },
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "Andrzej Sapkowski, The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+        "supports": [
+          "Geralt and Velerad’s Section I names and direct dramatic presence", "Wyzima setting", "opening contract/monster context", "limited Section I interactions"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

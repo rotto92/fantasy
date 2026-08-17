@@ -1,0 +1,1241 @@
+[
+  {
+    "relationship_id": "REL-SRC011-001",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-001",
+    "target_character_id": "CHR-SRC011-002",
+    "relationship_type": "kin",
+    "label": "Gayumart’s son",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 118–123, ‘Gaiumart’",
+        "supports": [
+          "Gayumart’s son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-002",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-002",
+    "target_character_id": "CHR-SRC011-003",
+    "relationship_type": "kin",
+    "label": "Siyamak’s son",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 118–123, ‘Gaiumart’",
+        "supports": [
+          "Siyamak’s son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-003",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-003",
+    "target_character_id": "CHR-SRC011-004",
+    "relationship_type": "kin",
+    "label": "Hushang’s son and successor",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 118–123, ‘Gaiumart’",
+        "supports": [
+          "Hushang’s son and successor"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-004",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-005",
+    "target_character_id": "CHR-SRC011-006",
+    "relationship_type": "opponent",
+    "label": "Zahhak takes Jamshid’s throne",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–169, ‘Jamshid’ and ‘Zahhak’",
+        "supports": [
+          "Zahhak takes Jamshid’s throne"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-005",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-007",
+    "target_character_id": "CHR-SRC011-006",
+    "relationship_type": "other",
+    "label": "Iblis tempts and aids Zahhak",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–169, ‘Jamshid’ and ‘Zahhak’",
+        "supports": [
+          "Iblis tempts and aids Zahhak"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-006",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-008",
+    "target_character_id": "CHR-SRC011-009",
+    "relationship_type": "ally",
+    "label": "Kaveh’s revolt rallies to Fereydun",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–169, ‘Jamshid’ and ‘Zahhak’",
+        "supports": [
+          "Kaveh’s revolt rallies to Fereydun"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-007",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-009",
+    "target_character_id": "CHR-SRC011-006",
+    "relationship_type": "opponent",
+    "label": "Fereydun defeats and binds Zahhak",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–169, ‘Jamshid’ and ‘Zahhak’",
+        "supports": [
+          "Fereydun defeats and binds Zahhak"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-008",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-009",
+    "target_character_id": "CHR-SRC011-010",
+    "relationship_type": "kin",
+    "label": "Fereydun’s son",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "Fereydun’s son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-009",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-009",
+    "target_character_id": "CHR-SRC011-011",
+    "relationship_type": "kin",
+    "label": "Fereydun’s son",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "Fereydun’s son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-010",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-009",
+    "target_character_id": "CHR-SRC011-012",
+    "relationship_type": "kin",
+    "label": "Fereydun’s son",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "Fereydun’s son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-011",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-010",
+    "target_character_id": "CHR-SRC011-011",
+    "relationship_type": "ally",
+    "label": "Brothers allied against Iraj",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "Brothers allied against Iraj"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-012",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-010",
+    "target_character_id": "CHR-SRC011-012",
+    "relationship_type": "opponent",
+    "label": "Salm participates in Iraj’s murder",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "Salm participates in Iraj’s murder"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-013",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-011",
+    "target_character_id": "CHR-SRC011-012",
+    "relationship_type": "opponent",
+    "label": "Tur kills Iraj",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "Tur kills Iraj"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-014",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-013",
+    "target_character_id": "CHR-SRC011-012",
+    "relationship_type": "kin",
+    "label": "Manuchehr descends from Iraj",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 239–324, ‘Minuchihr’ (Zal, Rudaba, Rustam)",
+        "supports": [
+          "Manuchehr descends from Iraj"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-015",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-013",
+    "target_character_id": "CHR-SRC011-011",
+    "relationship_type": "opponent",
+    "label": "Manuchehr avenges Iraj by killing Tur",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "Manuchehr avenges Iraj by killing Tur"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-016",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-014",
+    "target_character_id": "CHR-SRC011-015",
+    "relationship_type": "kin",
+    "label": "Sam is Zal’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 239–324, ‘Minuchihr’ (Zal, Rudaba, Rustam)",
+        "supports": [
+          "Sam is Zal’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-017",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-016",
+    "target_character_id": "CHR-SRC011-015",
+    "relationship_type": "mentor",
+    "label": "Simorgh rears and aids Zal",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 239–324, ‘Minuchihr’ (Zal, Rudaba, Rustam)",
+        "supports": [
+          "Simorgh rears and aids Zal"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-018",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-015",
+    "target_character_id": "CHR-SRC011-017",
+    "relationship_type": "spouse",
+    "label": "Their contested courtship ends in marriage",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 239–324, ‘Minuchihr’ (Zal, Rudaba, Rustam)",
+        "supports": [
+          "Their contested courtship ends in marriage"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-019",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-015",
+    "target_character_id": "CHR-SRC011-018",
+    "relationship_type": "kin",
+    "label": "Zal is Rostam’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 239–324, ‘Minuchihr’ (Zal, Rudaba, Rustam)",
+        "supports": [
+          "Zal is Rostam’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-020",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-017",
+    "target_character_id": "CHR-SRC011-018",
+    "relationship_type": "kin",
+    "label": "Rudabeh is Rostam’s mother",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 239–324, ‘Minuchihr’ (Zal, Rudaba, Rustam)",
+        "supports": [
+          "Rudabeh is Rostam’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-021",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-018",
+    "target_character_id": "CHR-SRC011-019",
+    "relationship_type": "companion",
+    "label": "Rakhsh is Rostam’s named horse and companion",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 29–76, ‘Kai Kaus’ and ‘The Seven Courses of Rustam’",
+        "supports": [
+          "Rakhsh is Rostam’s named horse and companion"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-022",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-020",
+    "target_character_id": "CHR-SRC011-018",
+    "relationship_type": "ruler",
+    "label": "Rostam repeatedly serves and rescues Kay Kavus",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 29–76, ‘Kai Kaus’ and ‘The Seven Courses of Rustam’",
+        "supports": [
+          "Rostam repeatedly serves and rescues Kay Kavus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-023",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-020",
+    "target_character_id": "CHR-SRC011-021",
+    "relationship_type": "spouse",
+    "label": "Sudabeh is Kay Kavus’s wife",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Sudabeh is Kay Kavus’s wife"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-024",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-018",
+    "target_character_id": "CHR-SRC011-023",
+    "relationship_type": "lover",
+    "label": "Their meeting results in Sohrab’s birth",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 119–184, ‘Suhrab’",
+        "supports": [
+          "Their meeting results in Sohrab’s birth"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-025",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-018",
+    "target_character_id": "CHR-SRC011-022",
+    "relationship_type": "kin",
+    "label": "Rostam is Sohrab’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 119–184, ‘Suhrab’",
+        "supports": [
+          "Rostam is Sohrab’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-026",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-023",
+    "target_character_id": "CHR-SRC011-022",
+    "relationship_type": "kin",
+    "label": "Tahmineh is Sohrab’s mother",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 119–184, ‘Suhrab’",
+        "supports": [
+          "Tahmineh is Sohrab’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-027",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-022",
+    "target_character_id": "CHR-SRC011-024",
+    "relationship_type": "opponent",
+    "label": "They fight at the White Castle",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 119–184, ‘Suhrab’",
+        "supports": [
+          "They fight at the White Castle"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-028",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-018",
+    "target_character_id": "CHR-SRC011-022",
+    "relationship_type": "opponent",
+    "label": "They fight before recognizing their kinship",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 119–184, ‘Suhrab’",
+        "supports": [
+          "They fight before recognizing their kinship"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-029",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-020",
+    "target_character_id": "CHR-SRC011-025",
+    "relationship_type": "kin",
+    "label": "Kay Kavus is Siyavash’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Kay Kavus is Siyavash’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-030",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-021",
+    "target_character_id": "CHR-SRC011-025",
+    "relationship_type": "opponent",
+    "label": "Sudabeh’s accusation precipitates Siyavash’s ordeal",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Sudabeh’s accusation precipitates Siyavash’s ordeal"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-031",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-018",
+    "target_character_id": "CHR-SRC011-025",
+    "relationship_type": "mentor",
+    "label": "Rostam trains Siyavash in Zabulistan",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Rostam trains Siyavash in Zabulistan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-032",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-025",
+    "target_character_id": "CHR-SRC011-026",
+    "relationship_type": "spouse",
+    "label": "Siyavash marries Farangis",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Siyavash marries Farangis"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-033",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-027",
+    "target_character_id": "CHR-SRC011-026",
+    "relationship_type": "kin",
+    "label": "Afrasiyab is Farangis’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Afrasiyab is Farangis’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-034",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-027",
+    "target_character_id": "CHR-SRC011-025",
+    "relationship_type": "opponent",
+    "label": "Afrasiyab turns against and orders the death of Siyavash",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Afrasiyab turns against and orders the death of Siyavash"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-035",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-028",
+    "target_character_id": "CHR-SRC011-025",
+    "relationship_type": "opponent",
+    "label": "Garsivaz’s intrigue works against Siyavash",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Garsivaz’s intrigue works against Siyavash"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-036",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-029",
+    "target_character_id": "CHR-SRC011-025",
+    "relationship_type": "ally",
+    "label": "Piran mediates for Siyavash in Turan",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "Piran mediates for Siyavash in Turan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-037",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-025",
+    "target_character_id": "CHR-SRC011-030",
+    "relationship_type": "kin",
+    "label": "Siyavash is Kay Khosrow’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, ‘Kai Khusrau’; sections ‘Bizhan’ and ‘Manizha’",
+        "supports": [
+          "Siyavash is Kay Khosrow’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-038",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-026",
+    "target_character_id": "CHR-SRC011-030",
+    "relationship_type": "kin",
+    "label": "Farangis is Kay Khosrow’s mother",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, ‘Kai Khusrau’; sections ‘Bizhan’ and ‘Manizha’",
+        "supports": [
+          "Farangis is Kay Khosrow’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-039",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-030",
+    "target_character_id": "CHR-SRC011-027",
+    "relationship_type": "opponent",
+    "label": "Kay Khosrow’s war culminates in Afrasiyab’s defeat",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama04firduoft",
+        "locator": "Vol. IV, pp. 158–316, ‘The Great War of Kai Khusrau with Afrasiyab’ and ‘Luhrasp’",
+        "supports": [
+          "Kay Khosrow’s war culminates in Afrasiyab’s defeat"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-040",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-031",
+    "target_character_id": "CHR-SRC011-030",
+    "relationship_type": "ally",
+    "label": "Giv finds and escorts Kay Khosrow from Turan",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, ‘Kai Khusrau’; sections ‘Bizhan’ and ‘Manizha’",
+        "supports": [
+          "Giv finds and escorts Kay Khosrow from Turan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-041",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-031",
+    "target_character_id": "CHR-SRC011-032",
+    "relationship_type": "kin",
+    "label": "Giv is Bijan’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, ‘Kai Khusrau’; sections ‘Bizhan’ and ‘Manizha’",
+        "supports": [
+          "Giv is Bijan’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-042",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-032",
+    "target_character_id": "CHR-SRC011-033",
+    "relationship_type": "lover",
+    "label": "Manizheh and Bijan’s relationship drives his imprisonment story",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, ‘Kai Khusrau’; sections ‘Bizhan’ and ‘Manizha’",
+        "supports": [
+          "Manizheh and Bijan’s relationship drives his imprisonment story"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-043",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-027",
+    "target_character_id": "CHR-SRC011-032",
+    "relationship_type": "opponent",
+    "label": "Afrasiyab imprisons Bijan",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, ‘Kai Khusrau’; sections ‘Bizhan’ and ‘Manizha’",
+        "supports": [
+          "Afrasiyab imprisons Bijan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-044",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-034",
+    "target_character_id": "CHR-SRC011-035",
+    "relationship_type": "kin",
+    "label": "Lohrasp is Goshtasp’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama04firduoft",
+        "locator": "Vol. IV, pp. 158–316, ‘The Great War of Kai Khusrau with Afrasiyab’ and ‘Luhrasp’",
+        "supports": [
+          "Lohrasp is Goshtasp’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-045",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-035",
+    "target_character_id": "CHR-SRC011-037",
+    "relationship_type": "patron",
+    "label": "Goshtasp accepts Zardusht’s evangel",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 31–114, ‘The Coming of Zarduhsht and the War with Arjasp’",
+        "supports": [
+          "Goshtasp accepts Zardusht’s evangel"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-046",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-035",
+    "target_character_id": "CHR-SRC011-040",
+    "relationship_type": "kin",
+    "label": "Goshtasp is Esfandiyar’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 31–114, ‘The Coming of Zarduhsht and the War with Arjasp’",
+        "supports": [
+          "Goshtasp is Esfandiyar’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-047",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-036",
+    "target_character_id": "CHR-SRC011-040",
+    "relationship_type": "kin",
+    "label": "Katayun is Esfandiyar’s mother",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 167–256, ‘The Story of Asfandiyar’s Fight with Rustam’",
+        "supports": [
+          "Katayun is Esfandiyar’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-048",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-038",
+    "target_character_id": "CHR-SRC011-039",
+    "relationship_type": "opponent",
+    "label": "Arjasp’s war results in Zarir’s death",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 31–114, ‘The Coming of Zarduhsht and the War with Arjasp’",
+        "supports": [
+          "Arjasp’s war results in Zarir’s death"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-049",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-040",
+    "target_character_id": "CHR-SRC011-038",
+    "relationship_type": "opponent",
+    "label": "Esfandiyar defeats and kills Arjasp",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 31–114, ‘The Coming of Zarduhsht and the War with Arjasp’",
+        "supports": [
+          "Esfandiyar defeats and kills Arjasp"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-050",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-040",
+    "target_character_id": "CHR-SRC011-041",
+    "relationship_type": "kin",
+    "label": "Esfandiyar is Bahman’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 263–292, ‘The Story of Rustam and Shaghad’ and ‘Bahman’",
+        "supports": [
+          "Esfandiyar is Bahman’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-051",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-035",
+    "target_character_id": "CHR-SRC011-040",
+    "relationship_type": "ruler",
+    "label": "Goshtasp directs Esfandiyar’s missions and conflict with Rostam",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 167–256, ‘The Story of Asfandiyar’s Fight with Rustam’",
+        "supports": [
+          "Goshtasp directs Esfandiyar’s missions and conflict with Rostam"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-052",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-018",
+    "target_character_id": "CHR-SRC011-040",
+    "relationship_type": "opponent",
+    "label": "Their conflict ends in Esfandiyar’s death",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 167–256, ‘The Story of Asfandiyar’s Fight with Rustam’",
+        "supports": [
+          "Their conflict ends in Esfandiyar’s death"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-053",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-018",
+    "target_character_id": "CHR-SRC011-042",
+    "relationship_type": "kin",
+    "label": "Shaghad is Rostam’s half-brother",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 263–292, ‘The Story of Rustam and Shaghad’ and ‘Bahman’",
+        "supports": [
+          "Shaghad is Rostam’s half-brother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-054",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-042",
+    "target_character_id": "CHR-SRC011-018",
+    "relationship_type": "opponent",
+    "label": "Shaghad’s conspiracy traps Rostam",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 263–292, ‘The Story of Rustam and Shaghad’ and ‘Bahman’",
+        "supports": [
+          "Shaghad’s conspiracy traps Rostam"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-055",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-041",
+    "target_character_id": "CHR-SRC011-015",
+    "relationship_type": "opponent",
+    "label": "Bahman seeks revenge on Zal’s house after Esfandiyar’s death",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 263–292, ‘The Story of Rustam and Shaghad’ and ‘Bahman’",
+        "supports": [
+          "Bahman seeks revenge on Zal’s house after Esfandiyar’s death"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-056",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-041",
+    "target_character_id": "CHR-SRC011-043",
+    "relationship_type": "kin",
+    "label": "Humay succeeds Bahman in the dynastic sequence",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 263–292, ‘The Story of Rustam and Shaghad’ and ‘Bahman’",
+        "supports": [
+          "Humay succeeds Bahman in the dynastic sequence"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-057",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-044",
+    "target_character_id": "CHR-SRC011-045",
+    "relationship_type": "kin",
+    "label": "Darab is Dara’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 20–50, ‘Darab,’ ‘Dara,’ and ‘Sikandar’",
+        "supports": [
+          "Darab is Dara’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-058",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-045",
+    "target_character_id": "CHR-SRC011-046",
+    "relationship_type": "opponent",
+    "label": "Dara and Sikandar fight; Dara dies after defeat and betrayal",
+    "direction": "undirected",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 20–50, ‘Darab,’ ‘Dara,’ and ‘Sikandar’",
+        "supports": [
+          "Dara and Sikandar fight; Dara dies after defeat and betrayal"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  },
+  {
+    "relationship_id": "REL-SRC011-059",
+    "source_id": "SRC-011",
+    "source_character_id": "CHR-SRC011-047",
+    "target_character_id": "CHR-SRC011-048",
+    "relationship_type": "kin",
+    "label": "Ardashir is Shapur’s father",
+    "direction": "directed",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 216–286, ‘Ardshir Papakan’ and ‘Shapur, Son of Ardshir’",
+        "supports": [
+          "Ardashir is Shapur’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Limited to the poem’s stated relationship; no adaptation or later-tradition inference."
+  }
+]

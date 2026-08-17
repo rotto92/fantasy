@@ -1,0 +1,78 @@
+[
+  {
+    "source_id": "SRC-102",
+    "source_title": "Warhammer Age of Sigmar",
+    "continuity_scope": "Terms-only audit bound to the 272-page Warhammer Age of Sigmar Core Book released as part of the Fourth Edition Skaventide launch on July 13, 2024. The current official June 2026 Rules Updates document is recorded only as the maintenance boundary for the Fourth Edition rules. Warhammer Fantasy Roleplay, Warhammer: The Old World, Warhammer Fantasy Battles, Age of Sigmar fiction, video games, miniature-product narratives, prior editions, and other adaptations are separate products or continuities and are not merged.",
+    "work_or_witnesses": [
+      {
+        "work": "Warhammer Age of Sigmar Core Book",
+        "edition": "Games Workshop Fourth Edition core book, 272-page Skaventide launch product, July 13, 2024",
+        "url": "https://www.warhammer-community.com/en-gb/articles/pH2l08Cs/sunday-preview-skaventide-approaches/"
+      },
+      {
+        "work": "Download the Warhammer Age of Sigmar Core Rules, Battle Profiles, and More for Free",
+        "edition": "Official Fourth Edition rules rollout, July 8, 2024",
+        "url": "https://www.warhammer-community.com/en-gb/articles/kC5HtXzf/download-the-warhammer-age-of-sigmar-core-rules-battle-profiles-and-more-for-free/"
+      },
+      {
+        "work": "Warhammer Age of Sigmar Rules Updates",
+        "edition": "Official Fourth Edition rules/errata update, June 2026",
+        "url": "https://assets.warhammer-community.com/eng_29-06_aos_core_rules_rules_update-nhxk3euo7f-en2yc0zf6g.pdf"
+      },
+      {
+        "work": "Warhammer Fest 2023 Live Blog and Stream",
+        "edition": "Official Games Workshop setting-separation statement, April 30, 2023",
+        "url": "https://www.warhammer-community.com/en-gb/articles/mH5khgPy/warhammer-fest-2023-live-blog-and-stream-watch-all-the-reveals/"
+      }
+    ],
+    "coverage_rule": "No individual characters are included. The accessible official Core Book and rollout evidence describes a tabletop rules set, the Mortal Realms, game modes, faction packs, and miniatures, but does not provide a stable claim-level profile for a named dramatic individual from this exact witness. Factions, unit types, peoples, gods, magic, items, realms, and rules remain terms/context; miniature or warscroll presence alone is not a character biography.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named individuals, including named miniature sculpts, warscroll figures, gods, historical agents, and faction leaders, because the selected Core Book/rollout witness supplies no claim-level dramatic profile.",
+      "All character, quest, event, and outcome claims from Warhammer Fantasy Roleplay, Warhammer: The Old World, Warhammer Fantasy Battles, novels, Black Library fiction, video games, miniatures-game campaigns, and other licensed adaptations.",
+      "All product-specific claims from faction battletomes, faction packs, General’s Handbooks, Spearhead books, campaign supplements, and season material beyond the limited Core Book descriptions expressly cited.",
+      "All unverified retcons, campaign chronology synthesis, and claims derived only from miniature design, paint schemes, product art, or a unit’s name."
+    ],
+    "uncertainties": [
+      "This audit privileges the exact Fourth Edition Core Book released with Skaventide on July 13, 2024. A separately previewed 288-page hardback Core Book exists in official pre-release retail copy, so no unverified claim that the two print presentations have identical pagination or contents is made.",
+      "The Core Book combines setting background, rules, and miniature galleries. A gallery, model, or warscroll is evidence of product representation or game use, not by itself a narrative profile, motive, relationship, or chronology for a named character.",
+      "Age of Sigmar develops its setting story over time. The audit does not reconcile earlier editions, campaign events, seasonal material, or later revisions; terms are constrained to the cited Fourth Edition Core Book context.",
+      "The official June 2026 Rules Updates states that newer updates take precedence. It is used only to record the active errata hierarchy, not mined for later faction or character claims.",
+      "Official material centers warfare, death, destruction, supernatural conflict, and miniatures combat. These are fictional game/narrative contexts, not claims about real peoples, belief systems, or acceptable real-world conduct."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Games Workshop launch and download material establishes the Fourth Edition Core Book’s July 2024 Skaventide release, its Mortal Realms setting role, and the Core Rules, Advanced Rules, Spearhead, Path to Glory: Ascension, and Matched Play: First Blood structures. The June 2026 update establishes the live rules-maintenance hierarchy. The available witness contains no sufficiently profile-specific named dramatic character evidence, so this is a terms-only audit.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/pH2l08Cs/sunday-preview-skaventide-approaches/",
+        "locator": "Official preview, Core Book paragraph and July 13 release-date paragraph",
+        "supports": [
+          "272-page Fourth Edition Core Book in the Skaventide launch, July 13, 2024 release date, Mortal Realms cosmology, and eight-realm exploration."
+        ]
+      },
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/kC5HtXzf/download-the-warhammer-age-of-sigmar-core-rules-battle-profiles-and-more-for-free/",
+        "locator": "Official rules rollout, opening and downloads description",
+        "supports": [
+          "Fourth Edition core/advanced rules, Spearhead, terrain, glossary, and rules-update document context."
+        ]
+      },
+      {
+        "url": "https://assets.warhammer-community.com/eng_29-06_aos_core_rules_rules_update-nhxk3euo7f-en2yc0zf6g.pdf",
+        "locator": "Official June 2026 Rules Updates, contents, Key, and precedence statement",
+        "supports": [
+          "Current Fourth Edition errata/update boundary and the rule that later updates take precedence."
+        ]
+      },
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/mH5khgPy/warhammer-fest-2023-live-blog-and-stream-watch-all-the-reveals/",
+        "locator": "Official live blog, April 30 2023, 4:00pm entry",
+        "supports": [
+          "Games Workshop’s distinction among Age of Sigmar’s Mortal Realms, WFRP’s Old World, and the Warhammer 40,000 setting."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

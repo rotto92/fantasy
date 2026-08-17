@@ -1,0 +1,379 @@
+[
+  {
+    "term_id": "STM-SRC001-001",
+    "source_id": "SRC-001",
+    "canonical_term": "theos",
+    "original_language": "Ancient Greek",
+    "original_script": "θεός",
+    "transliteration": "theos",
+    "literal_gloss": "god",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Divine being; specific powers and relationships vary by witness.",
+    "cultural_caution": "Not a generic fantasy race.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "104–115",
+        "supports": [
+          "Divine being; specific powers and relationships vary by witness."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-002",
+    "source_id": "SRC-001",
+    "canonical_term": "Titan",
+    "original_language": "Ancient Greek",
+    "original_script": "Τιτάν",
+    "transliteration": "Titan",
+    "literal_gloss": "Titan",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-408"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Primordial divine generation in Hesiodic genealogy.",
+    "cultural_caution": "The mapping is an analytical aid, not equivalence with modern 'titans'.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "132–138",
+        "supports": [
+          "Primordial divine generation in Hesiodic genealogy."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-003",
+    "source_id": "SRC-001",
+    "canonical_term": "nymphe",
+    "original_language": "Ancient Greek",
+    "original_script": "νύμφη",
+    "transliteration": "nymphe",
+    "literal_gloss": "nymph / young woman",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-204"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A divine or semi-divine female figure; category varies by context.",
+    "cultural_caution": "Avoid reducing all nymphai to one fantasy species.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "5.1–227",
+        "supports": [
+          "A divine or semi-divine female figure; category varies by context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-004",
+    "source_id": "SRC-001",
+    "canonical_term": "Kyklops",
+    "original_language": "Ancient Greek",
+    "original_script": "Κύκλωψ",
+    "transliteration": "Kyklops",
+    "literal_gloss": "round-eye / Cyclops",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-111"
+    ],
+    "mapping_relation": "partial",
+    "definition": "One-eyed being, exemplified by Polyphemus in Odyssey 9.",
+    "cultural_caution": "Hesiodic smith Cyclopes and Homeric Polyphemus are not identical social types.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "9.105–566",
+        "supports": [
+          "One-eyed being, exemplified by Polyphemus in Odyssey 9."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-005",
+    "source_id": "SRC-001",
+    "canonical_term": "Gorgon",
+    "original_language": "Ancient Greek",
+    "original_script": "Γοργών",
+    "transliteration": "Gorgon",
+    "literal_gloss": "Gorgon",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Medusa is a mortal Gorgon in the Library.",
+    "cultural_caution": "No normalized mapping is supplied because the workbook lacks a precise non-flattening category.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "2.4.2–2.4.3",
+        "supports": [
+          "Medusa is a mortal Gorgon in the Library."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-006",
+    "source_id": "SRC-001",
+    "canonical_term": "heros",
+    "original_language": "Ancient Greek",
+    "original_script": "ἥρως",
+    "transliteration": "heros",
+    "literal_gloss": "hero",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "A source-native designation with cultic and genealogical as well as narrative force.",
+    "cultural_caution": "Do not reduce Greek heroes to a modern job/class.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "2.4.1–2.4.7",
+        "supports": [
+          "A source-native designation with cultic and genealogical as well as narrative force."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-007",
+    "source_id": "SRC-001",
+    "canonical_term": "xenia",
+    "original_language": "Ancient Greek",
+    "original_script": "ξενία",
+    "transliteration": "xenia",
+    "literal_gloss": "guest-friendship / hospitality",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-801",
+      "LAW-802"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Guest-host reciprocity materially structures the Polyphemus episode.",
+    "cultural_caution": "The modern labels only approximate embedded social and religious norms.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "9.105–566",
+        "supports": [
+          "Guest-host reciprocity materially structures the Polyphemus episode."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-008",
+    "source_id": "SRC-001",
+    "canonical_term": "moira",
+    "original_language": "Ancient Greek",
+    "original_script": "μοῖρα",
+    "transliteration": "moira",
+    "literal_gloss": "portion / allotted fate",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-501"
+    ],
+    "mapping_relation": "partial",
+    "definition": "An allotted portion or fate, used in Achilles' mortality framework.",
+    "cultural_caution": "Meaning and personification vary; not a simple deterministic system.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "18.90–126",
+        "supports": [
+          "An allotted portion or fate, used in Achilles' mortality framework."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-009",
+    "source_id": "SRC-001",
+    "canonical_term": "kleos",
+    "original_language": "Ancient Greek",
+    "original_script": "κλέος",
+    "transliteration": "kleos",
+    "literal_gloss": "renown / what is heard",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Heroic renown and song are central to Achilles' choice.",
+    "cultural_caution": "No taxonomy mapping supplied rather than equating it with generic fame.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "9.410–416",
+        "supports": [
+          "Heroic renown and song are central to Achilles' choice."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-010",
+    "source_id": "SRC-001",
+    "canonical_term": "nostos",
+    "original_language": "Ancient Greek",
+    "original_script": "νόστος",
+    "transliteration": "nostos",
+    "literal_gloss": "return home",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Return journey and restoration of household order in the Odyssey.",
+    "cultural_caution": "Do not collapse it into every modern quest-return plot.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "1.1–21",
+        "supports": [
+          "Return journey and restoration of household order in the Odyssey."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-011",
+    "source_id": "SRC-001",
+    "canonical_term": "metis",
+    "original_language": "Ancient Greek",
+    "original_script": "μῆτις",
+    "transliteration": "metis",
+    "literal_gloss": "cunning intelligence",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [
+      "ROL-217"
+    ],
+    "mapping_relation": "functional",
+    "definition": "Resourceful stratagem, exemplified by Odysseus's Polyphemus plan.",
+    "cultural_caution": "Functional mapping to trickster is not a lexical equivalence.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "9.345–566",
+        "supports": [
+          "Resourceful stratagem, exemplified by Odysseus's Polyphemus plan."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-012",
+    "source_id": "SRC-001",
+    "canonical_term": "katabasis",
+    "original_language": "Ancient Greek",
+    "original_script": "κατάβασις",
+    "transliteration": "katabasis",
+    "literal_gloss": "descent",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-611"
+    ],
+    "mapping_relation": "functional",
+    "definition": "Descent toward the realm of the dead, exemplified by Odysseus's Nekyia.",
+    "cultural_caution": "A modern analytical label rather than a single technical category in every Greek text.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "11.1–640",
+        "supports": [
+          "Descent toward the realm of the dead, exemplified by Odysseus's Nekyia."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-013",
+    "source_id": "SRC-001",
+    "canonical_term": "pharmaka",
+    "original_language": "Ancient Greek",
+    "original_script": "φάρμακα",
+    "transliteration": "pharmaka",
+    "literal_gloss": "drugs / potions",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Substances used by Circe in the transformation of Odysseus's companions.",
+    "cultural_caution": "Not automatically a modern 'magic system' or witch class.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "10.210–347",
+        "supports": [
+          "Substances used by Circe in the transformation of Odysseus's companions."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-014",
+    "source_id": "SRC-001",
+    "canonical_term": "daimon",
+    "original_language": "Ancient Greek",
+    "original_script": "δαίμων",
+    "transliteration": "daimon",
+    "literal_gloss": "divine power / spirit",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "A divine or superhuman power term with context-dependent use.",
+    "cultural_caution": "Do not translate as the later Christianized 'demon' without context.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "1.222",
+        "supports": [
+          "A divine or superhuman power term with context-dependent use."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC001-015",
+    "source_id": "SRC-001",
+    "canonical_term": "Olympios",
+    "original_language": "Ancient Greek",
+    "original_script": "Ὀλύμπιος",
+    "transliteration": "Olympios",
+    "literal_gloss": "Olympian",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "God associated with Olympus in Hesiod's divine order.",
+    "cultural_caution": "Olympian is a source-relevant grouping, not a biological people.",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "104–115",
+        "supports": [
+          "God associated with Olympus in Hesiod's divine order."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

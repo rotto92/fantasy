@@ -1,0 +1,48 @@
+[
+  {
+    "source_id": "SRC-121",
+    "source_title": "HeroQuest Game System",
+    "continuity_scope": "Bound to the Avalon Hill/Hasbro HeroQuest Game System retail core, product F3649, copyright 2021. Hasbro announced the retail relaunch on November 15, 2021 and said it would ship in December 2021; no more precise official retail street date was verified. This is the 2021 Avalon Hill remake/relaunch, not the 1989 MB/Games Workshop game, a HasLab tier with exclusive content, First Light, or any later product.",
+    "work_or_witnesses": [
+      "Avalon Hill HeroQuest Game System, F3649, Hasbro, 2021 retail core",
+      "Avalon Hill - HeroQuest Instructions, F3649, official Hasbro download",
+      "Hasbro retail-relaunch announcement, November 15, 2021"
+    ],
+    "coverage_rule": "Include a named person only where the official core-product witness supplies a stable individual identity and dramatic role. Zargon qualifies as the named Dread sorcerer opposing the heroes and as the in-game Game Master role. Barbarian, Dwarf, Elf, and Wizard are title-only, player-selected hero roles; monsters, spells, objects, rooms, quests, and other mechanics remain terms. Mentor is omitted because the selected retail-core product description does not provide a claim-level profile, despite later app narration references.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "The original 1989 MB/Games Workshop editions and their regional rules, names, artwork, and continuity.",
+      "HasLab Heroic/Mythic tier exclusive materials, including exclusive figures and quest books, even when marketed as part of the 2020 relaunch campaign.",
+      "All quest packs, expansions, First Light, downloadable/player-created quests, app content, novels, video games, and other adaptations.",
+      "The four player heroes and all hero names chosen by players, because the core product defines only role titles, not stable named individuals.",
+      "Mentor, named quest NPCs, and villains not directly claim-level profiled in the bounded retail-core product evidence."
+    ],
+    "uncertainties": [
+      "The public F3649 instructions download is an official 10.29 MB resource, but the accessible web rendering does not expose a searchable rulebook/Quest Book text. This pass relies on claim-level official product and announcement text rather than transcribing images.",
+      "No official core F3649 errata, revision log, or retcon policy was found in the reviewed witness set. The downloadable instructions file is not treated as proof of a later rules revision merely because its hosting metadata may change.",
+      "The Companion App is an optional Digital Zargon mode with its own supported languages, saving, options, later expansion plans, and house-rule feedback path; it is not a replacement continuity for tabletop core play.",
+      "HeroQuest depicts fantasy combat, monsters, traps, death/defeat, evil forces, and dungeon horror. Class/species labels are genre/game roles rather than claims about real peoples or occupations."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Hasbro/Avalon Hill instructions, newsroom, and Companion App documentation only. No fan wikis, Wikipedia, unofficial rules scans, or player-created quest material were used as canonical evidence.",
+    "citations": [
+      {
+        "url": "https://instructions.hasbro.com/en-ca/instruction/heroquest-game-instructions-rulebook",
+        "locator": "Avalon Hill (F3649); Product Info",
+        "supports": ["Identifies F3649 and describes the Game Master, four hero roles, 14 quests, components, and player-created quests."]
+      },
+      {
+        "url": "https://newsroom.hasbro.com/node/32406",
+        "locator": "November 15, 2021 announcement; opening paragraphs",
+        "supports": ["Dates the retail relaunch announcement, identifies it as an all-new retail version, and states December shipment intent."]
+      },
+      {
+        "url": "https://old.uk.hasbropulse.com/de/blogs/avalon-hill/heroquest-companion-app-details-and-release-date",
+        "locator": "Digital Zargon; future versions",
+        "supports": ["Establishes the Companion App as optional and distinct from the standard tabletop Zargon role."]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

@@ -1,0 +1,741 @@
+[
+  {
+    "character_id": "CHR-SRC254-001",
+    "canonical_name": "Merlin",
+    "aliases": [],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI prologue and synopsis paragraphs 1093–1103",
+    "character_kind": "individual",
+    "description": "The film's named sorcerer, associated with the coming king and Excalibur. He gives Uther counsel, conjures the Lady of the Lake and a disguise spell, takes the infant Arthur under the agreed condition, and later tells Arthur his parentage and destiny.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sorcerer",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct onscreen-prologue and synopsis designation."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "source-fiction conjuring and disguise magic",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "AFI describes conjuring the Lady and changing Uther's countenance; no complete magic system is inferred."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Excalibur",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "He summons it through the Lady and declares its succession condition."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "sword-in-stone kingship condition",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "He declares the true king is the person who draws it."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "succession-guiding sorcerer",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Selected segment actions only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in the selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI prologue, line 60; synopsis, lines 1093–1103",
+        "supports": [
+          "Merlin name/sorcerer role, counsel, magic, Arthur custody, parentage disclosure, and sword condition"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is Boorman-film Merlin only, not Malory or another Arthurian Merlin.",
+      "The deception spell is recorded as part of the film's non-consensual sexual-deception premise, not as a neutral romance device or real magical practice."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-002",
+    "canonical_name": "Uther Pendragon",
+    "aliases": [
+      "Uther"
+    ],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1093–1100",
+    "character_kind": "individual",
+    "description": "A victorious claimant who accepts Excalibur, negotiates with Cornwall, then ends the truce through lust for Igrayne. He secures a disguise spell to impersonate Cornwall and agrees that Merlin may take the resulting child; after an ambush, he drives Excalibur into stone as he dies.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Pendragon claimant/war leader",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct name and martial/political action; no extra dynastic history is added."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "fatal ambush after Arthur's birth",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "AFI says he is ambushed and dies; no injury detail is included."
+        }
+      ],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Excalibur",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "He brandishes it, later puts it in the stone."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "Merlin's Cornwall-disguise spell",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Used to impersonate Cornwall; no general spell rule is inferred."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "truce-breaking father of the future king",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Bound to selected events only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in the selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI cast credits, lines 247–250; synopsis, lines 1093–1100",
+        "supports": [
+          "Uther Pendragon, Excalibur, Cornwall truce, Igrayne deception, Arthur agreement, ambush, death, and sword in stone"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The encounter with Igrayne is described as sexual deception enabled by impersonation; it is not classified as consensual romance.",
+      "His death and combat are source-fiction plot facts only, without graphic detail or historical inference."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-003",
+    "canonical_name": "Cornwall",
+    "aliases": [
+      "Duke of Cornwall"
+    ],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1093–1100",
+    "character_kind": "individual",
+    "description": "The duke who accepts Uther's proposed truce and land arrangement, hosts a banquet, and rides into battle after Uther's desire for Igrayne ends the truce. Igrayne learns he was killed during the night.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "duke",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct AFI synopsis designation."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "killed during the truce-breaking conflict",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The synopsis says Igrayne learns this; no combat detail is supplied."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "castle-to-shore land",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Only the proposed truce territory in the selected synopsis."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI cast credits, lines 314–317; synopsis, lines 1093–1100",
+        "supports": [
+          "Cornwall/Duke title, truce, Igrayne marriage, battle, and reported death"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Cornwall is this film's individual duke, not the English region or a claim about historical Cornwall.",
+      "The record does not treat his death as graphic or import any Arthurian-text version."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-004",
+    "canonical_name": "Igrayne",
+    "aliases": [],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1094–1100",
+    "character_kind": "individual",
+    "description": "Cornwall's wife and Morgana's mother. Uther obtains a spell that makes him look like Cornwall and thereby deceives Igrayne; she later learns Cornwall is dead and gives birth to Arthur.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "deceived by Cornwall impersonation",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "AFI says the ruse fools Igrayne."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "Merlin's disguise spell",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Context for the impersonation; no broad magic claim."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "deceived mother of Arthur",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Strictly describes the selected synopsis events."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI cast credits, lines 255–258; synopsis, lines 1094–1100",
+        "supports": [
+          "Igrayne name, marriage to Cornwall, Morgana parentage, impersonation deception, and Arthur birth"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The film synopsis supports non-consensual sexual deception through impersonation. This record does not call it a romance or add graphic/psychological detail.",
+      "No later role, religious framing, or adaptation-text identity is imported."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-005",
+    "canonical_name": "Morgana",
+    "aliases": [
+      "Young Morgana"
+    ],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1094–1100",
+    "character_kind": "individual",
+    "description": "Igrayne's young daughter, who sees through Merlin's spell and recognizes that Uther is not Cornwall.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "witness to disguise magic",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "She sees the truth despite the spell; no independent ability is claimed."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "child witness to deception",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "AFI calls her young daughter; this is a narrative position, not a numerical age."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI cast credits, lines 220–223 and 359–362; synopsis, lines 1094–1100",
+        "supports": [
+          "Morgana/Young Morgana credit forms, Igrayne daughter relation, and recognition of the deception"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Young Morgana is a credited age-stage description of Morgana in this film, not a separate peer-level person.",
+      "No number age, later magical status, sexual-content claim, or later plot is added."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-006",
+    "canonical_name": "Arthur Pendragon",
+    "aliases": [
+      "Arthur",
+      "King Arthur"
+    ],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI prologue and synopsis paragraphs 1093–1103",
+    "character_kind": "individual",
+    "description": "The infant taken by Merlin after Uther's agreement and later a teenage squire to Kay. He draws Excalibur from the stone, learns his parentage and destiny, then asks Uryens to knight him before Uryens recognizes him as king.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teenage squire",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Exact selected-synopsis role with Kay."
+        },
+        {
+          "term": "king recognized by Uryens",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Film-specific accession event, not a general Arthurian office claim."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "draws Excalibur from the stone",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct succession event."
+        }
+      ],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Excalibur",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "He draws and hands it to Uryens for knighting."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "true-king sword condition",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Merlin's declared condition is fulfilled in this film scene."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "hidden-heir accession figure",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Infant removal, parentage disclosure, and recognition; no later reign content."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI prologue, line 60; cast credits, lines 216–219; synopsis, lines 1095–1103",
+        "supports": [
+          "Arthur Pendragon/King Arthur forms, birth/taking, Kay squire role, sword drawing, parentage/destiny, and Uryens knighting recognition"
+        ]
+      },
+      {
+        "url": "https://www.screenonline.org.uk/film/id/491054/credits.html",
+        "locator": "BFI Screenonline, Excalibur (1981) credits: King Arthur — Nigel Terry",
+        "supports": [
+          "Independent institutional confirmation of King Arthur as a credited character in John Boorman's 1981 Excalibur"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Arthur's teenage status is explicit for this selected scene; it does not justify a broader youth biography.",
+      "This is the 1981 film's compressed accession sequence, not Malory or another Arthurian Arthur."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-007",
+    "canonical_name": "Kay",
+    "aliases": [],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1101–1102",
+    "character_kind": "individual",
+    "description": "Arthur's older brother, for whom teenage Arthur serves as squire. When Kay's sword is stolen, Arthur seeks a replacement and draws Excalibur from the stone.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "squire's older brother",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "AFI says Arthur is squire to Kay and calls Kay his older brother; no later office is added."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "stolen sword",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Catalyst for Arthur needing a replacement, not Excalibur itself."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI cast credits, lines 318–321; synopsis, lines 1101–1102",
+        "supports": [
+          "Kay name, older-brother relation, Arthur's squire role, and sword-theft catalyst"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Older brother is retained as the selected AFI film synopsis states it; no other Arthurian kinship tradition is merged.",
+      "No later Round Table role or conflict is included."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-008",
+    "canonical_name": "Leondegrance",
+    "aliases": [],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1101–1103",
+    "character_kind": "individual",
+    "description": "A joust winner who cannot draw Excalibur and later declares allegiance when Arthur draws it. His castle and supporters are under siege, and Guenevere is his daughter.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Arthur's early supporter",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "He declares allegiance after Arthur draws Excalibur; no future political role is claimed."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Leondegrance's castle",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Named only as the siege setting."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI cast credits, lines 322–325; synopsis, lines 1101–1103",
+        "supports": [
+          "Leondegrance name, joust, inability to draw sword, allegiance, castle siege, and Guenevere parentage"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "His castle and supporter group are setting/collective context, not relationship endpoints.",
+      "No later court or text-tradition identity is asserted."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-009",
+    "canonical_name": "Guenevere",
+    "aliases": [],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1102–1103",
+    "character_kind": "individual",
+    "description": "Leondegrance's daughter, who sees Arthur fight during the siege. The selected film synopsis says Arthur is attracted to her and Merlin predicts they will marry, while cautioning that she will betray him with a trusted friend.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Leondegrance's castle",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Her selected initial setting."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "Merlin's marriage/betrayal prediction",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "A film-scene prediction; no later act or named trusted friend is entered."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "future-queen prediction target",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The selected source predicts marriage but this is not an achieved status in the boundary."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI cast credits, lines 228–231; synopsis, lines 1102–1103",
+        "supports": [
+          "Guenevere name, Leondegrance daughter relation, siege observation, Arthur's attraction, and Merlin's prediction"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The source at this boundary supports attraction and prediction, not marriage, infidelity, sexual conduct, coercion, or outcome.",
+      "No Malory/other-film Guenevere detail is imported."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-010",
+    "canonical_name": "Uryens",
+    "aliases": [
+      "Uryen"
+    ],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1102–1103",
+    "character_kind": "individual",
+    "description": "A knight at the siege who initially refuses to yield to a squire. Arthur gives him Excalibur and asks to be knighted; impressed, Uryens knights Arthur and kneels to him as king.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct synopsis designation."
+        },
+        {
+          "term": "Arthur's knighting agent",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "He knights Arthur in the selected accession scene; no lasting office is inferred."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Excalibur",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Arthur hands it to Uryens for the knighting scene."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "knighting and allegiance rite",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Film-specific accession act only."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "skeptical knight who recognizes the king",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct selected-scene action."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI cast credits, lines 251–254; synopsis, lines 1102–1103",
+        "supports": [
+          "Uryens/Uryen credit/synopsis forms, refusal, knighting of Arthur, and allegiance"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Uryen is AFI's synopsis spelling and Uryens the cast-credit spelling for the same 1981-film character.",
+      "Kingly recognition is a film-scene ritual, not a historical, religious, or generic game-mechanic claim."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC254-011",
+    "canonical_name": "Lady of the Lake",
+    "aliases": [],
+    "source_id": "SRC-254",
+    "source_title": "Excalibur",
+    "continuity": "John Boorman's 1981 film; opening-to-accession AFI synopsis witness",
+    "work_or_witness": "AFI synopsis paragraphs 1093–1095",
+    "character_kind": "individual",
+    "description": "The individually titled lake figure Merlin conjures from watery depths with Excalibur before Uther's truce negotiation.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "lake-associated Excalibur bearer",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Strictly the selected scene; no origin or office beyond this action."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Excalibur",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "She rises with it in AFI's synopsis."
+        }
+      ],
+      "cosmologies_and_realms": [
+        {
+          "term": "watery depths",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Location phrase in selected summary only."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Individually titled acting figure in selected 1981-film opening-to-accession segment.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/56592-EXCALIBUR?cxt=filmography",
+        "locator": "AFI synopsis, lines 1093–1094",
+        "supports": [
+          "Lady of the Lake title, Merlin's conjuring, watery emergence, and Excalibur bearer action"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This individual title is preserved because she performs a distinct action. It is not generalized into a species, a place, an artifact, a real water spirit, or another Arthurian Lady of the Lake."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity_scope": "A bounded late-medieval English Arthurian pass: Sir Thomas Malory's Le Morte Darthur as transmitted in William Caxton's 1485 twenty-one-book print division. This is not a universal Arthurian canon and does not merge Malory with Welsh materials (catalogued separately under SRC-004), French cyclic romance, the Winchester manuscript, early chronicles, or later literary, film, game, and nationalist retellings.",
+    "work_or_witnesses": [
+      {
+        "work": "Le Morte Darthur",
+        "edition": "Thomas Malory; William Caxton's 1485 book/chapter division; A. W. Pollard / Project Gutenberg digital text, based on Caxton through Sommer's reprint and modernized primarily in spelling.",
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm"
+      },
+      {
+        "work": "Le Morte Darthur, Volume II",
+        "edition": "Same digital edition; Books XIII–XXI.",
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm"
+      }
+    ],
+    "coverage_rule": "Include the 23 individually named protagonists, antagonists, familial or courtly agents, and supernatural agents who materially act in the deliberately selected Arthur-birth and Balin episodes (Books I–II), Merlin's imprisonment (Book IV), Grail completion episode (Book XVII), exposure and civil-war sequence (Book XX, chapters 7–24), and Arthur's death/succession sequence (Book XXI, chapters 1–13). The pass is complete only for these selected narrative arcs and their principal named agents, not every named knight, lady, messenger, ruler, or episode in Malory's full compilation.",
+    "in_scope_character_count": 23,
+    "completed_character_count": 23,
+    "omissions": [
+      "Named but non-principal participants in the selected episodes, including the unnamed Bishop of Canterbury and the many named knights in Agravain and Mordred's ambush party",
+      "The Tristan material, Gareth's complete tale, most of the Grail quest, and all non-selected episodes of Malory's compilation",
+      "Welsh, French, Latin, Scottish, Cornish, Breton, German, Iberian, modern, and commercial Arthurian continuities",
+      "Generic offices, places, artifacts, orders, and unnamed collectives, which remain dimensions rather than graph nodes"
+    ],
+    "uncertainties": [
+      "Caxton's print and the Winchester manuscript are materially different primary witnesses; this pass uses Caxton's book/chapter framing and does not imply that it is identical to the Winchester text.",
+      "Malory himself compiles and reshapes multiple earlier French and English materials. A character's presence here is evidence for this selected Malory/Caxton witness, not evidence for every Arthurian source.",
+      "Modern generic labels such as 'wizard,' 'paladin,' 'adultery trope,' and 'Celtic myth' are not source-native identities and are deliberately not asserted as exact mappings."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Character and relationship claims are cited to the selected Book and chapter loci in the Caxton-divided text. The witness distinction is corroborated by the British Library catalogue and De Montfort University's Malory project; the Gutenberg edition is used for the claim-level readable text and preserves the Caxton book/chapter structure.",
+    "citations": [
+      {
+        "url": "https://malory.dmu.ac.uk/",
+        "locator": "Project introduction, paragraphs 1–4",
+        "supports": ["Le Morte Darthur survives in materially different Winchester-manuscript and Caxton-print versions."]
+      },
+      {
+        "url": "https://searcharchives.bl.uk/catalog/032-002249253",
+        "locator": "Additional MS 59678, Scope & Content, lines 41–43",
+        "supports": ["The Winchester manuscript differs significantly from Caxton's 1485 print and is an imperfect early witness."]
+      },
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Bibliographical Note and Caxton Preface; Books I–IV",
+        "supports": ["The selected first-volume episodes and Caxton book/chapter framing."]
+      },
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Books XVII, XX, and XXI",
+        "supports": ["The selected Grail-completion and collapse/succession episodes."]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

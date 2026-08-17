@@ -1,0 +1,15 @@
+[
+  {
+    "source_id":"SRC-088","source_title":"The Adventures of Amina al-Sirafi",
+    "continuity_scope":"Narrow publisher-metadata pass bound to S. A. Chakraborty's The Adventures of Amina al-Sirafi, Harper Voyager/HarperCollins English novel, 2023. This first novel only; no future trilogy material, author commentary, adaptation, review, or real-history/religion claim is merged into story canon.",
+    "work_or_witnesses":[{"work":"The Adventures of Amina al-Sirafi","edition":"HarperCollins English edition, 2023","url":"https://books.google.com/books/about/The_Adventures_of_Amina_al_Sirafi.html?id=KON0EAAAQBAJ"}],
+    "coverage_rule":"One individual named protagonist supported by accessible publisher metadata: Amina al-Sirafi. Her unnamed former crewman, the crewman's unnamed mother, the kidnapped daughter, husbands, and demon remain non-endpoint context; no relationship is created without two named endpoints.",
+    "in_scope_character_count":1,"completed_character_count":1,
+    "omissions":["All named characters beyond Amina, including crew, family, antagonists, supernatural figures, and future-trilogy material.","All oral/frame narrator and reliability details, Arabic spellings or transliterations beyond the title form, Islamic practice, Indian Ocean history, gender/queer content, plot outcomes, and primary-text chapter claims not supplied by this metadata witness.","All adaptations, author commentary, reviews, and direct mappings from fictional material to real religions, peoples, places, or history."],
+    "uncertainties":["This is a narrow publisher-metadata pass rather than a chapter/page primary-text pass.","The source's title form is ‘Amina al-Sirafi’; any Arabic-script form or alternative transliteration requires a source-specific witness and is omitted.","The marketing description invokes the Indian Ocean and piety but does not establish a one-to-one historical or religious equivalence; none is asserted.","The synopsis signals piracy, kidnapping, supernatural danger, coercive job pressure, and prior violence. Broader violence, abuse, gender/queer content, reliability, and spoilers are deferred without full text."],
+    "completion_status":"narrow-metadata-pass-complete",
+    "evidence_basis":"The accessible HarperCollins metadata record identifies the 2023 novel and names Amina al-Sirafi as a retired notorious Indian Ocean pirate who accepts a mission to retrieve an unnamed former crewman's kidnapped daughter. It is the sole basis for the record.",
+    "citations":[{"url":"https://books.google.com/books/about/The_Adventures_of_Amina_al_Sirafi.html?id=KON0EAAAQBAJ","locator":"HarperCollins edition metadata and publisher synopsis","supports":["2023 edition context, Amina's name, pirate career/retirement, family/piety context, and offered retrieval mission."]}],
+    "last_reviewed":"2026-08-05"
+  }
+]

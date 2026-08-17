@@ -1,0 +1,15 @@
+[
+  {
+    "relationship_id": "REL-SRC206-001",
+    "source_id": "SRC-206",
+    "source_character_id": "CHR-SRC206-002",
+    "target_character_id": "CHR-SRC206-001",
+    "relationship_type": "other",
+    "label": "formative inspiration through tales",
+    "direction": "directed",
+    "continuity": "VIZ English One Piece, Vol. 1 (2003)",
+    "citations": [{"url": "https://www.viz.com/manga-books/manga/one-piece-volume-1-0/product/139", "locator": "Volume 1 synopsis, line 50", "supports": ["Luffy becoming inspired to be a pirate by listening to Shanks's tales"]}],
+    "confidence": "high",
+    "note": "The wording supports an inspirational connection only, not a formal mentor/student, crew-membership, kinship, or later-contact claim."
+  }
+]

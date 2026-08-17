@@ -1,0 +1,149 @@
+[
+  {
+    "relationship_id": "REL-SRC068-001",
+    "source_id": "SRC-068",
+    "source_character_id": "CHR-SRC068-002",
+    "target_character_id": "CHR-SRC068-001",
+    "relationship_type": "kin",
+    "label": "Najeeba is Onye's mother.",
+    "direction": "directed",
+    "continuity": "Who Fears Death — DAW witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/306712/who-fears-death-by-nnedi-okorafor/",
+        "locator": "Who Fears Death, Chapters 1–35 printed witness",
+        "supports": [
+          "Mother-daughter relationship."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Trauma context is not the sum of either character."
+  },
+  {
+    "relationship_id": "REL-SRC068-002",
+    "source_id": "SRC-068",
+    "source_character_id": "CHR-SRC068-008",
+    "target_character_id": "CHR-SRC068-001",
+    "relationship_type": "kin",
+    "label": "Daib is Onye's biological father.",
+    "direction": "directed",
+    "continuity": "Who Fears Death — DAW witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/306712/who-fears-death-by-nnedi-okorafor/",
+        "locator": "Who Fears Death, Chapters 1–35 printed witness",
+        "supports": [
+          "Parentage as disclosed in the novel."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "The relationship originates in sexual violence and must not be neutralized."
+  },
+  {
+    "relationship_id": "REL-SRC068-003",
+    "source_id": "SRC-068",
+    "source_character_id": "CHR-SRC068-008",
+    "target_character_id": "CHR-SRC068-001",
+    "relationship_type": "opponent",
+    "label": "Daib's violence and political role place him in direct opposition to Onye.",
+    "direction": "directed",
+    "continuity": "Who Fears Death — DAW witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/306712/who-fears-death-by-nnedi-okorafor/",
+        "locator": "Who Fears Death, Chapters 1–35 printed witness",
+        "supports": [
+          "Personal and political antagonism."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Opposition is embedded in structural genocide and oppression."
+  },
+  {
+    "relationship_id": "REL-SRC068-004",
+    "source_id": "SRC-068",
+    "source_character_id": "CHR-SRC068-003",
+    "target_character_id": "CHR-SRC068-001",
+    "relationship_type": "lover",
+    "label": "Mwita and Onye form an intimate magical and personal partnership.",
+    "direction": "undirected",
+    "continuity": "Who Fears Death — DAW witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/306712/who-fears-death-by-nnedi-okorafor/",
+        "locator": "Who Fears Death, Chapters 1–35 printed witness",
+        "supports": [
+          "Training, mutual aid, and intimacy."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "No prequel/adaptation additions."
+  },
+  {
+    "relationship_id": "REL-SRC068-005",
+    "source_id": "SRC-068",
+    "source_character_id": "CHR-SRC068-004",
+    "target_character_id": "CHR-SRC068-001",
+    "relationship_type": "companion",
+    "label": "Binta is Onye's close friend and journey companion.",
+    "direction": "undirected",
+    "continuity": "Who Fears Death — DAW witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/306712/who-fears-death-by-nnedi-okorafor/",
+        "locator": "Who Fears Death, Chapters 1–35 printed witness",
+        "supports": [
+          "Friendship and shared travel."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Book One only."
+  },
+  {
+    "relationship_id": "REL-SRC068-006",
+    "source_id": "SRC-068",
+    "source_character_id": "CHR-SRC068-005",
+    "target_character_id": "CHR-SRC068-001",
+    "relationship_type": "companion",
+    "label": "Luyu is part of Onye's named friend group and journey.",
+    "direction": "undirected",
+    "continuity": "Who Fears Death — DAW witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/306712/who-fears-death-by-nnedi-okorafor/",
+        "locator": "Who Fears Death, Chapters 1–35 printed witness",
+        "supports": [
+          "Friendship and travel."
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Limited to direct Book One companionship."
+  },
+  {
+    "relationship_id": "REL-SRC068-007",
+    "source_id": "SRC-068",
+    "source_character_id": "CHR-SRC068-006",
+    "target_character_id": "CHR-SRC068-007",
+    "relationship_type": "companion",
+    "label": "Diti and Sola are named companions within Onye's peer group.",
+    "direction": "undirected",
+    "continuity": "Who Fears Death — DAW witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/306712/who-fears-death-by-nnedi-okorafor/",
+        "locator": "Who Fears Death, Chapters 1–35 printed witness",
+        "supports": [
+          "Shared peer-group journey."
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "No later relationship outcomes."
+  }
+]

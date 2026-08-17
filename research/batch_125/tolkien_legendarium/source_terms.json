@@ -1,0 +1,146 @@
+[
+  {
+    "term_id": "STM-SRC026-001",
+    "source_id": "SRC-026",
+    "canonical_term": "The Silmarillion (1977)",
+    "original_language": "English",
+    "original_script": "The Silmarillion",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The posthumously published 1977 book edited by Christopher Tolkien, used here only as the specified Chapter 19 witness.",
+    "cultural_caution": "This label denotes a particular editorial publication, not a claim that all Tolkien manuscripts, drafts, later edited works, translations, adaptations, or reader usages form one unvarying text.",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/selected-further-reading/",
+        "locator": "‘What is the difference between The Silmarillion and the ‘Silmarillion’?’",
+        "supports": [
+          "The Silmarillion as the book published by Christopher Tolkien in 1977", "distinction from the earlier proposed version and wider manuscript body"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC026-002",
+    "source_id": "SRC-026",
+    "canonical_term": "Elder Days / First Age",
+    "original_language": "English",
+    "original_script": "Elder Days; First Age",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The fictional historical/cosmological framing used by the Estate for The Silmarillion’s earlier Middle-earth narratives.",
+    "cultural_caution": "A source-specific invented chronology, not a real historical period, religious chronology, or cross-franchise time equivalence.",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/christopher-tolkien-the-silmarillion/",
+        "locator": "1977 presentation, paragraph beginning ‘The Silmarillion is the history of the Elder Days, the First Age of the world’",
+        "supports": [
+          "Elder Days/First Age framing", "Beleriand-era setting context"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC026-003",
+    "source_id": "SRC-026",
+    "canonical_term": "Silmaril",
+    "original_language": "English",
+    "original_script": "Silmarilli",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "One of the named jewels central to the selected Beren-and-Lúthien quest account.",
+    "cultural_caution": "A fictional artifact term. It is not a character node, an automatic power category, or an equivalence to real sacred, cultural, or political objects.",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/catherine-mcilwaine-beren-and-luthien/",
+        "locator": "‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, sentence on taking one of the Silmarilli from the Iron Crown",
+        "supports": [
+          "Silmaril as the quest object in the selected tale"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC026-004",
+    "source_id": "SRC-026",
+    "canonical_term": "mortal",
+    "original_language": "English",
+    "original_script": "mortal",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The source wording applied to Beren in the selected chapter’s contextual account.",
+    "cultural_caution": "A fictional, witness-bound category; it is not mapped to real human identity, race, ethnicity, ancestry, biology, religion, or moral status.",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/catherine-mcilwaine-beren-and-luthien/",
+        "locator": "‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, ‘Beren the outlawed mortal’",
+        "supports": [
+          "mortal as the selected account’s Beren terminology"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC026-005",
+    "source_id": "SRC-026",
+    "canonical_term": "elf of royalty",
+    "original_language": "English",
+    "original_script": "elf of royalty",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The source wording applied to Lúthien in the selected chapter’s contextual account.",
+    "cultural_caution": "A fictional, witness-bound descriptor; it is not mapped to real ethnicity, ancestry, biology, class hierarchy, religion, gender role, or moral status.",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/catherine-mcilwaine-beren-and-luthien/",
+        "locator": "‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, ‘Lúthien ... an elf of royalty’",
+        "supports": [
+          "elf-of-royalty as the selected account’s Lúthien terminology"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC026-006",
+    "source_id": "SRC-026",
+    "canonical_term": "posthumous editorial single-text presentation",
+    "original_language": "English",
+    "original_script": "single text",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The 1977 publication layer: Christopher Tolkien selected and arranged a coherent text from a larger, unfinished, multiply-versioned body of writings.",
+    "cultural_caution": "This is an editorial-history qualifier, not an evaluation of authorship, a claim that the book lacks value, or license to merge excluded versions. Character claims remain tied to the named 1977 chapter witness.",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/christopher-tolkien-the-silmarillion/",
+        "locator": "1977 presentation, paragraphs beginning ‘At the time of my father’s death’ and ‘I set myself, therefore, to work out a single text’",
+        "supports": [
+          "unfinished source material", "selection and arrangement", "editorial changes and coherence work"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

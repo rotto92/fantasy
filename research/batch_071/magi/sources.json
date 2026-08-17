@@ -1,0 +1,40 @@
+[
+  {
+    "source_id": "SRC-201",
+    "source_title": "Magi: The Labyrinth of Magic",
+    "continuity_scope": "Magi: The Labyrinth of Magic, Vol. 1, VIZ English paperback/digital edition (13 August 2013; ISBN 978-1-4215-5951-3; 200 pages), credited to Shinobu Ohtaka. This is a narrow English manga-volume pass. The official Shogakukan Japanese マギ 1 e-comic listing is retained solely as a separate original-language Volume 1 edition boundary, not merged translation evidence.",
+    "work_or_witnesses": [
+      "Magi: The Labyrinth of Magic, Vol. 1, VIZ English paperback/digital edition (13 August 2013)",
+      "VIZ official Magi series page",
+      "VIZ Vol. 1 free-preview reader landing page",
+      "Magi 1, Shogakukan Japanese e-comic listing",
+      "Aniplex official Magi anime listing"
+    ],
+    "coverage_rule": "Include only named individual dramatic characters directly named by the selected VIZ English Volume 1 product synopsis: Aladdin, his friend Alibaba, and the individualized djinn Ugo. The selected synopsis directly supports Aladdin and Alibaba's friendship and the stated travel companionship with Ugo; no uncaptioned preview panels, later chapter material, or external character roster is inferred. The preview's browser-accessible landing page does not expose searchable page/panel text, so claims remain at official-metadata level.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "All later VIZ volumes/chapters, the rest of the 37-volume manga series, the original Japanese serialization, spin-offs, games, guidebooks, films, merchandise, and other adaptations are separate witnesses.",
+      "The Aniplex television anime is a separately labeled animated production and is not evidence for any record in this manga-volume pass.",
+      "The Shogakukan Japanese マギ 1 listing names Aladdin, Laila, and Saasa in a different official Volume 1 synopsis. It is not used to transfer those names, plot details, or wording into this English-edition pass; that witness needs its own Japanese-edition research pass.",
+      "Magi/dungeon-capturer designations, peoples, caravan and thief groups, magic, djinn as a category, artifacts, Dungeons, places, and themes are terms/dimensions rather than character nodes unless the selected VIZ witness individually names and describes an agent.",
+      "The official English metadata is not sufficient for a full treatment of slavery, oppression, violence, injuries, coercion, or outcomes; no broader-franchise content detail is imported."
+    ],
+    "uncertainties": [
+      "VIZ's browser-readable preview gives a primary edition-reader landing page but no practical text/panel locator. It establishes the existence of a Vol. 1 preview, not a transcribed chapter-level evidentiary record.",
+      "The VIZ Volume 1 synopsis gives names, Ugo's djinn designation, Aladdin/Alibaba friendship, travel setup, dunes, and fortune-seeking, but not ages, origins, abilities, exact Dungeon mechanics, individual motives, or outcomes.",
+      "VIZ says the series is inspired by One Thousand and One Nights. This is an influence statement only: neither shared continuity nor identity/equivalence with traditional Arabic-language story characters, cultural contexts, or historical traditions is asserted.",
+      "Adventure-danger, exploitation/slavery and oppression themes, and violence may arise in the wider franchise, but this selected metadata supports only a Teen-rated desert/dungeon premise. Those subjects are flagged as boundaries/content cautions rather than asserted plot facts.",
+      "No relationship is inferred between Alibaba and Ugo merely because both accompany Aladdin in the synopsis."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "VIZ first-party English Volume 1 product/preview and series metadata, with Shogakukan and Aniplex first-party pages used only to document edition and adaptation separation. No fan wiki, Wikipedia, anime recap, external translation, or uninspected panel transcription is used as character evidence.",
+    "citations": [
+      {"url": "https://www.viz.com/manga-books/manga/magi-volume-1-0/product/3232", "locator": "Magi: The Labyrinth of Magic, Vol. 1, lines 19-69; free-preview reader lines 115-161", "supports": ["VIZ English Volume 1 title, synopsis, Aladdin/Alibaba/Ugo names, Ugo's djinn label, friend/travel premise, release date, ISBN, page count, Teen rating, and preview-reader boundary"]},
+      {"url": "https://www.viz.com/magi", "locator": "official Magi series description, lines 25-40", "supports": ["series creator, One Thousand and One Nights inspiration, desert Dungeons, riches, and Aladdin's adventure framing"]},
+      {"url": "https://e-comi.shogakukan.co.jp/books/091220630000d0000000", "locator": "マギ 1 official listing, lines 43-86", "supports": ["Japanese e-comic Volume 1 title/creator, separate original-language synopsis, and 37-volume-series listing"]},
+      {"url": "https://www.aniplex.co.jp/lineup/magi/", "locator": "Aniplex マギ anime listing", "supports": ["separately labeled Magi animated production and A-1 Pictures credit"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

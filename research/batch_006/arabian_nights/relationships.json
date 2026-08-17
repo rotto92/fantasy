@@ -1,0 +1,191 @@
+[
+  {
+    "relationship_id": "REL-SRC009-001",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-001",
+    "target_character_id": "CHR-SRC009-002",
+    "relationship_type": "spouse",
+    "label": "Shahrazad marries Shahryar",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "Story of King Shahryar and His Brother, Nights 1–3",
+        "supports": [
+          "Shahrazad marries Shahryar"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  },
+  {
+    "relationship_id": "REL-SRC009-002",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-003",
+    "target_character_id": "CHR-SRC009-001",
+    "relationship_type": "kin",
+    "label": "Dunyazad is Shahrazad’s sister",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "Story of King Shahryar and His Brother, Night 1",
+        "supports": [
+          "Dunyazad is Shahrazad’s sister"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  },
+  {
+    "relationship_id": "REL-SRC009-003",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-005",
+    "target_character_id": "CHR-SRC009-004",
+    "relationship_type": "other",
+    "label": "Duban serves King Yunan",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, embedded Tale of the Wazir and the Sage Duban",
+        "supports": [
+          "Duban serves King Yunan"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  },
+  {
+    "relationship_id": "REL-SRC009-004",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-006",
+    "target_character_id": "CHR-SRC009-007",
+    "relationship_type": "other",
+    "label": "Fisherman releases the Jinni",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, Night 3",
+        "supports": [
+          "Fisherman releases the Jinni"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  },
+  {
+    "relationship_id": "REL-SRC009-005",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-010",
+    "target_character_id": "CHR-SRC009-011",
+    "relationship_type": "companion",
+    "label": "Sindbad the Sailor tells the Porter",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3440/3440-h/3440-h.htm",
+        "locator": "Sindbad the Seaman and Sindbad the Landsman, beginning Night 536",
+        "supports": [
+          "Sindbad the Sailor tells the Porter"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  },
+  {
+    "relationship_id": "REL-SRC009-006",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-019",
+    "target_character_id": "CHR-SRC009-020",
+    "relationship_type": "spouse",
+    "label": "Kamar al-Zaman and Budur marry",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3437/3437-h/3437-h.htm",
+        "locator": "Tale of Kamar al-Zaman, beginning Night 170",
+        "supports": [
+          "Kamar al-Zaman and Budur marry"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  },
+  {
+    "relationship_id": "REL-SRC009-007",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-023",
+    "target_character_id": "CHR-SRC009-024",
+    "relationship_type": "spouse",
+    "label": "Maruf and Fatimah are married",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Ma’aruf the Cobbler and His Wife, beginning Night 990",
+        "supports": [
+          "Maruf and Fatimah are married"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  },
+  {
+    "relationship_id": "REL-SRC009-008",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-023",
+    "target_character_id": "CHR-SRC009-025",
+    "relationship_type": "other",
+    "label": "Maruf gains aid from the ring jinni",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Ma’aruf the Cobbler and His Wife, ring-jinni sequence",
+        "supports": [
+          "Maruf gains aid from the ring jinni"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  },
+  {
+    "relationship_id": "REL-SRC009-009",
+    "source_id": "SRC-009",
+    "source_character_id": "CHR-SRC009-029",
+    "target_character_id": "CHR-SRC009-030",
+    "relationship_type": "ruler",
+    "label": "Harun commands Ja‘far",
+    "direction": "directed",
+    "continuity": "Burton selected-tale witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Tale of the Three Apples, opening Caliph/Ja‘far command sequence",
+        "supports": [
+          "Harun commands Ja‘far"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Translation locator."
+  }
+]

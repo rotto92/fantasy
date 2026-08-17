@@ -1,0 +1,47 @@
+[
+  {
+    "relationship_id": "REL-SRC255-001",
+    "source_id": "SRC-255",
+    "source_character_id":"CHR-SRC255-001",
+    "target_character_id":"CHR-SRC255-002",
+    "relationship_type": "ally",
+    "label": "partners in staged dragon slayings",
+    "direction":"undirected",
+    "continuity":"Original 1996 feature-film continuity",
+    "citations":[
+      {
+        "url":"https://tv.apple.com/us/movie/dragonheart/umc.cmc.1r6u2kruxx9zawqvtiex4wfji","locator":"About","supports":["Bowen and Draco strike a deal to act out dragon slayings."]
+      }
+    ],"confidence":"high","note":"An explicit arrangement in the authorized synopsis. It is not used to infer literal killing, spiritual bonding, or a broader-franchise alliance."
+  },
+  {
+    "relationship_id": "REL-SRC255-002",
+    "source_id": "SRC-255",
+    "source_character_id":"CHR-SRC255-001",
+    "target_character_id":"CHR-SRC255-003",
+    "relationship_type": "opponent",
+    "label": "must face King Einon",
+    "direction":"directed",
+    "continuity":"Original 1996 feature-film continuity",
+    "citations":[
+      {
+        "url":"https://tv.apple.com/us/movie/dragonheart/umc.cmc.1r6u2kruxx9zawqvtiex4wfji","locator":"About","supports":["Bowen and Draco must face tyrant King Einon."]
+      }
+    ],"confidence":"high","note":"A plot-level opposition in the authorized synopsis; no scene-level violence or outcome is inferred."
+  },
+  {
+    "relationship_id": "REL-SRC255-003",
+    "source_id": "SRC-255",
+    "source_character_id":"CHR-SRC255-002",
+    "target_character_id":"CHR-SRC255-003",
+    "relationship_type": "opponent",
+    "label": "must face King Einon",
+    "direction":"directed",
+    "continuity":"Original 1996 feature-film continuity",
+    "citations":[
+      {
+        "url":"https://tv.apple.com/us/movie/dragonheart/umc.cmc.1r6u2kruxx9zawqvtiex4wfji","locator":"About","supports":["Bowen and Draco must face tyrant King Einon."]
+      }
+    ],"confidence":"high","note":"A plot-level opposition in the authorized synopsis; no scene-level violence or outcome is inferred."
+  }
+]

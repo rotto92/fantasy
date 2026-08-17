@@ -1,0 +1,49 @@
+[
+  {
+    "source_id": "SRC-085",
+    "source_title": "The Books of Earthsea",
+    "continuity_scope": "Container-and-contained-work pass bound to The Books of Earthsea: The Complete Illustrated Edition, Saga Press 2018 ISBN 9781481465588, as bibliographic/container witness, plus the estate's official The Tombs of Atuan synopsis as the sole later contained-work claim witness. The story cohort is only The Tombs of Atuan; it does not duplicate SRC-035's A Wizard of Earthsea cohort except for Ged where his direct Tombs role is necessary to the selected conflict.",
+    "work_or_witnesses": [
+      {
+        "work": "The Books of Earthsea: The Complete Illustrated Edition",
+        "edition": "Saga Press hardcover, October 30, 2018, ISBN 9781481465588; illustrated by Charles Vess",
+        "url": "https://www.simonandschuster.com/books/The-Books-of-Earthsea/Ursula-K-Le-Guin/Earthsea-Cycle/9781481465588"
+      },
+      {
+        "work": "The Tombs of Atuan",
+        "edition": "Contained later Earthsea novel; estate official synopsis witness",
+        "url": "https://www.ursulakleguin.com/the-tombs-of-atuan"
+      }
+    ],
+    "coverage_rule": "Two individual named characters and one direct relation supported by the estate's official Tombs synopsis only: Tenar/Arha and Ged Sparrowhawk. Ged is included solely for the contained Tombs conflict and is not a re-recording of SRC-035's Wizard attributes, teachers, peers, dragon encounter, or shadow crisis.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "All A Wizard of Earthsea cohort records and all SRC-035-specific character facts except a concise overlap note for Ged.",
+      "All other contained novels, stories, essays, and the new story in the 2018 container; they require separate work-level witnesses.",
+      "All other Tombs characters, underground events, outcomes, true names, rituals, metaphysics, and later Earthsea consequences not directly stated in the official synopsis.",
+      "Graphic-novel, animated, television/miniseries, and any other adaptation continuities."
+    ],
+    "uncertainties": [
+      "The 2018 book is a container with illustrations and supplementary material, not a newly unified narrative continuity. Charles Vess's commissioned/selected artwork is edition material and is not used as character-canon evidence.",
+      "This is an official-reference pass rather than a chapter/page primary-text pass; its character claims are restricted to the estate synopsis.",
+      "Tenar's imposed name Arha and title Eaten One are contextual identity claims, not a generic naming mechanic or a statement that a name grants control over a person.",
+      "The synopsis signals child removal, coercive religious office, isolation, theft/conflict, and danger in a labyrinth. Resolution and later-life spoilers are omitted."
+    ],
+    "completion_status": "narrow-metadata-pass-complete",
+    "evidence_basis": "Simon & Schuster's official product record establishes the 2018 Saga Press container, contents, ISBN, and illustration credit. The Le Guin estate's official Tombs page is the sole evidence for the selected later-work character, title, treasure, and conflict claims.",
+    "citations": [
+      {
+        "url": "https://www.simonandschuster.com/books/The-Books-of-Earthsea/Ursula-K-Le-Guin/Earthsea-Cycle/9781481465588",
+        "locator": "Official product record: contents, illustration credit, publisher/date/ISBN metadata",
+        "supports": ["2018 Saga Press container identity, contained Tombs listing, and Charles Vess artwork credit."]
+      },
+      {
+        "url": "https://www.ursulakleguin.com/the-tombs-of-atuan",
+        "locator": "Estate official Tombs synopsis",
+        "supports": ["Tenar/Arha, Ged Sparrowhawk, the Tombs, the Powers, and the Ring conflict."]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

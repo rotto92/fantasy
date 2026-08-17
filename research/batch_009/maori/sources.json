@@ -1,0 +1,90 @@
+[
+  {
+    "source_id": "SRC-024",
+    "source_title": "Māori Mythology",
+    "continuity_scope": "A deliberately bounded reference pass within living, iwi- and hapū-specific Māori oral, performed, manuscript, and published traditions in Aotearoa. This is not a pan-Māori definitive canon. The selected witnesses are Te Ara sections that explicitly identify their regional/informant framing where supplied: a Ngāti Raukawa creation example; a Ngāti Porou Māui account; a Te Rangihaeata (Ngāti Toarangatira) land-form account; and Heretaunga and Wairoa taniwha accounts. Te Ara's comparative summaries are used as published reference witnesses, not as substitutes for community authority or for all local variants.",
+    "work_or_witnesses": [
+      {
+        "work": "Māori creation traditions",
+        "edition": "Te Ara, ‘Common threads in creation stories’, including the stated Ngāti Raukawa example",
+        "url": "https://teara.govt.nz/en/maori-creation-traditions/page-1"
+      },
+      {
+        "work": "First peoples in Māori tradition",
+        "edition": "Te Ara, ‘Tāne, Hineahuone and Hine’ and ‘Māui’; the Māui page identifies a Ngāti Porou account by Mohi Ruatapu",
+        "url": "https://teara.govt.nz/en/first-peoples-in-maori-tradition/page-2"
+      },
+      {
+        "work": "Whenua – how the land was shaped",
+        "edition": "Te Ara, ‘The North and South islands’, including a version dictated by Te Rangihaeata of Ngāti Toarangatira",
+        "url": "https://teara.govt.nz/en/whenua-how-the-land-was-shaped/page-2"
+      },
+      {
+        "work": "Taniwha",
+        "edition": "Te Ara, ‘What are taniwha?’ and ‘Freshwater taniwha’, including Heretaunga and Wairoa accounts",
+        "url": "https://teara.govt.nz/en/taniwha/page-3"
+      },
+      {
+        "work": "Traditional Māori religion – ngā karakia a te Māori; Whakapapa – genealogy",
+        "edition": "Te Ara reference sections used only for the scoped term glossary",
+        "url": "https://teara.govt.nz/en/traditional-maori-religion-nga-karakia-a-te-maori/page-3"
+      }
+    ],
+    "coverage_rule": "Include only named agents who materially act in one of the selected published witness episodes: the named earth-sky family and human-origin episode; Māui’s fishing episode; the named freshwater taniwha episodes; and the explicitly witnessed Hinetītama/Hine-nui-te-pō change. Do not turn generic atua, taniwha, whakapapa, ritual concepts, places, unnamed relatives, unnamed brothers, or present-day communities into character nodes. Names and forms follow the cited Te Ara witness; regional variants are not merged or silently generalized.",
+    "in_scope_character_count": 10,
+    "completed_character_count": 10,
+    "omissions": [
+      "All unnamed children of Ranginui and Papatūānuku, Māui’s unnamed brothers, and unnamed human canoe travellers",
+      "Other named figures merely enumerated as domain associations without material action in the selected episode",
+      "All other iwi, hapū, rohe, whānau, manuscript, oral-performance, ritual, historical, and contemporary witnesses not listed above",
+      "Io traditions, whose status and history Te Ara identifies as debated",
+      "Generic atua, taniwha, tipua, whakapapa, mana, tapu, noa, karakia, places, and collective communities, which remain terms rather than characters"
+    ],
+    "uncertainties": [
+      "Spellings, identities, genealogical positions, roles, and narrative details vary by iwi, hapū, narrator, manuscript, language practice, and published edition; this pass does not adjudicate among them.",
+      "Te Ara's English comparison words such as ‘god’, ‘trickster hero’, ‘monster’, ‘dragon’, ‘creation’, and ‘transformation’ are not claims that Māori terms are generic fantasy categories.",
+      "The selected Te Ara pages describe published accounts and their cited sources; they do not grant authority to reproduce, interpret, or practise mātauranga, tikanga, karakia, or whakapapa outside appropriate relationships and contexts."
+    ],
+  "completion_status": "pass-complete",
+  "evidence_basis": "Claim-specific records cite the exact Te Ara story page and named section/paragraph. Te Ara is an authoritative public encyclopedia, and its pages preserve the stated regional or named-source framing where relevant. This pass is complete only for the exact selected Te Ara reference episodes, counts, and coverage rule; it is not a claim of completion for living, diverse Māori traditions or any unselected iwi/hapū witness.",
+    "citations": [
+      {
+        "url": "https://teara.govt.nz/en/maori-creation-traditions/page-1",
+        "locator": "‘Common threads in creation stories’, §§ ‘Themes in Māori creation myths’ and ‘The separation of earth and sky’, paras. 1–2",
+        "supports": [
+          "Creation accounts have shared threads but considerable diversity among tribal versions.",
+          "Ranginui, Papatūānuku, their children, and the separation are presented as a creation narrative in the bounded witness."
+        ]
+      },
+      {
+        "url": "https://teara.govt.nz/en/first-peoples-in-maori-tradition/page-3",
+        "locator": "‘Māui’, §§ ‘Māui’ and ‘Māui and his fish’, paras. 1–2",
+        "supports": [
+          "The selected Māui account is attributed to Ngāti Porou tohunga Mohi Ruatapu and records Māui’s fishing episode."
+        ]
+      },
+      {
+        "url": "https://teara.govt.nz/en/whenua-how-the-land-was-shaped/page-2",
+        "locator": "‘The North and South islands’, §§ ‘Māui fishes up the North Island’ and ‘How the North Island got its shape’, paras. 1–3",
+        "supports": [
+          "The page identifies a Te Rangihaeata/Ngāti Toarangatira version and records regional differences in the land-form account."
+        ]
+      },
+      {
+        "url": "https://teara.govt.nz/en/taniwha/page-3",
+        "locator": "‘Freshwater taniwha’, §§ ‘Lake Roto-a-Tara’ and ‘Te Rēinga waterfall’, paras. 1–2",
+        "supports": [
+          "The selected freshwater episodes name Te Tau-a-Porirua and Tara, and Hine-kōrako and Tāne-kino."
+        ]
+      },
+      {
+        "url": "https://teara.govt.nz/en/traditional-maori-religion-nga-karakia-a-te-maori/page-3",
+        "locator": "‘Spiritual concepts’, §§ ‘Mana’ and ‘Tapu and noa’, paras. 1–3",
+        "supports": [
+          "The source-term entries for mana, tapu, and noa are grounded in a specific published reference section."
+        ]
+      }
+    ],
+  "last_reviewed": "2026-08-06"
+  }
+]

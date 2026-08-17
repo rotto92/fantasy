@@ -1,0 +1,146 @@
+[
+  {
+    "term_id": "STM-SRC241-001",
+    "source_id": "SRC-241",
+    "canonical_term": "godhood",
+    "original_language": "English",
+    "original_script": "godhood",
+    "transliteration": "",
+    "literal_gloss": "status of being a god",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The source-fiction condition Xie Lian reaches through study and noble deeds and reaches again for a third time after his mortal life.",
+    "cultural_caution": "A term in a Chinese historical-fantasy novel, not a comparative equivalence to a living religion, real divine being, or religious authority.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Xie Lian ascends to godhood and later ascends for a third time"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC241-002",
+    "source_id": "SRC-241",
+    "canonical_term": "ascension",
+    "original_language": "English",
+    "original_script": "ascend to godhood",
+    "transliteration": "",
+    "literal_gloss": "rise to godhood",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The source's stated transition by which Xie Lian becomes a god; the synopsis says the later occurrence is his third ascension.",
+    "cultural_caution": "A source-fiction transformation/status term. The brief publisher synopsis does not establish a cultivation practice, ritual, eligibility rule, or real-world spiritual analogue.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Ascension to godhood and third ascension"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC241-003",
+    "source_id": "SRC-241",
+    "canonical_term": "Mortal Realm",
+    "original_language": "English",
+    "original_script": "Mortal Realm",
+    "transliteration": "",
+    "literal_gloss": "realm of mortals",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The realm to which Xie Lian is sent to repay debts through hunting dangerous ghosts and troublesome spirits.",
+    "cultural_caution": "A source-fiction cosmological location, not a claim about the real world or a theological realm.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Xie Lian is sent to the Mortal Realm"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC241-004",
+    "source_id": "SRC-241",
+    "canonical_term": "violent ghosts",
+    "original_language": "English",
+    "original_script": "violent ghosts",
+    "transliteration": "",
+    "literal_gloss": "violent ghosts",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A source-fiction threatening entity category that Xie Lian is sent to hunt in the Mortal Realm.",
+    "cultural_caution": "A fictional ghost category within the novel. It is not an assertion about real spirits, death, violence, or a safety threat.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Violent ghosts are targets of Xie Lian's Mortal Realm assignment"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC241-005",
+    "source_id": "SRC-241",
+    "canonical_term": "troublemaking spirits",
+    "original_language": "English",
+    "original_script": "troublemaking spirits",
+    "transliteration": "",
+    "literal_gloss": "mischief-causing spirits",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A source-fiction entity category that preys on the living and is part of Xie Lian's assigned hunt.",
+    "cultural_caution": "A fictional spirit category in the selected synopsis, not an assertion about living spiritual traditions or real-world danger.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Troublemaking spirits prey on the living and are targets of the assignment"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC241-006",
+    "source_id": "SRC-241",
+    "canonical_term": "Tian Guan Ci Fu",
+    "original_language": "Chinese",
+    "original_script": "天官赐福",
+    "transliteration": "Tiān Guān Cì Fú",
+    "literal_gloss": "Heaven Official's Blessing",
+    "dimension": "cultures",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The Chinese title shown by Seven Seas for its officially licensed English novel series Heaven Official's Blessing: Tian Guan Ci Fu.",
+    "cultural_caution": "A work title and Chinese-language publication context, not a character ethnicity, religious claim, or a basis for assigning cultural identity to individual characters beyond the source evidence.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/series/heaven-officials-blessing-tian-guan-ci-fu-novel/",
+        "locator": "Official Seven Seas novel series page",
+        "supports": [
+          "Chinese title script 天官赐福 and official English series title"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

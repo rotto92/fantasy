@@ -1,0 +1,78 @@
+[
+  {
+    "source_id": "SRC-100",
+    "source_title": "Warhammer Fantasy Roleplay",
+    "continuity_scope": "Terms-only audit bound to Cubicle 7’s Warhammer Fantasy Roleplay Fourth Edition Core Rulebook (SKU CB72400; core product available by December 2018) and its current official product/errata presentation. This is a D100 tabletop roleplaying-game rules-and-setting witness for the Old World, not a merger of Warhammer Fantasy Battle, Warhammer: The Old World, Age of Sigmar, Warhammer 40,000, novels, video games, miniatures games, or other WFRP editions/adventures.",
+    "work_or_witnesses": [
+      {
+        "work": "Warhammer Fantasy Roleplay: Core Rulebook",
+        "edition": "Cubicle 7 Warhammer Fantasy Roleplay Fourth Edition core rulebook, 2018; SKU CB72400 / CB72400PDF",
+        "url": "https://cubicle7games.com/warhammer-fantasy-roleplay-rulebook-pdf"
+      },
+      {
+        "work": "Cubicle 7 Errata Submission / current-version register",
+        "edition": "Official maintenance register, accessed 2026",
+        "url": "https://cubicle7games.com/en_EU/errata-submission"
+      },
+      {
+        "work": "New FREE WFRP Adventure!",
+        "edition": "Official Cubicle 7 post, December 14, 2018",
+        "url": "https://cubicle7games.com/en_EU/blog/warhammer-fantasy-rpg?page=21"
+      },
+      {
+        "work": "Warhammer Fest 2023 Live Blog and Stream",
+        "edition": "Official Games Workshop setting-separation statement, 2023",
+        "url": "https://www.warhammer-community.com/en-gb/articles/mH5khgPy/warhammer-fest-2023-live-blog-and-stream-watch-all-the-reveals/"
+      }
+    ],
+    "coverage_rule": "No individual characters are included. The accessible official core-product description describes player-character categories, settings, powers, threats, and rules but supplies no stable claim-level profile for a named dramatic individual. Species, careers, factions, gods, monsters, magic, items, places, corruption, and rules therefore remain terms/context unless a named dramatic character has adequate primary or official-reference evidence.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named individuals, including fictional figures referred to by rules or product copy, because the selected core witnesses do not provide claim-level dramatic profiles.",
+      "All characters, events, factions, rules, and outcomes from Warhammer: The Old World, Warhammer Fantasy Battle, Age of Sigmar, Warhammer 40,000, Total War and other video games, novels, miniatures-game publications, and other licensed adaptations.",
+      "All characters and plot claims from the Starter Set, Enemy Within, Adventures Afoot in the Reikland, and other fourth-edition supplements; each is a separate work/product witness.",
+      "All first-, second-, and third-edition WFRP material and any retconned or converted content not directly stated by the selected Fourth Edition core witness."
+    ],
+    "uncertainties": [
+      "Cubicle 7’s December 2018 post confirms that the Fourth Edition core rulebook was already in stores; this audit records 2018 as the product year but does not assert an unverified exact initial street date.",
+      "The official current-version register lists CB72400 as ‘version4’ but gives no last-updated date. It establishes a maintenance/version boundary, not a claim that every prior printing or external digital compendium is identical.",
+      "The core book is both a rules engine and a presentation of the Old World. Included mechanics and setting terms are not claims about all Warhammer continuities or later Warhammer: The Old World material.",
+      "Cubicle 7’s product page identifies the work as Games Workshop intellectual property used under license. No broader license, adaptation permission, or cross-media canon hierarchy is inferred.",
+      "The official description foregrounds corruption, altered bodies, disease, violence, secret cults, and destructive threats. These grim-content elements are recorded cautiously as fictional setting/rules context; they are not normalized as real-world moral, medical, religious, or ethnic categories."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Cubicle 7’s official Core Rulebook product page identifies the Fourth Edition Old World tabletop game, its D100 system, character species, careers, religions/miracles, magical traditions, and core adversity rules; the same page describes Chaos and its consequences. Cubicle 7’s version register supplies the current core-product maintenance boundary, while Games Workshop distinguishes the Old World RPG setting from its other Warhammer game worlds. Accessible evidence contains no claim-level named-dramatic profiles, warranting a terms-only audit.",
+    "citations": [
+      {
+        "url": "https://cubicle7games.com/warhammer-fantasy-roleplay-rulebook-pdf",
+        "locator": "Official product page, SKU CB72400PDF; description paragraphs and feature list",
+        "supports": [
+          "Fourth Edition core-product identity, Old World setting, Chaos/corruption content, species, careers, religion/miracles, magical traditions, and rules categories."
+        ]
+      },
+      {
+        "url": "https://cubicle7games.com/en_EU/errata-submission",
+        "locator": "Official errata register, ‘How do I know my pdf is the latest version?’ and CB72400 table row",
+        "supports": [
+          "Official errata/version-maintenance policy and CB72400 ‘version4’ boundary."
+        ]
+      },
+      {
+        "url": "https://cubicle7games.com/en_EU/blog/warhammer-fantasy-rpg?page=21",
+        "locator": "Official post, December 14, 2018 ‘New FREE WFRP Adventure!’ entry",
+        "supports": [
+          "Fourth Edition core rulebook was in stores by December 2018."
+        ]
+      },
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/mH5khgPy/warhammer-fest-2023-live-blog-and-stream-watch-all-the-reveals/",
+        "locator": "Official live blog, April 30 2023, 4:00pm entry",
+        "supports": [
+          "Games Workshop’s explicit separation of WFRP’s Old World from Soulbound’s Mortal Realms and Wrath & Glory’s 41st Millennium."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

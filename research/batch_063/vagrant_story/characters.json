@@ -1,0 +1,62 @@
+[
+  {
+    "character_id": "CHR-SRC182-001",
+    "canonical_name": "Ashley Riot",
+    "aliases": [],
+    "source_id": "SRC-182",
+    "source_title": "Vagrant Story",
+    "continuity": "Original Square PlayStation Vagrant Story, English PSOne Classics witness",
+    "work_or_witness": "Square Enix PSOne Classics English product page (2009)",
+    "character_kind": "individual",
+    "description": "The protagonist and a Valendia Knights of the Peace agent who enters Leá Monde in pursuit of Sydney Losstarot after the assault on Duke Bardorba's home.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "agent", "archetype_ids": [], "confidence": "high", "note": "The English Square Enix story page identifies Ashley as a VKP agent."}, {"term": "Riskbreaker", "archetype_ids": [], "confidence": "moderate", "note": "Japanese Square Enix archive calls Ashley 'Riskbreaker'; retained as witness-specific terminology, not an exact translation claim."}],
+      "power_traditions": [],
+      "affiliations": [{"term": "Valendia Knights of the Peace (VKP)", "archetype_ids": [], "confidence": "high", "note": "Direct English Square Enix wording."}],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "Leá Monde", "archetype_ids": [], "confidence": "high", "note": "He enters the Dark City in the official premise."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [{"term": "protagonist", "archetype_ids": [], "confidence": "high", "note": "Square Enix explicitly calls Ashley the protagonist."}],
+      "game_mechanics": []
+    },
+    "canon_status": "One of two names directly characterized in the selected first-party witness set.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://dlgames.square-enix.com/eu/en/psga/2009/vagrantstory/", "locator": "VAGRANT STORY / STORY", "supports": ["Ashley name, protagonist status, VKP agent role, entry into Leá Monde, and pursuit of Sydney"]}, {"url": "https://www.jp.square-enix.com/archive/vagrantstory/", "locator": "story text", "supports": ["Japanese archive's Riskbreaker label and Ashley story framing"]}],
+    "comparison_cautions": ["The selected official synopsis does not substantiate Ashley's full background, equipment, affinities, abilities, or ending.", "Riskbreaker is not mapped to an external game class; English/Japanese role terminology is kept distinct."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC182-002",
+    "canonical_name": "Sydney Losstarot",
+    "aliases": [],
+    "source_id": "SRC-182",
+    "source_title": "Vagrant Story",
+    "continuity": "Original Square PlayStation Vagrant Story, English PSOne Classics witness",
+    "work_or_witness": "Square Enix PSOne Classics English product page (2009); Square Enix Store description (2021)",
+    "character_kind": "individual",
+    "description": "The alleged mastermind of the recent assault on Duke Bardorba's home whom Ashley pursues into Leá Monde; a later Square Enix description calls him the Müllenkamp leader.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Müllenkamp leader", "archetype_ids": [], "confidence": "high", "note": "Direct wording in Square Enix's licensed Bring Arts product description."}],
+      "power_traditions": [],
+      "affiliations": [{"term": "Müllenkamp", "archetype_ids": [], "confidence": "high", "note": "Directly named in Square Enix Store description; the selected story synopsis does not outline the group."}],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "Leá Monde", "archetype_ids": [], "confidence": "high", "note": "Ashley pursues Sydney there according to the official story synopsis."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "One of two names directly characterized in the selected first-party witness set.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://dlgames.square-enix.com/eu/en/psga/2009/vagrantstory/", "locator": "VAGRANT STORY / STORY", "supports": ["Sydney name, alleged masterminding of the Duke Bardorba-home assault, and Ashley's pursuit"]}, {"url": "https://na.store.square-enix-games.com/vagrant-story-bring-arts-action-figure---ashley-riot-_-sydney-losstarot", "locator": "Description", "supports": ["Sydney Losstarot name and Müllenkamp-leader label"]}],
+    "comparison_cautions": ["'Believed to have masterminded' is an allegation in the official synopsis, not an adjudicated factual outcome.", "The later merchandise description establishes a title but not a complete group history, motives, powers, or ending."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

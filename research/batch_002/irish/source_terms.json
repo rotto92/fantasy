@@ -1,0 +1,250 @@
+[
+  {
+    "term_id": "STM-SRC003-001",
+    "source_id": "SRC-003",
+    "canonical_term": "Túatha Dé Danann",
+    "original_language": "Middle Irish",
+    "original_script": "Túatha Dé Danann",
+    "transliteration": "Tuatha De Danann",
+    "literal_gloss": "peoples/tribes of the goddess Danu",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-200"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Named collective central to Cath Maige Tuired.",
+    "cultural_caution": "Do not equate this medieval learned-literary group with a generic fae race.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Named collective central to Cath Maige Tuired."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-002",
+    "source_id": "SRC-003",
+    "canonical_term": "Fomoire",
+    "original_language": "Middle Irish",
+    "original_script": "Fomoire",
+    "transliteration": "Fomorians",
+    "literal_gloss": "Fomoire",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Opposing group in Cath Maige Tuired, including Balor and Elatha.",
+    "cultural_caution": "No demon, giant, or monster mapping is supplied; the category is historically and textually complex.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Opposing group in Cath Maige Tuired, including Balor and Elatha."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-003",
+    "source_id": "SRC-003",
+    "canonical_term": "geis / ges",
+    "original_language": "Middle Irish",
+    "original_script": "geis",
+    "transliteration": "geis",
+    "literal_gloss": "taboo / binding obligation",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-109"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Binding obligation or prohibition, exemplified by the Dagda's geasa placed on Elcmar.",
+    "cultural_caution": "The taxonomy's compulsory-obligation label is a comparison aid, not a definition of geis across Irish literature.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Binding obligation or prohibition, exemplified by the Dagda's geasa placed on Elcmar."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-004",
+    "source_id": "SRC-003",
+    "canonical_term": "flaithius",
+    "original_language": "Middle Irish",
+    "original_script": "flaithius",
+    "transliteration": "flaithius",
+    "literal_gloss": "sovereignty / lordship",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-509"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Kingship/sovereignty language in Eochaid Airem's accession and queen-seeking episode.",
+    "cultural_caution": "Do not turn sovereignty into a generic magical power-up; gender, land, legitimacy, and polity are context-specific.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text004.html",
+        "locator": "section 4",
+        "supports": [
+          "Kingship/sovereignty language in Eochaid Airem's accession and queen-seeking episode."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-005",
+    "source_id": "SRC-003",
+    "canonical_term": "síd",
+    "original_language": "Middle Irish",
+    "original_script": "síd",
+    "transliteration": "sid",
+    "literal_gloss": "mound / Otherworld residence",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-211"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Otherworldly community/place language in the victory proclamation.",
+    "cultural_caution": "A síd is not simply a dungeon, portal, or 'fairy hill' trope.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text167.html",
+        "locator": "section 167",
+        "supports": [
+          "Otherworldly community/place language in the victory proclamation."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-006",
+    "source_id": "SRC-003",
+    "canonical_term": "druídecht",
+    "original_language": "Middle Irish",
+    "original_script": "druídecht",
+    "transliteration": "druidecht",
+    "literal_gloss": "druidic art",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Esoteric art named among the learning of the Túatha Dé Danann.",
+    "cultural_caution": "No direct class mapping: medieval textual use cannot establish an ancient religious office or game magic system.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Esoteric art named among the learning of the Túatha Dé Danann."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-009",
+    "source_id": "SRC-003",
+    "canonical_term": "fidchell",
+    "original_language": "Middle Irish",
+    "original_script": "fidchell",
+    "transliteration": "fidchell",
+    "literal_gloss": "board game",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Board game played by Midir and Eochaid Airem.",
+    "cultural_caution": "Do not map a culturally specific game to generic gambling mechanics.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text005.html",
+        "locator": "section 5",
+        "supports": [
+          "Board game played by Midir and Eochaid Airem."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-012",
+    "source_id": "SRC-003",
+    "canonical_term": "clann",
+    "original_language": "Middle Irish",
+    "original_script": "clann",
+    "transliteration": "clann",
+    "literal_gloss": "children / offspring",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Kin group foregrounded by the title and transformed children in Oidhe Chloinne Lir.",
+    "cultural_caution": "Do not equate automatically with a modern clan institution.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text017.html",
+        "locator": "section 17",
+        "supports": [
+          "Kin group foregrounded by the title and transformed children in Oidhe Chloinne Lir."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-013",
+    "source_id": "SRC-003",
+    "canonical_term": "cumhacht",
+    "original_language": "Middle Irish",
+    "original_script": "cumhacht",
+    "transliteration": "cumacht",
+    "literal_gloss": "power / ability",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Power is central to the Dagda's control over Elcmar in the opening scene.",
+    "cultural_caution": "A broad term, not evidence for a standardized power system.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Power is central to the Dagda's control over Elcmar in the opening scene."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC003-014",
+    "source_id": "SRC-003",
+    "canonical_term": "Tara / Temair",
+    "original_language": "Middle Irish",
+    "original_script": "Temair",
+    "transliteration": "Temair",
+    "literal_gloss": "Tara",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Royal site at which Eochaid Airem is king in Tochmarc Étaíne.",
+    "cultural_caution": "A historically layered place and literary setting, not a character or generic holy-city equivalent.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text004.html",
+        "locator": "section 4",
+        "supports": [
+          "Royal site at which Eochaid Airem is king in Tochmarc Étaíne."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

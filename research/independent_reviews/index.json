@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-08-06",
+  "review_scope_note": "This is a consolidation index, not a claim that every corpus source has received a full second review. Source-specific evidence/status reviews and the dedicated zero-character audit are listed separately; all other compiled source IDs remain pending focused review.",
+  "source_review_status": {
+    "SRC-004": {
+      "review_types": ["evidence-concentration review"],
+      "ledgers": ["review_aom_warning_wave.json"],
+      "outcomes": ["narrowed; character and relationship sample claims remain grounded in the declared Lady Charlotte Guest translation, while unsupported source-native term claims were removed."],
+      "unresolved_limits": ["Forty-one character records legitimately concentrate on the declared Guest translation; a critical Middle Welsh or manuscript-level audit is still needed before additional Welsh-language terminology is introduced."]
+    },
+    "SRC-007": {
+      "review_types": ["evidence-concentration review"],
+      "ledgers": ["review_aom_warning_and_status_wave2.json"],
+      "outcomes": ["Retained the concentration warning as legitimate for a deliberately single-witness tale pass."],
+      "unresolved_limits": ["The pass is intentionally limited to Afanasyev tale no. 159 and does not establish universal East Slavic identities for its named figures."]
+    },
+    "SRC-009": {
+      "review_types": ["evidence and locator remediation"],
+      "ledgers": ["review_gita_warning_wave.json"],
+      "outcomes": ["remediated-pass-with-translation-limits"],
+      "unresolved_limits": ["Burton remains a Victorian English translation rather than a critical Arabic edition; manuscript, regional, translation, and representation limits remain explicit."]
+    },
+    "SRC-010": {
+      "review_types": ["completion-status review"],
+      "ledgers": ["review_aom_warning_and_status_wave2.json"],
+      "outcomes": ["Corrected stale in-progress status to pass-complete for the declared Qur'anic witness pass."],
+      "unresolved_limits": ["This is not a completion claim for the wider Arabic and Islamic religious, literary, folkloric, and regional corpus."]
+    },
+    "SRC-015": {
+      "review_types": ["evidence-concentration and cultural-caution review"],
+      "ledgers": ["review_gita_warning_wave.json"],
+      "outcomes": ["pass-with-material-limits"],
+      "unresolved_limits": ["The single nineteenth-century English translation and broad locators do not settle Sanskrit-critical, regional, devotional, performance, or living-tradition claims; specialist review remains needed for sensitive comparison labels."]
+    },
+    "SRC-017": {
+      "review_types": ["completion-status review"],
+      "ledgers": ["review_aom_warning_and_status_wave2.json"],
+      "outcomes": ["Corrected stale in-progress status to pass-complete for the declared 40-character novel sampling rule."],
+      "unresolved_limits": ["The accessible Chinese witness lacks a stated critical-edition apparatus; variants, translation choices, authorship, and wider mythic/religious corpus claims remain outside scope."]
+    },
+    "SRC-020": {
+      "review_types": ["completion-status review"],
+      "ledgers": ["review_aom_warning_and_status_wave2.json"],
+      "outcomes": ["Corrected stale in-progress status to pass-complete for the declared four-account named-agent rule."],
+      "unresolved_limits": ["This is not a completion claim for Korean mythology and folklore as a living, multi-regional corpus."]
+    },
+    "SRC-021": {
+      "review_types": ["evidence-concentration review"],
+      "ledgers": ["review_aom_warning_wave.json"],
+      "outcomes": ["partially strengthened; a direct original-text transcription was added only for Tepeu/Gucumatz naming."],
+      "unresolved_limits": ["Most event claims remain translation-specific; the review does not establish a single precontact original or broaden the pass to other Maya peoples, variants, or living authority."]
+    },
+    "SRC-023": {
+      "review_types": ["evidence and living-tradition review"],
+      "ledgers": ["review_gita_warning_wave.json"],
+      "outcomes": ["pass-with-living-tradition-and-textualization-limits"],
+      "unresolved_limits": ["The Niane/Pickett prose witness is not a definitive Mande oral epic; performer, language, lineage, ritual, historical, and legal contexts remain unresolved."]
+    },
+    "SRC-024": {
+      "review_types": ["completion-status review"],
+      "ledgers": ["review_gita_warning_and_status_wave2.json"],
+      "outcomes": ["status-corrected-pass-complete-for-declared-witnesses"],
+      "unresolved_limits": ["The pass remains a narrow set of Te Ara renderings and does not merge iwi/hapū, regional, translation, or living-practice material."]
+    },
+    "SRC-025": {
+      "review_types": ["completion-status review"],
+      "ledgers": ["review_gita_warning_and_status_wave2.json"],
+      "outcomes": ["status-corrected-pass-complete-for-declared-witnesses"],
+      "unresolved_limits": ["The Maunupau/Sterling chain and Westervelt text were not directly inspected; the pass remains a source-limited Hawaiian orientation, not wider Polynesian coverage."]
+    },
+    "SRC-035": {
+      "review_types": ["evidence-concentration review"],
+      "ledgers": ["review_aom_warning_and_status_wave2.json"],
+      "outcomes": ["Retained the concentration warning as legitimate for the identified printed-novel witness."],
+      "unresolved_limits": ["Granular claims are traceable to the printed edition by chapter rather than a public full-text URL; the author page is contextual, not a substitute for the novel."]
+    },
+    "SRC-044": {
+      "review_types": ["evidence-concentration review"],
+      "ledgers": ["review_gita_warning_and_status_wave2.json"],
+      "outcomes": ["pass-with-legitimate-primary-access-warning"],
+      "unresolved_limits": ["The official page exposes Chapter 1 rather than the full printed witness, so the one-URL warning remains legitimate for later-chapter locators."]
+    },
+    "SRC-045": {
+      "review_types": ["evidence-concentration review"],
+      "ledgers": ["review_aom_warning_and_status_wave2.json"],
+      "outcomes": ["Retained the concentration warning as legitimate for the identified printed-novel witness."],
+      "unresolved_limits": ["Granular claims are traceable to the printed edition by chapter rather than a public full-text URL; publisher copy is corroborative context only."]
+    },
+    "SRC-048": {
+      "review_types": ["evidence-concentration and locator-granularity review"],
+      "ledgers": ["review_gita_warning_and_status_wave2.json"],
+      "outcomes": ["pass-with-low-granularity-warning"],
+      "unresolved_limits": ["The primary locators remain broad chapter ranges and the official public page is not a searchable full text; tighter locators require a physical or licensed edition."]
+    },
+    "SRC-164": {
+      "review_types": ["evidence-concentration review"],
+      "ledgers": ["review_lotr_warning_and_status_wave2.json"],
+      "outcomes": ["Retained with the evidence-concentration warning."],
+      "unresolved_limits": ["The dated Jagex roster page is the sole direct first-party witness for the ten guest profiles; later outcomes and player-specific states remain out of scope."]
+    },
+    "SRC-168": {
+      "review_types": ["evidence-concentration review"],
+      "ledgers": ["review_lotr_warning_and_status_wave2.json"],
+      "outcomes": ["Retained with the evidence-concentration warning."],
+      "unresolved_limits": ["The official character-card page is the sole direct witness for the bounded roster; the pass does not cover all characters, player-variable data, original releases, or later installments."]
+    },
+    "SRC-184": {
+      "review_types": ["evidence-concentration remediation"],
+      "ledgers": ["review_lotr_warning_and_status_wave2.json"],
+      "outcomes": ["Evidence-concentration warning resolved without changing scope."],
+      "unresolved_limits": ["Remaining profile-specific characters rely on the selected introduction witness; no cross-entry timeline or identity claim is made."]
+    },
+    "SRC-264": {
+      "review_types": ["audiovisual evidence-concentration review"],
+      "ledgers": ["review_lotr_recent_tv_film.json"],
+      "outcomes": ["Retained without source-bundle edits; premiere-only claims remain tied to scene-range locators in the selected HBO episode."],
+      "unresolved_limits": ["Playback access is limited and the episode is the only direct authoritative witness for the selected on-screen claims; no unrelated later-continuity source was added."]
+    },
+    "SRC-266": {
+      "review_types": ["film evidence-concentration review"],
+      "ledgers": ["review_lotr_recent_tv_film.json"],
+      "outcomes": ["Retained without source-bundle edits; AFI catalogue claims remain confined to the selected theatrical-film continuity."],
+      "unresolved_limits": ["No publicly accessible authoritative second witness exposes granular text for the same theatrical-cut claims; unofficial scripts and later cuts remain excluded."]
+    },
+    "SRC-277": {
+      "review_types": ["evidence-concentration and textual-boundary review"],
+      "ledgers": ["review_aom_warning_wave.json"],
+      "outcomes": ["narrowed; the BORI-versus-Ganguli evidence boundary remains explicit."],
+      "unresolved_limits": ["The BORI page provides critical-edition metadata but not a granular online Sanskrit CE witness; the source remains a reference-structure companion pending CE-Sanskrit or critical-translation review."]
+    },
+    "SRC-279": {
+      "review_types": ["completion-status review"],
+      "ledgers": ["review_lotr_warning_and_status_wave2.json"],
+      "outcomes": ["Completion status changed to pass-complete for its declared finite witness set."],
+      "unresolved_limits": ["Historical, regional, ethnic, literary, religious, popular, diasporic, and living traditions remain non-exhaustive and witness-specific."]
+    },
+    "SRC-280": {
+      "review_types": ["completion-status review"],
+      "ledgers": ["review_lotr_warning_and_status_wave2.json"],
+      "outcomes": ["Completion status changed to pass-complete for the declared Florentine Codex and Leyenda de los Soles witnesses."],
+      "unresolved_limits": ["The selected colonial manuscripts and editions do not establish one pre-contact canon or universal Nahua/Mexica equivalences or practices."]
+    },
+    "SRC-033": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["A controlled authorized opening-text witness could support a future narrow character pass."]},
+    "SRC-034": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["A licensed preview or direct official profile is needed before expansion."]},
+    "SRC-037": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The precise primary segment contains no named individual in scope."]},
+    "SRC-038": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The selected witness does not support a reproducibly located named-character record."]},
+    "SRC-041": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The selected witness does not support a reproducibly located named-character record."]},
+    "SRC-071": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained evidence-insufficient zero-character audit with a bibliographic boundary term."],"unresolved_limits":["No accessible primary Korean text or complete authoritative translation was available for character claims."]},
+    "SRC-072": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained evidence-insufficient zero-character audit with a bibliographic boundary term."],"unresolved_limits":["No accessible primary Japanese text or complete authoritative translation was available for character claims."]},
+    "SRC-084": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained evidence-insufficient zero-character audit with a work-boundary term."],"unresolved_limits":["The authorized work page is not a stable primary-text witness for character or relationship claims."]},
+    "SRC-089": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-090": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-091": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-092": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-093": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-094": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-095": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-096": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["An official exact-product profile or text passage would be needed before any character record."]},
+    "SRC-097": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-098": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-099": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-100": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-101": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-102": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-103": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-104": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-105": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-106": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-107": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-108": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-109": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-110": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-111": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-112": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-113": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-114": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-115": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["A direct official profile should be assessed before treating named rules examples as characters."]},
+    "SRC-116": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-117": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character rules/product pass."],"unresolved_limits":["Named persons require a separately scoped official profile, scenario, or literary witness."]},
+    "SRC-119": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character board/campaign-system pass."],"unresolved_limits":["Cards, roles, factions, miniatures, and variable outcomes are not stable dramatic-character records."]},
+    "SRC-120": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character board/campaign-system pass."],"unresolved_limits":["A richer official Second Edition hero/villain profile witness should be checked before expansion."]},
+    "SRC-122": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character board/campaign-system pass."],"unresolved_limits":["Cards, roles, factions, miniatures, and variable outcomes are not stable dramatic-character records."]},
+    "SRC-123": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character board/campaign-system pass."],"unresolved_limits":["Named hero cards/avatars need an official base-game profile source before character records."]},
+    "SRC-124": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character board/campaign-system pass."],"unresolved_limits":["Named Spirit panels need an exact official narrative-profile audit before character records."]},
+    "SRC-125": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character board/campaign-system pass."],"unresolved_limits":["Cards, roles, factions, miniatures, and variable outcomes are not stable dramatic-character records."]},
+    "SRC-126": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained terms-only zero-character board/campaign-system pass."],"unresolved_limits":["A direct official character profile should be checked before treating the named faction-role framing as an individual."]},
+    "SRC-140": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-142": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-143": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-144": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-148": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-150": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-157": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-158": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-165": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-177": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-186": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["A reproducible Capcom profile witness could support narrowly sourced records."]},
+    "SRC-188": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-189": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-190": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-192": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character digital-game product pass."],"unresolved_limits":["The selected official material does not provide reproducible named-NPC profiles with claim-level locators."]},
+    "SRC-195": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The accessible authorized witness is edition/premise metadata rather than a claim-level individual dossier."]},
+    "SRC-199": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The accessible authorized witness is edition/premise metadata rather than a claim-level individual dossier."]},
+    "SRC-210": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["A licensed text/profile witness is needed to resolve the named synopsis identity safely."]},
+    "SRC-216": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The accessible authorized witness is edition/premise metadata rather than a claim-level individual dossier."]},
+    "SRC-218": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The accessible authorized witness is edition/premise metadata rather than a claim-level individual dossier."]},
+    "SRC-220": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["A primary-page or official profile witness is needed before character records are made."]},
+    "SRC-221": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The accessible authorized witness is edition/premise metadata rather than a claim-level individual dossier."]},
+    "SRC-245": {"review_types":["zero-character audit"],"ledgers":["review_zero_character_passes.json"],"outcomes":["Retained zero-character pass after bounded-witness audit."],"unresolved_limits":["The accessible authorized witness is edition/premise metadata rather than a claim-level individual dossier."]}
+  },
+  "reviewed_source_count": 90,
+  "pending_source_count": 191,
+  "pending_source_scope": "191 of 281 compiled source IDs have not yet received a focused source-specific review or the dedicated zero-character audit.",
+  "warning_sources_reviewed": ["SRC-004", "SRC-007", "SRC-015", "SRC-023", "SRC-035", "SRC-044", "SRC-045", "SRC-048", "SRC-164", "SRC-168", "SRC-264", "SRC-266", "SRC-277"],
+  "zero_character_sources_reviewed": ["SRC-033", "SRC-034", "SRC-037", "SRC-038", "SRC-041", "SRC-071", "SRC-072", "SRC-084", "SRC-089", "SRC-090", "SRC-091", "SRC-092", "SRC-093", "SRC-094", "SRC-095", "SRC-096", "SRC-097", "SRC-098", "SRC-099", "SRC-100", "SRC-101", "SRC-102", "SRC-103", "SRC-104", "SRC-105", "SRC-106", "SRC-107", "SRC-108", "SRC-109", "SRC-110", "SRC-111", "SRC-112", "SRC-113", "SRC-114", "SRC-115", "SRC-116", "SRC-117", "SRC-119", "SRC-120", "SRC-122", "SRC-123", "SRC-124", "SRC-125", "SRC-126", "SRC-140", "SRC-142", "SRC-143", "SRC-144", "SRC-148", "SRC-150", "SRC-157", "SRC-158", "SRC-165", "SRC-177", "SRC-186", "SRC-188", "SRC-189", "SRC-190", "SRC-192", "SRC-195", "SRC-199", "SRC-210", "SRC-216", "SRC-218", "SRC-220", "SRC-221", "SRC-245"],
+  "zero_character_audit": {
+    "ledger": "review_zero_character_passes.json",
+    "outcome": "67/67 completed-character-count-zero source passes retained or remediated as bounded terms-only/evidence-insufficient passes; no unsupported characters were invented.",
+    "unresolved_limits": ["Eleven sources require a separately scoped directly accessible official profile or primary-text witness before character expansion.", "Procedural, avatar-led, collaborative, board-game, and product-metadata witnesses remain zero-character passes unless a witness directly establishes a stable dramatic individual."]
+  },
+  "corpus_wide_reviews": [
+    {
+      "review_type": "character-node contract audit",
+      "ledger": "review_character_node_contract.json",
+      "outcome": "Compiled non-quarantined corpus scanned; zero confirmed compiled violations after root fixes.",
+      "unresolved_limits": ["Stable title-designated agents, scoped player protagonists, and named avatars remain valid only when the declared witness establishes stable dramatic agency.", "The SRC-022 historical draft is quarantined provenance and excluded from compilation."]
+    },
+    {
+      "review_type": "relationship contract audit",
+      "ledger": "review_relationship_contract.json",
+      "outcome": "Normalized 11 unsupported relationship-type values, corrected one wrong endpoint, and removed one indirect non-endpoint relationship claim.",
+      "unresolved_limits": []
+    }
+  ],
+  "retained_warning_source_ids": ["SRC-004", "SRC-007", "SRC-015", "SRC-023", "SRC-035", "SRC-044", "SRC-045", "SRC-048", "SRC-164", "SRC-168", "SRC-264", "SRC-266", "SRC-277"]
+}

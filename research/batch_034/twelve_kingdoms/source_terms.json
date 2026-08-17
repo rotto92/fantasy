@@ -1,0 +1,33 @@
+[
+  {
+    "term_id": "STM-SRC072-001",
+    "source_id": "SRC-072",
+    "canonical_term": "月の影 影の海〔上・下〕 bibliographic witness",
+    "original_language": "Japanese",
+    "original_script": "月の影 影の海〔上・下〕",
+    "transliteration": "Tsuki no Kage, Kage no Umi (jō/ge)",
+    "literal_gloss": "Shadow of the Moon, Sea of Shadow (upper/lower volumes)",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Japanese two-volume title and Shincho Bunko edition context used as the sole bibliographic witness for this evidence-insufficient pass.",
+    "cultural_caution": "This is an edition/title boundary only, not a claim about the novel's internal terminology, character names, romanization, English localization, or Chinese-derived vocabulary.",
+    "citations": [
+      {
+        "url": "https://www.shinchosha.co.jp/12kokuki/series/2.html",
+        "locator": "Shinchosha official series page, 月の影 影の海〔上〕",
+        "supports": [
+          "Japanese title, author, series, and top-volume publication context."
+        ]
+      },
+      {
+        "url": "https://www.shinchosha.co.jp/book/124053/",
+        "locator": "Shinchosha official product record, 月の影 影の海〔下〕",
+        "supports": [
+          "Bottom-volume title and Shincho Bunko edition context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "SRC-180",
+    "source_title": "TRIANGLE STRATEGY",
+    "continuity_scope": "TRIANGLE STRATEGY original Nintendo Switch release, US-English witness, released 4 March 2022. The selected version is the full Switch game—not the Prologue Demo, Steam/Digital Deluxe release, later PlayStation/Xbox/Quest releases, or another regional script. Square Enix's official English character/story portal is used only for its non-route-specific profiles of the four central figures and shared premise. Player choices, votes, recruitment, deaths, alliances, and endings remain branch-specific and are not universalized.",
+    "work_or_witnesses": [
+      {
+        "work": "TRIANGLE STRATEGY",
+        "edition": "Nintendo Switch US release, physical/digital storefront witness, 4 March 2022; Square Enix manufacturer/publisher description and US-English localization witness.",
+        "url": "https://www.nintendo.com/us/store/products/triangle-strategy-114283/"
+      },
+      {
+        "work": "TRIANGLE STRATEGY official character and story portal",
+        "edition": "Square Enix official English franchise portal; used for non-route-specific profiles and initial-setting facts, not for platform-specific changes or route outcomes.",
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/"
+      },
+      {
+        "work": "Challenge convictions in the TRIANGLE STRATEGY game, available now",
+        "edition": "Nintendo news item, 4 March 2022; used for Switch launch/demo and decision-system boundaries.",
+        "url": "https://www.nintendo.com/us/whatsnew/challenge-convictions-in-the-triangle-strategy-game-available-now/"
+      },
+      {
+        "work": "A tactical RPG that will challenge your convictions! TRIANGLE STRATEGY is out on Steam",
+        "edition": "Square Enix Steam announcement, 13 October 2022; used only to distinguish the later PC/Digital Deluxe availability from the selected Switch release.",
+        "url": "https://www.square-enix-games.com/en_US/home/tactical-rpg-will-challenge-convictions-triangle-strategy-out-steam"
+      }
+    ],
+    "coverage_rule": "All named dramatic individuals directly profiled on Square Enix's selected official English character portal and present in its non-route-specific central-party synopsis: Serenoa Wolffort, Prince Roland of Glenbrook, Frederica Aesfrost, and Benedict Pascal. The official page supplies stable identity/role/relationship descriptions for those four, so all four are recorded. No other named individual is included without an equally direct official profile in the selected witness set. Classes, combat skills, convictions, House Wolffort, nations, resources, weapons, locations, Scales of Conviction, votes, recruitment rules, terrain, and battle systems remain dimensions/terms. Route votes, optional recruits, deaths, alliances, and endings never establish a universal relationship or character state.",
+    "in_scope_character_count": 4,
+    "completed_character_count": 4,
+    "omissions": [
+      "All named route recruits, antagonists, relatives, advisors, rulers, soldiers, non-profiled NPCs, and any character whose availability, survival, allegiance, or role is route-dependent, because the selected official witness set does not directly provide a non-route-specific claim-level profile for them.",
+      "All classes, weapons, skills, convictions, nations, houses, factions, resources, locations, Scales of Conviction votes, maps, battle systems, items, and player-selected outcomes as character nodes.",
+      "The Prologue Demo beyond its stated first-three-chapter/transfer boundary; Steam/Digital Deluxe, PlayStation, Xbox, Quest, and other releases; unreviewed localizations; updates; and all player save-file branches or endings."
+    ],
+    "content_cautions": [
+      "Official material frames the story around war, political conflict, control of scarce salt and iron, betrayal, coercive choices, and battlefield violence. Nintendo's US rating lists blood, fantasy violence, language, mild suggestive themes, and alcohol use.",
+      "The game deliberately branches through convictions, votes, alliances, recruitment, and outcomes. Character survival, affinity, political standing, and endings can vary; this audit states only relationships explicitly presented in the non-route-specific profiles."
+    ],
+    "uncertainties": [
+      "The Square Enix character portal is an official franchise profile source but currently promotes multiple later platforms. It is used only for stable non-route-specific profiles shared with the selected Switch release, not to establish later platform changes or alternate content.",
+      "Nintendo lists multiple interface/text languages but this pass is bounded to its US-English description. Localization-specific names, voice performances, terminology, and story wording are not compared.",
+      "The Nintendo launch article establishes the Prologue Demo's first-three-chapter and save-transfer boundary, but no full official patch/update archive was selected. No unverified version-change, demo-only, or post-launch claim is imported."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Nintendo official Switch store and launch-news records establish the selected version/date/platform/localization witness, official publisher description, content descriptors, branching conviction/voting systems, and demo boundary. Square Enix's official English portal establishes the shared premise and claim-specific profiles of the four recorded central characters. Square Enix's Steam article distinguishes later PC/Digital Deluxe availability. No fan wiki, Wikipedia, walkthrough, route chart, datamine, or actual-play result is used.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/triangle-strategy-114283/",
+        "locator": "Product description and About this item",
+        "supports": [
+          "Nintendo Switch US version/date/languages/content descriptors and publisher description of Serenoa, Norzelia, convictions, voting, and branching consequences."
+        ]
+      },
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Story and Character sections",
+        "supports": [
+          "Square Enix official non-route-specific setting and profile information for Serenoa, Roland, Frederica, and Benedict."
+        ]
+      },
+      {
+        "url": "https://www.nintendo.com/us/whatsnew/challenge-convictions-in-the-triangle-strategy-game-available-now/",
+        "locator": "Challenging choices; Free demo available",
+        "supports": [
+          "Nintendo's launch-day description of votes/branches and the Prologue Demo's first-three-chapter and save-transfer boundary."
+        ]
+      },
+      {
+        "url": "https://www.square-enix-games.com/en_US/home/tactical-rpg-will-challenge-convictions-triangle-strategy-out-steam",
+        "locator": "Steam release announcement, 13 October 2022",
+        "supports": [
+          "Square Enix's later Steam/Digital Deluxe product boundary."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

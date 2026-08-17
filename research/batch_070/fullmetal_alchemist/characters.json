@@ -1,0 +1,98 @@
+[
+  {
+    "character_id": "CHR-SRC198-001",
+    "canonical_name": "Edward Elric",
+    "aliases": [],
+    "source_id": "SRC-198",
+    "source_title": "Fullmetal Alchemist",
+    "continuity": "VIZ English Fullmetal Alchemist: Fullmetal Edition, Vol. 1 (2018)",
+    "work_or_witness": "VIZ Fullmetal Edition, Vol. 1 product metadata and official series page; Square Enix Japanese Vol. 1 synopsis corroboration",
+    "character_kind": "individual",
+    "description": "The older Elric brother, who lost an arm and a leg in the failed attempt to restore his mother and begins a journey with Alphonse to restore their bodies using the Philosopher's Stone.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term": "State Alchemist", "archetype_ids": [], "confidence": "high", "note": "VIZ's official series description says Edward becomes a state alchemist; the office is not generalized into a real-world or universal role."}
+      ],
+      "power_traditions": [
+        {"term": "alchemy", "archetype_ids": [], "confidence": "high", "note": "Official VIZ premise frames Edward's story through alchemy; no complete system or capability list is inferred."}
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {"term": "limb loss and automail prostheses", "archetype_ids": [], "confidence": "high", "note": "VIZ states Edward lost an arm and leg and has mechanical automail limbs. Square Enix Japanese Volume 1 metadata corroborates the premise sequence; no clinical or functional detail is inferred."}
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {"term": "human transmutation attempt", "archetype_ids": [], "confidence": "high", "note": "Square Enix's original Volume 1 synopsis identifies the attempted revival of the brothers' mother as human transmutation; VIZ describes it more generally as a ritual gone wrong."}
+      ],
+      "narrative_archetypes": [
+        {"term": "protagonist", "archetype_ids": [], "confidence": "high", "note": "The VIZ Volume 1 synopsis centers Edward and Alphonse's restoration journey."}
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named co-protagonist directly described by the selected official Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {"url": "https://www.viz.com/manga-books/manga/fullmetal-alchemist-fullmetal-edition-volume-1/product/5509", "locator": "Fullmetal Edition, Vol. 1 synopsis", "supports": ["Edward name, limb-loss premise, Elric-brother restoration journey, and Philosopher's Stone objective"]},
+      {"url": "https://www.viz.com/fullmetal-alchemist", "locator": "official series description", "supports": ["Edward's automail limbs, alchemy framing, and State Alchemist premise"]},
+      {"url": "https://magazine.jp.square-enix.com/top/comics/detail/9784757506206/", "locator": "Japanese Fullmetal Alchemist Vol. 1 official product synopsis", "supports": ["Edward as older brother and attempted-human-transmutation premise"]}
+    ],
+    "comparison_cautions": [
+      "Body loss, prostheses, attempted revival after parental death, and alchemical violence are premise-level content cautions; this record does not make a medical, disability, or trauma-outcome claim.",
+      "The selected witness does not establish detailed alchemical techniques, later military actions, war/genocide material, other adaptations, or final outcomes.",
+      "Specific limb laterality is not imported into the description because the selected VIZ English synopsis does not state it; it is available only in the corroborating Japanese product synopsis."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC198-002",
+    "canonical_name": "Alphonse Elric",
+    "aliases": [],
+    "source_id": "SRC-198",
+    "source_title": "Fullmetal Alchemist",
+    "continuity": "VIZ English Fullmetal Alchemist: Fullmetal Edition, Vol. 1 (2018)",
+    "work_or_witness": "VIZ Fullmetal Edition, Vol. 1 product metadata and official series page; Square Enix Japanese Vol. 1 synopsis corroboration",
+    "character_kind": "individual",
+    "description": "Edward's younger brother, whose soul is in a suit of armor after the failed attempt to restore their mother; he travels with Edward in pursuit of their bodies' restoration.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {"term": "alchemy", "archetype_ids": [], "confidence": "moderate", "note": "The official premise identifies the brothers' failed alchemical ritual and their resulting journey; it does not provide a separate individual technique profile for Alphonse."}
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {"term": "soul in a suit of armor", "archetype_ids": [], "confidence": "high", "note": "Direct VIZ Volume 1 and series-description premise wording; no biological, sensory, or later body-restoration detail is inferred."}
+      ],
+      "artifacts_and_vehicles": [
+        {"term": "suit of armor", "archetype_ids": [], "confidence": "high", "note": "The armor is the stated vessel for Alphonse's soul in the selected official metadata, not a separate character endpoint."}
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {"term": "soul bound to armor", "archetype_ids": [], "confidence": "high", "note": "The official premise describes an individual result, not a complete rule system for souls or armor."}
+      ],
+      "narrative_archetypes": [
+        {"term": "protagonist", "archetype_ids": [], "confidence": "high", "note": "The VIZ Volume 1 synopsis centers Edward and Alphonse's restoration journey."}
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named co-protagonist directly described by the selected official Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {"url": "https://www.viz.com/manga-books/manga/fullmetal-alchemist-fullmetal-edition-volume-1/product/5509", "locator": "Fullmetal Edition, Vol. 1 synopsis", "supports": ["Alphonse name, armor-bound soul premise, Elric-brother restoration journey, and Philosopher's Stone objective"]},
+      {"url": "https://www.viz.com/fullmetal-alchemist", "locator": "official series description", "supports": ["Alphonse as a soul in a suit of armor"]},
+      {"url": "https://magazine.jp.square-enix.com/top/comics/detail/9784757506206/", "locator": "Japanese Fullmetal Alchemist Vol. 1 official product synopsis", "supports": ["Alphonse as younger brother and official original-edition premise sequence"]}
+    ],
+    "comparison_cautions": [
+      "Disembodiment and armor-bound soul imagery are content cautions; this entry does not infer Alphonse's abilities, physical sensations, mortality, or later restoration.",
+      "No adaptation-specific design, voice, event chronology, war/genocide material, or endgame outcome is included.",
+      "The brother relationship is represented separately as a named-character relationship; the armor is an object/vessel dimension, never an endpoint."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

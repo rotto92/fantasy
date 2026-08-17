@@ -1,0 +1,39 @@
+[
+  {
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity_scope": "Bounded published orientation pass using UNESCO’s Ifá safeguarding description and a deliberately limited set of widely published named figures. It does not exhaust Yorùbá lineages, regions, recensions, practice, or living authority.",
+    "work_or_witnesses": [
+      {
+        "work": "Ifa divination system",
+        "edition": "UNESCO Intangible Cultural Heritage inscription description",
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146"
+      }
+    ],
+    "coverage_rule": "Named figures needed to represent a limited published orientation to òrìṣà, Ifá mediation, waters, healing, power, and ancestral narrative; ritual offices are terms, not nodes.",
+    "in_scope_character_count": 25,
+    "completed_character_count": 25,
+    "omissions": [
+      "Most òrìṣà, local forms, lineages, verses, practitioners, and living ceremonial contexts",
+      "Unpublished or lineage-restricted knowledge",
+      "All claims of universal portfolios, genealogies, or ritual procedure"
+    ],
+    "uncertainties": [
+      "Published names and associations vary by region and lineage.",
+      "UNESCO description is contextual orientation, not a substitute for primary oral authority.",
+      "Several relationships are low-confidence and require a dedicated scholarly text witness before integration."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "UNESCO safeguarding documentation is the identified institutional published reference; all records are strongly caveated and require lineage-aware review.",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO Ifa divination system inscription description",
+        "supports": [
+          "Institutional context for the bounded pass."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

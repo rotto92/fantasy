@@ -1,0 +1,81 @@
+[
+  {
+    "term_id": "STM-SRC130-001",
+    "source_id": "SRC-130",
+    "canonical_term": "獵子戦争",
+    "original_language": "Japanese",
+    "original_script": "獵子戦争",
+    "transliteration": "Shishi Sensou",
+    "literal_gloss": "Lion War",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The war in Ivalice named by the selected edition's official story synopsis; the synopsis says Delita brought it to its conclusion and frames hidden historical truth around it.",
+    "cultural_caution": "A source-specific historical conflict, not a character, faction, or generic narrative archetype.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/fft_shi/",
+        "locator": "Story description",
+        "supports": [
+          "Name and story function of the Lion War"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC130-002",
+    "source_id": "SRC-130",
+    "canonical_term": "ジョブ",
+    "original_language": "Japanese",
+    "original_script": "ジョブ",
+    "transliteration": "jobu",
+    "literal_gloss": "job",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "A game-system category for which the selected edition adds new options; the official guide catalogue also describes added new-job elements.",
+    "cultural_caution": "This is a game-mechanics term, not a character class node or a claim about either included character's job.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/fft_shi/",
+        "locator": "Edition introduction (new movies and new jobs)",
+        "supports": [
+          "The selected edition adds new jobs"
+        ]
+      },
+      {
+        "url": "https://magazine.jp.square-enix.com/gamebooks/books/10111",
+        "locator": "Book description (new-job added elements)",
+        "supports": [
+          "Official guide catalogue's terminology for new-job added elements"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC130-003",
+    "source_id": "SRC-130",
+    "canonical_term": "イヴァリース",
+    "original_language": "Japanese",
+    "original_script": "イヴァリース",
+    "transliteration": "Ivalice",
+    "literal_gloss": "Ivalice",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The country in which the selected edition's official synopsis places the Lion War.",
+    "cultural_caution": "A setting term only; this pass does not merge it with other Ivalice continuities or turn it into a character endpoint.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/fft_shi/",
+        "locator": "Story description (国家イヴァリース)",
+        "supports": [
+          "Ivalice is named as the country in the story premise"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

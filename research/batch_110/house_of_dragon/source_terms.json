@@ -1,0 +1,50 @@
+[
+  {
+    "term_id":"STM-SRC265-001",
+    "source_id":"SRC-265",
+    "canonical_term":"Red Keep",
+    "original_language":"English",
+    "original_script":"Red Keep",
+    "transliteration":"",
+    "literal_gloss":"named keep",
+    "dimension":"cosmologies_and_realms",
+    "archetype_ids":[],
+    "mapping_relation":"none",
+    "definition":"The named place to which Daemon returns and where Rhaenyra welcomes him in the selected episode-one synopsis.",
+    "cultural_caution":"A fictional setting term only; it is not a real place, a historical analogy, or evidence for unspoken institutional or political details.",
+    "citations":[{"url":"https://press.wbd.com/us/synopses/episode-1-heirs-dragon?language_content_entity=en","locator":"HBO/Warner Bros. Discovery Pressroom, Episode 1 official synopsis, second sentence","supports":["Daemon returns to the Red Keep and Rhaenyra welcomes him there"]}],
+    "review_status":"researched"
+  },
+  {
+    "term_id":"STM-SRC265-002",
+    "source_id":"SRC-265",
+    "canonical_term":"tournament",
+    "original_language":"English",
+    "original_script":"tournament",
+    "transliteration":"",
+    "literal_gloss":"competitive ceremonial event",
+    "dimension":"game_mechanics",
+    "archetype_ids":[],
+    "mapping_relation":"none",
+    "definition":"The episode-one event Viserys hosts to celebrate the birth of his second child.",
+    "cultural_caution":"A fictional narrative event. The synopsis does not specify rules, competitors, violence, injuries, political function, or a real-world historical analogue.",
+    "citations":[{"url":"https://press.wbd.com/us/synopses/episode-1-heirs-dragon?language_content_entity=en","locator":"HBO/Warner Bros. Discovery Pressroom, Episode 1 official synopsis, first sentence","supports":["Viserys hosts a tournament to celebrate the birth of his second child"]}],
+    "review_status":"researched"
+  },
+  {
+    "term_id":"STM-SRC265-003",
+    "source_id":"SRC-265",
+    "canonical_term":"birth of Viserys's second child",
+    "original_language":"English",
+    "original_script":"birth of his second child",
+    "transliteration":"",
+    "literal_gloss":"childbirth reference",
+    "dimension":"narrative_archetypes",
+    "archetype_ids":[],
+    "mapping_relation":"none",
+    "definition":"The named celebratory occasion for the tournament in the selected episode-one synopsis.",
+    "cultural_caution":"A brief fictional childbirth reference only. The source does not identify the child or birthing parent, or provide medical, age, survival, death, gender, or family-structure information.",
+    "citations":[{"url":"https://press.wbd.com/us/synopses/episode-1-heirs-dragon?language_content_entity=en","locator":"HBO/Warner Bros. Discovery Pressroom, Episode 1 official synopsis, first sentence","supports":["The tournament celebrates the birth of Viserys's second child"]}],
+    "review_status":"researched"
+  }
+]

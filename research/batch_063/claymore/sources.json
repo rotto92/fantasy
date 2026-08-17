@@ -1,0 +1,67 @@
+[
+  {
+    "source_id": "SRC-199",
+    "source_title": "Claymore",
+    "continuity_scope": "Claymore, Vol. 1: VIZ Media's English paperback/digital manga edition, story and art by Norihiro Yagi, released 4 April 2006 (ISBN 978-1-4215-0618-0; 192 pages). This is a narrow first-volume product and premise audit. It excludes every later manga volume/chapter, the complete box set, anime, video game, guidebooks, other localizations/translations, adaptations, commentary, and cross-media continuity claims.",
+    "work_or_witnesses": [
+      {
+        "work": "Claymore, Vol. 1",
+        "edition": "VIZ English paperback/digital edition, story and art by Norihiro Yagi; released 4 April 2006; ISBN 978-1-4215-0618-0; 192 pages; Teen Plus.",
+        "url": "https://www.viz.com/manga-books/manga/claymore-volume-1-0/product/757"
+      },
+      {
+        "work": "Claymore, Chapter 1",
+        "edition": "VIZ official chapter reader; used only as direct-primary availability and chapter-label evidence, not for unquoted panel reconstruction.",
+        "url": "https://www.viz.com/shonenjump/claymore-chapter-1/chapter/6079"
+      },
+      {
+        "work": "Claymore series page",
+        "edition": "VIZ official series metadata; used for the general world premise and anime/video-game adaptation boundary.",
+        "url": "https://www.viz.com/claymore"
+      }
+    ],
+    "coverage_rule": "Official-metadata-only, zero-character pass. Individual named dramatic characters require a direct page/chapter locator in the selected English Vol. 1 or an official character/story profile specifically scoped to it. The accessible VIZ metadata and reader landing page provide the first-volume premise, title, creator, date, age rating, and chapter availability, but no text-addressable named-character dossier or panel/page locator capable of supporting stable individual claims. No named character or relationship is reconstructed from visual panels, later chapters, the anime, games, guidebooks, memory, or unofficial sources. Claymores, the organization, Yoma, other peoples/species, ranks, weapons, locations, transformations, and themes remain terms/dimensions.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named individuals appearing or referenced in Vol. 1, because the selected accessible official evidence lacks a text-addressable direct primary locator or volume-specific official character profile for each one.",
+      "Claymores, the unnamed organization, Yoma and other monster/species categories, ranks, weapons, places, transformations, themes, and unnamed villagers as character nodes.",
+      "Chapters/volumes after Vol. 1; the 2015 complete-box-set packaging; anime, video game, guidebook, adaptations, and all non-VIZ/localized editions."
+    ],
+    "content_cautions": [
+      "VIZ rates the selected volume Teen Plus. Its official premise features a Yoma that has claimed six lives, a fearful and paranoid village, predatory monsters that disguise themselves among humans, destructive supernatural threats, and fighters condemned to struggle against losing their humanity.",
+      "This metadata pass does not reproduce panels or narrate scenes. The official pages do not itemize the exact extent of graphic violence, body horror, or child harm in Vol. 1; readers/reviewers should consult the primary volume with care rather than treating this audit as a complete content-rating guide."
+    ],
+    "uncertainties": [
+      "The VIZ chapter reader confirms Chapter 1 is an official free chapter but the accessible research view does not provide stable text, page, or panel locators for named-character claims. The zero-character result reflects this evidence limitation, not a claim that Vol. 1 contains no named characters.",
+      "VIZ identifies Claymores as sword-wielding women warriors in the premise. This is a source-specific fictional organization presentation; the available metadata does not license claims about every woman, gender identity, social role, or biological essence within the fictional world or outside it.",
+      "The VIZ series page says the manga ran 2001–2014 and was adapted into an anime and video game, but it does not establish scene-for-scene identity, ending equivalence, character chronology, or any individual attribute across those media."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "VIZ's Vol. 1 product page establishes the selected English edition, Norihiro Yagi credit, April 2006 date, ISBN, length, Teen Plus rating, and first-volume Yoma/village/Claymore premise. VIZ's series page establishes the broader but carefully bounded Claymore/Yoma premise and confirms separate anime/video-game adaptations. The official Chapter 1 reader establishes direct VIZ chapter availability but is not used to infer unaddressable visual-panel facts. No fan wiki, Wikipedia, scanlation, adaptation, guidebook, or later-volume synopsis supplies character claims.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/manga-books/manga/claymore-volume-1-0/product/757",
+        "locator": "Claymore, Vol. 1 product metadata and description",
+        "supports": [
+          "Selected edition/date/ISBN/length/age rating/creator and the first-volume village/Yoma/Claymore premise."
+        ]
+      },
+      {
+        "url": "https://www.viz.com/claymore",
+        "locator": "Series description and creator biography",
+        "supports": [
+          "The broader Claymore/Yoma premise, Norihiro Yagi credit, 2001–2014 run, and separate anime/video-game adaptations."
+        ]
+      },
+      {
+        "url": "https://www.viz.com/shonenjump/claymore-chapter-1/chapter/6079",
+        "locator": "Chapter 1 official reader page",
+        "supports": [
+          "VIZ labels Chapter 1 as an official readable chapter."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

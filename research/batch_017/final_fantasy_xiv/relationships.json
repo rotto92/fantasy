@@ -1,0 +1,5 @@
+[
+  {
+    "relationship_id":"REL-SRC131-001","source_id":"SRC-131","source_character_id":"CHR-SRC131-001","target_character_id":"CHR-SRC131-002","relationship_type":"companion","label":"childhood friends","direction":"undirected","continuity":"FINAL FANTASY XIV: Dawntrail, Patch 7.0 baseline (NA English)","citations":[{"url":"https://na.finalfantasyxiv.com/dawntrail/story/","locator":"PATCH 7.0 Story, Key Characters: Wuk Lamat (lines 137-143)","supports":["Wuk Lamat is aided by her childhood friend Erenville"]}],"confidence":"high","note":"Companion is the closest permitted relationship type to the source's direct 'childhood friend' wording; it does not assert party membership or a later alliance."
+  }
+]

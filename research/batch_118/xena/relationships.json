@@ -1,0 +1,28 @@
+[
+  {
+    "relationship_id":"REL-SRC273-001",
+    "source_id":"SRC-273",
+    "source_character_id":"CHR-SRC273-001",
+    "target_character_id":"CHR-SRC273-002",
+    "relationship_type":"opponent",
+    "label":"Xena defends her home village against Draco",
+    "direction":"directed",
+    "continuity":"Xena: Warrior Princess television continuity; bounded Season 1 Episode 1 witness",
+    "citations":[{"url":"https://www.syfy.com/xena-warrior-princess/season-1/episode-1/sins-of-the-past-0","locator":"NBCUniversal SYFY official Episode 1 page, lines 6–12","supports":["Xena defends her home village from the marauding warlord Draco"]}],
+    "confidence":"high",
+    "note":"Episode-one defensive opposition only; no prior relationship, romance, historical analogy, or later outcome is inferred."
+  },
+  {
+    "relationship_id":"REL-SRC273-002",
+    "source_id":"SRC-273",
+    "source_character_id":"CHR-SRC273-001",
+    "target_character_id":"CHR-SRC273-003",
+    "relationship_type":"companion",
+    "label":"Gabrielle joins Xena’s travel at the episode ending",
+    "direction":"undirected",
+    "continuity":"Xena: Warrior Princess television continuity; bounded Season 1 Episode 1 witness",
+    "citations":[{"url":"https://www.syfy.com/xena-warrior-princess/season-1/episode-1/sins-of-the-past-0","locator":"Primary episode witness, “Sins of the Past” final campfire/travel-decision sequence; official SYFY page lines 6–12 identifies the episode","supports":["Gabrielle joins Xena’s travel at the episode ending"]}],
+    "confidence":"high",
+    "note":"The relationship is limited to an on-screen travel decision. No romance, sexuality/queerness label, permanent partnership, or later bond is inferred."
+  }
+]

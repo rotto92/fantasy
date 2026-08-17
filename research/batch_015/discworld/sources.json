@@ -1,0 +1,59 @@
+[
+  {
+    "source_id": "SRC-042",
+    "source_title": "Discworld",
+    "continuity_scope": "A character-layer pass restricted to Terry Pratchett's The Colour of Magic alone, using the Penguin paperback published 28 July 2022, ISBN 9781804990315. It is the first Discworld novel (first published 1983), but it is not a static proxy for the later forty-one-novel setting, later character development, or adaptations. The novel's Prologue and four titled sections are used as locators; page claims are limited to the declared printing where directly verified.",
+    "work_or_witnesses": [
+      {
+        "work": "The Colour of Magic",
+        "edition": "Penguin paperback, 28 July 2022, ISBN 9781804990315, 288 pages",
+        "url": "https://www.penguin.co.uk/books/389504/the-colour-of-magic-by-terry-pratchett/9781804990315"
+      },
+      {
+        "work": "The Colour of Magic",
+        "edition": "Penguin authorized sample for ISBN 9781804990315; copyright and opening pages",
+        "url": "https://cdn.penguin.co.uk/dam-assets/books/9781804990315/9781804990315-sample.pdf"
+      },
+      {
+        "work": "The Colour of Magic",
+        "edition": "Terry Pratchett estate book page",
+        "url": "https://terrypratchett.com/books/the-colour-of-magic/"
+      }
+    ],
+    "coverage_rule": "Include the named individual protagonists, named individual companions and antagonists who materially sustain the plot across the four sections, the named individual head of the opening Ankh-Morpork threat, the named Unseen University adversarial figures, and Death because this personification is individually dramatized in the witness. The resulting eight-individual cohort is a reproducible central-cast pass for one novel, not every proper name in it.",
+    "in_scope_character_count": 8,
+    "completed_character_count": 8,
+    "omissions": [
+      "The other forty Discworld novels, associated short fiction and reference works, later continuity developments, stage/screen/audio adaptations, and all edition-specific adaptations or revisions.",
+      "The Luggage, the Discworld, Great A'Tuin, the elephants, Ankh-Morpork, Unseen University, guilds, gods as a group, magic, octarine, dragons/wyrms as kinds, the Octavo and the eight spells as nodes; these are dimensions or source terms, not individual named-character endpoints.",
+      "Fate, the Lady, and the game-playing divine frame are retained only as a source-specific narrative/cosmological term. In this bounded pass they are not treated as stable individualized character identities comparable to the central dramatic cast.",
+      "Named but non-cohort minor persons, guards, thieves, wizards, sailors, residents, and travelers whose limited appearance does not meet the central-cast rule."
+    ],
+    "uncertainties": [
+      "The authorized online sample establishes the selected edition and opening pagination, but does not expose every section. Claims for later sections are paraphrased from the declared printed witness and use section titles rather than unverified transferred page numbers.",
+      "The novel deliberately parodies and recombines fantasy conventions. Labels such as wizard, barbarian, thief, princess, tourist, and quest are descriptive source-context labels, not evidence of equivalent game classes or fixed archetype mechanics.",
+      "The publisher itself cautions that elements of the Discworld universe may reflect this first 1983 novel. Later depictions, histories, and relationships are not imported into this pass.",
+      "Descriptions are brief paraphrases and do not reproduce extended copyrighted text."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary narrative claims are cited to the declared Penguin printed novel by Prologue/section title. Penguin's edition record and authorized sample establish the particular witness, publication sequence, ISBN, date, and opening text; the Terry Pratchett estate page provides official series context. No fan wiki, Wikipedia, or plot-summary site is used as canonical evidence.",
+    "citations": [
+      {
+        "url": "https://www.penguin.co.uk/books/389504/the-colour-of-magic-by-terry-pratchett/9781804990315",
+        "locator": "Penguin product record: Discworld Novel #1; Penguin paperback published 28/07/2022; ISBN 9781804990315; 288 pages",
+        "supports": ["Declared edition identity, publication details, series position, and publisher synopsis of Rincewind, Twoflower, Death, and the cosmological frame."]
+      },
+      {
+        "url": "https://cdn.penguin.co.uk/dam-assets/books/9781804990315/9781804990315-sample.pdf",
+        "locator": "Copyright page 1; Prologue pp. 9–12; opening of 'The Colour of Magic' p. 15",
+        "supports": ["2022 Penguin edition history and ISBN; the printed Prologue's Discworld cosmology; the opening Ankh-Morpork/octarine setting."]
+      },
+      {
+        "url": "https://terrypratchett.com/books/the-colour-of-magic/",
+        "locator": "Estate book page, published 24 November 1983; synopsis and featured-character context",
+        "supports": ["Official original-publication and Rincewind/Twoflower/Discworld context."]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

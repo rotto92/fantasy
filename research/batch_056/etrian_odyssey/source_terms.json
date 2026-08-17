@@ -1,0 +1,170 @@
+[
+  {
+    "term_id": "STM-SRC177-001",
+    "source_id": "SRC-177",
+    "canonical_term": "Etrian Odyssey HD (Nintendo Switch, US English witness)",
+    "original_language": "English video-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The selected Nintendo Switch digital remaster of the first Etrian Odyssey title: released 1 June 2023, published by SEGA, developed by ATLUS and MUTAN, and listed with US English, French, German, Italian, and Spanish support.",
+    "cultural_caution": "A precise platform/version/localization witness only. It does not establish that original Nintendo DS, other regional scripts, II HD, III HD, the multi-title collection, or later franchise entries have matching text, features, or canon details.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/etrian-odyssey-hd-switch/",
+        "locator": "About this item",
+        "supports": [
+          "Nintendo lists Switch platform, digital format, 1 June 2023 release, SEGA publisher, ATLUS/MUTAN developers, and supported languages."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC177-002",
+    "source_id": "SRC-177",
+    "canonical_term": "Etria and the Yggdrasil Labyrinth",
+    "original_language": "English game-setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The publisher-provided setup places a town named Etria beside a forest fissure leading into a labyrinth, and presents exploration of the Yggdrasil Labyrinth as the game's central mystery.",
+    "cultural_caution": "Place and dungeon terms only. Neither Etria nor the labyrinth is a character endpoint, and this product-summary premise does not license importing later-floor revelations or sequel setting material.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/etrian-odyssey-hd-switch/",
+        "locator": "Create Endless Adventure",
+        "supports": [
+          "Publisher description identifies Etria, the forest fissure/labyrinth, and the Yggdrasil Labyrinth mystery."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC177-003",
+    "source_id": "SRC-177",
+    "canonical_term": "nine player-selected character classes",
+    "original_language": "English video-game role lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The player builds an explorer party from nine character classes; the publisher gives woodland survivalist, shield-bearing protector, and whip-wielding dark hunter as examples.",
+    "cultural_caution": "Classes are selectable game roles, not stable individuals. A class name, build, portrait, player-assigned name, or party composition must not be represented as a canonical dramatic person.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/etrian-odyssey-hd-switch/",
+        "locator": "Create Endless Adventure; Etrian Odyssey HD Features",
+        "supports": [
+          "Publisher description says players build a party from nine classes and choose classes to fit their playstyle."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC177-004",
+    "source_id": "SRC-177",
+    "canonical_term": "player mapping and exploration record",
+    "original_language": "English video-game interface lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Switch remaster offers touch-screen mapping in which players draw walls and place icons to record special events and resources, alongside a Monstrous Codex, quest log, and skill tree.",
+    "cultural_caution": "Map notes, codex completion, quest logs, and skill choices are player/interface records, not independent sources of fixed narrative or character identity.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/etrian-odyssey-hd-switch/",
+        "locator": "Etrian Odyssey HD Features",
+        "supports": [
+          "Publisher description identifies touch-screen mapping, event/resource icons, Monstrous Codex, quest log, and skill tree."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC177-005",
+    "source_id": "SRC-177",
+    "canonical_term": "remaster and player-variability boundary",
+    "original_language": "English video-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Etrian Odyssey HD is described as a remaster with remastered graphics and soundtrack, quality-of-life improvements, difficulty selection, and save slots.",
+    "cultural_caution": "A remaster/product boundary, not evidence that the original release and remaster have identical content. Difficulty, save files, party construction, and choices produce individual player states rather than shared canon.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/etrian-odyssey-hd-switch/",
+        "locator": "Create Endless Adventure; Etrian Odyssey HD Features",
+        "supports": [
+          "Publisher description calls the title a remaster and lists remastered presentation, quality-of-life improvements, difficulty selection, and save slots."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC177-006",
+    "source_id": "SRC-177",
+    "canonical_term": "numbered-title separation",
+    "original_language": "English franchise product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "SEGA lists Etrian Odyssey HD, Etrian Odyssey II HD, and Etrian Odyssey III HD as distinct titles.",
+    "cultural_caution": "Franchise-product taxonomy only. Do not transfer NPCs, maps, quests, class content, localized names, mechanics, or story facts among numbered titles simply because they are sold in a collection or use related branding.",
+    "citations": [
+      {
+        "url": "https://privacy.sega.com/index.php/en/our-games",
+        "locator": "Our Games title list",
+        "supports": [
+          "SEGA lists the three HD numbered titles separately."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC177-007",
+    "source_id": "SRC-177",
+    "canonical_term": "character portrait DLC boundary",
+    "original_language": "English downloadable-content lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Nintendo lists an Etrian Odyssey HD Character Portrait DLC Set dated 14 June 2023 separately from the base digital game.",
+    "cultural_caution": "A separate cosmetic/downloadable-content boundary. Portraits are player presentation options, not proof of a distinct named adventurer or a character's fixed visual canon.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/etrian-odyssey-hd-switch/",
+        "locator": "Downloadable content",
+        "supports": [
+          "Nintendo lists a separate Character Portrait DLC Set for Etrian Odyssey HD."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

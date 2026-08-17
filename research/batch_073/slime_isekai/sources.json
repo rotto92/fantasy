@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "SRC-212",
+    "source_title": "That Time I Got Reincarnated as a Slime, Vol. 1 (light novel)",
+    "continuity_scope": "Yen Press/Yen On English That Time I Got Reincarnated as a Slime, Vol. 1 light novel, paperback ISBN 9780316414203 and digital ISBN 9781975301101, released 19 December 2017, 292 pages; author Fuse, artist Mitz Vah, translated by Kevin Gifford. The selected witness is the exact official Yen Press Volume 1 metadata/synopsis page. No public prose chapter/page preview was surfaced there, so this is an explicitly narrow metadata pass. The Japanese GC Novels light novel, web novel, manga, anime, films, games, later volumes, guidebooks, and every other adaptation are separate witnesses or continuities.",
+    "work_or_witnesses": [
+      "Fuse and Mitz Vah, That Time I Got Reincarnated as a Slime, Vol. 1, Yen On English light-novel edition, translated by Kevin Gifford",
+      "Yen Press, exact Volume 1 official metadata and synopsis"
+    ],
+    "coverage_rule": "All named individual dramatic figures in the selected Yen Press Volume 1 synopsis: Satoru Mikami only. The synopsis does not name Rimuru, so no alias or second node is created from later familiarity; it only evidences Satoru's transformation into a slime monster. Other monsters are generic and remain a category/term. Races/species, roles, skills, magic, items, places, reincarnation/isekai systems, and themes are dimensions or terms rather than characters.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "Every named or unnamed figure not named in the selected Yen Press Volume 1 synopsis, including all other monsters and anyone identifiable only through later light novels, web novel, manga, anime, films, games, guidebooks, or fan knowledge.",
+      "All detailed Volume 1 events, prose chapters, relationships, places, factions, species, skills, magic, items, violence, outcomes, and later material; the Japanese light novel and web novel; manga, anime, films, games, later volumes, guidebooks, and every other adaptation.",
+      "The name Rimuru as an alias for Satoru: it is not supplied by this exact publisher synopsis and is therefore logged as an evidence absence, not imported from other continuity evidence."
+    ],
+    "uncertainties": [
+      "The selected official page provides translator credit but no public prose chapter/page preview. The one-character result is complete only under the exact named-synopsis rule, not a complete Volume 1 cast pass.",
+      "Satoru's death and awakening as a slime monster are explicit. This witness does not name him Rimuru, specify transformation mechanics, establish whether memory/personhood persists, or license a separate Satoru/Rimuru identity relation; those details remain unasserted.",
+      "Death by robbery, fantasy violence, bodily transformation, and monster imagery are fictional content. They are not real-world safety, crime, medical, identity, or reincarnation guidance."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Yen Press exact Volume 1 metadata/synopsis only. A primary prose excerpt was not publicly available on the selected page, so every factual claim is restricted to the publisher's metadata. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {"url":"https://yenpress.com/titles/9781975301101-that-time-i-got-reincarnated-as-a-slime-vol-1-light-novel","locator":"Official Volume 1 metadata and synopsis","supports":["Selected English edition, author/artist/translator, ISBNs, date, page count, Satoru Mikami, robbery death, fantasy-realm awakening as a slime monster, other monsters, and world-changing-exploits premise"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

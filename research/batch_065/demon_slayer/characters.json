@@ -1,0 +1,60 @@
+[
+  {
+    "character_id": "CHR-SRC203-001",
+    "canonical_name": "Tanjiro Kamado",
+    "aliases": [],
+    "source_id": "SRC-203",
+    "source_title": "Demon Slayer: Kimetsu no Yaiba",
+    "continuity": "VIZ English Demon Slayer: Kimetsu no Yaiba Vol. 1 witness",
+    "work_or_witness": "Demon Slayer: Kimetsu no Yaiba, Vol. 1 (VIZ English, 2018)",
+    "character_kind": "individual",
+    "description": "A kindhearted charcoal seller whose family is killed by a demon; he begins a dangerous effort to save his transformed sister and destroy the demon responsible.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term":"charcoal seller", "archetype_ids":[], "confidence":"high", "note":"VIZ's first-volume overview identifies this livelihood before the family attack."},
+        {"term":"Demon Slayer trainee/aspirant", "archetype_ids":[], "confidence":"high", "note":"The source says Tanjiro seeks training and begins the path; no later rank or technique is asserted."}
+      ],
+      "power_traditions": [], "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {"term":"Taisho-era Japan fictional setting", "archetype_ids":[], "confidence":"moderate", "note":"VIZ places the series in Taisho-era Japan; this does not make Tanjiro historical."}
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {"term":"bereaved sibling seeking a cure and revenge", "archetype_ids":[], "confidence":"high", "note":"Directly bounded to VIZ's stated family loss, sister transformation, and goals."}
+      ], "game_mechanics": []
+    },
+    "canon_status": "Directly described in selected VIZ Vol. 1 official material.", "evidence_level":"official-reference",
+    "citations":[{"url":"https://www.viz.com/blog/posts/classic-sword-swinging-action-manga","locator":"VIZ Editor's Sidebar, first-volume overview","supports":["Tanjiro's charcoal-selling life, family loss, transformed sister, and journey/training setup."]}],
+    "comparison_cautions":["No breathing style, sword name, rank, later ability, ending, or historical identity is inferred.","Family loss and transformed-sibling content can be distressing; this record is limited to the spoiler-light premise."],
+    "spoiler_level":"light", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC203-002", "canonical_name":"Nezuko Kamado", "aliases":[], "source_id":"SRC-203", "source_title":"Demon Slayer: Kimetsu no Yaiba",
+    "continuity":"VIZ English Demon Slayer: Kimetsu no Yaiba Vol. 1 witness", "work_or_witness":"Demon Slayer: Kimetsu no Yaiba, Vol. 1 (VIZ English, 2018)", "character_kind":"individual",
+    "description":"Tanjiro's younger sister and the only family survivor identified by VIZ's first-volume overview; she has been transformed into a demon, while Giyu observes a remaining spark of humanity and spares her.",
+    "dimensions":{"being_types":[{"term":"transformed demon", "archetype_ids":[], "confidence":"high", "note":"VIZ explicitly states the transformation; no demon taxonomy or later powers are asserted."}],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[{"term":"demon transformation with remaining humanity", "archetype_ids":[], "confidence":"high", "note":"Bounded to the first-volume editorial's description of Giyu's observation."}],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[{"term":"transformed younger sibling", "archetype_ids":[], "confidence":"high", "note":"Source-supported family/transformation premise only."}],"game_mechanics":[]},
+    "canon_status":"Directly described in selected VIZ Vol. 1 official material.", "evidence_level":"official-reference",
+    "citations":[{"url":"https://www.viz.com/blog/posts/classic-sword-swinging-action-manga","locator":"VIZ Editor's Sidebar, first-volume overview","supports":["Nezuko is Tanjiro's surviving sister, becomes a demon, retains a spark of humanity, and is spared by Giyu."]}],
+    "comparison_cautions":["Transformation is fictional and not a medical, moral, or biological claim about real people.","No later powers, feeding behavior, equipment, alliances, ending, or anime/game portrayal is imported."], "spoiler_level":"light", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC203-003", "canonical_name":"Giyu", "aliases":[], "source_id":"SRC-203", "source_title":"Demon Slayer: Kimetsu no Yaiba",
+    "continuity":"VIZ English Demon Slayer: Kimetsu no Yaiba Vol. 1 witness", "work_or_witness":"Demon Slayer: Kimetsu no Yaiba, Vol. 1 (VIZ English, 2018)", "character_kind":"individual",
+    "description":"A swordsman and member of the Demon Slayer Corps who intervenes during Tanjiro and Nezuko's first-volume crisis, spares Nezuko after observing remaining humanity, and directs Tanjiro toward Sakonji Urokodaki.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[{"term":"swordsman", "archetype_ids":[], "confidence":"high", "note":"Direct VIZ editorial description."}],"power_traditions":[],"affiliations":[{"term":"Demon Slayer Corps", "archetype_ids":[], "confidence":"high", "note":"VIZ identifies Giyu as a member; no rank/technique is inferred."}],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[{"term":"intervening demon hunter", "archetype_ids":[], "confidence":"high", "note":"Limited to the documented intervention, sparing, and direction."}],"game_mechanics":[]},
+    "canon_status":"Directly described in selected VIZ Vol. 1 official material.", "evidence_level":"official-reference",
+    "citations":[{"url":"https://www.viz.com/blog/posts/classic-sword-swinging-action-manga","locator":"VIZ Editor's Sidebar, first-volume overview","supports":["Giyu's swordsman/Corps identity, intervention, sparing Nezuko, and direction to Urokodaki."]}],
+    "comparison_cautions":["No full name, rank, breathing style, sword identity, later affiliation, personality reading, or adaptation/game depiction is asserted.","The first encounter includes a threat to kill a transformed child/younger sibling, a potentially distressing context."], "spoiler_level":"light", "review_status":"researched"
+  },
+  {
+    "character_id":"CHR-SRC203-004", "canonical_name":"Sakonji Urokodaki", "aliases":[], "source_id":"SRC-203", "source_title":"Demon Slayer: Kimetsu no Yaiba",
+    "continuity":"VIZ English Demon Slayer: Kimetsu no Yaiba Vol. 1 witness", "work_or_witness":"Demon Slayer: Kimetsu no Yaiba, Vol. 1 (VIZ English, 2018)", "character_kind":"individual",
+    "description":"The masked man Giyu directs Tanjiro to seek for Demon Slayer training; VIZ describes him as Tanjiro's stern mountaintop teacher during the first volume.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[{"term":"Demon Slayer trainer", "archetype_ids":[], "confidence":"high", "note":"VIZ states that Tanjiro trains under Urokodaki in the first volume."}],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[{"term":"mask", "archetype_ids":[], "confidence":"high", "note":"VIZ calls Urokodaki a mysterious figure who always wears a mask; no name/type/power is inferred."}],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[{"term":"stern mentor", "archetype_ids":[], "confidence":"high", "note":"Direct VIZ editorial characterization."}],"game_mechanics":[]},
+    "canon_status":"Directly described in selected VIZ Vol. 1 official material.", "evidence_level":"official-reference",
+    "citations":[{"url":"https://www.viz.com/blog/posts/classic-sword-swinging-action-manga","locator":"VIZ Editor's Sidebar, first-volume overview","supports":["Urokodaki's name, masked description, and first-volume training role for Tanjiro."]}],
+    "comparison_cautions":["No later history, ability, Corps rank, relationship beyond teacher/student, or adaptation/game version is imported."], "spoiler_level":"light", "review_status":"researched"
+  }
+]

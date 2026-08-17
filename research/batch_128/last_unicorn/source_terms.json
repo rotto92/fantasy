@@ -1,0 +1,146 @@
+[
+  {
+    "term_id": "STM-SRC037-001",
+    "source_id": "SRC-037",
+    "canonical_term": "2007 Deluxe Edition opening witness",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected source is the Chapter 1 opening, PDF pages 10–18, in a primary-text witness whose copyright page identifies the 2007 Deluxe Edition and says the definitive texts were revised and corrected in 2007 by Peter S. Beagle and Connor Cochran.",
+    "cultural_caution": "This is an edition and evidence boundary, not a claim that every edition has identical wording or pagination. It does not merge the 1982 film, graphic novel, Lost Journey, “Two Hearts,” later related fiction, translations, or audio versions.",
+    "citations": [
+      {
+        "url": "https://truthbrary.mpaq.org/BOOKS/Eve%E2%80%99s%20Wonderous%20Book%20Suggestions/English%20/The_Last_Unicorn_-_Peter_S_Beagle.pdf",
+        "locator": "Copyright page, PDF page 2; contents, PDF page 3; Chapter 1 begins PDF page 10",
+        "supports": [
+          "Edition statement and selected opening-segment locator."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC037-002",
+    "source_id": "SRC-037",
+    "canonical_term": "unicorn",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "one-horned; the butterfly supplies an in-text Latin etymology",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The opening calls its central but unnamed figure “the unicorn.” It describes unicorns as immortal, magical, usually solitary forest-dwellers, and distinguishes this figure's appearance from a horned horse. The butterfly later recites an etymological gloss for “unicorn.”",
+    "cultural_caution": "A common noun and creature category is not a stable proper name. No unnamed unicorn is converted into a character node, and no generic race/species taxonomy, gender identity, combat class, healing power, or equivalence to other-universe unicorns is inferred.",
+    "citations": [
+      {
+        "url": "https://truthbrary.mpaq.org/BOOKS/Eve%E2%80%99s%20Wonderous%20Book%20Suggestions/English%20/The_Last_Unicorn_-_Peter_S_Beagle.pdf",
+        "locator": "Chapter 1, PDF page 10, opening description and “Unicorns are immortal”; PDF page 18, butterfly's “unicorn” etymology",
+        "supports": [
+          "Source wording, appearance/solitude/magic framing, immortality statement, and common-noun naming constraint."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC037-003",
+    "source_id": "SRC-037",
+    "canonical_term": "unicorn horn",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The opening describes a long horn with its own light and reports prior acts attributed to it, including killing dragons and healing a king's poisoned wound.",
+    "cultural_caution": "The horn is a body feature/source-native motif, not a detachable artifact record. The reported prior acts are not assigned to an unnamed character node and do not establish a general weapon, healing, violence, or magic-system taxonomy.",
+    "citations": [
+      {
+        "url": "https://truthbrary.mpaq.org/BOOKS/Eve%E2%80%99s%20Wonderous%20Book%20Suggestions/English%20/The_Last_Unicorn_-_Peter_S_Beagle.pdf",
+        "locator": "Chapter 1, PDF page 10, horn description and reported dragon/healing actions",
+        "supports": [
+          "Horn imagery and the limited reported actions."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC037-004",
+    "source_id": "SRC-037",
+    "canonical_term": "lilac wood / unicorn's forest",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The opening situates the unnamed unicorn in a lilac wood/forest where it is always spring because she lives there; it also says a place where a unicorn has been born is especially enchanted.",
+    "cultural_caution": "This is a local narrative place-description, not a mapped realm, a culture, a faction, an ecological rule transferable to all settings, or a claim about the location of the wider novel.",
+    "citations": [
+      {
+        "url": "https://truthbrary.mpaq.org/BOOKS/Eve%E2%80%99s%20Wonderous%20Book%20Suggestions/English%20/The_Last_Unicorn_-_Peter_S_Beagle.pdf",
+        "locator": "Chapter 1, PDF page 10, lilac wood, forest, spring, and enchanted-birthplace descriptions",
+        "supports": [
+          "The bounded setting and its stated enchantment/spring language."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC037-005",
+    "source_id": "SRC-037",
+    "canonical_term": "seeing a unicorn as a white mare",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "During the journey in the opening segment, people attempt to capture the unnamed unicorn as a white mare; the narration contrasts this with recognizing a unicorn and reflects on people looking at something else when they look at her.",
+    "cultural_caution": "This is a source-specific narrative recognition/misrecognition motif. It does not establish bodily transformation, disguise magic, a disability/mental-health analogy, gender claim, consent/captivity outcome, or a universal perceptual law.",
+    "citations": [
+      {
+        "url": "https://truthbrary.mpaq.org/BOOKS/Eve%E2%80%99s%20Wonderous%20Book%20Suggestions/English%20/The_Last_Unicorn_-_Peter_S_Beagle.pdf",
+        "locator": "Chapter 1, PDF pages 15–16, attempted capture as a white mare and reflection on people not seeing unicorns",
+        "supports": [
+          "Recognition/misrecognition wording and the limited attempted-capture context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC037-006",
+    "source_id": "SRC-037",
+    "canonical_term": "Red Bull",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The butterfly reports that other unicorns passed along roads long ago and that the Red Bull ran behind them, covering their footprints. In this bounded segment, that is second-hand speech rather than a direct appearance or an identity-bearing individual character record.",
+    "cultural_caution": "No species, gender, agency, captivity, violence, death, power, relationship, or later-plot claim is inferred from this single reported mention. The term must not be silently merged with the film or later portions of the novel.",
+    "citations": [
+      {
+        "url": "https://truthbrary.mpaq.org/BOOKS/Eve%E2%80%99s%20Wonderous%20Book%20Suggestions/English%20/The_Last_Unicorn_-_Peter_S_Beagle.pdf",
+        "locator": "Chapter 1, PDF page 18, butterfly's reported Red Bull statement",
+        "supports": [
+          "The exact bounded, second-hand Red Bull mention."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

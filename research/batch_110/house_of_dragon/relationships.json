@@ -1,0 +1,15 @@
+[
+  {
+    "relationship_id":"REL-SRC265-001",
+    "source_id":"SRC-265",
+    "source_character_id":"CHR-SRC265-002",
+    "target_character_id":"CHR-SRC265-003",
+    "relationship_type":"kin",
+    "label":"Rhaenyra and Daemon are niece and uncle",
+    "direction":"undirected",
+    "continuity":"HBO television continuity; bounded Season 1 Episode 1 official-synopsis witness",
+    "citations":[{"url":"https://press.wbd.com/us/synopses/episode-1-heirs-dragon?language_content_entity=en","locator":"HBO/Warner Bros. Discovery Pressroom, Episode 1 official synopsis, second sentence","supports":["Rhaenyra welcomes her uncle Daemon back to the Red Keep"]}],
+    "confidence":"high",
+    "note":"Source-exact uncle–niece kinship only. No marriage, romance, sexual conduct, incest label, succession consequence, or later relationship development is inferred."
+  }
+]

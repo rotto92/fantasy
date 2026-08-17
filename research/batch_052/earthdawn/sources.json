@@ -1,0 +1,78 @@
+[
+  {
+    "source_id": "SRC-106",
+    "source_title": "Earthdawn",
+    "continuity_scope": "Terms-only audit bound to FASA Games’ Earthdawn Player’s Guide (ED4), Fourth Edition core rulebook FAS14101, added to FASA’s catalog February 22, 2015. It is one player-facing core product for the Fourth Edition Barsaive setting. The Earthdawn Gamemaster’s Guide, Companion, all sourcebooks, earlier editions, novels, games, home campaigns, and any Shadowrun material are separate witnesses and are not merged.",
+    "work_or_witnesses": [
+      {
+        "work": "Earthdawn Player’s Guide (ED4)",
+        "edition": "FASA Games Fourth Edition core rulebook, FAS14101; catalog added February 22, 2015",
+        "url": "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330"
+      },
+      {
+        "work": "Earthdawn Fourth Edition Core Books",
+        "edition": "Official FASA Games line overview, current",
+        "url": "https://fasagames.com/earthdawn-whatis/earthdawn/"
+      },
+      {
+        "work": "Earthdawn Resources and Links",
+        "edition": "Official FASA Games resources page, current",
+        "url": "https://fasagames.com/earthdawn-whatis/earthdawn-resources-and-links/"
+      },
+      {
+        "work": "What’s in a Name?",
+        "edition": "Official FASA Games Earthdawn rules article",
+        "url": "https://fasagames.com/earthdawn/whats-in-a-name/"
+      }
+    ],
+    "coverage_rule": "No individual characters are included. The accessible official Player’s Guide and FASA line material identify Namegivers, Disciplines, Circles, Horrors, Barsaive, and core magic/item concepts but do not provide stable claim-level profiles for named dramatic individuals. Namegivers, Disciplines, Circles, Horrors as a category, magic, patterns, items, regions, and rules therefore remain terms/context unless a named individual is directly profiled by the selected witness.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named individuals, historical figures, legendary adepts, named Horrors, sample characters, and NPCs, because the selected Player’s Guide witness supplies no claim-level dramatic profiles.",
+      "All content from the Fourth Edition Gamemaster’s Guide, Companion, sourcebooks, game aids, adventures, novels, games, and home campaigns, including separately supplied pre-generated adepts.",
+      "All first-, second-, and third-edition Earthdawn claims, even where FASA indicates products may be converted to Fourth Edition.",
+      "All Shadowrun links, shared-history assertions, timeline correspondences, character identities, and adaptations. No such relationship is established by the selected FASA Fourth Edition Player’s Guide evidence."
+    ],
+    "uncertainties": [
+      "FASA calls Fourth Edition the current edition, states that it revises mechanics and advances the setting timeline to 1517 TH, and says previous-edition products may require conversion. This audit treats the selected Player’s Guide as controlling only for included terms and makes no full retcon or edition-reconciliation claim.",
+      "The FASA store page dates the product’s addition to its catalog, not necessarily every physical or digital printing. No more precise original release date is asserted.",
+      "FASA’s resources page links an official Fourth Edition Errata and FAQs resource. Its accessible listing does not establish an exhaustive date/version history here, so the errata is recorded as a maintenance boundary rather than mined for claims.",
+      "Earthdawn’s relationship to Shadowrun is excluded. Any publication-history or shared-world assertion would require its own exact, primary-source continuity audit; it is not inferred from genre, publisher history, or fan discussion.",
+      "The setting description includes invasion, enslavement, predatory supernatural foes, destruction, and trauma. These are fictional horror/adventure constructs, not real-world categories or moral judgments about people or cultures."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official FASA material identifies the Player’s Guide as a Fourth Edition core rulebook for First through Eighth Circle characters; it presents Barsaive, Namegivers, Horrors, and the Scourge. FASA’s current line page identifies Fourth Edition as current, specifies the Barsaive default setting and 1517 TH timeline, and names Disciplines/Circles. An official rules article supports pattern magic and thread items. None offers claim-level profiles of named dramatic individuals, so this is a terms-only rules/setting audit.",
+    "citations": [
+      {
+        "url": "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330",
+        "locator": "Official FASA store product page, ‘The Age of Legend’ through Fourth Edition/core-rulebook details",
+        "supports": [
+          "Selected ED4 Player’s Guide identity, catalog-added date, Namegivers, Horrors, Scourge, Barsaive, First–Eighth Circles, and previous-edition conversion boundary."
+        ]
+      },
+      {
+        "url": "https://fasagames.com/earthdawn-whatis/earthdawn/",
+        "locator": "Official line overview, ‘Core Rulebooks’ and Earthdawn Player’s Guide sections",
+        "supports": [
+          "Fourth Edition current-edition status, default Barsaive setting, 1517 TH timeline, Disciplines, and Circle range."
+        ]
+      },
+      {
+        "url": "https://fasagames.com/earthdawn-whatis/earthdawn-resources-and-links/",
+        "locator": "Official resources page, ‘Official Fourth Edition Errata and FAQs’",
+        "supports": [
+          "Official Fourth Edition errata/FAQ maintenance boundary."
+        ]
+      },
+      {
+        "url": "https://fasagames.com/earthdawn/whats-in-a-name/",
+        "locator": "Official article, opening paragraphs on pattern magic and thread items",
+        "supports": [
+          "Pattern-magic and thread-item terms in the Fourth Edition Earthdawn context."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

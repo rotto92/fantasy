@@ -1,0 +1,73 @@
+[
+  {
+    "source_id": "SRC-002",
+    "source_title": "Norse Mythology",
+    "continuity_scope": "Medieval Icelandic textual witnesses only; Poetic Edda and Prose Edda remain distinguished, with selected heroic poems included as Poetic Edda witnesses.",
+    "work_or_witnesses": [
+      "Völuspá",
+      "Grímnismál",
+      "Lokasenna",
+      "Þrymskviða",
+      "Hymiskviða",
+      "Skírnismál",
+      "Vafþrúðnismál",
+      "Baldrs draumar",
+      "Reginsmál",
+      "Fáfnismál",
+      "Sigrdrífumál",
+      "Guðrúnarkviða I",
+      "Atlakviða",
+      "Völundarkviða",
+      "Gylfaginning",
+      "Skáldskaparmál"
+    ],
+    "pass_title": "Eddic textual-witness foundational pass",
+    "continuity": "Medieval Icelandic textual witnesses; no harmonized pan-Norse continuity",
+    "work_or_witness": "Poetic Edda (as translated by Henry Adams Bellows, 1936)",
+    "edition": "Public-domain English translation of the Codex Regius poems, Project Gutenberg eBook 14726",
+    "scope": "Named agents in the selected mythological and heroic poems, with prose evidence used only where stated; names and attributes are not silently transferred between witnesses.",
+    "coverage_rule": "A representative foundational pass of major named divine, jötunn, monstrous, supernatural, and heroic agents who materially act in the selected Eddic witnesses or exemplify a distinct named ontological/narrative category. It is not a census of every name, epithet, regional tradition, archaeological source, later saga, or modern reconstruction.",
+    "in_scope_character_count": 49,
+    "completed_character_count": 49,
+    "omissions": [
+      "Most minor named beings in þulur/catalogues and incidental kennings.",
+      "Regional and post-medieval Scandinavian folklore, archaeological iconography, skaldic corpus, and later saga traditions unless a specific witness is added in a later pass.",
+      "Characters whose only inclusion rationale would be a generic ontology category rather than material action or a distinctive represented category."
+    ],
+    "uncertainties": [
+      "The dating, composition, and relationship of individual poems and Snorri's prose retellings are scholarly questions; this pass indexes witnesses, not a recovered pre-Christian canon.",
+      "Æsir/Vanir and jötunn are source terms with shifting genealogical and narrative use; they are not treated as fixed fantasy races.",
+      "Some figures occur under variant spellings or are distinguished differently in prose and verse; aliases preserve discoverability while records retain the named witness basis."
+    ],
+    "completion_status": "pass-complete for the declared Eddic witness scope only",
+    "evidence_basis": "Primary-text citations to the Bellows Poetic Edda and Brodeur Prose Edda translations, with poem/stanza or book/chapter locators; no Wikipedia, fan-wiki, or adaptation evidence used.",
+    "last_reviewed": "2026-08-04",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Contents; Völuspá, Grímnismál, Lokasenna, Þrymskviða, Skírnismál, Reginsmál, Fáfnismál, Sigrdrífumál, Völundarkviða",
+        "supports": [
+          "edition and selected witness scope"
+        ]
+      }
+    ],
+    "audit": {
+      "declared_in_scope_count": 49,
+      "completed_count": 49,
+      "completion_status": "complete-for-declared-scope",
+      "relationship_count": 44,
+      "source_term_count": 13,
+      "omissions": [
+        "Most minor named beings in þulur/catalogues and incidental kennings.",
+        "Regional and post-medieval Scandinavian folklore, archaeological iconography, skaldic corpus, and later saga traditions unless a specific witness is added in a later pass.",
+        "Characters whose only inclusion rationale would be a generic ontology category rather than material action or a distinctive represented category."
+      ],
+      "uncertainties": [
+        "The dating, composition, and relationship of individual poems and Snorri's prose retellings are scholarly questions; this pass indexes witnesses, not a recovered pre-Christian canon.",
+        "Æsir/Vanir and jötunn are source terms with shifting genealogical and narrative use; they are not treated as fixed fantasy 'races'.",
+        "Some figures occur under variant spellings or are distinguished differently in prose and verse; aliases preserve discoverability while records retain the named witness basis."
+      ],
+      "cultural_caution": "Norse religious and literary materials have living cultural, scholarly, and community significance. Normalized fantasy taxonomy is only a retrieval aid and never establishes historical equivalence, moral alignment, or completeness."
+    }
+  }
+]

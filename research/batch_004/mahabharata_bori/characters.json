@@ -1,0 +1,2891 @@
+[
+  {
+    "character_id": "CHR-SRC277-001",
+    "canonical_name": "Vyāsa",
+    "aliases": [
+      "Kṛṣṇa Dvaipāyana"
+    ],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Sage credited within the epic with its composition.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sage",
+          "archetype_ids": [
+            "ROL-307"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 63; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Sage credited within the epic with its composition."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-002",
+    "canonical_name": "Dhṛtarāṣṭra",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Blind Kuru king and father of Duryodhana.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 100; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Blind Kuru king and father of Duryodhana."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-003",
+    "canonical_name": "Pāṇḍu",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Kuru king whose sons are the five Pāṇḍavas.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "curse",
+          "archetype_ids": [
+            "LAW-204"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 95; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kuru king whose sons are the five Pāṇḍavas."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-004",
+    "canonical_name": "Kuntī",
+    "aliases": [
+      "Pṛthā"
+    ],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Mother of Karṇa and of Yudhiṣṭhira, Bhīma, and Arjuna.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Mother of Karṇa and of Yudhiṣṭhira, Bhīma, and Arjuna."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-005",
+    "canonical_name": "Mādrī",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Mother of Nakula and Sahadeva.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Mother of Nakula and Sahadeva."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-006",
+    "canonical_name": "Gāndhārī",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Queen of Dhṛtarāṣṭra and mother of the Kauravas.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "queen",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 107; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Queen of Dhṛtarāṣṭra and mother of the Kauravas."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-007",
+    "canonical_name": "Bhīṣma",
+    "aliases": [
+      "Devavrata"
+    ],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Kuru elder whose vow of celibacy and renunciation shapes the succession.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101",
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "vow",
+          "archetype_ids": [
+            "LAW-102",
+            "LAW-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "vow-bound elder",
+          "archetype_ids": [
+            "NAR-444"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 102; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kuru elder whose vow of celibacy and renunciation shapes the succession."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-008",
+    "canonical_name": "Vidura",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Kuru counselor and half-brother of Dhṛtarāṣṭra and Pāṇḍu.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "counselor",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 100; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kuru counselor and half-brother of Dhṛtarāṣṭra and Pāṇḍu."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-009",
+    "canonical_name": "Droṇa",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Teacher of the Kuru princes and commander in the war.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "martial preceptor",
+          "archetype_ids": [
+            "ROL-935"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 130; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Teacher of the Kuru princes and commander in the war."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-010",
+    "canonical_name": "Kṛpa",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Teacher and warrior attached to the Kuru court.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "martial teacher",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 130; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Teacher and warrior attached to the Kuru court."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-011",
+    "canonical_name": "Karna",
+    "aliases": [
+      "Karṇa",
+      "Radheya"
+    ],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Son of Kuntī and Sūrya, raised by a charioteer household and aligned with Duryodhana.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101",
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "divine boon",
+          "archetype_ids": [
+            "LAW-201"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "tragic loyalist",
+          "archetype_ids": [
+            "NAR-445"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Son of Kuntī and Sūrya, raised by a charioteer household and aligned with Duryodhana."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-012",
+    "canonical_name": "Duryodhana",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Sabhā Parva",
+    "character_kind": "individual",
+    "description": "Eldest Kaurava who contests the Pāṇḍavas’ sovereignty and leads their side in war.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "prince/warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 58; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Eldest Kaurava who contests the Pāṇḍavas’ sovereignty and leads their side in war."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-013",
+    "canonical_name": "Duḥśāsana",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Sabhā Parva",
+    "character_kind": "individual",
+    "description": "Kaurava brother who participates in Draupadī’s humiliation in the assembly.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 68; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kaurava brother who participates in Draupadī’s humiliation in the assembly."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-014",
+    "canonical_name": "Śakuni",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Sabhā Parva",
+    "character_kind": "individual",
+    "description": "Gāndhāra prince who plays dice for Duryodhana in the match that dispossesses Yudhiṣṭhira.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "gambler/strategist",
+          "archetype_ids": [
+            "ROL-215"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 58; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Gāndhāra prince who plays dice for Duryodhana in the match that dispossesses Yudhiṣṭhira."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-015",
+    "canonical_name": "Yudhiṣṭhira",
+    "aliases": [
+      "Dharmarāja"
+    ],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Sabhā Parva",
+    "character_kind": "individual",
+    "description": "Eldest Pāṇḍava, king and central participant in the dice match and restoration.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "dharma",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Do not reduce dharma to a generic moral alignment."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 58; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Eldest Pāṇḍava, king and central participant in the dice match and restoration."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-016",
+    "canonical_name": "Bhīma",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Second Pāṇḍava, renowned for strength and a principal Kaurava opponent.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101",
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 138; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Second Pāṇḍava, renowned for strength and a principal Kaurava opponent."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-017",
+    "canonical_name": "Arjuna",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Bhagavad Gītā Parva",
+    "character_kind": "individual",
+    "description": "Pāṇḍava archer who receives Kṛṣṇa’s battlefield teaching.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "archer",
+          "archetype_ids": [
+            "ROL-127",
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "dharma",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Contextual duty discourse; not a class/alignment label."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhagavad Gītā Parva, section 23–42; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Pāṇḍava archer who receives Kṛṣṇa’s battlefield teaching."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-018",
+    "canonical_name": "Nakula",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Pāṇḍava son of Mādrī.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Pāṇḍava son of Mādrī."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-019",
+    "canonical_name": "Sahadeva",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Pāṇḍava son of Mādrī.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Pāṇḍava son of Mādrī."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-020",
+    "canonical_name": "Draupadī",
+    "aliases": [
+      "Kṛṣṇā",
+      "Pāñcālī"
+    ],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Sabhā Parva",
+    "character_kind": "individual",
+    "description": "Pāṇḍava queen staked in the dice match and publicly wronged in the assembly.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "queen",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 68; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Pāṇḍava queen staked in the dice match and publicly wronged in the assembly."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation.",
+      "Do not represent the dice episode as a marriage-game or generic party conflict; its coercion and assembly context are central."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-021",
+    "canonical_name": "Kṛṣṇa",
+    "aliases": [
+      "Vāsudeva"
+    ],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Bhagavad Gītā Parva",
+    "character_kind": "individual",
+    "description": "Arjuna’s charioteer and counselor who discloses a divine form in the battlefield teaching.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "deva",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only; deva is not a fantasy species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "charioteer-counselor",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "divine manifestation",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "divine charioteer-counselor",
+          "archetype_ids": [
+            "NAR-446"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhagavad Gītā Parva, section 23–42; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Arjuna’s charioteer and counselor who discloses a divine form in the battlefield teaching."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation.",
+      "Avatāra language and divine identity have extensive interpretive traditions; no generic avatar class is asserted."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-022",
+    "canonical_name": "Balarāma",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Śalya Parva",
+    "character_kind": "individual",
+    "description": "Kṛṣṇa’s brother, present in the epic’s kinship and pilgrimage narratives.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "deva",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only; deva is not a fantasy species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Śalya Parva, section 34; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kṛṣṇa’s brother, present in the epic’s kinship and pilgrimage narratives."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-023",
+    "canonical_name": "Subhadrā",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Kṛṣṇa’s sister and Arjuna’s wife, mother of Abhimanyu.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 220; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kṛṣṇa’s sister and Arjuna’s wife, mother of Abhimanyu."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-024",
+    "canonical_name": "Abhimanyu",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Droṇa Parva",
+    "character_kind": "individual",
+    "description": "Son of Arjuna and Subhadrā, killed after entering the cakravyūha.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101",
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic hero",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Son of Arjuna and Subhadrā, killed after entering the cakravyūha."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-025",
+    "canonical_name": "Ghaṭotkaca",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Droṇa Parva",
+    "character_kind": "individual",
+    "description": "Bhīma’s rākṣasa son whose battle forces Karṇa to use the Vāsava weapon.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "rākṣasa",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic demon mapping; rākṣasa usage is context-dependent."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 155; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Bhīma’s rākṣasa son whose battle forces Karṇa to use the Vāsava weapon."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-026",
+    "canonical_name": "Hiḍimbā",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Rākṣasa woman who marries Bhīma and bears Ghaṭotkaca.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "rākṣasa",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic demon mapping; rākṣasa usage is context-dependent."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 154; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Rākṣasa woman who marries Bhīma and bears Ghaṭotkaca."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-027",
+    "canonical_name": "Ekalavya",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Niṣāda archer who learns through a representation of Droṇa and gives his thumb as teacher’s fee.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "archer",
+          "archetype_ids": [
+            "ROL-127"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 134; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Niṣāda archer who learns through a representation of Droṇa and gives his thumb as teacher’s fee."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation.",
+      "Do not turn this episode’s contested hierarchy and pedagogy into a neutral mentor trope."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-028",
+    "canonical_name": "Drupada",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Pāñcāla king, former friend and enemy of Droṇa, father of Draupadī and Dhṛṣṭadyumna.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 131; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Pāñcāla king, former friend and enemy of Droṇa, father of Draupadī and Dhṛṣṭadyumna."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-029",
+    "canonical_name": "Dhṛṣṭadyumna",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Drupada’s son, born for Droṇa’s death and Pāṇḍava commander.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "commander",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "prophetic doom",
+          "archetype_ids": [
+            "LAW-207"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 169; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Drupada’s son, born for Droṇa’s death and Pāṇḍava commander."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-030",
+    "canonical_name": "Śikhaṇḍin",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Bhīṣma Parva",
+    "character_kind": "individual",
+    "description": "Pāñcāla warrior whose presence is decisive in Bhīṣma’s fall.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhīṣma Parva, section 108; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Pāñcāla warrior whose presence is decisive in Bhīṣma’s fall."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation.",
+      "Gender and prior-birth traditions demand source-specific treatment; no modern identity category is imposed."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-031",
+    "canonical_name": "Aśvatthāman",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Droṇa Parva",
+    "character_kind": "individual",
+    "description": "Droṇa’s named son in the war narrative.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 191; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Droṇa’s named son in the war narrative."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-032",
+    "canonical_name": "Jayadratha",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Droṇa Parva",
+    "character_kind": "individual",
+    "description": "Sindhu king whose obstruction contributes to Abhimanyu’s death and who is killed by Arjuna.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king/warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Sindhu king whose obstruction contributes to Abhimanyu’s death and who is killed by Arjuna."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-033",
+    "canonical_name": "Śalya",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Karna Parva",
+    "character_kind": "individual",
+    "description": "Mādrī’s brother who becomes Karṇa’s charioteer and later Kaurava commander.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "charioteer",
+          "archetype_ids": [
+            "ROL-133"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Karna Parva, section 1; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Mādrī’s brother who becomes Karṇa’s charioteer and later Kaurava commander."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-034",
+    "canonical_name": "Sātyaki",
+    "aliases": [
+      "Yuyudhāna"
+    ],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Droṇa Parva",
+    "character_kind": "individual",
+    "description": "Vṛṣṇi warrior allied with the Pāṇḍavas.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 141; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Vṛṣṇi warrior allied with the Pāṇḍavas."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-035",
+    "canonical_name": "Virāṭa",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Virāṭa Parva",
+    "character_kind": "individual",
+    "description": "Matsya king who shelters the Pāṇḍavas during their incognito year.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 1; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Matsya king who shelters the Pāṇḍavas during their incognito year."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-036",
+    "canonical_name": "Uttarā",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Virāṭa Parva",
+    "character_kind": "individual",
+    "description": "Virāṭa’s daughter who marries Abhimanyu.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 72; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Virāṭa’s daughter who marries Abhimanyu."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-037",
+    "canonical_name": "Sañjaya",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Udyoga Parva",
+    "character_kind": "individual",
+    "description": "Dhṛtarāṣṭra’s charioteer and narrator of battle events through Vyāsa’s gift.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "messenger/narrator",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "divine sight",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Udyoga Parva, section 32; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Dhṛtarāṣṭra’s charioteer and narrator of battle events through Vyāsa’s gift."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-038",
+    "canonical_name": "Yuyutsu",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Bhīṣma Parva",
+    "character_kind": "individual",
+    "description": "Dhṛtarāṣṭra’s son who leaves the Kaurava side for the Pāṇḍavas before battle.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhīṣma Parva, section 43; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Dhṛtarāṣṭra’s son who leaves the Kaurava side for the Pāṇḍavas before battle."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-039",
+    "canonical_name": "Kīcaka",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Virāṭa Parva",
+    "character_kind": "individual",
+    "description": "Virāṭa’s powerful brother-in-law who harasses Draupadī and is killed by Bhīma.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "commander",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 13; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Virāṭa’s powerful brother-in-law who harasses Draupadī and is killed by Bhīma."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-040",
+    "canonical_name": "Jarāsandha",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Sabhā Parva",
+    "character_kind": "individual",
+    "description": "Magadha king defeated by Bhīma in the campaign preceding Yudhiṣṭhira’s rājasūya.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king/warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 22; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Magadha king defeated by Bhīma in the campaign preceding Yudhiṣṭhira’s rājasūya."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-041",
+    "canonical_name": "Śiśupāla",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Sabhā Parva",
+    "character_kind": "individual",
+    "description": "Cedi king killed by Kṛṣṇa at Yudhiṣṭhira’s rājasūya.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Cedi king killed by Kṛṣṇa at Yudhiṣṭhira’s rājasūya."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-042",
+    "canonical_name": "Nārada",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Sabhā Parva",
+    "character_kind": "individual",
+    "description": "Sage who counsels Yudhiṣṭhira on kingship and assembly.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/mortal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only, not a varna or ethnicity label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sage",
+          "archetype_ids": [
+            "ROL-307"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 5; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Sage who counsels Yudhiṣṭhira on kingship and assembly."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-043",
+    "canonical_name": "Indra",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Deva father of Arjuna and participant in boon/weapon narratives.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "deva",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only; deva is not a fantasy species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "divine boon",
+          "archetype_ids": [
+            "LAW-201"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 123; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Deva father of Arjuna and participant in boon/weapon narratives."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-044",
+    "canonical_name": "Sūrya",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Deva father of Karṇa and giver of his armor and earrings.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "deva",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only; deva is not a fantasy species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "divine boon",
+          "archetype_ids": [
+            "LAW-201"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Deva father of Karṇa and giver of his armor and earrings."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-045",
+    "canonical_name": "Agni",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Deva whose hunger leads to the burning of Khāṇḍava, aided by Kṛṣṇa and Arjuna.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "deva",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only; deva is not a fantasy species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "fire",
+          "archetype_ids": [
+            "PWR-201"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 225; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Deva whose hunger leads to the burning of Khāṇḍava, aided by Kṛṣṇa and Arjuna."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-046",
+    "canonical_name": "Dharma",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Vana Parva",
+    "character_kind": "individual",
+    "description": "Deva/yakṣa who tests Yudhiṣṭhira in the lake dialogue and is identified as his father.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "deva",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only; deva is not a fantasy species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "tester/questioner",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "dharma",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Do not reduce dharma to a morality meter."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Vana Parva, section 313; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Deva/yakṣa who tests Yudhiṣṭhira in the lake dialogue and is identified as his father."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-047",
+    "canonical_name": "Hanumān",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Vana Parva",
+    "character_kind": "individual",
+    "description": "Rāma’s ally who meets Bhīma and affirms their kinship through Vāyu.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "vānar figure",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No normalized mapping: do not equate vānara with a generic animal-person category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Vana Parva, section 146; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Rāma’s ally who meets Bhīma and affirms their kinship through Vāyu."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-048",
+    "canonical_name": "Baka",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Ādi Parva",
+    "character_kind": "individual",
+    "description": "Rākṣasa defeated by Bhīma in Ekacakrā.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "rākṣasa",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic demon mapping; rākṣasa usage is context-dependent."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "opponent",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 159; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Rākṣasa defeated by Bhīma in Ekacakrā."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC277-049",
+    "canonical_name": "Kirmīra",
+    "aliases": [],
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "work_or_witness": "Vana Parva",
+    "character_kind": "individual",
+    "description": "Rākṣasa defeated by Bhīma at the start of exile.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "rākṣasa",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic demon mapping; rākṣasa usage is context-dependent."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named agent in declared epic scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Vana Parva, section 11; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Rākṣasa defeated by Bhīma at the start of exile."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Narrative claim located in the identified Ganguli translation; BORI CE is the reference continuity, but this locator is not a Sanskrit CE citation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  }
+]

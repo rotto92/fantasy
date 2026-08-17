@@ -1,0 +1,259 @@
+[
+  {
+    "character_id": "CHR-SRC180-001",
+    "canonical_name": "Serenoa Wolffort",
+    "aliases": [],
+    "source_id": "SRC-180",
+    "source_title": "TRIANGLE STRATEGY",
+    "continuity": "Original Nintendo Switch release, US-English witness (2022); non-route-specific official profile",
+    "work_or_witness": "Square Enix official character portal: Serenoa Wolffort",
+    "character_kind": "individual",
+    "description": "The protagonist and heir of House Wolffort, described as a brave, honorable young man who is forced by an unforeseen event to lead his house through turmoil.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "heir of House Wolffort",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Square Enix's profile identifies Serenoa as the heir to House Wolffort."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "House Wolffort",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Directly stated in the official character heading and profile."
+        },
+        {
+          "term": "Kingdom of Glenbrook",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official heading places House Wolffort in Glenbrook."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "central protagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Square Enix calls Serenoa the game's protagonist."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled central character; route-specific later choices/outcomes excluded.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Character: Serenoa Wolffort",
+        "supports": [
+          "Serenoa's protagonist status, House Wolffort heirship, Glenbrook placement, and profile description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "His convictions, votes, recruits, political decisions, relationships, survival, and ending depend on player choices; no route outcome is asserted here.",
+      "Heirship and house affiliation are source-specific political roles, not a generic class or governance template."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC180-002",
+    "canonical_name": "Prince Roland of Glenbrook",
+    "aliases": ["Roland Glenbrook"],
+    "source_id": "SRC-180",
+    "source_title": "TRIANGLE STRATEGY",
+    "continuity": "Original Nintendo Switch release, US-English witness (2022); non-route-specific official profile",
+    "work_or_witness": "Square Enix official character portal: Prince Roland of Glenbrook",
+    "character_kind": "individual",
+    "description": "Glenbrook's younger prince and Serenoa's closest friend, described as cheerful, fearless, and free-spirited while desiring recognition from his father and brother.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "second in line to the throne of Glenbrook",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Directly stated in Square Enix's character heading."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Kingdom of Glenbrook",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official profile identifies Roland as Glenbrook's younger prince."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled central character; route-specific later choices/outcomes excluded.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Character: Prince Roland of Glenbrook",
+        "supports": [
+          "Roland's royal position, Glenbrook affiliation, friendship with Serenoa, and profile description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Only the early official profile is represented; votes, recruitment, political alignment, survival, and ending are branch-sensitive."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC180-003",
+    "canonical_name": "Frederica Aesfrost",
+    "aliases": [],
+    "source_id": "SRC-180",
+    "source_title": "TRIANGLE STRATEGY",
+    "continuity": "Original Nintendo Switch release, US-English witness (2022); non-route-specific official profile",
+    "work_or_witness": "Square Enix official character portal: Frederica Aesfrost",
+    "character_kind": "individual",
+    "description": "The Princess of Aesfrost and Serenoa's betrothed, described as descended on her mother's side from the persecuted Rosellan tribe and as possessing a free, indomitable spirit.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [
+        {
+          "term": "Rosellan ancestry",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The profile states she is descended from the persecuted Rosellan tribe on her mother's side."
+        }
+      ],
+      "roles_and_vocations": [
+        {
+          "term": "Princess of Aesfrost",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Directly stated in Square Enix's character heading."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Grand Duchy of Aesfrost",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official profile identifies her as an Aesfrost princess."
+        },
+        {
+          "term": "House Wolffort (betrothal alliance)",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Square Enix says she is to wed into House Wolffort to strengthen ties between Aesfrost and Glenbrook."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled central character; route-specific later choices/outcomes excluded.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Character: Frederica Aesfrost",
+        "supports": [
+          "Frederica's Aesfrost title, Serenoa betrothal, Rosellan ancestry, and described political marriage purpose."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Rosellan is a fictional source-specific people/ancestry term; it must not be mapped to or treated as an analogue for a real people without source-specific scholarly evidence.",
+      "Her later political choices, recruitment status, relationships, survival, and ending vary by route and are not asserted."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC180-004",
+    "canonical_name": "Benedict Pascal",
+    "aliases": [],
+    "source_id": "SRC-180",
+    "source_title": "TRIANGLE STRATEGY",
+    "continuity": "Original Nintendo Switch release, US-English witness (2022); non-route-specific official profile",
+    "work_or_witness": "Square Enix official character portal: Benedict Pascal",
+    "character_kind": "individual",
+    "description": "House Wolffort's steward and a trusted advisor to Lord Symon, described as a brilliant strategist who vows to serve Serenoa faithfully.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Steward to House Wolffort",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Directly stated in Square Enix's character heading."
+        },
+        {
+          "term": "strategist and advisor",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official profile calls him a brilliant strategist and trusted advisor to Lord Symon."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "House Wolffort",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Benedict has served House Wolffort since youth."
+        },
+        {
+          "term": "Kingdom of Glenbrook",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official heading places House Wolffort in Glenbrook."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled central character; route-specific later choices/outcomes excluded.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/my/trianglestrategy/",
+        "locator": "Character: Benedict Pascal",
+        "supports": [
+          "Benedict's steward role, House Wolffort service, strategist/advisor description, and stated vow to serve Serenoa."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "A steward/strategist is a source-specific political and narrative role, not a generic player class.",
+      "His route votes, political actions, later alliances, survival, and ending remain branch-sensitive and are not asserted."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

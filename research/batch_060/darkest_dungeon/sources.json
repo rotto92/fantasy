@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "SRC-189",
+    "source_title": "Darkest Dungeon",
+    "continuity_scope": "Darkest Dungeon's original base-game release, using Red Hook's publisher Steam listing dated 19 January 2016 as the selected English product witness. This is a mechanics and narrative-framing audit of the base game, not a franchise-wide Darkest Dungeon pass. It excludes all post-release patches, the Crimson Court, Shieldbreaker, The Color of Madness, The Butcher's Circus, Musketeer, The Fire's Edge, Darkest Dungeon II, the board game, mods, adaptations, and individual player campaigns/saves.",
+    "work_or_witnesses": [
+      {
+        "work": "Darkest Dungeon",
+        "edition": "Steam product page listing Red Hook Studios as developer and publisher; release date 19 January 2016. Used as the date and base-system witness.",
+        "url": "https://store.steampowered.com/app/262060/Darkest_Dungeon/"
+      },
+      {
+        "work": "Darkest Dungeon",
+        "edition": "Red Hook Studios official product page. Used for the estate premise, stress/affliction framing, and current DLC boundary notices.",
+        "url": "https://www.darkestdungeon.com/darkest-dungeon/"
+      }
+    ],
+    "coverage_rule": "Terms-only audit. Hero classes are gameplay roles, not individuals; roster members are player-named, variable, and subject to permanent death. The selected official witnesses identify an Ancestor's estate and narration/ancestral framing but provide no stable personal name or profile adequate for a dramatic-character record. No individual character or relationship record is inferred from titles, classes, mechanics, narration, player saves, memory, or unofficial sources. Stress, afflictions, quirks, disease, darkness/light presentation, town recovery, combat, camping, and dungeon generation remain terms/dimensions.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "Every player-recruited hero and campaign-specific roster member, including their names, deaths, traits, equipment, and outcomes; the official product describes recruitable hero classes and permanent death/procedural dungeons rather than a fixed roster of individuals.",
+      "Hero classes, stress, afflictions/virtues, quirks, disease, darkness/light, town institutions, camping, combat, dungeon generation, items, enemies, locations, and estate systems as character nodes.",
+      "The Ancestor as an individual character endpoint: the selected official material establishes only estate/ancestral framing and, for the separate Crimson Court expansion, a reference to the Ancestor's early days; it supplies no stable personal name or claim-level base-game profile.",
+      "All DLC, patches, sequel, tabletop game, mods, adaptations, and player campaign continuities named in the scope boundary."
+    ],
+    "content_cautions": [
+      "The official product describes gothic horror, eldritch threats, stress, disease, fear, paranoia, masochism, irrationality, permanent death, and an ever-encroaching dark; Red Hook's page also lists blood/gore, violence, alcohol reference, mild language, partial nudity, and suggestive themes.",
+      "The game's stress and affliction vocabulary uses mental-health-adjacent language as stylized horror mechanics. It is not clinical description, should not be used to diagnose real people, and may be stigmatizing or distressing in a mental-health context."
+    ],
+    "uncertainties": [
+      "The accessible official web pages are current pages and advertise later DLC, including The Fire's Edge. They do not provide an archived 1.0 build manifest; this pass limits itself to base-product systems and framing directly stated in the selected witnesses and does not infer later patch behavior backward into 2016.",
+      "The selected official witnesses do not directly establish the detailed mechanics or canonical semantics of virtues, light, particular town institutions, or an individual narrator identity. Those are not expanded beyond the source-supported terms/boundaries here.",
+      "Steam is used because its selected product page identifies Red Hook Studios as both developer and publisher. It is a publisher-authored store witness, not a substitute for a complete archival corpus of the original executable or every localization."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Red Hook's official product page establishes the gothic-horror psychological-stress premise, Ancestor-estate framing, affliction language, content descriptors, and the separation of Crimson Court and The Fire's Edge. Red Hook's publisher Steam listing establishes the selected 19 January 2016 release witness and the systems of recruitable classes, narration, town recovery, camping, permanent death, and procedural dungeons. No fan wiki, Wikipedia, guide, database, datamine, mod, board-game material, or player campaign is used.",
+    "citations": [
+      {
+        "url": "https://store.steampowered.com/app/262060/Darkest_Dungeon/",
+        "locator": "Product header and About This Game section; developer/publisher and 19 Jan 2016 release date; system feature list",
+        "supports": [
+          "The selected publisher product witness/date and the recruitable-class, narration, town-recovery, camping, permanent-death, and procedural-dungeon boundaries."
+        ]
+      },
+      {
+        "url": "https://www.darkestdungeon.com/darkest-dungeon/",
+        "locator": "Darkest Dungeon product page: overview, Affliction System, content descriptors, The Crimson Court, and The Fire's Edge sections",
+        "supports": [
+          "Gothic-horror/stress and estate framing, affliction language, content cautions, and the explicit later-DLC separation."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

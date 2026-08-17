@@ -1,0 +1,122 @@
+[
+  {
+    "term_id": "STM-SRC105-001",
+    "source_id": "SRC-105",
+    "canonical_term": "Creation",
+    "original_language": "English setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The named world/setting frame described by Onyx Path for Exalted Third Edition.",
+    "cultural_caution": "A fictional setting with varied invented cultures and political conflicts. Do not equate its places, peoples, imperial structures, religions, or history directly with real-world cultures or historical societies.",
+    "citations": [
+      {
+        "url": "https://theonyxpath.com/now-available-exalted-third-edition/",
+        "locator": "Release announcement: revitalized and expanded Creation",
+        "supports": [
+          "Onyx Path identifies Creation as the Third Edition setting frame."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC105-002",
+    "source_id": "SRC-105",
+    "canonical_term": "Solar Exalted",
+    "original_language": "English game/setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "The player-character type presented by the Third Edition core rulebook and the focus of its character-creation material.",
+    "cultural_caution": "An edition-specific fictional exalted status, not a claim about real religious solar figures, divinity, hereditary status, or a generic superhero category. Other Exalt types require their own product witnesses.",
+    "citations": [
+      {
+        "url": "https://theonyxpath.com/character-creation-exalted-3rd-edition/",
+        "locator": "Introduction and Step One: Character Concept and Caste",
+        "supports": [
+          "Onyx Path describes the core book's default character type as Solar Exalted."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC105-003",
+    "source_id": "SRC-105",
+    "canonical_term": "Caste and Favored Abilities",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Third Edition Solar character-creation vocabulary linking a Caste and selected Favored Abilities to a character's mechanical options.",
+    "cultural_caution": "Game terminology only. It does not correspond to real caste systems, social rank, ethnicity, or occupation, and must not be read as a real-world social classification.",
+    "citations": [
+      {
+        "url": "https://theonyxpath.com/character-creation-exalted-3rd-edition/",
+        "locator": "Step One and Step Three: Character Concept and Caste; Abilities",
+        "supports": [
+          "Official worked example describes Dawn Caste and Caste/Favored Ability choices."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC105-004",
+    "source_id": "SRC-105",
+    "canonical_term": "Charms",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Third Edition's named character powers, including powers associated with abilities and magical items' Evocations.",
+    "cultural_caution": "A game-mechanical power category. Individual Charm effects are version-sensitive and should not be generalized into metaphysical facts or attributed to a named figure without a claim-level witness.",
+    "citations": [
+      {
+        "url": "https://theonyxpath.com/exalted-third-edition-mechanics-overview/",
+        "locator": "Charms and Magic",
+        "supports": [
+          "Official overview describes Charm use, Excellencies, and item-linked Evocations as Charms."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC105-005",
+    "source_id": "SRC-105",
+    "canonical_term": "Intimacies and social influence",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Third Edition's social-interaction framework, in which ties and principles of varying intensity structure influence attempts.",
+    "cultural_caution": "A tabletop procedure for consent-sensitive fictional social conflict. It must not be treated as a psychological diagnosis, proof of a person's real beliefs, or permission to override player boundaries; groups should use appropriate safety practices.",
+    "citations": [
+      {
+        "url": "https://theonyxpath.com/exalted-third-edition-mechanics-overview/",
+        "locator": "Social System",
+        "supports": [
+          "Official overview describes Third Edition social influence and Intimacies as ties or principles with varying intensity."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

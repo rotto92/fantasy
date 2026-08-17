@@ -1,0 +1,1427 @@
+[
+  {
+    "character_id": "CHR-SRC022-001",
+    "canonical_name": "Olódùmarè",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "supreme source in published orientation",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "supreme source in published orientation"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-002",
+    "canonical_name": "Ọ̀rúnmìlà",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà of Ifá/divination",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà of Ifá/divination"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-003",
+    "canonical_name": "Èṣù",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with mediation and communication",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with mediation and communication"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-004",
+    "canonical_name": "Ọ̀bàtálá",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà in creation traditions",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà in creation traditions"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-005",
+    "canonical_name": "Ògún",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with iron and roads",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with iron and roads"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-006",
+    "canonical_name": "Ṣàngó",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with thunder and kingship",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with thunder and kingship"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-007",
+    "canonical_name": "Yemoja",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with waters and motherhood",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with waters and motherhood"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-008",
+    "canonical_name": "Ọ̀ṣun",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with river and fertility",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with river and fertility"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-009",
+    "canonical_name": "Oya",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with wind and transformation",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with wind and transformation"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-010",
+    "canonical_name": "Ọbà",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with river traditions",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with river traditions"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-011",
+    "canonical_name": "Olókun",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with deep waters",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with deep waters"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-012",
+    "canonical_name": "Ajé",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with wealth/market",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with wealth/market"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-013",
+    "canonical_name": "Ọ̀sányìn",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with medicinal plants",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with medicinal plants"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-014",
+    "canonical_name": "Ọbàlúayé",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with illness/healing",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with illness/healing"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-015",
+    "canonical_name": "Nàná",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with earth/waters",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with earth/waters"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-016",
+    "canonical_name": "Erinlẹ̀",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with river/hunting",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with river/hunting"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-017",
+    "canonical_name": "Logún Ẹdẹ",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà with river/hunting associations",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà with river/hunting associations"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-018",
+    "canonical_name": "Odùduwà",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "ancestral/creation figure in some published accounts",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "òrìṣà",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "ancestral/creation figure in some published accounts"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-019",
+    "canonical_name": "Moremi",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "named human/ancestral figure in selected literary tradition",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human practitioner/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Not a lineage or social-category mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "named human/ancestral figure in selected literary tradition"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-020",
+    "canonical_name": "Ọ̀rànmíyàn",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "named ancestral/ruler figure in selected tradition",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human practitioner/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Not a lineage or social-category mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "named ancestral/ruler figure in selected tradition"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-021",
+    "canonical_name": "Ọ̀rìṣà Oko",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with agriculture in published orientation",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human practitioner/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Not a lineage or social-category mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with agriculture in published orientation"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-022",
+    "canonical_name": "Oke",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "òrìṣà associated with hills in published orientation",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human practitioner/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Not a lineage or social-category mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "òrìṣà associated with hills in published orientation"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-023",
+    "canonical_name": "Ìbejì",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "named sacred twin figure/category in published orientation",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human practitioner/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Not a lineage or social-category mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "named sacred twin figure/category in published orientation"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-024",
+    "canonical_name": "Olórun",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "sky/divine title in published orientation",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human practitioner/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Not a lineage or social-category mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "sky/divine title in published orientation"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC022-025",
+    "canonical_name": "Aganju",
+    "aliases": [],
+    "source_id": "SRC-022",
+    "source_title": "Yorùbá / Ifá Traditions",
+    "continuity": "Bounded published reference witness",
+    "work_or_witness": "UNESCO Ifá safeguarding description; named scholarly witness set",
+    "character_kind": "individual",
+    "description": "named òrìṣà in published orientation",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human practitioner/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Not a lineage or social-category mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "contextual sacred/narrative association",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "bounded witness record",
+    "evidence_level": "scholarly-reference",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, “Ifa divination system” description",
+        "supports": [
+          "named òrìṣà in published orientation"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Living sacred/oral traditions vary by lineage and region; this record is not ritual authority.",
+      "Association labels are summary orientation only; they do not define a fixed portfolio across traditions."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

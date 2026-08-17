@@ -1,0 +1,21 @@
+[
+  {
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity_scope": "Visions of Mana, English PlayStation 5 base release (Square Enix, 29 August 2024), a new mainline Mana-series entry. This is an entry-specific pass, not a merged series canon.",
+    "work_or_witnesses": ["Visions of Mana PlayStation 5 base release (English; 29 August 2024)", "Square Enix English Visions of Mana game and character pages", "Square Enix English 'Character Introduction' (18 July 2024)", "PlayStation US product page"],
+    "coverage_rule": "Include every named individual directly profiled or directly identified in the selected Square Enix character-introduction witness: the five possible player characters, Hinna, Ramcoh, Aesh, Eoren, Lyza, Daelophos, and Iain (named as Palamena's brother). Named-character relationships are included only where that witness explicitly states kinship, mentorship, childhood friendship, rescue, or a shared pilgrimage. No route, party order, post-launch outcome, or unprofiled enemy roster is inferred.",
+    "in_scope_character_count": 12,
+    "completed_character_count": 12,
+    "omissions": ["All other Mana titles, including original games, remakes, ports, mobile works, and their localized character identities, are separate passes.", "Unprofiled NPCs, monsters, alms, the Faerie, Goddess, Elementals, Benevodons, and collective peoples/organizations are terms or omitted rather than character nodes.", "The player-selected three-person battle team, classes, elemental-vessel combinations, quests, ending, DLC/purchases, and update content are not narrative evidence for a fixed party or outcome."],
+    "uncertainties": ["This pass uses English first-party promotional/reference pages rather than a text extraction from an inspected PS5 disc; it supports the listed premises, not exhaustive lore or endgame canon.", "The Square Enix profile says Daelophos's deeds became legend but does not state an in-game timeline or outcome; no further biography is inferred.", "The official site describes Visions of Mana as a new mainline entry; it does not license assertions of an exact shared world/timeline with prior Mana games.", "Role and people labels are English-localization wording; no cross-localization equivalence is claimed."],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Square Enix and PlayStation first-party product, story, and character-reference pages; narrowly bounded to their directly stated claims.",
+    "citations": [
+      {"url":"https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html","locator":"Story; Characters; Team Setup; product details, lines 41-227","supports":["story premise, named character profiles, named relations, team-selection mechanic, release date, and platforms"]},
+      {"url":"https://mana.square-enix-games.com/en-us/games/visions-of-mana","locator":"The Story; Characters","supports":["English game page, Hinna named as Alm of Fire, and six primary character-page names"]},
+      {"url":"https://www.playstation.com/en-us/games/visions-of-mana/","locator":"What is Visions of Mana?; lines 60-88","supports":["PS5 witness, standalone mainline-entry framing, pilgrimage premise, elemental magic, semi-open map, and combat context"]}
+    ],
+    "last_reviewed":"2026-08-06"
+  }
+]

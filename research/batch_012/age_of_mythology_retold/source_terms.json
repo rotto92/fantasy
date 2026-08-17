@@ -1,0 +1,198 @@
+[
+  {
+    "term_id": "STM-SRC281-001",
+    "source_id": "SRC-281",
+    "canonical_term": "pantheon",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "grouping of selectable deities in the game",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The launch post presents Greek, Egyptian, Norse, and Atlantean Pantheons as player-facing choices in Retold.",
+    "cultural_caution": "A game pantheon selector is an adaptation interface. It must not be equated with the historical, ritual, textual, or lived category systems of the traditions named by the game.",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "Which Pantheon Should You Choose?, paragraph 1",
+        "supports": [
+          "The launch post directs players to Greek, Egyptian, Norse, and Atlantean Pantheons."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC281-002",
+    "source_id": "SRC-281",
+    "canonical_term": "God Power",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "repeat-cast game ability",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "In the launch witness, God Powers can be cast multiple times at a Favor cost; the dated release notes continue to list them as versioned abilities with costs, cooldowns, and effects.",
+    "cultural_caution": "This is a commercial ability category, not evidence that a deity or traditional divine action has a reusable spell-like power, cooldown, or player cost.",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "What's New for Retold?, paragraph 1",
+        "supports": [
+          "God Powers are cast multiple times at the cost of Favor."
+        ]
+      },
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-update-19-14612/",
+        "locator": "Major/Minor Gods sections, including Communal Hearth, Spy, and Blood Pact entries",
+        "supports": [
+          "Update 19.14612 treats God Powers as versioned game abilities with costs, cooldowns, and effects."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC281-003",
+    "source_id": "SRC-281",
+    "canonical_term": "Favor",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "game resource used for powers and costs",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Favor is the cost named for repeat casting God Powers in the launch post; Update 19.14612 also states Favor costs for technologies and other gameplay changes.",
+    "cultural_caution": "The resource name borrows devotional language but is not a measure of traditional piety, ritual standing, divine reciprocity, or religious authority.",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "What's New for Retold?, paragraph 1",
+        "supports": [
+          "The launch post says repeat God Power casting costs Favor."
+        ]
+      },
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-update-19-14612/",
+        "locator": "Major/Minor Gods and technology sections, e.g. Guiding Flame and Blood Pact",
+        "supports": [
+          "The dated notes list Favor as a numeric gameplay cost."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC281-004",
+    "source_id": "SRC-281",
+    "canonical_term": "Wonder Age",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "late-game progression state",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The launch post says Wonder Age improves Myth Units and makes God Powers recharge near instantly and cost a fraction of their normal cost.",
+    "cultural_caution": "The term is a game progression tier; it does not establish a shared cosmological age, sacred chronology, or eschatology for any represented tradition.",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "What's New for Retold?, paragraph 1",
+        "supports": [
+          "The launch post defines the Wonder Age's Myth Unit and God Power gameplay effects."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC281-005",
+    "source_id": "SRC-281",
+    "canonical_term": "Myth Unit",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "game unit category",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The launch post identifies Myth Units as a gameplay category affected by Wonder Age, while Update 19.14612 lists named myth-unit entries with mutable costs and statistics.",
+    "cultural_caution": "Myth Unit is a game category. It must not turn an individual named being into a generic species, nor treat traditional stories as balanced unit rosters or counter systems.",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "What's New for Retold?, paragraph 1",
+        "supports": [
+          "The launch post says Wonder Age improves Myth Units."
+        ]
+      },
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-update-19-14612/",
+        "locator": "Myth Units sections, including Minotaur, Nemean Lion, Hydra, and Qinglong entries",
+        "supports": [
+          "Update 19.14612 presents Myth Units as adjustable gameplay entries with costs and statistics."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC281-006",
+    "source_id": "SRC-281",
+    "canonical_term": "Hirdman",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "new Norse military unit in Retold",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The launch post names the Hirdman as one of Retold's new Norse military units.",
+    "cultural_caution": "The game's military-unit use is not a full historical reconstruction of hird social, legal, or military relations.",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "What's New for Retold?, paragraph 1",
+        "supports": [
+          "The launch post calls the Hirdman a new Norse military unit."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC281-007",
+    "source_id": "SRC-281",
+    "canonical_term": "Godi",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "new Norse military unit in Retold",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The launch post names the Godi as one of Retold's new Norse military units; the later release notes adjust that unit's movement speed.",
+    "cultural_caution": "The game's unit label must not be treated as evidence that a historical or traditional religious role is equivalent to a combat class or game-stat package.",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "What's New for Retold?, paragraph 1",
+        "supports": [
+          "The launch post calls the Godi a new Norse military unit."
+        ]
+      },
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-update-19-14612/",
+        "locator": "Norse Hero Units, Godi entry",
+        "supports": [
+          "Update 19.14612 changes the Godi's movement speed as a versioned gameplay statistic."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

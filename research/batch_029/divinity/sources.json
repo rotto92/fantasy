@@ -1,0 +1,34 @@
+[
+  {
+    "source_id":"SRC-143",
+    "source_title":"Divinity",
+    "continuity_scope":"Divinity: Original Sin 2: Definitive Edition, Larian's 2017 Original Sin 2 release family, English product-page baseline. It is deliberately separate from Divinity: Original Sin Enhanced Edition, Divine Divinity, Beyond Divinity, Divinity II, Dragon Commander, and future Divinity works. This product-page pass records the Definitive Edition's visible origin/player framework only; no patch- or DLC-specific narrative state is imported.",
+    "work_or_witnesses":[
+      "Larian: Divinity Original Sin 2 official game page",
+      "Larian Studios home page: Divinity Original Sin 2: Definitive Edition entry"
+    ],
+    "coverage_rule":"Zero-character evidence-constrained pass. Larian's selected first-party pages state that there are six unique Origin characters with distinct backgrounds and quests, but they do not provide a reproducible list of names or claim-specific individual character profiles/dialogue/codex locators. Custom player avatars are expressly variable. Rather than use forum discussion, wikis, or third-party profiles to fill the gap, the character and relationship arrays are empty.",
+    "in_scope_character_count":0,
+    "completed_character_count":0,
+    "omissions":[
+      "All six named Origin characters because the selected Larian product page does not identify them or describe them individually at claim level; official cosplay file discovery alone is not an attribute witness.",
+      "Custom player avatars and all player-selected race, class, appearance, background, build, party, dialogue, relationship, and ending choices.",
+      "Factions, gods, Source powers, races, items, places, opponents, companions as a generic system, quests, mechanics, and rules as character nodes.",
+      "Earlier/later Divinity titles, Original Sin 2 patches, gift bags, DLC/merchandise/board-game expansions, mods, forum posts, community profiles, and adaptations."
+    ],
+    "uncertainties":[
+      "The official page establishes the existence of six Origin characters but does not make an auditable individual-name/claim roster available in its text. This pass deliberately remains terms-only until direct Larian or in-game character evidence is supplied.",
+      "Origins may be selected as player roles and the product page stresses player choices and world reactivity. No fixed party, romance, fate, divinity outcome, or relationship graph is universalized.",
+      "The official product page is currently multilingual and identifies several localized language variants; English terminology is retained without merging variants.",
+      "Definitive Edition and the 2017 product page are an edition/release family boundary. Later updates, platform-specific behavior, and DLC/gift-bag content may diverge.",
+      "No plot-resolution claims are made, avoiding unmarked spoilers."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Larian official product pages only. No fan wiki, Wikipedia, community forum, walkthrough, review, or third-party character profile is used as canonical evidence.",
+    "citations":[
+      {"url":"https://divinity.com/original-sin-ii","locator":"About; Choose Your Race and Origin; Discover all Divinity games sections","supports":["2017 Original Sin 2 product baseline, six Origin framework, custom-avatar choice, race/player reactivity, party size, story premise, localization menu, and Definitive Edition title"]},
+      {"url":"https://larian.com/","locator":"Our games: Divinity Original Sin 2: Definitive Edition; Divinity series overview","supports":["Definitive Edition game identity and separate multi-title franchise context"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

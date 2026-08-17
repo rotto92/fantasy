@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "SRC-046",
+    "source_title": "A Song of Ice and Fire",
+    "continuity_scope": "George R. R. Martin's prose-novel continuity only, restricted to Penguin Random House Higher Education's authorized online excerpt headed “PROLOGUE [to A GAME OF THRONES].” The bounded witness is the excerpt opening from “We should start back” through the issued order and mounted departure (HTML lines 244–319). It does not include the remainder of the prologue, Bran I, later chapters, later A Song of Ice and Fire novels, ancillary histories, novellas, maps, games, graphic novels, or any HBO Game of Thrones / House of the Dragon material.",
+    "work_or_witnesses": [
+      {
+        "work": "A Game of Thrones, Prologue",
+        "edition": "Penguin Random House Higher Education authorized online excerpt, attached to George R. R. Martin's A Game of Thrones 5-Book Boxed Set, ISBN 9780345535535; exact selected HTML segment lines 244–319",
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535"
+      }
+    ],
+    "coverage_rule": "Include every named individual who directly appears and materially acts in the selected excerpt segment: Will, Gared, and Ser Waymar Royce. A named individual mentioned only indirectly (Mormont and Maester Aemon) is not included. Houses, institutional memberships, titles, peoples, weapons, mounts, places, seasons, weather, punishments, and the unnamed dead/camp figures remain terms or omissions. Only direct excerpt identity, participation, and command facts are recorded; no kinship is asserted because the segment supplies none.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "Mormont and Maester Aemon, who are only named in dialogue/narration and do not directly appear or act in the selected segment.",
+      "All unnamed wildlings, dead people, people at the described camp, Mallister freeriders, black brothers, and other generic collectives.",
+      "All material after the mounted departure in the prologue; all of Bran I and later chapters/books; and all external histories, novellas, games, graphic-novel, television, and other adaptation continuities.",
+      "Houses, ranks/titles, Night's Watch, Wall, weather/seasons, peoples, animals, weapons, clothing, punishment, law, social structures, and places as character nodes.",
+      "Any later parentage, identity, death, supernatural, prophecy, child-peril, sexual violence/incest, disability, gender, race/ethnicity, class/feudalism, or adaptation-derived claim."
+    ],
+    "content_cautions": [
+      "The excerpt contains references to dead people, possible violence, threat, punitive coercion, and cold injury. This pass does not add a death outcome, perpetrator, graphic violence description, diagnosis, disability category, or fate beyond the local text.",
+      "Will reports that he chose joining the Watch over losing a hand after poaching; this is preserved only as a tightly sourced past-choice context. It is not generalized into a real penal, class, race/ethnicity, feudal, or consent framework.",
+      "Gared describes past loss of body parts and names Maester Aemon in that account. No disability, medical, identity, age, or health-status node/label is inferred, and Aemon remains omitted because he does not appear in the selected segment.",
+      "Male pronouns, “lordling,” knight, and sworn-brother wording are source-language context, not gender-identity, sex, social-class, ethnicity, or real historical-rank claims.",
+      "The prior HBO opening-witness research is a separate audiovisual continuity and is not used for names, roles, kinship, events, appearances, or vocabulary here."
+    ],
+    "uncertainties": [
+      "The official publisher page presents an authorized online excerpt tied to a boxed-set ISBN but does not state page numbers for a particular print or ebook edition; HTML line bounds are therefore the exact reproducible locator.",
+      "The sample stops during the prologue. It cannot establish any later event, outcome, character fate, supernatural identification, familial relationship, or identity reveal.",
+      "The terms wildling, lordling, putting on the black, and Night's Watch are source-specific language. This bounded excerpt does not provide enough evidence for fixed culture, ethnicity, class, legal, or institutional equivalences."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Penguin Random House Higher Education's authorized excerpt is the sole granular evidence source for all character, relationship, and term claims. George R. R. Martin's official site is used only to identify A Game of Thrones as Book One and to distinguish later novels from the bounded witness. No fan wiki, Wikipedia, recap, transcript, adaptation, or later-book material is used as evidence.",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "Excerpt heading “PROLOGUE [to A GAME OF THRONES]”; HTML lines 244–319 (opening through mounted departure)",
+        "supports": [
+          "Authorized bounded novel-excerpt witness; all included individuals, their local participation and command relationship, and all source terms."
+        ]
+      },
+      {
+        "url": "https://georgerrmartin.com/grrm_book/a-game-of-thrones-a-song-of-ice-and-fire-book-one/",
+        "locator": "Title heading “A Game of Thrones (A Song of Ice and Fire, Book One)”",
+        "supports": [
+          "A Game of Thrones as the selected Book One novel continuity."
+        ]
+      },
+      {
+        "url": "https://georgerrmartin.com/bibliography/",
+        "locator": "A Song of Ice and Fire bibliography entries, lines 24–28",
+        "supports": [
+          "The later listed novels are separate excluded works, rather than evidence for this opening excerpt."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

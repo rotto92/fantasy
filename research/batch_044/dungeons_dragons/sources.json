@@ -1,0 +1,22 @@
+[
+  {
+    "source_id":"SRC-089","source_title":"Dungeons & Dragons",
+    "continuity_scope":"Terms-only rules/product audit bound to the official D&D Beyond 2024 Basic Rules (published September 1, 2024) and the official SRD 5.2 licensing witness. This is not a single fictional setting or continuity; no Forgotten Realms, Greyhawk, Dragonlance, or other setting material is silently included.",
+    "work_or_witnesses":[
+      {"work":"D&D Beyond Basic Rules (2024)","edition":"Official digital Basic Rules, September 1, 2024","url":"https://www.dndbeyond.com/sources/dnd/br-2024"},
+      {"work":"D&D Beyond Basic Rules (2024), Character Origins","edition":"Official rules section","url":"https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"},
+      {"work":"System Reference Document 5.2","edition":"Official SRD licensing document","url":"https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf"}
+    ],
+    "coverage_rule":"No characters are included. The authoritative witness profiles player-character construction options and rules categories, rather than individually named dramatic characters. Species, classes, backgrounds, alignments, spells, monsters, items, planes, and mechanics remain terms/dimensions.",
+    "in_scope_character_count":0,"completed_character_count":0,
+    "omissions":["All named setting, adventure, novel, game, campaign, and example characters not directly profiled by this rules witness.","All setting-specific lore, monsters, items, spells, planes, subclasses, and optional rules beyond the small rules-category terminology retained below.","Legacy 2014-rule claims except where the 2024 witness explicitly directs users to older books; no conversion compatibility details are inferred.","Unofficial third-party rules, fan wikis, Open Game License assumptions, and rules errata not expressly present in the selected witness."],
+    "uncertainties":["D&D Beyond's digital rules may be revised; this audit is dated to the selected 2024 Basic Rules witness and last-reviewed date, not an assertion that all live digital text is immutable.","‘Species’ is the 2024 Basic Rules term. Older D&D products may use different terminology, including ‘race’; those are edition-specific and not silently treated as identical.","The Basic Rules allow Dungeon Master-supplied options and refer to older books for some selections; such optional/material-specific content is out of scope.","SRD 5.2 licensing is recorded as publication context only. It does not itself establish that every D&D product, setting, trademark, or rule is freely reusable."],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Official D&D Beyond rules establish the 2024 date, character origin, species, background, and build-rule terminology. The official SRD document provides the licensing witness. Neither profiles named dramatic individuals, so no character or relationship records are warranted.",
+    "citations":[
+      {"url":"https://www.dndbeyond.com/sources/dnd/br-2024","locator":"Official 2024 Basic Rules table of contents and publication date","supports":["Selected rules edition/date and rules-category scope."]},
+      {"url":"https://www.dndbeyond.com/sources/dnd/br-2024/character-origins","locator":"Character Origins; Origin Components; Backgrounds and Species from Older Books","supports":["2024 species/background terminology, player-build context, and legacy-options caution."]},
+      {"url":"https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.pdf","locator":"Official SRD 5.2 legal/licensing information","supports":["Licensing-context caution."]}
+    ],"last_reviewed":"2026-08-05"
+  }
+]

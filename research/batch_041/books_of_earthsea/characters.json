@@ -1,0 +1,50 @@
+[
+  {
+    "character_id": "CHR-SRC085-001",
+    "canonical_name": "Tenar",
+    "aliases": ["Arha", "the Eaten One"],
+    "source_id": "SRC-085",
+    "source_title": "The Books of Earthsea",
+    "continuity": "The Tombs of Atuan — estate official-synopsis witness within 2018 container",
+    "work_or_witness": "The Tombs of Atuan official synopsis only",
+    "character_kind": "individual",
+    "description": "A girl chosen as high priestess to ancient, nameless Powers of the Earth and thereafter called Arha, the Eaten One; she guards the Tombs of Atuan and its hidden Ring of Erreth-Akbe in the official synopsis.",
+    "dimensions": {
+      "being_types": [], "cultures": [],
+      "roles_and_vocations": [{"term":"high priestess and guardian","archetype_ids":[],"confidence":"high","note":"Synopsis-level office within the Tombs; no generalized clergy model."}],
+      "power_traditions": [], "affiliations": [],
+      "states_and_transformations": [{"term":"imposed identity as Arha, the Eaten One","archetype_ids":[],"confidence":"high","note":"The synopsis says her former name and possessions are taken; no generic name-control mechanic asserted."}],
+      "artifacts_and_vehicles": [{"term":"Ring of Erreth-Akbe","archetype_ids":[],"confidence":"high","note":"Her guarded hidden treasure in this synopsis only."}],
+      "cosmologies_and_realms": [{"term":"Tombs of Atuan","archetype_ids":[],"confidence":"high","note":"Labyrinthine sacred location context."}],
+      "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []
+    },
+    "canon_status": "The Tombs of Atuan official synopsis only", "evidence_level": "official-reference",
+    "citations": [{"url":"https://www.ursulakleguin.com/the-tombs-of-atuan","locator":"Estate official synopsis, opening two paragraphs","supports":["Tenar's selection, Arha/Eaten One designation, Tombs guardianship, and Ring duty."]}],
+    "comparison_cautions": ["Her changed public name/title is source-specific and should not be reduced to a true-name spell system.", "No Kargish culture, priestly hierarchy, later biography, adaptation portrayal, or ending is asserted."],
+    "spoiler_level": "light", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC085-002",
+    "canonical_name": "Ged",
+    "aliases": ["Sparrowhawk"],
+    "source_id": "SRC-085",
+    "source_title": "The Books of Earthsea",
+    "continuity": "The Tombs of Atuan — estate official-synopsis witness within 2018 container",
+    "work_or_witness": "The Tombs of Atuan official synopsis only",
+    "character_kind": "individual",
+    "description": "A wizard who enters the Tombs seeking the Ring of Erreth-Akbe in the official Tombs synopsis.",
+    "dimensions": {
+      "being_types": [], "cultures": [],
+      "roles_and_vocations": [{"term":"wizard","archetype_ids":[],"confidence":"high","note":"Synopsis-level vocation only; not a carryover of SRC-035's training detail."}],
+      "power_traditions": [{"term":"magic","archetype_ids":[],"confidence":"high","note":"The synopsis says Ged possesses magic, without mechanics."}],
+      "affiliations": [], "states_and_transformations": [],
+      "artifacts_and_vehicles": [{"term":"Ring of Erreth-Akbe","archetype_ids":[],"confidence":"high","note":"The object he seeks in this contained work."}],
+      "cosmologies_and_realms": [{"term":"Tombs of Atuan","archetype_ids":[],"confidence":"high","note":"Labyrinth setting for this contained-work encounter."}],
+      "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []
+    },
+    "canon_status": "The Tombs of Atuan official synopsis only; overlaps SRC-035 only by identity", "evidence_level": "official-reference",
+    "citations": [{"url":"https://www.ursulakleguin.com/the-tombs-of-atuan","locator":"Estate official synopsis, second paragraph","supports":["Ged/Sparrowhawk's wizard identity, arrival at the Tombs, and Ring objective."]}],
+    "comparison_cautions": ["This is a contained-work record for Ged's Tombs role, not a duplication of SRC-035's Wizard character profile.", "No true-name, Roke, shadow, dragon, later-life, or adaptation claim is imported."],
+    "spoiler_level": "none", "review_status": "researched"
+  }
+]

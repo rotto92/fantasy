@@ -1,0 +1,56 @@
+[
+  {
+    "source_id": "SRC-177",
+    "source_title": "Etrian Odyssey HD",
+    "continuity_scope": "Etrian Odyssey HD, the Nintendo Switch digital remaster of the first numbered Etrian Odyssey title, released 1 June 2023. The selected witness is the Nintendo US English Switch storefront listing, whose software description is provided by the publisher; it identifies SEGA as publisher and ATLUS/MUTAN as developers, with US English, French, German, Italian, and Spanish support. This audit excludes the original Nintendo DS release, Etrian Odyssey II HD and Etrian Odyssey III HD, the bundle/Origins Collection as a multi-title package, all later numbered games and spin-offs, regional/localized scripts not in the selected witness, portrait DLC, and player save/guild/party continuities.",
+    "work_or_witnesses": [
+      {
+        "work": "Etrian Odyssey HD",
+        "edition": "Nintendo Switch digital release, US storefront, 1 June 2023; SEGA publisher, ATLUS/MUTAN developers; software description provided by the publisher.",
+        "url": "https://www.nintendo.com/us/store/products/etrian-odyssey-hd-switch/"
+      },
+      {
+        "work": "SEGA Privacy Hub: Our Games",
+        "edition": "Official SEGA title list; used only to distinguish Etrian Odyssey HD from separately listed Etrian Odyssey II HD and Etrian Odyssey III HD.",
+        "url": "https://privacy.sega.com/index.php/en/our-games"
+      }
+    ],
+    "coverage_rule": "Terms-only remaster/product audit. The selected official evidence describes a player-created explorer party selected from nine classes, mapping, quests, a skill tree, save slots, and a labyrinth premise, but provides no claim-specific profile of a stable named NPC dramatic individual. No character or relationship records are made. Player adventurers, guilds, class roles, portrait choices, monsters, items, quests, labyrinth floors, map markings, and mechanics remain terms/dimensions. A named NPC may be added only from a separately scoped official story/profile witness that directly describes that individual; a class label, player-given name, portrait, quest role, or save-file outcome is insufficient.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All player-created guild members and parties, all nine class options, portraits, monsters, quest contacts, shops, items, labyrinth floors, maps, and any named NPC or antagonist not directly profiled in the selected official storefront witness.",
+      "The original Nintendo DS version; Etrian Odyssey II HD and Etrian Odyssey III HD; the multi-game Origins Collection package; all later numbered games, remakes, spin-offs, crossovers, manga/other adaptations, and non-US-English/localized scripts.",
+      "All DLC portrait content, individual save slots, difficulty choices, party builds, mapping annotations, quest resolutions, and player session outcomes."
+    ],
+    "content_cautions": [
+      "The official listing frames exploration as a perilous, near-death dungeon adventure and carries ESRB descriptors for fantasy violence and suggestive themes. Specific narrative content, quests, and enemy material were not exhaustively audited.",
+      "Player-created parties, selectable portraits/classes, difficulty selection, mapping choices, save slots, and combat/quest outcomes are variable play states. This audit does not turn them into a single shared story or personal identity canon."
+    ],
+    "uncertainties": [
+      "Nintendo's selected English listing calls Etrian Odyssey HD a remaster and identifies its 2023 Switch release, but it does not provide a full change log against the original Nintendo DS game. No original-only or remaster-only story, rule, or NPC fact is inferred beyond the listed features.",
+      "The storefront lists five supported languages but does not provide their script-level differences. The US English publisher description is the evidentiary witness; localization-specific naming, wording, and characterization remain unreviewed.",
+      "No official manual or official named-NPC profile was located in the selected evidence set. The absence of a named-character dataset here reflects this deliberately narrow witness, not a claim that the game contains no named NPCs.",
+      "The selected product is itself a digitally distributed Switch remaster. No separate adaptation, mobile port, PC implementation, or any digital version of a different numbered title is used as evidence."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Nintendo's official US storefront page supplies the publisher-provided game description, Switch platform, digital format, release date, developer/publisher credits, supported languages, content descriptors, DLC listing, and player-variable systems. SEGA's official title list supplies the II/III separation boundary. No fan wiki, Wikipedia, translation guide, datamine, walkthrough, or player-created party is used.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/etrian-odyssey-hd-switch/",
+        "locator": "Create Endless Adventure; Etrian Odyssey HD Features; About this item; DLC",
+        "supports": [
+          "The 2023 Switch digital remaster's product/version/platform/date, SEGA/ATLUS/MUTAN credits, language support, Etria/Yggdrasil premise, nine-class player party, mapping, codex/quest/skill systems, content descriptors, and portrait DLC boundary."
+        ]
+      },
+      {
+        "url": "https://privacy.sega.com/index.php/en/our-games",
+        "locator": "Our Games title list",
+        "supports": [
+          "SEGA lists Etrian Odyssey HD, Etrian Odyssey II HD, and Etrian Odyssey III HD as distinct titles."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

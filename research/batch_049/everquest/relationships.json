@@ -1,0 +1,3 @@
+[
+  {"relationship_id":"REL-SRC163-001","source_id":"SRC-163","source_character_id":"CHR-SRC163-003","target_character_id":"CHR-SRC163-004","relationship_type":"opponent","label":"mortal enemies","direction":"undirected","continuity":"EverQuest 21 July 2021 Overseer Packs update witness","citations":[{"url":"https://www.everquest.com/news/eq-overseer-updates-2021","locator":"New Agent Examples: General Jyleel","supports":["General Jyleel is identified as the mortal enemy of Ambassador D’Vinn"]}],"confidence":"high","note":"The source directly states enmity but gives no causal history, date, or resolution."}
+]

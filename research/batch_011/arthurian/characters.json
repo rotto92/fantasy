@@ -1,0 +1,1710 @@
+[
+  {
+    "character_id": "CHR-SRC005-001",
+    "canonical_name": "Uther Pendragon",
+    "aliases": [
+      "King Uther"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book I, chapters 1–4",
+    "character_kind": "individual",
+    "description": "King whose desire for Igraine, enabled by Merlin's transformation, results in Arthur's conception and whose death precipitates the succession crisis.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "king",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "human monarch in the selected witness"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [
+            "ROL-716"
+          ],
+          "confidence": "high",
+          "note": "explicit royal office"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book I, chapters 1–4",
+        "supports": [
+          "kingship, relation to Igraine, Arthur's conception, and death"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The Pendragon title is preserved; it is not treated as a dragon-derived biological type."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-002",
+    "canonical_name": "Igraine",
+    "aliases": [
+      "Igrayne",
+      "Duchess of Cornwall"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book I, chapters 1–3",
+    "character_kind": "individual",
+    "description": "Wife of the Duke of Cornwall and later Uther's wife; Arthur is born from the encounter arranged through Merlin's disguise magic.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human noblewoman",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "duchess/queen",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "successive marital status in the episode"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book I, chapters 1–3",
+        "supports": [
+          "marriage, encounter, and Arthur's birth"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Her role is recorded as narrative and dynastic; no consent-neutral romance category is imposed."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-003",
+    "canonical_name": "Arthur",
+    "aliases": [
+      "King Arthur",
+      "Sir Arthur"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Books I, XVII, XX–XXI (selected chapters)",
+    "character_kind": "individual",
+    "description": "King whose birth, kingship, fellowship, civil war against Mordred, and mortal wounding frame the selected arcs.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human king",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "the text consistently styles him king"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king and knight",
+          "archetype_ids": [
+            "ROL-716",
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "source offices and martial status"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative knightly-order coordinate; do not equate with a modern bureaucracy"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "sword from the stone / Excalibur traditions",
+          "archetype_ids": [
+            "ART-205"
+          ],
+          "confidence": "low",
+          "note": "only selected Book I material; the names and histories of swords vary"
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "succession by sword-sign",
+          "archetype_ids": [
+            "LAW-809"
+          ],
+          "confidence": "moderate",
+          "note": "Book I selection sign"
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "tragic king",
+          "archetype_ids": [
+            "NAR-108"
+          ],
+          "confidence": "low",
+          "note": "comparison coordinate, not a source term"
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book I, chapters 3–8 and 24–25",
+        "supports": [
+          "birth, fosterage, sword-sign, coronation, and knighthood"
+        ]
+      },
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XXI, chapters 1–13",
+        "supports": [
+          "war against Mordred, wounding, departure, and succession"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is Malory's Arthur only; it is not merged with Welsh Arthur, Geoffrey's Arthur, or later adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-004",
+    "canonical_name": "Merlin",
+    "aliases": [
+      "Merlyon"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Books I and IV (selected chapters)",
+    "character_kind": "individual",
+    "description": "Arthur's counselor who enables Uther's disguise, directs Arthur's fosterage and early rule, and is later enclosed by Nimue through enchantment.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human or uncanny counselor",
+          "archetype_ids": [],
+          "confidence": "low",
+          "note": "the pass avoids inferring a modern species label"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "counselor",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "recurrent explicit function"
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "enchantment and foresight",
+          "archetype_ids": [
+            "PWR-515",
+            "PWR-407"
+          ],
+          "confidence": "moderate",
+          "note": "source actions; not a modern wizard-class claim"
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "enchanted imprisonment",
+          "archetype_ids": [
+            "STA-304"
+          ],
+          "confidence": "low",
+          "note": "a confinement event, not a generic transformation"
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book I, chapters 2–5; Book IV, chapters 1–3",
+        "supports": [
+          "disguise counsel, Arthur's fosterage, and Nimue's enclosure"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "'Wizard' is a later comparative label and is not used as his source-native class."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-005",
+    "canonical_name": "Sir Ector",
+    "aliases": [
+      "Ector",
+      "Sir Ector de Maris"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book I, chapters 3–6",
+    "character_kind": "individual",
+    "description": "Knight entrusted with Arthur's nurture and father of Kay in the selected succession episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight and foster-father",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "knighthood is explicit; foster relationship is source-specific"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book I, chapters 3–6",
+        "supports": [
+          "fosterage of Arthur, parentage of Kay, and recognition of Arthur"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Fosterage is not collapsed into biological parentage."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-006",
+    "canonical_name": "Sir Kay",
+    "aliases": [
+      "Kay",
+      "Key"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book I, chapters 5–7",
+    "character_kind": "individual",
+    "description": "Ector's son and Arthur's foster-brother whose lost sword leads Arthur to draw the sword from the stone.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit status in the episode"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book I, chapters 5–7",
+        "supports": [
+          "Ector's parentage, Arthur's foster-brother relation, and the sword episode"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This Kay is not equated with the Cai of the Welsh tales."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-007",
+    "canonical_name": "Sir Balin",
+    "aliases": [
+      "Balin le Savage"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book II, chapters 1–20",
+    "character_kind": "individual",
+    "description": "Knight whose taking of the cursed sword, combat with his brother, and death form the selected tragic fraternal arc.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "cursed sword",
+          "archetype_ids": [
+            "ART-112",
+            "ART-214"
+          ],
+          "confidence": "moderate",
+          "note": "the sword is explicitly treated as a destructive/calamitous object in its episode"
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "doleful stroke / prophetic doom",
+          "archetype_ids": [
+            "LAW-207"
+          ],
+          "confidence": "moderate",
+          "note": "source-specific episode is not reduced to a spell effect"
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "cursed hero",
+          "archetype_ids": [
+            "NAR-109"
+          ],
+          "confidence": "low",
+          "note": "comparative coordinate"
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book II, chapters 1–20",
+        "supports": [
+          "knighthood, sword, fraternal combat, and death"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The 'cursed hero' mapping is partial; Balin's tale is a specific romance sequence, not a reusable character build."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-008",
+    "canonical_name": "Sir Balan",
+    "aliases": [
+      "Balan, brother of Balin"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book II, chapters 7–20",
+    "character_kind": "individual",
+    "description": "Balin's brother, unknowingly opposed to him in the fatal final combat of the selected Balin tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book II, chapters 7–20",
+        "supports": [
+          "kinship with Balin and fatal combat"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The brothers' tragedy is not modeled as a species, class, or alignment distinction."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-009",
+    "canonical_name": "Morgan le Fay",
+    "aliases": [
+      "Morgan la Fay",
+      "Morgan"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book I, chapters 24–25",
+    "character_kind": "individual",
+    "description": "Arthur's sister who seeks the sword-scabbard in the selected Book I episode and acts through enchantment.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human or uncanny royal woman",
+          "archetype_ids": [],
+          "confidence": "low",
+          "note": "the witness does not support a modern species assignment"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "enchantment",
+          "archetype_ids": [
+            "PWR-515"
+          ],
+          "confidence": "moderate",
+          "note": "source action; no exact modern magical class asserted"
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Arthur's sword-scabbard",
+          "archetype_ids": [
+            "ART-205"
+          ],
+          "confidence": "low",
+          "note": "royal/succession-linked object in this episode"
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "sorcerous sovereign",
+          "archetype_ids": [
+            "NAR-305"
+          ],
+          "confidence": "low",
+          "note": "partial comparative mapping only"
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book I, chapters 24–25",
+        "supports": [
+          "kinship, sword-scabbard plot, and enchantment"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Morgan's identity and function vary sharply across Arthurian witnesses; no stable pan-Arthurian profile is implied."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-010",
+    "canonical_name": "Nimue",
+    "aliases": [
+      "Nimue, Lady of the Lake",
+      "Nyneve"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book IV, chapters 1–3",
+    "character_kind": "individual",
+    "description": "Lady who learns Merlin's enchantments and confines him beneath a stone in the selected Book IV episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "lady of the lake / uncertain being type",
+          "archetype_ids": [],
+          "confidence": "low",
+          "note": "source title preserved without forcing a fairy species"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "enchantment",
+          "archetype_ids": [
+            "PWR-515"
+          ],
+          "confidence": "high",
+          "note": "the selected episode directly attributes her action to learned enchantments"
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1251/1251-h/1251-h.htm",
+        "locator": "Book IV, chapters 1–3",
+        "supports": [
+          "relation with Merlin, learning enchantments, and his confinement"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The Lady of the Lake is neither a fixed individual nor a fixed species across the Arthurian tradition; this record is only this selected episode."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-011",
+    "canonical_name": "Sir Lancelot",
+    "aliases": [
+      "Launcelot du Lake",
+      "Lancelot du Lac"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Books XVII, XX–XXI (selected chapters)",
+    "character_kind": "individual",
+    "description": "Arthur's knight, Galahad's father, participant in the Grail sequence, lover of Guinevere, and opposing commander in the civil-war arc.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title/status"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XVII, chapters 17–20; Book XX, chapters 7–24; Book XXI, chapters 5–13",
+        "supports": [
+          "Galahad relation, Grail sequence, Guinevere affair conflict, war, and final arrival"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record does not make the Lancelot–Guinevere relationship a universal Arthurian constant or a generic romance class."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-012",
+    "canonical_name": "Sir Galahad",
+    "aliases": [
+      "Galahad"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XVII, chapters 1–20",
+    "character_kind": "individual",
+    "description": "Lancelot's son and Grail knight who travels with Bors and Percival and achieves the selected quest's culminating vision and death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title"
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "divine grace / miracle",
+          "archetype_ids": [
+            "PWR-103"
+          ],
+          "confidence": "low",
+          "note": "comparative reading of explicitly Christian devotional framing, not a spell system"
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Sangreal",
+          "archetype_ids": [
+            "ART-101",
+            "ART-701"
+          ],
+          "confidence": "moderate",
+          "note": "sacred quest object; not ordinary loot"
+        }
+      ],
+      "cosmologies_and_realms": [
+        {
+          "term": "heavenly vision",
+          "archetype_ids": [
+            "COS-201"
+          ],
+          "confidence": "low",
+          "note": "Christian romance vision, not a mapped game plane"
+        }
+      ],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "Grail quest",
+          "archetype_ids": [
+            "LAW-103"
+          ],
+          "confidence": "low",
+          "note": "religious and moral quest framing is source-specific"
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "quest for a relic",
+          "archetype_ids": [
+            "NAR-401"
+          ],
+          "confidence": "low",
+          "note": "functional comparison only"
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XVII, chapters 1–20",
+        "supports": [
+          "knighthood, travel with Bors and Percival, Grail vision, and death"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Galahad's Christian moral and sacramental framing must not be flattened into a generic holy-warrior class."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-013",
+    "canonical_name": "Sir Bors",
+    "aliases": [
+      "Bors de Ganis"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XVII, chapters 1–20",
+    "character_kind": "individual",
+    "description": "Knight who accompanies Galahad and Percival in the final Grail journey and returns to tell the fellowship what occurred.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Sangreal journey",
+          "archetype_ids": [
+            "ART-101"
+          ],
+          "confidence": "low",
+          "note": "participant relation to sacred object"
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XVII, chapters 2–20",
+        "supports": [
+          "travel with Galahad and Percival and later report"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Participation in a sacred quest is not used to assign a modern religious class."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-014",
+    "canonical_name": "Sir Percival",
+    "aliases": [
+      "Percivale"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XVII, chapters 2–20",
+    "character_kind": "individual",
+    "description": "Knight who joins Galahad and Bors in the final Grail journey and becomes a religious hermit after Galahad's death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight; later hermit",
+          "archetype_ids": [
+            "ROL-115",
+            "ROL-420"
+          ],
+          "confidence": "moderate",
+          "note": "the latter change is explicit near Book XVII's conclusion"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Sangreal journey",
+          "archetype_ids": [
+            "ART-101"
+          ],
+          "confidence": "low",
+          "note": "participant relation to sacred object"
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XVII, chapters 2–20",
+        "supports": [
+          "travel with Galahad and Bors and hermit life after Galahad's death"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "His final religious vocation belongs to this selected Malory ending and is not generalized across all Percival traditions."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-015",
+    "canonical_name": "Sir Gawain",
+    "aliases": [
+      "Gawaine"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Books XVII, XX–XXI (selected chapters)",
+    "character_kind": "individual",
+    "description": "Arthur's nephew and knight who is morally criticized during the Grail quest, urges war with Lancelot, dies from a wound, and appears in a warning vision to Arthur.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title"
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "postmortem vision",
+          "archetype_ids": [
+            "PWR-405"
+          ],
+          "confidence": "low",
+          "note": "episode event, not a transferable personal power"
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "warning vision of death",
+          "archetype_ids": [
+            "LAW-207"
+          ],
+          "confidence": "low",
+          "note": "source-specific prophetic episode"
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XVII, chapters 13–17; Book XX, chapters 15–24; Book XXI, chapters 2–3",
+        "supports": [
+          "Grail criticism, Lancelot conflict, death, and vision warning Arthur"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This complex and often self-critical Malory portrayal must not be reduced to a generic honorable-knight coordinate."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-016",
+    "canonical_name": "Queen Guinevere",
+    "aliases": [
+      "Guenever",
+      "Gwenyvere"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Books XX–XXI (selected chapters)",
+    "character_kind": "individual",
+    "description": "Arthur's queen whose relationship with Lancelot triggers the exposure sequence; she resists Mordred's proposed marriage and later enters religious life.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human queen",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "queen; later religious woman",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "source offices and closing vocation"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Arthur's court",
+          "archetype_ids": [
+            "INS-405"
+          ],
+          "confidence": "moderate",
+          "note": "courtly position"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XX, chapters 7–24; Book XXI, chapters 1–13",
+        "supports": [
+          "queenly office, Lancelot relationship, resistance to Mordred, and religious retirement"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The affair and later religious retirement are witness-specific narrative facts, not a gendered class archetype."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-017",
+    "canonical_name": "Sir Agravain",
+    "aliases": [
+      "Agravaine"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XX, chapters 7–8",
+    "character_kind": "individual",
+    "description": "Gawain's brother who convinces Mordred and others to expose Lancelot and Guinevere, then dies in the confrontation.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XX, chapters 7–8",
+        "supports": [
+          "exposure scheme, alliance with Mordred, and death in confrontation"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Motive is reported narrowly from the selected sequence; no cross-version moral essentialization is made."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-018",
+    "canonical_name": "Sir Mordred",
+    "aliases": [
+      "Mordred",
+      "Modred"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Books XX–XXI (selected chapters)",
+    "character_kind": "individual",
+    "description": "Arthur's son and nephew in this witness, Agravain's ally in exposing Lancelot and Guinevere, usurping ruler, and Arthur's final opponent.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight and ruler",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight; claimant king",
+          "archetype_ids": [
+            "ROL-115",
+            "ROL-716"
+          ],
+          "confidence": "moderate",
+          "note": "source titles and episode actions"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate before rupture"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "contested succession",
+          "archetype_ids": [
+            "LAW-809"
+          ],
+          "confidence": "low",
+          "note": "comparison coordinate"
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XX, chapters 7–8; Book XXI, chapters 1–5",
+        "supports": [
+          "kinship with Arthur, exposure scheme, coronation attempt, war, and death"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Genealogy, motives, and moral function vary substantially across Arthurian texts; this entry is limited to Malory/Caxton."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-019",
+    "canonical_name": "Sir Gareth",
+    "aliases": [
+      "Gareth of Orkney"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XX, chapters 8–9",
+    "character_kind": "individual",
+    "description": "Knight and Gawain's brother, killed while unarmed during Lancelot's rescue of Guinevere in the selected civil-war trigger.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XX, chapters 8–9",
+        "supports": [
+          "kinship, presence at Guinevere's execution, unarmed status, and death"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This short selected-arc record does not substitute for Gareth's much larger Book VII tale."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-020",
+    "canonical_name": "Sir Gaheris",
+    "aliases": [
+      "Gaheris of Orkney"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XX, chapters 8–9",
+    "character_kind": "individual",
+    "description": "Knight and Gawain's brother, killed unarmed alongside Gareth in the selected rescue/execution episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "high",
+          "note": "explicit title"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Table Round",
+          "archetype_ids": [
+            "INS-204"
+          ],
+          "confidence": "low",
+          "note": "comparative institutional coordinate"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XX, chapters 8–9",
+        "supports": [
+          "kinship, unarmed status, and death during Lancelot's rescue"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No general moral reading is inferred from one military catastrophe."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-021",
+    "canonical_name": "Sir Lucan",
+    "aliases": [
+      "Lucan the Butler"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XXI, chapters 3–5",
+    "character_kind": "individual",
+    "description": "Arthur's knight and officer who helps negotiate with Mordred, survives Camlann briefly, and dies while carrying Arthur.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight; butler/officer",
+          "archetype_ids": [
+            "ROL-115"
+          ],
+          "confidence": "moderate",
+          "note": "title and court service; modern domestic sense should not be assumed"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Arthur's court",
+          "archetype_ids": [
+            "INS-405"
+          ],
+          "confidence": "moderate",
+          "note": "courtly service"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XXI, chapters 3–5",
+        "supports": [
+          "negotiation, survival after battle, aid to Arthur, and death"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "'Butler' is retained as a period office, not converted to a modern service-job class."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-022",
+    "canonical_name": "Sir Bedivere",
+    "aliases": [
+      "Bedwere",
+      "Bedwyr (not this continuity)"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XXI, chapters 3–13",
+    "character_kind": "individual",
+    "description": "Lucan's brother and Arthur's final attendant, commanded to return the sword to the water and later made hermit at Arthur's tomb.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human knight",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight; later hermit",
+          "archetype_ids": [
+            "ROL-115",
+            "ROL-420"
+          ],
+          "confidence": "moderate",
+          "note": "closing change in Book XXI"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Arthur's court",
+          "archetype_ids": [
+            "INS-405"
+          ],
+          "confidence": "moderate",
+          "note": "final attendant and knight"
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Arthur's sword",
+          "archetype_ids": [
+            "ART-205",
+            "ART-707"
+          ],
+          "confidence": "moderate",
+          "note": "return/succession-linked royal weapon"
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XXI, chapters 3–13",
+        "supports": [
+          "negotiation, care for Arthur, sword return, witness role, and hermitage"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The Bedwyr alias is flagged to prevent accidental merger with the separate Welsh SRC-004 record."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC005-023",
+    "canonical_name": "Constantine",
+    "aliases": [
+      "Constantine of Cornwall"
+    ],
+    "source_id": "SRC-005",
+    "source_title": "Arthurian Legend",
+    "continuity": "Malory, Caxton 1485 print division",
+    "work_or_witness": "Le Morte Darthur, Book XXI, chapter 13",
+    "character_kind": "individual",
+    "description": "Arthur's kinsman named as king after Arthur's death in the closing succession notice.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human king",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "comparative category"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [
+            "ROL-716"
+          ],
+          "confidence": "high",
+          "note": "explicit closing office"
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "post-Arthur succession",
+          "archetype_ids": [
+            "LAW-809"
+          ],
+          "confidence": "moderate",
+          "note": "explicit concluding political succession"
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in selected Caxton witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/1252/1252-h/1252-h.htm",
+        "locator": "Book XXI, chapter 13",
+        "supports": [
+          "kinship with Arthur and succession as king"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This Constantine is not silently identified with historical or other legendary Constantines."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  }
+]

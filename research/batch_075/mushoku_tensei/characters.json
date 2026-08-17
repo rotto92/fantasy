@@ -1,0 +1,36 @@
+[
+  {
+    "character_id": "CHR-SRC214-001",
+    "canonical_name": "Rudeus Greyrat",
+    "aliases": [],
+    "source_id": "SRC-214",
+    "source_title": "Mushoku Tensei: Jobless Reincarnation",
+    "continuity": "Seven Seas English revised light novel Vol. 1 (March 2021)",
+    "work_or_witness": "Seven Seas Volume 1 product metadata and synopsis",
+    "character_kind": "individual",
+    "description": "The reborn infant identity of an unnamed unemployed 34-year-old shut-in who is expelled by his family, dies in a traffic collision, and awakens in a swords-and-sorcery world with memories of his first life, determined not to repeat past mistakes.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [{"term": "reincarnated with prior-life memories", "archetype_ids": [], "confidence": "high", "note": "Direct Seven Seas premise wording. It establishes retained memories across rebirth, not a medical, philosophical, age-equivalence, or complete reincarnation-mechanics claim."}],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "world of swords and sorcery", "archetype_ids": [], "confidence": "high", "note": "Direct publisher setting phrase; no named world, political map, species taxonomy, or real-world culture equivalence is provided."}],
+      "metaphysical_laws_and_rituals": [{"term": "reincarnation", "archetype_ids": [], "confidence": "high", "note": "The selected synopsis states rebirth after death; it does not provide cause, law, deity, afterlife, or repeatability rules."}],
+      "narrative_archetypes": [{"term": "second-life resolve", "archetype_ids": [], "confidence": "high", "note": "The synopsis says Rudeus is determined not to repeat past mistakes and to make the most of reincarnation; no redemption outcome is inferred."}],
+      "game_mechanics": []
+    },
+    "canon_status": "The only named individual directly described by the selected Seven Seas English revised Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://sevenseasentertainment.com/books/mushoku-tensei-jobless-reincarnation-light-novel-vol-1/", "locator": "Volume 1 synopsis, lines 47-52", "supports": ["Rudeus Greyrat name, prior-life adult shut-in/family-expulsion/traffic-death setup, rebirth as infant, retained memories, fantasy-world context, and stated intent"]}],
+    "comparison_cautions": [
+      "The prior-life/reborn-body premise raises age and identity considerations. This record preserves the publisher's premise but does not normalize, excuse, diagnose, or make claims about consent, maturity, sexuality, harassment, or conduct not stated in the selected metadata.",
+      "Family expulsion, social isolation, unemployment, accidental/traffic death, and rebirth are sensitive premise elements. The metadata does not establish cause, mental-health diagnosis, blame, recovery, or a complete trauma narrative.",
+      "No web novel, Japanese light novel, manga, anime, game, guidebook, later volume, relationship, magic system, species, item, or outcome material is imported."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "relationship_id": "REL-SRC026-001",
+    "source_id": "SRC-026",
+    "source_character_id": "CHR-SRC026-001",
+    "target_character_id": "CHR-SRC026-002",
+    "relationship_type": "spouse",
+    "label": "marriage achieved after the chapter’s central quest",
+    "direction": "undirected",
+    "continuity": "The Silmarillion (1977), Chapter 19 published-text witness",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/catherine-mcilwaine-beren-and-luthien/",
+        "locator": "‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, sentence stating that Beren wins Lúthien’s hand and the first marriage of mortal and immortal is achieved",
+        "supports": [
+          "Beren and Lúthien’s marriage in the selected chapter witness"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Outcome-level relationship for the 1977 chapter only. It is a moderate spoiler and does not harmonize differing manuscript or posthumous versions."
+  }
+]

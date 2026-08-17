@@ -1,0 +1,37 @@
+[
+  {
+    "source_id": "SRC-217",
+    "source_title": "Grimgar of Fantasy and Ash",
+    "continuity_scope": "Grimgar of Fantasy and Ash, J-Novel Club English digital Level 1, credited to author Ao Jyumonji, illustrator Eiri Shirai, and translator Sean McCann. This is a narrow English light-novel Level 1 metadata pass. Overlap Bunko's Japanese level.1 is a separate original-language witness; the 2016 television anime, manga, games, and later levels are not merged.",
+    "work_or_witnesses": [
+      "Grimgar of Fantasy and Ash, J-Novel Club English digital Level 1",
+      "J-Novel Club official series/Level 1 page",
+      "Overlap Bunko Japanese 灰と幻想のグリムガル level.1 product page",
+      "Grimgar official television-anime about page"
+    ],
+    "coverage_rule": "Include only named individual dramatic characters directly named by the selected J-Novel Club English Level 1 synopsis. This yields Haruhiro. The other people with him are unnamed in the selected metadata, so no other character records or relationship edges are inferred. Classes, party organization, skills, Grimgar, and memory-loss system remain dimensions/terms.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "All unnamed companions, later named party members, opponents, volunteer-soldier organizations, races/species, guilds, and factions are omitted because the selected J-Novel Club Level 1 synopsis does not name/profile them.",
+      "The Japanese Overlap Bunko level.1 wording, web sources, manga, television anime, games, later levels, guidebooks, audio/visual adaptations, and their continuity-specific character details are separate witnesses.",
+      "Classes/roles, guilds/parties, races/species, skills, items, Grimgar/places, memory-loss/isekai mechanisms, and themes remain terms/dimensions rather than character nodes unless an individual is directly named in the selected witness.",
+      "The selected synopsis frames survival in a dangerous game-like world but does not establish a formal permadeath rule, a named death, later grief arc, exact violence, injury, or outcome. Those are not imported from other levels or the anime."
+    ],
+    "uncertainties": [
+      "The J-Novel Club series page provides a Level 1 synopsis and a preview link but no browser-searchable prose chapter/page text. This is therefore a narrow official-metadata pass, not primary-prose extraction or quotation.",
+      "Haruhiro and others remember little more than their names. The selected source does not explain origin, prior identity, mechanism, completeness, recovery, or whether Grimgar is another world in a formal sense.",
+      "The publisher says Haruhiro forms a party and learns Skills to survive as a Trainee Volunteer Soldier, but it does not name the party members, specify a permanent party roster, provide full class/skill mechanics, or establish permadeath.",
+      "Survival danger, memory loss/identity uncertainty, possible violence, loss, and grief are content cautions. The opening metadata is insufficient to represent specific deaths, trauma outcomes, or later bereavement narratives.",
+      "The official anime site labels a distinct TV anime that began broadcast in January 2016; it is an adaptation boundary, not light-novel character evidence."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "J-Novel Club first-party English Level 1 metadata, with Overlap Bunko and the official anime site used only to maintain original-edition and adaptation boundaries. No fan wiki, Wikipedia, anime recap, game database, guidebook, or uninspected prose/illustration is used as character evidence.",
+    "citations": [
+      {"url": "https://j-novel.club/series/grimar-of-fantasy-and-ash", "locator": "official series header and Level 1 synopsis", "supports": ["English series/Level 1, author, illustrator, translator, Haruhiro name, darkness/amnesia premise, limited memory, game-like world, party formation, Skills, Grimgar, Trainee Volunteer Soldier, and suggested 15+ age guidance"]},
+      {"url": "https://over-lap.co.jp/%E7%81%B0%E3%81%A8%E5%B9%BB%E6%83%B3%E3%81%AE%E3%82%B0%E3%83%AA%E3%83%A0%E3%82%AC%E3%83%AB%E3%80%80level.1%E3%80%80%E3%81%95%E3%81%95%E3%82%84%E3%81%8D%E3%80%81%E8%A9%A0%E5%94%B1%E3%80%81%E7%A5%88%E3%82%8A%E3%80%81%E7%9B%AE%E8%A6%9A%E3%82%81%E3%82%88/product/0/9784906866229/?cat=BNK&swrd=%E3%82%B0%E3%83%AA%E3%83%A0%E3%82%AC%E3%83%AB", "locator": "灰と幻想のグリムガル level.1 official Overlap Bunko product page", "supports": ["separate Japanese original level.1 witness"]},
+      {"url": "https://grimgar.com/about/", "locator": "official TV anime about/on-air page", "supports": ["separate 2016 television-anime production/broadcast boundary"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

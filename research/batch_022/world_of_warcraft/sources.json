@@ -1,0 +1,36 @@
+[
+  {
+    "source_id": "SRC-136",
+    "source_title": "World of Warcraft",
+    "continuity_scope": "World of Warcraft: Shadowlands, Patch 9.0 launch baseline (North American English; 23 November 2020, Americas). This is deliberately non-overlapping with SRC-135's World of Warcraft: Dragonflight Patch 10.0 Dragon Aspect cohort: it instead captures Shadowlands launch's afterlife/Revendreth witness and makes no duplicate character claims.",
+    "work_or_witnesses": [
+      "Blizzard: Shadowlands Content Update Notes (23 November 2020)",
+      "Blizzard: Shadowlands Arrives November 23 (global release schedule)",
+      "Blizzard: Shadowlands Preview: Revendreth and the Venthyr Covenant"
+    ],
+    "coverage_rule": "All named individual figures with dedicated official paragraphs in the selected Revendreth launch-content preview, plus Sylvanas Windrunner as the single named actor in the Patch 9.0 launch premise: Sire Denathrius, Prince Renathal, General Draven, and Sylvanas Windrunner. This offers a distinct, evidence-backed comparison of Shadowlands political/afterlife roles not present in SRC-135.",
+    "in_scope_character_count": 4,
+    "completed_character_count": 4,
+    "omissions": [
+      "Every SRC-135 Dragonflight character and any Dragonflight claim; no duplicate character record is created.",
+      "Player-created adventurers, heroes, Maw Walkers, and player-selected class/race/faction/covenant identities.",
+      "Other named figures in the product/preview, including the Arbiter, the Jailer, and unnamed or collectively named inhabitants, because they lack a selected dedicated paragraph under this narrow witness rule.",
+      "All post-9.0 Shadowlands content updates, raids, later stories, WoW Classic variants, other expansions, Warcraft strategy-game campaigns, Chronicle volumes, novels, comics, and adaptations.",
+      "Covenants, Venthyr, Stoneborn, zones, anima, dungeons, raids, gear, and systems as character nodes."
+    ],
+    "uncertainties": [
+      "World of Warcraft is live service; this pass fixes the 9.0 launch state, while the selected preview is pre-launch marketing for launch content. Later Shadowlands patches and retrospective lore are excluded.",
+      "The official preview presents Sire Denathrius's self-description and Prince Renathal's suspicion. It is publisher narration of a situation with in-world political claims; the records retain the source's qualifiers where they matter and do not adjudicate hidden motives beyond the stated text.",
+      "The Warcraft franchise has Chronicle, game-text, novel, comic, adaptation, and future-retcon layers. This pass does not claim to settle their hierarchy or continuity conflicts.",
+      "Names and terms follow the North American English localization; localization variants are not merged without an exact official witness."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Blizzard World of Warcraft launch notes, official global schedule, and official Revendreth preview. No fan wiki, Wikipedia, community guide, or player forum material is used as evidence.",
+    "citations": [
+      {"url":"https://worldofwarcraft.blizzard.com/en-us/news/23529209","locator":"Shadowlands Content Update Notes, 23 November 2020: Shadowlands is live; Five New Zones; Covenants","supports":["Patch 9.0 launch, Sylvanas premise, and system/realm terms"]},
+      {"url":"https://worldofwarcraft.blizzard.com/en-us/news/23558953","locator":"Shadowlands Arrives November 23: global release schedule","supports":["Exact Americas launch date/time and separate product boundary"]},
+      {"url":"https://worldofwarcraft.blizzard.com/en-us/news/23391567/shadowlands-preview-revendreth-and-the-venthyr-covenant","locator":"Revendreth overview; Sire Denathrius, Prince Renathal, General Draven individual paragraphs; Venthyr Covenant","supports":["Selected character descriptions, named-character relationships, Revendreth and Venthyr terms"]}
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

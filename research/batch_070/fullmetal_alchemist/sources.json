@@ -1,0 +1,52 @@
+[
+  {
+    "source_id": "SRC-198",
+    "source_title": "Fullmetal Alchemist",
+    "continuity_scope": "Fullmetal Alchemist: Fullmetal Edition, Vol. 1, VIZ English updated translation (8 May 2018; ISBN 978-1-4215-9977-9; 280 pages). This is a volume-bounded English manga-edition pass. Square Enix's Japanese Fullmetal Alchemist Vol. 1 (22 January 2002) is used only as an official original-edition corroborating witness for the premise, not as interchangeable localization wording.",
+    "work_or_witnesses": [
+      "Fullmetal Alchemist: Fullmetal Edition, Vol. 1, VIZ English updated translation (8 May 2018)",
+      "VIZ official Fullmetal Alchemist series page",
+      "Fullmetal Alchemist Vol. 1, Square Enix Japanese original edition (22 January 2002), official product metadata"
+    ],
+    "coverage_rule": "Include only named individual dramatic characters expressly named by the selected official Volume 1/product and series metadata, and only their directly stated premise-level attributes. This yields Edward Elric and Alphonse Elric. Their explicitly stated brother relationship is included. Unnamed mother, military personnel, and all other people are not inferred from the brief synopsis; claims requiring inspected manga panels/chapters are deferred to a separate primary-text pass.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "The 2003 television anime, 2009 Fullmetal Alchemist: Brotherhood television anime, films, games, guidebooks, and all other adaptations are separate continuities/witnesses and are not used here.",
+      "Later Fullmetal Edition volumes and later original manga volumes/chapters, including later named figures, plots, locations, outcomes, and franchise cosmology, are outside this volume-bounded pass.",
+      "Military roles and organizations, alchemy, human transmutation, the Philosopher's Stone, automail, soul/armor binding, artifacts, places, homunculi as a category, and metaphysical rules remain dimensions/terms rather than character nodes.",
+      "The selected official metadata supports a body-loss/restoration premise, but not a full treatment of war, genocide, medical practice, body horror, violence, or outcomes; those are not expanded from wider franchise knowledge."
+    ],
+    "uncertainties": [
+      "VIZ's accessible metadata identifies Edward's lost arm and leg and his automail, while Square Enix's Japanese Volume 1 synopsis supplies a more specific premise sequence/laterality; those details are marked as official-original-edition corroboration rather than assumed identical English translation wording.",
+      "The official metadata provides an initial premise rather than inspected page- or chapter-level text; no dialogue, panel detail, complete character roster, mechanics, or resolution is represented.",
+      "The premise includes death/loss, forbidden-revival intent, limb loss, bodily disability/automail, disembodiment, and armor-bound soul imagery. These are retained as content cautions, not clinical claims or an exhaustive content advisory.",
+      "War, genocide, and medical/body-horror material widely associated with later franchise coverage are explicitly outside this witness set; their absence here is not a claim that they are absent from the broader franchise."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "VIZ and Square Enix first-party edition/product and series metadata, limited to directly stated premise-level claims. No fan wiki, Wikipedia, anime recap, game database, guidebook, or uninspected manga-panel transcription is used as evidence.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/manga-books/manga/fullmetal-alchemist-fullmetal-edition-volume-1/product/5509",
+        "locator": "Fullmetal Edition, Vol. 1 product metadata and synopsis",
+        "supports": ["VIZ English edition date, ISBN, page count, credits, Elric brothers, body-loss premise, armor-bound soul premise, restoration journey, Philosopher's Stone, and Teen rating"]
+      },
+      {
+        "url": "https://www.viz.com/fullmetal-alchemist",
+        "locator": "official series description",
+        "supports": ["alchemy, Edward's automail/state-alchemist premise, Alphonse's armor-bound soul, and the official manga-series context"]
+      },
+      {
+        "url": "https://magazine.jp.square-enix.com/top/comics/detail/9784757506206/",
+        "locator": "Japanese Fullmetal Alchemist Vol. 1 official product synopsis",
+        "supports": ["original Japanese Volume 1 date, Edward/Alphonse names, attempted human transmutation to revive their mother, and the official premise sequence"]
+      },
+      {
+        "url": "https://magazine.jp.square-enix.com/top/comics/detail/9784757526389/",
+        "locator": "Fullmetal Alchemist 2009 TV anime guide official product page",
+        "supports": ["2009 television anime guidebook as a separately labeled adaptation witness"]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

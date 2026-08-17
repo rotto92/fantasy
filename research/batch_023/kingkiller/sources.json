@@ -1,0 +1,38 @@
+[
+  {
+    "source_id":"SRC-054",
+    "source_title":"The Kingkiller Chronicle",
+    "continuity_scope":"Patrick Rothfuss, The Name of the Wind: The Kingkiller Chronicle, Day One, DAW Books first US hardcover, 27 March 2007, ISBN 9780756404079. This pass is further bounded to the Prologue, Chapters 1–16, and the embedded opening retrospective they contain. It is not a full-novel or full-series account. Chapter locators, not page numbers, are used because the 2007 hardcover, 2008/2009 paperbacks, 2017 anniversary edition, ebooks, audiobooks, and translations differ in pagination and paratext.",
+    "work_or_witnesses":[
+      {"work":"The Name of the Wind: The Kingkiller Chronicle, Day One","edition":"DAW Books first US hardcover, 2007, ISBN 9780756404079; publisher record lists 672 pages and on-sale date 27 March 2007. Internet Archive controlled digital-lending scan is the primary reading witness; it may require a loan.","url":"https://archive.org/details/nameofwindthekin00patr"},
+      {"work":"The Name of the Wind","edition":"Astra/DAW publisher page for ISBN 9780756404079, publication metadata and authorized Prologue/Chapter 1 excerpt.","url":"https://penguinrandomhouselibrary.com/book/?isbn=9780756404079"},
+      {"work":"The Name of the Wind, Chapter Eight excerpt","edition":"Patrick Rothfuss official primary-text excerpt, continuing into Chapter Nine.","url":"https://www.patrickrothfuss.com/content/book1ex.html"},
+      {"work":"The Name of the Wind","edition":"Patrick Rothfuss official book description, used only for the novel's frame/retrospective structure, not as additional story canon.","url":"https://patrickrothfuss.com/content/index.html"}
+    ],
+    "coverage_rule":"Include the frame narrator/protagonist Kvothe under his operating alias Kote, his two named frame interlocutors Bast and Chronicler, and the three named individuals who materially establish the opening retrospective's family-and-learning context: Arliden, Laurian, and Abenthy. This six-person cohort covers the embedded account's transmission, the troupe, kinship, and introduction to magic. Later named travellers, Chandrian, University figures, Denna, city figures, and every named individual outside the stated sections remain out of scope. Roles, peoples, institutions, names, magic traditions, artifacts, places, and narrative forms are dimensions/terms.",
+    "in_scope_character_count":6,
+    "completed_character_count":6,
+    "omissions":[
+      "Chapters 17–92 and all later in-novel events, including the University, Imre, later frame developments, later allies/opponents, resolution, and every character first materially established there",
+      "The Wise Man's Fear, The Slow Regard of Silent Things, The Lightning Tree, The Narrow Road Between Desires, any future/unpublished material, author readings/statements, and all adaptations, games, comics, and merchandise",
+      "The 10th Anniversary Deluxe Edition's additional material, later pagination, translations, audiobook performance, deleted/alternate material, and all other editions as independent canon",
+      "Edema Ruh, Lackless ancestry, the University/Arcanum, sympathy, naming, alchemy, artificing, the Chandrian, the Fae, the Waystone Inn, Lord Greyfallow's Men, the guilder, instruments, and places as graph nodes"
+    ],
+    "uncertainties":[
+      "The frame follows Kote at the Waystone Inn while the bulk of the selected chapters is a first-person account identified as Kvothe's own telling. The records preserve the Kote/Kvothe alias and distinguish frame present from the narrated past; the telling is not treated as independently verified omniscient history.",
+      "Claims involving reputation, identity, magic, or historical events are limited to what the selected narrator, other present characters, or the bounded primary text establishes. No author interview, FAQ, theory, or sequel information is used as story canon.",
+      "The primary witness is copyright-controlled and loan-limited. Official publisher/author excerpts offer direct access to the Prologue/Chapter 1 and Chapters 8–9. No extended quotation is reproduced.",
+      "The narrative includes in-world prejudice toward traveling performers, class and gendered customs, poverty, threats, and sexualized vocabulary. Those are recorded as voiced/narrated fictional context, never mapped to real peoples or endorsed.",
+      "Magic vocabulary is introduced incrementally. No term is mapped to normalized archetypes, and no partial opening reference is inflated into a complete magic-system taxonomy."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"The controlled primary reading witness provides exact Prologue–Chapter 16 evidence. DAW/Astra supplies first-edition metadata and an authorized opening excerpt; Rothfuss's official Chapter 8–9 excerpt provides direct primary evidence for the troupe and Abenthy material. The author home-page description is used only for high-level narrative format. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://archive.org/details/nameofwindthekin00patr","locator":"The Name of the Wind controlled digital-lending scan, Prologue through Chapter 16","supports":["Primary evidence for frame/past chronology, six-person cohort, relationships, source terms, and scope cautions."]},
+      {"url":"https://penguinrandomhouselibrary.com/book/?isbn=9780756404079","locator":"DAW/Astra page: 27 March 2007, 672 pages, ISBN 9780756404079; authorized Prologue/Chapter 1 excerpt","supports":["First-edition identification and direct opening frame evidence."]},
+      {"url":"https://www.patrickrothfuss.com/content/book1ex.html","locator":"Official excerpt: Chapter Eight “Thieves, Heretics, and Whores,” continuing into Chapter Nine","supports":["Primary evidence for the Edema Ruh troupe, parents, Abenthy, early arcanist/sympathy context, and Kvothe's retrospective voice."]},
+      {"url":"https://patrickrothfuss.com/content/index.html","locator":"Official book description, first paragraph","supports":["The novel's self-narrated childhood/troupe/legendary-school frame at a high level, without supplying detailed canon claims."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

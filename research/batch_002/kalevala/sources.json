@@ -1,0 +1,53 @@
+[
+  {
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity_scope": "Elias Lönnrot’s 1849 New Kalevala, treated as a compiled literary epic. Finnish, Karelian, Ingrian, and other oral-poetry traditions remain distinct and are not exhausted by this pass.",
+    "work_or_witnesses": [
+      {
+        "work": "Kalevala (1849 New Kalevala)",
+        "edition": "Avoin Kalevala, critically commented edition of the 1849 text, Finnish Literature Society (SKS)",
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/index.html"
+      },
+      {
+        "work": "Kalevala (1849)",
+        "edition": "Finnish Literature Society / National Library bibliographic record for the 1849 New Kalevala",
+        "url": "https://www.finna.fi/Record/helka.998438853506253"
+      }
+    ],
+    "coverage_rule": "Major named agents materially active in the 1849 compilation, plus named figures needed to show song/word knowledge, smithing, the Sampo, forest/sea/death realms, and kinship conflict. Unnamed relational figures are not nodes.",
+    "in_scope_character_count": 27,
+    "completed_character_count": 27,
+    "omissions": [
+      "Unnamed Pohjola maiden, Kullervo’s sister, Väinämöinen’s unnamed parents/relational designations, and collective groups",
+      "The Old Kalevala (1835), later translations/adaptations, and regional oral variants",
+      "Most named episodic helpers, animals, places, objects, and origin figures",
+      "Claims about historical Finnish/Karelian religion or social practice beyond the 1849 text"
+    ],
+    "uncertainties": [
+      "The New Kalevala is a nineteenth-century compilation shaped by Lönnrot; it is not a transparent transcription of one oral tradition.",
+      "Some figures have variant names, identities, and roles in oral source-poems and in later reception.",
+      "The Sampo’s meaning is extensively debated; artifact mapping stays partial.",
+      "Song/word and kinship terms receive cautious functional mappings rather than game-system equivalences."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Claims cite runo- and line-level locations in Avoin Kalevala, SKS’s critically commented edition of the 1849 text. SKS identifies the text as an 1849 critical edition and documents Kalevala’s compiled relationship to oral-poetry sources.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/index.html",
+        "locator": "edition introduction; runot 1–50",
+        "supports": [
+          "Avoin Kalevala is SKS’s critically commented edition of the 1849 Kalevala."
+        ]
+      },
+      {
+        "url": "https://www.finlit.fi/en/about-us/kalevala-european-heritage-label/",
+        "locator": "Kalevala and SKS section",
+        "supports": [
+          "The 1849 Kalevala is a compilation by Elias Lönnrot based on Finnish and Karelian folk poems."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

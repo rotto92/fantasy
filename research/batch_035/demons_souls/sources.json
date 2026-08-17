@@ -1,0 +1,32 @@
+[
+  {
+    "source_id":"SRC-149",
+    "source_title":"Demon's Souls",
+    "continuity_scope":"Demon's Souls 2020 PlayStation 5 remake, English (US) PlayStation product-page witness. This pass treats it as a remake of the PlayStation classic, released in November 2020, and does not merge unreviewed original-2009 text, regional translations, patches, cut material, guides, or other FromSoftware/Souls continuities into the remake claims.",
+    "work_or_witnesses":["PlayStation: Demon's Souls exclusive PS5 game page, Game Overview, Key Features, Editions, FAQs, and product metadata"],
+    "coverage_rule":"All stable named non-avatar individuals directly named and functionally described in the selected official remake witness: King Allant, the Old One, and the Maiden in Black. The player-created Slayer of Demons is explicitly excluded as a role/avatar. No additional NPC, boss, knight, demon, or other named individual is added without a claim-level official profile or reproducible direct in-game dialogue/item-description locator.",
+    "in_scope_character_count":3,
+    "completed_character_count":3,
+    "omissions":[
+      "The player-created lone warrior/Slayer of Demons, all player build, class, weapon, soul, world tendency, character tendency, choices, invasions, summons, deaths, and endings.",
+      "All named NPCs, bosses, demons, knights, merchants, invaders, summons, and other dramatic individuals outside King Allant, the Old One, and the Maiden in Black because no selected official claim-level profile or direct in-game dialogue/item-description locator supports their records.",
+      "Classes, worlds, tendencies, species, bosses as categories, items, armor, weapons, souls, places, online systems, and mechanics as character nodes.",
+      "The 2009 original as a separate detailed continuity; regional and non-English localization; remake patches; Digital Deluxe item content as story proof; adaptations; other Souls titles; fan/community/wiki material, dialogue/item-description transcriptions, walkthroughs, lore videos, data-mines, and secondary databases."
+    ],
+    "uncertainties":[
+      "The official PlayStation page is a high-level remake/product witness. Direct in-game dialogue and item descriptions were not available in the reviewed first-party evidence, so no detailed lore, motive, chronology, or unlisted relationship claim is made.",
+      "Claims about King Allant, the Old One, and the Maiden in Black are presented as the official remake overview/FAQ framing. They are not expanded with interpretations often derived from ambiguous dialogue or item descriptions.",
+      "The page identifies the product as a remake and gives original/2020 release context, but it does not provide a claim-by-claim change log. Original and remake textual/visual/mechanical differences remain unadjudicated.",
+      "English, French (France), Brazilian Portuguese, and Mexican Spanish voice/screen languages are listed for the US product; only English wording was reviewed. No translation-equivalence claim is made.",
+      "The online invasion/cooperative options and the player quest make alliances, deaths, success, and endings variable. No multiplayer encounter or avatar outcome is universalized."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party PlayStation/PlayStation Studios product-page material only. No fan wiki, Wikipedia, community source, guide, review, walkthrough, data mine, or secondary lore source is used as canonical evidence.",
+    "citations":[
+      {"url":"https://www.playstation.com/en-us/games/demons-souls/","locator":"Game overview: remake description and King Allant/Old One/Slayer of Demons paragraphs","supports":["2020 remake framing, Boletaria premise, King Allant, Old One, Soul Arts, souls, fog, and avatar-role framing"]},
+      {"url":"https://www.playstation.com/en-us/games/demons-souls/","locator":"Demon's Souls FAQs: 'How do I level up in Demon's Souls?' and 'When did Demon's Souls come out?'","supports":["Maiden in Black/Nexus soul-leveling statement and original/remake release context"]},
+      {"url":"https://www.playstation.com/en-us/games/demons-souls/","locator":"Key features, Editions, and product metadata","supports":["death/combat, PvP/co-op, Digital Deluxe boundary, PS5 platform, November 2020 release, publisher, and language listing"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

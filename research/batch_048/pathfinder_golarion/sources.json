@@ -1,0 +1,80 @@
+[
+  {
+    "source_id": "SRC-098",
+    "source_title": "Pathfinder / Golarion",
+    "continuity_scope": "Terms-only audit bound to Pathfinder Lost Omens: World Guide, Paizo’s 2019 Pathfinder Second Edition Golarion setting supplement. This is a legacy, pre-Remaster second-edition product: it is not a Pathfinder Player Core/GM Core Remaster rules witness, nor a merger of all Golarion publications. Pathfinder: Kingmaker (SRC-146) and Pathfinder: Wrath of the Righteous CRPG material are separate adaptations and are excluded, as are first edition, other second-edition books, novels, organized play, and later setting products.",
+    "work_or_witnesses": [
+      {
+        "work": "Pathfinder Lost Omens: World Guide",
+        "edition": "Paizo Pathfinder Second Edition Lost Omens setting supplement, 2019",
+        "url": "https://store.paizo.com/pathfinder-lost-omens-world-guide/"
+      },
+      {
+        "work": "Tales of Lost Omens",
+        "edition": "Official Paizo setting-product preview, May 21, 2019",
+        "url": "https://paizo.com/blog/tales-of-lost-omens?page=3"
+      },
+      {
+        "work": "We Should Travel By Map!",
+        "edition": "Official Paizo World Guide support article, August 30, 2019",
+        "url": "https://paizo.com/blog/we-should-travel-by-map"
+      }
+    ],
+    "coverage_rule": "No individual characters are included. The accessible official product page and closely bounded Paizo previews describe setting regions, locations, organizations, equipment, and player options, but do not provide stable claim-level profiles for named dramatic individuals. Ancestries, classes, factions, deities, monsters, items, regions, planes, and rules remain terms/context unless an individual named dramatic character has an adequate profile.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named individuals, including people, deities, historical agents, Pathfinder Society members, and adventure NPCs, because the selected official witnesses lack claim-level individual dramatic profiles.",
+      "All Pathfinder: Kingmaker and Pathfinder: Wrath of the Righteous CRPG-specific characters, quests, rules implementations, and outcomes; tabletop material does not establish those adaptation-specific claims.",
+      "All first-edition, remastered, later Lost Omens, Adventure Path, Pathfinder Society, novel, video-game, adaptation, and fan/community/wiki material not directly evidenced by the selected 2019 product and its official previews.",
+      "All specific errata changes and licensing grants not present in the selected setting witness."
+    ],
+    "uncertainties": [
+      "The store record lists August 28, 2019 as release date, while Paizo’s May 2019 preview says the book was to release August 1 and the August 30 article says it was available. The audit records this unresolved official publication-date discrepancy instead of selecting one date as definitive.",
+      "Golarion/Lost Omens is a campaign setting line, whereas Pathfinder Second Edition and its Remaster are rules-system contexts. This source establishes only the selected 2019 setting presentation, not universal Pathfinder rules or all Golarion canon.",
+      "Paizo’s Remaster FAQ identifies the Second Edition Remaster as a remastered version rather than a new edition and says legacy PDFs will not be updated. The selected World Guide remains legacy material; no remaster terminology or retcon reconciliation is inferred.",
+      "No license text was accessed for this 2019 setting supplement. Paizo identifies the later Pathfinder Player Core as the first Pathfinder product under the ORC license, so this audit does not assume that license applies to the World Guide.",
+      "No World Guide-specific errata document was verified. Digital editions may be updated for errata on reprint according to the product page; no unreviewed update is treated as a setting claim."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Paizo product and support material establishes the exact 2019 Lost Omens World Guide as a 136-page guide to Pathfinder’s world and the Age of Lost Omens, focused on ten Inner Sea metaregions. It also supports selected Golarion place, organization, item, and optional character-building terms. No accessible source supplies adequate individual dramatic profiles, so this is a terms-only setting/rules audit.",
+    "citations": [
+      {
+        "url": "https://store.paizo.com/pathfinder-lost-omens-world-guide/",
+        "locator": "Official product page, ‘Claim Your Destiny,’ ‘Available Editions,’ and product details",
+        "supports": [
+          "2019 second-edition product identity, 136-page setting-guide scope, Age of Lost Omens framing, ten-region structure, store-listed release date, and digital-edition/errata notice."
+        ]
+      },
+      {
+        "url": "https://paizo.com/blog/tales-of-lost-omens?page=3",
+        "locator": "Official post, opening paragraphs",
+        "supports": [
+          "Ten metaregions, Inner Sea focus, setting-status update, and the preview’s August 1 release statement."
+        ]
+      },
+      {
+        "url": "https://paizo.com/blog/we-should-travel-by-map",
+        "locator": "Official post, opening, Absalom section, and closing paragraphs",
+        "supports": [
+          "World Guide availability, Golarion framing, Inner Sea metaregions, and selected terms including Absalom, Pathfinder Society, wayfinders, backgrounds, and archetypes."
+        ]
+      },
+      {
+        "url": "https://paizo.com/pathfinder/remaster/faq/",
+        "locator": "Official FAQ, ‘Is this a new edition of Pathfinder?’ and legacy-PDF answers",
+        "supports": [
+          "Second Edition Remaster boundary and legacy-product maintenance limitation."
+        ]
+      },
+      {
+        "url": "https://paizo.com/products/btq02eoj?Pathfinder-Player-Core=",
+        "locator": "Official product page, Pathfinder Player Core description",
+        "supports": [
+          "The later Player Core’s ORC-license boundary; it is not evidence that the 2019 World Guide uses that license."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

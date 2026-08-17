@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-152",
+    "source_title":"The Legend of Zelda",
+    "continuity_scope":"The Legend of Zelda: Tears of the Kingdom original Nintendo Switch release, English-language Nintendo official product/character-portal boundary (12 May 2023). The game is recorded as a sequel to Breath of the Wild, but Breath of the Wild remains a separate game continuity; no broader series timeline, earlier Link/Zelda/Ganon incarnation, Switch 2 Edition, upgrade feature, adaptation, or unreviewed patch is merged into character claims.",
+    "work_or_witnesses":[
+      "Nintendo: The Legend of Zelda: Tears of the Kingdom original Nintendo Switch product page",
+      "Nintendo Zelda Portal: Characters, Tears of the Kingdom Link entry",
+      "Nintendo: Get to know Link's four new abilities in The Legend of Zelda: Tears of the Kingdom"
+    ],
+    "coverage_rule":"All stable named individual dramatic characters with a directly claim-level profile in the selected official Tears of the Kingdom witnesses: Link only. Nintendo's character portal identifies this game-specific Link as the hero who defeated the Great Calamity in Breath of the Wild and describes his Upheaval/right-arm crisis role. The selected material does not give an equivalent claim-level individual profile for Zelda, Ganondorf, sages, champions, or other named characters in this exact game scope. No franchise-wide identity is invented from titles or cross-game name reuse.",
+    "in_scope_character_count":1,
+    "completed_character_count":1,
+    "omissions":[
+      "All player-controlled ability use, route choices, constructs, weapons, puzzle solutions, saves, game outcomes, and playthrough-specific actions. Link is a stable named character, while player mechanics remain attributes rather than extra nodes.",
+      "Zelda, Ganondorf, sages, champions, rulers, allies, enemies, and all other named individuals because the selected official Tears of the Kingdom witnesses lack a matching individual claim-level profile for them.",
+      "Peoples/races, roles, sages/champions as categories, items, places, Triforce/magic, timelines, previous games' incarnations, mechanics, and Nintendo Switch system features as character nodes.",
+      "Breath of the Wild as a separate character pass; all earlier/later Zelda games and multiple Link/Zelda/Ganon identities; Nintendo Switch 2 Edition and Upgrade Pack features; unreviewed patches; localization variants; fan/community/wiki materials; walkthroughs, guides, videos, data mines, and secondary databases."
+    ],
+    "uncertainties":[
+      "The product page and character portal are official high-level references, not a dialogue/codex archive. They support only the stated Link profile and mechanics/premise terms; no complete plot, relationship, or character roster is inferred.",
+      "Nintendo describes Tears of the Kingdom as a Breath of the Wild sequel, while its Zelda Portal explicitly treats entries under the same character name across series games as distinct lives/memories. This pass preserves the Tears of the Kingdom record rather than treating series names as one continuous individual.",
+      "The product page says players decide their own path and build/play in varied ways; no specific player choice, route, alliance, death, or ending is asserted.",
+      "The reviewed original Switch product page lists many supported languages; only English wording is used. Nintendo Switch 2 has a separate edition/upgrade context, so compatibility/performance/save differences and later version behavior remain outside this original-release audit.",
+      "No DLC story/character material is documented by the selected sources. The audit makes no claim that no future or regional content exists; it records only its evidence boundary."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Nintendo product, character-portal, and official news pages only. No fan wiki, Wikipedia, community guide, walkthrough, chronology/timeline chart, lore video, data mine, or secondary database is used as canonical evidence.",
+    "citations":[
+      {"url":"https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/?cd=true","locator":"Product page: Explore the vast land—and skies—of Hyrule; New abilities; About this item","supports":["Sequel status, Hyrule/sky setting, Link's quest/abilities, original Switch release date, publisher, and language listing"]},
+      {"url":"https://www.nintendo.com/jp/character/zelda/en/characters/index.html","locator":"Link: Tears of the Kingdom entry, lines 188-193 and 597-602; Zelda Portal series note, lines 648-651","supports":["This game-specific Link's Great Calamity/Upheaval/right-arm profile and series-name/individual-continuity caution"]},
+      {"url":"https://www.nintendo.com/us/whatsnew/get-to-know-links-four-new-abilities-in-the-legend-of-zelda-tears-of-the-kingdom/","locator":"Article heading and ability sections","supports":["Fuse, Ultrahand, Ascend, and Recall as Link's four new abilities"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

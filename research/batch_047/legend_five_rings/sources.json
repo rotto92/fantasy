@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "SRC-110",
+    "source_title": "Legend of the Five Rings",
+    "continuity_scope": "Fantasy Flight Games' Legend of the Five Rings Roleplaying Core Rulebook (SKU L5R02; 336 pages), released 11 October 2018, and its official RPG errata/FAQ v3.0 dated 12 August 2020. This is the FFG RPG's Rokugan rules/setting witness only. It does not merge the earlier AEG continuity or editions, the Legend of the Five Rings card game, Adventures in Rokugan's 5th Edition SRD adaptation, novels, videogames, supplements, or home campaigns.",
+    "work_or_witnesses": [
+      {
+        "work": "Legend of the Five Rings Roleplaying Core Rulebook",
+        "edition": "Fantasy Flight Games RPG core rulebook, SKU L5R02, 336 pages; officially available 11 October 2018.",
+        "url": "https://www.fantasyflightgames.com/en/news/2018/10/11/enter-rokugan/"
+      },
+      {
+        "work": "Legend of the Five Rings Roleplaying Core Rulebook",
+        "edition": "Edge Studio current product record for the same 336-page Core Rulebook.",
+        "url": "https://www.edge-studio.net/games/l5r-core-rulebook/"
+      },
+      {
+        "work": "Legend of the Five Rings Errata and FAQ",
+        "edition": "Official RPG errata/FAQ v3.0, updated 12 August 2020.",
+        "url": "https://images-cdn.fantasyflightgames.com/filer_public/02/45/0245843c-6a52-4254-ad2e-eca25b2845cf/errata__faq_v30_8_12_2020_hq.pdf"
+      },
+      {
+        "work": "Adventures in Rokugan",
+        "edition": "Edge Studio 5th Edition SRD adaptation; used only to establish adaptation separation.",
+        "url": "https://www.edge-studio.net/games/rokugan/"
+      }
+    ],
+    "coverage_rule": "Terms-only rules/setting audit. The accessible official core product records describe an open player-character system for inventing samurai and conducting campaigns, but do not provide a bounded, claim-level cohort of named dramatic characters. No character or relationship records are made. Clans, schools, roles, families, kami or spirits as categories, honor/status, magic, items, Rokugan, and mechanics remain terms/dimensions. Named individuals require a separate exact official profile, scenario, or fiction witness; no player-made or generic NPC record becomes canonical here.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named Rokugani figures, including named NPCs in the core book, because the selected accessible product material does not expose their full claim-level profiles.",
+      "All clans, families, schools, roles, kami/spirits, honor/status categories, magic systems, items, places, and rules as character nodes.",
+      "AEG editions and continuity, the LCG, Adventures in Rokugan, all sourcebooks/adventures, novels, videogames, unofficial material, and home-campaign outcomes."
+    ],
+    "content_cautions": [
+      "Official core framing includes hierarchy, duty, honor, political pressure, war, death, spiritual danger, horror, and emotional turmoil. Groups should establish safety boundaries for coercion, conflict, romance, violence, blood magic, and culturally sensitive material.",
+      "Rokugan is a fictional setting that uses Japanese-language and samurai-era-inflected ideas alongside other influences. Names such as kami, Bushido, clan, and honor do not license one-to-one mapping to Japanese people, living Shinto/Buddhist traditions, historical Japan, or any real social hierarchy."
+    ],
+    "uncertainties": [
+      "The official RPG design article says the Ring system diverges from predecessors and Genesys. This audit does not attempt an AEG-to-FFG or card-game continuity reconciliation, and it does not infer that similarly named persons or institutions have identical histories.",
+      "Errata/FAQ v3.0 updates core-rulebook rules, but this terms-only pass makes no page-level mechanical claim beyond its version boundary.",
+      "Adventures in Rokugan is an official setting adaptation using the 5th Edition SRD; its changed rules and adventure emphasis are a distinct product/continuity witness, not support for this FFG RPG pass."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Fantasy Flight Games and Edge Studio pages/PDF only. They establish the 2018 FFG core product, Rokugan/Emerald Empire player campaign frame, self-created samurai, Great Clans, honor/loyalty, Rings and Game of Twenty Questions terminology, and official 2020 RPG errata. No fan wiki, historical analogy, card-game evidence, or adaptation evidence establishes a core-RPG character record.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2018/10/11/enter-rokugan/",
+        "locator": "Enter Rokugan, 11 October 2018",
+        "supports": [
+          "Core Rulebook availability date, player creation of characters/adventures, Emerald Empire frame, Great Clans, court/murder/Shadowlands adventure examples."
+        ]
+      },
+      {
+        "url": "https://www.edge-studio.net/games/l5r-core-rulebook/",
+        "locator": "Core Rulebook: Honor is Stronger than Steel",
+        "supports": [
+          "336-page core-product identity, Rokugan setting description, player samurai duty, and character/dice/reputation/conviction/loyalty features."
+        ]
+      },
+      {
+        "url": "https://images-cdn.fantasyflightgames.com/filer_public/02/45/0245843c-6a52-4254-ad2e-eca25b2845cf/errata__faq_v30_8_12_2020_hq.pdf",
+        "locator": "Title page and Chapter 4: Core Rulebook Errata",
+        "supports": [
+          "Official v3.0 errata/FAQ date and scope as corrections/updates to the RPG core rulebook."
+        ]
+      },
+      {
+        "url": "https://www.edge-studio.net/games/rokugan/",
+        "locator": "Adventures in Rokugan: 5th Edition SRD",
+        "supports": [
+          "Officially distinct 5th Edition SRD adaptation boundary."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

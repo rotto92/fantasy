@@ -1,0 +1,66 @@
+[
+  {
+    "source_id": "SRC-025",
+    "source_title": "Polynesian Māui Cycles",
+    "continuity_scope": "A deliberately narrow Hawaiian-language-context reference pass within the much broader corpus label ‘Polynesian Māui Cycles’. It covers only two modern institutional English-language renderings that retain selected ʻōlelo Hawaiʻi terms: (1) the University of Hawaiʻi at Mānoa Earth Sciences field-trip document’s Māui-and-Lā account, explicitly described there as based on an account of Thomas Maunupau in Sterling (1998); and (2) a University of Hawaiʻi at Hilo article retelling a Hilo Puʻu Hālaʻi moʻolelo about Hina, Hinaikeahi, and Hinaikawai. The UH Mānoa Hawaiian Legends Index is retained only as an archival bibliographic witness for W. D. Westervelt’s 1910 English compilation and its chapter/page divisions. These are distinct publication layers, not a unified Hawaiian canon, and still less a pan-Polynesian canon.",
+    "work_or_witnesses": [
+      {
+        "work": "Maui Field Trip",
+        "edition": "University of Hawaiʻi at Mānoa, Department of Earth Sciences, 2019, p. 20. English educational rendering using the forms Māui, Hina, and Lā; it attributes the account to Thomas Maunupau in Sterling (1998). The underlying Maunupau/Sterling textual witness has not yet been independently inspected.",
+        "url": "https://www.soest.hawaii.edu/earthsciences_archive/resources/docs/Maui_2019b.pdf"
+      },
+      {
+        "work": "‘ʻŌlelo Resource of the Month: The importance of moʻolelo’",
+        "edition": "Pele Harman, University of Hawaiʻi at Hilo, 8 April 2025, English institutional retelling with ʻōlelo Hawaiʻi terms. It presents a Hilo/Puʻu Hālaʻi account but does not name a collector, archival manuscript, performer, or source community in the published page.",
+        "url": "https://hilo.hawaii.edu/chancellor/stories/2025/04/08/olelo-resource-of-the-month-moolelo/"
+      },
+      {
+        "work": "Hawaiian Legends Index entries for W. D. Westervelt, Legends of Ma-ui, a Demi God of Polynesia and of His Mother Hina (1910)",
+        "edition": "University of Hawaiʻi at Mānoa Library / Hawaiʻi State Library index. The index identifies Westervelt as the compiler and records the English compilation’s chapter titles and pages, including ‘Maui Snaring the Sun’ (pp. 40–55), ‘Maui Finding Fire’ (pp. 56–77), and ‘Hina and the Wailuku River’ (pp. 146–154). It is used here for bibliographic and archival orientation only, not as direct evidence for unquoted narrative claims.",
+        "url": "https://manoa.hawaii.edu/hawaiiancollection/legends/subjectsearch.php?q=Maui+%28Polynesian+Deity%29"
+      }
+    ],
+    "coverage_rule": "Include all five individually named agents who materially act or speak in the two exact institutional renderings: Māui, Hina, and Lā in the Māui-and-Lā account on p. 20 of the field-trip document; Hina, Hinaikeahi, and Hinaikawai in the named Hilo/Puʻu Hālaʻi account. Do not create nodes for generic akua, unnamed people, food, landscape, ritual implements, a place, a community, a genre term, or an inferred original narrator. Do not add characters merely because a later Polynesian, Māori, Hawaiian, Samoan, Tahitian, Tongan, Rapa Nui, or commercial adaptation associates them with Māui. Hina is one record only because the selected Hilo text itself explicitly calls her Māui’s mother; it does not establish that every Hina in Hawaiian or Polynesian traditions is identical.",
+    "in_scope_character_count": 5,
+    "completed_character_count": 5,
+    "omissions": [
+      "All other Māori material, which is separately scoped under SRC-024 and is not duplicated here",
+      "All Samoan, Tongan, Tahitian, Cook Islands, Rapa Nui, Marquesan, and other Polynesian-language traditions, texts, performances, and communities",
+      "The uninspected Thomas Maunupau / Sterling (1998) witness underlying the 2019 field-trip rendering",
+      "The historical Westervelt 1910 chapters beyond their catalogued bibliographic information, including any unverified informant history and translation choices",
+      "All unnamed people, generic akua, places, material items, chants, and narrative variants"
+    ],
+    "uncertainties": [
+      "Neither selected institutional rendering is a verbatim, source-critical transcription of an original-language oral performance. Their wording, provenance, editorial intervention, and relationship to earlier collections require independent review.",
+      "The label ‘Polynesian Māui Cycles’ is a corpus-level convenience. Māui cognates and narratives are not presumed to have one fixed genealogy, character identity, chronology, or meaning across islands and languages.",
+      "The English labels ‘demigod’, ‘goddess’, ‘trickster’, and ‘myth’ occur in historical or institutional description but are not entered as source-native classes or treated as exact ontology.",
+      "The field-trip document identifies an account as based on Thomas Maunupau in Sterling (1998), but the precise edition, page, language, collector chain, and original context remain to be verified before this pass can be promoted beyond in-progress status."
+    ],
+  "completion_status": "pass-complete",
+  "evidence_basis": "Each character and relationship is tied to a precise page or paragraph in a University of Hawaiʻi publication. This pass is complete only for its exact two institutional English renderings and five direct named agents; it is a source-limited orientation pass, not conclusive evidence about the uninspected Maunupau/Sterling chain, Westervelt text, wider Hawaiian traditions, or Polynesian Māui corpora. All character records remain needs-review owing to that evidence limitation.",
+    "citations": [
+      {
+        "url": "https://www.soest.hawaii.edu/earthsciences_archive/resources/docs/Maui_2019b.pdf",
+        "locator": "p. 20, ‘Māui Catching the Sun’; source note ‘based on the account of Thomas Maunupau in Sterling [1998]’",
+        "supports": [
+          "The selected Māui-and-Lā rendering is an institutional teaching document and identifies its stated secondary source chain."
+        ]
+      },
+      {
+        "url": "https://hilo.hawaii.edu/chancellor/stories/2025/04/08/olelo-resource-of-the-month-moolelo/",
+        "locator": "paras. 27–53; author identification at para. 56",
+        "supports": [
+          "The selected Hilo/Puʻu Hālaʻi account is a modern University of Hawaiʻi at Hilo publication that explicitly frames its narrative as moʻolelo."
+        ]
+      },
+      {
+        "url": "https://manoa.hawaii.edu/hawaiiancollection/legends/subjectsearch.php?q=Maui+%28Polynesian+Deity%29",
+        "locator": "entries ‘Maui Snaring the Sun’, ‘Maui Finding Fire’, ‘Maui the Fisherman’, and ‘Hina and the Wailuku River’, lines 283–351",
+        "supports": [
+          "The University of Hawaiʻi index identifies Westervelt’s 1910 English compilation, its chapter titles, page ranges, and library call numbers."
+        ]
+      }
+    ],
+  "last_reviewed": "2026-08-06"
+  }
+]

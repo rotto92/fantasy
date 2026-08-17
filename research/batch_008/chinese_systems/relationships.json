@@ -1,0 +1,254 @@
+[
+  {
+    "relationship_id": "REL-SRC279-001",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-006",
+    "target_character_id": "CHR-SRC279-007",
+    "relationship_type": "spouse",
+    "label": "spouses in the Huainanzi account",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/huainanzi/lan-ming-xun/zh",
+        "locator": "Huainanzi, Lanming xun",
+        "supports": [
+          "spouses in the Huainanzi account"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-002",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-006",
+    "target_character_id": "CHR-SRC279-003",
+    "relationship_type": "other",
+    "label": "Hou Yi requests the elixir from Xi Wangmu",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/huainanzi/lan-ming-xun/zh",
+        "locator": "Huainanzi, Lanming xun",
+        "supports": [
+          "Hou Yi requests the elixir from Xi Wangmu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-003",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-008",
+    "target_character_id": "CHR-SRC279-009",
+    "relationship_type": "lover",
+    "label": "Liu Yi rescues her petition and later marries her",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan",
+        "supports": [
+          "Liu Yi rescues her petition and later marries her"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-004",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-010",
+    "target_character_id": "CHR-SRC279-009",
+    "relationship_type": "kin",
+    "label": "father and daughter",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan",
+        "supports": [
+          "father and daughter"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-005",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-011",
+    "target_character_id": "CHR-SRC279-009",
+    "relationship_type": "kin",
+    "label": "uncle and niece",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan",
+        "supports": [
+          "uncle and niece"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-006",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-011",
+    "target_character_id": "CHR-SRC279-010",
+    "relationship_type": "kin",
+    "label": "brothers",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan",
+        "supports": [
+          "brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-007",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-011",
+    "target_character_id": "CHR-SRC279-008",
+    "relationship_type": "ally",
+    "label": "Qiantang rescues the princess after Liu Yi delivers her letter",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan",
+        "supports": [
+          "Qiantang rescues the princess after Liu Yi delivers her letter"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-008",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-012",
+    "target_character_id": "CHR-SRC279-013",
+    "relationship_type": "spouse",
+    "label": "they marry in Pu Songling’s tale",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=866956&if=gb",
+        "locator": "Liaozhai zhiyi, “Yingning”",
+        "supports": [
+          "they marry in Pu Songling’s tale"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-009",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-014",
+    "target_character_id": "CHR-SRC279-015",
+    "relationship_type": "other",
+    "label": "the Jade Emperor attends Yuanshi Tianzun’s teaching assembly",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=379895&if=en&remap=gb",
+        "locator": "Yuhuang jing, ch. 1",
+        "supports": [
+          "the Jade Emperor attends Yuanshi Tianzun’s teaching assembly"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-010",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-018",
+    "target_character_id": "CHR-SRC279-016",
+    "relationship_type": "mentor",
+    "label": "the Buddha explains Dizang’s work in the sutra scene",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
+        "locator": "Kṣitigarbha Sutra, ch. 8, sections 2–5",
+        "supports": [
+          "the Buddha explains Dizang’s work in the sutra scene"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-011",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-018",
+    "target_character_id": "CHR-SRC279-017",
+    "relationship_type": "other",
+    "label": "the Buddha answers Yama’s question in the assembly",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
+        "locator": "Kṣitigarbha Sutra, ch. 8, sections 2–5",
+        "supports": [
+          "the Buddha answers Yama’s question in the assembly"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  },
+  {
+    "relationship_id": "REL-SRC279-012",
+    "source_id": "SRC-279",
+    "source_character_id": "CHR-SRC279-017",
+    "target_character_id": "CHR-SRC279-016",
+    "relationship_type": "other",
+    "label": "Yama praises and asks about Dizang’s saving activity",
+    "direction": "directed",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
+        "locator": "Kṣitigarbha Sutra, ch. 8, sections 4–5",
+        "supports": [
+          "Yama praises and asks about Dizang’s saving activity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Confined to the named witness; it does not assert a universal religious relationship."
+  }
+]

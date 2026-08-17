@@ -1,0 +1,590 @@
+[
+  {
+    "relationship_id": "REL-SRC006-001",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-002",
+    "target_character_id": "CHR-SRC006-001",
+    "relationship_type": "kin",
+    "label": "Ilmatar gives birth to Väinämöinen",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_01.xml",
+        "locator": "Runo 1, lines 111–334",
+        "supports": [
+          "Ilmatar gives birth to Väinämöinen"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-002",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-006",
+    "target_character_id": "CHR-SRC006-007",
+    "relationship_type": "kin",
+    "label": "Joukahainen is Aino’s brother",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_04.xml",
+        "locator": "Runo 4, lines 1–80",
+        "supports": [
+          "Joukahainen is Aino’s brother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-003",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-006",
+    "target_character_id": "CHR-SRC006-001",
+    "relationship_type": "opponent",
+    "label": "Joukahainen challenges Väinämöinen in song",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_03.xml",
+        "locator": "Runo 3, lines 1–550",
+        "supports": [
+          "Joukahainen challenges Väinämöinen in song"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-004",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-001",
+    "target_character_id": "CHR-SRC006-006",
+    "relationship_type": "transformed-by",
+    "label": "Väinämöinen sings Joukahainen into the mire",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_03.xml",
+        "locator": "Runo 3, lines 300–520",
+        "supports": [
+          "Väinämöinen sings Joukahainen into the mire"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-005",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-006",
+    "target_character_id": "CHR-SRC006-007",
+    "relationship_type": "other",
+    "label": "Joukahainen promises Aino",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_03.xml",
+        "locator": "Runo 3, lines 520–550",
+        "supports": [
+          "Joukahainen promises Aino"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-006",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-003",
+    "target_character_id": "CHR-SRC006-005",
+    "relationship_type": "other",
+    "label": "Ilmarinen forges the Sampo for Louhi/Pohjola",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
+        "locator": "Runo 10, lines 1–422",
+        "supports": [
+          "Ilmarinen forges the Sampo for Louhi/Pohjola"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-007",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-005",
+    "target_character_id": "CHR-SRC006-003",
+    "relationship_type": "patron",
+    "label": "Louhi sets the Sampo task for Ilmarinen",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
+        "locator": "Runo 10, lines 1–100",
+        "supports": [
+          "Louhi sets the Sampo task for Ilmarinen"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-008",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-004",
+    "target_character_id": "CHR-SRC006-011",
+    "relationship_type": "spouse",
+    "label": "Lemminkäinen and Kyllikki marry",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_11.xml",
+        "locator": "Runo 11, lines 1–300",
+        "supports": [
+          "Lemminkäinen and Kyllikki marry"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-009",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-004",
+    "target_character_id": "CHR-SRC006-012",
+    "relationship_type": "opponent",
+    "label": "Lemminkäinen undertakes Hiisi’s tasks",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Lemminkäinen undertakes Hiisi’s tasks"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-010",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-019",
+    "target_character_id": "CHR-SRC006-020",
+    "relationship_type": "spouse",
+    "label": "Tapio and Mielikki are forest-household partners",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Tapio and Mielikki are forest-household partners"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Functional household wording only."
+  },
+  {
+    "relationship_id": "REL-SRC006-011",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-019",
+    "target_character_id": "CHR-SRC006-021",
+    "relationship_type": "kin",
+    "label": "Nyyrikki is Tapio’s son",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Nyyrikki is Tapio’s son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-012",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-019",
+    "target_character_id": "CHR-SRC006-022",
+    "relationship_type": "kin",
+    "label": "Tellervo is Tapio’s daughter",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Tellervo is Tapio’s daughter"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-013",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-001",
+    "target_character_id": "CHR-SRC006-010",
+    "relationship_type": "other",
+    "label": "Väinämöinen seeks words from Antero Vipunen",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_17.xml",
+        "locator": "Runo 17, lines 1–650",
+        "supports": [
+          "Väinämöinen seeks words from Antero Vipunen"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-014",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-017",
+    "target_character_id": "CHR-SRC006-018",
+    "relationship_type": "spouse",
+    "label": "Tuoni and Tuonetar rule Tuonela",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_16.xml",
+        "locator": "Runo 16, lines 1–500",
+        "supports": [
+          "Tuoni and Tuonetar rule Tuonela"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-015",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-001",
+    "target_character_id": "CHR-SRC006-017",
+    "relationship_type": "other",
+    "label": "Väinämöinen enters Tuonela’s domain",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_16.xml",
+        "locator": "Runo 16, lines 1–500",
+        "supports": [
+          "Väinämöinen enters Tuonela’s domain"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-016",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-001",
+    "target_character_id": "CHR-SRC006-003",
+    "relationship_type": "companion",
+    "label": "Väinämöinen and Ilmarinen join the Sampo expedition",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_39.xml",
+        "locator": "Runo 39, lines 1–500",
+        "supports": [
+          "Väinämöinen and Ilmarinen join the Sampo expedition"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-017",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-001",
+    "target_character_id": "CHR-SRC006-004",
+    "relationship_type": "companion",
+    "label": "Väinämöinen and Lemminkäinen join the Sampo expedition",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_39.xml",
+        "locator": "Runo 39, lines 1–500",
+        "supports": [
+          "Väinämöinen and Lemminkäinen join the Sampo expedition"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-018",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-003",
+    "target_character_id": "CHR-SRC006-004",
+    "relationship_type": "companion",
+    "label": "Ilmarinen and Lemminkäinen join the Sampo expedition",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_39.xml",
+        "locator": "Runo 39, lines 1–500",
+        "supports": [
+          "Ilmarinen and Lemminkäinen join the Sampo expedition"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-019",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-005",
+    "target_character_id": "CHR-SRC006-001",
+    "relationship_type": "opponent",
+    "label": "Louhi opposes the Sampo expedition",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_42.xml",
+        "locator": "Runo 42, lines 1–500",
+        "supports": [
+          "Louhi opposes the Sampo expedition"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-020",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-005",
+    "target_character_id": "CHR-SRC006-025",
+    "relationship_type": "other",
+    "label": "Louhi summons Iku-Turso in the Sampo conflict",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_42.xml",
+        "locator": "Runo 42, lines 1–300",
+        "supports": [
+          "Louhi summons Iku-Turso in the Sampo conflict"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-021",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-023",
+    "target_character_id": "CHR-SRC006-024",
+    "relationship_type": "spouse",
+    "label": "Ahto and Vellamo form a sea household",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_40.xml",
+        "locator": "Runo 40, lines 1–500",
+        "supports": [
+          "Ahto and Vellamo form a sea household"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Functional household wording only."
+  },
+  {
+    "relationship_id": "REL-SRC006-022",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-014",
+    "target_character_id": "CHR-SRC006-015",
+    "relationship_type": "opponent",
+    "label": "Kullervo is enslaved by Untamo",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_31.xml",
+        "locator": "Runo 31, lines 1–600",
+        "supports": [
+          "Kullervo is enslaved by Untamo"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-023",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-015",
+    "target_character_id": "CHR-SRC006-016",
+    "relationship_type": "opponent",
+    "label": "Untamo opposes Kalervo",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_31.xml",
+        "locator": "Runo 31, lines 1–180",
+        "supports": [
+          "Untamo opposes Kalervo"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-024",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-014",
+    "target_character_id": "CHR-SRC006-016",
+    "relationship_type": "kin",
+    "label": "Kullervo is Kalervo’s son",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_31.xml",
+        "locator": "Runo 31, lines 1–200",
+        "supports": [
+          "Kullervo is Kalervo’s son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-025",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-014",
+    "target_character_id": "CHR-SRC006-015",
+    "relationship_type": "kin",
+    "label": "Kullervo is Untamo’s nephew",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_31.xml",
+        "locator": "Runo 31, lines 1–200",
+        "supports": [
+          "Kullervo is Untamo’s nephew"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-026",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-013",
+    "target_character_id": "CHR-SRC006-001",
+    "relationship_type": "other",
+    "label": "Loviatar’s disease sequence is countered by Väinämöinen’s healing words",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_45.xml",
+        "locator": "Runo 45, lines 1–300",
+        "supports": [
+          "Loviatar’s disease sequence is countered by Väinämöinen’s healing words"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-027",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-009",
+    "target_character_id": "CHR-SRC006-001",
+    "relationship_type": "patron",
+    "label": "Väinämöinen appeals to Ukko in the fire/weather sequence",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_47.xml",
+        "locator": "Runo 47, lines 1–300",
+        "supports": [
+          "Väinämöinen appeals to Ukko in the fire/weather sequence"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC006-028",
+    "source_id": "SRC-006",
+    "source_character_id": "CHR-SRC006-027",
+    "target_character_id": "CHR-SRC006-001",
+    "relationship_type": "other",
+    "label": "Marjatta’s son precipitates Väinämöinen’s departure",
+    "direction": "directed",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_50.xml",
+        "locator": "Runo 50, lines 1–500",
+        "supports": [
+          "Marjatta’s son precipitates Väinämöinen’s departure"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  }
+]

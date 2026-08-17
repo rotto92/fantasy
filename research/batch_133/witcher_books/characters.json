@@ -1,0 +1,135 @@
+[
+  {
+    "character_id": "CHR-SRC047-001",
+    "canonical_name": "Geralt of Rivia",
+    "aliases": [],
+    "source_id": "SRC-047",
+    "source_title": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I",
+    "continuity": "The Last Wish, Danusia Stok English translation, Orbit 2022; ‘The Witcher,’ Section I",
+    "work_or_witness": "The Last Wish (Orbit 2022 English translation), ‘The Witcher,’ Section I",
+    "character_kind": "individual",
+    "description": "The named witcher who enters Wyzima’s opening scene and engages with Velerad over the local monster-contract context.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "witcher",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "English translated source terminology for a vocation/category. It is not mapped to a real-world race, ethnicity, profession, religion, caste, or generic game class."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Wyzima",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The immediate Section I setting only; no later political, geographic, ethnic, or adaptation-specific equivalence is inferred."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "contract-seeking monster hunter",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "A narrow Section I plot role. It does not define Geralt’s ethics, later contracts, or a universal rule about witchers or monsters."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named, directly present individual in the selected English-translated story section",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "Andrzej Sapkowski, The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+        "supports": [
+          "Geralt of Rivia’s name", "Section I presence in Wyzima", "witcher/contract context", "interaction with Velerad"
+        ]
+      },
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "publisher description, paragraphs beginning ‘Geralt the Witcher’ and ‘Geralt is a Witcher’",
+        "supports": [
+          "collection-level English publisher framing of Geralt as a witcher and monster hunter"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record is limited to the Stok-translated 2022 Orbit Section I witness; it does not merge the Polish original, other translations, later books, CD PROJEKT games, Netflix, animation, comics, or screen adaptations.",
+      "‘Witcher’ is preserved as an English source term. Neither magical training nor the publisher’s mention of an elixir is used here to infer a fixed biology, disability, medical history, fertility, race, gender identity, sexuality, or moral alignment.",
+      "Monster-hunting and threat are retained at a non-graphic level; no claim is made that external appearance determines evil."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC047-002",
+    "canonical_name": "Velerad",
+    "aliases": [],
+    "source_id": "SRC-047",
+    "source_title": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I",
+    "continuity": "The Last Wish, Danusia Stok English translation, Orbit 2022; ‘The Witcher,’ Section I",
+    "work_or_witness": "The Last Wish (Orbit 2022 English translation), ‘The Witcher,’ Section I",
+    "character_kind": "individual",
+    "description": "The named Wyzima official who directly meets Geralt in the selected section’s opening contract context.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Wyzima official",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "A minimal Section I institutional role. No precise rank, class status, political allegiance, ethnicity, or later plot role is inferred beyond the printed witness."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Wyzima",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The immediate Section I setting only; no claim about real cities, historical monarchy, ethnicity, or adaptation geography is made."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "official contact in a contract negotiation",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Limited to his direct Section I meeting with Geralt. It does not establish friendship, coercion, kinship, morality, or later loyalty."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named, directly present individual in the selected English-translated story section",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "Andrzej Sapkowski, The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+        "supports": [
+          "Velerad’s name", "direct meeting with Geralt", "Wyzima/contract context", "official role as stated in the selected section"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Velerad is recorded only in this one translated section. The record does not import later book facts or any representation in games, television, animation, comics, or Polish screen adaptations.",
+      "His official role is neither a real-world class claim nor evidence about monarchy, governance, ethnicity, gender, or morality.",
+      "The story’s violence/threat setup is not rendered graphically, and no participation in violence is inferred beyond the stated contract context."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

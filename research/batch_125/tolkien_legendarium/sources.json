@@ -1,0 +1,53 @@
+[
+  {
+    "source_id": "SRC-026",
+    "source_title": "Tolkien's Legendarium — The Silmarillion (1977), ‘Of Beren and Lúthien’",
+    "continuity_scope": "The published 1977 The Silmarillion only, specifically Chapter 19, ‘Of Beren and Lúthien’. This is a deliberately compact First Age literary witness, distinct from SRC-031’s The Lord of the Rings pass and from screen adaptations. It records the 1977 published text as edited by Christopher Tolkien after J.R.R. Tolkien’s death; it does not collapse that witness into the earlier proposed ‘Silmarillion’, the manuscript corpus, or later editorial publications.",
+    "work_or_witnesses": [
+      "J.R.R. Tolkien, The Silmarillion (1977), edited by Christopher Tolkien, Chapter 19, ‘Of Beren and Lúthien’",
+      "Tolkien Estate, Catherine McIlwaine, ‘Beren and Lúthien’ (authorized contextual excerpt identifying Chapter 19 and its central pair)",
+      "Tolkien Estate, Christopher Tolkien, ‘The Silmarillion’ (1977 publication presentation and editorial-status account)"
+    ],
+    "coverage_rule": "Include only the two named individual dramatic characters expressly centered by the selected chapter’s authorized contextual account: Beren and Lúthien. The pass is a compact pair-focused extraction, not a complete dramatis personae for Chapter 19 or a general Legendarium roster. Peoples/species, divine categories, languages, houses, artifacts, places, cosmology, Ages, themes, unnamed beings, and the many other named figures who appear in the chapter remain source terms or documented omissions rather than peer character nodes.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "Thingol, Melian, Finrod, Sauron, Morgoth, Huan, Carcharoth, and other named Chapter 19 figures are intentionally outside this compact pair-focused extraction; no claim of a complete chapter roster is made.",
+      "Elves, Men/mortals, Valar, Maiar, houses, languages, the Silmarils, the Iron Crown, Doriath, Angband, Beleriand, the First Age, and other setting or ontological material are retained only as terms where needed, never as character nodes.",
+      "The Hobbit, The Lord of the Rings, all films, television, games, translations, tie-ins, drafts, alternate textual stages, the 2017 Beren and Lúthien compilation, Unfinished Tales, The History of Middle-earth, and other posthumous publications are excluded as witnesses.",
+      "Violence, captivity, mortality, romance, kinship, gender, theology, racialized readings, and biographical parallels are not expanded beyond narrow textual claims. No real-world people, religion, ethnicity, morality, or identity category is inferred from this invented literary witness."
+    ],
+    "uncertainties": [
+      "The 1977 published book is a posthumous editorial presentation: Christopher Tolkien reports selecting and arranging material, sometimes developing narrative from notes or rough drafts and modifying details for coherence. This pass therefore identifies the 1977 chapter, not an unqualified author-final textual state.",
+      "The Estate distinguishes The Silmarillion (the 1977 published book), ‘The Silmarillion’ (a late-1930s proposed version), and the broader ‘Silmarillion’ manuscript body. These are not treated as interchangeable.",
+      "The Estate’s 2017 Beren and Lúthien publication presents different versions of the tale. Its content and editorial arrangement are not used to add claims to this 1977-only pass.",
+      "The relationship record reflects the selected published chapter’s outcome and is necessarily a moderate spoiler; it does not establish every version’s wording, sequence, or interpretation."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "The specified published chapter, cited at chapter level, plus Tolkien Estate material that identifies the chapter, summarizes the central pair, and documents the 1977 book’s posthumous editorial status. No fan wiki, Wikipedia, adaptation, unlicensed transcript, or claim from an excluded draft/version is used.",
+    "citations": [
+      {
+        "url": "https://www.tolkienestate.com/writing/catherine-mcilwaine-beren-and-luthien/",
+        "locator": "‘Of Beren and Lúthien’, The Silmarillion, ch. 19; contextual account, paragraphs following the chapter-19 extract",
+        "supports": [
+          "chapter identity", "Beren and Lúthien as the central pair", "Beren’s outlawed-mortal framing", "Lúthien’s elf-of-royalty framing", "Silmaril quest and marriage outcome"
+        ]
+      },
+      {
+        "url": "https://www.tolkienestate.com/writing/christopher-tolkien-the-silmarillion/",
+        "locator": "Christopher Tolkien’s 1977 presentation, paragraphs beginning ‘The Silmarillion is the history of the Elder Days’ and ‘At the time of my father’s death’",
+        "supports": [
+          "First Age/Elder Days context", "1977 publication context", "unfinished manuscripts and editorial-selection limitations", "Beren and Lúthien prose-version context"
+        ]
+      },
+      {
+        "url": "https://www.tolkienestate.com/selected-further-reading/",
+        "locator": "‘What is the difference between The Silmarillion and the ‘Silmarillion’?’",
+        "supports": [
+          "distinction between the 1977 book, the late-1930s proposed version, and the wider manuscript body"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

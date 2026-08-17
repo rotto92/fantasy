@@ -1,0 +1,18 @@
+[
+  {
+    "relationship_id": "REL-SRC198-001",
+    "source_id": "SRC-198",
+    "source_character_id": "CHR-SRC198-001",
+    "target_character_id": "CHR-SRC198-002",
+    "relationship_type": "kin",
+    "label": "brothers",
+    "direction": "undirected",
+    "continuity": "VIZ English Fullmetal Alchemist: Fullmetal Edition, Vol. 1 (2018)",
+    "citations": [
+      {"url": "https://www.viz.com/manga-books/manga/fullmetal-alchemist-fullmetal-edition-volume-1/product/5509", "locator": "Fullmetal Edition, Vol. 1 synopsis", "supports": ["Edward and Alphonse are identified as the Elric brothers"]},
+      {"url": "https://magazine.jp.square-enix.com/top/comics/detail/9784757506206/", "locator": "Japanese Fullmetal Alchemist Vol. 1 official product synopsis", "supports": ["Edward as older brother and Alphonse as younger brother"]}
+    ],
+    "confidence": "high",
+    "note": "The selected official metadata supports kinship and a shared restoration premise only; it does not establish every later event in their relationship."
+  }
+]

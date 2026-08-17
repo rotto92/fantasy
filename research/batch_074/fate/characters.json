@@ -1,0 +1,104 @@
+[
+  {
+    "character_id": "CHR-SRC209-001",
+    "canonical_name": "Shirou Emiya",
+    "aliases": [],
+    "source_id": "SRC-209",
+    "source_title": "Fate Franchise",
+    "continuity": "Fate/stay night REMASTERED — Fate (Saber Route) opening premise (2024)",
+    "work_or_witness": "TYPE-MOON Fate/Saber Route introduction and Shirou REMASTERED profile",
+    "character_kind": "individual",
+    "description": "A novice mage who, ten years after Kiritsugu Emiya rescues him amid the Fourth Holy Grail War, becomes involved in the Holy Grail War and contracts with the Servant Saber.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Master", "archetype_ids": [], "confidence": "high", "note": "The Fate-route introduction calls Shirou a Master saved by a sword Heroic Spirit; this is a source-specific Grail-War role, not a general occupation."}, {"term": "novice mage", "archetype_ids": [], "confidence": "high", "note": "The official REMASTERED profile calls him an immature/apprentice-level mage; no full capacity list is inferred."}],
+      "power_traditions": [{"term": "magecraft", "archetype_ids": [], "confidence": "high", "note": "The Fate-route introduction and profile state that Shirou sought/learned magecraft; no spells, circuits, or later development are inferred."}],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "Fuyuki", "archetype_ids": [], "confidence": "high", "note": "The route introduction places the Grail-War ritual in Fuyuki; no map or civic/political equivalence is asserted."}],
+      "metaphysical_laws_and_rituals": [{"term": "Holy Grail War contract", "archetype_ids": [], "confidence": "high", "note": "Direct route/profile premise: a Master contracts with a summoned Servant. No complete ruleset or route outcome is inferred."}],
+      "narrative_archetypes": [{"term": "aspiring ally of justice", "archetype_ids": [], "confidence": "high", "note": "The Fate-route introduction says Shirou vows to become a 'hero of justice'; it is an aspiration, not a fulfilled or universally stable identity."}],
+      "game_mechanics": []
+    },
+    "canon_status": "Named Fate/Saber-route central individual directly described by selected TYPE-MOON REMASTERED materials.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://typemoon.com/products/f-sn/introduction/fate/", "locator": "Fate (Saber Route) introduction, lines 28-36", "supports": ["Shirou name, Kiritsugu rescue, magecraft aspiration, Grail-War involvement, Master status, and rescue by sword Heroic Spirit"]}, {"url": "https://typemoon.com/products/f-sn/character/01/", "locator": "Shirou Emiya character profile, lines 23-30", "supports": ["Shirou's novice mage status and contract with Saber"]}],
+    "comparison_cautions": [
+      "Shirou's selected route premise includes past war, present attack, magical conflict, and rescue; it does not establish a complete injury, trauma, violence, death, sexuality, abuse, or outcome record.",
+      "Magecraft, Master status, the Grail system, and hero-of-justice aspiration are source-native fiction terms; no real-world magic, ethical doctrine, or vocational equivalence is asserted.",
+      "No route merge, anime, film, manga, game, novel, guidebook, or alternate-timeline material is used."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC209-002",
+    "canonical_name": "Saber",
+    "aliases": [],
+    "source_id": "SRC-209",
+    "source_title": "Fate Franchise",
+    "continuity": "Fate/stay night REMASTERED — Fate (Saber Route) opening premise (2024)",
+    "work_or_witness": "TYPE-MOON Fate/Saber Route introduction and Saber REMASTERED profile",
+    "character_kind": "individual",
+    "description": "The named Saber Servant—one of seven Servants—who contracts with the protagonist Shirou and saves his life during the Fate-route opening attack.",
+    "dimensions": {
+      "being_types": [{"term": "Heroic Spirit / Servant", "archetype_ids": [], "confidence": "high", "note": "The route introduction calls the rescuing sword spirit a Heroic Spirit/Servant, and the profile identifies Saber as one of seven Servants. No historic/mythic identity is inferred."}],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Saber", "archetype_ids": [], "confidence": "high", "note": "The profile's named character/class label is retained source-natively; it is not a generic sword-user class or an asserted historical identity."}],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "Fuyuki", "archetype_ids": [], "confidence": "high", "note": "The route introduction locates the selected Grail-War premise there; no origin or realm claim is made for Saber."}],
+      "metaphysical_laws_and_rituals": [{"term": "Master/Servant contract", "archetype_ids": [], "confidence": "high", "note": "The official profile says Saber contracts with the protagonist; no full summoning or command-spell rule system is asserted."}],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named Fate/Saber-route Servant individual directly described by selected TYPE-MOON REMASTERED materials.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://typemoon.com/products/f-sn/introduction/fate/", "locator": "Fate (Saber Route) introduction, lines 33-36", "supports": ["sword Heroic Spirit/Servant saving Shirou in the opening attack"]}, {"url": "https://typemoon.com/products/f-sn/character/04/", "locator": "Saber character profile, lines 23-30", "supports": ["Saber name, one-of-seven-Servants status, and contract with protagonist"]}],
+    "comparison_cautions": [
+      "Saber is retained as the named Fate/stay night REMASTERED route character/class label. No identification with any historical, literary, legendary, or mythic source figure is made.",
+      "The selected profile does not establish Noble Phantasms, combat statistics, summoning identity, every route behavior, alternate incarnation, gender discussion, or outcome.",
+      "Violence is limited here to a rescue from an attack in the official route premise; no anime, manga, novel, game, movie, or other Fate-timeline material is imported."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC209-003",
+    "canonical_name": "Kiritsugu Emiya",
+    "aliases": [],
+    "source_id": "SRC-209",
+    "source_title": "Fate Franchise",
+    "continuity": "Fate/stay night REMASTERED — Fate (Saber Route) opening premise (2024)",
+    "work_or_witness": "TYPE-MOON Fate/Saber Route introduction",
+    "character_kind": "individual",
+    "description": "The man who calls himself a mage and rescues Shirou amid the Fourth Holy Grail War ten years before the route's present; Shirou then lives with him and seeks magecraft instruction.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "mage", "archetype_ids": [], "confidence": "high", "note": "The Fate-route introduction says Kiritsugu calls himself a mage; no rank, school, or wider-work biography is inferred."}],
+      "power_traditions": [{"term": "magecraft instruction context", "archetype_ids": [], "confidence": "moderate", "note": "Shirou asks Kiritsugu for magecraft teaching after living with him. The synopsis does not detail whether, how much, or what he teaches."}],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "Fuyuki", "archetype_ids": [], "confidence": "high", "note": "The route introduction situates the Fourth Grail War and later ritual in Fuyuki."}],
+      "metaphysical_laws_and_rituals": [{"term": "Fourth Holy Grail War", "archetype_ids": [], "confidence": "high", "note": "Direct historical context in the selected Fate-route introduction; no separate Fate/Zero narrative is imported."}],
+      "narrative_archetypes": [{"term": "past rescuer", "archetype_ids": [], "confidence": "high", "note": "The introduction directly says Kiritsugu rescued Shirou ten years earlier."}],
+      "game_mechanics": []
+    },
+    "canon_status": "Named past dramatic individual directly described by the selected Fate/Saber-route opening premise.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://typemoon.com/products/f-sn/introduction/fate/", "locator": "Fate (Saber Route) introduction, lines 28-30", "supports": ["Kiritsugu name, mage descriptor, rescue of Shirou amid Fourth Grail War, subsequent household context, and Shirou's request for magecraft instruction"]}],
+    "comparison_cautions": [
+      "This route synopsis does not establish biological/adoptive kinship, a complete guardianship relation, teaching outcome, other Grail-War role, weaponry, ideology, or fate.",
+      "The Fourth Grail War is source-native fiction; it is not equated with real armed conflict or imported from Fate/Zero/adaptation continuity.",
+      "Past battle/fire/war context is a content caution, not an exhaustive violence or trauma record."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "character_id": "CHR-SRC185-001",
+    "canonical_name": "Oliver",
+    "aliases": [],
+    "source_id": "SRC-185",
+    "source_title": "Ni no Kuni: Wrath of the White Witch Remastered",
+    "continuity": "Bandai Namco Entertainment America English remastered PS4/PC witness",
+    "work_or_witness": "Official game page: Journey Back To The Other World",
+    "character_kind": "individual",
+    "description": "The named traveler who enters another world with the Wizard's Companion and Drippy, hoping to bring back his mother after a tragic incident.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {"term":"Wizard's Companion","archetype_ids":[],"confidence":"high","note":"The official synopsis says Oliver carries a copy."}
+      ],
+      "cosmologies_and_realms": [
+        {"term":"the other world","archetype_ids":[],"confidence":"high","note":"Official journey setting; no name or topology is supplied."}
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {"term":"quest to restore his mother","archetype_ids":[],"confidence":"high","note":"Exact premise goal, not a confirmed outcome."}
+      ],
+      "game_mechanics": [
+        {"term":"tames familiars","archetype_ids":[],"confidence":"high","note":"Official synopsis lists this activity, without fixing a player selection."}
+      ]
+    },
+    "canon_status": "Named protagonist of the selected official remastered-page premise.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {"url":"https://www.bandainamcoent.com/games/ni-no-kuni-wrath-of-the-white-witch-remastered","locator":"Journey Back To The Other World","supports":["Name, mother-restoration objective, other-world journey, Wizard's Companion, Drippy, familiar taming, foes, and challenges"]}
+    ],
+    "comparison_cautions": ["The page does not name Oliver's mother, establish the result of his quest, or authorize a fixed familiar/party/battle build."],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC185-002",
+    "canonical_name": "Drippy",
+    "aliases": [],
+    "source_id": "SRC-185",
+    "source_title": "Ni no Kuni: Wrath of the White Witch Remastered",
+    "continuity": "Bandai Namco Entertainment America English remastered PS4/PC witness",
+    "work_or_witness": "Official game page: Journey Back To The Other World",
+    "character_kind": "individual",
+    "description": "Oliver's named trusty friend, who accompanies him on the other-world journey described by the official Remastered page.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {"term":"the other world","archetype_ids":[],"confidence":"high","note":"The synopsis situates the shared journey there."}
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {"term":"trusty friend","archetype_ids":[],"confidence":"high","note":"Exact official companion framing."}
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named companion in the selected official remastered-page premise.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {"url":"https://www.bandainamcoent.com/games/ni-no-kuni-wrath-of-the-white-witch-remastered","locator":"Journey Back To The Other World","supports":["Name, trusty-friend designation, and accompaniment of Oliver"]}
+    ],
+    "comparison_cautions": ["No species, origin, magic, battle role, dialogue, or later outcome is inferred from the short premise."],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

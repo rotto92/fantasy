@@ -1,0 +1,1052 @@
+[
+  {
+    "relationship_id": "REL-SRC017-001",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-001",
+    "target_character_id": "CHR-SRC017-003",
+    "relationship_type": "patron",
+    "label": "Nüwa dispatches the spirits for the Shang plot",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/2/zh",
+        "locator": "封神演義, chapter 2",
+        "supports": [
+          "Nüwa dispatches the spirits for the Shang plot"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-002",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-001",
+    "target_character_id": "CHR-SRC017-004",
+    "relationship_type": "patron",
+    "label": "Nüwa dispatches the spirits for the Shang plot",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/2/zh",
+        "locator": "封神演義, chapter 2",
+        "supports": [
+          "Nüwa dispatches the spirits for the Shang plot"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-003",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-001",
+    "target_character_id": "CHR-SRC017-005",
+    "relationship_type": "patron",
+    "label": "Nüwa dispatches the spirits for the Shang plot",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/2/zh",
+        "locator": "封神演義, chapter 2",
+        "supports": [
+          "Nüwa dispatches the spirits for the Shang plot"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-004",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-003",
+    "target_character_id": "CHR-SRC017-004",
+    "relationship_type": "ally",
+    "label": "fellow dispatched spirit",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/2/zh",
+        "locator": "封神演義, chapter 2",
+        "supports": [
+          "fellow dispatched spirit"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-005",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-003",
+    "target_character_id": "CHR-SRC017-005",
+    "relationship_type": "ally",
+    "label": "fellow dispatched spirit",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/2/zh",
+        "locator": "封神演義, chapter 2",
+        "supports": [
+          "fellow dispatched spirit"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-006",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-002",
+    "target_character_id": "CHR-SRC017-003",
+    "relationship_type": "lover",
+    "label": "ruler and favoured consort at Shang court",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/3/zh",
+        "locator": "封神演義, chapter 3",
+        "supports": [
+          "ruler and favoured consort at Shang court"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-007",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-006",
+    "target_character_id": "CHR-SRC017-020",
+    "relationship_type": "student",
+    "label": "Jiang receives his mission on leaving Kunlun",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/15/zh",
+        "locator": "封神演義, chapter 15",
+        "supports": [
+          "Jiang receives his mission on leaving Kunlun"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-008",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-006",
+    "target_character_id": "CHR-SRC017-007",
+    "relationship_type": "ally",
+    "label": "Ji Chang recruits Jiang for Zhou",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/24/zh",
+        "locator": "封神演義, chapter 24",
+        "supports": [
+          "Ji Chang recruits Jiang for Zhou"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-009",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-006",
+    "target_character_id": "CHR-SRC017-008",
+    "relationship_type": "ally",
+    "label": "Jiang directs the Zhou cause",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/67/zh",
+        "locator": "封神演義, chapter 67",
+        "supports": [
+          "Jiang directs the Zhou cause"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-010",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-007",
+    "target_character_id": "CHR-SRC017-008",
+    "relationship_type": "kin",
+    "label": "father and son",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/10/zh",
+        "locator": "封神演義, chapter 10",
+        "supports": [
+          "father and son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-011",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-007",
+    "target_character_id": "CHR-SRC017-009",
+    "relationship_type": "kin",
+    "label": "father and eldest son",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/19/zh",
+        "locator": "封神演義, chapter 19",
+        "supports": [
+          "father and eldest son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-012",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-002",
+    "target_character_id": "CHR-SRC017-014",
+    "relationship_type": "ruler",
+    "label": "Shang ruler and grand preceptor",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/27/zh",
+        "locator": "封神演義, chapter 27",
+        "supports": [
+          "Shang ruler and grand preceptor"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-013",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-002",
+    "target_character_id": "CHR-SRC017-012",
+    "relationship_type": "ruler",
+    "label": "Huang serves Shang before defecting",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/33/zh",
+        "locator": "封神演義, chapter 33",
+        "supports": [
+          "Huang serves Shang before defecting"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-014",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-003",
+    "target_character_id": "CHR-SRC017-010",
+    "relationship_type": "opponent",
+    "label": "Daji's court intrigue harms Queen Jiang",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/7/zh",
+        "locator": "封神演義, chapter 7",
+        "supports": [
+          "Daji's court intrigue harms Queen Jiang"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-015",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-003",
+    "target_character_id": "CHR-SRC017-011",
+    "relationship_type": "opponent",
+    "label": "Bi Gan confronts Daji's deception",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/26/zh",
+        "locator": "封神演義, chapter 26",
+        "supports": [
+          "Bi Gan confronts Daji's deception"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-016",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-012",
+    "target_character_id": "CHR-SRC017-013",
+    "relationship_type": "kin",
+    "label": "father and son",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/32/zh",
+        "locator": "封神演義, chapter 32",
+        "supports": [
+          "father and son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-017",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-014",
+    "target_character_id": "CHR-SRC017-017",
+    "relationship_type": "ruler",
+    "label": "Shang commander sent west",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/36/zh",
+        "locator": "封神演義, chapter 36",
+        "supports": [
+          "Shang commander sent west"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-018",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-019",
+    "target_character_id": "CHR-SRC017-006",
+    "relationship_type": "opponent",
+    "label": "rival against Jiang's Zhou mission",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/37/zh",
+        "locator": "封神演義, chapter 37",
+        "supports": [
+          "rival against Jiang's Zhou mission"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-019",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-021",
+    "target_character_id": "CHR-SRC017-035",
+    "relationship_type": "mentor",
+    "label": "Taiyi receives and restores Nezha",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/12/zh",
+        "locator": "封神演義, chapter 12",
+        "supports": [
+          "Taiyi receives and restores Nezha"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-020",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-036",
+    "target_character_id": "CHR-SRC017-035",
+    "relationship_type": "kin",
+    "label": "father and son",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/12/zh",
+        "locator": "封神演義, chapter 12",
+        "supports": [
+          "father and son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-021",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-021",
+    "target_character_id": "CHR-SRC017-040",
+    "relationship_type": "opponent",
+    "label": "conflict over Nezha",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/13/zh",
+        "locator": "封神演義, chapter 13",
+        "supports": [
+          "conflict over Nezha"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-022",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-028",
+    "target_character_id": "CHR-SRC017-029",
+    "relationship_type": "mentor",
+    "label": "master and principal disciple",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/78/zh",
+        "locator": "封神演義, chapter 78",
+        "supports": [
+          "master and principal disciple"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-023",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-028",
+    "target_character_id": "CHR-SRC017-030",
+    "relationship_type": "patron",
+    "label": "Jiejiao leader and champion",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/47/zh",
+        "locator": "封神演義, chapter 47",
+        "supports": [
+          "Jiejiao leader and champion"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-024",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-030",
+    "target_character_id": "CHR-SRC017-031",
+    "relationship_type": "kin",
+    "label": "siblings",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "siblings"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-025",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-030",
+    "target_character_id": "CHR-SRC017-032",
+    "relationship_type": "kin",
+    "label": "siblings",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "siblings"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-026",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-030",
+    "target_character_id": "CHR-SRC017-033",
+    "relationship_type": "kin",
+    "label": "siblings",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "siblings"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-027",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-031",
+    "target_character_id": "CHR-SRC017-032",
+    "relationship_type": "kin",
+    "label": "sisters",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "sisters"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-028",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-031",
+    "target_character_id": "CHR-SRC017-033",
+    "relationship_type": "kin",
+    "label": "sisters",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "sisters"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-029",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-032",
+    "target_character_id": "CHR-SRC017-033",
+    "relationship_type": "kin",
+    "label": "sisters",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "sisters"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-030",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-034",
+    "target_character_id": "CHR-SRC017-006",
+    "relationship_type": "ally",
+    "label": "Luya aids the Zhou-side plan against Zhao",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/48/zh",
+        "locator": "封神演義, chapter 48",
+        "supports": [
+          "Luya aids the Zhou-side plan against Zhao"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-031",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-018",
+    "target_character_id": "CHR-SRC017-008",
+    "relationship_type": "opponent",
+    "label": "Kong blocks the Zhou advance",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/69/zh",
+        "locator": "封神演義, chapter 69",
+        "supports": [
+          "Kong blocks the Zhou advance"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-032",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-018",
+    "target_character_id": "CHR-SRC017-006",
+    "relationship_type": "opponent",
+    "label": "Kong blocks Jiang's Zhou forces",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/69/zh",
+        "locator": "封神演義, chapter 69",
+        "supports": [
+          "Kong blocks Jiang's Zhou forces"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-033",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-015",
+    "target_character_id": "CHR-SRC017-016",
+    "relationship_type": "kin",
+    "label": "father and daughter",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/65/zh",
+        "locator": "封神演義, chapter 65",
+        "supports": [
+          "father and daughter"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-034",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-016",
+    "target_character_id": "CHR-SRC017-039",
+    "relationship_type": "spouse",
+    "label": "marriage in the campaign",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/75/zh",
+        "locator": "封神演義, chapter 75",
+        "supports": [
+          "marriage in the campaign"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-035",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-016",
+    "target_character_id": "CHR-SRC017-008",
+    "relationship_type": "ally",
+    "label": "later joins Zhou",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/71/zh",
+        "locator": "封神演義, chapter 71",
+        "supports": [
+          "later joins Zhou"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-036",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-037",
+    "target_character_id": "CHR-SRC017-006",
+    "relationship_type": "ally",
+    "label": "Zhou-side combatant",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/40/zh",
+        "locator": "封神演義, chapter 40",
+        "supports": [
+          "Zhou-side combatant"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-037",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-038",
+    "target_character_id": "CHR-SRC017-007",
+    "relationship_type": "kin",
+    "label": "adoptive father and son",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/10/zh",
+        "locator": "封神演義, chapter 10",
+        "supports": [
+          "adoptive father and son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-038",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-038",
+    "target_character_id": "CHR-SRC017-008",
+    "relationship_type": "kin",
+    "label": "adoptive brothers",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/67/zh",
+        "locator": "封神演義, chapter 67",
+        "supports": [
+          "adoptive brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-039",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-035",
+    "target_character_id": "CHR-SRC017-037",
+    "relationship_type": "ally",
+    "label": "Zhou-side supernatural combatants",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/92/zh",
+        "locator": "封神演義, chapter 92",
+        "supports": [
+          "Zhou-side supernatural combatants"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-040",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-012",
+    "target_character_id": "CHR-SRC017-008",
+    "relationship_type": "ally",
+    "label": "defects to and serves Zhou",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/34/zh",
+        "locator": "封神演義, chapter 34",
+        "supports": [
+          "defects to and serves Zhou"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-041",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-014",
+    "target_character_id": "CHR-SRC017-006",
+    "relationship_type": "opponent",
+    "label": "principal Shang commander against Jiang",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/41/zh",
+        "locator": "封神演義, chapter 41",
+        "supports": [
+          "principal Shang commander against Jiang"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-042",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-030",
+    "target_character_id": "CHR-SRC017-014",
+    "relationship_type": "ally",
+    "label": "supports Wen Zhong",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/47/zh",
+        "locator": "封神演義, chapter 47",
+        "supports": [
+          "supports Wen Zhong"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-043",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-031",
+    "target_character_id": "CHR-SRC017-006",
+    "relationship_type": "opponent",
+    "label": "Yellow River Array conflict",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "Yellow River Array conflict"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-044",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-029",
+    "target_character_id": "CHR-SRC017-006",
+    "relationship_type": "opponent",
+    "label": "Immortal-Slaying Sword Array conflict",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/78/zh",
+        "locator": "封神演義, chapter 78",
+        "supports": [
+          "Immortal-Slaying Sword Array conflict"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-045",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-022",
+    "target_character_id": "CHR-SRC017-028",
+    "relationship_type": "opponent",
+    "label": "Biyou Palace/array conflict",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/72/zh",
+        "locator": "封神演義, chapter 72",
+        "supports": [
+          "Biyou Palace/array conflict"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-046",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-024",
+    "target_character_id": "CHR-SRC017-028",
+    "relationship_type": "opponent",
+    "label": "Thousand Immortals Array conflict",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/83/zh",
+        "locator": "封神演義, chapter 83",
+        "supports": [
+          "Thousand Immortals Array conflict"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-047",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-025",
+    "target_character_id": "CHR-SRC017-028",
+    "relationship_type": "opponent",
+    "label": "Thousand Immortals Array conflict",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/83/zh",
+        "locator": "封神演義, chapter 83",
+        "supports": [
+          "Thousand Immortals Array conflict"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-048",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-026",
+    "target_character_id": "CHR-SRC017-028",
+    "relationship_type": "opponent",
+    "label": "Thousand Immortals Array conflict",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/83/zh",
+        "locator": "封神演義, chapter 83",
+        "supports": [
+          "Thousand Immortals Array conflict"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-049",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-027",
+    "target_character_id": "CHR-SRC017-006",
+    "relationship_type": "ally",
+    "label": "organizes Zhou-side array response",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/45/zh",
+        "locator": "封神演義, chapter 45",
+        "supports": [
+          "organizes Zhou-side array response"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  },
+  {
+    "relationship_id": "REL-SRC017-050",
+    "source_id": "SRC-017",
+    "source_character_id": "CHR-SRC017-008",
+    "target_character_id": "CHR-SRC017-002",
+    "relationship_type": "opponent",
+    "label": "Zhou campaign ends Shang rule",
+    "direction": "directed",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/97/zh",
+        "locator": "封神演義, chapter 97",
+        "supports": [
+          "Zhou campaign ends Shang rule"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Novel-only relationship; does not assert an identity or relation in another tradition or adaptation."
+  }
+]

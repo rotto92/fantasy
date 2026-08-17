@@ -1,0 +1,48 @@
+[
+  {
+    "source_id": "SRC-007",
+    "source_title": "Slavic Folklore",
+    "continuity_scope": "A deliberately narrow Russian/East Slavic literary-folklore witness, not a pan-Slavic corpus: tale no. 159, ‘Марья Моревна’ (Marya Morevna), in the scholarly 1984 edition of A. N. Afanasyev’s Народные русские сказки. The edition identifies its printed text as no. 159 and preserves a recorded tale variant. This pass makes no claim about South Slavic, West Slavic, Belarusian, Ukrainian, regional Russian, oral-performance, religious, or modern adaptation continuities.",
+    "work_or_witnesses": [
+      {
+        "work": "Марья Моревна [Marya Morevna], tale no. 159",
+        "edition": "Народные русские сказки А. Н. Афанасьева, vol. 1, Nauka, 1984, pp. 300–305; Fundamental Electronic Library (ФЭБ) digital scholarly edition",
+        "url": "https://feb-web.ru/feb/skazki/texts/af0/af1/af1-300-.htm?cmd=p"
+      },
+      {
+        "work": "Editorial description of the Afanasyev edition",
+        "edition": "ФЭБ bibliographic record for the 1984–1985 Nauka edition",
+        "url": "https://feb-web.ru/feb/skazki/texts/af0/af1/af1r-300.html"
+      }
+    ],
+    "coverage_rule": "Include each individually named or uniquely designated acting agent in tale no. 159 who materially initiates, directs, assists, opposes, transports, revives, or undergoes a consequential action: Ivan-tsarevich; Marya Morevna; Koshchei Bessmertnyi; Ivan’s three named sisters; the three uniquely designated animal-form brothers-in-law; Baba Yaga; and the unnamed-in-personal-name but uniquely designated bee queen. Do not make places, the fire river, water, chains, horses, animal groups, weapons, unnamed parents, unnamed animal helpers, or generic categories into character nodes.",
+    "in_scope_character_count": 11,
+    "completed_character_count": 11,
+    "omissions": [
+      "All other Afanasyev tale numbers, including other Koshchei, Baba Yaga, Firebird, dragon, revenant, household-spirit, and witch narratives.",
+      "Unnamed animal helpers, the unnamed foreign bird, lioness, Koshchei’s unnamed horse, Baba Yaga’s herd, parents, armies, places, artifacts, and waters in tale no. 159.",
+      "Ukrainian, Belarusian, Polish, Czech, Slovak, Slovene, Croatian, Serbian, Bulgarian, Macedonian, and other Slavic traditions; local Russian variants not represented by this printed text; living ritual and religious contexts; and all later literary, film, tabletop, and game adaptations."
+    ],
+    "uncertainties": [
+      "‘Slavic folklore’ is an orientation label in the corpus, not a single canon. This evidence only supports the particular Russian/East Slavic tale witness named here.",
+      "The tale’s orthography and English transliteration vary (Кощей/Кащей; Марья/Мария; Бессмертный/Bessmertnyi). Original Russian labels are retained where possible.",
+      "The animal-form suitors are uniquely designated by species/form rather than given personal names. They are included only because this one witness treats each as an individual marriage partner and acting helper; they do not establish a generic shapeshifter people.",
+      "Baba Yaga in this passage is a named/designated individual antagonist and keeper of horses. This does not support an identity claim about every Baba Yaga or an equation with a universal witch class."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary tale text in a scholarly digital edition, with page-level locators. The bibliographic record identifies the edition and pages. The pass is complete only against the declared named-agent rule for no. 159.",
+    "citations": [
+      {
+        "url": "https://feb-web.ru/feb/skazki/texts/af0/af1/af1r-300.html",
+        "locator": "ФЭБ record, Народные русские сказки А. Н. Афанасьева, vol. 1 (1984), pp. 300–305",
+        "supports": ["The declared witness is tale no. 159 in the 1984 scholarly edition."]
+      },
+      {
+        "url": "https://feb-web.ru/feb/skazki/texts/af0/af1/af1-300-.htm?cmd=p",
+        "locator": "Tale no. 159, pp. 300–305",
+        "supports": ["The character, relationship, and source-term claims in this pass are limited to the supplied tale text."]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

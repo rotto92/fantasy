@@ -1,0 +1,37 @@
+[
+  {
+    "source_id":"SRC-155",
+    "source_title":"Might & Magic VI: The Mandate of Heaven",
+    "continuity_scope":"The original English Windows PC release of Might & Magic VI: The Mandate of Heaven (1998), as witnessed by its credited 3DO/New World Computing user manual and getting-started card. This is the numbered sixth game only: earlier numbered games, Heroes, other Might & Magic spinoffs, later games, remasters/digital storefront builds, patches, adaptations, and other continuities are outside this pass.",
+    "work_or_witnesses":[
+      "Might & Magic VI User Manual, written by D. G. Chichester; © 1998 The 3DO Company; New World Computing division credit",
+      "Might & Magic VI: The Mandate of Heaven Getting Started card, © 1998 The 3DO Company; New World Computing division credit",
+      "Ubisoft: Might and Magic brand page (current franchise ownership/orientation only)"
+    ],
+    "coverage_rule":"All individually named, plot-active dramatic agents who receive a specific role, action, kinship, appointment, investigation, rescue, command, or historical-conflict statement in the manual's Klavis Verge framing and its printed Roland letters (printed pp. 5–15): Klavis Verge, Roland Ironfist, Catherine, Nicolai, Kilburn, Acton Spindler, Aaron Hampton, Fineous Hogworth, Ragnar, Tanir, Sulman, Wilbur Humphrey, Rocklin, and Archibald. Player-created party members, generic followers, generic councilmen, unlabelled Oracle, unnamed messenger/stranger/necromancer, named places, factions, classes, creatures, spells, artifacts, and systems are excluded as non-nodes or insufficiently individualised by this witness.",
+    "in_scope_character_count":14,
+    "completed_character_count":14,
+    "omissions":[
+      "All player-created or quick-start party members: the getting-started card says a player can create/change a party member's portrait, name, class, statistics, and skills, so they are variable rather than stable canonical NPC nodes.",
+      "Unnamed or collective figures, including the Oracle, Temple of Baa, council, gods, devils/demons, adventurers, Rangers, soldiers, NPC followers, the unnamed messenger, stranger, and prior castle owner.",
+      "Classes, skills, spell realms, races/species, monsters, artifacts, towns, Enroth, sci-fantasy interface metaphors, quests, all mechanics, and historical events as character nodes.",
+      "Might and Magic I–V, VII and later numbered games; Heroes and all other spinoff/reboot/continuity material; localized text; post-1998 patches, digital builds, mods, walkthroughs, fan wikis, Wikipedia, and database claims."
+    ],
+    "uncertainties":[
+      "The original manual is accessed through non-rightsholder preservation hosts. It visibly bears 1998 3DO/New World Computing copyright/trademark notices, but host authorization, scan completeness, OCR fidelity, and current rights status are not independently established; each claim remains limited to clear manual text and page locators.",
+      "The current Ubisoft brand page confirms a broad franchise spanning many games, but it does not provide claim-level evidence for this 1998 game's characters and is not used for character assertions.",
+      "The manual's framing/letters are not a complete in-game NPC directory. This is a complete pass only for the stated manual-profile rule, not a claim that these are every named character encountered in a playthrough.",
+      "The letters contain pre-game history and possible outcomes; no ending, hidden identity, game-state result, or later-continuity fact is inferred. 'Queen Catherine' and 'King Roland' are used as the manual's names/titles without adding an unstated family name for Catherine.",
+      "The getting-started card describes both custom creation and a pregenerated-party option; neither supplies a fixed, named player-character cast. No player-avatar relationship edge or party outcome is asserted."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Direct original-game documentation: a 1998 3DO/New World Computing copyrighted manual and getting-started card, consulted via preservation-host scans, plus Ubisoft's current high-level brand page for franchise breadth. No fan wiki, Wikipedia, secondary walkthrough, or community database is canonical evidence.",
+    "citations":[
+      {"url":"https://retrogamer.biz/wp-content/uploads/2017/01/Might_and_Magic_6_manual.pdf","locator":"PDF printed pp. 2, 5–15, 23–24, 40, and copyright/warranty pages","supports":["1998 3DO manual identity; named prologue/letter coverage; Enroth, Mandate, Temple, party creation, classes, and skills"]},
+      {"url":"https://www.mocagh.org/nwc/mm6-manual.pdf","locator":"Scanned user manual: title/copyright page and printed pp. 5–15","supports":["Independent preservation witness of the 1998 manual's copyright attribution and named opening narrative"]},
+      {"url":"https://www.mocagh.org/nwc/mm6se-startup.pdf","locator":"Getting Started: page 1, 'After the introduction sequence' and 'Character Creation'","supports":["Windows-era startup, New Sorpigal start, player-created party variability, and New World Computing/3DO credit"]},
+      {"url":"https://www.ubisoft.com/en-us/company/about-us/our-brands/might-and-magic","locator":"Might and Magic brand page, first paragraph","supports":["The franchise's broad multi-game, multi-platform scope that is explicitly excluded beyond this bounded 1998 game"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

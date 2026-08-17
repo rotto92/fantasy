@@ -1,0 +1,68 @@
+[
+  {
+    "source_id": "SRC-108",
+    "source_title": "World of Darkness / Vampire: The Masquerade",
+    "continuity_scope": "Vampire: The Masquerade Fifth Edition Roleplaying Game Core Rulebook (V5), the current 428-page Renegade/official World of Darkness store printing. The public product record identifies a fifth-edition tabletop roleplaying game set in the World of Darkness and says the printing contains all previous Core Rulebook errata plus V5 Companion errata; it does not state its original or this printing's publication date. This pass is V5 Vampire only, not an umbrella pass for World of Darkness lines: it excludes Chronicles of Darkness, all pre-V5 Vampire editions, other V5 lines, supplements, novels, comics, videogames, card/board games, LARP, and home chronicles.",
+    "work_or_witnesses": [
+      {
+        "work": "Vampire: The Masquerade 5th Edition Roleplaying Game Core Rulebook",
+        "edition": "V5, current Renegade 428-page hardcover printing; public product page has no stated publication date.",
+        "url": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-core-rulebook/"
+      },
+      {
+        "work": "Vampire: The Masquerade, 5th edition Core Book",
+        "edition": "Official World of Darkness Store product page; used for product-level rules and setting terminology.",
+        "url": "https://store.worldofdarkness.com/products/vampire-the-masquerade-5th-edition-core-book.html"
+      },
+      {
+        "work": "Vampire: The Masquerade 5th Edition Roleplaying Game Player's Guide",
+        "edition": "Official Renegade sourcebook listing; used only to distinguish supplementary clan/power material from the core witness.",
+        "url": "https://uk.renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-player-s-guide/"
+      }
+    ],
+    "coverage_rule": "Terms-only rules/setting audit. The accessible official core product pages establish V5's personal/political-horror and Hunger-focused rules frame, but do not expose a bounded, claim-level corpus of named dramatic-character profiles. No character or relationship records are made. Clans, splats, factions, Disciplines, powers, morality systems, supernatural kinds, items, places, and rules remain terms/dimensions. Named characters may only be added under a separate exact official narrative/profile witness; product copy and Loresheet references are not enough.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named Kindred, hunters, mortal characters, historical figures, and Storyteller characters, because the selected accessible core-store material has no claim-level named-character cohort.",
+      "All clans, bloodlines, factions, Disciplines, powers, morality systems, supernatural kinds, artifacts, places, and rules as character nodes.",
+      "Chronicles of Darkness, earlier Vampire editions, V5 Player's Guide, Camarilla/Anarch/Sabbat and other supplements, fiction, comics, videogames, card/board games, live-action products, unofficial material, and home chronicles."
+    ],
+    "content_cautions": [
+      "The publisher labels the core book mature, with graphic and written violence, sexual themes, and strong language. Its personal and political horror also centers on predation, coercion, blood, loss of control, and fading humanity; tables should set and honor explicit consent and safety boundaries.",
+      "Vampirism, Hunger, Humanity, religion, criminality, and political institutions are fictional game constructs here. They must not be used to diagnose real people, trivialize violence or abuse, or map clans and factions onto real ethnic, religious, sexual, or social groups."
+    ],
+    "uncertainties": [
+      "The selected current public product listings identify the edition and incorporated errata but omit a publication date; the audit records that absence rather than assigning an inferred date.",
+      "Renegade says V5 honors prior Vampire history while advancing its metaplot and redesigning rules. This pass does not reconcile prior-edition canon, decide a retcon's scope, or transfer claims across editions.",
+      "The current printing incorporates listed errata, but individual revised passages are not visible in the accessible product description. No page-specific rules claim is inferred from the errata statement.",
+      "The V5 Player's Guide explicitly consolidates clan and power material not in the core book; it is cited only to mark the supplement boundary, not as evidence for core mechanics or characters."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Renegade Game Studios and official World of Darkness Store product records only. They establish V5's current core-product identity, personal/political-horror premise, Hunger, fading Humanity, coterie/Loresheet/Memoriam terminology, continuation/revision statement, mature-content warning, and incorporated errata statement. No wiki or unofficial continuity guide is used.",
+    "citations": [
+      {
+        "url": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-core-rulebook/",
+        "locator": "Core Rulebook Description, Features, Mature Content Warning, and At a Glance",
+        "supports": [
+          "V5 core witness, 428-page current printing, personal/political horror, Hunger and fading-humanity premise, metaplot/rules-revision statement, mature warning, and incorporation of prior core and V5 Companion errata."
+        ]
+      },
+      {
+        "url": "https://store.worldofdarkness.com/products/vampire-the-masquerade-5th-edition-core-book.html",
+        "locator": "Description: fifth edition and Hunger cycle, coteries, Loresheets, and The Memoriam",
+        "supports": [
+          "Official World of Darkness product framing and V5-specific game terminology."
+        ]
+      },
+      {
+        "url": "https://uk.renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-player-s-guide/",
+        "locator": "Player's Guide Description and Features",
+        "supports": [
+          "The Player's Guide is a separate sourcebook and collects clans and Discipline material not included in the core book."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "fantasy-concept-constellations",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:v3": ".venv/bin/python scripts/build_version3.py",
+    "extract": ".venv/bin/python scripts/extract_atlas.py",
+    "research:validate": ".venv/bin/python scripts/validate_character_research.py",
+    "generate:constellations": ".venv/bin/python scripts/build_constellation_data.py",
+    "generate:discovery": ".venv/bin/python scripts/build_discovery_index.py",
+    "generate:v4": ".venv/bin/python scripts/build_version4.py",
+    "dev": "vite",
+    "build": "npm run generate:v3 && npm run extract && npm run research:validate && npm run generate:constellations && npm run generate:discovery && npm run generate:v4 && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:smoke": "node tests/smoke.mjs",
+    "test:discovery": "node tests/discovery.mjs",
+    "test:static": "node tests/static-base.mjs"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "playwright-core": "^1.62.1",
+    "typescript": "7.0.2",
+    "vite": "8.2.0"
+  }
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "term_id": "STM-SRC013-001",
+    "source_id": "SRC-013",
+    "canonical_term": "nṯr",
+    "original_language": "Middle Egyptian",
+    "original_script": "nṯr",
+    "transliteration": "nṯr",
+    "literal_gloss": "god",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401"
+    ],
+    "mapping_relation": "partial",
+    "definition": "divine office. Named divine figures in the judgment vignette.",
+    "cultural_caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category.",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "EA10470,3 frame 3",
+        "supports": [
+          "Named divine figures in the judgment vignette."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC013-002",
+    "source_id": "SRC-013",
+    "canonical_term": "nswt",
+    "original_language": "Middle Egyptian",
+    "original_script": "nswt",
+    "transliteration": "nswt",
+    "literal_gloss": "king",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "king. The narrative disputes the royal office of Osiris.",
+    "cultural_caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category.",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "The narrative disputes the royal office of Osiris."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC013-003",
+    "source_id": "SRC-013",
+    "canonical_term": "mꜣꜥt",
+    "original_language": "Middle Egyptian",
+    "original_script": "mꜣꜥt",
+    "transliteration": "mꜣꜥt",
+    "literal_gloss": "truth, order, rightness",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Maat. Maat is represented by the feather in the balance.",
+    "cultural_caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category.",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "EA10470,3 frame 3",
+        "supports": [
+          "Maat is represented by the feather in the balance."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC013-004",
+    "source_id": "SRC-013",
+    "canonical_term": "rn",
+    "original_language": "Middle Egyptian",
+    "original_script": "rn",
+    "transliteration": "rn",
+    "literal_gloss": "name",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "name. The spell’s declarations are addressed to named assessors; names have ritual force in this formulaic context.",
+    "cultural_caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category.",
+    "citations": [
+      {
+        "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bd125a.html",
+        "locator": "Book of the Dead of Nu, Spell 125B, address to assessors",
+        "supports": [
+          "The spell’s declarations are addressed to named assessors; names have ritual force in this formulaic context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC013-005",
+    "source_id": "SRC-013",
+    "canonical_term": "bꜣ",
+    "original_language": "Middle Egyptian",
+    "original_script": "bꜣ",
+    "transliteration": "bꜣ",
+    "literal_gloss": "mobile manifestation",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "ba. A source-native personhood/afterlife term retained without a generic soul mapping.",
+    "cultural_caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category.",
+    "citations": [
+      {
+        "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bd125a.html",
+        "locator": "Book of the Dead of Nu, Chapter 125 context and associated Book of the Dead tradition",
+        "supports": [
+          "A source-native personhood/afterlife term retained without a generic soul mapping."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC013-006",
+    "source_id": "SRC-013",
+    "canonical_term": "ḫprw",
+    "original_language": "Middle Egyptian",
+    "original_script": "ḫprw",
+    "transliteration": "ḫprw",
+    "literal_gloss": "forms; transformations",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "kheperu. A source-native category of becoming/forms; no claim that this spell alone exhausts its use.",
+    "cultural_caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category.",
+    "citations": [
+      {
+        "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bd125a.html",
+        "locator": "Book of the Dead corpus context; Spell 125 is one component of a wider funerary collection",
+        "supports": [
+          "A source-native category of becoming/forms; no claim that this spell alone exhausts its use."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  }
+]

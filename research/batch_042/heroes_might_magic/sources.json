@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-156",
+    "source_title":"Heroes of Might and Magic III: The Restoration of Erathia",
+    "continuity_scope":"The original English PC release of Heroes of Might and Magic III: The Restoration of Erathia (1999), bounded to the named campaign-story frame in its original 3DO/New World Computing player manual. This is a Heroes strategy-game pass, separate from SRC-155's original Might & Magic VI RPG pass even where the manual reuses a setting or character name. Armageddon's Blade, The Shadow of Death, the later Complete package, HD/remaster/digital changes, other Heroes titles, and numbered Might & Magic games are excluded.",
+    "work_or_witnesses":[
+      "Heroes of Might and Magic III Player Manual, © 1999 The 3DO Company; New World Computing division credit; Introduction printed pp. 4–5",
+      "Ubisoft Heroes of Might and Magic III Complete product page (current edition/bundle boundary only)",
+      "Ubisoft Heroes franchise page (current generic franchise-mechanics orientation only)"
+    ],
+    "coverage_rule":"All stable individually named dramatic agents directly named and role-described in the original manual's campaign-story introduction (printed pp. 4–5): Queen Catherine, Nicolas Gryphonheart, and Wilbur Humphrey. The addressee is only 'Commander' and remains unnamed; generic selectable/recruitable 'heroes', hero classes, forces, players, creatures, towns, campaign perspectives, maps, artifacts, spells, and factions are terms/mechanics rather than character nodes. No name appearing only in a generic individual-hero roster is added without campaign-story characterization in this witness.",
+    "in_scope_character_count":3,
+    "completed_character_count":3,
+    "omissions":[
+      "The unnamed Commander/player avatar, all player-selected forces, starting heroes, player names, and campaign/scenario outcomes. The manual permits player choice of opponents, starting town, starting hero, and starting bonus.",
+      "Generic and roster-listed heroes, hero classes, creatures, factions/town types, campaign sides, artifacts, spells, skills, maps, victory/loss conditions, and multiplayer participants as character nodes.",
+      "All named campaign material absent from the manual's short Introduction; the source does not constitute a complete in-game campaign dialogue, cutscene, map-event, or hero biography archive.",
+      "The expansions Armageddon's Blade and The Shadow of Death, Ubisoft's later Complete bundle, HD/remastered/localized/digital variants, sequels/prequels, Heroes Chronicles, and all other Might & Magic continuities."
+    ],
+    "uncertainties":[
+      "The manual is a 1999 3DO/New World Computing copyrighted primary document accessed through a non-rightsholder preservation/transcription host. Its copyright credit is explicit, but host authorization, scan completeness, OCR/transcription accuracy, and current rights status are not independently verified; claims are limited to clear page-specific manual wording.",
+      "Ubisoft currently sells a Complete package that includes the original game and two expansions. That confirms the bundle distinction but does not make expansion events or changes part of the original Restoration of Erathia scope.",
+      "The manual's Introduction creates a pre-campaign setup, including Nicolas's death and Catherine's suspicion of foul play. It does not establish a culprit, an ending, a player choice, or later character developments.",
+      "Catherine's name and broad world context overlap with other franchise works; this pass does not collapse their continuity, attributes, family names, or outcomes. The records contain only the claims made in the Heroes III manual witness.",
+      "Campaign games are linked scenarios told from good, neutral, or evil perspectives, and scenario slots can be human or CPU controlled. Perspective and player control are not character identity or canonical conduct."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Original-game primary documentation: the 1999 3DO/New World Computing credited player manual, via a preservation/transcription host. Ubisoft's current product and franchise pages support edition/franchise boundaries only. No fan wiki, Wikipedia, walkthrough, data mine, secondary database, or community list is canonical evidence.",
+    "citations":[
+      {"url":"https://manualmachine.com/gamespc/heroesofmightandmagiciii/1119554-user-manual/","locator":"ManualMachine transcription: pages 2–5, 8–12, and 118+; ©1999 credit at page 2","supports":["1999 3DO/New World Computing manual identity, campaign-story introduction, campaign/scenario selection and player choice, and generic hero roster boundary"]},
+      {"url":"https://www.ubisoft.com/en-us/games/heroes-of-might-and-magic-iii/editions/complete","locator":"About this game; release date/platform fields","supports":["Original Heroes III plus two-expansion Complete-package boundary, 28 February 1999 date, and PC platform"]},
+      {"url":"https://www.ubisoft.com/en-us/franchises/might-and-magic","locator":"Discover Heroes of Might and Magic: 'Lead Your Army Into Battle' and 'Build and Conquer'","supports":["Current franchise's generic recruit/level heroes, armies, towns, and tactical-play framing"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

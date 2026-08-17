@@ -1,0 +1,122 @@
+[
+  {
+    "term_id": "STM-SRC108-001",
+    "source_id": "SRC-108",
+    "canonical_term": "Kindred",
+    "original_language": "English game/setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "The vampiric people/world category named in the V5 core product's setting description.",
+    "cultural_caution": "A fictional supernatural category in a horror game, not a description of real people, identity, illness, predatory behavior, or religious belief.",
+    "citations": [
+      {
+        "url": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-core-rulebook/",
+        "locator": "Description: world of the Kindred up until tonight",
+        "supports": [
+          "Renegade uses Kindred for the V5 setting's vampiric world."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC108-002",
+    "source_id": "SRC-108",
+    "canonical_term": "Hunger",
+    "original_language": "English game/setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "The vampire's blood-thirst state and a named V5 game cycle that can threaten a character's control.",
+    "cultural_caution": "A fictional horror and game-mechanical construct, not an account of addiction, eating disorders, violence, consent, or any real medical/psychological state.",
+    "citations": [
+      {
+        "url": "https://store.worldofdarkness.com/products/vampire-the-masquerade-5th-edition-core-book.html",
+        "locator": "Description: Hunger and the innovative Hunger cycle",
+        "supports": [
+          "Official product page describes the Hunger and calls the Hunger cycle a V5 game feature."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC108-003",
+    "source_id": "SRC-108",
+    "canonical_term": "Humanity",
+    "original_language": "English game/setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "The V5 core product's named framing of a vampire's fading human connection.",
+    "cultural_caution": "A source-specific fictional moral-horror concept. It is not a measure of real human worth, morality, disability, mental health, personhood, or eligibility for care and respect.",
+    "citations": [
+      {
+        "url": "https://renegadegamestudios.com/vampire-the-masquerade-5th-edition-roleplaying-game-core-rulebook/",
+        "locator": "Description: survival, supremacy, and fading humanity",
+        "supports": [
+          "Renegade identifies fading humanity as part of the V5 vampire premise."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC108-004",
+    "source_id": "SRC-108",
+    "canonical_term": "coteries",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "functional",
+    "definition": "The system-supported character group structure identified by the V5 core product page.",
+    "cultural_caution": "A player-group construction tool, not evidence that a named figure belongs to a given faction or that real social groups operate by V5 rules.",
+    "citations": [
+      {
+        "url": "https://store.worldofdarkness.com/products/vampire-the-masquerade-5th-edition-core-book.html",
+        "locator": "Description: system-supported character coteries",
+        "supports": [
+          "Official product page identifies rules for creating system-supported character coteries."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC108-005",
+    "source_id": "SRC-108",
+    "canonical_term": "Loresheets and The Memoriam",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Named V5 core-game tools for connecting player characters to setting elements and for expanding character backgrounds in play.",
+    "cultural_caution": "Player-facing narrative mechanics, not proof of a canonical historical relationship, memory, identity, or event. Their use does not make home-chronicle results part of this source pass.",
+    "citations": [
+      {
+        "url": "https://store.worldofdarkness.com/products/vampire-the-masquerade-5th-edition-core-book.html",
+        "locator": "Description: Loresheets and The Memoriam",
+        "supports": [
+          "Official product page identifies Loresheets and The Memoriam as V5 game features."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

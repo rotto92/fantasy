@@ -1,0 +1,50 @@
+[
+  {
+    "term_id": "STM-SRC078-001",
+    "source_id": "SRC-078",
+    "canonical_term": "cultivator",
+    "original_language": "English official translation",
+    "original_script": "cultivator",
+    "transliteration": "not applicable",
+    "literal_gloss": "official translation role label",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official English synopsis calls both Wei Wuxian and Lan Wangji cultivators with spiritual and martial capacities.",
+    "cultural_caution": "This translated synopsis term is not equated with a generic class, school, sect, or real-world religious practice.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-1/",
+        "locator": "Official synopsis, lines 46–47",
+        "supports": [
+          "Cultivator labels and the synopsis-level ability context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC078-002",
+    "source_id": "SRC-078",
+    "canonical_term": "demonic cultivation",
+    "original_language": "English official translation",
+    "original_script": "demonic cultivation",
+    "transliteration": "not applicable",
+    "literal_gloss": "official translation name for a power path",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The new power Wei Wuxian seeks during war in the official volume-one synopsis.",
+    "cultural_caution": "The synopsis does not define the term's practices, ethics, metaphysics, or relation to any generic demon-magic category.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-1/",
+        "locator": "Official synopsis, line 46",
+        "supports": [
+          "Wei Wuxian's turn to demonic cultivation."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

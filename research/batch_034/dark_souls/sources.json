@@ -1,0 +1,38 @@
+[
+  {
+    "source_id":"SRC-148",
+    "source_title":"Dark Souls",
+    "continuity_scope":"DARK SOULS REMASTERED, English-language Bandai Namco product-page boundary: the remastered release of 2011's Dark Souls, with Artorias of the Abyss included. This pass uses the official English product/release/patch witnesses and does not conflate original, Prepare to Die, regional editions, later Remastered patches, Dark Souls II/III, trilogy packages, adaptations, or external interpretations.",
+    "work_or_witnesses":[
+      "Bandai Namco Entertainment: DARK SOULS: REMASTERED official product page",
+      "FromSoftware/Bandai Namco: DARK SOULS REMASTERED coming to multiple current-generation platforms",
+      "Bandai Namco Europe: Rekindle your humanity with DARK SOULS: REMASTERED",
+      "Bandai Namco Europe: Dark Souls: Remastered patch note 1.03"
+    ],
+    "coverage_rule":"Zero-character evidence-constrained pass. The selected official product, release, and patch witnesses establish edition/package, Lordran, Curse, player-authored playstyle, online covenants, multiplayer, and a player-avatar address ('Chosen Undead'), but do not provide reproducible, claim-level named NPC/boss profiles or direct in-game dialogue/item-description locators. The Chosen Undead is an excluded player role, not a stable named node. No fan source is used to manufacture a cast.",
+    "in_scope_character_count":0,
+    "completed_character_count":0,
+    "omissions":[
+      "The Chosen Undead/player avatar, all selected class/build, covenant, multiplayer role, choices, actions, endings, and New Game cycles.",
+      "All named NPCs, bosses, deities, invaders, summons, merchants, and other dramatic individuals because the selected first-party witnesses lack individual claim-level profiles or direct dialogue/item-description locators.",
+      "Covenants, classes, species, bosses as categories, items, weapons, armor, spells, crafting, places, cycles, multiplayer systems, and patch bugs as character nodes.",
+      "Original and Prepare to Die release states as separate detailed witnesses; regional/localized versions; later patches; Dark Souls II, Dark Souls III, trilogy package material; adaptations; fan/community/wiki sources, walkthroughs, item-description transcriptions, data-mines, and secondary character databases."
+    ],
+    "uncertainties":[
+      "The official current product pages are high-level promotional/edition witnesses. Direct in-game dialogue and item descriptions—the primary basis needed for detailed character claims—were not accessible in the reviewed first-party sources. This audit remains terms-only rather than substituting fan transcriptions.",
+      "Dark Souls uses intentionally sparse and potentially interpretive in-world text in its item descriptions and dialogue, but no such direct text is cited here. No lore inference, contested chronology, motivation, identity, or relationship is asserted.",
+      "The product page uses English marketing terminology; original Japanese text and other localization phrasing were not collated, so no translation-equivalence claim is made.",
+      "Remastered includes Artorias of the Abyss, has enhanced online functions, and has patch-specific behavior. This pass records the package/boundary only and does not infer uniform online service, balance, or story experience across time/platforms.",
+      "The official product pitch says playthroughs reveal new facets and online interactions can involve collaboration, confrontation, support, or betrayal. These are player-dependent systems, not universal narrative events or relationships."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Bandai Namco and FromSoftware product, press-release, and patch-note pages only. No fan wiki, Wikipedia, community guide, item-transcription database, lore video, walkthrough, mod, or secondary source is used as canonical evidence.",
+    "citations":[
+      {"url":"https://www.bandainamcoent.com/games/dark-souls-remastered","locator":"Overview: 'Then, There Was Fire'; Deep and Dark Universe; Each End is a New Beginning; Gameplay Richness and Possibilities","supports":["Remastered identity, included Artorias DLC, Lordran, decline/Curse framing, repeat-play framing, and build options"]},
+      {"url":"https://www.fromsoftware.jp/ww/pressrelease/20180112_darksoulsremastered_releasedate.html","locator":"Release announcement: edition comparison and Product Information","supports":["Original-2011 relation, regional 2018 release dates, included DLC, platform/online differences, and publisher boundary"]},
+      {"url":"https://en.bandainamcoent.eu/dark-souls/news/rekindle-your-humanity-dark-souls-remastered","locator":"Article body: Lordran, character building, nine online covenants, and up-to-six-player online play","supports":["Lordran, player customization, covenants, multiplayer, and player-choice system framing"]},
+      {"url":"https://en.bandainamcoent.eu/dark-souls/news/dark-souls-remastered-patch-note-103","locator":"Patch note 1.03: greeting and All Platforms notes","supports":["Chosen Undead address, patch-specific behavior, online/offline maintenance, and named-boss mentions insufficient for character profiling"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

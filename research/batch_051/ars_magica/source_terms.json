@@ -1,0 +1,174 @@
+[
+  {
+    "term_id": "STM-SRC104-001",
+    "source_id": "SRC-104",
+    "canonical_term": "Mythic Europe",
+    "original_language": "English Ars Magica setting terminology",
+    "original_script": "Mythic Europe",
+    "transliteration": "not applicable",
+    "literal_gloss": "fictionalized medieval-European setting",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The fictional game setting in which the Standard 5E core book places wizards and their allies.",
+    "cultural_caution": "A fantasy roleplaying setting that blends history and fantasy; it is not a source for real medieval European, religious, legal, or cultural history.",
+    "citations": [
+      {
+        "url": "https://www.atlas-games.com/product_tables/AG0205",
+        "locator": "Official Standard Edition product page, opening description",
+        "supports": [
+          "Mythic Europe as the selected Standard 5E setting context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC104-002",
+    "source_id": "SRC-104",
+    "canonical_term": "magus / magi",
+    "original_language": "English Ars Magica role terminology",
+    "original_script": "magus / magi",
+    "transliteration": "not applicable",
+    "literal_gloss": "wizard player-character role",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The wizard role identified by the Standard 5E core product and labeled on the official character sheet.",
+    "cultural_caution": "A fictional tabletop role, not a real historical occupation, a claim about real practitioners, or a named character endpoint.",
+    "citations": [
+      {
+        "url": "https://www.atlas-games.com/product_tables/AG0205",
+        "locator": "Official Standard Edition product page, opening description",
+        "supports": [
+          "Magi as player wizards in the selected core game."
+        ]
+      },
+      {
+        "url": "https://www.atlas-games.com/pdf_storage/arm5charsheet.pdf",
+        "locator": "Official Fifth Edition Character Sheet, header",
+        "supports": [
+          "Magus as the character-sheet role label."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC104-003",
+    "source_id": "SRC-104",
+    "canonical_term": "covenant",
+    "original_language": "English Ars Magica setting/rules terminology",
+    "original_script": "Covenant",
+    "transliteration": "not applicable",
+    "literal_gloss": "shared magus community",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The shared group/community structure in which the core product describes magi gathering with allies and servants; it is also a character-sheet field.",
+    "cultural_caution": "A fictional game-community and record field, not a collective character endpoint, a real legal/religious covenant, or evidence of a particular character’s membership.",
+    "citations": [
+      {
+        "url": "https://www.atlas-games.com/product_tables/AG0205",
+        "locator": "Official Standard Edition product page, opening description",
+        "supports": [
+          "Covenants as the core game’s shared magus setting structure."
+        ]
+      },
+      {
+        "url": "https://www.atlas-games.com/pdf_storage/arm5charsheet.pdf",
+        "locator": "Official Fifth Edition Character Sheet, header ‘Covenant’ field",
+        "supports": [
+          "Covenant as a selected Fifth Edition character-record field."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC104-004",
+    "source_id": "SRC-104",
+    "canonical_term": "troupe-style roleplaying",
+    "original_language": "English Ars Magica rules terminology",
+    "original_script": "troupe-style roleplaying",
+    "transliteration": "not applicable",
+    "literal_gloss": "shared-character-play structure",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Standard 5E core product’s play structure in which each player has a magus, a companion, and shares grogs within a saga.",
+    "cultural_caution": "A tabletop play structure, not an in-world social class or a claim that every saga must use the same character rotation.",
+    "citations": [
+      {
+        "url": "https://www.atlas-games.com/product_tables/AG0205",
+        "locator": "Official Standard Edition product page, description bullet on troupe-style roleplaying",
+        "supports": [
+          "Troupe-style roleplaying and its magus/companion/grog structure."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC104-005",
+    "source_id": "SRC-104",
+    "canonical_term": "Magical Arts",
+    "original_language": "English Ars Magica rules terminology",
+    "original_script": "Magical Arts",
+    "transliteration": "not applicable",
+    "literal_gloss": "magic-system categories",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Standard 5E core magic-system category, recorded as ‘Magical Arts’ on the official character sheet and described as divided into Techniques and Forms.",
+    "cultural_caution": "A source-specific tabletop magic structure, not a real occult system, a character endpoint, or a general equivalence claim for other fantasy magic rules.",
+    "citations": [
+      {
+        "url": "https://www.atlas-games.com/product_tables/AG0205",
+        "locator": "Official Standard Edition product page, magic-system description",
+        "supports": [
+          "Arts as the Standard 5E magic-system structure."
+        ]
+      },
+      {
+        "url": "https://www.atlas-games.com/pdf_storage/arm5charsheet.pdf",
+        "locator": "Official Fifth Edition Character Sheet, ‘Magical Arts’ section",
+        "supports": [
+          "Magical Arts as the core-sheet label."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC104-006",
+    "source_id": "SRC-104",
+    "canonical_term": "Techniques and Forms",
+    "original_language": "English Ars Magica rules terminology",
+    "original_script": "Techniques and Forms",
+    "transliteration": "not applicable",
+    "literal_gloss": "magic verbs and nouns",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The verb-and-noun components that the Standard 5E product says players combine to represent spell effects.",
+    "cultural_caution": "A game-mechanical grammar for a fictional magic system, not a real ritual practice, a complete spell list, or a named character endpoint.",
+    "citations": [
+      {
+        "url": "https://www.atlas-games.com/product_tables/AG0205",
+        "locator": "Official Standard Edition product page, magic-system description",
+        "supports": [
+          "Techniques and Forms as the Arts’ verb-and-noun components."
+        ]
+      },
+      {
+        "url": "https://www.atlas-games.com/pdf_storage/arm5charsheet.pdf",
+        "locator": "Official Fifth Edition Character Sheet, ‘Magical Arts’ Technique and Form tables",
+        "supports": [
+          "Techniques and Forms as selected Fifth Edition sheet categories."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "relationship_id": "REL-SRC118-001",
+    "source_id": "SRC-118",
+    "source_character_id": "CHR-SRC118-004",
+    "target_character_id": "CHR-SRC118-005",
+    "relationship_type": "kin",
+    "label": "Kenrith twins",
+    "direction": "undirected",
+    "continuity": "Wilds of Eldraine WOE set story, August-September 2023",
+    "citations": [{"url": "https://magic.wizards.com/en/news/announcements/a-first-look-at-wilds-of-eldraine", "locator": "The Characters of Wilds of Eldraine", "supports": ["States that Will and Rowan are twins."]}],
+    "confidence": "high",
+    "note": "Only the directly stated sibling relationship is recorded; other episode interactions are excluded from this profile-bounded pass."
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "term_id": "STM-SRC010-001",
+    "source_id": "SRC-010",
+    "canonical_term": "jinn",
+    "original_language": "Arabic",
+    "original_script": "الجن",
+    "transliteration": "al-jinn",
+    "literal_gloss": "the concealed/invisible beings (etymological gloss is interpretive)",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-302"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A Qur'anic category of morally addressed nonhuman beings; the selected passages include a group who hear revelation and jinn who work for Sulayman by divine permission.",
+    "cultural_caution": "Do not equate jinn with 'genies,' wish-granters, demons, or a single fantasy species. The term has Qur'anic, theological, literary, regional, and living-context histories that must remain distinguished.",
+    "citations": [
+      {
+        "url": "https://quran.com/al-jinn/1",
+        "locator": "Qur'an 72:1",
+        "supports": [
+          "A company of jinn reports hearing a wondrous recitation."
+        ]
+      },
+      {
+        "url": "https://quran.com/al-jinn/14",
+        "locator": "Qur'an 72:14",
+        "supports": [
+          "The passage distinguishes those among the jinn who submit from those who deviate."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC010-002",
+    "source_id": "SRC-010",
+    "canonical_term": "shayatin",
+    "original_language": "Arabic",
+    "original_script": "الشياطين",
+    "transliteration": "al-shayāṭīn",
+    "literal_gloss": "the satans/devils",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A Qur'anic designation appearing in the selected Sulayman passage for beings subjected to work, and in the Adam passage for the whispering adversary.",
+    "cultural_caution": "Do not silently equate shayatin with all jinn, with Iblis alone, or with the taxonomy's Western-derived demon/devil families. The selected text uses distinct terms and later interpretation varies.",
+    "citations": [
+      {
+        "url": "https://quran.com/al-anbiya/82",
+        "locator": "Qur'an 21:82",
+        "supports": [
+          "Shayatin are described as subjected to dive and perform other work for Sulayman."
+        ]
+      },
+      {
+        "url": "https://quran.com/taha/120",
+        "locator": "Qur'an 20:120",
+        "supports": [
+          "The shaytan whispers to Adam in the cited narrative."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC010-003",
+    "source_id": "SRC-010",
+    "canonical_term": "ifrit",
+    "original_language": "Arabic",
+    "original_script": "عفريت",
+    "transliteration": "ʿifrīt",
+    "literal_gloss": "powerful/mighty one (context-dependent)",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-302"
+    ],
+    "mapping_relation": "partial",
+    "definition": "In Qur'an 27:39, an ifrit 'of the jinn' offers to bring the throne before Sulayman rises from his place. The passage supplies a designation, not a personal name.",
+    "cultural_caution": "This term is retained as a source term rather than turned into a character node or a fantasy 'efreet' subtype. Later literary and game uses are separate continuities.",
+    "citations": [
+      {
+        "url": "https://quran.com/an-naml/39",
+        "locator": "Qur'an 27:39",
+        "supports": [
+          "An ifrit of the jinn speaks and offers the stated action, without a personal name."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC010-004",
+    "source_id": "SRC-010",
+    "canonical_term": "marij min nar",
+    "original_language": "Arabic",
+    "original_script": "مارج من نار",
+    "transliteration": "mārij min nār",
+    "literal_gloss": "a smokeless/mingled flame of fire",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Qur'an 55:15 states that the jann was created from a marij of fire.",
+    "cultural_caution": "A translated creation phrase is not an elemental-stat block, damage type, or proof that all later jinn depictions share one body theory.",
+    "citations": [
+      {
+        "url": "https://quran.com/ar-rahman/15",
+        "locator": "Qur'an 55:15",
+        "supports": [
+          "The jann is stated to have been created from a smokeless/mingled flame of fire."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC010-005",
+    "source_id": "SRC-010",
+    "canonical_term": "al-ghayb",
+    "original_language": "Arabic",
+    "original_script": "الغيب",
+    "transliteration": "al-ghayb",
+    "literal_gloss": "the unseen",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "In the selected Sulayman account, the jinn are said not to know the unseen, a textual limit that cautions against blanket claims of jinn omniscience.",
+    "cultural_caution": "Al-ghayb is a religious concept, not an interchangeable 'spirit world,' hidden map layer, or divination mechanic.",
+    "citations": [
+      {
+        "url": "https://quran.com/saba/14",
+        "locator": "Qur'an 34:14",
+        "supports": [
+          "The jinn are said not to have known the unseen in the cited account."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC010-006",
+    "source_id": "SRC-010",
+    "canonical_term": "bi-idhni rabbihi",
+    "original_language": "Arabic",
+    "original_script": "بإذن ربه",
+    "transliteration": "bi-idhni rabbihi",
+    "literal_gloss": "by permission of his Lord",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The phrase qualifies the jinn's work before Sulayman in Qur'an 34:12.",
+    "cultural_caution": "The cited theological qualification must not be recast as evidence for ordinary conjuration, possession, enslavement, or a reproducible ritual of spirit binding.",
+    "citations": [
+      {
+        "url": "https://quran.com/saba/12",
+        "locator": "Qur'an 34:12",
+        "supports": [
+          "The jinn work before Sulayman by his Lord's permission."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "source_id":"SRC-141",
+    "source_title":"Planescape: Torment",
+    "continuity_scope":"Planescape: Torment: Enhanced Edition (Beamdog, 2017), English product/manual baseline. The audited in-game witness is only the official manual's first-area Mortuary walkthrough. The pass does not merge original-release mods, the Unfinished Business mod, other Planescape or Dungeons & Dragons works, later adaptations, or unsupported external dialogue transcripts.",
+    "work_or_witnesses":[
+      "Beamdog: Planescape: Torment: Enhanced Edition official product page",
+      "Beamdog: Planescape: Torment: Enhanced Edition Manual, Walkthrough: Dead... Again / Top Floor of the Mortuary (pp. 10–11)"
+    ],
+    "coverage_rule":"All named individual dramatic agents directly encountered or addressed in the manual's bounded Top Floor of the Mortuary walkthrough, plus the title-designated player protagonist whom that direct witness controls: the Nameless One, Morte, Dhall, and Ei-Vene. This is complete only for the exact opening-walkthrough witness. Named setting figures and later NPCs are omitted unless they are individually encountered within those cited walkthrough paragraphs.",
+    "in_scope_character_count":4,
+    "completed_character_count":4,
+    "omissions":[
+      "All named figures outside the manual's Top Floor of the Mortuary walkthrough, including figures named only in product-setting context such as the Lady of Pain, Fell, and Aoskar, and all later companions, antagonists, faction leaders, and quest NPCs.",
+      "Classes, alignments, player build choices, memories, beliefs, factions, planes, species, artifacts, keys, tattoos, spells, D&D systems, places, and mechanics as character nodes.",
+      "Optional companions, party composition, dialogue choices, quest outcomes, identity revelations, transformations, ending outcomes, and all material after the selected opening walkthrough.",
+      "The 1999 original as a distinct release, post-2017 patches/platform implementation changes, the Unfinished Business mod, other Planescape/D&D works, tie-ins, and adaptations."
+    ],
+    "uncertainties":[
+      "The Nameless One is a stable title-designated dramatic character, but player choices alter class, alignment, abilities, dialogue, and how information is interpreted; the record therefore does not treat build or later identity conclusions as fixed.",
+      "His countless prior lives and resurfacing memories are a source-premise claim; they are unreliable/partial from the protagonist's current perspective and are not expanded with later revelations.",
+      "The official manual walkthrough is intentionally spoiler-limited to the first area. Pass-complete here means complete only for its named encounter cohort, not the game's cast.",
+      "Enhanced Edition states that English, French, Polish, and German retain original localized voice-over and Korean uses Korean text with English voice-over. This pass preserves English names and does not merge localization variants.",
+      "Planescape: Torment is licensed Dungeons & Dragons material. Beamdog's pages establish its Enhanced Edition presentation and license context, not an exhaustive hierarchy for all Planescape tabletop canon."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Beamdog product material and official Beamdog manual text with page and walkthrough locators. No fan wiki, Wikipedia, community transcript, walkthrough, or secondary orientation source is used as canonical evidence.",
+    "citations":[
+      {"url":"https://www.beamdog.com/games/planescape-torment-enhanced/","locator":"The Story; Key Features; New in the Enhanced Edition; copyright lines","supports":["Enhanced Edition boundary, Nameless One/Morte premise, Sigil/Planescape terms, player choice, localization, and licensing"]},
+      {"url":"https://files.beamdog.com/files/PSTEE_Manual_en.pdf","locator":"VII: Walkthrough, Dead... Again and Top Floor of the Mortuary, pp. 10–11","supports":["Direct opening encounters and actions for the Nameless One, Morte, Dhall, and Ei-Vene"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

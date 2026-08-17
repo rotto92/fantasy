@@ -1,0 +1,51 @@
+[
+  {
+    "source_id": "SRC-250",
+    "source_title": "Legend",
+    "continuity_scope": "Ridley Scott's original Legend feature production (1985), restricted to the 89-minute U.S. theatrical release cataloged by AFI as released 18 April 1986. AFI documents that Universal shortened/rescored the U.S./Canadian theatrical version from an earlier 93-minute configuration and that the Goldsmith score remained in the international release. This pass uses only the opening prologue and opening-forest plot segment as AFI locates it; it does not combine the international theatrical cut, 2002 Director's Cut, score variants, novelization, deleted material, or later derivative works.",
+    "work_or_witnesses": [
+      "Legend, original Ridley Scott feature, selected U.S. theatrical release (89 minutes; 18 April 1986) of the 1985 production",
+      "American Film Institute Catalog record 57395, credits, cut-history note, prologue, and opening-forest synopsis"
+    ],
+    "coverage_rule": "Include every named individual dramatic character in the selected AFI opening prologue/forest segment: Jack, Lili/Lily, the Lord of Darkness, Blix, Honeythorn Gump, Brown Tom, and Nell. Unicorns, goblins, elves, fairies, Darkness as a cosmological condition, light, magic, mortal purity, soul language, the horn, the forest, winter, weapons, and the balance premise are terms/dimensions unless AFI clearly credits or narrates a named acting individual. Performers are not character records. Later named figures and unnamed husband/guards/creatures are excluded because they fall outside the selected opening boundary or lack individual names.",
+    "in_scope_character_count": 7,
+    "completed_character_count": 7,
+    "omissions": [
+      "All named figures first occurring after the selected opening-forest boundary, including Screwball, Pox, Blunder, Oona, and Meg Mucklebones, plus unnamed unicorns, goblins, elves, fairies, trolls, guards, and Nell's unnamed husband.",
+      "All exact film dialogue, later scenes, ending/outcome information, specific magical mechanics beyond the selected prologue/segment, actor performance, make-up, voice, stunt, or production-person claims.",
+      "The 1985 international theatrical configuration, 2002 Director's Cut, alternate scores, novelization, scripts not authorized for this pass, deleted scenes, home-video bonus material, and derivative/adapted works; fan wikis, Wikipedia, databases, reviews, and promotional reproductions."
+    ],
+    "uncertainties": [
+      "AFI's catalog is an authoritative film-history source, but its scene synopsis does not give timestamps or a cut-comparison for each listed event. Claims are therefore limited to opening plot material and never claim that a detail is unique to every release version.",
+      "The prologue spells the princess Lily, while AFI reports end credits as Lili. Both forms are retained for one person. AFI credits Jack as Jack [o' the Green], Gump as [Honeythorn] Gump, and Darkness as [Lord of] Darkness; bracketed forms are aliases/titles, not separate people.",
+      "The prologue calls Lily a girl and the synopsis calls her a princess, but neither supplies an age. No child/youth assertion is made. It establishes affection between Jack and Lili, but does not establish marriage, sexual activity, or consent beyond the limited scene description. The later coercive/captivity material is outside this pass.",
+      "The selected segment includes a poisoned unicorn, winter/frozen people, a sword cut to a unicorn horn, and imagined soul danger. These are fictional violence/fantasy elements; no detailed death, injury, self-harm, or real religious/cosmological claim is inferred."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "AFI Catalog record 57395 only: title/release/credit data, AFI's release-history discussion, opening prologue transcription, opening cast credits, and the precise opening-forest synopsis passage. No non-authoritative character database or secondary plot guide is used.",
+    "citations": [
+      {
+        "url": "https://catalog.afi.com/Film/57395-LEGEND",
+        "locator": "AFI Catalog header and history, lines 118–180",
+        "supports": [
+          "89-minute 18 April 1986 U.S. theatrical record, Ridley Scott direction, and the U.S./Canadian shortening/rescoring versus international-release score context"
+        ]
+      },
+      {
+        "url": "https://catalog.afi.com/Film/57395-LEGEND",
+        "locator": "AFI Catalog opening prologue, lines 161–173; credited cast, lines 289–419",
+        "supports": [
+          "Prologue character/status terms, Lili/Lily spelling variation, and credited character names"
+        ]
+      },
+      {
+        "url": "https://catalog.afi.com/Film/57395-LEGEND",
+        "locator": "AFI Catalog synopsis, opening-forest passage, lines 1538–1548",
+        "supports": [
+          "Selected named-character actions/relationships and unicorn/horn/forest premise"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

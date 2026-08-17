@@ -1,0 +1,147 @@
+[
+  {
+    "character_id": "CHR-SRC241-001",
+    "canonical_name": "Xie Lian",
+    "aliases": [],
+    "source_id": "SRC-241",
+    "source_title": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1",
+    "continuity": "Seven Seas authorized English paperback Volume 1 (2021), publisher-synopsis witness only",
+    "work_or_witness": "Official Seven Seas Volume 1 product-page synopsis",
+    "character_kind": "individual",
+    "description": "A former crown prince of a prosperous kingdom whose study and noble deeds led to godhood. The synopsis says he fell from the heavens and was banished to the world below, then eight hundred years after his mortal life ascended to godhood for a third time. Sent to the Mortal Realm to repay debts, he hunts violent ghosts and troublemaking spirits that prey on the living.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "god",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official Volume 1 synopsis says Xie Lian ascends to godhood; this is source-fiction terminology."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "former crown prince",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct Volume 1 synopsis description; no kingdom name or family detail is supplied."
+        },
+        {
+          "term": "Mortal Realm ghost-and-spirit hunter",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "He is sent to hunt violent ghosts and troublemaking spirits; no office title or procedure is inferred."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "source-fiction ascension to godhood",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The summary attributes godhood to dedicated study and noble deeds; it does not give cultivation or spiritual-power mechanics."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "third ascension to godhood",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct synopsis status eight hundred years after his mortal life."
+        },
+        {
+          "term": "banished from the heavens to the world below",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The synopsis says he falls and is banished; it does not describe a cause, manner, injury, or other fall history."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Mortal Realm",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Explicit assignment destination in the Volume 1 synopsis."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "fallen-and-reascended royal god",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Conservative synthesis of former crown-prince status, fall/banishment, and third ascension stated in the synopsis."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual and central figure in the selected official Seven Seas Volume 1 synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Xie Lian name, crown-prince origin, godhood, fall/banishment, third ascension, Mortal Realm mission, debts, and ghost/spirit hunting"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "God, heavens, ascension, banishment, ghosts, and spirits are terms in a Chinese historical-fantasy novel; they are not claims about a real religion or religious office.",
+      "The synopsis does not supply Chinese-script personal names, a kingdom name, temple/office/rank, cultivation mechanics, spiritual powers, artifacts, family identities, detailed violence, or the cause and number of Xie Lian's falls.",
+      "Debt and past horrors are fictional premise elements, not financial, safety, self-harm, or trauma guidance."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC241-002",
+    "canonical_name": "San Lang",
+    "aliases": [],
+    "source_id": "SRC-241",
+    "source_title": "Heaven Official's Blessing: Tian Guan Ci Fu (Novel) Vol. 1",
+    "continuity": "Seven Seas authorized English paperback Volume 1 (2021), publisher-synopsis witness only",
+    "work_or_witness": "Official Seven Seas Volume 1 product-page synopsis",
+    "character_kind": "individual",
+    "description": "A fascinating, brilliant young man whom Xie Lian meets while traveling and with whom Xie Lian feels an instant connection. The official synopsis signals that San Lang is more than he appears, without identifying what that means.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "mysterious young-traveler encounter",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The source calls him a fascinating and brilliant young man and states that he is more than he appears; no hidden identity is inferred."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in the selected official Seven Seas Volume 1 synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "San Lang name, young-man description, meeting with Xie Lian, instant connection, and statement that he is more than he appears"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The synopsis does not provide San Lang's Chinese-script name, underlying identity, age, rank, species, powers, affiliation, or outcome; none is supplied from franchise knowledge.",
+      "An instant connection is not recorded as a romance, sexual relationship, consent event, partnership, or enduring affiliation. The series-level danmei/Boys' Love label does not by itself establish a Volume 1 relationship outcome.",
+      "No adaptation characterization, visual design, voice performance, or later identity disclosure is imported."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]
