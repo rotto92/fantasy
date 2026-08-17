@@ -32,12 +32,22 @@ unix_local_paths = [
     slash + "etc/private-service.conf",
     slash + "opt/private/config.json",
     slash + "mnt/backup/private.txt",
+    slash + "srv/private/release.txt",
+    slash + "run/user/1000/token",
+    slash + "Volumes/private/release.txt",
     "file:" + slash * 3 + "root/.ssh/id_ed25519",
+    "file:" + slash * 3 + "srv/private/release.txt",
 ]
 assert all("machine-local-path" in kinds(scan_text(Path("fixture.txt"), value)) for value in unix_local_paths)
 APPROVED_PUBLIC_PATH_REFERENCES["fixture.txt"] = frozenset({unix_local_paths[2]})
 assert "machine-local-path" not in kinds(scan_text(Path("fixture.txt"), unix_local_paths[2]))
+APPROVED_PUBLIC_PATH_REFERENCES["fixture.txt"] = frozenset({slash + "fantasy/assets/app.js"})
+assert "machine-local-path" not in kinds(scan_text(Path("fixture.txt"), slash + "fantasy/assets/app.js"))
 APPROVED_PUBLIC_PATH_REFERENCES.pop("fixture.txt")
+assert "machine-local-path" not in kinds(
+    scan_text(Path("workbook.xlsx::[Content_Types].xml"), slash + "xl/worksheets/sheet1.xml")
+)
+assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), slash + "xl/private/notes.txt"))
 assert "unreviewed-opaque-binary" in kinds(review_opaque(Path("unreviewed.png"), b"opaque"))
 reviewed_path = Path(next(iter(REVIEWED_OPAQUE_FILES)))
 assert "opaque-binary-hash-mismatch" in kinds(review_opaque(reviewed_path, b"changed"))
@@ -60,7 +70,11 @@ with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
         "D:" + backslash + "private" + backslash + "release.txt\n"
         + backslash * 2 + "server" + backslash + "share" + backslash + "release.txt\n"
         + slash + "root" + slash + ".ssh" + slash + "id_ed25519\n"
-        + "file:" + slash * 3 + "etc" + slash + "private-service.conf",
+        + slash + "srv" + slash + "private" + slash + "release.txt\n"
+        + slash + "run" + slash + "user" + slash + "1000" + slash + "token\n"
+        + slash + "Volumes" + slash + "private" + slash + "release.txt\n"
+        + "file:" + slash * 3 + "etc" + slash + "private-service.conf\n"
+        + "file:" + slash * 3 + "srv" + slash + "private" + slash + "release.txt",
         encoding="utf-8",
     )
     paths = subprocess.run(

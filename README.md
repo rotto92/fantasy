@@ -16,12 +16,13 @@ show the source/series, continuity, work or witness, character examples,
 normalized concept links, and citations where available.
 
 The promoted public corpus currently contains 281 bounded source passes, 1,568
-characters, 1,252 character relationships, 1,879 source-native terms, 482
-normalized graph concepts, and 7,619 discovery records. The retained research
-bundles contain 1,573 characters, 1,258 relationships, and 1,881 terms; 13
-disputed or dependent records remain quarantined, and unreviewed sensitive
-normalized mappings are withheld claim by claim without removing their source
-evidence. These numbers are a release boundary, not a claim to cover all
+characters, 1,252 character relationships, 1,757 source-native terms, 121
+non-semantic research-boundary records, 482 normalized graph concepts, and
+7,497 discovery records. The retained research bundles contain 1,573
+characters, 1,258 relationships, and 1,881 term/boundary records; 14 disputed
+or dependent records remain quarantined, and unreviewed sensitive normalized
+mappings are withheld claim by claim without removing their source evidence.
+These numbers are a release boundary, not a claim to cover all
 fantasy, every edition, every adaptation, or every regional tradition.
 
 `asura` demonstrates the evidence boundary: Guild Wars evidence for Ankka and

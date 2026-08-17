@@ -9,11 +9,16 @@
         "edition": "G. D. Pickett English translation; revised edition, 2006 (French original 1960); prose rendering framed as the words of Djeli Mamoudou Kouyaté",
         "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf"
       },
-      {
-        "work": "John William Johnson, Son-Jara: The Mande Epic Performance by Jeli Fa-Digi Sisòkò",
-        "edition": "Indiana University Press, 2003; separate annotated Mandekan performance and English translation",
-        "url": "https://folklore.indiana.edu/research/publications/emeriti-publications/2003-son-jara.html"
-      }
+    {
+      "work": "John William Johnson, Son-Jara: The Mande Epic Performance by Jeli Fa-Digi Sisòkò",
+      "edition": "Indiana University Press, 2003; separate annotated Mandekan performance and English translation",
+      "url": "https://folklore.indiana.edu/research/publications/emeriti-publications/2003-son-jara.html"
+    },
+    {
+      "work": "David Schoenbrun, Gendered Themes in Early African History",
+      "edition": "Scholarly contextual witness, pp. 263–264, used only for the gendered-history caution attached to the source-term claims.",
+      "url": "https://history.northwestern.edu/documents/people/faculty/schoenbrun/schoenbrun-gendered-themes.pdf"
+    }
     ],
     "coverage_rule": "All principal named plot agents in the declared Niane/Pickett witness: royal family members who affect succession/exile, named jeliw and diviners/smiths who materially advise or act, named hunters, named rulers and commanders, and named supernatural/political antagonists. Unnamed offices and collective groups are excluded; genealogical forebears and named minor figures without material plot action are omitted.",
     "in_scope_character_count": 27,

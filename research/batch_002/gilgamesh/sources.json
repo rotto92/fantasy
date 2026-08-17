@@ -4,7 +4,11 @@
     "source_title": "Epic of Gilgamesh",
     "continuity_scope": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, as reconstructed in Andrew R. George’s critical edition (2003). Tablet XII is outside this narrative witness scope; Old Babylonian, Middle Babylonian, Hittite, Hurrian, and Sumerian compositions are not silently combined with it.",
     "work_or_witnesses": [
-      "Andrew R. George, The Babylonian Gilgamesh Epic: Introduction, Critical Edition and Cuneiform Texts, 2 vols. (Oxford University Press, 2003), Vol. I, Chapter 11, ‘Edition of the Standard Babylonian Epic,’ Tablets I–XII, pp. 531–726; this pass uses Tablets I–XI only.",
+    {
+      "work": "Andrew R. George, The Babylonian Gilgamesh Epic: Introduction, Critical Edition and Cuneiform Texts, 2 vols. (Oxford University Press, 2003), Vol. I, Chapter 11, ‘Edition of the Standard Babylonian Epic,’ Tablets I–XII, pp. 531–726; this pass uses Tablets I–XI only.",
+      "edition": "SOAS-hosted author manuscript used for claim-specific tablet and line locators.",
+      "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf"
+    },
       "SOAS BAPLar readings/transcriptions after George 2003, used as openly accessible line-specific corroboration for selected Standard Babylonian and Old Babylonian passages."
     ],
     "coverage_rule": "Include every individually named character who materially acts, speaks, creates, authorizes, opposes, guides, or is the object of sustained action in Standard Babylonian Tablets I–XI. Exclude collectives such as the Elders of Uruk, unnamed humans (the trapper/hunter, Utnapishtim’s wife, ferrymen’s unnamed crew), anonymous gods or collectives when named individual actors are supplied, and all Tablet XII-only agents.",

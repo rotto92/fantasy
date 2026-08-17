@@ -20,6 +20,32 @@ await page.goto(appUrl, { waitUntil: "networkidle" });
 await page.locator("#loading").waitFor({ state: "detached" });
 await page.waitForFunction(() => !document.querySelector("#search")?.disabled);
 
+const placeholderContrast = await page.locator("#search").evaluate((node) => {
+  const parseColor = (value) => (value.match(/[\d.]+/g) ?? []).map(Number);
+  const composite = (foreground, background) => {
+    const alpha = foreground[3] ?? 1;
+    return foreground.slice(0, 3).map((channel, index) => channel * alpha + background[index] * (1 - alpha));
+  };
+  const luminance = (color) => {
+    const channels = color.slice(0, 3).map((channel) => {
+      const normalized = channel / 255;
+      return normalized <= 0.04045 ? normalized / 12.92 : ((normalized + 0.055) / 1.055) ** 2.4;
+    });
+    return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
+  };
+  const foreground = parseColor(getComputedStyle(node, "::placeholder").color);
+  const header = composite(
+    parseColor(getComputedStyle(node.closest(".topbar")).backgroundColor),
+    parseColor(getComputedStyle(document.body).backgroundColor),
+  );
+  const background = composite(parseColor(getComputedStyle(node.parentElement).backgroundColor), header);
+  const foregroundLuminance = luminance(foreground);
+  const backgroundLuminance = luminance(background);
+  return (Math.max(foregroundLuminance, backgroundLuminance) + 0.05)
+    / (Math.min(foregroundLuminance, backgroundLuminance) + 0.05);
+});
+if (placeholderContrast < 4.5) failures.push(`search placeholder contrast is ${placeholderContrast.toFixed(2)}:1`);
+
 const status = await page.locator("#status-summary").textContent();
 if (!status?.includes(`${concepts.meta.counts.nodes.toLocaleString("en-US")} class/race/entity stars`)) {
   failures.push(`unexpected status summary: ${status}`);
@@ -51,10 +77,9 @@ if (await accessibleStar.getAttribute("role") !== "button" || await accessibleSt
 } else {
   await accessibleStar.hover({ force: true });
   await page.locator("#tooltip:not([hidden]) small").waitFor();
-  const tooltipEvidence = await page.locator("#tooltip small").evaluate((node) => {
+  const tooltipEvidence = await page.locator("#tooltip").evaluate((node) => {
     const parseColor = (value) => (value.match(/[\d.]+/g) ?? []).map(Number);
-    const foreground = parseColor(getComputedStyle(node).color);
-    const tooltipBackground = parseColor(getComputedStyle(node.parentElement).backgroundColor);
+    const tooltipBackground = parseColor(getComputedStyle(node).backgroundColor);
     const stageBackground = parseColor(getComputedStyle(document.querySelector("#stage")).backgroundColor);
     const alpha = tooltipBackground[3] ?? 1;
     const background = tooltipBackground.slice(0, 3).map((channel, index) => (
@@ -67,16 +92,21 @@ if (await accessibleStar.getAttribute("role") !== "button" || await accessibleSt
       });
       return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
     };
-    const foregroundLuminance = luminance(foreground);
     const backgroundLuminance = luminance(background);
-    return {
-      fontSize: Number.parseFloat(getComputedStyle(node).fontSize),
-      contrast: (Math.max(foregroundLuminance, backgroundLuminance) + 0.05)
-        / (Math.min(foregroundLuminance, backgroundLuminance) + 0.05),
-    };
+    return [...node.querySelectorAll("strong, span, small")].map((element) => {
+      const style = getComputedStyle(element);
+      const foregroundLuminance = luminance(parseColor(style.color));
+      return {
+        tag: element.tagName.toLocaleLowerCase(),
+        fontSize: Number.parseFloat(style.fontSize),
+        contrast: (Math.max(foregroundLuminance, backgroundLuminance) + 0.05)
+          / (Math.min(foregroundLuminance, backgroundLuminance) + 0.05),
+      };
+    });
   });
-  if (tooltipEvidence.fontSize < 13 || tooltipEvidence.contrast < 4.5) {
-    failures.push(`tooltip evidence is unreadable: ${tooltipEvidence.fontSize}px at ${tooltipEvidence.contrast.toFixed(2)}:1`);
+  const unreadableTooltipText = tooltipEvidence.find((item) => item.fontSize < 13 || item.contrast < 4.5);
+  if (unreadableTooltipText) {
+    failures.push(`tooltip ${unreadableTooltipText.tag} is unreadable: ${unreadableTooltipText.fontSize}px at ${unreadableTooltipText.contrast.toFixed(2)}:1`);
   }
   await page.mouse.move(0, 0);
   if ((await page.locator('#atlas-svg .concept-star[tabindex="0"]').count()) !== 1) failures.push("constellation map does not expose one roving tab stop");

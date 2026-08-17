@@ -57,6 +57,8 @@ const dvergrRecord = discovery.records.find((record) => record.id === `source-te
 const dvergrSourceRecord = discovery.records.find((record) => record.id === `source:${dvergrTerm?.source_id}`);
 const dvergrExample = concepts.nodes.flatMap((node) => node.examples ?? []).find((example) => example.id === dvergrTerm?.term_id);
 const mortalFamily = concepts.nodes.find((node) => node.label === "Mortal and Natural Peoples");
+const egyptianTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC013-001");
+const boundaryRecord = research.researchBoundaries?.find((record) => record.term_id === "STM-SRC033-001");
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
@@ -91,8 +93,8 @@ if (research.sources.some((audit) => reviewLaneNames.some((lane) => !audit.revie
   failures.push("compiled research omits an authoritative review-lane status");
 }
 const jinnAudit = research.sources.find((audit) => audit.source_id === "SRC-010");
-if (jinnAudit?.review_lanes.secondReview.status !== "in-progress" || !jinnAudit.review_lanes.secondReview.detail.includes("3 of 15") || jinnAudit.review_lanes.continuityReview.status !== "not-started") {
-  failures.push("SRC-010 review lanes do not distinguish reviewed character claims from completion-status and continuity review");
+if (jinnAudit?.review_lanes.secondReview.status !== "not-started" || jinnAudit.review_lanes.continuityReview.status !== "not-started") {
+  failures.push("SRC-010 corpus-wide and completion-status audits were conflated with focused claim review");
 }
 if (research.sources.some((audit) => audit.review_lanes.terminologyPass.status === "pass-complete" || audit.review_lanes.relationshipPass.status === "pass-complete")) {
   failures.push("record counts were promoted into undeclared terminology or relationship pass completion");
@@ -108,6 +110,15 @@ if (research.meta.reviewCoverage.pendingFullSecondReviewSources !== research.sou
 const shahnamehDiv = research.sourceTerms.find((term) => term.term_id === "STM-SRC011-003");
 if (!shahnamehDiv?.work_or_witness.includes("Ferdowsi, Shāhnāmeh") || !shahnamehDiv.work_or_witness.includes("Encyclopaedia Iranica, DĪV") || shahnamehDiv.work_or_witness.includes("Vols. I–VI cited in this pass")) {
   failures.push("Shāhnāmeh dīv provenance does not identify each claim-specific witness");
+}
+if (!egyptianTerm?.witness_identity.includes("Papyrus of Ani") || !egyptianTerm.work_or_witness.includes("Papyrus of Ani")) {
+  failures.push("Egyptian source-term provenance did not resolve the declared Papyrus of Ani witness");
+}
+if (!boundaryRecord || boundaryRecord.record_kind !== "research-boundary" || research.sourceTerms.some((term) => term.term_id === boundaryRecord.term_id) || discovery.records.some((record) => record.id === `source-term:${boundaryRecord.term_id}`)) {
+  failures.push("research coverage boundaries leaked into semantic source-term discovery");
+}
+if (research.sourceTerms.some((term) => term.term_id === "STM-SRC002-013") || discovery.records.some((record) => record.id === "source-term:STM-SRC002-013") || !research.meta.reviewCoverage.quarantinedRecordIds.includes("STM-SRC002-013")) {
+  failures.push("unsupported draugr evidence was not quarantined from public discovery");
 }
 if (!xeniaRecord?.work.includes("Homer, Odyssey") || !xeniaRecord.work.includes("9.105–566")) {
   failures.push("xenia discovery provenance does not identify its Odyssey witness");

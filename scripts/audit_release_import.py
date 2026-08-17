@@ -57,13 +57,13 @@ CREDENTIAL_URL_PATTERN = re.compile(
     re.IGNORECASE,
 )
 EMAIL_PATTERN = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
-UNIX_MACHINE_LOCAL_ROOTS = ("home", "Users", "tmp", "var", "root", "etc", "opt", "mnt")
-UNIX_MACHINE_LOCAL_ROOT_PATTERN = "|".join(UNIX_MACHINE_LOCAL_ROOTS)
+UNIX_ROOT_SEGMENT_PATTERN = r"(?:[a-z][a-z0-9._-]*|[A-Z][a-z][A-Za-z0-9._-]*)"
+UNIX_PATH_SEGMENT_PATTERN = r"[A-Za-z0-9._-]+"
 LOCAL_PATH_PATTERN = re.compile(
-    rf"(?<![A-Za-z0-9:/_-])/(?:{UNIX_MACHINE_LOCAL_ROOT_PATTERN})/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+"
+    rf"(?<![A-Za-z0-9:/_-])/(?!/){UNIX_ROOT_SEGMENT_PATTERN}(?:/{UNIX_PATH_SEGMENT_PATTERN})+"
 )
 LOCAL_FILE_URL_PATTERN = re.compile(
-    rf"\bfile:///(?:{UNIX_MACHINE_LOCAL_ROOT_PATTERN})/(?:[A-Za-z0-9._-]+/)*[A-Za-z0-9._-]+", re.IGNORECASE
+    rf"\bfile:///{UNIX_ROOT_SEGMENT_PATTERN}(?:/{UNIX_PATH_SEGMENT_PATTERN})+", re.IGNORECASE
 )
 WINDOWS_DRIVE_PATH_PATTERN = re.compile(
     r"(?<![A-Za-z0-9])[A-Za-z]:" + r"[\\/](?:[^\s<>:\"|?*]+[\\/])*[^\s<>:\"|?*]+"
@@ -91,7 +91,33 @@ REVIEWED_OPAQUE_FILES = {
     "atlas-v4-research.png": "8a0519e33c541b575e3cfd3261996a162f88b92753b43c494c564bd202040398",
 }
 REVIEWED_SYMLINKS = {"CLAUDE.md": "AGENTS.md"}
-APPROVED_PUBLIC_PATH_REFERENCES: dict[str, frozenset[str]] = {}
+APPROVED_PUBLIC_PATH_REFERENCES: dict[str, frozenset[str]] = {
+    "*": frozenset({"/usr/bin/env"}),
+    ".github/workflows/pages.yml": frozenset({"/dev/null"}),
+    "index.html": frozenset({"/src/main.ts"}),
+    "tests/discovery.mjs": frozenset(
+        {
+            "/data/discovery.json",
+            "/public/data/characters.json",
+            "/public/data/constellations.json",
+            "/public/data/discovery.json",
+            "/research/independent_reviews",
+        }
+    ),
+    "tests/smoke.mjs": frozenset(
+        {"/public/data/characters.json", "/public/data/constellations.json"}
+    ),
+    "tests/static-base.mjs": frozenset(
+        {
+            "/fantasy/data/characters.json",
+            "/fantasy/data/constellations.json",
+            "/fantasy/data/discovery.json",
+        }
+    ),
+}
+APPROVED_PUBLIC_PATH_REFERENCES["scripts/audit_release_import.py"] = frozenset().union(
+    *APPROVED_PUBLIC_PATH_REFERENCES.values()
+)
 
 
 def tracked_paths() -> list[Path]:
@@ -127,6 +153,17 @@ def decode_text(content: bytes) -> str | None:
     return None if "\0" in text else text
 
 
+def approved_archive_internal_paths(path: Path, references: set[str]) -> set[str]:
+    outer_path, separator, _ = path.as_posix().partition("::")
+    if not separator or not outer_path.casefold().endswith(".xlsx"):
+        return set()
+    return {
+        reference
+        for reference in references
+        if reference.startswith(("/_rels/", "/docProps/", "/xl/"))
+    }
+
+
 def scan_text(path: Path, text: str) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
     if PRIVATE_KEY_PATTERN.search(text):
@@ -154,7 +191,13 @@ def scan_text(path: Path, text: str) -> list[dict[str, str]]:
         )
         for match in pattern.finditer(text)
     }
-    approved_references = APPROVED_PUBLIC_PATH_REFERENCES.get(path.as_posix(), frozenset())
+    approved_references = (
+        APPROVED_PUBLIC_PATH_REFERENCES.get("*", frozenset())
+        | APPROVED_PUBLIC_PATH_REFERENCES.get(path.as_posix(), frozenset())
+    )
+    approved_references = approved_references | approved_archive_internal_paths(
+        path, local_path_references
+    )
     if local_path_references - approved_references:
         findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
     return findings

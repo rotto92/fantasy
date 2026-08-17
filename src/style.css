@@ -136,7 +136,7 @@ button { color: inherit; }
 }
 .search-wrap:focus-within { border-color: rgba(112, 214, 200, 0.36); box-shadow: 0 0 0 3px rgba(112, 214, 200, 0.045); }
 .search-wrap input { width: 100%; border: 0; outline: 0; color: var(--ink); background: transparent; font-size: 11px; }
-.search-wrap input::placeholder { color: #56647a; }
+.search-wrap input::placeholder { color: var(--evidence-muted); opacity: 1; }
 kbd {
   min-width: 19px;
   padding: 2px 5px;
@@ -369,8 +369,8 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   background: rgba(7, 12, 22, 0.97);
   box-shadow: 0 12px 36px rgba(0, 0, 0, 0.42);
 }
-.tooltip strong { font-size: 11px; }
-.tooltip span { color: #8d9cb2; font-size: 9px; }
+.tooltip strong { font-size: 0.875rem; line-height: 1.35; }
+.tooltip span { color: var(--evidence-muted); font-size: var(--small-size, 0.8125rem); line-height: 1.35; }
 .tooltip small { color: var(--evidence-muted); font-size: var(--small-size, 0.8125rem); line-height: 1.35; }
 
 .loading-state {

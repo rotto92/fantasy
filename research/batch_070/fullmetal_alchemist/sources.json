@@ -4,9 +4,14 @@
     "source_title": "Fullmetal Alchemist",
     "continuity_scope": "Fullmetal Alchemist: Fullmetal Edition, Vol. 1, VIZ English updated translation (8 May 2018; ISBN 978-1-4215-9977-9; 280 pages). This is a volume-bounded English manga-edition pass. Square Enix's Japanese Fullmetal Alchemist Vol. 1 (22 January 2002) is used only as an official original-edition corroborating witness for the premise, not as interchangeable localization wording.",
     "work_or_witnesses": [
-      "Fullmetal Alchemist: Fullmetal Edition, Vol. 1, VIZ English updated translation (8 May 2018)",
-      "VIZ official Fullmetal Alchemist series page",
-      "Fullmetal Alchemist Vol. 1, Square Enix Japanese original edition (22 January 2002), official product metadata"
+    "Fullmetal Alchemist: Fullmetal Edition, Vol. 1, VIZ English updated translation (8 May 2018)",
+    "VIZ official Fullmetal Alchemist series page",
+    {
+      "work": "VIZ shop, Fullmetal Alchemist: Fullmetal Edition, Vol. 1 product description",
+      "edition": "Official VIZ storefront metadata for the selected English volume.",
+      "url": "https://shop.viz.com/products/fullmetal-alchemist-fullmetal-edition-vol-1"
+    },
+    "Fullmetal Alchemist Vol. 1, Square Enix Japanese original edition (22 January 2002), official product metadata"
     ],
     "coverage_rule": "Include only named individual dramatic characters expressly named by the selected official Volume 1/product and series metadata, and only their directly stated premise-level attributes. This yields Edward Elric and Alphonse Elric. Their explicitly stated brother relationship is included. Unnamed mother, military personnel, and all other people are not inferred from the brief synopsis; claims requiring inspected manga panels/chapters are deferred to a separate primary-text pass.",
     "in_scope_character_count": 2,

@@ -6,8 +6,13 @@
     "work_or_witnesses": [
       "OCTOPATH TRAVELER II Nintendo Switch base release (Square Enix; 24 February 2023)",
       "Square Enix, 'OCTOPATH TRAVELER II Prologue demo out now' (9 February 2023)",
-      "Nintendo Japan, release feature (24 February 2023)",
-      "Square Enix, cross-platform/Extra Battle announcement (6 June 2024)"
+    "Nintendo Japan, release feature (24 February 2023)",
+    {
+      "work": "Square Enix Europe store, OCTOPATH TRAVELER II product page",
+      "edition": "Official product story and feature metadata for the base release.",
+      "url": "https://gb.store.square-enix-games.com/octopath-traveler-ii"
+    },
+    "Square Enix, cross-platform/Extra Battle announcement (6 June 2024)"
     ],
     "coverage_rule": "All eight named player protagonists expressly identified in the official English pre-release profile are included. The four named Crossed Paths pairings expressly published by Nintendo are included as light-spoiler character-to-character links. No unprofiled NPC, boss, monster, party recruit, job holder, faction, region, or optional/player-variable narrative endpoint is inferred.",
     "in_scope_character_count": 8,

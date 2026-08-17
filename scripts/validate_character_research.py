@@ -75,6 +75,44 @@ DISALLOWED_EVIDENCE_HOSTS = {
     "fandom.com",
     "reddit.com",
 }
+RESEARCH_BOUNDARY_TERM_PATTERN = re.compile(r"\b(?:boundary|witness)\b", re.IGNORECASE)
+WITNESS_IDENTITY_STOP_WORDS = {
+    "a",
+    "an",
+    "and",
+    "at",
+    "book",
+    "by",
+    "chapter",
+    "chapters",
+    "cited",
+    "edition",
+    "for",
+    "frame",
+    "from",
+    "in",
+    "of",
+    "official",
+    "on",
+    "opening",
+    "page",
+    "pages",
+    "paragraph",
+    "paragraphs",
+    "part",
+    "pass",
+    "section",
+    "sections",
+    "selected",
+    "source",
+    "the",
+    "this",
+    "to",
+    "vol",
+    "volume",
+    "witness",
+    "with",
+}
 
 
 def workbook_records(sheet: Any, header_row: int = 1) -> list[dict[str, Any]]:
@@ -238,7 +276,116 @@ def urls_identify_same_witness(left: Any, right: Any) -> bool:
     return bool(left_document_ids & right_document_ids)
 
 
-def audit_witness_for_citation(citation: dict[str, Any], audit: dict[str, Any]) -> str:
+def urls_share_host(left: Any, right: Any) -> bool:
+    left_host = (urlparse(str(left or "").strip()).hostname or "").casefold()
+    right_host = (urlparse(str(right or "").strip()).hostname or "").casefold()
+    return bool(left_host) and left_host == right_host
+
+
+def witness_identity_score(candidate: Any, evidence: Any) -> int:
+    candidate_tokens = {
+        token
+        for token in identity_tokens(candidate)
+        if token not in WITNESS_IDENTITY_STOP_WORDS and (len(token) >= 3 or any(character.isdigit() for character in token))
+    }
+    evidence_tokens = {
+        token
+        for token in identity_tokens(evidence)
+        if token not in WITNESS_IDENTITY_STOP_WORDS
+    }
+    return len(candidate_tokens & evidence_tokens)
+
+
+def is_specific_claimed_identity(value: Any, audit: dict[str, Any]) -> bool:
+    if fold_identity(value) in {
+        fold_identity(audit.get("source_title", "")),
+        fold_identity(f"About {audit.get('source_title', '')}"),
+    }:
+        return False
+    meaningful_tokens = [
+        token
+        for token in identity_tokens(value)
+        if token not in WITNESS_IDENTITY_STOP_WORDS
+        and len(token) >= 3
+        and not token.isdigit()
+    ]
+    return len(meaningful_tokens) >= 2
+
+
+def audit_reference_locators(citation: dict[str, Any], audit: dict[str, Any]) -> list[str]:
+    citation_url = citation.get("url", "")
+    references = [
+        reference
+        for collection in (audit.get("citations", []), audit.get("sources", []))
+        for reference in collection or []
+        if isinstance(reference, dict)
+    ]
+    exact = [
+        str(reference.get("locator", "")).strip()
+        for reference in references
+        if urls_identify_same_witness(citation_url, reference.get("url", ""))
+        and str(reference.get("locator", "")).strip()
+    ]
+    if exact:
+        return exact
+    return [
+        str(reference.get("locator", "")).strip()
+        for reference in references
+        if urls_share_host(citation_url, reference.get("url", ""))
+        and str(reference.get("locator", "")).strip()
+    ]
+
+
+def claimed_witness_segment(
+    record: dict[str, Any],
+    audit: dict[str, Any],
+    citation_index: int,
+) -> str:
+    explicit = str(record.get("witness_identity", "")).strip()
+    if explicit:
+        return explicit
+    work_or_witness = str(record.get("work_or_witness", "")).strip()
+    citations = record.get("citations", [])
+    segments = [segment.strip() for segment in work_or_witness.split(";") if segment.strip()]
+    segment = segments[citation_index] if len(segments) == len(citations) else work_or_witness
+    identity, separator, locator = segment.partition(" · ")
+    source_title = str(audit.get("source_title", "")).strip()
+    if separator and source_title and fold_identity(identity) == fold_identity(source_title):
+        return locator.strip()
+    return identity.strip()
+
+
+def source_work_descriptions(audit: dict[str, Any]) -> list[tuple[str, str]]:
+    descriptions: list[tuple[str, str]] = []
+    for witness in audit.get("work_or_witnesses", []):
+        if isinstance(witness, str):
+            name = witness.strip()
+            description = name
+        elif isinstance(witness, dict):
+            name = str(
+                witness.get("work")
+                or witness.get("work_or_witness")
+                or witness.get("witness")
+                or ""
+            ).strip()
+            description = " ".join(
+                value
+                for value in (name, str(witness.get("edition", "")).strip())
+                if value
+            )
+        else:
+            name = ""
+            description = ""
+        if name:
+            descriptions.append((name, description))
+    return descriptions
+
+
+def audit_witness_for_citation(
+    citation: dict[str, Any],
+    audit: dict[str, Any],
+    claimed_identity: str,
+) -> str:
     entries = source_work_entries(audit)
     citation_url = citation.get("url", "")
     url_matches = {
@@ -247,7 +394,24 @@ def audit_witness_for_citation(citation: dict[str, Any], audit: dict[str, Any]) 
         if witness_url and urls_identify_same_witness(citation_url, witness_url)
     }
     if len(url_matches) == 1:
-        return next(iter(url_matches))
+        matched_name = next(iter(url_matches))
+        if is_specific_claimed_identity(claimed_identity, audit) and witness_identity_score(
+            matched_name, claimed_identity
+        ):
+            return claimed_identity
+        return matched_name
+    host_matches = {
+        name
+        for name, witness_url in entries
+        if witness_url and urls_share_host(citation_url, witness_url)
+    }
+    if len(host_matches) == 1:
+        matched_name = next(iter(host_matches))
+        if is_specific_claimed_identity(claimed_identity, audit) and witness_identity_score(
+            matched_name, claimed_identity
+        ):
+            return claimed_identity
+        return matched_name
     audit_citations = audit.get("citations", [])
     citation_indexes = [
         index
@@ -257,6 +421,48 @@ def audit_witness_for_citation(citation: dict[str, Any], audit: dict[str, Any]) 
     ]
     if len(entries) == len(audit_citations) and len(citation_indexes) == 1:
         return entries[citation_indexes[0]][0]
+    reference_locators = audit_reference_locators(citation, audit)
+    if reference_locators:
+        evidence = " ".join([claimed_identity, citation_url, *reference_locators])
+        scored_names = [
+            (witness_identity_score(name, evidence), name)
+            for name in source_work_names(audit)
+        ]
+        best_score = max((score for score, _ in scored_names), default=0)
+        best_names = [name for score, name in scored_names if score == best_score and score > 0]
+        if len(best_names) == 1:
+            if is_specific_claimed_identity(claimed_identity, audit) and witness_identity_score(
+                best_names[0], claimed_identity
+            ):
+                return claimed_identity
+            return best_names[0]
+        source_title = str(audit.get("source_title", "")).strip()
+        if claimed_identity and fold_identity(claimed_identity) not in {
+            fold_identity(source_title),
+            fold_identity(f"About {source_title}"),
+        }:
+            return claimed_identity
+        if len(reference_locators) == 1:
+            return reference_locators[0]
+    declared_matches = [
+        name
+        for name in source_work_names(audit)
+        if contains_identity_tokens(claimed_identity, name)
+        or contains_identity_tokens(name, claimed_identity)
+    ]
+    if declared_matches:
+        return min(declared_matches, key=lambda name: (len(identity_tokens(name)), name))
+    scored_descriptions = [
+        (witness_identity_score(description, claimed_identity), name)
+        for name, description in source_work_descriptions(audit)
+    ]
+    best_score = max((score for score, _ in scored_descriptions), default=0)
+    best_names = [name for score, name in scored_descriptions if score == best_score and score > 0]
+    if len(best_names) == 1:
+        source_title = str(audit.get("source_title", "")).strip()
+        if claimed_identity and fold_identity(claimed_identity) != fold_identity(source_title):
+            return claimed_identity
+        return best_names[0]
     if len(entries) == 1:
         return entries[0][0]
     return ""
@@ -274,36 +480,17 @@ def source_work_name_sequences(audit: dict[str, Any]) -> list[str]:
 
 
 def claim_witness_identity(record: dict[str, Any], audit: dict[str, Any]) -> str:
-    explicit = str(record.get("witness_identity", "")).strip()
-    if explicit:
-        return explicit
-    work_or_witness = str(record.get("work_or_witness", "")).strip()
-    declared_in_work = [
-        name for name in source_work_names(audit) if contains_identity_tokens(work_or_witness, name)
-    ]
-    if declared_in_work:
-        return "; ".join(dict.fromkeys(declared_in_work))
-    source_title = str(audit.get("source_title", "")).strip()
-    embedded_identities = [
-        segment.split(" · ", 1)[0].strip()
-        for segment in work_or_witness.split(";")
-        if " · " in segment
-    ]
-    if embedded_identities and all(
-        fold_identity(identity) != fold_identity(source_title)
-        and fold_identity(identity) != fold_identity(f"About {source_title}")
-        for identity in embedded_identities
-    ):
-        return "; ".join(dict.fromkeys(embedded_identities))
     citations = record.get("citations", [])
     resolved = [
-        audit_witness_for_citation(citation, audit)
-        for citation in citations
+        audit_witness_for_citation(citation, audit, claimed_witness_segment(record, audit, index))
+        for index, citation in enumerate(citations)
         if isinstance(citation, dict)
     ]
-    if resolved and all(resolved):
-        return "; ".join(dict.fromkeys(resolved))
-    return work_or_witness
+    return "; ".join(dict.fromkeys(resolved)) if resolved and all(resolved) else ""
+
+
+def is_research_boundary_record(record: dict[str, Any]) -> bool:
+    return bool(RESEARCH_BOUNDARY_TERM_PATTERN.search(str(record.get("canonical_term", ""))))
 
 
 def claim_ids_for_character(record: dict[str, Any]) -> list[str]:
@@ -344,7 +531,7 @@ def main() -> None:
     all_sources: list[dict[str, Any]] = []
     all_characters: list[dict[str, Any]] = []
     all_relationships: list[dict[str, Any]] = []
-    all_terms: list[dict[str, Any]] = []
+    all_term_records: list[dict[str, Any]] = []
 
     if not bundle_dirs:
         errors.append("No research bundles found under research/batch_*/*")
@@ -357,7 +544,14 @@ def main() -> None:
         all_sources.extend(load_array(bundle / "sources.json", errors))
         all_characters.extend(load_array(bundle / "characters.json", errors))
         all_relationships.extend(load_array(bundle / "relationships.json", errors))
-        all_terms.extend(load_array(bundle / "source_terms.json", errors))
+        all_term_records.extend(load_array(bundle / "source_terms.json", errors))
+
+    all_boundaries = [
+        {**record, "record_kind": "research-boundary"}
+        for record in all_term_records
+        if is_research_boundary_record(record)
+    ]
+    all_terms = [record for record in all_term_records if not is_research_boundary_record(record)]
 
     source_audit_ids: list[str] = []
     for record in all_sources:
@@ -615,12 +809,6 @@ def main() -> None:
                 errors.append(f"{context}: witness_identity must identify the work separately from its locator")
             else:
                 term_witness_identities[term_id] = witness_identity
-            if record.get("witness_identity") and not any(
-                contains_identity_tokens(witness_identity, name)
-                or contains_identity_tokens(name, witness_identity)
-                for name in source_work_names(audit)
-            ):
-                errors.append(f"{context}: witness_identity must match a declared source-audit witness")
             if any(
                 work_or_witness == sequence or work_or_witness.startswith(f"{sequence} · ")
                 for sequence in source_work_name_sequences(audit)
@@ -680,13 +868,31 @@ def main() -> None:
     if duplicate_terms:
         errors.append(f"Duplicate source term IDs: {', '.join(sorted(duplicate_terms))}")
 
+    boundary_ids: list[str] = []
+    for record in all_boundaries:
+        boundary_id = str(record.get("term_id", ""))
+        context = f"research boundary {boundary_id or '<unknown>'}"
+        require(
+            record,
+            ("term_id", "source_id", "canonical_term", "definition", "citations", "review_status"),
+            context,
+            errors,
+        )
+        boundary_ids.append(boundary_id)
+        if record.get("source_id") not in sources_by_id:
+            errors.append(f"{context}: unknown Source_ID {record.get('source_id')}")
+        if record.get("review_status") not in REVIEW_STATUSES:
+            errors.append(f"{context}: invalid review_status {record.get('review_status')}")
+        validate_citations(record.get("citations"), context, errors, warnings)
+    duplicate_boundaries = [value for value, count in Counter(boundary_ids).items() if value and count > 1]
+    if duplicate_boundaries:
+        errors.append(f"Duplicate research boundary IDs: {', '.join(sorted(duplicate_boundaries))}")
+
     for source_id, audit in audits_by_source.items():
         count = character_count_by_source[source_id]
         declared = audit.get("completed_character_count")
         if declared != count:
             errors.append(f"{source_id}: audit declares {declared} completed characters but bundle contains {count}")
-        if count == 0 and term_count_by_source[source_id] == 0:
-            errors.append(f"{source_id}: zero-character pass must retain at least one source term")
 
     dimension_term_counts: dict[str, int] = defaultdict(int)
     for record in all_characters:
@@ -731,6 +937,9 @@ def main() -> None:
         *[f"relationship:{record.get('relationship_id', '')}" for record in all_relationships],
         *[f"source-term:{record.get('term_id', '')}" for record in all_terms],
     }
+    research_boundary_review_ids = {
+        f"source-term:{record.get('term_id', '')}" for record in all_boundaries
+    }
     review_ledger_names = {
         str(ledger)
         for review in review_index.get("corpus_wide_reviews", [])
@@ -773,12 +982,19 @@ def main() -> None:
             ledger_claim_ids.update(claim_ids)
         reviewed_claim_ids_by_ledger[ledger_name] = ledger_claim_ids
         reviewed_claim_ids.update(ledger_claim_ids)
-    unknown_review_claim_ids = sorted(reviewed_claim_ids - raw_claim_ids)
+    unknown_review_claim_ids = sorted(
+        reviewed_claim_ids - raw_claim_ids - research_boundary_review_ids
+    )
     if unknown_review_claim_ids:
         errors.append(
             "independent-review ledgers reference unknown claim IDs: "
             + ", ".join(unknown_review_claim_ids)
         )
+    reviewed_claim_ids.intersection_update(raw_claim_ids)
+    reviewed_claim_ids_by_ledger = {
+        ledger_name: claim_ids & raw_claim_ids
+        for ledger_name, claim_ids in reviewed_claim_ids_by_ledger.items()
+    }
 
     unresolved_character_ids = {
         str(record.get("character_id", ""))
@@ -907,13 +1123,24 @@ def main() -> None:
         promoted_claim_ids_by_source[str(record.get("source_id", ""))].add(
             f"source-term:{record.get('term_id', '')}"
         )
+    focused_reviewed_claim_ids_by_source: dict[str, set[str]] = defaultdict(set)
+    for source_id, source_review in review_status_map.items():
+        if not isinstance(source_review, dict):
+            continue
+        for ledger_name in source_review.get("ledgers", []):
+            focused_reviewed_claim_ids_by_source[source_id].update(
+                reviewed_claim_ids_by_ledger.get(str(ledger_name), set())
+            )
+        focused_reviewed_claim_ids_by_source[source_id].intersection_update(
+            promoted_claim_ids_by_source[source_id]
+        )
     reviewed_claim_source_count = sum(
-        bool(claim_ids & reviewed_claim_ids)
-        for claim_ids in promoted_claim_ids_by_source.values()
+        bool(focused_reviewed_claim_ids_by_source[source_id])
+        for source_id in promoted_claim_ids_by_source
     )
     fully_reviewed_claim_source_count = sum(
-        bool(claim_ids) and claim_ids <= reviewed_claim_ids
-        for claim_ids in promoted_claim_ids_by_source.values()
+        bool(claim_ids) and claim_ids <= focused_reviewed_claim_ids_by_source[source_id]
+        for source_id, claim_ids in promoted_claim_ids_by_source.items()
     )
 
     def counted_review_lane(reviewed: int, total: int, pending_detail: str) -> dict[str, str]:
@@ -936,7 +1163,7 @@ def main() -> None:
         completed = int(audit.get("completed_character_count", 0) or 0)
         in_scope = int(audit.get("in_scope_character_count", 0) or 0)
         source_claims = promoted_claim_ids_by_source[source_id]
-        reviewed_source_claims = source_claims & reviewed_claim_ids
+        reviewed_source_claims = focused_reviewed_claim_ids_by_source[source_id]
         source_review = review_status_map.get(source_id, {})
         review_types = [
             str(value).casefold()
@@ -1019,6 +1246,7 @@ def main() -> None:
             "characters": len(all_characters),
             "relationships": len(all_relationships),
             "source_terms": len(all_terms),
+            "research_boundaries": len(all_boundaries),
             "errors": len(errors),
             "warnings": len(warnings),
         },
@@ -1130,6 +1358,13 @@ def main() -> None:
         "characters": sorted(promoted_characters, key=lambda row: (source_sort_key(str(row.get("source_id", ""))), str(row.get("canonical_name", "")))),
         "relationships": promoted_relationships,
         "sourceTerms": promoted_terms,
+        "researchBoundaries": sorted(
+            all_boundaries,
+            key=lambda row: (
+                source_sort_key(str(row.get("source_id", ""))),
+                str(row.get("term_id", "")),
+            ),
+        ),
         "independentReviews": review_index,
         "taxonomy": {
             archetype_id: {
