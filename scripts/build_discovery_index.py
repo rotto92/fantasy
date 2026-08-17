@@ -104,12 +104,6 @@ def source_fields(source: dict[str, Any]) -> list[dict[str, str]]:
     ]
 
 
-def search_text(fields: list[dict[str, str]], aliases: list[str] | None = None) -> str:
-    values = [item["value"] for item in fields]
-    values.extend(aliases or [])
-    return fold(" ".join(values))
-
-
 def concept_ids(values: list[dict[str, Any]], valid_ids: set[str]) -> list[str]:
     return sorted(
         {
@@ -177,7 +171,6 @@ def main() -> None:
                 "relatedConceptIds": related_ids,
                 "url": first_url(character.get("citations", [])),
                 "searchFields": fields,
-                "searchText": search_text(fields),
             }
         )
 
@@ -241,7 +234,6 @@ def main() -> None:
                 ],
                 "url": first_url(term.get("citations", [])),
                 "searchFields": fields,
-                "searchText": search_text(fields, aliases),
                 "coverageKeys": [f"source-term:{term['term_id']}"] if term_dimension in DIMENSION_LABELS else [],
             }
         )
@@ -294,7 +286,6 @@ def main() -> None:
                 "relatedConceptIds": related_ids,
                 "url": first_url(first["character"].get("citations", [])),
                 "searchFields": fields,
-                "searchText": search_text(fields),
                 "coverageKeys": [row["coverageKey"] for row in rows],
             }
         )
@@ -328,7 +319,6 @@ def main() -> None:
                 "relatedConceptIds": related_ids,
                 "url": source.get("referenceUrl", ""),
                 "searchFields": fields,
-                "searchText": search_text(fields),
             }
         )
 
@@ -359,7 +349,6 @@ def main() -> None:
                 "conceptId": node["id"],
                 "url": "",
                 "searchFields": fields,
-                "searchText": search_text(fields),
             }
         )
 

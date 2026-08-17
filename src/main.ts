@@ -200,7 +200,6 @@ interface DiscoveryRecord {
   conceptId?: string;
   url: string;
   searchFields: DiscoveryField[];
-  searchText: string;
 }
 
 interface DiscoveryCoverage {
@@ -458,6 +457,18 @@ function discoveryMatches(query: string): Array<{ record: DiscoveryRecord; field
         || d3.ascending(left.record.label, right.record.label)
         || d3.ascending(left.record.id, right.record.id);
     });
+}
+
+function discoverySourceIds(query: string): Set<string> {
+  const sourceIds = new Set<string>();
+  for (const { record } of discoveryMatches(query)) {
+    if (record.sourceId) sourceIds.add(record.sourceId);
+    for (const conceptId of [record.conceptId, ...record.relatedConceptIds]) {
+      const node = conceptId ? nodeById.get(conceptId) : undefined;
+      node?.sourceIds.forEach((sourceId) => sourceIds.add(sourceId));
+    }
+  }
+  return sourceIds;
 }
 
 const chartFamilyLabels = new Map<string, string>([
@@ -1158,7 +1169,7 @@ function renderRelations(): void {
     .on("mouseenter", (event, item) => showTooltip(event as MouseEvent, item.node))
     .on("mousemove", (event, item) => showTooltip(event as MouseEvent, item.node))
     .on("mouseleave", hideTooltip)
-    .on("focus", (_event, item) => selectNode(item.node.id, false))
+    .on("focus", (_event, item) => selectNode(item.node.id, false, "click", null, false))
     .on("keydown", handleNodeKeydown)
     .on("click", (_event, item) => selectNode(item.node.id, false));
   installZoom(svg, layer, () => undefined);
@@ -1244,9 +1255,7 @@ function renderResearch(): void {
   header.append(headerRow);
   table.append(header);
   const body = element("tbody");
-  const matchedSourceIds = researchQuery
-    ? new Set(discoveryMatches(researchQuery).map(({ record }) => record.sourceId).filter(Boolean))
-    : null;
+  const matchedSourceIds = researchQuery ? discoverySourceIds(researchQuery) : null;
   const sources = research.corpusSources
     .filter((source) => !selectedSource || source.sourceId === selectedSource)
     .filter((source) => !matchedSourceIds || matchedSourceIds.has(source.sourceId))
@@ -1304,18 +1313,24 @@ function closeDetail(): void {
   }
 }
 
+function hideDetail(): void {
+  detailPanel?.classList.remove("is-open");
+}
+
 function renderDiscoveryDetail(record: DiscoveryRecord): void {
   detailContent.replaceChildren();
   detailPanel?.classList.add("is-open");
   const close = element("button", "mobile-detail-close", "×") as HTMLButtonElement;
   close.type = "button";
   close.setAttribute("aria-label", "Close discovery detail");
-  close.addEventListener("click", closeDetail);
+  close.addEventListener("click", hideDetail);
   detailContent.append(close);
 
   const header = element("header", "character-header discovery-detail-header");
   header.append(element("p", "eyebrow", record.kindLabel));
-  header.append(element("h2", "", record.label));
+  const title = element("h2", "", record.label);
+  title.tabIndex = -1;
+  header.append(title);
   header.append(element("p", "character-subtitle", [record.sourceTitle, record.continuity].filter(Boolean).join(" · ") || "Accepted corpus record"));
   const evidence = element("div", "evidence-row");
   evidence.append(element("span", "evidence-badge researched", "Indexed evidence"));
@@ -1351,12 +1366,18 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
 
   const context = detailSection("Source and continuity");
   const contextGrid = element("div", "attribute-grid");
-  for (const [label, value] of [
+  const normalizedFamilies = [...new Set(record.relatedConceptIds.map((id) => {
+    const node = nodeById.get(id);
+    return node ? nodeById.get(node.familyId)?.label ?? node.label : "";
+  }).filter(Boolean))].join(", ");
+  const contextValues: Array<[string, string]> = [
     ["Source / series", record.sourceTitle],
     ["Continuity", record.continuity],
     ["Work / witness", record.work],
     ["Evidence dimension", dimensionLabels[record.dimension] ?? record.dimension],
-  ]) {
+    ["Normalized family", normalizedFamilies],
+  ];
+  for (const [label, value] of contextValues) {
     if (!value) continue;
     const item = element("div", "attribute-item");
     item.append(element("small", "", label), element("span", "", value));
@@ -1430,6 +1451,8 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
       evidenceSection.append(element("p", "detail-copy", term.definition || "A source-native terminology record."));
       if (term.original_language) evidenceSection.append(element("p", "dimension-note", `Source language: ${term.original_language}`));
       if (term.original_script || term.transliteration) evidenceSection.append(element("p", "dimension-note", [term.original_script, term.transliteration].filter(Boolean).join(" · ")));
+      if (term.mapping_relation) evidenceSection.append(element("p", "dimension-note", `Mapping relation: ${term.mapping_relation}`));
+      if (term.review_status) evidenceSection.append(element("p", "dimension-note", `Review status: ${term.review_status}`));
       if (term.cultural_caution) evidenceSection.append(element("p", "dimension-note", term.cultural_caution));
       const citation = term.citations[0];
       if (citation?.url) {
@@ -1497,11 +1520,13 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
   const close = element("button", "mobile-detail-close", "×") as HTMLButtonElement;
   close.type = "button";
   close.setAttribute("aria-label", "Close concept detail");
-  close.addEventListener("click", () => detailPanel?.classList.remove("is-open"));
+  close.addEventListener("click", hideDetail);
   detailContent.append(close);
   const header = element("header", "character-header concept-detail-header");
   header.append(element("p", "eyebrow", node.tier === 2 ? `${node.domainLabel} family` : node.domainLabel));
-  header.append(element("h2", "", node.label));
+  const title = element("h2", "", node.label);
+  title.tabIndex = -1;
+  header.append(title);
   const parent = node.parentId ? nodeById.get(node.parentId) : undefined;
   header.append(element("p", "character-subtitle", parent ? `${node.domainLabel} › ${parent.label}` : node.domainLabel));
   const evidence = element("div", "evidence-row");
@@ -1596,7 +1621,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
     const button = element("button", "relation-button") as HTMLButtonElement;
     button.type = "button";
     button.append(element("span", "relation-star", "✦"), element("strong", "", neighbor.node.label), element("small", "", relationLabel(node, neighbor.node)));
-    button.addEventListener("click", () => selectNode(neighbor.node.id, false, discoveryContext ? "search" : "click", discoveryContext?.id ?? null));
+    button.addEventListener("click", () => selectNode(neighbor.node.id, false));
     relationList.append(button);
   }
   if (!neighbors.length) relationList.append(element("p", "detail-copy", "No local taxonomy or evidence affinity is recorded."));
@@ -1668,6 +1693,7 @@ function selectNode(
   zoom: boolean,
   origin: SelectionOrigin = "click",
   discoveryContextId: string | null = null,
+  refreshRelationView = true,
 ): void {
   selectedDiscoveryId = null;
   selectedDiscoveryContextId = discoveryContextId;
@@ -1679,7 +1705,7 @@ function selectNode(
     updateConstellationSelection();
     updateSemanticZoom(currentTransform);
     if (zoom && nodeId) zoomToNode(nodeId);
-  } else if (viewMode === "relations") {
+  } else if (viewMode === "relations" && refreshRelationView) {
     renderRelations();
   }
 }
@@ -1786,7 +1812,10 @@ function showSearchResults(query: string): void {
       lineMode = "all";
       lineModeSelect.value = "all";
       render();
-      if (selectedNodeId && viewMode === "constellations") requestAnimationFrame(() => zoomToSelection(selectedNodeId as string));
+      requestAnimationFrame(() => {
+        detailContent.querySelector<HTMLElement>("h2")?.focus();
+        if (selectedNodeId && viewMode === "constellations") zoomToSelection(selectedNodeId);
+      });
     });
     searchResults.append(button);
   }

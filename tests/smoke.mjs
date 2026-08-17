@@ -93,6 +93,11 @@ if (!connected) {
   if (relationNodes < 2 || relationLines < 1 || relationNodes > 25) {
     failures.push(`unexpected local concept chart: ${relationNodes} stars / ${relationLines} lines`);
   }
+  const relationTarget = page.locator("#atlas-svg .relation-star").nth(1);
+  await relationTarget.focus();
+  if (!(await relationTarget.evaluate((node) => node.isConnected && node === document.activeElement))) {
+    failures.push("relation-map focus was detached while selecting a keyboard target");
+  }
 }
 
 await page.locator('[data-view="catalogue"]').click();
@@ -107,6 +112,13 @@ if (sourceRows !== concepts.meta.counts.corpusSources) {
 const researchColumns = await page.locator(".research-table thead th").allTextContents();
 if (!researchColumns.includes("Independent review")) failures.push("research table omits independent-review tracking");
 
+if (connected) {
+  await page.locator("#search").fill(connected.label);
+  if (!(await page.locator(".research-table tbody tr").count())) {
+    failures.push("research concept search did not expose the concept's supporting source rows");
+  }
+}
+
 await page.locator("#search").fill("Ankka");
 if (!(await page.locator(".research-table tbody tr").filter({ hasText: "Guild Wars" }).count())) {
   failures.push("research search did not route corpus character evidence to its source pass");
@@ -120,13 +132,13 @@ const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
 mobile.on("pageerror", (error) => failures.push(`mobile pageerror: ${error.message}`));
 await mobile.goto(appUrl, { waitUntil: "networkidle" });
 await mobile.locator("#loading").waitFor({ state: "detached" });
-await mobile.locator("#search").fill(connected?.label ?? concepts.nodes[0].label);
+await mobile.locator("#search").fill("Abhimanyu");
 await mobile.locator(".search-result").first().click();
 if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
   failures.push("mobile concept selection did not open the detail drawer");
 }
 await mobile.locator(".mobile-detail-close").click();
-if (!(await mobile.locator("#focus-banner").isVisible()) || (await mobile.locator("#atlas-svg .is-selected").count()) !== 1) {
+if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")) || !(await mobile.locator("#focus-banner").isVisible()) || (await mobile.locator("#atlas-svg .is-selected").count()) !== 1) {
   failures.push("closing the mobile detail drawer discarded the search focus");
 }
 

@@ -43,12 +43,14 @@ they also verify that the scoped alias does not reach Rāmāyaṇa's Paraśurām
 python -m venv .venv
 .venv/bin/pip install openpyxl
 npm install
+npm run browser:install
 npm run dev
 ```
 
 Open the local Vite URL. Press `/` to focus search. On touch-sized layouts,
 the bottom view switcher, map zoom controls, and detail drawer remain usable
-without hover.
+without hover. The browser contracts use the pinned Playwright 1.62.1 Chromium
+build; set `CHROMIUM_PATH` only when intentionally using another executable.
 
 ## Generate, build, and test
 
@@ -87,7 +89,8 @@ cross-series connections only from shared normalized concept IDs.
 Before a Pages artifact is built, `npm run audit:release-import` inventories all
 tracked release inputs and scans them for credential-like filenames, private key
 markers, high-signal tokens, email addresses, accidental absolute local paths,
-and files larger than 50 MiB. Reproducible outputs and machine-local folders
+files larger than 50 MiB, and matching text inside retained binary archives.
+Reproducible outputs and machine-local folders
 (`node_modules/`, `.venv/`, `dist/`, caches, temporary folders, and bytecode)
 are explicit exclusions. A finding fails the release workflow; it is not
 silently published or counted as accepted research.

@@ -7,6 +7,7 @@ import json
 import re
 import subprocess
 import sys
+import zipfile
 from collections import Counter
 from pathlib import Path
 
@@ -66,18 +67,22 @@ def scan_file(path: Path) -> list[dict[str, str]]:
         findings.append(finding(path, "oversized-file", f"{size} bytes exceeds {MAX_FILE_BYTES} bytes"))
         return findings
     content = absolute.read_bytes()
-    if b"\0" in content:
-        return findings
-    text = content.decode("utf-8", errors="replace")
-    if PRIVATE_KEY_PATTERN.search(text):
-        findings.append(finding(path, "private-key", "private key marker"))
-    for label, pattern in TOKEN_PATTERNS:
-        if pattern.search(text):
-            findings.append(finding(path, label, "credential token pattern"))
-    if EMAIL_PATTERN.search(text):
-        findings.append(finding(path, "personal-data", "email address"))
-    if LOCAL_PATH_PATTERN.search(text):
-        findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
+    texts = [content.decode("latin-1")]
+    if zipfile.is_zipfile(absolute):
+        with zipfile.ZipFile(absolute) as archive:
+            for member in archive.infolist():
+                if member.file_size <= MAX_FILE_BYTES:
+                    texts.append(archive.read(member).decode("latin-1"))
+    for text in texts:
+        if PRIVATE_KEY_PATTERN.search(text):
+            findings.append(finding(path, "private-key", "private key marker"))
+        for label, pattern in TOKEN_PATTERNS:
+            if pattern.search(text):
+                findings.append(finding(path, label, "credential token pattern"))
+        if EMAIL_PATTERN.search(text):
+            findings.append(finding(path, "personal-data", "email address"))
+        if LOCAL_PATH_PATTERN.search(text):
+            findings.append(finding(path, "machine-local-path", "absolute local filesystem path"))
     return findings
 
 

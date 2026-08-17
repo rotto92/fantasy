@@ -38,7 +38,7 @@ jobs:
       - name: Audit imported release files
         run: npm run audit:release-import
       - name: Install pinned Chromium for browser contracts
-        run: npx --yes playwright@1.62.1 install chromium
+        run: npm run browser:install
       - name: Build the Pages bundle
         run: npm run build
       - name: Run browser contracts
@@ -48,8 +48,6 @@ jobs:
           npm run test:smoke
           npm run test:discovery
           npm run test:static
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -66,6 +64,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

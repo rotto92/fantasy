@@ -8,6 +8,7 @@
     "extract": ".venv/bin/python scripts/extract_atlas.py",
     "research:validate": ".venv/bin/python scripts/validate_character_research.py",
     "audit:release-import": "python3 scripts/audit_release_import.py",
+    "browser:install": "npx --yes playwright@1.62.1 install chromium",
     "generate:constellations": ".venv/bin/python scripts/build_constellation_data.py",
     "generate:discovery": ".venv/bin/python scripts/build_discovery_index.py",
     "generate:v4": ".venv/bin/python scripts/build_version4.py",

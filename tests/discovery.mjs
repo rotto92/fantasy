@@ -13,9 +13,13 @@ if (discovery.meta.scope?.kind !== "bounded-accepted-research-corpus") {
 if (discovery.meta.foldingMap?.["ß"] !== "ss") {
   failures.push("discovery index does not publish the compiler-compatible Unicode folding map");
 }
+if (discovery.records.some((record) => Object.hasOwn(record, "searchText"))) {
+  failures.push("discovery index still carries the unused searchText payload");
+}
 const ankkaRecord = discovery.records.find((record) => record.id === "character:CHR-SRC162-001");
 const sanskritAsuraRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC277-004");
 const abhimanyu = research.characters.find((character) => character.canonical_name === "Abhimanyu");
+const mappedSourceTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC002-005");
 const mappedConcept = concepts.nodes.find((node) => node.examples?.length);
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
@@ -55,6 +59,7 @@ if (mappedConcept) {
   await page.locator("#search").fill(mappedConcept.label);
   await page.locator(".search-result").first().waitFor();
   await page.locator(".search-result").filter({ hasText: mappedConcept.label }).first().click();
+  await page.waitForFunction(() => document.activeElement?.tagName === "H2");
   const mappedText = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
   if (!mappedText.includes("concept-detail-header") && !await page.locator(".concept-detail-header").isVisible()) {
     failures.push(`mapped concept path did not open a concept detail: ${mappedText}`);
@@ -82,6 +87,15 @@ if (!sourceTermDetail.includes("source language: sanskrit") || sourceTermDetail.
   failures.push(`source-term detail mislabeled language as work: ${sourceTermDetail}`);
 }
 
+if (mappedSourceTerm) {
+  await page.locator("#search").fill(mappedSourceTerm.canonical_term);
+  await page.locator(".search-result").first().click();
+  const mappedSourceTermDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
+  if (!mappedSourceTermDetail.includes("normalized family") || !mappedSourceTermDetail.includes(`review status: ${mappedSourceTerm.review_status.toLocaleLowerCase()}`) || !mappedSourceTermDetail.includes(mappedSourceTerm.cultural_caution.toLocaleLowerCase())) {
+    failures.push(`mapped source-term detail omitted family, status, or caution: ${mappedSourceTermDetail}`);
+  }
+}
+
 await page.locator("#search").fill("Kreiß");
 const kreissText = await page.locator("#search-results").innerText();
 if (!kreissText.includes("Kreiß")) failures.push(`compiler-compatible Unicode folding omitted Kreiß: ${kreissText}`);
@@ -99,6 +113,13 @@ await page.locator(".primary-button").filter({ hasText: "Open related concept" }
 const sourceContextAfterNavigation = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
 if (!sourceContextAfterNavigation.includes("why this matched") || !sourceContextAfterNavigation.includes("droṇa parva") || !sourceContextAfterNavigation.includes("open discovery citation")) {
   failures.push("related concept navigation discarded discovery context or citation evidence");
+}
+const nearbyConcept = page.locator(".detail-section").filter({ hasText: "Nearby stars" }).locator(".relation-button").first();
+if (await nearbyConcept.count()) {
+  await nearbyConcept.click();
+  if ((await page.locator(".detail-panel").innerText()).toLocaleLowerCase().includes("why this matched")) {
+    failures.push("unrelated nearby concept inherited the original discovery context");
+  }
 }
 
 await page.locator("#search").fill("asura");
