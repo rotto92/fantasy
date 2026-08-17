@@ -2,7 +2,7 @@
   "meta": {
     "title": "Fantasy Character Atlas",
     "version": "4.0-research",
-    "sourceFingerprint": "sha256:97135c93bdf13207d2271418e60eb66c265316c13aa6065cbbe7df7ae5e22f4d",
+    "sourceFingerprint": "sha256:7b1b23d556d903618235cc3a8fc631a513a625c43944e353265aa3148c0d4f89",
     "sourceWorkbook": "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
     "counts": {
       "source_audits": 281,
@@ -12,7 +12,7 @@
       "errors": 0,
       "warnings": 14,
       "quarantined_records": 13,
-      "quarantined_mappings": 45
+      "quarantined_mappings": 159
     },
     "researchCoverage": {
       "corpusSources": 281,
@@ -41,9 +41,9 @@
       "retainedWarningSources": 13,
       "retainedWarningFlags": 14,
       "corpusWideContractReviews": 2,
-      "reviewedClaims": 2509,
-      "totalClaims": 9586,
-      "claimCoverage": 0.261736,
+      "reviewedClaims": 2820,
+      "totalClaims": 9385,
+      "claimCoverage": 0.300479,
       "minimumClaimCoverage": 0.2,
       "quarantinedRecordIds": [
         "CHR-SRC002-045",
@@ -98,14 +98,128 @@
         "CHR-SRC020-005",
         "CHR-SRC023-027",
         "CHR-SRC050-010",
+        "STM-SRC001-001",
+        "STM-SRC001-002",
+        "STM-SRC001-003",
+        "STM-SRC001-004",
+        "STM-SRC001-007",
+        "STM-SRC001-008",
+        "STM-SRC001-011",
+        "STM-SRC001-012",
+        "STM-SRC002-001",
         "STM-SRC002-002",
+        "STM-SRC002-003",
+        "STM-SRC002-004",
         "STM-SRC002-005",
+        "STM-SRC002-006",
+        "STM-SRC002-007",
+        "STM-SRC002-009",
+        "STM-SRC002-010",
         "STM-SRC002-013",
+        "STM-SRC003-001",
+        "STM-SRC003-003",
+        "STM-SRC003-004",
+        "STM-SRC003-005",
+        "STM-SRC005-001",
+        "STM-SRC005-002",
+        "STM-SRC005-003",
+        "STM-SRC005-004",
+        "STM-SRC005-005",
+        "STM-SRC005-006",
+        "STM-SRC005-009",
+        "STM-SRC006-002",
+        "STM-SRC006-003",
+        "STM-SRC006-004",
+        "STM-SRC006-005",
+        "STM-SRC006-006",
+        "STM-SRC006-010",
+        "STM-SRC007-007",
+        "STM-SRC010-001",
+        "STM-SRC010-003",
+        "STM-SRC011-002",
+        "STM-SRC011-003",
+        "STM-SRC011-004",
+        "STM-SRC011-005",
+        "STM-SRC013-001",
         "STM-SRC015-005",
+        "STM-SRC016-001",
+        "STM-SRC016-002",
+        "STM-SRC016-003",
+        "STM-SRC016-004",
+        "STM-SRC016-005",
+        "STM-SRC016-007",
+        "STM-SRC016-008",
+        "STM-SRC016-010",
+        "STM-SRC016-011",
+        "STM-SRC016-012",
+        "STM-SRC016-013",
+        "STM-SRC016-014",
+        "STM-SRC016-015",
+        "STM-SRC016-016",
+        "STM-SRC016-017",
+        "STM-SRC016-018",
+        "STM-SRC017-001",
+        "STM-SRC017-002",
+        "STM-SRC017-004",
+        "STM-SRC017-005",
+        "STM-SRC017-006",
+        "STM-SRC017-007",
+        "STM-SRC017-008",
+        "STM-SRC017-009",
+        "STM-SRC017-010",
+        "STM-SRC017-011",
+        "STM-SRC017-012",
+        "STM-SRC017-015",
+        "STM-SRC019-001",
+        "STM-SRC019-009",
+        "STM-SRC019-010",
+        "STM-SRC020-002",
+        "STM-SRC020-003",
+        "STM-SRC020-004",
+        "STM-SRC020-006",
+        "STM-SRC020-007",
+        "STM-SRC020-008",
+        "STM-SRC020-009",
+        "STM-SRC021-003",
+        "STM-SRC021-004",
+        "STM-SRC021-005",
+        "STM-SRC021-007",
+        "STM-SRC023-001",
+        "STM-SRC023-002",
+        "STM-SRC023-003",
+        "STM-SRC023-004",
+        "STM-SRC023-005",
+        "STM-SRC023-009",
         "STM-SRC024-001",
         "STM-SRC024-003",
         "STM-SRC024-007",
-        "STM-SRC050-004"
+        "STM-SRC035-001",
+        "STM-SRC035-002",
+        "STM-SRC035-004",
+        "STM-SRC035-006",
+        "STM-SRC042-002",
+        "STM-SRC042-003",
+        "STM-SRC042-006",
+        "STM-SRC050-001",
+        "STM-SRC050-002",
+        "STM-SRC050-004",
+        "STM-SRC277-003",
+        "STM-SRC277-007",
+        "STM-SRC277-008",
+        "STM-SRC277-009",
+        "STM-SRC277-011",
+        "STM-SRC277-013",
+        "STM-SRC279-001",
+        "STM-SRC279-002",
+        "STM-SRC279-003",
+        "STM-SRC279-004",
+        "STM-SRC279-005",
+        "STM-SRC279-007",
+        "STM-SRC279-008",
+        "STM-SRC279-009",
+        "STM-SRC279-010",
+        "STM-SRC279-011",
+        "STM-SRC279-012"
       ]
     },
     "quarantinedBundles": [
@@ -151352,9 +151466,7 @@
       "transliteration": "theos",
       "literal_gloss": "god",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Divine being; specific powers and relationships vary by witness.",
       "cultural_caution": "Not a generic fantasy race.",
@@ -151379,9 +151491,7 @@
       "transliteration": "Titan",
       "literal_gloss": "Titan",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-408"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Primordial divine generation in Hesiodic genealogy.",
       "cultural_caution": "The mapping is an analytical aid, not equivalence with modern 'titans'.",
@@ -151406,9 +151516,7 @@
       "transliteration": "nymphe",
       "literal_gloss": "nymph / young woman",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-204"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A divine or semi-divine female figure; category varies by context.",
       "cultural_caution": "Avoid reducing all nymphai to one fantasy species.",
@@ -151433,9 +151541,7 @@
       "transliteration": "Kyklops",
       "literal_gloss": "round-eye / Cyclops",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-111"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "One-eyed being, exemplified by Polyphemus in Odyssey 9.",
       "cultural_caution": "Hesiodic smith Cyclopes and Homeric Polyphemus are not identical social types.",
@@ -151510,10 +151616,7 @@
       "transliteration": "xenia",
       "literal_gloss": "guest-friendship / hospitality",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-801",
-        "LAW-802"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Guest-host reciprocity materially structures the Polyphemus episode.",
       "cultural_caution": "The modern labels only approximate embedded social and religious norms.",
@@ -151538,9 +151641,7 @@
       "transliteration": "moira",
       "literal_gloss": "portion / allotted fate",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-501"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "An allotted portion or fate, used in Achilles' mortality framework.",
       "cultural_caution": "Meaning and personification vary; not a simple deterministic system.",
@@ -151615,9 +151716,7 @@
       "transliteration": "metis",
       "literal_gloss": "cunning intelligence",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-217"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "Resourceful stratagem, exemplified by Odysseus's Polyphemus plan.",
       "cultural_caution": "Functional mapping to trickster is not a lexical equivalence.",
@@ -151642,9 +151741,7 @@
       "transliteration": "katabasis",
       "literal_gloss": "descent",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-611"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "Descent toward the realm of the dead, exemplified by Odysseus's Nekyia.",
       "cultural_caution": "A modern analytical label rather than a single technical category in every Greek text.",
@@ -151744,9 +151841,7 @@
       "transliteration": "Æsir",
       "literal_gloss": "the gods (group name)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A named divine grouping in the Eddic witnesses; membership and relations are witness-specific.",
       "cultural_caution": "Do not reduce this relational category to a fantasy species or pantheon class.",
@@ -151796,9 +151891,7 @@
       "transliteration": "jötunn; plural jötnar",
       "literal_gloss": "giant/ogre (context-dependent modern gloss)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-108"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A source-native category of named beings and kin relations; bodily scale, morality, and opposition to gods vary by witness and individual.",
       "cultural_caution": "'Giantkin' is a limited comparative coordinate, not an equivalence claim or a universal description.",
@@ -151823,9 +151916,7 @@
       "transliteration": "dvergr; plural dvergar",
       "literal_gloss": "dwarf",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-103"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A named category of beings in Eddic catalogs and mythic narration, including smith-associated figures in later prose narration.",
       "cultural_caution": "Do not equate medieval dvergar with a standardized modern fantasy ancestry.",
@@ -151875,10 +151966,7 @@
       "transliteration": "valkyrja; plural valkyrjur",
       "literal_gloss": "chooser of the slain",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "PPL-405",
-        "ROL-637"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A named supernatural female figure associated with choosing the slain and serving ale in Valhöll in the selected witnesses.",
       "cultural_caution": "Not a generic warrior class; individual valkyrjur have different narrative roles.",
@@ -151903,9 +151991,7 @@
       "transliteration": "norn; plural nornir",
       "literal_gloss": "fate-being (conventional gloss)",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-501"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Figures who allot lives/fate in Völuspá and related Eddic diction.",
       "cultural_caution": "Do not flatten source-specific fate language into deterministic game mechanics.",
@@ -151955,9 +152041,7 @@
       "transliteration": "rúnar",
       "literal_gloss": "runes; secrets",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-501"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Named runic knowledge and inscriptions in the heroic poems, including Sigrdrífa's instruction.",
       "cultural_caution": "The mapping does not claim an all-purpose rune-magic system.",
@@ -151982,11 +152066,7 @@
       "transliteration": "Ragnarök",
       "literal_gloss": "fate/twilight of the gods (translation debated)",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-701",
-        "COS-703",
-        "COS-711"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The destruction-and-renewal sequence narrated in Völuspá and retold in Gylfaginning.",
       "cultural_caution": "Do not assume a single cyclical model or collapse poetic and prose sequence details.",
@@ -152079,7 +152159,7 @@
     {
       "term_id": "STM-SRC011-001",
       "source_id": "SRC-011",
-      "work_or_witness": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. I, contents and pp. 118–237, headings for successive reigns; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · KINGSHIP, headword and linked subentries",
+      "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. I · Vol. I, contents and pp. 118–237, headings for successive reigns; Encyclopaedia Iranica, KINGSHIP · KINGSHIP, headword and linked subentries",
       "canonical_term": "šāh",
       "original_language": "New Persian",
       "original_script": "شاه",
@@ -152111,16 +152191,14 @@
     {
       "term_id": "STM-SRC011-002",
       "source_id": "SRC-011",
-      "work_or_witness": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. II, pp. 44–76, ‘The Seven Courses of Rustam’; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam as foremost Iranian hero",
+      "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. II · Vol. II, pp. 44–76, ‘The Seven Courses of Rustam’; Encyclopaedia Iranica, ŠĀH-NĀMA V. EXCURSUS · ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam as foremost Iranian hero",
       "canonical_term": "pahlavān",
       "original_language": "New Persian",
       "original_script": "پهلوان",
       "transliteration": "pahlavān",
       "literal_gloss": "hero; champion",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-139"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "A heroic designation in the poem’s martial world, represented here through its leading named bearers such as Rostam; it is not treated as a bounded profession or player class.",
       "cultural_caution": "‘Champion’ is only a functional atlas label. Pahlavān carries Persian epic, ethical, and later cultural resonances that exceed competitive or occupational senses.",
@@ -152145,16 +152223,14 @@
     {
       "term_id": "STM-SRC011-003",
       "source_id": "SRC-011",
-      "work_or_witness": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. II, pp. 57–59, ‘The Sixth’ and ‘Seventh Course’ (Arzhang Dīv and White Dīv); Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · DĪV, opening paragraphs and Shahnameh discussion",
+      "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. II · Vol. II, pp. 57–59, ‘The Sixth’ and ‘Seventh Course’ (Arzhang Dīv and White Dīv); Encyclopaedia Iranica, DĪV · DĪV, opening paragraphs and Shahnameh discussion",
       "canonical_term": "dīv",
       "original_language": "New Persian",
       "original_script": "دیو",
       "transliteration": "dīv",
       "literal_gloss": "demon; monster; fiend (context-dependent)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-501"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A broad epic label applied to hostile nonhuman beings, including the White Dīv and the Black Dīv; the poem can also use it in relation to Iblis/Ahriman.",
       "cultural_caution": "Do not equate dīv wholesale with a Western ‘demon,’ generic monster species, jinn, or historical ethnic group. Its meanings and portrayal vary across Iranian religious, literary, and folk contexts.",
@@ -152179,16 +152255,14 @@
     {
       "term_id": "STM-SRC011-004",
       "source_id": "SRC-011",
-      "work_or_witness": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. I, pp. 239–251, ‘The Birth of Zal’ and his return; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · SIMORḠ, opening definition and pre-Islamic tradition discussion",
+      "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. I · Vol. I, pp. 239–251, ‘The Birth of Zal’ and his return; Encyclopaedia Iranica, SIMORḠ · SIMORḠ, opening definition and pre-Islamic tradition discussion",
       "canonical_term": "Sīmorgh",
       "original_language": "New Persian",
       "original_script": "سیمرغ",
       "transliteration": "Sīmorgh",
       "literal_gloss": "fabulous/mythical bird",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-820"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "The named fabulous bird that rears Zal and later aids Rostam; retained as a source-specific being rather than reduced to a generic bird creature.",
       "cultural_caution": "The functional ‘guardian beast’ mapping does not represent the full religious, literary, iconographic, or regional history of Simorgh/Sēnmurw.",
@@ -152213,17 +152287,14 @@
     {
       "term_id": "STM-SRC011-005",
       "source_id": "SRC-011",
-      "work_or_witness": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. I, pp. 131–145, ‘The Greatness and Fall of Jamshid’; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · FARR(AH), opening definition and attestations",
+      "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. I · Vol. I, pp. 131–145, ‘The Greatness and Fall of Jamshid’; Encyclopaedia Iranica, FARR(AH) · FARR(AH), opening definition and attestations",
       "canonical_term": "farr / xᵛarənah",
       "original_language": "New Persian / Avestan",
       "original_script": "فر / xᵛarənah-",
       "transliteration": "farr; xᵛarənah",
       "literal_gloss": "glory; royal/divine fortune",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-508",
-        "LAW-509"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A source-context term relevant to the poem’s presentation of legitimate or lost royal glory, especially in Jamshid’s fall; it is not a quantified power resource.",
       "cultural_caution": "Farr/xᵛarənah is neither simply ‘mana’ nor an interchangeable universal mandate. The poem’s account must be distinguished from Avestan, Pahlavi, and later political-theological uses.",
@@ -152248,7 +152319,7 @@
     {
       "term_id": "STM-SRC011-006",
       "source_id": "SRC-011",
-      "work_or_witness": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · Vol. I, pp. 189–232, Fereydun’s partition and conflict among Salm, Tur, and Iraj; Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass. · ŠĀH-NĀMA, overview of Iran’s continuous narrative and contested claim",
+      "work_or_witness": "Ferdowsi, Shāhnāmeh, Warner & Warner trans., Vol. I · Vol. I, pp. 189–232, Fereydun’s partition and conflict among Salm, Tur, and Iraj; Encyclopaedia Iranica, ŠĀH-NĀMA · ŠĀH-NĀMA, overview of Iran’s continuous narrative and contested claim",
       "canonical_term": "Īrān / Tūrān",
       "original_language": "New Persian",
       "original_script": "ایران / توران",
@@ -152444,9 +152515,7 @@
       "transliteration": "Tuatha De Danann",
       "literal_gloss": "peoples/tribes of the goddess Danu",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-200"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Named collective central to Cath Maige Tuired.",
       "cultural_caution": "Do not equate this medieval learned-literary group with a generic fae race.",
@@ -152496,9 +152565,7 @@
       "transliteration": "geis",
       "literal_gloss": "taboo / binding obligation",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-109"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Binding obligation or prohibition, exemplified by the Dagda's geasa placed on Elcmar.",
       "cultural_caution": "The taxonomy's compulsory-obligation label is a comparison aid, not a definition of geis across Irish literature.",
@@ -152523,9 +152590,7 @@
       "transliteration": "flaithius",
       "literal_gloss": "sovereignty / lordship",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-509"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Kingship/sovereignty language in Eochaid Airem's accession and queen-seeking episode.",
       "cultural_caution": "Do not turn sovereignty into a generic magical power-up; gender, land, legitimacy, and polity are context-specific.",
@@ -152550,9 +152615,7 @@
       "transliteration": "sid",
       "literal_gloss": "mound / Otherworld residence",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-211"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Otherworldly community/place language in the victory proclamation.",
       "cultural_caution": "A síd is not simply a dungeon, portal, or 'fairy hill' trope.",
@@ -152727,10 +152790,7 @@
       "transliteration": "laulu",
       "literal_gloss": "song",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-509",
-        "LAW-612"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "Song acts operatively in Väinämöinen’s contest with Joukahainen.",
       "cultural_caution": "Functional mapping only; it does not define Finnish oral song traditions as a magic system.",
@@ -152755,10 +152815,7 @@
       "transliteration": "sana",
       "literal_gloss": "word",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-504",
-        "LAW-614"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "Missing words are sought from Vipunen for Väinämöinen’s boat-building.",
       "cultural_caution": "Word power is textual and poetic, not a modern true-name doctrine.",
@@ -152783,9 +152840,7 @@
       "transliteration": "tietaja",
       "literal_gloss": "knower/ritual specialist",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-307"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Knowledge and sung origins authorize healing and craft in the epic.",
       "cultural_caution": "Avoid equating a culturally specific term with a generic wizard class.",
@@ -152810,10 +152865,7 @@
       "transliteration": "seppa",
       "literal_gloss": "smith",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-610",
-        "ROL-612"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "close",
       "definition": "Ilmarinen is identified through smithing and forges the Sampo.",
       "cultural_caution": "The role is literary and craft-specific; it is not an RPG profession claim.",
@@ -152838,9 +152890,7 @@
       "transliteration": "Sampo",
       "literal_gloss": "Sampo",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-106"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The forged Sampo is the contested object of the Pohjola expedition.",
       "cultural_caution": "Its meaning/function is debated; no single wealth-machine interpretation is asserted.",
@@ -152940,9 +152990,7 @@
       "transliteration": "Tuonela",
       "literal_gloss": "realm of Tuoni",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-301"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Realm governed by Tuoni and Tuonetar in the underworld episode.",
       "cultural_caution": "The modern underworld mapping is functional, not equivalence.",
@@ -153017,9 +153065,7 @@
       "transliteration": "nṯr",
       "literal_gloss": "god",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "divine office. Named divine figures in the judgment vignette.",
       "cultural_caution": "Egyptian terms vary by period, genre, and local theology. This is a witness-bound explanatory term, not an interchangeable fantasy category.",
@@ -153219,9 +153265,7 @@
       "transliteration": "Tz’aqol / B’itol",
       "literal_gloss": "Framer / Shaper",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-413"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Paired creator titles used in the opening creation account.",
       "cultural_caution": "Translation choices and paired poetics matter; do not split the terms into a generic creator class.",
@@ -153246,10 +153290,7 @@
       "transliteration": "Uk’ux Kaj",
       "literal_gloss": "Heart of Sky",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-413",
-        "PWR-206"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A creative title/power in the creation narrative.",
       "cultural_caution": "Not a simple deity name or generic storm god.",
@@ -153274,9 +153315,7 @@
       "transliteration": "Xibalba",
       "literal_gloss": "Place of Fright",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-211"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Otherworld realm and polity of the named lords and trials.",
       "cultural_caution": "Do not translate or map it as a Christian hell.",
@@ -153326,9 +153365,7 @@
       "transliteration": "winaq",
       "literal_gloss": "person/people",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-101"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "People made from maize in the creation account.",
       "cultural_caution": "Do not read narrative maize creation as modern biological race taxonomy.",
@@ -153428,9 +153465,7 @@
       "transliteration": "xiān",
       "literal_gloss": "immortal; transcendent",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-406"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A novel term for immortals/transcendents and their status, central to Wukong’s early quest.",
       "cultural_caution": "Do not equate xian with a generic immortal species or a single Daoist doctrinal category.",
@@ -153455,10 +153490,7 @@
       "transliteration": "shénxiān",
       "literal_gloss": "divine immortal",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401",
-        "PPL-406"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A combined divine-immortal category in the novel’s celestial order.",
       "cultural_caution": "Not a generic pantheon category; usage varies.",
@@ -153483,9 +153515,7 @@
       "transliteration": "yāoguài",
       "literal_gloss": "bewitching/strange creature",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-501"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The novel’s nonhuman beings, often cultivated animals, plants, or objects.",
       "cultural_caution": "Do not translate yaoguai as a fixed demon race, fiend, or evil essence.",
@@ -153510,9 +153540,7 @@
       "transliteration": "fó",
       "literal_gloss": "Buddha",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A Buddhist title/status deployed in the novel’s sacred hierarchy.",
       "cultural_caution": "Never reduce Buddhahood to a generic god type.",
@@ -153537,9 +153565,7 @@
       "transliteration": "púsà",
       "literal_gloss": "bodhisattva",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A Buddhist bodhisattva title, notably Guanyin’s.",
       "cultural_caution": "Do not map bodhisattvas directly to gods, clerics, or game patrons.",
@@ -153589,9 +153615,7 @@
       "transliteration": "xiūliàn",
       "literal_gloss": "cultivate/refine through practice",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-114"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Disciplined self-cultivation/refinement explaining Wukong’s and many yaoguai powers.",
       "cultural_caution": "Not a level-up system or one transhistorical genre mechanic.",
@@ -153616,10 +153640,7 @@
       "transliteration": "Tiāntíng",
       "literal_gloss": "Heavenly Court",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-119",
-        "COS-202"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The novel’s celestial court and bureaucracy.",
       "cultural_caution": "A literary cosmology and bureaucracy, not simply generic heaven/state.",
@@ -153669,9 +153690,7 @@
       "transliteration": "Tiānpéng Yuánshuài",
       "literal_gloss": "Heavenly Canopy Marshal",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-141"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Zhu Bajie’s former Heavenly Court military office.",
       "cultural_caution": "Source-specific celestial title, not modern rank.",
@@ -153696,9 +153715,7 @@
       "transliteration": "dìshà qīshí’èr biàn",
       "literal_gloss": "seventy-two earthly transformations",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-310"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Transformation curriculum Wukong learns from Subhuti.",
       "cultural_caution": "Not interchangeable fantasy shapeshift spell list.",
@@ -153723,9 +153740,7 @@
       "transliteration": "tiāngāng sānshíliù biàn",
       "literal_gloss": "thirty-six heavenly transformations",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-310"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A contrasting transformation set mentioned for Zhu Bajie.",
       "cultural_caution": "Numbering/cosmological language are source-specific.",
@@ -153750,10 +153765,7 @@
       "transliteration": "rúyì jīngū bàng",
       "literal_gloss": "as-you-wish golden-hooped cudgel",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-208",
-        "ART-210"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Wukong’s named size-changing iron staff.",
       "cultural_caution": "Not merely a +weapon or generic magic staff.",
@@ -153778,9 +153790,7 @@
       "transliteration": "jiǔchǐ dīngpá",
       "literal_gloss": "nine-toothed iron rake",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-208"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Zhu Bajie’s named weapon associated with his heavenly office.",
       "cultural_caution": "Not generic farm implement/class weapon.",
@@ -153805,9 +153815,7 @@
       "transliteration": "xiángmó zhàng",
       "literal_gloss": "demon-subduing staff",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-208"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Sha Wujing’s named staff.",
       "cultural_caution": "Translation “demon” must not erase distinctions.",
@@ -153832,9 +153840,7 @@
       "transliteration": "jǐngū",
       "literal_gloss": "tightening hoop",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-112"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The headband/hoop used to discipline Wukong.",
       "cultural_caution": "A novel disciplinary device, not generic cursed gear.",
@@ -153859,9 +153865,7 @@
       "transliteration": "qǔjīng",
       "literal_gloss": "fetch/obtain scriptures",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-420"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The stated scripture-retrieval pilgrimage mission.",
       "cultural_caution": "Not a generic adventure quest or account of all Buddhist pilgrimage.",
@@ -153886,9 +153890,7 @@
       "transliteration": "shītú",
       "literal_gloss": "teacher and disciples",
       "dimension": "affiliations",
-      "archetype_ids": [
-        "INS-425"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The master–disciple relation structuring the party and Subhuti’s training.",
       "cultural_caution": "Not generic party roster or school membership.",
@@ -153988,9 +153990,7 @@
       "transliteration": "deva",
       "literal_gloss": "shining one/deity",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Divine agents such as Indra, Sūrya, and Agni.",
       "cultural_caution": "Not a generic celestial species.",
@@ -154065,9 +154065,7 @@
       "transliteration": "vara",
       "literal_gloss": "boon",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-201"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Divine gift/boon structure in weapon and birth narratives.",
       "cultural_caution": "A functional comparison, not a rules reward.",
@@ -154092,9 +154090,7 @@
       "transliteration": "śāpa",
       "literal_gloss": "curse",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-204"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "close",
       "definition": "Binding curse that shapes Pāṇḍu’s life and later narratives.",
       "cultural_caution": "Source-specific force and ethics must remain visible.",
@@ -154119,10 +154115,7 @@
       "transliteration": "vrata",
       "literal_gloss": "vow/observance",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-101",
-        "LAW-102"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Self-binding vow, exemplified by Bhīṣma’s renunciation.",
       "cultural_caution": "Do not treat vratā as a power-optimization constraint.",
@@ -154172,9 +154165,7 @@
       "transliteration": "yajña",
       "literal_gloss": "sacrifice/ritual offering",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-301"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Ritual such as the rājasūya structures political and sacred action.",
       "cultural_caution": "Ritual context is not a resource economy or game quest.",
@@ -154224,10 +154215,7 @@
       "transliteration": "rājasūya",
       "literal_gloss": "royal consecration sacrifice",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-301",
-        "LAW-509"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Royal ritual context for Yudhiṣṭhira’s assembly and Śiśupāla episode.",
       "cultural_caution": "Requires historical-ritual context; not a generic coronation event.",
@@ -154252,9 +154240,7 @@
       "transliteration": "kami",
       "literal_gloss": "deity/sacred presence",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Term used for sacred/divine beings in Kojiki and Nihon Shoki episodes.",
       "cultural_caution": "Not a generic deity species and not a substitute for Shinto practice.",
@@ -154454,10 +154440,7 @@
       "transliteration": "kegare",
       "literal_gloss": "pollution/defilement",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-402",
-        "LAW-403"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Purification/pollution framework relevant to Izanagi’s return and Sujin’s plague episode.",
       "cultural_caution": "Do not reduce ritual purity to morality or a status effect.",
@@ -154482,9 +154465,7 @@
       "transliteration": "Yomi",
       "literal_gloss": "realm of the dead",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-301"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Realm associated with Izanami after death.",
       "cultural_caution": "Not automatically equivalent to any later Buddhist hell.",
@@ -154888,9 +154869,7 @@
       "transliteration": "al-jinn",
       "literal_gloss": "the concealed/invisible beings (etymological gloss is interpretive)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-302"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A Qur'anic category of morally addressed nonhuman beings; the selected passages include a group who hear revelation and jinn who work for Sulayman by divine permission.",
       "cultural_caution": "Do not equate jinn with 'genies,' wish-granters, demons, or a single fantasy species. The term has Qur'anic, theological, literary, regional, and living-context histories that must remain distinguished.",
@@ -154954,9 +154933,7 @@
       "transliteration": "ʿifrīt",
       "literal_gloss": "powerful/mighty one (context-dependent)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-302"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "In Qur'an 27:39, an ifrit 'of the jinn' offers to bring the throne before Sulayman rises from his place. The passage supplies a designation, not a personal name.",
       "cultural_caution": "This term is retained as a source term rather than turned into a character node or a fantasy 'efreet' subtype. Later literary and game uses are separate continuities.",
@@ -155056,9 +155033,7 @@
       "transliteration": "jeli (witness spelling: djeli)",
       "literal_gloss": "specialist oral performer/historian; English 'griot' is not an exact equivalent",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-609"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The Niane/Pickett framing calls Mamadou Kouyaté and Balla Fasséké 'griots'; the role carries hereditary, historical, genealogical, musical, and patronage relations in Mande contexts.",
       "cultural_caution": "Do not reduce jeli to a fantasy bard, a generic storyteller, or a caste/class mechanic. Roles, terminology, and authority vary by language, lineage, performance, and social context.",
@@ -155090,9 +155065,7 @@
       "transliteration": "simbon",
       "literal_gloss": "hunter (contextual title/role)",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-126"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "The witness's opening genealogy labels several named forebears Simbon and calls Mamadi Kani a hunter king; named hunters initiate the Sogolon episode.",
       "cultural_caution": "This functional map does not turn Mande hunting knowledge, ritual, or social identity into a generic ranger class.",
@@ -155117,9 +155090,7 @@
       "transliteration": "mansa",
       "literal_gloss": "king/sovereign (context-dependent)",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-716"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The Pickett translation repeatedly presents Sundiata and other rulers in kingship language, including the title Mansa at the Kouroukan Fougan settlement.",
       "cultural_caution": "The workbook's 'Warlord Ruler' is only an analytic comparison; it neither defines Mande sovereignty nor supports a claim that rule rested solely on conquest.",
@@ -155144,9 +155115,7 @@
       "transliteration": "",
       "literal_gloss": "foretelling and destined future in this translation",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-407"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "An unnamed Hunter-Soothsayer foretells Sundiata's future kingship; later chapters repeatedly frame the hero's path as destiny.",
       "cultural_caution": "This is a translation-level narrative descriptor, not a reconstructed Mandekan technical term or evidence of a uniform magical system.",
@@ -155171,9 +155140,7 @@
       "transliteration": "",
       "literal_gloss": "removal from home and court",
       "dimension": "narrative_archetypes",
-      "archetype_ids": [
-        "NAR-107"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The chapter titled 'Exile' follows Sogolon, Sundiata, and their kin leaving Niani; the return structures the later campaign.",
       "cultural_caution": "The archetype is a comparative plot label, not an equivalence claim about Mande displacement, kinship, or political legitimacy.",
@@ -155273,9 +155240,7 @@
       "transliteration": "Kouroukan Fougan",
       "literal_gloss": "rendered in this witness as 'The Division of the World'",
       "dimension": "narrative_archetypes",
-      "archetype_ids": [
-        "NAR-437"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The witness names a post-victory settlement in which Sundiata distributes kingdoms and offices; it is a founding narrative episode in this text.",
       "cultural_caution": "Do not collapse this chapter into a timeless constitution, a complete historical legal code, or a generic kingdom-building mechanic; its form and significance vary across sources and modern uses.",
@@ -155300,9 +155265,7 @@
       "transliteration": "shen",
       "literal_gloss": "numinous being/deity",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-401"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A context-dependent Chinese term; neither a stable pantheon category nor equivalent to “god” in every witness.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155327,9 +155290,7 @@
       "transliteration": "xian",
       "literal_gloss": "transcendent/immortal",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-406"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Daoist attainment language and art are historically varied; no generic race/class equivalence.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155354,9 +155315,7 @@
       "transliteration": "tianting",
       "literal_gloss": "celestial court",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-119"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A bureaucratic model in a defined Daoist/local setting, not a uniformly organized Chinese heaven.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155381,9 +155340,7 @@
       "transliteration": "lu",
       "literal_gloss": "register",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-518"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "Ritual register/document language in a Lingbao rite; do not reduce it to an inventory or game credential.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155408,9 +155365,7 @@
       "transliteration": "fu",
       "literal_gloss": "talisman",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-506"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Textual/ritual talismans used in the identified Lingbao rite; not a generic spell-card system.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155460,9 +155415,7 @@
       "transliteration": "zuxian",
       "literal_gloss": "ancestors",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-303"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Ancestor practice is not a single religion or a universal afterlife ontology.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155487,9 +155440,7 @@
       "transliteration": "long",
       "literal_gloss": "dragon",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-801"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "This crosswalk applies only to the identified Tang tale’s dragon persons; dragon meanings vary by time, region, and medium.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155514,9 +155465,7 @@
       "transliteration": "hu",
       "literal_gloss": "fox",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-1001"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A literary fox-spirit witness, not evidence for all fox traditions or living beliefs.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155541,9 +155490,7 @@
       "transliteration": "Yanluo",
       "literal_gloss": "Yama",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-636"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "A Buddhist sutra’s underworld king; do not conflate with all Chinese underworld courts.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155568,10 +155515,7 @@
       "transliteration": "diyu",
       "literal_gloss": "hell/underworld",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-301",
-        "COS-304"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Buddhist karmic and soteriological context; not a single Chinese underworld map.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155596,9 +155540,7 @@
       "transliteration": "dongtian",
       "literal_gloss": "grotto-heaven",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-501"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "Daoist sacred geography; a “sacred mountain” mapping is only functional.",
       "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
@@ -155673,9 +155615,7 @@
       "transliteration": "fengshen",
       "literal_gloss": "Investiture/deification",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "STA-207"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The novel's postwar assignment of named dead to divine offices; not a generic leveling or evolution mechanic.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155700,9 +155640,7 @@
       "transliteration": "Fengshen bang",
       "literal_gloss": "Investiture Register",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-402"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "The register governing the novel's investiture; its exact textual status must not be reduced to a generic prophecy book.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155752,9 +155690,7 @@
       "transliteration": "xian",
       "literal_gloss": "transcendent/immortal",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-406"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Translation varies; xian in this novel is not simply an ascended-mortal class.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155779,9 +155715,7 @@
       "transliteration": "zhenren",
       "literal_gloss": "perfected person",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-917"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A literary/religious title in the novel; the mapping is a retrieval aid, not an exact title equivalence.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155806,9 +155740,7 @@
       "transliteration": "Chanjiao",
       "literal_gloss": "Teaching of Elucidation",
       "dimension": "affiliations",
-      "archetype_ids": [
-        "INS-425"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "A novel sect/teaching alignment and teacher-disciple network, not a direct historical institutional record.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155833,9 +155765,7 @@
       "transliteration": "Jiejiao",
       "literal_gloss": "Teaching of Interception",
       "dimension": "affiliations",
-      "archetype_ids": [
-        "INS-425"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "A novel sect/teaching alignment centered at Biyou Palace, not a general religious category.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155860,9 +155790,7 @@
       "transliteration": "Yuxu gong",
       "literal_gloss": "Jade Void Palace",
       "dimension": "affiliations",
-      "archetype_ids": [
-        "INS-424"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "Yuanshi Tianzun's novel residence/teaching center.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155887,9 +155815,7 @@
       "transliteration": "Biyou gong",
       "literal_gloss": "Azure Wandering Palace",
       "dimension": "affiliations",
-      "archetype_ids": [
-        "INS-424"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "Tongtian Jiaozhu's novel residence/teaching center.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155914,9 +155840,7 @@
       "transliteration": "fabao",
       "literal_gloss": "dharma/numinous treasure",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-201"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A broad source-native category of supernatural implements; not every fabao is a weapon.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155941,9 +155865,7 @@
       "transliteration": "fu",
       "literal_gloss": "talisman",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-506"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Textual/ritual talismans in the novel; not a generic spell-card mechanic.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -155968,9 +155890,7 @@
       "transliteration": "Dashen bian",
       "literal_gloss": "God-Beating Whip",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-201"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Jiang Ziya's named implement in the novel.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -156045,9 +155965,7 @@
       "transliteration": "tianming",
       "literal_gloss": "Heaven's mandate/command",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-207"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The novel's cosmic authorization of dynastic change; it is not reducible to a generic curse or game quest.",
       "cultural_caution": "Recorded as a term in this Ming novel's literary cosmology, not as a comprehensive or normative definition for Daoist, Buddhist, local, historical, or living Chinese traditions.",
@@ -156129,9 +156047,7 @@
       "transliteration": "mudang",
       "literal_gloss": "shaman/ritual specialist",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-502"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The ritual-specialist category associated with Korean shamanic narrative performance and the broader organization of Bari Gongju variants.",
       "cultural_caution": "The English ‘shaman’ crosswalk is functional and imprecise; mudang is not a fantasy class and individual practitioners are not introduced as character nodes here.",
@@ -156156,9 +156072,7 @@
       "transliteration": "gumiho",
       "literal_gloss": "nine-tailed fox",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-1001"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A label for variants of the Fox-Marble Tale, in which a fox may transform into a woman; the cited overview reports especially frequent transmission in northern regions.",
       "cultural_caution": "Do not treat gumiho as a fixed ‘female fox monster,’ a universal Korean creature species, or an automatic analogue to Chinese or Japanese fox traditions. The recorded tales have variants and specific social contexts.",
@@ -156183,9 +156097,7 @@
       "transliteration": "byeonsin",
       "literal_gloss": "transformation",
       "dimension": "states_and_transformations",
-      "archetype_ids": [
-        "STA-202"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Transformation is directly attested in the selected fox-story witnesses: the fox in Fox-Marble Tale transforms into a woman, and Gil Dal turns into a fox in the Bihyeongrang account.",
       "cultural_caution": "This is only a witness-grounded narrative event; it does not posit an across-corpus transformation system or a universal gumiho rule.",
@@ -156249,9 +156161,7 @@
       "transliteration": "sansin",
       "literal_gloss": "mountain spirit/deity",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-304"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Mountain Spirit is the collection title for a Joseon Buddhist painting showing Sansin with a tiger avatar.",
       "cultural_caution": "A museum object attests one Joseon Buddhist painting context only. Sansin is not a generic guardian-spirit species, a single universal character, or evidence that folk-religious and Buddhist layers are identical.",
@@ -156276,9 +156186,7 @@
       "transliteration": "jowangsin",
       "literal_gloss": "kitchen deity",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-205"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "In the Jeju Munjeonbonpuri account, Yeosan Buin is revived and installed as jowangsin; the narrative explains household deity relations.",
       "cultural_caution": "This does not make jowangsin a generic household-spirit race. Historical accounts also note Buddhist and Chinese associations, which remain separate contextual layers.",
@@ -156310,10 +156218,7 @@
       "transliteration": "jeoseung",
       "literal_gloss": "world beyond death / underworld",
       "dimension": "cosmologies_and_realms",
-      "archetype_ids": [
-        "COS-301",
-        "COS-611"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The realm of the dead in the selected Bari Gongju and Chasabonpuri accounts. Bari’s overview specifically describes a horizontally approached rather than vertically layered infernal space.",
       "cultural_caution": "Do not replace jeoseung with a standard fantasy hell/underworld map. Its spatial model, moral order, and ritual function vary by witness and genre.",
@@ -156345,9 +156250,7 @@
       "transliteration": "chasa",
       "literal_gloss": "messenger/agent (of death)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-308"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Underworld agent who receives a document and rope, verifies a person’s register, and takes those whose allotted life is finished; Gangnim is appointed to this role in Chasabonpuri.",
       "cultural_caution": "Psychopomp is only a functional comparison. Chasa belongs to a particular Jeju ritual narrative and its underworld administration, not a universal ‘reaper’ class.",
@@ -156975,9 +156878,7 @@
       "transliteration": "",
       "literal_gloss": "knight",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-115"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "close",
       "definition": "A recurrent status and martial title in the selected Caxton witness.",
       "cultural_caution": "Medieval knighthood is a social, legal, military, and ethical formation; it is not equivalent to a universal game combat class.",
@@ -157002,9 +156903,7 @@
       "transliteration": "",
       "literal_gloss": "Round Table",
       "dimension": "affiliations",
-      "archetype_ids": [
-        "INS-204"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Arthur's named fellowship of knights in the selected Malory/Caxton text.",
       "cultural_caution": "It is a literary and courtly fellowship, not automatically a standardized modern order, guild, faction, or player class.",
@@ -157029,10 +156928,7 @@
       "transliteration": "",
       "literal_gloss": "Holy Grail",
       "dimension": "artifacts_and_vehicles",
-      "archetype_ids": [
-        "ART-101",
-        "ART-701"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The sacred object and vision at the center of Malory's Grail quest.",
       "cultural_caution": "Its Christian sacramental and romance context should not be reduced to a generic relic, reward item, or loot object.",
@@ -157057,9 +156953,7 @@
       "transliteration": "",
       "literal_gloss": "quest, inquiry, undertaking",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-103"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "functional",
       "definition": "The text's quest language, especially in the quest of the Sangreal.",
       "cultural_caution": "A romance enqueste carries religious, ethical, courtly, and narrative obligations beyond a generic mission objective.",
@@ -157084,9 +156978,7 @@
       "transliteration": "",
       "literal_gloss": "enchantment",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-515"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A source term for Merlin's and Nimue's learned magical acts in the selected Book IV material.",
       "cultural_caution": "The word does not establish an internally systematized spell list or a generic wizard profession.",
@@ -157111,9 +157003,7 @@
       "transliteration": "",
       "literal_gloss": "necromancy",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-303"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A period term associated with Morgan's learning in Malory's text.",
       "cultural_caution": "Medieval nigromancy has a distinct historical religious and learned context; mapping it to contemporary fantasy necromancy is only partial.",
@@ -157188,9 +157078,7 @@
       "transliteration": "",
       "literal_gloss": "loyal service, allegiance",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-105"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "close",
       "definition": "A political and courtly relation of allegiance in the selected Arthurian setting.",
       "cultural_caution": "Fealty is a historically specific legal-social relation, not a generic party-membership mechanic.",
@@ -157540,10 +157428,7 @@
       "transliteration": "yasen sokol; oryol; voron",
       "literal_gloss": "bright/clear falcon; eagle; raven",
       "dimension": "states_and_transformations",
-      "archetype_ids": [
-        "PPL-1001",
-        "STA-207"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Three uniquely designated avian suitors take human form in tale no. 159 and later perform distinct rescue actions.",
       "cultural_caution": "These specific form changes should not be extrapolated into a shared Slavic animal-person race or a general shapeshifter class.",
@@ -158096,9 +157981,7 @@
       "transliteration": "",
       "literal_gloss": "khepri (source-specific people name)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-118"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A named people in New Crobuzon; Chapter 1 presents Lin as khepri and gives the immediate sensory/embodied context of that identity.",
       "cultural_caution": "The partial insectoid comparison is visual/anatomical only. Do not flatten khepri persons, communities, or gendered artistic practices into an insect race template.",
@@ -158123,9 +158006,7 @@
       "transliteration": "",
       "literal_gloss": "garuda (source-specific people name)",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-115"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A named people to which Yagharek belongs; his loss of wings and pursuit of flight are central to his entrance in Chapter 5.",
       "cultural_caution": "The partial avian comparison does not equate Bas-Lag garuda with any real religious figure, folklore tradition, or generic birdfolk ancestry.",
@@ -158199,6 +158080,10 @@
       "source_id": "SRC-050",
       "work_or_witness": "Perdido Street Station, Chapters 19–20 printed witness",
       "canonical_term": "crisis energy / crisis conductor",
+      "identity_forms": [
+        "crisis energy",
+        "crisis conductor"
+      ],
       "original_language": "Bas-Lag fictional lexicon",
       "original_script": "",
       "transliteration": "",
@@ -158793,10 +158678,7 @@
       "transliteration": "",
       "literal_gloss": "a person's or thing's name in the Old Speech",
       "dimension": "metaphysical_laws_and_rituals",
-      "archetype_ids": [
-        "LAW-601",
-        "PWR-503"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "In the novel, true names belong to the world-language and are bound to knowledge, relation, responsibility, and power; Ged's naming and the dragon encounter exemplify its context.",
       "cultural_caution": "Do not reduce a true name to a password, collectible secret, command word, or universal authority over a person. Disclosure and use have ethical and narrative conditions.",
@@ -158821,9 +158703,7 @@
       "transliteration": "",
       "literal_gloss": "the language in which things have their true names",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-504"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The source-language of true names and operative speech in the novel, used in Ged's training and the Pendor confrontation.",
       "cultural_caution": "Not a generic fantasy incantation language or a vocabulary list of spells; its connection to truth, beings, and restraint remains contextual.",
@@ -158873,9 +158753,7 @@
       "transliteration": "",
       "literal_gloss": "the art/practice of wizards",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-101"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A learned Earthsea practice shaped by names, language, restraint, training, and consequences; Roke is one institutional setting for it.",
       "cultural_caution": "The partial learned-arcana comparison does not make Earthsea wizardry a generic spellcasting class, school progression, or power optimization system.",
@@ -158925,9 +158803,7 @@
       "transliteration": "",
       "literal_gloss": "dragon; Earthsea kind distinct from named individual Yevaud",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-800"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "A source-specific kind with a relation to the Old Speech and naming; Yevaud is a named individual character, while dragons as a kind remain a term.",
       "cultural_caution": "Do not turn Earthsea dragons into generic monsters, mounts, loot sources, or a uniform species template.",
@@ -159134,9 +159010,7 @@
       "transliteration": "",
       "literal_gloss": "the eighth colour associated with magic",
       "dimension": "power_traditions",
-      "archetype_ids": [
-        "PWR-101"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The source names octarine as an eighth colour visibly associated with magic in the opening Ankh-Morpork conflagration and makes it the novel's title concept.",
       "cultural_caution": "The visual/magical association does not establish a transferable element, school, resource, or colour-coded power system.",
@@ -159156,14 +159030,16 @@
       "source_id": "SRC-042",
       "work_or_witness": "Estate Rincewind page; The Colour of Magic introduction context",
       "canonical_term": "wizard / 'wizzard'",
+      "identity_forms": [
+        "wizard",
+        "wizzard"
+      ],
       "original_language": "English fictional lexicon",
       "original_script": "",
       "transliteration": "",
       "literal_gloss": "a magical practitioner; Rincewind's comic self-description uses a misspelling",
       "dimension": "roles_and_vocations",
-      "archetype_ids": [
-        "ROL-301"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "Wizardry is a learned but satirized social and institutional role, represented by Rincewind, Galder, Trymon, and Unseen University; Rincewind's 'wizzard' spelling signals the comic mismatch between title and competence.",
       "cultural_caution": "Do not turn the label into a uniform fantasy class, curriculum, or power ranking. Its parodic force and individual variation are essential.",
@@ -159208,6 +159084,10 @@
       "source_id": "SRC-042",
       "work_or_witness": "Estate Luggage page; featured novel The Colour of Magic",
       "canonical_term": "The Luggage / sapient pearwood",
+      "identity_forms": [
+        "The Luggage",
+        "sapient pearwood"
+      ],
       "original_language": "English fictional lexicon",
       "original_script": "",
       "transliteration": "",
@@ -159238,9 +159118,7 @@
       "transliteration": "",
       "literal_gloss": "the source's Wyrmberg dragon context",
       "dimension": "being_types",
-      "archetype_ids": [
-        "PPL-800"
-      ],
+      "archetype_ids": [],
       "mapping_relation": "partial",
       "definition": "The Wyrmberg episode uses dragons/wyrms as a source-specific, imagination-inflected fantasy convention around Liessa and Hrun; the kind remains a term while named human characters remain nodes.",
       "cultural_caution": "Do not treat this as a uniform monster species, mount category, or generic dragon-taming subsystem. The episode is overtly parodic.",
@@ -162826,6 +162704,10 @@
       "source_id": "SRC-053",
       "work_or_witness": "The Stormlight Archive · Official excerpt, Chapters 9 and 11",
       "canonical_term": "Bridge Four / bridgemen",
+      "identity_forms": [
+        "Bridge Four",
+        "bridgemen"
+      ],
       "original_language": "English (Sanderson's fictional nomenclature)",
       "original_script": "",
       "transliteration": "",
@@ -171482,7 +171364,7 @@
         },
         {
           "url": "https://www.dndbeyond.com/sources/dnd/sae/spelljammer-adventures-in-space",
-          "locator": "Astral Adventurer's Guide errata, Speed update",
+          "locator": "Speed update",
           "supports": [
             "Official errata revises a spelljamming-ship speed passage."
           ]
@@ -196876,6 +196758,10 @@
       "source_id": "SRC-270",
       "work_or_witness": "Carnival Row · Series synopsis; Season 1, Episode 1 synopsis",
       "canonical_term": "fae/faerie",
+      "identity_forms": [
+        "fae",
+        "faerie"
+      ],
       "original_language": "English Prime Video synopsis term",
       "original_script": "",
       "transliteration": "",
@@ -199461,6 +199347,10 @@
       "source_id": "SRC-046",
       "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 263–270, 277, and 308–319",
       "canonical_term": "Night's Watch / putting on the black",
+      "identity_forms": [
+        "Night's Watch",
+        "putting on the black"
+      ],
       "original_language": "English",
       "original_script": "",
       "transliteration": "",
@@ -201040,7 +200930,7 @@
       ]
     },
     "mapping_quarantine": {
-      "reason": "Needs-review character and source-term evidence remains discoverable with its source-native dimensions, but unresolved normalized archetype mappings are cleared from public data and workbook promotion until focused second review.",
+      "reason": "Unreviewed cautioned normalized mappings and needs-review mappings remain visible as quarantined metadata, but cannot create graph links, examples, affinities, or workbook mappings until their stable claim ID receives focused second review.",
       "record_ids": [
         "CHR-SRC001-025",
         "CHR-SRC001-042",
@@ -201079,14 +200969,128 @@
         "CHR-SRC020-005",
         "CHR-SRC023-027",
         "CHR-SRC050-010",
+        "STM-SRC001-001",
+        "STM-SRC001-002",
+        "STM-SRC001-003",
+        "STM-SRC001-004",
+        "STM-SRC001-007",
+        "STM-SRC001-008",
+        "STM-SRC001-011",
+        "STM-SRC001-012",
+        "STM-SRC002-001",
         "STM-SRC002-002",
+        "STM-SRC002-003",
+        "STM-SRC002-004",
         "STM-SRC002-005",
+        "STM-SRC002-006",
+        "STM-SRC002-007",
+        "STM-SRC002-009",
+        "STM-SRC002-010",
         "STM-SRC002-013",
+        "STM-SRC003-001",
+        "STM-SRC003-003",
+        "STM-SRC003-004",
+        "STM-SRC003-005",
+        "STM-SRC005-001",
+        "STM-SRC005-002",
+        "STM-SRC005-003",
+        "STM-SRC005-004",
+        "STM-SRC005-005",
+        "STM-SRC005-006",
+        "STM-SRC005-009",
+        "STM-SRC006-002",
+        "STM-SRC006-003",
+        "STM-SRC006-004",
+        "STM-SRC006-005",
+        "STM-SRC006-006",
+        "STM-SRC006-010",
+        "STM-SRC007-007",
+        "STM-SRC010-001",
+        "STM-SRC010-003",
+        "STM-SRC011-002",
+        "STM-SRC011-003",
+        "STM-SRC011-004",
+        "STM-SRC011-005",
+        "STM-SRC013-001",
         "STM-SRC015-005",
+        "STM-SRC016-001",
+        "STM-SRC016-002",
+        "STM-SRC016-003",
+        "STM-SRC016-004",
+        "STM-SRC016-005",
+        "STM-SRC016-007",
+        "STM-SRC016-008",
+        "STM-SRC016-010",
+        "STM-SRC016-011",
+        "STM-SRC016-012",
+        "STM-SRC016-013",
+        "STM-SRC016-014",
+        "STM-SRC016-015",
+        "STM-SRC016-016",
+        "STM-SRC016-017",
+        "STM-SRC016-018",
+        "STM-SRC017-001",
+        "STM-SRC017-002",
+        "STM-SRC017-004",
+        "STM-SRC017-005",
+        "STM-SRC017-006",
+        "STM-SRC017-007",
+        "STM-SRC017-008",
+        "STM-SRC017-009",
+        "STM-SRC017-010",
+        "STM-SRC017-011",
+        "STM-SRC017-012",
+        "STM-SRC017-015",
+        "STM-SRC019-001",
+        "STM-SRC019-009",
+        "STM-SRC019-010",
+        "STM-SRC020-002",
+        "STM-SRC020-003",
+        "STM-SRC020-004",
+        "STM-SRC020-006",
+        "STM-SRC020-007",
+        "STM-SRC020-008",
+        "STM-SRC020-009",
+        "STM-SRC021-003",
+        "STM-SRC021-004",
+        "STM-SRC021-005",
+        "STM-SRC021-007",
+        "STM-SRC023-001",
+        "STM-SRC023-002",
+        "STM-SRC023-003",
+        "STM-SRC023-004",
+        "STM-SRC023-005",
+        "STM-SRC023-009",
         "STM-SRC024-001",
         "STM-SRC024-003",
         "STM-SRC024-007",
-        "STM-SRC050-004"
+        "STM-SRC035-001",
+        "STM-SRC035-002",
+        "STM-SRC035-004",
+        "STM-SRC035-006",
+        "STM-SRC042-002",
+        "STM-SRC042-003",
+        "STM-SRC042-006",
+        "STM-SRC050-001",
+        "STM-SRC050-002",
+        "STM-SRC050-004",
+        "STM-SRC277-003",
+        "STM-SRC277-007",
+        "STM-SRC277-008",
+        "STM-SRC277-009",
+        "STM-SRC277-011",
+        "STM-SRC277-013",
+        "STM-SRC279-001",
+        "STM-SRC279-002",
+        "STM-SRC279-003",
+        "STM-SRC279-004",
+        "STM-SRC279-005",
+        "STM-SRC279-007",
+        "STM-SRC279-008",
+        "STM-SRC279-009",
+        "STM-SRC279-010",
+        "STM-SRC279-011",
+        "STM-SRC279-012"
       ]
     },
     "warning_sources_reviewed": [

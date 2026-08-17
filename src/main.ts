@@ -4,14 +4,13 @@ import "./style.css";
 type ViewMode = "constellations" | "catalogue" | "relations" | "research";
 type DomainId = "beings" | "classes";
 type DetailLevel = "auto" | "families" | "all";
-type LineMode = "taxonomy" | "all" | "none";
 type EvidenceFilter = "" | "evidenced" | "framework";
 type SelectionOrigin = "click" | "search" | null;
 type DiscoveryKind = "concept" | "character" | "dimension-term" | "source-term" | "source";
 
 interface ConstellationExample {
   id: string;
-  kind: "source-entry" | "character-example" | "source-term";
+  kind: "character-example" | "source-term";
   label: string;
   sourceId: string;
   sourceTitle: string;
@@ -223,6 +222,7 @@ interface DiscoveryRecord {
   characterExamples: string[];
   relatedConceptIds: string[];
   normalizedConceptIds: string[];
+  mappingQuarantined?: boolean;
   conceptId?: string;
   url: string;
   searchFields: DiscoveryField[];
@@ -376,7 +376,6 @@ let selectedFamily = "";
 let selectedSource = "";
 let selectedEvidence: EvidenceFilter = "";
 let detailLevel: DetailLevel = "auto";
-let lineMode: LineMode = "taxonomy";
 let researchQuery = "";
 let lastSearchQuery = "";
 let foldingMap: Record<string, string> = {};
@@ -420,7 +419,6 @@ function representativeExamples(values: ConstellationExample[], limit: number): 
   const kindOrder: Record<ConstellationExample["kind"], number> = {
     "character-example": 0,
     "source-term": 1,
-    "source-entry": 2,
   };
   const remaining = [...values];
   const selected: ConstellationExample[] = [];
@@ -1070,15 +1068,6 @@ function updateConstellationSelection(): void {
     .classed("is-affinity-related", (positioned) => Boolean(context?.affinityMembers.has(positioned.node.id)))
     .classed("is-related", (positioned) => Boolean(context?.related.has(positioned.node.id)))
     .classed("is-dimmed", (positioned) => Boolean(context && !context.related.has(positioned.node.id)));
-  svg
-    .selectAll<SVGLineElement, ConceptEdge>(".affinity-line")
-    .style("display", (edge) =>
-      lineMode === "all" && selected && (edge.source === selected.id || edge.target === selected.id) ? "" : "none",
-    )
-    .classed("is-active-relation", (edge) => Boolean(selected && (edge.source === selected.id || edge.target === selected.id)));
-  svg
-    .selectAll<SVGLineElement, ConceptEdge>(".taxonomy-line")
-    .classed("is-active-relation", (edge) => Boolean(context && edge.source === context.familyId));
 }
 
 function updateSemanticZoom(transform: d3.ZoomTransform): void {
@@ -1102,6 +1091,36 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
         .forEach((positioned) => compactFamilyLabels.add(positioned.node.id));
     }
   }
+  const labelBudget = compactViewport ? 8 : stage.clientWidth < 1100 ? 16 : 24;
+  const familyLabelCandidates = [...positionById.values()]
+    .filter((positioned) => positioned.node.tier === 2)
+    .filter((positioned) => selected
+      ? positioned.node.id === context?.familyId
+      : !compactViewport || compactFamilyLabels.has(positioned.node.id))
+    .sort((left, right) =>
+      Number(right.node.id === context?.familyId) - Number(left.node.id === context?.familyId)
+      || d3.descending(left.node.evidenceCount, right.node.evidenceCount)
+      || d3.ascending(left.node.label, right.node.label)
+      || d3.ascending(left.node.id, right.node.id));
+  const visibleFamilyLabels = new Set(
+    familyLabelCandidates.slice(0, labelBudget).map((positioned) => positioned.node.id),
+  );
+  const specificLabelCandidates = [...positionById.values()]
+    .filter((positioned) => positioned.node.tier === 3)
+    .filter((positioned) => selected
+      ? focusedLabels.has(positioned.node.id) || (transform.k >= 6 && context?.familyMembers.has(positioned.node.id))
+      : showSpecific && showSpecificLabels)
+    .sort((left, right) =>
+      Number(right.node.id === selected?.id) - Number(left.node.id === selected?.id)
+      || Number(focusedLabels.has(right.node.id)) - Number(focusedLabels.has(left.node.id))
+      || d3.descending(left.node.evidenceCount, right.node.evidenceCount)
+      || d3.ascending(left.node.label, right.node.label)
+      || d3.ascending(left.node.id, right.node.id));
+  const visibleSpecificLabels = new Set(
+    specificLabelCandidates
+      .slice(0, Math.max(0, labelBudget - visibleFamilyLabels.size))
+      .map((positioned) => positioned.node.id),
+  );
   const glyphScale = 1 / Math.pow(transform.k, 0.58);
   updateScreenSpaceHitAreas(svg, transform);
   svg.selectAll<SVGGElement, PositionedNode>(".star-glyph").attr("transform", `scale(${glyphScale})`);
@@ -1111,11 +1130,7 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
     .style("opacity", showSpecific ? (transform.k > 1.25 ? 0.96 : 0.62) : 0);
   svg
     .selectAll<SVGTextElement, PositionedNode>(".specific-label")
-    .style("display", (positioned) =>
-      selected
-        ? (focusedLabels.has(positioned.node.id) || (transform.k >= 6 && context?.familyMembers.has(positioned.node.id)) ? "" : "none")
-        : (showSpecific && showSpecificLabels ? "" : "none"),
-    )
+    .style("display", (positioned) => visibleSpecificLabels.has(positioned.node.id) ? "" : "none")
     .attr("text-anchor", (positioned) => {
       if (!selected || !context?.familyMembers.has(positioned.node.id) || positioned.node.id === selected.id || !familyPosition) return "middle";
       const dx = positioned.x - familyPosition.x;
@@ -1136,9 +1151,7 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
     .style("stroke-width", `${3.2 / transform.k}px`);
   svg
     .selectAll<SVGTextElement, PositionedNode>(".family-label")
-    .style("display", (positioned) =>
-      !compactViewport || positioned.node.id === context?.familyId || compactFamilyLabels.has(positioned.node.id) ? "" : "none",
-    )
+    .style("display", (positioned) => visibleFamilyLabels.has(positioned.node.id) ? "" : "none")
     .attr("y", (positioned) => {
       const offset = compactViewport ? positioned.clusterR + 11 : -positioned.clusterR - 5;
       return offset / transform.k;
@@ -1147,18 +1160,10 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
     .style("stroke-width", `${3.2 / transform.k}px`);
   svg.selectAll<SVGTextElement, unknown>(".sky-title").style("display", transform.k > 1.55 ? "none" : "");
   svg
-    .selectAll<SVGLineElement, ConceptEdge>(".taxonomy-line")
-    .style("display", lineMode === "none" || !showSpecific ? "none" : "")
-    .style("stroke-opacity", (edge) => context
-      ? (edge.source === context.familyId ? 0.5 : 0.025)
-      : (transform.k > 1.3 ? 0.27 : 0.13));
-  svg
     .selectAll<SVGCircleElement, PositionedNode>(".constellation-boundary")
     .style("stroke-opacity", (positioned) => context
       ? (positioned.node.id === context.familyId ? 0.52 : 0.035)
       : (transform.k > 1.5 ? 0.25 : 0.14));
-  const affinityOpacity = Math.max(0, Math.min(1, (3.4 - transform.k) / 0.75));
-  svg.selectAll<SVGLineElement, ConceptEdge>(".affinity-line").style("stroke-opacity", affinityOpacity);
   const visibleMarks = renderedNodeMarks();
   if (!visibleMarks.some((mark) => mark.getAttribute("tabindex") === "0")) {
     const fallback = visibleMarks.find((mark) => mark.dataset.nodeId === selectedNodeId) ?? visibleMarks[0];
@@ -1202,9 +1207,6 @@ function renderConstellations(): void {
     ?? positions.find((positioned) => positioned.node.tier === 2)
     ?? positions[0];
   rovingNodeId = initialRoving?.node.id ?? null;
-  const visibleIds = new Set(positions.map((positioned) => positioned.node.id));
-  const visibleTaxonomy = taxonomyEdges.filter((edge) => visibleIds.has(edge.source) && visibleIds.has(edge.target));
-  const visibleAffinity = affinityEdges.filter((edge) => visibleIds.has(edge.source) && visibleIds.has(edge.target));
 
   layer
     .append("g")
@@ -1217,33 +1219,6 @@ function renderConstellations(): void {
     .attr("cy", (positioned) => positioned.y)
     .attr("r", (positioned) => positioned.clusterR)
     .attr("stroke", (positioned) => colorFor(positioned.node));
-
-  layer
-    .append("g")
-    .attr("class", "taxonomy-lines")
-    .selectAll("line")
-    .data(visibleTaxonomy)
-    .join("line")
-    .attr("class", "constellation-line taxonomy-line")
-    .attr("x1", (edge) => positionById.get(edge.source)?.x ?? 0)
-    .attr("y1", (edge) => positionById.get(edge.source)?.y ?? 0)
-    .attr("x2", (edge) => positionById.get(edge.target)?.x ?? 0)
-    .attr("y2", (edge) => positionById.get(edge.target)?.y ?? 0)
-    .attr("stroke", (edge) => colorFor(nodeById.get(edge.target)!));
-
-  layer
-    .append("g")
-    .attr("class", "affinity-lines")
-    .selectAll("line")
-    .data(visibleAffinity)
-    .join("line")
-    .attr("class", "constellation-line affinity-line")
-    .attr("x1", (edge) => positionById.get(edge.source)?.x ?? 0)
-    .attr("y1", (edge) => positionById.get(edge.source)?.y ?? 0)
-    .attr("x2", (edge) => positionById.get(edge.target)?.x ?? 0)
-    .attr("y2", (edge) => positionById.get(edge.target)?.y ?? 0)
-    .attr("stroke-width", (edge) => 0.7 + Math.min(3, Math.log2(edge.weight + 1)))
-    .style("display", "none");
 
   const marks = layer
     .append("g")
@@ -1698,7 +1673,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   header.append(element("p", "character-subtitle", [record.sourceTitle, record.continuity].filter(Boolean).join(" · ") || "Accepted corpus record"));
   const evidence = element("div", "evidence-row");
   evidence.append(element("span", "evidence-badge researched", "Indexed evidence"));
-  evidence.append(element("span", "", `${record.characterIds.length || record.characterExamples.length} character examples · ${record.normalizedConceptIds.length} normalized mappings`));
+  evidence.append(element("span", "", `${record.characterIds.length || record.characterExamples.length} character examples · ${record.normalizedConceptIds.length} accepted normalized mappings${record.mappingQuarantined ? " · mapping withheld pending second review" : ""}`));
   header.append(evidence);
   detailContent.append(header);
 
@@ -1767,7 +1742,9 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   if (!conceptNodes.length) {
     const message = record.normalizedConceptIds.length
       ? "The recorded normalized mappings are outside the being/class graph, so this evidence remains source-native and no graph star is created."
-      : "No normalized archetype ID is recorded for this evidence. It stays source-native and is not promoted to a graph node.";
+      : record.mappingQuarantined
+        ? "A normalized mapping is quarantined pending claim-level second review. It remains only in the retained research bundle and cannot create public graph links, affinities, or stars."
+        : "No normalized archetype ID is recorded for this evidence. It stays source-native and is not promoted to a graph node.";
     relatedList.append(element("p", "detail-copy", message));
   }
   relatedConcepts.append(relatedList);
@@ -2224,8 +2201,7 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
       familyFilter.value = "";
       sourceFilter.value = "";
       evidenceFilter.value = "";
-      lineMode = "all";
-      lineModeSelect.value = "all";
+      lineModeSelect.value = "none";
       render();
       requestAnimationFrame(() => {
         detailContent.querySelector<HTMLElement>("h2")?.focus();
@@ -2279,7 +2255,6 @@ function bindEvents(): void {
     if (viewMode === "constellations") updateSemanticZoom(currentTransform);
   });
   lineModeSelect.addEventListener("change", () => {
-    lineMode = lineModeSelect.value as LineMode;
     if (viewMode === "constellations") {
       updateSemanticZoom(currentTransform);
       updateConstellationSelection();
@@ -2344,13 +2319,12 @@ function bindEvents(): void {
     selectedSource = "";
     selectedEvidence = "";
     detailLevel = "auto";
-    lineMode = "taxonomy";
     domainFilter.value = "";
     familyFilter.value = "";
     sourceFilter.value = "";
     evidenceFilter.value = "";
     detailLevelSelect.value = "auto";
-    lineModeSelect.value = "taxonomy";
+    lineModeSelect.value = "none";
     searchInput.value = "";
     researchQuery = "";
     render();

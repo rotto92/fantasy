@@ -41,7 +41,7 @@ const taxonomyLines = await page.locator("#atlas-svg .taxonomy-line").count();
 if (conceptMarks !== concepts.meta.counts.nodes) failures.push(`expected ${concepts.meta.counts.nodes} concept stars, got ${conceptMarks}`);
 if (familyMarks !== concepts.meta.counts.families) failures.push(`expected ${concepts.meta.counts.families} family stars, got ${familyMarks}`);
 if (specificMarks !== concepts.meta.counts.specificArchetypes) failures.push(`expected ${concepts.meta.counts.specificArchetypes} specific stars, got ${specificMarks}`);
-if (taxonomyLines !== concepts.meta.counts.taxonomyEdges) failures.push(`expected ${concepts.meta.counts.taxonomyEdges} taxonomy lines, got ${taxonomyLines}`);
+if (taxonomyLines !== 0) failures.push(`global atlas rendered ${taxonomyLines} taxonomy lines`);
 if ((await page.locator("#atlas-svg .character-mark").count()) !== 0) failures.push("character nodes remain in the graph");
 if ((await page.locator("#atlas-svg .affinity-line:visible").count()) !== 0) failures.push("global affinity lines are visible before selection");
 
@@ -122,10 +122,10 @@ if (!connected) {
   await page.waitForTimeout(800);
   if ((await page.locator(".attribute-item").count()) < 4) failures.push("concept attributes are not rendered as non-node dimensions");
   if (!(await page.locator("#focus-banner").isVisible())) failures.push("search did not open a stable focus banner");
-  if ((await page.locator("#line-mode").inputValue()) !== "all") failures.push("search did not enable relationship lines");
+  if ((await page.locator("#line-mode").inputValue()) !== "none") failures.push("global relationship display escaped local-only mode");
   if ((await page.locator("#atlas-svg .is-family-member").count()) !== expectedFamilyMembers) failures.push("search did not illuminate the full aggregate family");
   if ((await page.locator("#atlas-svg .is-affinity-related").count()) !== expectedAffinities) failures.push("search did not illuminate cross-family affinities");
-  if ((await page.locator("#atlas-svg .affinity-line:visible").count()) !== expectedAffinities) failures.push("selected affinities were not revealed");
+  if ((await page.locator("#atlas-svg .affinity-line").count()) !== 0) failures.push("selected concept rendered global affinity lines");
   const relationshipTransform = await page.locator(".constellation-map").getAttribute("transform");
   const relationshipScale = Number(relationshipTransform?.match(/scale\(([^)]+)\)/)?.[1] ?? 0);
   if (relationshipScale < 0.72 || relationshipScale > 2.65) failures.push(`search relationship overview used an excessive zoom: ${relationshipScale}`);

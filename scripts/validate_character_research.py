@@ -12,6 +12,7 @@ import argparse
 import copy
 import json
 import re
+import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
@@ -156,17 +157,51 @@ def source_sort_key(source_id: str) -> tuple[int, str]:
     return (int(match.group(1)) if match else 999999, source_id)
 
 
+def fold_identity(value: Any) -> str:
+    normalized = unicodedata.normalize("NFKD", str(value or ""))
+    return "".join(character for character in normalized.casefold() if character.isalnum())
+
+
+def source_work_names(audit: dict[str, Any]) -> list[str]:
+    names: list[str] = []
+    for witness in audit.get("work_or_witnesses", []):
+        if isinstance(witness, str):
+            name = witness.strip()
+        elif isinstance(witness, dict):
+            name = str(
+                witness.get("work")
+                or witness.get("work_or_witness")
+                or witness.get("witness")
+                or ""
+            ).strip()
+        else:
+            name = ""
+        if name:
+            names.append(name)
+    return names
+
+
 def source_work_name_sequences(audit: dict[str, Any]) -> list[str]:
-    names = [
-        str(witness.get("work", "")).strip()
-        for witness in audit.get("work_or_witnesses", [])
-        if isinstance(witness, dict) and str(witness.get("work", "")).strip()
-    ]
-    sequences: list[str] = []
-    for start in range(len(names)):
-        for end in range(start + 2, len(names) + 1):
-            sequences.append("; ".join(names[start:end]))
+    names = source_work_names(audit)
+    sequences = ["; ".join(names)] if len(names) > 1 else []
+    sequences.extend(
+        name
+        for name in names
+        if re.search(r"\b(?:cited|read|consulted) in this pass\b", name, re.IGNORECASE)
+    )
     return sequences
+
+
+def claim_ids_for_character(record: dict[str, Any]) -> list[str]:
+    character_id = str(record.get("character_id", ""))
+    return [
+        f"character:{character_id}",
+        *[
+            f"dimension:{character_id}:{dimension}"
+            for dimension, values in record.get("dimensions", {}).items()
+            if values
+        ],
+    ]
 
 
 def main() -> None:
@@ -416,6 +451,15 @@ def main() -> None:
     if duplicate_relationships:
         errors.append(f"Duplicate relationship IDs: {', '.join(sorted(duplicate_relationships))}")
 
+    character_terms_by_source_dimension: dict[tuple[str, str], set[str]] = defaultdict(set)
+    for character in all_characters:
+        for dimension, values in character.get("dimensions", {}).items():
+            character_terms_by_source_dimension[(str(character.get("source_id", "")), dimension)].update(
+                fold_identity(value.get("term", ""))
+                for value in values
+                if str(value.get("term", "")).strip()
+            )
+
     term_ids: list[str] = []
     term_count_by_source: Counter[str] = Counter()
     for record in all_terms:
@@ -450,13 +494,38 @@ def main() -> None:
             errors.append(f"{context}: work_or_witness must identify the claim-specific work or witness")
         else:
             audit = audits_by_source.get(str(record.get("source_id", "")), {})
-            if any(work_or_witness.startswith(f"{sequence} · ") for sequence in source_work_name_sequences(audit)):
+            if any(
+                work_or_witness == sequence or work_or_witness.startswith(f"{sequence} · ")
+                for sequence in source_work_name_sequences(audit)
+            ):
                 errors.append(f"{context}: work_or_witness must not prepend the source-wide witness scope")
+            for citation_index, citation in enumerate(record.get("citations", []), 1):
+                locator = str(citation.get("locator", "")).strip() if isinstance(citation, dict) else ""
+                if locator and locator not in work_or_witness:
+                    errors.append(
+                        f"{context}: work_or_witness must pair citation {citation_index} with its claim locator"
+                    )
         identity_forms = record.get("identity_forms", [])
         if not isinstance(identity_forms, list) or not all(
             isinstance(value, str) and value.strip() for value in identity_forms
         ):
             errors.append(f"{context}: identity_forms must be an array of non-empty strings when present")
+            identity_forms = []
+        canonical_parts = {
+            fold_identity(value)
+            for value in re.split(r"\s*/\s*", str(record.get("canonical_term", "")))
+            if str(value).strip()
+        }
+        character_terms = character_terms_by_source_dimension.get(
+            (str(record.get("source_id", "")), str(record.get("dimension", ""))),
+            set(),
+        )
+        identity_bearing_parts = canonical_parts & character_terms
+        explicit_identity_forms = {fold_identity(value) for value in identity_forms}
+        if len(canonical_parts) > 1 and not identity_bearing_parts.issubset(explicit_identity_forms):
+            errors.append(
+                f"{context}: compound character-linked terms must declare every matching identity_form"
+            )
         if record.get("dimension") not in DIMENSIONS:
             errors.append(f"{context}: invalid dimension {record.get('dimension')}")
         archetype_ids = record.get("archetype_ids")
@@ -518,21 +587,53 @@ def main() -> None:
     if review_index and indexed_warning_sources != warning_source_ids:
         errors.append("independent-review index: retained warning source IDs do not match current validator warnings")
 
-    claim_source_ids = [
+    raw_claim_ids = {
         *[
-            str(record.get("source_id", ""))
+            claim_id
             for record in all_characters
-            for _ in range(1 + sum(len(values) for values in record.get("dimensions", {}).values()))
+            for claim_id in claim_ids_for_character(record)
         ],
-        *[str(record.get("source_id", "")) for record in all_relationships],
-        *[str(record.get("source_id", "")) for record in all_terms],
-    ]
-    reviewed_claim_count = sum(source_id in review_status_map for source_id in claim_source_ids)
-    review_claim_coverage = reviewed_claim_count / len(claim_source_ids) if claim_source_ids else 0.0
-    if review_claim_coverage < MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE:
+        *[f"relationship:{record.get('relationship_id', '')}" for record in all_relationships],
+        *[f"source-term:{record.get('term_id', '')}" for record in all_terms],
+    }
+    review_ledger_names = {
+        str(ledger)
+        for review in review_index.get("corpus_wide_reviews", [])
+        if isinstance(review, dict)
+        for ledger in [review.get("ledger")]
+        if ledger
+    }
+    for review in review_status_map.values():
+        if not isinstance(review, dict):
+            continue
+        review_ledger_names.update(str(ledger) for ledger in review.get("ledgers", []) if ledger)
+    zero_character_audit = review_index.get("zero_character_audit", {})
+    if isinstance(zero_character_audit, dict) and zero_character_audit.get("ledger"):
+        review_ledger_names.add(str(zero_character_audit["ledger"]))
+    reviewed_claim_ids: set[str] = set()
+    review_ledger_paths: list[Path] = []
+    for ledger_name in sorted(review_ledger_names):
+        ledger_path = REVIEW_INDEX.parent / ledger_name
+        review_ledger_paths.append(ledger_path)
+        try:
+            ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            errors.append(f"{ledger_path.relative_to(ROOT)}: cannot load review ledger ({exc})")
+            continue
+        entries = ledger if isinstance(ledger, list) else [ledger]
+        for entry in entries:
+            if not isinstance(entry, dict):
+                continue
+            claim_ids = entry.get("reviewed_claim_ids", [])
+            if not isinstance(claim_ids, list) or not all(isinstance(value, str) and value for value in claim_ids):
+                errors.append(f"{ledger_path.relative_to(ROOT)}: reviewed_claim_ids must contain stable claim IDs")
+                continue
+            reviewed_claim_ids.update(claim_ids)
+    unknown_review_claim_ids = sorted(reviewed_claim_ids - raw_claim_ids)
+    if unknown_review_claim_ids:
         errors.append(
-            "independent-review index: reviewed claim sample "
-            f"{review_claim_coverage:.1%} is below the required {MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE:.0%}"
+            "independent-review ledgers reference unknown claim IDs: "
+            + ", ".join(unknown_review_claim_ids)
         )
 
     unresolved_character_ids = {
@@ -568,17 +669,32 @@ def main() -> None:
         *[
             str(record.get("character_id", ""))
             for record in all_characters
-            if record.get("review_status") == "needs-review"
+            if record.get("character_id") not in configured_quarantine_ids
             and any(
                 value.get("archetype_ids")
                 for values in record.get("dimensions", {}).values()
                 for value in values
             )
+            and (
+                record.get("review_status") == "needs-review"
+                or (
+                    bool(record.get("comparison_cautions"))
+                    and f"character:{record.get('character_id', '')}" not in reviewed_claim_ids
+                )
+            )
         ],
         *[
             str(record.get("term_id", ""))
             for record in all_terms
-            if record.get("review_status") == "needs-review" and bool(record.get("archetype_ids"))
+            if record.get("term_id") not in configured_quarantine_ids
+            and bool(record.get("archetype_ids"))
+            and (
+                record.get("review_status") == "needs-review"
+                or (
+                    bool(str(record.get("cultural_caution", "")).strip())
+                    and f"source-term:{record.get('term_id', '')}" not in reviewed_claim_ids
+                )
+            )
         ],
     }
     mapping_quarantine = review_index.get("mapping_quarantine", {})
@@ -616,10 +732,29 @@ def main() -> None:
         if record.get("term_id") in configured_mapping_quarantine_ids:
             record["archetype_ids"] = []
 
+    promoted_claim_ids = {
+        *[
+            claim_id
+            for record in promoted_characters
+            for claim_id in claim_ids_for_character(record)
+        ],
+        *[f"relationship:{record.get('relationship_id', '')}" for record in promoted_relationships],
+        *[f"source-term:{record.get('term_id', '')}" for record in promoted_terms],
+    }
+    reviewed_promoted_claim_ids = reviewed_claim_ids & promoted_claim_ids
+    reviewed_claim_count = len(reviewed_promoted_claim_ids)
+    review_claim_coverage = reviewed_claim_count / len(promoted_claim_ids) if promoted_claim_ids else 0.0
+    if review_claim_coverage < MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE:
+        errors.append(
+            "independent-review index: reviewed claim sample "
+            f"{review_claim_coverage:.1%} is below the required {MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE:.0%}"
+        )
+
     input_paths = [
         args.workbook,
         DIMENSION_SCHEMA_PATH,
         REVIEW_INDEX,
+        *review_ledger_paths,
         Path(__file__),
         *[
             bundle / filename
@@ -658,7 +793,7 @@ def main() -> None:
             "retained_warning_sources": len(warning_source_ids),
             "corpus_wide_reviews": len(review_index.get("corpus_wide_reviews", [])),
             "reviewed_claims": reviewed_claim_count,
-            "total_claims": len(claim_source_ids),
+            "total_claims": len(promoted_claim_ids),
             "claim_coverage": round(review_claim_coverage, 6),
             "quarantined_records": len(configured_quarantine_ids),
             "quarantined_mappings": len(configured_mapping_quarantine_ids),
@@ -700,7 +835,7 @@ def main() -> None:
                 "retainedWarningFlags": len(warnings),
                 "corpusWideContractReviews": len(review_index.get("corpus_wide_reviews", [])),
                 "reviewedClaims": reviewed_claim_count,
-                "totalClaims": len(claim_source_ids),
+                "totalClaims": len(promoted_claim_ids),
                 "claimCoverage": round(review_claim_coverage, 6),
                 "minimumClaimCoverage": MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE,
                 "quarantinedRecordIds": sorted(configured_quarantine_ids),

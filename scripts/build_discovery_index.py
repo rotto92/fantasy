@@ -169,6 +169,9 @@ def main() -> None:
     sources = source_lookup(research)
     audits = audit_lookup(research)
     valid_concept_ids = {str(node["id"]) for node in concepts["nodes"]}
+    mapping_quarantine_ids = set(
+        research.get("meta", {}).get("reviewCoverage", {}).get("quarantinedMappingRecordIds", [])
+    )
     characters_by_id = {str(character["character_id"]): character for character in research["characters"]}
 
     records: list[dict[str, Any]] = []
@@ -210,6 +213,7 @@ def main() -> None:
                 "characterExamples": [character["canonical_name"]],
                 "relatedConceptIds": related_ids,
                 "normalizedConceptIds": mapping_ids,
+                "mappingQuarantined": character["character_id"] in mapping_quarantine_ids,
                 "url": first_url(character.get("citations", [])),
                 "searchFields": fields,
             }
@@ -307,6 +311,7 @@ def main() -> None:
                 "normalizedConceptIds": sorted(
                     {str(archetype_id) for archetype_id in term.get("archetype_ids", []) if str(archetype_id)}
                 ),
+                "mappingQuarantined": term["term_id"] in mapping_quarantine_ids,
                 "url": first_url(term.get("citations", [])),
                 "searchFields": fields,
                 "coverageKeys": [f"source-term:{term['term_id']}"] if term_dimension in DIMENSION_LABELS else [],

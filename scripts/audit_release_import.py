@@ -36,6 +36,7 @@ TOKEN_PATTERNS = (
     ("openai-token", re.compile(r"\bsk-(?:proj-|svcacct-)[A-Za-z0-9_-]{20,}\b")),
     ("openai-token", re.compile(r"\bsk-[A-Za-z0-9]{32,}\b")),
     ("anthropic-token", re.compile(r"\bsk-ant-[A-Za-z0-9_-]{20,}\b")),
+    ("google-api-key", re.compile(r"\bAIza[0-9A-Za-z_-]{35}\b")),
     ("gitlab-token", re.compile(r"\bglpat-[A-Za-z0-9_-]{20,}\b")),
     ("npm-token", re.compile(r"\bnpm_[A-Za-z0-9]{36}\b")),
     ("stripe-live-secret", re.compile(r"\bsk_live_[A-Za-z0-9]{16,}\b")),

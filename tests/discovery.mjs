@@ -1,9 +1,15 @@
-import { readFile } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import { launchBrowser } from "./browser.mjs";
 
 const discovery = JSON.parse(await readFile(new URL("../public/data/discovery.json", import.meta.url), "utf8"));
 const concepts = JSON.parse(await readFile(new URL("../public/data/constellations.json", import.meta.url), "utf8"));
 const research = JSON.parse(await readFile(new URL("../public/data/characters.json", import.meta.url), "utf8"));
+const reviewDirectory = new URL("../research/independent_reviews/", import.meta.url);
+const reviewLedgers = await Promise.all(
+  (await readdir(reviewDirectory, { withFileTypes: true }))
+    .filter((entry) => entry.isFile() && entry.name.startsWith("review_") && entry.name.endsWith(".json"))
+    .map(async (entry) => JSON.parse(await readFile(new URL(entry.name, reviewDirectory), "utf8"))),
+);
 const appUrl = process.env.FANTASY_TEST_URL ?? "http://127.0.0.1:5173/";
 const failures = [];
 
@@ -22,12 +28,7 @@ if (discovery.records.some((record) => Object.hasOwn(record, "searchText"))) {
 const ankkaRecord = discovery.records.find((record) => record.id === "character:CHR-SRC162-001");
 const sanskritAsuraRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC277-004");
 const abhimanyu = research.characters.find((character) => character.canonical_name === "Abhimanyu");
-const conceptIds = new Set(concepts.nodes.map((node) => node.id));
-const mappedSourceTerm = research.sourceTerms.find((term) =>
-  term.review_status === "researched" && term.archetype_ids.some((archetypeId) => conceptIds.has(archetypeId)),
-);
 const mappedConcept = concepts.nodes.find((node) => node.examples?.length);
-const mappedSourceTermExample = concepts.nodes.flatMap((node) => node.examples ?? []).find((example) => example.id === mappedSourceTerm?.term_id);
 const xeniaRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC001-007");
 const aetherbladesRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC162-002");
 const chanjiaoTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC017-006");
@@ -36,6 +37,10 @@ const jinnTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC00
 const jinnRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC009-001");
 const remadeTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC050-003");
 const remadeRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC050-003");
+const crisisTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC050-005");
+const crisisRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC050-005");
+const theosTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC001-001");
+const theosRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC001-001");
 const chineseTerms = research.sourceTerms.filter((term) => term.source_id === "SRC-279");
 const jotunnRecord = discovery.records.find((record) => record.kind === "dimension-term" && record.sourceId === "SRC-002" && record.label === "jötunn");
 const dvergrTerm = research.sourceTerms.find((term) => term.canonical_term === "dvergr" && term.source_id === "SRC-002");
@@ -46,11 +51,18 @@ const mortalFamily = concepts.nodes.find((node) => node.label === "Mortal and Na
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
-if (!xeniaRecord?.normalizedConceptIds.includes("LAW-801") || !xeniaRecord.normalizedConceptIds.includes("LAW-802") || xeniaRecord.relatedConceptIds.length) {
-  failures.push("non-graph normalized mappings were not preserved separately from graph-selectable links");
+if (xeniaRecord?.normalizedConceptIds.length || !xeniaRecord?.mappingQuarantined || xeniaRecord.relatedConceptIds.length) {
+  failures.push("unreviewed xenia mappings were not withheld from graph-selectable links");
 }
 if (!research.sourceTerms.every((term) => typeof term.work_or_witness === "string" && /\p{Letter}/u.test(term.work_or_witness))) {
   failures.push("source-term schema omitted identity-bearing claim work provenance");
+}
+if (!research.sourceTerms.every((term) => term.citations.every((citation) => term.work_or_witness.includes(citation.locator)))) {
+  failures.push("source-term work provenance does not pair every citation with its locator");
+}
+const shahnamehDiv = research.sourceTerms.find((term) => term.term_id === "STM-SRC011-003");
+if (!shahnamehDiv?.work_or_witness.includes("Ferdowsi, Shāhnāmeh") || !shahnamehDiv.work_or_witness.includes("Encyclopaedia Iranica, DĪV") || shahnamehDiv.work_or_witness.includes("Vols. I–VI cited in this pass")) {
+  failures.push("Shāhnāmeh dīv provenance does not identify each claim-specific witness");
 }
 if (!xeniaRecord?.work.includes("Homer, Odyssey") || !xeniaRecord.work.includes("9.105–566")) {
   failures.push("xenia discovery provenance does not identify its Odyssey witness");
@@ -71,6 +83,9 @@ if (!jinnTerm?.identity_forms?.includes("Jinn") || !jinnTerm.identity_forms.incl
 if (!remadeTerm?.identity_forms?.includes("Remade") || !remadeTerm.identity_forms.includes("remaking") || !remadeRecord?.characterExamples.includes("Mr. Motley")) {
   failures.push("explicit Remade/remaking identities did not link representative character evidence");
 }
+if (!crisisTerm?.identity_forms?.includes("crisis energy") || !crisisTerm.identity_forms.includes("crisis conductor") || !crisisRecord?.characterExamples.includes("Isaac Dan der Grimnebulin")) {
+  failures.push("explicit crisis-energy identities did not link representative character evidence");
+}
 for (const term of chineseTerms) {
   const locators = term.citations.map((citation) => citation.locator);
   if (!locators.some((locator) => term.work_or_witness.includes(locator)) || term.work_or_witness.startsWith("Shanhai jing; Huainanzi;")) {
@@ -80,6 +95,24 @@ for (const term of chineseTerms) {
 const reviewCoverage = research.meta.reviewCoverage;
 if (!reviewCoverage || reviewCoverage.claimCoverage < reviewCoverage.minimumClaimCoverage || reviewCoverage.minimumClaimCoverage !== 0.2) {
   failures.push("compiled research does not enforce the 20% independent-review claim gate");
+}
+const promotedClaimIds = new Set([
+  ...research.characters.flatMap((character) => [
+    `character:${character.character_id}`,
+    ...Object.entries(character.dimensions).filter(([, values]) => values.length).map(([dimension]) => `dimension:${character.character_id}:${dimension}`),
+  ]),
+  ...research.relationships.map((relationship) => `relationship:${relationship.relationship_id}`),
+  ...research.sourceTerms.map((term) => `source-term:${term.term_id}`),
+]);
+const reviewedClaimIds = new Set([
+  ...reviewLedgers.flatMap((ledger) => {
+    const entries = Array.isArray(ledger) ? ledger : [ledger];
+    return entries.flatMap((entry) => entry.reviewed_claim_ids ?? []);
+  }),
+]);
+const reviewedPromotedClaims = [...reviewedClaimIds].filter((claimId) => promotedClaimIds.has(claimId));
+if (reviewCoverage?.reviewedClaims !== reviewedPromotedClaims.length || reviewCoverage?.totalClaims !== promotedClaimIds.size) {
+  failures.push("compiled review coverage is not the exact reviewed-claim intersection");
 }
 for (const recordId of reviewCoverage?.quarantinedRecordIds ?? []) {
   if (research.characters.some((record) => record.character_id === recordId)
@@ -105,18 +138,22 @@ const dvergrWork = dvergrTerm?.work_or_witness ?? "";
 if (!dvergrRecord || dvergrRecord.work !== dvergrWork || dvergrRecord.work.includes("Gylfaginning") || !dvergrSourceRecord?.work.includes("Gylfaginning")) {
   failures.push("dvergr discovery provenance overclaims the source-wide witness list");
 }
-if (!dvergrExample || dvergrExample.work !== dvergrWork || dvergrExample.work.includes("Gylfaginning")) {
-  failures.push("dvergr concept evidence overclaims the source-wide witness list");
+if (dvergrExample || !(reviewCoverage?.quarantinedMappingRecordIds ?? []).includes(dvergrTerm?.term_id)) {
+  failures.push("unreviewed dvergr mapping still contributes concept evidence");
 }
 if (!mortalFamily?.evidenceCount || !mortalFamily.sourceCount || !mortalFamily.examples.some((example) => example.kind === "character-example")) {
   failures.push("tier-2 Mortal and Natural Peoples omitted descendant evidence");
 }
-if (mappedSourceTerm && mappedSourceTermExample) {
-  const source = research.corpusSources.find((item) => item.sourceId === mappedSourceTerm.source_id);
-  const audit = research.sources.find((item) => item.source_id === mappedSourceTerm.source_id);
-  if (mappedSourceTermExample.continuity !== source?.continuityUnit) failures.push("source-term concept evidence omitted source continuity");
-  if (mappedSourceTermExample.evidenceLevel === mappedSourceTerm.review_status) failures.push("source-term concept evidence mislabeled review status as evidence level");
-  if (mappedSourceTermExample.evidenceBasis !== audit?.evidence_basis) failures.push("source-term concept evidence omitted its evidence basis");
+if (!theosTerm || theosTerm.archetype_ids.length || theosRecord?.normalizedConceptIds.length || !theosRecord?.mappingQuarantined || !(reviewCoverage?.quarantinedMappingRecordIds ?? []).includes("STM-SRC001-001")) {
+  failures.push("unreviewed culturally cautioned theos mapping was promoted");
+}
+const allConceptExamples = concepts.nodes.flatMap((node) => node.examples ?? []);
+const allAffinityEvidence = concepts.edges.filter((edge) => edge.kind === "affinity").flatMap((edge) => edge.evidence ?? []);
+if (allConceptExamples.some((example) => example.kind === "source-entry") || allAffinityEvidence.some((evidence) => evidence.kind === "source entry" || evidence.id === "ENT-0014")) {
+  failures.push("legacy seeded atlas rows still contribute public examples or affinities");
+}
+if (allConceptExamples.some((example) => example.id === "STM-SRC001-001")) {
+  failures.push("unreviewed culturally sensitive source-term mapping still contributes concept evidence");
 }
 if (discovery.meta.coverage?.being_types?.excludedRows !== 0 || discovery.meta.coverage?.roles_and_vocations?.excludedRows !== 0) {
   failures.push("being and role coverage reports unexplained exclusions");
@@ -165,8 +202,17 @@ const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 await page.goto(appUrl, { waitUntil: "networkidle" });
 await page.locator("#loading").waitFor({ state: "detached" });
 await page.waitForFunction(() => !document.querySelector("#search")?.disabled);
+if (await page.locator("#atlas-svg .taxonomy-line, #atlas-svg .affinity-line").count()) {
+  failures.push("global constellation edges are still rendered outside the local relation view");
+}
 
 await page.locator("#detail-level").selectOption("all");
+await page.locator("#zoom-in").click();
+await page.waitForTimeout(350);
+const visibleConceptLabels = await page.locator("#atlas-svg .concept-label:visible").count();
+if (visibleConceptLabels > 24) failures.push(`wide constellation label budget exceeded: ${visibleConceptLabels}`);
+await page.locator("#fit-view").click();
+await page.waitForTimeout(350);
 const rovingSpecific = page.locator("#atlas-svg .specific-star:visible").first();
 if (!(await rovingSpecific.count())) {
   failures.push("all-detail constellation has no roving specific star fixture");
@@ -222,6 +268,17 @@ if (!asuraText.includes("Ankka") || !asuraText.includes("Guild Wars")) {
 if (!(await page.locator("#search-results .search-result small").allTextContents()).some((text) => text.includes("Matched"))) {
   failures.push("search results do not explain why the query matched");
 }
+const searchContextContrast = await page.locator("#search-results .search-result span").first().evaluate((node) => {
+  const values = getComputedStyle(node).color.match(/[\d.]+/g)?.slice(0, 3).map(Number) ?? [];
+  const luminance = (channels) => channels
+    .map((channel) => channel / 255)
+    .map((channel) => channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4)
+    .reduce((sum, channel, index) => sum + channel * [0.2126, 0.7152, 0.0722][index], 0);
+  const foreground = luminance(values);
+  const background = luminance([8, 14, 25]);
+  return (Math.max(foreground, background) + 0.05) / (Math.min(foreground, background) + 0.05);
+});
+if (searchContextContrast < 4.5) failures.push(`search-result context contrast is ${searchContextContrast.toFixed(2)}:1`);
 
 await page.locator("#search").fill("GuildWars2");
 if (!(await page.locator("#search-results").innerText()).includes("Ankka")) {
@@ -252,15 +309,6 @@ await page.locator(".search-result").filter({ hasText: "Mahābhārata" }).first(
 const sourceTermDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
 if (!sourceTermDetail.includes("source language: sanskrit") || sourceTermDetail.includes("work / witness\nsanskrit")) {
   failures.push(`source-term detail mislabeled language as work: ${sourceTermDetail}`);
-}
-
-if (mappedSourceTerm) {
-  await page.locator("#search").fill(mappedSourceTerm.canonical_term);
-  await page.locator(".search-result").first().click();
-  const mappedSourceTermDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
-  if (!mappedSourceTermDetail.includes("normalized family") || !mappedSourceTermDetail.includes(`review status: ${mappedSourceTerm.review_status.toLocaleLowerCase()}`) || !mappedSourceTermDetail.includes(mappedSourceTerm.cultural_caution.toLocaleLowerCase())) {
-    failures.push(`mapped source-term detail omitted family, status, or caution: ${mappedSourceTermDetail}`);
-  }
 }
 
 await page.locator("#search").fill("Kreiß");
@@ -344,8 +392,8 @@ for (const [query, expected] of [["DAngeline", "Kushiel's Legacy"], ["Kiche", "P
 await page.locator("#search").fill("xenia");
 await page.locator(".search-result").filter({ hasText: "Source-native term · Ancient Greek Mythology" }).first().click();
 const xeniaDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
-if (!xeniaDetail.includes("work / witness\nhomer, odyssey · 9.105–566") || !xeniaDetail.includes("normalized family") || !xeniaDetail.includes("hospitality, kinship & social metaphysics (law-800)") || !xeniaDetail.includes("normalized mapping") || !xeniaDetail.includes("sacred hospitality (law-801)") || !xeniaDetail.includes("guest–host reciprocity (law-802)") || !xeniaDetail.includes("outside the being/class graph")) {
-  failures.push(`xenia detail discarded non-graph normalized mappings: ${xeniaDetail}`);
+if (!xeniaDetail.includes("work / witness\nhomer, odyssey · 9.105–566") || !xeniaDetail.includes("mapping withheld pending second review") || !xeniaDetail.includes("remains only in the retained research bundle") || xeniaDetail.includes("sacred hospitality (law-801)")) {
+  failures.push(`xenia detail exposed or concealed its quarantined mapping status: ${xeniaDetail}`);
 }
 
 await page.locator("#search").fill("Chanjiao");
@@ -405,6 +453,8 @@ const mobile = await browser.newPage({ viewport: { width: 375, height: 812 } });
 await mobile.goto(appUrl, { waitUntil: "networkidle" });
 await mobile.locator("#loading").waitFor({ state: "detached" });
 await mobile.waitForFunction(() => !document.querySelector("#search")?.disabled);
+const mobileConceptLabels = await mobile.locator("#atlas-svg .concept-label:visible").count();
+if (mobileConceptLabels > 8) failures.push(`mobile constellation label budget exceeded: ${mobileConceptLabels}`);
 await mobile.locator("#search").fill("Abhimanyu");
 await mobile.locator(".search-result").first().click();
 if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {

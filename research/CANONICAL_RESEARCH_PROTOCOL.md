@@ -216,3 +216,8 @@ compiler to infer identity.
   `needs-review` normalized mappings remain in their source bundles as retained
   research, but must be listed in the independent-review quarantine and are not
   promoted to public data or the workbook.
+- Review ledgers credit only stable IDs listed in `reviewed_claim_ids`; a
+  source-level review status never credits every claim from that source.
+- A normalized mapping carrying a cultural caution requires its record claim ID
+  in a second-review ledger. Otherwise the mapping is quarantined with the same
+  non-promotion rule while the source-native evidence remains discoverable.

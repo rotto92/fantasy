@@ -2,7 +2,7 @@
 """Build the class/race/entity constellation projection.
 
 Only normalized People & Beings and Roles & Vocations archetypes become graph
-nodes. Characters, source-specific entries, and terms remain cited evidence
+nodes. Validated characters and source terms remain cited evidence
 attached to those nodes. Parent-child taxonomy links form the visible
 constellations; cross-domain affinities are derived only from shared evidence.
 """
@@ -49,30 +49,8 @@ def first_url(citations: list[dict[str, Any]]) -> str:
     return str(citations[0].get("url", "")) if citations else ""
 
 
-def source_work_labels(audit: dict[str, Any]) -> list[str]:
-    labels: list[str] = []
-    for witness in audit.get("work_or_witnesses", []):
-        if isinstance(witness, str):
-            label = witness.strip()
-        elif isinstance(witness, dict):
-            label = " · ".join(
-                str(witness.get(key, "")).strip()
-                for key in ("work", "edition")
-                if str(witness.get(key, "")).strip()
-            )
-        else:
-            label = ""
-        if label and label not in labels:
-            labels.append(label)
-    return labels
-
-
-def source_work_label(audit: dict[str, Any]) -> str:
-    return "; ".join(source_work_labels(audit))
-
-
 def stratified_examples(values: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
-    kind_order = {"character-example": 0, "source-term": 1, "source-entry": 2}
+    kind_order = {"character-example": 0, "source-term": 1}
     remaining = sorted(
         values,
         key=lambda value: (
@@ -125,33 +103,6 @@ def main() -> None:
 
     examples: dict[str, list[dict[str, Any]]] = defaultdict(list)
     evidence_groups: list[tuple[str, str, set[str]]] = []
-
-    entry_mappings: dict[str, set[str]] = defaultdict(set)
-    for edge in atlas["edges"]:
-        if edge.get("kind") == "entry-mapping" and edge.get("target") in selected:
-            entry_mappings[str(edge["source"])].add(str(edge["target"]))
-    for entry_id, mapped_ids in entry_mappings.items():
-        entry = atlas_nodes.get(entry_id, {})
-        record = entry.get("record", {})
-        example = {
-            "id": entry_id,
-            "kind": "source-entry",
-            "label": entry.get("label", entry_id),
-            "sourceId": record.get("Source_ID", ""),
-            "sourceTitle": record.get("Source_Title", ""),
-            "continuity": record.get("Continuity", ""),
-            "summary": record.get("Ontology_or_Role_Summary", ""),
-            "distinction": record.get("Key_Distinction", ""),
-            "evidenceLevel": record.get("Evidence_Level", ""),
-            "url": record.get("Reference_URL", ""),
-            "work": source_work_label(audits.get(str(record.get("Source_ID", "")), {})),
-            "reviewStatus": record.get("Review_Status", ""),
-            "canonStatus": record.get("Canon_Status", ""),
-            "caution": record.get("Comparative_Notes", "") or record.get("Key_Distinction", ""),
-        }
-        for archetype_id in mapped_ids:
-            examples[archetype_id].append(example)
-        evidence_groups.append((entry_id, "source entry", mapped_ids))
 
     for character in research["characters"]:
         mapped_ids: set[str] = set()
@@ -321,7 +272,7 @@ def main() -> None:
             "title": "Fantasy Concept Constellations",
             "version": "5.0-concept-constellations",
             "sourceFingerprint": source_fingerprint([ATLAS_PATH, CHARACTER_PATH, Path(__file__)]),
-            "visualContract": "Every graph node is a normalized being/race/entity or class/vocation archetype. Characters and sources are evidence, never nodes.",
+            "visualContract": "Every graph node is a normalized being/race/entity or class/vocation archetype. Validated characters and source terms are evidence, never nodes.",
             "counts": {
                 "nodes": len(output_nodes),
                 "families": sum(1 for node in output_nodes if node["tier"] == 2),
