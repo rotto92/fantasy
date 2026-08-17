@@ -9,7 +9,6 @@ import shutil
 import subprocess
 import tempfile
 from collections import Counter
-from datetime import date
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -17,6 +16,8 @@ from openpyxl import load_workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.workbook.properties import CalcProperties
 from openpyxl.worksheet.table import Table, TableStyleInfo
+
+from reproducible import normalize_xlsx, source_fingerprint
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -91,7 +92,9 @@ def main() -> None:
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--research", type=Path, default=DEFAULT_RESEARCH)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--recalculate", action="store_true")
     args = parser.parse_args()
+    fingerprint = source_fingerprint([args.input, args.research, Path(__file__)])
 
     if not args.research.exists():
         raise SystemExit(f"Validated character payload not found: {args.research}")
@@ -305,13 +308,15 @@ def main() -> None:
         start["A1"].font = Font(color=GOLD, bold=True, size=18)
         start["A2"] = (
             f"Character-first visual layer: {len(characters)} citation-backed character records, {len(relationships)} "
-            f"character-only relationships, and {len(audits)} scoped source passes as of {date.today().isoformat()}; "
+            f"character-only relationships, and {len(audits)} scoped source passes; "
             f"focused independent review is recorded for {review_index.get('reviewed_source_count', 0)} sources and remains pending for "
             f"{review_index.get('pending_source_count', len(audits))}."
         )
         start["A2"].font = Font(color=TEAL, italic=True, size=10)
         start["A3"] = "A character-first evidence atlas: characters are visual marks; ontology, source, medium, and continuity are analytical dimensions"
         start["B5"] = "4.0"
+        start["A6"] = "Source fingerprint"
+        start["B6"] = fingerprint
 
     workbook.properties.title = "Fantasy & High-Fantasy Comparative Archetype Atlas — Version 4.0"
     workbook.properties.subject = "Character-first comparative fantasy ontology with citation-backed source research"
@@ -323,7 +328,7 @@ def main() -> None:
     workbook.save(args.output)
 
     office_binary = shutil.which("libreoffice") or shutil.which("soffice")
-    if office_binary:
+    if args.recalculate and office_binary:
         with tempfile.TemporaryDirectory(prefix="fantasy-atlas-v4-recalc-") as temporary_directory:
             subprocess.run(
                 [
@@ -343,8 +348,10 @@ def main() -> None:
             if not recalculated.exists():
                 raise SystemExit("LibreOffice completed without producing the recalculated Version 4 workbook")
             shutil.copy2(recalculated, args.output)
-    else:
-        print("Warning: LibreOffice not found; formula caches were not recalculated.")
+    elif args.recalculate:
+        raise SystemExit("LibreOffice was requested but is not available")
+
+    normalize_xlsx(args.output)
     print(
         f"Wrote {args.output.name}: {len(characters)} characters, {len(dimension_rows)} dimension values, "
         f"{len(relationships)} relationships, {len(terms)} source terms, {len(audits)} source passes."

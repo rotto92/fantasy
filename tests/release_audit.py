@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
+import json
+import subprocess
 import sys
+import tempfile
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -13,10 +16,36 @@ def kinds(findings: list[dict[str, str]]) -> set[str]:
     return {item["kind"] for item in findings}
 
 
-assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "file:///tmp/private.txt"))
-assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "/home/alice/private.txt"))
+assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "file:///" + "tmp/private.txt"))
+assert "machine-local-path" in kinds(scan_text(Path("fixture.txt"), "/" + "home/alice/private.txt"))
 assert "unreviewed-opaque-binary" in kinds(review_opaque(Path("unreviewed.png"), b"opaque"))
 reviewed_path = Path(next(iter(REVIEWED_OPAQUE_FILES)))
 assert "opaque-binary-hash-mismatch" in kinds(review_opaque(reviewed_path, b"changed"))
+
+root = Path(__file__).resolve().parents[1]
+with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
+    artifact = Path(directory)
+    relative = artifact.relative_to(root)
+    (artifact / "index.html").write_text("<h1>Published artifact</h1>", encoding="utf-8")
+    clean = subprocess.run(
+        [sys.executable, "scripts/audit_release_import.py", "--artifact-root", relative.as_posix()],
+        cwd=root,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    assert clean.returncode == 0, clean.stdout + clean.stderr
+    assert json.loads(clean.stdout)["scope"] == f"published artifact tree: {relative.as_posix()}"
+    token = "gh" + "p_" + "a" * 24
+    (artifact / "bundle.js").write_text(f'const leaked = "{token}";', encoding="utf-8")
+    rejected = subprocess.run(
+        [sys.executable, "scripts/audit_release_import.py", "--artifact-root", relative.as_posix()],
+        cwd=root,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+    assert rejected.returncode == 1
+    assert any(item["kind"] == "github-token" for item in json.loads(rejected.stdout)["findings"])
 
 print("Release audit regression test passed.")

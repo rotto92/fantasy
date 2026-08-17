@@ -14,7 +14,6 @@ import shutil
 import subprocess
 import tempfile
 from collections import Counter, defaultdict
-from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -25,6 +24,8 @@ from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.workbook.properties import CalcProperties
 from openpyxl.worksheet.table import Table, TableStyleInfo
+
+from reproducible import normalize_xlsx, source_fingerprint
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -356,7 +357,9 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--recalculate", action="store_true")
     args = parser.parse_args()
+    fingerprint = source_fingerprint([args.input, Path(__file__)])
 
     workbook = load_workbook(args.input)
     for name in ["Source Concept Map", "Source Relationships", "Source Coverage Audit", "Visualization Guide"]:
@@ -580,7 +583,8 @@ def main() -> None:
 
     start = workbook["Start Here"]
     start["B5"] = "3.0"
-    start["B6"] = date.today().isoformat()
+    start["A6"] = "Source fingerprint"
+    start["B6"] = fingerprint
     start["A3"] = "A source-faithful comparative ontology with complete corpus orientation coverage and a WebGL relationship explorer"
 
     dictionary = workbook["Data Dictionary"]
@@ -599,7 +603,7 @@ def main() -> None:
     workbook.save(args.output)
 
     office_binary = shutil.which("libreoffice") or shutil.which("soffice")
-    if office_binary:
+    if args.recalculate and office_binary:
         with tempfile.TemporaryDirectory(prefix="fantasy-atlas-recalc-") as temporary_directory:
             subprocess.run(
                 [
@@ -619,8 +623,10 @@ def main() -> None:
             if not recalculated.exists():
                 raise SystemExit("LibreOffice completed without producing the recalculated workbook")
             shutil.copy2(recalculated, args.output)
-    else:
-        print("Warning: LibreOffice not found; formula caches were not recalculated.")
+    elif args.recalculate:
+        raise SystemExit("LibreOffice was requested but is not available")
+
+    normalize_xlsx(args.output)
 
     if set(source_names) != set(concept_counts):
         missing = sorted(set(source_names) - set(concept_counts))

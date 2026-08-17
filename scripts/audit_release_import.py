@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import hashlib
 import re
@@ -68,6 +69,15 @@ def tracked_paths() -> list[Path]:
     return sorted(Path(path.decode("utf-8")) for path in result.stdout.split(b"\0") if path)
 
 
+def artifact_paths(directory: Path) -> list[Path]:
+    absolute = (ROOT / directory).resolve()
+    if absolute != ROOT and ROOT not in absolute.parents:
+        raise ValueError(f"artifact root escapes the worktree: {directory}")
+    if not absolute.is_dir():
+        raise ValueError(f"artifact root is not a directory: {directory}")
+    return sorted(path.relative_to(ROOT) for path in absolute.rglob("*") if path.is_file() or path.is_symlink())
+
+
 def excluded(path: Path) -> bool:
     value = path.as_posix()
     return value.startswith(EXCLUDED_PREFIXES) or value.endswith(EXCLUDED_SUFFIXES)
@@ -114,6 +124,8 @@ def scan_file(path: Path) -> list[dict[str, str]]:
     if SENSITIVE_NAME_PATTERN.search(path.name):
         findings.append(finding(path, "suspicious-filename", "credential-like filename"))
     absolute = ROOT / path
+    if absolute.is_symlink():
+        return findings + [finding(path, "published-symlink", f"symlink target {absolute.readlink()} requires review")]
     size = absolute.stat().st_size
     if size > MAX_FILE_BYTES:
         findings.append(finding(path, "oversized-file", f"{size} bytes exceeds {MAX_FILE_BYTES} bytes"))
@@ -146,8 +158,19 @@ def scan_file(path: Path) -> list[dict[str, str]]:
 
 
 def main() -> int:
-    paths = tracked_paths()
-    included = [path for path in paths if not excluded(path)]
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--artifact-root", type=Path)
+    args = parser.parse_args()
+    try:
+        if args.artifact_root:
+            included = artifact_paths(args.artifact_root)
+            scope = f"published artifact tree: {args.artifact_root.as_posix()}"
+        else:
+            included = [path for path in tracked_paths() if not excluded(path)]
+            scope = "tracked release inputs in the current worktree"
+    except ValueError as error:
+        print(str(error), file=sys.stderr)
+        return 2
     findings = [item for path in included for item in scan_file(path)]
     findings.sort(key=lambda item: (item["path"], item["kind"], item["detail"]))
     extension_counts = Counter(path.suffix.lower() or "[no extension]" for path in included)
@@ -156,7 +179,7 @@ def main() -> int:
         key=lambda item: (-item[1], item[0]),
     )
     report = {
-        "scope": "tracked release inputs in the current worktree",
+        "scope": scope,
         "maxFileBytes": MAX_FILE_BYTES,
         "excludedPrefixes": list(EXCLUDED_PREFIXES),
         "excludedSuffixes": list(EXCLUDED_SUFFIXES),

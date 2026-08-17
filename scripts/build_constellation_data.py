@@ -12,9 +12,10 @@ from __future__ import annotations
 import itertools
 import json
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+from reproducible import source_fingerprint
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -68,6 +69,39 @@ def source_work_labels(audit: dict[str, Any]) -> list[str]:
 
 def source_work_label(audit: dict[str, Any]) -> str:
     return "; ".join(source_work_labels(audit))
+
+
+def stratified_examples(values: list[dict[str, Any]], limit: int) -> list[dict[str, Any]]:
+    kind_order = {"character-example": 0, "source-term": 1, "source-entry": 2}
+    remaining = sorted(
+        values,
+        key=lambda value: (
+            kind_order.get(str(value.get("kind", "")), 99),
+            str(value.get("sourceTitle", "")).casefold(),
+            str(value.get("label", "")).casefold(),
+            str(value.get("id", "")),
+        ),
+    )
+    selected: list[dict[str, Any]] = []
+    kind_counts: Counter[str] = Counter()
+    source_counts: Counter[str] = Counter()
+    while remaining and len(selected) < limit:
+        best = min(
+            remaining,
+            key=lambda value: (
+                kind_counts[str(value.get("kind", ""))],
+                source_counts[str(value.get("sourceId", ""))],
+                kind_order.get(str(value.get("kind", "")), 99),
+                str(value.get("sourceTitle", "")).casefold(),
+                str(value.get("label", "")).casefold(),
+                str(value.get("id", "")),
+            ),
+        )
+        remaining.remove(best)
+        selected.append(best)
+        kind_counts[str(best.get("kind", ""))] += 1
+        source_counts[str(best.get("sourceId", ""))] += 1
+    return selected
 
 
 def main() -> None:
@@ -245,7 +279,7 @@ def main() -> None:
                 "evidenceCount": len(node_examples),
                 "sourceCount": len(source_ids),
                 "sourceIds": source_ids,
-                "examples": node_examples[:48],
+                "examples": stratified_examples(node_examples, 48),
             }
         )
 
@@ -267,7 +301,7 @@ def main() -> None:
         "meta": {
             "title": "Fantasy Concept Constellations",
             "version": "5.0-concept-constellations",
-            "generatedAt": datetime.now(timezone.utc).isoformat(),
+            "sourceFingerprint": source_fingerprint([ATLAS_PATH, CHARACTER_PATH, Path(__file__)]),
             "visualContract": "Every graph node is a normalized being/race/entity or class/vocation archetype. Characters and sources are evidence, never nodes.",
             "counts": {
                 "nodes": len(output_nodes),

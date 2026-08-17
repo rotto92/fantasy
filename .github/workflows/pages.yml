@@ -32,19 +32,37 @@ jobs:
       - name: Install generation dependency
         run: |
           python -m venv .venv
-          .venv/bin/python -m pip install --disable-pip-version-check openpyxl
+          .venv/bin/python -m pip install --disable-pip-version-check -r requirements-generation.txt
       - name: Install JavaScript dependencies
         run: npm ci
       - name: Install pinned Chromium for browser contracts
         run: npm run browser:install
       - name: Build the Pages bundle
         run: npm run build
+      - name: Verify generated artifacts are synchronized
+        run: npm run check:generated
       - name: Audit generated release files
-        run: npm run test:audit && npm run audit:release-import
+        run: npm run test:audit && npm run audit:release-import && npm run audit:pages
       - name: Run browser contracts
         run: |
           VITE_BASE=/ npm run dev -- --host 127.0.0.1 > "$RUNNER_TEMP/fantasy-vite.log" 2>&1 &
-          sleep 2
+          VITE_PID=$!
+          trap 'kill "$VITE_PID" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in $(seq 1 60); do
+            if curl --fail --silent http://127.0.0.1:5173/ >/dev/null; then
+              ready=1
+              break
+            fi
+            if ! kill -0 "$VITE_PID" 2>/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          if [ "$ready" -ne 1 ]; then
+            cat "$RUNNER_TEMP/fantasy-vite.log"
+            exit 1
+          fi
           npm run test:smoke
           npm run test:discovery
           npm run test:static

@@ -76,7 +76,7 @@ interface ConstellationPayload {
   meta: {
     title: string;
     version: string;
-    generatedAt: string;
+    sourceFingerprint: string;
     visualContract: string;
     counts: {
       nodes: number;
@@ -187,22 +187,20 @@ interface ResearchPayload {
       pendingFullSecondReviewSources: number;
     };
   };
+  dimensionLabels: Record<string, string>;
   corpusSources: CorpusSource[];
   sources: SourceAudit[];
   characters: ResearchCharacter[];
   relationships: Array<{ relationship_id: string; source_id: string }>;
   sourceTerms: ResearchSourceTerm[];
+  taxonomy: Record<string, { name: string; domain: string; parentId: string; tier: number | string }>;
 }
 
-interface DiscoveryField {
-  label: string;
-  value: string;
-  foldedValue: string;
-  foldedTokens: string[];
-}
+type DiscoveryField = [label: string, foldedValue: string, foldedTokens: string[]];
 
 interface DiscoveryLookup {
-  tokenPrefixes: Map<string, number[]>;
+  termRecords: Map<string, number[]>;
+  sortedTerms: string[];
 }
 
 interface DiscoveryRecord {
@@ -221,6 +219,7 @@ interface DiscoveryRecord {
   characterIds: string[];
   characterExamples: string[];
   relatedConceptIds: string[];
+  normalizedConceptIds: string[];
   conceptId?: string;
   url: string;
   searchFields: DiscoveryField[];
@@ -251,7 +250,9 @@ interface DiscoveryPayload {
     };
     counts: Record<string, number>;
     coverage: Record<string, DiscoveryCoverage>;
+    dimensionLabels: Record<string, string>;
     foldingMap: Record<string, string>;
+    sourceFingerprint: string;
     normalizationRules: Array<{ id: string; sourceIds: string[]; canonical: string; aliases: string[]; note: string }>;
     sourceConnections: Record<string, SourceConnection[]>;
   };
@@ -337,19 +338,7 @@ const familyPalette = [
 ];
 const touchTargetRadius = 22;
 
-const dimensionLabels: Record<string, string> = {
-  being_types: "Being / species / entity",
-  cultures: "Culture / people",
-  roles_and_vocations: "Role / class / vocation",
-  power_traditions: "Power / tradition",
-  affiliations: "Affiliation / institution",
-  states_and_transformations: "State / transformation",
-  artifacts_and_vehicles: "Artifact / vehicle",
-  cosmologies_and_realms: "Cosmology / realm",
-  metaphysical_laws_and_rituals: "Law / ritual",
-  narrative_archetypes: "Narrative archetype",
-  game_mechanics: "Game mechanic",
-};
+let dimensionLabels: Record<string, string> = {};
 
 const viewCopy: Record<ViewMode, [string, string]> = {
   constellations: [
@@ -372,7 +361,7 @@ const viewCopy: Record<ViewMode, [string, string]> = {
 
 let concepts: ConstellationPayload;
 let research: ResearchPayload;
-let discovery: DiscoveryPayload;
+let discovery: DiscoveryPayload | undefined;
 let viewMode: ViewMode = "constellations";
 let selectedNodeId: string | null = null;
 let selectedDiscoveryId: string | null = null;
@@ -387,11 +376,11 @@ let lineMode: LineMode = "taxonomy";
 let researchQuery = "";
 let lastSearchQuery = "";
 let foldingMap: Record<string, string> = {};
-let discoveryLookup: DiscoveryLookup = { tokenPrefixes: new Map() };
+let discoveryLookup: DiscoveryLookup = { termRecords: new Map(), sortedTerms: [] };
 let currentZoom: d3.ZoomBehavior<SVGSVGElement, unknown> | null = null;
 let currentTransform = d3.zoomIdentity;
 let resizeTimer = 0;
-let restoringDetailFocus = false;
+let rovingNodeId: string | null = null;
 
 const nodeById = new Map<string, ConceptNode>();
 const domainById = new Map<DomainId, DomainRecord>();
@@ -421,6 +410,34 @@ function titleCase(value: string): string {
 
 function compactLabel(value: string, maximum = 34): string {
   return value.length <= maximum ? value : `${value.slice(0, maximum - 1).trimEnd()}…`;
+}
+
+function representativeExamples(values: ConstellationExample[], limit: number): ConstellationExample[] {
+  const kindOrder: Record<ConstellationExample["kind"], number> = {
+    "character-example": 0,
+    "source-term": 1,
+    "source-entry": 2,
+  };
+  const remaining = [...values];
+  const selected: ConstellationExample[] = [];
+  const kindCounts = new Map<ConstellationExample["kind"], number>();
+  const sourceCounts = new Map<string, number>();
+  while (remaining.length && selected.length < limit) {
+    remaining.sort((left, right) =>
+      (kindCounts.get(left.kind) ?? 0) - (kindCounts.get(right.kind) ?? 0)
+      || (sourceCounts.get(left.sourceId) ?? 0) - (sourceCounts.get(right.sourceId) ?? 0)
+      || kindOrder[left.kind] - kindOrder[right.kind]
+      || d3.ascending(left.sourceTitle, right.sourceTitle)
+      || d3.ascending(left.label, right.label)
+      || d3.ascending(left.id, right.id),
+    );
+    const example = remaining.shift();
+    if (!example) break;
+    selected.push(example);
+    kindCounts.set(example.kind, (kindCounts.get(example.kind) ?? 0) + 1);
+    sourceCounts.set(example.sourceId, (sourceCounts.get(example.sourceId) ?? 0) + 1);
+  }
+  return selected;
 }
 
 function foldSearchToken(value: string): string {
@@ -509,39 +526,65 @@ function assetUrl(path: string): string {
 }
 
 function discoveryRecordById(id: string | null): DiscoveryRecord | undefined {
-  return id ? discovery.records.find((record) => record.id === id) : undefined;
+  return id ? discovery?.records.find((record) => record.id === id) : undefined;
 }
 
 function buildDiscoveryLookup(records: DiscoveryRecord[]): DiscoveryLookup {
-  const tokenPrefixes = new Map<string, number[]>();
+  const termRecords = new Map<string, number[]>();
   records.forEach((record, recordIndex) => {
-    const prefixes = new Set<string>();
+    const terms = new Set<string>();
     for (const field of record.searchFields) {
-      for (const token of field.foldedTokens) {
-        for (let length = 1; length <= token.length; length += 1) prefixes.add(token.slice(0, length));
+      const foldedValue = field[1];
+      const foldedTokens = field[2];
+      if (foldedValue) terms.add(foldedValue);
+      foldedTokens.forEach((token) => terms.add(token));
+      for (let start = 0; start + 1 < foldedTokens.length; start += 1) {
+        let joined = foldedTokens[start];
+        for (let end = start + 1; end < Math.min(foldedTokens.length, start + 4); end += 1) {
+          joined += foldedTokens[end];
+          if (end === start + 1 || foldedTokens.slice(start, end + 1).some((token) => token.length <= 2)) {
+            terms.add(joined);
+          }
+        }
       }
     }
-    for (const prefix of prefixes) {
-      const indexes = tokenPrefixes.get(prefix);
+    for (const term of terms) {
+      const indexes = termRecords.get(term);
       if (indexes) indexes.push(recordIndex);
-      else tokenPrefixes.set(prefix, [recordIndex]);
+      else termRecords.set(term, [recordIndex]);
     }
   });
-  return { tokenPrefixes };
+  return { termRecords, sortedTerms: [...termRecords.keys()].sort() };
+}
+
+function lowerBound(values: string[], target: string): number {
+  let low = 0;
+  let high = values.length;
+  while (low < high) {
+    const middle = Math.floor((low + high) / 2);
+    if (values[middle] < target) low = middle + 1;
+    else high = middle;
+  }
+  return low;
+}
+
+function recordsForTermPrefix(prefix: string, indexes: Set<number>): void {
+  if (!prefix) return;
+  for (let position = lowerBound(discoveryLookup.sortedTerms, prefix); position < discoveryLookup.sortedTerms.length; position += 1) {
+    const term = discoveryLookup.sortedTerms[position];
+    if (!term.startsWith(prefix)) break;
+    for (const index of discoveryLookup.termRecords.get(term) ?? []) indexes.add(index);
+  }
 }
 
 function discoveryCandidates(query: string, foldedQuery: string): DiscoveryRecord[] {
+  const payload = discovery;
+  if (!payload) return [];
   const queryTokens = foldSearchTokens(query);
-  if (queryTokens.length > 1) {
-    const indexes = discoveryLookup.tokenPrefixes.get(queryTokens[0]);
-    if (indexes) return indexes.map((index) => discovery.records[index]);
-  }
   const indexes = new Set<number>();
-  const minimumPrefixLength = foldedQuery.length > 1 ? 2 : 1;
-  for (let length = minimumPrefixLength; length <= foldedQuery.length; length += 1) {
-    for (const index of discoveryLookup.tokenPrefixes.get(foldedQuery.slice(0, length)) ?? []) indexes.add(index);
-  }
-  return [...indexes].map((index) => discovery.records[index]);
+  recordsForTermPrefix(foldedQuery, indexes);
+  if (queryTokens.length > 1) recordsForTermPrefix(queryTokens[0], indexes);
+  return [...indexes].map((index) => payload.records[index]);
 }
 
 function hasFoldedTokenWindow(tokens: string[], foldedQuery: string): boolean {
@@ -549,7 +592,7 @@ function hasFoldedTokenWindow(tokens: string[], foldedQuery: string): boolean {
     let joined = "";
     for (let end = start; end < tokens.length; end += 1) {
       joined += tokens[end];
-      if (joined === foldedQuery) return true;
+      if (joined === foldedQuery || joined.startsWith(foldedQuery)) return true;
       if (!foldedQuery.startsWith(joined)) break;
     }
   }
@@ -560,11 +603,11 @@ function matchedDiscoveryFields(record: DiscoveryRecord, foldedQuery: string): s
   if (!foldedQuery) return [];
   return [...new Set(
     record.searchFields
-      .filter((field) => field.foldedValue === foldedQuery
-        || field.foldedValue.startsWith(foldedQuery)
-        || field.foldedTokens.some((token) => token === foldedQuery || token.startsWith(foldedQuery))
-        || hasFoldedTokenWindow(field.foldedTokens, foldedQuery))
-      .map((field) => field.label),
+      .filter(([, foldedValue, foldedTokens]) => foldedValue === foldedQuery
+        || foldedValue.startsWith(foldedQuery)
+        || foldedTokens.some((token) => token === foldedQuery || token.startsWith(foldedQuery))
+        || hasFoldedTokenWindow(foldedTokens, foldedQuery))
+      .map(([label]) => label),
   )];
 }
 
@@ -585,6 +628,7 @@ function discoveryMatchScore(record: DiscoveryRecord, foldedQuery: string, field
 }
 
 function discoveryMatches(query: string): Array<{ record: DiscoveryRecord; fields: string[] }> {
+  if (!discovery) return [];
   const foldedQuery = foldSearch(query);
   if (!foldedQuery) return [];
   return discoveryCandidates(query, foldedQuery)
@@ -909,11 +953,56 @@ function activateNode(positioned: PositionedNode, refreshRelationView = true): v
   if (positioned.node.tier === 2 && viewMode === "constellations") zoomToNode(positioned.node.id);
 }
 
+function renderedNodeMarks(): SVGGElement[] {
+  return [...svgElement.querySelectorAll<SVGGElement>(".concept-star")]
+    .filter((mark) => mark.isConnected && getComputedStyle(mark).display !== "none");
+}
+
+function setRovingNode(nodeId: string, focus = false): void {
+  const marks = renderedNodeMarks();
+  const target = marks.find((mark) => mark.dataset.nodeId === nodeId);
+  if (!target) return;
+  rovingNodeId = nodeId;
+  marks.forEach((mark) => mark.setAttribute("tabindex", mark === target ? "0" : "-1"));
+  if (focus) target.focus();
+}
+
+function directionalNode(positioned: PositionedNode, key: string): PositionedNode | undefined {
+  const candidates = renderedNodeMarks()
+    .map((mark) => d3.select<SVGGElement, PositionedNode>(mark).datum())
+    .filter((candidate) => candidate.node.id !== positioned.node.id)
+    .map((candidate) => {
+      const dx = candidate.x - positioned.x;
+      const dy = candidate.y - positioned.y;
+      const primary = key === "ArrowLeft" ? -dx : key === "ArrowRight" ? dx : key === "ArrowUp" ? -dy : dy;
+      const secondary = key === "ArrowLeft" || key === "ArrowRight" ? Math.abs(dy) : Math.abs(dx);
+      return { candidate, primary, secondary };
+    })
+    .filter(({ primary }) => primary > 0)
+    .sort((left, right) => (left.primary + left.secondary * 1.8) - (right.primary + right.secondary * 1.8));
+  return candidates[0]?.candidate;
+}
+
 function handleNodeKeydown(event: KeyboardEvent, positioned: PositionedNode): void {
-  if (event.key !== "Enter" && event.key !== " ") return;
+  if (event.key === "Enter" || event.key === " ") {
+    event.preventDefault();
+    event.stopPropagation();
+    activateNode(positioned);
+    return;
+  }
+  if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End"].includes(event.key)) return;
   event.preventDefault();
   event.stopPropagation();
-  activateNode(positioned);
+  const marks = renderedNodeMarks();
+  const ordered = marks
+    .map((mark) => d3.select<SVGGElement, PositionedNode>(mark).datum())
+    .sort((left, right) => left.y - right.y || left.x - right.x || d3.ascending(left.node.id, right.node.id));
+  const next = event.key === "Home"
+    ? ordered[0]
+    : event.key === "End"
+      ? ordered.at(-1)
+      : directionalNode(positioned, event.key);
+  if (next) setRovingNode(next.node.id, true);
 }
 
 function hideTooltip(): void {
@@ -1047,6 +1136,11 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
       : (transform.k > 1.5 ? 0.25 : 0.14));
   const affinityOpacity = Math.max(0, Math.min(1, (3.4 - transform.k) / 0.75));
   svg.selectAll<SVGLineElement, ConceptEdge>(".affinity-line").style("stroke-opacity", affinityOpacity);
+  const visibleMarks = renderedNodeMarks();
+  if (!visibleMarks.some((mark) => mark.getAttribute("tabindex") === "0")) {
+    const fallback = visibleMarks.find((mark) => mark.dataset.nodeId === selectedNodeId) ?? visibleMarks[0];
+    if (fallback?.dataset.nodeId) setRovingNode(fallback.dataset.nodeId);
+  }
 }
 
 function renderConstellations(): void {
@@ -1080,6 +1174,11 @@ function renderConstellations(): void {
   }
 
   const positions = [...positionById.values()];
+  const initialRoving = positions.find((positioned) => positioned.node.id === selectedNodeId)
+    ?? positions.find((positioned) => positioned.node.id === rovingNodeId && positioned.node.tier === 2)
+    ?? positions.find((positioned) => positioned.node.tier === 2)
+    ?? positions[0];
+  rovingNodeId = initialRoving?.node.id ?? null;
   const visibleIds = new Set(positions.map((positioned) => positioned.node.id));
   const visibleTaxonomy = taxonomyEdges.filter((edge) => visibleIds.has(edge.source) && visibleIds.has(edge.target));
   const visibleAffinity = affinityEdges.filter((edge) => visibleIds.has(edge.source) && visibleIds.has(edge.target));
@@ -1175,15 +1274,13 @@ function renderConstellations(): void {
     .text((positioned) => chartLabel(positioned.node));
   marks
     .attr("role", "button")
-    .attr("tabindex", 0)
+    .attr("tabindex", (positioned) => positioned.node.id === rovingNodeId ? 0 : -1)
     .attr("focusable", "true")
     .attr("aria-label", (positioned) => accessibleNodeLabel(positioned.node))
     .on("mouseenter", (event, positioned) => showTooltip(event as MouseEvent, positioned.node))
     .on("mousemove", (event, positioned) => showTooltip(event as MouseEvent, positioned.node))
     .on("mouseleave", hideTooltip)
-    .on("focus", (_event, positioned) => {
-      if (!restoringDetailFocus) selectNode(positioned.node.id, false);
-    })
+    .on("focus", (_event, positioned) => setRovingNode(positioned.node.id))
     .on("keydown", handleNodeKeydown)
     .on("click", (event, positioned) => {
       event.stopPropagation();
@@ -1310,6 +1407,10 @@ function renderRelations(): void {
     });
   });
   const positionMap = new Map(positioned.map((item) => [item.node.id, item]));
+  const initialRoving = positioned.find((item) => item.node.id === selected.id)
+    ?? positioned.find((item) => item.node.id === rovingNodeId)
+    ?? positioned[0];
+  rovingNodeId = initialRoving?.node.id ?? null;
   layer
     .append("g")
     .selectAll("line")
@@ -1346,15 +1447,13 @@ function renderRelations(): void {
     .text((item) => compactLabel(chartLabel(item.node), stage.clientWidth < 620 ? 18 : 24));
   marks
     .attr("role", "button")
-    .attr("tabindex", 0)
+    .attr("tabindex", (item) => item.node.id === rovingNodeId ? 0 : -1)
     .attr("focusable", "true")
     .attr("aria-label", (item) => accessibleNodeLabel(item.node))
     .on("mouseenter", (event, item) => showTooltip(event as MouseEvent, item.node))
     .on("mousemove", (event, item) => showTooltip(event as MouseEvent, item.node))
     .on("mouseleave", hideTooltip)
-    .on("focus", (_event, item) => {
-      if (!restoringDetailFocus) selectNode(item.node.id, false, "click", null, false);
-    })
+    .on("focus", (_event, item) => setRovingNode(item.node.id))
     .on("keydown", handleNodeKeydown)
     .on("click", (event, item) => {
       event.stopPropagation();
@@ -1555,9 +1654,7 @@ function hideDetail(): void {
       && getComputedStyle(candidate).visibility !== "hidden"
       && getComputedStyle(candidate).display !== "none",
     );
-    restoringDetailFocus = true;
     (returnTarget ?? searchInput).focus();
-    restoringDetailFocus = false;
   }
 }
 
@@ -1578,7 +1675,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   header.append(element("p", "character-subtitle", [record.sourceTitle, record.continuity].filter(Boolean).join(" · ") || "Accepted corpus record"));
   const evidence = element("div", "evidence-row");
   evidence.append(element("span", "evidence-badge researched", "Indexed evidence"));
-  evidence.append(element("span", "", `${record.characterIds.length || record.characterExamples.length} character examples · ${record.relatedConceptIds.length} normalized links`));
+  evidence.append(element("span", "", `${record.characterIds.length || record.characterExamples.length} character examples · ${record.normalizedConceptIds.length} normalized mappings`));
   header.append(evidence);
   detailContent.append(header);
 
@@ -1614,12 +1711,17 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     const node = nodeById.get(id);
     return node ? nodeById.get(node.familyId)?.label ?? node.label : "";
   }).filter(Boolean))].join(", ");
+  const normalizedMappings = record.normalizedConceptIds
+    .map((id) => `${research.taxonomy[id]?.name ?? id} (${id})`)
+    .slice(0, 12)
+    .join(", ");
   const contextValues: Array<[string, string]> = [
     ["Source / series", record.sourceTitle],
     ["Continuity", record.continuity],
     ["Work / witness", record.work],
     ["Evidence dimension", dimensionLabels[record.dimension] ?? record.dimension],
     ["Normalized family", normalizedFamilies],
+    ["Normalized mapping", normalizedMappings],
   ];
   for (const [label, value] of contextValues) {
     if (!value) continue;
@@ -1642,13 +1744,18 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     });
     relatedList.append(button);
   }
-  if (!conceptNodes.length) relatedList.append(element("p", "detail-copy", "No normalized archetype ID is recorded for this evidence. It stays source-native and is not promoted to a graph node."));
+  if (!conceptNodes.length) {
+    const message = record.normalizedConceptIds.length
+      ? "The recorded normalized mappings are outside the being/class graph, so this evidence remains source-native and no graph star is created."
+      : "No normalized archetype ID is recorded for this evidence. It stays source-native and is not promoted to a graph node.";
+    relatedList.append(element("p", "detail-copy", message));
+  }
   relatedConcepts.append(relatedList);
   detailContent.append(relatedConcepts);
 
   if (record.sourceId) {
     const connections = detailSection("Series connections");
-    const sourceConnections = discovery.meta.sourceConnections[record.sourceId] ?? [];
+    const sourceConnections = discovery?.meta.sourceConnections[record.sourceId] ?? [];
     if (!sourceConnections.length) {
       connections.append(element("p", "detail-copy", "No cross-series connection is claimed here: this record has no shared normalized concept with another accepted source."));
     } else {
@@ -1901,7 +2008,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
   if (!node.examples.length) {
     examples.append(element("p", "detail-copy", "This star is structurally useful in the framework, but no source-specific entry, mapped character example, or source term currently points to it. It remains visible as framework—not as a canonical claim about any source."));
   } else {
-    for (const example of node.examples.slice(0, 10)) {
+    for (const example of representativeExamples(node.examples, 10)) {
       const card = example.url ? element("a", "citation-card") : element("div", "citation-card");
       if (card instanceof HTMLAnchorElement) {
         card.href = example.url;
@@ -2247,17 +2354,16 @@ function bindEvents(): void {
 
 async function loadData(): Promise<void> {
   try {
-    const [conceptResponse, researchResponse, discoveryResponse] = await Promise.all([
+    searchInput.disabled = true;
+    searchInput.setAttribute("aria-busy", "true");
+    const [conceptResponse, researchResponse] = await Promise.all([
       fetch(assetUrl("data/constellations.json")),
       fetch(assetUrl("data/characters.json")),
-      fetch(assetUrl("data/discovery.json")),
     ]);
-    if (!conceptResponse.ok || !researchResponse.ok || !discoveryResponse.ok) throw new Error("Unable to load compiled atlas data");
+    if (!conceptResponse.ok || !researchResponse.ok) throw new Error("Unable to load compiled atlas data");
     concepts = (await conceptResponse.json()) as ConstellationPayload;
     research = (await researchResponse.json()) as ResearchPayload;
-    discovery = (await discoveryResponse.json()) as DiscoveryPayload;
-    foldingMap = discovery.meta.foldingMap ?? {};
-    discoveryLookup = buildDiscoveryLookup(discovery.records);
+    dimensionLabels = research.dimensionLabels;
     for (const domain of concepts.domains) domainById.set(domain.id, domain);
     for (const node of concepts.nodes) nodeById.set(node.id, node);
     taxonomyEdges.push(...concepts.edges.filter((edge) => edge.kind === "taxonomy"));
@@ -2271,8 +2377,31 @@ async function loadData(): Promise<void> {
     updateLegend();
     render();
     loading.remove();
+    searchInput.placeholder = "Loading corpus discovery…";
+    await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()));
+    const discoveryResponse = await fetch(assetUrl("data/discovery.json"));
+    if (!discoveryResponse.ok) throw new Error("Unable to load corpus discovery data");
+    discovery = (await discoveryResponse.json()) as DiscoveryPayload;
+    for (const [dimension, label] of Object.entries(research.dimensionLabels)) {
+      if (discovery.meta.dimensionLabels[dimension] !== label) {
+        throw new Error(`Discovery dimension schema is out of sync for ${dimension}`);
+      }
+    }
+    foldingMap = discovery.meta.foldingMap ?? {};
+    discoveryLookup = buildDiscoveryLookup(discovery.records);
+    dimensionLabels = discovery.meta.dimensionLabels;
+    searchInput.disabled = false;
+    searchInput.removeAttribute("aria-busy");
+    searchInput.placeholder = viewMode === "research" ? "Find a source, work, or tradition…" : "Search the bounded corpus…";
   } catch (error) {
-    loading.replaceChildren(element("p", "", error instanceof Error ? error.message : "Unable to load the atlas."));
+    const message = error instanceof Error ? error.message : "Unable to load the atlas.";
+    if (loading.isConnected) loading.replaceChildren(element("p", "", message));
+    else {
+      searchInput.disabled = true;
+      searchInput.removeAttribute("aria-busy");
+      searchInput.placeholder = "Corpus discovery unavailable";
+      statusSummary.textContent = `${statusSummary.textContent ?? "Atlas loaded"} · ${message}`;
+    }
   }
 }
 

@@ -20,6 +20,8 @@ from typing import Any, Iterable
 
 from openpyxl import load_workbook
 
+from reproducible import source_fingerprint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = ROOT / "fantasy_high_fantasy_archetype_atlas_v3.xlsx"
@@ -486,7 +488,7 @@ def main() -> None:
             "title": "Fantasy & High-Fantasy Comparative Archetype Atlas",
             "version": "3.0 graph preview",
             "sourceWorkbook": args.input.name,
-            "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
+            "sourceFingerprint": source_fingerprint([args.input, Path(__file__)]),
             "counts": {
                 "sources": len(sources),
                 "coveredSources": sum(1 for item in source_coverage if item["Entry_Count"] > 0),

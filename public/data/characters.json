@@ -2,7 +2,7 @@
   "meta": {
     "title": "Fantasy Character Atlas",
     "version": "4.0-research",
-    "generatedAt": "2026-08-17T02:38:09.399209+00:00",
+    "sourceFingerprint": "sha256:611ba38597e8509f255eb8cab192dc49d27928966d4abd1ca95317e094955821",
     "sourceWorkbook": "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
     "counts": {
       "source_audits": 281,
@@ -58,6 +58,19 @@
     "narrative_archetypes",
     "game_mechanics"
   ],
+  "dimensionLabels": {
+    "being_types": "Being / species / entity",
+    "cultures": "Culture / people",
+    "roles_and_vocations": "Role / class / vocation",
+    "power_traditions": "Power / tradition",
+    "affiliations": "Affiliation / institution",
+    "states_and_transformations": "State / transformation",
+    "artifacts_and_vehicles": "Artifact / vehicle",
+    "cosmologies_and_realms": "Cosmology / realm",
+    "metaphysical_laws_and_rituals": "Law / ritual",
+    "narrative_archetypes": "Narrative archetype",
+    "game_mechanics": "Game mechanic"
+  },
   "corpusSources": [
     {
       "sourceId": "SRC-001",

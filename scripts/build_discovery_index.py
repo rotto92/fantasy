@@ -16,25 +16,16 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
+from reproducible import source_fingerprint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH_PATH = ROOT / "public" / "data" / "characters.json"
 CONCEPTS_PATH = ROOT / "public" / "data" / "constellations.json"
 OUTPUT_PATH = ROOT / "public" / "data" / "discovery.json"
+DIMENSION_SCHEMA_PATH = ROOT / "research" / "dimensions.json"
 
-DIMENSION_LABELS = {
-    "being_types": "Being / species / entity",
-    "cultures": "Culture / people",
-    "roles_and_vocations": "Role / class / vocation",
-    "power_traditions": "Power / tradition",
-    "affiliations": "Affiliation / institution",
-    "states_and_transformations": "State / transformation",
-    "artifacts_and_vehicles": "Artifact / vehicle",
-    "cosmologies_and_realms": "Cosmology / realm",
-    "metaphysical_laws_and_rituals": "Law / ritual",
-    "narrative_archetypes": "Narrative archetype",
-    "game_mechanics": "Game mechanic",
-}
+DIMENSION_LABELS = json.loads(DIMENSION_SCHEMA_PATH.read_text(encoding="utf-8"))
 
 # This is deliberately narrow. "ashura" is a search spelling alias for the
 # Sanskrit source-term witness only; it is not applied to Guild Wars' asura.
@@ -95,9 +86,9 @@ def unique(values: list[str]) -> list[str]:
     return list(dict.fromkeys(value for value in values if value))
 
 
-def field(label: str, value: Any) -> dict[str, Any]:
+def field(label: str, value: Any) -> list[Any]:
     text = str(value or "")
-    return {"label": label, "value": text, "foldedValue": fold(text), "foldedTokens": fold_tokens(text)}
+    return [label, fold(text), fold_tokens(text)]
 
 
 def source_lookup(research: dict[str, Any]) -> dict[str, dict[str, Any]]:
@@ -130,7 +121,7 @@ def source_work_label(audit: dict[str, Any]) -> str:
     return "; ".join(source_work_labels(audit))
 
 
-def source_fields(source: dict[str, Any]) -> list[dict[str, str]]:
+def source_fields(source: dict[str, Any]) -> list[list[Any]]:
     return [
         field("source / series", source.get("title")),
         field("continuity", source.get("continuityUnit")),
@@ -147,6 +138,17 @@ def concept_ids(values: list[dict[str, Any]], valid_ids: set[str]) -> list[str]:
             for value in values
             for archetype_id in value.get("archetype_ids", [])
             if str(archetype_id) in valid_ids
+        }
+    )
+
+
+def normalized_ids(values: list[dict[str, Any]]) -> list[str]:
+    return sorted(
+        {
+            str(archetype_id)
+            for value in values
+            for archetype_id in value.get("archetype_ids", [])
+            if str(archetype_id)
         }
     )
 
@@ -180,6 +182,7 @@ def main() -> None:
             valid_concept_ids,
         )
         dimension_values = character_dimensions(character)
+        mapping_ids = normalized_ids(dimension_values)
         fields = [
             field("character", character.get("canonical_name")),
             *[field("alias", alias) for alias in character.get("aliases", [])],
@@ -206,6 +209,7 @@ def main() -> None:
                 "characterIds": [character["character_id"]],
                 "characterExamples": [character["canonical_name"]],
                 "relatedConceptIds": related_ids,
+                "normalizedConceptIds": mapping_ids,
                 "url": first_url(character.get("citations", [])),
                 "searchFields": fields,
             }
@@ -228,6 +232,16 @@ def main() -> None:
             dimension_row_keys[term_dimension].add(f"source-term:{term['term_id']}")
         source = sources.get(str(term["source_id"]), {})
         source_work = source_work_label(audits.get(str(term["source_id"]), {}))
+        matching_rows = dimension_rows_by_key.get(
+            (term_dimension, fold(canonical), str(term["source_id"])),
+            [],
+        )
+        matching_character_ids = unique(
+            [str(row["character"]["character_id"]) for row in matching_rows]
+        )
+        matching_character_names = unique(
+            [str(row["character"]["canonical_name"]) for row in matching_rows]
+        )
         aliases: list[str] = []
         alias_note = ""
         for rule in VARIANT_RULES:
@@ -264,13 +278,16 @@ def main() -> None:
                 "dimension": term.get("dimension", ""),
                 "continuity": source.get("continuityUnit", "Source-native terminology record"),
                 "work": source_work,
-                "characterIds": [],
-                "characterExamples": [],
+                "characterIds": matching_character_ids,
+                "characterExamples": matching_character_names[:6],
                 "relatedConceptIds": [
                     str(archetype_id)
                     for archetype_id in term.get("archetype_ids", [])
                     if str(archetype_id) in valid_concept_ids
                 ],
+                "normalizedConceptIds": sorted(
+                    {str(archetype_id) for archetype_id in term.get("archetype_ids", []) if str(archetype_id)}
+                ),
                 "url": first_url(term.get("citations", [])),
                 "searchFields": fields,
                 "coverageKeys": [f"source-term:{term['term_id']}"] if term_dimension in DIMENSION_LABELS else [],
@@ -283,14 +300,22 @@ def main() -> None:
         source = sources.get(source_id, {})
         terms = [str(row["value"].get("term", "")).strip() for row in rows]
         display_term = terms[0]
-        character_ids = [str(row["character"]["character_id"]) for row in rows]
-        character_names = [str(row["character"]["canonical_name"]) for row in rows]
+        character_ids = unique([str(row["character"]["character_id"]) for row in rows])
+        character_names = unique([str(row["character"]["canonical_name"]) for row in rows])
         related_ids = sorted(
             {
                 str(archetype_id)
                 for row in rows
                 for archetype_id in row["value"].get("archetype_ids", [])
                 if str(archetype_id) in valid_concept_ids
+            }
+        )
+        mapping_ids = sorted(
+            {
+                str(archetype_id)
+                for row in rows
+                for archetype_id in row["value"].get("archetype_ids", [])
+                if str(archetype_id)
             }
         )
         fields = [
@@ -308,6 +333,7 @@ def main() -> None:
         ]
         record_id = f"dimension:{dimension}:{folded_term}:{source_id}"
         work_values = unique([str(row["character"].get("work_or_witness", "")) for row in rows])
+        continuity_values = unique([str(row["character"].get("continuity", "")) for row in rows])
         records.append(
             {
                 "id": record_id,
@@ -318,11 +344,12 @@ def main() -> None:
                 "sourceId": source_id,
                 "sourceTitle": first_character["source_title"],
                 "dimension": dimension,
-                "continuity": first_character["continuity"],
-                "work": work_values[0] if len(work_values) == 1 else "",
+                "continuity": "; ".join(continuity_values),
+                "work": "; ".join(work_values),
                 "characterIds": character_ids,
                 "characterExamples": character_names[:6],
                 "relatedConceptIds": related_ids,
+                "normalizedConceptIds": mapping_ids,
                 "url": first_url(first["character"].get("citations", [])),
                 "searchFields": fields,
                 "coverageKeys": [row["coverageKey"] for row in rows],
@@ -330,11 +357,13 @@ def main() -> None:
         )
     records_by_source: dict[str, list[dict[str, Any]]] = defaultdict(list)
     source_concepts: dict[str, set[str]] = defaultdict(set)
+    source_mappings: dict[str, set[str]] = defaultdict(set)
     for record in records:
         source_id = str(record.get("sourceId", ""))
         if source_id:
             records_by_source[source_id].append(record)
             source_concepts[source_id].update(record.get("relatedConceptIds", []))
+            source_mappings[source_id].update(record.get("normalizedConceptIds", []))
 
     for source_id, source in sources.items():
         supporting = records_by_source.get(source_id, [])
@@ -361,6 +390,7 @@ def main() -> None:
                 "characterIds": character_ids,
                 "characterExamples": [characters_by_id[character_id]["canonical_name"] for character_id in character_ids[:6]],
                 "relatedConceptIds": related_ids,
+                "normalizedConceptIds": sorted(source_mappings.get(source_id, set())),
                 "url": source.get("referenceUrl", ""),
                 "searchFields": fields,
             }
@@ -390,6 +420,7 @@ def main() -> None:
                 "characterIds": [],
                 "characterExamples": [],
                 "relatedConceptIds": [node["id"]],
+                "normalizedConceptIds": [node["id"]],
                 "conceptId": node["id"],
                 "url": "",
                 "searchFields": fields,
@@ -476,13 +507,20 @@ def main() -> None:
                 "sources": sum(record["kind"] == "source" for record in records),
             },
             "coverage": coverage,
+            "dimensionLabels": DIMENSION_LABELS,
             "foldingMap": FOLDING_REPLACEMENTS,
             "normalizationRules": VARIANT_RULES,
             "sourceConnections": source_connections,
         },
         "records": records,
     }
-    OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    output["meta"]["sourceFingerprint"] = source_fingerprint(
+        [RESEARCH_PATH, CONCEPTS_PATH, DIMENSION_SCHEMA_PATH, Path(__file__)]
+    )
+    OUTPUT_PATH.write_text(
+        json.dumps(output, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
     print(
         f"Wrote {OUTPUT_PATH.relative_to(ROOT)}: {len(records)} records; "
         f"{sum(item['discoverableRows'] for item in coverage.values())} accepted dimension rows covered."

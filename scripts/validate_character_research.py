@@ -12,12 +12,13 @@ import argparse
 import json
 import re
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
 from openpyxl import load_workbook
+
+from reproducible import source_fingerprint
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,21 +27,11 @@ DEFAULT_RESEARCH_ROOT = ROOT / "research"
 DEFAULT_OUTPUT = ROOT / "public" / "data" / "characters.json"
 DEFAULT_REPORT = ROOT / "research" / "validation_report.json"
 REVIEW_INDEX = ROOT / "research" / "independent_reviews" / "index.json"
+DIMENSION_SCHEMA_PATH = ROOT / "research" / "dimensions.json"
 
 REQUIRED_FILES = ("sources.json", "characters.json", "relationships.json", "source_terms.json")
-DIMENSIONS = (
-    "being_types",
-    "cultures",
-    "roles_and_vocations",
-    "power_traditions",
-    "affiliations",
-    "states_and_transformations",
-    "artifacts_and_vehicles",
-    "cosmologies_and_realms",
-    "metaphysical_laws_and_rituals",
-    "narrative_archetypes",
-    "game_mechanics",
-)
+DIMENSION_LABELS = json.loads(DIMENSION_SCHEMA_PATH.read_text(encoding="utf-8"))
+DIMENSIONS = tuple(DIMENSION_LABELS)
 RELATIONSHIP_TYPES = {
     "kin",
     "ally",
@@ -467,8 +458,21 @@ def main() -> None:
     if review_index and indexed_warning_sources != warning_source_ids:
         errors.append("independent-review index: retained warning source IDs do not match current validator warnings")
 
+    input_paths = [
+        args.workbook,
+        DIMENSION_SCHEMA_PATH,
+        REVIEW_INDEX,
+        Path(__file__),
+        *[
+            bundle / filename
+            for bundle in bundle_dirs
+            for filename in REQUIRED_FILES
+        ],
+    ]
+    fingerprint = source_fingerprint([path for path in input_paths if path.exists()])
+
     report = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "source_fingerprint": fingerprint,
         "status": "valid" if not errors else "invalid",
         "bundles": [str(path.relative_to(ROOT)) for path in bundle_dirs],
         "quarantinedBundles": [str(path.relative_to(ROOT)) for path in quarantined_bundle_dirs],
@@ -510,7 +514,7 @@ def main() -> None:
         "meta": {
             "title": "Fantasy Character Atlas",
             "version": "4.0-research",
-            "generatedAt": report["generated_at"],
+            "sourceFingerprint": fingerprint,
             "sourceWorkbook": args.workbook.name,
             "counts": report["counts"],
             "researchCoverage": {
@@ -530,6 +534,7 @@ def main() -> None:
             "visualContract": "Characters and source-native terms are searchable evidence; normalized beings and classes remain the graph nodes.",
         },
         "dimensions": list(DIMENSIONS),
+        "dimensionLabels": DIMENSION_LABELS,
         "corpusSources": [
             {
                 "sourceId": row.get("Source_ID", ""),

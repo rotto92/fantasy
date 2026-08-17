@@ -41,7 +41,7 @@ they also verify that the scoped alias does not reach Rāmāyaṇa's Paraśurām
 
 ```bash
 python -m venv .venv
-.venv/bin/pip install openpyxl
+.venv/bin/pip install -r requirements-generation.txt
 npm install
 npm run browser:install
 npm run dev
@@ -56,6 +56,7 @@ build; set `CHROMIUM_PATH` only when intentionally using another executable.
 
 ```bash
 npm run build
+npm run check:generated
 npm run test:smoke
 npm run test:discovery
 VITE_BASE=/fantasy/ npm run build
@@ -66,8 +67,15 @@ npm run test:static
 atlas, validates all non-quarantined research bundles, compiles the concept
 constellations, builds the corpus-wide discovery index, regenerates the Version
 4 workbook, type-checks the app, and writes the Vite bundle to `dist/`.
+`npm run generate` runs only the tracked generation chain. Generated metadata
+uses source fingerprints rather than wall-clock timestamps, workbook archives
+use stable metadata, and CI runs `npm run check:generated` after generation so
+an unchanged checkout must reproduce every tracked workbook, public payload,
+and validation report exactly.
 
-The discovery compiler (`scripts/build_discovery_index.py`) is the completeness
+The dimension registry (`research/dimensions.json`) is the shared validator,
+compiler, and UI naming contract. The discovery compiler
+(`scripts/build_discovery_index.py`) is the completeness
 contract. It indexes normalized labels, character names and aliases, every
 structured research dimension, source-native terms, source/series titles,
 continuity units, and work/witness identifiers. Its generated metadata reports
@@ -86,13 +94,16 @@ The source tree under `research/` is the authoritative research bundle. The
 compiler keeps source/continuity identity in every evidence result and derives
 cross-series connections only from shared normalized concept IDs.
 
-Before a Pages artifact is built, `npm run audit:release-import` inventories all
+Before publication, `npm run audit:release-import` inventories all
 tracked release inputs and scans them for credential-like filenames, private key
 markers, high-signal tokens, email addresses, accidental absolute local paths,
 local `file://` URLs, files larger than 50 MiB, and matching text inside retained
 binary archives. Opaque files fail closed unless their visually reviewed bytes
 match the explicit SHA-256 allowlist in the audit script; any changed or new
 opaque artifact requires another publication review.
+After Vite builds, `npm run audit:pages` independently scans every file beneath
+the exact `dist/` directory uploaded to Pages, including untracked generated
+assets.
 Reproducible outputs and machine-local folders
 (`node_modules/`, `.venv/`, `dist/`, caches, temporary folders, and bytecode)
 are explicit exclusions. A finding fails the release workflow; it is not
@@ -114,6 +125,7 @@ Pages-style build.
 - `src/main.ts` — constellation, catalogue, relation, research, discovery search, and evidence detail behavior.
 - `src/style.css` — responsive night-sky visual system, readable typography, focus states, touch layout, and reduced motion.
 - `scripts/build_discovery_index.py` — corpus-wide discovery projection and machine-checked coverage metadata.
+- `research/dimensions.json` — authoritative structured-dimension names and presentation labels.
 - `scripts/audit_release_import.py` — deterministic pre-publication inventory and sensitive-content scan.
 - `scripts/validate_character_research.py` — research bundle validation and accepted-corpus compiler.
 - `tests/smoke.mjs` — graph, relations, catalogue, research, and mobile browser contract.

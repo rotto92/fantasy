@@ -13,6 +13,9 @@ if (discovery.meta.scope?.kind !== "bounded-accepted-research-corpus") {
 if (discovery.meta.foldingMap?.["ß"] !== "ss") {
   failures.push("discovery index does not publish the compiler-compatible Unicode folding map");
 }
+if (JSON.stringify(discovery.meta.dimensionLabels) !== JSON.stringify(research.dimensionLabels)) {
+  failures.push("generated discovery and research payloads disagree on the dimension schema");
+}
 if (discovery.records.some((record) => Object.hasOwn(record, "searchText"))) {
   failures.push("discovery index still carries the unused searchText payload");
 }
@@ -22,9 +25,21 @@ const abhimanyu = research.characters.find((character) => character.canonical_na
 const mappedSourceTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC002-005");
 const mappedConcept = concepts.nodes.find((node) => node.examples?.length);
 const mappedSourceTermExample = concepts.nodes.flatMap((node) => node.examples ?? []).find((example) => example.id === mappedSourceTerm?.term_id);
+const xeniaRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC001-007");
+const aetherbladesRecord = discovery.records.find((record) => record.id === "source-term:STM-SRC162-002");
+const jotunnRecord = discovery.records.find((record) => record.kind === "dimension-term" && record.sourceId === "SRC-002" && record.label === "jötunn");
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
+if (!xeniaRecord?.normalizedConceptIds.includes("LAW-801") || !xeniaRecord.normalizedConceptIds.includes("LAW-802") || xeniaRecord.relatedConceptIds.length) {
+  failures.push("non-graph normalized mappings were not preserved separately from graph-selectable links");
+}
+for (const name of ["Ankka", "Ivan", "Mai Trin", "Scarlet"]) {
+  if (!aetherbladesRecord?.characterExamples.includes(name)) failures.push(`Aetherblades source-term evidence omitted ${name}`);
+}
+if (!jotunnRecord?.continuity.includes("Poetic Edda witness") || !jotunnRecord.continuity.includes("Prose Edda witness") || !jotunnRecord.work.includes("Vafþrúðnismál") || !jotunnRecord.work.includes("Gylfaginning")) {
+  failures.push("grouped jötunn evidence collapsed its continuity or work provenance");
+}
 if (mappedSourceTerm && mappedSourceTermExample) {
   const source = research.corpusSources.find((item) => item.sourceId === mappedSourceTerm.source_id);
   const audit = research.sources.find((item) => item.source_id === mappedSourceTerm.source_id);
@@ -59,9 +74,26 @@ const browser = await launchBrowser({
   headless: true,
   args: ["--no-sandbox", "--enable-unsafe-swiftshader"],
 });
+const stagedPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
+let releaseDiscovery;
+const discoveryGate = new Promise((resolve) => { releaseDiscovery = resolve; });
+await stagedPage.route("**/data/discovery.json", async (route) => {
+  await discoveryGate;
+  await route.continue();
+});
+await stagedPage.goto(appUrl, { waitUntil: "domcontentloaded" });
+await stagedPage.locator("#loading").waitFor({ state: "detached" });
+if (!(await stagedPage.locator("#status-summary").textContent())?.includes("class/race/entity stars") || !(await stagedPage.locator("#search").isDisabled())) {
+  failures.push("initial atlas render still waits on discovery parsing or enables incomplete search");
+}
+releaseDiscovery();
+await stagedPage.waitForFunction(() => !document.querySelector("#search")?.disabled);
+await stagedPage.close();
+
 const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 await page.goto(appUrl, { waitUntil: "networkidle" });
 await page.locator("#loading").waitFor({ state: "detached" });
+await page.waitForFunction(() => !document.querySelector("#search")?.disabled);
 
 if (mappedConcept) {
   await page.locator("#search").fill(mappedConcept.label);
@@ -166,6 +198,33 @@ await page.locator("#search").fill("Ank-ka");
 const punctuationText = await page.locator("#search-results").innerText();
 if (!punctuationText.includes("Ankka")) {
   failures.push(`punctuation-tolerant character search omitted Ankka: ${punctuationText}`);
+}
+
+for (const [query, expected] of [["DAngeline", "Kushiel's Legacy"], ["Kiche", "Popol Vuh"]]) {
+  await page.locator("#search").fill(query);
+  const resultText = await page.locator("#search-results").innerText();
+  if (!resultText.includes(expected)) failures.push(`joined punctuation search ${query} omitted ${expected}: ${resultText}`);
+}
+
+await page.locator("#search").fill("xenia");
+await page.locator(".search-result").filter({ hasText: "Source-native term · Ancient Greek Mythology" }).first().click();
+const xeniaDetail = (await page.locator(".detail-panel").innerText()).toLocaleLowerCase();
+if (!xeniaDetail.includes("normalized mapping") || !xeniaDetail.includes("sacred hospitality (law-801)") || !xeniaDetail.includes("guest–host reciprocity (law-802)") || !xeniaDetail.includes("outside the being/class graph")) {
+  failures.push(`xenia detail discarded non-graph normalized mappings: ${xeniaDetail}`);
+}
+
+await page.locator("#search").fill("Aetherblades");
+await page.locator(".search-result").filter({ hasText: "Source-native term · Guild Wars" }).first().click();
+const aetherbladesDetail = await page.locator(".detail-panel").innerText();
+for (const name of ["Ankka", "Ivan", "Mai Trin", "Scarlet"]) {
+  if (!aetherbladesDetail.includes(name)) failures.push(`Aetherblades detail omitted representative character ${name}`);
+}
+
+for (const label of ["Human and Near-Human Peoples", "Deities", "Warrior or Fighter"]) {
+  await page.locator("#search").fill(label);
+  await page.locator(".search-result").filter({ hasText: "Normalized graph concept" }).first().click();
+  const evidenceText = await page.locator(".detail-section").filter({ hasText: "Source evidence and examples" }).innerText();
+  if (!evidenceText.includes("Character Example")) failures.push(`${label} detail sampling omitted character evidence`);
 }
 
 await page.locator("#search").fill("The Once and Future King");

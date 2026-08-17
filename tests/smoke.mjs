@@ -18,6 +18,7 @@ page.on("console", (message) => {
 
 await page.goto(appUrl, { waitUntil: "networkidle" });
 await page.locator("#loading").waitFor({ state: "detached" });
+await page.waitForFunction(() => !document.querySelector("#search")?.disabled);
 
 const status = await page.locator("#status-summary").textContent();
 if (!status?.includes(`${concepts.meta.counts.nodes.toLocaleString("en-US")} class/race/entity stars`)) {
@@ -48,10 +49,20 @@ const accessibleStar = page.locator("#atlas-svg .concept-star").first();
 if (await accessibleStar.getAttribute("role") !== "button" || await accessibleStar.getAttribute("tabindex") !== "0" || !(await accessibleStar.getAttribute("aria-label"))) {
   failures.push("map concepts are missing semantic keyboard control metadata");
 } else {
+  if ((await page.locator('#atlas-svg .concept-star[tabindex="0"]').count()) !== 1) failures.push("constellation map does not expose one roving tab stop");
   if (Number(await accessibleStar.locator(".star-hit-area").getAttribute("r")) < 22) failures.push("map concepts are missing touch-sized hit areas");
   await accessibleStar.focus();
   if (!(await accessibleStar.evaluate((node) => node === document.activeElement))) failures.push("map concept cannot receive keyboard focus");
-  await accessibleStar.press("Enter");
+  if ((await page.locator("#atlas-svg .is-selected").count()) || await page.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))) {
+    failures.push("focusing a constellation star activated it");
+  }
+  const focusedBeforeArrow = await accessibleStar.getAttribute("data-node-id");
+  await page.keyboard.press("ArrowRight");
+  const focusedAfterArrow = await page.evaluate(() => document.activeElement?.getAttribute("data-node-id"));
+  if (!focusedAfterArrow || focusedAfterArrow === focusedBeforeArrow || (await page.locator("#atlas-svg .is-selected").count())) {
+    failures.push("spatial roving focus did not move without activating a star");
+  }
+  await page.keyboard.press("Enter");
   if (!(await page.locator(".concept-detail-header").isVisible())) failures.push("keyboard activation did not open concept detail");
   await page.waitForFunction(() => document.activeElement?.tagName === "H2");
   await page.waitForTimeout(800);
@@ -136,6 +147,7 @@ if (!connected) {
   if (relationNodes < 2 || relationLines < 1 || relationNodes > 25) {
     failures.push(`unexpected local concept chart: ${relationNodes} stars / ${relationLines} lines`);
   }
+  if ((await page.locator('#atlas-svg .relation-star[tabindex="0"]').count()) !== 1) failures.push("relation map does not expose one roving tab stop");
   const relationTarget = page.locator("#atlas-svg .relation-star").nth(1);
   const relationTargetId = await relationTarget.getAttribute("data-node-id");
   await relationTarget.focus();
@@ -217,6 +229,7 @@ const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
 mobile.on("pageerror", (error) => failures.push(`mobile pageerror: ${error.message}`));
 await mobile.goto(appUrl, { waitUntil: "networkidle" });
 await mobile.locator("#loading").waitFor({ state: "detached" });
+await mobile.waitForFunction(() => !document.querySelector("#search")?.disabled);
 const mobileZoomBox = await mobile.locator("#zoom-in").boundingBox();
 if (!mobileZoomBox || mobileZoomBox.width < 44 || mobileZoomBox.height < 44) failures.push("mobile zoom control is smaller than the touch target");
 const mobileFamilyLabels = mobile.locator("#atlas-svg .family-label:visible");
@@ -225,6 +238,16 @@ for (const label of await mobileFamilyLabels.all()) {
   if (Number.parseFloat(await label.evaluate((node) => getComputedStyle(node).fontSize)) < 12) {
     failures.push("mobile constellation renders a microscopic family label");
     break;
+  }
+}
+const mobileRovingStar = mobile.locator('#atlas-svg .concept-star[tabindex="0"]');
+if ((await mobileRovingStar.count()) !== 1) {
+  failures.push("mobile constellation does not expose one roving tab stop");
+} else {
+  await mobileRovingStar.focus();
+  await mobile.keyboard.press("ArrowRight");
+  if ((await mobile.locator("#atlas-svg .is-selected").count()) || await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))) {
+    failures.push("mobile keyboard focus opened the fixed detail drawer");
   }
 }
 await mobile.locator("#search").fill("Abhimanyu");
