@@ -52,6 +52,7 @@ if (await accessibleStar.getAttribute("role") !== "button" || await accessibleSt
   if (!(await accessibleStar.evaluate((node) => node === document.activeElement))) failures.push("map concept cannot receive keyboard focus");
   await accessibleStar.press("Enter");
   if (!(await page.locator(".concept-detail-header").isVisible())) failures.push("keyboard activation did not open concept detail");
+  await page.waitForFunction(() => document.activeElement?.tagName === "H2");
 }
 
 const connected = concepts.nodes.find((node) =>
@@ -96,12 +97,14 @@ if (!connected) {
     failures.push(`unexpected local concept chart: ${relationNodes} stars / ${relationLines} lines`);
   }
   const relationTarget = page.locator("#atlas-svg .relation-star").nth(1);
+  const relationTargetId = await relationTarget.getAttribute("data-node-id");
   await relationTarget.focus();
   if (!(await relationTarget.evaluate((node) => node.isConnected && node === document.activeElement))) {
     failures.push("relation-map focus was detached while selecting a keyboard target");
   }
   await relationTarget.press("Enter");
-  if (!(await relationTarget.evaluate((node) => node.isConnected && node === document.activeElement))) {
+  await page.waitForFunction((nodeId) => document.activeElement?.getAttribute("data-node-id") === nodeId, relationTargetId);
+  if (!(await page.evaluate((nodeId) => document.activeElement?.isConnected === true && document.activeElement?.getAttribute("data-node-id") === nodeId, relationTargetId))) {
     failures.push("relation-map focus was detached during keyboard activation");
   }
   await page.keyboard.press("Escape");
@@ -169,7 +172,8 @@ if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.cont
 }
 await mobile.locator('[data-view="catalogue"]').click();
 await mobile.locator(".mobile-detail-close").click();
-await mobile.locator(".concept-card").first().click();
+const catalogueCard = mobile.locator(".concept-card").first();
+await catalogueCard.click();
 await mobile.locator(".mobile-detail-close").click();
 if (!(await mobile.locator(".concept-card").first().evaluate((node) => node === document.activeElement))) {
   failures.push("catalogue detail close focused a stale hidden map control");

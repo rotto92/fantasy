@@ -20,6 +20,10 @@ interface ConstellationExample {
   distinction: string;
   evidenceLevel: string;
   url: string;
+  work?: string;
+  reviewStatus?: string;
+  canonStatus?: string;
+  caution?: string;
 }
 
 interface ConceptNode {
@@ -399,15 +403,27 @@ function compactLabel(value: string, maximum = 34): string {
   return value.length <= maximum ? value : `${value.slice(0, maximum - 1).trimEnd()}…`;
 }
 
-function foldSearch(value: string): string {
+function foldSearchToken(value: string): string {
   const lowered = value
     .normalize("NFKD")
     .replace(/\p{Diacritic}/gu, "")
-    .toLowerCase();
+    .toLocaleLowerCase();
   return [...lowered]
     .map((character) => foldingMap[character] ?? character)
     .join("")
     .replace(/[^\p{Letter}\p{Number}]+/gu, "");
+}
+
+function foldSearchTokens(value: string): string[] {
+  const normalized = value
+    .normalize("NFKD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLocaleLowerCase();
+  return normalized.split(/[^\p{Letter}\p{Number}]+/gu).map(foldSearchToken).filter(Boolean);
+}
+
+function foldSearch(value: string): string {
+  return foldSearchToken(value);
 }
 
 function motionDuration(duration: number): number {
@@ -434,11 +450,15 @@ function discoveryRecordById(id: string | null): DiscoveryRecord | undefined {
   return id ? discovery.records.find((record) => record.id === id) : undefined;
 }
 
-function matchedDiscoveryFields(record: DiscoveryRecord, foldedQuery: string): string[] {
+function matchedDiscoveryFields(record: DiscoveryRecord, query: string): string[] {
+  const foldedQuery = foldSearch(query);
   if (!foldedQuery) return [];
+  const queryTokens = foldSearchTokens(query);
   return [...new Set(
     record.searchFields
-      .filter((field) => field.foldedValue === foldedQuery || field.foldedTokens.some((token) => token === foldedQuery || token.startsWith(foldedQuery)))
+      .filter((field) => field.foldedValue === foldedQuery
+        || field.foldedTokens.some((token) => token === foldedQuery || token.startsWith(foldedQuery))
+        || (queryTokens.length > 1 && field.foldedTokens.some((_token, index) => field.foldedTokens.slice(index, index + queryTokens.length).join("") === foldedQuery)))
       .map((field) => field.label),
   )];
 }
@@ -463,7 +483,7 @@ function discoveryMatches(query: string): Array<{ record: DiscoveryRecord; field
   const foldedQuery = foldSearch(query);
   if (!foldedQuery) return [];
   return discovery.records
-    .map((record) => ({ record, fields: matchedDiscoveryFields(record, foldedQuery) }))
+    .map((record) => ({ record, fields: matchedDiscoveryFields(record, query) }))
     .filter(({ fields }) => fields.length > 0)
     .sort((left, right) => {
       const leftScore = discoveryMatchScore(left.record, foldedQuery, left.fields);
@@ -769,7 +789,18 @@ function accessibleNodeLabel(node: ConceptNode): string {
 }
 
 function activateNode(positioned: PositionedNode, refreshRelationView = true): void {
+  const focusAfterActivation = document.activeElement === document.querySelector(`[data-node-id="${positioned.node.id}"]`)
+    || document.activeElement?.classList.contains("concept-star") === true;
+  const relationFocusAfterActivation = focusAfterActivation && viewMode === "relations";
   selectNode(positioned.node.id, false, "click", null, refreshRelationView);
+  if (focusAfterActivation && viewMode === "constellations") focusDetailHeading();
+  if (relationFocusAfterActivation) {
+    requestAnimationFrame(() => {
+      const nextMark = [...document.querySelectorAll<SVGGElement>("#atlas-svg .relation-star")]
+        .find((mark) => mark.dataset.nodeId === positioned.node.id && mark.isConnected);
+      nextMark?.focus();
+    });
+  }
   if (positioned.node.tier === 2 && viewMode === "constellations") zoomToNode(positioned.node.id);
 }
 
@@ -777,7 +808,7 @@ function handleNodeKeydown(event: KeyboardEvent, positioned: PositionedNode): vo
   if (event.key !== "Enter" && event.key !== " ") return;
   event.preventDefault();
   event.stopPropagation();
-  activateNode(positioned, viewMode !== "relations");
+  activateNode(positioned);
 }
 
 function hideTooltip(): void {
@@ -982,6 +1013,7 @@ function renderConstellations(): void {
     .attr("class", (positioned) =>
       `concept-star ${positioned.node.tier === 2 ? "family-star" : "specific-star"} ${positioned.node.nodeKind}`,
     )
+    .attr("data-node-id", (positioned) => positioned.node.id)
     .attr("transform", (positioned) => `translate(${positioned.x},${positioned.y})`);
   const glyphs = marks.append("g").attr("class", "star-glyph");
   glyphs
@@ -1360,7 +1392,8 @@ function hideDetail(): void {
     const catalogueControl = [...board.querySelectorAll<HTMLElement>("[data-node-id]")]
       .find((control) => control.dataset.nodeId === selectedNodeId);
     const selectedMark = viewMode === "constellations" || viewMode === "relations"
-      ? document.querySelector<HTMLElement>("#atlas-svg .is-selected")
+      ? [...svgElement.querySelectorAll<HTMLElement>(".is-selected")]
+        .find((mark) => mark.dataset.nodeId === selectedNodeId && mark.isConnected && svgElement.style.display !== "none")
       : null;
     restoringDetailFocus = true;
     (catalogueControl ?? selectedMark ?? searchInput).focus();
@@ -1408,7 +1441,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   if (actions.childElementCount) detailContent.append(actions);
 
   const why = detailSection("Why this matched");
-  const matched = matchedDiscoveryFields(record, foldSearch(lastSearchQuery));
+  const matched = matchedDiscoveryFields(record, lastSearchQuery);
   why.append(element("p", "detail-copy", matched.length
     ? `“${lastSearchQuery}” matched ${matched.join(", ")}. The result is an evidence record, not a claim that similarly spelled traditions are identical.`
     : "This result is part of the deterministic discovery projection for the accepted corpus."));
@@ -1477,6 +1510,10 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     card.append(element("strong", "", character.canonical_name));
     card.append(element("span", "", `${character.source_title} · ${character.continuity}`));
     if (character.work_or_witness) card.append(element("small", "", `Work / witness: ${character.work_or_witness}`));
+    const dimensionTerms = Object.entries(character.dimensions)
+      .flatMap(([dimension, values]) => values.map((value) => `${dimensionLabels[dimension] ?? titleCase(dimension)}: ${value.term}`))
+      .filter(Boolean);
+    if (dimensionTerms.length) card.append(element("small", "", `Dimensions: ${dimensionTerms.join(" · ")}`));
     if (character.evidence_level) card.append(element("small", "", `Evidence: ${character.evidence_level}`));
     if (citation?.locator) card.append(element("small", "", `Citation: ${citation.locator}`));
     if (character.review_status) card.append(element("small", "", `Review status: ${character.review_status}`));
@@ -1625,7 +1662,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
 
   if (discoveryContext) {
     const match = detailSection("Why this matched");
-    const matched = matchedDiscoveryFields(discoveryContext, foldSearch(lastSearchQuery));
+    const matched = matchedDiscoveryFields(discoveryContext, lastSearchQuery);
     match.append(element("p", "detail-copy", matched.length
       ? `“${lastSearchQuery}” matched ${matched.join(", ")} in the normalized concept index. The source evidence below remains attached to this concept without merging traditions.`
       : "This normalized concept was selected from the deterministic discovery projection."));
@@ -1714,9 +1751,15 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
       const character = characterById.get(example.id);
       const term = sourceTermById.get(example.id);
       const citation = character?.citations[0] ?? term?.citations[0];
-      const work = character?.work_or_witness;
+      const work = example.work || character?.work_or_witness || (term ? discoveryRecordById(`source-term:${term.term_id}`)?.work : "") || discoveryRecordById(`source:${example.sourceId}`)?.work;
+      const reviewStatus = example.reviewStatus || character?.review_status || term?.review_status;
+      const canonStatus = example.canonStatus || character?.canon_status;
+      const caution = example.caution || term?.cultural_caution || character?.comparison_cautions.join(" ");
       card.append(element("span", "", [example.sourceTitle, example.continuity, work, titleCase(example.kind)].filter(Boolean).join(" · ")));
       if (example.evidenceLevel || citation?.locator) card.append(element("small", "", [example.evidenceLevel, citation?.locator].filter(Boolean).join(" · ")));
+      if (reviewStatus) card.append(element("small", "", `Review status: ${reviewStatus}`));
+      if (canonStatus) card.append(element("small", "", `Canon status: ${canonStatus}`));
+      if (caution) card.append(element("small", "", `Caution: ${caution}`));
       if (example.summary) card.append(element("small", "", compactLabel(example.summary, 240)));
       examples.append(card);
     }

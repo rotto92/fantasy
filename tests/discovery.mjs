@@ -65,6 +65,10 @@ if (mappedConcept) {
     failures.push(`mapped concept path did not open a concept detail: ${mappedText}`);
   }
   if (!mappedText.includes("source evidence and examples")) failures.push("mapped concept path omitted source evidence");
+  const mappedExample = mappedConcept.examples?.[0];
+  for (const value of [mappedExample?.work, mappedExample?.reviewStatus, mappedExample?.canonStatus, mappedExample?.caution]) {
+    if (value && !mappedText.includes(value.toLocaleLowerCase())) failures.push(`mapped concept evidence omitted provenance: ${value}`);
+  }
 }
 
 await page.locator("#search").fill("asura");
@@ -74,6 +78,11 @@ if (!asuraText.includes("Ankka") || !asuraText.includes("Guild Wars")) {
 }
 if (!(await page.locator("#search-results .search-result small").allTextContents()).some((text) => text.includes("Matched"))) {
   failures.push("search results do not explain why the query matched");
+}
+
+await page.locator("#search").fill("Guild Wars 2");
+if (!(await page.locator("#search-results .search-result").filter({ hasText: "Ankka" }).count())) {
+  failures.push("multi-word continuity search omitted the Ankka evidence record");
 }
 
 await page.locator("#search").fill("ashura");
@@ -130,6 +139,9 @@ if (!evidenceDetail.includes("ankka") || !evidenceDetail.includes("source and co
 }
 if (!evidenceDetail.includes("review status:") || !evidenceDetail.includes("canon status:") || !evidenceDetail.includes("caution:")) {
   failures.push(`aggregate evidence omitted status or caution context: ${evidenceDetail}`);
+}
+if (!evidenceDetail.includes("dimensions:") || !evidenceDetail.includes("being / species / entity: asura") || !evidenceDetail.includes("role / class / vocation: antagonist")) {
+  failures.push(`character evidence omitted indexed dimensions: ${evidenceDetail}`);
 }
 
 await page.locator("#search").fill("Ank-ka");

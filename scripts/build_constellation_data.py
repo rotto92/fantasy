@@ -48,10 +48,33 @@ def first_url(citations: list[dict[str, Any]]) -> str:
     return str(citations[0].get("url", "")) if citations else ""
 
 
+def source_work_labels(audit: dict[str, Any]) -> list[str]:
+    labels: list[str] = []
+    for witness in audit.get("work_or_witnesses", []):
+        if isinstance(witness, str):
+            label = witness.strip()
+        elif isinstance(witness, dict):
+            label = " · ".join(
+                str(witness.get(key, "")).strip()
+                for key in ("work", "edition")
+                if str(witness.get(key, "")).strip()
+            )
+        else:
+            label = ""
+        if label and label not in labels:
+            labels.append(label)
+    return labels
+
+
+def source_work_label(audit: dict[str, Any]) -> str:
+    return "; ".join(source_work_labels(audit))
+
+
 def main() -> None:
     atlas = load(ATLAS_PATH)
     research = load(CHARACTER_PATH)
     atlas_nodes = {node["id"]: node for node in atlas["nodes"]}
+    audits = {str(audit["source_id"]): audit for audit in research["sources"]}
 
     selected = {
         node_id: node
@@ -87,6 +110,10 @@ def main() -> None:
             "distinction": record.get("Key_Distinction", ""),
             "evidenceLevel": record.get("Evidence_Level", ""),
             "url": record.get("Reference_URL", ""),
+            "work": source_work_label(audits.get(str(record.get("Source_ID", "")), {})),
+            "reviewStatus": record.get("Review_Status", ""),
+            "canonStatus": record.get("Canon_Status", ""),
+            "caution": record.get("Comparative_Notes", "") or record.get("Key_Distinction", ""),
         }
         for archetype_id in mapped_ids:
             examples[archetype_id].append(example)
@@ -110,6 +137,10 @@ def main() -> None:
             "distinction": "Character evidence only; this character is not a graph node.",
             "evidenceLevel": character["evidence_level"],
             "url": first_url(character.get("citations", [])),
+            "work": character["work_or_witness"],
+            "reviewStatus": character["review_status"],
+            "canonStatus": character["canon_status"],
+            "caution": " ".join(character.get("comparison_cautions", [])),
         }
         for archetype_id in mapped_ids:
             examples[archetype_id].append(example)
@@ -131,6 +162,9 @@ def main() -> None:
             "distinction": term["cultural_caution"],
             "evidenceLevel": term["review_status"],
             "url": first_url(term.get("citations", [])),
+            "work": source_work_label(audits.get(str(term["source_id"]), {})),
+            "reviewStatus": term["review_status"],
+            "caution": term["cultural_caution"],
         }
         for archetype_id in mapped_ids:
             examples[archetype_id].append(example)
