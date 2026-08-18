@@ -112,8 +112,62 @@ expected_research_fingerprint = reproducible.source_fingerprint([
 ])
 validation_report = json.loads((research_root / "validation_report.json").read_text(encoding="utf-8"))
 characters = json.loads((ROOT / "public" / "data" / "characters.json").read_text(encoding="utf-8"))
+constellations = json.loads((ROOT / "public" / "data" / "constellations.json").read_text(encoding="utf-8"))
 assert validation_report["source_fingerprint"] == expected_research_fingerprint
 assert characters["meta"]["sourceFingerprint"] == expected_research_fingerprint
+
+for node in constellations["nodes"]:
+    memberships = node.get("evidenceMemberships")
+    assert isinstance(memberships, list), node["id"]
+    assert len(memberships) == node["evidenceCount"], node["id"]
+    membership_sources = {membership["sourceId"] for membership in memberships}
+    assert sorted(membership_sources) == node["sourceIds"], node["id"]
+    assert len(membership_sources) == node["sourceCount"], node["id"]
+
+ppl_101 = next(node for node in constellations["nodes"] if node["id"] == "PPL-101")
+assert len(ppl_101["examples"]) < len(ppl_101["evidenceMemberships"])
+assert sum(
+    membership["sourceId"] == "SRC-001"
+    for membership in ppl_101["evidenceMemberships"]
+) == 13
+
+assert constellations["meta"]["counts"]["sourceExamples"] == sum(
+    len(node["evidenceMemberships"])
+    for node in constellations["nodes"]
+)
+assert constellations["meta"]["counts"]["representativeExamples"] == sum(
+    len(node["examples"])
+    for node in constellations["nodes"]
+)
+ppl_100 = next(node for node in constellations["nodes"] if node["id"] == "PPL-100")
+assert ppl_100["evidenceCount"] == 52
+
+node_memberships = {
+    node["id"]: {
+        (membership["kind"], membership["id"], membership["sourceId"])
+        for membership in node["evidenceMemberships"]
+    }
+    for node in constellations["nodes"]
+}
+for edge in (edge for edge in constellations["edges"] if edge["kind"] == "affinity"):
+    assert len(edge["evidence"]) == edge["weight"], edge["id"]
+    assert all(evidence.get("sourceId") for evidence in edge["evidence"]), edge["id"]
+    edge_memberships = {
+        (evidence["kind"], evidence["id"], evidence["sourceId"])
+        for evidence in edge["evidence"]
+    }
+    assert edge_memberships <= node_memberships[edge["source"]], edge["id"]
+    assert edge_memberships <= node_memberships[edge["target"]], edge["id"]
+
+ppl_100_rol_700 = next(
+    edge
+    for edge in constellations["edges"]
+    if edge["kind"] == "affinity" and {edge["source"], edge["target"]} == {"PPL-100", "ROL-700"}
+)
+assert sum(
+    evidence["sourceId"] == "SRC-015"
+    for evidence in ppl_100_rol_700["evidence"]
+) == 3
 
 with tempfile.TemporaryDirectory(dir=ROOT / "tests") as directory:
     fixture_root = Path(directory)

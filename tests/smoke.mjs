@@ -118,12 +118,12 @@ if (!aggregateFamily || !aggregateLeaves.some((node) => node.evidenceCount === 0
 
   const aggregateSourceId = "SRC-001";
   const aggregateSource = research.corpusSources.find((source) => source.sourceId === aggregateSourceId);
-  const expectedSourceExamples = new Map(
+  const expectedSourceEvidence = new Map(
     aggregateLeaves
       .filter((node) => node.sourceIds.includes(aggregateSourceId))
-      .flatMap((node) => node.examples)
-      .filter((example) => example.sourceId === aggregateSourceId)
-      .map((example) => [example.id, example]),
+      .flatMap((node) => node.evidenceMemberships ?? [])
+      .filter((membership) => membership.sourceId === aggregateSourceId)
+      .map((membership) => [`${membership.kind}:${membership.id}:${membership.sourceId}`, membership]),
   );
   await page.locator("#source-filter").selectOption(aggregateSourceId);
   await page.locator('.view-button[data-view="catalogue"]').click();
@@ -133,15 +133,102 @@ if (!aggregateFamily || !aggregateLeaves.some((node) => node.evidenceCount === 0
     sources: await page.locator(".concept-stat-grid > div:nth-child(2) strong").textContent(),
     examples: await page.locator("article.citation-card").allTextContents(),
   };
-  if (sourceDetail.evidence !== `1 sources · ${expectedSourceExamples.size} examples`
+  if (sourceDetail.evidence !== `1 sources · ${expectedSourceEvidence.size} examples`
     || sourceDetail.sources !== "1"
-    || sourceDetail.examples.length !== Math.min(10, expectedSourceExamples.size)
+    || sourceDetail.examples.length !== Math.min(10, expectedSourceEvidence.size)
     || sourceDetail.examples.some((example) => !example.includes(aggregateSource?.title ?? ""))) {
     failures.push(`source-filtered family detail included unrelated evidence: ${JSON.stringify(sourceDetail)}`);
+  }
+  const ppl101 = aggregateLeaves.find((node) => node.id === "PPL-101");
+  await page.locator('.concept-card[data-node-id="PPL-101"]').click();
+  const ppl101SourceCount = await page.locator(".concept-detail-header .evidence-row span:last-child").textContent();
+  const expectedPpl101SourceCount = (ppl101?.evidenceMemberships ?? [])
+    .filter((membership) => membership.sourceId === aggregateSourceId).length;
+  if (ppl101SourceCount !== `1 sources · ${expectedPpl101SourceCount} examples`
+    || expectedPpl101SourceCount !== 13) {
+    failures.push(`source-filtered PPL-101 count is not authoritative: ${ppl101SourceCount} / ${expectedPpl101SourceCount}`);
+  }
+  await page.locator("#reset-view").click();
+  await page.locator('.view-button[data-view="constellations"]').click();
+
+  await page.locator("#evidence-filter").selectOption("evidenced");
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  await page.locator(`.catalogue-family-heading[data-node-id="${aggregateFamily.id}"]`).click();
+  const evidencedFamilyCount = await page.locator(".concept-detail-header .evidence-row span:last-child").textContent();
+  if (evidencedFamilyCount !== "6 sources · 52 examples") {
+    failures.push(`evidence-filtered family count is not authoritative: ${evidencedFamilyCount}`);
   }
   await page.locator("#reset-view").click();
   await page.locator('.view-button[data-view="constellations"]').click();
 }
+
+const relationFamily = concepts.nodes.find((node) => node.id === "PPL-100");
+const relationTarget = concepts.nodes.find((node) => node.id === "ROL-700");
+if (!relationFamily || !relationTarget) {
+  failures.push("compiled concepts have no filtered-affinity regression fixture");
+} else {
+  await page.locator("#evidence-filter").selectOption("framework");
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  await page.locator(`.catalogue-family-heading[data-node-id="${relationFamily.id}"]`).click();
+  if (await page.locator(".relation-button").filter({ hasText: relationTarget.label }).count()) {
+    failures.push("framework-only detail retained a corpus-wide affinity");
+  }
+  await page.locator(".detail-actions button").filter({ hasText: "Show relations" }).click();
+  if (await page.locator(`#atlas-svg .relation-star[data-node-id="${relationTarget.id}"]`).count()) {
+    failures.push("framework-only Relations retained a corpus-wide affinity");
+  }
+  await page.locator("#reset-view").click();
+  await page.locator('.view-button[data-view="constellations"]').click();
+
+  await page.locator("#source-filter").selectOption("SRC-015");
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  await page.locator(`.catalogue-family-heading[data-node-id="${relationFamily.id}"]`).click();
+  const scopedRelation = page.locator(".relation-button").filter({ hasText: relationTarget.label });
+  if ((await scopedRelation.locator("small").textContent()) !== "3 shared evidence records") {
+    failures.push(`source-filtered detail retained a global affinity weight: ${await scopedRelation.textContent()}`);
+  }
+  await page.locator(".detail-actions button").filter({ hasText: "Show relations" }).click();
+  const scopedRelationLine = page.locator(`.local-relation-line[aria-label*="${relationTarget.label}"]`);
+  if ((await scopedRelationLine.count()) !== 1
+    || await scopedRelationLine.getAttribute("stroke-width") !== "3"
+    || !(await scopedRelationLine.getAttribute("aria-label"))?.includes("3 shared evidence records")) {
+    failures.push("source-filtered relation line did not expose the scoped weight");
+  }
+  await page.locator("#reset-view").click();
+  await page.locator('.view-button[data-view="constellations"]').click();
+}
+
+await page.locator("#search").fill("Achilles");
+await page.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click();
+await page.waitForTimeout(800);
+await page.locator("#source-filter").selectOption("SRC-003");
+const downgradedSelection = {
+  heading: await page.locator(".concept-detail-header h2").textContent().catch(() => ""),
+  detail: await page.locator("#detail-content").innerText(),
+  selectedNode: await page.locator("#atlas-svg .is-selected").getAttribute("data-node-id").catch(() => null),
+  focusVisible: await page.locator("#focus-banner").isVisible(),
+};
+if (downgradedSelection.heading !== "Human and Near-Human Peoples"
+  || downgradedSelection.detail.includes("Achilles")
+  || downgradedSelection.detail.includes("Ancient Greek Mythology")
+  || downgradedSelection.selectedNode !== "PPL-101"
+  || !downgradedSelection.focusVisible) {
+  failures.push(`out-of-scope discovery context was not downgraded atomically: ${JSON.stringify(downgradedSelection)}`);
+}
+await page.locator("#reset-view").click();
+
+await page.locator("#evidence-filter").selectOption("framework");
+await page.locator('.view-button[data-view="research"]').click();
+const researchScope = {
+  labels: await page.locator("#scope-summary span").allTextContents(),
+  counts: await page.locator("#scope-summary strong").allTextContents(),
+};
+if (JSON.stringify(researchScope.labels) !== JSON.stringify(["source passes", "character records", "source terms", "focused reviews"])
+  || researchScope.counts[0] !== String(research.corpusSources.length)) {
+  failures.push(`Research retained a stale concept scope summary: ${JSON.stringify(researchScope)}`);
+}
+await page.locator("#reset-view").click();
+await page.locator('.view-button[data-view="constellations"]').click();
 
 const excludedSelection = concepts.nodes.find((node) => node.tier === 3 && node.evidenceCount > 0);
 if (!excludedSelection) {

@@ -26,6 +26,12 @@ interface ConstellationExample {
   caution?: string;
 }
 
+interface EvidenceMembership {
+  id: string;
+  kind: string;
+  sourceId: string;
+}
+
 interface ConceptNode {
   id: string;
   label: string;
@@ -46,6 +52,7 @@ interface ConceptNode {
   evidenceCount: number;
   sourceCount: number;
   sourceIds: string[];
+  evidenceMemberships: EvidenceMembership[];
   examples: ConstellationExample[];
 }
 
@@ -56,7 +63,7 @@ interface ConceptEdge {
   kind: "taxonomy" | "affinity";
   label: string;
   weight: number;
-  evidence?: Array<{ id: string; kind: string }>;
+  evidence?: EvidenceMembership[];
 }
 
 interface DomainRecord {
@@ -84,6 +91,7 @@ interface ConstellationPayload {
       taxonomyEdges: number;
       affinityEdges: number;
       sourceExamples: number;
+      representativeExamples: number;
       corpusSources: number;
     };
   };
@@ -296,6 +304,14 @@ interface SelectionContext {
   related: Set<string>;
 }
 
+interface SelectionState {
+  nodeId: string | null;
+  discoveryId: string | null;
+  discoveryContextId: string | null;
+  query: string | null;
+  origin: SelectionOrigin;
+}
+
 const byId = <T extends Element>(id: string): T => {
   const value = document.getElementById(id);
   if (!value) throw new Error(`Missing element #${id}`);
@@ -377,11 +393,13 @@ let concepts: ConstellationPayload;
 let research: ResearchPayload;
 let discovery: DiscoveryPayload | undefined;
 let viewMode: ViewMode = "constellations";
-let selectedNodeId: string | null = null;
-let selectedDiscoveryId: string | null = null;
-let selectedDiscoveryContextId: string | null = null;
-let selectedDiscoveryQuery: string | null = null;
-let selectionOrigin: SelectionOrigin = null;
+let selection: SelectionState = {
+  nodeId: null,
+  discoveryId: null,
+  discoveryContextId: null,
+  query: null,
+  origin: null,
+};
 let selectedDomain = "" as "" | DomainId;
 let selectedFamily = "";
 let selectedSource = "";
@@ -408,6 +426,60 @@ const positionById = new Map<string, PositionedNode>();
 const familyColor = new Map<string, string>();
 const taxonomyEdges: ConceptEdge[] = [];
 const affinityEdges: ConceptEdge[] = [];
+let visibleAffinityEdges: ConceptEdge[] = [];
+
+function clearSelection(): void {
+  selection = {
+    nodeId: null,
+    discoveryId: null,
+    discoveryContextId: null,
+    query: null,
+    origin: null,
+  };
+}
+
+function setNodeSelection(
+  nodeId: string | null,
+  origin: SelectionOrigin,
+  discoveryContextId: string | null = null,
+): void {
+  if (!nodeId) {
+    clearSelection();
+    return;
+  }
+  selection = {
+    nodeId,
+    discoveryId: null,
+    discoveryContextId,
+    query: null,
+    origin,
+  };
+}
+
+function setDiscoverySelection(record: DiscoveryRecord, query: string): void {
+  const nodeId = record.conceptId ?? record.relatedConceptIds[0] ?? null;
+  selection = {
+    nodeId,
+    discoveryId: record.id,
+    discoveryContextId: null,
+    query,
+    origin: nodeId ? "search" : null,
+  };
+}
+
+function downgradeSelectionToConcept(): void {
+  selection = {
+    nodeId: selection.nodeId,
+    discoveryId: null,
+    discoveryContextId: null,
+    query: null,
+    origin: selection.nodeId ? "click" : null,
+  };
+}
+
+function detachSelectionQuery(): void {
+  selection = { ...selection, query: null };
+}
 
 const element = <K extends keyof HTMLElementTagNameMap>(
   tag: K,
@@ -710,20 +782,27 @@ function passesLeafFilters(node: ConceptNode): boolean {
 
 function sourceScopedLeaf(node: ConceptNode): ConceptNode {
   if (!selectedSource) return node;
+  const evidenceMemberships = node.evidenceMemberships.filter((membership) => membership.sourceId === selectedSource);
   const examples = node.examples.filter((example) => example.sourceId === selectedSource);
+  const sourceIds = [...new Set(evidenceMemberships.map((membership) => membership.sourceId))];
   return {
     ...node,
-    evidenceCount: examples.length,
-    sourceCount: 1,
-    sourceIds: [selectedSource],
+    evidenceCount: evidenceMemberships.length,
+    sourceCount: sourceIds.length,
+    sourceIds,
+    evidenceMemberships,
     examples,
   };
 }
 
 function filteredFamily(family: ConceptNode, leaves: ConceptNode[]): ConceptNode {
   if (!selectedSource && !selectedEvidence) return family;
+  const evidenceMemberships = new Map<string, EvidenceMembership>();
   const eligibleExamples = new Map<string, ConstellationExample>();
   for (const leaf of leaves) {
+    for (const membership of leaf.evidenceMemberships) {
+      evidenceMemberships.set(`${membership.kind}:${membership.id}:${membership.sourceId}`, membership);
+    }
     for (const example of leaf.examples) {
       if (!eligibleExamples.has(example.id)) eligibleExamples.set(example.id, example);
     }
@@ -738,17 +817,23 @@ function filteredFamily(family: ConceptNode, leaves: ConceptNode[]): ConceptNode
   for (const [exampleId, example] of eligibleExamples) {
     if (!includedExamples.has(exampleId)) examples.push(example);
   }
-  const sourceIds = [...new Set(leaves.flatMap((node) => node.sourceIds))];
+  const memberships = [...evidenceMemberships.values()];
+  const sourceIds = [...new Set(memberships.map((membership) => membership.sourceId))].sort();
   const childIds = leaves.map((node) => node.id);
   return {
     ...family,
     childIds,
     descendantCount: childIds.length,
-    evidenceCount: examples.length,
+    evidenceCount: memberships.length,
     sourceCount: sourceIds.length,
     sourceIds,
+    evidenceMemberships: memberships,
     examples,
   };
+}
+
+function evidenceMembershipKey(membership: EvidenceMembership): string {
+  return `${membership.kind}:${membership.id}:${membership.sourceId}`;
 }
 
 function rebuildVisibleConcepts(): void {
@@ -765,6 +850,22 @@ function rebuildVisibleConcepts(): void {
   visibleNodes = [...families, ...leaves];
   visibleNodeById.clear();
   for (const node of visibleNodes) visibleNodeById.set(node.id, node);
+}
+
+function rebuildVisibleAffinities(): void {
+  visibleAffinityEdges = affinityEdges.flatMap((edge) => {
+    const source = visibleNodeById.get(edge.source);
+    const target = visibleNodeById.get(edge.target);
+    if (!source || !target || selectedEvidence === "framework") return [];
+    const sourceMemberships = new Set(source.evidenceMemberships.map(evidenceMembershipKey));
+    const targetMemberships = new Set(target.evidenceMemberships.map(evidenceMembershipKey));
+    const evidence = (edge.evidence ?? []).filter((membership) => {
+      const key = evidenceMembershipKey(membership);
+      return sourceMemberships.has(key) && targetMemberships.has(key);
+    });
+    if (!evidence.length) return [];
+    return [{ ...edge, weight: evidence.length, evidence }];
+  });
 }
 
 function visibleConcepts(): ConceptNode[] {
@@ -802,24 +903,27 @@ function updateLegend(): void {
   }
 }
 
+function updateScopeFacts(facts: Array<[number, string]>): void {
+  scopeSummary.replaceChildren();
+  for (const [count, label] of facts) {
+    const fact = element("div", "scope-fact");
+    fact.append(element("strong", "", count.toLocaleString()), element("span", "", label));
+    scopeSummary.append(fact);
+  }
+}
+
 function updateScope(nodes = visibleConcepts()): void {
   const leafCount = nodes.filter((node) => node.tier === 3).length;
   const familyCount = nodes.filter((node) => node.tier === 2).length;
   const evidencedCount = nodes.filter((node) => node.evidenceCount > 0).length;
   const sourceCount = new Set(nodes.flatMap((node) => node.sourceIds)).size;
   visibleCount.textContent = `${nodes.length.toLocaleString()} concept stars`;
-  scopeSummary.replaceChildren();
-  const facts: Array<[number, string]> = [
+  updateScopeFacts([
     [familyCount, "constellations"],
     [leafCount, "specific archetypes"],
     [evidencedCount, "evidenced stars"],
     [sourceCount, "mapped sources"],
-  ];
-  for (const [count, label] of facts) {
-    const fact = element("div", "scope-fact");
-    fact.append(element("strong", "", count.toLocaleString()), element("span", "", label));
-    scopeSummary.append(fact);
-  }
+  ]);
   statusSummary.textContent = `${concepts.meta.counts.nodes.toLocaleString()} class/race/entity stars · ${concepts.meta.counts.families} constellations · ${concepts.meta.counts.corpusSources} researched sources beneath the map`;
 }
 
@@ -1081,7 +1185,7 @@ function selectionContext(node: ConceptNode): SelectionContext {
       .map((candidate) => candidate.id),
   );
   const affinityMembers = new Set<string>();
-  for (const edge of affinityEdges) {
+  for (const edge of visibleAffinityEdges) {
     if (edge.source === node.id && visibleNodeById.has(edge.target)) affinityMembers.add(edge.target);
     if (edge.target === node.id && visibleNodeById.has(edge.source)) affinityMembers.add(edge.source);
   }
@@ -1101,12 +1205,12 @@ function focusLabelIds(node: ConceptNode, context: SelectionContext, includePeer
 }
 
 function updateConstellationSelection(): void {
-  const selected = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
+  const selected = selection.nodeId ? visibleNodeById.get(selection.nodeId) : undefined;
   const context = selected ? selectionContext(selected) : undefined;
   const svg = d3.select(svgElement);
   svg
     .selectAll<SVGGElement, PositionedNode>(".concept-star")
-    .classed("is-selected", (positioned) => positioned.node.id === selectedNodeId)
+    .classed("is-selected", (positioned) => positioned.node.id === selection.nodeId)
     .classed("is-family-member", (positioned) => Boolean(context?.familyMembers.has(positioned.node.id)))
     .classed("is-affinity-related", (positioned) => Boolean(context?.affinityMembers.has(positioned.node.id)))
     .classed("is-related", (positioned) => Boolean(context?.related.has(positioned.node.id)))
@@ -1117,7 +1221,7 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
   const svg = d3.select(svgElement);
   const filtersActive = Boolean(selectedSource || selectedEvidence || selectedFamily);
   const compactViewport = stage.clientWidth < 620;
-  const selected = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
+  const selected = selection.nodeId ? visibleNodeById.get(selection.nodeId) : undefined;
   const context = selected ? selectionContext(selected) : undefined;
   const focusedLabels = selected && context ? focusLabelIds(selected, context, transform.k >= 2.8) : new Set<string>();
   const familyPosition = context ? positionById.get(context.familyId) : undefined;
@@ -1210,7 +1314,7 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
       : (transform.k > 1.5 ? 0.25 : 0.14));
   const visibleMarks = renderedNodeMarks();
   if (!visibleMarks.some((mark) => mark.getAttribute("tabindex") === "0")) {
-    const fallback = visibleMarks.find((mark) => mark.dataset.nodeId === selectedNodeId) ?? visibleMarks[0];
+    const fallback = visibleMarks.find((mark) => mark.dataset.nodeId === selection.nodeId) ?? visibleMarks[0];
     if (fallback?.dataset.nodeId) setRovingNode(fallback.dataset.nodeId);
   }
 }
@@ -1246,7 +1350,7 @@ function renderConstellations(): void {
   }
 
   const positions = [...positionById.values()];
-  const initialRoving = positions.find((positioned) => positioned.node.id === selectedNodeId)
+  const initialRoving = positions.find((positioned) => positioned.node.id === selection.nodeId)
     ?? positions.find((positioned) => positioned.node.id === rovingNodeId && positioned.node.tier === 2)
     ?? positions.find((positioned) => positioned.node.tier === 2)
     ?? positions[0];
@@ -1406,7 +1510,7 @@ function relationNeighbors(node: ConceptNode): LocalRelation[] {
       .slice(0, 8);
     for (const sibling of siblings) add(sibling, "sibling", null);
   }
-  const affinities = affinityEdges
+  const affinities = visibleAffinityEdges
     .filter((edge) => edge.source === node.id || edge.target === node.id)
     .sort((left, right) => d3.descending(left.weight, right.weight))
     .slice(0, 10);
@@ -1422,7 +1526,7 @@ function renderRelations(): void {
   installDefinitions(svg);
   const [width, height] = stageSize();
   const layer = svg.append("g").attr("class", "relation-map");
-  const selected = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
+  const selected = selection.nodeId ? visibleNodeById.get(selection.nodeId) : undefined;
   if (!selected) {
     const prompt = layer.append("g").attr("class", "relation-prompt").attr("transform", `translate(${width / 2},${height / 2})`);
     prompt.append("text").attr("class", "prompt-star").attr("text-anchor", "middle").attr("y", -30).text("✦");
@@ -1463,6 +1567,8 @@ function renderRelations(): void {
     .attr("y1", center.y)
     .attr("x2", (neighbor) => positionMap.get(neighbor.node.id)?.x ?? center.x)
     .attr("y2", (neighbor) => positionMap.get(neighbor.node.id)?.y ?? center.y)
+    .attr("role", "img")
+    .attr("aria-label", (neighbor) => `${selected.label} to ${neighbor.node.label}: ${relationLabel(selected, neighbor.node)}`)
     .attr("stroke-width", (neighbor) => (neighbor.relation === "affinity" ? 1 + Math.min(4, Math.log2((neighbor.edge?.weight ?? 1) + 1)) : 1.2));
   const marks = layer
     .append("g")
@@ -1518,7 +1624,7 @@ function renderRelations(): void {
 
 function updateRelationSelection(): void {
   document.querySelectorAll<SVGGElement>("#atlas-svg .relation-star").forEach((mark) => {
-    mark.classList.toggle("is-selected", mark.dataset.nodeId === selectedNodeId);
+    mark.classList.toggle("is-selected", mark.dataset.nodeId === selection.nodeId);
   });
 }
 
@@ -1606,8 +1712,8 @@ function renderResearch(): void {
   header.append(headerRow);
   table.append(header);
   const body = element("tbody");
-  const selectedRecord = selectedDiscoveryQuery === researchQuery
-    ? discoveryRecordById(selectedDiscoveryId)
+  const selectedRecord = selection.query === researchQuery
+    ? discoveryRecordById(selection.discoveryId)
     : undefined;
   const matchedSourceIds = selectedRecord?.sourceId
     ? new Set([selectedRecord.sourceId])
@@ -1616,6 +1722,16 @@ function renderResearch(): void {
     .filter((source) => !selectedSource || source.sourceId === selectedSource)
     .filter((source) => !matchedSourceIds || matchedSourceIds.has(source.sourceId))
     .sort((left, right) => d3.ascending(left.title, right.title));
+  const sourceIds = new Set(sources.map((source) => source.sourceId));
+  updateScopeFacts([
+    [sources.length, "source passes"],
+    [research.characters.filter((character) => sourceIds.has(character.source_id)).length, "character records"],
+    [research.sourceTerms.filter((term) => sourceIds.has(term.source_id)).length, "source terms"],
+    [sources.filter((source) => {
+      const status = auditBySource.get(source.sourceId)?.review_lanes?.secondReview?.status;
+      return Boolean(status && status !== "not-started");
+    }).length, "focused reviews"],
+  ]);
   for (const source of sources) {
     const audit = auditBySource.get(source.sourceId);
     const row = element("tr", "is-researched");
@@ -1675,11 +1791,7 @@ function appendCitationLinks(container: HTMLElement, citations: Citation[], labe
 function closeDetail(): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   const focusBelongsToRelationMap = viewMode === "relations" && svgElement.contains(document.activeElement);
-  selectedNodeId = null;
-  selectedDiscoveryId = null;
-  selectedDiscoveryContextId = null;
-  selectedDiscoveryQuery = null;
-  selectionOrigin = null;
+  clearSelection();
   detailPanel?.classList.remove("is-open");
   renderDetail();
   renderFocusBanner();
@@ -1706,7 +1818,7 @@ function hideDetail(): void {
         ? [...svgElement.querySelectorAll<SVGElement>(".is-selected")]
         : [];
     const returnTarget = candidates.find((candidate) =>
-      candidate.dataset.nodeId === selectedNodeId
+      candidate.dataset.nodeId === selection.nodeId
       && candidate.isConnected
       && candidate.getClientRects().length > 0
       && getComputedStyle(candidate).visibility !== "hidden"
@@ -1738,11 +1850,13 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   detailContent.append(header);
 
   const actions = element("div", "detail-actions");
-  if (selectedNodeId && nodeById.has(selectedNodeId)) {
+  if (selection.nodeId && nodeById.has(selection.nodeId)) {
+    const nodeId = selection.nodeId;
+    const discoveryId = selection.discoveryId;
     const concept = element("button", "primary-button", "Open related concept") as HTMLButtonElement;
     concept.type = "button";
     concept.addEventListener("click", () => {
-      selectNode(selectedNodeId, true, "search", selectedDiscoveryId);
+      selectNode(nodeId, true, "search", discoveryId);
     });
     actions.append(concept);
     const relations = element("button", "secondary-button", "Show relations") as HTMLButtonElement;
@@ -1798,7 +1912,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     button.type = "button";
     button.append(element("span", "relation-star", "✦"), element("strong", "", node.label), element("small", "", `${node.domainLabel} · ${node.sourceCount} sources`));
     button.addEventListener("click", () => {
-      selectNode(node.id, true, "search", selectedDiscoveryId);
+      selectNode(node.id, true, "search", selection.discoveryId);
     });
     relatedList.append(button);
   }
@@ -1930,7 +2044,7 @@ function relationLabel(selected: ConceptNode, other: ConceptNode): string {
     (edge) => (edge.source === selected.id && edge.target === other.id) || (edge.target === selected.id && edge.source === other.id),
   );
   if (taxonomy) return taxonomy.source === selected.id ? "Subtype" : "Parent family";
-  const affinity = affinityEdges.find(
+  const affinity = visibleAffinityEdges.find(
     (edge) => (edge.source === selected.id && edge.target === other.id) || (edge.target === selected.id && edge.source === other.id),
   );
   if (affinity) return `${affinity.weight} shared evidence record${affinity.weight === 1 ? "" : "s"}`;
@@ -2098,17 +2212,17 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
 }
 
 function renderDetail(): void {
-  const discoveryRecord = discoveryRecordById(selectedDiscoveryId);
-  const discoveryContext = discoveryRecordById(selectedDiscoveryContextId)
+  const discoveryRecord = discoveryRecordById(selection.discoveryId);
+  const discoveryContext = discoveryRecordById(selection.discoveryContextId)
     ?? (discoveryRecord?.kind === "concept" ? discoveryRecord : undefined);
-  const node = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
+  const node = selection.nodeId ? visibleNodeById.get(selection.nodeId) : undefined;
   if (discoveryRecord?.kind !== "concept" && discoveryRecord) renderDiscoveryDetail(discoveryRecord);
   else if (node) renderConceptDetail(node, discoveryContext);
   else renderOverviewDetail();
 }
 
 function renderFocusBanner(): void {
-  const node = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
+  const node = selection.nodeId ? visibleNodeById.get(selection.nodeId) : undefined;
   if (!node || viewMode !== "constellations") {
     focusBanner.hidden = true;
     return;
@@ -2116,7 +2230,7 @@ function renderFocusBanner(): void {
   const context = selectionContext(node);
   const family = visibleNodeById.get(context.familyId);
   const peerCount = Math.max(0, context.familyMembers.size - (node.tier === 2 ? 1 : 2));
-  focusKicker.textContent = selectionOrigin === "search" ? "Search focus" : node.tier === 2 ? "Constellation family" : "Focused concept";
+  focusKicker.textContent = selection.origin === "search" ? "Search focus" : node.tier === 2 ? "Constellation family" : "Focused concept";
   focusTitle.textContent = node.label;
   focusContext.textContent = node.tier === 2
     ? `${node.childIds.length} subtypes · ${context.affinityMembers.size} cross-family affinities`
@@ -2133,11 +2247,7 @@ function selectNode(
   refreshRelationView = true,
 ): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
-  selectedDiscoveryId = null;
-  selectedDiscoveryContextId = discoveryContextId;
-  selectedDiscoveryQuery = null;
-  selectedNodeId = nodeId;
-  selectionOrigin = nodeId ? origin : null;
+  setNodeSelection(nodeId, origin, discoveryContextId);
   renderDetail();
   renderFocusBanner();
   if (viewMode === "constellations") {
@@ -2151,20 +2261,28 @@ function selectNode(
   if (focusBelongsToDetail) focusDetailHeading();
 }
 
+function selectionProvenanceInScope(): boolean {
+  const record = discoveryRecordById(selection.discoveryContextId) ?? discoveryRecordById(selection.discoveryId);
+  if (!record) return true;
+  if (selectedEvidence === "framework" && record.kind !== "concept") return false;
+  return !selectedSource || !record.sourceId || record.sourceId === selectedSource;
+}
+
 function reconcileFilteredSelection(): void {
-  if (!selectedNodeId || visibleNodeById.has(selectedNodeId)) return;
-  selectedNodeId = null;
-  selectedDiscoveryId = null;
-  selectedDiscoveryContextId = null;
-  selectedDiscoveryQuery = null;
-  selectionOrigin = null;
-  detailPanel?.classList.remove("is-open");
+  if (selection.nodeId && !visibleNodeById.has(selection.nodeId)) {
+    clearSelection();
+    detailPanel?.classList.remove("is-open");
+  } else if (!selectionProvenanceInScope()) {
+    if (selection.nodeId) downgradeSelectionToConcept();
+    else clearSelection();
+  }
   if (rovingNodeId && !visibleNodeById.has(rovingNodeId)) rovingNodeId = null;
 }
 
 function render(): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   rebuildVisibleConcepts();
+  rebuildVisibleAffinities();
   reconcileFilteredSelection();
   const [kicker, description] = viewCopy[viewMode];
   viewKicker.textContent = kicker;
@@ -2256,12 +2374,8 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
     button.addEventListener("click", () => {
       searchInput.value = query;
       searchResults.hidden = true;
-      selectedDiscoveryId = record.id;
-      selectedDiscoveryContextId = null;
-      selectedDiscoveryQuery = query;
-      selectedNodeId = record.conceptId ?? record.relatedConceptIds[0] ?? null;
-      selectionOrigin = selectedNodeId ? "search" : null;
-      viewMode = record.kind === "source" && !selectedNodeId ? "research" : "constellations";
+      setDiscoverySelection(record, query);
+      viewMode = record.kind === "source" && !selection.nodeId ? "research" : "constellations";
       researchQuery = viewMode === "research" ? query : "";
       selectedDomain = "";
       selectedFamily = "";
@@ -2275,7 +2389,7 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
       render();
       requestAnimationFrame(() => {
         detailContent.querySelector<HTMLElement>("h2")?.focus();
-        if (selectedNodeId && viewMode === "constellations") zoomToSelection(selectedNodeId);
+        if (selection.nodeId && viewMode === "constellations") zoomToSelection(selection.nodeId);
       });
     });
     searchResults.append(button);
@@ -2315,7 +2429,7 @@ function bindEvents(): void {
   });
   document.querySelectorAll<HTMLButtonElement>(".view-button").forEach((button) => {
     button.addEventListener("click", () => {
-      const query = selectedDiscoveryQuery ?? searchInput.value.trim();
+      const query = selection.query ?? searchInput.value.trim();
       searchInput.value = query;
       viewMode = button.dataset.view as ViewMode;
       researchQuery = viewMode === "research" ? query : "";
@@ -2361,7 +2475,7 @@ function bindEvents(): void {
   });
   searchInput.addEventListener("input", () => {
     const query = searchInput.value.trim();
-    selectedDiscoveryQuery = null;
+    detachSelectionQuery();
     if (viewMode === "research") {
       researchQuery = query;
       renderResearch();
@@ -2377,7 +2491,7 @@ function bindEvents(): void {
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       searchInput.value = "";
-      selectedDiscoveryQuery = null;
+      detachSelectionQuery();
       researchQuery = "";
       if (viewMode === "research") renderResearch();
       showSearchResults("");
@@ -2402,11 +2516,7 @@ function bindEvents(): void {
     }
   });
   byId<HTMLButtonElement>("reset-view").addEventListener("click", () => {
-    selectedNodeId = null;
-    selectedDiscoveryId = null;
-    selectedDiscoveryContextId = null;
-    selectedDiscoveryQuery = null;
-    selectionOrigin = null;
+    clearSelection();
     selectedDomain = "";
     selectedFamily = "";
     selectedSource = "";
@@ -2432,8 +2542,8 @@ function bindEvents(): void {
   });
   byId<HTMLButtonElement>("fit-view").addEventListener("click", fitView);
   byId<HTMLButtonElement>("focus-relations").addEventListener("click", () => {
-    if (!selectedNodeId) return;
-    const nodeId = selectedNodeId;
+    if (!selection.nodeId) return;
+    const nodeId = selection.nodeId;
     viewMode = "relations";
     render();
     requestAnimationFrame(() => {
@@ -2450,11 +2560,7 @@ function bindEvents(): void {
   document.querySelector<HTMLAnchorElement>(".brand")?.addEventListener("click", (event) => {
     event.preventDefault();
     viewMode = "constellations";
-    selectedNodeId = null;
-    selectedDiscoveryId = null;
-    selectedDiscoveryContextId = null;
-    selectedDiscoveryQuery = null;
-    selectionOrigin = null;
+    clearSelection();
     setMobileControlsOpen(false);
     render();
   });

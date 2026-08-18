@@ -102,7 +102,7 @@ def main() -> None:
     }
 
     examples: dict[str, list[dict[str, Any]]] = defaultdict(list)
-    evidence_groups: list[tuple[str, str, set[str]]] = []
+    evidence_groups: list[tuple[str, str, str, set[str]]] = []
 
     for character in research["characters"]:
         mapped_ids: set[str] = set()
@@ -129,7 +129,7 @@ def main() -> None:
         }
         for archetype_id in mapped_ids:
             examples[archetype_id].append(example)
-        evidence_groups.append((character["character_id"], "character evidence", mapped_ids))
+        evidence_groups.append((character["character_id"], example["kind"], character["source_id"], mapped_ids))
 
     for term in research["sourceTerms"]:
         mapped_ids = {archetype_id for archetype_id in term.get("archetype_ids", []) if archetype_id in selected}
@@ -154,7 +154,7 @@ def main() -> None:
         }
         for archetype_id in mapped_ids:
             examples[archetype_id].append(example)
-        evidence_groups.append((term["term_id"], "source term", mapped_ids))
+        evidence_groups.append((term["term_id"], example["kind"], term["source_id"], mapped_ids))
 
     children: dict[str, list[str]] = defaultdict(list)
     parent_by_id: dict[str, str] = {}
@@ -177,7 +177,7 @@ def main() -> None:
 
     affinity_counts: Counter[tuple[str, str]] = Counter()
     affinity_evidence: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
-    for evidence_id, evidence_kind, mapped_ids in evidence_groups:
+    for evidence_id, evidence_kind, source_id, mapped_ids in evidence_groups:
         people = sorted(archetype_id for archetype_id in mapped_ids if archetype_id.startswith("PPL-"))
         roles = sorted(archetype_id for archetype_id in mapped_ids if archetype_id.startswith("ROL-"))
         people_families = {
@@ -194,8 +194,7 @@ def main() -> None:
         }
         for pair in sorted(pairs):
             affinity_counts[pair] += 1
-            if len(affinity_evidence[pair]) < 8:
-                affinity_evidence[pair].append({"id": evidence_id, "kind": evidence_kind})
+            affinity_evidence[pair].append({"id": evidence_id, "kind": evidence_kind, "sourceId": source_id})
     affinity_edges = [
         {
             "id": f"affinity:{source}:{target}",
@@ -236,6 +235,14 @@ def main() -> None:
         record = node.get("record", {})
         domain = INCLUDED_DOMAINS[node["domain"]]
         node_examples = examples_with_descendants(node_id)
+        evidence_memberships = [
+            {
+                "id": str(example.get("id", "")),
+                "kind": str(example.get("kind", "")),
+                "sourceId": str(example.get("sourceId", "")),
+            }
+            for example in node_examples
+        ]
         source_ids = sorted({str(example.get("sourceId", "")) for example in node_examples if example.get("sourceId")})
         parent_id = parent_by_id.get(node_id, "")
         family_id = node_id if int(node.get("tier") or 0) == 2 else parent_id
@@ -260,6 +267,7 @@ def main() -> None:
                 "evidenceCount": len(node_examples),
                 "sourceCount": len(source_ids),
                 "sourceIds": source_ids,
+                "evidenceMemberships": evidence_memberships,
                 "examples": stratified_examples(node_examples, 48),
             }
         )
@@ -290,7 +298,8 @@ def main() -> None:
                 "specificArchetypes": sum(1 for node in output_nodes if node["tier"] == 3),
                 "taxonomyEdges": len(taxonomy_edges),
                 "affinityEdges": len(affinity_edges),
-                "sourceExamples": sum(len(node["examples"]) for node in output_nodes),
+                "sourceExamples": sum(len(node["evidenceMemberships"]) for node in output_nodes),
+                "representativeExamples": sum(len(node["examples"]) for node in output_nodes),
                 "corpusSources": len(research["corpusSources"]),
             },
         },
