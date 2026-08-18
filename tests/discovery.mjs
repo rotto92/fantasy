@@ -663,7 +663,27 @@ if (await nearbyConcept.count()) {
   if ((await page.locator(".detail-panel").innerText()).toLocaleLowerCase().includes("why this matched")) {
     failures.push("unrelated nearby concept inherited the original discovery context");
   }
+  if (await page.locator("#search").inputValue()) {
+    failures.push("unrelated nearby concept retained a scoped discovery query");
+  }
 }
+
+await page.locator("#search").fill("Vali");
+await page.locator('.search-result[data-discovery-id="character:CHR-SRC015-026"]').click();
+await page.locator(".primary-button").filter({ hasText: "Open related concept" }).click();
+await page.locator(".detail-section").filter({ hasText: "Nearby stars" }).locator(".relation-button").filter({ hasText: "Leadership and Social Office Roles" }).click();
+const subsequentValiNavigation = {
+  query: await page.locator("#search").inputValue(),
+  detail: (await page.locator(".detail-panel").innerText()).toLocaleLowerCase(),
+};
+await page.locator('.view-button[data-view="research"]').click();
+const subsequentValiRows = await page.locator(".research-table tbody tr").count();
+if (subsequentValiNavigation.query
+  || subsequentValiNavigation.detail.includes("why this matched")
+  || subsequentValiRows !== research.sources.length) {
+  failures.push(`subsequent Vāli navigation left a scoped query while broadening: ${JSON.stringify({ ...subsequentValiNavigation, rows: subsequentValiRows })}`);
+}
+await page.locator('.view-button[data-view="constellations"]').click();
 
 await page.locator("#search").fill("asura");
 await page.locator(".search-result").filter({ hasText: "Guild Wars" }).first().click();

@@ -891,7 +891,10 @@ if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.cont
   failures.push("closing the mobile detail drawer discarded the search focus");
 }
 await mobile.locator('[data-view="catalogue"]').click();
-await mobile.locator(".mobile-detail-close").click();
+if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))) {
+  failures.push("Catalogue reopened an explicitly dismissed mobile detail drawer");
+  await mobile.locator(".mobile-detail-close").click();
+}
 const catalogueCard = mobile.locator(".concept-card").first();
 const catalogueLabel = (await catalogueCard.locator("strong").innerText()).trim();
 await catalogueCard.click();
@@ -900,7 +903,10 @@ if (!(await mobile.locator(".concept-card").first().evaluate((node) => node === 
   failures.push("catalogue detail close focused a stale hidden map control");
 }
 await mobile.locator('[data-view="constellations"]').click();
-await mobile.locator(".mobile-detail-close").click();
+if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))) {
+  failures.push("Constellations reopened an explicitly dismissed mobile detail drawer");
+  await mobile.locator(".mobile-detail-close").click();
+}
 await mobile.locator("#search").fill(catalogueLabel);
 await mobile.locator(".search-result").filter({ hasText: catalogueLabel }).first().click();
 await mobile.locator(".mobile-detail-close").click();
@@ -1011,6 +1017,24 @@ for (const viewport of [
     if (!familyBox || familyBox.height < 44 || !(await responsive.locator("#catalogue-controls").isVisible())) {
       failures.push(`${viewport.label} controls drawer did not expose the catalogue family filter`);
     }
+    await responsive.locator("#reset-view").click();
+
+    await responsive.locator("#search").fill("Human and Near-Human Peoples");
+    await responsive.locator('.search-result[data-discovery-id="concept:PPL-101"]').click();
+    await responsive.locator(".mobile-detail-close").click();
+    for (const destination of ["catalogue", "relations", "research", "constellations"]) {
+      await responsive.locator(`.view-button[data-view="${destination}"]`).click();
+      if (await responsive.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))) {
+        failures.push(`${viewport.label} ${destination} reopened an explicitly dismissed detail drawer`);
+        await responsive.locator(".mobile-detail-close").click();
+      }
+    }
+    await responsive.locator('.search-result[data-discovery-id="concept:PPL-101"]').click();
+    if (!(await responsive.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
+      failures.push(`${viewport.label} direct concept selection did not reopen dismissed detail`);
+    }
+    await responsive.locator(".mobile-detail-close").click();
+    await controlsToggle.click();
     await responsive.locator("#reset-view").click();
 
     await responsive.locator("#search").fill("Vali");

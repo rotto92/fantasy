@@ -2322,6 +2322,35 @@ function renderFocusBanner(): void {
   focusBanner.hidden = false;
 }
 
+function clearNavigationQuery(): void {
+  transitionQuery("", {
+    reconcileSelection: false,
+    renderCurrentView: false,
+  });
+}
+
+function navigationScopeForNode(
+  nodeId: string,
+  requestedContextId: string | null,
+): { contextId: string | null; query: string | null } {
+  const visibleQuery = searchInput.value.trim();
+  const contextId = requestedContextId ?? selection.discoveryContextId ?? selection.discoveryId;
+  const context = discoveryRecordById(contextId);
+  const scopedQuery = selection.query;
+  if (context && scopedQuery && foldSearch(scopedQuery) === foldSearch(visibleQuery)) {
+    if (discoveryRecordInActiveProjection(context, nodeId)) {
+      return { contextId: context.id, query: scopedQuery };
+    }
+    clearNavigationQuery();
+    return { contextId: null, query: null };
+  }
+  if (visibleQuery && !discoveryMatches(visibleQuery).some(({ record }) =>
+    discoveryRecordInActiveProjection(record, nodeId))) {
+    clearNavigationQuery();
+  }
+  return { contextId: null, query: null };
+}
+
 function selectNode(
   nodeId: string | null,
   zoom: boolean,
@@ -2330,8 +2359,11 @@ function selectNode(
   refreshRelationView = true,
 ): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
-  const scopedQuery = discoveryContextId ? selection.query : null;
-  setNodeSelection(nodeId, origin, discoveryContextId, scopedQuery);
+  if (!nodeId && selection.query && searchInput.value.trim()) clearNavigationQuery();
+  const scope = nodeId
+    ? navigationScopeForNode(nodeId, discoveryContextId)
+    : { contextId: null, query: null };
+  setNodeSelection(nodeId, origin, scope.contextId, scope.query);
   renderDetail();
   renderFocusBanner();
   if (viewMode === "constellations") {
@@ -2553,7 +2585,6 @@ function transitionQuery(
 }
 
 function transitionToView(nextView: ViewMode, query = selection.query ?? searchInput.value.trim()): void {
-  const controlsWereOpen = drawerState.controlsOpen;
   if (nextView !== viewMode) setConceptScopeFilter();
   viewMode = nextView;
   if (viewMode === "research") setEvidenceFilter();
@@ -2566,9 +2597,6 @@ function transitionToView(nextView: ViewMode, query = selection.query ?? searchI
     updateResults: false,
   });
   setMobileControlsOpen(false);
-  if (!controlsWereOpen && (selection.nodeId || selection.discoveryId || selection.discoveryContextId)) {
-    setDetailOpen(true);
-  }
   render();
 }
 
