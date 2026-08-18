@@ -285,16 +285,17 @@ const downgradedSelection = {
   detail: await page.locator("#detail-content").innerText(),
   selectedNode: await page.locator("#atlas-svg .is-selected").getAttribute("data-node-id").catch(() => null),
   focusVisible: await page.locator("#focus-banner").isVisible(),
+  query: await page.locator("#search").inputValue(),
 };
 if (downgradedSelection.heading !== "Human and Near-Human Peoples"
   || downgradedSelection.detail.includes("Achilles")
   || downgradedSelection.detail.includes("Ancient Greek Mythology")
   || downgradedSelection.selectedNode !== "PPL-101"
-  || !downgradedSelection.focusVisible) {
+  || !downgradedSelection.focusVisible
+  || downgradedSelection.query) {
   failures.push(`out-of-scope discovery context was not downgraded atomically: ${JSON.stringify(downgradedSelection)}`);
 }
-await page.locator("#search").press("End");
-await page.locator("#search").type(" ");
+await page.locator("#search").fill("Achilles");
 const filteredQuerySelection = {
   detailHeaders: await page.locator(".concept-detail-header, .discovery-detail-header").count(),
   selectedMarks: await page.locator("#atlas-svg .is-selected").count(),
@@ -974,6 +975,19 @@ for (const viewport of [
     if (!toggleBox || toggleBox.width < 44 || toggleBox.height < 44 || await controlsToggle.getAttribute("aria-expanded") !== "false") {
       failures.push(`${viewport.label} controls toggle is not a collapsed touch target`);
     }
+    await responsive.locator("#search").fill("Human and Near-Human Peoples");
+    await responsive.locator("#search").press("Enter");
+    await responsive.locator(".detail-panel h2").waitFor();
+    const enterSelectionState = {
+      detailOpen: await responsive.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")),
+      resultsHidden: await responsive.locator("#search-results").isHidden(),
+      detailFocused: await responsive.evaluate(() => document.querySelector(".detail-panel")?.contains(document.activeElement) ?? false),
+    };
+    if (!enterSelectionState.detailOpen || !enterSelectionState.resultsHidden || !enterSelectionState.detailFocused) {
+      failures.push(`${viewport.label} Enter did not commit a usable search result detail: ${JSON.stringify(enterSelectionState)}`);
+    }
+    await controlsToggle.click();
+    await responsive.locator("#reset-view").click();
     await responsive.locator("#search").fill("Human and Near-Human Peoples");
     await responsive.locator('.search-result[data-discovery-id="concept:PPL-101"]').click();
     if (!(await responsive.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {

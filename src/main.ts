@@ -442,7 +442,21 @@ const taxonomyEdges: ConceptEdge[] = [];
 const affinityEdges: ConceptEdge[] = [];
 let visibleAffinityEdges: ConceptEdge[] = [];
 
+function clearVisibleQuery(): void {
+  searchInput.value = "";
+  researchQuery = "";
+  showSearchResults("");
+}
+
+function discardSelectionQuery(): void {
+  if (selection.query
+    && foldSearch(selection.query) === foldSearch(searchInput.value.trim())) {
+    clearVisibleQuery();
+  }
+}
+
 function clearSelection(): void {
+  discardSelectionQuery();
   selection = {
     nodeId: null,
     discoveryId: null,
@@ -486,6 +500,7 @@ function setDiscoverySelection(record: DiscoveryRecord, query: string): void {
 }
 
 function downgradeSelectionToConcept(): void {
+  discardSelectionQuery();
   selection = {
     nodeId: selection.nodeId,
     discoveryId: null,
@@ -2322,13 +2337,6 @@ function renderFocusBanner(): void {
   focusBanner.hidden = false;
 }
 
-function clearNavigationQuery(): void {
-  transitionQuery("", {
-    reconcileSelection: false,
-    renderCurrentView: false,
-  });
-}
-
 function navigationScopeForNode(
   nodeId: string,
   requestedContextId: string | null,
@@ -2341,12 +2349,12 @@ function navigationScopeForNode(
     if (discoveryRecordInActiveProjection(context, nodeId)) {
       return { contextId: context.id, query: scopedQuery };
     }
-    clearNavigationQuery();
+    clearVisibleQuery();
     return { contextId: null, query: null };
   }
   if (visibleQuery && !discoveryMatches(visibleQuery).some(({ record }) =>
     discoveryRecordInActiveProjection(record, nodeId))) {
-    clearNavigationQuery();
+    clearVisibleQuery();
   }
   return { contextId: null, query: null };
 }
@@ -2359,7 +2367,7 @@ function selectNode(
   refreshRelationView = true,
 ): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
-  if (!nodeId && selection.query && searchInput.value.trim()) clearNavigationQuery();
+  if (!nodeId && selection.query && searchInput.value.trim()) clearVisibleQuery();
   const scope = nodeId
     ? navigationScopeForNode(nodeId, discoveryContextId)
     : { contextId: null, query: null };
@@ -2572,12 +2580,18 @@ function transitionQuery(
     updateResults = true,
   }: QueryTransitionOptions = {},
 ): void {
-  const query = value.trim();
+  const requestedQuery = value.trim();
   searchInput.value = value;
-  const selectionChanged = reconcileSelection && reconcileSelectionWithQuery(query);
+  const selectionChanged = reconcileSelection && reconcileSelectionWithQuery(requestedQuery);
+  const query = searchInput.value.trim();
   researchQuery = viewMode === "research" ? query : "";
   if (renderCurrentView && (selectionChanged || viewMode === "research")) render();
-  if (document.activeElement === searchInput && window.matchMedia("(max-width: 1040px)").matches) {
+  const committedSelection = Boolean(selection.query
+    && foldSearch(selection.query) === foldSearch(query)
+    && (selection.discoveryId || selection.discoveryContextId));
+  if (!committedSelection
+    && document.activeElement === searchInput
+    && window.matchMedia("(max-width: 1040px)").matches) {
     setMobileControlsOpen(false);
     setDetailOpen(false);
   }
@@ -2609,7 +2623,7 @@ function bindEvents(): void {
     button.addEventListener("click", () => {
       const query = selection.query ?? searchInput.value.trim();
       transitionToView(button.dataset.view as ViewMode, query);
-      showSearchResults(query);
+      showSearchResults(searchInput.value.trim());
     });
   });
   domainFilter.addEventListener("change", () => {
@@ -2647,6 +2661,7 @@ function bindEvents(): void {
       transitionQuery("");
     }
     if (event.key === "Enter") {
+      event.preventDefault();
       const first = searchResults.querySelector<HTMLButtonElement>(".search-result");
       first?.click();
     }

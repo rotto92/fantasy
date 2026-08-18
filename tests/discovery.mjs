@@ -544,6 +544,32 @@ if (desktopDivergedQuery.detailHeaders !== 0
 await page.locator("#reset-view").click();
 await page.locator('.view-button[data-view="constellations"]').click();
 
+await page.locator("#search").fill("Vali");
+await page.locator('.search-result[data-discovery-id="character:CHR-SRC015-026"]').click();
+await page.locator(".primary-button").filter({ hasText: "Open related concept" }).click();
+await page.locator("#domain-filter").selectOption("beings");
+const filteredValiQuery = await page.locator("#search").inputValue();
+await page.locator('.view-button[data-view="research"]').click();
+const filteredValiRows = await page.locator(".research-table tbody tr").count();
+if (filteredValiQuery || filteredValiRows !== research.sources.length) {
+  failures.push(`discarded Vāli filter scope broadened globally: ${JSON.stringify({ query: filteredValiQuery, rows: filteredValiRows })}`);
+}
+await page.locator("#reset-view").click();
+await page.locator('.view-button[data-view="constellations"]').click();
+
+await page.locator("#search").fill("Vali");
+await page.locator('.search-result[data-discovery-id="character:CHR-SRC015-026"]').click();
+await page.waitForFunction(() => document.activeElement?.matches(".detail-panel h2"));
+await page.keyboard.press("Escape");
+const escapedValiQuery = await page.locator("#search").inputValue();
+await page.locator('.view-button[data-view="research"]').click();
+const escapedValiRows = await page.locator(".research-table tbody tr").count();
+if (escapedValiQuery || escapedValiRows !== research.sources.length) {
+  failures.push(`desktop Escape discarded Vāli scope without clearing its query: ${JSON.stringify({ query: escapedValiQuery, rows: escapedValiRows })}`);
+}
+await page.locator("#reset-view").click();
+await page.locator('.view-button[data-view="constellations"]').click();
+
 await page.locator("#search").fill("asura");
 const asuraText = await page.locator("#search-results").innerText();
 if (!asuraText.includes("Ankka") || !asuraText.includes("Guild Wars")) {
