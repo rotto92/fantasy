@@ -7,7 +7,7 @@ This file is the project's committed home for project-intrinsic agent knowledge:
 - Build, generation, and focused test entry points live in `package.json`; `npm run generate` owns the tracked workbooks, public data, and validation report, while `npm run check:generated` is the synchronization gate.
 - Research acceptance is owned by `scripts/validate_character_research.py` and `research/dimensions.json`; discovery completeness is owned by `scripts/build_discovery_index.py` and its emitted coverage metadata.
 - Publication safety has two scopes: `npm run audit:release-import` scans tracked inputs and `npm run audit:pages` scans the exact `dist/` upload tree.
-- Browser architecture and interaction live in `src/main.ts`; normalized being/class concepts are graph nodes and Compose choices, while characters, sources, and source-native terms remain evidence records.
+- Browser architecture and interaction live in `src/main.ts`; normalized being/class concepts are graph nodes, evidence-backed leaf concepts are Compose choices, and characters, sources, and source-native terms remain evidence records.
 - Pages build, browser readiness, artifact audit, upload, and least-privilege deployment are authoritative in `.github/workflows/pages.yml`; the public base-path contract is `tests/static-base.mjs`.
 - Release scope, local setup, and public behavior are documented in `README.md`.
 

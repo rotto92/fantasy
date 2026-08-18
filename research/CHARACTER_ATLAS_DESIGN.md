@@ -67,8 +67,8 @@ The composer combines one normalized being/people concept with one normalized
 class/vocation concept and an optional user-supplied name.
 
 - The resulting character concept is explicitly user-created, never canonical.
-- Each selection shows representative, cited source inspirations where mapped.
-- Framework-only choices remain available and retain their mapping-pending label.
+- Choices are limited to normalized concepts with representative, cited source
+  inspirations.
 - Source and evidence filters narrow the available composition choices without
   turning source-native terms or characters into selectable graph concepts.
 - Opening evidence uses the same concept detail shared by the other views.

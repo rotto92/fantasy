@@ -15,9 +15,9 @@ and punctuation-tolerant input. Results explain which indexed field matched and
 show the source/series, continuity, work or witness, character examples,
 normalized concept links, and citations where available.
 
-The Compose view combines one normalized being concept with one class or
-vocation, keeps cited source inspirations alongside each choice, and labels the
-result as a user-created concept rather than canonical source evidence.
+The Compose view offers only normalized being and class/vocation concepts with
+cited source inspirations. It combines one of each and labels the result as a
+user-created concept rather than canonical source evidence.
 
 The promoted public payload is a bounded release, not a claim to cover all
 fantasy, every edition, every adaptation, or every regional tradition. Its
@@ -30,6 +30,11 @@ authoritative counts and review/quarantine state are emitted in
 the Sanskrit Mahābhārata source-term witness remain separate results. The
 `ashura` search alias is explicitly limited to that Sanskrit witness; unrelated
 source-native uses are not merged.
+
+The [World of Warcraft source audit](research/batch_022/world_of_warcraft/sources.json)
+owns its bounded official playable-race scope. Source-native terms such as
+`Blood Elf` and `Night Elf` are searchable with that accepted-source provenance
+rather than being treated as generic normalized elf concepts.
 
 ## Local setup
 
