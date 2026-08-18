@@ -532,6 +532,7 @@ def main() -> None:
         }
 
     for record in records:
+        record["characterCount"] = len(record["characterIds"])
         record["foldedLabel"] = fold(record["label"])
     records.sort(key=lambda record: (record["kind"], record["foldedLabel"], record["id"]))
     output = {

@@ -76,6 +76,7 @@ const mortalFamily = concepts.nodes.find((node) => node.label === "Mortal and Na
 const egyptianTerm = research.sourceTerms.find((term) => term.term_id === "STM-SRC013-001");
 const boundaryRecord = research.researchBoundaries?.find((record) => record.term_id === "STM-SRC033-001");
 const semanticRoleTermIds = ["STM-SRC192-003", "STM-SRC218-002"];
+const source277Record = discovery.records.find((record) => record.id === "source:SRC-277");
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
@@ -745,6 +746,25 @@ await page.locator(".search-result").filter({ hasText: "Source / series · Irish
 const irishCitations = await page.locator(".detail-section").filter({ hasText: "Source evidence and status" }).locator(".evidence-citation").allTextContents();
 if (!irishAudit || irishCitations.length !== irishAudit.citations.length || irishAudit.citations.some((citation) => !irishCitations.some((text) => text.includes(citation.locator)))) {
   failures.push("source detail hid one or more claim-specific citations");
+}
+
+if (!source277Record) {
+  failures.push("missing SRC-277 source discovery record");
+} else {
+  await page.locator("#search").fill(source277Record.label);
+  await page.locator('.search-result[data-discovery-id="source:SRC-277"]').click();
+  const source277CharacterSection = page.locator(".detail-section").filter({ has: page.locator("article.citation-card") }).last();
+  const source277Presentation = {
+    header: (await page.locator(".discovery-detail-header .evidence-row").innerText()).toLocaleLowerCase(),
+    detail: (await source277CharacterSection.innerText()).toLocaleLowerCase(),
+    cards: await source277CharacterSection.locator("article.citation-card").count(),
+  };
+  if (source277Presentation.header !== "indexed evidence\n49 indexed character records · 0 accepted normalized mappings"
+    || !source277Presentation.detail.includes("character evidence sample")
+    || !source277Presentation.detail.includes("showing 8 of 49 indexed character records.")
+    || source277Presentation.cards !== 8) {
+    failures.push(`SRC-277 source detail conflated totals and samples: ${JSON.stringify(source277Presentation)}`);
+  }
 }
 
 const gucumatz = research.characters.find((character) => character.character_id === "CHR-SRC021-002");

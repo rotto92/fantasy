@@ -115,8 +115,17 @@ expected_research_fingerprint = reproducible.source_fingerprint([
 validation_report = json.loads((research_root / "validation_report.json").read_text(encoding="utf-8"))
 characters = json.loads((ROOT / "public" / "data" / "characters.json").read_text(encoding="utf-8"))
 constellations = json.loads((ROOT / "public" / "data" / "constellations.json").read_text(encoding="utf-8"))
+discovery = json.loads((ROOT / "public" / "data" / "discovery.json").read_text(encoding="utf-8"))
 assert validation_report["source_fingerprint"] == expected_research_fingerprint
 assert characters["meta"]["sourceFingerprint"] == expected_research_fingerprint
+
+research_character_ids = {character["character_id"] for character in characters["characters"]}
+for record in discovery["records"]:
+    assert record["characterCount"] == len(record["characterIds"]), record["id"]
+    assert set(record["characterIds"]) <= research_character_ids, record["id"]
+source_277 = next(record for record in discovery["records"] if record["id"] == "source:SRC-277")
+assert source_277["characterCount"] == 49
+assert len(source_277["characterExamples"]) == 6
 
 def normalized_distribution_name(value: str) -> str:
     return re.sub(r"[-_.]+", "-", value).lower()

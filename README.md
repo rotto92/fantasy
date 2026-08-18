@@ -29,8 +29,10 @@ source-native uses are not merged.
 
 ## Local setup
 
-Generation uses CPython 3.14.7, pinned in `.python-version`; its runtime and
-Unicode database identity are included in every generated-data fingerprint.
+Generation uses the repository-owned policy in `generation-runtime.json`:
+CPython 3.14.7 is pinned in `.python-version`, while the active Unicode database
+and linked zlib compile/runtime versions are included in every generated-data
+fingerprint. The same policy owns deterministic workbook compression settings.
 
 ```bash
 python3.14 -m venv .venv

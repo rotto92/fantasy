@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "pythonVersionFile": ".python-version",
+  "fingerprintedRuntimeFields": [
+    "pythonImplementation",
+    "pythonVersion",
+    "unicodeVersion",
+    "maxUnicode",
+    "zlibCompileVersion",
+    "zlibRuntimeVersion"
+  ],
+  "xlsxCompression": {
+    "method": "ZIP_DEFLATED",
+    "level": 9
+  }
+}

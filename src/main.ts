@@ -236,6 +236,7 @@ interface DiscoveryRecord {
   continuity: string;
   work: string;
   characterIds: string[];
+  characterCount: number;
   characterExamples: string[];
   relatedConceptIds: string[];
   normalizedConceptIds: string[];
@@ -375,6 +376,7 @@ const familyPalette = [
 ];
 const touchTargetRadius = 22;
 const searchResultPageSize = 12;
+const sourceCharacterSampleSize = 8;
 
 let dimensionLabels: Record<string, string> = {};
 
@@ -1911,7 +1913,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   header.append(element("p", "character-subtitle", [record.sourceTitle, record.continuity].filter(Boolean).join(" · ") || "Accepted corpus record"));
   const evidence = element("div", "evidence-row");
   evidence.append(element("span", "evidence-badge researched", "Indexed evidence"));
-  evidence.append(element("span", "", `${record.characterIds.length || record.characterExamples.length} character examples · ${record.normalizedConceptIds.length} accepted normalized mappings${record.mappingQuarantined ? " · mapping withheld pending second review" : ""}`));
+  evidence.append(element("span", "", `${record.characterCount} indexed character records · ${record.normalizedConceptIds.length} accepted normalized mappings${record.mappingQuarantined ? " · mapping withheld pending second review" : ""}`));
   header.append(evidence);
   detailContent.append(header);
 
@@ -2016,9 +2018,10 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     detailContent.append(connections);
   }
 
-  const characterSection = detailSection("Representative characters");
+  const characterSection = detailSection(record.kind === "source" ? "Character evidence sample" : "Representative characters");
   const characters = record.characterIds.map((id) => characterById.get(id)).filter((character): character is ResearchCharacter => Boolean(character));
-  for (const character of characters.slice(0, 8)) {
+  const visibleCharacters = characters.slice(0, sourceCharacterSampleSize);
+  for (const character of visibleCharacters) {
     const card = element("article", "citation-card");
     card.append(element("strong", "", character.canonical_name));
     card.append(element("span", "", `${character.source_title} · ${character.continuity}`));
@@ -2037,7 +2040,10 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   }
   if (!characters.length && record.kind !== "source") characterSection.append(element("p", "detail-copy", "This source-native record has no character example in its witness; its citation remains the evidence anchor."));
   if (record.kind === "source") {
-    characterSection.append(element("p", "detail-copy", `${record.characterExamples.length} representative character records are indexed for this source. Search a name to inspect its bounded evidence.`));
+    const sampleStatus = record.characterCount
+      ? `Showing ${visibleCharacters.length} of ${record.characterCount} indexed character records. Search a name to inspect its bounded evidence.`
+      : "No indexed character records are available for this source; its source-level evidence and audit status remain available below.";
+    characterSection.append(element("p", "detail-copy", sampleStatus));
     const audit = auditBySource.get(record.sourceId);
     const corpusSource = corpusBySource.get(record.sourceId);
     const evidenceSection = detailSection("Source evidence and status");
