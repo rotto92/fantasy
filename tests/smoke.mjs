@@ -85,6 +85,94 @@ if (taxonomyLines !== 0) failures.push(`global atlas rendered ${taxonomyLines} t
 if ((await page.locator("#atlas-svg .character-mark").count()) !== 0) failures.push("character nodes remain in the graph");
 if ((await page.locator("#atlas-svg .affinity-line:visible").count()) !== 0) failures.push("global affinity lines are visible before selection");
 
+const aggregateFamily = concepts.nodes.find((node) => node.id === "PPL-100");
+const aggregateLeaves = concepts.nodes.filter((node) => node.tier === 3 && node.familyId === aggregateFamily?.id);
+if (!aggregateFamily || !aggregateLeaves.some((node) => node.evidenceCount === 0)) {
+  failures.push("compiled concepts have no mixed-evidence family regression fixture");
+} else {
+  await page.locator("#evidence-filter").selectOption("framework");
+  const frameworkFamily = page.locator(`#atlas-svg .family-star[data-node-id="${aggregateFamily.id}"]`);
+  const frameworkScopeCounts = await page.locator("#scope-summary strong").allTextContents();
+  if (frameworkScopeCounts.slice(-2).some((count) => count !== "0")) {
+    failures.push(`framework-only families retained global evidence totals: ${JSON.stringify(frameworkScopeCounts)}`);
+  }
+  if ((await frameworkFamily.locator(".evidence-ring").count()) !== 0) {
+    failures.push("framework-only family retained a global evidence ring");
+  }
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  await page.locator(`.catalogue-family-heading[data-node-id="${aggregateFamily.id}"]`).click();
+  const frameworkDetail = {
+    badge: await page.locator(".concept-detail-header .evidence-badge").textContent(),
+    evidence: await page.locator(".concept-detail-header .evidence-row span:last-child").textContent(),
+    sources: await page.locator(".concept-stat-grid > div:nth-child(2) strong").textContent(),
+    examples: await page.locator("article.citation-card").count(),
+  };
+  if (frameworkDetail.badge !== "Framework only"
+    || frameworkDetail.evidence !== "0 sources · 0 examples"
+    || frameworkDetail.sources !== "0"
+    || frameworkDetail.examples !== 0) {
+    failures.push(`framework-only family detail retained global evidence: ${JSON.stringify(frameworkDetail)}`);
+  }
+  await page.locator("#reset-view").click();
+  await page.locator('.view-button[data-view="constellations"]').click();
+
+  const aggregateSourceId = "SRC-001";
+  const aggregateSource = research.corpusSources.find((source) => source.sourceId === aggregateSourceId);
+  const expectedSourceExamples = new Map(
+    aggregateLeaves
+      .filter((node) => node.sourceIds.includes(aggregateSourceId))
+      .flatMap((node) => node.examples)
+      .filter((example) => example.sourceId === aggregateSourceId)
+      .map((example) => [example.id, example]),
+  );
+  await page.locator("#source-filter").selectOption(aggregateSourceId);
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  await page.locator(`.catalogue-family-heading[data-node-id="${aggregateFamily.id}"]`).click();
+  const sourceDetail = {
+    evidence: await page.locator(".concept-detail-header .evidence-row span:last-child").textContent(),
+    sources: await page.locator(".concept-stat-grid > div:nth-child(2) strong").textContent(),
+    examples: await page.locator("article.citation-card").allTextContents(),
+  };
+  if (sourceDetail.evidence !== `1 sources · ${expectedSourceExamples.size} examples`
+    || sourceDetail.sources !== "1"
+    || sourceDetail.examples.length !== Math.min(10, expectedSourceExamples.size)
+    || sourceDetail.examples.some((example) => !example.includes(aggregateSource?.title ?? ""))) {
+    failures.push(`source-filtered family detail included unrelated evidence: ${JSON.stringify(sourceDetail)}`);
+  }
+  await page.locator("#reset-view").click();
+  await page.locator('.view-button[data-view="constellations"]').click();
+}
+
+const excludedSelection = concepts.nodes.find((node) => node.tier === 3 && node.evidenceCount > 0);
+if (!excludedSelection) {
+  failures.push("compiled concepts have no evidenced selection regression fixture");
+} else {
+  await page.locator("#search").fill(excludedSelection.label);
+  await page.locator(`.search-result[data-discovery-id="concept:${excludedSelection.id}"]`).click();
+  if (!(await page.locator("#focus-banner").isVisible()) || (await page.locator("#atlas-svg .is-selected").count()) !== 1) {
+    failures.push("evidenced concept selection did not establish the filter-transition fixture");
+  }
+  await page.waitForTimeout(800);
+  await page.locator("#evidence-filter").selectOption("framework");
+  const filteredSelectionState = {
+    selectedMarks: await page.locator("#atlas-svg .is-selected").count(),
+    focusVisible: await page.locator("#focus-banner").isVisible(),
+    detailOpen: await page.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")),
+  };
+  await page.locator('.view-button[data-view="relations"]').click();
+  filteredSelectionState.relationStars = await page.locator("#atlas-svg .relation-star").count();
+  filteredSelectionState.relationPrompts = await page.locator("#atlas-svg .relation-prompt").count();
+  if (filteredSelectionState.selectedMarks !== 0
+    || filteredSelectionState.focusVisible
+    || filteredSelectionState.detailOpen
+    || filteredSelectionState.relationStars !== 0
+    || filteredSelectionState.relationPrompts !== 1) {
+    failures.push(`filter transition retained an excluded selection: ${JSON.stringify(filteredSelectionState)}`);
+  }
+  await page.locator("#reset-view").click();
+  await page.locator('.view-button[data-view="constellations"]').click();
+}
+
 const mappedSourceOption = page.locator('#source-filter option[value]:not([value=""])').first();
 const mappedSourceId = await mappedSourceOption.getAttribute("value");
 if (!mappedSourceId) {

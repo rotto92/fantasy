@@ -397,6 +397,8 @@ let resizeTimer = 0;
 let rovingNodeId: string | null = null;
 
 const nodeById = new Map<string, ConceptNode>();
+let visibleNodes: ConceptNode[] = [];
+const visibleNodeById = new Map<string, ConceptNode>();
 const domainById = new Map<DomainId, DomainRecord>();
 const auditBySource = new Map<string, SourceAudit>();
 const corpusBySource = new Map<string, CorpusSource>();
@@ -706,14 +708,67 @@ function passesLeafFilters(node: ConceptNode): boolean {
   return true;
 }
 
+function sourceScopedLeaf(node: ConceptNode): ConceptNode {
+  if (!selectedSource) return node;
+  const examples = node.examples.filter((example) => example.sourceId === selectedSource);
+  return {
+    ...node,
+    evidenceCount: examples.length,
+    sourceCount: 1,
+    sourceIds: [selectedSource],
+    examples,
+  };
+}
+
+function filteredFamily(family: ConceptNode, leaves: ConceptNode[]): ConceptNode {
+  if (!selectedSource && !selectedEvidence) return family;
+  const eligibleExamples = new Map<string, ConstellationExample>();
+  for (const leaf of leaves) {
+    for (const example of leaf.examples) {
+      if (!eligibleExamples.has(example.id)) eligibleExamples.set(example.id, example);
+    }
+  }
+  const examples: ConstellationExample[] = [];
+  const includedExamples = new Set<string>();
+  for (const example of family.examples) {
+    if (!eligibleExamples.has(example.id)) continue;
+    examples.push(eligibleExamples.get(example.id) ?? example);
+    includedExamples.add(example.id);
+  }
+  for (const [exampleId, example] of eligibleExamples) {
+    if (!includedExamples.has(exampleId)) examples.push(example);
+  }
+  const sourceIds = [...new Set(leaves.flatMap((node) => node.sourceIds))];
+  const childIds = leaves.map((node) => node.id);
+  return {
+    ...family,
+    childIds,
+    descendantCount: childIds.length,
+    evidenceCount: examples.length,
+    sourceCount: sourceIds.length,
+    sourceIds,
+    examples,
+  };
+}
+
+function rebuildVisibleConcepts(): void {
+  const leaves = concepts.nodes.filter(passesLeafFilters).map(sourceScopedLeaf);
+  const leavesByFamily = new Map<string, ConceptNode[]>();
+  for (const leaf of leaves) {
+    const familyLeaves = leavesByFamily.get(leaf.familyId) ?? [];
+    familyLeaves.push(leaf);
+    leavesByFamily.set(leaf.familyId, familyLeaves);
+  }
+  const families = concepts.nodes
+    .filter((node) => node.tier === 2 && leavesByFamily.has(node.id))
+    .map((family) => filteredFamily(family, leavesByFamily.get(family.id) ?? []));
+  visibleNodes = [...families, ...leaves];
+  visibleNodeById.clear();
+  for (const node of visibleNodes) visibleNodeById.set(node.id, node);
+}
+
 function visibleConcepts(): ConceptNode[] {
-  const leaves = concepts.nodes.filter(passesLeafFilters);
-  const leafFamilies = new Set(leaves.map((node) => node.familyId));
-  const families = concepts.nodes.filter((node) => {
-    if (node.tier !== 2) return false;
-    return leafFamilies.has(node.id);
-  });
-  return [...families, ...leaves];
+  return visibleNodes;
 }
 
 function updateLegend(): void {
@@ -887,7 +942,7 @@ function computeLayout(width: number, height: number, nodes: ConceptNode[]): Arr
     domainFields.push({ domain, x, y, w, h, r: fieldR });
 
     for (const packedFamily of root.children ?? []) {
-      const family = nodeById.get(packedFamily.data.id);
+      const family = visibleNodeById.get(packedFamily.data.id);
       if (!family) continue;
       const familyX = x + packedFamily.x;
       const familyY = y + packedFamily.y;
@@ -1021,14 +1076,14 @@ function hideTooltip(): void {
 function selectionContext(node: ConceptNode): SelectionContext {
   const familyId = node.tier === 2 ? node.id : node.familyId;
   const familyMembers = new Set(
-    concepts.nodes
+    visibleNodes
       .filter((candidate) => candidate.id === familyId || candidate.familyId === familyId)
       .map((candidate) => candidate.id),
   );
   const affinityMembers = new Set<string>();
   for (const edge of affinityEdges) {
-    if (edge.source === node.id) affinityMembers.add(edge.target);
-    if (edge.target === node.id) affinityMembers.add(edge.source);
+    if (edge.source === node.id && visibleNodeById.has(edge.target)) affinityMembers.add(edge.target);
+    if (edge.target === node.id && visibleNodeById.has(edge.source)) affinityMembers.add(edge.source);
   }
   const related = new Set<string>([node.id, ...familyMembers, ...affinityMembers]);
   return { familyId, familyMembers, affinityMembers, related };
@@ -1037,7 +1092,7 @@ function selectionContext(node: ConceptNode): SelectionContext {
 function focusLabelIds(node: ConceptNode, context: SelectionContext, includePeers: boolean): Set<string> {
   const labels = new Set<string>([node.id, ...context.affinityMembers]);
   if (!includePeers) return labels;
-  const closestPeers = concepts.nodes
+  const closestPeers = visibleNodes
     .filter((candidate) => candidate.tier === 3 && candidate.familyId === context.familyId && candidate.id !== node.id)
     .sort((left, right) => d3.descending(left.evidenceCount, right.evidenceCount) || d3.ascending(left.label, right.label))
     .slice(0, 6);
@@ -1046,7 +1101,7 @@ function focusLabelIds(node: ConceptNode, context: SelectionContext, includePeer
 }
 
 function updateConstellationSelection(): void {
-  const selected = selectedNodeId ? nodeById.get(selectedNodeId) : undefined;
+  const selected = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
   const context = selected ? selectionContext(selected) : undefined;
   const svg = d3.select(svgElement);
   svg
@@ -1062,7 +1117,7 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
   const svg = d3.select(svgElement);
   const filtersActive = Boolean(selectedSource || selectedEvidence || selectedFamily);
   const compactViewport = stage.clientWidth < 620;
-  const selected = selectedNodeId ? nodeById.get(selectedNodeId) : undefined;
+  const selected = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
   const context = selected ? selectionContext(selected) : undefined;
   const focusedLabels = selected && context ? focusLabelIds(selected, context, transform.k >= 2.8) : new Set<string>();
   const familyPosition = context ? positionById.get(context.familyId) : undefined;
@@ -1341,11 +1396,11 @@ function relationNeighbors(node: ConceptNode): LocalRelation[] {
     result.set(neighbor.id, { edge, node: neighbor, relation });
   };
   for (const edge of taxonomyEdges) {
-    if (edge.target === node.id) add(nodeById.get(edge.source), "parent", edge);
-    if (edge.source === node.id) add(nodeById.get(edge.target), "child", edge);
+    if (edge.target === node.id) add(visibleNodeById.get(edge.source), "parent", edge);
+    if (edge.source === node.id) add(visibleNodeById.get(edge.target), "child", edge);
   }
   if (node.tier === 3) {
-    const siblings = concepts.nodes
+    const siblings = visibleNodes
       .filter((candidate) => candidate.parentId === node.parentId && candidate.id !== node.id)
       .sort((left, right) => d3.descending(left.evidenceCount, right.evidenceCount) || d3.ascending(left.label, right.label))
       .slice(0, 8);
@@ -1355,7 +1410,7 @@ function relationNeighbors(node: ConceptNode): LocalRelation[] {
     .filter((edge) => edge.source === node.id || edge.target === node.id)
     .sort((left, right) => d3.descending(left.weight, right.weight))
     .slice(0, 10);
-  for (const edge of affinities) add(nodeById.get(edge.source === node.id ? edge.target : edge.source), "affinity", edge);
+  for (const edge of affinities) add(visibleNodeById.get(edge.source === node.id ? edge.target : edge.source), "affinity", edge);
   const order: Record<LocalRelation["relation"], number> = { parent: 0, child: 1, affinity: 2, sibling: 3 };
   return [...result.values()]
     .sort((left, right) => order[left.relation] - order[right.relation] || d3.descending(left.node.evidenceCount, right.node.evidenceCount))
@@ -1367,7 +1422,7 @@ function renderRelations(): void {
   installDefinitions(svg);
   const [width, height] = stageSize();
   const layer = svg.append("g").attr("class", "relation-map");
-  const selected = selectedNodeId ? nodeById.get(selectedNodeId) : undefined;
+  const selected = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
   if (!selected) {
     const prompt = layer.append("g").attr("class", "relation-prompt").attr("transform", `translate(${width / 2},${height / 2})`);
     prompt.append("text").attr("class", "prompt-star").attr("text-anchor", "middle").attr("y", -30).text("✦");
@@ -1895,7 +1950,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
   const title = element("h2", "", node.label);
   title.setAttribute("tabindex", "-1");
   header.append(title);
-  const parent = node.parentId ? nodeById.get(node.parentId) : undefined;
+  const parent = node.parentId ? visibleNodeById.get(node.parentId) : undefined;
   header.append(element("p", "character-subtitle", parent ? `${node.domainLabel} › ${parent.label}` : node.domainLabel));
   const evidence = element("div", "evidence-row");
   evidence.append(element("span", `evidence-badge ${node.evidenceCount ? "researched" : "needs-review"}`, node.evidenceCount ? "Mapped evidence" : "Framework only"));
@@ -2046,20 +2101,20 @@ function renderDetail(): void {
   const discoveryRecord = discoveryRecordById(selectedDiscoveryId);
   const discoveryContext = discoveryRecordById(selectedDiscoveryContextId)
     ?? (discoveryRecord?.kind === "concept" ? discoveryRecord : undefined);
-  const node = selectedNodeId ? nodeById.get(selectedNodeId) : undefined;
+  const node = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
   if (discoveryRecord?.kind !== "concept" && discoveryRecord) renderDiscoveryDetail(discoveryRecord);
   else if (node) renderConceptDetail(node, discoveryContext);
   else renderOverviewDetail();
 }
 
 function renderFocusBanner(): void {
-  const node = selectedNodeId ? nodeById.get(selectedNodeId) : undefined;
+  const node = selectedNodeId ? visibleNodeById.get(selectedNodeId) : undefined;
   if (!node || viewMode !== "constellations") {
     focusBanner.hidden = true;
     return;
   }
   const context = selectionContext(node);
-  const family = nodeById.get(context.familyId);
+  const family = visibleNodeById.get(context.familyId);
   const peerCount = Math.max(0, context.familyMembers.size - (node.tier === 2 ? 1 : 2));
   focusKicker.textContent = selectionOrigin === "search" ? "Search focus" : node.tier === 2 ? "Constellation family" : "Focused concept";
   focusTitle.textContent = node.label;
@@ -2096,8 +2151,21 @@ function selectNode(
   if (focusBelongsToDetail) focusDetailHeading();
 }
 
+function reconcileFilteredSelection(): void {
+  if (!selectedNodeId || visibleNodeById.has(selectedNodeId)) return;
+  selectedNodeId = null;
+  selectedDiscoveryId = null;
+  selectedDiscoveryContextId = null;
+  selectedDiscoveryQuery = null;
+  selectionOrigin = null;
+  detailPanel?.classList.remove("is-open");
+  if (rovingNodeId && !visibleNodeById.has(rovingNodeId)) rovingNodeId = null;
+}
+
 function render(): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
+  rebuildVisibleConcepts();
+  reconcileFilteredSelection();
   const [kicker, description] = viewCopy[viewMode];
   viewKicker.textContent = kicker;
   viewDescription.textContent = description;

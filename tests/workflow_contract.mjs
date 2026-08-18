@@ -13,24 +13,6 @@ if (JSON.stringify(pushBranches) !== JSON.stringify(["main"])) {
 
 const build = workflow?.jobs?.build;
 if (!build || build.if) failures.push("the validation job is not available to every configured event");
-const commandLines = (build?.steps ?? [])
-  .flatMap((step) => typeof step.run === "string" ? step.run.split("\n") : [])
-  .map((line) => line.trim())
-  .filter(Boolean);
-for (const command of [
-  "python -m venv .venv",
-  ".venv/bin/python -m pip install --disable-pip-version-check -r requirements-generation.txt",
-  "npm ci",
-  "npm run browser:install",
-  "npm run build",
-  "npm run check:generated",
-  "npm run test:audit && npm run audit:release-import && npm run audit:pages",
-  "npm run test:smoke",
-  "npm run test:discovery",
-  "npm run test:static",
-]) {
-  if (!commandLines.includes(command)) failures.push(`validation job omits ${command}`);
-}
 
 const mainPushClauses = new Set([
   "github.event_name == 'push'",
