@@ -118,11 +118,31 @@ assert characters["meta"]["sourceFingerprint"] == expected_research_fingerprint
 
 for node in constellations["nodes"]:
     memberships = node.get("evidenceMemberships")
+    direct_memberships = node.get("directEvidenceMemberships")
+    descendant_memberships = node.get("descendantEvidenceMemberships")
     assert isinstance(memberships, list), node["id"]
+    assert isinstance(direct_memberships, list), node["id"]
+    assert isinstance(descendant_memberships, list), node["id"]
     assert len(memberships) == node["evidenceCount"], node["id"]
     membership_sources = {membership["sourceId"] for membership in memberships}
     assert sorted(membership_sources) == node["sourceIds"], node["id"]
     assert len(membership_sources) == node["sourceCount"], node["id"]
+    membership_keys = {
+        (membership["kind"], membership["id"], membership["sourceId"])
+        for membership in memberships
+    }
+    direct_membership_keys = {
+        (membership["kind"], membership["id"], membership["sourceId"])
+        for membership in direct_memberships
+    }
+    descendant_membership_keys = {
+        (membership["kind"], membership["id"], membership["sourceId"])
+        for membership in descendant_memberships
+    }
+    assert direct_membership_keys | descendant_membership_keys == membership_keys, node["id"]
+    if node["tier"] == 3:
+        assert direct_membership_keys == membership_keys, node["id"]
+        assert not descendant_membership_keys, node["id"]
 
 ppl_101 = next(node for node in constellations["nodes"] if node["id"] == "PPL-101")
 assert len(ppl_101["examples"]) < len(ppl_101["evidenceMemberships"])
@@ -141,6 +161,16 @@ assert constellations["meta"]["counts"]["representativeExamples"] == sum(
 )
 ppl_100 = next(node for node in constellations["nodes"] if node["id"] == "PPL-100")
 assert ppl_100["evidenceCount"] == 52
+ppl_200 = next(node for node in constellations["nodes"] if node["id"] == "PPL-200")
+assert ppl_200["evidenceCount"] == 29
+assert len(ppl_200["directEvidenceMemberships"]) == 22
+ppl_300 = next(node for node in constellations["nodes"] if node["id"] == "PPL-300")
+assert ppl_300["evidenceCount"] == 3
+assert {
+    membership["sourceId"]
+    for membership in ppl_300["directEvidenceMemberships"]
+} == {"SRC-006"}
+assert len(ppl_300["directEvidenceMemberships"]) == 3
 
 node_memberships = {
     node["id"]: {
@@ -173,8 +203,19 @@ with tempfile.TemporaryDirectory(dir=ROOT / "tests") as directory:
     fixture_root = Path(directory)
     input_path = fixture_root / "input.json"
     dependency_path = fixture_root / "semantic_dependency.py"
+    requirements_path = fixture_root / "requirements-generation.txt"
     input_path.write_text("{}\n", encoding="utf-8")
     dependency_path.write_text("VALUE = 1\n", encoding="utf-8")
+    requirements_path.write_text("openpyxl==3.1.5\n", encoding="utf-8")
+    original_requirements_path = reproducible.GENERATION_REQUIREMENTS_PATH
+    try:
+        reproducible.GENERATION_REQUIREMENTS_PATH = requirements_path
+        first_requirements_fingerprint = reproducible.source_fingerprint([input_path])
+        requirements_path.write_text("openpyxl==3.1.6\n", encoding="utf-8")
+        assert reproducible.source_fingerprint([input_path]) != first_requirements_fingerprint
+    finally:
+        reproducible.GENERATION_REQUIREMENTS_PATH = original_requirements_path
+
     original_module_path = reproducible.__file__
     try:
         reproducible.__file__ = str(dependency_path)

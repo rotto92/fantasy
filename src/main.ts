@@ -52,6 +52,8 @@ interface ConceptNode {
   evidenceCount: number;
   sourceCount: number;
   sourceIds: string[];
+  directEvidenceMemberships: EvidenceMembership[];
+  descendantEvidenceMemberships: EvidenceMembership[];
   evidenceMemberships: EvidenceMembership[];
   examples: ConstellationExample[];
 }
@@ -783,6 +785,8 @@ function passesLeafFilters(node: ConceptNode): boolean {
 function sourceScopedLeaf(node: ConceptNode): ConceptNode {
   if (!selectedSource) return node;
   const evidenceMemberships = node.evidenceMemberships.filter((membership) => membership.sourceId === selectedSource);
+  const directEvidenceMemberships = node.directEvidenceMemberships.filter((membership) => membership.sourceId === selectedSource);
+  const descendantEvidenceMemberships = node.descendantEvidenceMemberships.filter((membership) => membership.sourceId === selectedSource);
   const examples = node.examples.filter((example) => example.sourceId === selectedSource);
   const sourceIds = [...new Set(evidenceMemberships.map((membership) => membership.sourceId))];
   return {
@@ -790,32 +794,44 @@ function sourceScopedLeaf(node: ConceptNode): ConceptNode {
     evidenceCount: evidenceMemberships.length,
     sourceCount: sourceIds.length,
     sourceIds,
+    directEvidenceMemberships,
+    descendantEvidenceMemberships,
     evidenceMemberships,
     examples,
   };
 }
 
+function evidenceMembershipKey(membership: EvidenceMembership | ConstellationExample): string {
+  return `${membership.kind}:${membership.id}:${membership.sourceId}`;
+}
+
+function filteredDirectFamilyMemberships(family: ConceptNode): EvidenceMembership[] {
+  if (selectedEvidence === "framework") return [];
+  return family.directEvidenceMemberships.filter((membership) => !selectedSource || membership.sourceId === selectedSource);
+}
+
 function filteredFamily(family: ConceptNode, leaves: ConceptNode[]): ConceptNode {
   if (!selectedSource && !selectedEvidence) return family;
   const evidenceMemberships = new Map<string, EvidenceMembership>();
-  const eligibleExamples = new Map<string, ConstellationExample>();
+  const directEvidenceMemberships = filteredDirectFamilyMemberships(family);
+  const descendantEvidenceMemberships = new Map<string, EvidenceMembership>();
+  for (const membership of directEvidenceMemberships) {
+    evidenceMemberships.set(evidenceMembershipKey(membership), membership);
+  }
   for (const leaf of leaves) {
     for (const membership of leaf.evidenceMemberships) {
-      evidenceMemberships.set(`${membership.kind}:${membership.id}:${membership.sourceId}`, membership);
-    }
-    for (const example of leaf.examples) {
-      if (!eligibleExamples.has(example.id)) eligibleExamples.set(example.id, example);
+      const key = evidenceMembershipKey(membership);
+      descendantEvidenceMemberships.set(key, membership);
+      evidenceMemberships.set(key, membership);
     }
   }
   const examples: ConstellationExample[] = [];
   const includedExamples = new Set<string>();
-  for (const example of family.examples) {
-    if (!eligibleExamples.has(example.id)) continue;
-    examples.push(eligibleExamples.get(example.id) ?? example);
-    includedExamples.add(example.id);
-  }
-  for (const [exampleId, example] of eligibleExamples) {
-    if (!includedExamples.has(exampleId)) examples.push(example);
+  for (const example of [family.examples, ...leaves.map((leaf) => leaf.examples)].flat()) {
+    const key = evidenceMembershipKey(example);
+    if (!evidenceMemberships.has(key) || includedExamples.has(key)) continue;
+    examples.push(example);
+    includedExamples.add(key);
   }
   const memberships = [...evidenceMemberships.values()];
   const sourceIds = [...new Set(memberships.map((membership) => membership.sourceId))].sort();
@@ -827,13 +843,11 @@ function filteredFamily(family: ConceptNode, leaves: ConceptNode[]): ConceptNode
     evidenceCount: memberships.length,
     sourceCount: sourceIds.length,
     sourceIds,
+    directEvidenceMemberships,
+    descendantEvidenceMemberships: [...descendantEvidenceMemberships.values()],
     evidenceMemberships: memberships,
     examples,
   };
-}
-
-function evidenceMembershipKey(membership: EvidenceMembership): string {
-  return `${membership.kind}:${membership.id}:${membership.sourceId}`;
 }
 
 function rebuildVisibleConcepts(): void {
@@ -845,7 +859,10 @@ function rebuildVisibleConcepts(): void {
     leavesByFamily.set(leaf.familyId, familyLeaves);
   }
   const families = concepts.nodes
-    .filter((node) => node.tier === 2 && leavesByFamily.has(node.id))
+    .filter((node) => node.tier === 2)
+    .filter((node) => !selectedDomain || node.domainId === selectedDomain)
+    .filter((node) => !selectedFamily || node.id === selectedFamily)
+    .filter((node) => leavesByFamily.has(node.id) || filteredDirectFamilyMemberships(node).length > 0)
     .map((family) => filteredFamily(family, leavesByFamily.get(family.id) ?? []));
   visibleNodes = [...families, ...leaves];
   visibleNodeById.clear();
@@ -1850,18 +1867,21 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
   detailContent.append(header);
 
   const actions = element("div", "detail-actions");
-  if (selection.nodeId && nodeById.has(selection.nodeId)) {
-    const nodeId = selection.nodeId;
+  const selectedConcept = selection.nodeId ? visibleNodeById.get(selection.nodeId) : undefined;
+  if (selectedConcept) {
+    const nodeId = selectedConcept.id;
     const discoveryId = selection.discoveryId;
     const concept = element("button", "primary-button", "Open related concept") as HTMLButtonElement;
     concept.type = "button";
     concept.addEventListener("click", () => {
+      if (!visibleNodeById.has(nodeId)) return;
       selectNode(nodeId, true, "search", discoveryId);
     });
     actions.append(concept);
     const relations = element("button", "secondary-button", "Show relations") as HTMLButtonElement;
     relations.type = "button";
     relations.addEventListener("click", () => {
+      if (!visibleNodeById.has(nodeId)) return;
       viewMode = "relations";
       render();
     });
@@ -1906,18 +1926,23 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
 
   const relatedConcepts = detailSection("Related normalized concepts");
   const relatedList = element("div", "relation-list");
-  const conceptNodes = record.relatedConceptIds.map((id) => nodeById.get(id)).filter((node): node is ConceptNode => Boolean(node));
+  const graphConceptIds = record.relatedConceptIds.filter((id) => nodeById.has(id));
+  const conceptNodes = record.relatedConceptIds.map((id) => visibleNodeById.get(id)).filter((node): node is ConceptNode => Boolean(node));
   for (const node of conceptNodes.slice(0, 12)) {
     const button = element("button", "relation-button") as HTMLButtonElement;
     button.type = "button";
+    button.dataset.nodeId = node.id;
     button.append(element("span", "relation-star", "✦"), element("strong", "", node.label), element("small", "", `${node.domainLabel} · ${node.sourceCount} sources`));
     button.addEventListener("click", () => {
+      if (!visibleNodeById.has(node.id)) return;
       selectNode(node.id, true, "search", selection.discoveryId);
     });
     relatedList.append(button);
   }
   if (!conceptNodes.length) {
-    const message = record.normalizedConceptIds.length
+    const message = graphConceptIds.length
+      ? "No related graph concept matches the active sky, source, and evidence filters."
+      : record.normalizedConceptIds.length
       ? "The recorded normalized mappings are outside the being/class graph, so this evidence remains source-native and no graph star is created."
       : record.mappingQuarantined
         ? "A normalized mapping is quarantined pending claim-level second review. It remains only in the retained research bundle and cannot create public graph links, affinities, or stars."

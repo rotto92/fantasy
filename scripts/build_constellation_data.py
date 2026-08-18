@@ -213,36 +213,50 @@ def main() -> None:
 
     rolled_examples: dict[str, list[dict[str, Any]]] = {}
 
-    def examples_with_descendants(node_id: str) -> list[dict[str, Any]]:
-        if node_id in rolled_examples:
-            return rolled_examples[node_id]
-        combined = [*examples.get(node_id, [])]
-        for child_id in sorted(children.get(node_id, [])):
-            combined.extend(examples_with_descendants(child_id))
+    def deduplicated_examples(values: list[dict[str, Any]]) -> list[dict[str, Any]]:
         deduplicated: dict[tuple[str, str, str], dict[str, Any]] = {}
-        for example in combined:
+        for example in values:
             key = (
                 str(example.get("kind", "")),
                 str(example.get("id", "")),
                 str(example.get("sourceId", "")),
             )
             deduplicated.setdefault(key, example)
-        rolled_examples[node_id] = list(deduplicated.values())
+        return list(deduplicated.values())
+
+    def evidence_memberships(values: list[dict[str, Any]]) -> list[dict[str, str]]:
+        return [
+            {
+                "id": str(example.get("id", "")),
+                "kind": str(example.get("kind", "")),
+                "sourceId": str(example.get("sourceId", "")),
+            }
+            for example in deduplicated_examples(values)
+        ]
+
+    def examples_with_descendants(node_id: str) -> list[dict[str, Any]]:
+        if node_id in rolled_examples:
+            return rolled_examples[node_id]
+        combined = [*examples.get(node_id, [])]
+        for child_id in sorted(children.get(node_id, [])):
+            combined.extend(examples_with_descendants(child_id))
+        rolled_examples[node_id] = deduplicated_examples(combined)
         return rolled_examples[node_id]
 
     output_nodes: list[dict[str, Any]] = []
     for node_id, node in selected.items():
         record = node.get("record", {})
         domain = INCLUDED_DOMAINS[node["domain"]]
+        direct_examples = deduplicated_examples([*examples.get(node_id, [])])
+        descendant_examples = deduplicated_examples(
+            [
+                example
+                for child_id in sorted(children.get(node_id, []))
+                for example in examples_with_descendants(child_id)
+            ]
+        )
         node_examples = examples_with_descendants(node_id)
-        evidence_memberships = [
-            {
-                "id": str(example.get("id", "")),
-                "kind": str(example.get("kind", "")),
-                "sourceId": str(example.get("sourceId", "")),
-            }
-            for example in node_examples
-        ]
+        node_evidence_memberships = evidence_memberships(node_examples)
         source_ids = sorted({str(example.get("sourceId", "")) for example in node_examples if example.get("sourceId")})
         parent_id = parent_by_id.get(node_id, "")
         family_id = node_id if int(node.get("tier") or 0) == 2 else parent_id
@@ -267,7 +281,9 @@ def main() -> None:
                 "evidenceCount": len(node_examples),
                 "sourceCount": len(source_ids),
                 "sourceIds": source_ids,
-                "evidenceMemberships": evidence_memberships,
+                "directEvidenceMemberships": evidence_memberships(direct_examples),
+                "descendantEvidenceMemberships": evidence_memberships(descendant_examples),
+                "evidenceMemberships": node_evidence_memberships,
                 "examples": stratified_examples(node_examples, 48),
             }
         )

@@ -162,6 +162,42 @@ if (!aggregateFamily || !aggregateLeaves.some((node) => node.evidenceCount === 0
   await page.locator('.view-button[data-view="constellations"]').click();
 }
 
+const directFamilyFixtures = [
+  { id: "PPL-200", sourceCount: 3, evidenceCount: 29 },
+  { id: "PPL-300", sourceCount: 1, evidenceCount: 3 },
+];
+await page.locator("#evidence-filter").selectOption("evidenced");
+await page.locator('.view-button[data-view="catalogue"]').click();
+for (const fixture of directFamilyFixtures) {
+  const familyHeading = page.locator(`.catalogue-family-heading[data-node-id="${fixture.id}"]`);
+  if ((await familyHeading.count()) !== 1) {
+    failures.push(`evidence filter dropped direct family ${fixture.id}`);
+    continue;
+  }
+  await familyHeading.click();
+  const evidenceCount = await page.locator(".concept-detail-header .evidence-row span:last-child").textContent();
+  if (evidenceCount !== `${fixture.sourceCount} sources · ${fixture.evidenceCount} examples`) {
+    failures.push(`evidence-filtered direct family ${fixture.id} reported ${evidenceCount}`);
+  }
+}
+await page.locator("#reset-view").click();
+await page.locator('.view-button[data-view="constellations"]').click();
+
+await page.locator("#source-filter").selectOption("SRC-006");
+await page.locator('.view-button[data-view="catalogue"]').click();
+const directSourceFamily = page.locator('.catalogue-family-heading[data-node-id="PPL-300"]');
+if ((await directSourceFamily.count()) !== 1) {
+  failures.push("source filter dropped PPL-300 direct SRC-006 evidence");
+} else {
+  await directSourceFamily.click();
+  const directSourceCount = await page.locator(".concept-detail-header .evidence-row span:last-child").textContent();
+  if (directSourceCount !== "1 sources · 3 examples") {
+    failures.push(`source-filtered PPL-300 reported ${directSourceCount}`);
+  }
+}
+await page.locator("#reset-view").click();
+await page.locator('.view-button[data-view="constellations"]').click();
+
 const relationFamily = concepts.nodes.find((node) => node.id === "PPL-100");
 const relationTarget = concepts.nodes.find((node) => node.id === "ROL-700");
 if (!relationFamily || !relationTarget) {
@@ -196,6 +232,45 @@ if (!relationFamily || !relationTarget) {
   }
   await page.locator("#reset-view").click();
   await page.locator('.view-button[data-view="constellations"]').click();
+}
+
+const humanConcept = concepts.nodes.find((node) => node.id === "PPL-101");
+const warriorConcept = concepts.nodes.find((node) => node.id === "ROL-101");
+if (!humanConcept || !warriorConcept) {
+  failures.push("compiled concepts have no discovery-action regression fixtures");
+} else {
+  await page.locator("#search").fill("Achilles");
+  await page.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click();
+  await page.waitForTimeout(800);
+  await page.locator("#domain-filter").selectOption("beings");
+  const excludedRoleAction = page.locator("#detail-content .relation-button").filter({ hasText: warriorConcept.label });
+  if ((await excludedRoleAction.count()) !== 0
+    || (await page.locator("#atlas-svg .is-selected").getAttribute("data-node-id")) !== humanConcept.id) {
+    failures.push("discovery detail retained a filter-excluded role action");
+  }
+  await page.locator("#reset-view").click();
+
+  await page.locator("#search").fill("Achilles");
+  await page.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click();
+  await page.waitForTimeout(800);
+  await page.locator("#source-filter").selectOption("SRC-001");
+  const filteredHumanAction = page.locator("#detail-content .relation-button").filter({ hasText: humanConcept.label });
+  const filteredHumanCount = await filteredHumanAction.locator("small").textContent().catch(() => null);
+  if ((await filteredHumanAction.count()) !== 1 || filteredHumanCount !== "Beings & Peoples · 1 sources") {
+    failures.push(`discovery action did not use the filtered concept aggregate: ${filteredHumanCount}`);
+  }
+  await page.locator("#reset-view").click();
+
+  await page.locator("#search").fill("Achilles");
+  await page.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click();
+  await page.waitForTimeout(800);
+  await page.locator("#evidence-filter").selectOption("framework");
+  if ((await page.locator("#detail-content .relation-button").count()) !== 0
+    || (await page.locator("#atlas-svg .is-selected").count()) !== 0
+    || await page.locator(".discovery-detail-header").isVisible().catch(() => false)) {
+    failures.push("evidence filter retained discovery actions for excluded mappings");
+  }
+  await page.locator("#reset-view").click();
 }
 
 await page.locator("#search").fill("Achilles");

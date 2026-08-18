@@ -8,6 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+GENERATION_REQUIREMENTS_PATH = ROOT / "requirements-generation.txt"
 CORE_TIMESTAMP = b"2000-01-01T00:00:00Z"
 
 
@@ -26,7 +27,7 @@ def target_for_treatment(treatment: str) -> int:
 
 def source_fingerprint(paths: list[Path]) -> str:
     digest = hashlib.sha256()
-    resolved_paths = {Path(__file__).resolve()}
+    resolved_paths = {Path(__file__).resolve(), GENERATION_REQUIREMENTS_PATH.resolve()}
     for path in paths:
         resolved = path.resolve()
         if resolved.is_dir():

@@ -2,7 +2,7 @@
   "meta": {
     "title": "Fantasy Concept Constellations",
     "version": "5.0-concept-constellations",
-    "sourceFingerprint": "sha256:6e01220483ef704a4b98c650a6a42e3cb7d32c658988c47f53cf98d868bef42d",
+    "sourceFingerprint": "sha256:0139473e5eaf1db0e08aede6e8cfef425cc7bb3dfbe09f38325e843f8e4bbc0f",
     "visualContract": "Every graph node is a normalized being/race/entity or class/vocation archetype. Validated characters and source terms are evidence, never nodes.",
     "counts": {
       "nodes": 482,
@@ -98,6 +98,269 @@
         "SRC-015",
         "SRC-021",
         "SRC-023"
+      ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-021",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-022",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-036",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-023",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-038",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-027",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-037",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-028",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-040",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-026",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-029",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-024",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-030",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC003-034",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-027",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-035",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-026",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC006-003",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-006",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-016",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-004",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-008",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-015",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-001",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC015-004",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-006",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-011",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-007",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-003",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-035",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-009",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-005",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC021-027",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-014",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-029",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-028",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-012",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-009",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-011",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-010",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-015",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC023-017",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-026",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-003",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-007",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-015",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-020",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-019",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-024",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-018",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC006-010",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC001-033",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -1165,6 +1428,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -1203,6 +1468,64 @@
       "sourceIds": [
         "SRC-003",
         "SRC-021"
+      ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC003-031",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC021-019",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-022",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-021",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-016",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-025",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-020",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-018",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-017",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-023",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-024",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -1476,6 +1799,155 @@
         "SRC-001",
         "SRC-003",
         "SRC-006"
+      ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC003-040",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-010",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-021",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-037",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-042",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-012",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-006",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-008",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-029",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-041",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-039",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-033",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-022",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-011",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-036",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-013",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-002",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-031",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-001",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-014",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-003",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-030",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        }
+      ],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-032",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC006-023",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-020",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-021",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-019",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-022",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-024",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -2126,6 +2598,24 @@
       "sourceIds": [
         "SRC-006"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-010",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-018",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-017",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC006-010",
@@ -2228,6 +2718,139 @@
         "SRC-001",
         "SRC-006",
         "SRC-021"
+      ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-015",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-013",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-016",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-014",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-012",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-010",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-019",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-002",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-009",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-017",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-007",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-018",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-011",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-008",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-003",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-006",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC006-026",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC021-031",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-002",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-032",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-004",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC001-021",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-043",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-035",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-004",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-005",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -2812,6 +3435,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -2851,6 +3476,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -2887,6 +3514,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -2932,6 +3561,19 @@
       "sourceCount": 1,
       "sourceIds": [
         "SRC-015"
+      ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC015-022",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-023",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -3011,6 +3653,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3034,6 +3678,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3057,6 +3703,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3080,6 +3728,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3103,6 +3753,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3126,6 +3778,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3149,6 +3803,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3172,6 +3828,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3195,6 +3853,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3218,6 +3878,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -3248,6 +3910,259 @@
         "SRC-021",
         "SRC-023"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-021",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-022",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-036",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-023",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-038",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-027",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-037",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-028",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-040",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-026",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-029",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-024",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-030",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC003-034",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-027",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-035",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-026",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC006-003",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-006",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-016",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-004",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-008",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-015",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-001",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC015-004",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-006",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-011",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-007",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-003",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-035",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-009",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-005",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC021-027",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-014",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-029",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-028",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-012",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-009",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-011",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-010",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-015",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC023-017",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-026",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-003",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-007",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-015",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-020",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-019",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-024",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-018",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-021",
@@ -4291,6 +5206,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4314,6 +5231,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4337,6 +5256,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4360,6 +5281,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4383,6 +5306,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4406,6 +5331,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4429,6 +5356,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4452,6 +5381,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4475,6 +5406,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4500,6 +5433,14 @@
       "sourceIds": [
         "SRC-006"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-010",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC006-010",
@@ -4546,6 +5487,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4569,6 +5512,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4592,6 +5537,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4618,6 +5565,64 @@
         "SRC-003",
         "SRC-021"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC003-031",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC021-019",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-022",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-021",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-016",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-025",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-020",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-018",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-017",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-023",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-024",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC003-031",
@@ -4874,6 +5879,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4897,6 +5904,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4920,6 +5929,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4943,6 +5954,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4966,6 +5979,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -4989,6 +6004,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5012,6 +6029,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5037,6 +6056,14 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-033",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-033",
@@ -5083,6 +6110,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5106,6 +6135,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5129,6 +6160,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5152,6 +6185,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5175,6 +6210,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5198,6 +6235,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5221,6 +6260,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5244,6 +6285,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5267,6 +6310,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5290,6 +6335,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5313,6 +6360,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5336,6 +6385,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5359,6 +6410,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5382,6 +6435,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5405,6 +6460,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5428,6 +6485,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5451,6 +6510,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5474,6 +6535,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5497,6 +6560,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5520,6 +6585,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5543,6 +6610,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5566,6 +6635,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5589,6 +6660,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5612,6 +6685,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5635,6 +6710,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5658,6 +6735,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5683,6 +6762,14 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-032",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-032",
@@ -5729,6 +6816,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5754,6 +6843,39 @@
       "sourceIds": [
         "SRC-006"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-023",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-020",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-021",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-019",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-022",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-024",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC006-023",
@@ -5905,6 +7027,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5928,6 +7052,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5951,6 +7077,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5974,6 +7102,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -5997,6 +7127,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6020,6 +7152,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6043,6 +7177,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6066,6 +7202,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6089,6 +7227,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6112,6 +7252,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6135,6 +7277,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6158,6 +7302,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6181,6 +7327,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6204,6 +7352,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6227,6 +7377,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6250,6 +7402,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6273,6 +7427,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6296,6 +7452,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6323,6 +7481,114 @@
         "SRC-006",
         "SRC-021"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-015",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-013",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-016",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-014",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-012",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-010",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-019",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-002",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-009",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-017",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-007",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-018",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-011",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-008",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-003",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-006",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC006-026",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC021-031",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-002",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-032",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        },
+        {
+          "id": "CHR-SRC021-004",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-015",
@@ -6791,6 +8057,24 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-021",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-043",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-035",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-021",
@@ -6879,6 +8163,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6902,6 +8188,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6925,6 +8213,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6948,6 +8238,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6971,6 +8263,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -6996,6 +8290,29 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-004",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-002",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-005",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-003",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-004",
@@ -7105,6 +8422,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7128,6 +8447,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7151,6 +8472,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7174,6 +8497,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7197,6 +8522,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7220,6 +8547,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7243,6 +8572,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7266,6 +8597,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7289,6 +8622,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7312,6 +8647,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7335,6 +8672,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7358,6 +8697,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7381,6 +8722,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7404,6 +8747,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7427,6 +8772,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7450,6 +8797,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7473,6 +8822,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7496,6 +8847,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7519,6 +8872,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7542,6 +8897,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7565,6 +8922,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7588,6 +8947,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7611,6 +8972,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7634,6 +8997,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7657,6 +9022,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7680,6 +9047,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7703,6 +9072,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7726,6 +9097,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7749,6 +9122,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7772,6 +9147,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7795,6 +9172,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7818,6 +9197,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7841,6 +9222,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7864,6 +9247,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7887,6 +9272,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7910,6 +9297,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7933,6 +9322,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7956,6 +9347,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -7979,6 +9372,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8002,6 +9397,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8025,6 +9422,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8048,6 +9447,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8071,6 +9472,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8094,6 +9497,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8117,6 +9522,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8140,6 +9547,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8163,6 +9572,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8186,6 +9597,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8209,6 +9622,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8232,6 +9647,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8255,6 +9672,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8278,6 +9697,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8301,6 +9722,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8324,6 +9747,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8347,6 +9772,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8370,6 +9797,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8393,6 +9822,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8416,6 +9847,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8441,6 +9874,19 @@
       "sourceIds": [
         "SRC-015"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC015-022",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-023",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC015-022",
@@ -8508,6 +9954,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8531,6 +9979,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8554,6 +10004,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8577,6 +10029,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8600,6 +10054,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8623,6 +10079,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8646,6 +10104,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8669,6 +10129,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8692,6 +10154,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8715,6 +10179,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8738,6 +10204,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -8817,6 +10285,129 @@
         "SRC-006",
         "SRC-015",
         "SRC-023"
+      ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-021",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-016",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-023",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-038",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-027",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-028",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC003-002",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-014",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-026",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC006-004",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC015-021",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-018",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-020",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-015",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-003",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-031",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-035",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC023-017",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-007",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-024",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC001-014",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-026",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-043",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-035",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -9373,6 +10964,19 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-018",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-028",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-018",
@@ -9498,6 +11102,19 @@
         "SRC-006",
         "SRC-021"
       ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-001",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC021-004",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        }
+      ],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC006-001",
@@ -9592,6 +11209,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -9635,6 +11254,14 @@
       "sourceCount": 1,
       "sourceIds": [
         "SRC-006"
+      ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-019",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -9728,6 +11355,44 @@
         "SRC-003",
         "SRC-006",
         "SRC-015"
+      ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-006",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-004",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-001",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC001-017",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC003-011",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC006-003",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC015-028",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -9929,6 +11594,59 @@
       "sourceIds": [
         "SRC-015",
         "SRC-023"
+      ],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [
+        {
+          "id": "CHR-SRC015-004",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-006",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-011",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-025",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-016",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-026",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC023-026",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-003",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-019",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-018",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        }
       ],
       "evidenceMemberships": [
         {
@@ -10202,6 +11920,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10258,6 +11978,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10287,6 +12009,109 @@
         "SRC-015",
         "SRC-023"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-021",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-016",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-023",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-038",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-027",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-028",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC003-002",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-014",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-026",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC006-004",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC015-021",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-018",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-020",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-015",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-003",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-031",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-035",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC023-017",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-007",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-024",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-021",
@@ -10732,6 +12557,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10755,6 +12582,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10778,6 +12607,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10801,6 +12632,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10824,6 +12657,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10847,6 +12682,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10870,6 +12707,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10893,6 +12732,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10916,6 +12757,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10939,6 +12782,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10962,6 +12807,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -10985,6 +12832,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11008,6 +12857,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11031,6 +12882,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11054,6 +12907,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11077,6 +12932,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11100,6 +12957,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11123,6 +12982,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11146,6 +13007,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11169,6 +13032,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11192,6 +13057,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11215,6 +13082,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11238,6 +13107,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11261,6 +13132,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11286,6 +13159,14 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-014",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-014",
@@ -11334,6 +13215,19 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-014",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-026",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-014",
@@ -11401,6 +13295,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11424,6 +13320,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11447,6 +13345,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11470,6 +13370,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11493,6 +13395,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11516,6 +13420,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11539,6 +13445,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11562,6 +13470,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11585,6 +13495,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11608,6 +13520,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11631,6 +13545,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11657,6 +13573,39 @@
         "SRC-001",
         "SRC-003"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-021",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-023",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-043",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-035",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC003-002",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC003-014",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-021",
@@ -11808,6 +13757,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11831,6 +13782,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11854,6 +13807,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11877,6 +13832,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11902,6 +13859,19 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-043",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-035",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-043",
@@ -11969,6 +13939,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -11992,6 +13964,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12015,6 +13989,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12038,6 +14014,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12061,6 +14039,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12084,6 +14064,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12107,6 +14089,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12130,6 +14114,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12153,6 +14139,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12176,6 +14164,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12199,6 +14189,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12222,6 +14214,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12245,6 +14239,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12268,6 +14264,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12291,6 +14289,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12314,6 +14314,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12337,6 +14339,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12360,6 +14364,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12383,6 +14389,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12406,6 +14414,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12429,6 +14439,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12452,6 +14464,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12477,6 +14491,19 @@
       "sourceIds": [
         "SRC-001"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-018",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC001-028",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-018",
@@ -12544,6 +14571,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12567,6 +14596,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12590,6 +14621,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12613,6 +14646,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12636,6 +14671,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12659,6 +14696,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12682,6 +14721,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12705,6 +14746,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12728,6 +14771,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12751,6 +14796,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12774,6 +14821,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12797,6 +14846,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12822,6 +14873,14 @@
       "sourceIds": [
         "SRC-006"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-001",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC006-001",
@@ -12868,6 +14927,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12891,6 +14952,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12914,6 +14977,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12937,6 +15002,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12960,6 +15027,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -12983,6 +15052,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13006,6 +15077,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13029,6 +15102,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13054,6 +15129,14 @@
       "sourceIds": [
         "SRC-021"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC021-004",
+          "kind": "character-example",
+          "sourceId": "SRC-021"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC021-004",
@@ -13100,6 +15183,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13123,6 +15208,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13146,6 +15233,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13169,6 +15258,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13192,6 +15283,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13215,6 +15308,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13238,6 +15333,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13261,6 +15358,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13284,6 +15383,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13307,6 +15408,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13330,6 +15433,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13353,6 +15458,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13376,6 +15483,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13399,6 +15508,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13422,6 +15533,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13445,6 +15558,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13468,6 +15583,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13491,6 +15608,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13514,6 +15633,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13537,6 +15658,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13560,6 +15683,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13583,6 +15708,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13606,6 +15733,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13629,6 +15758,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13652,6 +15783,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13675,6 +15808,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13698,6 +15833,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13721,6 +15858,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13744,6 +15883,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13767,6 +15908,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13790,6 +15933,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13813,6 +15958,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13836,6 +15983,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13859,6 +16008,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13882,6 +16033,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13905,6 +16058,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13928,6 +16083,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13951,6 +16108,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13974,6 +16133,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -13997,6 +16158,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14020,6 +16183,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14043,6 +16208,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14066,6 +16233,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14089,6 +16258,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14112,6 +16283,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14135,6 +16308,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14158,6 +16333,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14181,6 +16358,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14204,6 +16383,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14227,6 +16408,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14250,6 +16433,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14273,6 +16458,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14296,6 +16483,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14319,6 +16508,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14342,6 +16533,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14365,6 +16558,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14388,6 +16583,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14411,6 +16608,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14434,6 +16633,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14457,6 +16658,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14480,6 +16683,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14503,6 +16708,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14526,6 +16733,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14549,6 +16758,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14572,6 +16783,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14595,6 +16808,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14618,6 +16833,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14641,6 +16858,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14664,6 +16883,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14687,6 +16908,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14710,6 +16933,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14733,6 +16958,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14756,6 +16983,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14779,6 +17008,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14804,6 +17035,14 @@
       "sourceIds": [
         "SRC-006"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-019",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC006-019",
@@ -14850,6 +17089,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14873,6 +17114,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14896,6 +17139,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14919,6 +17164,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14942,6 +17189,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14965,6 +17214,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -14988,6 +17239,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15011,6 +17264,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15034,6 +17289,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15057,6 +17314,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15080,6 +17339,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15105,6 +17366,24 @@
       "sourceIds": [
         "SRC-006"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-006",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-004",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        },
+        {
+          "id": "CHR-SRC006-001",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC006-006",
@@ -15193,6 +17472,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15216,6 +17497,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15239,6 +17522,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15266,6 +17551,24 @@
         "SRC-003",
         "SRC-006"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC001-017",
+          "kind": "character-example",
+          "sourceId": "SRC-001"
+        },
+        {
+          "id": "CHR-SRC003-011",
+          "kind": "character-example",
+          "sourceId": "SRC-003"
+        },
+        {
+          "id": "CHR-SRC006-003",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC001-017",
@@ -15354,6 +17657,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15379,6 +17684,14 @@
       "sourceIds": [
         "SRC-006"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC006-003",
+          "kind": "character-example",
+          "sourceId": "SRC-006"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC006-003",
@@ -15425,6 +17738,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15448,6 +17763,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15471,6 +17788,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15494,6 +17813,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15517,6 +17838,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15540,6 +17863,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15563,6 +17888,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15586,6 +17913,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15609,6 +17938,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15632,6 +17963,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15655,6 +17988,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15678,6 +18013,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15701,6 +18038,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15724,6 +18063,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15747,6 +18088,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15770,6 +18113,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15793,6 +18138,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15816,6 +18163,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15839,6 +18188,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15862,6 +18213,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15885,6 +18238,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15908,6 +18263,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15931,6 +18288,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15954,6 +18313,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -15979,6 +18340,14 @@
       "sourceIds": [
         "SRC-015"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC015-028",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC015-028",
@@ -16025,6 +18394,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16048,6 +18419,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16071,6 +18444,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16094,6 +18469,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16117,6 +18494,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16140,6 +18519,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16163,6 +18544,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16186,6 +18569,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16209,6 +18594,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16232,6 +18619,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16255,6 +18644,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16278,6 +18669,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16301,6 +18694,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16324,6 +18719,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16347,6 +18744,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16370,6 +18769,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16393,6 +18794,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16416,6 +18819,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16442,6 +18847,59 @@
         "SRC-015",
         "SRC-023"
       ],
+      "directEvidenceMemberships": [
+        {
+          "id": "CHR-SRC015-004",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-006",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-011",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-025",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-016",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC015-026",
+          "kind": "character-example",
+          "sourceId": "SRC-015"
+        },
+        {
+          "id": "CHR-SRC023-026",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-003",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-019",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        },
+        {
+          "id": "CHR-SRC023-018",
+          "kind": "character-example",
+          "sourceId": "SRC-023"
+        }
+      ],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [
         {
           "id": "CHR-SRC015-004",
@@ -16677,6 +19135,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16700,6 +19160,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16723,6 +19185,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16746,6 +19210,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16769,6 +19235,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16792,6 +19260,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16815,6 +19285,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16838,6 +19310,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16861,6 +19335,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16884,6 +19360,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16907,6 +19385,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16930,6 +19410,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16953,6 +19435,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16976,6 +19460,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -16999,6 +19485,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17022,6 +19510,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17045,6 +19535,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17068,6 +19560,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17091,6 +19585,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17114,6 +19610,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17137,6 +19635,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17160,6 +19660,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17183,6 +19685,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17206,6 +19710,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17229,6 +19735,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17252,6 +19760,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17275,6 +19785,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17298,6 +19810,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17321,6 +19835,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17344,6 +19860,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17367,6 +19885,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17390,6 +19910,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17413,6 +19935,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17436,6 +19960,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17459,6 +19985,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17482,6 +20010,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17505,6 +20035,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17528,6 +20060,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17551,6 +20085,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17574,6 +20110,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17597,6 +20135,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17620,6 +20160,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17643,6 +20185,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17666,6 +20210,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17689,6 +20235,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17712,6 +20260,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17735,6 +20285,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17758,6 +20310,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17781,6 +20335,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17804,6 +20360,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17827,6 +20385,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17850,6 +20410,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17873,6 +20435,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17896,6 +20460,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17919,6 +20485,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17942,6 +20510,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17965,6 +20535,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -17988,6 +20560,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18011,6 +20585,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18034,6 +20610,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18057,6 +20635,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18080,6 +20660,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18103,6 +20685,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18126,6 +20710,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18149,6 +20735,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18172,6 +20760,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18195,6 +20785,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18218,6 +20810,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18241,6 +20835,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18264,6 +20860,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18287,6 +20885,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18310,6 +20910,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18333,6 +20935,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18356,6 +20960,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18379,6 +20985,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18402,6 +21010,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18425,6 +21035,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18448,6 +21060,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     },
@@ -18471,6 +21085,8 @@
       "evidenceCount": 0,
       "sourceCount": 0,
       "sourceIds": [],
+      "directEvidenceMemberships": [],
+      "descendantEvidenceMemberships": [],
       "evidenceMemberships": [],
       "examples": []
     }
