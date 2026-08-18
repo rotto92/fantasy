@@ -85,6 +85,9 @@ if (taxonomyLines !== 0) failures.push(`global atlas rendered ${taxonomyLines} t
 if ((await page.locator("#atlas-svg .character-mark").count()) !== 0) failures.push("character nodes remain in the graph");
 if ((await page.locator("#atlas-svg .affinity-line:visible").count()) !== 0) failures.push("global affinity lines are visible before selection");
 
+const graphSourceIds = new Set(concepts.nodes.flatMap((node) => node.sourceIds));
+const unmappedResearchSource = research.corpusSources.find((source) => !graphSourceIds.has(source.sourceId));
+
 const aggregateFamily = concepts.nodes.find((node) => node.id === "PPL-100");
 const aggregateLeaves = concepts.nodes.filter((node) => node.tier === 3 && node.familyId === aggregateFamily?.id);
 if (!aggregateFamily || !aggregateLeaves.some((node) => node.evidenceCount === 0)) {
@@ -727,6 +730,42 @@ await page.locator(".concept-card").first().click();
 await page.waitForFunction(() => document.activeElement?.tagName === "H2");
 
 await page.locator('[data-view="research"]').click();
+if (!unmappedResearchSource) {
+  failures.push("compiled research has no unmapped source-filter regression fixture");
+} else {
+  const researchSourceOptions = await page.locator("#source-filter option").evaluateAll((options) =>
+    options.map((option) => ({ value: option.value, label: option.textContent })),
+  );
+  if (researchSourceOptions.length !== research.corpusSources.length + 1
+    || researchSourceOptions[0]?.label !== "All corpus sources"
+    || !researchSourceOptions.some((option) => option.value === unmappedResearchSource.sourceId)) {
+    failures.push(`Research source control omitted corpus scope: ${JSON.stringify(researchSourceOptions.slice(0, 3))}`);
+  }
+  await page.locator("#source-filter").selectOption(unmappedResearchSource.sourceId);
+  const unmappedSourceState = {
+    rows: await page.locator(".research-table tbody tr").allTextContents(),
+    visible: await page.locator("#visible-count").textContent(),
+    scopeCount: await page.locator("#scope-summary strong").first().textContent(),
+  };
+  if (unmappedSourceState.rows.length !== 1
+    || !unmappedSourceState.rows[0].includes(unmappedResearchSource.title)
+    || unmappedSourceState.visible !== "1 source passes"
+    || unmappedSourceState.scopeCount !== "1") {
+    failures.push(`unmapped Research source was not selectable: ${JSON.stringify(unmappedSourceState)}`);
+  }
+  await page.locator('[data-view="constellations"]').click();
+  const graphSourceState = {
+    value: await page.locator("#source-filter").inputValue(),
+    defaultLabel: await page.locator("#source-filter option").first().textContent(),
+    unmappedOptions: await page.locator(`#source-filter option[value="${unmappedResearchSource.sourceId}"]`).count(),
+  };
+  if (graphSourceState.value !== ""
+    || graphSourceState.defaultLabel !== "All mapped sources"
+    || graphSourceState.unmappedOptions !== 0) {
+    failures.push(`graph view retained an out-of-scope Research source: ${JSON.stringify(graphSourceState)}`);
+  }
+  await page.locator('[data-view="research"]').click();
+}
 const sourceRows = await page.locator(".research-table tbody tr").count();
 if (sourceRows !== concepts.meta.counts.corpusSources) {
   failures.push(`expected ${concepts.meta.counts.corpusSources} research rows, got ${sourceRows}`);

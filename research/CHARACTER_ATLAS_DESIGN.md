@@ -108,6 +108,8 @@ supported normalized concept.
 - No more than 24 persistent concept labels in a scene.
 - No more than 12 group labels at one hierarchy level without aggregation.
 - Search and direct selection take priority within the label budget.
+- Families only hides every specific mark after family selection; a specific
+  selected directly from search remains as the sole explicit exception.
 - Zoom changes the level of detail and the contents of the scene, not merely
   the font size.
 
@@ -118,8 +120,11 @@ Corpus progress belongs in a separate compact matrix:
 - Rows: bounded source passes.
 - Columns: scoped, character pass, terminology pass, relationship pass,
   second review, and continuity review.
-- Cells: not started, in progress, pass complete, or reviewed.
-- Search and source-evidence filtering narrow the visible rows.
+- Cells: Not started, In progress, Pass complete, Limited metadata pass,
+  Evidence insufficient, or Reviewed.
+- Search and the all-corpus Source evidence filter narrow the visible rows;
+  graph views expose only mapped sources and clear a Research-only source when
+  returning to the graph.
 
 This keeps research incompleteness visible without allowing coverage rows to
 dominate the concept map.

@@ -3,12 +3,11 @@
 from pathlib import Path
 from importlib.metadata import distribution
 import json
+import re
 import sys
 import tempfile
 
 from openpyxl import load_workbook
-from pip._vendor.packaging.requirements import Requirement
-from pip._vendor.packaging.utils import canonicalize_name
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -119,29 +118,46 @@ constellations = json.loads((ROOT / "public" / "data" / "constellations.json").r
 assert validation_report["source_fingerprint"] == expected_research_fingerprint
 assert characters["meta"]["sourceFingerprint"] == expected_research_fingerprint
 
+def normalized_distribution_name(value: str) -> str:
+    return re.sub(r"[-_.]+", "-", value).lower()
+
+
+def exact_requirement(line: str) -> tuple[str, str]:
+    name, separator, version = line.partition("==")
+    assert separator and name.strip() and version.strip() and "*" not in version
+    assert not any(character in name for character in "[]<>=!~;")
+    return normalized_distribution_name(name.strip()), version.strip()
+
+
+def required_distribution_name(requirement: str) -> str:
+    declaration = requirement.partition(";")[0].strip()
+    stop = min(
+        (index for index, character in enumerate(declaration) if character in "[ (<>=!~"),
+        default=len(declaration),
+    )
+    name = declaration[:stop]
+    assert name
+    return normalized_distribution_name(name)
+
+
 manifest_requirements = {
-    canonicalize_name(requirement.name): requirement
+    name: version
     for line in reproducible.GENERATION_REQUIREMENTS_PATH.read_text(encoding="utf-8").splitlines()
     if line.strip() and not line.lstrip().startswith("#")
-    for requirement in [Requirement(line.strip())]
+    for name, version in [exact_requirement(line.strip())]
 }
-pending_dependencies = [canonicalize_name("openpyxl")]
+pending_dependencies = [normalized_distribution_name("openpyxl")]
 resolved_dependencies: set[str] = set()
 while pending_dependencies:
     dependency_name = pending_dependencies.pop()
     if dependency_name in resolved_dependencies:
         continue
     resolved_dependencies.add(dependency_name)
-    pinned = manifest_requirements[dependency_name]
-    specifiers = list(pinned.specifier)
-    assert len(specifiers) == 1 and specifiers[0].operator == "==" and "*" not in specifiers[0].version
+    pinned_version = manifest_requirements[dependency_name]
     installed = distribution(dependency_name)
-    assert installed.version in pinned.specifier
-    for dependency in installed.requires or []:
-        parsed = Requirement(dependency)
-        if parsed.marker and not parsed.marker.evaluate():
-            continue
-        required_name = canonicalize_name(parsed.name)
+    assert installed.version == pinned_version
+    for requirement in installed.requires or []:
+        required_name = required_distribution_name(requirement)
         assert required_name in manifest_requirements, (dependency_name, required_name)
         pending_dependencies.append(required_name)
 

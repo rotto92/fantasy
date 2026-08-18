@@ -410,6 +410,47 @@ if (!(await rovingSpecific.count())) {
   }
 }
 
+const familyOnlyFixture = concepts.nodes.find((node) => node.tier === 2 && node.childIds?.length);
+const familyOnlyLeaf = concepts.nodes.find((node) => node.tier === 3 && node.familyId === familyOnlyFixture?.id);
+if (!familyOnlyFixture || !familyOnlyLeaf) {
+  failures.push("compiled concepts have no Families-only selection fixture");
+} else {
+  await page.locator("#detail-level").selectOption("all");
+  await page.locator("#search").fill(familyOnlyFixture.label);
+  await page.locator(`.search-result[data-discovery-id="concept:${familyOnlyFixture.id}"]`).click();
+  await page.locator("#detail-level").selectOption("families");
+  const selectedFamilyState = {
+    specifics: await page.locator("#atlas-svg .specific-star:visible").count(),
+    specificTabs: await page.locator('#atlas-svg .specific-star[tabindex="0"]').count(),
+    visibleTabs: await page.locator('#atlas-svg .concept-star[tabindex="0"]:visible').count(),
+  };
+  await page.locator(`#atlas-svg .family-star[data-node-id="${familyOnlyFixture.id}"]`).focus();
+  await page.keyboard.press("ArrowRight");
+  selectedFamilyState.keyboardTarget = await page.evaluate(() => document.activeElement?.classList.contains("family-star"));
+  if (selectedFamilyState.specifics !== 0
+    || selectedFamilyState.specificTabs !== 0
+    || selectedFamilyState.visibleTabs !== 1
+    || !selectedFamilyState.keyboardTarget) {
+    failures.push(`Families only exposed specifics after family selection: ${JSON.stringify(selectedFamilyState)}`);
+  }
+
+  await page.locator("#search").fill(familyOnlyLeaf.label);
+  await page.locator(`.search-result[data-discovery-id="concept:${familyOnlyLeaf.id}"]`).click();
+  const selectedLeafState = {
+    specificIds: await page.locator("#atlas-svg .specific-star:visible").evaluateAll((marks) =>
+      marks.map((mark) => mark.getAttribute("data-node-id")),
+    ),
+    specificTabIds: await page.locator('#atlas-svg .specific-star[tabindex="0"]').evaluateAll((marks) =>
+      marks.map((mark) => mark.getAttribute("data-node-id")),
+    ),
+  };
+  if (JSON.stringify(selectedLeafState.specificIds) !== JSON.stringify([familyOnlyLeaf.id])
+    || JSON.stringify(selectedLeafState.specificTabIds) !== JSON.stringify([familyOnlyLeaf.id])) {
+    failures.push(`Families only exposed unrelated specifics after leaf selection: ${JSON.stringify(selectedLeafState)}`);
+  }
+  await page.locator("#reset-view").click();
+}
+
 if (mappedConcept) {
   await page.locator("#search").fill(mappedConcept.label);
   await page.locator(".search-result").first().waitFor();
@@ -825,6 +866,33 @@ await mobile.locator('.search-result[data-discovery-id="character:CHR-SRC001-021
 if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
   failures.push("mobile search fixture did not open the detail drawer");
 }
+await mobile.keyboard.press("/");
+await mobile.locator("#search").fill("human");
+const mobileMatchingQuery = {
+  detailOpen: await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")),
+  resultsVisible: await mobile.locator("#search-results").isVisible(),
+  concept: await mobile.locator(".concept-detail-header h2").textContent().catch(() => null),
+};
+if (mobileMatchingQuery.detailOpen
+  || !mobileMatchingQuery.resultsVisible
+  || mobileMatchingQuery.concept !== "Human and Near-Human Peoples") {
+  failures.push(`mobile matching query reopened the detail drawer: ${JSON.stringify(mobileMatchingQuery)}`);
+}
+await mobile.locator("#search").press("Escape");
+const mobileEscapedQuery = {
+  query: await mobile.locator("#search").inputValue(),
+  detailOpen: await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")),
+  detailHeaders: await mobile.locator(".concept-detail-header, .discovery-detail-header").count(),
+  focusVisible: await mobile.locator("#focus-banner").isVisible(),
+};
+if (mobileEscapedQuery.query
+  || mobileEscapedQuery.detailOpen
+  || mobileEscapedQuery.detailHeaders !== 0
+  || mobileEscapedQuery.focusVisible) {
+  failures.push(`mobile Escape retained stale selection state: ${JSON.stringify(mobileEscapedQuery)}`);
+}
+await mobile.locator("#search").fill("Achilles");
+await mobile.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click({ force: true });
 await mobile.keyboard.press("/");
 await mobile.locator("#search").fill("asura");
 if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))

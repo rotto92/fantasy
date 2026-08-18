@@ -314,6 +314,12 @@ interface SelectionState {
   origin: SelectionOrigin;
 }
 
+interface QueryTransitionOptions {
+  reconcileSelection?: boolean;
+  renderCurrentView?: boolean;
+  updateResults?: boolean;
+}
+
 const byId = <T extends Element>(id: string): T => {
   const value = document.getElementById(id);
   if (!value) throw new Error(`Missing element #${id}`);
@@ -478,10 +484,6 @@ function downgradeSelectionToConcept(): void {
     query: null,
     origin: selection.nodeId ? "click" : null,
   };
-}
-
-function detachSelectionQuery(): void {
-  selection = { ...selection, query: null };
 }
 
 function reconcileSelectionWithQuery(query: string): boolean {
@@ -1281,7 +1283,11 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
   const context = selected ? selectionContext(selected) : undefined;
   const focusedLabels = selected && context ? focusLabelIds(selected, context, transform.k >= 2.8) : new Set<string>();
   const familyPosition = context ? positionById.get(context.familyId) : undefined;
-  const showSpecific = Boolean(selected) || detailLevel === "all" || (detailLevel === "auto" && (!compactViewport || transform.k >= 1.3));
+  const retainedSpecificId = detailLevel === "families" && selected?.tier === 3 ? selected.id : null;
+  const showSpecific = detailLevel !== "families"
+    && (Boolean(selected) || detailLevel === "all" || (!compactViewport || transform.k >= 1.3));
+  const specificIsVisible = (positioned: PositionedNode): boolean =>
+    showSpecific || positioned.node.id === retainedSpecificId;
   const showSpecificLabels =
     detailLevel === "all" ? transform.k >= 1.5 : transform.k >= (filtersActive ? 2.25 : 3.35);
   const compactFamilyLabels = new Set<string>();
@@ -1311,6 +1317,7 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
   );
   const specificLabelCandidates = [...positionById.values()]
     .filter((positioned) => positioned.node.tier === 3)
+    .filter(specificIsVisible)
     .filter((positioned) => selected
       ? focusedLabels.has(positioned.node.id) || (transform.k >= 6 && context?.familyMembers.has(positioned.node.id))
       : showSpecific && showSpecificLabels)
@@ -1330,8 +1337,10 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
   svg.selectAll<SVGGElement, PositionedNode>(".star-glyph").attr("transform", `scale(${glyphScale})`);
   svg
     .selectAll<SVGGElement, PositionedNode>(".specific-star")
-    .style("display", showSpecific ? "" : "none")
-    .style("opacity", showSpecific ? (transform.k > 1.25 ? 0.96 : 0.62) : 0);
+    .style("display", (positioned) => specificIsVisible(positioned) ? "" : "none")
+    .style("opacity", (positioned) => specificIsVisible(positioned) ? (transform.k > 1.25 ? 0.96 : 0.62) : 0)
+    .attr("aria-hidden", (positioned) => specificIsVisible(positioned) ? null : "true")
+    .attr("tabindex", (positioned) => specificIsVisible(positioned) && positioned.node.id === rovingNodeId ? 0 : -1);
   svg
     .selectAll<SVGTextElement, PositionedNode>(".specific-label")
     .style("display", (positioned) => visibleSpecificLabels.has(positioned.node.id) ? "" : "none")
@@ -2380,18 +2389,31 @@ function populateFilters(): void {
     familyFilter.append(option);
     familyColor.set(family.id, familyPalette[familyColor.size % familyPalette.length]);
   }
+  syncSourceFilterScope();
+}
+
+function sourceFilterSources(mode = viewMode): CorpusSource[] {
+  const mappedSourceIds = new Set(concepts.nodes.flatMap((node) => node.sourceIds));
+  return research.corpusSources
+    .filter((source) => mode === "research" || mappedSourceIds.has(source.sourceId))
+    .sort((left, right) => d3.ascending(left.title, right.title));
+}
+
+function syncSourceFilterScope(): void {
+  const sources = sourceFilterSources();
+  if (selectedSource && !sources.some((source) => source.sourceId === selectedSource)) selectedSource = "";
   sourceFilter.replaceChildren();
   const allSources = element("option") as HTMLOptionElement;
   allSources.value = "";
-  allSources.textContent = "All sources";
+  allSources.textContent = viewMode === "research" ? "All corpus sources" : "All mapped sources";
   sourceFilter.append(allSources);
-  const mappedSources = new Set(concepts.nodes.flatMap((node) => node.sourceIds));
-  for (const source of research.corpusSources.filter((item) => mappedSources.has(item.sourceId)).sort((left, right) => d3.ascending(left.title, right.title))) {
+  for (const source of sources) {
     const option = element("option") as HTMLOptionElement;
     option.value = source.sourceId;
     option.textContent = source.title;
     sourceFilter.append(option);
   }
+  sourceFilter.value = selectedSource;
 }
 
 function showSearchResults(query: string, limit = searchResultPageSize): void {
@@ -2433,7 +2455,6 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
       button.append(element("small", "result-caution", "Alias is scoped to this source witness; traditions are not merged."));
     }
     button.addEventListener("click", () => {
-      searchInput.value = query;
       searchResults.hidden = true;
       setDiscoverySelection(record, query);
       const targetView = record.kind === "source" && !selection.nodeId ? "research" : "constellations";
@@ -2477,13 +2498,33 @@ function setMobileControlsOpen(open: boolean): void {
   mobileControlsToggle.setAttribute("aria-expanded", String(open));
 }
 
+function transitionQuery(
+  value: string,
+  {
+    reconcileSelection = true,
+    renderCurrentView = true,
+    updateResults = true,
+  }: QueryTransitionOptions = {},
+): void {
+  const query = value.trim();
+  searchInput.value = value;
+  const selectionChanged = reconcileSelection && reconcileSelectionWithQuery(query);
+  researchQuery = viewMode === "research" ? query : "";
+  if (renderCurrentView && (selectionChanged || viewMode === "research")) render();
+  if (document.activeElement === searchInput && window.matchMedia("(max-width: 1040px)").matches) {
+    setMobileControlsOpen(false);
+    detailPanel?.classList.remove("is-open");
+  }
+  if (updateResults) showSearchResults(query);
+}
+
 function transitionToView(nextView: ViewMode, query = selection.query ?? searchInput.value.trim()): void {
   if (nextView !== viewMode) setConceptScopeFilter();
   viewMode = nextView;
   if (viewMode === "research") setEvidenceFilter();
   syncEvidenceControlAvailability();
-  researchQuery = viewMode === "research" ? query : "";
-  searchInput.value = query;
+  syncSourceFilterScope();
+  transitionQuery(query, { reconcileSelection: false, renderCurrentView: false, updateResults: false });
   setMobileControlsOpen(false);
   render();
 }
@@ -2528,12 +2569,7 @@ function bindEvents(): void {
     render();
   });
   searchInput.addEventListener("input", () => {
-    const query = searchInput.value.trim();
-    const selectionChanged = reconcileSelectionWithQuery(query);
-    if (viewMode === "research") researchQuery = query;
-    if (selectionChanged) render();
-    else if (viewMode === "research") renderResearch();
-    showSearchResults(query);
+    transitionQuery(searchInput.value);
   });
   searchInput.addEventListener("focus", () => {
     if (window.matchMedia("(max-width: 1040px)").matches) {
@@ -2543,11 +2579,8 @@ function bindEvents(): void {
   });
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
-      searchInput.value = "";
-      detachSelectionQuery();
-      researchQuery = "";
-      if (viewMode === "research") renderResearch();
-      showSearchResults("");
+      event.preventDefault();
+      transitionQuery("");
     }
     if (event.key === "Enter") {
       const first = searchResults.querySelector<HTMLButtonElement>(".search-result");
@@ -2577,8 +2610,7 @@ function bindEvents(): void {
     sourceFilter.value = "";
     detailLevelSelect.value = "auto";
     lineModeSelect.value = "none";
-    searchInput.value = "";
-    researchQuery = "";
+    transitionQuery("", { renderCurrentView: false, updateResults: false });
     setMobileControlsOpen(false);
     render();
     showSearchResults("");
