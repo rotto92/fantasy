@@ -86,21 +86,48 @@ const egyptianTerm = research.sourceTerms.find((term) => term.term_id === "STM-S
 const boundaryRecord = research.researchBoundaries?.find((record) => record.term_id === "STM-SRC033-001");
 const semanticRoleTermIds = ["STM-SRC192-003", "STM-SRC218-002"];
 const source277Record = discovery.records.find((record) => record.id === "source:SRC-277");
+const expectedWowPlayableRaceLabels = [
+  "Blood Elf",
+  "Dark Iron Dwarf",
+  "Dracthyr",
+  "Draenei",
+  "Dwarf",
+  "Earthen",
+  "Gnome",
+  "Goblin",
+  "Haranir",
+  "Highmountain Tauren",
+  "Human",
+  "Kul Tiran",
+  "Lightforged Draenei",
+  "Mag'har Orc",
+  "Mechagnome",
+  "Night Elf",
+  "Nightborne",
+  "Orc",
+  "Pandaren",
+  "Tauren",
+  "Troll",
+  "Undead",
+  "Void Elf",
+  "Vulpera",
+  "Worgen",
+  "Zandalari Troll",
+].sort();
 const wowPlayableRaceTerms = research.sourceTerms.filter((term) =>
   term.source_id === "SRC-136" && term.work_or_witness.includes("Playable Races directory"));
-const wowPlayableRaceLabels = new Set(wowPlayableRaceTerms.map((term) => term.canonical_term));
+const wowPlayableRaceLabels = wowPlayableRaceTerms.map((term) => term.canonical_term).sort();
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
-for (const label of ["Blood Elf", "Night Elf"]) {
-  if (!wowPlayableRaceLabels.has(label)) failures.push(`World of Warcraft source pass omitted ${label}`);
+if (JSON.stringify(wowPlayableRaceLabels) !== JSON.stringify(expectedWowPlayableRaceLabels)) {
+  failures.push(`World of Warcraft playable-race set differs from the bounded official directory: ${JSON.stringify(wowPlayableRaceLabels)}`);
+}
+for (const label of expectedWowPlayableRaceLabels) {
   const record = discovery.records.find((candidate) =>
     candidate.kind === "source-term"
     && candidate.sourceId === "SRC-136"
     && candidate.label === label);
   if (!record) failures.push(`discovery index omitted the accepted ${label} source term`);
-}
-if (wowPlayableRaceLabels.size < 20) {
-  failures.push(`World of Warcraft playable-race pass remained a two-term patch: ${wowPlayableRaceLabels.size}`);
 }
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
 if (xeniaRecord?.normalizedConceptIds.length || !xeniaRecord?.mappingQuarantined || xeniaRecord.relatedConceptIds.length) {

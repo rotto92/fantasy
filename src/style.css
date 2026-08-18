@@ -118,6 +118,7 @@ button { color: inherit; }
   background: var(--gold);
   box-shadow: 0 0 12px rgba(239, 200, 122, 0.48);
 }
+.view-label-compact { display: none; }
 .mobile-controls-toggle { display: none; }
 
 .search-wrap {
@@ -919,6 +920,9 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 @media (max-width: 520px) {
   #app { grid-template-rows: 66px minmax(0, 1fr) 30px; }
   .topbar { grid-template-columns: 44px 64px minmax(0, 1fr); gap: 8px; padding-inline: 8px; }
+  .view-button { min-width: 0; padding-inline: 2px; font-size: var(--micro-size); }
+  .view-label-full { display: none; }
+  .view-label-compact { display: inline; }
   .brand { justify-content: center; min-width: 44px; min-height: 44px; }
   .brand-sigil { width: 30px; height: 30px; }
   .search-wrap { min-width: 0; height: 42px; }

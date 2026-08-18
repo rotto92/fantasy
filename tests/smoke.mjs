@@ -37,6 +37,16 @@ await page.locator('.view-button[data-view="constellations"]').click();
 const composerBeing = concepts.nodes.find((node) => node.tier === 3 && node.nodeKind === "being" && node.examples?.length);
 const composerRole = concepts.nodes.find((node) => node.tier === 3 && node.nodeKind === "class" && node.examples?.length);
 await page.locator('.view-button[data-view="compose"]').click();
+const expectedComposerIds = concepts.nodes
+  .filter((node) => node.tier === 3 && node.examples?.length)
+  .map((node) => node.id)
+  .sort();
+const composerOptionIds = (await page.locator('#compose-being option[value]:not([value=""]), #compose-role option[value]:not([value=""])').evaluateAll((options) =>
+  options.map((option) => option.value),
+)).sort();
+if (JSON.stringify(composerOptionIds) !== JSON.stringify(expectedComposerIds)) {
+  failures.push(`composer choices are not limited to cited concepts: ${JSON.stringify(composerOptionIds)}`);
+}
 if (!composerBeing || !composerRole) {
   failures.push("compiled concepts have no evidence-backed composer fixture");
 } else {
@@ -1005,6 +1015,22 @@ for (const viewport of [
     failures.push(`${viewport.label} home link is smaller than the touch target`);
   }
   if (viewport.width <= 1040) {
+    const navigationMetrics = await responsive.locator(".view-switcher").evaluate((navigation) => {
+      const bounds = navigation.getBoundingClientRect();
+      const buttons = [...navigation.querySelectorAll(".view-button")].map((button) => {
+        const rect = button.getBoundingClientRect();
+        return { left: rect.left, right: rect.right, height: rect.height };
+      });
+      return { left: bounds.left, right: bounds.right, buttons };
+    });
+    if (navigationMetrics.buttons.some((button) =>
+      button.left < navigationMetrics.left - 1
+      || button.right > navigationMetrics.right + 1
+      || button.left < -1
+      || button.right > viewport.width + 1
+      || button.height < 44)) {
+      failures.push(`${viewport.label} view navigation is clipped or not touch-operable: ${JSON.stringify(navigationMetrics)}`);
+    }
     const controlsToggle = responsive.locator("#mobile-controls-toggle");
     const toggleBox = await controlsToggle.boundingBox();
     if (!toggleBox || toggleBox.width < 44 || toggleBox.height < 44 || await controlsToggle.getAttribute("aria-expanded") !== "false") {

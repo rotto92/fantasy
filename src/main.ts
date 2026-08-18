@@ -1828,6 +1828,10 @@ function renderCatalogue(): void {
   }
 }
 
+function availableCompositionConcepts(): ConceptNode[] {
+  return visibleConcepts().filter((node) => node.tier === 3 && node.examples.length > 0);
+}
+
 function appendCompositionOptions(
   select: HTMLSelectElement,
   kind: ConceptNode["nodeKind"],
@@ -1838,8 +1842,8 @@ function appendCompositionOptions(
   placeholderOption.value = "";
   placeholderOption.textContent = placeholder;
   select.append(placeholderOption);
-  const leaves = visibleConcepts()
-    .filter((node) => node.tier === 3 && node.nodeKind === kind)
+  const leaves = availableCompositionConcepts()
+    .filter((node) => node.nodeKind === kind)
     .sort((left, right) => d3.ascending(left.label, right.label));
   const familyIds = [...new Set(leaves.map((node) => node.familyId))];
   for (const familyId of familyIds) {
@@ -1849,7 +1853,7 @@ function appendCompositionOptions(
     for (const node of leaves.filter((candidate) => candidate.familyId === familyId)) {
       const option = element("option") as HTMLOptionElement;
       option.value = node.id;
-      option.textContent = `${node.label}${node.evidenceCount ? ` · ${node.evidenceCount} examples` : " · framework"}`;
+      option.textContent = `${node.label} · ${node.evidenceCount} examples`;
       group.append(option);
     }
     select.append(group);
@@ -1937,19 +1941,18 @@ function renderCompose(): void {
   board.hidden = false;
   board.replaceChildren();
   hideTooltip();
-  const available = visibleConcepts().filter((node) => node.tier === 3);
+  const available = availableCompositionConcepts();
   const availableIds = new Set(available.map((node) => node.id));
   if (composition.beingId && !availableIds.has(composition.beingId)) composition.beingId = "";
   if (composition.roleId && !availableIds.has(composition.roleId)) composition.roleId = "";
   const beingCount = available.filter((node) => node.nodeKind === "being").length;
   const roleCount = available.filter((node) => node.nodeKind === "class").length;
-  const evidencedCount = available.filter((node) => node.evidenceCount > 0).length;
   const sourceCount = new Set(available.flatMap((node) => node.sourceIds)).size;
-  visibleCount.textContent = `${available.length.toLocaleString()} composition choices`;
+  visibleCount.textContent = `${available.length.toLocaleString()} cited composition choices`;
   updateScopeFacts([
     [beingCount, "being concepts"],
     [roleCount, "role concepts"],
-    [evidencedCount, "evidenced choices"],
+    [available.length, "cited choices"],
     [sourceCount, "mapped sources"],
   ]);
   statusSummary.textContent = `${beingCount.toLocaleString()} beings · ${roleCount.toLocaleString()} roles · user-created combinations stay separate from canonical evidence`;
@@ -2381,8 +2384,9 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
 function renderOverviewDetail(): void {
   detailContent.replaceChildren();
   if (viewMode === "compose") {
-    const beingCount = visibleConcepts().filter((node) => node.tier === 3 && node.nodeKind === "being").length;
-    const roleCount = visibleConcepts().filter((node) => node.tier === 3 && node.nodeKind === "class").length;
+    const available = availableCompositionConcepts();
+    const beingCount = available.filter((node) => node.nodeKind === "being").length;
+    const roleCount = available.filter((node) => node.nodeKind === "class").length;
     const header = element("header", "overview-header");
     header.append(element("p", "eyebrow", "Composition companion"), element("h2", "", "Your idea, with its evidence visible"));
     header.append(element("p", "detail-copy lead", "Build freely from normalized concepts, then inspect the source examples that informed each comparison category."));
