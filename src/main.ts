@@ -423,6 +423,10 @@ let currentZoom: d3.ZoomBehavior<SVGSVGElement, unknown> | null = null;
 let currentTransform = d3.zoomIdentity;
 let resizeTimer = 0;
 let rovingNodeId: string | null = null;
+const drawerState = {
+  controlsOpen: false,
+  detailOpen: false,
+};
 
 const nodeById = new Map<string, ConceptNode>();
 let visibleNodes: ConceptNode[] = [];
@@ -446,12 +450,14 @@ function clearSelection(): void {
     query: null,
     origin: null,
   };
+  setDetailOpen(false);
 }
 
 function setNodeSelection(
   nodeId: string | null,
   origin: SelectionOrigin,
   discoveryContextId: string | null = null,
+  query: string | null = null,
 ): void {
   if (!nodeId) {
     clearSelection();
@@ -461,9 +467,10 @@ function setNodeSelection(
     nodeId,
     discoveryId: null,
     discoveryContextId,
-    query: null,
+    query: discoveryContextId ? query : null,
     origin,
   };
+  setDetailOpen(true);
 }
 
 function setDiscoverySelection(record: DiscoveryRecord, query: string): void {
@@ -475,6 +482,7 @@ function setDiscoverySelection(record: DiscoveryRecord, query: string): void {
     query,
     origin: nodeId ? "search" : null,
   };
+  setDetailOpen(true);
 }
 
 function downgradeSelectionToConcept(): void {
@@ -497,7 +505,6 @@ function reconcileSelectionWithQuery(query: string): boolean {
   if (conceptStillMatches) downgradeSelectionToConcept();
   else {
     clearSelection();
-    detailPanel?.classList.remove("is-open");
   }
   return true;
 }
@@ -1780,8 +1787,10 @@ function renderResearch(): void {
   header.append(headerRow);
   table.append(header);
   const body = element("tbody");
-  const selectedRecord = selection.query === researchQuery
-    ? discoveryRecordById(selection.discoveryId)
+  const scopedSelectionRecord = discoveryRecordById(selection.discoveryContextId)
+    ?? discoveryRecordById(selection.discoveryId);
+  const selectedRecord = selection.query && foldSearch(selection.query) === foldSearch(researchQuery)
+    ? scopedSelectionRecord
     : undefined;
   const matchedSourceIds = selectedRecord?.sourceId
     ? new Set([selectedRecord.sourceId])
@@ -1860,7 +1869,6 @@ function closeDetail(): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   const focusBelongsToRelationMap = viewMode === "relations" && svgElement.contains(document.activeElement);
   clearSelection();
-  detailPanel?.classList.remove("is-open");
   renderDetail();
   renderFocusBanner();
   if (viewMode === "constellations") {
@@ -1878,7 +1886,7 @@ function focusDetailHeading(): void {
 
 function hideDetail(): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
-  detailPanel?.classList.remove("is-open");
+  setDetailOpen(false);
   if (focusBelongsToDetail) {
     const candidates = viewMode === "catalogue" && !board.hidden
       ? [...board.querySelectorAll<HTMLElement>("[data-node-id]")]
@@ -1898,7 +1906,6 @@ function hideDetail(): void {
 
 function renderDiscoveryDetail(record: DiscoveryRecord): void {
   detailContent.replaceChildren();
-  detailPanel?.classList.add("is-open");
   const close = element("button", "mobile-detail-close", "×") as HTMLButtonElement;
   close.type = "button";
   close.setAttribute("aria-label", "Close discovery detail");
@@ -2095,7 +2102,6 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
 
 function renderOverviewDetail(): void {
   detailContent.replaceChildren();
-  detailPanel?.classList.remove("is-open");
   const header = element("header", "overview-header");
   header.append(element("p", "eyebrow", "A legible ontology"), element("h2", "", "Two skies, twenty constellations"));
   header.append(element("p", "detail-copy lead", "The map contains only reusable fantasy beings/races/entities and classes/vocations. Everything else is evidence or context."));
@@ -2132,7 +2138,6 @@ function relationLabel(selected: ConceptNode, other: ConceptNode): string {
 
 function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryRecord): void {
   detailContent.replaceChildren();
-  detailPanel?.classList.add("is-open");
   const close = element("button", "mobile-detail-close", "×") as HTMLButtonElement;
   close.type = "button";
   close.setAttribute("aria-label", "Close concept detail");
@@ -2296,6 +2301,7 @@ function renderDetail(): void {
   if (discoveryRecord?.kind !== "concept" && discoveryRecord) renderDiscoveryDetail(discoveryRecord);
   else if (node) renderConceptDetail(node, discoveryContext);
   else renderOverviewDetail();
+  syncDrawerVisibility();
 }
 
 function renderFocusBanner(): void {
@@ -2324,7 +2330,8 @@ function selectNode(
   refreshRelationView = true,
 ): void {
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
-  setNodeSelection(nodeId, origin, discoveryContextId);
+  const scopedQuery = discoveryContextId ? selection.query : null;
+  setNodeSelection(nodeId, origin, discoveryContextId, scopedQuery);
   renderDetail();
   renderFocusBanner();
   if (viewMode === "constellations") {
@@ -2358,7 +2365,6 @@ function selectionProvenanceInScope(): boolean {
 function reconcileFilteredSelection(): void {
   if (selection.nodeId && !visibleNodeById.has(selection.nodeId)) {
     clearSelection();
-    detailPanel?.classList.remove("is-open");
   } else if (!selectionProvenanceInScope()) {
     if (selection.nodeId) downgradeSelectionToConcept();
     else clearSelection();
@@ -2510,8 +2516,20 @@ function fitView(): void {
 }
 
 function setMobileControlsOpen(open: boolean): void {
-  lensPanel.classList.toggle("is-open", open);
-  mobileControlsToggle.setAttribute("aria-expanded", String(open));
+  drawerState.controlsOpen = open;
+  if (open) drawerState.detailOpen = false;
+  syncDrawerVisibility();
+}
+
+function setDetailOpen(open: boolean): void {
+  drawerState.detailOpen = open && !drawerState.controlsOpen;
+  syncDrawerVisibility();
+}
+
+function syncDrawerVisibility(): void {
+  lensPanel.classList.toggle("is-open", drawerState.controlsOpen);
+  mobileControlsToggle.setAttribute("aria-expanded", String(drawerState.controlsOpen));
+  detailPanel?.classList.toggle("is-open", drawerState.detailOpen && !drawerState.controlsOpen);
 }
 
 function transitionQuery(
@@ -2529,12 +2547,13 @@ function transitionQuery(
   if (renderCurrentView && (selectionChanged || viewMode === "research")) render();
   if (document.activeElement === searchInput && window.matchMedia("(max-width: 1040px)").matches) {
     setMobileControlsOpen(false);
-    detailPanel?.classList.remove("is-open");
+    setDetailOpen(false);
   }
   if (updateResults) showSearchResults(query);
 }
 
 function transitionToView(nextView: ViewMode, query = selection.query ?? searchInput.value.trim()): void {
+  const controlsWereOpen = drawerState.controlsOpen;
   if (nextView !== viewMode) setConceptScopeFilter();
   viewMode = nextView;
   if (viewMode === "research") setEvidenceFilter();
@@ -2547,13 +2566,15 @@ function transitionToView(nextView: ViewMode, query = selection.query ?? searchI
     updateResults: false,
   });
   setMobileControlsOpen(false);
+  if (!controlsWereOpen && (selection.nodeId || selection.discoveryId || selection.discoveryContextId)) {
+    setDetailOpen(true);
+  }
   render();
 }
 
 function bindEvents(): void {
   mobileControlsToggle.addEventListener("click", () => {
-    const open = mobileControlsToggle.getAttribute("aria-expanded") !== "true";
-    if (open) detailPanel?.classList.remove("is-open");
+    const open = !drawerState.controlsOpen;
     setMobileControlsOpen(open);
   });
   document.querySelectorAll<HTMLButtonElement>(".view-button").forEach((button) => {
@@ -2589,7 +2610,7 @@ function bindEvents(): void {
   searchInput.addEventListener("focus", () => {
     if (window.matchMedia("(max-width: 1040px)").matches) {
       setMobileControlsOpen(false);
-      detailPanel?.classList.remove("is-open");
+      setDetailOpen(false);
     }
   });
   searchInput.addEventListener("keydown", (event) => {

@@ -968,10 +968,35 @@ for (const viewport of [
     if (!toggleBox || toggleBox.width < 44 || toggleBox.height < 44 || await controlsToggle.getAttribute("aria-expanded") !== "false") {
       failures.push(`${viewport.label} controls toggle is not a collapsed touch target`);
     }
+    await responsive.locator("#search").fill("Human and Near-Human Peoples");
+    await responsive.locator('.search-result[data-discovery-id="concept:PPL-101"]').click();
+    if (!(await responsive.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
+      failures.push(`${viewport.label} retaining-source fixture did not open concept detail`);
+    }
     await controlsToggle.click();
     if (!(await responsive.locator("#lens-panel").isVisible()) || await controlsToggle.getAttribute("aria-expanded") !== "true") {
       failures.push(`${viewport.label} controls drawer did not expose its expanded state`);
     }
+    await responsive.locator("#source-filter").selectOption("SRC-001");
+    const filteredDrawerState = {
+      controlsOpen: await responsive.locator("#lens-panel").isVisible(),
+      expanded: await controlsToggle.getAttribute("aria-expanded"),
+      detailOpen: await responsive.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")),
+      selectedConcept: await responsive.locator('#atlas-svg .is-selected[data-node-id="PPL-101"]').count(),
+      source: await responsive.locator("#source-filter").inputValue(),
+    };
+    if (!filteredDrawerState.controlsOpen
+      || filteredDrawerState.expanded !== "true"
+      || filteredDrawerState.detailOpen
+      || filteredDrawerState.selectedConcept !== 1
+      || filteredDrawerState.source !== "SRC-001") {
+      failures.push(`${viewport.label} retaining Source reopened detail over Controls: ${JSON.stringify(filteredDrawerState)}`);
+    }
+    await controlsToggle.click();
+    if (await responsive.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))) {
+      failures.push(`${viewport.label} closing Controls implicitly reopened concept detail`);
+    }
+    await controlsToggle.click();
     for (const selector of ["#reset-view", "#domain-filter", "#detail-level", "#source-filter", "#evidence-filter"]) {
       const box = await responsive.locator(selector).boundingBox();
       if (!box || box.height < 44) failures.push(`${viewport.label} ${selector} is not touch-operable in the controls drawer`);
@@ -987,6 +1012,18 @@ for (const viewport of [
       failures.push(`${viewport.label} controls drawer did not expose the catalogue family filter`);
     }
     await responsive.locator("#reset-view").click();
+
+    await responsive.locator("#search").fill("Vali");
+    await responsive.locator('.search-result[data-discovery-id="character:CHR-SRC015-026"]').click();
+    await responsive.locator(".primary-button").filter({ hasText: "Open related concept" }).click();
+    await responsive.locator(".mobile-detail-close").click();
+    await responsive.locator('.view-button[data-view="research"]').click();
+    const valiRows = await responsive.locator(".research-table tbody tr").allTextContents();
+    if (valiRows.length !== 1
+      || !valiRows[0].includes("Ramayana")
+      || valiRows.some((row) => row.includes("Norse Mythology"))) {
+      failures.push(`${viewport.label} scoped Vāli navigation broadened Research: ${JSON.stringify(valiRows)}`);
+    }
   }
   await responsive.close();
 }

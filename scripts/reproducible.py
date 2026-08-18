@@ -123,7 +123,7 @@ def normalize_xlsx(path: Path) -> None:
                 info = zipfile.ZipInfo(name, date_time=(2000, 1, 1, 0, 0, 0))
                 info.compress_type = compression
                 info.external_attr = 0o600 << 16
-                archive.writestr(info, content)
+                archive.writestr(info, content, compresslevel=compression_level)
         temporary_path.replace(path)
     finally:
         temporary_path.unlink(missing_ok=True)
