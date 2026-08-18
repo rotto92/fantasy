@@ -546,26 +546,26 @@ def main() -> None:
     guide.column_dimensions["B"].width = 28
     guide.column_dimensions["C"].width = 92
     guide.merge_cells("B2:C2")
-    guide["B2"] = "Version 3 Interactive Relationship Atlas"
+    guide["B2"] = "Version 3 Data and Public Explorer Guide"
     guide["B2"].font = Font(name="Georgia", size=24, bold=True, color=INK)
     guide["B2"].fill = PatternFill("solid", fgColor=NAVY)
     guide["B3"] = "Deliverable"
-    guide["C3"] = "TypeScript + Sigma.js + Graphology WebGL explorer generated from this workbook."
+    guide["C3"] = "TypeScript + D3 concept explorer generated from this workbook and accepted research evidence."
     guide["B4"] = "Run locally"
     guide["C4"] = "From the project directory: npm install, then npm run dev. Open the local URL printed by Vite."
     guide["B5"] = "Build"
-    guide["C5"] = "npm run build regenerates this workbook's JSON graph projection, type-checks the app, and creates dist/."
-    guide["B7"] = "Semantic zoom"
-    guide["C7"] = "Far: eleven domains and all sources. Middle: archetype families and source bridges. Near: source concepts, canonical entries, adaptations, evidence, and citations."
-    guide["B8"] = "Coverage view"
-    guide["C8"] = "Separates orientation coverage (281/281 sources) from canonical source-pass coverage (currently 21/281 sources)."
+    guide["C5"] = "npm run build regenerates the tracked workbooks and public data, type-checks the app, and creates dist/."
+    guide["B7"] = "Public views"
+    guide["C7"] = "Constellations, Catalogue, Relations, and Research coordinate over normalized concepts and their evidence records."
+    guide["B8"] = "Map interaction"
+    guide["C8"] = "Constellations uses bounded pan and zoom with progressive disclosure; Relations stays local to the selected concept, while Catalogue and Research provide semantic alternatives."
     guide["B9"] = "Integrity rule"
     guide["C9"] = "Source Concept Map rows are orientation coordinates derived from editorial corpus notes. They must not be cited as canonical claims. Seed Catalogue remains the canonical source-entry layer."
-    guide["B11"] = "Graph node types"
-    guide["C11"] = "Domain · normalized archetype · source/tradition · orientation concept · canonical source entry · adaptation crosswalk."
-    guide["B12"] = "Graph edge types"
-    guide["C12"] = "taxonomy · canonical mapping · orientation mapping · source containment · adaptation · version · influence · implementation."
-    guide["B14"] = "Version 3 counts"
+    guide["B11"] = "Public graph nodes"
+    guide["C11"] = "Normalized being/entity and role/vocation concepts only; characters, sources, and source-native terms remain evidence records."
+    guide["B12"] = "Public relations"
+    guide["C12"] = "Evidence-backed normalized-concept relations appear only in the local Relations view; the global atlas has no edges."
+    guide["B14"] = "Version 3 workbook counts"
     guide["C14"] = f"{len(sources)} sources · {len(taxonomy)} archetypes · {len(entries)} canonical entries · {concept_index - 1} orientation concepts · {len(SOURCE_RELATIONSHIPS)} source relationships."
     for row in range(2, 15):
         guide.cell(row, 2).alignment = Alignment(vertical="top", wrap_text=True)
@@ -580,7 +580,7 @@ def main() -> None:
     start["B5"] = "3.0"
     start["A6"] = "Source fingerprint"
     start["B6"] = fingerprint
-    start["A3"] = "A source-faithful comparative ontology with complete corpus orientation coverage and a WebGL relationship explorer"
+    start["A3"] = "A comparative ontology with complete corpus orientation coverage, feeding a D3 explorer where only normalized concepts are graph nodes"
 
     dictionary = workbook["Data Dictionary"]
     new_dictionary_rows = [
