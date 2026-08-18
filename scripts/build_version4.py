@@ -6,8 +6,6 @@ from __future__ import annotations
 import argparse
 import json
 import shutil
-import subprocess
-import tempfile
 from collections import Counter
 from pathlib import Path
 from typing import Any, Iterable
@@ -92,7 +90,6 @@ def main() -> None:
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--research", type=Path, default=DEFAULT_RESEARCH)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
-    parser.add_argument("--recalculate", action="store_true")
     args = parser.parse_args()
     fingerprint = source_fingerprint([args.input, args.research, Path(__file__)])
 
@@ -327,30 +324,6 @@ def main() -> None:
     )
     workbook.calculation = CalcProperties(calcMode="auto", fullCalcOnLoad=True, forceFullCalc=True, calcOnSave=True)
     workbook.save(args.output)
-
-    office_binary = shutil.which("libreoffice") or shutil.which("soffice")
-    if args.recalculate and office_binary:
-        with tempfile.TemporaryDirectory(prefix="fantasy-atlas-v4-recalc-") as temporary_directory:
-            subprocess.run(
-                [
-                    office_binary,
-                    "--headless",
-                    "--convert-to",
-                    "xlsx",
-                    "--outdir",
-                    temporary_directory,
-                    str(args.output),
-                ],
-                check=True,
-                capture_output=True,
-                text=True,
-            )
-            recalculated = Path(temporary_directory) / args.output.name
-            if not recalculated.exists():
-                raise SystemExit("LibreOffice completed without producing the recalculated Version 4 workbook")
-            shutil.copy2(recalculated, args.output)
-    elif args.recalculate:
-        raise SystemExit("LibreOffice was requested but is not available")
 
     normalize_xlsx(args.output)
     print(

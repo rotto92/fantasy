@@ -1,0 +1,9 @@
+{
+  "reviewed_source_count": 0,
+  "pending_source_count": 3,
+  "retained_warning_source_ids": [],
+  "source_review_status": {},
+  "corpus_wide_reviews": [{"ledger": "review_fixture.json"}],
+  "record_quarantine": {"record_ids": [], "reason": ""},
+  "mapping_quarantine": {"policy": "unreviewed-sensitive-claim-mappings", "reason": "Fixture claims have no normalized mappings."}
+}

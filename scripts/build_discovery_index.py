@@ -40,27 +40,53 @@ VARIANT_RULES = [
 ]
 
 
-def casefold_replacements() -> dict[str, str]:
-    replacements: dict[str, str] = {}
+def build_search_fold_contract() -> dict[str, Any]:
+    normalization_map: dict[str, str] = {}
+    casefold_map: dict[str, str] = {}
+    discard_code_points: list[int] = []
+    alphanumeric_ranges: list[list[int]] = []
+    range_start: int | None = None
     for codepoint in range(sys.maxunicode + 1):
         character = chr(codepoint)
-        normalized = "".join(
-            value for value in unicodedata.normalize("NFKD", character) if not unicodedata.combining(value)
-        )
-        lowered = normalized.lower()
-        folded = normalized.casefold()
-        if len(lowered) == 1 and lowered != folded:
-            replacements[lowered] = folded
-    return dict(sorted(replacements.items()))
+        normalized = unicodedata.normalize("NFKD", character)
+        if normalized != character:
+            normalization_map[character] = normalized
+        folded = character.casefold()
+        if folded != character:
+            casefold_map[character] = folded
+        if unicodedata.combining(character):
+            discard_code_points.append(codepoint)
+        if character.isalnum():
+            if range_start is None:
+                range_start = codepoint
+        elif range_start is not None:
+            alphanumeric_ranges.append([range_start, codepoint - 1])
+            range_start = None
+    if range_start is not None:
+        alphanumeric_ranges.append([range_start, sys.maxunicode])
+    return {
+        "unicodeVersion": unicodedata.unidata_version,
+        "normalizationMap": normalization_map,
+        "casefoldMap": casefold_map,
+        "discardCodePoints": discard_code_points,
+        "alphanumericRanges": alphanumeric_ranges,
+    }
 
 
-FOLDING_REPLACEMENTS = casefold_replacements()
+SEARCH_FOLD_CONTRACT = build_search_fold_contract()
+NORMALIZATION_MAP: dict[str, str] = SEARCH_FOLD_CONTRACT["normalizationMap"]
+CASEFOLD_MAP: dict[str, str] = SEARCH_FOLD_CONTRACT["casefoldMap"]
+DISCARD_CODE_POINTS: set[int] = set(SEARCH_FOLD_CONTRACT["discardCodePoints"])
 
 
 def fold(value: Any) -> str:
-    normalized = unicodedata.normalize("NFKD", str(value or ""))
-    without_marks = "".join(character for character in normalized if not unicodedata.combining(character))
-    return "".join(character for character in without_marks.casefold() if character.isalnum())
+    normalized = "".join(NORMALIZATION_MAP.get(character, character) for character in str(value or ""))
+    folded = "".join(
+        CASEFOLD_MAP.get(character, character)
+        for character in normalized
+        if ord(character) not in DISCARD_CODE_POINTS
+    )
+    return "".join(character for character in folded if character.isalnum())
 
 
 def fold_tokens(value: Any) -> list[str]:
@@ -555,7 +581,7 @@ def main() -> None:
             },
             "coverage": coverage,
             "dimensionLabels": DIMENSION_LABELS,
-            "foldingMap": FOLDING_REPLACEMENTS,
+            "searchFold": SEARCH_FOLD_CONTRACT,
             "normalizationRules": VARIANT_RULES,
             "sourceConnections": source_connections,
         },

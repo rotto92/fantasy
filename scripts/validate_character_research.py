@@ -14,6 +14,7 @@ import json
 import re
 import unicodedata
 from collections import Counter, defaultdict
+from datetime import date
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -158,6 +159,249 @@ def require(record: dict[str, Any], keys: tuple[str, ...], context: str, errors:
             errors.append(f"{context}: missing required field {key}")
 
 
+def validate_required_strings(
+    record: dict[str, Any],
+    keys: tuple[str, ...],
+    context: str,
+    errors: list[str],
+) -> None:
+    for key in keys:
+        if key not in record:
+            errors.append(f"{context}: missing required field {key}")
+        elif not isinstance(record[key], str):
+            errors.append(f"{context}: {key} must be a string")
+        elif not record[key].strip():
+            errors.append(f"{context}: {key} must be a non-empty string")
+
+
+def validate_string_array(
+    record: dict[str, Any],
+    key: str,
+    context: str,
+    errors: list[str],
+    *,
+    required: bool = True,
+) -> None:
+    if key not in record:
+        if required:
+            errors.append(f"{context}: missing required field {key}")
+        return
+    value = record[key]
+    if not isinstance(value, list):
+        errors.append(f"{context}: {key} must be an array")
+    elif any(not isinstance(item, str) or not item.strip() for item in value):
+        errors.append(f"{context}: {key} must contain only non-empty strings")
+
+
+def validate_citation_schema(citations: Any, context: str, errors: list[str]) -> None:
+    if not isinstance(citations, list) or not citations:
+        errors.append(f"{context}: at least one claim-specific citation is required")
+        return
+    for index, citation in enumerate(citations, 1):
+        item_context = f"{context} citation {index}"
+        if not isinstance(citation, dict):
+            errors.append(f"{item_context}: citation must be an object")
+            continue
+        validate_required_strings(citation, ("url", "locator"), item_context, errors)
+        validate_string_array(citation, "supports", item_context, errors)
+        if isinstance(citation.get("supports"), list) and not citation["supports"]:
+            errors.append(f"{item_context}: supports must be a non-empty list of claims")
+
+
+def validate_source_audit_schema(record: dict[str, Any], context: str, errors: list[str]) -> None:
+    validate_required_strings(
+        record,
+        (
+            "source_id",
+            "source_title",
+            "continuity_scope",
+            "coverage_rule",
+            "completion_status",
+            "evidence_basis",
+            "last_reviewed",
+        ),
+        context,
+        errors,
+    )
+    for key in ("in_scope_character_count", "completed_character_count"):
+        if key not in record:
+            errors.append(f"{context}: missing required field {key}")
+        elif isinstance(record[key], bool) or not isinstance(record[key], int) or record[key] < 0:
+            errors.append(f"{context}: {key} must be a non-negative integer")
+    witnesses = record.get("work_or_witnesses")
+    if not isinstance(witnesses, list) or not witnesses:
+        errors.append(f"{context}: work_or_witnesses must be a non-empty array")
+    else:
+        for index, witness in enumerate(witnesses, 1):
+            witness_context = f"{context} work_or_witnesses[{index}]"
+            if isinstance(witness, str):
+                if not witness.strip():
+                    errors.append(f"{witness_context}: witness must be a non-empty string")
+            elif isinstance(witness, dict):
+                validate_required_strings(witness, ("work", "edition", "url"), witness_context, errors)
+            else:
+                errors.append(f"{witness_context}: witness must be a string or object")
+    validate_string_array(record, "omissions", context, errors)
+    validate_string_array(record, "uncertainties", context, errors)
+    validate_citation_schema(record.get("citations"), context, errors)
+    status = record.get("completion_status")
+    if isinstance(status, str) and status not in COMPLETION_STATUSES:
+        errors.append(f"{context}: invalid completion_status {status}")
+    reviewed = record.get("last_reviewed")
+    if isinstance(reviewed, str) and reviewed.strip():
+        try:
+            parsed = date.fromisoformat(reviewed)
+        except ValueError:
+            errors.append(f"{context}: last_reviewed must be a valid YYYY-MM-DD date")
+        else:
+            if parsed.isoformat() != reviewed:
+                errors.append(f"{context}: last_reviewed must use exact YYYY-MM-DD format")
+    in_scope = record.get("in_scope_character_count")
+    completed = record.get("completed_character_count")
+    if status in {"pass-complete", "narrow-metadata-pass-complete"} and in_scope != completed:
+        errors.append(f"{context}: {status} count does not match declared in-scope count")
+    if status == "evidence-insufficient-zero-character-audit" and (in_scope != 0 or completed != 0):
+        errors.append(f"{context}: evidence-insufficient audit counts must both be zero")
+
+
+def validate_character_schema(record: dict[str, Any], context: str, errors: list[str]) -> None:
+    validate_required_strings(
+        record,
+        (
+            "character_id",
+            "canonical_name",
+            "source_id",
+            "source_title",
+            "continuity",
+            "work_or_witness",
+            "character_kind",
+            "description",
+            "canon_status",
+            "evidence_level",
+            "spoiler_level",
+            "review_status",
+        ),
+        context,
+        errors,
+    )
+    validate_string_array(record, "aliases", context, errors)
+    validate_string_array(record, "comparison_cautions", context, errors)
+    validate_citation_schema(record.get("citations"), context, errors)
+    dimensions = record.get("dimensions")
+    if not isinstance(dimensions, dict):
+        errors.append(f"{context}: dimensions must be an object")
+        return
+    missing_dimensions = sorted(set(DIMENSIONS) - set(dimensions))
+    unknown_dimensions = sorted(set(dimensions) - set(DIMENSIONS))
+    if missing_dimensions:
+        errors.append(f"{context}: missing dimensions {', '.join(missing_dimensions)}")
+    if unknown_dimensions:
+        errors.append(f"{context}: unknown dimensions {', '.join(unknown_dimensions)}")
+    for dimension in DIMENSIONS:
+        if dimension not in dimensions:
+            continue
+        values = dimensions[dimension]
+        if not isinstance(values, list):
+            errors.append(f"{context}: dimension {dimension} must be an array")
+            continue
+        for index, value in enumerate(values, 1):
+            value_context = f"{context} {dimension}[{index}]"
+            if not isinstance(value, dict):
+                errors.append(f"{value_context}: dimension value must be an object")
+                continue
+            validate_required_strings(value, ("term", "confidence"), value_context, errors)
+            if "note" not in value:
+                errors.append(f"{value_context}: missing required field note")
+            elif not isinstance(value["note"], str):
+                errors.append(f"{value_context}: note must be a string")
+            validate_string_array(value, "archetype_ids", value_context, errors)
+
+
+def validate_relationship_schema(record: dict[str, Any], context: str, errors: list[str]) -> None:
+    validate_required_strings(
+        record,
+        (
+            "relationship_id",
+            "source_id",
+            "source_character_id",
+            "target_character_id",
+            "relationship_type",
+            "label",
+            "direction",
+            "continuity",
+            "confidence",
+        ),
+        context,
+        errors,
+    )
+    if "note" not in record:
+        errors.append(f"{context}: missing required field note")
+    elif not isinstance(record["note"], str):
+        errors.append(f"{context}: note must be a string")
+    validate_citation_schema(record.get("citations"), context, errors)
+
+
+def validate_source_term_schema(record: dict[str, Any], context: str, errors: list[str]) -> None:
+    record_kind = record.get("record_kind")
+    if record_kind not in SOURCE_TERM_RECORD_KINDS:
+        errors.append(f"{context}: invalid record_kind {record_kind}")
+    if record_kind == "research-boundary":
+        validate_required_strings(
+            record,
+            ("term_id", "record_kind", "source_id", "canonical_term", "definition", "review_status"),
+            context,
+            errors,
+        )
+    else:
+        validate_required_strings(
+            record,
+            (
+                "term_id",
+                "record_kind",
+                "source_id",
+                "canonical_term",
+                "work_or_witness",
+                "original_language",
+                "dimension",
+                "mapping_relation",
+                "definition",
+                "cultural_caution",
+                "review_status",
+            ),
+            context,
+            errors,
+        )
+        for key in ("original_script", "transliteration", "literal_gloss"):
+            if key not in record:
+                errors.append(f"{context}: missing required field {key}")
+            elif not isinstance(record[key], str):
+                errors.append(f"{context}: {key} must be a string")
+        validate_string_array(record, "archetype_ids", context, errors)
+        validate_string_array(record, "identity_forms", context, errors, required=False)
+    validate_citation_schema(record.get("citations"), context, errors)
+
+
+def validate_loaded_schema(
+    sources: list[dict[str, Any]],
+    characters: list[dict[str, Any]],
+    relationships: list[dict[str, Any]],
+    term_records: list[dict[str, Any]],
+    errors: list[str],
+) -> None:
+    for record in sources:
+        source_id = record.get("source_id")
+        validate_source_audit_schema(record, f"source audit {source_id or '<unknown>'}", errors)
+    for record in characters:
+        character_id = record.get("character_id")
+        validate_character_schema(record, f"character {character_id or '<unknown>'}", errors)
+    for record in relationships:
+        relationship_id = record.get("relationship_id")
+        validate_relationship_schema(record, f"relationship {relationship_id or '<unknown>'}", errors)
+    for record in term_records:
+        term_id = record.get("term_id")
+        validate_source_term_schema(record, f"source term {term_id or '<unknown>'}", errors)
+
+
 def host_is_disallowed(url: str) -> bool:
     host = (urlparse(url).hostname or "").lower()
     return any(host == blocked or host.endswith(f".{blocked}") for blocked in DISALLOWED_EVIDENCE_HOSTS)
@@ -178,8 +422,10 @@ def validate_citations(
         if not isinstance(citation, dict):
             errors.append(f"{item_context}: citation must be an object")
             continue
-        url = str(citation.get("url", "")).strip()
-        locator = str(citation.get("locator", "")).strip()
+        url_value = citation.get("url")
+        locator_value = citation.get("locator")
+        url = url_value.strip() if isinstance(url_value, str) else ""
+        locator = locator_value.strip() if isinstance(locator_value, str) else ""
         supports = citation.get("supports")
         if not re.match(r"^https?://", url):
             errors.append(f"{item_context}: stable http(s) URL required")
@@ -187,9 +433,11 @@ def validate_citations(
             warnings.append(f"{item_context}: orientation-only host cannot establish canonical evidence ({url})")
         else:
             allowed_count += 1
-        if not locator:
+        if not isinstance(locator_value, str) or not locator:
             errors.append(f"{item_context}: work/chapter/page/section locator required")
-        if not isinstance(supports, list) or not supports or not all(str(value).strip() for value in supports):
+        if not isinstance(supports, list) or not supports or not all(
+            isinstance(value, str) and value.strip() for value in supports
+        ):
             errors.append(f"{item_context}: supports must be a non-empty list of claims")
     if allowed_count == 0:
         errors.append(f"{context}: no allowable canonical evidence source remains")
@@ -516,6 +764,7 @@ def main() -> None:
     parser.add_argument("--research-root", type=Path, default=DEFAULT_RESEARCH_ROOT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--report", type=Path, default=DEFAULT_REPORT)
+    parser.add_argument("--review-index", type=Path, default=REVIEW_INDEX)
     args = parser.parse_args()
 
     workbook = load_workbook(args.workbook, read_only=True, data_only=True)
@@ -550,6 +799,37 @@ def main() -> None:
         all_characters.extend(load_array(bundle / "characters.json", errors))
         all_relationships.extend(load_array(bundle / "relationships.json", errors))
         all_term_records.extend(load_array(bundle / "source_terms.json", errors))
+
+    validate_loaded_schema(
+        all_sources,
+        all_characters,
+        all_relationships,
+        all_term_records,
+        errors,
+    )
+    if errors:
+        schema_report = {
+            "status": "invalid",
+            "bundles": [str(path.relative_to(ROOT)) for path in bundle_dirs],
+            "quarantinedBundles": [str(path.relative_to(ROOT)) for path in quarantined_bundle_dirs],
+            "counts": {
+                "source_audits": len(all_sources),
+                "characters": len(all_characters),
+                "relationships": len(all_relationships),
+                "source_term_records": len(all_term_records),
+                "errors": len(errors),
+                "warnings": len(warnings),
+            },
+            "errors": errors,
+            "warnings": warnings,
+        }
+        args.report.parent.mkdir(parents=True, exist_ok=True)
+        args.report.write_text(
+            json.dumps(schema_report, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        print(f"Character research validation failed with {len(errors)} schema error(s); see {args.report}")
+        raise SystemExit(1)
 
     for record in all_term_records:
         if record.get("record_kind") not in SOURCE_TERM_RECORD_KINDS:
@@ -594,8 +874,8 @@ def main() -> None:
         for field in ("in_scope_character_count", "completed_character_count"):
             if not isinstance(record.get(field), int) or int(record.get(field, -1)) < 0:
                 errors.append(f"{context}: {field} must be a non-negative integer")
-        if record.get("completion_status") == "pass-complete" and record.get("in_scope_character_count") != record.get("completed_character_count"):
-            errors.append(f"{context}: pass-complete count does not match declared in-scope count")
+        if record.get("completion_status") in {"pass-complete", "narrow-metadata-pass-complete"} and record.get("in_scope_character_count") != record.get("completed_character_count"):
+            errors.append(f"{context}: completed count does not match declared in-scope count")
         for field in ("omissions", "uncertainties"):
             if not isinstance(record.get(field, []), list):
                 errors.append(f"{context}: {field} must be an array")
@@ -903,12 +1183,12 @@ def main() -> None:
 
     review_index: dict[str, Any] = {}
     try:
-        loaded_review_index = json.loads(REVIEW_INDEX.read_text(encoding="utf-8"))
+        loaded_review_index = json.loads(args.review_index.read_text(encoding="utf-8"))
         if not isinstance(loaded_review_index, dict):
             raise ValueError("root must be an object")
         review_index = loaded_review_index
     except (OSError, json.JSONDecodeError, ValueError) as exc:
-        errors.append(f"{REVIEW_INDEX.relative_to(ROOT)}: cannot load independent-review index ({exc})")
+        errors.append(f"{args.review_index.relative_to(ROOT)}: cannot load independent-review index ({exc})")
 
     review_status_map = review_index.get("source_review_status", {})
     if review_index and not isinstance(review_status_map, dict):
@@ -960,7 +1240,7 @@ def main() -> None:
     reviewed_claim_ids_by_ledger: dict[str, set[str]] = {}
     review_ledger_paths: list[Path] = []
     for ledger_name in sorted(review_ledger_names):
-        ledger_path = REVIEW_INDEX.parent / ledger_name
+        ledger_path = args.review_index.parent / ledger_name
         review_ledger_paths.append(ledger_path)
         try:
             ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
@@ -1231,7 +1511,7 @@ def main() -> None:
     input_paths = [
         args.workbook,
         DIMENSION_SCHEMA_PATH,
-        REVIEW_INDEX,
+        args.review_index,
         *review_ledger_paths,
         Path(__file__),
         *discovered_bundle_dirs,

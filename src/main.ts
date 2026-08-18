@@ -272,12 +272,20 @@ interface DiscoveryPayload {
     counts: Record<string, number>;
     coverage: Record<string, DiscoveryCoverage>;
     dimensionLabels: Record<string, string>;
-    foldingMap: Record<string, string>;
+    searchFold: SearchFoldContract;
     sourceFingerprint: string;
     normalizationRules: Array<{ id: string; sourceIds: string[]; canonical: string; aliases: string[]; note: string }>;
     sourceConnections: Record<string, SourceConnection[]>;
   };
   records: DiscoveryRecord[];
+}
+
+interface SearchFoldContract {
+  unicodeVersion: string;
+  normalizationMap: Record<string, string>;
+  casefoldMap: Record<string, string>;
+  discardCodePoints: number[];
+  alphanumericRanges: Array<[number, number]>;
 }
 
 interface PositionedNode {
@@ -417,7 +425,14 @@ let selectedEvidence: EvidenceFilter = "";
 let detailLevel: DetailLevel = "auto";
 let researchQuery = "";
 let lastSearchQuery = "";
-let foldingMap: Record<string, string> = {};
+let searchFoldContract: SearchFoldContract = {
+  unicodeVersion: "",
+  normalizationMap: {},
+  casefoldMap: {},
+  discardCodePoints: [],
+  alphanumericRanges: [],
+};
+let discardedSearchCodePoints = new Set<number>();
 let discoveryLookup: DiscoveryLookup = { termRecords: new Map(), sortedTerms: [] };
 let currentZoom: d3.ZoomBehavior<SVGSVGElement, unknown> | null = null;
 let currentTransform = d3.zoomIdentity;
@@ -563,23 +578,46 @@ function compactLabel(value: string, maximum = 34): string {
   return value.length <= maximum ? value : `${value.slice(0, maximum - 1).trimEnd()}…`;
 }
 
+function isSearchAlphanumeric(character: string): boolean {
+  const codePoint = character.codePointAt(0);
+  if (codePoint === undefined) return false;
+  let low = 0;
+  let high = searchFoldContract.alphanumericRanges.length;
+  while (low < high) {
+    const middle = Math.floor((low + high) / 2);
+    const [start, end] = searchFoldContract.alphanumericRanges[middle];
+    if (codePoint < start) high = middle;
+    else if (codePoint > end) low = middle + 1;
+    else return true;
+  }
+  return false;
+}
+
 function foldSearchToken(value: string): string {
-  const lowered = value
-    .normalize("NFKD")
-    .replace(/\p{Diacritic}/gu, "")
-    .toLowerCase();
-  return [...lowered]
-    .map((character) => foldingMap[character] ?? character)
-    .join("")
-    .replace(/[^\p{Letter}\p{Number}]+/gu, "");
+  const normalized = [...value]
+    .map((character) => searchFoldContract.normalizationMap[character] ?? character)
+    .join("");
+  const folded = [...normalized]
+    .filter((character) => !discardedSearchCodePoints.has(character.codePointAt(0) ?? -1))
+    .map((character) => searchFoldContract.casefoldMap[character] ?? character)
+    .join("");
+  return [...folded]
+    .filter(isSearchAlphanumeric)
+    .join("");
 }
 
 function foldSearchTokens(value: string): string[] {
-  const normalized = value
-    .normalize("NFKD")
-    .replace(/\p{Diacritic}/gu, "")
-    .toLowerCase();
-  return normalized.split(/[^\p{Letter}\p{Number}]+/gu).map(foldSearchToken).filter(Boolean);
+  const tokens: string[] = [];
+  let token = "";
+  for (const character of value) {
+    if (isSearchAlphanumeric(character)) token += character;
+    else if (token) {
+      tokens.push(token);
+      token = "";
+    }
+  }
+  if (token) tokens.push(token);
+  return tokens.map(foldSearchToken).filter(Boolean);
 }
 
 function foldSearch(value: string): string {
@@ -2789,7 +2827,8 @@ async function loadDiscoveryData(showProgress = false): Promise<void> {
       }
     }
     discovery = loadedDiscovery;
-    foldingMap = discovery.meta.foldingMap ?? {};
+    searchFoldContract = discovery.meta.searchFold;
+    discardedSearchCodePoints = new Set(searchFoldContract.discardCodePoints);
     discoveryLookup = buildDiscoveryLookup(discovery.records);
     dimensionLabels = discovery.meta.dimensionLabels;
     searchInput.disabled = false;

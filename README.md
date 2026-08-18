@@ -64,7 +64,9 @@ constellations, builds the corpus-wide discovery index, regenerates the Version
 4 workbook, type-checks the app, and writes the Vite bundle to `dist/`.
 `npm run generate` runs only the tracked generation chain. Generated metadata
 uses source fingerprints rather than wall-clock timestamps, workbook archives
-use stable metadata, and CI runs `npm run check:generated` after generation so
+use canonical creator/timestamp properties and platform-neutral ZIP metadata,
+and the supported builders never invoke an external spreadsheet recalculation
+tool. CI runs `npm run check:generated` after generation so
 an unchanged checkout must reproduce every tracked workbook, public payload,
 and validation report exactly.
 
@@ -77,7 +79,10 @@ continuity units, and work/witness identifiers. Its generated metadata reports
 accepted, discoverable, excluded, and missing rows for each dimension. Being and
 role/vocation rows are part of that machine-checked contract. The index records
 the quarantined bundle boundary from `characters.json`; quarantined research is
-not silently treated as accepted corpus coverage.
+not silently treated as accepted corpus coverage. The compiler also emits the
+Unicode normalization, case-fold, combining-mark, and alphanumeric tables used
+directly by browser queries, so indexed fields and typed search have one folding
+contract.
 
 Generated public data:
 

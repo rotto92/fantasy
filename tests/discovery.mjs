@@ -12,18 +12,27 @@ const reviewLedgers = await Promise.all(
 );
 const appUrl = process.env.FANTASY_TEST_URL ?? "http://127.0.0.1:5173/";
 const failures = [];
-const foldContractValue = (value) => [...String(value)
-  .normalize("NFKD")
-  .replace(/\p{Mark}/gu, "")
-  .toLocaleLowerCase()]
-  .map((character) => discovery.meta.foldingMap?.[character] ?? character)
-  .join("")
-  .replace(/[^\p{Letter}\p{Number}]/gu, "");
+const searchFold = discovery.meta.searchFold;
+const discardedCodePoints = new Set(searchFold.discardCodePoints);
+const isContractAlphanumeric = (character) => {
+  const codePoint = character.codePointAt(0);
+  return searchFold.alphanumericRanges.some(([start, end]) => codePoint >= start && codePoint <= end);
+};
+const foldContractValue = (value) => {
+  const normalized = [...String(value)]
+    .map((character) => searchFold.normalizationMap[character] ?? character)
+    .join("");
+  const folded = [...normalized]
+    .filter((character) => !discardedCodePoints.has(character.codePointAt(0)))
+    .map((character) => searchFold.casefoldMap[character] ?? character)
+    .join("");
+  return [...folded].filter(isContractAlphanumeric).join("");
+};
 
 if (discovery.meta.scope?.kind !== "bounded-accepted-research-corpus") {
   failures.push("discovery index does not declare the accepted bounded corpus scope");
 }
-if (discovery.meta.foldingMap?.["ß"] !== "ss") {
+if (searchFold.casefoldMap?.["ß"] !== "ss" || !isContractAlphanumeric("ー") || !isContractAlphanumeric("ʻ")) {
   failures.push("discovery index does not publish the compiler-compatible Unicode folding map");
 }
 if (JSON.stringify(discovery.meta.dimensionLabels) !== JSON.stringify(research.dimensionLabels)) {
@@ -637,6 +646,17 @@ await page.locator('.view-button[data-view="constellations"]').click();
 await page.locator("#search").fill("Kreiß");
 const kreissText = await page.locator("#search-results").innerText();
 if (!kreissText.includes("Kreiß")) failures.push(`compiler-compatible Unicode folding omitted Kreiß: ${kreissText}`);
+
+for (const [query, recordId] of [
+  ["パーン", "character:CHR-SRC075-001"],
+  ["ディードリット", "character:CHR-SRC075-002"],
+  ["moʻolelo", "source-term:STM-SRC025-001"],
+]) {
+  await page.locator("#search").fill(query);
+  if (!(await page.locator(`.search-result[data-discovery-id="${recordId}"]`).count())) {
+    failures.push(`compiler-owned Unicode search folding omitted ${query} (${recordId})`);
+  }
+}
 
 const exactHumanEvidenceIds = discovery.records
   .filter((record) => ["being_types", "roles_and_vocations"].includes(record.dimension) && record.foldedLabel === "human")

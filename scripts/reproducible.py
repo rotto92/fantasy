@@ -3,19 +3,31 @@ from __future__ import annotations
 import hashlib
 import json
 import platform
-import re
 import sys
 import tempfile
 import unicodedata
 import zipfile
 import zlib
 from pathlib import Path
+from xml.etree import ElementTree
 
 
 ROOT = Path(__file__).resolve().parents[1]
 GENERATION_REQUIREMENTS_PATH = ROOT / "requirements-generation.txt"
 GENERATION_RUNTIME_CONTRACT_PATH = ROOT / "generation-runtime.json"
 CORE_TIMESTAMP = b"2000-01-01T00:00:00Z"
+CORE_CREATOR = "Fantasy Atlas Generator"
+CORE_NAMESPACES = {
+    "cp": "http://schemas.openxmlformats.org/package/2006/metadata/core-properties",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+}
+ZIP_CREATE_SYSTEM = 0
+ZIP_EXTERNAL_ATTRIBUTES = 0x20
+
+for prefix, namespace in CORE_NAMESPACES.items():
+    ElementTree.register_namespace(prefix, namespace)
 
 
 def target_for_treatment(treatment: str) -> int:
@@ -98,6 +110,29 @@ def source_fingerprint(paths: list[Path], *, runtime_identity: str | None = None
     return f"sha256:{digest.hexdigest()}"
 
 
+def normalize_core_properties(content: bytes) -> bytes:
+    root = ElementTree.fromstring(content)
+    values = {
+        "dc:creator": CORE_CREATOR,
+        "cp:lastModifiedBy": CORE_CREATOR,
+        "dcterms:created": CORE_TIMESTAMP.decode("ascii"),
+        "dcterms:modified": CORE_TIMESTAMP.decode("ascii"),
+    }
+    for qualified_name, value in values.items():
+        prefix, local_name = qualified_name.split(":", 1)
+        tag = f"{{{CORE_NAMESPACES[prefix]}}}{local_name}"
+        element = root.find(tag)
+        if element is None:
+            element = ElementTree.SubElement(root, tag)
+        element.text = value
+        if prefix == "dcterms":
+            element.set(
+                f"{{{CORE_NAMESPACES['xsi']}}}type",
+                "dcterms:W3CDTF",
+            )
+    return ElementTree.tostring(root, encoding="utf-8", xml_declaration=True)
+
+
 def normalize_xlsx(path: Path) -> None:
     compression_contract = generation_runtime_contract()["xlsxCompression"]
     if not isinstance(compression_contract, dict):
@@ -115,14 +150,11 @@ def normalize_xlsx(path: Path) -> None:
         with zipfile.ZipFile(temporary_path, "w", compression=compression, compresslevel=compression_level) as archive:
             for name, content in sorted(entries):
                 if name == "docProps/core.xml":
-                    content = re.sub(
-                        rb"(<dcterms:(?:created|modified)[^>]*>)[^<]*(</dcterms:(?:created|modified)>)",
-                        rb"\g<1>" + CORE_TIMESTAMP + rb"\g<2>",
-                        content,
-                    )
+                    content = normalize_core_properties(content)
                 info = zipfile.ZipInfo(name, date_time=(2000, 1, 1, 0, 0, 0))
                 info.compress_type = compression
-                info.external_attr = 0o600 << 16
+                info.create_system = ZIP_CREATE_SYSTEM
+                info.external_attr = ZIP_EXTERNAL_ATTRIBUTES
                 archive.writestr(info, content, compresslevel=compression_level)
         temporary_path.replace(path)
     finally:

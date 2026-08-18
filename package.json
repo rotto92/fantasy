@@ -19,7 +19,7 @@
     "build": "npm run generate && tsc --noEmit && vite build",
     "preview": "vite preview",
     "test:smoke": "node tests/smoke.mjs",
-    "test:discovery": ".venv/bin/python tests/reproducibility_contract.py && .venv/bin/python tests/generated_contracts.py && node tests/discovery.mjs",
+    "test:discovery": ".venv/bin/python tests/reproducibility_contract.py && .venv/bin/python tests/research_schema_contract.py && .venv/bin/python tests/generated_contracts.py && node tests/discovery.mjs",
     "test:audit": "python3 tests/release_audit.py",
     "test:workflow": "node tests/workflow_contract.mjs",
     "test:review": "npm run test:audit && npm run test:smoke && npm run test:discovery && npm run test:workflow",

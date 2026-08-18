@@ -117,6 +117,12 @@ Required fields:
 Empty dimension arrays are acceptable. Invented precision is not.
 Every populated dimension uses the same value shape shown under
 `being_types`: `term`, `archetype_ids`, `confidence`, and `note`.
+Validation rejects missing dimension keys, blank terms, non-array dimension
+values, and wrongly typed aliases, citations, locators, and supported claims
+before any record can be promoted. Source audit dates use exact valid
+`YYYY-MM-DD` values; complete and limited passes must satisfy their declared
+counts, while evidence-insufficient audits must retain zero in-scope and
+completed counts.
 Collectives, manifestations that are not separately named dramatic agents,
 generic units, artifacts, places, systems, and other concepts belong in
 `source_terms`. A separately named and dramatically agentive avatar may be an

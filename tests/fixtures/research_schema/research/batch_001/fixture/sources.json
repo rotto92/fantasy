@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "SRC-001",
+    "source_title": "Complete Fixture",
+    "continuity_scope": "One complete fixture witness.",
+    "work_or_witnesses": ["Complete fixture witness"],
+    "coverage_rule": "The one named fixture character is in scope.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": ["No claims beyond the fixture witness."],
+    "uncertainties": ["The fixture proves validation behavior only."],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Executable validator fixture.",
+    "citations": [{"url": "https://example.com/complete", "locator": "fixture section 1", "supports": ["Complete fixture scope."]}],
+    "last_reviewed": "2026-08-18"
+  },
+  {
+    "source_id": "SRC-002",
+    "source_title": "Limited Fixture",
+    "continuity_scope": "One limited metadata witness.",
+    "work_or_witnesses": ["Limited fixture witness"],
+    "coverage_rule": "The one named metadata character is in scope.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": ["Primary-text claims are outside this fixture."],
+    "uncertainties": ["Only metadata-level identity is represented."],
+    "completion_status": "narrow-metadata-pass-complete",
+    "evidence_basis": "Executable validator fixture.",
+    "citations": [{"url": "https://example.com/limited", "locator": "fixture section 2", "supports": ["Limited fixture scope."]}],
+    "last_reviewed": "2026-08-18"
+  },
+  {
+    "source_id": "SRC-003",
+    "source_title": "Insufficient Fixture",
+    "continuity_scope": "One evidence-insufficient witness.",
+    "work_or_witnesses": ["Insufficient fixture witness"],
+    "coverage_rule": "No character claim is promoted without sufficient evidence.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": ["All character claims are omitted."],
+    "uncertainties": ["The available fixture witness is insufficient."],
+    "completion_status": "evidence-insufficient-zero-character-audit",
+    "evidence_basis": "Executable validator fixture.",
+    "citations": [{"url": "https://example.com/insufficient", "locator": "fixture section 3", "supports": ["Insufficient fixture scope."]}],
+    "last_reviewed": "2026-08-18"
+  }
+]

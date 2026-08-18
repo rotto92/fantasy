@@ -6,6 +6,8 @@ import json
 import re
 import sys
 import tempfile
+import zipfile
+from xml.etree import ElementTree
 
 from openpyxl import load_workbook
 
@@ -14,6 +16,24 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import reproducible
+
+
+for workbook_name in (
+    "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
+    "fantasy_high_fantasy_archetype_atlas_v4.xlsx",
+):
+    with zipfile.ZipFile(ROOT / workbook_name) as archive:
+        assert all(
+            info.create_system == reproducible.ZIP_CREATE_SYSTEM
+            and info.external_attr == reproducible.ZIP_EXTERNAL_ATTRIBUTES
+            for info in archive.infolist()
+        )
+        core = ElementTree.fromstring(archive.read("docProps/core.xml"))
+    namespaces = reproducible.CORE_NAMESPACES
+    assert core.findtext(f"{{{namespaces['dc']}}}creator") == reproducible.CORE_CREATOR
+    assert core.findtext(f"{{{namespaces['cp']}}}lastModifiedBy") == reproducible.CORE_CREATOR
+    assert core.findtext(f"{{{namespaces['dcterms']}}}created") == reproducible.CORE_TIMESTAMP.decode("ascii")
+    assert core.findtext(f"{{{namespaces['dcterms']}}}modified") == reproducible.CORE_TIMESTAMP.decode("ascii")
 
 
 workbook = load_workbook(ROOT / "fantasy_high_fantasy_archetype_atlas_v4.xlsx", read_only=True, data_only=True)
