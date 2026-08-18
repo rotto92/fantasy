@@ -696,6 +696,62 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
 .concept-card span { color: #8291a6; font-size: 9px; line-height: 1.5; }
 .concept-card small { align-self: end; color: var(--evidence-muted); font-size: 7.5px; text-transform: uppercase; letter-spacing: 0.035em; }
 
+.compose-intro { margin-bottom: 22px; }
+.compose-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.72fr) minmax(360px, 1.28fr);
+  gap: 14px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.compose-form, .composition-result {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: rgba(9, 16, 28, 0.82);
+}
+.compose-form { display: grid; align-content: start; gap: 8px; padding: 18px; }
+.compose-form-heading { margin-bottom: 5px; }
+.compose-form-heading h3 { margin: 5px 0 0; font: 600 21px/1.1 Georgia, "Times New Roman", serif; }
+.compose-form label { margin-top: 8px; color: #9aaabd; font-size: var(--micro-size); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+.compose-form select { height: 44px; min-height: 44px; }
+.compose-input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 11px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  outline: 0;
+  color: var(--ink);
+  background: #0c1422;
+  font-size: var(--small-size);
+}
+.compose-input:focus { border-color: rgba(112, 214, 200, 0.34); }
+.compose-actions { display: flex; justify-content: flex-end; margin-top: 9px; }
+.composition-result { min-height: 420px; padding: 20px; }
+.composition-result-header { display: grid; grid-template-columns: auto 1fr; column-gap: 11px; align-items: center; }
+.composition-sigil { grid-row: 1 / 4; color: var(--gold); font-size: 32px; filter: drop-shadow(0 0 12px rgba(239, 200, 122, 0.42)); }
+.composition-result-header h3 { margin: 4px 0 0; font: 600 28px/1.12 Georgia, "Times New Roman", serif; }
+.composition-combination { margin: 6px 0 0; color: #9aaabd; font-size: var(--small-size); line-height: 1.45; }
+.composition-boundary { display: grid; gap: 5px; margin: 18px 0; padding: 11px 12px; border: 1px solid rgba(169, 154, 246, 0.22); border-radius: 8px; background: rgba(169, 154, 246, 0.045); }
+.composition-boundary strong { color: #c2b8f4; font-size: var(--micro-size); letter-spacing: 0.08em; text-transform: uppercase; }
+.composition-boundary span { color: #9aaabd; font-size: var(--small-size); line-height: 1.5; }
+.composition-empty { margin: 42px auto; max-width: 430px; color: #8291a6; font-size: var(--small-size); line-height: 1.55; text-align: center; }
+.composition-concepts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.composition-concept { display: grid; align-content: start; gap: 10px; padding: 14px; border: 1px solid var(--line); border-radius: 9px; background: rgba(255, 255, 255, 0.018); }
+.composition-concept-heading { display: grid; grid-template-columns: auto 1fr; column-gap: 8px; align-items: center; }
+.composition-concept-heading .catalogue-star { grid-row: 1 / 3; }
+.composition-concept-heading strong { font-size: 0.9375rem; }
+.composition-concept-heading small, .composition-family { color: var(--evidence-muted); font-size: var(--micro-size); text-transform: uppercase; letter-spacing: 0.05em; }
+.composition-concept > p { margin: 0; color: #94a2b7; font-size: var(--small-size); line-height: 1.5; }
+.compose-evidence-button { width: 100%; }
+.composition-inspirations { display: grid; gap: 6px; padding-top: 4px; border-top: 1px solid var(--line); }
+.composition-inspirations h4 { margin: 2px 0; color: #9aaabd; font-size: var(--micro-size); letter-spacing: 0.08em; text-transform: uppercase; }
+.composition-inspiration { display: grid; gap: 3px; min-height: 66px; padding: 8px; border: 1px solid var(--line); border-radius: 7px; color: inherit; text-decoration: none; background: rgba(112, 214, 200, 0.025); }
+.composition-inspiration:hover { border-color: rgba(112, 214, 200, 0.3); }
+.composition-inspiration strong { color: var(--teal); font-size: var(--small-size); }
+.composition-inspiration span, .composition-inspiration small { color: #8f9db0; font-size: var(--micro-size); line-height: 1.35; }
+.composition-pending { color: var(--gold) !important; }
+
 .mobile-detail-close { display: none; }
 .concept-stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-top: 14px; }
 .concept-stat-grid > div { min-height: 62px; padding: 10px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, 0.018); }
@@ -712,6 +768,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   .topbar { grid-template-columns: 230px auto 1fr; gap: 10px; }
   .view-button { padding-inline: 8px; }
   .research-summary { grid-template-columns: repeat(2, 1fr); }
+  .compose-layout { grid-template-columns: minmax(250px, 0.82fr) minmax(330px, 1.18fr); }
 }
 
 @media (max-width: 1040px) {
@@ -755,6 +812,8 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   .quality-notice strong { line-height: 1.4; }
   .table-swipe-hint { display: block; margin: 0 2px 7px; color: #718098; font-size: 8px; letter-spacing: 0.03em; }
   .research-table { min-width: 1080px; }
+  .compose-layout { grid-template-columns: 1fr; }
+  .composition-result { min-height: 360px; }
 }
 
 @media (max-width: 1040px) {
@@ -790,6 +849,7 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
   .concept-card-grid { grid-template-columns: 1fr; }
   .catalogue-family { margin-bottom: 22px; }
   .catalogue-intro h2 { font-size: 23px; }
+  .composition-concepts { grid-template-columns: 1fr; }
   .sky-title { font-size: 11px; }
   .zoom-controls { bottom: 89px; }
   .focus-banner {
@@ -868,6 +928,9 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
   .research-summary { gap: 6px; }
   .research-card { min-height: 86px; padding: 10px; }
   .research-card strong { font-size: 1.45rem; }
+  .compose-form, .composition-result { padding: 14px; }
+  .composition-result-header h3 { font-size: 1.4rem; }
+  .composition-sigil { font-size: 26px; }
   .focus-banner { grid-template-columns: auto minmax(0, 1fr) auto; }
   .focus-copy strong { font-size: 0.9375rem; }
   .detail-panel.is-open { width: min(390px, 94vw); }

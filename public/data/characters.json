@@ -2,13 +2,13 @@
   "meta": {
     "title": "Fantasy Character Atlas",
     "version": "4.0-research",
-    "sourceFingerprint": "sha256:f1e83afbed803dbcf964cdc3800b40960aa860c44857a9c953ba817bc97e4fda",
+    "sourceFingerprint": "sha256:942cbaeeeacf5e72c1e38af8fbceb9ae5dd021947673d429f702acc0f363a1f4",
     "sourceWorkbook": "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
     "counts": {
       "source_audits": 281,
       "characters": 1568,
       "relationships": 1252,
-      "source_terms": 1759,
+      "source_terms": 1785,
       "research_boundaries": 119,
       "errors": 0,
       "warnings": 14,
@@ -43,8 +43,8 @@
       "retainedWarningFlags": 14,
       "corpusWideContractReviews": 2,
       "reviewedClaims": 2008,
-      "totalClaims": 9265,
-      "claimCoverage": 0.21673,
+      "totalClaims": 9291,
+      "claimCoverage": 0.216123,
       "minimumClaimCoverage": 0.2,
       "quarantinedRecordIds": [
         "CHR-SRC002-045",
@@ -18803,30 +18803,31 @@
     {
       "source_id": "SRC-136",
       "source_title": "World of Warcraft",
-      "continuity_scope": "World of Warcraft: Shadowlands, Patch 9.0 launch baseline (North American English; 23 November 2020, Americas). This is deliberately non-overlapping with SRC-135's World of Warcraft: Dragonflight Patch 10.0 Dragon Aspect cohort: it instead captures Shadowlands launch's afterlife/Revendreth witness and makes no duplicate character claims.",
+      "continuity_scope": "Two explicitly separated North American English retail witnesses: World of Warcraft: Shadowlands, Patch 9.0 launch baseline (23 November 2020, Americas) for the selected character/afterlife cohort, and Blizzard's live Playable Races directory as retrieved 18 August 2026 for the complete set of 26 unique race labels then listed. The terminology snapshot does not rewrite the 9.0 character claims or SRC-135's Dragonflight Patch 10.0 Dragon Aspect cohort.",
       "work_or_witnesses": [
         "Blizzard: Shadowlands Content Update Notes (23 November 2020)",
         "Blizzard: Shadowlands Arrives November 23 (global release schedule)",
-        "Blizzard: Shadowlands Preview: Revendreth and the Venthyr Covenant"
+        "Blizzard: Shadowlands Preview: Revendreth and the Venthyr Covenant",
+        "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
       ],
-      "coverage_rule": "All named individual figures with dedicated official paragraphs in the selected Revendreth launch-content preview, plus Sylvanas Windrunner as the single named actor in the Patch 9.0 launch premise: Sire Denathrius, Prince Renathal, General Draven, and Sylvanas Windrunner. This offers a distinct, evidence-backed comparison of Shadowlands political/afterlife roles not present in SRC-135.",
+      "coverage_rule": "Character coverage remains all named individual figures with dedicated official paragraphs in the selected Revendreth launch-content preview, plus Sylvanas Windrunner as the single named actor in the Patch 9.0 launch premise: Sire Denathrius, Prince Renathal, General Draven, and Sylvanas Windrunner. Terminology coverage additionally records every unique playable-race label in the official directory retrieved 18 August 2026: the 14 standard Alliance/Horde labels (deduplicating Pandaren and Dracthyr, which appear under both) and all 12 Allied Race labels (deduplicating Earthen and Haranir, which appear in both Allied Race columns).",
       "in_scope_character_count": 4,
       "completed_character_count": 4,
       "omissions": [
         "Every SRC-135 Dragonflight character and any Dragonflight claim; no duplicate character record is created.",
         "Player-created adventurers, heroes, Maw Walkers, and player-selected class/race/faction/covenant identities.",
         "Other named figures in the product/preview, including the Arbiter, the Jailer, and unnamed or collectively named inhabitants, because they lack a selected dedicated paragraph under this narrow witness rule.",
-        "All post-9.0 Shadowlands content updates, raids, later stories, WoW Classic variants, other expansions, Warcraft strategy-game campaigns, Chronicle volumes, novels, comics, and adaptations.",
+        "All post-9.0 Shadowlands character/story claims, raids, later stories, WoW Classic variants, other expansion narratives, Warcraft strategy-game campaigns, Chronicle volumes, novels, comics, and adaptations. The separately dated live directory supports only its displayed playable-race labels and grouping.",
         "Covenants, Venthyr, Stoneborn, zones, anima, dungeons, raids, gear, and systems as character nodes."
       ],
       "uncertainties": [
-        "World of Warcraft is live service; this pass fixes the 9.0 launch state, while the selected preview is pre-launch marketing for launch content. Later Shadowlands patches and retrospective lore are excluded.",
+        "World of Warcraft is live service; this pass fixes character claims to the 9.0 launch state, while playable-race terminology is a separately dated 18 August 2026 retrieval and may change after that date.",
         "The official preview presents Sire Denathrius's self-description and Prince Renathal's suspicion. It is publisher narration of a situation with in-world political claims; the records retain the source's qualifiers where they matter and do not adjudicate hidden motives beyond the stated text.",
         "The Warcraft franchise has Chronicle, game-text, novel, comic, adaptation, and future-retcon layers. This pass does not claim to settle their hierarchy or continuity conflicts.",
         "Names and terms follow the North American English localization; localization variants are not merged without an exact official witness."
       ],
       "completion_status": "pass-complete",
-      "evidence_basis": "First-party Blizzard World of Warcraft launch notes, official global schedule, and official Revendreth preview. No fan wiki, Wikipedia, community guide, or player forum material is used as evidence.",
+      "evidence_basis": "First-party Blizzard World of Warcraft launch notes, official global schedule, official Revendreth preview, and the official Playable Races directory. No fan wiki, Wikipedia, community guide, or player forum material is used as evidence.",
       "citations": [
         {
           "url": "https://worldofwarcraft.blizzard.com/en-us/news/23529209",
@@ -18848,14 +18849,21 @@
           "supports": [
             "Selected character descriptions, named-character relationships, Revendreth and Venthyr terms"
           ]
+        },
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance; For The Horde; Allied Races",
+          "supports": [
+            "The 26 unique playable-race labels displayed in the official directory on 18 August 2026 and their standard or Allied Race grouping"
+          ]
         }
       ],
-      "last_reviewed": "2026-08-05",
+      "last_reviewed": "2026-08-18",
       "review_lanes": {
         "scoped": {
           "status": "pass-complete",
           "label": "Pass complete",
-          "detail": "World of Warcraft: Shadowlands, Patch 9.0 launch baseline (North American English; 23 November 2020, Americas). This is deliberately non-overlapping with SRC-135's World of Warcraft: Dragonflight Patch 10.0 Dragon Aspect cohort: it instead captures Shadowlands launch's afterlife/Revendreth witness and makes no duplicate character claims."
+          "detail": "Two explicitly separated North American English retail witnesses: World of Warcraft: Shadowlands, Patch 9.0 launch baseline (23 November 2020, Americas) for the selected character/afterlife cohort, and Blizzard's live Playable Races directory as retrieved 18 August 2026 for the complete set of 26 unique race labels then listed. The terminology snapshot does not rewrite the 9.0 character claims or SRC-135's Dragonflight Patch 10.0 Dragon Aspect cohort."
         },
         "characterPass": {
           "status": "pass-complete",
@@ -18865,7 +18873,7 @@
         "terminologyPass": {
           "status": "in-progress",
           "label": "Evidence recorded",
-          "detail": "6 accepted source-term records are validated; no terminology-pass completion declaration is recorded"
+          "detail": "32 accepted source-term records are validated; no terminology-pass completion declaration is recorded"
         },
         "relationshipPass": {
           "status": "in-progress",
@@ -171886,6 +171894,708 @@
       ],
       "review_status": "researched",
       "witness_identity": "Blizzard: Shadowlands Content Update Notes (23 November 2020)"
+    },
+    {
+      "term_id": "STM-SRC136-007",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Alliance",
+      "canonical_term": "Human",
+      "original_language": "English (North American localization)",
+      "original_script": "Human",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Alliance in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance",
+          "supports": [
+            "Human appears in the official Alliance playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-008",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Alliance",
+      "canonical_term": "Dwarf",
+      "original_language": "English (North American localization)",
+      "original_script": "Dwarf",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Alliance in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance",
+          "supports": [
+            "Dwarf appears in the official Alliance playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-009",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Alliance",
+      "canonical_term": "Night Elf",
+      "original_language": "English (North American localization)",
+      "original_script": "Night Elf",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Alliance in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification, a generic elf equivalence, or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance",
+          "supports": [
+            "Night Elf appears in the official Alliance playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-010",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Alliance",
+      "canonical_term": "Gnome",
+      "original_language": "English (North American localization)",
+      "original_script": "Gnome",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Alliance in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance",
+          "supports": [
+            "Gnome appears in the official Alliance playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-011",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Alliance",
+      "canonical_term": "Draenei",
+      "original_language": "English (North American localization)",
+      "original_script": "Draenei",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Alliance in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance",
+          "supports": [
+            "Draenei appears in the official Alliance playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-012",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Alliance",
+      "canonical_term": "Worgen",
+      "original_language": "English (North American localization)",
+      "original_script": "Worgen",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Alliance in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance",
+          "supports": [
+            "Worgen appears in the official Alliance playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-013",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Alliance; For The Horde",
+      "canonical_term": "Pandaren",
+      "original_language": "English (North American localization)",
+      "original_script": "Pandaren",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under both the Alliance and Horde in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; the dual listing does not establish a canonical player faction or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance; For The Horde",
+          "supports": [
+            "Pandaren appears in both standard-faction playable-race lists"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-014",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Alliance; For The Horde",
+      "canonical_term": "Dracthyr",
+      "original_language": "English (North American localization)",
+      "original_script": "Dracthyr",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under both the Alliance and Horde in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; the dual listing does not establish a canonical player faction or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Alliance; For The Horde",
+          "supports": [
+            "Dracthyr appears in both standard-faction playable-race lists"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-015",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Horde",
+      "canonical_term": "Orc",
+      "original_language": "English (North American localization)",
+      "original_script": "Orc",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Horde in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Horde",
+          "supports": [
+            "Orc appears in the official Horde playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-016",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Horde",
+      "canonical_term": "Undead",
+      "original_language": "English (North American localization)",
+      "original_script": "Undead",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Horde in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it does not define a universal undead category or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Horde",
+          "supports": [
+            "Undead appears in the official Horde playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-017",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Horde",
+      "canonical_term": "Tauren",
+      "original_language": "English (North American localization)",
+      "original_script": "Tauren",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Horde in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Horde",
+          "supports": [
+            "Tauren appears in the official Horde playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-018",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Horde",
+      "canonical_term": "Troll",
+      "original_language": "English (North American localization)",
+      "original_script": "Troll",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Horde in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Horde",
+          "supports": [
+            "Troll appears in the official Horde playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-019",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Horde",
+      "canonical_term": "Blood Elf",
+      "original_language": "English (North American localization)",
+      "original_script": "Blood Elf",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Horde in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification, a generic elf equivalence, or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Horde",
+          "supports": [
+            "Blood Elf appears in the official Horde playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-020",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · For The Horde",
+      "canonical_term": "Goblin",
+      "original_language": "English (North American localization)",
+      "original_script": "Goblin",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable-race label listed under the Horde in Blizzard's official directory on 18 August 2026.",
+      "cultural_caution": "A fictional game ancestry label in a dated retail directory; it is not a real-world racial classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "For The Horde",
+          "supports": [
+            "Goblin appears in the official Horde playable-race list"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-021",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Void Elf",
+      "original_language": "English (North American localization)",
+      "original_script": "Void Elf",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory; it is not a generic elf equivalence or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Void Elf appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-022",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Lightforged Draenei",
+      "original_language": "English (North American localization)",
+      "original_script": "Lightforged Draenei",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Lightforged Draenei appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-023",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Dark Iron Dwarf",
+      "original_language": "English (North American localization)",
+      "original_script": "Dark Iron Dwarf",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a real-world classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Dark Iron Dwarf appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-024",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Kul Tiran",
+      "original_language": "English (North American localization)",
+      "original_script": "Kul Tiran",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a real-world nationality or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Kul Tiran appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-025",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Mechagnome",
+      "original_language": "English (North American localization)",
+      "original_script": "Mechagnome",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a real-world body classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Mechagnome appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-026",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Earthen",
+      "original_language": "English (North American localization)",
+      "original_script": "Earthen",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label shown in both faction columns of Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory; the dual listing does not establish a canonical player faction or every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Earthen appears in both official Allied Race columns and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-027",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Haranir",
+      "original_language": "English (North American localization)",
+      "original_script": "Haranir",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label shown in both faction columns of Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory; the dual listing does not establish a canonical player faction or every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Haranir appears in both official Allied Race columns and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-028",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Nightborne",
+      "original_language": "English (North American localization)",
+      "original_script": "Nightborne",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a generic elf equivalence or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Nightborne appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-029",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Highmountain Tauren",
+      "original_language": "English (North American localization)",
+      "original_script": "Highmountain Tauren",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a real-world classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Highmountain Tauren appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-030",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Mag'har Orc",
+      "original_language": "English (North American localization)",
+      "original_script": "Mag'har Orc",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a real-world classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Mag'har Orc appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-031",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Zandalari Troll",
+      "original_language": "English (North American localization)",
+      "original_script": "Zandalari Troll",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a real-world classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Zandalari Troll appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
+    },
+    {
+      "term_id": "STM-SRC136-032",
+      "record_kind": "source-term",
+      "source_id": "SRC-136",
+      "work_or_witness": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026) · Allied Races",
+      "canonical_term": "Vulpera",
+      "original_language": "English (North American localization)",
+      "original_script": "Vulpera",
+      "transliteration": "",
+      "literal_gloss": "",
+      "dimension": "being_types",
+      "archetype_ids": [],
+      "mapping_relation": "none",
+      "definition": "A playable Allied Race label in Blizzard's official directory on 18 August 2026; the directory says Allied Races must be recruited in game before play.",
+      "cultural_caution": "A fictional game ancestry/unlock label in a dated retail directory, not a real-world classification or a claim about every Warcraft continuity.",
+      "citations": [
+        {
+          "url": "https://worldofwarcraft.blizzard.com/en-us/game/races",
+          "locator": "Allied Races",
+          "supports": [
+            "Vulpera appears in the official Allied Race list and the directory states its recruitment boundary"
+          ]
+        }
+      ],
+      "review_status": "researched",
+      "witness_identity": "Blizzard: World of Warcraft Playable Races directory (retrieved 18 August 2026)"
     },
     {
       "term_id": "STM-SRC056-001",

@@ -1,5 +1,5 @@
 {
-  "source_fingerprint": "sha256:f1e83afbed803dbcf964cdc3800b40960aa860c44857a9c953ba817bc97e4fda",
+  "source_fingerprint": "sha256:942cbaeeeacf5e72c1e38af8fbceb9ae5dd021947673d429f702acc0f363a1f4",
   "status": "valid",
   "bundles": [
     "research/batch_001/greek",
@@ -291,7 +291,7 @@
     "source_audits": 281,
     "characters": 1573,
     "relationships": 1258,
-    "source_terms": 1762,
+    "source_terms": 1788,
     "research_boundaries": 119,
     "errors": 0,
     "warnings": 14
@@ -1603,8 +1603,8 @@
     "retained_warning_sources": 13,
     "corpus_wide_reviews": 2,
     "reviewed_claims": 2008,
-    "total_claims": 9265,
-    "claim_coverage": 0.21673,
+    "total_claims": 9291,
+    "claim_coverage": 0.216123,
     "quarantined_records": 14,
     "quarantined_mappings": 1086
   },

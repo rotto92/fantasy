@@ -1,7 +1,7 @@
 import * as d3 from "d3";
 import "./style.css";
 
-type ViewMode = "constellations" | "catalogue" | "relations" | "research";
+type ViewMode = "constellations" | "catalogue" | "compose" | "relations" | "research";
 type DomainId = "beings" | "classes";
 type DetailLevel = "auto" | "families" | "all";
 type EvidenceFilter = "" | "evidenced" | "framework";
@@ -100,6 +100,12 @@ interface ConstellationPayload {
   domains: DomainRecord[];
   nodes: ConceptNode[];
   edges: ConceptEdge[];
+}
+
+interface CompositionState {
+  name: string;
+  beingId: string;
+  roleId: string;
 }
 
 interface Citation {
@@ -397,6 +403,10 @@ const viewCopy: Record<ViewMode, [string, string]> = {
     "Organized catalogue",
     "Browse the same concepts as readable family cards instead of spatial marks.",
   ],
+  compose: [
+    "Character composition",
+    "Combine one normalized being concept with one role concept, then trace each inspiration back to its evidence.",
+  ],
   relations: [
     "Local concept relations",
     "Only the selected concept, its taxonomy neighbors, siblings, and evidence-backed affinities appear.",
@@ -424,6 +434,7 @@ let selectedSource = "";
 let selectedEvidence: EvidenceFilter = "";
 let detailLevel: DetailLevel = "auto";
 let researchQuery = "";
+const composition: CompositionState = { name: "", beingId: "", roleId: "" };
 let lastSearchQuery = "";
 let searchFoldContract: SearchFoldContract = {
   unicodeVersion: "",
@@ -991,11 +1002,17 @@ function visibleConcepts(): ConceptNode[] {
 }
 
 function updateLegend(): void {
-  legendTitle.textContent = viewMode === "relations" ? "Relationship grammar" : "How to read the sky";
+  legendTitle.textContent = viewMode === "relations"
+    ? "Relationship grammar"
+    : viewMode === "compose"
+      ? "Composition guide"
+      : "How to read the sky";
   if (legendNote) {
     legendNote.textContent = viewMode === "relations"
       ? "This is a bounded neighborhood around one concept. Line styles encode relation type; unrelated stars stay outside the scene."
-      : "Large named stars are families. Small stars are specific archetypes. Characters, sources, artifacts, and powers appear only as evidence in the detail panel.";
+      : viewMode === "compose"
+        ? "Selections combine normalized concepts only. Source examples remain cited inspirations and never become claims about your character."
+        : "Large named stars are families. Small stars are specific archetypes. Characters, sources, artifacts, and powers appear only as evidence in the detail panel.";
   }
   colorLegend.replaceChildren();
   const items: Array<[string, string, string]> = viewMode === "relations"
@@ -1005,7 +1022,14 @@ function updateLegend(): void {
         ["#a99af6", "Shared source evidence", "violet dash"],
         ["#718097", "Sibling archetype", "faint dots"],
       ]
-    : [
+    : viewMode === "compose"
+      ? [
+          ["#70d6c8", "Being or people", "one choice"],
+          ["#efc87a", "Class or vocation", "one choice"],
+          ["#a99af6", "Source inspiration", "cited example"],
+          ["#edf3fb", "Your composition", "not canonical"],
+        ]
+      : [
         ["#70d6c8", "Beings & Peoples", "teal field"],
         ["#efc87a", "Classes & Vocations", "gold field"],
         ["#edf3fb", "Color identifies family", "large star"],
@@ -1804,6 +1828,207 @@ function renderCatalogue(): void {
   }
 }
 
+function appendCompositionOptions(
+  select: HTMLSelectElement,
+  kind: ConceptNode["nodeKind"],
+  placeholder: string,
+  selectedId: string,
+): void {
+  const placeholderOption = element("option") as HTMLOptionElement;
+  placeholderOption.value = "";
+  placeholderOption.textContent = placeholder;
+  select.append(placeholderOption);
+  const leaves = visibleConcepts()
+    .filter((node) => node.tier === 3 && node.nodeKind === kind)
+    .sort((left, right) => d3.ascending(left.label, right.label));
+  const familyIds = [...new Set(leaves.map((node) => node.familyId))];
+  for (const familyId of familyIds) {
+    const family = nodeById.get(familyId);
+    const group = element("optgroup") as HTMLOptGroupElement;
+    group.label = family?.label ?? "Other concepts";
+    for (const node of leaves.filter((candidate) => candidate.familyId === familyId)) {
+      const option = element("option") as HTMLOptionElement;
+      option.value = node.id;
+      option.textContent = `${node.label}${node.evidenceCount ? ` · ${node.evidenceCount} examples` : " · framework"}`;
+      group.append(option);
+    }
+    select.append(group);
+  }
+  select.value = selectedId;
+}
+
+function compositionConceptCard(node: ConceptNode): HTMLElement {
+  const card = element("article", "composition-concept");
+  const family = nodeById.get(node.familyId);
+  const heading = element("div", "composition-concept-heading");
+  heading.append(
+    element("span", "catalogue-star", "✦"),
+    element("strong", "", node.label),
+    element("small", "", node.nodeKind === "being" ? "Being / people" : "Class / vocation"),
+  );
+  heading.style.setProperty("--family-color", colorFor(node));
+  card.append(
+    heading,
+    element("p", "", node.definition || "Normalized comparison concept."),
+    element("small", "composition-family", family?.label ?? node.domainLabel),
+  );
+  const evidenceButton = element("button", "secondary-button compose-evidence-button", "Inspect concept evidence") as HTMLButtonElement;
+  evidenceButton.type = "button";
+  evidenceButton.dataset.nodeId = node.id;
+  evidenceButton.addEventListener("click", () => {
+    selectNode(node.id, false);
+    focusDetailHeading();
+  });
+  card.append(evidenceButton);
+
+  if (node.examples.length) {
+    const inspirations = element("div", "composition-inspirations");
+    inspirations.append(element("h4", "", "Source inspirations"));
+    for (const example of node.examples.slice(0, 2)) {
+      const link = element("a", "composition-inspiration") as HTMLAnchorElement;
+      link.href = example.url;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+      link.append(
+        element("strong", "", example.label),
+        element("span", "", example.sourceTitle),
+        element("small", "", example.work || example.continuity),
+      );
+      inspirations.append(link);
+    }
+    card.append(inspirations);
+  } else {
+    card.append(element("p", "composition-pending", "Framework concept · source mapping is still pending."));
+  }
+  return card;
+}
+
+function renderCompositionResult(container: HTMLElement): void {
+  const being = composition.beingId ? visibleNodeById.get(composition.beingId) : undefined;
+  const role = composition.roleId ? visibleNodeById.get(composition.roleId) : undefined;
+  const title = composition.name.trim() || "Unnamed character concept";
+  const header = element("header", "composition-result-header");
+  header.append(
+    element("span", "composition-sigil", "✦"),
+    element("p", "eyebrow", "User-created concept"),
+    element("h3", "", title),
+  );
+  const combination = [being?.label, role?.label].filter(Boolean).join(" · ");
+  header.append(element("p", "composition-combination", combination || "Choose a being and a role to begin."));
+  container.replaceChildren(header);
+  const boundary = element("div", "composition-boundary");
+  boundary.append(
+    element("strong", "", "Composition, not canon"),
+    element("span", "", "This combination is yours. The atlas supplies comparison concepts and cited inspirations; it does not claim that the combination exists in any source."),
+  );
+  container.append(boundary);
+  if (being || role) {
+    const cards = element("div", "composition-concepts");
+    if (being) cards.append(compositionConceptCard(being));
+    if (role) cards.append(compositionConceptCard(role));
+    container.append(cards);
+  } else {
+    container.append(element("p", "composition-empty", "Your selected concepts and their source-grounded inspirations will appear here."));
+  }
+}
+
+function renderCompose(): void {
+  svgElement.style.display = "none";
+  board.hidden = false;
+  board.replaceChildren();
+  hideTooltip();
+  const available = visibleConcepts().filter((node) => node.tier === 3);
+  const availableIds = new Set(available.map((node) => node.id));
+  if (composition.beingId && !availableIds.has(composition.beingId)) composition.beingId = "";
+  if (composition.roleId && !availableIds.has(composition.roleId)) composition.roleId = "";
+  const beingCount = available.filter((node) => node.nodeKind === "being").length;
+  const roleCount = available.filter((node) => node.nodeKind === "class").length;
+  const evidencedCount = available.filter((node) => node.evidenceCount > 0).length;
+  const sourceCount = new Set(available.flatMap((node) => node.sourceIds)).size;
+  visibleCount.textContent = `${available.length.toLocaleString()} composition choices`;
+  updateScopeFacts([
+    [beingCount, "being concepts"],
+    [roleCount, "role concepts"],
+    [evidencedCount, "evidenced choices"],
+    [sourceCount, "mapped sources"],
+  ]);
+  statusSummary.textContent = `${beingCount.toLocaleString()} beings · ${roleCount.toLocaleString()} roles · user-created combinations stay separate from canonical evidence`;
+
+  const intro = element("div", "catalogue-intro compose-intro");
+  intro.append(
+    element("p", "eyebrow", "Evidence-aware character builder"),
+    element("h2", "", "Compose your fantasy character"),
+    element("p", "", "Choose a normalized being and vocation. The result pairs your idea with source inspirations without presenting it as a canonical character."),
+  );
+  board.append(intro);
+
+  const layout = element("div", "compose-layout");
+  const form = element("section", "compose-form");
+  const formHeading = element("div", "compose-form-heading");
+  formHeading.append(element("p", "eyebrow", "Build the foundation"), element("h3", "", "Character choices"));
+  form.append(formHeading);
+
+  const nameLabel = element("label", "", "Character name");
+  nameLabel.htmlFor = "compose-name";
+  const nameInput = element("input", "compose-input") as HTMLInputElement;
+  nameInput.id = "compose-name";
+  nameInput.type = "text";
+  nameInput.maxLength = 80;
+  nameInput.placeholder = "Optional name";
+  nameInput.value = composition.name;
+
+  const beingLabel = element("label", "", "Being or people");
+  beingLabel.htmlFor = "compose-being";
+  const beingSelect = element("select") as HTMLSelectElement;
+  beingSelect.id = "compose-being";
+  appendCompositionOptions(beingSelect, "being", "Choose a being concept", composition.beingId);
+
+  const roleLabel = element("label", "", "Class or vocation");
+  roleLabel.htmlFor = "compose-role";
+  const roleSelect = element("select") as HTMLSelectElement;
+  roleSelect.id = "compose-role";
+  appendCompositionOptions(roleSelect, "class", "Choose a role concept", composition.roleId);
+
+  const actions = element("div", "compose-actions");
+  const reset = element("button", "secondary-button", "Reset composition") as HTMLButtonElement;
+  reset.id = "compose-reset";
+  reset.type = "button";
+  actions.append(reset);
+  form.append(nameLabel, nameInput, beingLabel, beingSelect, roleLabel, roleSelect, actions);
+
+  const result = element("section", "composition-result");
+  result.setAttribute("aria-live", "polite");
+  renderCompositionResult(result);
+  const refreshResult = () => renderCompositionResult(result);
+  nameInput.addEventListener("input", () => {
+    composition.name = nameInput.value;
+    refreshResult();
+  });
+  beingSelect.addEventListener("change", () => {
+    composition.beingId = beingSelect.value;
+    refreshResult();
+  });
+  roleSelect.addEventListener("change", () => {
+    composition.roleId = roleSelect.value;
+    refreshResult();
+  });
+  reset.addEventListener("click", () => {
+    composition.name = "";
+    composition.beingId = "";
+    composition.roleId = "";
+    nameInput.value = "";
+    beingSelect.value = "";
+    roleSelect.value = "";
+    clearSelection();
+    renderDetail();
+    refreshResult();
+    nameInput.focus();
+  });
+
+  layout.append(form, result);
+  board.append(layout);
+}
+
 function renderResearch(): void {
   svgElement.style.display = "none";
   board.hidden = false;
@@ -2155,6 +2380,31 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
 
 function renderOverviewDetail(): void {
   detailContent.replaceChildren();
+  if (viewMode === "compose") {
+    const beingCount = visibleConcepts().filter((node) => node.tier === 3 && node.nodeKind === "being").length;
+    const roleCount = visibleConcepts().filter((node) => node.tier === 3 && node.nodeKind === "class").length;
+    const header = element("header", "overview-header");
+    header.append(element("p", "eyebrow", "Composition companion"), element("h2", "", "Your idea, with its evidence visible"));
+    header.append(element("p", "detail-copy lead", "Build freely from normalized concepts, then inspect the source examples that informed each comparison category."));
+    detailContent.append(header);
+    const ring = element("div", "overview-ring");
+    ring.append(element("strong", "", (beingCount * roleCount).toLocaleString()), element("span", "", "possible pairs"));
+    detailContent.append(ring);
+    const how = detailSection("How composition works");
+    const list = element("ol", "reading-list");
+    for (const text of [
+      "Name the idea, or leave it unnamed.",
+      "Choose one being or people concept.",
+      "Choose one class or vocation concept.",
+      "Inspect cited inspirations without treating your combination as source canon.",
+    ]) list.append(element("li", "", text));
+    how.append(list);
+    detailContent.append(how);
+    const contract = detailSection("Evidence boundary");
+    contract.append(element("p", "detail-copy", "The choices are comparison categories. Characters and source-native terms remain evidence; your composed character is never added to the research corpus."));
+    detailContent.append(contract);
+    return;
+  }
   const header = element("header", "overview-header");
   header.append(element("p", "eyebrow", "A legible ontology"), element("h2", "", "Two skies, twenty constellations"));
   header.append(element("p", "detail-copy lead", "The map contains only reusable fantasy beings/races/entities and classes/vocations. Everything else is evidence or context."));
@@ -2469,6 +2719,7 @@ function render(): void {
   searchInput.placeholder = viewMode === "research" ? "Find a source, work, or tradition…" : "Search the bounded corpus…";
   if (viewMode === "constellations") renderConstellations();
   else if (viewMode === "catalogue") renderCatalogue();
+  else if (viewMode === "compose") renderCompose();
   else if (viewMode === "relations") renderRelations();
   else renderResearch();
   updateLegend();

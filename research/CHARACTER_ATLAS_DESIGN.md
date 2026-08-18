@@ -30,7 +30,7 @@ to expose the storage model.
   search and selection isolation without introducing unexplained similarity
   geography.
 
-## Four coordinated views
+## Five coordinated views
 
 ### 1. Constellations — default
 
@@ -61,7 +61,19 @@ buttons and cards instead of spatial marks.
 - Activating a card opens the same evidence detail used by other views.
 - Framework-only concepts remain visible and are labelled as mapping pending.
 
-### 3. Relations — local only
+### 3. Compose — evidence-aware character builder
+
+The composer combines one normalized being/people concept with one normalized
+class/vocation concept and an optional user-supplied name.
+
+- The resulting character concept is explicitly user-created, never canonical.
+- Each selection shows representative, cited source inspirations where mapped.
+- Framework-only choices remain available and retain their mapping-pending label.
+- Source and evidence filters narrow the available composition choices without
+  turning source-native terms or characters into selectable graph concepts.
+- Opening evidence uses the same concept detail shared by the other views.
+
+### 4. Relations — local only
 
 Selecting a concept opens a bounded concept-to-concept constellation.
 
@@ -71,7 +83,7 @@ Selecting a concept opens a bounded concept-to-concept constellation.
 - Text coincidence never creates an edge.
 - Source, character, and source-term records remain evidence rather than nodes.
 
-### 4. Research — coverage dashboard
+### 5. Research — coverage dashboard
 
 The source table keeps scope, evidence-pass status, independent review, and
 continuity review visible without adding source or status pseudo-nodes to the

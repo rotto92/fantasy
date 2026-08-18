@@ -15,6 +15,10 @@ and punctuation-tolerant input. Results explain which indexed field matched and
 show the source/series, continuity, work or witness, character examples,
 normalized concept links, and citations where available.
 
+The Compose view combines one normalized being concept with one class or
+vocation, keeps cited source inspirations alongside each choice, and labels the
+result as a user-created concept rather than canonical source evidence.
+
 The promoted public payload is a bounded release, not a claim to cover all
 fantasy, every edition, every adaptation, or every regional tradition. Its
 authoritative counts and review/quarantine state are emitted in
@@ -123,7 +127,7 @@ development; `VITE_BASE` can override it for a local Pages-style build.
 
 ## Main files
 
-- `src/main.ts` — constellation, catalogue, relation, research, discovery search, and evidence detail behavior.
+- `src/main.ts` — constellation, catalogue, composition, relation, research, discovery search, and evidence detail behavior.
 - `src/style.css` — responsive night-sky visual system, readable typography, focus states, touch layout, and reduced motion.
 - `scripts/build_discovery_index.py` — corpus-wide discovery projection and machine-checked coverage metadata.
 - `research/dimensions.json` — authoritative structured-dimension names and presentation labels.

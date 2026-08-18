@@ -49,8 +49,9 @@ guide_rows = {
 assert "normalized being/entity or role/vocation concept" in guide_rows["One visual noun"]
 assert "named character" not in guide_rows["One visual noun"]
 assert "selected normalized concept" in guide_rows["No global edges"]
-shipped_views = guide_rows["Four shipped views"]
-assert all(view in shipped_views for view in ["Constellations", "Catalogue", "Relations", "Research"])
+shipped_views = guide_rows["Five shipped views"]
+assert all(view in shipped_views for view in ["Constellations", "Catalogue", "Compose", "Relations", "Research"])
+assert "user-created" in shipped_views
 assert not any(
     abandoned_control in " ".join(guide_rows.values()).casefold()
     for abandoned_control in ["arrange", "nested group", "x/y comparison"]

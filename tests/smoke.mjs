@@ -34,6 +34,41 @@ if (await page.locator('.view-button[data-view="catalogue"]').getAttribute("aria
 }
 await page.locator('.view-button[data-view="constellations"]').click();
 
+const composerBeing = concepts.nodes.find((node) => node.tier === 3 && node.nodeKind === "being" && node.examples?.length);
+const composerRole = concepts.nodes.find((node) => node.tier === 3 && node.nodeKind === "class" && node.examples?.length);
+await page.locator('.view-button[data-view="compose"]').click();
+if (!composerBeing || !composerRole) {
+  failures.push("compiled concepts have no evidence-backed composer fixture");
+} else {
+  await page.locator("#compose-name").fill("Aster");
+  await page.locator("#compose-being").selectOption(composerBeing.id);
+  await page.locator("#compose-role").selectOption(composerRole.id);
+  for (const selector of ["#compose-name", "#compose-being", "#compose-role", "#compose-reset"]) {
+    const box = await page.locator(selector).boundingBox();
+    if (!box || box.height < 44) failures.push(`composer control ${selector} is smaller than 44px`);
+  }
+  const composition = await page.locator(".composition-result").innerText();
+  if (!composition.includes("Aster")
+    || !composition.includes(composerBeing.label)
+    || !composition.includes(composerRole.label)
+    || !composition.toLocaleLowerCase().includes("user-created concept")
+    || !composition.includes(composerBeing.examples[0].sourceTitle)
+    || !composition.includes(composerRole.examples[0].sourceTitle)) {
+    failures.push(`composer omitted the selected concept or evidence boundary: ${composition}`);
+  }
+  await page.locator('.compose-evidence-button[data-node-id]').first().click();
+  if (!(await page.locator(".concept-detail-header").isVisible())) {
+    failures.push("composer evidence action did not open the shared concept detail");
+  }
+  await page.locator("#compose-reset").click();
+  if (await page.locator("#compose-name").inputValue()
+    || await page.locator("#compose-being").inputValue()
+    || await page.locator("#compose-role").inputValue()) {
+    failures.push("composer reset left stale selections");
+  }
+}
+await page.locator('.view-button[data-view="constellations"]').click();
+
 const placeholderContrast = await page.locator("#search").evaluate((node) => {
   const parseColor = (value) => (value.match(/[\d.]+/g) ?? []).map(Number);
   const composite = (foreground, background) => {
@@ -1036,7 +1071,7 @@ for (const viewport of [
     await responsive.locator("#search").fill("Human and Near-Human Peoples");
     await responsive.locator('.search-result[data-discovery-id="concept:PPL-101"]').click();
     await responsive.locator(".mobile-detail-close").click();
-    for (const destination of ["catalogue", "relations", "research", "constellations"]) {
+    for (const destination of ["catalogue", "compose", "relations", "research", "constellations"]) {
       await responsive.locator(`.view-button[data-view="${destination}"]`).click();
       if (await responsive.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open"))) {
         failures.push(`${viewport.label} ${destination} reopened an explicitly dismissed detail drawer`);

@@ -86,8 +86,22 @@ const egyptianTerm = research.sourceTerms.find((term) => term.term_id === "STM-S
 const boundaryRecord = research.researchBoundaries?.find((record) => record.term_id === "STM-SRC033-001");
 const semanticRoleTermIds = ["STM-SRC192-003", "STM-SRC218-002"];
 const source277Record = discovery.records.find((record) => record.id === "source:SRC-277");
+const wowPlayableRaceTerms = research.sourceTerms.filter((term) =>
+  term.source_id === "SRC-136" && term.work_or_witness.includes("Playable Races directory"));
+const wowPlayableRaceLabels = new Set(wowPlayableRaceTerms.map((term) => term.canonical_term));
 if (!ankkaRecord || ankkaRecord.relatedConceptIds.length) failures.push("Ankka is no longer preserved as source-native evidence");
 if (!sanskritAsuraRecord || sanskritAsuraRecord.relatedConceptIds.length) failures.push("SRC-277 asura was promoted into the graph");
+for (const label of ["Blood Elf", "Night Elf"]) {
+  if (!wowPlayableRaceLabels.has(label)) failures.push(`World of Warcraft source pass omitted ${label}`);
+  const record = discovery.records.find((candidate) =>
+    candidate.kind === "source-term"
+    && candidate.sourceId === "SRC-136"
+    && candidate.label === label);
+  if (!record) failures.push(`discovery index omitted the accepted ${label} source term`);
+}
+if (wowPlayableRaceLabels.size < 20) {
+  failures.push(`World of Warcraft playable-race pass remained a two-term patch: ${wowPlayableRaceLabels.size}`);
+}
 if (!mappedConcept) failures.push("no mapped concept remains available for the failing-path comparison");
 if (xeniaRecord?.normalizedConceptIds.length || !xeniaRecord?.mappingQuarantined || xeniaRecord.relatedConceptIds.length) {
   failures.push("unreviewed xenia mappings were not withheld from graph-selectable links");
@@ -629,7 +643,7 @@ const sourceTermDetail = (await page.locator(".detail-panel").innerText()).toLoc
 if (!sourceTermDetail.includes("source language: sanskrit") || sourceTermDetail.includes("work / witness\nsanskrit")) {
   failures.push(`source-term detail mislabeled language as work: ${sourceTermDetail}`);
 }
-for (const view of ["catalogue", "relations", "constellations", "research"]) {
+for (const view of ["catalogue", "compose", "relations", "constellations", "research"]) {
   await page.locator(`.view-button[data-view="${view}"]`).click();
   if ((await page.locator("#search").inputValue()) !== "ashura") {
     failures.push(`${view} view broadened the selected ashura alias to ${(await page.locator("#search").inputValue())}`);
@@ -642,6 +656,24 @@ if (scopedResearchRows.length !== 1
   failures.push(`selected ashura evidence broadened across view switches: ${scopedResearchRows.join(" | ")}`);
 }
 await page.locator('.view-button[data-view="constellations"]').click();
+
+for (const label of ["Blood Elf", "Night Elf"]) {
+  await page.locator("#search").fill(label.toLocaleLowerCase());
+  const result = page.locator(`.search-result[data-discovery-id="source-term:${wowPlayableRaceTerms.find((term) => term.canonical_term === label)?.term_id}"]`);
+  if (!(await result.count())) {
+    failures.push(`${label} did not render as searchable World of Warcraft evidence`);
+    continue;
+  }
+  const resultText = await result.innerText();
+  if (!resultText.includes(label) || !resultText.includes("World of Warcraft")) {
+    failures.push(`${label} search result hid its source identity: ${resultText}`);
+  }
+  await result.click();
+  const detailText = await page.locator(".detail-panel").innerText();
+  if (!detailText.includes("Playable Races") || !detailText.includes("Open supporting citation")) {
+    failures.push(`${label} detail omitted playable-race provenance: ${detailText}`);
+  }
+}
 
 await page.locator("#search").fill("Kreiß");
 const kreissText = await page.locator("#search-results").innerText();
