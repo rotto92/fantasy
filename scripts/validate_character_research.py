@@ -1228,11 +1228,7 @@ def main() -> None:
         REVIEW_INDEX,
         *review_ledger_paths,
         Path(__file__),
-        *[
-            bundle / filename
-            for bundle in bundle_dirs
-            for filename in REQUIRED_FILES
-        ],
+        *discovered_bundle_dirs,
     ]
     fingerprint = source_fingerprint([path for path in input_paths if path.exists()])
 

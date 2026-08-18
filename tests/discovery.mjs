@@ -485,6 +485,19 @@ const sourceTermDetail = (await page.locator(".detail-panel").innerText()).toLoc
 if (!sourceTermDetail.includes("source language: sanskrit") || sourceTermDetail.includes("work / witness\nsanskrit")) {
   failures.push(`source-term detail mislabeled language as work: ${sourceTermDetail}`);
 }
+for (const view of ["catalogue", "relations", "constellations", "research"]) {
+  await page.locator(`.view-button[data-view="${view}"]`).click();
+  if ((await page.locator("#search").inputValue()) !== "ashura") {
+    failures.push(`${view} view broadened the selected ashura alias to ${(await page.locator("#search").inputValue())}`);
+  }
+}
+const scopedResearchRows = await page.locator(".research-table tbody tr").allTextContents();
+if (scopedResearchRows.length !== 1
+  || !scopedResearchRows[0].includes(sanskritAsuraRecord?.sourceTitle ?? "")
+  || scopedResearchRows[0].includes("Guild Wars")) {
+  failures.push(`selected ashura evidence broadened across view switches: ${scopedResearchRows.join(" | ")}`);
+}
+await page.locator('.view-button[data-view="constellations"]').click();
 
 await page.locator("#search").fill("Kreiß");
 const kreissText = await page.locator("#search-results").innerText();
@@ -651,6 +664,22 @@ for (const label of ["Human and Near-Human Peoples", "Deities", "Warrior or Figh
   }
   const evidenceText = await page.locator(".detail-section").filter({ hasText: "Source evidence and examples" }).innerText();
   if (!evidenceText.includes("Character Example")) failures.push(`${label} detail sampling omitted character evidence`);
+}
+
+const rankedExampleNode = concepts.nodes.find((node) => node.examples?.length > 10);
+if (!rankedExampleNode) {
+  failures.push("no concept exercises the generated representative-example limit");
+} else {
+  await page.locator("#search").fill(rankedExampleNode.label);
+  await page.locator(".search-result").filter({ hasText: "Normalized graph concept" }).first().click();
+  const displayedExamples = await page.locator(".detail-section")
+    .filter({ hasText: "Source evidence and examples" })
+    .locator("article.citation-card")
+    .evaluateAll((cards) => cards.map((card) => card.querySelector(":scope > strong")?.textContent ?? ""));
+  const generatedExamples = rankedExampleNode.examples.slice(0, 10).map((example) => example.label);
+  if (JSON.stringify(displayedExamples) !== JSON.stringify(generatedExamples)) {
+    failures.push(`browser reordered generator-ranked examples: ${JSON.stringify(displayedExamples)}`);
+  }
 }
 
 for (const [sourceId, auditTitle, corpusTitle] of [

@@ -104,11 +104,11 @@ never published.
 
 ## GitHub Pages
 
-`.github/workflows/pages.yml` builds from `main`, provisions pinned Chromium for
-the browser/data/static contracts, uploads `dist/`, and deploys it with the
-least permissions needed by GitHub Pages. The Vite base is `/fantasy/` in
-Actions and `/` for local development; `VITE_BASE` can override it for a local
-Pages-style build.
+`.github/workflows/pages.yml` runs install, generation/build, synchronization,
+release-audit, and browser contracts for pull requests and pushes to `main`.
+Only a push to `main` may upload `dist/` or deploy it with the least permissions
+needed by GitHub Pages. The Vite base is `/fantasy/` in Actions and `/` for local
+development; `VITE_BASE` can override it for a local Pages-style build.
 
 ## Main files
 

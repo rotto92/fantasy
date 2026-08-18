@@ -85,6 +85,33 @@ if (taxonomyLines !== 0) failures.push(`global atlas rendered ${taxonomyLines} t
 if ((await page.locator("#atlas-svg .character-mark").count()) !== 0) failures.push("character nodes remain in the graph");
 if ((await page.locator("#atlas-svg .affinity-line:visible").count()) !== 0) failures.push("global affinity lines are visible before selection");
 
+const mappedSourceOption = page.locator('#source-filter option[value]:not([value=""])').first();
+const mappedSourceId = await mappedSourceOption.getAttribute("value");
+if (!mappedSourceId) {
+  failures.push("source filter has no mapped-source regression fixture");
+} else {
+  await page.locator("#source-filter").selectOption(mappedSourceId);
+  await page.locator("#evidence-filter").selectOption("framework");
+  const compositeScopeCounts = await page.locator("#scope-summary strong").allTextContents();
+  const compositeMetrics = {
+    conceptStars: await page.locator("#atlas-svg .concept-star").count(),
+    familyStars: await page.locator("#atlas-svg .family-star").count(),
+    visibleCount: await page.locator("#visible-count").textContent(),
+  };
+  if (compositeMetrics.conceptStars !== 0
+    || compositeMetrics.familyStars !== 0
+    || compositeMetrics.visibleCount !== "0 concept stars"
+    || compositeScopeCounts.some((count) => count !== "0")) {
+    failures.push(`source plus framework filter exposed inconsistent families or counts: ${JSON.stringify({ ...compositeMetrics, compositeScopeCounts })}`);
+  }
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  if ((await page.locator(".catalogue-family").count()) !== 0 || (await page.locator(".concept-card").count()) !== 0) {
+    failures.push("catalogue reintroduced families with no leaves under the composite filter");
+  }
+  await page.locator('.view-button[data-view="constellations"]').click();
+  await page.locator("#reset-view").click();
+}
+
 const accessibleStar = page.locator("#atlas-svg .concept-star").first();
 if (await accessibleStar.getAttribute("role") !== "button" || await accessibleStar.getAttribute("tabindex") !== "0" || !(await accessibleStar.getAttribute("aria-label"))) {
   failures.push("map concepts are missing semantic keyboard control metadata");

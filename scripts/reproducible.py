@@ -26,7 +26,14 @@ def target_for_treatment(treatment: str) -> int:
 
 def source_fingerprint(paths: list[Path]) -> str:
     digest = hashlib.sha256()
-    for path in sorted((path.resolve() for path in paths), key=lambda value: value.as_posix()):
+    resolved_paths = {Path(__file__).resolve()}
+    for path in paths:
+        resolved = path.resolve()
+        if resolved.is_dir():
+            resolved_paths.update(candidate.resolve() for candidate in resolved.rglob("*") if candidate.is_file())
+        else:
+            resolved_paths.add(resolved)
+    for path in sorted(resolved_paths, key=lambda value: value.as_posix()):
         try:
             label = path.relative_to(ROOT).as_posix()
         except ValueError:

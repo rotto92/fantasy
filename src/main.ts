@@ -380,6 +380,7 @@ let viewMode: ViewMode = "constellations";
 let selectedNodeId: string | null = null;
 let selectedDiscoveryId: string | null = null;
 let selectedDiscoveryContextId: string | null = null;
+let selectedDiscoveryQuery: string | null = null;
 let selectionOrigin: SelectionOrigin = null;
 let selectedDomain = "" as "" | DomainId;
 let selectedFamily = "";
@@ -423,33 +424,6 @@ function titleCase(value: string): string {
 
 function compactLabel(value: string, maximum = 34): string {
   return value.length <= maximum ? value : `${value.slice(0, maximum - 1).trimEnd()}…`;
-}
-
-function representativeExamples(values: ConstellationExample[], limit: number): ConstellationExample[] {
-  const kindOrder: Record<ConstellationExample["kind"], number> = {
-    "character-example": 0,
-    "source-term": 1,
-  };
-  const remaining = [...values];
-  const selected: ConstellationExample[] = [];
-  const kindCounts = new Map<ConstellationExample["kind"], number>();
-  const sourceCounts = new Map<string, number>();
-  while (remaining.length && selected.length < limit) {
-    remaining.sort((left, right) =>
-      (kindCounts.get(left.kind) ?? 0) - (kindCounts.get(right.kind) ?? 0)
-      || (sourceCounts.get(left.sourceId) ?? 0) - (sourceCounts.get(right.sourceId) ?? 0)
-      || kindOrder[left.kind] - kindOrder[right.kind]
-      || d3.ascending(left.sourceTitle, right.sourceTitle)
-      || d3.ascending(left.label, right.label)
-      || d3.ascending(left.id, right.id),
-    );
-    const example = remaining.shift();
-    if (!example) break;
-    selected.push(example);
-    kindCounts.set(example.kind, (kindCounts.get(example.kind) ?? 0) + 1);
-    sourceCounts.set(example.sourceId, (sourceCounts.get(example.sourceId) ?? 0) + 1);
-  }
-  return selected;
 }
 
 function foldSearchToken(value: string): string {
@@ -737,10 +711,7 @@ function visibleConcepts(): ConceptNode[] {
   const leafFamilies = new Set(leaves.map((node) => node.familyId));
   const families = concepts.nodes.filter((node) => {
     if (node.tier !== 2) return false;
-    if (selectedDomain && node.domainId !== selectedDomain) return false;
-    if (selectedFamily && node.id !== selectedFamily) return false;
-    if (!selectedSource && !selectedEvidence) return true;
-    return leafFamilies.has(node.id) || (selectedSource ? node.sourceIds.includes(selectedSource) : node.evidenceCount > 0);
+    return leafFamilies.has(node.id);
   });
   return [...families, ...leaves];
 }
@@ -1580,7 +1551,12 @@ function renderResearch(): void {
   header.append(headerRow);
   table.append(header);
   const body = element("tbody");
-  const matchedSourceIds = researchQuery ? discoverySourceIds(researchQuery) : null;
+  const selectedRecord = selectedDiscoveryQuery === researchQuery
+    ? discoveryRecordById(selectedDiscoveryId)
+    : undefined;
+  const matchedSourceIds = selectedRecord?.sourceId
+    ? new Set([selectedRecord.sourceId])
+    : researchQuery ? discoverySourceIds(researchQuery) : null;
   const sources = research.corpusSources
     .filter((source) => !selectedSource || source.sourceId === selectedSource)
     .filter((source) => !matchedSourceIds || matchedSourceIds.has(source.sourceId))
@@ -1647,6 +1623,7 @@ function closeDetail(): void {
   selectedNodeId = null;
   selectedDiscoveryId = null;
   selectedDiscoveryContextId = null;
+  selectedDiscoveryQuery = null;
   selectionOrigin = null;
   detailPanel?.classList.remove("is-open");
   renderDetail();
@@ -2024,7 +2001,7 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
   if (!node.examples.length) {
     examples.append(element("p", "detail-copy", "This star is structurally useful in the framework, but no source-specific entry, mapped character example, or source term currently points to it. It remains visible as framework—not as a canonical claim about any source."));
   } else {
-    for (const example of representativeExamples(node.examples, 10)) {
+    for (const example of node.examples.slice(0, 10)) {
       const card = element("article", "citation-card");
       card.append(element("strong", "", example.label));
       const character = characterById.get(example.id);
@@ -2103,6 +2080,7 @@ function selectNode(
   const focusBelongsToDetail = detailPanel?.contains(document.activeElement) ?? false;
   selectedDiscoveryId = null;
   selectedDiscoveryContextId = discoveryContextId;
+  selectedDiscoveryQuery = null;
   selectedNodeId = nodeId;
   selectionOrigin = nodeId ? origin : null;
   renderDetail();
@@ -2208,14 +2186,15 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
       button.append(element("small", "result-caution", "Alias is scoped to this source witness; traditions are not merged."));
     }
     button.addEventListener("click", () => {
-      searchInput.value = record.label;
+      searchInput.value = query;
       searchResults.hidden = true;
       selectedDiscoveryId = record.id;
       selectedDiscoveryContextId = null;
+      selectedDiscoveryQuery = query;
       selectedNodeId = record.conceptId ?? record.relatedConceptIds[0] ?? null;
       selectionOrigin = selectedNodeId ? "search" : null;
       viewMode = record.kind === "source" && !selectedNodeId ? "research" : "constellations";
-      researchQuery = viewMode === "research" ? record.label : "";
+      researchQuery = viewMode === "research" ? query : "";
       selectedDomain = "";
       selectedFamily = "";
       selectedSource = "";
@@ -2268,7 +2247,8 @@ function bindEvents(): void {
   });
   document.querySelectorAll<HTMLButtonElement>(".view-button").forEach((button) => {
     button.addEventListener("click", () => {
-      const query = searchInput.value.trim();
+      const query = selectedDiscoveryQuery ?? searchInput.value.trim();
+      searchInput.value = query;
       viewMode = button.dataset.view as ViewMode;
       researchQuery = viewMode === "research" ? query : "";
       setMobileControlsOpen(false);
@@ -2313,6 +2293,7 @@ function bindEvents(): void {
   });
   searchInput.addEventListener("input", () => {
     const query = searchInput.value.trim();
+    selectedDiscoveryQuery = null;
     if (viewMode === "research") {
       researchQuery = query;
       renderResearch();
@@ -2328,6 +2309,7 @@ function bindEvents(): void {
   searchInput.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       searchInput.value = "";
+      selectedDiscoveryQuery = null;
       researchQuery = "";
       if (viewMode === "research") renderResearch();
       showSearchResults("");
@@ -2355,6 +2337,7 @@ function bindEvents(): void {
     selectedNodeId = null;
     selectedDiscoveryId = null;
     selectedDiscoveryContextId = null;
+    selectedDiscoveryQuery = null;
     selectionOrigin = null;
     selectedDomain = "";
     selectedFamily = "";
@@ -2402,6 +2385,7 @@ function bindEvents(): void {
     selectedNodeId = null;
     selectedDiscoveryId = null;
     selectedDiscoveryContextId = null;
+    selectedDiscoveryQuery = null;
     selectionOrigin = null;
     setMobileControlsOpen(false);
     render();

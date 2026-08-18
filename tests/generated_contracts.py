@@ -3,6 +3,7 @@
 from pathlib import Path
 import json
 import sys
+import tempfile
 
 from openpyxl import load_workbook
 
@@ -10,7 +11,7 @@ from openpyxl import load_workbook
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from reproducible import target_for_treatment
+import reproducible
 
 
 workbook = load_workbook(ROOT / "fantasy_high_fantasy_archetype_atlas_v4.xlsx", read_only=True, data_only=True)
@@ -24,6 +25,12 @@ guide_rows = {
 assert "normalized being/entity or role/vocation concept" in guide_rows["One visual noun"]
 assert "named character" not in guide_rows["One visual noun"]
 assert "selected normalized concept" in guide_rows["No global edges"]
+shipped_views = guide_rows["Four shipped views"]
+assert all(view in shipped_views for view in ["Constellations", "Catalogue", "Relations", "Research"])
+assert not any(
+    abandoned_control in " ".join(guide_rows.values()).casefold()
+    for abandoned_control in ["arrange", "nested group", "x/y comparison"]
+)
 
 start = workbook["Start Here"]
 assert "normalized-concept atlas" in str(start["A3"].value).lower()
@@ -53,8 +60,85 @@ atlas_sources = {source["Source_ID"]: source for source in atlas["sources"]}
 for row in coverage_rows:
     treatment = row["Recommended_Treatment"]
     assert isinstance(treatment, str) and treatment.strip()
-    expected = target_for_treatment(treatment)
+    expected = reproducible.target_for_treatment(treatment)
     assert row["Canonical_Target"] == expected
     assert atlas_sources[row["Source_ID"]]["Coverage_Target"] == expected
+
+assert start["B6"].value == reproducible.source_fingerprint([
+    ROOT / "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
+    ROOT / "public" / "data" / "characters.json",
+    ROOT / "scripts" / "build_version4.py",
+])
+version3_workbook = load_workbook(
+    ROOT / "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
+    read_only=True,
+    data_only=True,
+)
+assert version3_workbook["Start Here"]["B6"].value == reproducible.source_fingerprint([
+    ROOT / "fantasy_high_fantasy_archetype_atlas_v2.xlsx",
+    ROOT / "scripts" / "build_version3.py",
+])
+assert atlas["meta"]["sourceFingerprint"] == reproducible.source_fingerprint([
+    ROOT / "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
+    ROOT / "scripts" / "extract_atlas.py",
+])
+
+review_index = json.loads((ROOT / "research" / "independent_reviews" / "index.json").read_text(encoding="utf-8"))
+ledger_names = {
+    str(review["ledger"])
+    for review in review_index.get("corpus_wide_reviews", [])
+    if isinstance(review, dict) and review.get("ledger")
+}
+for review in review_index.get("source_review_status", {}).values():
+    if isinstance(review, dict):
+        ledger_names.update(str(ledger) for ledger in review.get("ledgers", []) if ledger)
+zero_character_audit = review_index.get("zero_character_audit", {})
+if isinstance(zero_character_audit, dict) and zero_character_audit.get("ledger"):
+    ledger_names.add(str(zero_character_audit["ledger"]))
+research_root = ROOT / "research"
+required_bundle_files = ("sources.json", "characters.json", "relationships.json", "source_terms.json")
+discovered_bundles = sorted(
+    path
+    for path in research_root.glob("batch_*/*")
+    if path.is_dir() and any((path / filename).exists() for filename in required_bundle_files)
+)
+expected_research_fingerprint = reproducible.source_fingerprint([
+    ROOT / "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
+    research_root / "dimensions.json",
+    research_root / "independent_reviews" / "index.json",
+    *[research_root / "independent_reviews" / name for name in sorted(ledger_names)],
+    ROOT / "scripts" / "validate_character_research.py",
+    *discovered_bundles,
+])
+validation_report = json.loads((research_root / "validation_report.json").read_text(encoding="utf-8"))
+characters = json.loads((ROOT / "public" / "data" / "characters.json").read_text(encoding="utf-8"))
+assert validation_report["source_fingerprint"] == expected_research_fingerprint
+assert characters["meta"]["sourceFingerprint"] == expected_research_fingerprint
+
+with tempfile.TemporaryDirectory(dir=ROOT / "tests") as directory:
+    fixture_root = Path(directory)
+    input_path = fixture_root / "input.json"
+    dependency_path = fixture_root / "semantic_dependency.py"
+    input_path.write_text("{}\n", encoding="utf-8")
+    dependency_path.write_text("VALUE = 1\n", encoding="utf-8")
+    original_module_path = reproducible.__file__
+    try:
+        reproducible.__file__ = str(dependency_path)
+        first_dependency_fingerprint = reproducible.source_fingerprint([input_path])
+        dependency_path.write_text("VALUE = 2\n", encoding="utf-8")
+        assert reproducible.source_fingerprint([input_path]) != first_dependency_fingerprint
+    finally:
+        reproducible.__file__ = original_module_path
+
+    bundle_path = fixture_root / "bundle"
+    bundle_path.mkdir()
+    (bundle_path / "sources.json").write_text("[]\n", encoding="utf-8")
+    unquarantined_fingerprint = reproducible.source_fingerprint([bundle_path])
+    marker_path = bundle_path / "QUARANTINED.md"
+    marker_path.write_text("Quarantined\n", encoding="utf-8")
+    quarantined_fingerprint = reproducible.source_fingerprint([bundle_path])
+    assert quarantined_fingerprint != unquarantined_fingerprint
+    marker_path.unlink()
+    assert reproducible.source_fingerprint([bundle_path]) == unquarantined_fingerprint
 
 print("Generated workbook graph contract passed.")
