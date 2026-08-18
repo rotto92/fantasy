@@ -25,7 +25,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.workbook.properties import CalcProperties
 from openpyxl.worksheet.table import Table, TableStyleInfo
 
-from reproducible import normalize_xlsx, source_fingerprint
+from reproducible import normalize_xlsx, source_fingerprint, target_for_treatment
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -310,19 +310,6 @@ def map_concept(concept: str) -> list[tuple[str, str]]:
         if len(matches) >= 3:
             break
     return matches
-
-
-def target_for_treatment(treatment: str) -> int:
-    treatment = treatment.casefold()
-    if "foundational" in treatment:
-        return 30
-    if "major" in treatment:
-        return 15
-    if "adaptation" in treatment:
-        return 12
-    if "selective" in treatment:
-        return 5
-    return 8
 
 
 def add_table(sheet: Any, display_name: str) -> None:

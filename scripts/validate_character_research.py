@@ -1155,6 +1155,19 @@ def main() -> None:
             "detail": f"All {total} accepted claims have recorded focused review",
         }
 
+    def evidence_review_lane(count: int, evidence_name: str, pass_name: str) -> dict[str, str]:
+        if count == 0:
+            return {
+                "status": "not-started",
+                "label": "Not started",
+                "detail": f"No accepted {evidence_name} evidence or {pass_name}-pass completion declaration is recorded",
+            }
+        return {
+            "status": "in-progress",
+            "label": "Evidence recorded",
+            "detail": f"{count} accepted {evidence_name} records are validated; no {pass_name}-pass completion declaration is recorded",
+        }
+
     def review_lanes(audit: dict[str, Any]) -> dict[str, dict[str, str]]:
         source_id = str(audit.get("source_id", ""))
         completed = int(audit.get("completed_character_count", 0) or 0)
@@ -1184,16 +1197,6 @@ def main() -> None:
             "label": "Not started",
             "detail": "No lane-specific continuity or witness review is recorded",
         }
-        relationship_count = promoted_relationship_counts[source_id]
-        relationship_lane = {
-            "status": "in-progress" if relationship_count else "not-started",
-            "label": "Evidence recorded" if relationship_count else "Not started",
-            "detail": (
-                f"{relationship_count} accepted relationship records are validated; no relationship-pass completion declaration is recorded"
-                if relationship_count
-                else "No accepted relationship evidence or relationship-pass completion declaration is recorded"
-            ),
-        }
         return {
             "scoped": {
                 "status": "pass-complete",
@@ -1205,12 +1208,12 @@ def main() -> None:
                 "label": str(audit.get("completion_status", "pass-complete")),
                 "detail": f"{promoted_character_counts[source_id]} accepted records from {completed} of {in_scope} completed in scope",
             },
-            "terminologyPass": {
-                "status": "in-progress",
-                "label": "Evidence recorded",
-                "detail": f"{promoted_term_counts[source_id]} accepted source-term records are validated; no terminology-pass completion declaration is recorded",
-            },
-            "relationshipPass": relationship_lane,
+            "terminologyPass": evidence_review_lane(
+                promoted_term_counts[source_id], "source-term", "terminology"
+            ),
+            "relationshipPass": evidence_review_lane(
+                promoted_relationship_counts[source_id], "relationship", "relationship"
+            ),
             "secondReview": counted_review_lane(
                 len(reviewed_source_claims),
                 len(source_claims),

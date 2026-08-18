@@ -22,11 +22,13 @@
         </a>
 
         <nav class="view-switcher" aria-label="Atlas view">
-          <button class="view-button is-active" data-view="constellations">Constellations</button>
-          <button class="view-button" data-view="catalogue">Catalogue</button>
-          <button class="view-button" data-view="relations">Relations</button>
-          <button class="view-button" data-view="research">Research</button>
+          <button type="button" class="view-button is-active" data-view="constellations" aria-pressed="true">Constellations</button>
+          <button type="button" class="view-button" data-view="catalogue" aria-pressed="false">Catalogue</button>
+          <button type="button" class="view-button" data-view="relations" aria-pressed="false">Relations</button>
+          <button type="button" class="view-button" data-view="research" aria-pressed="false">Research</button>
         </nav>
+
+        <button id="mobile-controls-toggle" class="mobile-controls-toggle" type="button" aria-controls="lens-panel" aria-expanded="false">Controls</button>
 
         <div class="search-wrap">
           <span aria-hidden="true">⌕</span>
@@ -36,7 +38,7 @@
         </div>
       </header>
 
-      <aside class="lens-panel panel-surface">
+      <aside id="lens-panel" class="lens-panel panel-surface">
         <div class="panel-heading">
           <div>
             <p class="eyebrow">Star chart controls</p>

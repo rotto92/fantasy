@@ -20,7 +20,7 @@ from typing import Any, Iterable
 
 from openpyxl import load_workbook
 
-from reproducible import source_fingerprint
+from reproducible import source_fingerprint, target_for_treatment
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -85,19 +85,6 @@ def split_ids(value: Any) -> list[str]:
 def hash_fraction(text: str, salt: str = "") -> float:
     digest = hashlib.sha256(f"{salt}:{text}".encode("utf-8")).digest()
     return int.from_bytes(digest[:8], "big") / (2**64 - 1)
-
-
-def target_for_treatment(treatment: str) -> int:
-    lower = treatment.lower()
-    if "foundational" in lower:
-        return 30
-    if "major" in lower:
-        return 15
-    if "adaptation" in lower:
-        return 12
-    if "selective" in lower:
-        return 5
-    return 8
 
 
 def coverage_level(count: int, target: int) -> str:

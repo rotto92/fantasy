@@ -116,6 +116,17 @@ if (jinnAudit?.review_lanes.secondReview.status !== "not-started" || jinnAudit.r
 if (research.sources.some((audit) => audit.review_lanes.terminologyPass.status === "pass-complete" || audit.review_lanes.relationshipPass.status === "pass-complete")) {
   failures.push("record counts were promoted into undeclared terminology or relationship pass completion");
 }
+const sourceTermCounts = new Map();
+for (const term of research.sourceTerms) sourceTermCounts.set(term.source_id, (sourceTermCounts.get(term.source_id) ?? 0) + 1);
+const falseEmptyTerminologyLanes = research.sources.filter((audit) =>
+  !sourceTermCounts.has(audit.source_id)
+  && (audit.review_lanes.terminologyPass.status !== "not-started"
+    || audit.review_lanes.terminologyPass.label !== "Not started"
+    || !audit.review_lanes.terminologyPass.detail.includes("No accepted source-term evidence")),
+);
+if (falseEmptyTerminologyLanes.length) {
+  failures.push(`zero-evidence terminology lanes claim progress: ${falseEmptyTerminologyLanes.map((audit) => audit.source_id).join(", ")}`);
+}
 const focusedReviewedSources = research.sources.filter((audit) => audit.review_lanes.secondReview.status !== "not-started").length;
 if (research.meta.reviewCoverage.focusedReviewedSources !== focusedReviewedSources) {
   failures.push("public focused-review source count is not derived from reviewed claim IDs");
@@ -595,6 +606,16 @@ const baldrCard = page.locator(".detail-section").filter({ hasText: "Representat
 const baldrCitations = await baldrCard.locator(".evidence-citation").allTextContents();
 if (!baldr || baldrCitations.length !== baldr.citations.length || baldr.citations.some((citation) => !baldrCitations.some((text) => text.includes(citation.locator)))) {
   failures.push("character detail hid one or more claim-specific citations");
+}
+
+const greekAudit = research.sources.find((audit) => audit.source_id === "SRC-001");
+await page.locator("#search").fill("Achilles");
+await page.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click();
+const achillesSourceContext = await page.locator(".detail-section").filter({ hasText: "Source and continuity" }).innerText();
+if (!greekAudit
+  || !achillesSourceContext.includes(greekAudit.omissions[0])
+  || !achillesSourceContext.includes(greekAudit.uncertainties[0])) {
+  failures.push(`character detail omitted source-audit caution context: ${achillesSourceContext}`);
 }
 
 const irishAudit = research.sources.find((audit) => audit.source_id === "SRC-003");

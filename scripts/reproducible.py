@@ -11,6 +11,19 @@ ROOT = Path(__file__).resolve().parents[1]
 CORE_TIMESTAMP = b"2000-01-01T00:00:00Z"
 
 
+def target_for_treatment(treatment: str) -> int:
+    normalized = treatment.casefold()
+    if "foundational" in normalized:
+        return 30
+    if "major" in normalized:
+        return 15
+    if "adaptation" in normalized:
+        return 12
+    if "selective" in normalized:
+        return 5
+    return 8
+
+
 def source_fingerprint(paths: list[Path]) -> str:
     digest = hashlib.sha256()
     for path in sorted((path.resolve() for path in paths), key=lambda value: value.as_posix()):

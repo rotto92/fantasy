@@ -166,6 +166,10 @@ def decode_text(content: bytes) -> str | None:
     return None if "\0" in text else text
 
 
+def decode_archive_metadata(value: str | bytes) -> str:
+    return value if isinstance(value, str) else value.decode("utf-8", errors="replace")
+
+
 def approved_archive_internal_paths(path: Path, references: set[str]) -> set[str]:
     outer_path, separator, _ = path.as_posix().partition("::")
     if not separator or not outer_path.casefold().endswith(".xlsx"):
@@ -265,11 +269,38 @@ def scan_file(
     content = absolute.read_bytes()
     if zipfile.is_zipfile(absolute):
         with zipfile.ZipFile(absolute) as archive:
+            archive_comment_path = Path(f"{path.as_posix()}::[archive comment]")
+            findings.extend(
+                scan_text(
+                    archive_comment_path,
+                    decode_archive_metadata(archive.comment),
+                    policy_path=approval_path,
+                    approved_public_paths=approved_public_paths,
+                )
+            )
             for member in archive.infolist():
-                if member.is_dir():
-                    continue
                 member_path = Path(f"{path.as_posix()}::{member.filename}")
                 member_policy_path = Path(f"{approval_path.as_posix()}::{member.filename}")
+                findings.extend(
+                    scan_text(
+                        member_path,
+                        decode_archive_metadata(member.filename),
+                        policy_path=member_policy_path,
+                        approved_public_paths=approved_public_paths,
+                    )
+                )
+                for metadata_label, metadata in (("comment", member.comment), ("extra", member.extra)):
+                    metadata_path = Path(f"{member_path.as_posix()}::[{metadata_label}]")
+                    findings.extend(
+                        scan_text(
+                            metadata_path,
+                            decode_archive_metadata(metadata),
+                            policy_path=member_policy_path,
+                            approved_public_paths=approved_public_paths,
+                        )
+                    )
+                if member.is_dir():
+                    continue
                 if SENSITIVE_NAME_PATTERN.search(Path(member.filename).name):
                     findings.append(finding(member_path, "suspicious-filename", "credential-like archive member filename"))
                 if member.file_size > MAX_FILE_BYTES:

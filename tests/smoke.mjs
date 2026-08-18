@@ -20,6 +20,20 @@ await page.goto(appUrl, { waitUntil: "networkidle" });
 await page.locator("#loading").waitFor({ state: "detached" });
 await page.waitForFunction(() => !document.querySelector("#search")?.disabled);
 
+const initialViewState = await page.locator(".view-button").evaluateAll((buttons) =>
+  buttons.map((button) => [button.dataset.view, button.getAttribute("aria-pressed")]),
+);
+if (initialViewState.filter(([, pressed]) => pressed === "true").length !== 1
+  || initialViewState.find(([view]) => view === "constellations")?.[1] !== "true") {
+  failures.push(`view controls do not expose one semantic active state: ${JSON.stringify(initialViewState)}`);
+}
+await page.locator('.view-button[data-view="catalogue"]').click();
+if (await page.locator('.view-button[data-view="catalogue"]').getAttribute("aria-pressed") !== "true"
+  || await page.locator('.view-button[data-view="constellations"]').getAttribute("aria-pressed") !== "false") {
+  failures.push("view controls did not synchronize semantic state after activation");
+}
+await page.locator('.view-button[data-view="constellations"]').click();
+
 const placeholderContrast = await page.locator("#search").evaluate((node) => {
   const parseColor = (value) => (value.match(/[\d.]+/g) ?? []).map(Number);
   const composite = (foreground, background) => {
@@ -277,6 +291,12 @@ await page.locator("#search").fill("Ankka");
 if (!(await page.locator(".research-table tbody tr").filter({ hasText: "Guild Wars" }).count())) {
   failures.push("research search did not route corpus character evidence to its source pass");
 }
+await page.locator("#search").fill("Kamandjan");
+const kamandjanRows = await page.locator(".research-table tbody tr").allTextContents();
+if (kamandjanRows.length !== 1 || !kamandjanRows[0].includes("Sundiata Epic")) {
+  failures.push(`research character search fanned out beyond its evidence source: ${kamandjanRows.join(" | ")}`);
+}
+await page.locator("#search").fill("Ankka");
 if (!(await page.locator("#search-results .search-result").count())) failures.push("research search omitted the corpus discovery result");
 await page.locator("#search").press("Escape");
 if ((await page.locator("#search").inputValue()) || (await page.locator(".research-table tbody tr").count()) !== sourceRows) {
@@ -413,6 +433,32 @@ for (const viewport of [
   }
   if (viewport.width <= 520 && (!metrics.brand || metrics.brand.width < 44 || metrics.brand.height < 44)) {
     failures.push(`${viewport.label} home link is smaller than the touch target`);
+  }
+  if (viewport.width <= 1040) {
+    const controlsToggle = responsive.locator("#mobile-controls-toggle");
+    const toggleBox = await controlsToggle.boundingBox();
+    if (!toggleBox || toggleBox.width < 44 || toggleBox.height < 44 || await controlsToggle.getAttribute("aria-expanded") !== "false") {
+      failures.push(`${viewport.label} controls toggle is not a collapsed touch target`);
+    }
+    await controlsToggle.click();
+    if (!(await responsive.locator("#lens-panel").isVisible()) || await controlsToggle.getAttribute("aria-expanded") !== "true") {
+      failures.push(`${viewport.label} controls drawer did not expose its expanded state`);
+    }
+    for (const selector of ["#reset-view", "#domain-filter", "#detail-level", "#source-filter", "#evidence-filter"]) {
+      const box = await responsive.locator(selector).boundingBox();
+      if (!box || box.height < 44) failures.push(`${viewport.label} ${selector} is not touch-operable in the controls drawer`);
+    }
+    await responsive.locator("#evidence-filter").selectOption("evidenced");
+    if (await responsive.locator("#evidence-filter").inputValue() !== "evidenced") {
+      failures.push(`${viewport.label} controls drawer did not apply the evidence filter`);
+    }
+    await responsive.locator('.view-button[data-view="catalogue"]').click();
+    await controlsToggle.click();
+    const familyBox = await responsive.locator("#family-filter").boundingBox();
+    if (!familyBox || familyBox.height < 44 || !(await responsive.locator("#catalogue-controls").isVisible())) {
+      failures.push(`${viewport.label} controls drawer did not expose the catalogue family filter`);
+    }
+    await responsive.locator("#reset-view").click();
   }
   await responsive.close();
 }

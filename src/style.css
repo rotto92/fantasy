@@ -118,6 +118,7 @@ button { color: inherit; }
   background: var(--gold);
   box-shadow: 0 0 12px rgba(239, 200, 122, 0.48);
 }
+.mobile-controls-toggle { display: none; }
 
 .search-wrap {
   position: relative;
@@ -712,11 +713,34 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
     grid-template-rows: 66px minmax(0, 1fr) 29px;
     grid-template-areas: "top" "stage" "status";
   }
-  .topbar { grid-template-columns: auto 1fr; padding-inline: 12px; }
+  .topbar { grid-template-columns: auto auto minmax(0, 1fr); padding-inline: 12px; }
   .brand .eyebrow, .brand strong { display: none; }
   .view-switcher { order: 2; position: fixed; right: 8px; bottom: 38px; left: 8px; z-index: 100; justify-content: center; height: 44px; border: 1px solid var(--line-strong); border-radius: 10px; background: rgba(6, 11, 20, 0.96); }
   .search-wrap { width: 100%; }
   .lens-panel, .detail-panel { display: none; }
+  .mobile-controls-toggle {
+    display: block;
+    min-width: 64px;
+    min-height: 44px;
+    padding: 0 9px;
+    border: 1px solid var(--line-strong);
+    border-radius: 8px;
+    color: #aab7c8;
+    background: rgba(255, 255, 255, 0.025);
+    font-size: 0.75rem;
+    cursor: pointer;
+  }
+  .mobile-controls-toggle[aria-expanded="true"] { color: var(--night); border-color: var(--teal); background: var(--teal); }
+  .lens-panel.is-open {
+    position: fixed;
+    inset: 66px auto 90px 0;
+    z-index: 110;
+    display: block;
+    width: min(390px, 94vw);
+    border-right: 1px solid var(--line-strong);
+    background: rgba(7, 12, 22, 0.985);
+    box-shadow: 22px 0 70px rgba(0, 0, 0, 0.48);
+  }
   .statusbar div:last-child { display: none; }
   .research-summary { grid-template-columns: repeat(2, 1fr); }
   .coverage-board { padding: 80px 14px 92px; }
@@ -793,6 +817,7 @@ body { font-size: var(--body-size); }
 .result-caution { color: var(--gold) !important; }
 .control-section label, .control-section h3, .legend-section h3, .detail-section h3 { font-size: var(--micro-size); }
 .control-section select, select { font-size: var(--small-size); }
+.control-section select, .quiet-button { min-height: 44px; }
 .micro-stat, .scope-fact span, .legend-item, .legend-note { font-size: var(--micro-size); }
 .view-note p:last-child { font-size: var(--small-size); }
 .focus-copy > span { font-size: var(--micro-size); }
@@ -824,7 +849,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 
 @media (max-width: 520px) {
   #app { grid-template-rows: 66px minmax(0, 1fr) 30px; }
-  .topbar { grid-template-columns: 44px minmax(0, 1fr); gap: 8px; padding-inline: 8px; }
+  .topbar { grid-template-columns: 44px 64px minmax(0, 1fr); gap: 8px; padding-inline: 8px; }
   .brand { justify-content: center; min-width: 44px; min-height: 44px; }
   .brand-sigil { width: 30px; height: 30px; }
   .search-wrap { min-width: 0; height: 42px; }

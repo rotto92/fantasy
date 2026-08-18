@@ -5,6 +5,7 @@ import json
 import subprocess
 import sys
 import tempfile
+import zipfile
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -13,6 +14,7 @@ from scripts.audit_release_import import (
     APPROVED_PUBLIC_PATH_REFERENCES,
     REVIEWED_OPAQUE_FILES,
     review_opaque,
+    scan_file,
     scan_text,
 )
 
@@ -68,6 +70,21 @@ reviewed_path = Path(next(iter(REVIEWED_OPAQUE_FILES)))
 assert "opaque-binary-hash-mismatch" in kinds(review_opaque(reviewed_path, b"changed"))
 
 root = Path(__file__).resolve().parents[1]
+with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
+    archive_path = Path(directory) / "metadata.zip"
+    archive_token = "gh" + "p_" + "a" * 24
+    member_token = "sk" + "-proj-" + "b" * 32
+    extra_token = "npm" + "_" + "c" * 36
+    extra_payload = extra_token.encode("utf-8")
+    member = zipfile.ZipInfo(slash + "home" + slash + "alice" + slash + "private.txt")
+    member.comment = member_token.encode("utf-8")
+    member.extra = b"\x34\x12" + len(extra_payload).to_bytes(2, "little") + extra_payload
+    with zipfile.ZipFile(archive_path, "w") as archive:
+        archive.comment = archive_token.encode("utf-8")
+        archive.writestr(member, "public")
+    archive_findings = scan_file(archive_path.relative_to(root))
+    assert {"github-token", "openai-token", "npm-token", "machine-local-path"} <= kinds(archive_findings)
+
 with tempfile.TemporaryDirectory(dir=root / "tests") as directory:
     artifact = Path(directory)
     relative = artifact.relative_to(root)

@@ -2,7 +2,7 @@
   "meta": {
     "title": "Fantasy Character Atlas",
     "version": "4.0-research",
-    "sourceFingerprint": "sha256:f6790664a92ae5512a055259fde01c4aa0e33998e146ed9b56a761435c131ec6",
+    "sourceFingerprint": "sha256:80b42911042d2f9664b1ec1e07b65e3f77473bf7ebf487ab1b23ca797c041a96",
     "sourceWorkbook": "fantasy_high_fantasy_archetype_atlas_v3.xlsx",
     "counts": {
       "source_audits": 281,
@@ -12214,9 +12214,9 @@
           "detail": "0 accepted records from 0 of 0 completed in scope"
         },
         "terminologyPass": {
-          "status": "in-progress",
-          "label": "Evidence recorded",
-          "detail": "0 accepted source-term records are validated; no terminology-pass completion declaration is recorded"
+          "status": "not-started",
+          "label": "Not started",
+          "detail": "No accepted source-term evidence or terminology-pass completion declaration is recorded"
         },
         "relationshipPass": {
           "status": "not-started",
@@ -12308,9 +12308,9 @@
           "detail": "0 accepted records from 0 of 0 completed in scope"
         },
         "terminologyPass": {
-          "status": "in-progress",
-          "label": "Evidence recorded",
-          "detail": "0 accepted source-term records are validated; no terminology-pass completion declaration is recorded"
+          "status": "not-started",
+          "label": "Not started",
+          "detail": "No accepted source-term evidence or terminology-pass completion declaration is recorded"
         },
         "relationshipPass": {
           "status": "not-started",
@@ -13377,9 +13377,9 @@
           "detail": "0 accepted records from 0 of 0 completed in scope"
         },
         "terminologyPass": {
-          "status": "in-progress",
-          "label": "Evidence recorded",
-          "detail": "0 accepted source-term records are validated; no terminology-pass completion declaration is recorded"
+          "status": "not-started",
+          "label": "Not started",
+          "detail": "No accepted source-term evidence or terminology-pass completion declaration is recorded"
         },
         "relationshipPass": {
           "status": "not-started",

@@ -312,6 +312,8 @@ const focusContext = byId<HTMLElement>("focus-context");
 const tooltip = byId<HTMLDivElement>("tooltip");
 const loading = byId<HTMLDivElement>("loading");
 const discoveryNotice = byId<HTMLElement>("discovery-notice");
+const lensPanel = byId<HTMLElement>("lens-panel");
+const mobileControlsToggle = byId<HTMLButtonElement>("mobile-controls-toggle");
 const detailPanel = document.querySelector<HTMLElement>(".detail-panel");
 const detailContent = byId<HTMLDivElement>("detail-content");
 const searchInput = byId<HTMLInputElement>("search");
@@ -680,6 +682,7 @@ function discoverySourceIds(query: string): Set<string> {
   const sourceIds = new Set<string>();
   for (const { record } of discoveryMatches(query)) {
     if (record.sourceId) sourceIds.add(record.sourceId);
+    if (record.kind !== "concept") continue;
     for (const conceptId of [record.conceptId, ...record.relatedConceptIds]) {
       const node = conceptId ? nodeById.get(conceptId) : undefined;
       node?.sourceIds.forEach((sourceId) => sourceIds.add(sourceId));
@@ -1730,6 +1733,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
 
   const context = detailSection("Source and continuity");
   const contextGrid = element("div", "attribute-grid");
+  const sourceAudit = record.sourceId ? auditStatusPresentation(auditBySource.get(record.sourceId)) : undefined;
   const normalizedFamilies = [...new Set(record.normalizedConceptIds.map(normalizedFamilyLabel).filter(Boolean))].join(", ");
   const normalizedMappings = record.normalizedConceptIds
     .map((id) => `${research.taxonomy[id]?.name ?? id} (${id})`)
@@ -1739,6 +1743,8 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     ["Continuity", record.continuity],
     ["Work / witness", record.work],
     ["Source-wide scope", record.kind === "source-term" ? sourceScopeLabel(record.sourceId) : ""],
+    ["Source audit status", sourceAudit?.label ?? ""],
+    ["Source audit caution", sourceAudit?.caution ?? ""],
     ["Evidence dimension", dimensionLabels[record.dimension] ?? record.dimension],
     ["Normalized family", normalizedFamilies],
     ["Normalized mapping", normalizedMappings],
@@ -2121,7 +2127,9 @@ function render(): void {
   catalogueControls.hidden = viewMode !== "catalogue";
   zoomControls.hidden = viewMode !== "constellations" && viewMode !== "relations";
   document.querySelectorAll<HTMLButtonElement>(".view-button").forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.view === viewMode);
+    const active = button.dataset.view === viewMode;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
   });
   searchInput.placeholder = viewMode === "research" ? "Find a source, work, or tradition…" : "Search the bounded corpus…";
   if (viewMode === "constellations") renderConstellations();
@@ -2247,12 +2255,23 @@ function fitView(): void {
   d3.select(svgElement).transition().duration(motionDuration(450)).call(currentZoom.transform, d3.zoomIdentity);
 }
 
+function setMobileControlsOpen(open: boolean): void {
+  lensPanel.classList.toggle("is-open", open);
+  mobileControlsToggle.setAttribute("aria-expanded", String(open));
+}
+
 function bindEvents(): void {
+  mobileControlsToggle.addEventListener("click", () => {
+    const open = mobileControlsToggle.getAttribute("aria-expanded") !== "true";
+    if (open) detailPanel?.classList.remove("is-open");
+    setMobileControlsOpen(open);
+  });
   document.querySelectorAll<HTMLButtonElement>(".view-button").forEach((button) => {
     button.addEventListener("click", () => {
       const query = searchInput.value.trim();
       viewMode = button.dataset.view as ViewMode;
       researchQuery = viewMode === "research" ? query : "";
+      setMobileControlsOpen(false);
       render();
       showSearchResults(query);
     });
@@ -2302,6 +2321,7 @@ function bindEvents(): void {
   });
   searchInput.addEventListener("focus", () => {
     if (window.matchMedia("(max-width: 1040px)").matches) {
+      setMobileControlsOpen(false);
       detailPanel?.classList.remove("is-open");
     }
   });
@@ -2322,7 +2342,14 @@ function bindEvents(): void {
       event.preventDefault();
       searchInput.focus();
     }
-    if (event.key === "Escape" && document.activeElement !== searchInput) closeDetail();
+    if (event.key === "Escape" && document.activeElement !== searchInput) {
+      if (lensPanel.classList.contains("is-open")) {
+        setMobileControlsOpen(false);
+        mobileControlsToggle.focus();
+      } else {
+        closeDetail();
+      }
+    }
   });
   byId<HTMLButtonElement>("reset-view").addEventListener("click", () => {
     selectedNodeId = null;
@@ -2342,6 +2369,7 @@ function bindEvents(): void {
     lineModeSelect.value = "none";
     searchInput.value = "";
     researchQuery = "";
+    setMobileControlsOpen(false);
     render();
     showSearchResults("");
   });
@@ -2375,9 +2403,11 @@ function bindEvents(): void {
     selectedDiscoveryId = null;
     selectedDiscoveryContextId = null;
     selectionOrigin = null;
+    setMobileControlsOpen(false);
     render();
   });
   window.addEventListener("resize", () => {
+    if (!window.matchMedia("(max-width: 1040px)").matches) setMobileControlsOpen(false);
     window.clearTimeout(resizeTimer);
     resizeTimer = window.setTimeout(() => {
       if (viewMode === "constellations" || viewMode === "relations") render();
