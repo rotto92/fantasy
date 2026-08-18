@@ -216,6 +216,8 @@ kbd {
   padding: 15px 0;
   border-top: 1px solid var(--line);
 }
+.control-field { display: grid; gap: 7px; margin-top: 8px; }
+.control-field[hidden] { display: none; }
 .control-section label, .control-section h3, .legend-section h3, .detail-section h3 {
   margin: 0;
   color: #7c8ba2;

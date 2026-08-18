@@ -341,6 +341,7 @@ const detailLevelSelect = byId<HTMLSelectElement>("detail-level");
 const lineModeSelect = byId<HTMLSelectElement>("line-mode");
 const familyFilter = byId<HTMLSelectElement>("family-filter");
 const sourceFilter = byId<HTMLSelectElement>("source-filter");
+const evidenceControl = byId<HTMLElement>("evidence-control");
 const evidenceFilter = byId<HTMLSelectElement>("evidence-filter");
 const constellationControls = byId<HTMLElement>("constellation-controls");
 const catalogueControls = byId<HTMLElement>("catalogue-controls");
@@ -489,6 +490,18 @@ function setConceptScopeFilter(domain: "" | DomainId = "", familyId = ""): void 
   selectedDomain = family?.tier === 2 ? family.domainId : domain;
   domainFilter.value = selectedDomain;
   familyFilter.value = selectedFamily;
+}
+
+function setEvidenceFilter(value: EvidenceFilter = ""): void {
+  selectedEvidence = value;
+  evidenceFilter.value = value;
+}
+
+function syncEvidenceControlAvailability(): void {
+  const unavailable = viewMode === "research";
+  evidenceControl.hidden = unavailable;
+  evidenceFilter.disabled = unavailable;
+  evidenceFilter.setAttribute("aria-disabled", String(unavailable));
 }
 
 const element = <K extends keyof HTMLElementTagNameMap>(
@@ -1891,8 +1904,7 @@ function renderDiscoveryDetail(record: DiscoveryRecord): void {
     relations.type = "button";
     relations.addEventListener("click", () => {
       if (!visibleNodeById.has(nodeId)) return;
-      viewMode = "relations";
-      render();
+      transitionToView("relations");
     });
     actions.append(relations);
   }
@@ -2110,15 +2122,13 @@ function renderConceptDetail(node: ConceptNode, discoveryContext?: DiscoveryReco
   const center = element("button", "primary-button", node.tier === 2 ? "Open constellation" : "Center star") as HTMLButtonElement;
   center.type = "button";
   center.addEventListener("click", () => {
-    viewMode = "constellations";
-    render();
+    transitionToView("constellations");
     requestAnimationFrame(() => zoomToNode(node.id));
   });
   const relations = element("button", "secondary-button", "Show relations") as HTMLButtonElement;
   relations.type = "button";
   relations.addEventListener("click", () => {
-    viewMode = "relations";
-    render();
+    transitionToView("relations");
   });
   actions.append(center, relations);
   detailContent.append(actions);
@@ -2409,18 +2419,16 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
       searchInput.value = query;
       searchResults.hidden = true;
       setDiscoverySelection(record, query);
-      viewMode = record.kind === "source" && !selection.nodeId ? "research" : "constellations";
-      researchQuery = viewMode === "research" ? query : "";
+      const targetView = record.kind === "source" && !selection.nodeId ? "research" : "constellations";
       setConceptScopeFilter();
       selectedSource = "";
-      selectedEvidence = "";
+      setEvidenceFilter();
       sourceFilter.value = "";
-      evidenceFilter.value = "";
       lineModeSelect.value = "none";
-      render();
+      transitionToView(targetView, query);
       requestAnimationFrame(() => {
         detailContent.querySelector<HTMLElement>("h2")?.focus();
-        if (selection.nodeId && viewMode === "constellations") zoomToSelection(selection.nodeId);
+        if (selection.nodeId && targetView === "constellations") zoomToSelection(selection.nodeId);
       });
     });
     searchResults.append(button);
@@ -2452,6 +2460,17 @@ function setMobileControlsOpen(open: boolean): void {
   mobileControlsToggle.setAttribute("aria-expanded", String(open));
 }
 
+function transitionToView(nextView: ViewMode, query = selection.query ?? searchInput.value.trim()): void {
+  if (nextView !== viewMode) setConceptScopeFilter();
+  viewMode = nextView;
+  if (viewMode === "research") setEvidenceFilter();
+  syncEvidenceControlAvailability();
+  researchQuery = viewMode === "research" ? query : "";
+  searchInput.value = query;
+  setMobileControlsOpen(false);
+  render();
+}
+
 function bindEvents(): void {
   mobileControlsToggle.addEventListener("click", () => {
     const open = mobileControlsToggle.getAttribute("aria-expanded") !== "true";
@@ -2461,11 +2480,7 @@ function bindEvents(): void {
   document.querySelectorAll<HTMLButtonElement>(".view-button").forEach((button) => {
     button.addEventListener("click", () => {
       const query = selection.query ?? searchInput.value.trim();
-      searchInput.value = query;
-      viewMode = button.dataset.view as ViewMode;
-      researchQuery = viewMode === "research" ? query : "";
-      setMobileControlsOpen(false);
-      render();
+      transitionToView(button.dataset.view as ViewMode, query);
       showSearchResults(query);
     });
   });
@@ -2492,7 +2507,7 @@ function bindEvents(): void {
     render();
   });
   evidenceFilter.addEventListener("change", () => {
-    selectedEvidence = evidenceFilter.value as EvidenceFilter;
+    setEvidenceFilter(evidenceFilter.value as EvidenceFilter);
     render();
   });
   searchInput.addEventListener("input", () => {
@@ -2541,10 +2556,9 @@ function bindEvents(): void {
     clearSelection();
     setConceptScopeFilter();
     selectedSource = "";
-    selectedEvidence = "";
+    setEvidenceFilter();
     detailLevel = "auto";
     sourceFilter.value = "";
-    evidenceFilter.value = "";
     detailLevelSelect.value = "auto";
     lineModeSelect.value = "none";
     searchInput.value = "";
@@ -2563,8 +2577,7 @@ function bindEvents(): void {
   byId<HTMLButtonElement>("focus-relations").addEventListener("click", () => {
     if (!selection.nodeId) return;
     const nodeId = selection.nodeId;
-    viewMode = "relations";
-    render();
+    transitionToView("relations");
     requestAnimationFrame(() => {
       const mark = [...document.querySelectorAll<SVGGElement>("#atlas-svg .relation-star")]
         .find((candidate) => candidate.dataset.nodeId === nodeId && candidate.isConnected);
@@ -2578,10 +2591,8 @@ function bindEvents(): void {
   });
   document.querySelector<HTMLAnchorElement>(".brand")?.addEventListener("click", (event) => {
     event.preventDefault();
-    viewMode = "constellations";
     clearSelection();
-    setMobileControlsOpen(false);
-    render();
+    transitionToView("constellations", "");
   });
   window.addEventListener("resize", () => {
     if (!window.matchMedia("(max-width: 1040px)").matches) setMobileControlsOpen(false);

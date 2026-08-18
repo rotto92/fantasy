@@ -443,6 +443,114 @@ if (!pairedFamily || !oppositeFamily) {
   await page.locator("#reset-view").click();
 }
 
+const transitionRelationSource = concepts.nodes.find((node) => node.id === "PPL-101");
+const transitionRelationTarget = concepts.nodes.find((node) => node.id === "ROL-101");
+if (pairedFamily && transitionRelationSource && transitionRelationTarget) {
+  await page.locator("#domain-filter").selectOption("beings");
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  const catalogueTransition = {
+    domain: await page.locator("#domain-filter").inputValue(),
+    family: await page.locator("#family-filter").inputValue(),
+    families: await page.locator(".catalogue-family").count(),
+    cards: await page.locator(".concept-card").count(),
+    visible: await page.locator("#visible-count").textContent(),
+    constellationControlsHidden: await page.locator("#constellation-controls").isHidden(),
+    catalogueControlsVisible: await page.locator("#catalogue-controls").isVisible(),
+  };
+  if (catalogueTransition.domain !== ""
+    || catalogueTransition.family !== ""
+    || catalogueTransition.families !== concepts.meta.counts.families
+    || catalogueTransition.cards !== concepts.meta.counts.specificArchetypes
+    || catalogueTransition.visible !== `${concepts.meta.counts.nodes} concept stars`
+    || !catalogueTransition.constellationControlsHidden
+    || !catalogueTransition.catalogueControlsVisible) {
+    failures.push(`Catalogue inherited a hidden constellation filter: ${JSON.stringify(catalogueTransition)}`);
+  }
+  await page.locator("#reset-view").click();
+
+  await page.locator("#family-filter").selectOption(pairedFamily.id);
+  await page.locator('.view-button[data-view="constellations"]').click();
+  const constellationTransition = {
+    domain: await page.locator("#domain-filter").inputValue(),
+    family: await page.locator("#family-filter").inputValue(),
+    concepts: await page.locator("#atlas-svg .concept-star").count(),
+    families: await page.locator("#atlas-svg .family-star").count(),
+    specifics: await page.locator("#atlas-svg .specific-star").count(),
+    visible: await page.locator("#visible-count").textContent(),
+  };
+  if (constellationTransition.domain !== ""
+    || constellationTransition.family !== ""
+    || constellationTransition.concepts !== concepts.meta.counts.nodes
+    || constellationTransition.families !== concepts.meta.counts.families
+    || constellationTransition.specifics !== concepts.meta.counts.specificArchetypes
+    || constellationTransition.visible !== `${concepts.meta.counts.nodes} concept stars`) {
+    failures.push(`Constellations inherited a hidden catalogue filter: ${JSON.stringify(constellationTransition)}`);
+  }
+  await page.locator("#reset-view").click();
+
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  await page.locator("#family-filter").selectOption(pairedFamily.id);
+  await page.locator(`.concept-card[data-node-id="${transitionRelationSource.id}"]`).click();
+  await page.locator('.view-button[data-view="relations"]').click();
+  const relationsTransition = {
+    domain: await page.locator("#domain-filter").inputValue(),
+    family: await page.locator("#family-filter").inputValue(),
+    affinityTarget: await page.locator(`#atlas-svg .relation-star[data-node-id="${transitionRelationTarget.id}"]`).count(),
+    detail: await page.locator(".concept-detail-header h2").textContent().catch(() => null),
+    constellationControlsHidden: await page.locator("#constellation-controls").isHidden(),
+    catalogueControlsHidden: await page.locator("#catalogue-controls").isHidden(),
+  };
+  if (relationsTransition.domain !== ""
+    || relationsTransition.family !== ""
+    || relationsTransition.affinityTarget !== 1
+    || relationsTransition.detail !== transitionRelationSource.label
+    || !relationsTransition.constellationControlsHidden
+    || !relationsTransition.catalogueControlsHidden) {
+    failures.push(`Relations inherited a hidden catalogue filter: ${JSON.stringify(relationsTransition)}`);
+  }
+  await page.locator("#reset-view").click();
+  await page.locator('.view-button[data-view="constellations"]').click();
+
+  await page.locator("#evidence-filter").selectOption("framework");
+  await page.locator('.view-button[data-view="research"]').click();
+  const researchTransition = {
+    evidence: await page.locator("#evidence-filter").inputValue(),
+    evidenceVisible: await page.locator("#evidence-filter").isVisible(),
+    evidenceLabelVisible: await page.locator('label[for="evidence-filter"]').isVisible(),
+    evidenceDisabled: await page.locator("#evidence-filter").isDisabled(),
+    evidenceAriaDisabled: await page.locator("#evidence-filter").getAttribute("aria-disabled"),
+    sourceRows: await page.locator(".research-table tbody tr").count(),
+    visible: await page.locator("#visible-count").textContent(),
+  };
+  if (researchTransition.evidence !== ""
+    || researchTransition.evidenceVisible
+    || researchTransition.evidenceLabelVisible
+    || !researchTransition.evidenceDisabled
+    || researchTransition.evidenceAriaDisabled !== "true"
+    || researchTransition.sourceRows !== research.corpusSources.length
+    || researchTransition.visible !== `${research.corpusSources.length} source passes`) {
+    failures.push(`Research exposed or retained the concept evidence filter: ${JSON.stringify(researchTransition)}`);
+  }
+  await page.locator('.view-button[data-view="constellations"]').click();
+  const restoredEvidenceControl = {
+    evidence: await page.locator("#evidence-filter").inputValue(),
+    visible: await page.locator("#evidence-filter").isVisible(),
+    labelVisible: await page.locator('label[for="evidence-filter"]').isVisible(),
+    enabled: await page.locator("#evidence-filter").isEnabled(),
+    concepts: await page.locator("#atlas-svg .concept-star").count(),
+    visibleCount: await page.locator("#visible-count").textContent(),
+  };
+  if (restoredEvidenceControl.evidence !== ""
+    || !restoredEvidenceControl.visible
+    || !restoredEvidenceControl.labelVisible
+    || !restoredEvidenceControl.enabled
+    || restoredEvidenceControl.concepts !== concepts.meta.counts.nodes
+    || restoredEvidenceControl.visibleCount !== `${concepts.meta.counts.nodes} concept stars`) {
+    failures.push(`Concept view did not restore an unfiltered evidence control: ${JSON.stringify(restoredEvidenceControl)}`);
+  }
+  await page.locator("#reset-view").click();
+}
+
 const accessibleStar = page.locator('#atlas-svg .concept-star[tabindex="0"]');
 if ((await accessibleStar.count()) !== 1 || await accessibleStar.getAttribute("role") !== "button" || !(await accessibleStar.getAttribute("aria-label"))) {
   failures.push("map concepts are missing semantic keyboard control metadata");
