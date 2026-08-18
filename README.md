@@ -31,8 +31,9 @@ source-native uses are not merged.
 
 Generation uses the repository-owned policy in `generation-runtime.json`:
 CPython 3.14.7 is pinned in `.python-version`, while the active Unicode database
-and linked zlib compile/runtime versions are included in every generated-data
-fingerprint. The same policy owns deterministic workbook compression settings.
+is included in every generated-data fingerprint. Normalized workbooks use
+platform-independent stored ZIP members so their bytes do not depend on a host
+compression library.
 
 ```bash
 python3.14 -m venv .venv

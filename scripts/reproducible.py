@@ -7,7 +7,6 @@ import sys
 import tempfile
 import unicodedata
 import zipfile
-import zlib
 from pathlib import Path
 from xml.etree import ElementTree
 
@@ -47,11 +46,7 @@ def generation_runtime_contract() -> dict[str, object]:
     return json.loads(GENERATION_RUNTIME_CONTRACT_PATH.read_text(encoding="utf-8"))
 
 
-def generation_runtime_identity(
-    *,
-    zlib_compile_version: str | None = None,
-    zlib_runtime_version: str | None = None,
-) -> str:
+def generation_runtime_identity() -> str:
     contract = generation_runtime_contract()
     python_version_path = ROOT / str(contract["pythonVersionFile"])
     expected_python_version = python_version_path.read_text(encoding="utf-8").strip()
@@ -65,8 +60,6 @@ def generation_runtime_identity(
         "pythonVersion": actual_python_version,
         "unicodeVersion": unicodedata.unidata_version,
         "maxUnicode": sys.maxunicode,
-        "zlibCompileVersion": zlib_compile_version or zlib.ZLIB_VERSION,
-        "zlibRuntimeVersion": zlib_runtime_version or zlib.ZLIB_RUNTIME_VERSION,
     }
     fields = contract["fingerprintedRuntimeFields"]
     if not isinstance(fields, list) or any(field not in values for field in fields):
@@ -141,13 +134,14 @@ def normalize_xlsx(path: Path) -> None:
     compression = getattr(zipfile, compression_name, None)
     if not isinstance(compression, int):
         raise ValueError(f"Unsupported workbook compression method: {compression_name}")
-    compression_level = int(compression_contract["level"])
+    if compression != zipfile.ZIP_STORED:
+        raise ValueError("Workbook normalization requires platform-independent ZIP_STORED members")
     with zipfile.ZipFile(path) as archive:
         entries = [(info.filename, archive.read(info.filename)) for info in archive.infolist()]
     with tempfile.NamedTemporaryFile(dir=path.parent, suffix=".xlsx", delete=False) as temporary:
         temporary_path = Path(temporary.name)
     try:
-        with zipfile.ZipFile(temporary_path, "w", compression=compression, compresslevel=compression_level) as archive:
+        with zipfile.ZipFile(temporary_path, "w", compression=compression) as archive:
             for name, content in sorted(entries):
                 if name == "docProps/core.xml":
                     content = normalize_core_properties(content)
@@ -155,7 +149,7 @@ def normalize_xlsx(path: Path) -> None:
                 info.compress_type = compression
                 info.create_system = ZIP_CREATE_SYSTEM
                 info.external_attr = ZIP_EXTERNAL_ATTRIBUTES
-                archive.writestr(info, content, compresslevel=compression_level)
+                archive.writestr(info, content)
         temporary_path.replace(path)
     finally:
         temporary_path.unlink(missing_ok=True)

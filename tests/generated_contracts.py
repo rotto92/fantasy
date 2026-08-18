@@ -24,7 +24,9 @@ for workbook_name in (
 ):
     with zipfile.ZipFile(ROOT / workbook_name) as archive:
         assert all(
-            info.create_system == reproducible.ZIP_CREATE_SYSTEM
+            info.compress_type == zipfile.ZIP_STORED
+            and info.compress_size == info.file_size
+            and info.create_system == reproducible.ZIP_CREATE_SYSTEM
             and info.external_attr == reproducible.ZIP_EXTERNAL_ATTRIBUTES
             for info in archive.infolist()
         )

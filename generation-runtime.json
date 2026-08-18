@@ -5,12 +5,9 @@
     "pythonImplementation",
     "pythonVersion",
     "unicodeVersion",
-    "maxUnicode",
-    "zlibCompileVersion",
-    "zlibRuntimeVersion"
+    "maxUnicode"
   ],
   "xlsxCompression": {
-    "method": "ZIP_DEFLATED",
-    "level": 9
+    "method": "ZIP_STORED"
   }
 }
