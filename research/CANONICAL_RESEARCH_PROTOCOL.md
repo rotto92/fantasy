@@ -21,11 +21,11 @@ equivalence by itself.
 Each source pass produces four JSON files:
 
 - `sources.json`: scope, continuity, witness/edition, coverage rule, and audit.
-- `characters.json`: one record per canonical named character or collective
-  character deliberately included by the stated coverage rule.
+- `characters.json`: one record per canonical named individual character
+  deliberately included by the stated coverage rule.
 - `relationships.json`: typed character-to-character relationships only.
-- `source_terms.json`: source-native attribute terms and their cautious
-  mappings to the normalized taxonomy.
+- `source_terms.json`: source-native attribute terms and non-semantic research
+  boundaries, with cautious normalized mappings only where evidence permits.
 
 Every file must contain a JSON array. Do not edit the workbook directly during
 research; integration happens only after validation.
@@ -153,6 +153,7 @@ can act as a filter, grouping dimension, or explanatory legend:
 ```json
 {
   "term_id": "STM-SRC001-001",
+  "record_kind": "source-term",
   "source_id": "SRC-001",
   "canonical_term": "",
   "identity_forms": [],
@@ -178,6 +179,14 @@ within that witness and do not substitute for its identity.
 evidence when the canonical term, transliteration, and original script do not
 contain those forms individually. Compound prose labels are never split by the
 compiler to infer identity.
+
+When a bounded pass establishes only its bibliographic or witness scope, a
+`research-boundary` record preserves that citation-backed limit without
+inventing internal terminology or characters. It uses the same stable term ID
+namespace, sets `record_kind` to `research-boundary`, and requires `term_id`,
+`source_id`, `canonical_term`, `definition`, `citations`, and `review_status`.
+The compiler reports these records separately and does not treat them as
+source-native terms or discovery evidence.
 
 ## Evidence rules
 
@@ -209,10 +218,12 @@ compiler to infer identity.
 - No non-character relationship endpoints.
 - No source marked complete without its audit and declared coverage rule.
 - Canonical research and corpus-orientation data remain visibly separate.
-- A second-pass reviewer samples at least 20 percent of claims and all disputed
-  or culturally sensitive mappings before workbook promotion.
+- A second-pass reviewer samples at least 20 percent of promoted claims.
+  Disputed records, `needs-review` mappings, and culturally sensitive mappings
+  without claim-level second review must be quarantined before workbook
+  promotion.
 - Review coverage is calculated over characters, populated character
-  dimensions, relationships, and source terms. Unreviewed disputed records and
+  dimensions, relationships, and source terms. Disputed records and
   `needs-review` normalized mappings remain in their source bundles as retained
   research, but must be listed in the independent-review quarantine and are not
   promoted to public data or the workbook.

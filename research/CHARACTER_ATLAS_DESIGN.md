@@ -26,45 +26,39 @@ to expose the storage model.
   Borrow this only for the local relationship view, not for the global atlas.
 - [VOSviewer](https://www.vosviewer.com/documentation/Manual_VOSviewer_1.3.1.pdf): maintain a strict label budget and update visible labels with zoom
   instead of attempting to label every point.
-- [Gapminder](https://www.gapminder.org/tools/assets/guide.pdf): let the user remap visual channels to different data dimensions.
-  Borrow explicit “arrange by,” “color by,” and comparison controls.
-- [TensorFlow Embedding Projector](https://projector.tensorflow.org/): allow search, isolate selection, nearest
-  neighbours, and saved views. Treat similarity projection as an optional
-  analytical lens, never as unexplained geography.
+- [TensorFlow Embedding Projector](https://projector.tensorflow.org/): borrow
+  search and selection isolation without introducing unexplained similarity
+  geography.
 
-## Three coordinated views
+## Four coordinated views
 
-### 1. Atlas map — default
+### 1. Constellations — default
 
 A zoomable constellation map. Large luminous marks are normalized families;
-smaller marks are specific normalized concepts.
+smaller marks are specific normalized concepts. Two fixed sky fields separate
+beings/peoples from classes/vocations.
 
-- `Arrange by`: source, being type, culture, role, power tradition,
-  affiliation, transformation, narrative function, medium, or continuity.
-- `Then by`: optional nested dimension.
-- `Color by`: an independent dimension or evidence status.
-- `Size by`: uniform by default; optional relationship degree or attribute
-  richness.
+- Filters narrow the sky by domain, mapped source, and evidence state.
+- Detail controls reveal families only, all concepts, or concepts progressively
+  as the user zooms.
 - Zoomed out: concept-family names and selected coverage signal.
 - Mid zoom: specific concept marks and a small readable label budget.
 - Close zoom: selected, related, and nearby concept labels.
 
-Changing the arrangement is a deliberate animated regrouping. Positions do not
-pretend to have geographic meaning.
+Positions organize the fixed concept hierarchy and do not pretend to have
+geographic meaning.
 
-### 2. Attribute matrix — comparison
+### 2. Catalogue — readable hierarchy
 
-A categorical x/y grid can answer explicit evidence questions such as “which
-being types occupy which roles?” without changing the concept graph.
+The catalogue presents the same normalized families and concepts as semantic
+buttons and cards instead of spatial marks.
 
-- `X dimension` and `Y dimension` are user-selected.
-- Multi-valued character evidence uses declared confidence and keeps alternate
-  values visible in the evidence profile.
-- Color supplies a third dimension.
-- Empty cells are informative and remain visible.
-- A small-multiple mode compares selected sources without drawing edges.
+- Family, source, domain, and evidence filters preserve the same scope as the
+  map.
+- Activating a card opens the same evidence detail used by other views.
+- Framework-only concepts remain visible and are labelled as mapping pending.
 
-### 3. Relationship constellation — local only
+### 3. Relations — local only
 
 Selecting a concept opens a bounded concept-to-concept constellation.
 
@@ -73,6 +67,12 @@ Selecting a concept opens a bounded concept-to-concept constellation.
 - Cross-family affinities require shared mapped concepts or explicit evidence.
 - Text coincidence never creates an edge.
 - Source, character, and source-term records remain evidence rather than nodes.
+
+### 4. Research — coverage dashboard
+
+The source table keeps scope, evidence-pass status, independent review, and
+continuity review visible without adding source or status pseudo-nodes to the
+sky. Corpus search and the source filter narrow its rows.
 
 ## Detail profile
 
@@ -104,9 +104,7 @@ supported normalized concept.
 - No global edges.
 - No more than 24 persistent concept labels in a scene.
 - No more than 12 group labels at one hierarchy level without aggregation.
-- Groups with fewer than three visible characters may be combined under
-  `Other` unless explicitly selected.
-- Search and direct selection override the label budget.
+- Search and direct selection take priority within the label budget.
 - Zoom changes the level of detail and the contents of the scene, not merely
   the font size.
 
@@ -114,16 +112,16 @@ supported normalized concept.
 
 Corpus progress belongs in a separate compact matrix:
 
-- Rows: source or source family.
+- Rows: bounded source passes.
 - Columns: scoped, character pass, terminology pass, relationship pass,
   second review, and continuity review.
-- Cells: not started, in progress, pass complete, reviewed, or disputed.
-- Filters: priority, medium, region/tradition, and continuity type.
+- Cells: not started, in progress, pass complete, or reviewed.
+- Search and source-evidence filtering narrow the visible rows.
 
-This keeps research incompleteness visible without allowing 260 uncovered
-sources to dominate the character map.
+This keeps research incompleteness visible without allowing coverage rows to
+dominate the concept map.
 
-## First implementation slice
+## Release implementation contract
 
 1. Compile validated research into `public/data/characters.json`.
 2. Compile normalized concepts and evidence-backed affinities into

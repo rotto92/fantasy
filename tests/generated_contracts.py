@@ -51,7 +51,9 @@ coverage_rows = [
 atlas = json.loads((ROOT / "generated" / "atlas.json").read_text(encoding="utf-8"))
 atlas_sources = {source["Source_ID"]: source for source in atlas["sources"]}
 for row in coverage_rows:
-    expected = target_for_treatment(str(row["Recommended_Treatment"]))
+    treatment = row["Recommended_Treatment"]
+    assert isinstance(treatment, str) and treatment.strip()
+    expected = target_for_treatment(treatment)
     assert row["Canonical_Target"] == expected
     assert atlas_sources[row["Source_ID"]]["Coverage_Target"] == expected
 

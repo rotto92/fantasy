@@ -15,31 +15,17 @@ and punctuation-tolerant input. Results explain which indexed field matched and
 show the source/series, continuity, work or witness, character examples,
 normalized concept links, and citations where available.
 
-The promoted public corpus currently contains 281 bounded source passes, 1,568
-characters, 1,252 character relationships, 1,759 source-native terms, 119
-non-semantic research-boundary records, 482 normalized graph concepts, and
-7,499 discovery records. The retained research bundles contain 1,573
-characters, 1,258 relationships, and 1,881 term/boundary records; 14 disputed
-or dependent records remain quarantined, and unreviewed sensitive normalized
-mappings are withheld claim by claim without removing their source evidence.
-These numbers are a release boundary, not a claim to cover all
-fantasy, every edition, every adaptation, or every regional tradition.
+The promoted public payload is a bounded release, not a claim to cover all
+fantasy, every edition, every adaptation, or every regional tradition. Its
+authoritative counts and review/quarantine state are emitted in
+`public/data/characters.json`, `public/data/constellations.json`, and
+`public/data/discovery.json`; retained research totals remain in
+`research/validation_report.json`.
 
 `asura` demonstrates the evidence boundary: Guild Wars evidence for Ankka and
 the Sanskrit Mahābhārata source-term witness remain separate results. The
 `ashura` search alias is explicitly limited to that Sanskrit witness; unrelated
 source-native uses are not merged.
-
-The original discovery defect was a graph-boundary defect, not a missing graph
-node: mapped normalized concepts were searchable through the constellation
-records, while Ankka's accepted source-native `asura` evidence and the SRC-277
-Sanskrit `asura` term had no concept ID. The smallest safe counterfactual was to
-project every accepted research record into the corpus index, preserving source
-identity and leaving unmapped evidence out of the graph. The same boundary
-applies to other unmapped source-native characters and terms, including the
-Unicode-sensitive `Kreiß` record. Browser regressions compare a mapped concept
-with `asura`, scoped `ashura`, `Kreiß`, and punctuation-tolerant Ankka searches;
-they also verify that the scoped alias does not reach Rāmāyaṇa's Paraśurāma.
 
 ## Local setup
 
@@ -53,7 +39,7 @@ npm run dev
 
 Open the local Vite URL. Press `/` to focus search. On touch-sized layouts,
 the bottom view switcher, map zoom controls, and detail drawer remain usable
-without hover. The browser contracts use the pinned Playwright 1.62.1 Chromium
+without hover. The browser contracts use the package-pinned Playwright Chromium
 build; set `CHROMIUM_PATH` only when intentionally using another executable.
 
 ## Generate, build, and test
@@ -84,9 +70,9 @@ contract. It indexes normalized labels, character names and aliases, every
 structured research dimension, source-native terms, source/series titles,
 continuity units, and work/witness identifiers. Its generated metadata reports
 accepted, discoverable, excluded, and missing rows for each dimension. Being and
-role/vocation rows currently have zero exclusions. The index records the
-quarantined bundle boundary from `characters.json`; quarantined research is not
-silently treated as accepted corpus coverage.
+role/vocation rows are part of that machine-checked contract. The index records
+the quarantined bundle boundary from `characters.json`; quarantined research is
+not silently treated as accepted corpus coverage.
 
 Generated public data:
 

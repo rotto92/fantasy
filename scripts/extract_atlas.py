@@ -108,7 +108,10 @@ def main() -> None:
     taxonomy = records(values["Master Taxonomy"], 1)
     sources = records(values["Source Corpus"], 1)
     entries = records(values["Seed Catalogue"], 1)
-    priorities = records(values["Source Priority"], 6)
+    # Version 3's generated coverage sheet materializes the reviewed treatment
+    # values. The copied Source Priority formulas have no cached values after
+    # openpyxl saves the workbook, so they are not a reliable extraction input.
+    priorities = records(values["Source Coverage Audit"], 1)
     terms = records(values["Term Metadata"], 4)
     crosswalks = records(values["Adaptation Crosswalk"], 4)
     concepts = records(values["Source Concept Map"], 1) if "Source Concept Map" in values.sheetnames else []

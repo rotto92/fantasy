@@ -356,7 +356,15 @@ def main() -> None:
     taxonomy = sheet_records(workbook["Master Taxonomy"])
     sources = sheet_records(workbook["Source Corpus"])
     entries = sheet_records(workbook["Seed Catalogue"])
-    priorities = sheet_records(workbook["Source Priority"], 6)
+    # openpyxl preserves formulas when it saves the Version 3 workbook, but it
+    # does not preserve their cached results. Read the reviewed Version 2
+    # priority values from a data-only copy before saving so the generated
+    # coverage contract contains the actual treatment, not the formula text.
+    priority_values = load_workbook(args.input, read_only=True, data_only=True)
+    try:
+        priorities = sheet_records(priority_values["Source Priority"], 6)
+    finally:
+        priority_values.close()
     archetype_names = {clean(row["Archetype_ID"]): clean(row["Preferred_Name"]) for row in taxonomy}
     source_names = {clean(row["Source_ID"]): clean(row["Title_or_Franchise"]) for row in sources}
     entry_counts = Counter(clean(row.get("Source_ID")) for row in entries)

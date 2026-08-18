@@ -2,8 +2,8 @@
 """Validate and compile citation-backed character research batches.
 
 Researchers write isolated JSON bundles under ``research/batch_*/*``. This
-script enforces the character-only graph contract and emits the browser payload
-only when every structural and evidence gate passes.
+script enforces the character-evidence and relationship-endpoint contracts and
+emits the browser payload only when every structural and evidence gate passes.
 """
 
 from __future__ import annotations
