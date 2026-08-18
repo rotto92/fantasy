@@ -483,6 +483,14 @@ function detachSelectionQuery(): void {
   selection = { ...selection, query: null };
 }
 
+function setConceptScopeFilter(domain: "" | DomainId = "", familyId = ""): void {
+  const family = familyId ? nodeById.get(familyId) : undefined;
+  selectedFamily = family?.tier === 2 ? family.id : "";
+  selectedDomain = family?.tier === 2 ? family.domainId : domain;
+  domainFilter.value = selectedDomain;
+  familyFilter.value = selectedFamily;
+}
+
 const element = <K extends keyof HTMLElementTagNameMap>(
   tag: K,
   className?: string,
@@ -953,6 +961,7 @@ function clearStage(): d3.Selection<SVGSVGElement, unknown, null, undefined> {
   svgElement.style.display = "";
   hideTooltip();
   const svg = d3.select(svgElement);
+  svg.interrupt();
   svg.selectAll("*").remove();
   svg.on(".zoom", null);
   currentZoom = null;
@@ -2402,12 +2411,9 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
       setDiscoverySelection(record, query);
       viewMode = record.kind === "source" && !selection.nodeId ? "research" : "constellations";
       researchQuery = viewMode === "research" ? query : "";
-      selectedDomain = "";
-      selectedFamily = "";
+      setConceptScopeFilter();
       selectedSource = "";
       selectedEvidence = "";
-      domainFilter.value = "";
-      familyFilter.value = "";
       sourceFilter.value = "";
       evidenceFilter.value = "";
       lineModeSelect.value = "none";
@@ -2464,11 +2470,7 @@ function bindEvents(): void {
     });
   });
   domainFilter.addEventListener("change", () => {
-    selectedDomain = domainFilter.value as "" | DomainId;
-    if (selectedFamily && nodeById.get(selectedFamily)?.domainId !== selectedDomain && selectedDomain) {
-      selectedFamily = "";
-      familyFilter.value = "";
-    }
+    setConceptScopeFilter(domainFilter.value as "" | DomainId);
     render();
   });
   detailLevelSelect.addEventListener("change", () => {
@@ -2482,12 +2484,7 @@ function bindEvents(): void {
     }
   });
   familyFilter.addEventListener("change", () => {
-    selectedFamily = familyFilter.value;
-    const family = selectedFamily ? nodeById.get(selectedFamily) : undefined;
-    if (family) {
-      selectedDomain = family.domainId;
-      domainFilter.value = family.domainId;
-    }
+    setConceptScopeFilter("", familyFilter.value);
     render();
   });
   sourceFilter.addEventListener("change", () => {
@@ -2542,13 +2539,10 @@ function bindEvents(): void {
   });
   byId<HTMLButtonElement>("reset-view").addEventListener("click", () => {
     clearSelection();
-    selectedDomain = "";
-    selectedFamily = "";
+    setConceptScopeFilter();
     selectedSource = "";
     selectedEvidence = "";
     detailLevel = "auto";
-    domainFilter.value = "";
-    familyFilter.value = "";
     sourceFilter.value = "";
     evidenceFilter.value = "";
     detailLevelSelect.value = "auto";

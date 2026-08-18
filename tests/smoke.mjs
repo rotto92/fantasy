@@ -362,8 +362,89 @@ if (!mappedSourceId) {
   await page.locator("#reset-view").click();
 }
 
-const accessibleStar = page.locator("#atlas-svg .concept-star").first();
-if (await accessibleStar.getAttribute("role") !== "button" || await accessibleStar.getAttribute("tabindex") !== "0" || !(await accessibleStar.getAttribute("aria-label"))) {
+const pairedFamily = concepts.nodes.find((node) => node.id === "PPL-100");
+const oppositeFamily = concepts.nodes.find((node) => node.id === "ROL-100");
+if (!pairedFamily || !oppositeFamily) {
+  failures.push("compiled concepts have no paired filter-state regression fixtures");
+} else {
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  await page.locator("#family-filter").selectOption(pairedFamily.id);
+  const restrictedCatalogue = {
+    domain: await page.locator("#domain-filter").inputValue(),
+    family: await page.locator("#family-filter").inputValue(),
+    families: await page.locator(".catalogue-family").count(),
+    cards: await page.locator(".concept-card").count(),
+  };
+  if (restrictedCatalogue.domain !== pairedFamily.domainId
+    || restrictedCatalogue.family !== pairedFamily.id
+    || restrictedCatalogue.families !== 1
+    || restrictedCatalogue.cards !== pairedFamily.childIds.length) {
+    failures.push(`family filter did not establish its paired domain: ${JSON.stringify(restrictedCatalogue)}`);
+  }
+  await page.locator("#family-filter").selectOption("");
+  const clearedCatalogue = {
+    domain: await page.locator("#domain-filter").inputValue(),
+    family: await page.locator("#family-filter").inputValue(),
+    families: await page.locator(".catalogue-family").count(),
+    cards: await page.locator(".concept-card").count(),
+    visible: await page.locator("#visible-count").textContent(),
+    scope: await page.locator("#scope-summary strong").allTextContents(),
+  };
+  if (clearedCatalogue.domain !== ""
+    || clearedCatalogue.family !== ""
+    || clearedCatalogue.families !== concepts.meta.counts.families
+    || clearedCatalogue.cards !== concepts.meta.counts.specificArchetypes
+    || clearedCatalogue.visible !== `${concepts.meta.counts.nodes} concept stars`
+    || clearedCatalogue.scope[0] !== String(concepts.meta.counts.families)
+    || clearedCatalogue.scope[1] !== String(concepts.meta.counts.specificArchetypes)) {
+    failures.push(`All families retained a hidden domain: ${JSON.stringify(clearedCatalogue)}`);
+  }
+  const restoredCatalogueFamily = page.locator(`.catalogue-family-heading[data-node-id="${oppositeFamily.id}"]`);
+  if ((await restoredCatalogueFamily.count()) !== 1) {
+    failures.push("All families did not restore an opposite-domain detail target");
+  } else {
+    await restoredCatalogueFamily.click();
+  }
+  if ((await page.locator(".concept-detail-header h2").textContent().catch(() => null)) !== oppositeFamily.label) {
+    failures.push("All families detail did not match the restored catalogue");
+  }
+  await page.locator("#reset-view").click();
+
+  await page.locator('.view-button[data-view="catalogue"]').click();
+  await page.locator("#family-filter").selectOption(pairedFamily.id);
+  await page.locator('.view-button[data-view="constellations"]').click();
+  await page.locator("#domain-filter").selectOption("");
+  const clearedConstellations = {
+    domain: await page.locator("#domain-filter").inputValue(),
+    family: await page.locator("#family-filter").inputValue(),
+    concepts: await page.locator("#atlas-svg .concept-star").count(),
+    families: await page.locator("#atlas-svg .family-star").count(),
+    specifics: await page.locator("#atlas-svg .specific-star").count(),
+    visible: await page.locator("#visible-count").textContent(),
+  };
+  if (clearedConstellations.domain !== ""
+    || clearedConstellations.family !== ""
+    || clearedConstellations.concepts !== concepts.meta.counts.nodes
+    || clearedConstellations.families !== concepts.meta.counts.families
+    || clearedConstellations.specifics !== concepts.meta.counts.specificArchetypes
+    || clearedConstellations.visible !== `${concepts.meta.counts.nodes} concept stars`) {
+    failures.push(`Both skies retained a hidden family: ${JSON.stringify(clearedConstellations)}`);
+  }
+  const oppositeFamilyStar = page.locator(`#atlas-svg .family-star[data-node-id="${oppositeFamily.id}"]`);
+  if ((await oppositeFamilyStar.count()) !== 1) {
+    failures.push("Both skies did not restore an opposite-domain detail target");
+  } else {
+    await oppositeFamilyStar.focus();
+    await page.keyboard.press("Enter");
+  }
+  if ((await page.locator(".concept-detail-header h2").textContent().catch(() => null)) !== oppositeFamily.label) {
+    failures.push("Both skies detail did not match the restored constellation map");
+  }
+  await page.locator("#reset-view").click();
+}
+
+const accessibleStar = page.locator('#atlas-svg .concept-star[tabindex="0"]');
+if ((await accessibleStar.count()) !== 1 || await accessibleStar.getAttribute("role") !== "button" || !(await accessibleStar.getAttribute("aria-label"))) {
   failures.push("map concepts are missing semantic keyboard control metadata");
 } else {
   await accessibleStar.hover({ force: true });
