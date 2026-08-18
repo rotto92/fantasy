@@ -218,6 +218,9 @@ kbd {
 }
 .control-field { display: grid; gap: 7px; margin-top: 8px; }
 .control-field[hidden] { display: none; }
+.control-policy { margin-top: 8px; padding: 10px; border: 1px solid var(--line); border-radius: 7px; background: rgba(255, 255, 255, 0.018); }
+.control-policy span { color: #7c8ba2; font-size: 9px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.control-policy p { margin: 6px 0 0; color: var(--evidence-muted); font-size: 9px; line-height: 1.45; }
 .control-section label, .control-section h3, .legend-section h3, .detail-section h3 {
   margin: 0;
   color: #7c8ba2;
@@ -822,6 +825,8 @@ body { font-size: var(--body-size); }
 .control-section label, .control-section h3, .legend-section h3, .detail-section h3 { font-size: var(--micro-size); }
 .control-section select, select { font-size: var(--small-size); }
 .control-section select, .quiet-button { min-height: 44px; }
+.control-policy span { font-size: var(--micro-size); }
+.control-policy p { font-size: var(--small-size); }
 .micro-stat, .scope-fact span, .legend-item, .legend-note { font-size: var(--micro-size); }
 .view-note p:last-child { font-size: var(--small-size); }
 .focus-copy > span { font-size: var(--micro-size); }

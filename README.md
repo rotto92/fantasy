@@ -29,8 +29,11 @@ source-native uses are not merged.
 
 ## Local setup
 
+Generation uses CPython 3.14.7, pinned in `.python-version`; its runtime and
+Unicode database identity are included in every generated-data fingerprint.
+
 ```bash
-python -m venv .venv
+python3.14 -m venv .venv
 .venv/bin/pip install -r requirements-generation.txt
 npm install
 npm run browser:install

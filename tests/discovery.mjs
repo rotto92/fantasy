@@ -434,6 +434,24 @@ if (!familyOnlyFixture || !familyOnlyLeaf) {
     failures.push(`Families only exposed specifics after family selection: ${JSON.stringify(selectedFamilyState)}`);
   }
 
+  await page.locator("#detail-level").selectOption("all");
+  const keyboardLeaf = page.locator(`#atlas-svg .specific-star[data-node-id="${familyOnlyLeaf.id}"]`);
+  await keyboardLeaf.focus();
+  await keyboardLeaf.press("Enter");
+  await page.locator("#detail-level").selectOption("families");
+  const directLeafState = {
+    specificIds: await page.locator("#atlas-svg .specific-star:visible").evaluateAll((marks) =>
+      marks.map((mark) => mark.getAttribute("data-node-id")),
+    ),
+    specificTabs: await page.locator('#atlas-svg .specific-star[tabindex="0"]').count(),
+    visibleTabs: await page.locator('#atlas-svg .concept-star[tabindex="0"]:visible').count(),
+  };
+  if (directLeafState.specificIds.length !== 0
+    || directLeafState.specificTabs !== 0
+    || directLeafState.visibleTabs !== 1) {
+    failures.push(`Families only retained a keyboard-origin specific: ${JSON.stringify(directLeafState)}`);
+  }
+
   await page.locator("#search").fill(familyOnlyLeaf.label);
   await page.locator(`.search-result[data-discovery-id="concept:${familyOnlyLeaf.id}"]`).click();
   const selectedLeafState = {

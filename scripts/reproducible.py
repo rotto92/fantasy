@@ -1,8 +1,11 @@
 from __future__ import annotations
 
 import hashlib
+import platform
 import re
+import sys
 import tempfile
+import unicodedata
 import zipfile
 from pathlib import Path
 
@@ -25,8 +28,19 @@ def target_for_treatment(treatment: str) -> int:
     return 8
 
 
-def source_fingerprint(paths: list[Path]) -> str:
+def source_fingerprint(paths: list[Path], *, runtime_identity: str | None = None) -> str:
     digest = hashlib.sha256()
+    identity = runtime_identity or " | ".join(
+        [
+            platform.python_implementation(),
+            platform.python_version(),
+            f"Unicode {unicodedata.unidata_version}",
+            f"maxunicode {sys.maxunicode}",
+        ]
+    )
+    digest.update(b"python-runtime\0")
+    digest.update(identity.encode("utf-8"))
+    digest.update(b"\0")
     resolved_paths = {Path(__file__).resolve(), GENERATION_REQUIREMENTS_PATH.resolve()}
     for path in paths:
         resolved = path.resolve()

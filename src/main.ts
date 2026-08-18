@@ -344,7 +344,6 @@ const searchInput = byId<HTMLInputElement>("search");
 const searchResults = byId<HTMLDivElement>("search-results");
 const domainFilter = byId<HTMLSelectElement>("domain-filter");
 const detailLevelSelect = byId<HTMLSelectElement>("detail-level");
-const lineModeSelect = byId<HTMLSelectElement>("line-mode");
 const familyFilter = byId<HTMLSelectElement>("family-filter");
 const sourceFilter = byId<HTMLSelectElement>("source-filter");
 const evidenceControl = byId<HTMLElement>("evidence-control");
@@ -488,10 +487,10 @@ function downgradeSelectionToConcept(): void {
 
 function reconcileSelectionWithQuery(query: string): boolean {
   if (!selection.nodeId && !selection.discoveryId && !selection.discoveryContextId) return false;
-  if (selection.query && foldSearch(selection.query) === foldSearch(query)) return false;
+  if (selection.query && foldSearch(selection.query) === foldSearch(query) && selectionProvenanceInScope()) return false;
   const nodeId = selection.nodeId;
-  const conceptStillMatches = Boolean(query && nodeId && visibleNodeById.has(nodeId) && discoveryMatches(query).some(({ record }) =>
-    record.conceptId === nodeId || record.relatedConceptIds.includes(nodeId),
+  const conceptStillMatches = Boolean(query && nodeId && discoveryMatches(query).some(({ record }) =>
+    discoveryRecordInActiveProjection(record, nodeId),
   ));
   if (conceptStillMatches) downgradeSelectionToConcept();
   else {
@@ -1283,7 +1282,9 @@ function updateSemanticZoom(transform: d3.ZoomTransform): void {
   const context = selected ? selectionContext(selected) : undefined;
   const focusedLabels = selected && context ? focusLabelIds(selected, context, transform.k >= 2.8) : new Set<string>();
   const familyPosition = context ? positionById.get(context.familyId) : undefined;
-  const retainedSpecificId = detailLevel === "families" && selected?.tier === 3 ? selected.id : null;
+  const retainedSpecificId = detailLevel === "families" && selected?.tier === 3 && selection.origin === "search"
+    ? selected.id
+    : null;
   const showSpecific = detailLevel !== "families"
     && (Boolean(selected) || detailLevel === "all" || (!compactViewport || transform.k >= 1.3));
   const specificIsVisible = (positioned: PositionedNode): boolean =>
@@ -2331,11 +2332,21 @@ function selectNode(
   if (focusBelongsToDetail) focusDetailHeading();
 }
 
+function discoveryRecordInActiveProjection(record: DiscoveryRecord, nodeId: string | null): boolean {
+  if (selectedEvidence === "framework" && record.kind !== "concept") return false;
+  if (!nodeId) return !selectedSource || record.sourceId === selectedSource;
+  const node = visibleNodeById.get(nodeId);
+  if (!node || (record.conceptId !== nodeId && !record.relatedConceptIds.includes(nodeId))) return false;
+  if (!selectedSource) return true;
+  return record.kind === "concept"
+    ? node.sourceIds.includes(selectedSource)
+    : record.sourceId === selectedSource;
+}
+
 function selectionProvenanceInScope(): boolean {
   const record = discoveryRecordById(selection.discoveryContextId) ?? discoveryRecordById(selection.discoveryId);
   if (!record) return true;
-  if (selectedEvidence === "framework" && record.kind !== "concept") return false;
-  return !selectedSource || !record.sourceId || record.sourceId === selectedSource;
+  return discoveryRecordInActiveProjection(record, selection.nodeId);
 }
 
 function reconcileFilteredSelection(): void {
@@ -2462,7 +2473,6 @@ function showSearchResults(query: string, limit = searchResultPageSize): void {
       selectedSource = "";
       setEvidenceFilter();
       sourceFilter.value = "";
-      lineModeSelect.value = "none";
       transitionToView(targetView, query);
       requestAnimationFrame(() => {
         detailContent.querySelector<HTMLElement>("h2")?.focus();
@@ -2524,7 +2534,12 @@ function transitionToView(nextView: ViewMode, query = selection.query ?? searchI
   if (viewMode === "research") setEvidenceFilter();
   syncEvidenceControlAvailability();
   syncSourceFilterScope();
-  transitionQuery(query, { reconcileSelection: false, renderCurrentView: false, updateResults: false });
+  rebuildVisibleConcepts();
+  transitionQuery(query, {
+    reconcileSelection: Boolean(query),
+    renderCurrentView: false,
+    updateResults: false,
+  });
   setMobileControlsOpen(false);
   render();
 }
@@ -2549,12 +2564,6 @@ function bindEvents(): void {
   detailLevelSelect.addEventListener("change", () => {
     detailLevel = detailLevelSelect.value as DetailLevel;
     if (viewMode === "constellations") updateSemanticZoom(currentTransform);
-  });
-  lineModeSelect.addEventListener("change", () => {
-    if (viewMode === "constellations") {
-      updateSemanticZoom(currentTransform);
-      updateConstellationSelection();
-    }
   });
   familyFilter.addEventListener("change", () => {
     setConceptScopeFilter("", familyFilter.value);
@@ -2609,7 +2618,6 @@ function bindEvents(): void {
     detailLevel = "auto";
     sourceFilter.value = "";
     detailLevelSelect.value = "auto";
-    lineModeSelect.value = "none";
     transitionQuery("", { renderCurrentView: false, updateResults: false });
     setMobileControlsOpen(false);
     render();

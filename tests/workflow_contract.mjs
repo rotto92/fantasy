@@ -13,6 +13,10 @@ if (JSON.stringify(pushBranches) !== JSON.stringify(["main"])) {
 
 const build = workflow?.jobs?.build;
 if (!build || build.if) failures.push("the validation job is not available to every configured event");
+const pythonSetup = (build?.steps ?? []).find((step) => step.uses === "actions/setup-python@v5");
+if (pythonSetup?.with?.["python-version-file"] !== ".python-version") {
+  failures.push("the validation job does not consume the repository Python runtime pin");
+}
 
 const mainPushClauses = new Set([
   "github.event_name == 'push'",

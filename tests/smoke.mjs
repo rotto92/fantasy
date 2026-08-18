@@ -293,7 +293,25 @@ if (downgradedSelection.heading !== "Human and Near-Human Peoples"
   || !downgradedSelection.focusVisible) {
   failures.push(`out-of-scope discovery context was not downgraded atomically: ${JSON.stringify(downgradedSelection)}`);
 }
+await page.locator("#search").press("End");
+await page.locator("#search").type(" ");
+const filteredQuerySelection = {
+  detailHeaders: await page.locator(".concept-detail-header, .discovery-detail-header").count(),
+  selectedMarks: await page.locator("#atlas-svg .is-selected").count(),
+  focusVisible: await page.locator("#focus-banner").isVisible(),
+};
+await page.locator('.view-button[data-view="research"]').click();
+filteredQuerySelection.researchRows = await page.locator(".research-table tbody tr").count();
+filteredQuerySelection.researchDetailHeaders = await page.locator(".concept-detail-header, .discovery-detail-header").count();
+if (filteredQuerySelection.detailHeaders !== 0
+  || filteredQuerySelection.selectedMarks !== 0
+  || filteredQuerySelection.focusVisible
+  || filteredQuerySelection.researchRows !== 0
+  || filteredQuerySelection.researchDetailHeaders !== 0) {
+  failures.push(`source-scoped query retained out-of-scope Achilles detail: ${JSON.stringify(filteredQuerySelection)}`);
+}
 await page.locator("#reset-view").click();
+await page.locator('.view-button[data-view="constellations"]').click();
 
 await page.locator("#evidence-filter").selectOption("framework");
 await page.locator('.view-button[data-view="research"]').click();
@@ -665,7 +683,12 @@ if (!connected) {
   await page.waitForTimeout(800);
   if ((await page.locator(".attribute-item").count()) < 4) failures.push("concept attributes are not rendered as non-node dimensions");
   if (!(await page.locator("#focus-banner").isVisible())) failures.push("search did not open a stable focus banner");
-  if ((await page.locator("#line-mode").inputValue()) !== "none") failures.push("global relationship display escaped local-only mode");
+  const relationshipPolicy = page.getByRole("note").filter({ hasText: "Relationship display" });
+  if ((await relationshipPolicy.count()) !== 1
+    || !(await relationshipPolicy.first().innerText()).includes("Focused local view only")
+    || (await page.getByRole("combobox", { name: "Relationship display" }).count()) !== 0) {
+    failures.push("fixed local relationship policy is exposed as a fake interactive control");
+  }
   if ((await page.locator("#atlas-svg .is-family-member").count()) !== expectedFamilyMembers) failures.push("search did not illuminate the full aggregate family");
   if ((await page.locator("#atlas-svg .is-affinity-related").count()) !== expectedAffinities) failures.push("search did not illuminate cross-family affinities");
   if ((await page.locator("#atlas-svg .affinity-line").count()) !== 0) failures.push("selected concept rendered global affinity lines");

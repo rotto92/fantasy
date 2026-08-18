@@ -265,6 +265,13 @@ with tempfile.TemporaryDirectory(dir=ROOT / "tests") as directory:
     input_path.write_text("{}\n", encoding="utf-8")
     dependency_path.write_text("VALUE = 1\n", encoding="utf-8")
     requirements_path.write_text("openpyxl==3.1.5\n", encoding="utf-8")
+    first_runtime_fingerprint = reproducible.source_fingerprint(
+        [input_path], runtime_identity="CPython 3.12.0 | Unicode 15.0.0"
+    )
+    second_runtime_fingerprint = reproducible.source_fingerprint(
+        [input_path], runtime_identity="CPython 3.13.0 | Unicode 15.1.0"
+    )
+    assert second_runtime_fingerprint != first_runtime_fingerprint
     original_requirements_path = reproducible.GENERATION_REQUIREMENTS_PATH
     try:
         reproducible.GENERATION_REQUIREMENTS_PATH = requirements_path
