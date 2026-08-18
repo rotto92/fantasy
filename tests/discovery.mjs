@@ -109,6 +109,19 @@ const reviewLaneNames = ["scoped", "characterPass", "terminologyPass", "relation
 if (research.sources.some((audit) => reviewLaneNames.some((lane) => !audit.review_lanes?.[lane]?.status || !audit.review_lanes[lane].detail))) {
   failures.push("compiled research omits an authoritative review-lane status");
 }
+const characterPassPresentation = new Map([
+  ["pass-complete", { label: "Pass complete", className: "complete" }],
+  ["narrow-metadata-pass-complete", { label: "Limited metadata pass", className: "limited" }],
+  ["evidence-insufficient-zero-character-audit", { label: "Evidence insufficient", className: "evidence-insufficient" }],
+]);
+for (const audit of research.sources) {
+  const expected = characterPassPresentation.get(audit.completion_status);
+  if (!expected
+    || audit.review_lanes.characterPass.status !== audit.completion_status
+    || audit.review_lanes.characterPass.label !== expected.label) {
+    failures.push(`character-pass status is not derived from ${audit.source_id} completion: ${JSON.stringify(audit.review_lanes.characterPass)}`);
+  }
+}
 const jinnAudit = research.sources.find((audit) => audit.source_id === "SRC-010");
 if (jinnAudit?.review_lanes.secondReview.status !== "not-started" || jinnAudit.review_lanes.continuityReview.status !== "not-started") {
   failures.push("SRC-010 corpus-wide and completion-status audits were conflated with focused claim review");
@@ -435,6 +448,42 @@ if (mappedConcept) {
   }
 }
 
+await page.locator("#search").fill("Achilles");
+await page.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click();
+if (!(await page.locator(".discovery-detail-header").isVisible())
+  || !(await page.locator(".detail-panel").innerText()).includes("Achilles")) {
+  failures.push("desktop stale-selection regression did not establish Achilles discovery detail");
+}
+await page.locator("#search").fill("human");
+const downgradedQuery = {
+  concept: await page.locator(".concept-detail-header h2").textContent().catch(() => null),
+  discoveryHeaders: await page.locator(".discovery-detail-header").count(),
+  focusVisible: await page.locator("#focus-banner").isVisible(),
+};
+if (downgradedQuery.concept !== "Human and Near-Human Peoples"
+  || downgradedQuery.discoveryHeaders !== 0
+  || !downgradedQuery.focusVisible) {
+  failures.push(`matching typed query did not downgrade to truthful concept context: ${JSON.stringify(downgradedQuery)}`);
+}
+await page.locator("#search").fill("Achilles");
+await page.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click();
+await page.locator("#search").fill("asura");
+await page.locator('.view-button[data-view="research"]').click();
+const desktopDivergedQuery = {
+  detailHeaders: await page.locator(".concept-detail-header, .discovery-detail-header").count(),
+  detailText: await page.locator(".detail-panel").innerText(),
+  focusVisible: await page.locator("#focus-banner").isVisible(),
+  guildWarsRows: await page.locator(".research-table tbody tr").filter({ hasText: "Guild Wars" }).count(),
+};
+if (desktopDivergedQuery.detailHeaders !== 0
+  || desktopDivergedQuery.detailText.includes("Achilles")
+  || desktopDivergedQuery.focusVisible
+  || desktopDivergedQuery.guildWarsRows !== 1) {
+  failures.push(`desktop typed query retained stale Achilles state: ${JSON.stringify(desktopDivergedQuery)}`);
+}
+await page.locator("#reset-view").click();
+await page.locator('.view-button[data-view="constellations"]').click();
+
 await page.locator("#search").fill("asura");
 const asuraText = await page.locator("#search-results").innerText();
 if (!asuraText.includes("Ankka") || !asuraText.includes("Guild Wars")) {
@@ -711,7 +760,7 @@ const sourceOnlyDetail = (await page.locator(".detail-panel").innerText()).toLoc
 if (!sourceOnlyDetail.includes("source evidence and status") || !sourceOnlyDetail.includes("status: pass-complete") || !sourceOnlyDetail.includes("work / witness\nthe once and future king") || !sourceOnlyDetail.includes("caution:") || !sourceOnlyDetail.includes("open supporting source evidence")) {
   failures.push(`zero-character source detail omitted evidence/status/caution: ${sourceOnlyDetail}`);
 }
-if (await page.locator(".research-table tbody tr").count() !== 1 || !(await page.locator(".research-table tbody tr").first().innerText()).toLocaleLowerCase().includes("pass-complete")) {
+if (await page.locator(".research-table tbody tr").count() !== 1 || !(await page.locator(".research-table tbody tr").first().innerText()).toLocaleLowerCase().includes("pass complete")) {
   failures.push("source result did not preserve its query and actual audit status in Research");
 }
 
@@ -720,10 +769,34 @@ if (limitedAudit) {
   await page.locator("#search").fill(limitedAudit.source_title);
   await page.locator(".search-result").filter({ hasText: `Source / series · ${limitedAudit.source_title}` }).first().click();
   const limitedResearch = (await page.locator(".research-table tbody tr").first().innerText()).toLocaleLowerCase();
-  if (!limitedResearch.includes(limitedAudit.completion_status.toLocaleLowerCase()) || !limitedResearch.includes("caution:")) {
+  const limitedLabel = characterPassPresentation.get(limitedAudit.completion_status)?.label.toLocaleLowerCase();
+  if (!limitedLabel || !limitedResearch.includes(limitedLabel) || !limitedResearch.includes("caution:")) {
     failures.push(`Research hid the actual limited audit status: ${limitedResearch}`);
   }
 }
+
+for (const sourceId of ["SRC-001", "SRC-073", "SRC-071", "SRC-072", "SRC-084"]) {
+  const audit = research.sources.find((source) => source.source_id === sourceId);
+  const expected = audit ? characterPassPresentation.get(audit.completion_status) : undefined;
+  if (!audit || !expected) {
+    failures.push(`missing character-pass browser fixture ${sourceId}`);
+    continue;
+  }
+  await page.locator("#search").fill(audit.source_title);
+  const row = page.locator(".research-table tbody tr").first();
+  const pill = row.locator("td").nth(2).locator(".status-pill");
+  const presentation = {
+    rows: await page.locator(".research-table tbody tr").count(),
+    label: await pill.textContent().catch(() => null),
+    classes: await pill.getAttribute("class").catch(() => null),
+  };
+  if (presentation.rows !== 1
+    || presentation.label !== expected.label
+    || !presentation.classes?.split(/\s+/).includes(expected.className)) {
+    failures.push(`${sourceId} character-pass styling is untruthful: ${JSON.stringify(presentation)}`);
+  }
+}
+await page.locator("#search").fill("");
 
 await page.locator('.view-button[data-view="research"]').click();
 for (const [selector, background] of [[".research-card small", [11, 18, 31]], [".research-table th", [11, 19, 32]], [".review-lane .dimension-note", [8, 14, 24]], [".micro-stat", [9, 15, 27]], [".scope-fact span", [9, 15, 27]], [".legend-item", [9, 15, 27]], [".legend-note", [9, 15, 27]], [".statusbar", [5, 9, 18]]]) {
@@ -747,8 +820,8 @@ await mobile.locator("#loading").waitFor({ state: "detached" });
 await mobile.waitForFunction(() => !document.querySelector("#search")?.disabled);
 const mobileConceptLabels = await mobile.locator("#atlas-svg .concept-label:visible").count();
 if (mobileConceptLabels > 8) failures.push(`mobile constellation label budget exceeded: ${mobileConceptLabels}`);
-await mobile.locator("#search").fill("Abhimanyu");
-await mobile.locator(".search-result").first().click();
+await mobile.locator("#search").fill("Achilles");
+await mobile.locator('.search-result[data-discovery-id="character:CHR-SRC001-021"]').click();
 if (!(await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")))) {
   failures.push("mobile search fixture did not open the detail drawer");
 }
@@ -758,6 +831,21 @@ if (await mobile.locator(".detail-panel").evaluate((node) => node.classList.cont
   || !(await mobile.locator("#search-results").isVisible())
   || (await mobile.locator("#search-results").innerText()).includes("Ankka") === false) {
   failures.push("slash search remained obscured by the compact detail drawer");
+}
+await mobile.locator('.view-button[data-view="research"]').click();
+const mobileDivergedQuery = {
+  detailOpen: await mobile.locator(".detail-panel").evaluate((node) => node.classList.contains("is-open")),
+  detailHeaders: await mobile.locator(".concept-detail-header, .discovery-detail-header").count(),
+  detailText: await mobile.locator(".detail-panel").innerText(),
+  focusVisible: await mobile.locator("#focus-banner").isVisible(),
+  guildWarsRows: await mobile.locator(".research-table tbody tr").filter({ hasText: "Guild Wars" }).count(),
+};
+if (mobileDivergedQuery.detailOpen
+  || mobileDivergedQuery.detailHeaders !== 0
+  || mobileDivergedQuery.detailText.includes("Achilles")
+  || mobileDivergedQuery.focusVisible
+  || mobileDivergedQuery.guildWarsRows !== 1) {
+  failures.push(`mobile typed query reopened stale Achilles state: ${JSON.stringify(mobileDivergedQuery)}`);
 }
 await mobile.close();
 

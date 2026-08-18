@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
+from importlib.metadata import distribution
 import json
 import sys
 import tempfile
 
 from openpyxl import load_workbook
+from pip._vendor.packaging.requirements import Requirement
+from pip._vendor.packaging.utils import canonicalize_name
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -115,6 +118,45 @@ characters = json.loads((ROOT / "public" / "data" / "characters.json").read_text
 constellations = json.loads((ROOT / "public" / "data" / "constellations.json").read_text(encoding="utf-8"))
 assert validation_report["source_fingerprint"] == expected_research_fingerprint
 assert characters["meta"]["sourceFingerprint"] == expected_research_fingerprint
+
+manifest_requirements = {
+    canonicalize_name(requirement.name): requirement
+    for line in reproducible.GENERATION_REQUIREMENTS_PATH.read_text(encoding="utf-8").splitlines()
+    if line.strip() and not line.lstrip().startswith("#")
+    for requirement in [Requirement(line.strip())]
+}
+pending_dependencies = [canonicalize_name("openpyxl")]
+resolved_dependencies: set[str] = set()
+while pending_dependencies:
+    dependency_name = pending_dependencies.pop()
+    if dependency_name in resolved_dependencies:
+        continue
+    resolved_dependencies.add(dependency_name)
+    pinned = manifest_requirements[dependency_name]
+    specifiers = list(pinned.specifier)
+    assert len(specifiers) == 1 and specifiers[0].operator == "==" and "*" not in specifiers[0].version
+    installed = distribution(dependency_name)
+    assert installed.version in pinned.specifier
+    for dependency in installed.requires or []:
+        parsed = Requirement(dependency)
+        if parsed.marker and not parsed.marker.evaluate():
+            continue
+        required_name = canonicalize_name(parsed.name)
+        assert required_name in manifest_requirements, (dependency_name, required_name)
+        pending_dependencies.append(required_name)
+
+character_pass_labels = {
+    "pass-complete": "Pass complete",
+    "narrow-metadata-pass-complete": "Limited metadata pass",
+    "evidence-insufficient-zero-character-audit": "Evidence insufficient",
+}
+for audit in characters["sources"]:
+    lane = audit["review_lanes"]["characterPass"]
+    assert lane["status"] == audit["completion_status"], audit["source_id"]
+    assert lane["label"] == character_pass_labels[audit["completion_status"]], audit["source_id"]
+for source_id in ("SRC-071", "SRC-072", "SRC-084"):
+    audit = next(source for source in characters["sources"] if source["source_id"] == source_id)
+    assert audit["review_lanes"]["characterPass"]["status"] == "evidence-insufficient-zero-character-audit"
 
 for node in constellations["nodes"]:
     memberships = node.get("evidenceMemberships")

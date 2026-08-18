@@ -140,7 +140,7 @@ interface SourceAudit {
 }
 
 interface ReviewLane {
-  status: "pass-complete" | "reviewed" | "in-progress" | "not-started";
+  status: "pass-complete" | "narrow-metadata-pass-complete" | "evidence-insufficient-zero-character-audit" | "reviewed" | "in-progress" | "not-started";
   label: string;
   detail: string;
 }
@@ -484,6 +484,21 @@ function detachSelectionQuery(): void {
   selection = { ...selection, query: null };
 }
 
+function reconcileSelectionWithQuery(query: string): boolean {
+  if (!selection.nodeId && !selection.discoveryId && !selection.discoveryContextId) return false;
+  if (selection.query && foldSearch(selection.query) === foldSearch(query)) return false;
+  const nodeId = selection.nodeId;
+  const conceptStillMatches = Boolean(query && nodeId && visibleNodeById.has(nodeId) && discoveryMatches(query).some(({ record }) =>
+    record.conceptId === nodeId || record.relatedConceptIds.includes(nodeId),
+  ));
+  if (conceptStillMatches) downgradeSelectionToConcept();
+  else {
+    clearSelection();
+    detailPanel?.classList.remove("is-open");
+  }
+  return true;
+}
+
 function setConceptScopeFilter(domain: "" | DomainId = "", familyId = ""): void {
   const family = familyId ? nodeById.get(familyId) : undefined;
   selectedFamily = family?.tier === 2 ? family.id : "";
@@ -605,6 +620,8 @@ function auditStatusPresentation(audit: SourceAudit | undefined): { label: strin
 }
 
 function laneClassName(status: ReviewLane["status"]): string {
+  if (status === "narrow-metadata-pass-complete") return "limited";
+  if (status === "evidence-insufficient-zero-character-audit") return "evidence-insufficient";
   if (status === "not-started") return "not-started";
   if (status === "in-progress") return "in-progress";
   return "complete";
@@ -2512,11 +2529,10 @@ function bindEvents(): void {
   });
   searchInput.addEventListener("input", () => {
     const query = searchInput.value.trim();
-    detachSelectionQuery();
-    if (viewMode === "research") {
-      researchQuery = query;
-      renderResearch();
-    }
+    const selectionChanged = reconcileSelectionWithQuery(query);
+    if (viewMode === "research") researchQuery = query;
+    if (selectionChanged) render();
+    else if (viewMode === "research") renderResearch();
     showSearchResults(query);
   });
   searchInput.addEventListener("focus", () => {

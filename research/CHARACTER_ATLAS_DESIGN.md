@@ -53,8 +53,11 @@ geographic meaning.
 The catalogue presents the same normalized families and concepts as semantic
 buttons and cards instead of spatial marks.
 
-- Family, source, domain, and evidence filters preserve the same scope as the
-  map.
+- The visible Family, Source evidence, and Evidence controls narrow the
+  catalogue; the map-only Sky control is not active here.
+- Entering another view clears domain or family scope that its controls do not
+  expose, so no hidden Catalogue or Constellations restriction survives a view
+  transition.
 - Activating a card opens the same evidence detail used by other views.
 - Framework-only concepts remain visible and are labelled as mapping pending.
 

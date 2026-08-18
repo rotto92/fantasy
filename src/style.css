@@ -426,6 +426,8 @@ select:focus { border-color: rgba(112, 214, 200, 0.34); }
 .evidence-badge.needs-review, .status-pill.not-started { border-color: rgba(153, 168, 190, 0.18); color: var(--evidence-muted); background: rgba(153, 168, 190, 0.035); }
 .status-pill.complete { color: var(--teal); }
 .status-pill.in-progress { border-color: rgba(239, 200, 122, 0.24); color: var(--gold); background: rgba(239, 200, 122, 0.045); }
+.status-pill.limited { border-color: rgba(169, 154, 246, 0.3); color: var(--violet); background: rgba(169, 154, 246, 0.06); }
+.status-pill.evidence-insufficient { border-color: rgba(239, 145, 174, 0.3); color: #ef91ae; background: rgba(239, 145, 174, 0.06); }
 .detail-actions { display: flex; gap: 7px; margin: 16px 0 2px; }
 .primary-button, .secondary-button {
   min-height: 32px;

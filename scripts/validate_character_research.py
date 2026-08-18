@@ -70,6 +70,11 @@ COMPLETION_STATUSES = {
     "narrow-metadata-pass-complete",
     "evidence-insufficient-zero-character-audit",
 }
+CHARACTER_PASS_LABELS = {
+    "pass-complete": "Pass complete",
+    "narrow-metadata-pass-complete": "Limited metadata pass",
+    "evidence-insufficient-zero-character-audit": "Evidence insufficient",
+}
 MINIMUM_SECOND_REVIEW_CLAIM_COVERAGE = 0.20
 DISALLOWED_EVIDENCE_HOSTS = {
     "wikipedia.org",
@@ -1170,6 +1175,7 @@ def main() -> None:
 
     def review_lanes(audit: dict[str, Any]) -> dict[str, dict[str, str]]:
         source_id = str(audit.get("source_id", ""))
+        completion_status = str(audit.get("completion_status", "")).strip().lower()
         completed = int(audit.get("completed_character_count", 0) or 0)
         in_scope = int(audit.get("in_scope_character_count", 0) or 0)
         source_claims = promoted_claim_ids_by_source[source_id]
@@ -1204,8 +1210,8 @@ def main() -> None:
                 "detail": str(audit.get("continuity_scope", "")),
             },
             "characterPass": {
-                "status": "pass-complete",
-                "label": str(audit.get("completion_status", "pass-complete")),
+                "status": completion_status,
+                "label": CHARACTER_PASS_LABELS.get(completion_status, "Status not recognized"),
                 "detail": f"{promoted_character_counts[source_id]} accepted records from {completed} of {in_scope} completed in scope",
             },
             "terminologyPass": evidence_review_lane(
