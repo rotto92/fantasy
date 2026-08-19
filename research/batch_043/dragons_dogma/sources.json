@@ -1,0 +1,39 @@
+[
+  {
+    "source_id":"SRC-157",
+    "source_title":"Dragon's Dogma 2",
+    "continuity_scope":"Dragon's Dogma 2 base-game launch release: the 22 March 2024 PlayStation 5, Xbox Series X|S, and PC release described by Capcom's official English launch/preview/support materials. The original 2012 game and its Dark Arisen edition, other series works, the 2026 Dragon's Dogma 2: Dark Arisen paid expansion, post-launch updates, non-English wording, and platform-specific implementation differences are separate and excluded.",
+    "work_or_witnesses":[
+      "Capcom official launch press release, 29 November 2023",
+      "Capcom News: 'First Gameplay of Dragon's Dogma 2 Revealed at PlayStation Showcase', 24 May 2023",
+      "Capcom Support: Dragon's Dogma 2 FAQ / Online Manual gateway",
+      "Capcom official 2026 Dragon's Dogma 2: Dark Arisen expansion announcement"
+    ],
+    "coverage_rule":"Zero-character audit. Include a stable named NPC dramatic individual only where an accessible Capcom first-party page or direct-game/manual locator identifies that individual by name and gives a claim-level role/action description. The available launch material directly profiles no named NPCs: it refers to unnamed/player-created Arisen, customizable Main Pawn, generic hireable Pawns, and 'the Dragon' as story/system categories. Accordingly no character node or relationship is created.",
+    "in_scope_character_count":0,
+    "completed_character_count":0,
+    "omissions":[
+      "All player-created Arisen and Main Pawn identities, including name, race, appearance, voice, vocation, inclination, party, decisions, affinity, quest progress, survival, and ending. Capcom states their data can be created/transferred through Character Creator.",
+      "All generic Pawns, pawn borrowers, NPCs, vocations, races, monsters/dragons, items, places, the Rift, quests, factions, mechanics, UI, and technical systems as character nodes.",
+      "All names discoverable only in non-first-party reviews, guides, cast lists, social posts, databases, fan wikis, Wikipedia, or inaccessible official-web pages without an independently inspectable profile/locator.",
+      "The 2012 original and Dark Arisen; all sequel pre-release material not evidenced here; Dragon's Dogma 2: Dark Arisen's new story/October 2026 release; platform-specific features; patches; and non-English localized wording."
+    ],
+    "uncertainties":[
+      "Capcom Support links the official online manuals at game.capcom.com/manual/dd2/, but that destination and the public Dragon's Dogma 2 official site returned access-denied responses to this research environment. No inaccessible page is treated as evidence for named-character claims.",
+      "Capcom's accessible material establishes the player-role premise and systems but does not constitute a complete NPC index, quest transcript, affinity matrix, or ending archive. The zero result means no qualifying claim-level named profile was accessible, not that the game contains no named NPCs.",
+      "The preview calls 'the Dragon' a world-destruction symbol and the Arisen's objective but provides no individual proper name or complete identity. It is retained only as a non-node narrative term.",
+      "The Capcom FAQ is currently updated (2026) and is used solely for base-game character-creation, language, and hardware-content statements; it does not establish launch-only plot details.",
+      "Capcom's June 2026 release states Dark Arisen adds a new story to the March 2024 game. This confirms a later-expansion boundary; none of its new story content is imported."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Accessible first-party Capcom press, news, support, and product materials only. The pass deliberately declines to use community character lists, fan wikis, Wikipedia, review summaries, cast databases, or inaccessible official profile pages as substitutes for claim-level character evidence.",
+    "citations":[
+      {"url":"https://www.capcom.co.jp/ir/english/news/html/e231129.html","locator":"Capcom press release, lines 186–201: announcement, series description, RE ENGINE, and Product Details","supports":["Base-game title, 22 March 2024 launch date, PS5/Xbox Series X|S/PC platforms, first-mainline-since-2012 context, pawn companions, RE ENGINE"]},
+      {"url":"https://news.capcomusa.com/2023/05/24/first-gameplay-of-dragons-dogma-2-revealed-at-playstation-showcase/","locator":"Capcom News, paragraphs beginning 'Whether you're new' through 'Everything you see', lines 12–16","supports":["Single-player narrative-action-RPG framing, Arisen/Dragon premise, Pawn category, customizable Main Pawn, hireable Pawns, and no named NPC profile"]},
+      {"url":"https://www.capcom-support.com/hc/en-us/articles/13194547904540-Dragon-s-Dogma-2-Frequently-Asked-Questions-All-Platforms","locator":"FAQ: Character Creator transfer, Game Content, language, and appearance sections, lines 37–40, 61–114","supports":["Created Arisen/Main Pawn variability, platform-content baseline, voice/display languages, and post-creation change limits"]},
+      {"url":"https://www.capcom.co.jp/ir/english/news/html/e260610.html","locator":"Capcom press release, lines 186–203: Dark Arisen announcement and Product Details","supports":["2026 paid-expansion/new-story boundary and distinct release/platform scope"]},
+      {"url":"https://www.capcom-support.com/hc/en-us/articles/13245380406172-Dragon-s-Dogma-2-Online-Manual","locator":"Online Manual gateway, lines 19–23","supports":["Capcom support's official-manual link and the documented inaccessible-source limitation"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

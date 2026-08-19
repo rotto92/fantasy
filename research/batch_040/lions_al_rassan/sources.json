@@ -1,0 +1,46 @@
+[
+  {
+    "source_id": "SRC-084",
+    "source_title": "The Lions of Al-Rassan",
+    "continuity_scope": "Zero-character audit bound to Guy Gavriel Kay's original English The Lions of Al-Rassan, first published in 1995. The audit does not merge any proposed screen adaptation, commentary, review, later work in the broader setting, translation, or historical source with this novel witness.",
+    "work_or_witnesses": [
+      {
+        "work": "The Lions of Al-Rassan",
+        "edition": "Original English novel, HarperCollins, 1995",
+        "url": "https://brightweavings.com/books/books/the-lions-of-al-rassan/"
+      }
+    ],
+    "coverage_rule": "No characters are included until a primary novel witness with stable chapter or page locators is available. One bibliographic/fiction-versus-history boundary term is retained from authorized-site metadata; no internal story terminology is inferred.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named characters, relationships, religious and political terminology, events, and plot claims from the novel, pending primary-text locators.",
+      "All film, television, game, and other adaptation material.",
+      "Author/site commentary and reviews as story-canon evidence."
+    ],
+    "uncertainties": [
+      "The accessible authorized Guy Gavriel Kay site identifies the novel and describes its fictional setting as inspired by medieval Spain, but does not supply a primary-text chapter/page witness adequate for canonical character claims.",
+      "Jaddites, Asharites, Kindath, Esperaña, and Al-Rassan must remain fictional source-specific constructs; this audit makes no direct equation to Christianity, Islam, Judaism, medieval Iberian peoples, or historical polities.",
+      "The available orientation metadata signals conflict among beliefs and a violent history; specific war, persecution, relationship, or outcome claims are deferred pending text access."
+    ],
+    "completion_status": "evidence-insufficient-zero-character-audit",
+    "evidence_basis": "Authorized Bright Weavings work metadata identifies the 1995 novel and its fictional Al-Rassan/Esperaña setting. No accessible primary text with stable chapter/page locators was verified, so it is not used to create character or relationship records; the sole source term is an explicitly bibliographic/fiction-boundary record.",
+    "citations": [
+      {
+        "url": "https://brightweavings.com/books/books/the-lions-of-al-rassan/",
+        "locator": "Authorized work page, publication/context summary",
+        "supports": [
+          "Novel identity, 1995 first-publication metadata, and the setting's fictional historical-fantasy framing."
+        ]
+      },
+      {
+        "url": "https://brightweavings.com/covalrassan/",
+        "locator": "Authorized site cover-art edition list",
+        "supports": [
+          "Original UK HarperCollins hardcover and edition-separation context."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

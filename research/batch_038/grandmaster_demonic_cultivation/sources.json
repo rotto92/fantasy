@@ -1,0 +1,42 @@
+[
+  {
+    "source_id": "SRC-078",
+    "source_title": "Grandmaster of Demonic Cultivation: Mo Dao Zu Shi",
+    "continuity_scope": "Narrow licensed-publisher-metadata pass bound to Seven Seas Entertainment's Grandmaster of Demonic Cultivation: Mo Dao Zu Shi (Novel) Vol. 1, ISBN 978-1-64827-919-5, translated by Suika and Lianyin with editor Pengie. This English novel-volume witness only; it is not merged with the Chinese web serialization, donghua, manhua, audio drama, live-action, games, unofficial translations, or later licensed volumes.",
+    "work_or_witnesses": [
+      {
+        "work": "Grandmaster of Demonic Cultivation: Mo Dao Zu Shi (Novel) Vol. 1",
+        "edition": "Seven Seas Entertainment English edition, 2021, ISBN 978-1-64827-919-5; translation by Suika and Lianyin, editor Pengie",
+        "url": "https://sevenseasentertainment.com/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-1/"
+      }
+    ],
+    "coverage_rule": "Two individually named characters and one direct co-investigation relation supported by Seven Seas' official volume-one synopsis only. No named identity is inferred for the aggrieved young man, and no unsupported clan, sect, cultivation-system, artifact, ghost/corpse, place, adaptation, or later-volume information is asserted.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "The unnamed aggrieved young man whose body Wei Wuxian awakens in, because this witness does not name him.",
+      "All other characters, clans, sects, titles, places, artifacts, ghosts/corpses, and plot material outside the publisher synopsis.",
+      "Chinese-serialization specifics, including Hanzi character-name forms and any web-serial chapter or revision details, because no Chinese witness is included in this pass.",
+      "Donghua, manhua, audio-drama, live-action, game, unofficial-translation, and later licensed-volume continuities."
+    ],
+    "uncertainties": [
+      "This is a narrow licensed publisher-metadata pass rather than a page-by-page reading of the English volume or a primary Chinese text pass.",
+      "The witness gives pinyin-form names (Wei Wuxian and Lan Wangji) but does not print Hanzi; Hanzi aliases are therefore intentionally not supplied from external sources.",
+      "The publisher markets the novel as danmei/Boys' Love and describes two men finding one another across life and death, but this synopsis alone does not warrant a more specific relationship-status claim.",
+      "No censorship claim is made: adaptation differences and any censorship context require separate, adaptation-specific evidence.",
+      "The synopsis contains war, death, fear/stigmatization, a soul sacrifice, revenge, and a second-life identity premise; broader content warnings and spoilers require the full volume."
+    ],
+    "completion_status": "narrow-metadata-pass-complete",
+    "evidence_basis": "Seven Seas' official volume-one record identifies the licensed edition, translation credits, danmei/Boys' Love marketing category, Wei Wuxian, Lan Wangji, demonic cultivation, Wei's death, and his awakening in another young man's body. It is the sole basis for character-level claims.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-1/",
+        "locator": "Seven Seas official volume record, lines 19–48",
+        "supports": [
+          "Edition and translation metadata, genre marketing, and synopsis-level character, second-life, cultivation, and shared-investigation claims."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

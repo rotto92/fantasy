@@ -1,0 +1,3 @@
+[
+  {"relationship_id":"REL-SRC154-001","source_id":"SRC-154","source_character_id":"CHR-SRC154-002","target_character_id":"CHR-SRC154-001","relationship_type":"other","label":"stole the amulet sought under Trebor's order","direction":"directed","continuity":"Wizardry: Proving Grounds of the Mad Overlord 2024 Digital Eclipse remake","citations":[{"url":"https://drecom.co.jp/en/product_news/2024/05/20241223-01.php","locator":"Story section","supports":["Werdna stole the amulet, while Trebor orders the party to seek it"]}],"confidence":"high","note":"Direct quest-premise connection only; it does not infer motive, combat result, private relationship, or player-party outcome."}
+]

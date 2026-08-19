@@ -1,0 +1,54 @@
+[
+  {
+    "source_id": "SRC-160",
+    "source_title": "Risen",
+    "continuity_scope": "Risen's 2009 German Games for Windows PC manual witness, specifically the original game as documented in the German manual. This localized witness is not silently merged with the separate English Games for Windows manual, the Xbox 360 port, later PC/console re-releases or remasters, Risen 2: Dark Waters, Risen 3: Titan Lords, modifications, or other localizations.",
+    "work_or_witnesses": [
+      "Risen German Games for Windows PC manual (\"GfW Risen Standard GAS zur Ansicht\"), © Deep Silver/Piranha Bytes material as printed in the manual",
+      "Risen English Games for Windows PC manual distributed through Steam, localization/witness boundary only",
+      "Xbox Risen (2009) product page, Xbox 360 port, publisher/developer/language boundary only"
+    ],
+    "coverage_rule": "All six individually named dramatic agents given their own entries in the German manual's \"Die HauptCharaktere\" (Main Characters) section: Inquisitor Mendoza, Commander Carlos, Master Ignatius, Don Esteban, Patty Stahlbart, and Eldric the Druid. The manual describes the player as an unnamed shipwreck survivor/\"kühner Recke\" rather than supplying a stable personal name or title-designated identity, so no player-character node is made. Names mentioned only inside another profile, including Patty's missing father Gregorius Emanuel Stahlbart, and all named direct-game NPCs absent from this bounded profile section are excluded.",
+    "in_scope_character_count": 6,
+    "completed_character_count": 6,
+    "omissions": [
+      "The player-controlled shipwreck survivor: the exact German manual provides no stable name or title-designated identity. Branching allegiance, class, skills, equipment, combat, quests, and outcomes remain player-variable mechanics or dimensions, not a character record.",
+      "Gregorius Emanuel Stahlbart and Sara: each is mentioned in the manual but has no individual Main Characters profile in this witness.",
+      "All other named NPCs, generic Inquisition soldiers, bandits, mages, citizens, monsters, factions, magic, artifacts, ruins, places, and mechanics as character nodes.",
+      "Risen 2: Dark Waters, Risen 3: Titan Lords, ports, later re-releases/remasters, mods, adaptations, other localizations, fan wikis, Wikipedia, walkthroughs, and community databases."
+    ],
+    "uncertainties": [
+      "The German manual is preserved by a non-rightsholder archive. Its file title, internal Deep Silver/Piranha Bytes/Game for Windows material, and printed presentation support treating it as a primary manual witness, but host authorization, scan provenance, OCR fidelity, and retail-edition equivalence remain uncertain. Claims are limited to clear page-specific text.",
+      "The manual's Main Characters section is a selective overview, not a full cast list, dialogue archive, faction-choice matrix, or ending transcript. Pass completion applies only to the stated six-profile rule.",
+      "The English Steam-distributed manual demonstrates a separate English witness; it is used only to preserve localization separation, not to replace German wording or add character claims.",
+      "The official Xbox page identifies a 2009 Xbox port with its own language support and developer credit. It is boundary context only and is not evidence that its text/content is identical to the German PC manual.",
+      "Mendoza, Esteban, and Eldric are all described as investigating ruins; the manual does not thereby establish a direct personal relationship among every pair. Only expressly stated command, displacement, and succession ties are recorded."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary original-game documentation: a page-cited German Games for Windows manual with Deep Silver/Piranha Bytes material. A Steam-hosted English manual and an official Xbox product page are used strictly for edition, port, and localization boundaries. No fan wiki, Wikipedia, walkthrough, or community database is canonical evidence.",
+    "citations": [
+      {
+        "url": "https://www.mogelpower.de/manuals/Risen_Manual.pdf",
+        "locator": "German Games for Windows manual: title/copyright material PDF pp. 1–2; introduction pp. 3–4; faction/class explanation pp. 19–20; Die HauptCharaktere pp. 21–24",
+        "supports": [
+          "German PC-manual witness, unnamed player framing, branching factions, source terms, and the six individually profiled Main Characters"
+        ]
+      },
+      {
+        "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/40300/manuals/GfW%20Risen%20Manual%20US%20PRINT.pdf?t=1674662941",
+        "locator": "English Games for Windows manual, introduction and contents pp. 3–5",
+        "supports": [
+          "Separate English Games for Windows documentation witness and localization boundary"
+        ]
+      },
+      {
+        "url": "https://www.xbox.com/en-US/games/store/risen-2009/9mxw6wsdsscv",
+        "locator": "Risen (2009) product page, product details and description",
+        "supports": [
+          "Separate Xbox port, Deep Silver publisher, Wizarbox/Piranha Bytes developer listing, language support, and four-chapter/player-decision boundary"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

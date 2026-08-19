@@ -1,0 +1,159 @@
+[
+  {
+    "term_id": "STM-SRC046-001",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-046",
+    "work_or_witness": "A Game of Thrones, Prologue · Excerpt heading and HTML lines 244–319",
+    "canonical_term": "authorized Prologue excerpt boundary",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Selected witness is Penguin Random House Higher Education's online excerpt headed “PROLOGUE [to A GAME OF THRONES],” bound to HTML lines 244–319, from the opening through the mounted departure.",
+    "cultural_caution": "This is a text-and-continuity boundary, not an assertion that the excerpt supplies the full prologue or an edition-independent page reference. No HBO, later-book, history, novella, game, graphic-novel, or adaptation material is merged.",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "Excerpt heading and HTML lines 244–319",
+        "supports": [
+          "Authorized excerpt and exact bounded locator."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC046-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-046",
+    "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 263–270, 277, and 308–319",
+    "canonical_term": "Night's Watch / putting on the black",
+    "identity_forms": ["Night's Watch", "putting on the black"],
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The excerpt calls Gared and Waymar members of the Night's Watch and describes Will's entry with the phrase “putting on the black.” It also says the party is honor-bound to obey Waymar's order.",
+    "cultural_caution": "This is fictional institutional language, not a real military, prison, religious order, social class, or legal institution. Will's constrained choice is not generalized into consent, criminality, or a penal-system claim.",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 263–270, 277, and 308–319",
+        "supports": [
+          "Night's Watch, putting-on-the-black, and local command/obedience wording."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC046-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-046",
+    "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 263–266 and 310–316",
+    "canonical_term": "the Wall",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Will describes having spent four years on the Wall and later says that the Wall was “weeping,” in the selected conversation about the cold.",
+    "cultural_caution": "The excerpt does not provide a full geography, construction history, supernatural explanation, political border theory, or adaptation equivalence. The Wall is a place-term, not a character or relationship endpoint.",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 263–266 and 310–316",
+        "supports": [
+          "Wall wording and its limited local cold-related context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC046-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-046",
+    "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 246–255 and 263–265",
+    "canonical_term": "wildlings",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cultures",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The opening dialogue calls the apparently dead people “wildlings,” and Will later reports tracking a band described as wildling raiders.",
+    "cultural_caution": "This is a source-specific collective label in a limited, potentially hostile point-of-view context. It is not mapped to a real ethnicity, race, indigeneity, nationality, class, criminality, or homogeneous people; no unnamed person becomes a character node.",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 246–255 and 263–265",
+        "supports": [
+          "The two local uses of “wildling(s).”"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC046-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-046",
+    "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 263–266",
+    "canonical_term": "haunted forest",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The narration says that southerners call the dark wilderness the haunted forest while describing the party's travel northward from the Wall.",
+    "cultural_caution": "“Haunted” is not treated as proof of a supernatural population, named creature, religion, magic system, geographic boundary, or later plot fact. It is a local descriptive/place term only.",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 263–266",
+        "supports": [
+          "The phrase “haunted forest” and bounded travel context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC046-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-046",
+    "work_or_witness": "A Game of Thrones, Prologue · A Game of Thrones Prologue excerpt, HTML lines 275–306 and 310–316",
+    "canonical_term": "winter / deadly cold",
+    "original_language": "English",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Gared's account describes winter cold as dangerous and recalls cold injuries and a frozen person; Waymar's response points out that conditions in the selected scene are not cold enough to explain the reported deaths.",
+    "cultural_caution": "This is no more than a local environmental-threat discussion. It does not establish climate law, magic, cause of death, disability, medical diagnosis, seasonal cosmology, or a real-world cold-exposure analogy.",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 275–306 and 310–316",
+        "supports": [
+          "Winter/cold language, Gared's account, and Waymar's local inference."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

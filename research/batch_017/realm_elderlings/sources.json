@@ -1,0 +1,33 @@
+[
+  {
+    "source_id":"SRC-045",
+    "source_title":"Realm of the Elderlings",
+    "continuity_scope":"A character-layer pass limited to Robin Hobb's Assassin's Apprentice, the first Farseer Trilogy novel, using the Del Rey paperback published 29 August 2023, ISBN 9780593722824, 464 pages. It is neither a record of the full Farseer trilogy nor of the several distinct Realm of the Elderlings subseries and time layers. Narrative claims use chapter number/title locators rather than pagination transferred from other editions.",
+    "work_or_witnesses":[
+      {"work":"Assassin's Apprentice","edition":"Del Rey paperback, 29 August 2023, ISBN 9780593722824, 464 pages","url":"https://www.penguinrandomhouse.com/books/80899/assassins-apprentice-by-robin-hobb/9780593722824/"},
+      {"work":"Assassin's Apprentice","edition":"Author's official Realm of the Elderlings reading-order page; Farseer publication context","url":"https://www.robinhobb.com/works.htm"}
+    ],
+    "coverage_rule":"Include Fitz; his named individual guardians, teachers, royal patrons and rivals; named individual friends/love interest; the named individual Mountain Kingdom counterpart needed for its distinct political-cultural term; and Nosy because the individually named dog is a dramatic agent in the novel's initial Wit event. The 11-individual cohort is bounded to central Book One action, not every named person or animal.",
+    "in_scope_character_count":11,
+    "completed_character_count":11,
+    "omissions":[
+      "Royal Assassin, Assassin's Quest, the Liveship Traders, Tawny Man, Rain Wild, Fitz and the Fool, all other Realm of the Elderlings works, and adaptations/illustrated editions as separate witnesses.",
+      "The Six Duchies, Buckkeep, the Farseer dynasty, the Skill, Wit, Forging, coteries, royal offices, peoples, raiders, artifacts, and narratorial functions as nodes; they remain terms or dimensions.",
+      "Named but non-cohort individuals including Chivalry, Patience, Rurisk, August, Serene, and minor court, town, voyage, or raid figures; named animals other than Nosy are excluded from this specific cohort.",
+      "Later-series identities, outcomes, family relations, political changes, and retrospective explanations not established by this one novel."
+    ],
+    "uncertainties":[
+      "Fitz narrates retrospectively in first person. His account offers close access to his perceptions and memories but is not omniscient evidence for other characters' intentions, interiority, or unobserved events.",
+      "The selected print edition differs from older US and ebook pagination. Chapter titles/numbers are used as stable locators; page-specific verification must use the ISBN 9780593722824 printing.",
+      "Skill, Wit, Forging, Farseer naming, and Mountain Kingdom terms are source-specific and not direct equivalents of generic psychic powers, animal classes, corruption mechanics, or real-world cultures.",
+      "The novel includes coercion, abuse, violence, and sexual violence; records use concise, non-graphic paraphrase and mark major spoilers."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Primary claims are tied to the declared printed novel by exact chapter title/number. Penguin Random House supplies edition metadata and an official synopsis; Robin Hobb's official works page establishes the Farseer trilogy's distinct place within the larger, multi-series Realm of the Elderlings. No fan wiki, Wikipedia, or plot-summary source is used as canonical evidence.",
+    "citations":[
+      {"url":"https://www.penguinrandomhouse.com/books/80899/assassins-apprentice-by-robin-hobb/9780593722824/","locator":"Del Rey paperback metadata, ISBN 9780593722824, 29 August 2023, 464 pages; Book Description","supports":["Declared witness and official Fitz/Burrich/Shrewd/Skill/assassin/raider context."]},
+      {"url":"https://www.robinhobb.com/works.htm","locator":"Author's official works page, Realm of the Elderlings/Farseer Trilogy section","supports":["Assassin's Apprentice (1995) is followed by Royal Assassin and Assassin's Quest within a larger connected reading order."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

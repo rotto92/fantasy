@@ -1,0 +1,46 @@
+[
+  {
+    "source_id": "SRC-145",
+    "source_title": "Tyranny",
+    "continuity_scope": "Tyranny original base-game release, English PC/Mac/Linux release boundary (10 November 2016). This pass uses only the named first-party campaign and game-page witnesses. It excludes later DLC, edition/package variants, patches, ports, localization variants, and all non-game continuities.",
+    "work_or_witnesses": [
+      "Obsidian Entertainment: Tyranny game page",
+      "Official Tyranny campaign page: The Story"
+    ],
+    "coverage_rule": "All stable named individual dramatic agents directly named and functionally described in the selected first-party campaign premise: Kyros the Overlord and Tunon the Adjudicator. The player-created Fatebinder is explicitly excluded as an avatar role. No other named individual receives a record without a claim-level official profile or direct in-game text locator.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "The Fatebinder/player avatar, including player-selected judgment, loyalty, reputation, alliances, deaths, and endings.",
+      "All named and unnamed NPCs, companions, leaders, enemies, and supernatural figures not directly described at claim level in the selected official witnesses.",
+      "Kyros' armies, their factions, the Tiers, law, magic, reputations, edicts, artifacts, locations, and mechanics as character nodes.",
+      "Bastard's Wound and all other DLC, later patches, edition/package and platform variants, localizations, adaptations, fan/community/wiki material, walkthroughs, and secondary character directories."
+    ],
+    "uncertainties": [
+      "The campaign page is a premise/marketing witness, not an exhaustive cast directory or a direct in-game dialogue, quest, or codex archive; the coverage is deliberately narrow.",
+      "Political and legal framing is reported as the official campaign premise, not as independently verified in-world fact.",
+      "The Fatebinder's choices and faction reputations make allegiance, justice, relationships, deaths, and endings branch-dependent; none is universalized here.",
+      "No relationship is recorded: the selected text links Tunon to the excluded Fatebinder role, but does not supply a direct named-character-to-named-character relation for the two included individuals.",
+      "English wording is the only reviewed localization. DLC/patch behavior and other language versions remain separate evidence questions."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Obsidian Entertainment game and official Tyranny campaign pages only. No fan wiki, Wikipedia, community source, review, walkthrough, or secondary database is used as canonical evidence.",
+    "citations": [
+      {
+        "url": "https://www.obsidian.net/games/tyranny",
+        "locator": "Tyranny game page: Release Date; Overview",
+        "supports": [
+          "10 November 2016 release boundary, platforms, publisher, and the premise of Kyros' armies' conquest"
+        ]
+      },
+      {
+        "url": "https://tyranny.obsidian.net/",
+        "locator": "The Story section: 'Bend the World to Your Will' and 'Law and Order'",
+        "supports": [
+          "Fatebinder avatar role, Kyros the Overlord, Tunon the Adjudicator, the Tiers, player choice, and faction-reputation framing"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

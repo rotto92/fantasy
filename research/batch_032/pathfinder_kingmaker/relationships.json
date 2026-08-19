@@ -1,0 +1,3 @@
+[
+  {"relationship_id":"REL-SRC146-001","source_id":"SRC-146","source_character_id":"CHR-SRC146-004","target_character_id":"CHR-SRC146-005","relationship_type":"other","label":"described as friends","direction":"undirected","continuity":"Enhanced Edition base-game companion roster","citations":[{"url":"https://kingmaker.owlcat.games/","locator":"Meet Your Companions: Octavia entry","supports":["The official roster calls Regongar Octavia's friend"]}],"confidence":"high","note":"This records only the named friendship statement. It does not assert recruitment, party membership, romance, relationship outcome, or player participation."}
+]

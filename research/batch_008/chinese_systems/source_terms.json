@@ -1,0 +1,389 @@
+[
+  {
+    "term_id": "STM-SRC279-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
+    "canonical_term": "神",
+    "original_language": "Chinese",
+    "original_script": "神",
+    "transliteration": "shen",
+    "literal_gloss": "numinous being/deity",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A context-dependent Chinese term; neither a stable pantheon category nor equivalent to “god” in every witness.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://academic.oup.com/edited-volume/61799/chapter-abstract/546319250",
+        "locator": "Oxford Research Encyclopedia of Asian History, “Daoism and Popular Religion in Imperial China”",
+        "supports": [
+          "A context-dependent Chinese term; neither a stable pantheon category nor equivalent to “god” in every witness."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
+    "canonical_term": "仙",
+    "original_language": "Chinese",
+    "original_script": "仙",
+    "transliteration": "xian",
+    "literal_gloss": "transcendent/immortal",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-406"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Daoist attainment language and art are historically varied; no generic race/class equivalence.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://www.metmuseum.org/ja/essays/daoism-and-daoist-art",
+        "locator": "Metropolitan Museum, “Daoism and Daoist Art,” paragraph on immortality",
+        "supports": [
+          "Daoist attainment language and art are historically varied; no generic race/class equivalence."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Robert Hymes, Way and Byway, ch. 2, pp. 26–46",
+    "canonical_term": "天庭",
+    "original_language": "Chinese",
+    "original_script": "天庭",
+    "transliteration": "tianting",
+    "literal_gloss": "celestial court",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-119"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A bureaucratic model in a defined Daoist/local setting, not a uniformly organized Chinese heaven.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://academic.oup.com/california-scholarship-online/book/22574/chapter-abstract/182917844",
+        "locator": "Robert Hymes, Way and Byway, ch. 2, pp. 26–46",
+        "supports": [
+          "A bureaucratic model in a defined Daoist/local setting, not a uniformly organized Chinese heaven."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
+    "canonical_term": "籙",
+    "original_language": "Chinese",
+    "original_script": "籙",
+    "transliteration": "lu",
+    "literal_gloss": "register",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [
+      "LAW-518"
+    ],
+    "mapping_relation": "functional",
+    "definition": "Ritual register/document language in a Lingbao rite; do not reduce it to an inventory or game credential.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=618564&if=en",
+        "locator": "Shangqing Lingbao dafa, vol. 33, section 1",
+        "supports": [
+          "Ritual register/document language in a Lingbao rite; do not reduce it to an inventory or game credential."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Shangqing Lingbao dafa, vol. 33, sections 19–25",
+    "canonical_term": "符",
+    "original_language": "Chinese",
+    "original_script": "符",
+    "transliteration": "fu",
+    "literal_gloss": "talisman",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-506"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Textual/ritual talismans used in the identified Lingbao rite; not a generic spell-card system.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=618564&if=en",
+        "locator": "Shangqing Lingbao dafa, vol. 33, sections 19–25",
+        "supports": [
+          "Textual/ritual talismans used in the identified Lingbao rite; not a generic spell-card system."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
+    "canonical_term": "黃籙齋",
+    "original_language": "Chinese",
+    "original_script": "黃籙齋",
+    "transliteration": "Huanglu zhai",
+    "literal_gloss": "Yellow Register fast/rite",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A named Lingbao ritual context for the dead; preserved without an asserted normalized equivalent.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=618564&if=en",
+        "locator": "Shangqing Lingbao dafa, vol. 33, section 1",
+        "supports": [
+          "A named Lingbao ritual context for the dead; preserved without an asserted normalized equivalent."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-007",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
+    "canonical_term": "祖先",
+    "original_language": "Chinese",
+    "original_script": "祖先",
+    "transliteration": "zuxian",
+    "literal_gloss": "ancestors",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-303"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Ancestor practice is not a single religion or a universal afterlife ontology.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://academic.oup.com/edited-volume/61799/chapter-abstract/546319250",
+        "locator": "Oxford Research Encyclopedia of Asian History, discussion of popular religion and ancestor practices",
+        "supports": [
+          "Ancestor practice is not a single religion or a universal afterlife ontology."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-008",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Li Chaowei, Liu Yi zhuan",
+    "canonical_term": "龍",
+    "original_language": "Chinese",
+    "original_script": "龍",
+    "transliteration": "long",
+    "literal_gloss": "dragon",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-801"
+    ],
+    "mapping_relation": "partial",
+    "definition": "This crosswalk applies only to the identified Tang tale’s dragon persons; dragon meanings vary by time, region, and medium.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan",
+        "supports": [
+          "This crosswalk applies only to the identified Tang tale’s dragon persons; dragon meanings vary by time, region, and medium."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-009",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Pu Songling, Liaozhai zhiyi, “Yingning”",
+    "canonical_term": "狐",
+    "original_language": "Chinese",
+    "original_script": "狐",
+    "transliteration": "hu",
+    "literal_gloss": "fox",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-1001"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A literary fox-spirit witness, not evidence for all fox traditions or living beliefs.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=866956&if=gb",
+        "locator": "Pu Songling, Liaozhai zhiyi, “Yingning”",
+        "supports": [
+          "A literary fox-spirit witness, not evidence for all fox traditions or living beliefs."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-010",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Kṣitigarbha Sutra, ch. 8, sections 1–5",
+    "canonical_term": "閻羅",
+    "original_language": "Chinese",
+    "original_script": "閻羅",
+    "transliteration": "Yanluo",
+    "literal_gloss": "Yama",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [
+      "ROL-636"
+    ],
+    "mapping_relation": "functional",
+    "definition": "A Buddhist sutra’s underworld king; do not conflate with all Chinese underworld courts.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
+        "locator": "Kṣitigarbha Sutra, ch. 8, sections 1–5",
+        "supports": [
+          "A Buddhist sutra’s underworld king; do not conflate with all Chinese underworld courts."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-011",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Kṣitigarbha Sutra, ch. 8",
+    "canonical_term": "地獄",
+    "original_language": "Chinese",
+    "original_script": "地獄",
+    "transliteration": "diyu",
+    "literal_gloss": "hell/underworld",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-301",
+      "COS-304"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Buddhist karmic and soteriological context; not a single Chinese underworld map.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
+        "locator": "Kṣitigarbha Sutra, ch. 8",
+        "supports": [
+          "Buddhist karmic and soteriological context; not a single Chinese underworld map."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-012",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Taishang dongxuan lingbao shihao gongde yinyuan miaojing, section 8",
+    "canonical_term": "洞天",
+    "original_language": "Chinese",
+    "original_script": "洞天",
+    "transliteration": "dongtian",
+    "literal_gloss": "grotto-heaven",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-501"
+    ],
+    "mapping_relation": "functional",
+    "definition": "Daoist sacred geography; a “sacred mountain” mapping is only functional.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=152114&if=gb",
+        "locator": "Taishang dongxuan lingbao shihao gongde yinyuan miaojing, section 8",
+        "supports": [
+          "Daoist sacred geography; a “sacred mountain” mapping is only functional."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-013",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Yiwén lèijù 92 quotation of Shanhai jing and Guo Pu commentary on Jingwei",
+    "canonical_term": "化",
+    "original_language": "Chinese",
+    "original_script": "化",
+    "transliteration": "hua",
+    "literal_gloss": "transformation",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Witness-specific transformation vocabulary; no unified transmutation system is inferred.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/text.pl?if=gb&node=550946&remap=gb",
+        "locator": "Yiwén lèijù 92 quotation of Shanhai jing and Guo Pu commentary on Jingwei",
+        "supports": [
+          "Witness-specific transformation vocabulary; no unified transmutation system is inferred."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC279-014",
+    "record_kind": "source-term",
+    "source_id": "SRC-279",
+    "work_or_witness": "Shangqing Lingbao dafa, vol. 33, section 1",
+    "canonical_term": "三界",
+    "original_language": "Chinese",
+    "original_script": "三界",
+    "transliteration": "sanjie",
+    "literal_gloss": "three realms",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Term occurs in a Daoist Lingbao ritual text and should not be collapsed with Buddhist or literary usages.",
+    "cultural_caution": "This term has context-specific Daoist, Buddhist, literary, local, historical, and/or living usages. The cited witness constrains this record; it is not a universal Chinese-religion definition.",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=618564&if=en",
+        "locator": "Shangqing Lingbao dafa, vol. 33, section 1",
+        "supports": [
+          "Term occurs in a Daoist Lingbao ritual text and should not be collapsed with Buddhist or literary usages."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

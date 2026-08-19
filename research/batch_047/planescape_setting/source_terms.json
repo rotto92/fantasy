@@ -1,0 +1,158 @@
+[
+  {
+    "term_id": "STM-SRC095-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’ and Sigil and the Outlands description",
+    "canonical_term": "Sigil, the City of Doors",
+    "original_language": "English D&D setting terminology",
+    "original_script": "Sigil, the City of Doors",
+    "transliteration": "not applicable",
+    "literal_gloss": "planar metropolis",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The City of Doors, identified in the 2023 Planescape overview as a central setting location.",
+    "cultural_caution": "A setting place, not a character endpoint, a claim about a real city, or a carryover of unstated earlier-edition detail.",
+    "citations": [
+      {
+        "url": "https://www.dndbeyond.com/posts/1529-what-is-planescape-adventures-in-the-multiverse-a",
+        "locator": "Official overview, ‘What is Planescape?’ and Sigil and the Outlands description",
+        "supports": [
+          "Sigil’s selected 2023 setting role and City of Doors designation."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC095-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
+    "canonical_term": "Outlands",
+    "original_language": "English D&D setting terminology",
+    "original_script": "Outlands",
+    "transliteration": "not applicable",
+    "literal_gloss": "planar region",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The planar region presented with Sigil in the 2023 boxed set’s Sigil and the Outlands setting book.",
+    "cultural_caution": "A source-specific setting region, not an individual, exhaustive cosmology, or a statement of cross-edition equivalence.",
+    "citations": [
+      {
+        "url": "https://www.dndbeyond.com/posts/1529-what-is-planescape-adventures-in-the-multiverse-a",
+        "locator": "Official overview, Sigil and the Outlands book description",
+        "supports": [
+          "Outlands as a selected 2023 Planescape setting region."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC095-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’",
+    "canonical_term": "Outer Planes",
+    "original_language": "English D&D setting terminology",
+    "original_script": "Outer Planes",
+    "transliteration": "not applicable",
+    "literal_gloss": "planar destinations",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The planar destinations described in the official 2023 overview as part of the Planescape adventure setting.",
+    "cultural_caution": "A cosmological category, not a character, real religious claim, or complete account of the D&D multiverse.",
+    "citations": [
+      {
+        "url": "https://www.dndbeyond.com/posts/1529-what-is-planescape-adventures-in-the-multiverse-a",
+        "locator": "Official overview, ‘What is Planescape?’",
+        "supports": [
+          "Outer Planes as selected Planescape destinations in the 2023 product overview."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC095-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
+    "canonical_term": "gate-towns",
+    "original_language": "English D&D setting terminology",
+    "original_script": "gate-towns",
+    "transliteration": "not applicable",
+    "literal_gloss": "planar settlement category",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A category of places in the Outlands identified in the 2023 setting-book description.",
+    "cultural_caution": "A collective setting-place category, not an individual endpoint or a rule inferred beyond the cited product description.",
+    "citations": [
+      {
+        "url": "https://www.dndbeyond.com/posts/1529-what-is-planescape-adventures-in-the-multiverse-a",
+        "locator": "Official overview, Sigil and the Outlands book description",
+        "supports": [
+          "Gate-towns as a selected 2023 Planescape setting category."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC095-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, Sigil and the Outlands book description",
+    "canonical_term": "factions",
+    "original_language": "English D&D setting terminology",
+    "original_script": "factions",
+    "transliteration": "not applicable",
+    "literal_gloss": "setting affiliation category",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A collective affiliation category in the 2023 Planescape setting material; the official overview states that the boxed set presents twelve factions.",
+    "cultural_caution": "A collective organizational category, not an individual character endpoint, membership claim, or assertion about any omitted named faction.",
+    "citations": [
+      {
+        "url": "https://www.dndbeyond.com/posts/1529-what-is-planescape-adventures-in-the-multiverse-a",
+        "locator": "Official overview, Sigil and the Outlands book description",
+        "supports": [
+          "Factions as a selected setting-affiliation category and the overview’s twelve-faction count."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC095-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-095",
+    "work_or_witness": "What Is Planescape: Adventures in the Multiverse? · Official overview, ‘What is Planescape?’",
+    "canonical_term": "portals",
+    "original_language": "English D&D setting terminology",
+    "original_script": "portals",
+    "transliteration": "not applicable",
+    "literal_gloss": "planar passage category",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The means by which the City of Doors is described as connecting to other worlds in the official 2023 overview.",
+    "cultural_caution": "A setting traversal concept, not a full rules specification, a character, or an assertion that all cross-planar travel functions identically.",
+    "citations": [
+      {
+        "url": "https://www.dndbeyond.com/posts/1529-what-is-planescape-adventures-in-the-multiverse-a",
+        "locator": "Official overview, ‘What is Planescape?’",
+        "supports": [
+          "Portals as the cited Planescape connection concept."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

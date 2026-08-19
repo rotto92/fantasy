@@ -1,0 +1,132 @@
+[
+  {
+    "term_id": "STM-SRC117-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-117",
+    "work_or_witness": "FABULA ULTIMA TTJRPG Core Rulebook · Core overview: Create your own setting together",
+    "canonical_term": "collaborative world creation",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core game's procedure in which a group freely shapes its own world, including kingdoms, villages, historical events, and inhabitants.",
+    "cultural_caution": "A table-authorship procedure, not a canonical world history or a claim about a real culture, state, community, or historical event. Campaign-created setting facts remain table-specific.",
+    "citations": [
+      {
+        "url": "https://need.games/fabula-ultima/",
+        "locator": "Core overview: Create your own setting together",
+        "supports": [
+          "NEED GAMES! says the group can freely shape its own world and its people/history."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC117-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-117",
+    "work_or_witness": "FABULA ULTIMA TTJRPG Core Rulebook · Core overview: Fifteen Classes to mix and match",
+    "canonical_term": "Classes",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core book's fifteen mix-and-match modular character-growth options for creating heroes.",
+    "cultural_caution": "A player-build mechanic, not a social class, occupation, real identity, or canonically fixed category for every hero. Later Atlas classes remain outside this core pass.",
+    "citations": [
+      {
+        "url": "https://need.games/fabula-ultima/",
+        "locator": "Core overview: Fifteen Classes to mix and match",
+        "supports": [
+          "NEED GAMES! identifies fifteen modular classes for designing player heroes."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC117-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-117",
+    "work_or_witness": "FABULA ULTIMA TTJRPG Core Rulebook · Core overview: Game Master tools and Villains",
+    "canonical_term": "Villains",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Game Master-facing system category for bringing the heroes' dark mirrors into adventures.",
+    "cultural_caution": "A source-specific narrative/game category, not a moral diagnosis of real people or evidence that a named figure in a table-created story has a permanent canonical role.",
+    "citations": [
+      {
+        "url": "https://need.games/fabula-ultima/",
+        "locator": "Core overview: Game Master tools and Villains",
+        "supports": [
+          "NEED GAMES! describes Villains as heroes' dark mirrors in Game Master tools."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC117-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-117",
+    "work_or_witness": "FABULA ULTIMA Third-Party License Style Guide · Terminology table: Fabula Points, Ultima Points",
+    "canonical_term": "Fabula Points and Ultima Points",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Capitalized core-rule point resources that official English terminology says may be gained, lost, or spent.",
+    "cultural_caution": "Game resources only. They are not currency, moral worth, fate, or a franchise-equivalence claim, and should not be used to infer a named character's narrative history without direct evidence.",
+    "citations": [
+      {
+        "url": "https://need.games/wp-content/uploads/2024/06/Fabula-Ultima-Third-Party-Tabletop-License-Style-Guide.pdf",
+        "locator": "Terminology table: Fabula Points, Ultima Points",
+        "supports": [
+          "Official style guide states that Fabula Points and Ultima Points can be gained, lost, or spent."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC117-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-117",
+    "work_or_witness": "FABULA ULTIMA TTJRPG Core Rulebook · Core overview opening and ruleset description",
+    "canonical_term": "JRPG inspiration",
+    "original_language": "English genre-description lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "functional",
+    "definition": "The publisher's description of the core game as inspired by Japanese-style console RPGs and designed to evoke their gameplay and atmosphere.",
+    "cultural_caution": "A broad genre influence, not a claim of identity with any videogame, Japanese culture, Japanese people, or named franchise. Do not import characters, settings, plots, art, or mechanics from source videogames.",
+    "citations": [
+      {
+        "url": "https://need.games/fabula-ultima/",
+        "locator": "Core overview opening and ruleset description",
+        "supports": [
+          "NEED GAMES! calls Fabula Ultima a tabletop RPG inspired by Japanese-style console RPGs/JRPGs."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

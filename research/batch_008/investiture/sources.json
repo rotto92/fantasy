@@ -1,0 +1,52 @@
+[
+  {
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity_scope": "A novel-only pass for the complete 100-chapter Fengshen yanyi text supplied by the Chinese Text Project. It excludes Chinese mythology/religion as a whole, historical Shang/Zhou tradition, later ritual reception, local and opera traditions, illustration, television, film, comics, games, and all later adaptations. Traditional attribution to Xu Zhonglin is retained only as bibliography, not asserted as settled authorship.",
+    "work_or_witnesses": [
+      {
+        "work": "封神演義 (Fengshen yanyi)",
+        "edition": "Chinese Text Project digital Chinese text, 100 chapter navigation; used as the accessible primary-text witness. The project page does not supply a critical-edition apparatus, so variant readings and translation choices remain outside this bounded pass.",
+        "url": "https://ctext.org/fengshen-yanyi"
+      },
+      {
+        "work": "Investiture of the gods (Fengshen yanyi): sources, narrative structure, and mythical significance",
+        "edition": "Pin P. Wan, PhD dissertation, University of Washington, 1987; orientation for novel/literary-myth distinction only.",
+        "url": "https://digital.lib.washington.edu/researchworks/items/f3d5aa3d-a8e0-4bca-ad5f-e584f31f2a74"
+      }
+    ],
+    "coverage_rule": "All protagonists, dynastic rulers, named court agents, named Zhou/Shang generals, named sect leaders/masters, and named supernatural champions who materially act in the 100-chapter plot; plus named figures required to represent investiture, sect/lineage, transformations, talismans, divine weapons, formations, and the final cosmic bureaucracy. Excludes generic troops, one-scene named combatants, unnamed office holders, the full 365-name final register, and entities known only from non-novel continuities.",
+    "in_scope_character_count": 40,
+    "completed_character_count": 40,
+    "omissions": [
+      "The majority of named single-battle figures and every generic troop/attendant",
+      "The full final register of 365 deified figures, except principal plot actors included above",
+      "Historical Shang/Zhou persons and all claims drawn from historical tradition rather than the novel",
+      "Chinese mythological, Daoist, Buddhist, popular-religious, ritual, regional, opera, and later adaptive continuities"
+    ],
+    "uncertainties": [
+      "The accessible primary witness is a complete digital Chinese text but lacks a stated critical-edition apparatus; chapter citations locate claims but cannot settle variant readings or translation choices.",
+      "Xu Zhonglin is a traditional attribution; this dataset makes no authorship determination.",
+      "Terms such as xian, zhenren, jiao, shen, mo, and tianming have context-dependent literary/religious histories. English glosses and taxonomy mappings are deliberately partial or absent."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Character and relationship claims are located to chapters in the complete 100-chapter Chinese Text Project primary text. Wan's dissertation is used only to orient the distinction between the Ming novel and broader mythic materials. The absence of a critically identified translation/edition with a stable page apparatus limits variant-reading and translation claims, but does not leave the declared 40-character sampling pass unfinished.",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi",
+        "locator": "Chinese Text Project table of contents, chapters 1–100",
+        "supports": [
+          "Accessible complete 100-chapter primary-text scope used for chapter locators."
+        ]
+      },
+      {
+        "url": "https://digital.lib.washington.edu/researchworks/items/f3d5aa3d-a8e0-4bca-ad5f-e584f31f2a74",
+        "locator": "Abstract and bibliographic record",
+        "supports": [
+          "Fengshen yanyi is a literary work centered on Jiang Ziya and Shang-Zhou conflict; it is distinguished from myth as such."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

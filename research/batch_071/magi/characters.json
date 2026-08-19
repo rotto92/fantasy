@@ -1,0 +1,107 @@
+[
+  {
+    "character_id": "CHR-SRC201-001",
+    "canonical_name": "Aladdin",
+    "aliases": [],
+    "source_id": "SRC-201",
+    "source_title": "Magi: The Labyrinth of Magic",
+    "continuity": "VIZ English Magi: The Labyrinth of Magic, Vol. 1 (2013)",
+    "work_or_witness": "VIZ Volume 1 product synopsis and official series description",
+    "character_kind": "individual",
+    "description": "A young adventurer who sets out with the djinn Ugo and his friend Alibaba to seek fortune in the endless dunes and Dungeons.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "adventurer", "archetype_ids": [], "confidence": "high", "note": "VIZ's official series description calls Aladdin a young adventurer; no Magi/dungeon-capturer designation is inferred from this metadata."}],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "desert Dungeons", "archetype_ids": [], "confidence": "high", "note": "VIZ places the Dungeons in the desert and states Aladdin seeks them; no specific Dungeon or location is identified."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [{"term": "protagonist", "archetype_ids": [], "confidence": "high", "note": "VIZ's Volume 1 and series descriptions center Aladdin's quest premise."}],
+      "game_mechanics": []
+    },
+    "canon_status": "Named central individual directly described by the selected VIZ English Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {"url": "https://www.viz.com/manga-books/manga/magi-volume-1-0/product/3232", "locator": "Volume 1 synopsis, line 51", "supports": ["Aladdin name, travel with Ugo and Alibaba, and fortune-seeking in the dunes"]},
+      {"url": "https://www.viz.com/magi", "locator": "official series description, lines 27-31", "supports": ["Aladdin as a young adventurer and his Dungeon/treasure objective"]}
+    ],
+    "comparison_cautions": [
+      "The official metadata does not establish Aladdin's age, origin, magic, Magi role, Dungeon-capturer status, individual abilities, or outcome.",
+      "The name and series influence statement do not equate this fictional Aladdin with any character in One Thousand and One Nights or any traditional narrative witness.",
+      "No broader-franchise slavery, oppression, violence, or adaptation material is used as a character claim in this volume-bounded record."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC201-002",
+    "canonical_name": "Alibaba",
+    "aliases": [],
+    "source_id": "SRC-201",
+    "source_title": "Magi: The Labyrinth of Magic",
+    "continuity": "VIZ English Magi: The Labyrinth of Magic, Vol. 1 (2013)",
+    "work_or_witness": "VIZ Volume 1 product synopsis",
+    "character_kind": "individual",
+    "description": "Aladdin's named friend, who accompanies Aladdin and Ugo in the Volume 1 synopsis's fortune-seeking journey through the endless dunes.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "endless dunes", "archetype_ids": [], "confidence": "high", "note": "The selected VIZ synopsis situates the stated group journey there; no origin or settled affiliation is inferred."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [{"term": "Aladdin's friend", "archetype_ids": [], "confidence": "high", "note": "Direct VIZ wording; the relationship is separately represented between named endpoints."}],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly described by the selected VIZ English Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://www.viz.com/manga-books/manga/magi-volume-1-0/product/3232", "locator": "Volume 1 synopsis, line 51", "supports": ["Alibaba name, friendship with Aladdin, and stated shared journey"]}],
+    "comparison_cautions": [
+      "The metadata supplies no family, social position, ability, Magi/dungeon-capturer status, artifact, motivation beyond the shared premise, or plot outcome.",
+      "Alibaba's name is not treated as evidence of identity or equivalence with any traditional-source figure.",
+      "No anime, later-manga, game, guidebook, slavery/oppression, violence, or outcome material is imported."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC201-003",
+    "canonical_name": "Ugo",
+    "aliases": [],
+    "source_id": "SRC-201",
+    "source_title": "Magi: The Labyrinth of Magic",
+    "continuity": "VIZ English Magi: The Labyrinth of Magic, Vol. 1 (2013)",
+    "work_or_witness": "VIZ Volume 1 product synopsis",
+    "character_kind": "individual",
+    "description": "The named djinn who accompanies Aladdin and Alibaba in the Volume 1 synopsis's fortune-seeking journey.",
+    "dimensions": {
+      "being_types": [{"term": "djinn", "archetype_ids": [], "confidence": "high", "note": "VIZ directly calls Ugo a djinn. This is a source category, not an equivalence with religious, folkloric, or traditional beings."}],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "endless dunes", "archetype_ids": [], "confidence": "high", "note": "The selected VIZ synopsis places the stated group journey there; no origin/realm is inferred for Ugo."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly designated as a djinn in the selected VIZ English Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://www.viz.com/manga-books/manga/magi-volume-1-0/product/3232", "locator": "Volume 1 synopsis, line 51", "supports": ["Ugo name, djinn designation, and stated travel with Aladdin and Alibaba"]}],
+    "comparison_cautions": [
+      "Ugo is an individualized named character, while djinn remains a category term. The metadata provides no powers, origin, artifact connection, social role, or outcome.",
+      "The source-native fictional use of 'djinn' is not equated with the diverse religious, linguistic, or folkloric traditions involving jinn.",
+      "No anime, later-manga, game, guidebook, violence, or outcome material is imported."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

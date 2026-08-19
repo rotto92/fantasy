@@ -1,0 +1,109 @@
+[
+  {
+    "character_id": "CHR-SRC076-001",
+    "canonical_name": "リナ＝インバース",
+    "aliases": [
+      "Lina Inverse"
+    ],
+    "source_id": "SRC-076",
+    "source_title": "Slayers",
+    "continuity": "スレイヤーズ １ — KADOKAWA publisher-synopsis witness",
+    "work_or_witness": "Official synopsis only",
+    "character_kind": "individual",
+    "description": "A talented young female mage who attacks bandits, as presented in the official novel synopsis.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "魔道士",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Publisher-synopsis vocation only; no spell list or system mechanics claimed."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "magic-user context",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "The synopsis calls Lina a mage but gives no details of magical practice."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "スレイヤーズ １ publisher synopsis only",
+    "evidence_level": "publisher-metadata",
+    "citations": [
+      {
+        "url": "https://www.kadokawa.co.jp/product/301809000029/",
+        "locator": "Official synopsis, lines 790–792",
+        "supports": [
+          "Lina's name, mage presentation, and attacks on bandits."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No anime, manga, game, later-novel, spell, party, or localization-specific material is included.",
+      "The English-form alias is a convenience romanization, not evidence of a merged translation continuity."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC076-002",
+    "canonical_name": "ガウリイ",
+    "aliases": [
+      "Gourry"
+    ],
+    "source_id": "SRC-076",
+    "source_title": "Slayers",
+    "continuity": "スレイヤーズ １ — KADOKAWA publisher-synopsis witness",
+    "work_or_witness": "Official synopsis only",
+    "character_kind": "individual",
+    "description": "A skilled, handsome swordsman whose encounter with Lina is identified in the official novel synopsis.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "剣士",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Publisher-synopsis vocation only."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "スレイヤーズ １ publisher synopsis only",
+    "evidence_level": "publisher-metadata",
+    "citations": [
+      {
+        "url": "https://www.kadokawa.co.jp/product/301809000029/",
+        "locator": "Official synopsis, lines 790–792",
+        "supports": [
+          "Gourry's name, skilled-swordsman presentation, and meeting with Lina."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No anime, manga, game, later-novel, party, weapon, or localization-specific material is included.",
+      "The English-form alias is a convenience romanization, not evidence of a merged translation continuity."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "source_id": "SRC-181",
+    "source_title": "Unicorn Overlord",
+    "continuity_scope": "ATLUS/SEGA English (US) official-site witness for the base Unicorn Overlord release on Nintendo Switch, PlayStation 4, PlayStation 5, and Xbox Series X|S. The scope is the English 16-card character selector and base-game story/system copy. Physical/digital editions, the MONARCH Edition and pre-order bonus, demo, downloadable tips, version updates, online mode, platform save/feature differences, and non-English localizations are not treated as identical evidence states.",
+    "work_or_witnesses": [
+      "ATLUS/SEGA, Unicorn Overlord official English (US) website: Story, World, Features, and Character selector",
+      "ATLUS/SEGA, Unicorn Overlord official English character data file"
+    ],
+    "coverage_rule": "All sixteen named individual cards in the English official character selector/data file: Alain, Scarlett, Lex, Josef, Ilenia, Chloe, Hodrick, Clive, Travis, Yahna, Melisandre, Gilbert, Virginia, Berengaria, Aramis, and Galerius. This is a reproducible selected-profile set, not the full roster: the official site advertises more than sixty unique characters. Classes, species, units, nations, factions, items, places, battle systems, and player-selectable content are dimensions/terms rather than character nodes.",
+    "in_scope_character_count": 16,
+    "completed_character_count": 16,
+    "omissions": [
+      "Every unselected named recruit, NPC, enemy, ruler, or boss from the 60+-character wider roster; generic humans, elves, bestrals, angels, units, and classes.",
+      "Recruitment conditions and accept/decline branches, rapport/conversation/romance outcomes, deaths, endings, battle deployments, class changes, equipment, tactics, routes, difficulty, online matches, and every player-customized party outcome.",
+      "The demo, downloadable tips as a later instructional witness, patches/updates, DLC or edition bonuses, platform-specific behavior, physical/digital/collector editions, all non-English localizations, fan wikis, Wikipedia, walkthroughs, and community databases."
+    ],
+    "uncertainties": [
+      "The official data file is a concise promotional profile set and its sixteen cards are not presented as a complete cast or full chronology; absent details remain absent.",
+      "Some profiles use past-tense event summaries. They establish only the stated preconditions/background, not a universal recruitment state, player deployment, survival, rapport, romance, or ending.",
+      "The site offers platform, demo, standard/collector, and online information but does not make their mechanics or content states interchangeable; no update-specific rule is assigned to a character card."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "ATLUS/SEGA first-party English official site and its published English character data file only. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {"url": "https://unicornoverlord.atlus.com/index.html?lang=en", "locator": "Features, World, Purchase, and Character sections", "supports": ["English-US scope, platforms, base-game framing, Fevrith/Cornia, selected character presentation, roster, item, and systems"]},
+      {"url": "https://unicornoverlord.atlus.com/js/character.js", "locator": "characters.en: Alain through Galerius", "supports": ["All sixteen English official profile-card names, descriptions, and direct relationships"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

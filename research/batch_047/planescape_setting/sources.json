@@ -1,0 +1,65 @@
+[
+  {
+    "source_id": "SRC-095",
+    "source_title": "Planescape",
+    "continuity_scope": "Terms-only audit bound to Planescape: Adventures in the Multiverse, the official 2023 fifth-edition tabletop boxed set and its three constituent books: Sigil and the Outlands, Morte’s Planar Parade, and Turn of Fortune’s Wheel. Second-edition Planescape material, Planescape: Torment (separately catalogued as SRC-141), other video games, novels, adaptations, home campaigns, and later or earlier products are excluded and not merged.",
+    "work_or_witnesses": [
+      {
+        "work": "Planescape: Adventures in the Multiverse",
+        "edition": "Official Dungeons & Dragons fifth-edition tabletop boxed set, 2023",
+        "url": "https://www.dndbeyond.com/sources/dnd/paitm"
+      },
+      {
+        "work": "What Is Planescape: Adventures in the Multiverse?",
+        "edition": "Official D&D Beyond product overview, July 18, 2023",
+        "url": "https://www.dndbeyond.com/posts/1529-what-is-planescape-adventures-in-the-multiverse-a"
+      },
+      {
+        "work": "Planescape: Adventures in the Multiverse issues and support",
+        "edition": "Official D&D Beyond release/support post, October 3, 2023",
+        "url": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/181906-planescape-adventures-in-the-multiverse-issues-and"
+      }
+    ],
+    "coverage_rule": "No characters are included. The accessible official witnesses describe the boxed set’s setting structure, books, and categories, but do not supply stable claim-level profiles for named dramatic individuals. Named figures mentioned only as a guide, setting ruler, example, or adventure material are therefore omitted. Planes, places, portals, factions, ancestries, monsters, items, and rules remain terms/context rather than character endpoints.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named individuals, including Morte, the Lady of Pain, and any Turn of Fortune’s Wheel NPCs, because the selected accessible official witnesses do not provide claim-level individual profiles.",
+      "All second-edition Planescape claims, terminology meanings, and continuity assertions unless separately evidenced in this exact 2023 fifth-edition product.",
+      "Planescape: Torment characters, events, game-specific mechanics, and adaptation claims; that computer-game continuity is separately scoped as SRC-141.",
+      "All unverified errata, live-page revisions, and cross-product retcon reconciliation."
+    ],
+    "uncertainties": [
+      "This is a fifth-edition setting product, not a D&D core-rule source or a universal statement of multiverse canon.",
+      "The official overview announced an October 17, 2023 release, while the D&D Beyond source record and release/support material are dated October 2–3, 2023; these records are retained as product-publication evidence rather than normalized into a single publication-date assertion.",
+      "No distinct official errata document for this product was accessed in this audit. The cited D&D Beyond materials may be updated over time, so no exhaustive product-update claim is made.",
+      "The audit does not resolve second-edition-to-fifth-edition terminology changes or retcons; the 2023 boxed set has priority only inside this source record."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official D&D Beyond product and release materials identify the 2023 boxed set as a planar adventure setting spanning infinite realities, enumerate its three books, and name Sigil, the Outlands, the Outer Planes, gate-towns, and factions as setting structure. They do not offer adequate individual character profiles, so a terms-only setting audit is warranted.",
+    "citations": [
+      {
+        "url": "https://www.dndbeyond.com/sources/dnd/paitm",
+        "locator": "Official source record, product description and listed contents",
+        "supports": [
+          "2023 Planescape: Adventures in the Multiverse product identity, tabletop fifth-edition scope, and the three constituent books."
+        ]
+      },
+      {
+        "url": "https://www.dndbeyond.com/posts/1529-what-is-planescape-adventures-in-the-multiverse-a",
+        "locator": "Official overview, ‘What is Planescape?’ and boxed-set book descriptions",
+        "supports": [
+          "Sigil, the Outlands, the Outer Planes, gate-towns, factions, and product-boundary context."
+        ]
+      },
+      {
+        "url": "https://www.dndbeyond.com/forums/d-d-beyond-general/release-issues-support/181906-planescape-adventures-in-the-multiverse-issues-and",
+        "locator": "Official staff release/support post, product contents",
+        "supports": [
+          "Official 2023 release/support context and the product’s three-book composition."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

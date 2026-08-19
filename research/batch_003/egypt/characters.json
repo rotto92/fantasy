@@ -1,0 +1,660 @@
+[
+  {
+    "character_id": "CHR-SRC013-001",
+    "canonical_name": "Horus",
+    "aliases": [],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus Chester Beatty I, Contendings of Horus and Seth",
+    "work_or_witness": "Gardiner 1931, Chester Beatty I",
+    "character_kind": "individual",
+    "description": "Claimant to Osiris’s office in the Contendings; his dispute with Seth is adjudicated by the divine assembly.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-002",
+    "canonical_name": "Seth",
+    "aliases": [
+      "Set"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus Chester Beatty I, Contendings of Horus and Seth",
+    "work_or_witness": "Gardiner 1931, Chester Beatty I",
+    "character_kind": "individual",
+    "description": "Horus’s rival claimant in the Contendings, who contests the succession through trials and challenges.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-003",
+    "canonical_name": "Ra-Horakhty",
+    "aliases": [
+      "Re-Horakhty"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus Chester Beatty I, Contendings of Horus and Seth",
+    "work_or_witness": "Gardiner 1931, Chester Beatty I",
+    "character_kind": "individual",
+    "description": "Senior solar authority who presides over much of the Contendings’ divine deliberation.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-004",
+    "canonical_name": "Thoth",
+    "aliases": [
+      "Djehuty"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus of Ani, Book of the Dead judgment witness",
+    "work_or_witness": "British Museum EA10470,3",
+    "character_kind": "individual",
+    "description": "Divine messenger and scribe who carries letters and interventions in the Contendings; in Ani’s judgment imagery he records the weighing.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "Papyrus of Ani EA10470,3, frame 3, Judgment vignette",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-005",
+    "canonical_name": "Isis",
+    "aliases": [
+      "Aset"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus Chester Beatty I, Contendings of Horus and Seth",
+    "work_or_witness": "Gardiner 1931, Chester Beatty I",
+    "character_kind": "individual",
+    "description": "Mother and advocate of Horus who actively intervenes in the Contendings.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-006",
+    "canonical_name": "Osiris",
+    "aliases": [
+      "Wsir"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus of Ani, Book of the Dead judgment witness",
+    "work_or_witness": "British Museum EA10470,3",
+    "character_kind": "individual",
+    "description": "The deceased ruler whose office is disputed in the Contendings; he appears as lord of the dead in the judgment witness.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "Papyrus of Ani EA10470,3, frame 3, Hall of Judgment",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-007",
+    "canonical_name": "Neith",
+    "aliases": [
+      "Net"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus Chester Beatty I, Contendings of Horus and Seth",
+    "work_or_witness": "Gardiner 1931, Chester Beatty I",
+    "character_kind": "individual",
+    "description": "Goddess consulted in the Contendings; her letter advises a settlement favoring Horus.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-008",
+    "canonical_name": "Atum",
+    "aliases": [
+      "Atum-Re"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus Chester Beatty I, Contendings of Horus and Seth",
+    "work_or_witness": "Gardiner 1931, Chester Beatty I",
+    "character_kind": "individual",
+    "description": "Named divine authority in the Contendings’ council exchanges.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-009",
+    "canonical_name": "Banebdjedet",
+    "aliases": [
+      "Banebdjed"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus Chester Beatty I, Contendings of Horus and Seth",
+    "work_or_witness": "Gardiner 1931, Chester Beatty I",
+    "character_kind": "individual",
+    "description": "The ram god consulted as an authority during the Contendings’ dispute.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-010",
+    "canonical_name": "Ani",
+    "aliases": [],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus of Ani, Book of the Dead judgment witness",
+    "work_or_witness": "British Museum EA10470,3",
+    "character_kind": "individual",
+    "description": "The deceased owner represented in the Papyrus of Ani judgment scene, addressing his heart before the balance.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "deceased human owner of a funerary papyrus",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Ani’s ritual status is source-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "Papyrus of Ani EA10470,3, frame 3; Spell 30B",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-011",
+    "canonical_name": "Anubis",
+    "aliases": [
+      "Inpw"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus of Ani, Book of the Dead judgment witness",
+    "work_or_witness": "British Museum EA10470,3",
+    "character_kind": "individual",
+    "description": "Jackal-headed embalming god who operates and steadies the balance in Ani’s judgment frame.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "Papyrus of Ani EA10470,3, frame 3, Judgment vignette",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-012",
+    "canonical_name": "Ma'at",
+    "aliases": [
+      "Maat",
+      "Mꜣꜥt"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus of Ani, Book of the Dead judgment witness",
+    "work_or_witness": "British Museum EA10470,3",
+    "character_kind": "individual",
+    "description": "Divine personification of truth and order, represented by the feather against which Ani’s heart is weighed.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nṯr, named Egyptian deity",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical category only; divine forms and local theologies remain distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "Papyrus of Ani EA10470,3, frame 3, Judgment vignette",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC013-013",
+    "canonical_name": "Ammit",
+    "aliases": [
+      "Ammut"
+    ],
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity": "Papyrus of Ani, Book of the Dead judgment witness",
+    "work_or_witness": "British Museum EA10470,3",
+    "character_kind": "individual",
+    "description": "Composite devouring being present beside the balance in the judgment scene.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Ammit, judgment devourer",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Not equated to a generic demon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named acting figure in declared witness scope.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "Papyrus of Ani EA10470,3, frame 3, Judgment vignette",
+        "supports": [
+          "Name, role, or represented action in the stated witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not universalize this New Kingdom witness across Egyptian periods, local theologies, or later adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  }
+]

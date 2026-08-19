@@ -1,0 +1,63 @@
+[
+  {
+    "source_id": "SRC-101",
+    "source_title": "Warhammer: The Old World",
+    "continuity_scope": "Games Workshop's current Warhammer: The Old World core-rules witness: the Rulebook 1.5 iteration identified in Warhammer Community's 7 July 2026 FAQ Designer's Notes, together with its current Rulebook FAQ and errata. This is a date-bounded rules-product pass only. It does not merge Warhammer Fantasy Battles (including its legacy timeline or editions), Warhammer Fantasy Roleplay, Age of Sigmar, Black Library fiction, videogames, fan material, miniature marketing, or player campaigns.",
+    "work_or_witnesses": [
+      {
+        "work": "Warhammer: The Old World Rulebook",
+        "edition": "1.5 iteration, announced 7 July 2026 by Games Workshop.",
+        "url": "https://www.warhammer-community.com/en-gb/articles/wtwhpcco/warhammer-the-old-world-faq-designers-notes/"
+      },
+      {
+        "work": "Warhammer: The Old World FAQ and Errata: Rulebook",
+        "edition": "Current official Rulebook FAQ and errata PDF, copyright 2026.",
+        "url": "https://assets.warhammer-community.com/eng_28-01_warhammer_the_old_world_faq_and_errata_rulebook-cypy1xqrht-t4jzdire13.pdf"
+      },
+      {
+        "work": "Old World Almanack: Your First Look at the Rules",
+        "edition": "Official introductory rules article, 30 October 2023; used only to identify the game's stated battle/turn structure, not as a character witness.",
+        "url": "https://www.warhammer-community.com/en-gb/articles/eiRAQ9Pa/old-world-almanack-your-first-look-at-the-rules/"
+      }
+    ],
+    "coverage_rule": "Terms-only audit. The selected current core-rules/errata witness provides game concepts and product-version evidence but no bounded, claim-level set of directly profiled named characters. No character or relationship records are made. Factions, armies, unit types, peoples, magic, gods, items, regions, and game rules remain dimensions/terms; a named character may be added only in a separate pass whose selected official witness directly profiles that individual.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named Warhammer figures, including characters represented by miniatures or army books, because this exact core-rule/FAQ witness is not a claim-level character-profile corpus.",
+      "All factions, army lists, unit types, peoples, magic traditions, gods, artifacts, regions, and rules as character nodes.",
+      "Warhammer Fantasy Battles, Warhammer Fantasy Roleplay, Age of Sigmar, Black Library fiction, videogames, miniatures catalogue copy, fan sources, and campaign outcomes."
+    ],
+    "uncertainties": [
+      "The official 2026 Designer's Notes describe a 1.5 rulebook iteration and ongoing FAQ updates; future errata can change mechanics without establishing a narrative retcon in this audit.",
+      "The 2023 Almanack explains the original game's rules structure. It is retained only as lineage/background for mechanics and is not treated as evidence that every later 1.5 rule is unchanged.",
+      "Miniature-product presentation can identify a commercial product but is not, by itself, narrative or relationship evidence for a named individual."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Games Workshop and Warhammer Community official product/rules material only. The 2026 Designer's Notes identify the current 1.5 iteration and the role of FAQ/errata; the Rulebook FAQ/errata supplies current rules-language context; the official 2023 Almanack describes regiment-scale battle and turn/phase structure. The pass records setting and rules separately and makes no cross-continuity character inference.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/wtwhpcco/warhammer-the-old-world-faq-designers-notes/",
+        "locator": "Warhammer: The Old World FAQ & Designer's Notes, 7 July 2026",
+        "supports": [
+          "Games Workshop describes the changes as producing the 1.5 edition/rulebook iteration and directs readers to current updates."
+        ]
+      },
+      {
+        "url": "https://assets.warhammer-community.com/eng_28-01_warhammer_the_old_world_faq_and_errata_rulebook-cypy1xqrht-t4jzdire13.pdf",
+        "locator": "Warhammer: The Old World FAQ and Errata: Rulebook, copyright 2026",
+        "supports": [
+          "Current Rulebook FAQ/errata witness and version-sensitive mechanical boundary."
+        ]
+      },
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/eiRAQ9Pa/old-world-almanack-your-first-look-at-the-rules/",
+        "locator": "Old World Almanack: Your First Look at the Rules, 30 October 2023",
+        "supports": [
+          "Official explanation of a regiment-scale game and its rounds, turns, and phases."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

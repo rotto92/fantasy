@@ -1,0 +1,69 @@
+[
+  {
+    "source_id": "SRC-004",
+    "reviewer_lane": "aom_warning_wave",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_002/mabinogion/sources.json",
+      "research/batch_002/mabinogion/characters.json",
+      "research/batch_002/mabinogion/relationships.json",
+      "research/batch_002/mabinogion/source_terms.json"
+    ],
+    "outcome": "narrowed; character and relationship sample claims remain grounded in the declared Lady Charlotte Guest translation, while unsupported source-native term claims were removed.",
+    "changes": [
+      "Sampled Pwyll/Arawn exchange, Branwen/Matholwch marriage, Gilfaethwy/Goewin assault, Gronw/Llew conflict, Gwydion/Blodeuwedd transformation, and Arthur/Culhwch assistance against the declared Guest witness.",
+      "Removed teyrn, tynged, cyfarwydd, geis, hud, gwledd, and newid ffurf because the declared English translation or its cited manuscript-context page did not directly attest those claimed source-native forms; retained only Annwvyn and mabinogi with narrowed locators/cautions.",
+      "No adaptation, later Welsh material, or non-declared tale witness was added."
+    ],
+    "unresolved_limits": [
+      "SRC-004's 41 character records still legitimately concentrate on its one declared translation witness, Project Gutenberg's Guest text. The National Library of Wales material establishes manuscript scope but does not independently verify granular translation-specific character claims.",
+      "A critical Middle Welsh edition or manuscript-level claim audit is still needed before reintroducing additional Welsh-language terminology."
+    ],
+    "validator_result": "valid; 0 errors; SRC-004 concentration warning legitimately retained"
+  },
+  {
+    "source_id": "SRC-021",
+    "reviewer_lane": "aom_warning_wave",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_003/popol_vuh/sources.json",
+      "research/batch_003/popol_vuh/characters.json",
+      "research/batch_003/popol_vuh/relationships.json",
+      "research/batch_003/popol_vuh/source_terms.json"
+    ],
+    "outcome": "partially strengthened; sampled creation and Hero-Twins/Xibalba claims remain translation-specific, with direct original-text transcription added only for Tepeu/Gucumatz naming.",
+    "changes": [
+      "Sampled Tepeu, Gucumatz, Heart of Sky, Seven Hunahpu, One Monkey, selected Xibalba lords, Balam Acab, and sampled creation, kinship, transformation, and Xibalba relationships against Christenson's declared translation.",
+      "Added Christenson's original-text transcription (Folio 1 recto, lines 150–180) to the declared witnesses and directly to Tepeu and Gucumatz, where it confirms their K’iche’ forms in the creation deliberation.",
+      "Retained K’iche’/translation-plurality and living-community cautions; no external Maya tradition, adaptation, or alternative translation was merged."
+    ],
+    "unresolved_limits": [
+      "Most granular narrative claims necessarily remain concentrated in Christenson's selected translation/commentary; the added transcription confirms names/forms, not an independent English interpretation of every event.",
+      "The review does not establish a single precontact original or broaden the pass to other Maya peoples, K’iche’ variants, or living K’iche’ authority."
+    ],
+    "validator_result": "valid; 0 errors; SRC-021 concentration warning resolved by a direct second primary-text transcription URL for sampled character claims"
+  },
+  {
+    "source_id": "SRC-277",
+    "reviewer_lane": "aom_warning_wave",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_004/mahabharata_bori/sources.json",
+      "research/batch_004/mahabharata_bori/characters.json",
+      "research/batch_004/mahabharata_bori/relationships.json",
+      "research/batch_004/mahabharata_bori/source_terms.json"
+    ],
+    "outcome": "narrowed; the BORI-versus-Ganguli evidence boundary remains explicit and prevents falsely upgrading the accessible translation into a BORI Critical Edition witness.",
+    "changes": [
+      "Sampled Vyāsa/Dhṛtarāṣṭra/Kuntī/Śikhaṇḍin/Indra, selected kinship, assembly-violence, death, and divine-parentage relationships, and dharma/varṇa/deva/avatāra terms against the cited Ganguli locators and BORI scope statement.",
+      "Narrowed Vyāsa's character summary to its cited composition claim; kinship remains independently represented only in the relationship records with their own locator.",
+      "Narrowed Aśvatthāman's character summary and removed an uncited curse dimension that drew on material beyond its cited Droṇa Parva locator.",
+      "Removed avatāra because the record itself identified it as later/interpretive rather than a directly attested term in the declared BORI-reference/Ganguli-locator evidence model."
+    ],
+    "unresolved_limits": [
+      "BORI's official page establishes critical-edition metadata but does not provide a granular online Sanskrit CE witness for the 49 character claims. Ganguli is explicitly not equivalent to the BORI CE, so no independent URL was added merely to suppress the warning.",
+      "The source remains a reference-structure companion pending a future CE-Sanskrit or critical-translation, claim-by-claim review; sacred, ritual, varṇa, and textual-plurality cautions remain binding."
+    ],
+    "validator_result": "valid; 0 errors; SRC-277 concentration warning legitimately retained"
+  }
+]

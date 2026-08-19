@@ -1,0 +1,28 @@
+[
+  {
+    "term_id": "STM-SRC071-001",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-071",
+    "work_or_witness": "눈물을 마시는 새 · Naver Series publisher metadata, product 8670449",
+    "canonical_term": "눈물을 마시는 새 bibliographic witness",
+    "original_language": "Korean",
+    "original_script": "눈물을 마시는 새",
+    "transliteration": "Nunmureul masineun sae",
+    "literal_gloss": "The Bird That Drinks Tears",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Korean title and publisher-listed work identity used as the sole bibliographic witness for this evidence-insufficient pass.",
+    "cultural_caution": "This is an edition/title boundary only, not a claim about the novel's internal terminology, characters, Korean tradition, or any translation equivalence beyond the cited bibliographic record.",
+    "citations": [
+      {
+        "url": "https://series.naver.com/novel/moreDetail.series?OSType=pc&productNo=8670449",
+        "locator": "Naver Series publisher metadata, product 8670449",
+        "supports": [
+          "Korean title 눈물을 마시는 새, author 이영도, and 황금가지 publisher listing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

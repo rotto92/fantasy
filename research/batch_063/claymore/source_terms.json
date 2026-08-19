@@ -1,0 +1,172 @@
+[
+  {
+    "term_id": "STM-SRC199-001",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-199",
+    "work_or_witness": "Claymore, Vol. 1 · Product metadata",
+    "canonical_term": "Claymore, Vol. 1 English VIZ witness",
+    "original_language": "English publication metadata",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected VIZ English Claymore, Vol. 1 paperback/digital edition: story and art by Norihiro Yagi, released 4 April 2006, ISBN 978-1-4215-0618-0, 192 pages, Teen Plus.",
+    "cultural_caution": "An exact English product witness, not a claim that Japanese editions, later printings, digital rendering, other translations, or the anime/game use identical text, pagination, labels, or content framing.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/manga-books/manga/claymore-volume-1-0/product/757",
+        "locator": "Product metadata",
+        "supports": [
+          "Edition, credit, date, ISBN, length, and age rating."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC199-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Series description; Claymore, Vol. 1 · Vol. 1 description",
+    "canonical_term": "Yoma",
+    "original_language": "English fictional term in the selected VIZ localization",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "VIZ names the monsters that prey on humans and live among them in disguise as Yoma; the Vol. 1 description says one Yoma has claimed six lives in a village.",
+    "cultural_caution": "A source-native fictional monster category, not a character node, a real-world people, or a general translation rule. This English-only pass does not supply unverified Japanese terminology or broader folklore claims.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/claymore",
+        "locator": "Series description",
+        "supports": [
+          "VIZ calls the predatory disguised monsters Yoma."
+        ]
+      },
+      {
+        "url": "https://www.viz.com/manga-books/manga/claymore-volume-1-0/product/757",
+        "locator": "Vol. 1 description",
+        "supports": [
+          "VIZ says a Yoma claims six lives in the selected volume's village premise."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC199-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Series description",
+    "canonical_term": "Claymores",
+    "original_language": "English fictional organization/warrior term",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "VIZ describes Claymores as a new breed of warrior and humanity's defense against Yoma: half-human, half-monster, silver-eyed slayers with supernatural strength who struggle against savage impulses and losing their humanity.",
+    "cultural_caution": "Claymore is a fictional group/role and hybrid condition, not an individual endpoint. Its fictional hybridization and transformation language must not be applied to real people or read as a statement about any gender, ancestry, disability, or humanity.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/claymore",
+        "locator": "Series description",
+        "supports": [
+          "VIZ's description of Claymores as half-human/half-monster defenders with supernatural strength and a loss-of-humanity risk."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC199-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Series heading and description",
+    "canonical_term": "sword-wielding women-warrior presentation",
+    "original_language": "English publisher-description lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "VIZ's series description presents the Claymores as sword-wielding women warriors and humanity's defense against supernatural destructive beings.",
+    "cultural_caution": "This is a publisher's source-specific presentation of a fictional warrior organization. It does not establish an essentialist conclusion about women, every character's identity, real gender roles, or all conditions of membership in the organization.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/claymore",
+        "locator": "Series heading and description",
+        "supports": [
+          "VIZ's sword-wielding women-warrior framing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC199-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Series description",
+    "canonical_term": "humanity-loss transformation risk",
+    "original_language": "English fictional transformation lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "VIZ says Claymores are condemned to fight their savage impulses or lose their humanity completely.",
+    "cultural_caution": "A fictional bodily/ethical transformation premise, not a medical, psychiatric, moral, or biological model. No specific transformation event, individual fate, or later-series taxonomy is asserted from this summary.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/claymore",
+        "locator": "Series description",
+        "supports": [
+          "The stated savage-impulse and loss-of-humanity risk."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC199-006",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-199",
+    "work_or_witness": "Claymore series page · Creator biography; Claymore Manga product list",
+    "canonical_term": "anime, video-game, and later-volume boundary",
+    "original_language": "English publication-continuity lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "VIZ states that Claymore ran from 2001 to 2014 and was adapted into a television anime series and a video game; its catalogue separately lists Vol. 1 and later volumes through final Vol. 27.",
+    "cultural_caution": "The anime, game, later chapters/volumes, and complete box set are separate continuity/product witnesses. Their plots, endings, character detail, content depiction, and terminology are not backfilled into this Vol. 1 pass.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/claymore",
+        "locator": "Creator biography",
+        "supports": [
+          "The 2001–2014 manga run and separate anime/video-game adaptations."
+        ]
+      },
+      {
+        "url": "https://www.viz.com/manga-books/manga/claymore/all",
+        "locator": "Claymore Manga product list",
+        "supports": [
+          "VIZ lists Vol. 1 separately from later volumes through final Vol. 27."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

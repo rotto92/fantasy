@@ -1,0 +1,31 @@
+[
+  {
+    "source_id": "SRC-208",
+    "source_title": "YuYu Hakusho, Vol. 1",
+    "continuity_scope": "VIZ Media's English YuYu Hakusho, Vol. 1 paperback/digital edition, ISBN 9781569319048, released 18 August 2003, 208 pages, story and art by Yoshihiro Togashi. The selected witness includes VIZ's exact-volume product page and its separate official YuYu Hakusho Chapter 1 reader (46 pages). Claims are restricted to the product synopsis' named figures and opening premise; the chapter locator identifies the primary text boundary but is not used for untranscribed panel-level claims. The Japanese Shueisha serialization/volumes, later English volumes, anime, films, games, guidebooks, sequel/spinoff works, and every other adaptation are separate witnesses or continuities.",
+    "work_or_witnesses": [
+      "Yoshihiro Togashi, YuYu Hakusho, Vol. 1, VIZ Media English edition; official VIZ Chapter 1 reader (46 pages)",
+      "VIZ Media, YuYu Hakusho, Vol. 1 official product metadata and synopsis"
+    ],
+    "coverage_rule": "All named individual dramatic figures named in the selected VIZ Volume 1 synopsis: Yusuke Urameshi, Botan, and Koenma. This narrow official-metadata pass is not a complete cast extraction from Chapter 1 or all of Volume 1. The child saved by Yusuke is unnamed and therefore excluded. Ghosts, spirits, yōkai-like categories, guides, offices, spiritual powers, items, places, afterlife concepts, and themes are dimensions or terms rather than character nodes.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "Every named or unnamed person, child, spirit, ghost, yōkai-like being, group, official, item, and later-introduced figure not named in the selected VIZ Volume 1 synopsis, including all characters that may occur in Chapter 1 but fall outside this declared named-synopsis rule.",
+      "Detailed Chapter 1 or later Volume 1 events, abilities, identities, powers, objects, world structure, fights, deaths, outcomes, later arcs, and later volumes; the Japanese text except as a separate bibliographic witness; and anime, films, games, guidebooks, sequel/spinoff works, and all other adaptations.",
+      "Fan wikis, Wikipedia, databases, reviews, social summaries, and long quotation or panel-by-panel reproduction."
+    ],
+    "uncertainties": [
+      "The consulted VIZ Volume 1 page credits story and art but does not identify a translator. The public Chapter 1 reader establishes a 46-page primary locator but not a complete Volume 1 cast list, so this three-record pass is complete only under the named-synopsis coverage rule.",
+      "Afterlife, ghost, spirit guide, 'other side,' and life/death-boundary language are source-specific manga fiction here. They are not accounts of real death, afterlife belief, Japanese religion, yōkai traditions, or living spiritual practice; no reverse-mapping from VIZ English terminology to Japanese folklore terms is made.",
+      "The opening premise contains a child's peril from a speeding car, death, post-death liminality, and possible paranormal/violent content. These are fictional-content cautions, not safety, medical, legal, or spiritual guidance."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official VIZ Volume 1 product metadata/synopsis and the official VIZ Chapter 1 reader location only. Chapter 1 is the primary manga locator; character and relationship statements remain at the exact publisher-synopsis granularity. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {"url":"https://www.viz.com/manga-books/manga/yuyu-hakusho-volume-1-0/product/159","locator":"Official product metadata and synopsis for YuYu Hakusho, Vol. 1","supports":["Selected English edition, Yoshihiro Togashi credit, release/ISBN/page metadata, Yusuke, Botan, Koenma, death/second-chance premise, ghost mission, good deeds, and life/death boundary"]},
+      {"url":"https://www.viz.com/shonenjump/yuyu-hakusho-chapter-1/chapter/5940","locator":"Official VIZ reader, YuYu Hakusho, Chapter 1; 46 pages","supports":["Primary Chapter 1 locator and reader boundary"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

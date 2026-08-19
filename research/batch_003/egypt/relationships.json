@@ -1,0 +1,233 @@
+[
+  {
+    "relationship_id": "REL-SRC013-001",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-001",
+    "target_character_id": "CHR-SRC013-002",
+    "relationship_type": "opponent",
+    "label": "Horus and Seth contend for succession.",
+    "direction": "undirected",
+    "continuity": "Papyrus Chester Beatty I, Contendings",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Horus and Seth contend for succession."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-002",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-005",
+    "target_character_id": "CHR-SRC013-001",
+    "relationship_type": "kin",
+    "label": "Isis is Horus’s mother and advocate.",
+    "direction": "directed",
+    "continuity": "Papyrus Chester Beatty I, Contendings",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Isis is Horus’s mother and advocate."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-003",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-006",
+    "target_character_id": "CHR-SRC013-001",
+    "relationship_type": "kin",
+    "label": "Osiris’s office is the succession at issue for Horus.",
+    "direction": "directed",
+    "continuity": "Papyrus Chester Beatty I, Contendings",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Osiris’s office is the succession at issue for Horus."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-004",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-004",
+    "target_character_id": "CHR-SRC013-003",
+    "relationship_type": "other",
+    "label": "Thoth carries communications for Ra-Horakhty’s deliberation.",
+    "direction": "directed",
+    "continuity": "Papyrus Chester Beatty I, Contendings",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Thoth carries communications for Ra-Horakhty’s deliberation."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-005",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-007",
+    "target_character_id": "CHR-SRC013-001",
+    "relationship_type": "patron",
+    "label": "Neith’s counsel supports awarding the office to Horus.",
+    "direction": "directed",
+    "continuity": "Papyrus Chester Beatty I, Contendings",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Neith’s counsel supports awarding the office to Horus."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-006",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-009",
+    "target_character_id": "CHR-SRC013-003",
+    "relationship_type": "other",
+    "label": "Banebdjedet is consulted in the divine deliberation headed by Ra-Horakhty.",
+    "direction": "directed",
+    "continuity": "Papyrus Chester Beatty I, Contendings",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Contendings, recto pp. 1–16",
+        "supports": [
+          "Banebdjedet is consulted in the divine deliberation headed by Ra-Horakhty."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-007",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-011",
+    "target_character_id": "CHR-SRC013-010",
+    "relationship_type": "other",
+    "label": "Anubis administers the weighing in Ani’s judgment scene.",
+    "direction": "directed",
+    "continuity": "Papyrus of Ani, judgment frame",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "EA10470,3 frame 3",
+        "supports": [
+          "Anubis administers the weighing in Ani’s judgment scene."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-008",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-004",
+    "target_character_id": "CHR-SRC013-010",
+    "relationship_type": "other",
+    "label": "Thoth records the result of Ani’s judgment.",
+    "direction": "directed",
+    "continuity": "Papyrus of Ani, judgment frame",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "EA10470,3 frame 3",
+        "supports": [
+          "Thoth records the result of Ani’s judgment."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-009",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-012",
+    "target_character_id": "CHR-SRC013-010",
+    "relationship_type": "other",
+    "label": "Ma’at’s feather is the balance’s standard against Ani’s heart.",
+    "direction": "directed",
+    "continuity": "Papyrus of Ani, judgment frame",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "EA10470,3 frame 3",
+        "supports": [
+          "Ma’at’s feather is the balance’s standard against Ani’s heart."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-010",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-013",
+    "target_character_id": "CHR-SRC013-010",
+    "relationship_type": "opponent",
+    "label": "Ammit waits beside the balance in Ani’s judgment scene.",
+    "direction": "directed",
+    "continuity": "Papyrus of Ani, judgment frame",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "EA10470,3 frame 3",
+        "supports": [
+          "Ammit waits beside the balance in Ani’s judgment scene."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  },
+  {
+    "relationship_id": "REL-SRC013-011",
+    "source_id": "SRC-013",
+    "source_character_id": "CHR-SRC013-006",
+    "target_character_id": "CHR-SRC013-010",
+    "relationship_type": "ruler",
+    "label": "Osiris is the lord of the dead in the judgment setting.",
+    "direction": "directed",
+    "continuity": "Papyrus of Ani, judgment frame",
+    "citations": [
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "EA10470,3 frame 3",
+        "supports": [
+          "Osiris is the lord of the dead in the judgment setting."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Witness-specific relationship."
+  }
+]

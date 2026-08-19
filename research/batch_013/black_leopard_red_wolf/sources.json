@@ -1,0 +1,34 @@
+[
+  {
+    "source_id": "SRC-067",
+    "source_title": "Black Leopard, Red Wolf",
+    "continuity_scope": "Marlon James's 2019 Black Leopard, Red Wolf only, treated as Tracker's framed testimony within the first published volume of the Dark Star Trilogy. This pass does not merge that testimony with the later, differently focalized Moon Witch, Spider King, any future trilogy volume, translations, adaptations, author interviews as plot canon, or with historical African peoples, religions, languages, or mythic traditions.",
+    "work_or_witnesses": [
+      {"work":"Black Leopard, Red Wolf","edition":"Riverhead Books, first US edition, 5 February 2019; ISBN 9780735220171 (hardcover). Claim locators use the novel's numbered chapters rather than mutable e-book locations.","url":"https://www.penguinrandomhouse.com/books/561305/black-leopard-red-wolf-by-marlon-james/"},
+      {"work":"Black Leopard, Red Wolf","edition":"Penguin e-book edition, 5 February 2019; ISBN 9780735220195. Used as the stable licensed digital bibliographic witness for the numbered chapter locators.","url":"https://books.google.com/books?id=WtJfDwAAQBAJ"}
+    ],
+    "coverage_rule": "Include exactly ten named agents who materially shape Tracker's Boy-search testimony: Tracker, Leopard, Sogolon, Sadogo, Fumeli, Bunshi, Mossi, Nyka, Nsaka Ne Vampi, and the Aesi. These are the repeatedly named party members, intimate counterparts, or political/magical adversarial agent documented in the chapter-8 formation, subsequent journey, Kongor/Dolingo conflict, and closing testimony. The unnamed Boy is expressly excluded: an epithet is not a personal canonical name for this graph. The pass is complete only for this stated, contested-testimony cohort.",
+    "in_scope_character_count": 10,
+    "completed_character_count": 10,
+    "omissions": [
+      "The unnamed Boy, who is central to the plot but is not promoted to a named-character node under this pass's graph rule",
+      "Named agents outside the declared cohort, including Amadu Kasuwara, Basu Fumanguru, Lissisolo, Kwash Dara, Venin, Sangoma, and all background or episode-specific persons",
+      "Collective beings, unnamed monsters, peoples, kingdoms, institutions, magical practices, doors, and objects, which are dimensions or source terms rather than nodes",
+      "Moon Witch, Spider King and any other Dark Star Trilogy witness, plus translation, audio, screen, game, and speculative adaptation continuities"
+    ],
+    "uncertainties": [
+      "The entire plot record is Tracker's prison testimony to an unnamed jailer/inquisitorial audience. It is neither a neutral chronicle nor automatically disproved; character motives, causal accounts, and accusations are marked as Tracker's account or disputed where appropriate.",
+      "The publisher's reader guide explicitly asks readers whether Tracker can be trusted, and the later novel offers a different focal account. Neither is used here to overwrite this witness.",
+      "The novel draws on African histories and mythologies alongside the author's imagination, but this source-specific fantasy vocabulary is not evidence for any historical or living African tradition; no equivalence claims are made.",
+      "Aesi and Ogo are retained in the novel's English-language terminology. Their precise ontological status is not normalized where Tracker's testimony or the text's usage does not warrant it."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary claims use the Riverhead/Penguin 2019 novel's numbered chapters, linked to licensed publisher and book records. The official publisher reader guide corroborates the prisoner-to-jailer frame, the central Tracker–Leopard relationship, and the question of Tracker's reliability. An author interview is used only to contextualize the trilogy's deliberate competing testimonies, never to establish an in-novel event.",
+    "citations": [
+      {"url":"https://www.penguinrandomhouse.com/books/561305/black-leopard-red-wolf-by-marlon-james/","locator":"Product details; description, lines 213–217 and 255–263","supports":["Riverhead publication, 2019 book witness, Tracker's search for a missing child, and Leopard's shape-shifting description."]},
+      {"url":"https://www.penguinrandomhouse.com/books/561305/black-leopard-red-wolf-by-marlon-james/9780735220171/readers-guide/","locator":"Reader's Guide questions 1, 3–5, 7","supports":["The prisoner/jailer frame, central Tracker–Leopard relationship, unreliability question, party structure, and Sogolon's major quest role."]},
+      {"url":"https://time.com/6148335/moon-witch-spider-king-marlon-james-interview/","locator":"lines 107–120","supports":["James describes the sequel as retelling central events from Sogolon's perspective and discusses intentionally non-identical accounts."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

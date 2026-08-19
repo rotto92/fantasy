@@ -1,0 +1,54 @@
+[
+  {
+    "term_id": "STM-SRC076-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-076",
+    "work_or_witness": "スレイヤーズ １ · Official synopsis, lines 790–792",
+    "canonical_term": "魔道士",
+    "original_language": "Japanese fictional lexicon",
+    "original_script": "魔道士",
+    "transliteration": "madōshi",
+    "literal_gloss": "magic-user; mage",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The role label used in the official synopsis for Lina Inverse.",
+    "cultural_caution": "This synopsis-level label does not establish a generic class, spell list, or magic-system equivalence.",
+    "citations": [
+      {
+        "url": "https://www.kadokawa.co.jp/product/301809000029/",
+        "locator": "Official synopsis, lines 790–792",
+        "supports": [
+          "Lina's mage role label."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC076-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-076",
+    "work_or_witness": "スレイヤーズ １ · Official synopsis, lines 790–792",
+    "canonical_term": "剣士",
+    "original_language": "Japanese fictional lexicon",
+    "original_script": "剣士",
+    "transliteration": "kenshi",
+    "literal_gloss": "swordsman",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The role label used in the official synopsis for Gourry.",
+    "cultural_caution": "This synopsis-level label does not establish a generic class, combat system, or adaptation-specific portrayal.",
+    "citations": [
+      {
+        "url": "https://www.kadokawa.co.jp/product/301809000029/",
+        "locator": "Official synopsis, lines 790–792",
+        "supports": [
+          "Gourry's skilled-swordsman role label."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

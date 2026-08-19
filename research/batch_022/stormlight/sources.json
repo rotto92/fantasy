@@ -1,0 +1,38 @@
+[
+  {
+    "source_id":"SRC-053",
+    "source_title":"The Stormlight Archive",
+    "continuity_scope":"Brandon Sanderson, The Way of Kings, Tor Books, New York, first US hardcover, 31 August 2010, ISBN 9780765326355. This pass is further limited to the Prelude, Prologue, and Chapters 1–13 of that published English novel. It is not a full-series, full-novel, Cosmere, novella, draft, RPG, or adaptation account. Exact section/chapter locators are used because formats and printings repaginate the book.",
+    "work_or_witnesses":[
+      {"work":"The Way of Kings","edition":"Tor Books first US hardcover, 2010, ISBN 9780765326355; 1,007 pages. The publisher identifies it as Book One of The Stormlight Archive.","url":"https://us.macmillan.com/books/9780765326355/thewayofkings/"},
+      {"work":"The Way of Kings official sample chapters","edition":"Author-linked, publisher/Reactormag primary-text excerpts: Prelude through Chapter 3; Chapters 9 and 11; Chapters 12 and 13.","url":"https://reactormag.com/prelude-to-the-stormlight-archive/"},
+      {"work":"The Way of Kings official later early-chapter excerpt","edition":"Author-linked Reactormag primary-text excerpts for Chapters 12 and 13.","url":"https://reactormag.com/the-way-of-kings-chapters-12-and-13/"},
+      {"work":"The Stormlight Archive series page","edition":"Brandon Sanderson official series page, used only to establish Book One context and separate later books.","url":"https://www.brandonsanderson.com/pages/the-stormlight-archive-series"}
+    ],
+    "coverage_rule":"Include the early named viewpoint anchors and their direct named counterparties established in the selected sections: Kaladin, his individually named spren Sylphrena, his brother Tien; prologue assassin Szeth and King Gavilar; Shallan and scholar Jasnah; and the early Alethi political cohort Dalinar, Adolin, and Torol Sadeas. This ten-person rule deliberately covers the distinct early timeline strands, named spren exception, bridge/slavery, scholarship, and highprince conflict. All other named people, unnamed bridge crew, unnamed soldiers, spren kinds, peoples, orders, artifacts, places, metaphysics, and narrative institutions remain dimensions/terms rather than nodes.",
+    "in_scope_character_count":10,
+    "completed_character_count":10,
+    "omissions":[
+      "Chapters after 13, Interludes, Parts Two–Five, epilogue, and all in-novel late revelations, outcomes, identities, bonds, and relationship changes",
+      "Words of Radiance, Edgedancer, Oathbringer, Dawnshard, Rhythm of War, Wind and Truth, all other Stormlight work, all other Cosmere works, and every later continuity explanation",
+      "The 2002 Way of Kings Prime draft, deleted scenes, annotations, translations, audiobooks, leatherbound/reformatted editions, adaptations, miniatures, and role-playing game material",
+      "Generic spren, Radiant orders, Alethi/Parshendi/Shin peoples, parshmen, bridge crews, lighteyes/darkeyes, highprinces as a class, Shardblades, Shardplate, spheres, Stormlight, Lashings, the Shattered Plains, and all shards/cosmological concepts as graph nodes"
+    ],
+    "uncertainties":[
+      "The selected sections deliberately jump among a Prelude, a Prologue marked 4,500 years later, an eight-month-earlier Kaladin chapter, and present-tense early strands. Claims retain their individual section locators and do not impose a single linear timeline.",
+      "Aliases/titles are recorded only where used in the selected text: Szeth-son-son-Vallano/Truthless, Sylphrena/Syl, and Torol Sadeas/Sadeas. Later explanations of these names, affiliations, abilities, or hidden identities are excluded.",
+      "The work is copyright-controlled. Official excerpts make part of the selection directly accessible; first-edition claims use stable section locators rather than copied text or later-edition page numbers.",
+      "Alethi terms for Parshendi, parshmen, Shin, eye-color rank, gendered literacy/customs, and ‘savage’ language are fictional in-world language and viewpoint framing. They are not real ethnic, racial, caste, gender, or religious mappings and are retained with caution rather than normalized.",
+      "The source introduces its metaphysics gradually. No early terminology is used to claim later series mechanics, Radiant-order status, shard identity, or cross-Cosmere equivalence. All normalized-archetype mappings are intentionally partial/none."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Character and relationship claims use author-linked official primary excerpts by exact Prelude/Prologue/chapter locator; cited sections cover all ten selected individuals. Tor/Macmillan verifies the 2010 first US hardcover and Book One status; Brandon Sanderson's official series page distinguishes later books. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://us.macmillan.com/books/9780765326355/thewayofkings/","locator":"Macmillan/Tor book page, 2010 ISBN 9780765326355; Book One metadata and official excerpt","supports":["First-US-hardcover bibliographic identification, publisher/author, and Book One status."]},
+      {"url":"https://reactormag.com/prelude-to-the-stormlight-archive/","locator":"Official excerpt: Prelude, Prologue, Chapters 1–3","supports":["Primary evidence for Kalak context exclusion, Szeth, Gavilar, Kaladin, Sylphrena, Tien, Shallan, and Jasnah."]},
+      {"url":"https://reactormag.com/the-way-of-kings-chapters-12-and-13/","locator":"Official excerpt: Chapters 12–13","supports":["Primary evidence for Dalinar, Adolin, Sadeas, and early highprince conflict."]},
+      {"url":"https://www.brandonsanderson.com/pages/the-stormlight-archive-series","locator":"Official series page, Book 1 section and later-book headings","supports":["Series context and deliberate later-book exclusions."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

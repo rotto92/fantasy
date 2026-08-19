@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-153",
+    "source_title":"Ultima",
+    "continuity_scope":"Ultima IV: Quest of the Avatar, original 1985 Commodore 64 release/manual witness in English. The primary-text witness is a publicly archived scan identifying ©1985 Origin Systems, Inc.; EA's current product page is used only as an official title/platform/language/product corroboration. All other numbered games, platforms, revisions, later reissues, translations, expansions, and retrospective continuity/retcon material are excluded.",
+    "work_or_witnesses":[
+      "Origin Systems, Ultima IV: Quest of the Avatar—The History of Britannia (1985 manual), archived scan",
+      "Origin Systems, Ultima IV: Quest of the Avatar—Player Quick Reference (1985 Commodore 64 manual), archived scan",
+      "Electronic Arts: Ultima IV: Quest of the Avatar product page"
+    ],
+    "coverage_rule":"All stable named individual dramatic agents with a claim-level description in the selected original Ultima IV manual witness: Lord British only. The manual provides a direct historical/political/quest account and first-person afterword by Lord British. The player-seeker/Avatar is an excluded role, not a stable named character. Other named manual figures are prior-game history references, illustrative sample-party labels, author/credit mentions, or unprofiled place/office terms and are not elevated into an Ultima IV character roster.",
+    "in_scope_character_count":1,
+    "completed_character_count":1,
+    "omissions":[
+      "The player-created seeker/Avatar, including player virtue choices, profession, gender, party choices, actions, enlightenment, companions, and endings.",
+      "All named NPCs, companions, antagonists, historical figures, monsters, authors, and credits outside Lord British because the selected manual does not give them an equivalent Ultima IV claim-level profile in the stated scope.",
+      "Virtues, professions, races, factions, items, places, moongates, virtues/paths, shrines, mantras, magic, ships, and systems as character nodes.",
+      "Ultima I–III and V onward, ports/revisions/reissues, EA app implementation behavior, non-English manuals/localizations, expansions/add-ons, Ultima Online, adaptations, fan/community/wiki sources, walkthroughs, dialogue transcriptions, chronology/retcon summaries, and secondary databases."
+    ],
+    "uncertainties":[
+      "The 1985 Origin manual is primary material but is accessed through a third-party archival host, not a live Origin server. Copyright/publisher marks, page rendering, and page-level content are explicit; archive availability/scan quality remains an evidence limitation.",
+      "The History of Britannia recounts older eras and earlier games. Such references are used only where the manual explicitly frames Lord British's present Britannia/Quest, not to merge prior-game characters, events, or continuity into this one-game pass.",
+      "The manual's historical, political, and aspirational language is in-world framing. No unlisted motive, absolute factual verification, later retcon, or series-wide timeline reconciliation is asserted.",
+      "Avatarhood, virtues, party loyalty, professions, and enlightenment depend on player choices/actions. No player identity, companion relationship, success, or ending is universalized.",
+      "English is the reviewed original-manual language. The EA listing is a later PC storefront reference whose system requirements and service terms are not evidence that the original C64 release behaves identically."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Original Origin Systems 1985 manual/quick-reference primary text accessed through a public archival scan, corroborated only by Electronic Arts' official current product page. No fan wiki, Wikipedia, community guide, walkthrough, retrospective lore summary, or secondary character database is used as canonical evidence.",
+    "citations":[
+      {"url":"https://c64sets.com/ultima4/Ultima%20IV%20Quest%20of%20the%20Avatar%20-%20The%20History%20of%20Britannia.pdf","locator":"The History of Britannia, pp. 3–6, 10, 15–16, 35–39; copyright p. 39","supports":["Origin 1985 manual identity, Lord British, Britannia, Quest of the Avatar, Eight Virtues, companions, professions, shrines, mantras, and Moon Gates"]},
+      {"url":"https://c64sets.com/ultima4/Ultima%20IV%20Quest%20of%20the%20Avatar%20-%20Player%20Quick%20Reference%20manual.pdf","locator":"Player Quick Reference, pp. 3–5; copyright p. 5","supports":["Commodore 64 program-disk instructions, party/profession mechanics, and Origin 1985 copyright"]},
+      {"url":"https://www.ea.com/games/ultima/ultima-4-quest-of-the-avatar","locator":"About the game and product metadata, lines 40–80","supports":["Official EA title, Quest premise, Britannia, Lord British, PC/English store context, publisher, and displayed release date"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

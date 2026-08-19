@@ -1,0 +1,128 @@
+[
+  {
+    "relationship_id": "REL-SRC069-001",
+    "source_id": "SRC-069",
+    "source_character_id": "CHR-SRC069-002",
+    "target_character_id": "CHR-SRC069-001",
+    "relationship_type": "companion",
+    "label": "Orlu helps Sunny enter the hidden magical community and becomes her peer ally.",
+    "direction": "undirected",
+    "continuity": "Akata Witch — Speak witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/305219/akata-witch-by-nnedi-okorafor/9780142420911/",
+        "locator": "Akata Witch, Chapters 1–25 printed witness",
+        "supports": [
+          "Friendship and magical introduction."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Book One only."
+  },
+  {
+    "relationship_id": "REL-SRC069-002",
+    "source_id": "SRC-069",
+    "source_character_id": "CHR-SRC069-003",
+    "target_character_id": "CHR-SRC069-001",
+    "relationship_type": "companion",
+    "label": "Chichi is Sunny's bold magical peer and friend.",
+    "direction": "undirected",
+    "continuity": "Akata Witch — Speak witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/305219/akata-witch-by-nnedi-okorafor/9780142420911/",
+        "locator": "Akata Witch, Chapters 1–25 printed witness",
+        "supports": [
+          "Friendship and shared training."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "No later-series claims."
+  },
+  {
+    "relationship_id": "REL-SRC069-003",
+    "source_id": "SRC-069",
+    "source_character_id": "CHR-SRC069-004",
+    "target_character_id": "CHR-SRC069-001",
+    "relationship_type": "companion",
+    "label": "Sasha trains and faces danger with Sunny in the Oha group.",
+    "direction": "undirected",
+    "continuity": "Akata Witch — Speak witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/305219/akata-witch-by-nnedi-okorafor/9780142420911/",
+        "locator": "Akata Witch, Chapters 1–25 printed witness",
+        "supports": [
+          "Direct group companionship."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Oha remains context, not endpoint."
+  },
+  {
+    "relationship_id": "REL-SRC069-004",
+    "source_id": "SRC-069",
+    "source_character_id": "CHR-SRC069-005",
+    "target_character_id": "CHR-SRC069-001",
+    "relationship_type": "mentor",
+    "label": "Anatov teaches and warns Sunny about Leopard People magic.",
+    "direction": "directed",
+    "continuity": "Akata Witch — Speak witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/305219/akata-witch-by-nnedi-okorafor/9780142420911/",
+        "locator": "Akata Witch, Chapters 1–25 printed witness",
+        "supports": [
+          "Training relation."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Source-specific teaching context."
+  },
+  {
+    "relationship_id": "REL-SRC069-005",
+    "source_id": "SRC-069",
+    "source_character_id": "CHR-SRC069-006",
+    "target_character_id": "CHR-SRC069-001",
+    "relationship_type": "opponent",
+    "label": "Black Hat Otokoto threatens Sunny and her peers.",
+    "direction": "directed",
+    "continuity": "Akata Witch — Speak witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/305219/akata-witch-by-nnedi-okorafor/9780142420911/",
+        "locator": "Akata Witch, Chapters 1–25 printed witness",
+        "supports": [
+          "Central magical antagonism."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "No adaptation or sequel material."
+  },
+  {
+    "relationship_id": "REL-SRC069-006",
+    "source_id": "SRC-069",
+    "source_character_id": "CHR-SRC069-007",
+    "target_character_id": "CHR-SRC069-001",
+    "relationship_type": "opponent",
+    "label": "Jibaku bullies Sunny at school.",
+    "direction": "directed",
+    "continuity": "Akata Witch — Speak witness",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/305219/akata-witch-by-nnedi-okorafor/9780142420911/",
+        "locator": "Akata Witch, Chapters 1–25 printed witness",
+        "supports": [
+          "School bullying and discrimination context."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Do not turn discrimination into a character flaw of a real culture."
+  }
+]

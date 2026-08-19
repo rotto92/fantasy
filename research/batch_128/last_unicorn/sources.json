@@ -1,0 +1,60 @@
+[
+  {
+    "source_id": "SRC-037",
+    "source_title": "The Last Unicorn",
+    "continuity_scope": "Peter S. Beagle's novel only, restricted to the opening movement of Chapter 1, PDF pages 10–18 of the 2007 Deluxe Edition primary-text witness (the witness's copyright page identifies the text as revised and corrected in 2007). This pass is not a catalogue of the whole novel. It excludes the 1982 animated film, the 2011 graphic novel, the unpublished first-draft Lost Journey, the 2004 companion story “Two Hearts,” later related fiction, and all other adaptations or editions as distinct continuities.",
+    "work_or_witnesses": [
+      {
+        "work": "The Last Unicorn",
+        "edition": "2007 Deluxe Edition, primary-text witness; copyright page says the definitive texts were revised and corrected in 2007 by Peter S. Beagle and Connor Cochran",
+        "url": "https://truthbrary.mpaq.org/BOOKS/Eve%E2%80%99s%20Wonderous%20Book%20Suggestions/English%20/The_Last_Unicorn_-_Peter_S_Beagle.pdf"
+      }
+    ],
+    "coverage_rule": "All named individual dramatic characters who directly appear and materially act within Chapter 1, PDF pages 10–18 of the specified witness would be recorded. The titular unicorn is referred to only by the common descriptor “the unicorn,” while the hunters and butterfly are likewise unnamed/common-noun figures; none is promoted to a character node. Creature categories, the horn, longevity, place, apparent recognition, and the reported Red Bull are retained only as terms. A name mentioned in hearsay without an individual dramatic character record in this bounded segment is not sufficient for a character node.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "The unnamed titular unicorn, unnamed hunters, unnamed townspeople, and the butterfly: none is supplied a stable proper name in the bounded witness.",
+      "The reported Red Bull: it is mentioned by the butterfly but does not directly appear or act in this bounded segment; no individual record is inferred from the later novel, film, graphic novel, or companion material.",
+      "All named characters and relationships from later portions of the novel, pending a separately bounded primary-text pass.",
+      "All character records and claims from the 1982 film, graphic novel, Lost Journey, “Two Hearts,” other related fiction, translations, audiobooks, and other adaptations or editions."
+    ],
+    "content_cautions": [
+      "The narration uses she/her language for the unnamed unicorn, but this narrow pass does not infer gender identity, sex, species taxonomy beyond the source term, age in a human sense, or social role.",
+      "The witness states that unicorns are immortal and describes the unnamed unicorn's horn; these are source-specific terms, not a license to map a generic fantasy species, body type, combat capability, healing system, or immortal-character archetype.",
+      "The opening includes attempted capture of a figure perceived as a mare and a reported pursuit by the Red Bull. No captivity/coercion outcome, violence/death conclusion, body transformation, or adaptation-derived plot claim is made from this bounded material.",
+      "The text's contrast between what people see and what is present is retained as a narrative/epistemic term only; it does not establish a clinical, disability, gender, or metaphysical transformation claim."
+    ],
+    "uncertainties": [
+      "The bounded witness uses descriptive labels rather than stable proper names for every individual present, so an honest character pass is zero rather than an invented-name roster.",
+      "Page citations refer to the specified 2007 Deluxe Edition primary-text witness; pagination and wording may differ in other editions, which must be reviewed separately.",
+      "The estate bibliography distinguishes the novel, film, companion story, and Lost Journey, but it does not itself establish granular novel-character claims."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "The primary-text witness supplies the exact edition statement and Chapter 1 pages 10–18. Official/author-estate bibliography is used only to preserve the boundary between the 1968 novel, the 1982 film, and later related works. Because the selected opening names no individual dramatic character, this is a deliberately zero-character, zero-relationship pass with source-native terms only.",
+    "citations": [
+      {
+        "url": "https://truthbrary.mpaq.org/BOOKS/Eve%E2%80%99s%20Wonderous%20Book%20Suggestions/English%20/The_Last_Unicorn_-_Peter_S_Beagle.pdf",
+        "locator": "2007 Deluxe Edition copyright page (PDF page 2); Chapter 1, PDF pages 10–18",
+        "supports": [
+          "Edition/witness statement, bounded Chapter 1 text, unnamed-character constraint, and source-native terms."
+        ]
+      },
+      {
+        "url": "https://beagleverse.com/the-universe/",
+        "locator": "Timeline entries for 1968 The Last Unicorn, 1982 The Last Unicorn (Film), and 2004 Two Hearts",
+        "supports": [
+          "Novel/film/companion-work continuity separation."
+        ]
+      },
+      {
+        "url": "https://beagleverse.com/books/",
+        "locator": "The Last Unicorn Universe entries for The Last Unicorn and The Last Unicorn: The Lost Journey",
+        "supports": [
+          "Separation of the published novel from the original unpublished first draft."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

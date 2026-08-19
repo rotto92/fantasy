@@ -1,0 +1,49 @@
+[
+  {
+    "source_id": "SRC-050",
+    "source_title": "Bas-Lag",
+    "continuity_scope": "This character pass is limited to China Miéville's Perdido Street Station, not Bas-Lag as a trilogy-wide continuity. The textual witness is the English-language Del Rey paperback, 27 February 2001, ISBN 9780345443021, 752 pages. Chapter locators are used for narrative claims because they remain stable across printings; the published pagination is recorded only for this edition and is not silently transferred to the UK original, later paperback, ebook, audio, illustrated, or translated editions.",
+    "work_or_witnesses": [
+      {
+        "work": "Perdido Street Station",
+        "edition": "Del Rey paperback, 27 February 2001, ISBN 9780345443021, 752 pages",
+        "url": "https://www.penguinrandomhouse.com/books/114262/perdido-street-station-by-china-mieville/9780345443021/"
+      },
+      {
+        "work": "Perdido Street Station",
+        "edition": "Publisher-author interview and authorized Chapter One excerpt attached to the Del Rey product record; contextual and opening-chapter corroboration only",
+        "url": "https://www.penguinrandomhouse.com/books/114262/perdido-street-station-by-china-mieville/9780345443021/#excerpt"
+      }
+    ],
+    "coverage_rule": "Include the three principal protagonists (Isaac, Lin, and Yagharek); the three named individual members of their immediate research, reporting, or survival cohort who materially act in the novel (Derkhan, Lemuel, and David); and the three named individual opposing, governing, or otherworldly agents whose decisions materially redirect the central crisis (Mr. Motley, Mayor Bentham Rudgutter, and the Weaver). This is a coherent nine-character Perdido Street Station cohort, not an attempt to list every named New Crobuzon resident, creature, institution, collective, or Bas-Lag character.",
+    "in_scope_character_count": 9,
+    "completed_character_count": 9,
+    "omissions": [
+      "The Scar, Iron Council, short fiction, adaptations, role-playing material, translations, audiobook performances, and the 2026 Folio edition.",
+      "Named but non-cohort figures, including Vermishank, Lublamai Dadscatt, Montjohn Rescue, Eliza Stem-Fulcher, Jack Half-a-Prayer, Kar'uchai, Andrej, Shadrach, Pengefinchess, and minor militia, criminal, academic, and artistic figures.",
+      "Unnamed slake-moths, generic constructs, species, professions, political bodies, technologies, places, and cosmological principles; these remain dimensions or source terms rather than graph nodes.",
+      "Claims about real-world political allegory, authorial intent beyond the cited publisher interview, or universal meanings of New Weird fiction."
+    ],
+    "uncertainties": [
+      "The publisher's authorized web excerpt is Chapter One only. Later chapter claims are citations to the identified copyrighted printed witness; they are concise paraphrases and require a page-level check against a held copy before any edition-specific quotation or scholarship.",
+      "Some descriptions of Bas-Lag's peoples, thaumaturgy, remaking, and the Weaver are deliberately incomplete because the novel withholds or revises explanatory certainty. No taxonomy label is treated as an exact equivalent.",
+      "The Construct Council is deliberately excluded as a collective/institutional agent. Individual constructs and technology are likewise not promoted to character nodes; their context is retained only in source terms and character attributes.",
+      "Spoiler-heavy late-novel events are minimized in descriptions; the source boundary and chapter citations nonetheless identify where a verifier can inspect them."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary narrative claims cite the declared Del Rey printed novel by chapter, with a stable publisher record for edition metadata and an authorized Chapter One excerpt for Isaac/Lin corroboration. The publisher's description and Miéville interview establish the novel's New Crobuzon/Bas-Lag placement but do not establish detailed character claims. No fan wiki, Wikipedia, plot-summary site, or unsourced listicle is used as canonical evidence.",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/114262/perdido-street-station-by-china-mieville/9780345443021/",
+        "locator": "Product details: Del Rey paperback, ISBN 9780345443021, publication date 27 February 2001, 752 pages; book description",
+        "supports": ["Declared edition, author, publication metadata, and New Crobuzon setting scope."]
+      },
+      {
+        "url": "https://www.penguinrandomhouse.com/books/114262/perdido-street-station-by-china-mieville/9780345443021/#excerpt",
+        "locator": "Authorized excerpt, Chapter One",
+        "supports": ["Authorized primary-text access for the opening Isaac/Lin scene and source terminology in that chapter."]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

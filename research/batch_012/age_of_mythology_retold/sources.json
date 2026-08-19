@@ -1,0 +1,54 @@
+[
+  {
+    "source_id": "SRC-281",
+    "source_title": "Age of Mythology: Retold",
+    "continuity_scope": "Commercial real-time-strategy adaptation, bounded to World's Edge's official launch-era campaign description (4 September 2024) and the officially published Update 19.14612 build (8 June 2026). This pass records only what those first-party witnesses establish about the named Fall of the Trident campaign agents and the game's adaptation mechanics. It is not evidence for Greek, Egyptian, Norse, Atlantean, Chinese, Japanese, Mexica/Aztec, or any other traditional mythic or religious source material.",
+    "work_or_witnesses": [
+      {
+        "work": "Age of Mythology: Retold Available Now!",
+        "edition": "World's Edge official launch announcement, 4 September 2024; campaign and base-game feature description.",
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/"
+      },
+      {
+        "work": "Age of Mythology: Retold – Update 19.14612",
+        "edition": "World's Edge official release notes, 8 June 2026; title-screen build 19.14612.",
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-update-19-14612/"
+      }
+    ],
+    "coverage_rule": "Include every individually named, non-deity campaign agent expressly identified in the selected official launch campaign description: Arkantos and Gargarensis. Include their directly stated campaign opposition. Gods, pantheons, generic myth and human units, civilizations, resources, technologies, powers, relics, ages, and game modes are retained solely as source terms or character attributes; none becomes a character node. This is deliberately not a roster of all named campaign, skirmish, Arena of the Gods, expansion, or historical/mythic figures in the game.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "All official-game named campaign agents not expressly identified in the selected launch campaign description, including characters introduced or specified only in other campaigns, DLC, Arena of the Gods, Gauntlet, scenario scripting, or later first-party materials",
+      "All deities, including named major and minor gods; they are source terms and selection/mechanical attributes under the character-only visualization contract",
+      "All generic or collectively named units, civilizations, resources, technologies, powers, relics, buildings, maps, ages, and modes",
+      "Traditional mythic witnesses and claims about the cultures represented by the game"
+    ],
+    "uncertainties": [
+      "The launch article identifies Arkantos, Gargarensis, and their central campaign conflict but does not provide a comprehensive named cast, biography, or full quest-by-quest transcript; the narrow inclusion rule prevents inference beyond that evidence.",
+      "Update 19.14612 is a dated mechanical snapshot. Balances, costs, rosters, campaigns, and terminology can change in later builds or expansions.",
+      "The official game uses mythic names and categories for fictional gameplay. It does not establish traditional genealogy, cult practice, textual canon, or cross-cultural equivalence."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party World's Edge/Age of Empires launch and versioned release-note pages. The launch post directly names the two selected campaign agents and says Arkantos and allies seek to thwart Gargarensis; it also describes the reusable God Power/Favor, unit, technology, and Wonder Age mechanics. Update 19.14612 fixes the version boundary and independently demonstrates that named deities, myth units, heroes, technologies, God Powers, favor costs, and ages function as game categories rather than a traditional-myth authority.",
+    "citations": [
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-available-now/",
+        "locator": "Jump Into a Campaign; Which Pantheon Should You Choose?; What's New for Retold?",
+        "supports": [
+          "The Fall of the Trident campaign follows Arkantos and allies against the plans of the cyclops Gargarensis.",
+          "The launch witness describes pantheons, repeat-cast God Powers paid with Favor, Hirdman and Godi units, unit/technology changes, and Wonder Age as game features."
+        ]
+      },
+      {
+        "url": "https://www.ageofempires.com/news/age-of-mythology-retold-update-19-14612/",
+        "locator": "Release Notes, 8 June 2026; Microsoft Store and Steam update instructions, build 19.14612; Major/Minor Gods and unit sections",
+        "supports": [
+          "The selected later mechanics witness is dated 8 June 2026 and identifies title-screen build 19.14612.",
+          "The game organizes named deities, powers, technologies, heroes, myth units, costs, and ages as versioned gameplay material."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

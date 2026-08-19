@@ -1,0 +1,2883 @@
+[
+  {
+    "character_id": "CHR-SRC001-001",
+    "canonical_name": "Chaos",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Hesiod, Theogony",
+    "work_or_witness": "Hesiod, Theogony",
+    "character_kind": "individual",
+    "description": "First attested primordial opening in this Theogony sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Chaos",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Do not equate automatically with later fantasy chaos beings."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "primordial cosmogony",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "lines 116–125",
+        "supports": [
+          "First attested primordial opening in this Theogony sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-002",
+    "canonical_name": "Gaia",
+    "aliases": [
+      "Earth"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Hesiod, Theogony",
+    "work_or_witness": "Hesiod, Theogony",
+    "character_kind": "individual",
+    "description": "Earth, a primordial divine agent and progenitor in the Theogony.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        },
+        {
+          "term": "Titan",
+          "archetype_ids": [
+            "PPL-408"
+          ],
+          "confidence": "high",
+          "note": "Comparative cosmic-titan mapping only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "primordial generative agency",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Earth",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "lines 116–132",
+        "supports": [
+          "Earth, a primordial divine agent and progenitor in the Theogony."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-003",
+    "canonical_name": "Uranus",
+    "aliases": [
+      "Ouranos",
+      "Sky"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Hesiod, Theogony",
+    "work_or_witness": "Hesiod, Theogony",
+    "character_kind": "individual",
+    "description": "Sky, born from Gaia and later overthrown by Cronus in this witness.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        },
+        {
+          "term": "Titan",
+          "archetype_ids": [
+            "PPL-408"
+          ],
+          "confidence": "high",
+          "note": "Comparative cosmic-titan mapping only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "overthrown ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "lines 126–138, 154–182",
+        "supports": [
+          "Sky, born from Gaia and later overthrown by Cronus in this witness."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-004",
+    "canonical_name": "Cronus",
+    "aliases": [
+      "Kronos"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Hesiod, Theogony",
+    "work_or_witness": "Hesiod, Theogony",
+    "character_kind": "individual",
+    "description": "Titan who overthrows Uranus and is in turn displaced by Zeus.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Titan",
+          "archetype_ids": [
+            "PPL-408"
+          ],
+          "confidence": "high",
+          "note": "Comparative cosmic-titan mapping only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "overthrown ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "succession conflict",
+          "archetype_ids": [
+            "LAW-501"
+          ],
+          "confidence": "moderate",
+          "note": "A narrative use of generational succession, not a universal Greek fate doctrine."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "lines 453–506",
+        "supports": [
+          "Titan who overthrows Uranus and is in turn displaced by Zeus."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-005",
+    "canonical_name": "Rhea",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Hesiod, Theogony",
+    "work_or_witness": "Hesiod, Theogony",
+    "character_kind": "individual",
+    "description": "Titan and mother of Zeus who preserves him from Cronus in the Theogony narrative.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Titan",
+          "archetype_ids": [
+            "PPL-408"
+          ],
+          "confidence": "high",
+          "note": "Comparative cosmic-titan mapping only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "lines 453–506",
+        "supports": [
+          "Titan and mother of Zeus who preserves him from Cronus in the Theogony narrative."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-006",
+    "canonical_name": "Zeus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Hesiod, Theogony",
+    "work_or_witness": "Hesiod, Theogony",
+    "character_kind": "individual",
+    "description": "Divine king whose supremacy follows the Titan conflict in the Theogony.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "divine ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "thunder and sovereignty",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Olympus",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "divine order",
+          "archetype_ids": [
+            "LAW-505"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "lines 881–900",
+        "supports": [
+          "Divine king whose supremacy follows the Titan conflict in the Theogony."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-007",
+    "canonical_name": "Hera",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Zeus's wife and a major divine participant in the Iliad's conflict.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "divine queen",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Olympian gods",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 1, lines 31–56",
+        "supports": [
+          "Zeus's wife and a major divine participant in the Iliad's conflict."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-008",
+    "canonical_name": "Poseidon",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Odyssey",
+    "work_or_witness": "Homer, Odyssey",
+    "character_kind": "individual",
+    "description": "God whose anger materially obstructs Odysseus's homecoming in the Odyssey.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "sea dominion",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Olympian gods",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "Book 1, lines 68–79",
+        "supports": [
+          "God whose anger materially obstructs Odysseus's homecoming in the Odyssey."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-009",
+    "canonical_name": "Hades",
+    "aliases": [
+      "Aidoneus"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Hesiod, Theogony",
+    "work_or_witness": "Hesiod, Theogony",
+    "character_kind": "individual",
+    "description": "God associated with the house of the dead, named alongside Persephone in this Theogony passage.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "realm of the dead",
+          "archetype_ids": [
+            "COS-301"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "lines 767–806",
+        "supports": [
+          "God associated with the house of the dead, named alongside Persephone in this Theogony passage."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-010",
+    "canonical_name": "Demeter",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homeric Hymns",
+    "work_or_witness": "Homeric Hymns",
+    "character_kind": "individual",
+    "description": "Goddess whose daughter's seizure initiates the Homeric Hymn to Demeter.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "grain and fertility",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Olympian gods",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 2 to Demeter, lines 1–32",
+        "supports": [
+          "Goddess whose daughter's seizure initiates the Homeric Hymn to Demeter."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-011",
+    "canonical_name": "Persephone",
+    "aliases": [
+      "Kore"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homeric Hymns",
+    "work_or_witness": "Homeric Hymns",
+    "character_kind": "individual",
+    "description": "Daughter of Demeter, seized by Hades and assigned a divided seasonal presence in this hymn.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "periodic return",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "This is specific to the hymn's account."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "realm of the dead",
+          "archetype_ids": [
+            "COS-301"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 2 to Demeter, lines 1–39 and 371–386",
+        "supports": [
+          "Daughter of Demeter, seized by Hades and assigned a divided seasonal presence in this hymn."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-012",
+    "canonical_name": "Athena",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Goddess who restrains Achilles from killing Agamemnon in Iliad 1.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "battlefield counselor",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "divine intervention",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Olympian gods",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 1, lines 188–222",
+        "supports": [
+          "Goddess who restrains Achilles from killing Agamemnon in Iliad 1."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-013",
+    "canonical_name": "Apollo",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "God who sends a plague on the Achaean army after Chryses' appeal in Iliad 1.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "archery and plague",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Olympian gods",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 1, lines 43–53",
+        "supports": [
+          "God who sends a plague on the Achaean army after Chryses' appeal in Iliad 1."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-014",
+    "canonical_name": "Artemis",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homeric Hymns",
+    "work_or_witness": "Homeric Hymns",
+    "character_kind": "individual",
+    "description": "Archer goddess identified with hunting in the Homeric Hymn to Artemis.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "hunter",
+          "archetype_ids": [
+            "ROL-126"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "archer",
+          "archetype_ids": [
+            "ROL-127"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Olympian gods",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 27 to Artemis, lines 1–20",
+        "supports": [
+          "Archer goddess identified with hunting in the Homeric Hymn to Artemis."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-015",
+    "canonical_name": "Aphrodite",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homeric Hymns",
+    "work_or_witness": "Homeric Hymns",
+    "character_kind": "individual",
+    "description": "Goddess whose desire is turned toward Anchises in the Homeric Hymn to Aphrodite.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "desire and persuasion",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Olympian gods",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 5 to Aphrodite, lines 45–90",
+        "supports": [
+          "Goddess whose desire is turned toward Anchises in the Homeric Hymn to Aphrodite."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-016",
+    "canonical_name": "Ares",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "God wounded by Diomedes with Athena's aid in Iliad 5.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Olympian gods",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 5, lines 830–909",
+        "supports": [
+          "God wounded by Diomedes with Athena's aid in Iliad 5."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-017",
+    "canonical_name": "Hephaestus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Divine smith who makes Achilles' shield in Iliad 18.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "blacksmith",
+          "archetype_ids": [
+            "ROL-610"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "shield of Achilles",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 18, lines 468–617",
+        "supports": [
+          "Divine smith who makes Achilles' shield in Iliad 18."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-018",
+    "canonical_name": "Hermes",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homeric Hymns",
+    "work_or_witness": "Homeric Hymns",
+    "character_kind": "individual",
+    "description": "Newborn god who steals Apollo's cattle in the Hymn to Hermes.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "trickster",
+          "archetype_ids": [
+            "ROL-217"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "divine messenger",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 4 to Hermes, lines 13–64",
+        "supports": [
+          "Newborn god who steals Apollo's cattle in the Hymn to Hermes."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-019",
+    "canonical_name": "Dionysus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homeric Hymns",
+    "work_or_witness": "Homeric Hymns",
+    "character_kind": "individual",
+    "description": "God who transforms a pirate encounter in the Homeric Hymn to Dionysus.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "epiphany and transformation",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "transformative manifestation",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 7 to Dionysus, lines 1–59",
+        "supports": [
+          "God who transforms a pirate encounter in the Homeric Hymn to Dionysus."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-020",
+    "canonical_name": "Prometheus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Hesiod, Theogony",
+    "work_or_witness": "Hesiod, Theogony",
+    "character_kind": "individual",
+    "description": "Titan who deceives Zeus over sacrifice and steals fire for mortals in the Theogony.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Titan",
+          "archetype_ids": [
+            "PPL-408"
+          ],
+          "confidence": "high",
+          "note": "Comparative cosmic-titan mapping only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "trickster",
+          "archetype_ids": [
+            "ROL-217"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "sacrifice",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "lines 507–616",
+        "supports": [
+          "Titan who deceives Zeus over sacrifice and steals fire for mortals in the Theogony."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The fire episode and Pandora sequence are presented here as Hesiodic witness material; later Prometheus traditions are not merged into this record."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-021",
+    "canonical_name": "Achilles",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Achaean champion whose wrath and choice of fame or long life frame the Iliad.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        },
+        {
+          "term": "hero of divine descent",
+          "archetype_ids": [
+            "PPL-402"
+          ],
+          "confidence": "moderate",
+          "note": "The term 'demigod' is a comparison label, not the source's universal technical category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "fated death",
+          "archetype_ids": [
+            "LAW-501"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "tragic hero",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 1, lines 1–7; Book 18, lines 90–126",
+        "supports": [
+          "Achaean champion whose wrath and choice of fame or long life frame the Iliad."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-022",
+    "canonical_name": "Agamemnon",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Commander whose quarrel with Achilles shapes the Iliad's opening action.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king and commander",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Achaean coalition",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 1, lines 7–32",
+        "supports": [
+          "Commander whose quarrel with Achilles shapes the Iliad's opening action."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-023",
+    "canonical_name": "Hector",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Trojan champion, husband of Andromache and opponent of Achilles in the Iliad.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Trojans",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic hero",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 6, lines 390–502; Book 22, lines 330–404",
+        "supports": [
+          "Trojan champion, husband of Andromache and opponent of Achilles in the Iliad."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-024",
+    "canonical_name": "Priam",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "King of Troy who begs Achilles for Hector's body in Iliad 24.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Trojans",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 24, lines 468–676",
+        "supports": [
+          "King of Troy who begs Achilles for Hector's body in Iliad 24."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-025",
+    "canonical_name": "Helen",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Spartan woman in Troy who identifies Achaean leaders in Iliad 3.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Trojans",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 3, lines 121–180",
+        "supports": [
+          "Spartan woman in Troy who identifies Achaean leaders in Iliad 3."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The account is an Iliadic depiction; responsibility, agency, and divine causation vary across Greek witnesses."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC001-026",
+    "canonical_name": "Paris",
+    "aliases": [
+      "Alexandros"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Trojan prince who fights Menelaus in the Iliad's duel sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "archer",
+          "archetype_ids": [
+            "ROL-127"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Trojans",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 3, lines 15–75",
+        "supports": [
+          "Trojan prince who fights Menelaus in the Iliad's duel sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-027",
+    "canonical_name": "Menelaus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Iliad",
+    "work_or_witness": "Homer, Iliad",
+    "character_kind": "individual",
+    "description": "Spartan king who duels Paris in Iliad 3.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Achaean coalition",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "Book 3, lines 15–120",
+        "supports": [
+          "Spartan king who duels Paris in Iliad 3."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-028",
+    "canonical_name": "Odysseus",
+    "aliases": [
+      "Ulysses"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Odyssey",
+    "work_or_witness": "Homer, Odyssey",
+    "character_kind": "individual",
+    "description": "Ithacan king whose return journey and encounter with Polyphemus structure the Odyssey.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "trickster",
+          "archetype_ids": [
+            "ROL-217"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "hospitality",
+          "archetype_ids": [
+            "LAW-801",
+            "LAW-802"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "homecoming hero",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "Book 1, lines 1–21; Book 9, lines 105–566",
+        "supports": [
+          "Ithacan king whose return journey and encounter with Polyphemus structure the Odyssey."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-029",
+    "canonical_name": "Penelope",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Odyssey",
+    "work_or_witness": "Homer, Odyssey",
+    "character_kind": "individual",
+    "description": "Odysseus's wife, who tests his identity through the bed-sign in Odyssey 23.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "marriage and household",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "recognition and homecoming",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "Book 19, lines 137–202; Book 23, lines 163–240",
+        "supports": [
+          "Odysseus's wife, who tests his identity through the bed-sign in Odyssey 23."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-030",
+    "canonical_name": "Telemachus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Odyssey",
+    "work_or_witness": "Homer, Odyssey",
+    "character_kind": "individual",
+    "description": "Odysseus's son, urged by Athena to seek news of his father.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "heir",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "household of Odysseus",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "Book 1, lines 213–305",
+        "supports": [
+          "Odysseus's son, urged by Athena to seek news of his father."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-031",
+    "canonical_name": "Circe",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Odyssey",
+    "work_or_witness": "Homer, Odyssey",
+    "character_kind": "individual",
+    "description": "Enchantress who transforms Odysseus's companions into pigs and later assists him.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "theos (god)",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "high",
+          "note": "A source-native divine category; not a game species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "transformation",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "transformative magic",
+          "archetype_ids": [
+            "LAW-206"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "Book 10, lines 210–347",
+        "supports": [
+          "Enchantress who transforms Odysseus's companions into pigs and later assists him."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The text calls Circe a goddess; mapping her to a modern 'witch' class is intentionally avoided."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-032",
+    "canonical_name": "Calypso",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Odyssey",
+    "work_or_witness": "Homer, Odyssey",
+    "character_kind": "individual",
+    "description": "Nymph who detains Odysseus on Ogygia until Zeus orders his release.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "nymphe",
+          "archetype_ids": [
+            "PPL-204"
+          ],
+          "confidence": "moderate",
+          "note": "Place-bound nymph mapping is partial; sources vary by nymph type."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "immortal nymph",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Ogygia",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "Book 5, lines 1–227",
+        "supports": [
+          "Nymph who detains Odysseus on Ogygia until Zeus orders his release."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-033",
+    "canonical_name": "Polyphemus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Homer, Odyssey",
+    "work_or_witness": "Homer, Odyssey",
+    "character_kind": "individual",
+    "description": "One-eyed Cyclops blinded by Odysseus after violating guest-host expectations in Odyssey 9.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Cyclops",
+          "archetype_ids": [
+            "PPL-111"
+          ],
+          "confidence": "high",
+          "note": "Maps the one-eyed Cyclops in this witness, not every Greek Cyclopes tradition."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "shepherd",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "hospitality violation",
+          "archetype_ids": [
+            "LAW-801",
+            "LAW-802"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "Book 9, lines 105–566",
+        "supports": [
+          "One-eyed Cyclops blinded by Odysseus after violating guest-host expectations in Odyssey 9."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-034",
+    "canonical_name": "Heracles",
+    "aliases": [
+      "Hercules"
+    ],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "Hero whose labors, including the Hydra, are narrated in Library book 2.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "hero of divine descent",
+          "archetype_ids": [
+            "PPL-402"
+          ],
+          "confidence": "moderate",
+          "note": "The term 'demigod' is a comparison label, not the source's universal technical category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "monster hunter",
+          "archetype_ids": [
+            "ROL-144"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Library 2.4.8–2.7.8",
+        "supports": [
+          "Hero whose labors, including the Hydra, are narrated in Library book 2."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record follows the Library's synthetic mythographic account, not every local cult or dramatic Heracles tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-035",
+    "canonical_name": "Theseus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "Athenian hero who enters the Labyrinth and kills the Minotaur in the Library epitome.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "hero of divine descent",
+          "archetype_ids": [
+            "PPL-402"
+          ],
+          "confidence": "moderate",
+          "note": "The term 'demigod' is a comparison label, not the source's universal technical category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "monster hunter",
+          "archetype_ids": [
+            "ROL-144"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Epitome 1.7–1.19",
+        "supports": [
+          "Athenian hero who enters the Labyrinth and kills the Minotaur in the Library epitome."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-036",
+    "canonical_name": "Ariadne",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "Minos's daughter who aids Theseus's escape from the Labyrinth in the Library epitome.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Cretan royal household",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Epitome 1.8–1.10",
+        "supports": [
+          "Minos's daughter who aids Theseus's escape from the Labyrinth in the Library epitome."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-037",
+    "canonical_name": "Minos",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "King of Crete and father of Ariadne in the Theseus account of the Library epitome.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Cretan royal household",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Epitome 1.7–1.9",
+        "supports": [
+          "King of Crete and father of Ariadne in the Theseus account of the Library epitome."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-038",
+    "canonical_name": "Jason",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "Leader of the Argonaut expedition in the Library's account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "quest leader",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Library 1.9.16–1.9.28",
+        "supports": [
+          "Leader of the Argonaut expedition in the Library's account."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-039",
+    "canonical_name": "Medea",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "Colchian woman who enables Jason's tasks and leaves with him in the Library.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "pharmaka and ritual expertise",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Library 1.9.23–1.9.28; 1.9.28",
+        "supports": [
+          "Colchian woman who enables Jason's tasks and leaves with him in the Library."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record does not collapse Apollodorus's Medea with the materially different tragic characterization in Euripides."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-040",
+    "canonical_name": "Oedipus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Sophocles, Oedipus Tyrannus",
+    "work_or_witness": "Sophocles, Oedipus Tyrannus",
+    "character_kind": "individual",
+    "description": "Theban king whose investigation discovers his own kinship and past actions in Oedipus Tyrannus.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "prophecy",
+          "archetype_ids": [
+            "LAW-502"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "fate",
+          "archetype_ids": [
+            "LAW-501"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "tragic hero",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0187",
+        "locator": "lines 1–150; 707–1310",
+        "supports": [
+          "Theban king whose investigation discovers his own kinship and past actions in Oedipus Tyrannus."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-041",
+    "canonical_name": "Jocasta",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Sophocles, Oedipus Tyrannus",
+    "work_or_witness": "Sophocles, Oedipus Tyrannus",
+    "character_kind": "individual",
+    "description": "Theban queen and Oedipus's wife/mother in Sophocles' tragedy.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "queen",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0187",
+        "locator": "lines 707–1072",
+        "supports": [
+          "Theban queen and Oedipus's wife/mother in Sophocles' tragedy."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Kinship formulation is specific to the Sophoclean dramatic witness."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-042",
+    "canonical_name": "Antigone",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Sophocles, Oedipus at Colonus",
+    "work_or_witness": "Sophocles, Oedipus at Colonus",
+    "character_kind": "individual",
+    "description": "Daughter of Oedipus who accompanies him in Sophocles' Oedipus at Colonus.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "kin-loyal daughter",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0188",
+        "locator": "lines 1–80",
+        "supports": [
+          "Daughter of Oedipus who accompanies him in Sophocles' Oedipus at Colonus."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This entry is limited to Sophocles' Oedipus at Colonus and excludes the separately treated Antigone tragedy."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC001-043",
+    "canonical_name": "Perseus",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "Hero who kills Medusa and rescues Andromeda in the Library.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "hero of divine descent",
+          "archetype_ids": [
+            "PPL-402"
+          ],
+          "confidence": "moderate",
+          "note": "The term 'demigod' is a comparison label, not the source's universal technical category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "monster hunter",
+          "archetype_ids": [
+            "ROL-144"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Gorgon's head",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Library 2.4.1–2.4.7",
+        "supports": [
+          "Hero who kills Medusa and rescues Andromeda in the Library."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-044",
+    "canonical_name": "Medusa",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "Mortal Gorgon killed by Perseus in the Library's account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Gorgon",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "No valid, non-flattening workbook archetype for Gorgons."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "mortal Gorgon",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Apollodorus explicitly distinguishes Medusa from the immortal Gorgons."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Library 2.4.2–2.4.3",
+        "supports": [
+          "Mortal Gorgon killed by Perseus in the Library's account."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not infer the later Ovidian beauty-to-monster transformation from this Apollodoran witness."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC001-045",
+    "canonical_name": "Andromeda",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Ancient Greek Mythology",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "work_or_witness": "Pseudo-Apollodorus, Library",
+    "character_kind": "individual",
+    "description": "Daughter of Cepheus rescued from a sea monster by Perseus in the Library.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "anthropos / mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Mortal status is textual, not an ethnic category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "sacrificial victim",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in named textual witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Library 2.4.3–2.4.5",
+        "supports": [
+          "Daughter of Cepheus rescued from a sea monster by Perseus in the Library."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The rescue narrative is witness-specific and should not be recast as an archetype without its coercive context."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "term_id": "STM-SRC137-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-137",
+    "work_or_witness": "Diablo · Lilith has returned section",
+    "canonical_term": "Sanctuary",
+    "original_language": "English (North American localization)",
+    "original_script": "Sanctuary",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The world that Blizzard's Diablo IV launch premise says Lilith and Inarius created together.",
+    "cultural_caution": "A setting realm, not a character node and not an assertion of equivalence with a real-world sanctuary concept.",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23880208/meet-your-maker-on-june-6pre-purchase-diablo-iv",
+        "locator": "Lilith has returned section",
+        "supports": [
+          "Sanctuary as the world created by Lilith and Inarius"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC137-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-137",
+    "work_or_witness": "Diablo · A New Saga overview",
+    "canonical_term": "Wanderer",
+    "original_language": "English (North American localization)",
+    "original_script": "wanderer",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The player-facing role used by Blizzard's Diablo IV story presentation.",
+    "cultural_caution": "A player-avatar role, not a fixed named individual or a relation endpoint.",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23952501/diablo-iv-inside-the-game-a-new-saga",
+        "locator": "A New Saga overview",
+        "supports": [
+          "The player's role as the wanderer"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC137-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-137",
+    "work_or_witness": "Diablo · June 6, 2023 paragraph",
+    "canonical_term": "Barbarian, Druid, Necromancer, Rogue, and Sorceress",
+    "original_language": "English (North American localization)",
+    "original_script": "Barbarian, Druid, Necromancer, Rogue, Sorceress",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The five selectable character classes stated for Diablo IV's June 2023 launch.",
+    "cultural_caution": "Player-selected gameplay classes, not five named characters or a real-world occupational taxonomy.",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23880208/meet-your-maker-on-june-6pre-purchase-diablo-iv",
+        "locator": "June 6, 2023 paragraph",
+        "supports": [
+          "The five selectable launch classes"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC137-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-137",
+    "work_or_witness": "Diablo · Lilith has returned section",
+    "canonical_term": "High Heavens",
+    "original_language": "English (North American localization)",
+    "original_script": "High Heavens",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The realm named in the launch premise as the source of Inarius's former archangel status.",
+    "cultural_caution": "A Diablo setting term; no real-world cosmological equivalence is claimed.",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23880208/meet-your-maker-on-june-6pre-purchase-diablo-iv",
+        "locator": "Lilith has returned section",
+        "supports": [
+          "Inarius as former archangel of the High Heavens"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC137-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-137",
+    "work_or_witness": "Diablo · Explore Your Way: Fields of Hatred paragraph",
+    "canonical_term": "Fields of Hatred",
+    "original_language": "English (North American localization)",
+    "original_script": "Fields of Hatred",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Specific areas of Sanctuary cursed by Mephisto that the official overview presents as designated player-versus-player zones.",
+    "cultural_caution": "A setting/game-system term, not a faction or character endpoint.",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23816540/all-hell-breaks-loose-in-2023diablo-iv-is-coming",
+        "locator": "Explore Your Way: Fields of Hatred paragraph",
+        "supports": [
+          "Fields of Hatred as Mephisto-cursed areas and designated PvP zones"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC137-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-137",
+    "work_or_witness": "Diablo · Story section",
+    "canonical_term": "dark ritual",
+    "original_language": "English (North American localization)",
+    "original_script": "dark ritual",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The ritual said in Blizzard's launch guide to have summoned Lilith after a lengthy exile.",
+    "cultural_caution": "Only the setting-specific summoning claim is recorded; no general ritual system or real-world equivalence is inferred.",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23954935/diablo-iv-launches-soonheres-what-you-need-to-know",
+        "locator": "Story section",
+        "supports": [
+          "Lilith's summoning by a dark ritual after exile"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

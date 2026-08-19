@@ -1,0 +1,21 @@
+[
+  {
+    "relationship_id": "REL-SRC178-001",
+    "source_id": "SRC-178",
+    "source_character_id": "CHR-SRC178-003",
+    "target_character_id": "CHR-SRC178-004",
+    "relationship_type": "companion",
+    "label": "fellow travelers determined to decipher a magical book",
+    "direction": "undirected",
+    "continuity": "Nintendo of America English Nintendo Switch release (2021)",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/bravely-default-ii-switch/",
+        "locator": "Story description: 'Elvis and Adelle, two travelers determined to decipher a mysterious and magical book'",
+        "supports": ["Their shared traveler description and shared stated aim"]
+      }
+    ],
+    "confidence": "high",
+    "note": "This records only the explicitly shared opening-premise aim, not a fixed player party configuration or later relationship outcome."
+  }
+]

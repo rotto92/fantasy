@@ -1,0 +1,38 @@
+[
+  {
+    "source_id":"SRC-055",
+    "source_title":"Gentleman Bastard Sequence",
+    "continuity_scope":"Scott Lynch, The Lies of Locke Lamora, Bantam Spectra first US hardcover, 27 June 2006, ISBN 9780553804676, 499 pages. This is a single-novel, original-English witness. Exact part/chapter/interlude locators are used rather than repaginated later-edition pages. No later Gentleman Bastard novel, short story, unpublished future volume, adaptation, game, or author interview is story canon for this pass.",
+    "work_or_witnesses":[
+      {"work":"The Lies of Locke Lamora","edition":"Bantam Spectra first US hardcover, 2006, ISBN 9780553804676, 499 pages. Internet Archive controlled digital-lending scan used as the primary reading witness; access may require a loan.","url":"https://archive.org/details/liesoflockelamor0000lync"},
+      {"work":"The Lies of Locke Lamora","edition":"Penguin Random House/Del Rey official book page, retaining the 27 June 2006 ebook publication record and authorized Chapter One excerpt; current retail formats are separately identified.","url":"https://www.penguinrandomhouse.com/books/104782/the-lies-of-locke-lamora-by-scott-lynch/"},
+      {"work":"The Lies of Locke Lamora excerpt","edition":"Scott Lynch official site, full Prologue excerpt from a UK edition; used for primary opening material with spelling-edition caution.","url":"https://www.scottlynch.us/excerpts.html"},
+      {"work":"The Lies of Locke Lamora","edition":"Scott Lynch official books page, used to establish Book I position and distinguish later sequence volumes.","url":"https://www.scottlynch.us/books.html"}
+    ],
+    "coverage_rule":"Include the five named active Gentlemen Bastards (Locke, Jean, Calo, Galdo, and Bug), their named formative mentor Father Chains, the named Camorri criminal ruler and his daughter (Capa Barsavi and Nazca), and the two named plot-driving coup antagonists (the Grey King and the Falconer). This ten-person cohort covers the gang, its mentor, the Secret Peace's incumbent leadership, and the opposing conspiracy. Minor named nobles, thieves, guards, priests, unnamed victims, collective gangs/orders, and all non-person entities are omitted.",
+    "in_scope_character_count":10,
+    "completed_character_count":10,
+    "omissions":[
+      "Red Seas Under Red Skies, The Republic of Thieves, later short fiction, any unpublished/future Gentleman Bastard work, and every continuation of the characters after this novel",
+      "All adaptations, games, comics, interviews, author annotations, maps/bonus material, translations, audio performances, and later/reformatted editions as independent continuity evidence",
+      "Minor named Camorri figures, nobility, city officials, priests, thieves, mercenaries, servants, guards, and victims outside the stated ten-person coverage rule",
+      "The Gentlemen Bastards, capae, the Secret Peace, the city of Camorr, confidence games, gods/religions, Bondsmagi, Elderglass, artifacts, temples, ships, and magic as character nodes"
+    ],
+    "uncertainties":[
+      "The novel alternates its principal confidence-game action with chronological interludes from Locke's childhood and gang formation. Every record identifies its part/interlude locator and does not flatten aliases or relationships across those time layers.",
+      "Disguises, cover identities, plans, and testimony are purposeful deceptions in the text. Alias fields distinguish labels rather than treating every asserted role or confidence-game premise as independently true.",
+      "The primary reading witness is copyright-controlled and loan-limited. The author’s official opening sample is UK-spelled and may differ in typography from the declared US hardcover; chapter/part labels are therefore preferred over page claims. No extended quotation is reproduced.",
+      "The novel includes child endangerment, gang violence, torture, murder, threats, sexualized coercion, class exploitation, and strong language. These are recorded descriptively, without endorsement or sensationalism.",
+      "Camorri, Vadran, Therin, and religious/magical terms are fictional constructs. No term receives a normalized archetype mapping or a real-world cultural/religious equivalence."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Claim-level records use the controlled primary novel scan by exact part/chapter/interlude locator. Scott Lynch's official excerpt provides primary opening evidence; the official books page distinguishes Book I from later sequence titles; Penguin Random House provides publisher/format metadata and an authorized Chapter One excerpt. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://archive.org/details/liesoflockelamor0000lync","locator":"The Lies of Locke Lamora controlled digital-lending scan, Prologue; Interludes; Books I–V","supports":["Primary evidence for the ten named individuals, their direct relationships, aliases, confidence-game structure, terms, and content cautions."]},
+      {"url":"https://www.penguinrandomhouse.com/books/104782/the-lies-of-locke-lamora-by-scott-lynch/","locator":"Publisher page, formats/metadata and authorized Chapter One excerpt","supports":["Official 2006 record, Book One context, crime/consequence content framing, and opening confidence-game evidence."]},
+      {"url":"https://www.scottlynch.us/excerpts.html","locator":"Official “The Lies of Locke Lamora Excerpt,” full Prologue","supports":["Authorized primary opening/interlude evidence and UK-edition caveat."]},
+      {"url":"https://www.scottlynch.us/books.html","locator":"Official books page, Gentleman Bastard Sequence heading and The Lies of Locke Lamora Book I section","supports":["Book I status and separation from later sequence volumes."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

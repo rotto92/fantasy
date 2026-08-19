@@ -1,0 +1,61 @@
+[
+  {
+    "source_id": "SRC-137",
+    "source_title": "Diablo",
+    "continuity_scope": "Diablo IV base game, launch baseline (North American English; 6 June 2023). This is a deliberately bounded franchise pass: it treats Diablo IV as its own game-release continuity witness and excludes Diablo I–III, Diablo Immortal, all post-launch seasons/patches, Vessel of Hatred, Lord of Hatred, and adaptations.",
+    "work_or_witnesses": [
+      "Blizzard: Meet Your Maker on June 6—Pre-Purchase Diablo IV!",
+      "Blizzard: Diablo IV Inside the Game: A New Saga",
+      "Blizzard: Diablo IV Launches Soon—Here’s What You Need to Know",
+      "Blizzard: All Hell Breaks Loose in 2023—Diablo IV is Coming"
+    ],
+    "coverage_rule": "All named individual dramatic agents directly identified in the selected official Diablo IV launch-campaign premise and launch-system witnesses: Lilith, Inarius, and Mephisto. The player-created Wanderer and all selectable classes remain terms, not characters. The selected pages do not furnish a reproducible complete cast list for the finished campaign, so unprofiled named quest, town, companion, boss, and lore figures are outside this narrow official-witness cohort.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "Player-created Wanderers and player-selected Barbarian, Druid, Necromancer, Rogue, and Sorceress identities.",
+      "Generic demons, angels, humans, cultists, undead, factions, places, items, skills, quests, dungeons, systems, and cosmological regions as character nodes.",
+      "Named figures not directly profiled or narratively characterized in the selected launch-premise pages, including campaign figures discoverable only through the finished game, later official recaps, or external databases.",
+      "All Diablo I–III and Diablo Immortal material; post-launch seasonal, patch, expansion, and future-retcon material; novels, comics, cinematics outside the selected witness pages, merchandise, and adaptations."
+    ],
+    "uncertainties": [
+      "The witnesses are official pre-launch and launch communications rather than a complete in-game quest/codex transcription. This pass is complete only for the three-agent cohort explicitly declared above, not for Diablo IV's entire campaign cast.",
+      "Diablo IV is a live-service title. Later seasons, patches, Vessel of Hatred, Lord of Hatred, and future releases can change presentation or add lore but are not folded into this 1.0 baseline.",
+      "The sources use North American English terminology. Other localizations, prior-game lore, and later retcons are not silently merged.",
+      "The selected premise establishes Lilith and Inarius as co-creators of Sanctuary and Lilith as Mephisto's daughter; it does not by itself resolve the wider franchise's cosmological hierarchy or every version-specific detail."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Blizzard Diablo IV launch and pre-launch campaign/system pages only. No fan wiki, Wikipedia, community guide, or unsourced secondary summary is used as evidence.",
+    "citations": [
+      {
+        "url": "https://news.blizzard.com/en-us/article/23880208/meet-your-maker-on-june-6pre-purchase-diablo-iv",
+        "locator": "Lilith has returned / June 6, 2023 sections",
+        "supports": [
+          "Diablo IV launch boundary; Lilith and Inarius's return; their co-creation of Sanctuary; launch classes"
+        ]
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/23952501/diablo-iv-inside-the-game-a-new-saga",
+        "locator": "A New Saga overview; final paragraph",
+        "supports": [
+          "Lilith/Inarius story focus; Sanctuary's creation; Wanderer role; story's position 50 years after Diablo III"
+        ]
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/23954935/diablo-iv-launches-soonheres-what-you-need-to-know",
+        "locator": "Story section; Official Launch section",
+        "supports": [
+          "Lilith's return after exile, dark-ritual summoning, player objective, launch timing, and selectable classes"
+        ]
+      },
+      {
+        "url": "https://news.blizzard.com/en-us/article/23816540/all-hell-breaks-loose-in-2023diablo-iv-is-coming",
+        "locator": "Introducing: The Necromancer; Explore Your Way sections",
+        "supports": [
+          "Mephisto as Lord of Hatred and source of Fields of Hatred; player-choice and class terminology"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

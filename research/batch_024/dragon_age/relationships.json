@@ -1,0 +1,80 @@
+[
+  {
+    "relationship_id":"REL-SRC138-001",
+    "source_id":"SRC-138",
+    "source_character_id":"CHR-SRC138-001",
+    "target_character_id":"CHR-SRC138-002",
+    "relationship_type":"ally",
+    "label":"fellow Veilguard companions",
+    "direction":"undirected",
+    "continuity":"Dragon Age: The Veilguard base game, worldwide launch baseline (English; 31 October 2024)",
+    "citations":[{"url":"https://blog.bioware.com/2024/07/31/unveiling-the-veilguard-cast-and-characters-detailed-at-san-diego-comic-con/","locator":"Opening cast overview: companions together comprise the Veilguard","supports":["Lucanis and Neve are both companions in the group of heroes called the Veilguard"]}],
+    "confidence":"high",
+    "note":"A common named companion-team affiliation only; no romance, approval, personal-quest result, or specific player choice is asserted."
+  },
+  {
+    "relationship_id":"REL-SRC138-002",
+    "source_id":"SRC-138",
+    "source_character_id":"CHR-SRC138-001",
+    "target_character_id":"CHR-SRC138-003",
+    "relationship_type":"ally",
+    "label":"fellow Veilguard companions",
+    "direction":"undirected",
+    "continuity":"Dragon Age: The Veilguard base game, worldwide launch baseline (English; 31 October 2024)",
+    "citations":[{"url":"https://blog.bioware.com/2024/07/31/unveiling-the-veilguard-cast-and-characters-detailed-at-san-diego-comic-con/","locator":"Opening cast overview: companions together comprise the Veilguard","supports":["Lucanis and Emmrich are both companions in the group of heroes called the Veilguard"]}],
+    "confidence":"high",
+    "note":"A common named companion-team affiliation only; no romance, approval, personal-quest result, or specific player choice is asserted."
+  },
+  {
+    "relationship_id":"REL-SRC138-003",
+    "source_id":"SRC-138",
+    "source_character_id":"CHR-SRC138-001",
+    "target_character_id":"CHR-SRC138-004",
+    "relationship_type":"ally",
+    "label":"fellow Veilguard companions",
+    "direction":"undirected",
+    "continuity":"Dragon Age: The Veilguard base game, worldwide launch baseline (English; 31 October 2024)",
+    "citations":[{"url":"https://blog.bioware.com/2024/07/31/unveiling-the-veilguard-cast-and-characters-detailed-at-san-diego-comic-con/","locator":"Opening cast overview: companions together comprise the Veilguard","supports":["Lucanis and Lace Harding are both companions in the group of heroes called the Veilguard"]}],
+    "confidence":"high",
+    "note":"A common named companion-team affiliation only; no romance, approval, personal-quest result, or specific player choice is asserted."
+  },
+  {
+    "relationship_id":"REL-SRC138-004",
+    "source_id":"SRC-138",
+    "source_character_id":"CHR-SRC138-002",
+    "target_character_id":"CHR-SRC138-003",
+    "relationship_type":"ally",
+    "label":"fellow Veilguard companions",
+    "direction":"undirected",
+    "continuity":"Dragon Age: The Veilguard base game, worldwide launch baseline (English; 31 October 2024)",
+    "citations":[{"url":"https://blog.bioware.com/2024/07/31/unveiling-the-veilguard-cast-and-characters-detailed-at-san-diego-comic-con/","locator":"Opening cast overview: companions together comprise the Veilguard","supports":["Neve and Emmrich are both companions in the group of heroes called the Veilguard"]}],
+    "confidence":"high",
+    "note":"A common named companion-team affiliation only; no romance, approval, personal-quest result, or specific player choice is asserted."
+  },
+  {
+    "relationship_id":"REL-SRC138-005",
+    "source_id":"SRC-138",
+    "source_character_id":"CHR-SRC138-002",
+    "target_character_id":"CHR-SRC138-004",
+    "relationship_type":"ally",
+    "label":"fellow Veilguard companions",
+    "direction":"undirected",
+    "continuity":"Dragon Age: The Veilguard base game, worldwide launch baseline (English; 31 October 2024)",
+    "citations":[{"url":"https://blog.bioware.com/2024/07/31/unveiling-the-veilguard-cast-and-characters-detailed-at-san-diego-comic-con/","locator":"Opening cast overview: companions together comprise the Veilguard","supports":["Neve and Lace Harding are both companions in the group of heroes called the Veilguard"]}],
+    "confidence":"high",
+    "note":"A common named companion-team affiliation only; no romance, approval, personal-quest result, or specific player choice is asserted."
+  },
+  {
+    "relationship_id":"REL-SRC138-006",
+    "source_id":"SRC-138",
+    "source_character_id":"CHR-SRC138-003",
+    "target_character_id":"CHR-SRC138-004",
+    "relationship_type":"ally",
+    "label":"fellow Veilguard companions",
+    "direction":"undirected",
+    "continuity":"Dragon Age: The Veilguard base game, worldwide launch baseline (English; 31 October 2024)",
+    "citations":[{"url":"https://blog.bioware.com/2024/07/31/unveiling-the-veilguard-cast-and-characters-detailed-at-san-diego-comic-con/","locator":"Opening cast overview: companions together comprise the Veilguard","supports":["Emmrich and Lace Harding are both companions in the group of heroes called the Veilguard"]}],
+    "confidence":"high",
+    "note":"A common named companion-team affiliation only; no romance, approval, personal-quest result, or specific player choice is asserted."
+  }
+]

@@ -1,0 +1,1752 @@
+[
+  {
+    "character_id": "CHR-SRC019-001",
+    "canonical_name": "Izanagi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Male creator who forms islands with Izanami and later performs purification.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "purification",
+          "archetype_ids": [
+            "LAW-403",
+            "LAW-402"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Birth of the Deities”",
+        "supports": [
+          "Male creator who forms islands with Izanami and later performs purification."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-002",
+    "canonical_name": "Izanami",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Female creator who dies after giving birth to the fire deity and becomes associated with Yomi.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Yomi",
+          "archetype_ids": [
+            "COS-301"
+          ],
+          "confidence": "moderate",
+          "note": "Functional realm mapping only."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Birth of the Deities”",
+        "supports": [
+          "Female creator who dies after giving birth to the fire deity and becomes associated with Yomi."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-003",
+    "canonical_name": "Amaterasu",
+    "aliases": [
+      "Amaterasu Ōmikami"
+    ],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Kami who withdraws into the Heavenly Rock-Cave and is enticed out by the other kami.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "radiance",
+          "archetype_ids": [
+            "PWR-207"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “The Heavenly Rock-Cave”",
+        "supports": [
+          "Kami who withdraws into the Heavenly Rock-Cave and is enticed out by the other kami."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-004",
+    "canonical_name": "Susanoo",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Kami whose disruptive acts lead to exile and who later kills the eight-forked serpent.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "storm",
+          "archetype_ids": [
+            "PWR-206"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “The Heavenly Rock-Cave”; “Eight-Forked Serpent”",
+        "supports": [
+          "Kami whose disruptive acts lead to exile and who later kills the eight-forked serpent."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-005",
+    "canonical_name": "Tsukuyomi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Kami born in Izanagi’s purification sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Birth of the Deities”",
+        "supports": [
+          "Kami born in Izanagi’s purification sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-006",
+    "canonical_name": "Kagutsuchi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Fire kami whose birth burns Izanami and precipitates her death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "fire",
+          "archetype_ids": [
+            "PWR-201"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Birth of the Deities”",
+        "supports": [
+          "Fire kami whose birth burns Izanami and precipitates her death."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-007",
+    "canonical_name": "Omoikane",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Kami of deliberation who participates in the plan to bring Amaterasu from the cave.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "counselor",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “The Heavenly Rock-Cave”",
+        "supports": [
+          "Kami of deliberation who participates in the plan to bring Amaterasu from the cave."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-008",
+    "canonical_name": "Ame-no-Uzume",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Kami whose performance draws Amaterasu from the cave.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ritual performer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "dance/performance",
+          "archetype_ids": [
+            "PWR-510"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “The Heavenly Rock-Cave”",
+        "supports": [
+          "Kami whose performance draws Amaterasu from the cave."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-009",
+    "canonical_name": "Tajikarao",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Strong kami who pulls open the rock-cave door.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "guardian",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “The Heavenly Rock-Cave”",
+        "supports": [
+          "Strong kami who pulls open the rock-cave door."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-010",
+    "canonical_name": "Yamata-no-Orochi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Eight-headed serpent defeated by Susanoo, from whose tail a sword is found.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yōkai",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic monster mapping; yōkai is historically variable."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "serpent form",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [
+        {
+          "term": "sword from Orochi",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Eight-Forked Serpent”",
+        "supports": [
+          "Eight-headed serpent defeated by Susanoo, from whose tail a sword is found."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-011",
+    "canonical_name": "Ōkuninushi",
+    "aliases": [
+      "Ōnamuchi"
+    ],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Land-claimant kami aided in the Hare narrative and later transfers rule in the cession account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “The Hare of Inaba”; “Cession of the Land”",
+        "supports": [
+          "Land-claimant kami aided in the Hare narrative and later transfers rule in the cession account."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-012",
+    "canonical_name": "White Hare of Inaba",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Named animal protagonist helped by Ōkuninushi after being deceived by other brothers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "animal protagonist",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic beastfolk mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “The Hare of Inaba”",
+        "supports": [
+          "Named animal protagonist helped by Ōkuninushi after being deceived by other brothers."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-013",
+    "canonical_name": "Sukunabikona",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Kami who collaborates with Ōkuninushi in ordering the land.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "land-ordering partnership",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Ōkuninushi”",
+        "supports": [
+          "Kami who collaborates with Ōkuninushi in ordering the land."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-014",
+    "canonical_name": "Amewakahiko",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Heavenly envoy who fails to return and is killed by the arrow sent from heaven.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "envoy",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Cession of the Land”",
+        "supports": [
+          "Heavenly envoy who fails to return and is killed by the arrow sent from heaven."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-015",
+    "canonical_name": "Ninigi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Heavenly grandchild sent down with regalia in the descent narrative.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "heavenly descendant",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Descent of the Heavenly Grandchild”",
+        "supports": [
+          "Heavenly grandchild sent down with regalia in the descent narrative."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-016",
+    "canonical_name": "Konohanasakuya-hime",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Woman who marries Ninigi and proves fidelity by giving birth in a burning hut.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "ordeal",
+          "archetype_ids": [
+            "LAW-815"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Descent of the Heavenly Grandchild”",
+        "supports": [
+          "Woman who marries Ninigi and proves fidelity by giving birth in a burning hut."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-017",
+    "canonical_name": "Hoderi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Elder brother in the sea-luck/mountain-luck narrative.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Sea Luck and Mountain Luck”",
+        "supports": [
+          "Elder brother in the sea-luck/mountain-luck narrative."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-018",
+    "canonical_name": "Hoori",
+    "aliases": [
+      "Yamasachihiko"
+    ],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Younger brother who descends to the sea palace to recover a lost fishhook.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "Otherworld journey",
+          "archetype_ids": [
+            "NAR-409"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Sea Luck and Mountain Luck”",
+        "supports": [
+          "Younger brother who descends to the sea palace to recover a lost fishhook."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-019",
+    "canonical_name": "Toyotama-hime",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Sea kami daughter who marries Hoori and reveals a transformed birth form.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "transformed birth form",
+          "archetype_ids": [
+            "PWR-309"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Sea Luck and Mountain Luck”",
+        "supports": [
+          "Sea kami daughter who marries Hoori and reveals a transformed birth form."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-020",
+    "canonical_name": "Watatsumi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Kojiki selected witness",
+    "work_or_witness": "Kojiki",
+    "character_kind": "individual",
+    "description": "Sea deity and father of Toyotama-hime in the sea-palace episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "sea",
+          "archetype_ids": [
+            "PWR-213"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, “Sea Luck and Mountain Luck”",
+        "supports": [
+          "Sea deity and father of Toyotama-hime in the sea-palace episode."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-021",
+    "canonical_name": "Jimmu",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Nihon Shoki selected witness",
+    "work_or_witness": "Nihon Shoki",
+    "character_kind": "individual",
+    "description": "First imperial founder in the selected chronicle’s eastern expedition account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.sacred-texts.com/shi/nihon/",
+        "locator": "Book III, sections 1–31",
+        "supports": [
+          "First imperial founder in the selected chronicle’s eastern expedition account."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition.",
+      "Chronicle genealogy and political legitimation are not evidence for modern historical claims."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-022",
+    "canonical_name": "Yatagarasu",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Nihon Shoki selected witness",
+    "work_or_witness": "Nihon Shoki",
+    "character_kind": "individual",
+    "description": "Three-legged crow sent as a guide in Jimmu’s expedition.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "divine bird messenger",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No precise workbook mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "guide",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.sacred-texts.com/shi/nihon/",
+        "locator": "Book III, section 8",
+        "supports": [
+          "Three-legged crow sent as a guide in Jimmu’s expedition."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-023",
+    "canonical_name": "Emperor Sujin",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Nihon Shoki selected witness",
+    "work_or_witness": "Nihon Shoki",
+    "character_kind": "individual",
+    "description": "Ruler who responds to plague and ritual disorder in the selected episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "purity/ritual response",
+          "archetype_ids": [
+            "LAW-402",
+            "LAW-403"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.sacred-texts.com/shi/nihon/",
+        "locator": "Book V, sections 5–8",
+        "supports": [
+          "Ruler who responds to plague and ritual disorder in the selected episode."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-024",
+    "canonical_name": "Ōmononushi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Nihon Shoki selected witness",
+    "work_or_witness": "Nihon Shoki",
+    "character_kind": "individual",
+    "description": "Kami who speaks through a medium in the plague-resolution narrative.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "kami",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytic mapping only; kami is not a generic deity species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "oracular communication",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.sacred-texts.com/shi/nihon/",
+        "locator": "Book V, sections 5–8",
+        "supports": [
+          "Kami who speaks through a medium in the plague-resolution narrative."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-025",
+    "canonical_name": "Mimaki-hime",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Nihon Shoki selected witness",
+    "work_or_witness": "Nihon Shoki",
+    "character_kind": "individual",
+    "description": "Named woman who serves as the medium through whom Ōmononushi speaks.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ritual specialist",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "medium",
+          "archetype_ids": [
+            "ROL-505"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.sacred-texts.com/shi/nihon/",
+        "locator": "Book V, sections 5–8",
+        "supports": [
+          "Named woman who serves as the medium through whom Ōmononushi speaks."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition.",
+      "This episode should not be used to generalize a miko office."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-026",
+    "canonical_name": "Mikoshi-nyūdō",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Sekien selected witness",
+    "work_or_witness": "Sekien",
+    "character_kind": "individual",
+    "description": "Named yōkai in Toriyama Sekien’s illustrated catalogue.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yōkai",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic monster mapping; yōkai is historically variable."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Gazu Hyakki Yagyō, entry “Mikoshi-nyūdō”",
+        "supports": [
+          "Named yōkai in Toriyama Sekien’s illustrated catalogue."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-027",
+    "canonical_name": "Rokurokubi",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Sekien selected witness",
+    "work_or_witness": "Sekien",
+    "character_kind": "individual",
+    "description": "Named yōkai entry in Sekien’s catalogue.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yōkai",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic monster mapping; yōkai is historically variable."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "body transformation",
+          "archetype_ids": [
+            "PWR-309"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Gazu Hyakki Yagyō, entry “Rokurokubi”",
+        "supports": [
+          "Named yōkai entry in Sekien’s catalogue."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-028",
+    "canonical_name": "Kappa",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Sekien selected witness",
+    "work_or_witness": "Sekien",
+    "character_kind": "individual",
+    "description": "Named water yōkai entry in Sekien’s later catalogue.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yōkai",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic monster mapping; yōkai is historically variable."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "water association",
+          "archetype_ids": [
+            "PWR-202",
+            "PWR-213"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Konjaku Gazu Zoku Hyakki, entry “Kappa”",
+        "supports": [
+          "Named water yōkai entry in Sekien’s later catalogue."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-029",
+    "canonical_name": "Kitsune",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Sekien selected witness",
+    "work_or_witness": "Sekien",
+    "character_kind": "individual",
+    "description": "Named fox yōkai entry in Sekien’s later catalogue.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yōkai",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic monster mapping; yōkai is historically variable."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "transformation",
+          "archetype_ids": [
+            "PWR-309"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Konjaku Gazu Zoku Hyakki, entry “Kitsune”",
+        "supports": [
+          "Named fox yōkai entry in Sekien’s later catalogue."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition.",
+      "Kitsune traditions vary greatly; this record is only Sekien’s catalogue representation."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-030",
+    "canonical_name": "Tengu",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Sekien selected witness",
+    "work_or_witness": "Sekien",
+    "character_kind": "individual",
+    "description": "Named yōkai entry in Sekien’s later catalogue.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yōkai",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No generic monster mapping; yōkai is historically variable."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Konjaku Gazu Zoku Hyakki, entry “Tengu”",
+        "supports": [
+          "Named yōkai entry in Sekien’s later catalogue."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition.",
+      "Tengu have Buddhist, mountain, local, and visual-catalogue histories not collapsed here."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC019-031",
+    "canonical_name": "Kasa-obake",
+    "aliases": [],
+    "source_id": "SRC-019",
+    "source_title": "Japanese Kami and Yōkai Traditions",
+    "continuity": "Sekien selected witness",
+    "work_or_witness": "Sekien",
+    "character_kind": "individual",
+    "description": "Named umbrella yōkai entry in Sekien’s catalogue tradition.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "tsukumogami-related catalogue being",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No automatic construct mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in declared historical witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://dl.ndl.go.jp/",
+        "locator": "Konjaku Hyakki Shūi, entry “Kasa-obake”",
+        "supports": [
+          "Named umbrella yōkai entry in Sekien’s catalogue tradition."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a bounded textual/catalogue witness record; it does not define living Shinto, Buddhist, local, or modern-media tradition.",
+      "Tsukumogami is a historical/cultural category, not an animated-object game category."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  }
+]

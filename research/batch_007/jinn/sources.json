@@ -1,0 +1,72 @@
+[
+  {
+    "source_id": "SRC-010",
+    "source_title": "Jinn Traditions",
+    "continuity_scope": "A deliberately bounded Qur'anic witness pass within a much broader Arabic and Islamic religious, literary, folkloric, and regional source complex. The primary witness is the Arabic Qur'an at the listed surah/ayah locators. No named character is imported from hadith, tafsir, regional practice, later folklore, or literary adaptation. The Thousand and One Nights is a separate literary source record (SRC-009) and is not evidence for this pass.",
+    "work_or_witnesses": [
+      {
+        "work": "The Qur'an",
+        "edition": "Arabic Qur'anic text with English interface; selected passages 2:34; 18:50; 20:120; 21:82; 27:39; 34:12-14; 55:15; 72:1, 14",
+        "url": "https://quran.com/18/50"
+      },
+      {
+        "work": "Spirits and Demons in Arabia",
+        "edition": "A. S. Tritton, Journal of the Royal Asiatic Society 66.4 (1934), pp. 715-727",
+        "url": "https://doi.org/10.1017/S0035869X00112584"
+      },
+      {
+        "work": "Jinn and Jins: Sensuous Piety as Queer Ethics",
+        "edition": "Cambridge Journal of Postcolonial Literary Inquiry; discussion of Qur'anic, hadith, exegetical, and literary formations",
+        "url": "https://www.cambridge.org/core/journals/cambridge-journal-of-postcolonial-literary-inquiry/article/jinn-and-jins-sensuous-piety-as-queer-ethics/2ADA77EC0D0AF4F071C96815C5545B0E"
+      }
+    ],
+    "coverage_rule": "Include only proper-named agents who materially act in the listed Qur'anic jinn passages: Iblis, Adam, and Sulayman. Generic or class designations (jinn, shayatin, and ifrit) are source terms, not character nodes. The selected passages contain no personal names for the jinn who hear revelation, the jinn at Sulayman's service, or the ifrit of 27:39; none is promoted to a character. Hadith, tafsir, regional traditions, later folklore, and The Thousand and One Nights are expressly excluded from the character witness set.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "All unnamed jinn and shayatin in the selected Qur'anic passages, including the ifrit of 27:39",
+      "Hadith and tafsir materials, including their named or differently characterized agents",
+      "Pre-Islamic, medieval, modern, regional, diasporic, and living folkloric traditions",
+      "All literary characters and continuities in The Thousand and One Nights (SRC-009), including its jinni figures",
+      "Claims that any one rendering of jinn represents all Islamic, Arabic, or regional traditions"
+    ],
+    "uncertainties": [
+      "This pass records Qur'anic textual claims, not a resolution of theological debate about ontology, interpretation, or later doctrine.",
+      "English glosses such as 'spirit', 'demon', 'genie', 'devil', and 'binding' are comparison labels with materially different histories; they are not used as equivalences.",
+      "The SRC-010 corpus record is too broad for a complete character pass without separately scoped regional, literary, hadith, and tafsir witnesses."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary-text records are limited to claim-specific Qur'anic passages. Two academic sources are used only to document the need to distinguish Qur'anic theology from later theological, folkloric, and literary formations; no folklore claim supplies a character record here.",
+    "citations": [
+      {
+        "url": "https://quran.com/18/50",
+        "locator": "Qur'an 18:50",
+        "supports": [
+          "Iblis is explicitly described as being of the jinn in the selected primary witness."
+        ]
+      },
+      {
+        "url": "https://quran.com/34/12",
+        "locator": "Qur'an 34:12-14",
+        "supports": [
+          "The selected primary witness includes jinn working for Sulayman by his Lord's permission."
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1017/S0035869X00112584",
+        "locator": "Tritton, pp. 715-716",
+        "supports": [
+          "Scholarly orientation distinguishes pre-Islamic material, Islamic theological systematization, and folklore study."
+        ]
+      },
+      {
+        "url": "https://www.cambridge.org/core/journals/cambridge-journal-of-postcolonial-literary-inquiry/article/jinn-and-jins-sensuous-piety-as-queer-ethics/2ADA77EC0D0AF4F071C96815C5545B0E",
+        "locator": "Invisible Cosmologies, pp. 545-553",
+        "supports": [
+          "Academic orientation treats Qur'anic, hadith, exegetical, and later literary materials as a layered complex rather than one interchangeable folklore canon."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "character_id": "CHR-SRC078-001",
+    "canonical_name": "Wei Wuxian",
+    "aliases": [],
+    "source_id": "SRC-078",
+    "source_title": "Grandmaster of Demonic Cultivation: Mo Dao Zu Shi",
+    "continuity": "Seven Seas Novel Vol. 1 publisher-synopsis witness",
+    "work_or_witness": "Official synopsis only",
+    "character_kind": "individual",
+    "description": "A talented young cultivator whose shift to demonic cultivation during war leads to fear and death; years later he awakens in the body of an unnamed aggrieved young man who sacrificed his soul for revenge, according to the official volume-one synopsis.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "cultivator",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official translated-synopsis role; no sect, rank, or generic class equivalence claimed."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "demonic cultivation",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Synopsis-level power path only; no practices, moral taxonomy, or mechanics asserted."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "second life in another young man's body",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The synopsis identifies a body-and-soul premise but does not name the young man or define its rules."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Seven Seas Novel Vol. 1 publisher synopsis only",
+    "evidence_level": "publisher-metadata",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-1/",
+        "locator": "Official synopsis, lines 45–47",
+        "supports": [
+          "Wei Wuxian's cultivator status, demonic-cultivation turn, death, and second-life premise."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The source's nonlinear identity premise is retained, but the unnamed body's identity is not inferred.",
+      "No Chinese-script name, sect, artifact, corpse/ghost, or cultivation-mechanics claim is supplied beyond the licensed synopsis.",
+      "No adaptation portrayal, censorship explanation, or relationship-status claim is imported."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC078-002",
+    "canonical_name": "Lan Wangji",
+    "aliases": [],
+    "source_id": "SRC-078",
+    "source_title": "Grandmaster of Demonic Cultivation: Mo Dao Zu Shi",
+    "continuity": "Seven Seas Novel Vol. 1 publisher-synopsis witness",
+    "work_or_witness": "Official synopsis only",
+    "character_kind": "individual",
+    "description": "A righteous and esteemed cultivator who stands at Wei Wuxian's side as they confront the present mysteries described in the official volume-one synopsis.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "cultivator",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official translated-synopsis role; no sect, rank, or generic class equivalence claimed."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Seven Seas Novel Vol. 1 publisher synopsis only",
+    "evidence_level": "publisher-metadata",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-1/",
+        "locator": "Official synopsis, line 47",
+        "supports": [
+          "Lan Wangji's cultivator presentation and standing beside Wei Wuxian."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No Chinese-script name, sect, title, cultivation detail, or adaptation portrayal is supplied beyond the licensed synopsis.",
+      "The source is marketed as danmei/Boys' Love, but the synopsis does not establish a more specific relationship status."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "source_id": "SRC-112",
+    "source_title": "Dungeon World",
+    "continuity_scope": "Dungeon World original core rules (2012; copyright Sage LaTorra and Adam Koebel), as represented by the official Dungeon World site's original-game description and its Creative Commons Attribution licensing statement. This is an emergent, player-generated-fiction rules source, not a fixed setting or franchise cast. It excludes Dungeon World 2 development material, supplements, third-party hacks, actual-play fiction, streamed/recorded games, and home campaigns.",
+    "work_or_witnesses": [
+      {
+        "work": "Dungeon World",
+        "edition": "Original 2012 core rules; copyright credits name Sage LaTorra and Adam Koebel.",
+        "url": "https://home.illuminoid.com/games/dungeon_world.pdf"
+      },
+      {
+        "work": "Dungeon World: About the Game",
+        "edition": "Official original-game overview and licensing statement.",
+        "url": "https://www.dungeon-world.com/about/"
+      }
+    ],
+    "coverage_rule": "Terms-only emergent-fiction audit. The selected core rules provide procedures for collaboratively creating adventurers, situations, and world details, not a bounded canonical dramatic cast. No character or relationship records are made. Playbooks/classes, moves, bonds, alignment/drives, fronts, monsters, items, places, and rules remain dimensions/terms. A named example or actual-play character is excluded unless a separate official witness directly profiles it as a stable dramatic individual independent of a particular table's play.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named example characters, pre-generated characters, actual-play characters, and player-created adventurers, because they are not a stable official dramatic cohort in this rules pass.",
+      "All playbooks/classes, moves, bonds, alignment/drives, fronts, monsters, items, places, and rules as character nodes.",
+      "Dungeon World 2 development/alpha material, supplemental books, hacks, third-party works licensed under CC BY, actual-play fiction, streaming/recording outcomes, and home campaigns."
+    ],
+    "content_cautions": [
+      "The official game frame includes fantasy danger, monsters, dungeons, combat, weapons, injury, death, treasure-seeking, and potentially frightening or oppressive situations. Tables should establish safety tools and boundaries suited to their participants.",
+      "Because the rules invite groups to create fiction, content and character relations are table-specific. A procedure or sample is not consent for any group to introduce harm, romance, prejudice, religious imagery, or other sensitive material without agreement."
+    ],
+    "uncertainties": [
+      "The official Dungeon World site now also publishes Dungeon World 2 development posts. Those materials expressly distinguish DW1/original Dungeon World and are excluded from this 2012-core witness.",
+      "The original text's CC Attribution license permits derivatives, including commercial work. Permission to derive material does not make hacks, supplements, or actual-play fiction canonical to the original core source.",
+      "No dated, consolidated official errata document for the 2012 core rules was identified in this restricted witness set. No informal FAQ, hack revision, or later DW2 change is treated as original-core errata."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Dungeon World site and original core PDF only. The official overview calls Dungeon World a tabletop RPG, describes classic-fantasy adventurers, play to find out what happens, moves, fronts, Agenda, and its CC Attribution license. The original core PDF supplies the 2012 author/copyright identification. No fan wiki or actual-play material is used to establish canon.",
+    "citations": [
+      {
+        "url": "https://www.dungeon-world.com/about/",
+        "locator": "About the Game: tabletop roleplaying, Play to find out what happens, Gamemaster's Toolkit, and Open License",
+        "supports": [
+          "Emergent collaborative-play boundary, classic-fantasy-adventurer frame, moves/fronts/Agenda terminology, and Creative Commons Attribution license."
+        ]
+      },
+      {
+        "url": "https://home.illuminoid.com/games/dungeon_world.pdf",
+        "locator": "Copyright page: © MMXII Sage LaTorra and Adam Koebel",
+        "supports": [
+          "Original 2012 core rulebook and author/copyright identification."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

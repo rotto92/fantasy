@@ -1,0 +1,132 @@
+[
+  {
+    "term_id": "STM-SRC101-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-101",
+    "work_or_witness": "Warhammer: The Old World Rulebook · FAQ & Designer's Notes, 7 July 2026",
+    "canonical_term": "Warhammer: The Old World Rulebook 1.5",
+    "original_language": "English game-product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The current core-rulebook iteration identified by Games Workshop's 7 July 2026 Designer's Notes; its rules state is subject to official FAQ and errata.",
+    "cultural_caution": "Edition/product label only. It does not make the rules or timeline identical to any earlier Warhammer Fantasy Battles edition, Warhammer Fantasy Roleplay, Age of Sigmar, novel, or game adaptation.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/wtwhpcco/warhammer-the-old-world-faq-designers-notes/",
+        "locator": "FAQ & Designer's Notes, 7 July 2026",
+        "supports": [
+          "Games Workshop characterizes the current changes as the 1.5 edition/rulebook iteration."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC101-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-101",
+    "work_or_witness": "Warhammer: The Old World FAQ and Errata: Rulebook · Document title and Rulebook FAQ/Errata entries",
+    "canonical_term": "FAQ and Errata",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Games Workshop's official document form for clarifications and corrections to the selected Rulebook witness.",
+    "cultural_caution": "A rules correction or clarification is not automatically a fictional event, character fact, or setting retcon; version/date must accompany any mechanics comparison.",
+    "citations": [
+      {
+        "url": "https://assets.warhammer-community.com/eng_28-01_warhammer_the_old_world_faq_and_errata_rulebook-cypy1xqrht-t4jzdire13.pdf",
+        "locator": "Document title and Rulebook FAQ/Errata entries",
+        "supports": [
+          "Official current FAQ-and-errata form for the Rulebook."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC101-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-101",
+    "work_or_witness": "Old World Almanack: Your First Look at the Rules · The Turn, rules overview",
+    "canonical_term": "rounds, turns, and phases",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The official turn-structure vocabulary used to organize play in Warhammer: The Old World.",
+    "cultural_caution": "This is a play procedure, not a chronology of fictional events or a measure of a character's narrative agency. Later FAQ/errata may alter its application.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/eiRAQ9Pa/old-world-almanack-your-first-look-at-the-rules/",
+        "locator": "The Turn, rules overview",
+        "supports": [
+          "Games Workshop explains that games are organized into rounds, player turns, and phases."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC101-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-101",
+    "work_or_witness": "Old World Almanack: Your First Look at the Rules · The Turn, Strategy Phase",
+    "canonical_term": "Strategy Phase",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "A named phase in the official introductory description of Warhammer: The Old World's player-turn structure.",
+    "cultural_caution": "A phase name is edition-specific rules vocabulary. It should not be converted into a military rank, faction, character role, or a claim about another Warhammer continuity.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/eiRAQ9Pa/old-world-almanack-your-first-look-at-the-rules/",
+        "locator": "The Turn, Strategy Phase",
+        "supports": [
+          "Games Workshop identifies the Strategy Phase in its explanation of player turns."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC101-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-101",
+    "work_or_witness": "Old World Almanack: Your First Look at the Rules · Article introduction and rules overview",
+    "canonical_term": "regiment-scale battle",
+    "original_language": "English game-description lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The official description of the game's focus on manoeuvring large formations of miniatures in battle.",
+    "cultural_caution": "This is a fictional tabletop-war framing. It does not supply narrative evidence for a particular miniature, faction, real military culture, injury, death, or historical conflict.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/eiRAQ9Pa/old-world-almanack-your-first-look-at-the-rules/",
+        "locator": "Article introduction and rules overview",
+        "supports": [
+          "Games Workshop describes the game as simulating large regiments manoeuvring and battling."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "SRC-122",
+    "source_title": "Talisman: The Magical Quest Game",
+    "continuity_scope": "Avalon Hill/Hasbro's Talisman: The Magical Quest Game, Fifth Edition core board game (product F6652), publicly available in 2024. This audit is limited to that physical core product and its official product instructions. It excludes all earlier Talisman editions, Fifth Edition expansions, Talisman: Digital 5th Edition and Digital Classic Edition, novels and other licensed media, house rules, and every player or table-specific session outcome.",
+    "work_or_witnesses": [
+      {
+        "work": "Talisman: The Magical Quest Board Game, 5th Edition",
+        "edition": "Avalon Hill/Hasbro core product F6652; Hasbro 2024 holiday guide lists it as available and the official instructions identify its components and product rules summary.",
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-the-magical-quest-board-game-5th-edition-fantasy-tabletop-adventure-games-12"
+      },
+      {
+        "work": "2024 Holiday product guide",
+        "edition": "Hasbro 2024 official product guide; used to date the selected Fifth Edition core product as available in 2024.",
+        "url": "https://newsroom.hasbro.com/static-files/572c0fc1-d4f3-478a-81c0-a7302cf0f56c"
+      },
+      {
+        "work": "Talisman Alliances: Fate Beckons",
+        "edition": "Avalon Hill/Hasbro Fifth Edition expansion product page; used only to establish the expansion boundary.",
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-alliances-fate-beckons"
+      },
+      {
+        "work": "Talisman: Digital 5th Edition Manual",
+        "edition": "Nomad Games official digital-product manual; used solely to distinguish the separately implemented digital adaptation from the physical core witness.",
+        "url": "https://nomadgames.co.uk/talisman-5th-edition-manual-uk"
+      }
+    ],
+    "coverage_rule": "Terms-only Fifth Edition core-board-game audit. The selected official witness supplies 12 Character cards and matching figures with unique abilities, plus a variable-card, dice, and player-choice system; it does not directly profile a reproducible cohort of stable dramatic individuals. No character or relationship records are made. Character-card roles, named card labels, alignments, spells, objects, followers, enemies, regions, the Crown of Command, Talismans, the elder dragon, and mechanics remain terms/dimensions. A named figure may be added only in a separately scoped official work that directly profiles it as a stable dramatic individual; a card, figure, unique ability, game token, or player-session result is insufficient.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All Fifth Edition character cards and figures, including role labels such as Prophetess, Wizard, and Thief; all enemies, strangers, followers, spells, objects, places, regions, and the elder-dragon game endpoint, because the selected product evidence treats them as selectable, drawn, or mechanical components rather than directly profiled stable dramatic individuals.",
+      "All prior editions, their rules and character content; all Fifth Edition expansions including Talisman Alliances: Fate Beckons; Talisman: Digital 5th Edition, Talisman: Digital Classic Edition, and their expansion/AI/custom-deck content; novels and other licensed media; and home rules, named players, and individual play-session continuities.",
+      "All individual game branches, card draws, combat results, alignment choices, transformations, winner identity, and final-game outcomes."
+    ],
+    "content_cautions": [
+      "The product presents fantasy danger, combat, enemies, theft, transformation into a toad, defeat, and an elder-dragon confrontation. Specific card and expansion content has not been exhaustively audited.",
+      "Adventure-card draws, player choices, competitive interactions, and optional expansions make individual sessions variable. This audit records system-level terms without asserting a single narrative chronology or exposing unrevealed expansion material."
+    ],
+    "uncertainties": [
+      "Hasbro's accessible product-instructions page establishes the Fifth Edition core components and product summary, but the large downloadable rulebook could not be independently page-audited in this restricted pass. Claims are therefore kept at the directly stated product-summary level.",
+      "No distinct official Fifth Edition core errata or FAQ document was located in the selected Hasbro/Avalon Hill witnesses. No unverified community correction, house rule, or digital patch is applied to the physical core product.",
+      "The Nomad digital manual says its product is based on Avalon Hill's Fifth Revised Edition, but software rules, AI, saved games, deck editing, patches, and digital expansions remain a separately implemented adaptation and are not used to establish physical-core details."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Hasbro/Avalon Hill product instructions and 2024 product guide establish the selected physical Fifth Edition's identity, date, components, variable card system, victory condition, and player count. The official expansion page establishes that a Fifth Edition expansion requires the base game and adds separate cooperative/trial content. The official Nomad manual is used only for the digital-product boundary. No fan wiki, Wikipedia, player guide, retail listing, or actual-play report is used as evidence.",
+    "citations": [
+      {
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-the-magical-quest-board-game-5th-edition-fantasy-tabletop-adventure-games-12",
+        "locator": "Product info and features",
+        "supports": [
+          "Official Avalon Hill/Hasbro product identity, Fifth Edition components, character-card/figure system, game objective, variable Adventure cards, regions, and player count."
+        ]
+      },
+      {
+        "url": "https://newsroom.hasbro.com/static-files/572c0fc1-d4f3-478a-81c0-a7302cf0f56c",
+        "locator": "2024 Holiday guide: Talisman: The Magical Quest Board Game, Fifth Edition",
+        "supports": [
+          "Hasbro lists the selected Avalon Hill Fifth Edition as available in 2024."
+        ]
+      },
+      {
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-alliances-fate-beckons",
+        "locator": "Product info and First-Ever Expansion of Talisman, Fifth Edition",
+        "supports": [
+          "Talisman Alliances is a separate Fifth Edition expansion that requires the core base game and introduces cooperative Trial content."
+        ]
+      },
+      {
+        "url": "https://nomadgames.co.uk/talisman-5th-edition-manual-uk",
+        "locator": "Introduction and digital manual description",
+        "supports": [
+          "Nomad identifies Talisman: Digital 5th Edition as a distinct digital product based on Avalon Hill's Fifth Revised Edition."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

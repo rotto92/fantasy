@@ -1,0 +1,197 @@
+[
+  {
+    "character_id": "CHR-SRC010-001",
+    "canonical_name": "Iblis",
+    "aliases": [
+      "Iblīs"
+    ],
+    "source_id": "SRC-010",
+    "source_title": "Jinn Traditions",
+    "continuity": "Qur'anic primary-text witness only",
+    "work_or_witness": "The Qur'an, 2:34; 18:50; 20:120",
+    "character_kind": "individual",
+    "description": "A named agent explicitly described as being of the jinn who defies the command in the Adam account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "jinn",
+          "archetype_ids": [
+            "PPL-302"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparative mapping only. Qur'an 18:50 identifies Iblis as of the jinn; it does not license treating all jinn as demonic, wish-granting, or morally identical."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "Qur'anic adversarial/tempting action",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Descriptive of the cited narrative action only; no generic 'devil' or demonology equivalence is asserted."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Primary sacred-text witness; theological narrative record",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://quran.com/al-baqarah/34",
+        "locator": "Qur'an 2:34",
+        "supports": [
+          "Iblis refuses when the angels are commanded to prostrate before Adam."
+        ]
+      },
+      {
+        "url": "https://quran.com/al-kahf/50",
+        "locator": "Qur'an 18:50",
+        "supports": [
+          "Iblis is described as being of the jinn and as defying his Lord's command."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of a Qur'anic sacred narrative, not a generic fantasy villain template.",
+      "The source term jinn has diverse theological and cultural treatment; Iblis's narrative role must not be generalized to all jinn.",
+      "Later folklore, tafsir, hadith, and literary depictions are not evidence for this record."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC010-002",
+    "canonical_name": "Adam",
+    "aliases": [
+      "Ādam"
+    ],
+    "source_id": "SRC-010",
+    "source_title": "Jinn Traditions",
+    "continuity": "Qur'anic primary-text witness only",
+    "work_or_witness": "The Qur'an, 2:34",
+    "character_kind": "individual",
+    "description": "The named human participant in the selected Iblis narrative: Iblis refuses the command concerning him.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "A limited comparative mapping for the human participant in this narrative; it does not reduce sacred anthropology to a fantasy ancestry category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Primary sacred-text witness; included only as the named counterparty in the Iblis passage",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://quran.com/al-baqarah/34",
+        "locator": "Qur'an 2:34",
+        "supports": [
+          "Adam is named as the figure before whom Iblis refuses the commanded prostration."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Adam is included solely to retain a character-only, cited relationship within the selected Qur'anic narrative.",
+      "This sacred-text record is not a statement that Adam is a generic fantasy human archetype.",
+      "No extra-Qur'anic genealogy, theology, or adaptation is asserted."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC010-003",
+    "canonical_name": "Sulayman",
+    "aliases": [
+      "Sulaymān",
+      "Solomon"
+    ],
+    "source_id": "SRC-010",
+    "source_title": "Jinn Traditions",
+    "continuity": "Qur'anic primary-text witness only",
+    "work_or_witness": "The Qur'an, 34:12-14",
+    "character_kind": "individual",
+    "description": "A named figure for whom jinn work by his Lord's permission in the selected Qur'anic account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Limited comparative mapping only; the witness does not present a player-style ancestry classification."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "bi-idhni rabbihi (by his Lord's permission)",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The cited wording grounds the action in divine permission; it is not evidence for a transferable binding ritual or magic system."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Primary sacred-text witness; theological narrative record",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://quran.com/saba/12",
+        "locator": "Qur'an 34:12",
+        "supports": [
+          "Jinn work before Sulayman by his Lord's permission."
+        ]
+      },
+      {
+        "url": "https://quran.com/saba/13",
+        "locator": "Qur'an 34:13",
+        "supports": [
+          "The cited passage continues the account of the jinn's work for Sulayman."
+        ]
+      },
+      {
+        "url": "https://quran.com/saba/14",
+        "locator": "Qur'an 34:14",
+        "supports": [
+          "The passage states that the jinn did not know the unseen."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The passage attributes this relationship to divine permission; it must not be recast as an ordinary technique for controlling spirits.",
+      "No seal, ring, grimoire, wish, or later folkloric ability is included because it is absent from this bounded witness.",
+      "The record does not collapse Qur'anic theology, later tafsir, regional lore, or The Thousand and One Nights into one continuity."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

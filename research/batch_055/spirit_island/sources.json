@@ -1,0 +1,80 @@
+[
+  {
+    "source_id": "SRC-124",
+    "source_title": "Spirit Island",
+    "continuity_scope": "Greater Than Games' original Spirit Island core board game, released 1 January 2017, as identified by the publisher's core-product listing. This is a physical core-game rules/product audit, not a broad setting or line pass. It excludes all expansions and promo packs, Horizons of Spirit Island, lore articles, the Handelabra digital adaptation, and player-created or table-specific sessions. The selected witness is the original core product, not an unspecified later printing; later errata is recorded as a rules-history boundary rather than silently substituted into the 2017 core witness.",
+    "work_or_witnesses": [
+      {
+        "work": "Spirit Island",
+        "edition": "Greater Than Games original core board game product; publisher listing gives a 1 January 2017 release date and identifies its core contents.",
+        "url": "https://shop.greaterthangames.com/products/spirit-island"
+      },
+      {
+        "work": "Spirit Island line page",
+        "edition": "Greater Than Games official line page; used only to distinguish the core product from Horizons, expansions, promo packs, and accessories.",
+        "url": "https://shop.greaterthangames.com/pages/spirit-island"
+      },
+      {
+        "work": "Major Blight Card Setup Erratum",
+        "edition": "Greater Than Games forum post dated 22 July 2022; used only to record a later official errata boundary for Blight setup.",
+        "url": "https://forums.greaterthangames.com/t/major-blight-card-setup-erratum/29509"
+      },
+      {
+        "work": "How is the digital version different from the physical version?",
+        "edition": "Handelabra Games official support article; used only to distinguish the separately implemented digital adaptation and its stated differences.",
+        "url": "https://handelabra.helpshift.com/hc/en/3-spirit-island/faq/383-how-is-the-digital-version-different-from-the-physical-version/"
+      }
+    ],
+    "coverage_rule": "Terms-only original-core board-game audit. The selected official product witness presents eight Spirit panels as player-controlled game roles with powers and different play styles, but does not directly profile a reproducible group of stable dramatic individual agents. No character or relationship records are made. Spirit boards, named Spirit-panel labels, powers, elements, Dahan, Invaders, Fear, Blight, island boards/regions, adversary panels, scenario panels, and all rules are terms/dimensions. A named Spirit or other figure may be added only through a separately scoped official witness that directly profiles it as a stable dramatic individual; a panel, role, power, card, presence token, or player outcome is insufficient.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All eight core Spirit panels, their names and powers, Dahan, Invaders, adversaries, scenario content, island pieces, Fear cards, Blight cards, Power cards, elements, and game outcomes because this selected product evidence establishes game roles/components rather than directly profiled stable dramatic individuals.",
+      "All Branch & Claw, Jagged Earth, Nature Incarnate, Feather and Flame, Horizons of Spirit Island, promo packs, accessories, all other expansion or standalone content, lore articles, fiction, and unselected printings.",
+      "All Handelabra digital games, AI behavior, patches, aspects, digital board handling, digital scenario decisions, saved games, and individual physical or digital play sessions."
+    ],
+    "content_cautions": [
+      "The official product describes an alternate-history island conflict in which Spirits and Dahan resist colonizing Invaders, Blight, destruction, and forced expulsion. It includes conflict, destruction of settlements, fear, and environmental harm.",
+      "This is fictional game framing, not a simulation or authoritative representation of any real-world colonial history, Indigenous nation, culture, or spiritual tradition. The Dahan must not be equated with any living people, and the word 'Spirit' here refers to a source-specific game role rather than a universal religious category.",
+      "Cooperative player choice, modular island configuration, random/selected cards, adversaries, scenarios, and difficulty settings create variable sessions. No table result is elevated to fixed narrative canon."
+    ],
+    "uncertainties": [
+      "The official core listing supplies a 2017 release date and contents but does not identify the precise print run presently represented by its product page. This audit therefore treats the original 2017 core product as the chosen continuity and does not assume that later printings have identical text or setup.",
+      "A Greater Than Games forum post reports a major Blight setup erratum and links to the official FAQ. The erratum is recorded as later rules history; without a separately selected errata-integrated printing, it is not silently applied to the original core witness.",
+      "Handelabra says it aims to follow physical rules and designer intent but identifies intentional digital differences. Digital implementation is therefore not evidence for unqualified physical-core mechanics, named agents, or continuity facts."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Greater Than Games official product/line pages establish the core product's 2017 date, components, player roles, alternate-history anti-colonization premise, Dahan, Invaders, Blight, powers, adversaries, and scenarios. A Greater Than Games forum post provides an official errata boundary. Handelabra's official support page is used only for digital separation. No fan wiki, Wikipedia, actual-play account, or unofficial rules summary is used.",
+    "citations": [
+      {
+        "url": "https://shop.greaterthangames.com/products/spirit-island",
+        "locator": "Product info, contents, features, and release date",
+        "supports": [
+          "Original core product identity/date, cooperative setup, Spirit role panels, Dahan, Invaders, Blight, components, powers, adversaries, scenarios, and alternate-history framing."
+        ]
+      },
+      {
+        "url": "https://shop.greaterthangames.com/pages/spirit-island",
+        "locator": "Spirit Island line product list",
+        "supports": [
+          "Greater Than Games distinguishes the core product from Horizons, expansions, promo packs, and accessories."
+        ]
+      },
+      {
+        "url": "https://forums.greaterthangames.com/t/major-blight-card-setup-erratum/29509",
+        "locator": "Major Blight Card Setup Erratum, 22 July 2022",
+        "supports": [
+          "A Greater Than Games forum post identifies a later Blight setup erratum."
+        ]
+      },
+      {
+        "url": "https://handelabra.helpshift.com/hc/en/3-spirit-island/faq/383-how-is-the-digital-version-different-from-the-physical-version/",
+        "locator": "How is the digital version different from the physical version?",
+        "supports": [
+          "Handelabra identifies intentional digital/physical differences, including Blight cards, damage handling, Spirit aspects, island boards, and scenarios."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

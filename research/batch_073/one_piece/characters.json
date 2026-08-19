@@ -1,0 +1,70 @@
+[
+  {
+    "character_id": "CHR-SRC206-001",
+    "canonical_name": "Monkey D. Luffy",
+    "aliases": ["Luffy"],
+    "source_id": "SRC-206",
+    "source_title": "One Piece",
+    "continuity": "VIZ English One Piece, Vol. 1 (2003)",
+    "work_or_witness": "VIZ Volume 1 product synopsis and official series description",
+    "character_kind": "individual",
+    "description": "A young would-be pirate inspired by the buccaneer Red-Haired Shanks, who accidentally eats the Gum-Gum Devil Fruit, gains the ability to stretch like rubber, loses the ability to swim, and leaves alone in a rowboat to seek the One Piece and become King of the Pirates.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "aspiring pirate", "archetype_ids": [], "confidence": "high", "note": "VIZ directly states Luffy vows/dreams to become a pirate and King of the Pirates; this is an opening aspiration, not an achieved title or a real-world role equivalence."}],
+      "power_traditions": [{"term": "Gum-Gum Devil Fruit ability", "archetype_ids": [], "confidence": "high", "note": "VIZ directly attributes Luffy's rubber-like stretching power to accidental consumption of the named fruit; no complete Devil Fruit system is inferred."}],
+      "affiliations": [],
+      "states_and_transformations": [{"term": "rubber-like stretching and inability to swim", "archetype_ids": [], "confidence": "high", "note": "Direct VIZ premise wording; no medical diagnosis, physics claim, or later ability development is asserted."}],
+      "artifacts_and_vehicles": [{"term": "rowboat", "archetype_ids": [], "confidence": "high", "note": "VIZ describes the opening departure as Luffy alone in a rowboat; no later ship/crew is inferred."}],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [{"term": "treasure seeker", "archetype_ids": [], "confidence": "high", "note": "The stated initial objective is the legendary One Piece, said by VIZ to be the greatest treasure in the world."}],
+      "game_mechanics": []
+    },
+    "canon_status": "Named central individual directly described by the selected VIZ English Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://www.viz.com/manga-books/manga/one-piece-volume-1-0/product/139", "locator": "Volume 1 synopsis, line 50", "supports": ["Monkey D. Luffy/Luffy names, Shanks inspiration, Gum-Gum Devil Fruit, rubber stretching, inability to swim, pirate-king aspiration, rowboat, and One Piece objective"]}],
+    "comparison_cautions": [
+      "Piracy and the King-of-the-Pirates aspiration are source-specific fictional adventure roles, not a historical-piracy, colonial, maritime-law, or criminality equivalence.",
+      "The ability/cost premise does not establish a complete Devil Fruit category, Haki, later transformations, combat capacity, crew, origin, family, or ending.",
+      "Hazardous seafaring, inability to swim, adventure violence, and later colonial/oppression themes are not expanded into claims beyond the narrow VIZ premise; no anime, game, novel, guidebook, live-action, or later manga content is used."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC206-002",
+    "canonical_name": "Shanks",
+    "aliases": ["Red-Haired Shanks"],
+    "source_id": "SRC-206",
+    "source_title": "One Piece",
+    "continuity": "VIZ English One Piece, Vol. 1 (2003)",
+    "work_or_witness": "VIZ Volume 1 product synopsis",
+    "character_kind": "individual",
+    "description": "The buccaneer called Red-Haired Shanks, whose tales inspire the child Luffy to become a pirate.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "buccaneer", "archetype_ids": [], "confidence": "high", "note": "Direct VIZ descriptor; it remains a source-specific fictional role and is not a historical occupational classification."}],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [{"term": "formative inspiration", "archetype_ids": [], "confidence": "high", "note": "VIZ states Luffy is inspired by listening to Shanks's tales; it does not establish mentorship, membership, or later contact."}],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly described by the selected VIZ English Volume 1 metadata.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://www.viz.com/manga-books/manga/one-piece-volume-1-0/product/139", "locator": "Volume 1 synopsis, line 50", "supports": ["Shanks name and Red-Haired alias, buccaneer descriptor, and stated inspiration of Luffy"]}],
+    "comparison_cautions": [
+      "The VIZ synopsis supports a title/descriptor and an inspirational connection only; it does not establish Shanks's crew, power, political status, history, or outcome.",
+      "'Buccaneer' is not treated as an equivalence to historical piracy, colonial history, maritime law, or real communities.",
+      "No anime, game, novel, guidebook, live-action, later-manga, violence, or outcome material is imported."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

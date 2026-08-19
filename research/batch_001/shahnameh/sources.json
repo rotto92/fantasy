@@ -1,0 +1,103 @@
+[
+  {
+  "source_id": "SRC-011",
+  "source_title": "Shāhnāmeh (The Book of Kings)",
+  "continuity_scope": "Ferdowsi's Shāhnāmeh as witnessed in the named Warner & Warner translation; later oral, illustrated, dramatic, screen, game, and prose-adaptation continuities excluded.",
+  "creator": "Abu'l-Qasem Ferdowsi (Firdausi)",
+    "medium": "Persian epic poem",
+    "continuity": "Ferdowsi's Shāhnāmeh only; no modern screen, game, oral-epic, or manuscript-illustration adaptation continuity is merged into this pass.",
+  "work_or_witness": "Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), read here through the Internet Archive scans; translation spelling is normalized in display names where unambiguous.",
+  "work_or_witnesses": ["Arthur George Warner and Edmond Warner, trans., The Shahnama of Firdausi, 9 vols. (London: Kegan Paul, Trench, Trübner, 1905–1925), Vols. I–VI cited in this pass."],
+    "language": "New Persian original; English translation witness",
+    "scope_note": "A representative foundational character pass across the Pishdadian, Kayanian, heroic, and selected post-Kayanian/historical-legendary sequences. It records characters, not peoples, places, dynasties, artifacts, offices, or abstract powers.",
+  "coverage_rule": "Include major named rulers, protagonists, antagonists, kin, court figures, and active supernatural or animal agents in the identified poem; additionally include named figures needed to show the poem's distinct succession, heroic, demon, and guardian-bird patterns. Deliberately exclude anonymous monsters, generic armies, unnamed spouses/children, and named figures whose role is only incidental to this foundational pass.",
+  "in_scope_character_count": 49,
+  "completed_character_count": 49,
+  "omissions": ["The full poem contains many more named royals, warriors, envoys, and historical figures than this foundational pass.", "Anonymous dīvs, dragons, armies, and collective peoples are dimensions or narrative entities, not character nodes.", "Figures prominent in later oral epics, modern retellings, and illustrated manuscript traditions are excluded unless they act in Ferdowsi's poem under this witness."],
+  "uncertainties": ["The Warner translation is complete but early and uses dated transliterations; normalized names are supplied alongside aliases.", "The poem reshapes earlier Iranian mythic, Zoroastrian, and historical material; this pass records the poem, not a reconstruction of those traditions.", "Dīv is semantically broad and context-dependent; mappings are deliberately partial."],
+  "completion_status": "pass-complete",
+  "evidence_basis": "Primary-text evidence is Warner & Warner's complete translation witness, with claim-specific volume/story/page locators. Encyclopaedia Iranica provides scholarly terminology and tradition-context checks.",
+  "citations": [
+    {"url":"https://archive.org/details/shahnama01firduoft","locator":"Vol. I, Warner & Warner (1905), title and contents","supports":["identified translation witness"]},
+    {"url":"https://www.iranicaonline.org/articles/sah-nama/","locator":"ŠĀH-NĀMA, overview","supports":["scholarly corpus orientation"]}
+  ],
+  "last_reviewed": "2026-08-04",
+    "citation_method": "Character and relationship citations identify the relevant Warner volume and printed story/section/page range. The linked Internet Archive scan is claim-specific at volume level; printed pagination is the stable fine-grained locator. Encyclopaedia Iranica is used for source-term and tradition-context claims, not to silently substitute later folklore or historical reconstruction for the poem.",
+    "sources": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, Warner & Warner (1905): pp. 118–334 (Pishdadian sequence; Manuchehr, Zal, Rudabeh, and Rustam's birth)",
+        "supports": [
+          "identified primary translation witness and early mythical/heroic character evidence"
+        ]
+      },
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, Warner & Warner (1907): pp. 29–284 (Kay Kāvūs, Seven Courses, Sohrab, Siyāvash)",
+        "supports": [
+          "identified primary translation witness and central heroic-cycle evidence"
+        ]
+      },
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, Warner & Warner (1910): pp. 1–420 (Kay Khusrau, Bijan and Manizheh)",
+        "supports": [
+          "identified primary translation witness and Turanian/heroic-cycle evidence"
+        ]
+      },
+      {
+        "url": "https://archive.org/details/shahnama04firduoft",
+        "locator": "Vol. IV, Warner & Warner (1915): pp. 158–316 (Afrasiyab's defeat, Kay Khusrau, Lohrasp)",
+        "supports": [
+          "identified primary translation witness and Kayanian transition evidence"
+        ]
+      },
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, Warner & Warner (1920): pp. 31–292 (Goshtasp, Zardusht, Arjasp, Esfandiyar, Rustam and Shaghad)",
+        "supports": [
+          "identified primary translation witness and late heroic-cycle evidence"
+        ]
+      },
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, Warner & Warner (1922): pp. 20–286 (Darab, Dara, Sikandar, Ardashir, Shapur)",
+        "supports": [
+          "identified primary translation witness and selected later legendary-history evidence"
+        ]
+      },
+      {
+        "url": "https://www.iranicaonline.org/articles/sah-nama/",
+        "locator": "ŠĀH-NĀMA, overview and section V, ‘Excursus’",
+        "supports": [
+          "scholarly orientation on the poem's composition, cycles, and characterization"
+        ]
+      },
+      {
+        "url": "https://www.iranicaonline.org/articles/sahnama-excursus/",
+        "locator": "ŠĀH-NĀMA V. EXCURSUS, discussion of Rostam, Sohrab, Esfandiyar, Afrasiyab, and the poem's characterization",
+        "supports": [
+          "scholarly caution against flattening the poem's figures into simple archetypes"
+        ]
+      }
+    ],
+    "source_audit": {
+      "status": "complete",
+      "in_scope_count": 49,
+      "completed_count": 49,
+      "omissions": [
+        "The full poem contains many more named royals, warriors, envoys, and historical figures than this foundational pass.",
+        "Anonymous dīvs, dragons, armies, and collective peoples are dimensions or narrative entities, not character nodes.",
+        "Figures prominent in later oral epics, modern retellings, and illustrated manuscript traditions are excluded unless they act in Ferdowsi's poem under this witness."
+      ],
+      "uncertainties": [
+        "The Warner translation is complete but early and uses dated transliterations (for example, Rustam/Suhrab/Kaus and Zarduhsht); normalized names are supplied alongside aliases.",
+        "The Shāhnāmeh reshapes earlier Iranian mythic, Zoroastrian, and historical material. This file describes the poem's narrative presentation, not a reconstruction of pre-Ferdowsian religion or history.",
+        "Dīv is semantically broad and context-dependent; mappings are deliberately partial. Simorgh is treated as the poem's named active bird, while its broader Iranian history is retained in source terms.",
+        "The poem's versions and manuscripts vary; this pass does not make stemmatic or textual-critical claims beyond the stated translation witness."
+      ],
+      "validation_scope": "All 49 included characters have at least one witness citation; all relationships are between included characters and have their own citation.",
+      "next_review": "Sample at least 20% of character claims and every dīv, farr/xvarənah, Simorgh, Zardusht, and historical-legendary boundary claim against a modern critical edition or specialist translation before workbook promotion."
+    }
+  }
+]

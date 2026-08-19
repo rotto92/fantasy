@@ -1,0 +1,68 @@
+[
+  {
+    "source_id": "SRC-192",
+    "source_title": "Shadowrun Returns",
+    "continuity_scope": "Shadowrun Returns original English PC base game, using Paradox's official game page and the publisher Steam listing as the selected product witnesses: Harebrained Schemes developer, 25 July 2013 Steam release. This is a narrow product/system and plot-premise audit, not an audit of every edition or the broader Shadowrun setting. It excludes Shadowrun: Dragonfall - Director's Cut, Shadowrun: Hong Kong - Extended Edition, the 2022 console-remastered Shadowrun Trilogy, soundtrack and Anthology material, later ports/patches, tabletop editions and sourcebooks, other Shadowrun media, user-generated campaigns/mods, and individual player saves/endings.",
+    "work_or_witnesses": [
+      {
+        "work": "Shadowrun Returns",
+        "edition": "English Steam product listing, Harebrained Schemes developer / Paradox Interactive publisher, released 25 July 2013; selected date and mature-content witness.",
+        "url": "https://store.steampowered.com/app/234650/Shadowrun_Returns/"
+      },
+      {
+        "work": "Shadowrun Returns",
+        "edition": "Paradox Interactive official product page; selected English premise and systems witness.",
+        "url": "https://www.paradoxinteractive.com/games/shadowrun-returns/about"
+      },
+      {
+        "work": "Shadowrun Trilogy Arriving on Consoles on June 21, 2022",
+        "edition": "Paradox Interactive press release, 20 April 2022; used only to distinguish the console remaster and standalone sequels.",
+        "url": "https://www.paradoxinteractive.com/media/press-releases/press-release/shadowrun-trilogy-arriving-on-consoles-on-june-21-2022"
+      }
+    ],
+    "coverage_rule": "Terms-only, evidence-limited pass. The player Shadowrunner is expressly a second-person player role with selectable starting archetype and classless advancement, so it is not a fixed character node. The selected official witnesses refer generally to other runners but provide no named companion/NPC profile or claim-level story dossier; therefore no stable individual is entered and no relationship is inferred. Metatypes, archetypes, corporations, magic, technology, Matrix/decking, cyberware, items, places, factions, combat, and endings remain terms/dimensions. A future pass may add named individuals only from direct Harebrained/Paradox character or story material for this exact continuity.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "The player-created Shadowrunner, all starting archetype/metatype choices, player-assigned appearance/build/name, team composition, dialogue choices, moral choices, save states, and possible outcomes/endings.",
+      "All named companions, NPCs, enemies, and plot participants: no direct official individual character profile or character-specific story witness was located in the selected official source set, so none is reconstructed from memory, tabletop material, a different game, or unofficial sources.",
+      "All generic systems and setting entities, including Shadowrunners, metatypes, archetypes, corporations, magic, drones, Matrix/decking, cyberware, weapons, spells, Seattle, and the Redmond Barrens as character nodes.",
+      "Dragonfall, Hong Kong, the 2022 console-remastered Trilogy, Anthology short stories, soundtrack, ports, patches, tabletop continuities, adaptations, mods, user campaigns, and content from any other Shadowrun work."
+    ],
+    "content_cautions": [
+      "The developer's mature-content notice specifies violence and gore, dead bodies, severed body parts, blood, suicide, references to sexual abuse, alcohol/tobacco references, and strong language.",
+      "The game premise depicts a dystopian society marked by corporate exploitation and uses cyberpunk/fantasy conflict. Player decisions, team membership, tactics, and endings vary; this audit does not canonize a player's choices or outcomes."
+    ],
+    "uncertainties": [
+      "The accessible official witnesses are marketing/product pages rather than an archived build, script, or official character encyclopedia. They establish the premise and system boundaries but not a directly citable individual profile; the zero-character result is intentional rather than a claim that named figures do not exist in the game.",
+      "The selected current English product pages do not identify a precise executable patch/build number for the 2013 PC witness. No later balance, scripting, localization, or port behavior is attributed to that initial release.",
+      "Shadowrun Returns is officially described as modernizing the classic Shadowrun setting and its designer is identified as the creator of the original tabletop RPG, but this does not establish identity or event continuity for any particular tabletop edition, novel, prior game, or later CRPG."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Paradox's official product page establishes the 2054 magic-and-technology premise, player Shadowrunner role, Seattle mystery setup, team recruitment language, classless progression, and system vocabulary. The Paradox-published Steam listing establishes Harebrained Schemes/Paradox attribution, 25 July 2013 release date, and the developer's mature-content description. Paradox's 2022 press release establishes the later remastered console Trilogy and identifies Dragonfall and Hong Kong as standalone sequels. No fan wiki, Wikipedia, unofficial guide, mod, datamine, tabletop rulebook, or user playthrough is used.",
+    "citations": [
+      {
+        "url": "https://www.paradoxinteractive.com/games/shadowrun-returns/about",
+        "locator": "Man Meets Magic and Machine; Introduction; Main features",
+        "supports": [
+          "The base premise, player Shadowrunner role, Seattle story setup, and archetype/technology/magic systems."
+        ]
+      },
+      {
+        "url": "https://store.steampowered.com/app/234650/Shadowrun_Returns/",
+        "locator": "Product header, About This Game, and Mature Content Description",
+        "supports": [
+          "Harebrained/Paradox product attribution, 25 July 2013 date, wider product description, and content cautions."
+        ]
+      },
+      {
+        "url": "https://www.paradoxinteractive.com/media/press-releases/press-release/shadowrun-trilogy-arriving-on-consoles-on-june-21-2022",
+        "locator": "20 April 2022 press release, paragraphs 1-2",
+        "supports": [
+          "The 2022 console remaster boundary and Dragonfall/Hong Kong standalone-sequel separation."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "relationship_id": "REL-SRC078-001",
+    "source_id": "SRC-078",
+    "source_character_id": "CHR-SRC078-001",
+    "target_character_id": "CHR-SRC078-002",
+    "relationship_type": "ally",
+    "label": "Lan Wangji stands with Wei Wuxian as they confront the mysteries surrounding Wei's second life in the official synopsis.",
+    "direction": "undirected",
+    "continuity": "Seven Seas Novel Vol. 1 publisher-synopsis witness",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/grandmaster-of-demonic-cultivation-mo-dao-zu-shi-novel-vol-1/",
+        "locator": "Official synopsis, line 47",
+        "supports": [
+          "Lan Wangji at Wei Wuxian's side, with shared memories helping address surrounding truths."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Synopsis-only cooperation; not a claim about a more specific romantic, marital, sect, or adaptation-defined status."
+  }
+]

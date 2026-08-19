@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "SRC-183",
+    "source_title": "Romancing SaGa 2: Revenge of the Seven",
+    "continuity_scope": "Romancing SaGa 2: Revenge of the Seven, the Nintendo Switch US-English digital release of Square Enix's full 3D remake, released 24 October 2024. It is a remake of the original 1993 Romancing SaGa 2, not the original game, its 2010/2017 releases, any other SaGa anthology title, or the later Nintendo Switch 2 Edition. Square Enix's Japanese official remake site is used for direct character profiles of the Seven Heroes and Gerard; its profile claims are limited to non-route-specific identity/background material. Player-selected Emperors, succession, recruitment, chronology, victories, deaths, and endings remain variable.",
+    "work_or_witnesses": [
+      {
+        "work": "Romancing SaGa 2: Revenge of the Seven",
+        "edition": "Nintendo Switch US digital release, 24 October 2024; Square Enix publisher description and US-English localization/platform witness.",
+        "url": "https://www.nintendo.com/us/store/products/romancing-saga-2-revenge-of-the-seven-switch/"
+      },
+      {
+        "work": "Romancing SaGa 2: Revenge of the Seven official site",
+        "edition": "Square Enix Japanese official remake site, including character profiles and system/announcement material; used for direct profile claims and exact remake/edition boundaries only.",
+        "url": "https://www.jp.square-enix.com/rs2r/"
+      },
+      {
+        "work": "Romancing SaGa 2: Revenge of the Seven: Introduction",
+        "edition": "Square Enix official remake story/feature page; used for the opening plot, remake changes, and update boundary.",
+        "url": "https://www.jp.square-enix.com/rs2r/introduction/"
+      },
+      {
+        "work": "Romancing SaGa 2: Revenge of the Seven: System",
+        "edition": "Square Enix official remake system page; used for succession and free-scenario/player-variability boundaries.",
+        "url": "https://www.jp.square-enix.com/rs2r/system/"
+      }
+    ],
+    "coverage_rule": "All eight named dramatic individuals directly profiled in the selected remake's official character material: Gerard and the Seven Heroes Wagnas, Noel, Subier, Rocbouquet, Dantarg, Bokhohn, and Kzinssie. The official profiles supply stable identity/background claims for that defined cohort, so all eight are recorded. No Emperor class candidate, generic class member, recruit, enemy, historical ruler, party member, or unprofiled named figure is included. Selectable Emperors, races, classes, formations, glimmers, items, areas, timelines, and mechanics remain terms/dimensions. Relationships are recorded only when a direct profile explicitly names both character endpoints; route, party, succession, victory, death, and ending outcomes are not universalized.",
+    "in_scope_character_count": 8,
+    "completed_character_count": 8,
+    "omissions": [
+      "All player-selected Emperors and successor lineages; over-30-class candidates; generic class members; recruits; party builds; unprofiled named NPCs; historical rulers; monsters; and all other unprofiled Seven-Heroes-era agents.",
+      "All original 1993/2010/2017 Romancing SaGa 2 versions; SaGa, Romancing SaGa, Romancing SaGa 3, SaGa Emerald Beyond, other anthology entries and remasters; and the Nintendo Switch 2 Edition or any other later platform version.",
+      "All free-scenario branches, Emperor choices/successions, recruitment states, battle order, absorbed targets, territory development, timelines, deaths, defeats, and endings; the pre-release demo except its stated transfer boundary; and DLC/bonus-item mechanical effects."
+    ],
+    "content_cautions": [
+      "Official material depicts war, monsters/fiends, murder in the opening premise, vengeance, forced exile, long-term conflict, and combat. Nintendo lists fantasy violence, mild blood, mild language, and partial nudity.",
+      "The game frames a multi-generation imperial campaign with selectable rulers and broad player choice. Kinship and historical-background facts directly stated in profiles are recorded, but no choice-dependent lineage, party, death, conquest, romance, or ending is treated as shared canon."
+    ],
+    "uncertainties": [
+      "Nintendo's US storefront establishes the selected English Switch release. The official direct character profiles are on Square Enix's Japanese remake site, so they support stable names/background facts but this pass does not compare Japanese and English terminology, voice credits, or localization nuance.",
+      "The official site records a later music update and later Nintendo Switch 2 Edition. Neither is imported into the selected 2024 Switch witness except as a version/update boundary.",
+      "The source presents multiple physical forms for Seven Heroes and a player-driven succession chronology. This pass does not infer a fixed chronology, preferred form, acquisition state, or universal defeat/order from a character page alone."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Nintendo's official US product listing establishes the 2024 Switch version, publisher-provided premise, original/remake relationship, language/platform scope, content descriptors, selectable-Emperor system, free-form scenario, battle systems, and DLC listing. Square Enix's first-party remake site directly profiles Gerard and all Seven Heroes and establishes remake, demo, succession, free-scenario, update, and later-version boundaries. No fan wiki, Wikipedia, guide, datamine, playthrough, or player campaign is used.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/romancing-saga-2-revenge-of-the-seven-switch/",
+        "locator": "Save Your Empire. Defend Your Legacy; Characters & Imperial Succession; Free-Form Scenario; About this item; DLC",
+        "supports": [
+          "US Switch version/date/languages/descriptors/DLC, full-3D-remake boundary, Seven-Heroes premise, player-variable Emperor/succession system, free-form scenario, and battle mechanics."
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/rs2r/",
+        "locator": "Introduction, System, and Seven Heroes character links",
+        "supports": [
+          "Square Enix's official remake identity, direct Seven-Hero profile pages, demo boundary, succession/free-scenario language, and later Nintendo Switch 2 Edition boundary."
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/rs2r/introduction/",
+        "locator": "Story and Rebuild",
+        "supports": [
+          "Official opening plot involving Kzinssie, Victor, Leon, Gerard, and inheritance magic, plus remake changes and music-update boundary."
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/rs2r/system/",
+        "locator": "Imperial succession",
+        "supports": [
+          "Official description of circumstances producing succession and partial ability inheritance."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

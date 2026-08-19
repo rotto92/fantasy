@@ -1,0 +1,37 @@
+[
+  {
+    "source_id":"SRC-158",
+    "source_title":"Fable",
+    "continuity_scope":"The original English-language Fable Xbox release (2004), as witnessed by the Lionhead/Big Blue Box/Microsoft credited original game manual that Xbox Wire announced as an Xbox Originals manual PDF. This pass excludes Fable: The Lost Chapters, Fable Anniversary, Fable II/III and other series games, the announced/reimagined later Fable, patches, ports, localized text, DLC, books, and adaptations.",
+    "work_or_witnesses":[
+      "Fable original Xbox game manual, Fable © 2004 Lionhead Studios Ltd.; Lionhead/Big Blue Box design and Microsoft Game Studios credits",
+      "Xbox Wire: 'Xbox Originals Manuals and Controller layouts', 4 December 2007",
+      "Steam-hosted Fable Anniversary manual (later-edition boundary/orientation only)"
+    ],
+    "coverage_rule":"Zero-character audit. Include a stable named NPC dramatic individual only when the original Xbox manual provides both an individual name and a claim-level role/action/description. The manual uses generic 'Guildmaster' and Hero-apprentice/player language; it contains the place label 'Maze’s Quarters' but no individual profile of Maze; and it supplies no other named dramatic NPC profile. The Hero is choice-shaped and addressed only as an apprentice/Hero, so neither it nor any player-specific identity is a character node. Consequently no character or relationship record is created.",
+    "in_scope_character_count":0,
+    "completed_character_count":0,
+    "omissions":[
+      "The player Hero/apprentice: morality, gender/presentation, physical alteration, Renown, combat build, equipment, actions, quests, marriage, relationships, alignment, and ending are player-choice shaped in the manual.",
+      "The generic Guildmaster, guild members, Heroes, apprentices, villagers, bandits, traders, creatures, and all unnamed dramatic agents.",
+      "Maze: only a map label for 'Maze’s Quarters' is present in the manual witness, without a direct individual role/action/description; no character claim is manufactured from it.",
+      "Guilds/factions, morality, classes/skills, creatures, items, places, spells, quests, mechanics, the Guild Seal, and other non-character ontology.",
+      "The Lost Chapters, Anniversary, sequels/spinoffs/reboot/reimagining, ports, patches, English-variant or other localizations, official marketing claims not specific to original Fable, fan wikis, Wikipedia, walkthroughs, and databases."
+    ],
+    "uncertainties":[
+      "Xbox Wire directly documents that Xbox.com supplied a Fable manual PDF for Xbox Originals, but its linked historical PDF endpoint no longer resolves through the current web fetcher. The inspected scan is hosted by a third party and visibly carries copyright/design credits; host authorization, exact scan provenance, OCR fidelity, and current rights status are therefore uncertain.",
+      "The manual is a player guide rather than a campaign script, direct-game dialogue archive, NPC directory, or ending record. This zero-character outcome means no individual satisfies the stated evidence rule in this witness, not that original Fable lacks named NPCs.",
+      "The manual’s English US witness provides no comprehensive language list. Its credit page names localization teams in Ireland, Japan, Korea, and Taiwan, but that is not treated as proof of exact released language sets or wording identity.",
+      "The later Steam-hosted Anniversary manual has revised controls and is used only to record a remake/edition boundary, never to add character or original-game claim content.",
+      "The manual says choices affect morality, appearance, Renown, and social response; no particular player path, quest result, romance, death, or reputation is universal."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Original-game manual evidence, with Microsoft/Xbox Wire's historical first-party announcement corroborating that an official manual PDF was supplied for Fable. The surviving inspected scan is an archival third-party host and carries an explicit confidence/provenance caveat. No fan wiki, Wikipedia, walkthrough, community guide, cast list, or database is used as canonical evidence.",
+    "citations":[
+      {"url":"https://news.xbox.com/en-us/2007/12/04/xbox-originals-manuals-and-controller-layouts-and-free-themes-and-picture-packs/","locator":"Xbox Wire, lines 25–47; Fable and 'Manual' links at line 37","supports":["Microsoft/Xbox publication of a Fable Xbox Originals manual-PDF link and historical official-manual provenance"]},
+      {"url":"https://nuangel.net/pcdownloads/xboxmanuals/Fable_MNL_EN-US.pdf","locator":"Original manual: contents/Word from Guildmaster (roman pp. II–V), About the Guild (XII–XV), Way of a Hero (XVIII–XXI), credits/copyright (XXVIII–XXIX)","supports":["Original Fable manual text, Hero-choice and system terms, Maze label limitation, Lionhead/Big Blue Box/Microsoft credits, and 2004 copyright"]},
+      {"url":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/288470/manuals/FableAnniversaryManual.pdf?t=1577393306","locator":"Fable Anniversary manual: contents and controls pages","supports":["Later Anniversary-edition/manual boundary and altered control-scheme context only"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

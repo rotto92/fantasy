@@ -1,0 +1,71 @@
+[
+  {
+    "character_id": "CHR-SRC255-001",
+    "source_id": "SRC-255",
+    "canonical_name":"Bowen",
+    "aliases":[],
+    "source_title":"Dragonheart",
+    "continuity":"Original 1996 feature-film continuity",
+    "work_or_witness":"Dragonheart (1996 feature film)",
+    "character_kind":"individual",
+    "description":"A once-chivalrous knight who becomes a for-profit dragon slayer. The authorized synopsis says he makes a deal with Draco to act out dragon slayings and later must face King Einon.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[{"term":"knight","archetype_ids":[],"confidence":"high","note":"The authorized synopsis calls Bowen a once-chivalrous knight; no real historical knighthood mapping is inferred."},{"term":"for-profit dragon slayer","archetype_ids":[],"confidence":"high","note":"The authorized synopsis directly uses this occupation framing."}],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[{"term":"former chivalric knight","archetype_ids":[],"confidence":"high","note":"A descriptive label limited to the synopsis's 'once-chivalrous' wording."}],"game_mechanics":[]},
+    "canon_status":"Central named character in the selected original 1996 feature-film continuity.",
+    "evidence_level":"official-reference",
+    "citations":[
+      {
+        "url":"https://tv.apple.com/us/movie/dragonheart/umc.cmc.1r6u2kruxx9zawqvtiex4wfji","locator":"About","supports":["Bowen as a once-chivalrous knight who becomes a for-profit dragon slayer, makes a staged-slaying arrangement with Draco, and must face King Einon."]
+      },
+      {
+        "url":"https://catalog.afi.com/Film/60137-DRAGONHEART","locator":"Cast","supports":["Dennis Quaid's credited role as Bowen."]
+      }
+    ],
+    "comparison_cautions":["The knight and dragon-slayer labels are fictional synopsis descriptors, not real occupations, chivalric history, or a general propensity for violence.","No shared-heart, spiritual, bodily-injury, death, age, sequel, prequel, novelization, or game claim is imported."],
+    "spoiler_level":"light","review_status":"researched"
+  },
+  {
+    "character_id": "CHR-SRC255-002",
+    "source_id": "SRC-255",
+    "canonical_name":"Draco",
+    "aliases":[],
+    "source_title":"Dragonheart",
+    "continuity":"Original 1996 feature-film continuity",
+    "work_or_witness":"Dragonheart (1996 feature film)",
+    "character_kind":"individual",
+    "description":"The dragon named as the last dragon in the authorized synopsis. He makes a deal with Bowen to act out dragon slayings and later must face King Einon.",
+    "dimensions":{"being_types":[{"term":"dragon","archetype_ids":[],"confidence":"high","note":"The authorized synopsis calls Draco the last dragon; this is a fictional being descriptor only."}],"cultures":[],"roles_and_vocations":[],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[{"term":"last dragon","archetype_ids":[],"confidence":"high","note":"The exact scarcity framing supplied by the authorized synopsis; it does not establish broader franchise lore."}],"game_mechanics":[]},
+    "canon_status":"Central named character in the selected original 1996 feature-film continuity.",
+    "evidence_level":"official-reference",
+    "citations":[
+      {
+        "url":"https://tv.apple.com/us/movie/dragonheart/umc.cmc.1r6u2kruxx9zawqvtiex4wfji","locator":"About; Cast & Crew","supports":["Draco as the last dragon; his staged-slaying deal with Bowen; and Sean Connery's voice-performer credit."]
+      }
+    ],
+    "comparison_cautions":["Dragon and last-dragon are fictional source labels only; they are not real biological, cultural, spiritual, or species claims.","The voice credit corroborates performance casting only; no character ontology is inferred from the performer. No shared-heart/soul mechanism or later-franchise material is imported."],
+    "spoiler_level":"light","review_status":"researched"
+  },
+  {
+    "character_id": "CHR-SRC255-003",
+    "source_id": "SRC-255",
+    "canonical_name":"King Einon",
+    "aliases":["Einon"],
+    "source_title":"Dragonheart",
+    "continuity":"Original 1996 feature-film continuity",
+    "work_or_witness":"Dragonheart (1996 feature film)",
+    "character_kind":"individual",
+    "description":"The king whom the authorized synopsis calls a tyrant and says Bowen and Draco must face.",
+    "dimensions":{"being_types":[],"cultures":[],"roles_and_vocations":[{"term":"king","archetype_ids":[],"confidence":"high","note":"The authorized synopsis directly names King Einon; no real monarchy mapping is made."}],"power_traditions":[],"affiliations":[],"states_and_transformations":[],"artifacts_and_vehicles":[],"cosmologies_and_realms":[],"metaphysical_laws_and_rituals":[],"narrative_archetypes":[{"term":"tyrant","archetype_ids":[],"confidence":"high","note":"This is the synopsis's political characterization, not a clinical or personality judgment."}],"game_mechanics":[]},
+    "canon_status":"Named antagonist in the selected original 1996 feature-film continuity.",
+    "evidence_level":"official-reference",
+    "citations":[
+      {
+        "url":"https://tv.apple.com/us/movie/dragonheart/umc.cmc.1r6u2kruxx9zawqvtiex4wfji","locator":"About","supports":["King Einon as the tyrant Bowen and Draco must face."]
+      },
+      {
+        "url":"https://catalog.afi.com/Film/60137-DRAGONHEART","locator":"Cast","supports":["David Thewlis's credited role as Einon."]
+      }
+    ],
+    "comparison_cautions":["Tyrant is the synopsis's fictional political framing, not a clinical, legal, or personality diagnosis.","No claim about bodily injury, death, youth, spiritual belief, shared-heart/soul mechanics, or later-franchise continuity is made."],
+    "spoiler_level":"light","review_status":"researched"
+  }
+]

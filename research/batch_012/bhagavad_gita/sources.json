@@ -1,0 +1,54 @@
+[
+  {
+    "source_id": "SRC-278",
+    "source_title": "Bhagavad Gītā (Mahābhārata, Bhīṣma Parva)",
+    "continuity_scope": "A character-layer pass for the Bhagavad Gītā as the 18-chapter Sanskrit dialogue embedded in the Mahābhārata's Bhīṣma Parva. It treats the Gītā as a sacred textual unit, not as a stand-alone fantasy setting or a substitute for the wider epic. Verse numbering follows the 700-verse received Gītā as presented by IIT Kanpur's Gita Supersite; the embedded location is cross-checked against scholarly reference to the Poona/BORI edition.",
+    "work_or_witnesses": [
+      {
+        "work": "Śrīmad Bhagavad Gītā",
+        "edition": "Sanskrit root verses, with selectable translations and commentaries, Gita Supersite, Indian Institute of Technology Kanpur",
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad/bookview"
+      },
+      {
+        "work": "Bhagavad Gita",
+        "edition": "Oxford Bibliographies in Hinduism entry by Simon Brodbeck; contextual reference only",
+        "url": "https://academic.oup.com/reference/62357/reference-article-abstract/554517840"
+      }
+    ],
+    "coverage_rule": "Include every named speaker or framing interlocutor who materially performs the bounded dialogue: the opening questioner, the reporting narrator, and the two direct interlocutors. A name merely catalogued in the battlefield scene, named only in an analogy, or displayed on a banner is excluded unless that figure speaks or materially acts within this textual unit. This rule yields Dhṛtarāṣṭra, Sañjaya, Arjuna, and Kṛṣṇa.",
+    "in_scope_character_count": 4,
+    "completed_character_count": 4,
+    "omissions": [
+      "Battlefield names in chapter 1 that do not become speaking or materially acting agents within this bounded dialogue, including Duryodhana, Bhīṣma, Droṇa, and the named warriors in the army catalogue.",
+      "Vyāsa, though named in Sañjaya's closing statement, because he does not speak or materially act in the bounded dialogue; no cross-source character endpoint is created for him.",
+      "Hanumān on Arjuna's banner, divine beings named in illustrative or revelatory speech, unnamed armies, places, chariots, and concepts.",
+      "The wider Mahābhārata narrative, Harivaṃśa, regional recensions, translations, commentarial schools, devotional retellings, performances, and modern adaptations.",
+      "Claims about contemporary Hindu practice, universal Hindu doctrine, or consensus among traditions beyond the cited verse and explicitly identified commentary layers."
+    ],
+    "uncertainties": [
+      "The Gītā has extensive and sometimes divergent commentarial, philosophical, linguistic, devotional, and reception histories. This pass records root-text claims and identifies commentary only as commentary, not as a settled universal reading.",
+      "The Gita Supersite is a scholarly/institutional digital presentation, not a new critical edition. Verse locators should be checked against a chosen printed critical edition for source-critical work.",
+      "The precise relation of the received 700-verse Gītā to Mahābhārata manuscript and critical-edition layers requires specialist textual-critical review; Oxford identifies it as Mahābhārata 6.23–6.40 in the Poona edition.",
+      "Dharma, yoga, karma, bhakti, prakṛti, guṇa, ātman, and divya cakṣus are retained as source-language terms. They are not equivalences for alignment, class, spell, resource, race, or game mechanic."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Claim-specific Sanskrit-verse locators use IIT Kanpur's Gita Supersite, which presents the root text alongside clearly labeled translation/commentary layers. Oxford Academic supports the embedded-text context and received chapter/verse framing. The four-person boundary is intentionally narrower than SRC-277's 49-character Mahābhārata BORI companion pass. The same names are independently represented with SRC-278 IDs; no identity merge or claim transfer to SRC-277 is implied.",
+    "citations": [
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad/bookview",
+        "locator": "Śrīmad Bhagavad Gītā, root-text book view; opening verse 1.1",
+        "supports": [
+          "Declared Sanskrit dialogue witness and its framed opening speakers."
+        ]
+      },
+      {
+        "url": "https://academic.oup.com/reference/62357/reference-article-abstract/554517840",
+        "locator": "Simon Brodbeck, 'Bhagavad Gita,' introductory extract",
+        "supports": [
+          "The Gītā is an embedded part of the Sanskrit Mahābhārata; it is chapters 6.23–6.40 in the Poona edition and has 18 chapters/700 verses."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

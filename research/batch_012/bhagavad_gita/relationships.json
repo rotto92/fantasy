@@ -1,0 +1,54 @@
+[
+  {
+    "relationship_id": "REL-SRC278-001",
+    "source_id": "SRC-278",
+    "source_character_id": "CHR-SRC278-002",
+    "target_character_id": "CHR-SRC278-001",
+    "relationship_type": "other",
+    "label": "Sañjaya is the reporting interlocutor whom Dhṛtarāṣṭra addresses.",
+    "direction": "directed",
+    "continuity": "Received 18-chapter Sanskrit Bhagavad Gītā; Gita Supersite verse presentation",
+    "citations": [{"url": "https://www.gitasupersite.iitk.ac.in/srimad/bookview", "locator": "Bhagavad Gītā 1.1, Sanskrit root verse", "supports": ["Dhṛtarāṣṭra directly addresses Sañjaya in the opening question."]}],
+    "confidence": "high",
+    "note": "A framed reporting relation within this text, not an inferred office in the wider epic."
+  },
+  {
+    "relationship_id": "REL-SRC278-002",
+    "source_id": "SRC-278",
+    "source_character_id": "CHR-SRC278-004",
+    "target_character_id": "CHR-SRC278-003",
+    "relationship_type": "mentor",
+    "label": "Kṛṣṇa instructs Arjuna after Arjuna declares himself his student.",
+    "direction": "directed",
+    "continuity": "Received 18-chapter Sanskrit Bhagavad Gītā; Gita Supersite verse presentation",
+    "citations": [{"url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&etgb=1&etssa=1&field_chapter_value=2&field_nsutra_value=7&language=dv", "locator": "Bhagavad Gītā 2.7, Sanskrit root verse", "supports": ["Arjuna calls himself Kṛṣṇa's śiṣya and asks Kṛṣṇa to instruct him."]}],
+    "confidence": "high",
+    "note": "The English graph label 'mentor' is a limited relational convenience; śiṣya and the Gītā's religious-philosophical teaching remain source-specific."
+  },
+  {
+    "relationship_id": "REL-SRC278-003",
+    "source_id": "SRC-278",
+    "source_character_id": "CHR-SRC278-004",
+    "target_character_id": "CHR-SRC278-003",
+    "relationship_type": "transformed-by",
+    "label": "Kṛṣṇa grants Arjuna divya cakṣus for the revelatory vision.",
+    "direction": "directed",
+    "continuity": "Received 18-chapter Sanskrit Bhagavad Gītā; Gita Supersite verse presentation",
+    "citations": [{"url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&ecsiva=1&etadi=1&etradi=1&field_chapter_value=11&field_nsutra_value=8&language=dv&setgb=1", "locator": "Bhagavad Gītā 11.8, Sanskrit root verse", "supports": ["Kṛṣṇa says he grants Arjuna divine sight so that he may behold Kṛṣṇa's aiśvara yoga."]}],
+    "confidence": "high",
+    "note": "'Transformed-by' records a specific vision-enabling act, not a generalized magical transformation."
+  },
+  {
+    "relationship_id": "REL-SRC278-004",
+    "source_id": "SRC-278",
+    "source_character_id": "CHR-SRC278-003",
+    "target_character_id": "CHR-SRC278-004",
+    "relationship_type": "student",
+    "label": "Arjuna declares himself Kṛṣṇa's śiṣya and asks to be taught.",
+    "direction": "directed",
+    "continuity": "Received 18-chapter Sanskrit Bhagavad Gītā; Gita Supersite verse presentation",
+    "citations": [{"url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&etgb=1&etssa=1&field_chapter_value=2&field_nsutra_value=7&language=dv", "locator": "Bhagavad Gītā 2.7, Sanskrit root verse", "supports": ["Arjuna says 'I am your śiṣya' and requests instruction from Kṛṣṇa."]}],
+    "confidence": "high",
+    "note": "Explicit source-language formulation; no modern educational hierarchy is assumed."
+  }
+]

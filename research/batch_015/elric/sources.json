@@ -1,0 +1,34 @@
+[
+  {
+    "source_id":"SRC-036",
+    "source_title":"Elric of Melniboné",
+    "continuity_scope":"Michael Moorcock's “The Dreaming City” exactly as published in Science Fantasy no. 47 (June 1961), the first Elric story. This is the original magazine-story witness, not the 1972 Elric of Melniboné novel, any revised or collected text, later Elric stories, Eternal Champion crossovers, comics, games, music, or adaptations.",
+    "work_or_witnesses":[
+      {"work":"“The Dreaming City”","edition":"Science Fantasy no. 47 (June 1961), original magazine publication; Internet Archive scan identifier Science_Fantasy_47v16_1961-06-07.","url":"https://archive.org/details/Science_Fantasy_47v16_1961-06-07/"},
+      {"work":"“The Dreaming City: A Sixtieth Anniversary Edition”","edition":"Jayde Design, 2021; 48-page individual edition edited by John Davey, with a Michael Moorcock foreword; used only for bibliographic distinction, not to replace the 1961 witness.","url":"https://moorcography.org/the-dreaming-city-a-sixtieth-anniversary-edition/"}
+    ],
+    "coverage_rule":"Include exactly the four named individuals who materially constitute the original story's revenge-and-raid core: Elric, Count Smiorgan Baldhead, Prince Yyrkoon, and Cymoril. This covers the exiled claimant, raid ally, usurper, and captive whose relationships directly drive the Imrryr raid and final runesword encounter. Named deities/cosmic forces, weapons, peoples, ships, cities, unnamed soldiers and pirates, and all other narrative figures remain dimensions or source terms. The pass is complete only for this four-person cohort in the 1961 story.",
+    "in_scope_character_count":4,
+    "completed_character_count":4,
+    "omissions":[
+      "Every Elric text other than the original 1961 “The Dreaming City,” including the 1972 novel Elric of Melniboné, subsequent revisions, collections, and chronology/republication variants",
+      "All later Elric, Eternal Champion, comic, game, musical, screen, and adaptation continuities",
+      "Named metaphysical beings and artifacts, including Arioch, Stormbringer, and Mournblade, which are dimensions/source terms rather than nodes in this pass",
+      "All unnamed raid participants, soldiers, citizens, dragon-riders, ships, and other non-individual entities"
+    ],
+    "uncertainties":[
+      "Moorcock's Elric texts have multiple publication, revision, and collection histories. This record intentionally follows the June 1961 magazine scan and makes no claim that its wording, ordering, or continuity is identical to later editions.",
+      "The Internet Archive provides access to a scan of the periodical; it is not an assertion that the work is public domain. Texas A&M's Moorcock archive notes that copyright in the author's papers remains with authors or descendants. This pass quotes no extended text and offers no copyright advice.",
+      "Terms such as Melnibonéan, barbarian, and racialized/decadence language belong to the 1961 fictional narration. They are retained only as source-specific terms and are not mapped to real peoples, cultures, or racial categories.",
+      "Stormbringer's agency and the exact causal responsibility for Cymoril's death are narrated through a fantastical action sequence; the record distinguishes Elric's action from the sword as an artifact rather than creating a weapon node."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Character and relationship claims use the original Science Fantasy scan and its downloadable full-text transcription, with exact title/scene locators and stable full-text line ranges. Moorcography and Texas A&M's Cushing Memorial Library provide bibliographic and archival context: the first publication in Science Fantasy no. 47, later anniversary edition, first Elric appearance, and the distinction between the wider Elric/Multiverse corpus and this witness.",
+    "citations":[
+      {"url":"https://archive.org/download/Science_Fantasy_47v16_1961-06-07/Science_Fantasy_47v16_1961-06-07_djvu.txt","locator":"“The Dreaming City,” full-text lines 222–1900 in the Internet Archive transcription of Science Fantasy no. 47","supports":["The primary story witness, its named characters, the Imrryr raid, and its final runesword sequence."]},
+      {"url":"https://moorcography.org/the-dreaming-city-a-sixtieth-anniversary-edition/","locator":"bibliographic description, lines 176–194","supports":["Science Fantasy no. 47 as the story's first publication, its June 1961 date, John Carnell editorship, and the separate 2021 edition." ]},
+      {"url":"https://findingaids.library.tamu.edu/index.php/michael-moorcock-manuscripts","locator":"collection description, lines 101–125 and 146–158","supports":["Elric's first appearance in “The Dreaming City,” wider Multiverse context, and archival copyright caution."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

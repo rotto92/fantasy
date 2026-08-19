@@ -1,0 +1,46 @@
+[
+  {
+    "source_id": "SRC-130",
+    "source_title": "Final Fantasy Tactics",
+    "continuity_scope": "FINAL FANTASY TACTICS 獵子戦争 (Final Fantasy Tactics: The War of the Lions), Japanese PlayStation Portable launch edition of 10 May 2007. This is a separate pass from the multi-title Final Fantasy sample (SRC-129), the 1997 original release, later mobile ports, Final Fantasy Tactics: The Ivalice Chronicles, and other Ivalice titles.",
+    "work_or_witnesses": [
+      "Square Enix product detail: FINAL FANTASY TACTICS 獵子戦争, PlayStation Portable, 2007.05.10",
+      "Square Enix Game Books catalogue: ファイナルファンタジータクティクス 獵子戦争 公式コンプリートガイド"
+    ],
+    "coverage_rule": "All individually named characters explicitly identified in the selected edition's official product-page story synopsis. The synopsis names only Ramza and Delita; each has a record. Source-native setting and release features remain source terms rather than character nodes.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "All other named people, because the selected official product synopsis does not identify them and no official character/codex profile for this bounded witness was used in this pass.",
+      "Jobs, factions, monsters, locations, the zodiac system, artifacts, and game mechanics; these are not character nodes.",
+      "The 1997 original, regional localizations, iOS/Android ports, Final Fantasy Tactics: The Ivalice Chronicles, and other Ivalice works."
+    ],
+    "uncertainties": [
+      "The selected official page is a high-level Japanese synopsis, not a complete dramatis-personae or chapter/codex archive; this pass is complete only for its explicit-name rule.",
+      "The official Japanese witness gives the names ラムザ and ディリータ. English localized surnames and other name variants were not asserted without a directly inspected edition-specific official profile.",
+      "The web product page is dynamically rendered; its product and story wording was checked from Square Enix's official page metadata/search rendering. Claims beyond that wording are intentionally excluded."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Square Enix edition page for the release boundary, story synopsis, named figures, and their stated connection; first-party Square Enix guide catalogue for the guide's date, extent, and added-content terminology. No fan wiki or unofficial plot summary was used as evidence.",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/fft_shi/",
+        "locator": "Story description; Product Information (PlayStation Portable; 2007.05.10)",
+        "supports": [
+          "Selected Japanese PSP edition and release date",
+          "Ivalice/Lion War premise",
+          "Ramza and Delita as the two explicitly named story figures",
+          "New movies and jobs in this edition"
+        ]
+      },
+      {
+        "url": "https://magazine.jp.square-enix.com/gamebooks/books/10111",
+        "locator": "Book details (2007年6月7日; 304 pages); description",
+        "supports": [
+          "Official guide witness and its coverage of added joint-battle and new-job elements"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

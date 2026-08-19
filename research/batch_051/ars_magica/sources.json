@@ -1,0 +1,91 @@
+[
+  {
+    "source_id": "SRC-104",
+    "source_title": "Ars Magica",
+    "continuity_scope": "Terms-only audit bound to Atlas Games’ Ars Magica 5E Standard Edition core rulebook, not the separately listed Ars Magica Definitive Edition Expanded Core Rulebook. The selected product’s hardcover release is November 2004 and its Standard Edition softcover release is September 2022. Supplements, previous editions, the unreleased/TBD Definitive Edition, fiction, third-party open-license works, and each home saga are separate witnesses and are not merged.",
+    "work_or_witnesses": [
+      {
+        "work": "Ars Magica 5E Standard Edition",
+        "edition": "Atlas Games fifth-edition standard core rulebook; hardcover November 2004, softcover September 2022",
+        "url": "https://www.atlas-games.com/product_tables/AG0205"
+      },
+      {
+        "work": "Ars Magica Fifth Edition Character Sheet",
+        "edition": "Official fifth-edition core support sheet, copyright 2004",
+        "url": "https://www.atlas-games.com/pdf_storage/arm5charsheet.pdf"
+      },
+      {
+        "work": "Ars Magica Fifth Edition Errata",
+        "edition": "Official errata page, February 2024 update",
+        "url": "https://www.atlas-games.com/arsmagica/arm5errata"
+      },
+      {
+        "work": "Ars Magica Open License",
+        "edition": "Official licensing statement, current",
+        "url": "https://atlas-games.com/arsmagica/openars"
+      },
+      {
+        "work": "Ars Magica Definitive Edition Set",
+        "edition": "Separate Expanded Core Rulebook product, release date TBD",
+        "url": "https://www.atlas-games.com/product_tables/AG0215"
+      }
+    ],
+    "coverage_rule": "No individual characters are included. The accessible official Standard 5E core page and character sheet identify player-character roles, covenants, Mythic Europe, magical Arts, and mechanics, but do not offer a stable claim-level profile for a named dramatic individual. Houses, Hermetic roles, magic Arts, covenants, creatures, medieval places, history, and rules remain terms/context unless an individual named dramatic character is directly profiled by the selected witness.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named individuals, historical people, saints, legendary beings, deities, sample magi, and story characters, because the selected accessible Standard 5E core witness does not provide claim-level dramatic profiles.",
+      "All claims from fifth-edition sourcebooks, adventures, tribunals, Realms of Power, Houses of Hermes, novels, fan material, and home sagas, even where marketed as usable with Fifth Edition.",
+      "All first- through fourth-edition material and all Definitive Edition Expanded Core Rulebook material; compatibility or shared terminology does not merge editions/products.",
+      "All real-world medieval historical, religious, legal, ethnic, geographic, or cultural claims not independently supported by appropriate historical scholarship."
+    ],
+    "uncertainties": [
+      "Mythic Europe blends historical and fantastical material for play. Its fictional depiction is not evidence about medieval Europe, Christianity, Islam, Judaism, other religions, historical communities, or historical people.",
+      "The Standard 5E product page says older sourcebooks are generally usable with the newest edition, but that is a compatibility statement, not a source hierarchy, continuity merger, or retcon resolution for this audit.",
+      "The official errata page includes corrections for the Fifth Edition Second Printing and was last updated in February 2024. It is a maintenance boundary; unexamined individual errata changes are not imported as terms or character claims.",
+      "Atlas lists Ars Magica Definitive Edition as a separate expanded core product with a release date of TBD. No Definitive Edition content, pagination, or changes are inferred into the selected Standard 5E record.",
+      "The current CC BY-SA 4.0 open license covers the text of Fifth Edition books, not their trade dress, graphic design, artwork, cartography, or logos unless specified. This audit records that copyright/license boundary and makes no legal determination about particular downstream works.",
+      "Magic, supernatural beings, and fictionalized religious material may be central to play. They are source-native fantasy constructs, not claims about living belief or real supernatural practice."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Atlas’s official Standard 5E core product page identifies a game about wizards and allies in Mythic Europe, its complete-core-rulebook status, troupe-style play, and the Arts built from Techniques and Forms. The official character sheet supports the core role/covenant and named mechanical fields. The official errata page, open-license page, and separate Definitive product page establish maintenance, licensing, and product-boundary cautions. No accessible official material supplies a claim-level dramatic profile for a named individual, so this is a terms-only rules/setting audit.",
+    "citations": [
+      {
+        "url": "https://www.atlas-games.com/product_tables/AG0205",
+        "locator": "Official Standard Edition product page, description, awards, and Vital Stats",
+        "supports": [
+          "Selected core-product identity, November 2004 hardcover and September 2022 softcover dates, Mythic Europe, complete-core status, troupe-style play, Arts, Techniques, Forms, and supplement-compatibility boundary."
+        ]
+      },
+      {
+        "url": "https://www.atlas-games.com/pdf_storage/arm5charsheet.pdf",
+        "locator": "Official Fifth Edition Character Sheet, header and Magical Arts/Base Casting Totals sections",
+        "supports": [
+          "Magus, covenant, Techniques/Forms, formulaic/ritual/spontaneous casting labels, and Parma-based magic-resistance field."
+        ]
+      },
+      {
+        "url": "https://www.atlas-games.com/arsmagica/arm5errata",
+        "locator": "Official errata page, introduction and ‘Ars Magica Fifth Edition, Second Printing’ heading",
+        "supports": [
+          "Fifth Edition errata scope and February 2024 last-update maintenance boundary."
+        ]
+      },
+      {
+        "url": "https://atlas-games.com/arsmagica/openars",
+        "locator": "Official open-license page, ‘What is the Ars Magica Open License?’ and released-titles sections",
+        "supports": [
+          "CC BY-SA 4.0 text-license scope, exclusions, and Standard 5E/Definitive product distinction."
+        ]
+      },
+      {
+        "url": "https://www.atlas-games.com/product_tables/AG0215",
+        "locator": "Official Definitive Edition Set product page, description and Vital Stats",
+        "supports": [
+          "Definitive Edition as a distinct expanded core product with TBD release date."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

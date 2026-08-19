@@ -1,0 +1,308 @@
+[
+  {
+    "character_id": "CHR-SRC258-001",
+    "canonical_name": "Harrow",
+    "aliases": [
+      "King Harrow"
+    ],
+    "source_id": "SRC-258",
+    "source_title": "The Dragon Prince — Season 1, Episodes 1–2",
+    "continuity": "Netflix animated series; official S1E1–S1E2 synopsis witness",
+    "work_or_witness": "Netflix S1E1 “Echoes of Thunder” and S1E2 “What Is Done” episode synopses",
+    "character_kind": "individual",
+    "description": "The king whose kingdom of Katolis braces for an attack by Moonshadow elves. He plans to send his sons Callum and Ezran to safety, and Lord Viren offers him a way to survive the attack.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "king",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Netflix names him King Harrow; no dynasty, ethnicity, or broader state office is inferred."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Katolis",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The Episode 1 synopsis calls Katolis the human kingdom under his attack-risk context."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Katolis",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Named human kingdom in selected Episode 1 metadata."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "threatened father-king",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Bound to the safety plan and survival offer in the official two-episode summaries."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly supplied by selected official Netflix S1E1–S1E2 synopses.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.netflix.com/er-en/title/80212245",
+        "locator": "Season 1 Episode 1 “Echoes of Thunder” and Episode 2 “What Is Done” official synopses",
+        "supports": [
+          "King Harrow name, Katolis attack risk, Callum/Ezran fatherhood, safety plan, and Viren survival offer"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Callum and Ezran are called Harrow’s sons, but the selected source does not establish biological, adoptive, step-, custody, or succession detail.",
+      "The attack is an impending fictional threat in the synopsis; no death, injury, war outcome, prejudice attribution, or political culpability is assigned."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC258-002",
+    "canonical_name": "Callum",
+    "aliases": [],
+    "source_id": "SRC-258",
+    "source_title": "The Dragon Prince — Season 1, Episodes 1–2",
+    "continuity": "Netflix animated series; official S1E1–S1E2 synopsis witness",
+    "work_or_witness": "Netflix S1E1 “Echoes of Thunder” and S1E2 “What Is Done” episode synopses",
+    "character_kind": "individual",
+    "description": "One of King Harrow’s sons, whom Harrow plans to send to safety when Katolis braces for attack. In Episode 2, Rayla enters the castle and corners him.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Harrow's household",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Only the direct son relationship/safety plan is supported; no formal court affiliation is inferred."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "castle",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Episode 2 says Rayla enters the castle and corners Callum; the summary does not name it or explicitly identify it with Katolis."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "at-risk royal son",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The source calls him a son who is planned for safety during an impending attack; no age is assigned."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly supplied by selected official Netflix S1E1–S1E2 synopses.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.netflix.com/er-en/title/80212245",
+        "locator": "Season 1 Episode 1 “Echoes of Thunder” and Episode 2 “What Is Done” official synopses",
+        "supports": [
+          "Callum name, Harrow-son relation, safety plan, and Rayla cornering him in the castle"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The official series premise uses an unnamed phrase about two human princes; it is not used to map a species/title to Callum in this limited evidence set.",
+      "No age, disability, ethnicity/cultural coding, adoption/step-family status, magic, ability, attack outcome, or later relationship is asserted."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC258-003",
+    "canonical_name": "Ezran",
+    "aliases": [],
+    "source_id": "SRC-258",
+    "source_title": "The Dragon Prince — Season 1, Episodes 1–2",
+    "continuity": "Netflix animated series; official S1E1–S1E2 synopsis witness",
+    "work_or_witness": "Netflix S1E1 “Echoes of Thunder” official episode synopsis",
+    "character_kind": "individual",
+    "description": "One of King Harrow’s sons, included in Harrow’s plan to send Callum and Ezran to a safe place as Katolis braces for attack.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Harrow's household",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Only the direct son relationship and safety plan are supported."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Katolis",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Episode 1's kingdom-level threat context only."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "at-risk royal son",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The synopsis gives safety-plan context but no age or outcome."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly supplied by selected official Netflix S1E1 synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.netflix.com/er-en/title/80212245",
+        "locator": "Season 1 Episode 1 “Echoes of Thunder” official synopsis",
+        "supports": [
+          "Ezran name, Harrow-son relation, Katolis attack-risk context, and safe-place plan"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No age, disability, ethnicity/cultural coding, adoption/step-family status, royal title, magic, ability, attack outcome, or later development is stated in the selected metadata."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC258-004",
+    "canonical_name": "Rayla",
+    "aliases": [],
+    "source_id": "SRC-258",
+    "source_title": "The Dragon Prince — Season 1, Episodes 1–2",
+    "continuity": "Netflix animated series; official S1E1–S1E2 synopsis witness",
+    "work_or_witness": "Netflix S1E2 “What Is Done” official episode synopsis",
+    "character_kind": "individual",
+    "description": "A named figure who, determined to make up for her mistake, sneaks into the castle and corners Callum in the Episode 2 official synopsis.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "castle",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Episode 2 locates her castle entry but does not name the castle or identify it with Katolis."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "mistake-repairing intruder",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official summary gives motivation, entry action, and Callum encounter, but no motive details or outcome."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly supplied by selected official Netflix S1E2 synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.netflix.com/er-en/title/80212245",
+        "locator": "Season 1 Episode 2 “What Is Done” official synopsis",
+        "supports": [
+          "Rayla name, determination to make up for a mistake, castle entry, and cornering Callum"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The series-level premise's unnamed elven-assassin phrase is not assigned to Rayla here because the selected episode synopsis does not make that name-to-category mapping.",
+      "Sneaking and cornering establish an encounter, not a proven assault, injury, prejudice claim, ability, magic system, cultural identity, or later alliance."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC258-005",
+    "canonical_name": "Viren",
+    "aliases": [
+      "Lord Viren"
+    ],
+    "source_id": "SRC-258",
+    "source_title": "The Dragon Prince — Season 1, Episodes 1–2",
+    "continuity": "Netflix animated series; official S1E2 synopsis witness",
+    "work_or_witness": "Netflix S1E2 “What Is Done” official episode synopsis",
+    "character_kind": "individual",
+    "description": "A lord who offers King Harrow a way to survive the impending attack in the Episode 2 official synopsis.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "lord",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Netflix calls him Lord Viren; it does not state a rank system or office duties."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "survival-offer figure",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official synopsis provides only the offer, not method, terms, consent, or outcome."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly supplied by selected official Netflix S1E2 synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.netflix.com/er-en/title/80212245",
+        "locator": "Season 1 Episode 2 “What Is Done” official synopsis",
+        "supports": [
+          "Lord Viren name/title and offer to the king of a way to survive attack"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The source does not identify what Viren offers, whether it involves magic, its morality/cost, or its outcome; none is inferred.",
+      "Lord is retained as the published title, not transformed into an ethnicity, religion, cultural code, or broad faction office."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

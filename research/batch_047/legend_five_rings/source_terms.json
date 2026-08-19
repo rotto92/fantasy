@@ -1,0 +1,132 @@
+[
+  {
+    "term_id": "STM-SRC110-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings Roleplaying Core Rulebook · Core Rulebook: Honor is Stronger than Steel",
+    "canonical_term": "Rokugan / Emerald Empire",
+    "original_language": "English setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The named fictional setting and imperial political frame for the selected FFG roleplaying core book.",
+    "cultural_caution": "A fictional world with a Japanese-language and samurai-era-inflected design, not historical Japan or a representation of any real Japanese, Asian, religious, or cultural community.",
+    "citations": [
+      {
+        "url": "https://www.edge-studio.net/games/l5r-core-rulebook/",
+        "locator": "Core Rulebook: Honor is Stronger than Steel",
+        "supports": [
+          "Edge identifies Rokugan and the Emerald Empire as the core book's setting frame."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC110-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings Roleplaying Core Rulebook · Core Rulebook setting description: duty in service to lord, Clan, and Emperor",
+    "canonical_term": "samurai",
+    "original_language": "Japanese-derived setting lexicon",
+    "original_script": "",
+    "transliteration": "samurai",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "functional",
+    "definition": "The fictional player-character service role in the Emerald Empire, tied in the core product's description to lord, Clan, and Emperor.",
+    "cultural_caution": "Rokugan's role is a fictional game construct using a Japanese-derived term. It is not an exact representation of historical Japanese samurai, feudal hierarchy, or any present-day Japanese identity.",
+    "citations": [
+      {
+        "url": "https://www.edge-studio.net/games/l5r-core-rulebook/",
+        "locator": "Core Rulebook setting description: duty in service to lord, Clan, and Emperor",
+        "supports": [
+          "Edge describes player samurai's fictional service relationship in the Emerald Empire."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC110-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings Roleplaying Core Rulebook · Enter Rokugan: Emerald Empire and seven Great Clans",
+    "canonical_term": "Great Clans",
+    "original_language": "English setting lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "functional",
+    "definition": "The major fictional political/military affiliations described as protecting and dividing the Emerald Empire.",
+    "cultural_caution": "A setting-specific institution, not a representation of real clans, family systems, ethnicity, social class, or political affiliation. Specific clan claims need their own exact witness.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2018/10/11/enter-rokugan/",
+        "locator": "Enter Rokugan: Emerald Empire and seven Great Clans",
+        "supports": [
+          "Fantasy Flight describes the Empire as divided by seven Great Clans."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC110-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings · The Role of the Five Rings",
+    "canonical_term": "Ring Values / elemental approaches",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The selected FFG RPG's five core attributes, designed to express different approaches to problem-solving through the Five Rings.",
+    "cultural_caution": "Edition-specific game mechanics. They should not be treated as direct equivalents of real-world elemental traditions, personality typologies, spiritual systems, or the card game's rules.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2018/8/24/roll-and-keep/",
+        "locator": "The Role of the Five Rings",
+        "supports": [
+          "Fantasy Flight identifies Ring Values as a new RPG core system and says it diverges from predecessors and Genesys."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC110-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-110",
+    "work_or_witness": "Legend of the Five Rings · Craft Your Story: Game of 20 Questions",
+    "canonical_term": "Game of Twenty Questions",
+    "original_language": "English game-rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core character-creation procedure used to establish a player samurai's mechanical and narrative place in Rokugan.",
+    "cultural_caution": "A player-authorship tool. Answers create a campaign character rather than proving canonical biography, lineage, honor, desire, or duty for any named person in the setting.",
+    "citations": [
+      {
+        "url": "https://www.fantasyflightgames.com/en/news/2018/6/11/the-legend-of-the-five-rings-roleplaying-game-core-rulebook/",
+        "locator": "Craft Your Story: Game of 20 Questions",
+        "supports": [
+          "Fantasy Flight describes the procedure as helping players establish a complex character thematically and mechanically."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

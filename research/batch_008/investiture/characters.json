@@ -1,0 +1,2791 @@
+[
+  {
+    "character_id": "CHR-SRC017-001",
+    "canonical_name": "Nüwa",
+    "aliases": [
+      "Nuwa",
+      "女媧"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 1",
+    "character_kind": "individual",
+    "description": "Goddess whose offended image and instruction to three spirits initiate the novel's Shang crisis.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "novel's goddess",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "divine initiator",
+          "archetype_ids": [
+            "ROL-409"
+          ],
+          "confidence": "low",
+          "note": "Narrative function, not a religious-office equivalence."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "cosmic plot initiator",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel-specific narrative function."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/1/zh",
+        "locator": "封神演義, chapter 1",
+        "supports": [
+          "Goddess whose offended image and instruction to three spirits initiate the novel's Shang crisis."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-002",
+    "canonical_name": "King Zhou of Shang",
+    "aliases": [
+      "Di Xin",
+      "紂王",
+      "帝辛"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 1",
+    "character_kind": "individual",
+    "description": "Shang ruler whose conduct drives the dynastic catastrophe and final defeat.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "monarch",
+          "archetype_ids": [
+            "ROL-701"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tyrannical ruler antagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Describes this novel's plot role, not a historical judgment."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/1/zh",
+        "locator": "封神演義, chapter 1",
+        "supports": [
+          "Shang ruler whose conduct drives the dynastic catastrophe and final defeat."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-003",
+    "canonical_name": "Daji",
+    "aliases": [
+      "Su Daji",
+      "妲己",
+      "蘇妲己"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 2",
+    "character_kind": "individual",
+    "description": "Fox spirit who takes Su Daji's form and acts at the Shang court after Nüwa's command.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "fox spirit in assumed human form",
+          "archetype_ids": [
+            "PPL-1001"
+          ],
+          "confidence": "moderate",
+          "note": "Not a generic fantasy ancestry."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "form transformation",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "courtly antagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/2/zh",
+        "locator": "封神演義, chapter 2",
+        "supports": [
+          "Fox spirit who takes Su Daji's form and acts at the Shang court after Nüwa's command."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-004",
+    "canonical_name": "Hu Ximei",
+    "aliases": [
+      "Lady Hu",
+      "胡喜媚"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 2",
+    "character_kind": "individual",
+    "description": "One of the two spirits sent with Daji to enter the Shang court's destructive plot.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "animal spirit",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "The novel's spirit category is not mapped to a generic race."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Nüwa's dispatched spirits",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/2/zh",
+        "locator": "封神演義, chapter 2",
+        "supports": [
+          "One of the two spirits sent with Daji to enter the Shang court's destructive plot."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-005",
+    "canonical_name": "Wang Guiren",
+    "aliases": [
+      "Lady Wang",
+      "王貴人"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 2",
+    "character_kind": "individual",
+    "description": "One of the spirits sent with Daji to enter the Shang court's destructive plot.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "animal spirit",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "The novel's spirit category is not mapped to a generic race."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Nüwa's dispatched spirits",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/2/zh",
+        "locator": "封神演義, chapter 2",
+        "supports": [
+          "One of the spirits sent with Daji to enter the Shang court's destructive plot."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-006",
+    "canonical_name": "Jiang Ziya",
+    "aliases": [
+      "Jiang Taigong",
+      "Jiang Shang",
+      "姜子牙",
+      "姜尚"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 15",
+    "character_kind": "individual",
+    "description": "Kunlun-trained agent sent down to assist Zhou and execute the investiture after the war.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal disciple and later investiture agent",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "military strategist and ritual agent",
+          "archetype_ids": [
+            "ROL-710",
+            "ROL-911"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "Daoist ritual and talismanic implements",
+          "archetype_ids": [
+            "PWR-506"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "God-Beating Whip",
+          "archetype_ids": [
+            "ART-201"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "Zhou-side protagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/15/zh",
+        "locator": "封神演義, chapter 15",
+        "supports": [
+          "Kunlun-trained agent sent down to assist Zhou and execute the investiture after the war."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-007",
+    "canonical_name": "Ji Chang",
+    "aliases": [
+      "King Wen of Zhou",
+      "Xibo",
+      "姬昌",
+      "周文王"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 10",
+    "character_kind": "individual",
+    "description": "Lord of the West who survives Shang confinement and recruits Jiang Ziya for Zhou.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "monarch",
+          "archetype_ids": [
+            "ROL-701"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "founder-ruler",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/10/zh",
+        "locator": "封神演義, chapter 10",
+        "supports": [
+          "Lord of the West who survives Shang confinement and recruits Jiang Ziya for Zhou."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-008",
+    "canonical_name": "Ji Fa",
+    "aliases": [
+      "King Wu of Zhou",
+      "武王",
+      "姬發"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 67",
+    "character_kind": "individual",
+    "description": "Ji Chang's son who leads the Zhou campaign and succeeds after Shang's fall.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "monarch",
+          "archetype_ids": [
+            "ROL-701"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "dynastic-restoration leader",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/67/zh",
+        "locator": "封神演義, chapter 67",
+        "supports": [
+          "Ji Chang's son who leads the Zhou campaign and succeeds after Shang's fall."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-009",
+    "canonical_name": "Bo Yikao",
+    "aliases": [
+      "Bo Yi Kao",
+      "伯邑考"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 19",
+    "character_kind": "individual",
+    "description": "Ji Chang's eldest son, sent to Shang in an unsuccessful effort to ransom his father.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human prince",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "royal envoy",
+          "archetype_ids": [
+            "ROL-711"
+          ],
+          "confidence": "low",
+          "note": "Closest office comparison only."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "sacrificed heir",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/19/zh",
+        "locator": "封神演義, chapter 19",
+        "supports": [
+          "Ji Chang's eldest son, sent to Shang in an unsuccessful effort to ransom his father."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-010",
+    "canonical_name": "Queen Jiang",
+    "aliases": [
+      "Jiang Huanghou",
+      "姜皇后"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 7",
+    "character_kind": "individual",
+    "description": "Shang queen whose persecution and death expose court violence under Daji and King Zhou.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human royal",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "queen",
+          "archetype_ids": [
+            "ROL-701"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "wronged court victim",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/7/zh",
+        "locator": "封神演義, chapter 7",
+        "supports": [
+          "Shang queen whose persecution and death expose court violence under Daji and King Zhou."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-011",
+    "canonical_name": "Bi Gan",
+    "aliases": [
+      "Bigan",
+      "比干"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 26",
+    "character_kind": "individual",
+    "description": "Loyal Shang minister killed after confronting Daji's deception and King Zhou's rule.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human minister",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "courtier and minister",
+          "archetype_ids": [
+            "ROL-711"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic loyalist",
+          "archetype_ids": [
+            "NAR-445"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/26/zh",
+        "locator": "封神演義, chapter 26",
+        "supports": [
+          "Loyal Shang minister killed after confronting Daji's deception and King Zhou's rule."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-012",
+    "canonical_name": "Huang Feihu",
+    "aliases": [
+      "Yellow Flying Tiger",
+      "黃飛虎"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 33",
+    "character_kind": "individual",
+    "description": "Shang general who breaks with King Zhou and joins the Zhou cause.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human general",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "general",
+          "archetype_ids": [
+            "ROL-710"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Zhou military cause",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/33/zh",
+        "locator": "封神演義, chapter 33",
+        "supports": [
+          "Shang general who breaks with King Zhou and joins the Zhou cause."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-013",
+    "canonical_name": "Huang Tianhua",
+    "aliases": [
+      "黃天化"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 32",
+    "character_kind": "individual",
+    "description": "Huang Feihu's son and a martial disciple who reunites with his father in the Zhou campaign.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human martial disciple",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        },
+        {
+          "term": "sect disciple",
+          "archetype_ids": [
+            "ROL-914"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "divine weapons",
+          "archetype_ids": [
+            "ART-201"
+          ],
+          "confidence": "low",
+          "note": "Named weapons are chapter-specific; no identity claim beyond the novel."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/32/zh",
+        "locator": "封神演義, chapter 32",
+        "supports": [
+          "Huang Feihu's son and a martial disciple who reunites with his father in the Zhou campaign."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-014",
+    "canonical_name": "Wen Zhong",
+    "aliases": [
+      "Grand Preceptor Wen",
+      "聞仲",
+      "聞太師"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 27",
+    "character_kind": "individual",
+    "description": "Shang grand preceptor and principal commander who returns to defend the dynasty.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ritual-martial official",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "general and court preceptor",
+          "archetype_ids": [
+            "ROL-710",
+            "ROL-935"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic loyalist",
+          "archetype_ids": [
+            "NAR-445"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/27/zh",
+        "locator": "封神演義, chapter 27",
+        "supports": [
+          "Shang grand preceptor and principal commander who returns to defend the dynasty."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-015",
+    "canonical_name": "Deng Jiugong",
+    "aliases": [
+      "鄧九公"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 65",
+    "character_kind": "individual",
+    "description": "Shang commander who fights Zhou alongside his daughter Deng Chanyu.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human commander",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "general",
+          "archetype_ids": [
+            "ROL-710"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/65/zh",
+        "locator": "封神演義, chapter 65",
+        "supports": [
+          "Shang commander who fights Zhou alongside his daughter Deng Chanyu."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-016",
+    "canonical_name": "Deng Chanyu",
+    "aliases": [
+      "鄧嬋玉"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 65",
+    "character_kind": "individual",
+    "description": "Deng Jiugong's daughter and an active Shang combatant who later joins Zhou.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human warrior",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "martial convert",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/65/zh",
+        "locator": "封神演義, chapter 65",
+        "supports": [
+          "Deng Jiugong's daughter and an active Shang combatant who later joins Zhou."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-017",
+    "canonical_name": "Zhang Guifang",
+    "aliases": [
+      "張桂芳"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 36",
+    "character_kind": "individual",
+    "description": "Shang commander whose name-calling technique threatens Jiang Ziya's forces.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human commander",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "general",
+          "archetype_ids": [
+            "ROL-710"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "name-command technique",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Native plot technique; no forced spell-system mapping."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/36/zh",
+        "locator": "封神演義, chapter 36",
+        "supports": [
+          "Shang commander whose name-calling technique threatens Jiang Ziya's forces."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-018",
+    "canonical_name": "Kong Xuan",
+    "aliases": [
+      "孔宣"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 69",
+    "character_kind": "individual",
+    "description": "Powerful Shang defender at Gold Cock Pass, ultimately overcome through an intervention outside ordinary military combat.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "extraordinary nonhuman combatant",
+          "archetype_ids": [],
+          "confidence": "low",
+          "note": "The novel's ontology is preserved rather than equated with a generic species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "commander",
+          "archetype_ids": [
+            "ROL-710"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "five-coloured divine light",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source-native technique."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/69/zh",
+        "locator": "封神演義, chapter 69",
+        "supports": [
+          "Powerful Shang defender at Gold Cock Pass, ultimately overcome through an intervention outside ordinary military combat."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-019",
+    "canonical_name": "Shen Gongbao",
+    "aliases": [
+      "申公豹"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 37",
+    "character_kind": "individual",
+    "description": "Jiang Ziya's rival from the Kunlun orbit who recruits opponents against Zhou.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist practitioner",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sect disciple",
+          "archetype_ids": [
+            "ROL-914"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "rival recruiter",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/37/zh",
+        "locator": "封神演義, chapter 37",
+        "supports": [
+          "Jiang Ziya's rival from the Kunlun orbit who recruits opponents against Zhou."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-020",
+    "canonical_name": "Yuanshi Tianzun",
+    "aliases": [
+      "Primordial Lord of Heaven",
+      "元始天尊"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 15",
+    "character_kind": "individual",
+    "description": "Master at Yuxu Palace who sends Jiang Ziya down to aid Zhou and conduct investiture.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "celestial master",
+          "archetype_ids": [
+            "PPL-404"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teacher and mentor",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Yuxu Palace / Chanjiao",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/15/zh",
+        "locator": "封神演義, chapter 15",
+        "supports": [
+          "Master at Yuxu Palace who sends Jiang Ziya down to aid Zhou and conduct investiture."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-021",
+    "canonical_name": "Taiyi Zhenren",
+    "aliases": [
+      "True Person Taiyi",
+      "太乙真人"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 13",
+    "character_kind": "individual",
+    "description": "Nezha's master, who confronts Shi Ji and restores Nezha after his death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "zhenren in the novel",
+          "archetype_ids": [
+            "PPL-404"
+          ],
+          "confidence": "low",
+          "note": "Not equated with a generic angel/celestial category."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teacher and mentor",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "ritual restoration and divine implements",
+          "archetype_ids": [
+            "PWR-110"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/13/zh",
+        "locator": "封神演義, chapter 13",
+        "supports": [
+          "Nezha's master, who confronts Shi Ji and restores Nezha after his death."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-022",
+    "canonical_name": "Guangchengzi",
+    "aliases": [
+      "廣成子"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 46",
+    "character_kind": "individual",
+    "description": "Yuxu master who breaks the Golden Light Array in the Ten Supreme Arrays campaign.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist immortal/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teacher and mentor",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "array-breaking ritual power",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/46/zh",
+        "locator": "封神演義, chapter 46",
+        "supports": [
+          "Yuxu master who breaks the Golden Light Array in the Ten Supreme Arrays campaign."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-023",
+    "canonical_name": "Chijingzi",
+    "aliases": [
+      "赤精子"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 46",
+    "character_kind": "individual",
+    "description": "Yuxu master acting in the Ten Supreme Arrays campaign.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist immortal/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teacher and mentor",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "array-breaking ritual power",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/46/zh",
+        "locator": "封神演義, chapter 46",
+        "supports": [
+          "Yuxu master acting in the Ten Supreme Arrays campaign."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-024",
+    "canonical_name": "Cihang Daoren",
+    "aliases": [
+      "慈航道人"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 83",
+    "character_kind": "individual",
+    "description": "Named Daoist master who acts with fellow masters during the Thousand Immortals Array conflict.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist immortal/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sect master",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Chanjiao",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/83/zh",
+        "locator": "封神演義, chapter 83",
+        "supports": [
+          "Named Daoist master who acts with fellow masters during the Thousand Immortals Array conflict."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-025",
+    "canonical_name": "Wenshu Guangfa Tianzun",
+    "aliases": [
+      "Manjusri Guangfa Tianzun",
+      "文殊廣法天尊"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 83",
+    "character_kind": "individual",
+    "description": "Named Daoist master acting with fellow masters during the Thousand Immortals Array conflict.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist immortal/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sect master",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Chanjiao",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/83/zh",
+        "locator": "封神演義, chapter 83",
+        "supports": [
+          "Named Daoist master acting with fellow masters during the Thousand Immortals Array conflict."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-026",
+    "canonical_name": "Puxian Zhenren",
+    "aliases": [
+      "Samantabhadra Zhenren",
+      "普賢真人"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 83",
+    "character_kind": "individual",
+    "description": "Named Daoist master acting with fellow masters during the Thousand Immortals Array conflict.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist immortal/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sect master",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Chanjiao",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/83/zh",
+        "locator": "封神演義, chapter 83",
+        "supports": [
+          "Named Daoist master acting with fellow masters during the Thousand Immortals Array conflict."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-027",
+    "canonical_name": "Randeng Daoren",
+    "aliases": [
+      "Burning Lamp Daoist",
+      "燃燈道人"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 45",
+    "character_kind": "individual",
+    "description": "Senior Daoist who organizes the response to the Ten Supreme Arrays.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist immortal/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teacher and mentor",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Chanjiao-aligned masters",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/45/zh",
+        "locator": "封神演義, chapter 45",
+        "supports": [
+          "Senior Daoist who organizes the response to the Ten Supreme Arrays."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-028",
+    "canonical_name": "Tongtian Jiaozhu",
+    "aliases": [
+      "Master of the Celestial Teaching",
+      "通天教主"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 72",
+    "character_kind": "individual",
+    "description": "Leader at Biyou Palace whose disciples and formations oppose the Zhou-side masters.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "sect patriarch in the novel",
+          "archetype_ids": [
+            "PPL-404"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sect leader",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "formation warfare",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Jiejiao / Biyou Palace",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/72/zh",
+        "locator": "封神演義, chapter 72",
+        "supports": [
+          "Leader at Biyou Palace whose disciples and formations oppose the Zhou-side masters."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-029",
+    "canonical_name": "Duobao Daoren",
+    "aliases": [
+      "多寶道人"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 78",
+    "character_kind": "individual",
+    "description": "Tongtian's principal disciple who appears in the Immortal-Slaying Sword Array conflict.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist immortal/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sect disciple",
+          "archetype_ids": [
+            "ROL-914"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Jiejiao",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/78/zh",
+        "locator": "封神演義, chapter 78",
+        "supports": [
+          "Tongtian's principal disciple who appears in the Immortal-Slaying Sword Array conflict."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-030",
+    "canonical_name": "Zhao Gongming",
+    "aliases": [
+      "趙公明"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 47",
+    "character_kind": "individual",
+    "description": "Jiejiao ally whose intervention supports Wen Zhong against Zhou.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist supernatural combatant",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Jiejiao-aligned force",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "divine weapon/treasure",
+          "archetype_ids": [
+            "ART-201"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/47/zh",
+        "locator": "封神演義, chapter 47",
+        "supports": [
+          "Jiejiao ally whose intervention supports Wen Zhong against Zhou."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-031",
+    "canonical_name": "Yunxiao",
+    "aliases": [
+      "雲霄"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 50",
+    "character_kind": "individual",
+    "description": "One of the Three Sisters who creates the Yellow River Array after Zhao Gongming's death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist supernatural combatant",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "Yellow River Array",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Jiejiao-aligned Three Sisters",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "One of the Three Sisters who creates the Yellow River Array after Zhao Gongming's death."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-032",
+    "canonical_name": "Qiongxiao",
+    "aliases": [
+      "瓊霄"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 50",
+    "character_kind": "individual",
+    "description": "One of the Three Sisters who creates the Yellow River Array after Zhao Gongming's death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist supernatural combatant",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "Yellow River Array",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Jiejiao-aligned Three Sisters",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "One of the Three Sisters who creates the Yellow River Array after Zhao Gongming's death."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-033",
+    "canonical_name": "Bixiao",
+    "aliases": [
+      "碧霄"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 50",
+    "character_kind": "individual",
+    "description": "One of the Three Sisters who creates the Yellow River Array after Zhao Gongming's death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist supernatural combatant",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "Yellow River Array",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Jiejiao-aligned Three Sisters",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/50/zh",
+        "locator": "封神演義, chapter 50",
+        "supports": [
+          "One of the Three Sisters who creates the Yellow River Array after Zhao Gongming's death."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-034",
+    "canonical_name": "Luya Daoren",
+    "aliases": [
+      "Lu Ya",
+      "陸壓道人"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 48",
+    "character_kind": "individual",
+    "description": "Wandering Daoist who supplies a decisive plan against Zhao Gongming.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist immortal/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ritual specialist",
+          "archetype_ids": [
+            "ROL-911"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "curse and ritual implement",
+          "archetype_ids": [
+            "PWR-506"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "ritual image/book implement",
+          "archetype_ids": [
+            "ART-406"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/48/zh",
+        "locator": "封神演義, chapter 48",
+        "supports": [
+          "Wandering Daoist who supplies a decisive plan against Zhao Gongming."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-035",
+    "canonical_name": "Nezha",
+    "aliases": [
+      "Nazha",
+      "哪吒"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 12",
+    "character_kind": "individual",
+    "description": "Li Jing's son and Taiyi's disciple, reborn in lotus form and a major Zhou-side fighter.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "reborn human supernatural fighter",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        },
+        {
+          "term": "sect disciple",
+          "archetype_ids": [
+            "ROL-914"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "lotus-body restoration",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel-specific body restoration."
+        }
+      ],
+      "artifacts_and_vehicles": [
+        {
+          "term": "divine weapons and Wind-Fire Wheels",
+          "archetype_ids": [
+            "ART-201",
+            "ART-508"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/12/zh",
+        "locator": "封神演義, chapter 12",
+        "supports": [
+          "Li Jing's son and Taiyi's disciple, reborn in lotus form and a major Zhou-side fighter."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-036",
+    "canonical_name": "Li Jing",
+    "aliases": [
+      "Li Jing of Chentang Pass",
+      "李靖"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 12",
+    "character_kind": "individual",
+    "description": "Chentang Pass commander and Nezha's father, drawn into the conflict over his son's actions.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human commander",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "general",
+          "archetype_ids": [
+            "ROL-710"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "embattled father",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/12/zh",
+        "locator": "封神演義, chapter 12",
+        "supports": [
+          "Chentang Pass commander and Nezha's father, drawn into the conflict over his son's actions."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-037",
+    "canonical_name": "Yang Jian",
+    "aliases": [
+      "Erlang",
+      "楊戩"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 40",
+    "character_kind": "individual",
+    "description": "Zhou-side disciple and combatant noted for transformations in major supernatural battles.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist supernatural combatant",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        },
+        {
+          "term": "sect disciple",
+          "archetype_ids": [
+            "ROL-914"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "transformations",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/40/zh",
+        "locator": "封神演義, chapter 40",
+        "supports": [
+          "Zhou-side disciple and combatant noted for transformations in major supernatural battles."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-038",
+    "canonical_name": "Lei Zhenzi",
+    "aliases": [
+      "Leizhenzi",
+      "雷震子"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 10",
+    "character_kind": "individual",
+    "description": "Ji Chang's adopted son, transformed after consuming divine fruit and active in Zhou's campaign.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "transformed human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "divine-fruit transformation",
+          "archetype_ids": [
+            "STA-207"
+          ],
+          "confidence": "low",
+          "note": "The taxonomy term is only a broad comparison."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/10/zh",
+        "locator": "封神演義, chapter 10",
+        "supports": [
+          "Ji Chang's adopted son, transformed after consuming divine fruit and active in Zhou's campaign."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-039",
+    "canonical_name": "Tu Xingsun",
+    "aliases": [
+      "Tuxingsun",
+      "土行孫"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 75",
+    "character_kind": "individual",
+    "description": "A subterranean-traveling combatant whose capture, marriage, and later death link Shang and Zhou storylines.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human supernatural combatant",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "earth-traversal technique",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source-native technique."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/75/zh",
+        "locator": "封神演義, chapter 75",
+        "supports": [
+          "A subterranean-traveling combatant whose capture, marriage, and later death link Shang and Zhou storylines."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC017-040",
+    "canonical_name": "Shi Ji",
+    "aliases": [
+      "Lady Shiji",
+      "石磯娘娘"
+    ],
+    "source_id": "SRC-017",
+    "source_title": "Investiture of the Gods (Fengshen yanyi / 封神演義) — complete 100-chapter Chinese text",
+    "continuity": "Chinese Text Project complete 100-chapter digital text; novel-only pass",
+    "work_or_witness": "封神演義, chapter 13",
+    "character_kind": "individual",
+    "description": "Supernatural adversary of Nezha and Taiyi whose conflict follows Nezha's early exploits.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "supernatural female master",
+          "archetype_ids": [],
+          "confidence": "low",
+          "note": "Avoids reducing the novel's category to a generic monster type."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sect master",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "low",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "early supernatural opponent",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Comparative crosswalk only; source-native term remains controlling."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under the declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/fengshen-yanyi/13/zh",
+        "locator": "封神演義, chapter 13",
+        "supports": [
+          "Supernatural adversary of Nezha and Taiyi whose conflict follows Nezha's early exploits."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record indexes the novel's literary deployment, not a general Chinese religious, mythological, historical, or adaptation identity."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  }
+]

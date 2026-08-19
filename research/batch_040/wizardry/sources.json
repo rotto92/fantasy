@@ -1,0 +1,34 @@
+[
+  {
+    "source_id":"SRC-154",
+    "source_title":"Wizardry",
+    "continuity_scope":"Wizardry: Proving Grounds of the Mad Overlord, Digital Eclipse's full-3D remake official-release version of 23 May 2024, English Drecom IP-holder release witness. It is a remake built directly on the 1981 Apple II code but is treated as a separate 2024 release/presentation. Original Apple II text, early-access state, ports, sequels, other Wizardry IP works, later patches, and localization variants are excluded from detailed character claims.",
+    "work_or_witnesses":[
+      "Drecom: Official release version of Wizardry: Proving Grounds of the Mad Overlord available on consoles & PC",
+      "Drecom: With Wizardry 43rd anniversary official IP notice"
+    ],
+    "coverage_rule":"All stable named dramatic individuals directly identified and functionally described in the selected official 2024 remake story witness: Trebor, the mad overlord who orders the party into the labyrinth, and Werdna, the evil wizard who stole the amulet. Player-created adventurers are explicitly excluded. No other NPC, monster, party member, or named individual is added without an equivalent individual claim-level official profile or direct-game locator.",
+    "in_scope_character_count":2,
+    "completed_character_count":2,
+    "omissions":[
+      "All player-created adventurers and parties, including names, classes, races, alignments, builds, deaths, spell choices, party order, actions, and outcomes.",
+      "All unprofiled NPCs, monsters, named encounters, historical creators, and other dramatic individuals not directly described in the selected official story witness.",
+      "Classes, races, alignments, monsters, spells, items, dungeon levels, labyrinth, party-management, navigation, combat, and UI systems as character nodes.",
+      "The 1981 Apple II original as a separately detailed text/version; 2023 Early Access; console/PC patches; all later Wizardry titles/ports/remakes; Japanese/French/Spanish/Italian/German localization wording; adaptations; fan/community/wiki material, manuals, walkthroughs, data mines, and secondary databases."
+    ],
+    "uncertainties":[
+      "The Drecom official announcement gives a short story premise, not a complete character directory or direct dialogue/item-description archive. The two records retain only names, roles, theft, and stated quest context.",
+      "Drecom states the remake builds directly on the original Apple II code while adding modern graphics and improved party-management/navigation/spellcasting/combat. It does not supply a claim-by-claim equivalence table, so original/remake narrative and mechanical identity is not assumed beyond the cited statement.",
+      "The player crafts a party, and the official material says party management and combat have changed for ease of play. No universal adventurer roster, victory, death, or relationship is asserted.",
+      "English source wording is reviewed, while the official release lists six localized languages. The 2024 IP/rightsholder statement is time-sensitive; current ownership/licensing changes after this 2024 release witness are not used to revise game continuity.",
+      "No ending, final combat result, or detailed labyrinth/amulet interpretation is recorded, avoiding unsupported spoilers."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Drecom IP-holder official release and IP-anniversary announcements only. No fan wiki, Wikipedia, community guide, review, walkthrough, archival manual, data mine, or secondary database is used as canonical evidence.",
+    "citations":[
+      {"url":"https://drecom.co.jp/en/product_news/2024/05/20241223-01.php","locator":"Official-release announcement: opening, About Wizardry, Story, Game Overview, and Copyright Notice","supports":["2024 remake release/platform/language scope, 1981-original relationship, code/remake boundary, Trebor/Werdna/amulet story premise, party systems, and rights/licensing wording"]},
+      {"url":"https://drecom.co.jp/en/product_news/2024/09/20240925-01.php","locator":"With Wizardry: About With Wizardry section","supports":["Original 1981 first-title chronology and remake-versus-later-series separation"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

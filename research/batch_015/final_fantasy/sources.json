@@ -1,0 +1,66 @@
+[
+  {
+    "source_id": "SRC-129",
+    "source_title": "Final Fantasy",
+    "continuity_scope": "A deliberately small anthology sample of two separate numbered-game continuities, never a single Final Fantasy canon: (1) FINAL FANTASY X as presented on Square Enix's current official title page; and (2) FINAL FANTASY XVI base-game character material on Square Enix's official title and character pages. FINAL FANTASY X-2, FINAL FANTASY XVI DLC, remakes/remasters, prequels, sequels, crossover games, Final Fantasy Tactics (SRC-130), Final Fantasy XIV (SRC-131), and all other numbered titles are excluded unless separately researched.",
+    "work_or_witnesses": [
+      {
+        "work": "FINAL FANTASY X",
+        "edition": "Square Enix FINAL FANTASY PORTAL SITE title-page witness, English (UK), accessed 5 August 2026; base-game story and character presentation.",
+        "url": "https://eu.finalfantasy.com/titles/finalfantasy10"
+      },
+      {
+        "work": "FINAL FANTASY XVI",
+        "edition": "Square Enix FINAL FANTASY PORTAL SITE title-page witness, English (US), accessed 5 August 2026; base-game presentation.",
+        "url": "https://na.finalfantasy.com/titles/finalfantasy16"
+      },
+      {
+        "work": "FINAL FANTASY XVI Characters",
+        "edition": "Square Enix official character page, English, accessed 5 August 2026; base-game profiles, with DLC separately navigated and excluded.",
+        "url": "https://na.finalfantasyxvi.com/characters"
+      }
+    ],
+    "coverage_rule": "For FINAL FANTASY X, include the title page's named central pilgrimage pair, Tidus and Yuna. For FINAL FANTASY XVI, include the official character page's named Rosfield-household trio, Clive Rosfield, Joshua Rosfield, and Jill Warrick. Include only same-title relationships directly stated by those pages. Jobs/classes, summons/Eikons, crystals, races/peoples, equipment, worlds, religions, factions, and mechanics are dimensions or source terms unless a cited source presents a named person. This five-record pass is complete only for the declared two-title, five-character sample.",
+    "in_scope_character_count": 5,
+    "completed_character_count": 5,
+    "omissions": [
+      "All other Final Fantasy numbered games and their separate settings, casts, timelines, remakes, localizations, adaptations, sequels, prequels, and crossovers",
+      "All other named characters on the cited FINAL FANTASY X and XVI pages, including Wakka, Lulu, Kimahri, Auron, Rikku, Seymour, Jecht, Torgal, Cidolfus, Benedikta, Hugo, Dion, and Barnabas",
+      "FINAL FANTASY X-2, the FINAL FANTASY XVI DLC stories, and post-release/alternate game modes",
+      "Final Fantasy Tactics (SRC-130) and Final Fantasy XIV (SRC-131), which have separate corpus records",
+      "Jobs, classes, summons/Eikons, crystals, peoples, equipment, locations, religions, factions, and generic player/mechanical constructs as graph nodes"
+    ],
+    "uncertainties": [
+      "The portal pages are official current title presentations, not complete in-game scripts, full codices, or exhaustive version histories. Claims are limited to their character/profile text.",
+      "FINAL FANTASY X and FINAL FANTASY XVI use different worlds and ontologies. Repeated franchise vocabulary must not create a cross-title character relationship or imply shared mechanics.",
+      "Localized spellings, voice casts, titles, and presentation may differ between language releases and remasters. This pass retains the cited English names and does not equate other editions without independent evidence.",
+      "The official XVI character page includes DLC navigation but the declared witness is its base-game character-profile content; no DLC plot or character claim is made."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Square Enix title and character pages only. The X page directly describes Tidus and Yuna's pilgrimage and respective roles. The XVI pages directly describe the Rosfield siblings, Jill's household upbringing, Dominants/Eikons, Bearers, and Mothercrystals. These sources establish a bounded comparison sample, not an anthology-wide canon.",
+    "citations": [
+      {
+        "url": "https://eu.finalfantasy.com/titles/finalfantasy10",
+        "locator": "Story; Characters: Tidus and Yuna",
+        "supports": [
+          "FINAL FANTASY X's named central pair, their pilgrimage, and the setting's guardian/summoner and Sin terminology."
+        ]
+      },
+      {
+        "url": "https://na.finalfantasy.com/titles/finalfantasy16",
+        "locator": "Story; Characters: Clive Rosfield, Joshua Rosfield, and Jill Warrick",
+        "supports": [
+          "FINAL FANTASY XVI's base-game setting terms and its Rosfield trio descriptions."
+        ]
+      },
+      {
+        "url": "https://na.finalfantasyxvi.com/characters",
+        "locator": "Characters: Clive Rosfield, Joshua Rosfield, and Jill Warrick",
+        "supports": [
+          "The direct sibling, guardianship, household, Dominant, Eikon, and First Shield profile claims for the selected XVI characters."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

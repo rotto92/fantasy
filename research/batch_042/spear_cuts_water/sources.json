@@ -1,0 +1,15 @@
+[
+  {
+    "source_id":"SRC-086","source_title":"The Spear Cuts Through Water",
+    "continuity_scope":"Narrow publisher-metadata pass bound to Simon Jimenez's Del Rey paperback, May 30 2023, ISBN 9780593156612. This exact English novel edition only; no author discussion, adaptation, review, real-world cultural analysis, or unlicensed text is merged into story canon.",
+    "work_or_witnesses":[{"work":"The Spear Cuts Through Water","edition":"Del Rey paperback, May 30 2023, ISBN 9780593156612","url":"https://www.penguinrandomhouse.com/books/647357/the-spear-cuts-through-water-by-simon-jimenez/"}],
+    "coverage_rule":"Two individual named dramatic characters and one direct companion relation supported by the Del Rey official synopsis only: Jun and Keema. The unnamed god, the unnamed emperor, Three Terrors, and institutions are terms/context rather than character nodes.",
+    "in_scope_character_count":2,"completed_character_count":2,
+    "omissions":["All named or unnamed characters beyond Jun and Keema, including the unnamed ancient god, emperor, and the collective Three Terrors.","All chapter-level events, performance/frame identities, second-person or nested narration details, pronouns beyond publisher wording, queer relationship status, and outcomes, because no primary-text locator is included.","All adaptations, author commentary, reviews, and claims equating fictional material one-to-one with Filipino or any other real-world cultures."],
+    "uncertainties":["This is a narrow official-metadata pass, not a primary-text chapter/page pass; publisher claims are not expanded by memory or secondary orientation.","The official synopsis gives only Jun and Keema's names, not full names or pronouns; those omissions are retained.","The publisher calls the book a love story in third-party praise, but no character-pair relationship or identity label is asserted from that marketing context.","The synopsis signals oppression, captivity, imprisonment, inherited violent power, guilt, and a dangerous journey; fuller violence, abuse, queer-content, and spoiler cautions require the novel text.","No Filipino-inspired element is treated as source canon or mapped to a specific real culture without story-text and contextual evidence."],
+    "completion_status":"narrow-metadata-pass-complete",
+    "evidence_basis":"Penguin Random House/Del Rey's official record establishes the selected edition and names Jun and Keema as the two companions aiding an unnamed ancient god's escape from the Moon Throne. It is the sole basis for character and relationship claims.",
+    "citations":[{"url":"https://www.penguinrandomhouse.com/books/647357/the-spear-cuts-through-water-by-simon-jimenez/","locator":"Official product record, lines 151–203 and 222–230","supports":["Selected edition metadata and synopsis-level Jun, Keema, Moon Throne, unnamed god, Three Terrors, and five-day journey claims."]}],
+    "last_reviewed":"2026-08-05"
+  }
+]

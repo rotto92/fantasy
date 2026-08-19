@@ -1,0 +1,50 @@
+[
+  {
+    "term_id": "STM-SRC004-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-004",
+    "work_or_witness": "Pwyll, Prince of Dyved, opening exchange sequence",
+    "canonical_term": "Annwvyn",
+    "original_language": "Middle Welsh",
+    "original_script": "Annwvyn",
+    "transliteration": "Annwfn/Annwvyn",
+    "literal_gloss": "otherworld; otherworldly realm (translation-dependent)",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Pwyll enters Annwvyn and exchanges place and appearance with its ruler in the selected translation.",
+    "cultural_caution": "Do not treat Annwvyn as a generic hell, faerie plane, or game dimension.",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/5160/5160-h/5160-h.htm",
+        "locator": "Pwyll, Prince of Dyved, opening exchange sequence",
+        "supports": ["Annwvyn, Arawn, and the exchange setting in the declared Guest translation."]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC004-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-004",
+    "work_or_witness": "The Mabinogion · Content of the White Book of Rhydderch, lines 173–180",
+    "canonical_term": "mabinogi",
+    "original_language": "Middle Welsh",
+    "original_script": "mabinogi",
+    "transliteration": "mabinogi",
+    "literal_gloss": "term of uncertain derivation",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The name associated especially with the Four Branches, not a source-native generic label for every character or all Welsh myth.",
+    "cultural_caution": "The plural collection title “Mabinogion” and the term's interpretation are historically and editorially contested.",
+    "citations": [
+      {
+        "url": "https://www.library.wales/discover-learn/digital-exhibitions/manuscripts/the-middle-ages/white-book-of-rhydderch/",
+        "locator": "Content of the White Book of Rhydderch, lines 173–180",
+        "supports": ["Manuscript context for the Four Branches and related tales."]
+      }
+    ],
+    "review_status": "needs-review"
+  }
+]

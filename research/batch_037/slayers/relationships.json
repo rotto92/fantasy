@@ -1,0 +1,23 @@
+[
+  {
+    "relationship_id": "REL-SRC076-001",
+    "source_id": "SRC-076",
+    "source_character_id": "CHR-SRC076-001",
+    "target_character_id": "CHR-SRC076-002",
+    "relationship_type": "other",
+    "label": "Lina's encounter with Gourry changes the course of events in the official synopsis.",
+    "direction": "directed",
+    "continuity": "スレイヤーズ １ — KADOKAWA publisher-synopsis witness",
+    "citations": [
+      {
+        "url": "https://www.kadokawa.co.jp/product/301809000029/",
+        "locator": "Official synopsis, lines 790–792",
+        "supports": [
+          "Lina's encounter with Gourry and its synopsis-level consequence."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Synopsis-only encounter; this does not assert companionship, romance, or a party relationship."
+  }
+]

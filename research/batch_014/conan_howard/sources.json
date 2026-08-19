@@ -1,0 +1,33 @@
+[
+  {
+    "source_id":"SRC-027",
+    "source_title":"Conan the Cimmerian",
+    "continuity_scope":"A single Robert E. Howard story witness: “The Tower of the Elephant,” first published in Weird Tales, March 1933. This pass covers only the story's three chapters and the four named agents who materially act in its tower episode. It does not merge Howard's story with later Conan continuations, revisions, pastiches, comics, films, television, games, role-playing settings, franchise reference works, or other Howard stories.",
+    "work_or_witnesses":[
+      {"work":"“The Tower of the Elephant”","edition":"Weird Tales, vol. 21, no. 3 (March 1933), original magazine publication; chapter divisions I–III.","url":"https://www.gutenberg.net.au/ebooks06/0600831h.html"},
+      {"work":"“The Tower of the Elephant”","edition":"Project Gutenberg Australia eBook 0600831h, updated 2020, transcription of a printed edition with chapters I–III.","url":"https://www.gutenberg.net.au/ebooks06/0600831h.html"}
+    ],
+    "coverage_rule":"Include every individually named agent who materially acts in the selected story's tower plot: Conan, Taurus of Nemedia, Yara, and Yag-kosha/Yogah. Exclude the unnamed Kothian, unnamed guards, unnamed soldiers, lions, spider, and other collective or unnamed beings. Crom, Bel, the Elephant's Heart, black lotus, peoples, kingdoms, cults, monsters, and cosmological claims are dimensions or source terms rather than character nodes.",
+    "in_scope_character_count":4,
+    "completed_character_count":4,
+    "omissions":[
+      "All Conan stories except this single 1933 story, including original Howard stories with different textual histories",
+      "All post-Howard continuation, editorial rewrite, comic, film, television, game, and role-playing continuities",
+      "Unnamed story participants and beings, including the Kothian, guards, soldiers, lions, spider, and Yag's unnamed companions",
+      "Named but non-acting gods, artifacts, peoples, kingdoms, and historical/cosmological terms, retained only as dimensions or source terms"
+    ],
+    "uncertainties":[
+      "The accessible Project Gutenberg Australia transcription states that it is drawn from a printed edition in the public domain in Australia and expressly tells users to check the law in their own country. This pass records a textual witness; it offers no jurisdiction-specific legal advice.",
+      "A 1989 U.S. federal decision discusses lapsed Weird Tales copyrights and Robert Howard's Conan as public domain, but that decision is historical legal context rather than a global clearance for every text, edition, trademark, derivative character trait, or jurisdiction.",
+      "Yag-kosha's account of Yag, deep time, and Yara is in-story testimony. It is recorded as this story's account, not treated as independently verified cosmology across the wider franchise.",
+      "The story uses 1933 pulp racial, ethnic, civilizational, and colonial imagery. Terms are retained only where necessary for exact source description and are not normalized, generalized, or endorsed."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"All character and relationship claims cite exact chapter loci in the selected primary story. Project Gutenberg Australia supplies its bibliographic note, first-publication statement, three-chapter text, and jurisdictional public-domain warning. A U.S. federal opinion supplies limited historical context on lapsed Weird Tales copyrights, without resolving current international or trademark status.",
+    "citations":[
+      {"url":"https://www.gutenberg.net.au/ebooks06/0600831h.html","locator":"Bibliographic note, lines 6–28; first-publication statement, lines 36–47; chapters I–III","supports":["Robert E. Howard authorship, March 1933 Weird Tales publication, three-chapter primary text, and Australian public-domain/transcription notice."]},
+      {"url":"https://law.justia.com/cases/federal/district-courts/FSupp/712/353/1475694/","locator":"Conan Properties, Inc. v. Mattel, Inc., 712 F. Supp. 353, 358 (S.D.N.Y. 1989), lines 114–118","supports":["Historical U.S. litigation discussion of Weird Tales issue copyrights and Robert Howard's Conan material."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

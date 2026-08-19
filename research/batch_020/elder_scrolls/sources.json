@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "SRC-134",
+    "source_title": "The Elder Scrolls",
+    "continuity_scope": "The Elder Scrolls Online: Necrom, PC/Mac launch / Update 38 witness (5 June 2023), North American English official materials. This is a live-service chapter snapshot, separate from The Elder Scrolls V: Skyrim and every other Elder Scrolls title, later ESO chapters, and post-launch updates.",
+    "work_or_witnesses": [
+      "The Elder Scrolls Online official Necrom chapter page",
+      "The Elder Scrolls Online official Support: Necrom launch date; Companions; Azandar - Companion",
+      "The Elder Scrolls Online official news archive: Meet the Character entries for Azandar al-Cybiades, Sharp-as-Night, and Leramil the Wise"
+    ],
+    "coverage_rule": "All stable, individually named figures directly identified by the selected official Necrom chapter page as the two new companions plus the named Daedric Prince whose realm and threatened secrets establish the chapter premise: Azandar al-Cybiades, Sharp-as-Night, and Hermaeus Mora. The player-created adventurer is excluded; generic Redguard/Argonian/Daedric categories, classes, realms, systems, artifacts, and organizations remain dimensions/source terms.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "The player-created ESO adventurer/avatar, whose race, class, identity, choices, and companions are player-selected.",
+      "Leramil the Wise and every other quest character, because the specific official chapter-page companion/premise rule does not include them.",
+      "All Skyrim, other single-player Elder Scrolls titles, other ESO chapters/DLC, and any cross-title character identity.",
+      "Redguards, Argonians, Daedra, the Arcanist and Warden classes, the Telvanni Peninsula, Apocrypha, Hermaeus Mora's citadel, gear, trial/world-event systems, and all unnamed enemies as character nodes."
+    ],
+    "uncertainties": [
+      "ESO is live service. This pass fixes the PC/Mac Necrom launch/Update 38 boundary and excludes later balance, quest, companion, and systems changes.",
+      "The source materials are outward-facing official summaries, not complete in-game dialogue or an exhaustive codex. No quest outcome, companion relationship, or player-choice path is inferred.",
+      "Necrom's official text makes lore claims about Hermaeus Mora and Apocrypha; it is promotional publisher material, not an in-world text whose reliability must be assumed. In-world books and faction testimony are not used here.",
+      "Names and descriptions follow North American English. Other localizations are not merged without an exact official localization witness."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party The Elder Scrolls Online / ZeniMax official chapter, support, and news-archive pages. The launch date, update boundary, character identities, companion functionality, and setting/mechanical terms are all taken from those materials; no fan wiki, Wikipedia, or community forum post is used as evidence.",
+    "citations": [
+      {
+        "url": "https://www.elderscrollsonline.com/en-us/updates/chapter/necrom",
+        "locator": "Necrom overview: Unlock A New Class; Discover New Worlds; Uncover Lost Secrets; New Companions; New Trial; New World Event",
+        "supports": ["Necrom premise, companions, character race/class labels, Hermaeus Mora, Apocrypha, and source terms"]
+      },
+      {
+        "url": "https://help.elderscrollsonline.com/app/answers/detail/a_id/58228/~/what-is-the-launch-date-of-the-elder-scrolls-online%3A-necrom",
+        "locator": "Launch-date answer: PC/Mac June 5; consoles June 20",
+        "supports": ["Exact selected PC/Mac launch boundary"]
+      },
+      {
+        "url": "https://www.elderscrollsonline.com/en-us/updates",
+        "locator": "Update 38: Necrom; Telvanni Peninsula and Apocrypha story zones; Arcanist; Sharp-as-Night and Azandar companions",
+        "supports": ["Necrom Update 38 baseline and live-service boundary"]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

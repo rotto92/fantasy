@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "SRC-185",
+    "source_title": "Ni no Kuni: Wrath of the White Witch Remastered",
+    "continuity_scope": "Bandai Namco Entertainment America English official-page witness for Ni no Kuni: Wrath of the White Witch Remastered, specifically its PlayStation 4 and PC remastered release description. The page's later Xbox/Windows announcement describes an enhanced release state and is not treated as mechanically or textually identical. The original title, regional/localized versions, Ni no Kuni II: Revenant Kingdom, other numbered/related games, the Cross Worlds mobile title, films, and other adaptations are separate works or continuity/product states.",
+    "work_or_witnesses": [
+      "Bandai Namco Entertainment America, Ni no Kuni: Wrath of the White Witch Remastered official game page"
+    ],
+    "coverage_rule": "All named individual dramatic characters in the selected official page's supplied story synopsis: Oliver and Drippy. Oliver's mother is described but not named, so is not promoted to a character record. Familiars are an explicitly generic/tamable category; they, magic, locations, quests, enemies, the Wizard's Companion, combat, and all other systems remain terms/dimensions.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "Oliver's unnamed mother, every unmentioned character, enemy, familiar, creature, kingdom, faction, location, and item; the official selected page gives no larger named character-profile set.",
+      "Player-chosen familiar taming, battle switching, tactics, quest completion, party choices, outcomes, endings, and any inferred magic/relationship details.",
+      "The original release, regional/localized versions, later Xbox/Windows enhanced state, Ni no Kuni II, Cross Worlds and all mobile/service content, DLC, other adaptations, fan wikis, Wikipedia, walkthroughs, and community databases."
+    ],
+    "uncertainties": [
+      "The selected page contains a concise premise rather than full character dossiers. No biography beyond the supplied synopsis is supplied for Oliver or Drippy.",
+      "The page says the tale uses animation storyboarded and created by Studio Ghibli, and separately calls it a LEVEL-5 title; this is retained as a production-credit claim only, not generalized into authorship of every sequel, remaster feature, character, or franchise work.",
+      "The official page lists English and Japanese voice-overs but does not authorize a character-by-character dubbing, translation, or script-equivalence claim."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Bandai Namco Entertainment America first-party English game page only. No fan or secondary source is used as canonical evidence.",
+    "citations": [
+      {
+        "url": "https://www.bandainamcoent.com/games/ni-no-kuni-wrath-of-the-white-witch-remastered",
+        "locator": "Journey Back To The Other World; All-Star Production; Captivating Story; Dynamic Combat; platforms and Xbox announcement",
+        "supports": [
+          "Remastered PS4/PC witness, later Xbox/Windows enhanced-state boundary, Oliver/Drippy premise, Wizard's Companion, familiars, Studio Ghibli storyboard/animation credit, Joe Hisaishi music credit, voice-over listing, and combat description"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

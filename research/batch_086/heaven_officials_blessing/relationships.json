@@ -1,0 +1,23 @@
+[
+  {
+    "relationship_id": "REL-SRC241-001",
+    "source_id": "SRC-241",
+    "source_character_id": "CHR-SRC241-001",
+    "target_character_id": "CHR-SRC241-002",
+    "relationship_type": "other",
+    "label": "Xie Lian feels an instant connection when he meets San Lang",
+    "direction": "directed",
+    "continuity": "Seven Seas authorized English paperback Volume 1 (2021), publisher-synopsis witness only",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/heaven-officials-blessing-tian-guan-ci-fu-novel-vol-1/",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Xie Lian meets San Lang while traveling and feels an instant connection"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "This is deliberately not classified as romantic, sexual, companion, or ally; the selected synopsis supports only the stated initial connection."
+  }
+]

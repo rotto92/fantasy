@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "SRC-197",
+    "source_title": "Delicious in Dungeon, Vol. 1",
+    "continuity_scope": "Yen Press English Volume 1 paperback/digital edition, ISBN 9780316473064, released 23 May 2017; translation by Taylor Engel and lettering by Abigail Blackman. Character claims are limited to the publisher's twenty-page Volume 1 preview, especially Chapter 1, 'Hot Pot', preview pages 6–20. The original Japanese/KADOKAWA edition, all later English volumes, guidebooks, the anime, games, and every other adaptation are separate witnesses.",
+    "work_or_witnesses": [
+      "Ryoko Kui, Delicious in Dungeon, Vol. 1, Yen Press English translation, Chapter 1: Hot Pot, official publisher preview pages 6–20",
+      "Yen Press, Delicious in Dungeon, Vol. 1 official metadata and synopsis"
+    ],
+    "coverage_rule": "All named individual dramatic figures directly identifiable in the selected official Volume 1 preview pages: Laios, Falin, and Chilchuck. Marcille is visibly present in the preview but is not named in the selected pages, so no character record is made from visual recognition alone. Senshi and all later named figures are outside this preview evidence window. Dragons, slimes, basilisks, other monsters, food, adventurer offices, magic, dungeon places, equipment, and cooking/ecology are dimensions or terms rather than nodes.",
+    "in_scope_character_count": 3,
+    "completed_character_count": 3,
+    "omissions": [
+      "Marcille and every other named or unnamed party member, adventurer, monster, villager, ruler, magician, and later-volume figure not directly named in preview pages 6–20.",
+      "Later-volume party changes and outcomes, individual recipes, ingredient safety, combat outcomes, monster taxonomy, equipment, spells, resurrection outcomes, and all reader/player interpretation beyond the indicated opening premise.",
+      "The Japanese edition except as a separate bibliographic continuity, anime, guidebooks, games, later manga volumes, box-set marketing, other adaptations, fan wikis, Wikipedia, reviews, and community databases."
+    ],
+    "uncertainties": [
+      "The publisher preview shows only the opening twenty pages and not a complete Volume 1 cast list. The three-record pass is complete only under the directly named-preview rule.",
+      "The preview's resurrection discussion is fictional dungeon-world logic and is captured only as an opening premise; no successful revival, procedure, or later body-horror outcome is asserted.",
+      "Monster cooking and food imagery are fiction. They are not real recipes, safety guidance, edible-species claims, or advice to consume wild animals, monsters, raw food, or hazardous materials."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Yen Press Volume 1 preview and publisher metadata only. No fan or secondary source is used as canonical evidence; no panel text is reproduced beyond short identifiers/locators.",
+    "citations": [
+      {"url":"https://yenpress.com/titles/9780316473064-delicious-in-dungeon-vol-1","locator":"Metadata; synopsis; official Look Inside preview, Chapter 1: Hot Pot, pages 6–20","supports":["English edition/translation metadata, chapter range, Laios, named-preview party evidence, dragon/dungeon/resource premise, monster-cooking premise, and fictional resurrection discussion"]}
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

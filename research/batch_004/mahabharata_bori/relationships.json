@@ -1,0 +1,1157 @@
+[
+  {
+    "relationship_id": "REL-SRC277-001",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-001",
+    "target_character_id": "CHR-SRC277-002",
+    "relationship_type": "kin",
+    "label": "Vyāsa fathers Dhṛtarāṣṭra",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 100; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Vyāsa fathers Dhṛtarāṣṭra"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-002",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-001",
+    "target_character_id": "CHR-SRC277-003",
+    "relationship_type": "kin",
+    "label": "Vyāsa fathers Pāṇḍu",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 100; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Vyāsa fathers Pāṇḍu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-003",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-001",
+    "target_character_id": "CHR-SRC277-008",
+    "relationship_type": "kin",
+    "label": "Vyāsa fathers Vidura",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 100; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Vyāsa fathers Vidura"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-004",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-002",
+    "target_character_id": "CHR-SRC277-012",
+    "relationship_type": "kin",
+    "label": "Dhṛtarāṣṭra fathers Duryodhana",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 107; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Dhṛtarāṣṭra fathers Duryodhana"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-005",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-003",
+    "target_character_id": "CHR-SRC277-015",
+    "relationship_type": "kin",
+    "label": "Pāṇḍu fathers Yudhiṣṭhira",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Pāṇḍu fathers Yudhiṣṭhira"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-006",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-004",
+    "target_character_id": "CHR-SRC277-011",
+    "relationship_type": "kin",
+    "label": "Kuntī bears Karṇa",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kuntī bears Karṇa"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-007",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-004",
+    "target_character_id": "CHR-SRC277-017",
+    "relationship_type": "kin",
+    "label": "Kuntī is Arjuna’s mother",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kuntī is Arjuna’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-008",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-005",
+    "target_character_id": "CHR-SRC277-018",
+    "relationship_type": "kin",
+    "label": "Mādrī is Nakula’s mother",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Mādrī is Nakula’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-009",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-005",
+    "target_character_id": "CHR-SRC277-019",
+    "relationship_type": "kin",
+    "label": "Mādrī is Sahadeva’s mother",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Mādrī is Sahadeva’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-010",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-007",
+    "target_character_id": "CHR-SRC277-002",
+    "relationship_type": "kin",
+    "label": "Bhīṣma is Kuru elder to Dhṛtarāṣṭra",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 102; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Bhīṣma is Kuru elder to Dhṛtarāṣṭra"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-011",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-009",
+    "target_character_id": "CHR-SRC277-017",
+    "relationship_type": "mentor",
+    "label": "Droṇa trains Arjuna",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 130; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Droṇa trains Arjuna"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-012",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-009",
+    "target_character_id": "CHR-SRC277-031",
+    "relationship_type": "kin",
+    "label": "Droṇa fathers Aśvatthāman",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 130; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Droṇa fathers Aśvatthāman"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-013",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-012",
+    "target_character_id": "CHR-SRC277-011",
+    "relationship_type": "ally",
+    "label": "Duryodhana supports Karṇa",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 138; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Duryodhana supports Karṇa"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-014",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-014",
+    "target_character_id": "CHR-SRC277-015",
+    "relationship_type": "other",
+    "label": "Śakuni plays dice for Duryodhana against Yudhiṣṭhira",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 58; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Śakuni plays dice for Duryodhana against Yudhiṣṭhira"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-015",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-012",
+    "target_character_id": "CHR-SRC277-020",
+    "relationship_type": "opponent",
+    "label": "Duryodhana’s side wrongs Draupadī in the assembly",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 68; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Duryodhana’s side wrongs Draupadī in the assembly"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-016",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-013",
+    "target_character_id": "CHR-SRC277-020",
+    "relationship_type": "opponent",
+    "label": "Duḥśāsana assaults Draupadī in the assembly",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 68; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Duḥśāsana assaults Draupadī in the assembly"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-017",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-015",
+    "target_character_id": "CHR-SRC277-016",
+    "relationship_type": "kin",
+    "label": "Yudhiṣṭhira and Bhīma are brothers",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Yudhiṣṭhira and Bhīma are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-018",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-016",
+    "target_character_id": "CHR-SRC277-017",
+    "relationship_type": "kin",
+    "label": "Bhīma and Arjuna are brothers",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Bhīma and Arjuna are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-019",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-017",
+    "target_character_id": "CHR-SRC277-018",
+    "relationship_type": "kin",
+    "label": "Arjuna and Nakula are brothers",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Arjuna and Nakula are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-020",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-018",
+    "target_character_id": "CHR-SRC277-019",
+    "relationship_type": "kin",
+    "label": "Nakula and Sahadeva are brothers",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 122; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Nakula and Sahadeva are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-021",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-015",
+    "target_character_id": "CHR-SRC277-020",
+    "relationship_type": "spouse",
+    "label": "Yudhiṣṭhira is Draupadī’s husband",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 190; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Yudhiṣṭhira is Draupadī’s husband"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-022",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-017",
+    "target_character_id": "CHR-SRC277-020",
+    "relationship_type": "spouse",
+    "label": "Arjuna is Draupadī’s husband",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 190; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Arjuna is Draupadī’s husband"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-023",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-021",
+    "target_character_id": "CHR-SRC277-017",
+    "relationship_type": "companion",
+    "label": "Kṛṣṇa is Arjuna’s charioteer and counselor",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhagavad Gītā Parva, section 23–42; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kṛṣṇa is Arjuna’s charioteer and counselor"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-024",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-021",
+    "target_character_id": "CHR-SRC277-022",
+    "relationship_type": "kin",
+    "label": "Kṛṣṇa and Balarāma are brothers",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 67; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kṛṣṇa and Balarāma are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-025",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-021",
+    "target_character_id": "CHR-SRC277-023",
+    "relationship_type": "kin",
+    "label": "Kṛṣṇa is Subhadrā’s brother",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 220; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kṛṣṇa is Subhadrā’s brother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-026",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-017",
+    "target_character_id": "CHR-SRC277-023",
+    "relationship_type": "spouse",
+    "label": "Arjuna marries Subhadrā",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 220; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Arjuna marries Subhadrā"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-027",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-017",
+    "target_character_id": "CHR-SRC277-024",
+    "relationship_type": "kin",
+    "label": "Arjuna fathers Abhimanyu",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 72; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Arjuna fathers Abhimanyu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-028",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-023",
+    "target_character_id": "CHR-SRC277-024",
+    "relationship_type": "kin",
+    "label": "Subhadrā mothers Abhimanyu",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 72; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Subhadrā mothers Abhimanyu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-029",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-016",
+    "target_character_id": "CHR-SRC277-025",
+    "relationship_type": "kin",
+    "label": "Bhīma fathers Ghaṭotkaca",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 154; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Bhīma fathers Ghaṭotkaca"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-030",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-026",
+    "target_character_id": "CHR-SRC277-025",
+    "relationship_type": "kin",
+    "label": "Hiḍimbā mothers Ghaṭotkaca",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 154; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Hiḍimbā mothers Ghaṭotkaca"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-031",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-028",
+    "target_character_id": "CHR-SRC277-020",
+    "relationship_type": "kin",
+    "label": "Drupada fathers Draupadī",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 169; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Drupada fathers Draupadī"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-032",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-028",
+    "target_character_id": "CHR-SRC277-029",
+    "relationship_type": "kin",
+    "label": "Drupada fathers Dhṛṣṭadyumna",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 169; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Drupada fathers Dhṛṣṭadyumna"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-033",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-029",
+    "target_character_id": "CHR-SRC277-009",
+    "relationship_type": "opponent",
+    "label": "Dhṛṣṭadyumna kills Droṇa",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 191; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Dhṛṣṭadyumna kills Droṇa"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-034",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-030",
+    "target_character_id": "CHR-SRC277-007",
+    "relationship_type": "opponent",
+    "label": "Śikhaṇḍin is decisive in Bhīṣma’s fall",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhīṣma Parva, section 108; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Śikhaṇḍin is decisive in Bhīṣma’s fall"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-035",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-031",
+    "target_character_id": "CHR-SRC277-029",
+    "relationship_type": "opponent",
+    "label": "Aśvatthāman kills Dhṛṣṭadyumna",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sauptika Parva, section 8; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Aśvatthāman kills Dhṛṣṭadyumna"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-036",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-032",
+    "target_character_id": "CHR-SRC277-024",
+    "relationship_type": "opponent",
+    "label": "Jayadratha helps trap Abhimanyu",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Jayadratha helps trap Abhimanyu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-037",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-017",
+    "target_character_id": "CHR-SRC277-032",
+    "relationship_type": "opponent",
+    "label": "Arjuna kills Jayadratha",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 121; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Arjuna kills Jayadratha"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-038",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-033",
+    "target_character_id": "CHR-SRC277-011",
+    "relationship_type": "companion",
+    "label": "Śalya serves as Karṇa’s charioteer",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Karna Parva, section 1; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Śalya serves as Karṇa’s charioteer"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-039",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-034",
+    "target_character_id": "CHR-SRC277-017",
+    "relationship_type": "ally",
+    "label": "Sātyaki fights with Arjuna’s side",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Droṇa Parva, section 141; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Sātyaki fights with Arjuna’s side"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-040",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-035",
+    "target_character_id": "CHR-SRC277-015",
+    "relationship_type": "patron",
+    "label": "Virāṭa shelters Yudhiṣṭhira in exile",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 1; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Virāṭa shelters Yudhiṣṭhira in exile"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-041",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-036",
+    "target_character_id": "CHR-SRC277-024",
+    "relationship_type": "spouse",
+    "label": "Uttarā marries Abhimanyu",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 72; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Uttarā marries Abhimanyu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-042",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-037",
+    "target_character_id": "CHR-SRC277-002",
+    "relationship_type": "companion",
+    "label": "Sañjaya reports to Dhṛtarāṣṭra",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhīṣma Parva, section 1; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Sañjaya reports to Dhṛtarāṣṭra"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-043",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-038",
+    "target_character_id": "CHR-SRC277-015",
+    "relationship_type": "ally",
+    "label": "Yuyutsu joins the Pāṇḍava side",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Bhīṣma Parva, section 43; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Yuyutsu joins the Pāṇḍava side"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-044",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-039",
+    "target_character_id": "CHR-SRC277-020",
+    "relationship_type": "opponent",
+    "label": "Kīcaka harasses Draupadī",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 13; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kīcaka harasses Draupadī"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-045",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-016",
+    "target_character_id": "CHR-SRC277-039",
+    "relationship_type": "opponent",
+    "label": "Bhīma kills Kīcaka",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Virāṭa Parva, section 22; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Bhīma kills Kīcaka"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-046",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-016",
+    "target_character_id": "CHR-SRC277-040",
+    "relationship_type": "opponent",
+    "label": "Bhīma kills Jarāsandha",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 22; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Bhīma kills Jarāsandha"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-047",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-021",
+    "target_character_id": "CHR-SRC277-041",
+    "relationship_type": "opponent",
+    "label": "Kṛṣṇa kills Śiśupāla",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 45; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Kṛṣṇa kills Śiśupāla"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-048",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-042",
+    "target_character_id": "CHR-SRC277-015",
+    "relationship_type": "mentor",
+    "label": "Nārada counsels Yudhiṣṭhira",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Sabhā Parva, section 5; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Nārada counsels Yudhiṣṭhira"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-049",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-043",
+    "target_character_id": "CHR-SRC277-017",
+    "relationship_type": "kin",
+    "label": "Indra fathers Arjuna",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 123; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Indra fathers Arjuna"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-050",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-044",
+    "target_character_id": "CHR-SRC277-011",
+    "relationship_type": "kin",
+    "label": "Sūrya fathers Karṇa",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 111; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Sūrya fathers Karṇa"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-051",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-045",
+    "target_character_id": "CHR-SRC277-017",
+    "relationship_type": "patron",
+    "label": "Agni enlists Arjuna at Khāṇḍava",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 225; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Agni enlists Arjuna at Khāṇḍava"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-052",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-046",
+    "target_character_id": "CHR-SRC277-015",
+    "relationship_type": "kin",
+    "label": "Dharma identifies as Yudhiṣṭhira’s father",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Vana Parva, section 313; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Dharma identifies as Yudhiṣṭhira’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-053",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-047",
+    "target_character_id": "CHR-SRC277-016",
+    "relationship_type": "kin",
+    "label": "Hanumān and Bhīma share Vāyu lineage",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Vana Parva, section 146; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Hanumān and Bhīma share Vāyu lineage"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-054",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-016",
+    "target_character_id": "CHR-SRC277-048",
+    "relationship_type": "opponent",
+    "label": "Bhīma kills Baka",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Ādi Parva, section 159; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Bhīma kills Baka"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  },
+  {
+    "relationship_id": "REL-SRC277-055",
+    "source_id": "SRC-277",
+    "source_character_id": "CHR-SRC277-016",
+    "target_character_id": "CHR-SRC277-049",
+    "relationship_type": "opponent",
+    "label": "Bhīma kills Kirmīra",
+    "direction": "directed",
+    "continuity": "BORI Critical Edition reference scope; translation locator explicitly identified where used",
+    "citations": [
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "Translation locator — Kisari Mohan Ganguli, Vana Parva, section 11; chapter/section numbering is not asserted identical to BORI CE",
+        "supports": [
+          "Bhīma kills Kirmīra"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Translation locator only; "
+  }
+]

@@ -1,0 +1,3 @@
+[
+  {"relationship_id":"REL-SRC141-001","source_id":"SRC-141","source_character_id":"CHR-SRC141-002","target_character_id":"CHR-SRC141-001","relationship_type":"companion","label":"opening guide and companion","direction":"directed","continuity":"Planescape: Torment: Enhanced Edition (English; 2017)","citations":[{"url":"https://files.beamdog.com/files/PSTEE_Manual_en.pdf","locator":"Walkthrough: Top Floor of the Mortuary, pp. 10–11, lines 485–492","supports":["Morte approaches the Nameless One, gives him instructions, and may be with him during the escape"]}],"confidence":"high","note":"This records the directly witnessed opening guidance/companionship only, not an unavoidable later party state or relationship route."}
+]

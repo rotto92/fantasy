@@ -1,0 +1,210 @@
+[
+  {
+    "term_id": "STM-SRC106-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Fourth Edition Core Books · Official line overview, ‘Core Rulebooks’",
+    "canonical_term": "Barsaive",
+    "original_language": "English Earthdawn setting terminology",
+    "original_script": "Barsaive",
+    "transliteration": "not applicable",
+    "literal_gloss": "default setting province",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The default setting province identified by FASA for Fourth Edition Earthdawn play.",
+    "cultural_caution": "A fictional setting region, not a character endpoint, real geography, or a complete account of every Earthdawn locale or edition.",
+    "citations": [
+      {
+        "url": "https://fasagames.com/earthdawn-whatis/earthdawn/",
+        "locator": "Official line overview, ‘Core Rulebooks’",
+        "supports": [
+          "Barsaive as the selected Fourth Edition default setting province."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC106-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
+    "canonical_term": "Namegivers",
+    "original_language": "English Earthdawn setting terminology",
+    "original_script": "Namegivers",
+    "transliteration": "not applicable",
+    "literal_gloss": "fictional people-category",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The collective category used in the Player’s Guide description for the peoples who inhabit the Earthdawn setting.",
+    "cultural_caution": "A fictional setting category, not a collective character endpoint, a real-world ethnic/racial category, or a claim about individual traits.",
+    "citations": [
+      {
+        "url": "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330",
+        "locator": "Official Player’s Guide product page, ‘The Age of Legend’",
+        "supports": [
+          "Namegivers as the selected Earthdawn people-category."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC106-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Fourth Edition Core Books · Official line overview, Earthdawn Gamemaster’s Screen description",
+    "canonical_term": "Disciplines",
+    "original_language": "English Earthdawn rules terminology",
+    "original_script": "Disciplines",
+    "transliteration": "not applicable",
+    "literal_gloss": "adept advancement paths",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Fourth Edition core character-advancement category for which the FASA line overview provides examples at various Circles.",
+    "cultural_caution": "A source-specific game role/advancement category, not a real vocation, an individual character endpoint, or a promise that every Discipline appears in the selected Player’s Guide.",
+    "citations": [
+      {
+        "url": "https://fasagames.com/earthdawn-whatis/earthdawn/",
+        "locator": "Official line overview, Earthdawn Gamemaster’s Screen description",
+        "supports": [
+          "Core Discipline and Circle terminology in Fourth Edition Earthdawn."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC106-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, Player’s Guide rules description",
+    "canonical_term": "Circles",
+    "original_language": "English Earthdawn rules terminology",
+    "original_script": "Circles",
+    "transliteration": "not applicable",
+    "literal_gloss": "character-advancement levels",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Player’s Guide character-progression scale, covering First through Eighth Circle.",
+    "cultural_caution": "A fictional game-progression label, not a real rank, social hierarchy, or a claim that every Earthdawn product uses the same level range.",
+    "citations": [
+      {
+        "url": "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330",
+        "locator": "Official Player’s Guide product page, Player’s Guide rules description",
+        "supports": [
+          "First through Eighth Circle scope of the selected Player’s Guide."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC106-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
+    "canonical_term": "Horrors",
+    "original_language": "English Earthdawn setting terminology",
+    "original_script": "Horrors",
+    "transliteration": "not applicable",
+    "literal_gloss": "predatory supernatural-foe category",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The Player’s Guide’s collective category of fictional hostile beings associated with astral space and the Scourge.",
+    "cultural_caution": "A fictional horror-antagonist category, not an individual character endpoint, a real spiritual claim, or language for real people or groups.",
+    "citations": [
+      {
+        "url": "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330",
+        "locator": "Official Player’s Guide product page, ‘The Age of Legend’",
+        "supports": [
+          "Horrors as a selected Earthdawn hostile supernatural category."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC106-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-106",
+    "work_or_witness": "Earthdawn Player’s Guide (ED4) · Official Player’s Guide product page, ‘The Age of Legend’",
+    "canonical_term": "Scourge",
+    "original_language": "English Earthdawn setting terminology",
+    "original_script": "Scourge",
+    "transliteration": "not applicable",
+    "literal_gloss": "setting calamity era",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The setting calamity era associated in the Player’s Guide description with the Horrors’ assault and subsequent return to the surface.",
+    "cultural_caution": "A fictional setting-history term involving destruction and trauma, not a real historical event, medical condition, or complete Earthdawn chronology.",
+    "citations": [
+      {
+        "url": "https://shop.fasagames.com/index.php?main_page=product_info&products_id=1330",
+        "locator": "Official Player’s Guide product page, ‘The Age of Legend’",
+        "supports": [
+          "Scourge as the selected Earthdawn setting calamity-era term."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC106-007",
+    "record_kind": "source-term",
+    "source_id": "SRC-106",
+    "work_or_witness": "What’s in a Name? · Official article, opening paragraph",
+    "canonical_term": "pattern magic",
+    "original_language": "English Earthdawn rules terminology",
+    "original_script": "pattern magic",
+    "transliteration": "not applicable",
+    "literal_gloss": "item-power magic mechanic",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Earthdawn magic mechanic by which adepts unlock the power of ancient magical items, as described by FASA.",
+    "cultural_caution": "A fictional game-magic mechanic, not a real magical practice, an inherent personal trait, or an automatic claim about every item in the setting.",
+    "citations": [
+      {
+        "url": "https://fasagames.com/earthdawn/whats-in-a-name/",
+        "locator": "Official article, opening paragraph",
+        "supports": [
+          "Pattern magic as the cited Earthdawn item-power mechanic."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC106-008",
+    "record_kind": "source-term",
+    "source_id": "SRC-106",
+    "work_or_witness": "What’s in a Name? · Official article, opening paragraphs and thread-item note",
+    "canonical_term": "thread items",
+    "original_language": "English Earthdawn rules terminology",
+    "original_script": "thread items",
+    "transliteration": "not applicable",
+    "literal_gloss": "legendary magical-item category",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The magical-item category for which FASA says a character normally first learns the item’s Name to unlock its power.",
+    "cultural_caution": "A fictional game-item category, not a character endpoint, a real sacred object claim, or an assertion that every item follows an identical rule without exception.",
+    "citations": [
+      {
+        "url": "https://fasagames.com/earthdawn/whats-in-a-name/",
+        "locator": "Official article, opening paragraphs and thread-item note",
+        "supports": [
+          "Thread items and their cited Name/power context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

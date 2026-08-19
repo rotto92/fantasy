@@ -1,0 +1,132 @@
+[
+  {
+    "term_id": "STM-SRC246-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-246",
+    "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
+    "canonical_term": "reborn into another world",
+    "original_language": "English",
+    "original_script": "reborn into another world",
+    "transliteration": "",
+    "literal_gloss": "rebirth into a different world",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The source-fiction premise that places Cid in a new world after his past life.",
+    "cultural_caution": "A fictional narrative premise, not evidence about real reincarnation, religion, afterlife, or identity change.",
+    "citations": [
+      {
+        "url": "https://yenpress.com/titles/9781975359058-the-eminence-in-shadow-vol-1-light-novel",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Cid is reborn into another world after a past life"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC246-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-246",
+    "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
+    "canonical_term": "mastermind",
+    "original_language": "English",
+    "original_script": "mastermind",
+    "transliteration": "",
+    "literal_gloss": "secret planner/controller",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The hidden-mastermind role Cid dreams of revealing, while the official synopsis explicitly allows that he may only be pretending to occupy it.",
+    "cultural_caution": "A fictional role-play aspiration, not a separate person, a mental-health label, or a claim of actual control over people or events.",
+    "citations": [
+      {
+        "url": "https://yenpress.com/titles/9781975359058-the-eminence-in-shadow-vol-1-light-novel",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Cid wants to reveal himself as a mastermind or pretend to be one"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC246-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-246",
+    "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
+    "canonical_term": "organization",
+    "original_language": "English",
+    "original_script": "his organization",
+    "transliteration": "",
+    "literal_gloss": "Cid's organization",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The unnamed group for which Cid jokingly recruits members in the selected Volume 1 synopsis.",
+    "cultural_caution": "An unnamed source-fiction group. It is not a character node, and the selected text gives no member list, hierarchy, real-world affiliation, or operational detail.",
+    "citations": [
+      {
+        "url": "https://yenpress.com/titles/9781975359058-the-eminence-in-shadow-vol-1-light-novel",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Cid jokingly recruits members to his organization"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC246-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-246",
+    "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
+    "canonical_term": "evil cult backstory",
+    "original_language": "English",
+    "original_script": "a whole backstory about an evil cult",
+    "transliteration": "",
+    "literal_gloss": "invented cult scenario",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The fictional backstory Cid invents for the unnamed organization to oppose; the synopsis then says its imagined adversaries are real.",
+    "cultural_caution": "A fictional secret-conspiracy premise, not an assertion about real religious communities, cults, criminal groups, or a basis for real-world threat assessment.",
+    "citations": [
+      {
+        "url": "https://yenpress.com/titles/9781975359058-the-eminence-in-shadow-vol-1-light-novel",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "Cid makes up a backstory about an evil cult to be taken down"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC246-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-246",
+    "work_or_witness": "The Eminence in Shadow, Vol. 1 (light novel) · Official Volume 1 synopsis",
+    "canonical_term": "imaginary adversaries turned real",
+    "original_language": "English",
+    "original_script": "these imaginary adversaries turn out to be the real deal",
+    "transliteration": "",
+    "literal_gloss": "imagined enemies are real",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The premise reversal in which the adversaries Cid considers imaginary are actually real, while he remains unaware.",
+    "cultural_caution": "A fictional dramatic device, not a real-world conspiracy claim, evidence standard, or mental-health interpretation.",
+    "citations": [
+      {
+        "url": "https://yenpress.com/titles/9781975359058-the-eminence-in-shadow-vol-1-light-novel",
+        "locator": "Official Volume 1 synopsis",
+        "supports": [
+          "The imagined adversaries are real and Cid alone does not know"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

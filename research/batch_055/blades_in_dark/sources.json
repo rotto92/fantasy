@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "SRC-113",
+    "source_title": "Blades in the Dark",
+    "continuity_scope": "Terms-only emergent-fiction audit bound to One Seven Design's Blades in the Dark System Reference Document (released December 2017) and the corresponding original standalone core product, Evil Hat EHP0030 (currently listed as a 328-page hardcover). No separate numbered core edition is asserted. The SRD licenses core mechanics but expressly excludes the core setting IP, NPCs, maps, and art; Doskvol is therefore evidenced here only by the official core-product listing, not treated as licensed SRD content.",
+    "work_or_witnesses": [
+      "Blades in the Dark System Reference Document, One Seven Design, December 2017 release",
+      "Blades in the Dark, original standalone core product, Evil Hat EHP0030"
+    ],
+    "coverage_rule": "This is a rules system and setting without a fixed canonical cast. Include an individual character only if official core material directly profiles that named person as a stable dramatic individual. The official witnesses instead describe players creating characters and a crew as co-authors; named playbooks, crew types, factions, city material, ghosts, and rules are retained only as source terms. No individual satisfies the stated rule.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "Table-created player characters, crews, NPCs, and campaigns, which are emergent rather than a fixed core cast.",
+      "Named factions and setting examples not directly profiled as individual dramatic characters in the official witness set.",
+      "Actual plays, fan creations, hacks and other Forged in the Dark games, and home campaigns.",
+      "Supplements and later material, including Blades in the Dark: Deep Cuts and Blades '68.",
+      "Setting-IP details beyond the limited Doskvol term; the official SRD license excludes Duskwall/Shattered Isles, NPCs, maps, and art."
+    ],
+    "uncertainties": [
+      "The official product listing does not state a numbered edition or a full errata history. The official core play sheets are marked v3, but this aid is not treated as a global core-edition or errata declaration.",
+      "December 2017 is the official SRD release date, not an independently verified first-print date for EHP0030.",
+      "The game's crime, violence, occult horror, incarceration, and vice/addiction-adjacent material may require table-specific content discussion; these are not claims about real communities or clinical conditions.",
+      "The setting and protagonists are collaboratively created in play, so this terms-only result does not claim to catalogue all possible canonical table outcomes."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official One Seven Design SRD pages and licensing notice, plus the official Evil Hat core-product listing. No fan wikis, actual-play material, or unofficial supplements were used as canonical evidence.",
+    "citations": [
+      {
+        "url": "https://bladesinthedark.com/basics",
+        "locator": "System Reference Document Overview; The Game; The Players",
+        "supports": ["The SRD identifies its scope and describes a group of player-created characters and crew co-authored in play."]
+      },
+      {
+        "url": "https://bladesinthedark.com/licensing",
+        "locator": "System Reference Document; Core Setting",
+        "supports": ["The SRD was released in December 2017 under CC BY 3.0 and does not grant rights to the core setting, NPCs, maps, or art."]
+      },
+      {
+        "url": "https://evilhat.com/product/blades-in-the-dark/",
+        "locator": "Product description; Product details",
+        "supports": ["EHP0030 is the official standalone core product, listed as a 328-page hardcover, and frames play in Doskvol with player-selected playbooks and crew types."]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

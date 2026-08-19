@@ -1,0 +1,70 @@
+[
+  {
+    "source_id": "SRC-015",
+    "reviewer_lane": "gita_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_005/ramayana/sources.json",
+      "research/batch_005/ramayana/characters.json",
+      "research/batch_005/ramayana/relationships.json",
+      "research/batch_005/ramayana/source_terms.json"
+    ],
+    "outcome": "pass-with-material-limits",
+    "changes": [
+      "No source-record edit: sampled Rāma, Sītā, Rāvaṇa, Hanumān, and Śabarī records; marriage, kinship, abduction, alliance, and selected source-term claims remain consistent with the declared Griffith Vālmīki translation scope and its explicit cautions.",
+      "Independently checked the same Griffith translation in Project Gutenberg, The Rámáyan of Válmíki (https://www.gutenberg.org/files/24869/24869-h/24869-h.html), which identifies the translator and the seven-book English verse witness. It corroborates the edition identity, not a new pan-Rāmāyaṇa canon."
+    ],
+    "unresolved_limits": [
+      "The sole claim source remains a nineteenth-century English verse translation hosted by a transcription site, with mostly kāṇḍa/topic rather than exact sarga/verse locators. This is adequate for the declared translation witness but not for a Sanskrit-critical, regional, devotional, performance, or living-tradition claim.",
+      "The retained labels ‘human,’ ‘king,’ rākṣasa, vāṇara, dharma, tapas, vara, mantra, astra, and avatāra need a specialist second review before comparison use. The existing cautions correctly resist race/class/game and pan-Hindu generalizations, and must remain visible.",
+      "Gendered, caste/class, violence, marriage, abduction, and Uttarakāṇḍa claims are especially witness- and textual-layer-specific. No adaptation, devotional retelling, or religious-practice conclusion is resolved by this audit."
+    ],
+    "validator_result": "No claim change required; full validator run after the review-wave remediation passed."
+  },
+  {
+    "source_id": "SRC-009",
+    "reviewer_lane": "gita_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_006/arabian_nights/sources.json",
+      "research/batch_006/arabian_nights/characters.json",
+      "research/batch_006/arabian_nights/relationships.json",
+      "research/batch_006/arabian_nights/source_terms.json"
+    ],
+    "outcome": "remediated-pass-with-translation-limits",
+    "changes": [
+      "Corrected the source audit and all affected sampled character/relationship citations so Sindbad uses Burton Volume 6 (https://www.gutenberg.org/files/3440/3440-h/3440-h.htm), Ebony Horse uses Volume 5 (https://www.gutenberg.org/files/3439/3439-h/3439-h.htm), Kamar al-Zaman uses Volume 3 (https://www.gutenberg.org/files/3437/3437-h/3437-h.htm), and Ma’aruf uses Volume 10 (https://www.gutenberg.org/files/3444/3444-h/3444-h.htm). The declared witness set was not broadened; these are the correct volumes of the same Burton translation already declared by tale.",
+      "Replaced relationship placeholder locators (‘identified tale/night’) with exact tale/night or sequence locators, including the Shahrazad/Shahryar frame, Duban embedded tale, Fisherman release, Sindbad frame, Kamar al-Zaman, Ma’aruf, and Three Apples command scene.",
+      "Narrowed source terms that were unsupported Arabic transliterations in an English-only Burton witness: siḥr became Burton’s ‘ensorcelled / enchanted,’ tājir became ‘merchant,’ ḥakawātī became ‘nightly narration,’ and riḥla became ‘voyage.’ Jinn/Jinni and talisman were explicitly reclassified as Burton English terms and given granular, correct-volume citations."
+    ],
+    "unresolved_limits": [
+      "Burton is a Victorian English translation, not a critical Arabic edition; manuscript, print, regional, and translation variation legitimately remains unresolved. The British Library’s Burton archive record (https://searcharchives.bl.uk/catalog/040-001605897) independently documents Burton’s publication-planning context but does not establish tale-level facts.",
+      "The retained labels for gender, sexuality, race, religion, enslavement, and violence must be understood as Burton’s literary/translation witness, not statements about Arabic-speaking, Muslim, Middle Eastern, North African, South Asian, or other communities.",
+      "Aladdin and Ali Baba remain excluded, and no conclusion about their manuscript status or any modern adaptation is made."
+    ],
+    "validator_result": "Remediated source records and full validator run after the review passed."
+  },
+  {
+    "source_id": "SRC-023",
+    "reviewer_lane": "gita_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_007/sundiata/sources.json",
+      "research/batch_007/sundiata/characters.json",
+      "research/batch_007/sundiata/relationships.json",
+      "research/batch_007/sundiata/source_terms.json"
+    ],
+    "outcome": "pass-with-living-tradition-and-textualization-limits",
+    "changes": [
+      "No source-record edit: sampled Sundiata, Sogolon Kedjou, Balla Fasséké, Nounfairi/Farakourou, Soumaoro, Nana Triban, and the associated kinship, companionship, conflict, and jeli terms. The direct Boston University-hosted Niane/Pickett text has chapter-plus-page locators that support the sampled witness-bound claims.",
+      "Independently checked Indiana University’s description of Jeli Fa-Digi Sisòkò’s separately recorded Mandekan performance (https://folklore.indiana.edu/research/publications/emeriti-publications/2003-son-jara.html). It confirms that Son-Jara/Sunjata remains widely recited and that a different full Mandekan performance and English translation exist; the pass correctly does not merge it with Niane/Pickett.",
+      "Independently checked UNESCO’s Manden Charter record (https://ich.unesco.org/en/individual-case-study-00988?id=00031), which supports treating the Charter as continuing oral heritage rather than treating the Niane chapter as a final, timeless constitution."
+    ],
+    "unresolved_limits": [
+      "Niane/Pickett is a textualized, translated prose witness, not a definitive Mande oral epic. Names, kin relations, plot sequence, jeli authority, ritual terminology, and historical interpretation can differ among performers, languages, lineages, recordings, and editions.",
+      "Jeli/djeli, simbon, mansa, badenya, fadenya, sorcerer, jinn, and Kouroukan Fougan retain their current non-game, non-essentializing cautions. They require Mande-language/community-informed review before broader comparative use.",
+      "Colonial collection/publication history, gender and succession conflict, war, enslavement/charter claims, and the relation of epic narrative to historical/legal authority remain contexts that this bounded text cannot settle."
+    ],
+    "validator_result": "No claim change required; full validator run after the review-wave remediation passed."
+  }
+]

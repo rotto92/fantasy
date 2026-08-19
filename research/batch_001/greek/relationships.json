@@ -1,0 +1,842 @@
+[
+  {
+    "relationship_id": "REL-SRC001-001",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-002",
+    "target_character_id": "CHR-SRC001-003",
+    "relationship_type": "creator",
+    "label": "Gaia bears Uranus",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "126–132",
+        "supports": [
+          "Gaia bears Uranus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-002",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-003",
+    "target_character_id": "CHR-SRC001-004",
+    "relationship_type": "kin",
+    "label": "Uranus fathers Cronus",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "154–182",
+        "supports": [
+          "Uranus fathers Cronus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-003",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-004",
+    "target_character_id": "CHR-SRC001-003",
+    "relationship_type": "opponent",
+    "label": "Cronus overthrows Uranus",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "154–182",
+        "supports": [
+          "Cronus overthrows Uranus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-004",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-004",
+    "target_character_id": "CHR-SRC001-005",
+    "relationship_type": "spouse",
+    "label": "Cronus and Rhea",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "453–459",
+        "supports": [
+          "Cronus and Rhea"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-005",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-005",
+    "target_character_id": "CHR-SRC001-006",
+    "relationship_type": "kin",
+    "label": "Rhea preserves Zeus as her son",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "453–506",
+        "supports": [
+          "Rhea preserves Zeus as her son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-006",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-006",
+    "target_character_id": "CHR-SRC001-004",
+    "relationship_type": "opponent",
+    "label": "Zeus defeats Cronus",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "617–720",
+        "supports": [
+          "Zeus defeats Cronus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-007",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-006",
+    "target_character_id": "CHR-SRC001-007",
+    "relationship_type": "spouse",
+    "label": "Zeus and Hera",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "1.531–611",
+        "supports": [
+          "Zeus and Hera"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-008",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-006",
+    "target_character_id": "CHR-SRC001-008",
+    "relationship_type": "kin",
+    "label": "Zeus and Poseidon are brothers",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "453–506",
+        "supports": [
+          "Zeus and Poseidon are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-009",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-006",
+    "target_character_id": "CHR-SRC001-009",
+    "relationship_type": "kin",
+    "label": "Zeus and Hades are brothers",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "453–506",
+        "supports": [
+          "Zeus and Hades are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-010",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-010",
+    "target_character_id": "CHR-SRC001-011",
+    "relationship_type": "kin",
+    "label": "Demeter is Persephone's mother",
+    "direction": "directed",
+    "continuity": "Homeric Hymns",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 2, 1–39",
+        "supports": [
+          "Demeter is Persephone's mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-011",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-009",
+    "target_character_id": "CHR-SRC001-011",
+    "relationship_type": "spouse",
+    "label": "Hades takes Persephone as wife",
+    "direction": "directed",
+    "continuity": "Homeric Hymns",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 2, 371–386",
+        "supports": [
+          "Hades takes Persephone as wife"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-012",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-010",
+    "target_character_id": "CHR-SRC001-006",
+    "relationship_type": "opponent",
+    "label": "Demeter withholds fertility until Zeus's settlement",
+    "direction": "directed",
+    "continuity": "Homeric Hymns",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 2, 305–364",
+        "supports": [
+          "Demeter withholds fertility until Zeus's settlement"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-013",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-012",
+    "target_character_id": "CHR-SRC001-021",
+    "relationship_type": "patron",
+    "label": "Athena restrains Achilles",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "1.188–222",
+        "supports": [
+          "Athena restrains Achilles"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-014",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-013",
+    "target_character_id": "CHR-SRC001-021",
+    "relationship_type": "opponent",
+    "label": "Apollo sends plague against the Achaeans",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "1.43–53",
+        "supports": [
+          "Apollo sends plague against the Achaeans"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-015",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-017",
+    "target_character_id": "CHR-SRC001-021",
+    "relationship_type": "creator",
+    "label": "Hephaestus makes Achilles' shield",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "18.468–617",
+        "supports": [
+          "Hephaestus makes Achilles' shield"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-016",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-018",
+    "target_character_id": "CHR-SRC001-013",
+    "relationship_type": "opponent",
+    "label": "Hermes steals Apollo's cattle",
+    "direction": "directed",
+    "continuity": "Homeric Hymns",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cauthor%2CHomeric+Hymns",
+        "locator": "Hymn 4, 64–145",
+        "supports": [
+          "Hermes steals Apollo's cattle"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-017",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-020",
+    "target_character_id": "CHR-SRC001-006",
+    "relationship_type": "opponent",
+    "label": "Prometheus deceives Zeus and steals fire",
+    "direction": "directed",
+    "continuity": "Hesiod, Theogony",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0130",
+        "locator": "507–616",
+        "supports": [
+          "Prometheus deceives Zeus and steals fire"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-018",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-021",
+    "target_character_id": "CHR-SRC001-022",
+    "relationship_type": "opponent",
+    "label": "Achilles quarrels with Agamemnon",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "1.7–305",
+        "supports": [
+          "Achilles quarrels with Agamemnon"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-019",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-021",
+    "target_character_id": "CHR-SRC001-023",
+    "relationship_type": "opponent",
+    "label": "Achilles kills Hector",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "22.330–404",
+        "supports": [
+          "Achilles kills Hector"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-020",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-023",
+    "target_character_id": "CHR-SRC001-024",
+    "relationship_type": "kin",
+    "label": "Hector is Priam's son",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "24.468–676",
+        "supports": [
+          "Hector is Priam's son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-021",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-024",
+    "target_character_id": "CHR-SRC001-021",
+    "relationship_type": "other",
+    "label": "Priam supplicates Achilles for Hector's body",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "24.468–676",
+        "supports": [
+          "Priam supplicates Achilles for Hector's body"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-022",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-025",
+    "target_character_id": "CHR-SRC001-026",
+    "relationship_type": "lover",
+    "label": "Helen and Paris in Troy",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "3.383–447",
+        "supports": [
+          "Helen and Paris in Troy"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Relationship wording is limited to Iliad 3."
+  },
+  {
+    "relationship_id": "REL-SRC001-023",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-026",
+    "target_character_id": "CHR-SRC001-027",
+    "relationship_type": "opponent",
+    "label": "Paris duels Menelaus",
+    "direction": "directed",
+    "continuity": "Homer, Iliad",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0133",
+        "locator": "3.15–120",
+        "supports": [
+          "Paris duels Menelaus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-024",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-028",
+    "target_character_id": "CHR-SRC001-029",
+    "relationship_type": "spouse",
+    "label": "Odysseus and Penelope",
+    "direction": "directed",
+    "continuity": "Homer, Odyssey",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "23.163–240",
+        "supports": [
+          "Odysseus and Penelope"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-025",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-028",
+    "target_character_id": "CHR-SRC001-030",
+    "relationship_type": "kin",
+    "label": "Odysseus is Telemachus's father",
+    "direction": "directed",
+    "continuity": "Homer, Odyssey",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "1.213–305",
+        "supports": [
+          "Odysseus is Telemachus's father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-026",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-008",
+    "target_character_id": "CHR-SRC001-028",
+    "relationship_type": "opponent",
+    "label": "Poseidon obstructs Odysseus's return",
+    "direction": "directed",
+    "continuity": "Homer, Odyssey",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "1.68–79",
+        "supports": [
+          "Poseidon obstructs Odysseus's return"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-027",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-031",
+    "target_character_id": "CHR-SRC001-028",
+    "relationship_type": "other",
+    "label": "Circe transforms Odysseus's companions and later helps him",
+    "direction": "directed",
+    "continuity": "Homer, Odyssey",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "10.210–540",
+        "supports": [
+          "Circe transforms Odysseus's companions and later helps him"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-028",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-032",
+    "target_character_id": "CHR-SRC001-028",
+    "relationship_type": "lover",
+    "label": "Calypso detains Odysseus",
+    "direction": "directed",
+    "continuity": "Homer, Odyssey",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "5.1–227",
+        "supports": [
+          "Calypso detains Odysseus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-029",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-028",
+    "target_character_id": "CHR-SRC001-033",
+    "relationship_type": "opponent",
+    "label": "Odysseus blinds Polyphemus",
+    "direction": "directed",
+    "continuity": "Homer, Odyssey",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "9.345–566",
+        "supports": [
+          "Odysseus blinds Polyphemus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-030",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-033",
+    "target_character_id": "CHR-SRC001-008",
+    "relationship_type": "kin",
+    "label": "Polyphemus calls Poseidon his father",
+    "direction": "directed",
+    "continuity": "Homer, Odyssey",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+        "locator": "9.526–536",
+        "supports": [
+          "Polyphemus calls Poseidon his father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-031",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-034",
+    "target_character_id": "CHR-SRC001-006",
+    "relationship_type": "kin",
+    "label": "Heracles is a son of Zeus in the Library",
+    "direction": "directed",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "2.4.8",
+        "supports": [
+          "Heracles is a son of Zeus in the Library"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-032",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-035",
+    "target_character_id": "CHR-SRC001-036",
+    "relationship_type": "companion",
+    "label": "Ariadne aids Theseus",
+    "direction": "directed",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Epitome 1.8–1.10",
+        "supports": [
+          "Ariadne aids Theseus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-033",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-036",
+    "target_character_id": "CHR-SRC001-037",
+    "relationship_type": "kin",
+    "label": "Ariadne is Minos's daughter",
+    "direction": "directed",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Epitome 1.7–1.9",
+        "supports": [
+          "Ariadne is Minos's daughter"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-034",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-035",
+    "target_character_id": "CHR-SRC001-037",
+    "relationship_type": "opponent",
+    "label": "Theseus kills Minos's Minotaur",
+    "direction": "directed",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "Epitome 1.8–1.10",
+        "supports": [
+          "Theseus kills Minos's Minotaur"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-035",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-038",
+    "target_character_id": "CHR-SRC001-039",
+    "relationship_type": "companion",
+    "label": "Medea aids Jason's tasks",
+    "direction": "directed",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "1.9.23–1.9.28",
+        "supports": [
+          "Medea aids Jason's tasks"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-036",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-039",
+    "target_character_id": "CHR-SRC001-038",
+    "relationship_type": "lover",
+    "label": "Medea leaves with Jason",
+    "direction": "directed",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "1.9.28",
+        "supports": [
+          "Medea leaves with Jason"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-037",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-040",
+    "target_character_id": "CHR-SRC001-041",
+    "relationship_type": "spouse",
+    "label": "Oedipus and Jocasta",
+    "direction": "directed",
+    "continuity": "Sophocles, Oedipus Tyrannus",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0187",
+        "locator": "707–1072",
+        "supports": [
+          "Oedipus and Jocasta"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-038",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-040",
+    "target_character_id": "CHR-SRC001-042",
+    "relationship_type": "kin",
+    "label": "Antigone accompanies Oedipus as daughter",
+    "direction": "directed",
+    "continuity": "Sophocles, Oedipus at Colonus",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0188",
+        "locator": "1–80",
+        "supports": [
+          "Antigone accompanies Oedipus as daughter"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "This relationship draws on a different named Sophoclean work than the Oedipus record's main witness."
+  },
+  {
+    "relationship_id": "REL-SRC001-039",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-043",
+    "target_character_id": "CHR-SRC001-044",
+    "relationship_type": "opponent",
+    "label": "Perseus kills Medusa",
+    "direction": "directed",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "2.4.2–2.4.3",
+        "supports": [
+          "Perseus kills Medusa"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC001-040",
+    "source_id": "SRC-001",
+    "source_character_id": "CHR-SRC001-043",
+    "target_character_id": "CHR-SRC001-045",
+    "relationship_type": "champion",
+    "label": "Perseus rescues Andromeda",
+    "direction": "directed",
+    "continuity": "Pseudo-Apollodorus, Library",
+    "citations": [
+      {
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0021%3Atext%3DLibrary",
+        "locator": "2.4.3–2.4.5",
+        "supports": [
+          "Perseus rescues Andromeda"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  }
+]

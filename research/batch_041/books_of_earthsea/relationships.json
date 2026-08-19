@@ -1,0 +1,3 @@
+[
+  {"relationship_id":"REL-SRC085-001","source_id":"SRC-085","source_character_id":"CHR-SRC085-002","target_character_id":"CHR-SRC085-001","relationship_type":"opponent","label":"Ged enters the Tombs to take the Ring that Tenar is charged to protect.","direction":"directed","continuity":"The Tombs of Atuan — estate official-synopsis witness within 2018 container","citations":[{"url":"https://www.ursulakleguin.com/the-tombs-of-atuan","locator":"Estate official synopsis, second paragraph","supports":["Ged's Ring objective and Tenar's protective duty."]}],"confidence":"high","note":"Synopsis-level conflict only; no outcome or later alliance asserted."}
+]

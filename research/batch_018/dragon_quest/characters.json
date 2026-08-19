@@ -1,0 +1,82 @@
+[
+  {
+    "character_id": "CHR-SRC132-001",
+    "canonical_name": "Ortega",
+    "aliases": [],
+    "source_id": "SRC-132",
+    "source_title": "Dragon Quest",
+    "continuity": "DRAGON QUEST III HD-2D Remake, North American English launch edition (14 November 2024)",
+    "work_or_witness": "Official product page, Story",
+    "character_kind": "individual",
+    "description": "A great hero who left his wife and child to undertake a quest to defeat the Archfiend Baramos, but failed in that quest.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term":"great hero","archetype_ids":[],"confidence":"high","note":"The official story calls Ortega 'the great hero.'"}
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {"term":"failed quester","archetype_ids":[],"confidence":"high","note":"The synopsis says Ortega failed his quest against Baramos; it does not establish any further outcome."}
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in the selected launch-story synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://dragonquest.square-enix-games.com/games/en-us/dragon-quest-3-hd2d-remake/",
+        "locator": "Story, lines 12-17",
+        "supports": ["Ortega's hero designation, departure from wife and child, quest against Baramos, and stated failure"]
+      }
+    ],
+    "comparison_cautions": ["No personal name or record is created for Ortega's child because the selected official character section presents that role as 'you.'", "No class, equipment, kingdom, death, or later-story event is inferred from older versions or external materials."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC132-002",
+    "canonical_name": "Baramos",
+    "aliases": [],
+    "source_id": "SRC-132",
+    "source_title": "Dragon Quest",
+    "continuity": "DRAGON QUEST III HD-2D Remake, North American English launch edition (14 November 2024)",
+    "work_or_witness": "Official product page, Story",
+    "character_kind": "individual",
+    "description": "The villainous Archfiend whom Ortega set out to defeat; the official synopsis says Baramos still threatens the world after Ortega fails.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term":"Archfiend","archetype_ids":[],"confidence":"high","note":"The official synopsis explicitly calls Baramos the villainous Archfiend."}
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {"term":"world-threatening antagonist","archetype_ids":[],"confidence":"high","note":"The selected synopsis says Baramos still threatens the world."}
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual in the selected launch-story synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://dragonquest.square-enix-games.com/games/en-us/dragon-quest-3-hd2d-remake/",
+        "locator": "Story, lines 12-17",
+        "supports": ["Baramos's Archfiend designation, Ortega's quest against him, and the stated ongoing threat"]
+      }
+    ],
+    "comparison_cautions": ["The record does not equate 'Archfiend' to any generic species or power category.", "No final encounter, form, origin, or relationship beyond the selected synopsis's stated conflict is inferred."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

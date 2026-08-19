@@ -1,0 +1,44 @@
+[
+  {
+    "source_id": "SRC-167",
+    "source_title": "Lost Ark",
+    "continuity_scope": "Amazon Games' English-language Western Lost Ark service, bounded to the Valtan Legion Raid launch material published 6–17 May 2022 and scheduled in the official Academy article for 19 May 2022. This is a regional, live-service release witness, not evidence for the Korean service, other global regions, later patches, or a complete game-story chronology.",
+    "work_or_witnesses": [
+      "Amazon Games, Destined For Destruction – May Update Reveal, 6 May 2022",
+      "Amazon Games, Lost Ark Academy – Valtan Legion Raid, 17 May 2022"
+    ],
+    "coverage_rule": "All individually named, stable dramatic figures given an explicit character/ability presentation in the selected official Valtan Academy witness: Valtan's titled raid profile and the three named Sidereal skills (Thirain, Wei, and Balthorr). Kharmine and Akkan occur only as contextual story names within Valtan's profile and are excluded under this bounded rule. The player-created Adventurer/Hero, advanced classes, generic players, demons, legions, NPC groups, items, continents, raids, gates, and systems are dimensions or terms, never character nodes.",
+    "in_scope_character_count": 4,
+    "completed_character_count": 4,
+    "omissions": [
+      "The player-created Adventurer/Hero, all player characters, classes, builds, item levels, gear, party composition, gate progress, and player choices/outcomes.",
+      "Kharmine, Akkan, Dochul, Lunar Knights, and every other contextual or generic named entity not separately presented by the coverage rule; generic demons, the Demon Beast Legion, Sidereals, bosses, factions, artifacts, regions, raids, Chaos Gates, and mechanics as character nodes.",
+      "Korean, Japanese, Russian, and other regional/global service material; the game's broader story, other raids and patches, later balance/translation/retcon states, in-game dialogue not quoted by these official articles, fan wikis, Wikipedia, guides, and community databases."
+    ],
+    "uncertainties": [
+      "The Academy article announces Valtan for 19 May 2022 and the May reveal commits it to the Western version in May; this pass treats that dated announcement/release window as its service boundary rather than asserting an independently verified client/server state.",
+      "The official Academy deliberately avoids explaining Valtan's unique raid mechanics to prevent spoilers, so it cannot support a full encounter or story reconstruction.",
+      "Kharmine and Akkan are directly named in Valtan's backstory but receive no independent profile in this witness; their omission is a coverage decision, not a claim that they are absent from Lost Ark canon.",
+      "Raid availability, item level, locks, group votes, and rewards are live-service/player-variable mechanics and are not treated as universal character facts."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Two official Amazon Games English Lost Ark news/Academy articles, published under Smilegate license. The pass uses the dated release material for regional scope and the Academy's named Valtan/Sidereal descriptions for claim-level character evidence; no fan source is used as canonical evidence.",
+    "citations": [
+      {
+        "url": "https://www.playlostark.com/en-us/news/articles/may-2022-update-reveal",
+        "locator": "Destined For Destruction – May Update Reveal, 6 May 2022: opening and Legion Raid – Valtan (Normal & Hard Modes)",
+        "supports": [
+          "Amazon Games Western-service May-2022 scope, first Legion Raid framing, Valtan's raid format, and player-variable mechanics boundary"
+        ]
+      },
+      {
+        "url": "https://www.playlostark.com/en-us/news/articles/lost-ark-academy-valtan",
+        "locator": "Lost Ark Academy – Valtan Legion Raid, 17 May 2022: Valtan story/profile; Sidereal Skills; Looking Ahead",
+        "supports": [
+          "Scheduled 19 May arrival, Valtan profile, three named Sidereal skills, and spoiler-limited encounter coverage"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

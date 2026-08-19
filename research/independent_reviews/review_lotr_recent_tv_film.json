@@ -1,0 +1,135 @@
+[
+  {
+    "source_id": "SRC-264",
+    "reviewer_lane": "lotr_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_109/game_of_thrones/sources.json",
+      "research/batch_109/game_of_thrones/characters.json",
+      "research/batch_109/game_of_thrones/relationships.json",
+      "research/batch_109/game_of_thrones/source_terms.json"
+    ],
+    "claim_totals_reviewed": {
+      "characters": 15,
+      "relationships": 14,
+      "source_terms": 6
+    },
+    "outcome": "Retained without source-bundle edits. Each character, relationship, and term claim is tied to the selected HBO S1E1 audiovisual witness with a scene-range locator; no later television or book claim was introduced. The concentration warning remains legitimate because the episode itself is the only direct authoritative witness for these bounded on-screen facts.",
+    "changes": [
+      "No character, relationship, term, or source-audit claim was broadened, added, or removed.",
+      "No additional URL was added: a separate official HBO/WBD page located during review establishes series or episode availability only and does not directly corroborate the individual S1E1 names, kinship/spousal links, titles, or scene actions."
+    ],
+    "unresolved_limits": [
+      "The publicly fetchable HBO episode URL is access-limited outside playback, while its existing scene-range citations remain the direct primary audiovisual locators.",
+      "All 15 character records therefore depend on that one official episode URL; this is a valid evidence-concentration warning, not a warning that can be resolved by unrelated promotional or later-continuity material.",
+      "No independent official textual witness was found that supports the same premiere-only relationship and term claims without expanding the continuity."
+    ],
+    "validator_result": {
+      "command": "npm run research:validate",
+      "status": "passed-with-retained-evidence-concentration-warning",
+      "counts": "1574 characters, 1261 character relationships, and 1885 source terms across 281 source passes",
+      "warning": "SRC-264: 15 character records depend on one evidence URL; prioritize independent source-to-claim review"
+    },
+    "inspected_count": 35,
+    "reviewed_claim_basis": "Every listed character, relationship, and source-term claim ID received the recorded claim-specific witness and continuity review; populated dimension claims are not credited.",
+    "reviewed_claim_ids": [
+      "character:CHR-SRC264-001",
+      "character:CHR-SRC264-002",
+      "character:CHR-SRC264-003",
+      "character:CHR-SRC264-004",
+      "character:CHR-SRC264-005",
+      "character:CHR-SRC264-006",
+      "character:CHR-SRC264-007",
+      "character:CHR-SRC264-008",
+      "character:CHR-SRC264-009",
+      "character:CHR-SRC264-010",
+      "character:CHR-SRC264-011",
+      "character:CHR-SRC264-012",
+      "character:CHR-SRC264-013",
+      "character:CHR-SRC264-014",
+      "character:CHR-SRC264-015",
+      "relationship:REL-SRC264-001",
+      "relationship:REL-SRC264-002",
+      "relationship:REL-SRC264-003",
+      "relationship:REL-SRC264-004",
+      "relationship:REL-SRC264-005",
+      "relationship:REL-SRC264-006",
+      "relationship:REL-SRC264-007",
+      "relationship:REL-SRC264-008",
+      "relationship:REL-SRC264-009",
+      "relationship:REL-SRC264-010",
+      "relationship:REL-SRC264-011",
+      "relationship:REL-SRC264-012",
+      "relationship:REL-SRC264-013",
+      "relationship:REL-SRC264-014",
+      "source-term:STM-SRC264-001",
+      "source-term:STM-SRC264-002",
+      "source-term:STM-SRC264-003",
+      "source-term:STM-SRC264-004",
+      "source-term:STM-SRC264-005",
+      "source-term:STM-SRC264-006"
+    ]
+  },
+  {
+    "source_id": "SRC-266",
+    "reviewer_lane": "lotr_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_111/lotr_film_trilogy/sources.json",
+      "research/batch_111/lotr_film_trilogy/characters.json",
+      "research/batch_111/lotr_film_trilogy/relationships.json",
+      "research/batch_111/lotr_film_trilogy/source_terms.json"
+    ],
+    "claim_totals_reviewed": {
+      "characters": 12,
+      "relationships": 8,
+      "source_terms": 6
+    },
+    "outcome": "Retained without source-bundle edits. The AFI film-catalogue synopsis and history sections directly support the selected 2001 theatrical-prologue/early-Shire claims at the cited paragraph level; the claims remain confined to the film continuity and avoid later developments. The concentration warning remains legitimate because the accessible independent screenplay bibliographic record authenticates the 2001 New Line publication but does not expose granular passages for the same character or relationship claims.",
+    "changes": [
+      "No character, relationship, term, or source-audit claim was broadened, added, or removed.",
+      "No additional URL was added: the independently located New Line screenplay bibliographic record is not direct evidence for the particular prologue, Shire, or Isengard claim set, so adding it to records would have been citation padding."
+    ],
+    "unresolved_limits": [
+      "All 12 character records rely on AFI's one detailed catalogue URL, although their paragraph locators distinguish the relevant prologue, Shire, and Isengard claims.",
+      "A publicly accessible, authoritative second witness with directly citable granular text for the same 2001 theatrical-cut claims was not found; unofficial script mirrors were excluded.",
+      "The warning is therefore retained rather than suppressed with a general film page, a later/extended cut, a novel source, or non-authoritative screenplay hosting."
+    ],
+    "validator_result": {
+      "command": "npm run research:validate",
+      "status": "passed-with-retained-evidence-concentration-warning",
+      "counts": "1574 characters, 1261 character relationships, and 1885 source terms across 281 source passes",
+      "warning": "SRC-266: 12 character records depend on one evidence URL; prioritize independent source-to-claim review"
+    },
+    "inspected_count": 26,
+    "reviewed_claim_basis": "Every listed character, relationship, and source-term claim ID received the recorded claim-specific witness and continuity review; populated dimension claims are not credited.",
+    "reviewed_claim_ids": [
+      "character:CHR-SRC266-001",
+      "character:CHR-SRC266-002",
+      "character:CHR-SRC266-003",
+      "character:CHR-SRC266-004",
+      "character:CHR-SRC266-005",
+      "character:CHR-SRC266-006",
+      "character:CHR-SRC266-007",
+      "character:CHR-SRC266-008",
+      "character:CHR-SRC266-009",
+      "character:CHR-SRC266-010",
+      "character:CHR-SRC266-011",
+      "character:CHR-SRC266-012",
+      "relationship:REL-SRC266-001",
+      "relationship:REL-SRC266-002",
+      "relationship:REL-SRC266-003",
+      "relationship:REL-SRC266-004",
+      "relationship:REL-SRC266-005",
+      "relationship:REL-SRC266-006",
+      "relationship:REL-SRC266-007",
+      "relationship:REL-SRC266-008",
+      "source-term:STM-SRC266-001",
+      "source-term:STM-SRC266-002",
+      "source-term:STM-SRC266-003",
+      "source-term:STM-SRC266-004",
+      "source-term:STM-SRC266-005",
+      "source-term:STM-SRC266-006"
+    ]
+  }
+]

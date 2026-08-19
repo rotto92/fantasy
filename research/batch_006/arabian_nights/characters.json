@@ -1,0 +1,1468 @@
+[
+  {
+    "character_id": "CHR-SRC009-001",
+    "canonical_name": "Shahrazad",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Frame Tale, Nights 1–3",
+    "character_kind": "individual",
+    "description": "Storyteller who postpones execution through nightly narration.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "Frame Tale, Nights 1–3",
+        "supports": [
+          "Storyteller who postpones execution through nightly narration."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-002",
+    "canonical_name": "Shahryar",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Frame Tale, Nights 1–3",
+    "character_kind": "individual",
+    "description": "King who marries Shahrazad.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "Frame Tale, Nights 1–3",
+        "supports": [
+          "King who marries Shahrazad."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-003",
+    "canonical_name": "Dunyazad",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Frame Tale, Night 1",
+    "character_kind": "individual",
+    "description": "Shahrazad’s sister who requests stories.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "Frame Tale, Night 1",
+        "supports": [
+          "Shahrazad’s sister who requests stories."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-004",
+    "canonical_name": "King Yunan",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Fisherman and the Jinni, Night 3",
+    "character_kind": "individual",
+    "description": "King advised by Duban.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, Night 3",
+        "supports": [
+          "King advised by Duban."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-005",
+    "canonical_name": "Duban",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Fisherman and the Jinni, Night 3",
+    "character_kind": "individual",
+    "description": "Physician executed by King Yunan.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, Night 3",
+        "supports": [
+          "Physician executed by King Yunan."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-006",
+    "canonical_name": "The Fisherman",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Fisherman and the Jinni, Night 3",
+    "character_kind": "individual",
+    "description": "Man who releases the sealed jinni.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, Night 3",
+        "supports": [
+          "Man who releases the sealed jinni."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-007",
+    "canonical_name": "The Jinni",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Fisherman and the Jinni, Night 3",
+    "character_kind": "individual",
+    "description": "Being released from a sealed vessel.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "jinn",
+          "archetype_ids": [],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, Night 3",
+        "supports": [
+          "Being released from a sealed vessel."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-008",
+    "canonical_name": "King of the Black Isles",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Fisherman and the Jinni, Night 4",
+    "character_kind": "individual",
+    "description": "Enchanted king aided by a visitor.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, Night 4",
+        "supports": [
+          "Enchanted king aided by a visitor."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-009",
+    "canonical_name": "The Enchantress",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Fisherman and the Jinni, Night 4",
+    "character_kind": "individual",
+    "description": "Woman who enchants the Black Isles king.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, Night 4",
+        "supports": [
+          "Woman who enchants the Black Isles king."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-010",
+    "canonical_name": "Sindbad the Sailor",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Sindbad the Sailor, Nights 536–566",
+    "character_kind": "individual",
+    "description": "Merchant-traveler who recounts seven voyages.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3440/3440-h/3440-h.htm",
+        "locator": "Sindbad the Seaman and Sindbad the Landsman, Nights 536–566",
+        "supports": [
+          "Merchant-traveler who recounts seven voyages."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-011",
+    "canonical_name": "Sindbad the Porter",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Sindbad the Sailor, Night 536",
+    "character_kind": "individual",
+    "description": "Porter who hears the sailor’s voyages.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3440/3440-h/3440-h.htm",
+        "locator": "Sindbad the Seaman and Sindbad the Landsman, beginning Night 536",
+        "supports": [
+          "Porter who hears the sailor’s voyages."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-012",
+    "canonical_name": "The Old Man of the Sea",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Sindbad the Sailor, Fifth Voyage",
+    "character_kind": "individual",
+    "description": "Hostile being carried by Sindbad.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3440/3440-h/3440-h.htm",
+        "locator": "Sindbad the Seaman, Fifth Voyage",
+        "supports": [
+          "Hostile being carried by Sindbad."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-013",
+    "canonical_name": "The Ebony Horse Prince",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Ebony Horse, Night 357",
+    "character_kind": "individual",
+    "description": "Prince who rides the mechanical ebony horse.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3439/3439-h/3439-h.htm",
+        "locator": "The Ebony Horse, beginning Night 357",
+        "supports": [
+          "Prince who rides the mechanical ebony horse."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-014",
+    "canonical_name": "Princess of Sana",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Ebony Horse, Night 357",
+    "character_kind": "individual",
+    "description": "Princess associated with the ebony-horse tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3439/3439-h/3439-h.htm",
+        "locator": "The Ebony Horse, beginning Night 357",
+        "supports": [
+          "Princess associated with the ebony-horse tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-015",
+    "canonical_name": "King Sabur",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Ebony Horse, Night 357",
+    "character_kind": "individual",
+    "description": "King who receives the ebony horse.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3439/3439-h/3439-h.htm",
+        "locator": "The Ebony Horse, beginning Night 357",
+        "supports": [
+          "King who receives the ebony horse."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-016",
+    "canonical_name": "The Indian Sage",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Ebony Horse, Night 357",
+    "character_kind": "individual",
+    "description": "Maker/presenter of the ebony horse.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3439/3439-h/3439-h.htm",
+        "locator": "The Ebony Horse, beginning Night 357",
+        "supports": [
+          "Maker/presenter of the ebony horse."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-017",
+    "canonical_name": "The Persian Sage",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Ebony Horse, Night 357",
+    "character_kind": "individual",
+    "description": "Rival presenter in the ebony-horse tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3439/3439-h/3439-h.htm",
+        "locator": "The Ebony Horse, beginning Night 357",
+        "supports": [
+          "Rival presenter in the ebony-horse tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-018",
+    "canonical_name": "The Greek Sage",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Ebony Horse, Night 357",
+    "character_kind": "individual",
+    "description": "Presenter in the ebony-horse tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3439/3439-h/3439-h.htm",
+        "locator": "The Ebony Horse, beginning Night 357",
+        "supports": [
+          "Presenter in the ebony-horse tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-019",
+    "canonical_name": "Prince Kamar al-Zaman",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Kamar al-Zaman and Budur, Night 170",
+    "character_kind": "individual",
+    "description": "Prince whose story is linked to Budur.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3437/3437-h/3437-h.htm",
+        "locator": "Tale of Kamar al-Zaman, beginning Night 170",
+        "supports": [
+          "Prince whose story is linked to Budur."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-020",
+    "canonical_name": "Princess Budur",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Kamar al-Zaman and Budur, Night 170",
+    "character_kind": "individual",
+    "description": "Princess linked to Kamar al-Zaman.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3437/3437-h/3437-h.htm",
+        "locator": "Tale of Kamar al-Zaman, beginning Night 170",
+        "supports": [
+          "Princess linked to Kamar al-Zaman."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-021",
+    "canonical_name": "King Shahriman",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Kamar al-Zaman and Budur, Night 170",
+    "character_kind": "individual",
+    "description": "Father of Kamar al-Zaman.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3437/3437-h/3437-h.htm",
+        "locator": "Tale of Kamar al-Zaman, beginning Night 170",
+        "supports": [
+          "Father of Kamar al-Zaman."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-022",
+    "canonical_name": "King Ghayur",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Kamar al-Zaman and Budur, Night 170",
+    "character_kind": "individual",
+    "description": "Father of Budur.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3437/3437-h/3437-h.htm",
+        "locator": "Tale of Kamar al-Zaman, beginning Night 170",
+        "supports": [
+          "Father of Budur."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-023",
+    "canonical_name": "Maruf",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Maruf the Cobbler, Nights 990–1001",
+    "character_kind": "individual",
+    "description": "Cobbler protagonist of a late tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Ma’aruf the Cobbler and His Wife, Nights 990–1001",
+        "supports": [
+          "Cobbler protagonist of a late tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-024",
+    "canonical_name": "Fatimah",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Maruf the Cobbler, Night 990",
+    "character_kind": "individual",
+    "description": "Maruf’s wife in the tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Ma’aruf the Cobbler and His Wife, beginning Night 990",
+        "supports": [
+          "Maruf’s wife in the tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-025",
+    "canonical_name": "The Jinni of the Ring",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Maruf the Cobbler, Night 990",
+    "character_kind": "individual",
+    "description": "Jinni associated with Maruf’s ring.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "jinn",
+          "archetype_ids": [],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Ma’aruf the Cobbler and His Wife, ring-jinni sequence",
+        "supports": [
+          "Jinni associated with Maruf’s ring."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-026",
+    "canonical_name": "King of China",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Maruf the Cobbler, Night 990",
+    "character_kind": "individual",
+    "description": "Ruler in Maruf’s tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Ma’aruf the Cobbler and His Wife, beginning Night 990",
+        "supports": [
+          "Ruler in Maruf’s tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-027",
+    "canonical_name": "The Princess of China",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "Maruf the Cobbler, Night 990",
+    "character_kind": "individual",
+    "description": "Princess in Maruf’s tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Ma’aruf the Cobbler and His Wife, beginning Night 990",
+        "supports": [
+          "Princess in Maruf’s tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-028",
+    "canonical_name": "The Merchant",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Three Apples, Night 19",
+    "character_kind": "individual",
+    "description": "Merchant in the murder tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Three Apples, Night 19",
+        "supports": [
+          "Merchant in the murder tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-029",
+    "canonical_name": "Ja‘far",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Three Apples, Night 19",
+    "character_kind": "individual",
+    "description": "Vizier tasked with solving the murder.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Three Apples, Night 19",
+        "supports": [
+          "Vizier tasked with solving the murder."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  },
+  {
+    "character_id": "CHR-SRC009-030",
+    "canonical_name": "Harun al-Rashid",
+    "aliases": [],
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity": "Richard F. Burton translation, selected tales",
+    "work_or_witness": "The Three Apples, Night 19",
+    "character_kind": "individual",
+    "description": "Caliph who commands Ja‘far.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "low",
+          "note": "Cautious comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "selected translation witness",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Three Apples, Night 19",
+        "supports": [
+          "Caliph who commands Ja‘far."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation/recension-specific; not a claim about all Arabic manuscript traditions or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "needs-review"
+  }
+]

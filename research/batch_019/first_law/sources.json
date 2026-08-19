@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-051",
+    "source_title":"The First Law",
+    "continuity_scope":"Joe Abercrombie, The Blade Itself (Gollancz, 2006), original UK novel witness, restricted further to its opening six chapters: “The End,” “Questions,” “The Fencing Contest,” “No Choice at All,” “Teeth and Fingers,” and “The Wide and Barren North.” This is not a composite account of the First Law trilogy, standalones, Sharp Ends, Age of Madness, translations, revised/reformatted editions, audiobooks, or adaptations.",
+    "work_or_witnesses":[
+      {"work":"The Blade Itself","edition":"Gollancz, 2006, original UK novel edition (ISBN 9780575077850); 422 pages. Chapter, rather than page, locators are used because subsequent editions differ in pagination.","url":"https://books.google.com/books/about/The_Blade_Itself.html?id=QNkGRAAACAAJ"},
+      {"work":"The Blade Itself sample chapters","edition":"Official Joe Abercrombie sample PDF containing the declared opening chapter set; direct primary-text access witness.","url":"https://joeabercrombie.com/extracts/TheBladeItself-SampleChapters-JoeAbercrombie.pdf"},
+      {"work":"The Blade Itself","edition":"Author's official book page, used for 2006 publication, Book One status, official synopsis, and authorized extract access.","url":"https://joeabercrombie.com/books/the-blade-itself/"},
+      {"work":"The First Law Trilogy Box Set","edition":"Author's official bibliography page, used only to distinguish the trilogy unit from this single-novel pass.","url":"https://joeabercrombie.com/books/the-first-law-trilogy-box-set/"}
+    ],
+    "coverage_rule":"Include the three opening viewpoint protagonists (Logen Ninefingers, Sand dan Glokta, and Jezal dan Luthar) and their named continuing on-page companions or direct training authority in the first six chapters: Malacus Quai, Practical Severard, Practical Frost, and Lord Marshal Varuz. This seven-person cohort covers the early northern journey, the Inquisition interrogation team, and the fencing-training thread. Named one-scene prisoners, offstage/only-mentioned figures, groups, and everyone introduced after the declared chapter set remain outside scope. Peoples, military/social roles, institutions, magic, spirits, artifacts, places, and narrative archetypes remain dimensions/source terms.",
+    "in_scope_character_count":7,
+    "completed_character_count":7,
+    "omissions":[
+      "All chapters after “The Wide and Barren North” in The Blade Itself, including later introductions, journeys, relationships, and the novel's resolution",
+      "Before They Are Hanged, Last Argument of Kings, all standalones, Sharp Ends, Age of Madness, other First Law-world works, every translation/reformatting/audiobook, and adaptations",
+      "Named one-scene detainees, offstage figures, collective military or institutional figures, and unnamed opponents in the declared opening chapters",
+      "Northmen, Shanka/Flatheads, Union subjects, the Inquisition, Practicals, the Magi, spirits, weapons, libraries, cities, and other non-individual concepts"
+    ],
+    "uncertainties":[
+      "The 2006 original and later print/ebook/audiobook editions have differing pagination and may have different paratext or translation titles. This pass cites exact chapter titles in the original English novel instead of applying a page number from a later edition.",
+      "The opening is delivered through limited, strongly subjective viewpoints. Glokta's judgments, Jezal's self-appraisal, and Logen's recollections are not treated as neutral omniscient evidence; records distinguish directly narrated actions from character framing where relevant.",
+      "Aliases, reputations, and past violence are intentionally limited to what the opening six chapters establish. Later explanation of Logen's identity, the Magi, the political plot, and every subsequent status change is excluded.",
+      "The declared chapters contain graphic violence, torture, coercive interrogation, war injury, threats, and stigmatizing language about disability/body difference. These are recorded descriptively and without endorsement or conversion into archetype labels. Fictional people and national groups are not mapped to real ones."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Character, relationship, and term claims use Joe Abercrombie's authorized sample text, cited by exact original chapter title. The official author page provides the book's 2006/Book One context and an authorized extract; Google Books supplies bibliographic confirmation of the original Gollancz edition. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://joeabercrombie.com/extracts/TheBladeItself-SampleChapters-JoeAbercrombie.pdf","locator":"The Blade Itself official sample PDF, opening chapters “The End” through “The Wide and Barren North”","supports":["Primary evidence for the seven-person cohort, their immediate relationships, setting terms, and cautions."]},
+      {"url":"https://joeabercrombie.com/books/the-blade-itself/","locator":"Author book page: “The Blade Itself” (2006), Book One of The First Law, official synopsis and extract links","supports":["Publication/year, single-book identity, and core-protagonist context."]},
+      {"url":"https://books.google.com/books/about/The_Blade_Itself.html?id=QNkGRAAACAAJ","locator":"Bibliographic information: Gollancz, 2006; ISBN 9780575077850; 422 pages","supports":["Original-edition bibliographic identification."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

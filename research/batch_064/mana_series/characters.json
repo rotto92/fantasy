@@ -1,0 +1,703 @@
+[
+  {
+    "character_id": "CHR-SRC184-001",
+    "canonical_name": "Val",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "The protagonist, a newly appointed soul guard from Tianeea who accompanies his childhood friend Hinna after she is chosen as an alm.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "soul guard",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct official role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Tianeea, the Fire Village",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct origin."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "protagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Square Enix explicitly calls Val the protagonist."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Val, lines 62-67",
+        "supports": [
+          "Name, origin, protagonist and soul-guard status, Hinna friendship, pilgrimage premise"
+        ]
+      },
+      {
+        "url": "https://mana.square-enix-games.com/en-us/games/visions-of-mana",
+        "locator": "The Story, lines 15-18",
+        "supports": [
+          "Val as the new soul guard, his childhood friendship with Hinna, and accompanying her on the pilgrimage."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No complete combat build or ending is inferred from the profile."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-002",
+    "canonical_name": "Hinna",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "Val's childhood friend from Tianeea, chosen as the Alm of Fire for the year's pilgrimage.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Alm of Fire",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct official designation."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Tianeea, the Fire Village",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct origin."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "alm pilgrimage",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Her described journey."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Hinna, lines 73-78",
+        "supports": [
+          "Name, origin, Val friendship, and Alm of Fire designation"
+        ]
+      },
+      {
+        "url": "https://mana.square-enix-games.com/en-us/games/visions-of-mana",
+        "locator": "The Story, lines 15-18",
+        "supports": [
+          "Hinna's name, childhood friendship with Val, and appointment as the Alm of Fire."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No outcome of the pilgrimage is recorded."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-003",
+    "canonical_name": "Careena",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "A Longren native who lost one wing in an accident and wishes to be appointed an alm to see beyond the Vale of Wind.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Longren, the Vale of Wind",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct origin."
+        }
+      ],
+      "states_and_transformations": [
+        {
+          "term": "loss of one wing",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official profile's accident consequence; no cause beyond that wording."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "alm appointment",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Stated wish, not proof of appointment."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Careena, lines 84-93",
+        "supports": [
+          "Name, Longren origin, wing loss, aspiration, and Ramcoh friendship"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Her desired appointment is not an asserted route outcome."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-004",
+    "canonical_name": "Ramcoh",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "A baby sacred beast and Careena's best friend, who saved her after her accident and then began living in Longren.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "baby sacred beast",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct official descriptor."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Longren, the Vale of Wind",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official profile says Ramcoh began living there."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly described in Careena's official profile.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Careena/Ramcoh, lines 88-93",
+        "supports": [
+          "Name, sacred-beast status, rescue of Careena, and Longren residence"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "A named individual; the broader sacred-beast category remains a term."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-005",
+    "canonical_name": "Morley",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "An Etaern native burdened by a disaster in his hometown, who begins facing that past after meeting Val and the others.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Etaern, the Moonlit Parish",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct origin."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Morley, lines 99-104",
+        "supports": [
+          "Name, Etaern origin, disaster premise, and meeting Val/others"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The nature of the disaster and its resolution are not stated."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-006",
+    "canonical_name": "Palamena",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "The young Queen of Illystana who succeeded her father and cares for her younger brother Iain amid political expectations.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Queen",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct title."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Illystana, Capital of the Deep",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct rulership/origin setting."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Palamena, lines 110-115",
+        "supports": [
+          "Name, queen title, succession premise, Illystana, and Iain kinship"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The official profile does not provide a complete political history or subsequent outcome."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-007",
+    "canonical_name": "Julei",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "A sproutling and current custodian of Verdeus Borough, responsible for watering his sleeping companions.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "sproutling",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source-native people/being label; no external equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "custodian",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct official role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Verdeus Borough",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct origin/office setting."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Julei, lines 121-126",
+        "supports": [
+          "Name, sproutling label, custodian office, Verdeus origin, and sleeping companions"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Sproutling is a source-native category, not a generic race mapping."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-008",
+    "canonical_name": "Aesh",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "A scholar of the Log'grattzo Dark Archives and its young head curator, driven by broad curiosity.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "scholar",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct official role."
+        },
+        {
+          "term": "head curator",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct title."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Log'grattzo Dark Archives",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct institutional affiliation."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Aesh, lines 132-136",
+        "supports": [
+          "Name, scholar role, Dark Archives affiliation, and head-curator title"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No specific research or quest outcome is inferred."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-009",
+    "canonical_name": "Eoren",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "A Gaian traveler from Gudju who repeatedly encounters Val and Hinna and is curious about the alm pilgrimage.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Gaian",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source-native people/being label; no external equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "traveler",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct official descriptor."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Gudju, the Earth Village",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct origin."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Eoren, lines 142-147",
+        "supports": [
+          "Name, Gaian/traveler labels, Gudju origin, encounters with Val/Hinna, and curiosity"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Repeated encounters do not establish a fixed party membership or motive beyond the stated curiosity."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-010",
+    "canonical_name": "Lyza",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "A former soul guard, Val's mentor, and a skilled fighter reportedly resettled in Gudju.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "former soul guard",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct official role."
+        },
+        {
+          "term": "mentor",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct relationship role to Val."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Gudju, the Earth Village",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "The profile says Lyza is said to have resettled there."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled character in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Lyza, lines 148-153",
+        "supports": [
+          "Name, former soul-guard status, Val mentorship, fighting-skill description, and reported Gudju resettlement"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The reported resettlement is deliberately retained as uncertain source wording."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-011",
+    "canonical_name": "Daelophos",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction",
+    "character_kind": "individual",
+    "description": "A long-ago champion chosen by the Goddess, given the Mana Sword and eight elemental vessels to subdue the Benevodon monsters; his deeds survive as legend.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "champion",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct official label."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Mana Sword",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official profile says it was given to him."
+        },
+        {
+          "term": "eight elemental vessels",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Official profile says they were given to him."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Officially profiled legendary individual in the selected witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Daelophos, lines 159-161",
+        "supports": [
+          "Name, champion premise, Goddess, Mana Sword, vessels, Benevodons, and legendary transmission"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The profile calls the deeds legend; it does not establish exact chronology, outcome, or cross-game identity."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC184-012",
+    "canonical_name": "Iain",
+    "aliases": [],
+    "source_id": "SRC-184",
+    "source_title": "Mana Series",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "work_or_witness": "Square Enix Character Introduction (Palamena profile)",
+    "character_kind": "individual",
+    "description": "Palamena's young brother, for whom she cares after succeeding her father as Queen of Illystana.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Illystana, Capital of the Deep",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Stated in Palamena's profile context."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly identified in Palamena's official profile; deliberately limited record.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Palamena, lines 114-115",
+        "supports": [
+          "Iain name, young-brother kinship, and Palamena's care"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No independent biography, role, or player status is provided by the selected witness."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

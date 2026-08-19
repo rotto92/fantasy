@@ -1,0 +1,23 @@
+[
+  {
+    "relationship_id": "REL-SRC010-001",
+    "source_id": "SRC-010",
+    "source_character_id": "CHR-SRC010-001",
+    "target_character_id": "CHR-SRC010-002",
+    "relationship_type": "other",
+    "label": "Iblis refuses the command concerning Adam",
+    "direction": "directed",
+    "continuity": "Qur'anic primary-text witness only",
+    "citations": [
+      {
+        "url": "https://quran.com/al-baqarah/34",
+        "locator": "Qur'an 2:34",
+        "supports": [
+          "Iblis refuses the command involving Adam."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Narrative relation only. It does not claim a generic moral alignment for jinn or define a game-style enemy faction."
+  }
+]

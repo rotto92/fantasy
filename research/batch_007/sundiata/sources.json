@@ -1,0 +1,63 @@
+[
+  {
+    "source_id": "SRC-023",
+    "source_title": "Epic of Sundiata",
+    "continuity_scope": "Bounded to Djibril Tamsir Niane, Sundiata: An Epic of Old Mali, translated by G. D. Pickett: the English published prose rendering attributed in its framing to Djeli Mamoudou Kouyaté of Djeliba Koro. This is a textualized, translation-specific witness, not a definitive text of a living Mande oral epic. Other jeli lineages, languages, performances, transcriptions, editions, and adaptations—including Jeli Fa-Digi Sisòkò's Son-Jara performance—are separate witnesses/continuities.",
+    "work_or_witnesses": [
+      {
+        "work": "D. T. Niane, Sundiata: An Epic of Old Mali",
+        "edition": "G. D. Pickett English translation; revised edition, 2006 (French original 1960); prose rendering framed as the words of Djeli Mamoudou Kouyaté",
+        "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf"
+      },
+    {
+      "work": "John William Johnson, Son-Jara: The Mande Epic Performance by Jeli Fa-Digi Sisòkò",
+      "edition": "Indiana University Press, 2003; separate annotated Mandekan performance and English translation",
+      "url": "https://folklore.indiana.edu/research/publications/emeriti-publications/2003-son-jara.html"
+    },
+    {
+      "work": "David Schoenbrun, Gendered Themes in Early African History",
+      "edition": "Scholarly contextual witness, pp. 263–264, used only for the gendered-history caution attached to the source-term claims.",
+      "url": "https://history.northwestern.edu/documents/people/faculty/schoenbrun/schoenbrun-gendered-themes.pdf"
+    }
+    ],
+    "coverage_rule": "All principal named plot agents in the declared Niane/Pickett witness: royal family members who affect succession/exile, named jeliw and diviners/smiths who materially advise or act, named hunters, named rulers and commanders, and named supernatural/political antagonists. Unnamed offices and collective groups are excluded; genealogical forebears and named minor figures without material plot action are omitted.",
+    "in_scope_character_count": 27,
+    "completed_character_count": 27,
+    "omissions": [
+      "The unnamed Hunter-Soothsayer of the opening prophecy, because this pass requires named character nodes.",
+      "Most genealogical ancestors, unnamed rulers, unnamed envoys, groups, and episodic warriors.",
+      "Characters, names, roles, and episodes found only in other oral performances, textualizations, adaptations, or modern reconstructions."
+    ],
+    "uncertainties": [
+      "Niane's influential prose publication recasts oral material; chapter locators establish this witness only and do not establish a pan-Mande canonical version.",
+      "Spellings vary substantially across transliterations and performances (for example Sunjata/Sundiata/Son-Jara; Sumanguru/Soumaoro; Bala Faseke/Balla Fasséké).",
+      "Terms such as 'sorcerer,' 'prophet,' and 'griot' are English/French publication choices or comparative labels; source terms retain cautions and avoid treating them as fantasy classes."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Claim-specific chapter locators in the declared published English witness, supplemented for scope and terminology by Indiana University's description of the distinct Fa-Digi Sisòkò performance and scholarly discussion of Sunjata variants and Mande kinship.",
+    "citations": [
+      {
+        "url": "https://www.bu.edu/africa/files/pdf/SUNDIATA1.pdf",
+        "locator": "title matter; 'The Words of the Griot Mamadou Kouyaté'; table of contents",
+        "supports": [
+          "Declared Niane/Pickett witness, its framing narrator, and chapter sequence."
+        ]
+      },
+      {
+        "url": "https://folklore.indiana.edu/research/publications/emeriti-publications/2003-son-jara.html",
+        "locator": "publication description",
+        "supports": [
+          "A separately published full Mandekan text and English translation of Jeli Fa-Digi Sisòkò's performance; the epic remains widely recited."
+        ]
+      },
+      {
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/38A0DB3D1DB47D729223D42951A01604/S0361541300000656a.pdf/searching_for_history_in_the_sunjata_epic_the_case_of_fakoli1.pdf",
+        "locator": "David C. Conrad, 'Searching for History in The Sunjata Epic: The Case of Fakoli,' History in Africa 19 (1992), pp. 147-149",
+        "supports": [
+          "Scholarly treatment of variation and source problems in Sunjata traditions."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

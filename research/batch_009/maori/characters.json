@@ -1,0 +1,161 @@
+[
+  {
+    "character_id": "CHR-SRC024-001",
+    "canonical_name": "Ranginui",
+    "aliases": ["Rangi"],
+    "source_id": "SRC-024",
+    "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara creation-reference witness; variants explicitly retained",
+    "work_or_witness": "Māori creation traditions, ‘Common threads in creation stories’",
+    "character_kind": "individual",
+    "description": "Sky parent in the selected earth-sky separation account.",
+    "dimensions": {
+      "being_types": [{"term":"atua / sky parent","archetype_ids":["PPL-401"],"confidence":"moderate","note":"Partial comparison coordinate only; atua is not a generic fantasy deity category."}],
+      "cultures": [], "roles_and_vocations": [], "power_traditions": [], "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term":"earth-sky separation account","archetype_ids":[],"confidence":"moderate","note":"Witness-specific cosmological narrative, not a universal Māori creation sequence."}],
+      "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []
+    },
+    "canon_status": "attested in the declared published witness scope",
+    "evidence_level": "official-reference",
+    "citations": [{"url":"https://teara.govt.nz/en/maori-creation-traditions/page-1","locator":"‘Common threads in creation stories’, § ‘The separation of earth and sky’, para. 2","supports":["Ranginui is the sky parent joined with Papatūānuku before their children separate them."]}],
+    "comparison_cautions": ["Rangi is an alias in the cited summary, not evidence that every name, genealogy, or episode is identical across iwi and hapū."],
+    "spoiler_level": "none", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-002",
+    "canonical_name": "Papatūānuku",
+    "aliases": ["Papa"],
+    "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara creation-reference witness; variants explicitly retained",
+    "work_or_witness": "Māori creation traditions, ‘Common threads in creation stories’",
+    "character_kind": "individual",
+    "description": "Earth parent in the selected earth-sky separation account.",
+    "dimensions": {
+      "being_types": [{"term":"atua / earth parent","archetype_ids":["PPL-401"],"confidence":"moderate","note":"Partial comparison coordinate only; atua is not a generic fantasy deity category."}],
+      "cultures": [], "roles_and_vocations": [], "power_traditions": [], "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term":"earth-sky separation account","archetype_ids":[],"confidence":"moderate","note":"Witness-specific cosmological narrative, not a universal Māori creation sequence."}],
+      "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []
+    },
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [{"url":"https://teara.govt.nz/en/maori-creation-traditions/page-1","locator":"‘Common threads in creation stories’, § ‘The separation of earth and sky’, para. 2","supports":["Papatūānuku is the earth parent joined with Ranginui before their children separate them."]}],
+    "comparison_cautions": ["Papa is an alias in the cited summary, not evidence that every name, genealogy, or episode is identical across iwi and hapū."], "spoiler_level": "none", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-003",
+    "canonical_name": "Tāne",
+    "aliases": [], "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara creation and human-origin reference witnesses; variants explicitly retained",
+    "work_or_witness": "First peoples in Māori tradition, ‘Tāne, Hineahuone and Hine’; Traditional Māori religion, ‘Ngā atua – the gods’",
+    "character_kind": "individual",
+    "description": "Child of Ranginui and Papatūānuku who separates sky from earth in one cited account and makes Hineahuone from soil at Kurawaka in another selected witness.",
+    "dimensions": {
+      "being_types": [{"term":"atua","archetype_ids":["PPL-401"],"confidence":"moderate","note":"Partial comparison coordinate only; no generic pantheon or fixed portfolio is implied."}],
+      "cultures": [], "roles_and_vocations": [],
+      "power_traditions": [{"term":"making Hineahuone from soil at Kurawaka","archetype_ids":[],"confidence":"high","note":"A witness-specific narrative act, not a reproducible magic system."}],
+      "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [], "cosmologies_and_realms": [], "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []
+    },
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [
+      {"url":"https://teara.govt.nz/en/traditional-maori-religion-nga-karakia-a-te-maori/page-1","locator":"‘Ngā atua – the gods’, § ‘Rangi, Papa and their children’, paras. 1–2","supports":["Tāne uses his legs to push sky apart from earth in this cited account."]},
+      {"url":"https://teara.govt.nz/en/first-peoples-in-maori-tradition/page-2","locator":"‘Tāne, Hineahuone and Hine’, paras. 1–3","supports":["Tāne makes Hineahuone from soil at Kurawaka and is identified as her parent’s child."]}
+    ],
+    "comparison_cautions": ["The cited sources themselves note multiple versions; do not make this episode a universal Māori creation account."], "spoiler_level": "none", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-004",
+    "canonical_name": "Hineahuone",
+    "aliases": [], "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara human-origin reference witness", "work_or_witness": "First peoples in Māori tradition, ‘Tāne, Hineahuone and Hine’",
+    "character_kind": "individual", "description": "Woman made from soil at Kurawaka in the selected human-origin account; mother of Hinetītama.",
+    "dimensions": {
+      "being_types": [], "cultures": [], "roles_and_vocations": [], "power_traditions": [], "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [], "cosmologies_and_realms": [], "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []
+    },
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [{"url":"https://teara.govt.nz/en/first-peoples-in-maori-tradition/page-2","locator":"‘Tāne, Hineahuone and Hine’, paras. 1–3","supports":["Hineahuone is named as the woman made from soil at Kurawaka and as Hinetītama’s mother in the selected account."]}],
+    "comparison_cautions": ["The description follows this published account only; it does not impose one origin narrative over other tribal versions."], "spoiler_level": "none", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-005",
+    "canonical_name": "Hinetītama",
+    "aliases": ["Hine-nui-te-pō", "Hinenui-i-te-pō"], "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara human-origin and wāhine atua reference witnesses", "work_or_witness": "First peoples in Māori tradition, ‘Tāne, Hineahuone and Hine’; Te mana o te wāhine – Māori women",
+    "character_kind": "individual", "description": "Daughter of Tāne and Hineahuone; the selected reference accounts identify her as Hine-nui-te-pō / Hinenui-i-te-pō after her movement to the underworld.",
+    "dimensions": {
+      "being_types": [], "cultures": [], "roles_and_vocations": [], "power_traditions": [], "affiliations": [],
+      "states_and_transformations": [{"term":"Hinetītama becomes Hine-nui-te-pō","archetype_ids":[],"confidence":"high","note":"Specific witness-grounded identity change; not a generic transformation mechanic."}],
+      "artifacts_and_vehicles": [], "cosmologies_and_realms": [{"term":"threshold between night and day, darkness and light","archetype_ids":[],"confidence":"moderate","note":"Cited account-specific description."}], "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []
+    },
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [
+      {"url":"https://teara.govt.nz/en/first-peoples-in-maori-tradition/page-2","locator":"‘Tāne, Hineahuone and Hine’, para. 2","supports":["Hinetītama is named as Tāne and Hineahuone’s daughter and is also known as Hinenui-i-te-pō in this account."]},
+      {"url":"https://teara.govt.nz/en/te-mana-o-te-wahine-maori-women","locator":"Story summary, § ‘Goddesses’, item 3","supports":["Hinetītama flees to the underworld and becomes Hine-nui-te-pō in the cited reference account."]}
+    ],
+    "comparison_cautions": ["The alias and change are recorded as this witness’s account; they must not be reduced to a game-like transformation state or presumed to settle all variants."], "spoiler_level": "light", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-006",
+    "canonical_name": "Māui",
+    "aliases": ["Māui-tikitiki-a-Taranga"], "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara Māui and land-form reference witnesses, including a named Ngāti Porou account and a Te Rangihaeata/Ngāti Toarangatira version", "work_or_witness": "First peoples in Māori tradition, ‘Māui’; Whenua – how the land was shaped, ‘The North and South islands’",
+    "character_kind": "individual", "description": "Named actor in the selected fishing-up-land episode; Te Ara describes Māui as a ‘great trickster hero’ and records differing regional land-form details.",
+    "dimensions": {
+      "being_types": [], "cultures": [], "roles_and_vocations": [], "power_traditions": [], "affiliations": [], "states_and_transformations": [],
+      "artifacts_and_vehicles": [{"term":"jawbone fish hook","archetype_ids":[],"confidence":"high","note":"Specific account: a fish hook made from his grandmother’s jawbone; do not treat as a portable generic artifact type."}],
+      "cosmologies_and_realms": [{"term":"Te Ika-a-Māui / Te Waka-a-Māui land-form account","archetype_ids":[],"confidence":"high","note":"Witness-grounded sacred geography; regional versions differ."}],
+      "metaphysical_laws_and_rituals": [], "narrative_archetypes": [{"term":"great trickster hero","archetype_ids":[],"confidence":"moderate","note":"Te Ara’s English description; not a cross-cultural equivalence."}], "game_mechanics": []
+    },
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [
+      {"url":"https://teara.govt.nz/en/first-peoples-in-maori-tradition/page-3","locator":"‘Māui’, §§ ‘Māui’ and ‘Māui and his fish’, paras. 1–2","supports":["Māui is described as a great trickster hero and, in the cited Ngāti Porou account, fishes with a jawbone hook."]},
+      {"url":"https://teara.govt.nz/en/whenua-how-the-land-was-shaped/page-2","locator":"‘The North and South islands’, §§ ‘Māui fishes up the North Island’ and ‘How the North Island got its shape’, paras. 1–3","supports":["Māui hauls up Te Ika-a-Māui; the page identifies a Te Rangihaeata/Ngāti Toarangatira version and notes other regional forms."]}
+    ],
+    "comparison_cautions": ["Māui traditions are Polynesian and Māori traditions have regional genealogies and narratives; this record is not a pan-Polynesian merge.", "‘Trickster hero’ is a translation-era analytical label, not a source-native class."], "spoiler_level": "none", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-007",
+    "canonical_name": "Te Tau-a-Porirua",
+    "aliases": [], "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara freshwater taniwha witness: Heretaunga/Roto-a-Tara account", "work_or_witness": "Taniwha, ‘Freshwater taniwha’ – ‘Lake Roto-a-Tara’",
+    "character_kind": "individual", "description": "Taniwha from Heretaunga said to live on the Ruataniwha plains, captured and killed by Tara in the selected Roto-a-Tara account.",
+    "dimensions": {
+      "being_types": [{"term":"taniwha","archetype_ids":[],"confidence":"high","note":"Source-native category; forms and characteristics vary by tribal tradition and are not mapped to a generic monster or dragon type."}],
+      "cultures": [], "roles_and_vocations": [], "power_traditions": [], "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [], "cosmologies_and_realms": [{"term":"Roto-a-Tara / Ruataniwha plains","archetype_ids":[],"confidence":"high","note":"Specific named landscape relation in the cited Heretaunga account."}], "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []
+    },
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [{"url":"https://teara.govt.nz/en/taniwha/page-3","locator":"‘Freshwater taniwha’, § ‘Lake Roto-a-Tara’, paras. 1–2","supports":["Te Tau-a-Porirua is named as a Heretaunga taniwha, and the cited account records Tara capturing and killing it."]}],
+    "comparison_cautions": ["Do not call taniwha ‘dragons’ or ‘monsters’ as an equivalence: Te Ara says their forms and characteristics vary by tribal tradition."], "spoiler_level": "moderate", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-008",
+    "canonical_name": "Tara",
+    "aliases": [], "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara freshwater taniwha witness: Heretaunga/Roto-a-Tara account", "work_or_witness": "Taniwha, ‘Freshwater taniwha’ – ‘Lake Roto-a-Tara’",
+    "character_kind": "individual", "description": "Chief who captures and kills Te Tau-a-Porirua in the selected Roto-a-Tara account.",
+    "dimensions": {"being_types": [], "cultures": [], "roles_and_vocations": [{"term":"chief","archetype_ids":[],"confidence":"high","note":"Cited social title; not a generic character class."}], "power_traditions": [], "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [{"term":"hīnaki (eel pot)","archetype_ids":[],"confidence":"high","note":"Specific narrative implement, not an abstract trap item."}], "cosmologies_and_realms": [], "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []},
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [{"url":"https://teara.govt.nz/en/taniwha/page-3","locator":"‘Freshwater taniwha’, § ‘Lake Roto-a-Tara’, paras. 1–2","supports":["Tara is named as the chief who uses a hīnaki to capture Te Tau-a-Porirua and kills it."]}],
+    "comparison_cautions": ["This is one named Heretaunga account, not an archetype claim about chiefs or taniwha narratives generally."], "spoiler_level": "moderate", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-009",
+    "canonical_name": "Hine-kōrako",
+    "aliases": [], "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara freshwater taniwha witness: Te Rēinga waterfall/Wairoa account", "work_or_witness": "Taniwha, ‘Freshwater taniwha’ – ‘Te Rēinga waterfall’",
+    "character_kind": "individual", "description": "Female taniwha who leaves after relatives insult her and later saves a canoe from the Te Rēinga waterfall in the selected Wairoa account.",
+    "dimensions": {"being_types": [{"term":"taniwha","archetype_ids":[],"confidence":"high","note":"Source-native category; do not equate it with a generic fantasy monster or dragon."}], "cultures": [], "roles_and_vocations": [], "power_traditions": [], "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [], "cosmologies_and_realms": [{"term":"Te Rēinga waterfall / Wairoa River","archetype_ids":[],"confidence":"high","note":"Specific named landscape relation in this selected account."}], "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []},
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [{"url":"https://teara.govt.nz/en/taniwha/page-3","locator":"‘Freshwater taniwha’, § ‘Te Rēinga waterfall’, para. 1","supports":["Hine-kōrako is named as a female taniwha married to Tāne-kino who saves people in a canoe at Te Rēinga waterfall."]}],
+    "comparison_cautions": ["The narrative is tied by the cited page to Te Rēinga waterfall in Wairoa; do not detach it into a universal taniwha template."], "spoiler_level": "light", "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC024-010",
+    "canonical_name": "Tāne-kino",
+    "aliases": [], "source_id": "SRC-024", "source_title": "Māori Mythology",
+    "continuity": "Bounded Te Ara freshwater taniwha witness: Te Rēinga waterfall/Wairoa account", "work_or_witness": "Taniwha, ‘Freshwater taniwha’ – ‘Te Rēinga waterfall’",
+    "character_kind": "individual", "description": "Human husband of Hine-kōrako in the selected Te Rēinga waterfall account.",
+    "dimensions": {"being_types": [], "cultures": [], "roles_and_vocations": [], "power_traditions": [], "affiliations": [], "states_and_transformations": [], "artifacts_and_vehicles": [], "cosmologies_and_realms": [], "metaphysical_laws_and_rituals": [], "narrative_archetypes": [], "game_mechanics": []},
+    "canon_status": "attested in the declared published witness scope", "evidence_level": "official-reference",
+    "citations": [{"url":"https://teara.govt.nz/en/taniwha/page-3","locator":"‘Freshwater taniwha’, § ‘Te Rēinga waterfall’, para. 1","supports":["Tāne-kino is named as the human husband of Hine-kōrako."]}],
+    "comparison_cautions": ["The record preserves the named relationship in one selected Wairoa account and makes no broader claim."], "spoiler_level": "light", "review_status": "researched"
+  }
+]

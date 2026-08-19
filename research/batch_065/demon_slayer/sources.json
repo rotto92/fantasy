@@ -1,0 +1,73 @@
+[
+  {
+    "source_id": "SRC-203",
+    "source_title": "Demon Slayer: Kimetsu no Yaiba",
+    "continuity_scope": "Demon Slayer: Kimetsu no Yaiba, Vol. 1, VIZ Media's English paperback edition: story and art by Koyoharu Gotouge, released 3 July 2018, ISBN 978-1-9747-0052-3, 192 pages, Teen. This is a bounded first-volume manga pass. It excludes all later chapters/volumes, complete-box-set material, light novels, guidebooks, spin-offs, anime, films, games, other translations/localizations, adaptations, and commentary.",
+    "work_or_witnesses": [
+      {
+        "work": "Demon Slayer: Kimetsu no Yaiba, Vol. 1",
+        "edition": "VIZ English paperback, story and art by Koyoharu Gotouge, 3 July 2018; ISBN 978-1-9747-0052-3; 192 pages; Teen.",
+        "url": "https://www.viz.com/manga-books/manga/demon-slayer-kimetsu-no-yaiba-volume-1/product/5547"
+      },
+      {
+        "work": "Classic Sword-Swinging Action Manga!",
+        "edition": "VIZ editor article, 6 July 2018, explicitly discussing first-volume setup; used as an official-reference character/premise witness without reproducing panels or dialogue.",
+        "url": "https://www.viz.com/blog/posts/classic-sword-swinging-action-manga"
+      },
+      {
+        "work": "Demon Slayer: Kimetsu no Yaiba, Chapter 1",
+        "edition": "VIZ official chapter-reader page; used only for direct primary chapter availability/label, not to reconstruct unaddressable visual panels.",
+        "url": "https://www.viz.com/shonenjump/demon-slayer-kimetsu-no-yaiba-chapter-1/chapter/15253"
+      },
+      {
+        "work": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+        "edition": "SEGA official game page; used only to establish that the game follows the anime and has its own game framing.",
+        "url": "https://asia.sega.com/kimetsu_hinokami/en/"
+      }
+    ],
+    "coverage_rule": "Include only named individual characters whose basic first-volume roles/actions are directly stated in the selected VIZ Vol. 1 product page or VIZ's first-volume editorial overview: Tanjiro Kamado, Nezuko Kamado, Giyu, and Sakonji Urokodaki. No named demon, further Corps member, or later character is added without a direct first-volume claim. The official Chapter 1 reader establishes availability but its accessible view does not offer stable text/page/panel anchors, so it does not justify visual-panel reconstruction. Demon Slayer Corps/roles, demons as a category, breathing styles, blood arts, items, places, transformations, and themes remain terms/dimensions.",
+    "in_scope_character_count": 4,
+    "completed_character_count": 4,
+    "omissions": [
+      "The unnamed demon that killed Tanjiro's family and transformed Nezuko; it is not a named individual in the selected evidence.",
+      "All persons, demons, and events not directly described in VIZ's first-volume product/editorial witnesses; in particular, all later-volume characters, ranks, breathing styles, blood arts, weapons/techniques, demon taxonomy, and outcomes.",
+      "Demon Slayer Corps, demons as a category, special swords, charcoal selling, Taisho-period setting, locations, transformations, family loss, and themes as character nodes.",
+      "All anime/film/game, guidebook, light-novel, spin-off, school-parody, adaptation, translation, and later manga continuity material."
+    ],
+    "content_cautions": [
+      "VIZ rates the selected volume Teen. Its first-volume material includes a demon slaughtering a family, a child/younger sibling surviving after transformation into a demon, threats of killing that sibling, man-eating demons, snowy wilderness danger, swords, and demon-hunting violence.",
+      "VIZ's editorial calls the foes frightening and depicts a family-loss/transformation premise. This audit avoids panel reproduction and does not catalogue every Vol. 1 depiction of blood, injury, body horror, or child/family harm; readers should use the primary volume and relevant content guidance for those specifics."
+    ],
+    "uncertainties": [
+      "The accessible Chapter 1 page identifies an official reader but does not provide reliably addressable text/panel locators in this research environment. Character facts are restricted to VIZ's explicitly first-volume editorial/product descriptions and not inferred from images or memory.",
+      "VIZ situates the fiction in Taisho-era Japan and gives the historical period's 1912–1926 dates, but the demon plot, Corps, transformations, and individuals are fictional. This pass makes no claim that any character/event is historical or that the setting accurately reproduces all Taisho history.",
+      "The VIZ Vol. 1 page does not list a translator/adaptor/letterer for this English edition. No such credit is guessed here."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "VIZ's Vol. 1 page establishes the selected English edition and names Tanjiro and Giyu in the immediate setup. VIZ's first-volume editor overview directly identifies Tanjiro, Nezuko, Giyu, and Sakonji Urokodaki and states their limited setup actions/roles; it also explains the Taisho-period fiction context and first-volume Corps/sword framing. VIZ's Chapter 1 page establishes official primary chapter availability without supporting unaddressable panel claims. SEGA's official game page establishes that The Hinokami Chronicles is based on the anime, not a substitute for the selected manga witness. No fan wiki, Wikipedia, anime/film/game playthrough, guidebook, or later manga material supplies character claims.",
+    "citations": [
+      {
+        "url": "https://www.viz.com/manga-books/manga/demon-slayer-kimetsu-no-yaiba-volume-1/product/5547",
+        "locator": "Vol. 1 product metadata and synopsis",
+        "supports": [
+          "Exact edition/date/ISBN/length/rating and the immediate Tanjiro/Giyu setup."
+        ]
+      },
+      {
+        "url": "https://www.viz.com/blog/posts/classic-sword-swinging-action-manga",
+        "locator": "VIZ Editor's Sidebar, 6 July 2018: first-volume overview",
+        "supports": [
+          "The named first-volume character claims, siblings/transformation premise, Corps/Urokodaki training frame, and Taisho-period context."
+        ]
+      },
+      {
+        "url": "https://asia.sega.com/kimetsu_hinokami/en/",
+        "locator": "Official game overview",
+        "supports": [
+          "The distinct Hinokami Chronicles game and its anime-based roster/story framing."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

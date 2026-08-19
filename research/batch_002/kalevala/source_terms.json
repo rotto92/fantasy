@@ -1,0 +1,277 @@
+[
+  {
+    "term_id": "STM-SRC006-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 3, lines 1–550",
+    "canonical_term": "runo",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "runo",
+    "transliteration": "runo",
+    "literal_gloss": "poem/song",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "The epic is organized in runot; singing is a formal narrative practice.",
+    "cultural_caution": "Do not treat runo as a generic spell or song genre.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_03.xml",
+        "locator": "Runo 3, lines 1–550",
+        "supports": [
+          "The epic is organized in runot; singing is a formal narrative practice."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 3, lines 1–550",
+    "canonical_term": "laulu",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "laulu",
+    "transliteration": "laulu",
+    "literal_gloss": "song",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-509",
+      "LAW-612"
+    ],
+    "mapping_relation": "functional",
+    "definition": "Song acts operatively in Väinämöinen’s contest with Joukahainen.",
+    "cultural_caution": "Functional mapping only; it does not define Finnish oral song traditions as a magic system.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_03.xml",
+        "locator": "Runo 3, lines 1–550",
+        "supports": [
+          "Song acts operatively in Väinämöinen’s contest with Joukahainen."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 17, lines 1–650",
+    "canonical_term": "sana",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "sana",
+    "transliteration": "sana",
+    "literal_gloss": "word",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-504",
+      "LAW-614"
+    ],
+    "mapping_relation": "functional",
+    "definition": "Missing words are sought from Vipunen for Väinämöinen’s boat-building.",
+    "cultural_caution": "Word power is textual and poetic, not a modern true-name doctrine.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_17.xml",
+        "locator": "Runo 17, lines 1–650",
+        "supports": [
+          "Missing words are sought from Vipunen for Väinämöinen’s boat-building."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 9, lines 1–250",
+    "canonical_term": "tietäjä",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "tietäjä",
+    "transliteration": "tietaja",
+    "literal_gloss": "knower/ritual specialist",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [
+      "ROL-307"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Knowledge and sung origins authorize healing and craft in the epic.",
+    "cultural_caution": "Avoid equating a culturally specific term with a generic wizard class.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_09.xml",
+        "locator": "Runo 9, lines 1–250",
+        "supports": [
+          "Knowledge and sung origins authorize healing and craft in the epic."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 10, lines 1–422",
+    "canonical_term": "seppä",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "seppä",
+    "transliteration": "seppa",
+    "literal_gloss": "smith",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [
+      "ROL-610",
+      "ROL-612"
+    ],
+    "mapping_relation": "close",
+    "definition": "Ilmarinen is identified through smithing and forges the Sampo.",
+    "cultural_caution": "The role is literary and craft-specific; it is not an RPG profession claim.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
+        "locator": "Runo 10, lines 1–422",
+        "supports": [
+          "Ilmarinen is identified through smithing and forges the Sampo."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 10, lines 1–422",
+    "canonical_term": "Sampo",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "Sampo",
+    "transliteration": "Sampo",
+    "literal_gloss": "Sampo",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [
+      "ART-106"
+    ],
+    "mapping_relation": "partial",
+    "definition": "The forged Sampo is the contested object of the Pohjola expedition.",
+    "cultural_caution": "Its meaning/function is debated; no single wealth-machine interpretation is asserted.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
+        "locator": "Runo 10, lines 1–422",
+        "supports": [
+          "The forged Sampo is the contested object of the Pohjola expedition."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-007",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 40, lines 1–500",
+    "canonical_term": "kantele",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "kantele",
+    "transliteration": "kantele",
+    "literal_gloss": "zither",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The kantele is played by Väinämöinen in the Sampo runos.",
+    "cultural_caution": "A specific instrument and cultural form, not generic musical equipment.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_40.xml",
+        "locator": "Runo 40, lines 1–500",
+        "supports": [
+          "The kantele is played by Väinämöinen in the Sampo runos."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-008",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 31, lines 1–200",
+    "canonical_term": "suku",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "suku",
+    "transliteration": "suku",
+    "literal_gloss": "kin/group/lineage",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Kinship structures the Kalervo–Untamo and Kullervo narratives.",
+    "cultural_caution": "Do not collapse historical and poetic kin concepts into a modern clan mechanic.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_31.xml",
+        "locator": "Runo 31, lines 1–200",
+        "supports": [
+          "Kinship structures the Kalervo–Untamo and Kullervo narratives."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-009",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 10, lines 1–422",
+    "canonical_term": "Pohjola",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "Pohjola",
+    "transliteration": "Pohjola",
+    "literal_gloss": "Northland",
+    "dimension": "cultures",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Pohjola is a literary region/polity centered on Louhi in this compilation.",
+    "cultural_caution": "Not an ethnic race or a fixed real-world place.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
+        "locator": "Runo 10, lines 1–422",
+        "supports": [
+          "Pohjola is a literary region/polity centered on Louhi in this compilation."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC006-010",
+    "record_kind": "source-term",
+    "source_id": "SRC-006",
+    "work_or_witness": "Kalevala · Runo 16, lines 1–500",
+    "canonical_term": "Tuonela",
+    "original_language": "Finnish (1849 Kalevala)",
+    "original_script": "Tuonela",
+    "transliteration": "Tuonela",
+    "literal_gloss": "realm of Tuoni",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-301"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Realm governed by Tuoni and Tuonetar in the underworld episode.",
+    "cultural_caution": "The modern underworld mapping is functional, not equivalence.",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_16.xml",
+        "locator": "Runo 16, lines 1–500",
+        "supports": [
+          "Realm governed by Tuoni and Tuonetar in the underworld episode."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

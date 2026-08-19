@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "SRC-125",
+    "source_title": "Small World",
+    "continuity_scope": "Terms-only audit bound to the original Days of Wonder Small World core board game, announced January 26, 2009. The current official core page provides no numbered printing or exact retail date, so this record does not assert one. It excludes every expansion, Small World Underground, Small World of Warcraft, digital/app editions, online play, and player-created sessions.",
+    "work_or_witnesses": [
+      "Small World original Days of Wonder core board game, 2009 announcement-era product",
+      "Small World official Days of Wonder game page and English Rulesbook link",
+      "Days of Wonder press archive (January 26, 2009 announcement)"
+    ],
+    "coverage_rule": "The official core witness presents 14 fantasy races as banners/tokens paired with 20 special-power badges, plus generic hero and dragon pieces; it names no stable dramatic individual. Race/power tiles, heroes, dragon, regions, and player-controlled civilizations are rules components or categories, not character nodes. No individual meets the inclusion rule.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All player-selected race/power combinations, tokens, game outcomes, and player-authored narratives.",
+      "Small World Underground, all listed Small World expansions, promotional scenarios, and digital/online adaptations.",
+      "Small World of Warcraft and all Warcraft people, factions, settings, and continuity claims.",
+      "Any individual merely named in an expansion event, scenario, card, or third-party/fan material."
+    ],
+    "uncertainties": [
+      "The official press archive dates the announcement to January 26, 2009, but the current core page gives no printing number or exact retail release date. The audit therefore records the announcement date only.",
+      "No official core errata or revision log was identified in the reviewed public witness set; the linked rules are an official witness but no edition history is inferred from their hosting.",
+      "The game uses broad fantasy labels such as dwarves, giants, orcs, amazons, wizards, and humans as abstract asymmetric game categories. These labels and their mechanical powers can reproduce genre stereotypes or essentialist framing; they are not real peoples, cultures, or individual-character descriptions.",
+      "Conquest, displacement, decline, and pushing rivals 'off the face of the earth' are competitive fantasy-game framing. They should not be read as historical/political endorsement; player outcomes are variable rather than fixed narrative canon."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official Days of Wonder core-game, universe, and press pages only. No fan wikis, Wikipedia, rule summaries, or recorded player sessions establish claims.",
+    "citations": [
+      {
+        "url": "https://www.daysofwonder.com/game/small-world/",
+        "locator": "What's in the box; About Small World; The Rules",
+        "supports": ["Provides the core component counts, fantasy-race/power structure, conquest premise, decline rule summary, and official rules link."]
+      },
+      {
+        "url": "https://www.daysofwonder.com/press/",
+        "locator": "Archive entry '01/26/2009 Days of Wonder announces Small World'",
+        "supports": ["Dates the original Small World announcement."]
+      },
+      {
+        "url": "https://www.daysofwonder.com/universe/small-world/",
+        "locator": "Small World universe page; expansion listing",
+        "supports": ["Separates the core Small World game from Underground and expansion products."]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

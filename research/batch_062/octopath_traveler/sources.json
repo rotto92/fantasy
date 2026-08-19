@@ -1,0 +1,53 @@
+[
+  {
+    "source_id": "SRC-179",
+    "source_title": "Octopath Traveler",
+    "continuity_scope": "OCTOPATH TRAVELER II, English-language Nintendo Switch base release, 24 February 2023; an eight-protagonist, standalone Solistia continuity.",
+    "work_or_witnesses": [
+      "OCTOPATH TRAVELER II Nintendo Switch base release (Square Enix; 24 February 2023)",
+      "Square Enix, 'OCTOPATH TRAVELER II Prologue demo out now' (9 February 2023)",
+    "Nintendo Japan, release feature (24 February 2023)",
+    {
+      "work": "Square Enix Europe store, OCTOPATH TRAVELER II product page",
+      "edition": "Official product story and feature metadata for the base release.",
+      "url": "https://gb.store.square-enix-games.com/octopath-traveler-ii"
+    },
+    "Square Enix, cross-platform/Extra Battle announcement (6 June 2024)"
+    ],
+    "coverage_rule": "All eight named player protagonists expressly identified in the official English pre-release profile are included. The four named Crossed Paths pairings expressly published by Nintendo are included as light-spoiler character-to-character links. No unprofiled NPC, boss, monster, party recruit, job holder, faction, region, or optional/player-variable narrative endpoint is inferred.",
+    "in_scope_character_count": 8,
+    "completed_character_count": 8,
+    "omissions": [
+      "The 2018 OCTOPATH TRAVELER, OCTOPATH TRAVELER: Champions of the Continent mobile title, and other numbered or later franchise works are separate continuity units.",
+      "Post-2023 ports, the 6 June 2024 Extra Battle update, a future Switch 2 edition, bundles, Collector's Edition goods, and localization-specific text are not treated as base-release narrative evidence.",
+      "Named antagonists, supporting NPCs, optional recruits, bosses, and endgame outcomes are omitted because the selected official witness set does not furnish a reproducible complete character roster for them.",
+      "Jobs/classes, Path Actions, guilds, monsters, regions, day/night states, combat systems, items, and the player-selected primary protagonist/party are recorded only as terms where evidenced."
+    ],
+    "uncertainties": [
+      "Square Enix's eight-protagonist profiles are promotional/prologue material and establish premises, not exhaustive biographies or final outcomes.",
+      "The official demo article remains indexed at an amp URL; its claims are cross-checked against Square Enix and Nintendo first-party pages, but no physical cartridge/build was inspected.",
+      "Crossed Paths establish presented protagonist pair stories, not a universal party order, romance, final outcome, or an exhaustive account of all interpersonal relationships.",
+      "English names and role labels are bound to the English localization; this pass makes no claims about wording in other localizations."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Square Enix and Nintendo first-party product, demo, release, and update pages. Scope deliberately preserves the anthology/player-choice boundary and excludes unsupported narrative detail.",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/th/octopathii/",
+        "locator": "About OCTOPATH TRAVELER II; lines 30-43",
+        "supports": ["Solistia, eight named travelers, roles, Path Actions, day/night, Break/Boost, Latent Power, and Crossed Paths"]
+      },
+      {
+        "url": "https://www.nintendo.com/jp/topics/article/a35f3cfd-ee44-48ba-a80c-da8c4d3eeab4",
+        "locator": "24 February 2023 release article, lines 22-30 and 112-150",
+        "supports": ["Nintendo Switch release, player-selected protagonist/recruitment variability, day/night actions, and four Crossed Paths pairings"]
+      },
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/octopathii/post09.html",
+        "locator": "6 June 2024 announcement, lines 39-56",
+        "supports": ["Standalone different-world framing for the two numbered games; later Extra Battle update boundary"]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

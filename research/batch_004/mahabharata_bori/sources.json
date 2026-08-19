@@ -1,0 +1,53 @@
+[
+  {
+    "source_id": "SRC-277",
+    "source_title": "Mahābhārata — BORI Critical Edition",
+    "continuity_scope": "Character-layer companion to the existing source-entry pass, scoped to BORI’s Critical Edition as a reference structure for the 18-parvan Sanskrit epic. It is not the sole, complete, or normatively superior Mahābhārata across manuscript, regional, vernacular, devotional, performance, or living traditions.",
+    "work_or_witnesses": [
+      {
+        "work": "The Mahābhārata, BORI Critical Edition",
+        "edition": "Bhandarkar Oriental Research Institute, constituted Sanskrit text with critical apparatus, 18 parvans in 19 volumes (1919–1966)",
+        "url": "https://bori.ac.in/department/mahabharata/"
+      },
+      {
+        "work": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+        "edition": "Kisari Mohan Ganguli public-domain English translation, used only for accessible narrative locators; not asserted to reproduce BORI CE chapter numbering or constituted text",
+        "url": "https://sacred-texts.com/hin/maha/index.htm"
+      }
+    ],
+    "coverage_rule": "Principal named acting characters across the declared epic scope: Kuru/Pāṇḍava dynastic actors, principal allies and opponents, named divine/rākṣasa agents materially active in core episodes, and named figures needed for dharma, vows, curses, boons, astras, ritual, and war structures. Unnamed collectives, most genealogy-only figures, and non-acting places/artifacts are excluded.",
+    "in_scope_character_count": 49,
+    "completed_character_count": 49,
+    "omissions": [
+      "Most named combatants, attendants, sages, wives, children, and genealogy-only figures",
+      "Harivaṃśa, regional recensions, vernacular retellings, performance traditions, and modern adaptations",
+      "Passages absent from or differently constituted in the BORI CE",
+      "Claims about contemporary Hindu practice or all South Asian social history"
+    ],
+    "uncertainties": [
+      "BORI CE is a scholarly constituted text from 1,259 manuscripts, not an original autograph or a replacement for other Mahābhārata traditions.",
+      "The accessible Ganguli translation is not a translation of the BORI CE; every such locator says so explicitly.",
+      "Parvan/section naming and numbering can differ across editions and translations.",
+      "Dharma, varṇa, deva/asura/rākṣasa, avatāra, ritual, and astra mapping remain contextual and non-game-like."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "BORI’s official metadata establishes the reference continuity. Individual narrative claims use the accessible Ganguli translation with parva/section locators and explicit non-equivalence warning; a future CE-Sanskrit/critical-translation check is required before source-critical integration.",
+    "citations": [
+      {
+        "url": "https://bori.ac.in/department/mahabharata/",
+        "locator": "Critical Edition overview, lines 6–17",
+        "supports": [
+          "BORI CE methodology, manuscript count, parvan/volume structure, and constituted-text status."
+        ]
+      },
+      {
+        "url": "https://sacred-texts.com/hin/maha/index.htm",
+        "locator": "translation index",
+        "supports": [
+          "Identified accessible translation used only for narrative locators."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

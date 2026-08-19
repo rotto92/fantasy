@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-008",
+    "source_title":"Grimm Fairy Tales",
+    "continuity_scope":"A three-tale sample from Jacob and Wilhelm Grimm, Kinder- und Haus-Märchen, seventh edition / Ausgabe letzter Hand (Göttingen: Dieterich, 1857), volume 1: KHM 15 “Hänsel und Grethel,” KHM 55 “Rumpelstilzchen,” and KHM 69 “Jorinde und Joringel.” Each KHM number is a separate tale continuity; the collection is not treated as a single shared world or character continuity.",
+    "work_or_witnesses":[
+      {"work":"Kinder- und Haus-Märchen, Band 1","edition":"Seventh edition / Ausgabe letzter Hand, Dieterich, Göttingen, 1857; primary digitized volume, Internet Archive identifier kinderundhausmch00grim.","url":"https://archive.org/details/kinderundhausmch00grim"},
+      {"work":"KHM 15, “Hänsel und Grethel”","edition":"1857 final edition, pp. 79–87; twice proofread German digital transcription tied to scan pages.","url":"https://de.wikisource.org/wiki/H%C3%A4nsel_und_Grethel_(1857)"},
+      {"work":"KHM 55, “Rumpelstilzchen”","edition":"1857 final edition, pp. 281–284; twice proofread German digital transcription tied to scan pages.","url":"https://de.wikisource.org/wiki/Rumpelstilzchen_(1857)"},
+      {"work":"KHM 69, “Jorinde und Joringel”","edition":"1857 final edition, pp. 369–371; twice proofread German digital transcription tied to scan pages.","url":"https://de.wikisource.org/wiki/Jorinde_und_Joringel_(1857)"}
+    ],
+    "coverage_rule":"Include only named individual or stable title-designated dramatic characters in the three declared tales: Hänsel and Grethel (KHM 15), Rumpelstilzchen (KHM 55), and Jorinde and Joringel (KHM 69). Generic family roles, the unnamed witch/Erzzauberin, sovereigns, the unnamed miller's daughter, animals, groups of transformed birds, objects, magic, places, and motifs remain dimensions/source terms. The pass is complete only for these five named-character records in these exact tale witnesses.",
+    "in_scope_character_count":5,
+    "completed_character_count":5,
+    "omissions":[
+      "All KHM tales other than KHM 15, KHM 55, and KHM 69; the collection's children's legends, annotations, manuscripts, regional variants, translations, and adaptations",
+      "All 1812/1815 through 1850 KHM edition states and every post-1857 reprint, retelling, film, game, comic, and other adaptation",
+      "Generic roles and unnamed actors in the selected tales, including parents, king/queen, miller/miller's daughter, witch/Erzzauberin, peasant figures, animals, and groups of birds",
+      "Objects, places, motifs, magical practices, and divine/diabolic references, which remain terms rather than graph nodes"
+    ],
+    "uncertainties":[
+      "Kinder- und Haus-Märchen underwent seven materially differing lifetime editions. The 1857 seventh edition is a defined witness, not a neutral reconstruction of oral sources or of the first edition; tale number and title spelling must not be used to collapse other edition states.",
+      "Title and translation forms vary. This pass preserves the 1857 German forms “Hänsel und Grethel,” “Rumpelstilzchen,” and “Jorinde und Joringel”; familiar English forms are aliases or orientation only, not replacement witnesses.",
+      "The selected tales contain child abandonment under famine, coercion, imprisonment, cannibalistic threat, forced exchange of a child, magical coercion, killing, and violent self-destruction. They are represented descriptively and without treating their outcomes as moral endorsement. No antisemitic wording was identified in this limited three-tale sample; no claim is made about the wider collection.",
+      "Terms such as Hexe, Erzzauberin, Jungfrau, and keusch are source-period German narrative language. They receive source-specific, non-equating term records and no mapping to real persons, religions, genders, cultures, or social categories."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Primary claims use the 1857 German text, with printed KHM number and page range. The Internet Archive supplies a digitized 1857 Dieterich volume; the page-linked German transcription supports precise reading. UNESCO and the Staatsbibliothek zu Berlin supply institutional bibliographic context that the 1857 seventh edition was the final lifetime Ausgabe letzter Hand; scholarly context is used only to explain edition boundaries, not to substitute for the tales.",
+    "citations":[
+      {"url":"https://archive.org/details/kinderundhausmch00grim","locator":"Kinder- und Haus-Märchen, seventh edition, Dieterich, Göttingen 1857, volume 1 title pages and printed pp. 79–87, 281–284, 369–371","supports":["The selected primary witness, its 1857 publication data, and the three exact KHM tale locations."]},
+      {"url":"https://media.unesco.org/sites/default/files/webform/mow001/germany_grimm_rev.pdf","locator":"Memory of the World nomination, section describing the 1857 final edition and its 201 tales/10 children's legends","supports":["The 1857 edition as the last edition supervised by the Grimms and a distinct editorial reference point."]},
+      {"url":"https://staatsbibliothek-berlin.de/die-staatsbibliothek/abteilungen/kinder-und-jugendbuecher/aktuelles/ausstellung/erstausgabe/buecher?cHash=3afcf87ea2415a00e43bfd978b0f8213&no_cache=1&print=1","locator":"bibliographic exhibition entry for 1857, calling the seventh edition the “Ausgabe letzter Hand” and the last edition published in the Grimms' lifetimes","supports":["Final-edition terminology and lifetime-publication boundary."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

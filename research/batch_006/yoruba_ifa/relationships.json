@@ -1,0 +1,107 @@
+[
+  {
+    "relationship_id": "REL-SRC022-001",
+    "source_id": "SRC-022",
+    "source_character_id": "CHR-SRC022-002",
+    "target_character_id": "CHR-SRC022-003",
+    "relationship_type": "ally",
+    "label": "Ọ̀rúnmìlà and Èṣù appear in mediated Ifá contexts",
+    "direction": "directed",
+    "continuity": "Bounded published reference witness",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Ọ̀rúnmìlà and Èṣù appear in mediated Ifá contexts"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "note": "Requires lineage-specific verification; relation retained only as published orientation."
+  },
+  {
+    "relationship_id": "REL-SRC022-002",
+    "source_id": "SRC-022",
+    "source_character_id": "CHR-SRC022-001",
+    "target_character_id": "CHR-SRC022-002",
+    "relationship_type": "patron",
+    "label": "Olódùmarè is named in relation to Ọ̀rúnmìlà in published orientation",
+    "direction": "directed",
+    "continuity": "Bounded published reference witness",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Olódùmarè is named in relation to Ọ̀rúnmìlà in published orientation"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "note": "Requires lineage-specific verification; relation retained only as published orientation."
+  },
+  {
+    "relationship_id": "REL-SRC022-003",
+    "source_id": "SRC-022",
+    "source_character_id": "CHR-SRC022-007",
+    "target_character_id": "CHR-SRC022-008",
+    "relationship_type": "other",
+    "label": "Yemoja and Ọ̀ṣun are distinct water-associated òrìṣà",
+    "direction": "directed",
+    "continuity": "Bounded published reference witness",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Yemoja and Ọ̀ṣun are distinct water-associated òrìṣà"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "note": "Requires lineage-specific verification; relation retained only as published orientation."
+  },
+  {
+    "relationship_id": "REL-SRC022-004",
+    "source_id": "SRC-022",
+    "source_character_id": "CHR-SRC022-005",
+    "target_character_id": "CHR-SRC022-006",
+    "relationship_type": "other",
+    "label": "Ògún and Ṣàngó are distinct named òrìṣà",
+    "direction": "directed",
+    "continuity": "Bounded published reference witness",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Ògún and Ṣàngó are distinct named òrìṣà"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "note": "Requires lineage-specific verification; relation retained only as published orientation."
+  },
+  {
+    "relationship_id": "REL-SRC022-005",
+    "source_id": "SRC-022",
+    "source_character_id": "CHR-SRC022-019",
+    "target_character_id": "CHR-SRC022-020",
+    "relationship_type": "kin",
+    "label": "Moremi and Ọ̀rànmíyàn are retained as separate ancestral-historical figures",
+    "direction": "directed",
+    "continuity": "Bounded published reference witness",
+    "citations": [
+      {
+        "url": "https://ich.unesco.org/en/RL/ifa-divination-system-00146",
+        "locator": "UNESCO, Ifa divination system description",
+        "supports": [
+          "Moremi and Ọ̀rànmíyàn are retained as separate ancestral-historical figures"
+        ]
+      }
+    ],
+    "confidence": "low",
+    "note": "Requires lineage-specific verification; relation retained only as published orientation."
+  }
+]

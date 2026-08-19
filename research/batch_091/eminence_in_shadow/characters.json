@@ -1,0 +1,78 @@
+[
+  {
+    "character_id": "CHR-SRC246-001",
+    "canonical_name": "Cid",
+    "aliases": [],
+    "source_id": "SRC-246",
+    "source_title": "The Eminence in Shadow, Vol. 1 (light novel)",
+    "continuity": "Yen On authorized English light-novel Volume 1 (2020), publisher-synopsis witness only",
+    "work_or_witness": "Official Yen Press Volume 1 product-page synopsis",
+    "character_kind": "individual",
+    "description": "A person reborn into another world after a past life. The official synopsis says Cid dreams of lying low as a minor character until he can reveal himself as a mastermind—or pretending to be one—and makes conditions to act out that ambition. He jokingly recruits people to an organization and invents an evil-cult backstory, unaware that the imagined adversaries are real.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "recruiter to an unnamed organization",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Cid jokingly recruits members to his organization; neither organization nor members are named in the evidence window."
+        }
+      ],
+      "states_and_transformations": [
+        {
+          "term": "reborn into another world",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct synopsis premise; no mechanism or former-life identity is specified."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "another world",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The destination setting stated by the synopsis; no name or geography is provided."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "aspiring pretend mastermind",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The synopsis expressly frames the mastermind role as an aspiration and possible pretense; it is not a second person or confirmed public identity."
+        },
+        {
+          "term": "unaware inventor of a real conspiracy premise",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Cid makes up a cult backstory, while the summary says the adversaries are real and everyone knows except him."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Sole named individual directly supplied by the selected official Yen Press Volume 1 synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://yenpress.com/titles/9781975359058-the-eminence-in-shadow-vol-1-light-novel",
+        "locator": "Official Volume 1 synopsis, ONE BIG FAT LIE AND A FEW TWISTED TRUTHS",
+        "supports": [
+          "Cid name, past life, rebirth into another world, role aspiration, organization recruitment, invented evil-cult backstory, and unawareness that adversaries are real"
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The selected official English source calls the character only Cid. It does not evidence a Japanese-script name, surname, Shadow codename, gender identity, age, former-life name, powers, skills, or combat capability; none is added.",
+      "The mastermind presentation is role-play/aspiration within the synopsis, not a separate character endpoint or proof of a public identity. The organization and cult are unnamed source-fiction concepts, not persons or real conspiracy claims.",
+      "The premises of rebirth, imaginary adversaries becoming real, secrecy, lying low, and evil cults are fictional. The Teen-rated synopsis does not establish a specific violence, coercion, youth, or sexual-content incident."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,653 @@
+[
+  {
+    "relationship_id": "REL-SRC021-001",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-001",
+    "target_character_id": "CHR-SRC021-002",
+    "relationship_type": "ally",
+    "label": "Tepeu and Gucumatz deliberate together",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 67–72",
+        "supports": [
+          "Tepeu and Gucumatz deliberate together"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-002",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-001",
+    "target_character_id": "CHR-SRC021-003",
+    "relationship_type": "ally",
+    "label": "Tepeu and Heart of Sky create by word",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
+        "supports": [
+          "Tepeu and Heart of Sky create by word"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-003",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-002",
+    "target_character_id": "CHR-SRC021-003",
+    "relationship_type": "ally",
+    "label": "Gucumatz and Heart of Sky create by word",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
+        "supports": [
+          "Gucumatz and Heart of Sky create by word"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-004",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-004",
+    "target_character_id": "CHR-SRC021-005",
+    "relationship_type": "spouse",
+    "label": "Xpiyacoc and Xmucane divinate together",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: divination and first people; Christenson 2007, pp. 77–86",
+        "supports": [
+          "Xpiyacoc and Xmucane divinate together"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Spouse terminology follows the translation’s elder-pair presentation."
+  },
+  {
+    "relationship_id": "REL-SRC021-005",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-006",
+    "target_character_id": "CHR-SRC021-007",
+    "relationship_type": "kin",
+    "label": "Seven Macaw is Zipacna’s father",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw’s sons; Christenson 2007, pp. 94–101",
+        "supports": [
+          "Seven Macaw is Zipacna’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-006",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-006",
+    "target_character_id": "CHR-SRC021-008",
+    "relationship_type": "kin",
+    "label": "Seven Macaw is Cabracan’s father",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw’s sons; Christenson 2007, pp. 100–104",
+        "supports": [
+          "Seven Macaw is Cabracan’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-007",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-014",
+    "target_character_id": "CHR-SRC021-006",
+    "relationship_type": "opponent",
+    "label": "Hunahpu helps defeat Seven Macaw",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw; Christenson 2007, pp. 87–104",
+        "supports": [
+          "Hunahpu helps defeat Seven Macaw"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-008",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-015",
+    "target_character_id": "CHR-SRC021-006",
+    "relationship_type": "opponent",
+    "label": "Xbalanque helps defeat Seven Macaw",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw; Christenson 2007, pp. 87–104",
+        "supports": [
+          "Xbalanque helps defeat Seven Macaw"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-009",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-014",
+    "target_character_id": "CHR-SRC021-007",
+    "relationship_type": "opponent",
+    "label": "Hunahpu helps defeat Zipacna",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw’s sons; Christenson 2007, pp. 94–101",
+        "supports": [
+          "Hunahpu helps defeat Zipacna"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-010",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-015",
+    "target_character_id": "CHR-SRC021-008",
+    "relationship_type": "opponent",
+    "label": "Xbalanque helps defeat Cabracan",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw’s sons; Christenson 2007, pp. 100–104",
+        "supports": [
+          "Xbalanque helps defeat Cabracan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-011",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-009",
+    "target_character_id": "CHR-SRC021-010",
+    "relationship_type": "kin",
+    "label": "One Hunahpu and Seven Hunahpu are brothers",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: first ballplayers; Christenson 2007, pp. 105–112",
+        "supports": [
+          "One Hunahpu and Seven Hunahpu are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-012",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-009",
+    "target_character_id": "CHR-SRC021-013",
+    "relationship_type": "other",
+    "label": "One Hunahpu fathers the twins through Blood Moon",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: conception of the Hero Twins; Christenson 2007, pp. 119–124",
+        "supports": [
+          "One Hunahpu fathers the twins through Blood Moon"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-013",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-013",
+    "target_character_id": "CHR-SRC021-014",
+    "relationship_type": "kin",
+    "label": "Blood Moon is Hunahpu’s mother",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: conception of the Hero Twins; Christenson 2007, pp. 119–124",
+        "supports": [
+          "Blood Moon is Hunahpu’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-014",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-013",
+    "target_character_id": "CHR-SRC021-015",
+    "relationship_type": "kin",
+    "label": "Blood Moon is Xbalanque’s mother",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: conception of the Hero Twins; Christenson 2007, pp. 119–124",
+        "supports": [
+          "Blood Moon is Xbalanque’s mother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-015",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-014",
+    "target_character_id": "CHR-SRC021-015",
+    "relationship_type": "kin",
+    "label": "Hunahpu and Xbalanque are twins",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Hero Twins; Christenson 2007, pp. 124–155",
+        "supports": [
+          "Hunahpu and Xbalanque are twins"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-016",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-011",
+    "target_character_id": "CHR-SRC021-012",
+    "relationship_type": "kin",
+    "label": "One Monkey and One Artisan are brothers",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: household before the twins; Christenson 2007, pp. 112–119",
+        "supports": [
+          "One Monkey and One Artisan are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-017",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-014",
+    "target_character_id": "CHR-SRC021-011",
+    "relationship_type": "transformed-by",
+    "label": "Hunahpu transforms One Monkey",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: household before the twins; Christenson 2007, pp. 112–119",
+        "supports": [
+          "Hunahpu transforms One Monkey"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-018",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-015",
+    "target_character_id": "CHR-SRC021-012",
+    "relationship_type": "transformed-by",
+    "label": "Xbalanque transforms One Artisan",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: household before the twins; Christenson 2007, pp. 112–119",
+        "supports": [
+          "Xbalanque transforms One Artisan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-019",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-016",
+    "target_character_id": "CHR-SRC021-017",
+    "relationship_type": "ally",
+    "label": "One Death and Seven Death preside in Xibalba",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 105–155",
+        "supports": [
+          "One Death and Seven Death preside in Xibalba"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-020",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-016",
+    "target_character_id": "CHR-SRC021-009",
+    "relationship_type": "opponent",
+    "label": "One Death summons One Hunahpu to Xibalba",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: first ballplayers; Christenson 2007, pp. 105–112",
+        "supports": [
+          "One Death summons One Hunahpu to Xibalba"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-021",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-017",
+    "target_character_id": "CHR-SRC021-010",
+    "relationship_type": "opponent",
+    "label": "Seven Death summons Seven Hunahpu to Xibalba",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: first ballplayers; Christenson 2007, pp. 105–112",
+        "supports": [
+          "Seven Death summons Seven Hunahpu to Xibalba"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-022",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-016",
+    "target_character_id": "CHR-SRC021-014",
+    "relationship_type": "opponent",
+    "label": "One Death confronts Hunahpu in Xibalba",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "One Death confronts Hunahpu in Xibalba"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-023",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-017",
+    "target_character_id": "CHR-SRC021-015",
+    "relationship_type": "opponent",
+    "label": "Seven Death confronts Xbalanque in Xibalba",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Seven Death confronts Xbalanque in Xibalba"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-024",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-014",
+    "target_character_id": "CHR-SRC021-018",
+    "relationship_type": "opponent",
+    "label": "Hunahpu defeats the Xibalba trial-makers",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Hunahpu defeats the Xibalba trial-makers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-025",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-015",
+    "target_character_id": "CHR-SRC021-019",
+    "relationship_type": "opponent",
+    "label": "Xbalanque defeats the Xibalba trial-makers",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Xbalanque defeats the Xibalba trial-makers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-026",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-026",
+    "target_character_id": "CHR-SRC021-027",
+    "relationship_type": "companion",
+    "label": "Balam Quitze and Balam Acab are among the first four people",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: creation of people and K’iche’ ancestors; Christenson 2007, pp. 156–176",
+        "supports": [
+          "Balam Quitze and Balam Acab are among the first four people"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-027",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-027",
+    "target_character_id": "CHR-SRC021-028",
+    "relationship_type": "companion",
+    "label": "Balam Acab and Mahucutah are among the first four people",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: creation of people and K’iche’ ancestors; Christenson 2007, pp. 156–176",
+        "supports": [
+          "Balam Acab and Mahucutah are among the first four people"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-028",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-028",
+    "target_character_id": "CHR-SRC021-029",
+    "relationship_type": "companion",
+    "label": "Mahucutah and Iqui Balam are among the first four people",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: creation of people and K’iche’ ancestors; Christenson 2007, pp. 156–176",
+        "supports": [
+          "Mahucutah and Iqui Balam are among the first four people"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-029",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-030",
+    "target_character_id": "CHR-SRC021-026",
+    "relationship_type": "patron",
+    "label": "Tohil gives fire to the K’iche’ ancestors",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: ancestral migration and patronage; Christenson 2007, pp. 176–205",
+        "supports": [
+          "Tohil gives fire to the K’iche’ ancestors"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-030",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-031",
+    "target_character_id": "CHR-SRC021-027",
+    "relationship_type": "patron",
+    "label": "Avilix is associated with an ancestral line",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: ancestral migration and patronage; Christenson 2007, pp. 176–205",
+        "supports": [
+          "Avilix is associated with an ancestral line"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC021-031",
+    "source_id": "SRC-021",
+    "source_character_id": "CHR-SRC021-032",
+    "target_character_id": "CHR-SRC021-028",
+    "relationship_type": "patron",
+    "label": "Hacavitz is associated with an ancestral line",
+    "direction": "directed",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: ancestral migration and patronage; Christenson 2007, pp. 176–205",
+        "supports": [
+          "Hacavitz is associated with an ancestral line"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  }
+]

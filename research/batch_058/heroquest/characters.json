@@ -1,0 +1,32 @@
+[
+  {
+    "character_id": "CHR-SRC121-001",
+    "canonical_name": "Zargon",
+    "aliases": ["the Dread Sorcerer", "Game Master"],
+    "source_id": "SRC-121",
+    "source_title": "HeroQuest Game System",
+    "continuity": "Avalon Hill HeroQuest Game System F3649, 2021 retail core",
+    "work_or_witness": "HeroQuest Game System F3649 official product description",
+    "character_kind": "individual",
+    "description": "The named Dread sorcerer whose evil forces the four player heroes challenge; one player takes the Game Master role of Zargon in tabletop play.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Dread sorcerer", "archetype_ids": [], "confidence": "high", "note": "The official core-product text names Zargon as the Dread sorcerer."}, {"term": "Game Master", "archetype_ids": [], "confidence": "high", "note": "The core product assigns one player the Game Master role of Zargon."}],
+      "power_traditions": [],
+      "affiliations": [{"term": "forces of evil", "archetype_ids": [], "confidence": "high", "note": "The product frames the heroes as challenging Zargon's evil forces."}],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "the Realm", "archetype_ids": [], "confidence": "moderate", "note": "The product says the Realm needs champions against Zargon; no broader geography is asserted."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [{"term": "antagonist", "archetype_ids": [], "confidence": "high", "note": "He is the named opponent of the heroes in the core product description."}],
+      "game_mechanics": [{"term": "Zargon player role", "archetype_ids": [], "confidence": "high", "note": "This is a tabletop control role, not a separate character identity."}]
+    },
+    "canon_status": "official retail-core antagonist and player-role witness",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://instructions.hasbro.com/en-ca/instruction/heroquest-game-instructions-rulebook", "locator": "Product Info; Mythical Heroes", "supports": ["Names Zargon as the Game Master and Dread sorcerer whose evil forces the heroes challenge."]}],
+    "comparison_cautions": ["Zargon's Game Master function is an asymmetrical tabletop role as well as a story antagonist; it should not be treated as an independent player-character class.", "'Dread sorcerer' is source-native fantasy terminology, not evidence about real religious or magical practice."],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

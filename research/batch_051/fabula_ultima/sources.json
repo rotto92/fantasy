@@ -1,0 +1,67 @@
+[
+  {
+    "source_id": "SRC-117",
+    "source_title": "Fabula Ultima",
+    "continuity_scope": "NEED GAMES!' English-language FABULA ULTIMA TTJRPG Core Rulebook, 360 pages, published by NEED GAMES! in 2022, as described on the publisher's official English page. This is a player-created JRPG-emulation rules source, not a setting with a fixed cast. It excludes the three Atlas supplements, Bestiary, Press Start/Load Game tutorials, bonus PDFs, third-party works, actual plays, videogames that inspire the genre, and home campaigns.",
+    "work_or_witnesses": [
+      {
+        "work": "FABULA ULTIMA TTJRPG Core Rulebook",
+        "edition": "English-language 360-page core rulebook, published by NEED GAMES! in 2022.",
+        "url": "https://need.games/fabula-ultima/"
+      },
+      {
+        "work": "FABULA ULTIMA Third-Party Tabletop License 1.0",
+        "edition": "Official third-party license; used only to distinguish official core material from compatible/powered independent work.",
+        "url": "https://need.games/wp-content/uploads/2024/06/Fabula-Ultima-Third-Party-Tabletop-License-1.0.pdf"
+      },
+      {
+        "work": "FABULA ULTIMA Third-Party License Style Guide",
+        "edition": "Official English-terminology guide; used only for core terms and point capitalization, not as a character witness.",
+        "url": "https://need.games/wp-content/uploads/2024/06/Fabula-Ultima-Third-Party-Tabletop-License-Style-Guide.pdf"
+      }
+    ],
+    "coverage_rule": "Terms-only player-created-fiction audit. The selected core rules tell groups to shape a world together, create would-be heroes, and create/use villains as game procedures; they do not establish a bounded, claim-level cast of stable dramatic individuals. No character or relationship records are made. Classes, traits, bonds, Fabula Points, Ultima Points, villains as a system, items, worlds, and rules remain terms/dimensions. Names in tutorials, bonus PDFs, actual plays, or a table's campaign need separate exact profile witnesses and are not promoted here.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named example, tutorial, pre-generated, bonus-PDF, actual-play, player-created, and GM-created characters, including villains, because the selected core product is not a fixed dramatic-character corpus.",
+      "All classes, traits, bonds, Fabula/Ultima point systems, villain categories, items, monsters, worlds, places, and rules as character nodes.",
+      "High Fantasy, Techno Fantasy, and Natural Fantasy Atlases; Bestiary; Press Start/Load Game; bonus/playtest content; third-party Modules/Powered-by works; actual plays; videogames; and home campaigns."
+    ],
+    "content_cautions": [
+      "Official core framing includes conflict with fearsome villains, monsters, demons, deadly bosses, combat, defeat, sacrifice, dark mirrors, and potentially intense consequences. Tables should establish safety boundaries for violence, death, grief, horror, trauma, oppression, and interpersonal conflict.",
+      "JRPG is a broad genre attribution, not a license to equate FABULA ULTIMA with any named videogame franchise or to copy its characters, worlds, plots, art, or terminology. The group-created worlds and identities in this game are fictional and table-specific."
+    ],
+    "uncertainties": [
+      "The official core page links a Changelog and Errata & FAQ Drive, but this restricted witness does not establish a single fixed current errata version or apply unseen line-level changes. Version-sensitive mechanics should cite the exact official errata entry and printing.",
+      "The publisher page markets a current line including later Atlases and a Celebration Edition pledge. Those products are not retroactively merged into this 2022 English core witness.",
+      "The third-party license permits compatible additions and stand-alone Powered by Fabula Ultima games while reserving trademarks, artwork, text, and trade dress; permission does not grant canon status to any independent work."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "NEED GAMES! official English product page, official third-party license, and official style guide only. The product page establishes 2022 publication, 360 pages, JRPG inspiration, collaborative world creation, 15 mix-and-match classes, heroes/villains, and the official errata/FAQ link. The license/style guide establish independent-work boundary and terminology. No fan wiki, actual play, or source videogame establishes a character claim.",
+    "citations": [
+      {
+        "url": "https://need.games/fabula-ultima/",
+        "locator": "Core overview, Downloads, and Third-Party License sections",
+        "supports": [
+          "2022 NEED GAMES! core product, English 360-page description, JRPG inspiration, collaborative world creation, classes, villains, errata/FAQ link, free PDF with book, and official third-party-program boundary."
+        ]
+      },
+      {
+        "url": "https://need.games/wp-content/uploads/2024/06/Fabula-Ultima-Third-Party-Tabletop-License-1.0.pdf",
+        "locator": "Sections 1–3 and 6–9",
+        "supports": [
+          "Third-party compatible/powered-work categories, official-rules reliance, reserved material, non-endorsement, adaptation/video-game exclusions, and ownership boundary."
+        ]
+      },
+      {
+        "url": "https://need.games/wp-content/uploads/2024/06/Fabula-Ultima-Third-Party-Tabletop-License-Style-Guide.pdf",
+        "locator": "Terminology table: Fabula Points, Ultima Points",
+        "supports": [
+          "Official English core terminology and capitalization for Fabula Points and Ultima Points."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

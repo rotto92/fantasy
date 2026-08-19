@@ -1,0 +1,88 @@
+[
+  {
+    "source_id": "SRC-044",
+    "reviewer_lane": "gita_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_018/wheel_of_time/sources.json",
+      "research/batch_018/wheel_of_time/characters.json",
+      "research/batch_018/wheel_of_time/relationships.json",
+      "research/batch_018/wheel_of_time/source_terms.json"
+    ],
+    "outcome": "pass-with-legitimate-primary-access-warning",
+    "changes": [
+      "No content change: the declared witness remains Robert Jordan, The Eye of the World, Book One only.",
+      "Independent check of the official Macmillan edition page confirmed the edition identity and the publicly available Chapter 1 excerpt; the submitted chapter locators preserve the book-only boundary without claiming later-series evidence."
+    ],
+    "unresolved_limits": [
+      "All character records use the same official edition URL while their detailed evidence is in the declared printed witness; the public page exposes Chapter 1 rather than a searchable full text.",
+      "The single-URL audit warning is therefore legitimate. It should not be read as independent online verification of claims located after Chapter 1."
+    ],
+    "validator_result": "pass: full repository validation completed (1573 characters, 1259 relationships, 1878 terms, 281 source passes)"
+  },
+  {
+    "source_id": "SRC-048",
+    "reviewer_lane": "gita_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_022/malazan/sources.json",
+      "research/batch_022/malazan/characters.json",
+      "research/batch_022/malazan/relationships.json",
+      "research/batch_022/malazan/source_terms.json"
+    ],
+    "outcome": "pass-with-low-granularity-warning",
+    "changes": [
+      "No fabricated tighter locators were added: the declared witness remains Steven Erikson, Gardens of the Moon, Book One only.",
+      "Independent check of the official Tor/Macmillan page confirmed the edition identity, Book One framing, a Chapter One excerpt, and publisher synopsis support for the broad setting and several named protagonists."
+    ],
+    "unresolved_limits": [
+      "Most primary-record locators span broad chapter ranges (for example, Chapters 1–24), and the official public page is not a searchable copy of the full declared witness.",
+      "The low-locator-granularity warning is legitimate; a physical or licensed edition would be needed to tighten individual locators without guessing."
+    ],
+    "validator_result": "pass: full repository validation completed (1573 characters, 1259 relationships, 1878 terms, 281 source passes)"
+  },
+  {
+    "source_id": "SRC-024",
+    "reviewer_lane": "gita_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_009/maori/sources.json",
+      "research/batch_009/maori/characters.json",
+      "research/batch_009/maori/relationships.json",
+      "research/batch_009/maori/source_terms.json"
+    ],
+    "outcome": "status-corrected-pass-complete-for-declared-witnesses",
+    "changes": [
+      "Changed completion_status from in-progress to pass-complete.",
+      "Clarified evidence_basis that completion covers only the selected Te Ara reference episodes, counts, and coverage rule; it does not complete Māori traditions generally.",
+      "Updated last_reviewed to 2026-08-06."
+    ],
+    "unresolved_limits": [
+      "The collection remains a narrow set of Te Ara renderings, with iwi/hapū, orthographic, translation, and colonial-collection cautions retained in the records.",
+      "No unselected tradition, regional variant, or living-practice claim was merged into the declared witness set."
+    ],
+    "validator_result": "pass: full repository validation completed (1573 characters, 1259 relationships, 1878 terms, 281 source passes)"
+  },
+  {
+    "source_id": "SRC-025",
+    "reviewer_lane": "gita_canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": [
+      "research/batch_011/maui_cycles/sources.json",
+      "research/batch_011/maui_cycles/characters.json",
+      "research/batch_011/maui_cycles/relationships.json",
+      "research/batch_011/maui_cycles/source_terms.json"
+    ],
+    "outcome": "status-corrected-pass-complete-for-declared-witnesses",
+    "changes": [
+      "Changed completion_status from in-progress to pass-complete.",
+      "Clarified evidence_basis that completion covers only two specified institutional English renderings and five direct named agents.",
+      "Updated last_reviewed to 2026-08-06."
+    ],
+    "unresolved_limits": [
+      "The Maunupau/Sterling source chain and Westervelt text were not directly inspected.",
+      "The records remain a Hawaiian, source-limited orientation pass and make no completion claim for wider Hawaiian traditions or other Polynesian Māui corpora."
+    ],
+    "validator_result": "pass: full repository validation completed (1573 characters, 1259 relationships, 1878 terms, 281 source passes)"
+  }
+]

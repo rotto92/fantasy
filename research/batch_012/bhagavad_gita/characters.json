@@ -1,0 +1,171 @@
+[
+  {
+    "character_id": "CHR-SRC278-001",
+    "canonical_name": "Dhṛtarāṣṭra",
+    "aliases": ["Dhritarashtra"],
+    "source_id": "SRC-278",
+    "source_title": "Bhagavad Gītā (Mahābhārata, Bhīṣma Parva)",
+    "continuity": "Received 18-chapter Sanskrit Bhagavad Gītā; Gita Supersite verse presentation",
+    "work_or_witness": "Chapter 1, verse 1",
+    "character_kind": "individual",
+    "description": "Opening framing interlocutor, who asks Sañjaya what the assembled Kauravas and Pāṇḍavas did at Kurukṣetra.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "framing questioner", "archetype_ids": [], "confidence": "high", "note": "Narrative function in this bounded dialogue; it does not import the wider epic's royal biography."}],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared Gītā witness; wider Mahābhārata identity is deliberately not imported",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&etssa=1&field_chapter_value=1&field_nsutra_value=1&language=dv&setgb=1",
+        "locator": "Bhagavad Gītā 1.1, Sanskrit root verse",
+        "supports": ["Dhṛtarāṣṭra addresses Sañjaya and frames the dialogue with a question about the forces at Kurukṣetra."]
+      }
+    ],
+    "comparison_cautions": ["Do not fill this compact framing role with claims from the wider Mahābhārata without a separately cited SRC-278 verse."],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC278-002",
+    "canonical_name": "Sañjaya",
+    "aliases": ["Sanjaya"],
+    "source_id": "SRC-278",
+    "source_title": "Bhagavad Gītā (Mahābhārata, Bhīṣma Parva)",
+    "continuity": "Received 18-chapter Sanskrit Bhagavad Gītā; Gita Supersite verse presentation",
+    "work_or_witness": "Chapters 1 and 18; especially 1.1 and 18.75",
+    "character_kind": "individual",
+    "description": "The reporting narrator addressed by Dhṛtarāṣṭra; at the close he says he heard the dialogue between Kṛṣṇa and Arjuna through Vyāsa's favour.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "reporting narrator", "archetype_ids": [], "confidence": "high", "note": "Textual speaking role, not a generic narrator class."}],
+      "power_traditions": [{"term": "Vyāsa-prasāda / divya perception framing", "archetype_ids": [], "confidence": "moderate", "note": "18.75 attributes his hearing to Vyāsa's favour; its commentarial explanations are not flattened into a supernatural ability system."}],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared Gītā witness; Vyāsa is not made a local endpoint under this pass's inclusion rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&etgb=1&field_chapter_value=18&field_nsutra_value=75&language=dv&setgb=1",
+        "locator": "Bhagavad Gītā 18.75, Sanskrit root verse; translations/commentaries displayed separately",
+        "supports": ["Sañjaya says he heard the secret dialogue/yoga from Kṛṣṇa speaking, through Vyāsa's favour."]
+      },
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad/bookview",
+        "locator": "Bhagavad Gītā 1.1, Sanskrit root verse",
+        "supports": ["Dhṛtarāṣṭra directly addresses Sañjaya in the dialogue's opening frame."]
+      }
+    ],
+    "comparison_cautions": ["The text and commentaries' account of perception should not be rendered as a game power or used to assert a uniform doctrine of divine sight."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC278-003",
+    "canonical_name": "Arjuna",
+    "aliases": ["Arjuna Pāṇḍava", "Pārtha", "Dhanañjaya"],
+    "source_id": "SRC-278",
+    "source_title": "Bhagavad Gītā (Mahābhārata, Bhīṣma Parva)",
+    "continuity": "Received 18-chapter Sanskrit Bhagavad Gītā; Gita Supersite verse presentation",
+    "work_or_witness": "Chapters 1–18; especially 2.7, 11.8, and 18.73",
+    "character_kind": "individual",
+    "description": "Direct interlocutor who declares himself Kṛṣṇa's student while troubled over dharma, receives divine sight for Kṛṣṇa's sovereign yoga, and concludes that his delusion is dispelled and he will act.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "śiṣya (student/disciple)", "archetype_ids": [], "confidence": "high", "note": "Arjuna explicitly uses śiṣya of himself in 2.7; this is not a transferable RPG training class."}],
+      "power_traditions": [{"term": "yoga and dharma instruction", "archetype_ids": [], "confidence": "high", "note": "The dialogue's ethical, philosophical, and religious teaching is retained as context, not as a character power loadout."}],
+      "affiliations": [],
+      "states_and_transformations": [{"term": "divya cakṣus (divine sight)", "archetype_ids": [], "confidence": "high", "note": "Kṛṣṇa grants sight in 11.8 for a particular revelatory vision; no generic transformation category is implied."}],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [{"term": "dharma", "archetype_ids": [], "confidence": "high", "note": "Arjuna says his mind is confused concerning dharma in 2.7; the term is not reduced to alignment or a single English duty."}],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared Gītā witness; no wider-epic feats, lineage, or later theology are imported",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&etgb=1&etssa=1&field_chapter_value=2&field_nsutra_value=7&language=dv",
+        "locator": "Bhagavad Gītā 2.7, Sanskrit root verse",
+        "supports": ["Arjuna says he is Kṛṣṇa's student and asks instruction while confused about dharma."]
+      },
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&ecsiva=1&etadi=1&etradi=1&field_chapter_value=11&field_nsutra_value=8&language=dv&setgb=1",
+        "locator": "Bhagavad Gītā 11.8, Sanskrit root verse",
+        "supports": ["Kṛṣṇa tells Arjuna that he grants him divine sight to behold Kṛṣṇa's aiśvara yoga."]
+      },
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&etgb=1&etsiva=1&field_chapter_value=18&field_nsutra_value=73&language=dv",
+        "locator": "Bhagavad Gītā 18.73, Sanskrit root verse",
+        "supports": ["Arjuna says his delusion is destroyed, doubt removed, and that he will act according to Kṛṣṇa's word."]
+      }
+    ],
+    "comparison_cautions": ["Do not extract dharma, yoga, divine sight, or Arjuna's final resolve into alignment, leveling, spellcasting, or obedience mechanics."],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC278-004",
+    "canonical_name": "Kṛṣṇa",
+    "aliases": ["Krishna", "Acyuta", "Yogeśvara"],
+    "source_id": "SRC-278",
+    "source_title": "Bhagavad Gītā (Mahābhārata, Bhīṣma Parva)",
+    "continuity": "Received 18-chapter Sanskrit Bhagavad Gītā; Gita Supersite verse presentation",
+    "work_or_witness": "Chapters 1–18; especially 2.7, 9.34, and 11.8",
+    "character_kind": "individual",
+    "description": "Arjuna's direct interlocutor and teacher in the dialogue, who instructs him on yoga and devotion and grants him divine sight to behold Kṛṣṇa's aiśvara yoga.",
+    "dimensions": {
+      "being_types": [{"term": "Kṛṣṇa's self-disclosure in the declared Gītā witness", "archetype_ids": [], "confidence": "high", "note": "The text's divine and theological claims are retained in their own terms; no species or pantheon-equivalence mapping is made."}],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "teacher in Kṛṣṇa–Arjuna dialogue", "archetype_ids": [], "confidence": "high", "note": "Established by Arjuna's explicit request for instruction in 2.7."}],
+      "power_traditions": [{"term": "yoga; bhakti instruction", "archetype_ids": [], "confidence": "high", "note": "Source-native teaching vocabulary, not a magic discipline or character build."}],
+      "affiliations": [],
+      "states_and_transformations": [{"term": "bestowal of divya cakṣus", "archetype_ids": [], "confidence": "high", "note": "11.8's vision-specific act; do not flatten it to a buff or transformation mechanic."}],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [{"term": "aiśvara yoga", "archetype_ids": [], "confidence": "high", "note": "Kṛṣṇa's own lordly/sovereign yoga in 11.8; translations and theological interpretations differ."}],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared Gītā witness; later avatāra, sectarian, and commentarial formulations are not silently substituted for these verses",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&etgb=1&etssa=1&field_chapter_value=2&field_nsutra_value=7&language=dv",
+        "locator": "Bhagavad Gītā 2.7, Sanskrit root verse",
+        "supports": ["Arjuna explicitly asks Kṛṣṇa to instruct him as a student."]
+      },
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&etgb=1&etssa=1&field_chapter_value=9&field_nsutra_value=34&language=dv",
+        "locator": "Bhagavad Gītā 9.34, Sanskrit root verse",
+        "supports": ["Kṛṣṇa instructs the addressee to fix the mind on him, be devoted, worship, and bow to him."]
+      },
+      {
+        "url": "https://www.gitasupersite.iitk.ac.in/srimad?choose=1&ecsiva=1&etadi=1&etradi=1&field_chapter_value=11&field_nsutra_value=8&language=dv&setgb=1",
+        "locator": "Bhagavad Gītā 11.8, Sanskrit root verse",
+        "supports": ["Kṛṣṇa grants Arjuna divine sight and directs him to behold Kṛṣṇa's aiśvara yoga."]
+      }
+    ],
+    "comparison_cautions": ["Kṛṣṇa's theological identity and the Gītā's devotional address cannot be treated as a generic god-character template, an avatar class, or a power set. Readings across traditions must remain distinguished."],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  }
+]

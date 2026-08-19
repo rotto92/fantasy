@@ -1,0 +1,65 @@
+[
+  {
+    "source_id": "SRC-003",
+    "source_title": "Irish Mythological Cycle",
+    "continuity_scope": "A bounded medieval textual-witness pass for Cath Maige Tuired, Tochmarc Étaíne, and Oidhe Chloinne Lir. It does not claim to exhaust oral, regional, manuscript, ritual, or modern Irish traditions, and it keeps the other cycles and later folklore distinct.",
+    "work_or_witnesses": [
+      {
+        "work": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+        "edition": "Elizabeth A. Gray and Benjamin Hazard translation; CELT, University College Cork; Harleian MS 5280 witness listed by CELT",
+        "url": "https://celt.ucc.ie/document/T300010/"
+      },
+      {
+        "work": "Tochmarc Étaíne",
+        "edition": "CELT, University College Cork, Middle Irish text with manuscript-version divisions",
+        "url": "https://celt.ucc.ie/document/G300012/"
+      },
+      {
+        "work": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+        "edition": "CELT, University College Cork; early-modern manuscript witnesses described in the edition header",
+        "url": "https://celt.ucc.ie/document/T300014/"
+      }
+    ],
+    "coverage_rule": "All major named agents who materially act in the three declared witnesses, plus named figures required to represent the witnesses' political, Otherworld, craft/healing, transformation, and geis/sovereignty dimensions. The declared count is not a list of all named people in the texts.",
+    "in_scope_character_count": 42,
+    "completed_character_count": 42,
+    "omissions": [
+      "The Ulster, Fenian, and Kings' cycles; Dindsenchas, saints' literature, and later folklore",
+      "Most minor named combatants, genealogical names, animals, places, objects, and collective groups",
+      "Alternative recensions and manuscript variants beyond the specific CELT editions",
+      "Living Irish cultural and religious interpretation, which is not reducible to this medieval textual pass"
+    ],
+    "uncertainties": [
+      "The category 'Mythological Cycle' is a modern organizational label, not a unitary medieval canon.",
+      "Names, kinship, identity, and rank vary across witnesses; records stay tied to the named text.",
+      "Oidhe Chloinne Lir survives in later manuscript witnesses and is treated as a separate literary witness, not evidence for earlier medieval practice.",
+      "Some source terms are lexical or analytical orientation only and are marked needs-review rather than used to assert a normalized equivalence."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Every character, relationship, and term has a section-level citation to CELT (Corpus of Electronic Texts), University College Cork's scholarly/institutional edition pages. The source audit cites edition records and records witness status.",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/document/T300010/",
+        "locator": "edition header; sections 1–167",
+        "supports": [
+          "Cath Maige Tuired edition, witness information, and sectioned text basis for this pass."
+        ]
+      },
+      {
+        "url": "https://celt.ucc.ie/document/G300012/",
+        "locator": "edition record; version/section divisions",
+        "supports": [
+          "Tochmarc Étaíne is a named witness with multiple textual versions in the CELT edition."
+        ]
+      },
+      {
+        "url": "https://celt.ucc.ie/published/T300014/header.html",
+        "locator": "source description and manuscript list",
+        "supports": [
+          "Oidhe Chloinne Lir's later manuscript transmission is explicitly distinguished."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

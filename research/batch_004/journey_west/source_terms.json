@@ -1,0 +1,531 @@
+[
+  {
+    "term_id": "STM-SRC016-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–5.",
+    "canonical_term": "xian",
+    "original_language": "Literary Chinese",
+    "original_script": "仙",
+    "transliteration": "xiān",
+    "literal_gloss": "immortal; transcendent",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-406"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A novel term for immortals/transcendents and their status, central to Wukong’s early quest.",
+    "cultural_caution": "Do not equate xian with a generic immortal species or a single Daoist doctrinal category.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–5.",
+        "supports": [
+          "A novel term for immortals/transcendents and their status, central to Wukong’s early quest."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–7.",
+    "canonical_term": "shenxian",
+    "original_language": "Literary Chinese",
+    "original_script": "神仙",
+    "transliteration": "shénxiān",
+    "literal_gloss": "divine immortal",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401",
+      "PPL-406"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A combined divine-immortal category in the novel’s celestial order.",
+    "cultural_caution": "Not a generic pantheon category; usage varies.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–7.",
+        "supports": [
+          "A combined divine-immortal category in the novel’s celestial order."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 16–17; 27; 40–42.",
+    "canonical_term": "yaoguai",
+    "original_language": "Literary Chinese",
+    "original_script": "妖怪",
+    "transliteration": "yāoguài",
+    "literal_gloss": "bewitching/strange creature",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-501"
+    ],
+    "mapping_relation": "partial",
+    "definition": "The novel’s nonhuman beings, often cultivated animals, plants, or objects.",
+    "cultural_caution": "Do not translate yaoguai as a fixed demon race, fiend, or evil essence.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 16–17; 27; 40–42.",
+        "supports": [
+          "The novel’s nonhuman beings, often cultivated animals, plants, or objects."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 7–8; 98–100.",
+    "canonical_term": "fo",
+    "original_language": "Literary Chinese",
+    "original_script": "佛",
+    "transliteration": "fó",
+    "literal_gloss": "Buddha",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A Buddhist title/status deployed in the novel’s sacred hierarchy.",
+    "cultural_caution": "Never reduce Buddhahood to a generic god type.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 7–8; 98–100.",
+        "supports": [
+          "A Buddhist title/status deployed in the novel’s sacred hierarchy."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8; 17; 42.",
+    "canonical_term": "pusa",
+    "original_language": "Literary Chinese",
+    "original_script": "菩萨",
+    "transliteration": "púsà",
+    "literal_gloss": "bodhisattva",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-401"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A Buddhist bodhisattva title, notably Guanyin’s.",
+    "cultural_caution": "Do not map bodhisattvas directly to gods, clerics, or game patrons.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8; 17; 42.",
+        "supports": [
+          "A Buddhist bodhisattva title, notably Guanyin’s."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 73.",
+    "canonical_term": "daoshi",
+    "original_language": "Literary Chinese",
+    "original_script": "道士",
+    "transliteration": "dàoshì",
+    "literal_gloss": "person of the Dao; Daoist priest",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A novel term for Daoist religious practitioners and, at times, disguises.",
+    "cultural_caution": "The novel’s satire and disguises must not be generalized to Daoist communities.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 73.",
+        "supports": [
+          "A novel term for Daoist religious practitioners and, at times, disguises."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-007",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–2; 16–17.",
+    "canonical_term": "xiulian",
+    "original_language": "Literary Chinese",
+    "original_script": "修炼",
+    "transliteration": "xiūliàn",
+    "literal_gloss": "cultivate/refine through practice",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-114"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Disciplined self-cultivation/refinement explaining Wukong’s and many yaoguai powers.",
+    "cultural_caution": "Not a level-up system or one transhistorical genre mechanic.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–2; 16–17.",
+        "supports": [
+          "Disciplined self-cultivation/refinement explaining Wukong’s and many yaoguai powers."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-008",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 4–7.",
+    "canonical_term": "Tian ting",
+    "original_language": "Literary Chinese",
+    "original_script": "天庭",
+    "transliteration": "Tiāntíng",
+    "literal_gloss": "Heavenly Court",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-119",
+      "COS-202"
+    ],
+    "mapping_relation": "partial",
+    "definition": "The novel’s celestial court and bureaucracy.",
+    "cultural_caution": "A literary cosmology and bureaucracy, not simply generic heaven/state.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 4–7.",
+        "supports": [
+          "The novel’s celestial court and bureaucracy."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-009",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 4.",
+    "canonical_term": "Banmawen",
+    "original_language": "Literary Chinese",
+    "original_script": "弼马温",
+    "transliteration": "Bìmǎwēn",
+    "literal_gloss": "Horse-keeping office/title",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The low heavenly office assigned to Wukong before he rejects it.",
+    "cultural_caution": "Comic bureaucratic title, not vocation archetype.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 4.",
+        "supports": [
+          "The low heavenly office assigned to Wukong before he rejects it."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-010",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 18–19.",
+    "canonical_term": "Tianpeng yuan shuai",
+    "original_language": "Literary Chinese",
+    "original_script": "天蓬元帅",
+    "transliteration": "Tiānpéng Yuánshuài",
+    "literal_gloss": "Heavenly Canopy Marshal",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [
+      "ROL-141"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Zhu Bajie’s former Heavenly Court military office.",
+    "cultural_caution": "Source-specific celestial title, not modern rank.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 18–19.",
+        "supports": [
+          "Zhu Bajie’s former Heavenly Court military office."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-011",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 2.",
+    "canonical_term": "di sha qishi’er bian",
+    "original_language": "Literary Chinese",
+    "original_script": "地煞七十二变",
+    "transliteration": "dìshà qīshí’èr biàn",
+    "literal_gloss": "seventy-two earthly transformations",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-310"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Transformation curriculum Wukong learns from Subhuti.",
+    "cultural_caution": "Not interchangeable fantasy shapeshift spell list.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 2.",
+        "supports": [
+          "Transformation curriculum Wukong learns from Subhuti."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-012",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 19.",
+    "canonical_term": "tian gang sanshiliu bian",
+    "original_language": "Literary Chinese",
+    "original_script": "天罡三十六变",
+    "transliteration": "tiāngāng sānshíliù biàn",
+    "literal_gloss": "thirty-six heavenly transformations",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-310"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A contrasting transformation set mentioned for Zhu Bajie.",
+    "cultural_caution": "Numbering/cosmological language are source-specific.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 19.",
+        "supports": [
+          "A contrasting transformation set mentioned for Zhu Bajie."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-013",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 3–4.",
+    "canonical_term": "Ruyi jingu bang",
+    "original_language": "Literary Chinese",
+    "original_script": "如意金箍棒",
+    "transliteration": "rúyì jīngū bàng",
+    "literal_gloss": "as-you-wish golden-hooped cudgel",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [
+      "ART-208",
+      "ART-210"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Wukong’s named size-changing iron staff.",
+    "cultural_caution": "Not merely a +weapon or generic magic staff.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 3–4.",
+        "supports": [
+          "Wukong’s named size-changing iron staff."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-014",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 19.",
+    "canonical_term": "jiuchi dingpa",
+    "original_language": "Literary Chinese",
+    "original_script": "九齿钉耙",
+    "transliteration": "jiǔchǐ dīngpá",
+    "literal_gloss": "nine-toothed iron rake",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [
+      "ART-208"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Zhu Bajie’s named weapon associated with his heavenly office.",
+    "cultural_caution": "Not generic farm implement/class weapon.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 19.",
+        "supports": [
+          "Zhu Bajie’s named weapon associated with his heavenly office."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-015",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 22.",
+    "canonical_term": "jiangmo zhang",
+    "original_language": "Literary Chinese",
+    "original_script": "降魔杖",
+    "transliteration": "xiángmó zhàng",
+    "literal_gloss": "demon-subduing staff",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [
+      "ART-208"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Sha Wujing’s named staff.",
+    "cultural_caution": "Translation “demon” must not erase distinctions.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 22.",
+        "supports": [
+          "Sha Wujing’s named staff."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-016",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 14.",
+    "canonical_term": "jingu",
+    "original_language": "Literary Chinese",
+    "original_script": "紧箍",
+    "transliteration": "jǐngū",
+    "literal_gloss": "tightening hoop",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [
+      "ART-112"
+    ],
+    "mapping_relation": "partial",
+    "definition": "The headband/hoop used to discipline Wukong.",
+    "cultural_caution": "A novel disciplinary device, not generic cursed gear.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 14.",
+        "supports": [
+          "The headband/hoop used to discipline Wukong."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-017",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8; 12; 98–100.",
+    "canonical_term": "qu jing",
+    "original_language": "Literary Chinese",
+    "original_script": "取经",
+    "transliteration": "qǔjīng",
+    "literal_gloss": "fetch/obtain scriptures",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [
+      "ROL-420"
+    ],
+    "mapping_relation": "partial",
+    "definition": "The stated scripture-retrieval pilgrimage mission.",
+    "cultural_caution": "Not a generic adventure quest or account of all Buddhist pilgrimage.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8; 12; 98–100.",
+        "supports": [
+          "The stated scripture-retrieval pilgrimage mission."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-018",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–2; 19; 22.",
+    "canonical_term": "shitu",
+    "original_language": "Literary Chinese",
+    "original_script": "师徒",
+    "transliteration": "shītú",
+    "literal_gloss": "teacher and disciples",
+    "dimension": "affiliations",
+    "archetype_ids": [
+      "INS-425"
+    ],
+    "mapping_relation": "partial",
+    "definition": "The master–disciple relation structuring the party and Subhuti’s training.",
+    "cultural_caution": "Not generic party roster or school membership.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–2; 19; 22.",
+        "supports": [
+          "The master–disciple relation structuring the party and Subhuti’s training."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC016-019",
+    "record_kind": "source-term",
+    "source_id": "SRC-016",
+    "work_or_witness": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15.",
+    "canonical_term": "gongcao",
+    "original_language": "Literary Chinese",
+    "original_script": "功曹",
+    "transliteration": "gōngcáo",
+    "literal_gloss": "merit-recording functionary",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A bureaucratic celestial/ritual office among the mission’s protectors.",
+    "cultural_caution": "Do not flatten into generic angels, bureaucrats, or NPCs.",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15.",
+        "supports": [
+          "A bureaucratic celestial/ritual office among the mission’s protectors."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

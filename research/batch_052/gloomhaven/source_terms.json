@@ -1,0 +1,132 @@
+[
+  {
+    "term_id": "STM-SRC119-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-119",
+    "work_or_witness": "Gloomhaven · 2017 retrospective: first-printing delivery",
+    "canonical_term": "first-printing Gloomhaven",
+    "original_language": "English board-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The selected original physical board-game printing delivered to backers in early 2017.",
+    "cultural_caution": "A printing-specific rules/component witness, not an assertion that all later printings, Gloomhaven Second Edition, or the digital adaptation have identical balance, scenarios, components, or story states.",
+    "citations": [
+      {
+        "url": "https://cephalofair.com/blogs/blog/thoughts-old-year-2017",
+        "locator": "2017 retrospective: first-printing delivery",
+        "supports": [
+          "Cephalofair reports first-printing delivery in early 2017."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC119-002",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-119",
+    "work_or_witness": "So it's a new printing, not a new edition · Gloomhaven second-printing discussion",
+    "canonical_term": "printing revisions and errata boundary",
+    "original_language": "English board-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Cephalofair's distinction between the original first printing and later original-game printings that updated rules/components and balance while remaining printings rather than a new edition.",
+    "cultural_caution": "Rules-production history only. A later correction or balance update is not automatically a fictional retcon, and neither the prior nor later text should be silently substituted for the selected first printing.",
+    "citations": [
+      {
+        "url": "https://cephalofair.com/blogs/chronicle/new-printing-not-new-edition",
+        "locator": "Gloomhaven second-printing discussion",
+        "supports": [
+          "Cephalofair describes later rulebook/scenario-book/cards/balance changes while distinguishing a new printing from a new edition."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC119-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-119",
+    "work_or_witness": "What is Gloomhaven?: party of mercenaries, classes, personal quest and retirement",
+    "canonical_term": "mercenary classes and player naming",
+    "original_language": "English board-game rules lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The player-facing system boundary in which a class/miniature is a selectable game role and the resulting mercenary identity is supplied by a player and campaign, rather than a fixed canonical protagonist.",
+    "cultural_caution": "A class or miniature is not automatically a named dramatic individual. Do not turn a player's mercenary name, build, retirement, quest, or campaign result into shared canon without a direct official narrative profile.",
+    "citations": [
+      {
+        "url": "https://cephalofair.com/collections/board-games-expansions/products/gloomhaven-board-game-2nd-edition",
+        "locator": "What is Gloomhaven?: party of mercenaries, classes, personal quest and retirement",
+        "supports": [
+          "Official Gloomhaven product documentation identifies mercenary classes, player personal quests, and retirement/unlocking as game systems; this audit uses it only for system categorization, not second-edition content."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC119-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-119",
+    "work_or_witness": "Gloomhaven repository: Envelope Contents and spoiler notes",
+    "canonical_term": "sealed envelopes and spoiler shields",
+    "original_language": "English board-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Spoiler-sensitive physical/product mechanisms that gate information and components during a Gloomhaven campaign.",
+    "cultural_caution": "Do not open, reveal, or infer envelope/puzzle contents from this term. Unlock timing and contents can be printing- and campaign-specific; they are not character facts.",
+    "citations": [
+      {
+        "url": "https://cephalofair.com/pages/gloomhaven",
+        "locator": "Gloomhaven repository: Envelope Contents and spoiler notes",
+        "supports": [
+          "Cephalofair warns that envelope/component listings and locked classes carry direct spoiler risk."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC119-005",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-119",
+    "work_or_witness": "The Big Announcements · Digital Gloomhaven announcement, 7 August 2018",
+    "canonical_term": "digital true-port boundary",
+    "original_language": "English adaptation/product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Cephalofair's 2018 description of a separately developed digital product intended to capture original board-game mechanics.",
+    "cultural_caution": "An adaptation boundary, not evidence that digital rules, unlocks, named figures, campaigns, or implementation outcomes are identical to the selected 2017 physical first printing.",
+    "citations": [
+      {
+        "url": "https://cephalofair.com/blogs/blog/the-big-announcements",
+        "locator": "Digital Gloomhaven announcement, 7 August 2018",
+        "supports": [
+          "Cephalofair describes the digital game as a true port planned to capture original mechanics."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

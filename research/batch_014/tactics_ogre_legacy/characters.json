@@ -1,0 +1,71 @@
+[
+  {
+    "character_id": "CHR-SRC127-001",
+    "canonical_name": "Denim",
+    "aliases": [],
+    "source_id": "SRC-127",
+    "source_title": "Tactics Ogre / Ogre Battle",
+    "continuity": "Tactics Ogre: Wheel of Fortune, Japanese PSP launch release (11 November 2010)",
+    "work_or_witness": "Square Enix 2010 PSP release announcement and official product description",
+    "character_kind": "individual",
+    "description": "The young protagonist through whose perspective the PSP game's Valeria conflict is presented; Square Enix states that player choice moves the world and changes the story's development.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "protagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The official 2010 announcement expressly calls Denim the protagonist; no class, faction, lineage, or party role is inferred."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "choice-shaped protagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The source says the story is drawn from Denim's viewpoint and player choice changes the world; this does not select or privilege a route."
+        }
+      ],
+      "game_mechanics": [
+        {
+          "term": "player choice changes story development",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "A game narrative system, not an intrinsic personal power or an alignment node."
+        }
+      ]
+    },
+    "canon_status": "named protagonist in the selected Japanese PSP Wheel of Fortune witness",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.jp.square-enix.com/company/ja/news/2010/html/68b886fb96bc08bbe2b941bd88be94e7.html",
+        "locator": "News release, 17 August 2010, paragraph 3",
+        "supports": [
+          "The game depicts the story from the perspective of its young protagonist, Denim, and player choices greatly move the world."
+        ]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/game/detail/tacticsogre/",
+        "locator": "Product description, opening paragraph",
+        "supports": [
+          "The Valeria conflict is presented from the young protagonist Denim's perspective, with developments and conclusions changing according to player choice."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a separate 2010 PSP edition record. It must not be auto-merged with SRC-128's 2022 Reborn character record, even where a later localization uses a similar name.",
+      "The selected official witness does not support a full biography, class, people/faction identity, route, relationship, or ending claim."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

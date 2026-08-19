@@ -1,0 +1,271 @@
+[
+  {
+    "term_id": "STM-SRC021-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Prologue; Christenson 2007, pp. 67–69",
+    "canonical_term": "Popol Wuj",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "Popol Wuj",
+    "transliteration": "Popol Wuj",
+    "literal_gloss": "Council Book / Book of the Mat",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Title for the K’iche’ narrative text in modern spelling conventions.",
+    "cultural_caution": "Title translation and orthography vary; no generic sacred-book mapping is supplied.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Prologue; Christenson 2007, pp. 67–69",
+        "supports": [
+          "Title for the K’iche’ narrative text in modern spelling conventions."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Prologue; Christenson 2007, pp. 67–69",
+    "canonical_term": "K’iche’",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "K’iche’",
+    "transliteration": "K’iche’",
+    "literal_gloss": "many trees",
+    "dimension": "cultures",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The text names K’iche’ people/place in its prologue and genealogy.",
+    "cultural_caution": "A living people and language; this corpus pass does not define contemporary K’iche’ identity.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Prologue; Christenson 2007, pp. 67–69",
+        "supports": [
+          "The text names K’iche’ people/place in its prologue and genealogy."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 1: primordial deliberation; Christenson 2007, pp. 67–76",
+    "canonical_term": "Tz’aqol / B’itol",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "Tz’aqol / B’itol",
+    "transliteration": "Tz’aqol / B’itol",
+    "literal_gloss": "Framer / Shaper",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-413"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Paired creator titles used in the opening creation account.",
+    "cultural_caution": "Translation choices and paired poetics matter; do not split the terms into a generic creator class.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 67–76",
+        "supports": [
+          "Paired creator titles used in the opening creation account."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
+    "canonical_term": "Uk’u’x Kaj",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "Uk’u’x Kaj",
+    "transliteration": "Uk’ux Kaj",
+    "literal_gloss": "Heart of Sky",
+    "dimension": "power_traditions",
+    "archetype_ids": [
+      "PWR-413",
+      "PWR-206"
+    ],
+    "mapping_relation": "partial",
+    "definition": "A creative title/power in the creation narrative.",
+    "cultural_caution": "Not a simple deity name or generic storm god.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
+        "supports": [
+          "A creative title/power in the creation narrative."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 3: Xibalba trials; Christenson 2007, pp. 105–155",
+    "canonical_term": "Xib’alb’a",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "Xib’alb’a",
+    "transliteration": "Xibalba",
+    "literal_gloss": "Place of Fright",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [
+      "COS-211"
+    ],
+    "mapping_relation": "partial",
+    "definition": "Otherworld realm and polity of the named lords and trials.",
+    "cultural_caution": "Do not translate or map it as a Christian hell.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 105–155",
+        "supports": [
+          "Otherworld realm and polity of the named lords and trials."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 3: Hero Twins; Christenson 2007, pp. 124–155",
+    "canonical_term": "Junajpu / Xb’alanke",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "Junajpu / Xb’alanke",
+    "transliteration": "Hunahpu / Xbalanque",
+    "literal_gloss": "Hero Twin names",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Names of the paired protagonists in the Xibalba sequence.",
+    "cultural_caution": "“Hero Twins” is a useful modern label, not a replacement for K’iche’ names or all their meanings.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Hero Twins; Christenson 2007, pp. 124–155",
+        "supports": [
+          "Names of the paired protagonists in the Xibalba sequence."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-007",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 4: creation of people; Christenson 2007, pp. 156–176",
+    "canonical_term": "winaq",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "winaq",
+    "transliteration": "winaq",
+    "literal_gloss": "person/people",
+    "dimension": "being_types",
+    "archetype_ids": [
+      "PPL-101"
+    ],
+    "mapping_relation": "partial",
+    "definition": "People made from maize in the creation account.",
+    "cultural_caution": "Do not read narrative maize creation as modern biological race taxonomy.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: creation of people; Christenson 2007, pp. 156–176",
+        "supports": [
+          "People made from maize in the creation account."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-008",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
+    "canonical_term": "k’ux",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "k’ux",
+    "transliteration": "k’ux",
+    "literal_gloss": "heart/center",
+    "dimension": "metaphysical_laws_and_rituals",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Relational title element in Uk’u’x Kaj and a key semantic field in translation.",
+    "cultural_caution": "No abstract game-law mapping; meaning depends on poetic and linguistic context.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
+        "supports": [
+          "Relational title element in Uk’u’x Kaj and a key semantic field in translation."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-009",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Prologue; Christenson 2007, pp. 67–69",
+    "canonical_term": "q’alajisaxik",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "q’alajisaxik",
+    "transliteration": "q’alajisaxik",
+    "literal_gloss": "manifestation/making clear",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Prologue language of making the ancient word manifest.",
+    "cultural_caution": "Do not treat the prologue as a neutral, timeless record; it is a colonial-period textual act.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Prologue; Christenson 2007, pp. 67–69",
+        "supports": [
+          "Prologue language of making the ancient word manifest."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC021-010",
+    "record_kind": "source-term",
+    "source_id": "SRC-021",
+    "work_or_witness": "Popol Vuh: Sacred Book of the Quiché Maya People · Part 3: Hero Twins; Christenson 2007, pp. 105–124",
+    "canonical_term": "k’ajol",
+    "original_language": "K’iche’ (colonial orthography / modernized transliteration varies)",
+    "original_script": "k’ajol",
+    "transliteration": "k’ajol",
+    "literal_gloss": "child/son",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "partial",
+    "definition": "Kinship term central to the father–sons and grandmother–grandsons relations.",
+    "cultural_caution": "K’iche’ kin terms should not be reduced to a generic party/family mechanic.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Hero Twins; Christenson 2007, pp. 105–124",
+        "supports": [
+          "Kinship term central to the father–sons and grandmother–grandsons relations."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

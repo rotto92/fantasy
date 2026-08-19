@@ -1,0 +1,67 @@
+[
+  {
+    "source_id": "SRC-237",
+    "source_title": "Tower of God — WEBTOON Season 1 opening witness",
+    "continuity_scope": "Original Tower of God webtoon: English WEBTOON Season 1 opening readers, [Season 1] Ep. 0 (episode_no=1) and [Season 1] Ep. 1 - 1F.Headon's Floor (episode_no=2), paired with official Korean Naver Webtoon series metadata. Crunchyroll's official naming article is used only as a cross-platform localization reference for the original WEBTOON. Later webtoon seasons, print editions, anime, games, side stories, and all adaptations are separate continuities and excluded.",
+    "work_or_witnesses": [
+      "SIU, Tower of God, official English WEBTOON Season 1 Ep. 0 and Ep. 1 readers",
+      "SIU, 신의 탑, official Korean Naver Webtoon series listing and synopsis",
+      "Crunchyroll official localization article, used only to verify Bam/밤 as the original WEBTOON main-character name"
+    ],
+    "coverage_rule": "Include named individual dramatic figures directly identified in this evidence set. Bam is included because the official Crunchyroll localization note explicitly identifies Bam (밤) as the original WEBTOON's main character. Naver's official synopsis leaves the boy and girl unnamed, so it does not support a Rachel record or a relationship. Headon occurs only in an episode-place title and remains a source term, not a person node. Tests, Tower floors, desires, ratings, and all power/system concepts are terms or audit context rather than character nodes.",
+    "in_scope_character_count": 1,
+    "completed_character_count": 1,
+    "omissions": [
+      "The unnamed boy and girl in Naver's synopsis; no identity mapping to Bam or Rachel is asserted from the selected text.",
+      "All other named or visually appearing figures, because the accessible opening-reader metadata is image-only and this pass does not transcribe or infer panel identities.",
+      "Shinsu, Regular/Ranker categories, test rules, climb mechanics, powers, items, later events, detailed violence, coercion, child status, and outcomes.",
+      "Anime, Japanese anime-localized names, games, print editions, later webtoon seasons, side stories, fan wikis, Wikipedia, databases, reviews, and social summaries."
+    ],
+    "uncertainties": [
+      "WEBTOON's accessible opening reader metadata establishes exact episode locators but does not provide transcribed dialogue or a cast list for this audit; no visual-cast inference is made.",
+      "Naver's Korean synopsis establishes that an unnamed boy enters the Tower after a girl and is tested by it, but does not directly attach either description to a named individual.",
+      "The official Crunchyroll article states that original WEBTOON main character Bam is 밤 and means night, while discussing subtitle localization. It is not used to import anime plot, Japanese naming, relationships, or adaptation-only canon.",
+      "Platform age labels differ by market: Naver lists 12+ and English WEBTOON lists Teen (13+). Neither selected source identifies the boy or girl as a child or substantiates a concrete violence/coercion incident."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official WEBTOON English series and Season 1 opening locators, official Korean Naver series metadata/synopsis, and a narrowly used official Crunchyroll WEBTOON-name localization note. No fan or secondary source supplies canonical claims.",
+    "citations": [
+      {
+        "url": "https://www.webtoons.com/en/fantasy/tower-of-god/list?title_no=95",
+        "locator": "Official English Tower of God series page",
+        "supports": [
+          "English WEBTOON series identity, SIU creator credit, Teen rating, and desire-focused series description"
+        ]
+      },
+      {
+        "url": "https://www.webtoons.com/en/fantasy/tower-of-god/season-1-ep-0/viewer?episode_no=1&title_no=95",
+        "locator": "[Season 1] Ep. 0, episode_no=1",
+        "supports": [
+          "Exact English WEBTOON opening witness locator"
+        ]
+      },
+      {
+        "url": "https://www.webtoons.com/en/fantasy/tower-of-god/season-1-ep-1-1fheadons-floor/viewer?episode_no=2&title_no=95",
+        "locator": "[Season 1] Ep. 1 - 1F.Headon's Floor, episode_no=2",
+        "supports": [
+          "Exact English opening witness locator and Headon's Floor place-title term"
+        ]
+      },
+      {
+        "url": "https://m.comic.naver.com/webtoon/list?titleId=183559",
+        "locator": "Official Korean 신의 탑 series listing and synopsis",
+        "supports": [
+          "Korean title, SIU credit, 12+ rating, Tower-entry premise, and the Tower testing an unnamed boy"
+        ]
+      },
+      {
+        "url": "https://www.crunchyroll.com/news/latest/2020/4/1/why-does-crunchyroll-use-bam-in-the-tower-of-god-subtitles",
+        "locator": "Official Crunchyroll article on Bam subtitle localization",
+        "supports": [
+          "Bam as the original WEBTOON main-character name, Korean form 밤, and night gloss"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

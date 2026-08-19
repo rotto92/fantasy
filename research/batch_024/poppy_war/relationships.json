@@ -1,0 +1,128 @@
+[
+  {
+    "relationship_id": "REL-SRC057-001",
+    "source_id": "SRC-057",
+    "source_character_id": "CHR-SRC057-002",
+    "target_character_id": "CHR-SRC057-001",
+    "relationship_type": "mentor",
+    "label": "Jiang mentors Rin in the risks and practice of shamanism.",
+    "direction": "directed",
+    "continuity": "The Poppy War — Harper Voyager witness",
+    "citations": [
+      {
+        "url": "https://www.harperlibrarybookclub.com/9780062662569/the-poppy-war/",
+        "locator": "The Poppy War, Chapters 3–26 printed witness",
+        "supports": [
+          "Jiang's instruction and warnings."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Source-specific teaching relation."
+  },
+  {
+    "relationship_id": "REL-SRC057-002",
+    "source_id": "SRC-057",
+    "source_character_id": "CHR-SRC057-003",
+    "target_character_id": "CHR-SRC057-001",
+    "relationship_type": "patron",
+    "label": "Altan commands Rin in the Cike after her training.",
+    "direction": "directed",
+    "continuity": "The Poppy War — Harper Voyager witness",
+    "citations": [
+      {
+        "url": "https://www.harperlibrarybookclub.com/9780062662569/the-poppy-war/",
+        "locator": "The Poppy War, Chapters 12–26 printed witness",
+        "supports": [
+          "Altan's direct command over Rin."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Individual command relation, not a collective endpoint."
+  },
+  {
+    "relationship_id": "REL-SRC057-003",
+    "source_id": "SRC-057",
+    "source_character_id": "CHR-SRC057-001",
+    "target_character_id": "CHR-SRC057-004",
+    "relationship_type": "opponent",
+    "label": "Rin and Nezha are Sinegard rivals before later cooperation.",
+    "direction": "undirected",
+    "continuity": "The Poppy War — Harper Voyager witness",
+    "citations": [
+      {
+        "url": "https://www.harperlibrarybookclub.com/9780062662569/the-poppy-war/",
+        "locator": "The Poppy War, Chapters 2–26 printed witness",
+        "supports": [
+          "Their rivalry and shifting wartime interaction."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "First-novel dynamic only."
+  },
+  {
+    "relationship_id": "REL-SRC057-004",
+    "source_id": "SRC-057",
+    "source_character_id": "CHR-SRC057-005",
+    "target_character_id": "CHR-SRC057-001",
+    "relationship_type": "companion",
+    "label": "Kitay is Rin's close Sinegard friend and wartime companion.",
+    "direction": "undirected",
+    "continuity": "The Poppy War — Harper Voyager witness",
+    "citations": [
+      {
+        "url": "https://www.harperlibrarybookclub.com/9780062662569/the-poppy-war/",
+        "locator": "The Poppy War, Chapters 2–26 printed witness",
+        "supports": [
+          "Their friendship and direct assistance."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "No later-series claim."
+  },
+  {
+    "relationship_id": "REL-SRC057-005",
+    "source_id": "SRC-057",
+    "source_character_id": "CHR-SRC057-006",
+    "target_character_id": "CHR-SRC057-001",
+    "relationship_type": "ally",
+    "label": "Venka serves alongside Rin in the Cike.",
+    "direction": "undirected",
+    "continuity": "The Poppy War — Harper Voyager witness",
+    "citations": [
+      {
+        "url": "https://www.harperlibrarybookclub.com/9780062662569/the-poppy-war/",
+        "locator": "The Poppy War, Chapters 12–26 printed witness",
+        "supports": [
+          "Direct shared field service."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Individual-to-individual alliance."
+  },
+  {
+    "relationship_id": "REL-SRC057-006",
+    "source_id": "SRC-057",
+    "source_character_id": "CHR-SRC057-009",
+    "target_character_id": "CHR-SRC057-003",
+    "relationship_type": "ally",
+    "label": "Chaghan serves with Altan in the Cike and engages the unit's shamanic conflict.",
+    "direction": "directed",
+    "continuity": "The Poppy War — Harper Voyager witness",
+    "citations": [
+      {
+        "url": "https://www.harperlibrarybookclub.com/9780062662569/the-poppy-war/",
+        "locator": "The Poppy War, Chapters 12–26 printed witness",
+        "supports": [
+          "Their individual command-unit connection."
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "No claim about later alignment."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "source_id": "SRC-007",
+    "reviewer_lane": "aom-retold-canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": ["sources.json", "characters.json", "relationships.json", "source_terms.json"],
+    "outcome": "Retained the concentration warning as legitimate for a deliberately single-witness tale pass.",
+    "changes": ["No claim changes: independently sampled Ivan-tsarevich, Marya Morevna, Koshchei, the three sisters/shape-changing suitors, revival, Baba Yaga, and the horse sequence against the scholarly ФЭБ text."],
+    "unresolved_limits": ["The pass is intentionally limited to Afanasyev tale no. 159 and does not establish universal East Slavic identities for its named figures."],
+    "validator_result": "valid: 0 errors; SRC-007 concentration warning retained"
+  },
+  {
+    "source_id": "SRC-035",
+    "reviewer_lane": "aom-retold-canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": ["sources.json", "characters.json", "relationships.json", "source_terms.json"],
+    "outcome": "Retained the concentration warning as legitimate for the identified printed-novel witness.",
+    "changes": ["No claim changes: sampled Ged's shadow and dragon arc, Ogion and Nemmerle mentorship, Jasper rivalry, Serret and Cob encounters, and the true-name, balance, transformation, dragon, and shadow terms. The author-estate page independently confirms the Ged/shadow/dragon/balance synopsis and edition context."],
+    "unresolved_limits": ["Granular narrative claims are traceable to the declared printed edition by chapter rather than a public full-text URL; the author page is context, not a substitute for the novel witness."],
+    "validator_result": "valid: 0 errors; SRC-035 concentration warning retained"
+  },
+  {
+    "source_id": "SRC-045",
+    "reviewer_lane": "aom-retold-canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": ["sources.json", "characters.json", "relationships.json", "source_terms.json"],
+    "outcome": "Retained the concentration warning as legitimate for the identified printed-novel witness.",
+    "changes": ["No claim changes: sampled Fitz's lineage and training, Burrich, Chade, Shrewd, Verity, Regal, Galen, Molly, and the Skill/Wit/Red-Ship/assassin terms. The publisher description independently supports Fitz, Chivalry, his stableman guardian, Shrewd, covert assassin training, Skill, and raider context."],
+    "unresolved_limits": ["Granular narrative claims are traceable to the declared printed edition by chapter rather than a public full-text URL; publisher copy is only corroborative context."],
+    "validator_result": "valid: 0 errors; SRC-045 concentration warning retained"
+  },
+  {
+    "source_id": "SRC-010",
+    "reviewer_lane": "aom-retold-canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": ["sources.json", "characters.json", "relationships.json", "source_terms.json"],
+    "outcome": "Corrected stale in-progress status to pass-complete for the declared Qur'anic witness pass.",
+    "changes": ["Verified 3 declared in-scope characters equal 3 completed records; retained explicit exclusions for unnamed jinn and other regional, literary, hadith, and tafsir material."],
+    "unresolved_limits": ["This remains a Qur'anic textual pass, not a completion claim for the wider Arabic and Islamic religious, literary, folkloric, and regional corpus."],
+    "validator_result": "valid: 0 errors; status corrected to pass-complete"
+  },
+  {
+    "source_id": "SRC-017",
+    "reviewer_lane": "aom-retold-canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": ["sources.json", "characters.json", "relationships.json", "source_terms.json"],
+    "outcome": "Corrected stale in-progress status to pass-complete for the declared 40-character novel sampling rule.",
+    "changes": ["Verified 40 declared in-scope characters equal 40 completed records; revised the source-witness and evidence-basis text so lack of a critical translation is accurately an interpretation/variant limit, not an unfinished declared pass."],
+    "unresolved_limits": ["The accessible Chinese witness lacks a stated critical-edition apparatus, and the pass does not settle variants, translation choices, authorship, or the wider Chinese mythic/religious corpus."],
+    "validator_result": "valid: 0 errors; status corrected to pass-complete"
+  },
+  {
+    "source_id": "SRC-020",
+    "reviewer_lane": "aom-retold-canonical",
+    "reviewed_at": "2026-08-06",
+    "files_reviewed": ["sources.json", "characters.json", "relationships.json", "source_terms.json"],
+    "outcome": "Corrected stale in-progress status to pass-complete for the declared four-account named-agent rule.",
+    "changes": ["Verified 15 declared in-scope characters equal 15 completed records; retained the source's explicit regional-performance, ritual-lineage, and broad-corpus omissions."],
+    "unresolved_limits": ["This is not a completion claim for Korean mythology and folklore as a living, multi-regional corpus."],
+    "validator_result": "valid: 0 errors; status corrected to pass-complete"
+  }
+]

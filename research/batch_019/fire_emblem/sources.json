@@ -1,0 +1,39 @@
+[
+  {
+    "source_id": "SRC-133",
+    "source_title": "Fire Emblem",
+    "continuity_scope": "Fire Emblem Engage, North American English Nintendo Switch base-game launch witness (20 January 2023), excluding paid Expansion Pass content and later game updates. This is one Fire Emblem continuity and does not merge characters from prior Fire Emblem games represented by Emblems.",
+    "work_or_witnesses": [
+      "Nintendo official Fire Emblem Engage store page (North American English): The Divine Dragon awakens; New Faces; Engage in a new style of combat; Somniel; DLC; About this item"
+    ],
+    "coverage_rule": "Six named individual base-continuity figures selected from the official New Faces profile carousel because their individual profiles directly establish the Divine Dragon line and one crown-prince/crown-princess exemplar for each of the four named kingdoms: Alear, Lumera, Alfred, Diamant, Ivy, and Timerra. The stable official name Alear is included; player presentation/choice is recorded as a caution, not used to invent a separate avatar identity.",
+    "in_scope_character_count": 6,
+    "completed_character_count": 6,
+    "omissions": [
+      "Other official New Faces profiles (Framme, Anna, Veyle), because this is a bounded six-person comparative cohort rather than a full cast pass.",
+      "All named Emblems from earlier Fire Emblem games (including Marth and Celica): within this game they are accessed via rings, but their source continuities and identities are not merged into this Engage base-cast pass.",
+      "Expansion Pass Emblems, Fell Xenologue characters, locations, maps, classes, and post-launch DLC content.",
+      "Weapons, rings, classes, species, kingdoms, facilities, and tactical systems as character nodes."
+    ],
+    "uncertainties": [
+      "The current Nintendo store page lists four Expansion Pass waves; this pass explicitly excludes all paid DLC even though Wave 1 was available on launch day.",
+      "Nintendo's product page is a promotional, spoiler-limited character witness. It gives no route-branching canon, so no route, support, ending, or later story outcome is inferred.",
+      "Names and descriptions follow the North American English localization. Japanese and other localized names/wording are not merged without a matching edition-specific official witness.",
+      "Alear has a stable official name in this witness; no distinct player avatar record is manufactured from selectable presentation/customization options."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Nintendo product-page copy, which identifies Nintendo as publisher and Intelligent Systems as developer, supplies the release date, official character descriptions, base-game premise, mechanics, settings, and DLC boundary. No fan wiki, Wikipedia, or unofficial character database was used.",
+    "citations": [
+      {
+        "url": "https://www.nintendo.com/us/store/products/fire-emblem-engage-switch/",
+        "locator": "The Divine Dragon awakens; New Faces; Engage in a new style of combat; Welcome to Somniel; Get more with the Expansion Pass; About this item",
+        "supports": [
+          "Base-game release and scope",
+          "Selected character profiles",
+          "Elyos, dragons, Emblem Rings, Engage system, Somniel, and DLC boundary"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

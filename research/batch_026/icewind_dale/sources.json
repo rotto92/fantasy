@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-140",
+    "source_title":"Icewind Dale",
+    "continuity_scope":"Icewind Dale: Enhanced Edition (Beamdog, 2014), English product/manual baseline. The pass is limited to Beamdog's packaged Enhanced Edition: Original Icewind Dale campaign, Heart of Winter, Trials of the Luremaster, and Beamdog-restored cut quest content. It does not merge the 2000 Black Isle original release, later mods, Icewind Dale II, other Forgotten Realms products, or unverified external transcripts.",
+    "work_or_witnesses":[
+      "Beamdog: Icewind Dale: Enhanced Edition official product page",
+      "Beamdog: Icewind Dale: Enhanced Edition Feature Guide",
+      "Beamdog: Mastering Melee & Magic manual"
+    ],
+    "coverage_rule":"Zero-character evidence-constrained pass. Beamdog's selected first-party product page, feature guide, and manual define setting, edition, campaign, expansion, and player-party mechanics but do not provide a reproducible set of individually described named dramatic NPCs with claim-specific dialogue/journal locators. Player-created party members are excluded by design. Rather than import fan-wiki or community-transcript claims, this pass records only source terms and leaves character and relationship arrays empty.",
+    "in_scope_character_count":0,
+    "completed_character_count":0,
+    "omissions":[
+      "All player-created party members and every player-selected name, race, class, kit, biography, alignment, statistics, equipment, and choice.",
+      "All named NPCs, villains, quest-givers, companions, monsters, and deities because no selected first-party witness provides an individually sufficient claim-specific character profile or direct in-game dialogue/journal locator.",
+      "Factions, peoples, monsters, artifacts, places, spells, classes, kits, D&D rules, interface features, and quests as character nodes.",
+      "The original Black Isle/Interplay release as a separate edition, Icewind Dale II, post-release mods, community fixes, fan transcripts, wikis, walkthroughs, novels, tabletop references, and other Forgotten Realms works."
+    ],
+    "uncertainties":[
+      "The game contains named NPC dialogue and journal material, but no official text extract with fine dialogue/journal locators was accessible in the selected evidence set. This audit deliberately does not reconstruct those claims from community sources.",
+      "Enhanced Edition bundles the original campaign, both expansions, and restored cut content. This source record identifies the package but does not claim that original-release and Enhanced Edition text/encounter behavior are identical.",
+      "The product is licensed Dungeons & Dragons/Forgotten Realms material. Beamdog's materials are authoritative for Enhanced Edition packaging and presentation, not an exhaustive hierarchy for all tabletop setting canon.",
+      "English terminology is preserved; localization variants are not compared. Branching party composition, quest decisions, character creation, difficulty, and multiplayer mean a player run does not provide a single fixed adventuring party.",
+      "No plot-resolution claims are made; this zero-character evidence boundary avoids unmarked spoilers."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Beamdog product page and official Beamdog manuals only. No fan wiki, Wikipedia, forum post, community transcript, walkthrough, or secondary orientation source is used as canonical evidence.",
+    "citations":[
+      {"url":"https://icewinddale.beamdog.com/","locator":"Features and Story sections; copyright line","supports":["Enhanced Edition content package, player-party customization, D&D/Forgotten Realms setting, Icewind Dale/Spine of the World premise, and licensing credits"]},
+      {"url":"https://files.beamdog.com/files/IWDEE-Feature-Guide_en.pdf","locator":"Introduction, p. 2","supports":["Beamdog's account of preserving the story while restoring cut content and including Heart of Winter and Trials of the Luremaster"]},
+      {"url":"https://files.beamdog.com/files/IWDEE-Manual-2-Mastering-Melee-Magic_en.pdf","locator":"Introduction and Main Menu: Icewind Dale / Heart of Winter, p. 14","supports":["Enhanced Edition play/manual scope and Heart of Winter as a distinct menu/startable expansion"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

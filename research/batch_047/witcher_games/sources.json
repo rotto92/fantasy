@@ -1,0 +1,54 @@
+[
+  {
+    "source_id": "SRC-161",
+    "source_title": "The Witcher Games",
+    "continuity_scope": "The Witcher 3: Wild Hunt base-game narrative at its original 19 May 2015 launch, as represented by CD PROJEKT RED's official Wild Hunt game page and 2015 release notice. This is a CD PROJEKT RED game-continuity pass, not a claim that the game's character attributes, wording, or outcomes are identical to Andrzej Sapkowski's books (SRC-047), Netflix material, earlier Witcher games, comics, GWENT, or other adaptations.",
+    "work_or_witnesses": [
+      "The Witcher 3: Wild Hunt official CD PROJEKT RED game page, English, character panel and base-game overview",
+      "CD PROJEKT RED 12 May 2015 release notice, original launch boundary",
+      "CD PROJEKT RED 2022 next-generation/Complete Edition notice, post-launch patch/DLC/Netflix-content boundary only",
+      "CD PROJEKT RED universe/footer statement, game-versus-Sapkowski-book origin boundary only"
+    ],
+    "coverage_rule": "All six individual named dramatic characters explicitly presented in the official Wild Hunt page's Characters panel: Geralt, Ciri, Yennefer, Triss, Dandelion, and Eredin. This is a reproducible official showcase roster, not a complete cast/quest journal. All other named NPCs, rulers, companions, monster individuals, and quest figures are omitted unless they receive an equally direct character entry in the selected witness. Witchers, Wild Hunt riders, sorceresses, monster/species categories, schools, factions, signs, alchemy, gear, places, and mechanics remain dimensions or terms rather than character nodes.",
+    "in_scope_character_count": 6,
+    "completed_character_count": 6,
+    "omissions": [
+      "Every named character absent from the official six-character panel, including quest-only figures and names surfaced solely by direct gameplay, books, prior games, DLC, later updates, mods, Netflix content, or adaptations.",
+      "Hearts of Stone, Blood and Wine, the 16 free DLC items, the 2022 Complete Edition/next-generation additions (including Netflix-inspired items/looks), patches, integrated community mods, REDkit/mod content, and current or future expansion material.",
+      "Branch-specific romances, ally/enemy outcomes, endings, player build, dialogue choices, quest order, and game-state imports from earlier games.",
+      "Witchers, sorceresses, the Wild Hunt, monsters, professions/orders, schools, factions, magic, Signs, alchemy, equipment, places, and mechanics as characters; fan wikis, Wikipedia, walkthroughs, and uncredited databases as evidence."
+    ],
+    "uncertainties": [
+      "The current official game page is a maintained promotional page rather than a frozen 2015 manual or a complete quest journal. It clearly identifies the six included figures and gives concise role/relationship descriptions, but it does not furnish a full cast, dialogue corpus, exhaustive powers, or all branch states.",
+      "The game is set in a universe created by Andrzej Sapkowski, but this pass preserves only CD PROJEKT RED game-page formulations. No book continuity claim, character history, or terminology is imported from SRC-047 merely because a name overlaps.",
+      "The official page expressly distinguishes the two major expansions from the base adventure; the 2022 Complete Edition packages the base game with those expansions and next-generation/Netflix-related additions. Those later materials are boundary evidence only.",
+      "The official page states that player choices have ramifications; therefore no player-selected romance, survival, allegiance, quest outcome, or ending is universalized. Relationship records are limited to relations stated directly in the character panel or base-game synopsis.",
+      "The English witness is used as an English CDPR presentation; this pass does not presume wording equivalence across localized game text or subsequent patches."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Official CD PROJEKT RED game-page character and story copy, with official release/edition notices for temporal and DLC boundaries. No fan-created reference, wiki, walkthrough, or book/television adaptation is used as canonical support for a game record.",
+    "citations": [
+      {
+        "url": "https://www.thewitcher.com/us/en/witcher3",
+        "locator": "The Witcher 3: Wild Hunt official page: Embark on the Path; Become The Witcher; Master Dynamic Combat; Forge a Legendary Tale; Characters panel",
+        "supports": ["Official base-game overview, six-character showcase roster, character descriptions, Wild Hunt/Ciri premise, witcher mutation, tools, places, choice framing, and expansion separation"]
+      },
+      {
+        "url": "https://www.thewitcher.com/us/en/news/1030/the-witcher-3-wild-hunt-now-available-for-preload-on-gog-com-and-steam",
+        "locator": "12 May 2015 news post, final paragraph: official release/unlock on 19 May 2015",
+        "supports": ["Original Wild Hunt launch boundary"]
+      },
+      {
+        "url": "https://www.thewitcher.com/ru/en/news/46552/the-witcher-3-wild-hunt-gets-a-free-next-gen-update-on-december-14th",
+        "locator": "14 November 2022 news post: next-generation update and Complete Edition paragraphs",
+        "supports": ["Post-launch Complete Edition, expansions, technical changes, and Netflix-inspired add-on boundary"]
+      },
+      {
+        "url": "https://www.thewitcher.com/tc/en",
+        "locator": "CD PROJEKT S.A. footer statement",
+        "supports": ["Game setting's origin in Sapkowski's book universe, without asserting continuity equivalence"]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

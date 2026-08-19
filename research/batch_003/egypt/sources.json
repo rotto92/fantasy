@@ -1,0 +1,50 @@
+[
+  {
+    "source_id": "SRC-013",
+    "source_title": "Ancient Egyptian Mythology: bounded New Kingdom witnesses",
+    "continuity_scope": "Papyrus Chester Beatty I, The Contendings of Horus and Seth (Ramesside; recto pages 1–16) and the Papyrus of Ani, Book of the Dead Spell 125/Judgment vignette (19th Dynasty, c. 1250 BCE). The two witnesses are not treated as one timeless or universal Egyptian theology.",
+    "work_or_witnesses": [
+      "A. H. Gardiner, The Library of A. Chester Beatty: Description of a Hieratic Papyrus with a Mythological Story, Love-Songs, and Other Miscellaneous Texts (1931), Papyrus Chester Beatty I, recto pp. 1–16.",
+      "Papyrus of Ani, British Museum EA10470 frame 3, Book of the Dead Spell 125/Judgment vignette; UCL Digital Egypt provides a comparative Spell 125 text from Papyrus of Nu."
+    ],
+    "coverage_rule": "All individually named major agents who act or rule in the Contendings, plus Ani and major named divine/judgment agents materially represented in Ani’s Spell 125 frame. Exclude the formulaic forty-two assessors, unnamed divine councils, and deities/episodes only in other periods or local corpora.",
+    "in_scope_character_count": 13,
+    "completed_character_count": 13,
+    "omissions": [
+      "Pyramid Texts, Coffin Texts, other Book of the Dead spells, local temple theologies, and later Greco-Roman synthesis are outside scope.",
+      "The forty-two Spell 125 assessors are a formulaic collective, not individual nodes in this bounded pass.",
+      "No historical claim is made that Contendings’ succession drama is a direct record of political history."
+    ],
+    "uncertainties": [
+      "Egyptian divine names, kinship, forms, and offices vary materially by period, locale, manuscript, and genre.",
+      "Ani frame 3 combines Spell 30B wording and judgment imagery; UCL’s full Spell 125 text is from Nu, not Ani, and is used only as a comparative spell locator.",
+      "The Chester Beatty narrative is a Ramesside witness, not a synthesis of all Horus–Seth traditions."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Museum object documentation, UCL university teaching text, and Gardiner’s critical publication/Chester Beatty witness; citations retain witness/page/spell-frame distinctions.",
+    "citations": [
+      {
+        "url": "https://chesterbeatty.ie/assets/uploads/2018/11/The-Library-of-A.-Chestera-Beatty-Description-of-a-Hieratic-Papyrus-with-a-Mythological-Story-Love-Songs-and-Other-Miscellaneous-Texts.pdf",
+        "locator": "Gardiner 1931, Papyrus Chester Beatty I, recto pp. 1–16, ‘The Contendings of Horus and Seth’",
+        "supports": [
+          "identified Ramesside narrative witness"
+        ]
+      },
+      {
+        "url": "https://www.britishmuseum.org/collection/object/Y_EA10470-3",
+        "locator": "British Museum EA10470,3, Papyrus of Ani frame 3, Ani’s Judgment / Spell 30B and weighing vignette",
+        "supports": [
+          "identified Ani judgment witness"
+        ]
+      },
+      {
+        "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/literature/religious/bd125a.html",
+        "locator": "Book of the Dead of Nu, Chapter 125A–B",
+        "supports": [
+          "comparative university text and spell structure"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

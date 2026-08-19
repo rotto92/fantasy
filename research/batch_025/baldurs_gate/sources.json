@@ -1,0 +1,39 @@
+[
+  {
+    "source_id":"SRC-139",
+    "source_title":"Baldur's Gate",
+    "continuity_scope":"Baldur's Gate 3, PC launch baseline (English; 3 August 2023). This treats BG3 as Larian's licensed Dungeons & Dragons/Forgotten Realms release, separate from Baldur's Gate I–II, their editions/expansions, and any future Baldur's Gate title. The current official character page is used only for the stable launch-Origin profiles; post-launch patches, epilogues, platform releases, mods, and later presentation drift are excluded.",
+    "work_or_witnesses":[
+      "Larian: Baldur's Gate 3 official character profiles (Astarion, Gale, Lae'zel, Shadowheart, Wyll, Karlach)",
+      "Larian: Community Update #21 - Forging Your Legacy (7 July 2023)",
+      "Larian: Baldur's Gate 3 FAQ (PC release date and earlier-title boundary)",
+      "Larian: Baldur's Gate 3 About page"
+    ],
+    "coverage_rule":"All six named, pre-authored Origin heroes identified by Larian before the PC launch and supplied a full individual official character profile: Astarion, Gale, Lae'zel, Shadowheart, Wyll, and Karlach. They are recorded as named individuals, with their Origin-player/companion dual status explicit. The fully customisable Dark Urge and custom protagonist are terms, not stable individual records. Named figures mentioned only as patrons, deities, masters, rulers, relatives, or antagonists in the six profiles are not included without a selected full individual character profile.",
+    "in_scope_character_count":6,
+    "completed_character_count":6,
+    "omissions":[
+      "Custom protagonists/Tavs, the fully customisable Dark Urge, the Guardian, hirelings, and all player-selected race, class, background, appearance, build, choices, and outcomes.",
+      "Named figures without a selected full Origin profile, including Cazador, Mystra, Queen Vlaakith, Shar, Mizora, Zariel, Sceleritas Fel, and Orin.",
+      "All recruitable non-Origin companions, NPCs, enemies, deities, factions, creatures, items, locations, spells, D&D mechanics, and rules as character nodes.",
+      "Optional recruitment, romance, party composition, approval, death, transformation, ending, epilogue, and personal-quest outcomes.",
+      "Baldur's Gate I–II and their expansions/enhanced editions; all post-launch patches, hotfixes, epilogues, platform releases, mods, and later licensed/adaptive works."
+    ],
+    "uncertainties":[
+      "The profile page is a maintained official presentation page rather than an archived executable build. It is used for its stable launch-Origin descriptions; later patches can alter dialogue, scenes, endings, mechanics, and presentation, but are not imported.",
+      "Each included person can be selected as the player's Origin avatar or, if another protagonist is chosen, may become a companion and may not be recruited. This pass therefore adds no universal Origin-to-Origin party, romance, or fate relationships.",
+      "Baldur's Gate 3 is licensed from Wizards of the Coast and set in the Forgotten Realms/Dungeons & Dragons. Larian's game-specific pages are authoritative for this release's presentations, not a comprehensive source hierarchy for all Forgotten Realms or tabletop canon.",
+      "Names and terms preserve the English official localization. The official release has multiple localized versions, which are not merged here.",
+      "Several profile descriptions name consequential other individuals, but this narrow profile-based coverage rule does not establish exhaustive story coverage or adjudicate later revelations."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Larian Studios game, community-update, and FAQ pages. No fan wiki, Wikipedia, community guide, or unsourced secondary summary is used as evidence.",
+    "citations":[
+      {"url":"https://baldursgate3.game/?pubDate=20250301","locator":"Official Origin-character profile sections: Astarion, Gale, Lae'zel, Shadowheart, Wyll, Karlach","supports":["Six selected individual character descriptions and starting profile attributes"]},
+      {"url":"https://baldursgate3.game/news/community-update-21-forging-your-legacy_77","locator":"Experience Baldur's Gate 3 Through New Eyes; Become The Dark Urge; The Road Ahead sections","supports":["Origin-player/companion dual status, custom Dark Urge, branching/romance limits, PC launch date, and Early Access separation"]},
+      {"url":"https://forums.larian.com/ubbthreads.php?Number=874803&ubb=showflat","locator":"Baldur's Gate 3 FAQ: General Information","supports":["PC release date and BG3's new-adventure/earlier-title boundary"]},
+      {"url":"https://baldursgate3.game/about","locator":"Origin characters; Evolved turn-based combat; Romances with complexity & depth","supports":["Origin-character framework, D&D 5e ruleset, player agency, and relationship variability"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

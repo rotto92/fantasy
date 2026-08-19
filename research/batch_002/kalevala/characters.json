@@ -1,0 +1,1739 @@
+[
+  {
+    "character_id": "CHR-SRC006-001",
+    "canonical_name": "Väinämöinen",
+    "aliases": [
+      "Wainamoinen"
+    ],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 1",
+    "character_kind": "individual",
+    "description": "Ancient singer and central actor, born into the world after Ilmatar’s long pregnancy.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "singer/wise man",
+          "archetype_ids": [
+            "ROL-606",
+            "ROL-307"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mappings only."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "song and word power",
+          "archetype_ids": [
+            "PWR-504",
+            "PWR-509"
+          ],
+          "confidence": "moderate",
+          "note": "The comparison IDs describe narrative function, not a system of spells."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "heroic singer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_01.xml",
+        "locator": "Runo 1, lines 1–110",
+        "supports": [
+          "Ancient singer and central actor, born into the world after Ilmatar’s long pregnancy."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-002",
+    "canonical_name": "Ilmatar",
+    "aliases": [
+      "Luonnotar"
+    ],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 1",
+    "character_kind": "individual",
+    "description": "Air-maiden/primordial mother who shapes the world through pregnancy and creation sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "divine/primordial agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison; the epic’s figures and roles are not a modern pantheon."
+        },
+        {
+          "term": "land or waters agent",
+          "archetype_ids": [
+            "PPL-206"
+          ],
+          "confidence": "moderate",
+          "note": "Do not flatten place-linked figures into generic elementals."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "creation through birth",
+          "archetype_ids": [
+            "PWR-413"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "primordial waters",
+          "archetype_ids": [
+            "COS-115"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_01.xml",
+        "locator": "Runo 1, lines 111–334",
+        "supports": [
+          "Air-maiden/primordial mother who shapes the world through pregnancy and creation sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Ilmatar and Luonnotar naming and identity have textual complexity; this is limited to the 1849 compilation."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-003",
+    "canonical_name": "Ilmarinen",
+    "aliases": [
+      "Seppo Ilmarinen"
+    ],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 10",
+    "character_kind": "individual",
+    "description": "Smith who forges the Sampo for Pohjola in return for the promised maiden.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "smith",
+          "archetype_ids": [
+            "ROL-610",
+            "ROL-612"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "craft power",
+          "archetype_ids": [
+            "PWR-214"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Sampo",
+          "archetype_ids": [
+            "ART-106"
+          ],
+          "confidence": "moderate",
+          "note": "A narrative/cosmological artifact mapping, not a claim that its function is settled."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_10.xml",
+        "locator": "Runo 10, lines 1–422",
+        "supports": [
+          "Smith who forges the Sampo for Pohjola in return for the promised maiden."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-004",
+    "canonical_name": "Lemminkäinen",
+    "aliases": [
+      "Ahti Saarelainen"
+    ],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 11",
+    "character_kind": "individual",
+    "description": "Hero whose marriage and later Pohjola ventures form major narrative sequences.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        },
+        {
+          "term": "singer",
+          "archetype_ids": [
+            "ROL-606"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "song/word contests",
+          "archetype_ids": [
+            "PWR-504",
+            "PWR-509"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_11.xml",
+        "locator": "Runo 11, lines 1–200",
+        "supports": [
+          "Hero whose marriage and later Pohjola ventures form major narrative sequences."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-005",
+    "canonical_name": "Louhi",
+    "aliases": [
+      "Mistress of Pohjola",
+      "Pohjolan emäntä"
+    ],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 7",
+    "character_kind": "individual",
+    "description": "Mistress of Pohjola who contests Väinämöinen and controls the conditions for obtaining the Sampo and marriages.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "transformative and weather action",
+          "archetype_ids": [
+            "PWR-309",
+            "PWR-212"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Pohjola",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_07.xml",
+        "locator": "Runo 7, lines 1–320",
+        "supports": [
+          "Mistress of Pohjola who contests Väinämöinen and controls the conditions for obtaining the Sampo and marriages."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Louhi is a literary character in this compilation; no generic witch or villain classification is asserted."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-006",
+    "canonical_name": "Joukahainen",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 3",
+    "character_kind": "individual",
+    "description": "Young singer who challenges Väinämöinen and is sung into the mire, then promises Aino.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "singer",
+          "archetype_ids": [
+            "ROL-606"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "song contest",
+          "archetype_ids": [
+            "PWR-504",
+            "PWR-509"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "promise under compulsion",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Do not reduce this narrative pledge to a universal legal rule."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_03.xml",
+        "locator": "Runo 3, lines 1–550",
+        "supports": [
+          "Young singer who challenges Väinämöinen and is sung into the mire, then promises Aino."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-007",
+    "canonical_name": "Aino",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 4",
+    "character_kind": "individual",
+    "description": "Joukahainen’s sister, promised to Väinämöinen against her will and lost in the Aino sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "coerced marriage arrangement",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_04.xml",
+        "locator": "Runo 4, lines 1–500",
+        "supports": [
+          "Joukahainen’s sister, promised to Väinämöinen against her will and lost in the Aino sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The record preserves the coercive context and does not render Aino as a romance prize."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-008",
+    "canonical_name": "Sampsa Pellervoinen",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 2",
+    "character_kind": "individual",
+    "description": "Small sower who plants forests and vegetation after the creation sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sower",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "growth and planting",
+          "archetype_ids": [
+            "PWR-209"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_02.xml",
+        "locator": "Runo 2, lines 1–300",
+        "supports": [
+          "Small sower who plants forests and vegetation after the creation sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-009",
+    "canonical_name": "Ukko",
+    "aliases": [
+      "Ukko ylijumala"
+    ],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 2",
+    "character_kind": "individual",
+    "description": "Heavenly thunder figure appealed to for fire and weather in the epic.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "divine/primordial agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison; the epic’s figures and roles are not a modern pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "storm power",
+          "archetype_ids": [
+            "PWR-206",
+            "PWR-212"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_02.xml",
+        "locator": "Runo 2, lines 300–430",
+        "supports": [
+          "Heavenly thunder figure appealed to for fire and weather in the epic."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "No assertion is made that this literary depiction exhausts Finnish religious history."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-010",
+    "canonical_name": "Antero Vipunen",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 17",
+    "character_kind": "individual",
+    "description": "Ancient giant/otherworld figure from whom Väinämöinen obtains missing words for boat-building.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "spirit/Otherworld agent",
+          "archetype_ids": [
+            "PPL-300"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only."
+        },
+        {
+          "term": "giant figure",
+          "archetype_ids": [
+            "PPL-108"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "keeper of words",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "word knowledge",
+          "archetype_ids": [
+            "PWR-504"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "guide to hidden knowledge",
+          "archetype_ids": [
+            "NAR-228"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_17.xml",
+        "locator": "Runo 17, lines 1–650",
+        "supports": [
+          "Ancient giant/otherworld figure from whom Väinämöinen obtains missing words for boat-building."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-011",
+    "canonical_name": "Kyllikki",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 11",
+    "character_kind": "individual",
+    "description": "Woman abducted and married by Lemminkäinen; their mutual conditions and breach lead to separation.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "marriage promise",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Witness-specific domestic and kinship context."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_11.xml",
+        "locator": "Runo 11, lines 1–300",
+        "supports": [
+          "Woman abducted and married by Lemminkäinen; their mutual conditions and breach lead to separation."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The record does not normalize abduction or reduce the episode to a generic romance trope."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-012",
+    "canonical_name": "Hiisi",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 14",
+    "character_kind": "individual",
+    "description": "Named hostile force/place-associated agent in Lemminkäinen’s elk and swan tasks.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "spirit/Otherworld agent",
+          "archetype_ids": [
+            "PPL-300"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Pohjola/hostile Otherworld tasks",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Named hostile force/place-associated agent in Lemminkäinen’s elk and swan tasks."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Hiisi has varied meanings across Finnic traditions; this record is limited to the 1849 narrative usage."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-013",
+    "canonical_name": "Loviatar",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 45",
+    "character_kind": "individual",
+    "description": "Named mother of diseases in the plague sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "spirit/Otherworld agent",
+          "archetype_ids": [
+            "PPL-300"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "disease causation",
+          "archetype_ids": [
+            "PWR-308"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_45.xml",
+        "locator": "Runo 45, lines 1–300",
+        "supports": [
+          "Named mother of diseases in the plague sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "A literary genealogy of illness should not be treated as medical explanation or a universal religious category."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-014",
+    "canonical_name": "Kullervo",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 31",
+    "character_kind": "individual",
+    "description": "Enslaved and alienated hero whose family history, violence, incest, and death form the Kullervo cycle.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "cursed/alienated condition",
+          "archetype_ids": [
+            "STA-311"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "kinship curse",
+          "archetype_ids": [
+            "LAW-803",
+            "LAW-205"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "tragic hero",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_31.xml",
+        "locator": "Runo 31, lines 1–600",
+        "supports": [
+          "Enslaved and alienated hero whose family history, violence, incest, and death form the Kullervo cycle."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record retains severe violence and kinship harm as narrative context, not an archetypal adventure template."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-015",
+    "canonical_name": "Untamo",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 31",
+    "character_kind": "individual",
+    "description": "Kullervo’s hostile uncle and master in the family feud and enslavement sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler/master",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "kinship conflict",
+          "archetype_ids": [
+            "LAW-803"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_31.xml",
+        "locator": "Runo 31, lines 1–200",
+        "supports": [
+          "Kullervo’s hostile uncle and master in the family feud and enslavement sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-016",
+    "canonical_name": "Kalervo",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 31",
+    "character_kind": "individual",
+    "description": "Kullervo’s father, opposed by Untamo in the opening genealogy of the Kullervo sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "kinship conflict",
+          "archetype_ids": [
+            "LAW-803"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_31.xml",
+        "locator": "Runo 31, lines 1–180",
+        "supports": [
+          "Kullervo’s father, opposed by Untamo in the opening genealogy of the Kullervo sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-017",
+    "canonical_name": "Tuoni",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 16",
+    "character_kind": "individual",
+    "description": "Lord of Tuonela, the realm of the dead, in the underworld-journey and task sequences.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "spirit/Otherworld agent",
+          "archetype_ids": [
+            "PPL-300"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler of the dead",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Tuonela",
+          "archetype_ids": [
+            "COS-301"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_16.xml",
+        "locator": "Runo 16, lines 1–500",
+        "supports": [
+          "Lord of Tuonela, the realm of the dead, in the underworld-journey and task sequences."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-018",
+    "canonical_name": "Tuonetar",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 16",
+    "character_kind": "individual",
+    "description": "Lady of Tuonela who questions Väinämöinen at the otherworld boundary.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "spirit/Otherworld agent",
+          "archetype_ids": [
+            "PPL-300"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "keeper of the dead",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Tuonela",
+          "archetype_ids": [
+            "COS-301"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_16.xml",
+        "locator": "Runo 16, lines 1–500",
+        "supports": [
+          "Lady of Tuonela who questions Väinämöinen at the otherworld boundary."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-019",
+    "canonical_name": "Tapio",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 14",
+    "character_kind": "individual",
+    "description": "Forest lord invoked during Lemminkäinen’s hunt for the elk of Hiisi.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "land or waters agent",
+          "archetype_ids": [
+            "PPL-206"
+          ],
+          "confidence": "moderate",
+          "note": "Do not flatten place-linked figures into generic elementals."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "forest lord",
+          "archetype_ids": [
+            "ROL-512"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping only."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "forest agency",
+          "archetype_ids": [
+            "PWR-222"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Forest lord invoked during Lemminkäinen’s hunt for the elk of Hiisi."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-020",
+    "canonical_name": "Mielikki",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 14",
+    "character_kind": "individual",
+    "description": "Forest lady invoked with Tapio in the hunt sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "land or waters agent",
+          "archetype_ids": [
+            "PPL-206"
+          ],
+          "confidence": "moderate",
+          "note": "Do not flatten place-linked figures into generic elementals."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "forest agency",
+          "archetype_ids": [
+            "PWR-222"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Forest lady invoked with Tapio in the hunt sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-021",
+    "canonical_name": "Nyyrikki",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 14",
+    "character_kind": "individual",
+    "description": "Son/agent of Tapio invoked in the forest-hunt sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "land or waters agent",
+          "archetype_ids": [
+            "PPL-206"
+          ],
+          "confidence": "moderate",
+          "note": "Do not flatten place-linked figures into generic elementals."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Tapio’s forest household",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Son/agent of Tapio invoked in the forest-hunt sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-022",
+    "canonical_name": "Tellervo",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 14",
+    "character_kind": "individual",
+    "description": "Daughter/agent of Tapio invoked in the forest-hunt sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "land or waters agent",
+          "archetype_ids": [
+            "PPL-206"
+          ],
+          "confidence": "moderate",
+          "note": "Do not flatten place-linked figures into generic elementals."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Tapio’s forest household",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_14.xml",
+        "locator": "Runo 14, lines 1–450",
+        "supports": [
+          "Daughter/agent of Tapio invoked in the forest-hunt sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-023",
+    "canonical_name": "Ahto",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 40",
+    "character_kind": "individual",
+    "description": "Sea lord named in the Sampo expedition and sea setting.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "land or waters agent",
+          "archetype_ids": [
+            "PPL-206"
+          ],
+          "confidence": "moderate",
+          "note": "Do not flatten place-linked figures into generic elementals."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "sea lord",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "sea and tide",
+          "archetype_ids": [
+            "PWR-213"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_40.xml",
+        "locator": "Runo 40, lines 1–500",
+        "supports": [
+          "Sea lord named in the Sampo expedition and sea setting."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-024",
+    "canonical_name": "Vellamo",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 40",
+    "character_kind": "individual",
+    "description": "Sea lady named alongside Ahto in the Sampo expedition setting.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "land or waters agent",
+          "archetype_ids": [
+            "PPL-206"
+          ],
+          "confidence": "moderate",
+          "note": "Do not flatten place-linked figures into generic elementals."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "sea and tide",
+          "archetype_ids": [
+            "PWR-213"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_40.xml",
+        "locator": "Runo 40, lines 1–500",
+        "supports": [
+          "Sea lady named alongside Ahto in the Sampo expedition setting."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-025",
+    "canonical_name": "Iku-Turso",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 42",
+    "character_kind": "individual",
+    "description": "Sea monster/agent summoned in the conflict surrounding the Sampo expedition.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "spirit/Otherworld agent",
+          "archetype_ids": [
+            "PPL-300"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "sea force",
+          "archetype_ids": [
+            "PWR-213"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_42.xml",
+        "locator": "Runo 42, lines 1–300",
+        "supports": [
+          "Sea monster/agent summoned in the conflict surrounding the Sampo expedition."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The exact ontology is left unmapped rather than equated with a generic sea monster."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-026",
+    "canonical_name": "Kave",
+    "aliases": [
+      "Kave Ukko"
+    ],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 9",
+    "character_kind": "individual",
+    "description": "Named progenitor figure in the origins and wound-healing song sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "divine/primordial agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparison; the epic’s figures and roles are not a modern pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "origin knowledge in song",
+          "archetype_ids": [
+            "PWR-504",
+            "PWR-509"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_09.xml",
+        "locator": "Runo 9, lines 1–250",
+        "supports": [
+          "Named progenitor figure in the origins and wound-healing song sequence."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC006-027",
+    "canonical_name": "Marjatta",
+    "aliases": [],
+    "source_id": "SRC-006",
+    "source_title": "Kalevala",
+    "continuity": "Elias Lönnrot, 1849 New Kalevala",
+    "work_or_witness": "Kalevala (1849), runo 50",
+    "character_kind": "individual",
+    "description": "Mother whose child’s rise prompts Väinämöinen’s final departure in the closing runo.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mortal human",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Textual status, not a people/race taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "mother",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in Lönnrot’s 1849 compilation",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://editiot.finlit.fi/exist/apps/kalevala/runot/runo_50.xml",
+        "locator": "Runo 50, lines 1–500",
+        "supports": [
+          "Mother whose child’s rise prompts Väinämöinen’s final departure in the closing runo."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The closing Christian-era narrative transition is a feature of Lönnrot’s 1849 compilation and is not used to rank traditions."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  }
+]

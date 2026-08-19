@@ -1,0 +1,28 @@
+[
+  {
+    "relationship_id": "REL-SRC209-001",
+    "source_id": "SRC-209",
+    "source_character_id": "CHR-SRC209-003",
+    "target_character_id": "CHR-SRC209-001",
+    "relationship_type": "other",
+    "label": "past rescue and later household connection",
+    "direction": "directed",
+    "continuity": "Fate/stay night REMASTERED — Fate (Saber Route) opening premise (2024)",
+    "citations": [{"url": "https://typemoon.com/products/f-sn/introduction/fate/", "locator": "Fate (Saber Route) introduction, lines 28-30", "supports": ["Kiritsugu rescuing Shirou, Shirou beginning to live with him, and later magecraft-instruction request"]}],
+    "confidence": "high",
+    "note": "Supports rescue and shared-household premise only. It does not establish kinship, adoption, completed mentorship, or later route outcomes."
+  },
+  {
+    "relationship_id": "REL-SRC209-002",
+    "source_id": "SRC-209",
+    "source_character_id": "CHR-SRC209-001",
+    "target_character_id": "CHR-SRC209-002",
+    "relationship_type": "other",
+    "label": "Master/Servant contract",
+    "direction": "directed",
+    "continuity": "Fate/stay night REMASTERED — Fate (Saber Route) opening premise (2024)",
+    "citations": [{"url": "https://typemoon.com/products/f-sn/character/01/", "locator": "Shirou Emiya character profile, lines 28-30", "supports": ["Shirou contracting with Saber"]}, {"url": "https://typemoon.com/products/f-sn/character/04/", "locator": "Saber character profile, lines 28-30", "supports": ["Saber contracting with the protagonist"]}],
+    "confidence": "high",
+    "note": "A source-specific Fate-route Master/Servant contract; it does not imply ownership, real-world servitude, romance, universal route behavior, or a different summon incarnation."
+  }
+]

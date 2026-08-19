@@ -1,0 +1,165 @@
+[
+  {
+    "term_id": "STM-SRC200-001",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-200",
+    "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 book metadata",
+    "canonical_term": "Made in Abyss Vol. 1 Seven Seas English witness",
+    "original_language": "English publication metadata",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected Seven Seas English manga edition of Made in Abyss Vol. 1: Akihito Tsukushi, 23 January 2018, 166 pages, ISBN 978-1-626927-73-5, with credits to translator Beni Axia Conrad, adapter Jake Jung, and letterer James Gaubatz.",
+    "cultural_caution": "An English edition/localization witness, not an assertion that original Japanese wording, later printings, other translations, digital presentation, or adaptations have identical text, pagination, names, or content framing.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/made-in-abyss-vol-1/",
+        "locator": "Vol. 1 book metadata",
+        "supports": [
+          "Edition, credits, date, page count, and ISBN."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC200-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-200",
+    "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 synopsis",
+    "canonical_term": "the Abyss",
+    "original_language": "English fictional place term in the selected translation",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Seven Seas calls the Abyss a massive unexplored cave system, filled with monstrous creatures and lost relics, and presents it as the remaining unexplored place in the volume's premise.",
+    "cultural_caution": "The Abyss is a fictional setting/location, not a character node. Its layers, curse, ecology, relic taxonomy, and later revelations are not established from this Vol. 1 product synopsis.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/made-in-abyss-vol-1/",
+        "locator": "Vol. 1 synopsis",
+        "supports": [
+          "The Abyss's cave-system, creature, relic, and exploration framing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC200-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-200",
+    "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 synopsis",
+    "canonical_term": "Cave Raiders",
+    "original_language": "English fictional vocation term in the selected translation",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Seven Seas calls people who delve into the Abyss Cave Raiders.",
+    "cultural_caution": "A source role for explorers, not a collective character, official institutional profile, real-world profession, or proof of an individual rank/qualification."
+    ,"citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/made-in-abyss-vol-1/",
+        "locator": "Vol. 1 synopsis",
+        "supports": [
+          "The definition of Cave Raiders as people who delve into the Abyss."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC200-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-200",
+    "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 synopsis",
+    "canonical_term": "lost relics and monstrous creatures",
+    "original_language": "English setting lexicon in the selected translation",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected Vol. 1 synopsis characterizes the Abyss as containing lost relics and monstrous creatures.",
+    "cultural_caution": "Relics and creatures are categories/setting elements, not individual endpoints. The synopsis does not establish a relic inventory, named creature, ownership, powers, or later biological classification.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/made-in-abyss-vol-1/",
+        "locator": "Vol. 1 synopsis",
+        "supports": [
+          "The product's lost-relic and monstrous-creature description."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC200-005",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-200",
+    "work_or_witness": "Made in Abyss Vol. 1 · Vol. 1 synopsis",
+    "canonical_term": "child protagonist and peril boundary",
+    "original_language": "English publisher-premise lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The Vol. 1 synopsis describes Riko as a young orphan whose exploration of the Abyss brings her into a perilous situation involving a strange robot, monsters, and relics.",
+    "cultural_caution": "This marks a child-protagonist and danger context without reducing Riko to vulnerability or inferring graphic scenes. Exact injury, abuse, body-horror, death, psychological, and later-plot content must be checked against the primary volume rather than inferred from this summary.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/made-in-abyss-vol-1/",
+        "locator": "Vol. 1 synopsis",
+        "supports": [
+          "Riko's young-orphan description, goal, robot encounter, and the perilous Abyss premise."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC200-006",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-200",
+    "work_or_witness": "Made in Abyss Anthology license announcement · Anthology license announcement; Made in Abyss: Binary Star Falling into Darkness · Story and game overview",
+    "canonical_term": "anime, film, anthology, and Binary Star game boundary",
+    "original_language": "English product-continuity lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Seven Seas identifies a separate Made in Abyss Anthology and says the series spawned an anime and movies. Spike Chunsoft identifies Binary Star Falling into Darkness as a separate action RPG with an anime-story mode and a game-original story involving a nameless Cave Raider.",
+    "cultural_caution": "Adaptation, anthology, and game continuity are separate from this Vol. 1 pass. The game's player character is nameless/player-controlled and never a character node here; neither game supervision nor anime-story mode establishes scene-level identity with the manga witness.",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/2019/12/13/seven-seas-digs-deep-with-license-of-made-in-abyss-anthology-manga/",
+        "locator": "Anthology license announcement",
+        "supports": [
+          "The separate anthology and the anime/movie adaptation boundary."
+        ]
+      },
+      {
+        "url": "https://www.spike-chunsoft.com/games/made-in-abyss-binary-star-falling-into-darkness/",
+        "locator": "Story and game overview",
+        "supports": [
+          "Binary Star's anime-story mode, player-controlled Cave Raider, and distinct game story."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

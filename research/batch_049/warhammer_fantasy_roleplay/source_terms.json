@@ -1,0 +1,184 @@
+[
+  {
+    "term_id": "STM-SRC100-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, description opening",
+    "canonical_term": "Old World",
+    "original_language": "English Warhammer Fantasy Roleplay terminology",
+    "original_script": "Old World",
+    "transliteration": "not applicable",
+    "literal_gloss": "tabletop setting world",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The setting world for grim and perilous adventures in the Fourth Edition core-product description.",
+    "cultural_caution": "A fictional WFRP setting term, not a real historical period, character endpoint, or a claim that it is identical to every other Warhammer Old World product.",
+    "citations": [
+      {
+        "url": "https://cubicle7games.com/warhammer-fantasy-roleplay-rulebook-pdf",
+        "locator": "Official product page, description opening",
+        "supports": [
+          "Old World as the selected Fourth Edition game-setting context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC100-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, feature list, ‘Four distinct Character Species’",
+    "canonical_term": "Character Species",
+    "original_language": "English WFRP Fourth Edition rules terminology",
+    "original_script": "Character Species",
+    "transliteration": "not applicable",
+    "literal_gloss": "player-character species category",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core rulebook’s category for four playable species: Human, Dwarf, Elf, and Halfling.",
+    "cultural_caution": "A fictional tabletop character-option category, not a real-world racial category, character endpoint, or a statement about species in other editions or Warhammer games.",
+    "citations": [
+      {
+        "url": "https://cubicle7games.com/warhammer-fantasy-roleplay-rulebook-pdf",
+        "locator": "Official product page, feature list, ‘Four distinct Character Species’",
+        "supports": [
+          "Character Species category and the four listed playable species."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC100-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, feature list, ‘64 distinct careers’",
+    "canonical_term": "careers",
+    "original_language": "English WFRP Fourth Edition rules terminology",
+    "original_script": "careers",
+    "transliteration": "not applicable",
+    "literal_gloss": "character life-path category",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core rulebook’s 64-option category representing what a character does when not adventuring.",
+    "cultural_caution": "A game-mechanical vocation category, not a fixed biography, social judgment, or a character endpoint.",
+    "citations": [
+      {
+        "url": "https://cubicle7games.com/warhammer-fantasy-roleplay-rulebook-pdf",
+        "locator": "Official product page, feature list, ‘64 distinct careers’",
+        "supports": [
+          "Careers as a selected Fourth Edition character-life-path category."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC100-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, feature list, major religions and miracles",
+    "canonical_term": "miracles",
+    "original_language": "English WFRP Fourth Edition rules terminology",
+    "original_script": "miracles",
+    "transliteration": "not applicable",
+    "literal_gloss": "religious power category",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The supernatural acts associated by the core-product description with priests of the Old World’s major religions.",
+    "cultural_caution": "A fictional WFRP rules/setting term, not a real religious claim, a deity character endpoint, or an exhaustive theology.",
+    "citations": [
+      {
+        "url": "https://cubicle7games.com/warhammer-fantasy-roleplay-rulebook-pdf",
+        "locator": "Official product page, feature list, major religions and miracles",
+        "supports": [
+          "Miracles as a selected religious-power category."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC100-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, feature list, ‘Spells from eight different magical traditions’",
+    "canonical_term": "magical traditions",
+    "original_language": "English WFRP Fourth Edition rules terminology",
+    "original_script": "magical traditions",
+    "transliteration": "not applicable",
+    "literal_gloss": "magic category",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The eight-category magic structure named in the core-product feature list.",
+    "cultural_caution": "A source-specific magical-rules category, not a real spiritual tradition, a character, or an assertion that all Warhammer magic systems use this structure.",
+    "citations": [
+      {
+        "url": "https://cubicle7games.com/warhammer-fantasy-roleplay-rulebook-pdf",
+        "locator": "Official product page, feature list, ‘Spells from eight different magical traditions’",
+        "supports": [
+          "Magical traditions as a selected Fourth Edition magic category."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC100-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay: Core Rulebook · Official product page, Old World description, Chaos paragraphs",
+    "canonical_term": "Chaos corruption",
+    "original_language": "English Warhammer Fantasy Roleplay terminology",
+    "original_script": "corrupting force of Chaos",
+    "transliteration": "not applicable",
+    "literal_gloss": "fictional corrupting influence",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The fictional destructive influence described in the core-product setting text as tainting and altering people in the Old World.",
+    "cultural_caution": "Fictional horror/setting language involving bodily alteration, disease, violence, and cult activity; it is not a medical, disability, religious, or moral category for real people.",
+    "citations": [
+      {
+        "url": "https://cubicle7games.com/warhammer-fantasy-roleplay-rulebook-pdf",
+        "locator": "Official product page, Old World description, Chaos paragraphs",
+        "supports": [
+          "Chaos as a corrupting fictional force and its stated transformation/taint context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC100-007",
+    "record_kind": "source-term",
+    "source_id": "SRC-100",
+    "work_or_witness": "Warhammer Fantasy Roleplay · Official physical-product page, additional information, ‘Game System: D100’",
+    "canonical_term": "D100",
+    "original_language": "English tabletop rules terminology",
+    "original_script": "D100",
+    "transliteration": "not applicable",
+    "literal_gloss": "hundred-sided-die game system",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The game-system label supplied for the Fourth Edition Core Rulebook product.",
+    "cultural_caution": "A rules-engine label, not a setting entity, an edition-equivalence claim, or a character endpoint.",
+    "citations": [
+      {
+        "url": "https://cubicle7games.com/en_US/warhammer-fantasy-roleplay-rulebook",
+        "locator": "Official physical-product page, additional information, ‘Game System: D100’",
+        "supports": [
+          "D100 as the selected Core Rulebook game-system label."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

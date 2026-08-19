@@ -1,0 +1,65 @@
+[
+  {
+    "source_id": "SRC-280",
+    "source_title": "Mexica (Aztec) Mythology and Ritual Traditions",
+    "continuity_scope": "A deliberately bounded, source-critical pass across three colonial-period witnesses to Nahua/Mexica knowledge: the 1577 Florentine Codex (books 1–4, 8, and 12 at the cited folios), the Nahuatl Leyenda de los Soles preserved in the Códice Chimalpopoca (UNAM edition), and the pictorial Códice Boturini/Tira de la Peregrinación (INAH edition). These are not transparent records of a single pre-contact canon: they are colonial manuscripts and editions, with distinct authorship, languages, media, places, editorial histories, and purposes. The pass distinguishes (rather than merges) pre-contact practices inferable only through such witnesses; colonial transcription and translation; Mexica/Tenochtitlan-specific material; broader or regional Nahua materials; contemporary community practice and reconstruction; and commercial game/adaptation portrayals.",
+    "work_or_witnesses": [
+      {
+        "work": "Historia general de las cosas de Nueva España (Florentine Codex), Ms. Mediceo Palatino 218–20",
+        "edition": "Digital Florentine Codex, Getty Research Institute, 2023; manuscript completed in 1577, with Nahuatl and Spanish columns and named Indigenous/Nahua collaborators in the catalogue citation.",
+        "url": "https://florentinecodex.getty.edu/"
+      },
+      {
+        "work": "Leyenda de los Soles in Códice Chimalpopoca",
+        "edition": "Primo Feliciano Velázquez, trans.; Miguel León-Portilla, pref.; 3rd ed., UNAM Instituto de Investigaciones Históricas, 1992; digitized 2019. This Spanish translation is used only with page-specific attribution to the colonial Nahuatl witness.",
+        "url": "https://historicas.unam.mx/publicaciones/publicadigital/libros/000/000_04_03_LeyendaSoles.pdf"
+      },
+      {
+        "work": "Códice Boturini / Tira de la Peregrinación",
+        "edition": "Instituto Nacional de Antropología e Historia digital edition, 2015. A colonial pictorial manuscript; INAH identifies 22 sheets and a migration account from Aztlan toward the foundation of Mexico-Tenochtitlan.",
+        "url": "https://www.codiceboturini.inah.gob.mx/approaches_text.php?textID=7"
+      }
+    ],
+    "coverage_rule": "Include only the fifteen individually named agents who materially speak, direct, act, or undergo a narratively consequential action in these exact passages: Florentine Codex book 3 fols. 1v–2v; Florentine Codex book 12 fol. 14v; and Leyenda de los Soles pp. 120–122. The contextual term set is restricted to exact witness-grounded vocabulary in the cited Florentine and Boturini passages. Generic teotl, unnamed ritual participants, the Centzonhuitznahuah collective, captive persons, places, institutions, calendar signs, artifacts, and categories are not character nodes. No figure is added merely because later scholarship, revival, a game, or a popular pantheon list associates it with the tradition.",
+    "in_scope_character_count": 15,
+    "completed_character_count": 15,
+    "omissions": [
+      "All unnamed persons, collectives, offices, places, calendrical signs, offerings, iconographic motifs, and ritual embodiments",
+      "The many named figures outside the specified folios/pages, including the majority of each witness",
+      "Maya, Mixtec, and other Mesoamerican traditions; regional Nahua witnesses not named above; and modern Nahua community practices",
+      "Modern reconstruction, academic synthesis beyond the bounded witnesses, films, novels, comics, games, and other adaptations"
+    ],
+    "uncertainties": [
+      "A colonial witness does not directly disclose an unchanged pre-contact practice; its compilation, transcription, translation, and editorial framing must remain visible.",
+      "The terms teotl and ixiptla/ixiptlahtli are polysemous and context-sensitive; English 'god', 'idol', 'image', 'impersonator', and 'avatar' are not interchangeable translations.",
+      "The four/five-world-age schema, vertical cosmologies, migration accounts, and individual names differ across Nahua and Mexica witnesses. This pass does not assert a universal count of heavens or underworld levels.",
+      "INAH notes that the Boturini is colonial/incomplete and that pictorial texts work with oral performance; its Aztlan migration account is not literal proof of a single historical itinerary or ethnic origin claim."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Every character and relationship has a claim-specific primary/critical-witness locator. Getty supplies digitized manuscript folios with Nahuatl transcription and translations; UNAM supplies the cited Leyenda pages; INAH supplies a material/contextual account of the Boturini. This pass is complete only for the declared folios/pages and coverage rule, not for Mexica, Nahua, pre-contact, colonial, regional, or living traditions beyond them; the witnesses are not used as a flattening authority over living Nahua communities.",
+    "citations": [
+      {
+        "url": "https://florentinecodex.getty.edu/",
+        "locator": "Digital Florentine Codex, collection introduction; manuscript completed 1577 at the Colegio de Santa Cruz de Tlatelolco",
+        "supports": [
+          "The Florentine Codex is a colonial-period manuscript witness, not a pre-contact text."
+        ]
+      },
+      {
+        "url": "https://historicas.unam.mx/publicaciones/publicadigital/libros/000/codice_chimalpopoca.html",
+        "locator": "UNAM edition record for Códice Chimalpopoca and Leyenda de los Soles",
+        "supports": [
+          "The Leyenda citations refer to a defined UNAM edition and not to an undifferentiated Aztec canon."
+        ]
+      },
+      {
+        "url": "https://www.codiceboturini.inah.gob.mx/approaches_text.php?textID=0",
+        "locator": "INAH, 'El documento,' lines 19–29 and 56–78",
+        "supports": [
+          "The Boturini is a colonial, pictorial, incomplete witness whose reading and production require context."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

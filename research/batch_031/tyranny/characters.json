@@ -1,0 +1,98 @@
+[
+  {
+    "character_id": "CHR-SRC145-001",
+    "canonical_name": "Kyros the Overlord",
+    "aliases": ["Kyros", "the Overlord"],
+    "source_id": "SRC-145",
+    "source_title": "Tyranny",
+    "continuity": "Tyranny original base-game campaign premise",
+    "work_or_witness": "Official Tyranny campaign page: The Story",
+    "character_kind": "individual",
+    "description": "The named Overlord whose armies are presented as having conquered and subjugated the Tiers in the official campaign premise.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term": "Overlord", "archetype_ids": [], "confidence": "high", "note": "The source calls Kyros 'the Overlord'; it does not provide a fuller vocation taxonomy in this witness."}
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {"term": "Kyros' armies", "archetype_ids": [], "confidence": "high", "note": "The official premise attributes the conquest of the Tiers to armies identified with Kyros; this is an affiliation term, not a character endpoint."}
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {"term": "the Tiers", "archetype_ids": [], "confidence": "high", "note": "The campaign premise names the Tiers as the region subjected by Kyros' armies; no present location or personal domain is inferred."}
+      ],
+      "metaphysical_laws_and_rituals": [
+        {"term": "Kyros' law", "archetype_ids": [], "confidence": "high", "note": "The official story frames the Fatebinder as administering law identified with Kyros; this records the term without deriving a personal legal relationship graph."}
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly presented in the original campaign premise.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://www.obsidian.net/games/tyranny",
+        "locator": "Overview: 'Sometimes, Evil Wins'",
+        "supports": ["Kyros as the named Overlord and Kyros' armies' conquest of the Tiers"]
+      },
+      {
+        "url": "https://tyranny.obsidian.net/",
+        "locator": "The Story section: 'Bend the World to Your Will' and 'Law and Order'",
+        "supports": ["Kyros' rule, the Tiers, and the term Kyros' law"]
+      }
+    ],
+    "comparison_cautions": [
+      "'Overlord' is retained as source language and is not mapped to a generic ruler, deity, villain, or class archetype.",
+      "The source gives a campaign premise; it does not justify claims about Kyros' species, powers, personal motives, appearance, final status, or any player-dependent ending."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC145-002",
+    "canonical_name": "Tunon the Adjudicator",
+    "aliases": ["Tunon", "the Adjudicator", "Archon of Justice"],
+    "source_id": "SRC-145",
+    "source_title": "Tyranny",
+    "continuity": "Tyranny original base-game campaign premise",
+    "work_or_witness": "Official Tyranny campaign page: The Story",
+    "character_kind": "individual",
+    "description": "The named Adjudicator identified in the official campaign premise as the Archon of Justice under whose eye the Fatebinder acts.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term": "Archon of Justice", "archetype_ids": [], "confidence": "high", "note": "Exact title used on the official campaign page."},
+        {"term": "Adjudicator", "archetype_ids": [], "confidence": "high", "note": "Retained from the named form 'Tunon the Adjudicator'; this witness does not describe a separate vocation."}
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {"term": "Kyros' law", "archetype_ids": [], "confidence": "high", "note": "The page describes the excluded Fatebinder as judge and executioner of Kyros' law under Tunon's eye; this is not converted into a relationship with the avatar."}
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Named individual directly presented in the original campaign premise.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://tyranny.obsidian.net/",
+        "locator": "The Story section: 'Law and Order'",
+        "supports": ["Tunon the Adjudicator's name, Archon of Justice title, and the Fatebinder acting under Tunon's eye"]
+      }
+    ],
+    "comparison_cautions": [
+      "The Archon title is source-native and is not equated with a real-world office, a generic rank, or a power tradition.",
+      "The only directly described action connects Tunon with the player-created Fatebinder, which is excluded; no universal allegiance, judgment, or ending is inferred."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

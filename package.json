@@ -1,0 +1,38 @@
+{
+  "name": "fantasy-concept-constellations",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:v3": ".venv/bin/python scripts/build_version3.py",
+    "extract": ".venv/bin/python scripts/extract_atlas.py",
+    "research:validate": ".venv/bin/python scripts/validate_character_research.py",
+    "audit:release-import": "python3 scripts/audit_release_import.py",
+    "audit:pages": "python3 scripts/audit_release_import.py --artifact-root dist",
+    "browser:install": "npx --yes playwright@1.62.1 install chromium",
+    "generate:constellations": ".venv/bin/python scripts/build_constellation_data.py",
+    "generate:discovery": ".venv/bin/python scripts/build_discovery_index.py",
+    "generate:v4": ".venv/bin/python scripts/build_version4.py",
+    "generate": "npm run generate:v3 && npm run extract && npm run research:validate && npm run generate:constellations && npm run generate:discovery && npm run generate:v4",
+    "check:generated": "python3 scripts/check_generated_sync.py",
+    "dev": "vite",
+    "build": "npm run generate && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:smoke": "node tests/smoke.mjs",
+    "test:discovery": ".venv/bin/python tests/reproducibility_contract.py && .venv/bin/python tests/research_schema_contract.py && .venv/bin/python tests/generated_contracts.py && node tests/discovery.mjs",
+    "test:audit": "python3 tests/release_audit.py",
+    "test:workflow": "node tests/workflow_contract.mjs",
+    "test:review": "npm run test:audit && npm run test:smoke && npm run test:discovery && npm run test:workflow",
+    "test:static": "node tests/static-base.mjs"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "playwright-core": "1.62.1",
+    "typescript": "7.0.2",
+    "vite": "8.2.0",
+    "yaml": "2.8.1"
+  }
+}

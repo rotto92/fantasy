@@ -1,0 +1,63 @@
+[
+  {
+    "source_id": "SRC-131",
+    "source_title": "Final Fantasy XIV",
+    "continuity_scope": "FINAL FANTASY XIV: Dawntrail, Patch 7.0 content baseline (official North American English release, 2 July 2024). This is a live-service snapshot, not a claim about later Dawntrail patches, other expansions, regional localizations, or player-created characters.",
+    "work_or_witnesses": [
+      "FINAL FANTASY XIV: Dawntrail official Patch 7.0 Story / Key Characters page (North American English)",
+      "The Lodestone: Patch 7.0 Notes (North American English)",
+      "FINAL FANTASY XIV: Dawntrail official Jobs page (North American English)",
+      "The Lodestone: Dawntrail Release Date Announced!"
+    ],
+    "coverage_rule": "Five named individual characters selected from the Patch 7.0 official Key Characters page because their contemporaneous profiles directly establish distinct source-native comparison dimensions: Wuk Lamat (succession claimant/ruling family), Erenville (gleaner and guide), Krile (Lalafell, two organizations, Echo and pictomancy), Zoraal Ja (First Promise and Landsguard commander), and Gulool Ja Ja (Dawnservant/founder/ruler). The player-created Warrior of Light is explicitly excluded as an avatar role rather than a stable named character.",
+    "in_scope_character_count": 5,
+    "completed_character_count": 5,
+    "omissions": [
+      "The player-created Warrior of Light/avatar, whose identity, appearance, race, and jobs are player-selected; retained only as a role/mechanical reference in source scope.",
+      "Other Patch 7.0 Key Characters (Koana, Thancred, Urianger, Bakool Ja Ja) because this is a deliberately small, attribute-diverse cohort rather than the full cast.",
+      "The 'Enigmatic Maiden,' because the selected official page does not give a stable personal name.",
+      "All later patches, other expansion eras, quest-only NPCs, named summons, organizations, races, tribes, worlds, crystals, jobs, artifacts, and systems as character nodes."
+    ],
+    "uncertainties": [
+      "FINAL FANTASY XIV is live service: the Lodestone Patch 7.0 notes display an update timestamp of 12 August 2025, while this pass uses only their explicit Patch 7.0 statements and the Patch 7.0 special-site profiles; later changes are out of scope.",
+      "The selected evidence is the North American English localization. Japanese and other localizations may use different wording and are not silently merged.",
+      "Profiles are promotional, spoiler-conscious summaries. They establish only the attributes stated there; route outcomes, later identities, and unshown relationships are not inferred.",
+      "The official page says Gulool Ja Ja 'appears to have' a past connection to Galuf; that qualified statement is not recorded as a relationship."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Square Enix / FINAL FANTASY XIV special-site character profiles for character claims and relationship; official Lodestone patch notes for the 7.0 system boundary; official jobs page for source-native job terms; official release-date announcement for date. No fan wiki or unofficial game database was used.",
+    "citations": [
+      {
+        "url": "https://na.finalfantasyxiv.com/dawntrail/story/",
+        "locator": "PATCH 7.0 Story, lines 110-220; Key Characters profiles",
+        "supports": [
+          "Patch 7.0 story framing and selected character profiles",
+          "Warrior of Light is a role label in the promotional story rather than a stable named individual"
+        ]
+      },
+      {
+        "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c807875c5f8f7529887c86d2955f709eae0231ef/",
+        "locator": "Patch 7.0 Notes, lines 88-99; 219-246",
+        "supports": [
+          "Patch 7.0 baseline, Viper/Pictomancer, female Hrothgar, and Quest Sync",
+          "Official spoiler-aware omission practice in patch notes"
+        ]
+      },
+      {
+        "url": "https://na.finalfantasyxiv.com/dawntrail/job/",
+        "locator": "Jobs; New Jobs: Viper and Pictomancer",
+        "supports": [
+          "Source-native descriptions of Viper and Pictomancer"
+        ]
+      },
+      {
+        "url": "https://na.finalfantasyxiv.com/lodestone/topics/detail/dee7ebf799d078a7dda9699cb55f748ec73055ec",
+        "locator": "Release Date: Tuesday, 2 July 2024",
+        "supports": [
+          "Official Dawntrail release date"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

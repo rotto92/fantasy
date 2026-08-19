@@ -1,0 +1,3 @@
+[
+  {"relationship_id":"REL-SRC149-001","source_id":"SRC-149","source_character_id":"CHR-SRC149-001","target_character_id":"CHR-SRC149-002","relationship_type":"other","label":"awakened the Old One through ancient Soul Arts","direction":"directed","continuity":"2020 PlayStation 5 remake","citations":[{"url":"https://www.playstation.com/en-us/games/demons-souls/","locator":"Game overview: King Allant paragraph","supports":["King Allant channeled ancient Soul Arts, awakening the Old One"]}],"confidence":"high","note":"Direct official-premise causal statement only; it does not infer motive beyond the stated quest for power or an ongoing allegiance."}
+]

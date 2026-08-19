@@ -1,0 +1,17 @@
+[
+  {
+    "relationship_id": "REL-SRC185-001",
+    "source_id": "SRC-185",
+    "source_character_id": "CHR-SRC185-001",
+    "target_character_id": "CHR-SRC185-002",
+    "relationship_type": "companion",
+    "label": "Drippy is Oliver's trusty friend on the other-world journey",
+    "direction": "undirected",
+    "continuity": "Bandai Namco Entertainment America English remastered PS4/PC witness",
+    "citations": [
+      {"url":"https://www.bandainamcoent.com/games/ni-no-kuni-wrath-of-the-white-witch-remastered","locator":"Journey Back To The Other World","supports":["Oliver travels with his trusty friend Drippy"]}
+    ],
+    "confidence": "high",
+    "note": "Direct premise relationship only; mutable player party, combat switching, and later events are excluded."
+  }
+]

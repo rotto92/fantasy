@@ -1,0 +1,15 @@
+[
+  {
+    "relationship_id":"REL-SRC269-001",
+    "source_id":"SRC-269",
+    "source_character_id":"CHR-SRC269-001",
+    "target_character_id":"CHR-SRC269-002",
+    "relationship_type":"other",
+    "label":"al’Lan is Moiraine’s Warder",
+    "direction":"directed",
+    "continuity":"Amazon/Prime Video television continuity; bounded Season 1 Episode 1 official-material witness",
+    "citations":[{"url":"https://www.aboutamazon.com/news/entertainment/wheel-of-time-season-3-cast-characters","locator":"Amazon official series guide, lines 22–25","supports":["al’Lan is Moiraine’s Warder","Warder is an Aes Sedai companion and protector"]}],
+    "confidence":"high",
+    "note":"Source-native role relationship only. No novel mechanics, later bond change, sexuality, romance, history, or unspoken obligation is inferred."
+  }
+]

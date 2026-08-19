@@ -1,0 +1,75 @@
+[
+  {
+    "source_id": "SRC-116",
+    "source_title": "Forbidden Lands",
+    "continuity_scope": "Free League's Forbidden Lands first-edition Core Boxed Set, identified in Free League's 2026 third-party license as first published by Fria Ligan AB in 2018. The chosen witness includes the official Core Boxed Set/game pages, the official fifth-printing core-set errata, and the official license solely to establish core-versus-third-party boundaries. This is an emergent sandbox/hexcrawl rules source: campaigns, adventures, supplements, digital modules, novels, videogame adaptations, and home play remain separate.",
+    "work_or_witnesses": [
+      {
+        "work": "Forbidden Lands Core Boxed Set",
+        "edition": "First edition, published 2018 by Fria Ligan AB; official Core Boxed Set product.",
+        "url": "https://freeleaguepublishing.com/shop/forbidden-lands/core-boxed-set/"
+      },
+      {
+        "work": "Forbidden Lands Errata",
+        "edition": "Official errata for significant clarifications and changes in the latest (fifth) printing of the core set.",
+        "url": "https://freeleaguepublishing.com/wp-content/uploads/2023/09/FBL-ENG_errata-1.pdf"
+      },
+      {
+        "work": "Forbidden Lands Third-Party Tabletop Module License v1.0",
+        "edition": "Free League license dated 2026; used only for first-edition date and core/third-party scope boundary.",
+        "url": "https://freeleaguepublishing.com/wp-content/uploads/2026/03/Forbidden-Lands-License-Agreement-version-1.0.pdf"
+      }
+    ],
+    "coverage_rule": "Terms-only emergent-fiction/hexcrawl audit. The selected core box gives players tools to create raiders and rogues, explore a mutable hex map, choose adventure sites, survive journeys, and potentially build a stronghold; it does not supply a bounded, claim-level canonical dramatic cast. No character or relationship records are made. Kin, professions, talents, strongholds, legends, monsters, artifacts, places, survival systems, and rules remain terms/dimensions. Named figures from core examples, legends, campaigns, adventures, or table play require a separate exact witness with a direct profile.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named core examples, legends, NPCs, pre-generated adventurers, campaign figures, actual-play characters, and table-created characters, because this pass has no fixed claim-level dramatic cohort.",
+      "All kin, professions, talents, strongholds, legends, monsters, artifacts, places, survival systems, and rules as character nodes.",
+      "Raven's Purge and all other campaigns/adventure sites, Book of Beasts, The Bitter Reach, The Bloodmarch, digital/VTT modules, third-party Workshop material, novels, videogame adaptations, and home campaigns."
+    ],
+    "content_cautions": [
+      "The official core framing includes cursed lands, terrible monsters, visceral combat, lethal magic, dangerous travel, hunger/thirst/exposure-style survival pressure, injuries/death, ruins, and resource scarcity. Groups should establish safety boundaries for violence, horror, deprivation, exploitation, and risk-focused play.",
+      "The accessible official product descriptions do not give claim-level detail on slavery. No slavery term, character claim, or social-historical analogy is made in this audit; if a table uses setting material involving enslavement or analogous coercion, it should obtain explicit consent and treat the topic with care rather than as a default adventure device.",
+      "Kin, cultures, spirituality, and social institutions are fictional game constructs. Do not map them one-to-one onto real peoples, ethnicities, religions, class systems, or historical societies."
+    ],
+    "uncertainties": [
+      "Free League's 2026 license calls the game first edition published in 2018; the current store product page itself does not state a printing date. The exact rules witness is therefore the current Core Boxed Set with fifth-printing errata boundary, not an inferred revision history.",
+      "The fifth-printing errata document lists changes/clarifications but this terms-only audit does not reconstruct individual changed rules beyond the printing boundary.",
+      "Free League permits compatible third-party supplements under stated conditions, including that they may not replace official core rules or add attributes/skills. That permission does not make community material, campaigns, or their named figures canonical to the core pass."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Free League official product, game, errata, and license material only. The Core Boxed Set identifies open-world survival play, player-made raiders/rogues, core manuals, hex exploration, travel, combat, magic, legends, and strongholds; the game page identifies sandbox/hexcrawl survival procedures; errata identifies fifth-printing updates; and the license identifies first-edition date and the third-party/core separation. No fan wiki or unofficial campaign material is used.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/shop/forbidden-lands/core-boxed-set/",
+        "locator": "Core Boxed Set description and contents",
+        "supports": [
+          "Core product, open-world survival frame, player-made raiders/rogues, Player's Manual/Gamemaster's Guide/Legends & Adventurers/map contents, combat/magic/journeys/stronghold rules, and hex-map exploration."
+        ]
+      },
+      {
+        "url": "https://freeleaguepublishing.com/games/forbidden-lands/",
+        "locator": "The Game: map exploration, travel procedures, hazards, encounters, and strongholds",
+        "supports": [
+          "Official sandbox/hexcrawl and survival-procedure framing."
+        ]
+      },
+      {
+        "url": "https://freeleaguepublishing.com/wp-content/uploads/2023/09/FBL-ENG_errata-1.pdf",
+        "locator": "Opening: latest (fifth) printing of the Forbidden Lands core set",
+        "supports": [
+          "Official fifth-printing errata/clarification boundary."
+        ]
+      },
+      {
+        "url": "https://freeleaguepublishing.com/wp-content/uploads/2026/03/Forbidden-Lands-License-Agreement-version-1.0.pdf",
+        "locator": "Opening and Rule Modifications sections",
+        "supports": [
+          "First-edition 2018 publication identification and limited third-party supplement/core-rules boundary."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

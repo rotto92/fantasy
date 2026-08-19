@@ -1,0 +1,34 @@
+[
+  {
+    "source_id":"SRC-142",
+    "source_title":"Neverwinter Nights",
+    "continuity_scope":"Neverwinter Nights: Enhanced Edition (Beamdog, 2018 release family), English product-page baseline. This pass is restricted to Beamdog's package description of the original Neverwinter Nights campaign, Shadows of Undrentide, Hordes of the Underdark, listed premium modules, and creation tools. It does not merge individual user-created modules, later patches, Diamond Edition implementation, or other Neverwinter/Forgotten Realms works.",
+    "work_or_witnesses":[
+      "Beamdog: Neverwinter Nights: Enhanced Edition official product page",
+      "Beamdog: Neverwinter Nights: Enhanced Edition official feature page"
+    ],
+    "coverage_rule":"Zero-character evidence-constrained pass. The selected first-party product materials identify campaign/expansion premises, edition contents, player-created heroes, premium-module lists, and authoring systems, but do not offer a reproducible cohort of individually described named dramatic NPCs with direct dialogue, journal, or manual locators. The protagonist is player-created. Rather than fabricate a cast from fan sources, all character and relationship arrays are empty.",
+    "in_scope_character_count":0,
+    "completed_character_count":0,
+    "omissions":[
+      "All player-created protagonists and every player-selected name, race, class, background, statistics, equipment, alignment, build, dialogue choice, and outcome.",
+      "All named NPCs, companions, antagonists, quest-givers, deities, creatures, and other dramatic individuals because no selected first-party witness gives sufficient individual claim-level evidence with direct in-game dialogue/journal/manual locators.",
+      "Classes, races, factions, companion systems, monsters, items, places, spells, Dungeons & Dragons rules, the toolset, and module mechanics as character nodes.",
+      "Neverwinter Nights Diamond Edition as an implementation, post-baseline patches/hotfixes, platform-specific content divergences, community modules, mods, the Aurora toolset's user-authored output, and other Neverwinter/Forgotten Realms products."
+    ],
+    "uncertainties":[
+      "The original campaign contains named NPCs and dialogue, but no direct official transcript/manual witness with claim-specific NPC locators was accessible in the selected evidence set. This pass does not reconstruct them from wikis or community guides.",
+      "Enhanced Edition combines Diamond Edition content with enhancements, and Beamdog notes that console releases have slightly different content features. No claim is made that all platforms, patches, or original releases behave identically.",
+      "The Aurora Toolset and Dungeon Master Client allow user-authored worlds and encounters; those are not a fixed canonical cast.",
+      "English product terminology is used. Localization and patch behavior may change, including the non-English voiceover fix documented in later patch notes, but are outside this product-baseline pass.",
+      "This terms-only audit makes no plot-resolution claims and avoids unmarked spoilers."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Beamdog product and feature pages only. No fan wiki, Wikipedia, Neverwinter Vault material, forum post, community module, walkthrough, or secondary orientation source is used as canonical evidence.",
+    "citations":[
+      {"url":"https://www.beamdog.com/games/neverwinter-nights-enhanced/","locator":"Story and Key Features sections","supports":["Enhanced Edition/Diamond package, original campaign premise, expansions, premium modules, player-created hero, toolset, and Dungeon Master Client"]},
+      {"url":"https://nwn.beamdog.com/","locator":"Features section","supports":["Backwards compatibility, community-module scope, multiplayer, and modder/toolset framing"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

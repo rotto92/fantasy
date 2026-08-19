@@ -1,0 +1,191 @@
+[
+  {
+    "term_id": "STM-SRC122-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-122",
+    "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Product title, Avalon Hill F6652, and product features; 2024 Holiday product guide · 2024 Holiday guide",
+    "canonical_term": "Fifth Edition core game",
+    "original_language": "English board-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Avalon Hill/Hasbro core product Talisman: The Magical Quest Game, Fifth Edition (F6652), presented as a 2-to-6-player board game with updated graphics, components, and gameplay.",
+    "cultural_caution": "An exact product/edition witness, not a claim that 1983-era, later Fourth Edition, Fifth Edition expansion, or digital-product components and rules are identical.",
+    "citations": [
+      {
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-the-magical-quest-board-game-5th-edition-fantasy-tabletop-adventure-games-12",
+        "locator": "Product title, Avalon Hill F6652, and product features",
+        "supports": [
+          "Official identity of the selected Fifth Edition core product and its 2-to-6-player scope."
+        ]
+      },
+      {
+        "url": "https://newsroom.hasbro.com/static-files/572c0fc1-d4f3-478a-81c0-a7302cf0f56c",
+        "locator": "2024 Holiday guide",
+        "supports": [
+          "Hasbro lists the selected Fifth Edition as available in 2024."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC122-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-122",
+    "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Product info; 12 Detailed Character Figures",
+    "canonical_term": "Character cards and matching figures",
+    "original_language": "English board-game component lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Fifth Edition includes 12 Character figures and 12 matching Character cards; the cards reveal each selectable character role's unique ability.",
+    "cultural_caution": "A Character card or figure is a player-facing game component, not by itself a stable dramatic individual. Role labels and abilities must not be promoted to atlas character nodes without a direct official narrative profile.",
+    "citations": [
+      {
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-the-magical-quest-board-game-5th-edition-fantasy-tabletop-adventure-games-12",
+        "locator": "Product info; 12 Detailed Character Figures",
+        "supports": [
+          "Official product description identifies 12 matching Character cards/figures and cards that reveal unique abilities."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC122-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-122",
+    "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Product info; Find the Talisman",
+    "canonical_term": "Talisman, Crown of Command, and elder dragon",
+    "original_language": "English board-game objective lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The core product's stated victory sequence: obtain a Talisman, reach the Crown of Command at the board's center, and defeat the elder dragon.",
+    "cultural_caution": "Talisman, Crown of Command, and elder dragon are objective/setting components in this bounded game audit, not character nodes or evidence of a single resolved story outcome across sessions.",
+    "citations": [
+      {
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-the-magical-quest-board-game-5th-edition-fantasy-tabletop-adventure-games-12",
+        "locator": "Product info; Find the Talisman",
+        "supports": [
+          "Official product description states the Talisman, Crown of Command, and elder-dragon victory condition."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC122-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-122",
+    "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Travel Through a Magical Land; 100 Illustrated Adventure Cards",
+    "canonical_term": "three regions and Adventure cards",
+    "original_language": "English board-game board/card lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Fifth Edition board depicts the land of Talisman as three regions of enchanted locations, while Adventure cards layer additional places and provide perils or aid such as enemies, strangers, and magical objects.",
+    "cultural_caution": "Regions, card draws, enemies, strangers, and places are variable game-state content. They are not fixed people, cultures, or a stable campaign chronology.",
+    "citations": [
+      {
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-the-magical-quest-board-game-5th-edition-fantasy-tabletop-adventure-games-12",
+        "locator": "Travel Through a Magical Land; 100 Illustrated Adventure Cards",
+        "supports": [
+          "Official product description identifies three board regions, layered Adventure cards, and the cards' peril/aid content."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC122-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-122",
+    "work_or_witness": "Talisman: The Magical Quest Board Game, 5th Edition · Product info component list",
+    "canonical_term": "Alignment and Fate tokens",
+    "original_language": "English board-game component lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The listed core components include 12 Alignment tokens and 38 Fate tokens alongside strength, craft, and life counters.",
+    "cultural_caution": "Alignment and fate are tokenized mechanics in this product record, not claims about real-world ethical categories or a character's immutable moral identity.",
+    "citations": [
+      {
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-the-magical-quest-board-game-5th-edition-fantasy-tabletop-adventure-games-12",
+        "locator": "Product info component list",
+        "supports": [
+          "Official component list includes Fate and Alignment tokens and strength/craft/life counters."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC122-006",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-122",
+    "work_or_witness": "Talisman Alliances: Fate Beckons · Product info; First-Ever Expansion of Talisman, Fifth Edition",
+    "canonical_term": "Fifth Edition expansion boundary",
+    "original_language": "English board-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Talisman Alliances: Fate Beckons is presented as a separate Fifth Edition expansion requiring the base game and adding cooperative Trials, cards, figures, and related content.",
+    "cultural_caution": "Expansion material is not retroactively part of the selected core witness. Its cooperative goals, Trials, characters, and hidden envelopes remain separate until audited as their own exact product pass.",
+    "citations": [
+      {
+        "url": "https://instructions.hasbro.com/en-us/instruction/talisman-alliances-fate-beckons",
+        "locator": "Product info; First-Ever Expansion of Talisman, Fifth Edition",
+        "supports": [
+          "Official product page identifies Alliances as an expansion requiring the Fifth Edition base game and adding cooperative Trial content."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC122-007",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-122",
+    "work_or_witness": "Talisman: Digital 5th Edition Manual, introduction",
+    "canonical_term": "Talisman: Digital 5th Edition boundary",
+    "original_language": "English digital-product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Nomad Games' separately implemented digital product, described by its publisher as based on Avalon Hill's Fifth Revised Edition.",
+    "cultural_caution": "A digital-adaptation boundary only. Its AI players, saved games, deck editor, patches, house rules, expansions, implementation behavior, and individual sessions do not establish physical Fifth Edition core rules or narrative facts in this pass.",
+    "citations": [
+      {
+        "url": "https://nomadgames.co.uk/talisman-5th-edition-manual-uk",
+        "locator": "Talisman: Digital 5th Edition Manual, introduction",
+        "supports": [
+          "Nomad Games states that the digital product is based on Avalon Hill's Fifth Revised Edition."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,2561 @@
+[
+  {
+    "character_id": "CHR-SRC016-001",
+    "canonical_name": "Sun Wukong",
+    "aliases": [
+      "Monkey King",
+      "Great Sage Equal to Heaven",
+      "Pilgrim Sun"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 1–7; 14; 98–100",
+    "character_kind": "individual",
+    "description": "Stone-born Monkey King, disciple of Patriarch Subhuti and the pilgrimage party’s most forceful protector.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "form-changing simian protagonist",
+          "archetype_ids": [
+            "PPL-1001"
+          ],
+          "confidence": "moderate",
+          "note": "Not a generic species."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pilgrimage protector",
+          "archetype_ids": [
+            "ROL-123"
+          ],
+          "confidence": "moderate",
+          "note": "Martial/monastic comparison only."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "self-cultivation and transformations",
+          "archetype_ids": [
+            "PWR-114",
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Native vocabularies retain priority."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Xuanzang’s pilgrimage disciples",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel party."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Ruyi jingu bang",
+          "archetype_ids": [
+            "ART-208",
+            "ART-210"
+          ],
+          "confidence": "moderate",
+          "note": "Named changing-size weapon."
+        }
+      ],
+      "cosmologies_and_realms": [
+        {
+          "term": "Heavenly Court",
+          "archetype_ids": [
+            "COS-119",
+            "COS-201"
+          ],
+          "confidence": "moderate",
+          "note": "Literary cosmology."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "pilgrimage protector",
+          "archetype_ids": [
+            "NAR-125"
+          ],
+          "confidence": "moderate",
+          "note": "Plot role only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–7; 14; 98–100.",
+        "supports": [
+          "Stone-born Monkey King, disciple of Patriarch Subhuti and the pilgrimage party’s most forceful protector."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-002",
+    "canonical_name": "Tang Sanzang",
+    "aliases": [
+      "Tripitaka",
+      "Xuanzang",
+      "Chen Xuanzang",
+      "Gold Cicada"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 8–15; 98–100",
+    "character_kind": "individual",
+    "description": "Tang monk commissioned to obtain Buddhist scriptures in the West and master of the four-member pilgrimage party.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human monk",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Buddhist monastic and scripture pilgrim",
+          "archetype_ids": [
+            "ROL-404",
+            "ROL-420"
+          ],
+          "confidence": "moderate",
+          "note": "Does not capture Tang Buddhist status."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "scripture-seeking pilgrimage party",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel party."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "scripture pilgrimage vow and merit",
+          "archetype_ids": [
+            "LAW-103",
+            "LAW-814"
+          ],
+          "confidence": "moderate",
+          "note": "Novel allegory, not generic quest mechanics."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "pilgrim/spiritual seeker",
+          "archetype_ids": [
+            "NAR-125"
+          ],
+          "confidence": "moderate",
+          "note": "Functional only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8–15; 98–100.",
+        "supports": [
+          "Tang monk commissioned to obtain Buddhist scriptures in the West and master of the four-member pilgrimage party."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-003",
+    "canonical_name": "Zhu Bajie",
+    "aliases": [
+      "Pigsy",
+      "Zhu Wuneng",
+      "Eight Rules"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 18–19; 98–100",
+    "character_kind": "individual",
+    "description": "Former Heavenly Marshal transformed into a pig-like figure who becomes Tang Sanzang’s disciple and pilgrimage companion.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "animal-formed disciple",
+          "archetype_ids": [
+            "PPL-1004"
+          ],
+          "confidence": "moderate",
+          "note": "Not a stable fantasy ancestry."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pilgrimage disciple and combatant",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Role only."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Xuanzang’s pilgrimage disciples",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel party."
+        }
+      ],
+      "states_and_transformations": [
+        {
+          "term": "punitive animal-form transformation",
+          "archetype_ids": [
+            "STA-211"
+          ],
+          "confidence": "moderate",
+          "note": "Novel-specific."
+        }
+      ],
+      "artifacts_and_vehicles": [
+        {
+          "term": "nine-toothed rake",
+          "archetype_ids": [
+            "ART-208"
+          ],
+          "confidence": "moderate",
+          "note": "Named weapon."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "flawed companion",
+          "archetype_ids": [
+            "NAR-208"
+          ],
+          "confidence": "moderate",
+          "note": "Does not reduce allegorical role."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 18–19; 98–100.",
+        "supports": [
+          "Former Heavenly Marshal transformed into a pig-like figure who becomes Tang Sanzang’s disciple and pilgrimage companion."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-004",
+    "canonical_name": "Sha Wujing",
+    "aliases": [
+      "Sandy",
+      "Sha Monk"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 22; 98–100",
+    "character_kind": "individual",
+    "description": "Former celestial Curtain-Lifting General recruited as Tang Sanzang’s river-crossing disciple and protector.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "punished celestial disciple",
+          "archetype_ids": [
+            "PPL-404"
+          ],
+          "confidence": "moderate",
+          "note": "Heavenly Court status only."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pilgrimage disciple and combatant",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Role only."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Xuanzang’s pilgrimage disciples",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel party."
+        }
+      ],
+      "states_and_transformations": [
+        {
+          "term": "earthly exile after punishment",
+          "archetype_ids": [
+            "STA-425"
+          ],
+          "confidence": "moderate",
+          "note": "Office/status change."
+        }
+      ],
+      "artifacts_and_vehicles": [
+        {
+          "term": "demon-subduing staff",
+          "archetype_ids": [
+            "ART-208"
+          ],
+          "confidence": "moderate",
+          "note": "Named weapon."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 22; 98–100.",
+        "supports": [
+          "Former celestial Curtain-Lifting General recruited as Tang Sanzang’s river-crossing disciple and protector."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-005",
+    "canonical_name": "Yulong",
+    "aliases": [
+      "White Dragon Horse",
+      "Third Prince of the Western Sea"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 15; 98–100",
+    "character_kind": "individual",
+    "description": "Dragon prince of the Western Sea who becomes the White Dragon Horse and carries Tang Sanzang on the pilgrimage.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "dragon prince",
+          "archetype_ids": [
+            "PPL-801"
+          ],
+          "confidence": "moderate",
+          "note": "Chinese dragon ontology is distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pilgrimage mount and disciple",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Xuanzang’s pilgrimage disciples",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel party."
+        }
+      ],
+      "states_and_transformations": [
+        {
+          "term": "horse transformation",
+          "archetype_ids": [
+            "STA-202",
+            "STA-210"
+          ],
+          "confidence": "moderate",
+          "note": "Redemptive novel transformation."
+        }
+      ],
+      "artifacts_and_vehicles": [
+        {
+          "term": "White Dragon Horse",
+          "archetype_ids": [
+            "ART-508"
+          ],
+          "confidence": "moderate",
+          "note": "Vehicle mapping, not objecthood."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "companion",
+          "archetype_ids": [
+            "NAR-208"
+          ],
+          "confidence": "moderate",
+          "note": "Party function."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15; 98–100.",
+        "supports": [
+          "Dragon prince of the Western Sea who becomes the White Dragon Horse and carries Tang Sanzang on the pilgrimage."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-006",
+    "canonical_name": "Guanyin",
+    "aliases": [
+      "Guanshiyin",
+      "Bodhisattva Guanyin"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 8; 17; 42",
+    "character_kind": "individual",
+    "description": "Bodhisattva who receives the Buddha’s commission, recruits and disciplines the pilgrimage party, and protects the mission.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "bodhisattva",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Not a generic deity."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Buddhist patron",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source role retained."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "compassionate intervention",
+          "archetype_ids": [
+            "PWR-103"
+          ],
+          "confidence": "moderate",
+          "note": "Not a spell list."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Buddha’s scripture mission",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel mission."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Potalaka / South Sea abode",
+          "archetype_ids": [
+            "COS-201"
+          ],
+          "confidence": "moderate",
+          "note": "Source geography."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8; 17; 42.",
+        "supports": [
+          "Bodhisattva who receives the Buddha’s commission, recruits and disciplines the pilgrimage party, and protects the mission."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Guanyin is a Buddhist bodhisattva in a Ming novel; do not equate this figure with a generic goddess, cleric, or game patron."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-007",
+    "canonical_name": "Tathagata Buddha",
+    "aliases": [
+      "Buddha",
+      "Rulai"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 7–8; 52; 98–100",
+    "character_kind": "individual",
+    "description": "Buddha who subdues Wukong, commissions the scripture mission, and grants its final recognition.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Buddha",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Not a generic deity."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Buddhist teacher and mission commissioner",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source authority."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "Buddhist salvific authority",
+          "archetype_ids": [
+            "PWR-103"
+          ],
+          "confidence": "moderate",
+          "note": "Not transferable magic."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Western Heaven",
+          "archetype_ids": [
+            "COS-201"
+          ],
+          "confidence": "moderate",
+          "note": "Novel sacred geography."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "quest giver",
+          "archetype_ids": [
+            "ROL-724"
+          ],
+          "confidence": "moderate",
+          "note": "Narrative function only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 7–8; 52; 98–100.",
+        "supports": [
+          "Buddha who subdues Wukong, commissions the scripture mission, and grants its final recognition."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The mapping is literary-functional only and makes no doctrinal claim about Buddhism."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-008",
+    "canonical_name": "Jade Emperor",
+    "aliases": [
+      "August Jade Emperor",
+      "Heavenly Lord"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 4–7",
+    "character_kind": "individual",
+    "description": "Ruler of the Heavenly Court whose administration unsuccessfully attempts to contain Sun Wukong’s revolt.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Heavenly Court ruler",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Office/status is novel-specific."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "celestial sovereign",
+          "archetype_ids": [
+            "ROL-716"
+          ],
+          "confidence": "moderate",
+          "note": "Administrative role only."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Heavenly Court",
+          "archetype_ids": [
+            "COS-119"
+          ],
+          "confidence": "moderate",
+          "note": "Novel bureaucracy."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Heavenly Court",
+          "archetype_ids": [
+            "COS-119",
+            "COS-202"
+          ],
+          "confidence": "moderate",
+          "note": "Literary cosmology."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "celestial bureaucracy",
+          "archetype_ids": [
+            "LAW-518"
+          ],
+          "confidence": "moderate",
+          "note": "Novel’s office satire."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 4–7.",
+        "supports": [
+          "Ruler of the Heavenly Court whose administration unsuccessfully attempts to contain Sun Wukong’s revolt."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-009",
+    "canonical_name": "Laozi",
+    "aliases": [
+      "Lao Tzu",
+      "Supreme Lord Lao"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 5–7; 52",
+    "character_kind": "individual",
+    "description": "Celestial authority whose elixir, Eight-Trigrams Brazier, and later Blue Bull episode shape major conflicts.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "celestial authority",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Not generic deity mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Daoist sage figure",
+          "archetype_ids": [
+            "ROL-307"
+          ],
+          "confidence": "moderate",
+          "note": "Novel presentation."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "elixir and alchemical practice",
+          "archetype_ids": [
+            "PWR-513"
+          ],
+          "confidence": "moderate",
+          "note": "Not fantasy crafting."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "Eight-Trigrams Brazier",
+          "archetype_ids": [
+            "ART-218"
+          ],
+          "confidence": "moderate",
+          "note": "Named implement."
+        }
+      ],
+      "cosmologies_and_realms": [
+        {
+          "term": "Heavenly Court",
+          "archetype_ids": [
+            "COS-119"
+          ],
+          "confidence": "moderate",
+          "note": "Novel cosmology."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 5–7; 52.",
+        "supports": [
+          "Celestial authority whose elixir, Eight-Trigrams Brazier, and later Blue Bull episode shape major conflicts."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Laozi’s literary role here must not be treated as a comprehensive statement about Daoist traditions."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-010",
+    "canonical_name": "Erlang Shen",
+    "aliases": [
+      "Little Sage Erlang",
+      "Erlang"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 6–7",
+    "character_kind": "individual",
+    "description": "Heavenly warrior dispatched to fight and help subdue Sun Wukong.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "celestial warrior",
+          "archetype_ids": [
+            "PPL-404"
+          ],
+          "confidence": "moderate",
+          "note": "No equation to angelic being."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "martial champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Plot role."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "transformations",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Native system retained."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Heavenly Court expedition",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel event affiliation."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 6–7.",
+        "supports": [
+          "Heavenly warrior dispatched to fight and help subdue Sun Wukong."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-011",
+    "canonical_name": "Nezha",
+    "aliases": [
+      "Prince Nezha",
+      "Third Lotus Prince"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 6–7",
+    "character_kind": "individual",
+    "description": "Celestial prince and martial commander who joins Heaven’s campaign against Sun Wukong.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "celestial martial figure",
+          "archetype_ids": [
+            "PPL-404"
+          ],
+          "confidence": "moderate",
+          "note": "No angelic equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "celestial warrior",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Narrative role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Heavenly Court expedition",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel event."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "weapons and wind-fire wheels",
+          "archetype_ids": [
+            "ART-202"
+          ],
+          "confidence": "moderate",
+          "note": "Source regalia."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 6–7.",
+        "supports": [
+          "Celestial prince and martial commander who joins Heaven’s campaign against Sun Wukong."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-012",
+    "canonical_name": "Li Jing",
+    "aliases": [
+      "Pagoda-Bearing Heavenly King",
+      "Heavenly King Li"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 6–7",
+    "character_kind": "individual",
+    "description": "Heavenly commander and father of Nezha who leads forces sent against Sun Wukong.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Heavenly Court commander",
+          "archetype_ids": [
+            "PPL-404"
+          ],
+          "confidence": "moderate",
+          "note": "Office-based status."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "commander",
+          "archetype_ids": [
+            "ROL-141"
+          ],
+          "confidence": "moderate",
+          "note": "Military comparison."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Heavenly Court",
+          "archetype_ids": [
+            "COS-119"
+          ],
+          "confidence": "moderate",
+          "note": "Novel bureaucracy."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "pagoda",
+          "archetype_ids": [
+            "ART-105"
+          ],
+          "confidence": "moderate",
+          "note": "Office-associated object."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 6–7.",
+        "supports": [
+          "Heavenly commander and father of Nezha who leads forces sent against Sun Wukong."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-013",
+    "canonical_name": "Patriarch Subhuti",
+    "aliases": [
+      "Subodhi",
+      "Patriarch"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 1–2",
+    "character_kind": "individual",
+    "description": "Teacher who accepts Sun Wukong, gives him his name, and transmits cultivation and transformation techniques.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "immortal patriarch",
+          "archetype_ids": [
+            "PPL-406"
+          ],
+          "confidence": "moderate",
+          "note": "Xian is not generic ascension."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teacher and ascetic adept",
+          "archetype_ids": [
+            "ROL-933"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative label."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "cultivation and transformations",
+          "archetype_ids": [
+            "PWR-114",
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Native framework."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "teacher–disciple lineage",
+          "archetype_ids": [
+            "INS-425"
+          ],
+          "confidence": "moderate",
+          "note": "Institution comparison."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "teacher–disciple obligation",
+          "archetype_ids": [
+            "LAW-806"
+          ],
+          "confidence": "moderate",
+          "note": "Novel relation."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 1–2.",
+        "supports": [
+          "Teacher who accepts Sun Wukong, gives him his name, and transmits cultivation and transformation techniques."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-014",
+    "canonical_name": "Emperor Taizong",
+    "aliases": [
+      "Tang Taizong",
+      "Emperor of Tang"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 8–12",
+    "character_kind": "individual",
+    "description": "Tang emperor whose Grand Mass and support for Xuanzang set the scripture mission into motion.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "emperor",
+          "archetype_ids": [
+            "ROL-716"
+          ],
+          "confidence": "moderate",
+          "note": "Political comparison."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Tang imperial court",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel court."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "mandate and underworld judgment",
+          "archetype_ids": [
+            "LAW-508",
+            "LAW-704"
+          ],
+          "confidence": "moderate",
+          "note": "Novel cosmology."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8–12.",
+        "supports": [
+          "Tang emperor whose Grand Mass and support for Xuanzang set the scripture mission into motion."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-015",
+    "canonical_name": "Wei Zheng",
+    "aliases": [
+      "Prime Minister Wei"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 10–11",
+    "character_kind": "individual",
+    "description": "Tang minister whose dream duty as an official of the dead and court counsel link the empire to the underworld episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human official",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative status."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "minister and judge",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source office."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Tang imperial court",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel court."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "underworld administration",
+          "archetype_ids": [
+            "COS-119"
+          ],
+          "confidence": "moderate",
+          "note": "Literary cosmology."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "soul judgment",
+          "archetype_ids": [
+            "LAW-704"
+          ],
+          "confidence": "moderate",
+          "note": "Novel episode."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 10–11.",
+        "supports": [
+          "Tang minister whose dream duty as an official of the dead and court counsel link the empire to the underworld episode."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-016",
+    "canonical_name": "Dragon King of the Western Sea",
+    "aliases": [
+      "Ao Run",
+      "Western Sea Dragon King"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 15",
+    "character_kind": "individual",
+    "description": "Dragon king who pleads for Yulong’s rescue and provides the White Dragon Horse’s equipment.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "dragon king",
+          "archetype_ids": [
+            "PPL-801"
+          ],
+          "confidence": "moderate",
+          "note": "Chinese dragon kings are distinct."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "undersea ruler",
+          "archetype_ids": [
+            "ROL-716"
+          ],
+          "confidence": "moderate",
+          "note": "Rulership comparison."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Western Sea dragon court",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel court."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "dragon palace",
+          "archetype_ids": [
+            "COS-518"
+          ],
+          "confidence": "moderate",
+          "note": "Source geography."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 15.",
+        "supports": [
+          "Dragon king who pleads for Yulong’s rescue and provides the White Dragon Horse’s equipment."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-017",
+    "canonical_name": "Black Bear Spirit",
+    "aliases": [
+      "Black Wind Monster",
+      "Bear Monster"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 16–17",
+    "character_kind": "individual",
+    "description": "Bear yaoguai who steals Tang Sanzang’s cassock and is subdued and converted by Guanyin.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai (bear spirit)",
+          "archetype_ids": [
+            "PPL-501",
+            "PPL-1004"
+          ],
+          "confidence": "moderate",
+          "note": "Do not flatten yaoguai into a demon race."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "cultivation",
+          "archetype_ids": [
+            "PWR-114"
+          ],
+          "confidence": "moderate",
+          "note": "Novel practice."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "episode antagonist",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No moral essence inferred."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 16–17.",
+        "supports": [
+          "Bear yaoguai who steals Tang Sanzang’s cassock and is subdued and converted by Guanyin."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-018",
+    "canonical_name": "Yellow Wind Demon",
+    "aliases": [
+      "Yellow Wind King"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 20–21",
+    "character_kind": "individual",
+    "description": "Yaoguai of Yellow Wind Ridge whose wind weapon defeats Wukong until Lingji Bodhisattva intervenes.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Native category retained."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "wind power",
+          "archetype_ids": [
+            "PWR-204"
+          ],
+          "confidence": "moderate",
+          "note": "Effect comparison."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Yellow Wind Ridge cave",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel locale."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 20–21.",
+        "supports": [
+          "Yaoguai of Yellow Wind Ridge whose wind weapon defeats Wukong until Lingji Bodhisattva intervenes."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-019",
+    "canonical_name": "Yellow-Robed Demon",
+    "aliases": [
+      "Huangpao Guai",
+      "Kui Wood Wolf"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 28–31",
+    "character_kind": "individual",
+    "description": "Disguised celestial star official who abducts Princess Baihua and obstructs the pilgrims before returning to Heaven.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai / disguised celestial official",
+          "archetype_ids": [
+            "PPL-404",
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "The plot complicates fixed categories."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "celestial official",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source office."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Heavenly Court",
+          "archetype_ids": [
+            "COS-119"
+          ],
+          "confidence": "moderate",
+          "note": "Novel cosmology."
+        }
+      ],
+      "states_and_transformations": [
+        {
+          "term": "human disguise",
+          "archetype_ids": [
+            "STA-202"
+          ],
+          "confidence": "moderate",
+          "note": "Narrative transformation."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 28–31.",
+        "supports": [
+          "Disguised celestial star official who abducts Princess Baihua and obstructs the pilgrims before returning to Heaven."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-020",
+    "canonical_name": "White Bone Demon",
+    "aliases": [
+      "White Bone Spirit",
+      "Baigujing"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 27",
+    "character_kind": "individual",
+    "description": "Shape-changing yaoguai who repeatedly impersonates victims to seize Tang Sanzang and causes Wukong’s temporary banishment.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Not demon/undead race."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "shape-changing deception",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Native transformations."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "human disguises",
+          "archetype_ids": [
+            "STA-202"
+          ],
+          "confidence": "moderate",
+          "note": "Episode-specific."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "deceptive antagonist",
+          "archetype_ids": [
+            "NAR-327"
+          ],
+          "confidence": "moderate",
+          "note": "Functional only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 27.",
+        "supports": [
+          "Shape-changing yaoguai who repeatedly impersonates victims to seize Tang Sanzang and causes Wukong’s temporary banishment."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-021",
+    "canonical_name": "Gold-Horn King",
+    "aliases": [
+      "Gold Horn Great King"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 32–35",
+    "character_kind": "individual",
+    "description": "One of two demon brothers at Lotus-Flower Cave whose named treasures trap Wukong and the pilgrims.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Native category retained."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Lotus-Flower Cave demon brothers",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel faction."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "gourd, bottle, rope, fan, and sword",
+          "archetype_ids": [
+            "ART-102",
+            "ART-218"
+          ],
+          "confidence": "moderate",
+          "note": "Source treasures."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 32–35.",
+        "supports": [
+          "One of two demon brothers at Lotus-Flower Cave whose named treasures trap Wukong and the pilgrims."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-022",
+    "canonical_name": "Silver-Horn King",
+    "aliases": [
+      "Silver Horn Great King"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 32–35",
+    "character_kind": "individual",
+    "description": "Brother and co-ruler with Gold-Horn King at Lotus-Flower Cave, opposing the pilgrimage party through stolen treasures.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Native category retained."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Lotus-Flower Cave demon brothers",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel faction."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "gourd, bottle, rope, fan, and sword",
+          "archetype_ids": [
+            "ART-102",
+            "ART-218"
+          ],
+          "confidence": "moderate",
+          "note": "Source treasures."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 32–35.",
+        "supports": [
+          "Brother and co-ruler with Gold-Horn King at Lotus-Flower Cave, opposing the pilgrimage party through stolen treasures."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-023",
+    "canonical_name": "Red Boy",
+    "aliases": [
+      "Holy Child King",
+      "Red Child"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 40–42",
+    "character_kind": "individual",
+    "description": "Bull Demon King and Princess Iron Fan’s son, a fire-wielding yaoguai who captures Tang Sanzang and is taken into Guanyin’s service.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Native category retained."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "fire and transformations",
+          "archetype_ids": [
+            "PWR-201",
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Not a game spell school."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Bull Demon King’s family",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel kin network."
+        }
+      ],
+      "states_and_transformations": [
+        {
+          "term": "subordination to Guanyin",
+          "archetype_ids": [
+            "STA-425"
+          ],
+          "confidence": "moderate",
+          "note": "Status change."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12120790.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 2, ch. 40–42.",
+        "supports": [
+          "Bull Demon King and Princess Iron Fan’s son, a fire-wielding yaoguai who captures Tang Sanzang and is taken into Guanyin’s service."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-024",
+    "canonical_name": "Bull Demon King",
+    "aliases": [
+      "Great Sage Who Pacifies Heaven",
+      "Ox Demon King"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 7; 59–61",
+    "character_kind": "individual",
+    "description": "Former sworn associate of Wukong and powerful yaoguai ruler whose family controls the palm-leaf fan needed to cross the Flaming Mountains.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai (ox form)",
+          "archetype_ids": [
+            "PPL-501",
+            "PPL-1004"
+          ],
+          "confidence": "moderate",
+          "note": "Not a demon/beastfolk ancestry."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "demon king",
+          "archetype_ids": [
+            "ROL-721"
+          ],
+          "confidence": "moderate",
+          "note": "Narrative ruler only."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "cultivation and transformations",
+          "archetype_ids": [
+            "PWR-114",
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Native framework."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Flaming Mountains family",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel kin/faction."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "major antagonist",
+          "archetype_ids": [
+            "NAR-302"
+          ],
+          "confidence": "moderate",
+          "note": "No fixed moral essence."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 7; 59–61.",
+        "supports": [
+          "Former sworn associate of Wukong and powerful yaoguai ruler whose family controls the palm-leaf fan needed to cross the Flaming Mountains."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-025",
+    "canonical_name": "Princess Iron Fan",
+    "aliases": [
+      "Rakshasi",
+      "Luocha Woman"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 59–61",
+    "character_kind": "individual",
+    "description": "Bull Demon King’s wife and Red Boy’s mother, holder of the palm-leaf fan needed for passage through the Flaming Mountains.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Do not conflate luocha with generic demons."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Flaming Mountains family",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel kin/faction."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "palm-leaf fan",
+          "archetype_ids": [
+            "ART-102",
+            "ART-218"
+          ],
+          "confidence": "moderate",
+          "note": "Climate-changing source artifact."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 59–61.",
+        "supports": [
+          "Bull Demon King’s wife and Red Boy’s mother, holder of the palm-leaf fan needed for passage through the Flaming Mountains."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-026",
+    "canonical_name": "Princess Jade Face",
+    "aliases": [
+      "Jade-Faced Princess"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 60–61",
+    "character_kind": "individual",
+    "description": "Fox yaoguai and Bull Demon King’s lover whose involvement intensifies the Flaming Mountains conflict.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai (fox form)",
+          "archetype_ids": [
+            "PPL-501",
+            "PPL-1004"
+          ],
+          "confidence": "moderate",
+          "note": "No generic foxfolk equation."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Bull Demon King’s household",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel relationship network."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 60–61.",
+        "supports": [
+          "Fox yaoguai and Bull Demon King’s lover whose involvement intensifies the Flaming Mountains conflict."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-027",
+    "canonical_name": "Six-Eared Macaque",
+    "aliases": [
+      "False Monkey King",
+      "Six-Eared Ape"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 57–58",
+    "character_kind": "individual",
+    "description": "Wukong’s uncanny double whose conflict with him is adjudicated only by the Buddha.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mutable simian double",
+          "archetype_ids": [
+            "PPL-1001",
+            "PPL-1002"
+          ],
+          "confidence": "moderate",
+          "note": "Allegorical identity episode."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "imitation and transformations",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Source-specific."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "recognition test",
+          "archetype_ids": [
+            "LAW-608"
+          ],
+          "confidence": "moderate",
+          "note": "Episode structure."
+        }
+      ],
+      "narrative_archetypes": [
+        {
+          "term": "doppelgänger antagonist",
+          "archetype_ids": [
+            "NAR-327"
+          ],
+          "confidence": "moderate",
+          "note": "Functional only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 57–58.",
+        "supports": [
+          "Wukong’s uncanny double whose conflict with him is adjudicated only by the Buddha."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-028",
+    "canonical_name": "Scorpion Demoness",
+    "aliases": [
+      "Scorpion Spirit",
+      "Pipa Cave Demoness"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 55",
+    "character_kind": "individual",
+    "description": "Scorpion yaoguai whose venomous sting defeats celestial and pilgrimage combatants until the Star Lord Mao kills her.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Native category retained."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "venom and transformations",
+          "archetype_ids": [
+            "PWR-216",
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "Effect comparison."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Pipa Cave",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel locale."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 55.",
+        "supports": [
+          "Scorpion yaoguai whose venomous sting defeats celestial and pilgrimage combatants until the Star Lord Mao kills her."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Workbook mappings are comparative and do not replace the novel’s Chinese religious, cosmological, or narrative terminology."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-029",
+    "canonical_name": "Hundred-Eyed Demon Lord",
+    "aliases": [
+      "Centipede Demon",
+      "Daoist of Yellow Flowers"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 73",
+    "character_kind": "individual",
+    "description": "Centipede yaoguai posing as a Daoist whose golden-rayed magic traps the party until Pilanpo Bodhisattva intervenes.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Native category retained."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "deceptive religious impostor",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Do not map to real Daoist vocation."
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "ray magic",
+          "archetype_ids": [
+            "PWR-207"
+          ],
+          "confidence": "moderate",
+          "note": "Effect comparison."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "religious disguise",
+          "archetype_ids": [
+            "STA-202"
+          ],
+          "confidence": "moderate",
+          "note": "Episode disguise."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12214905.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 3, ch. 73.",
+        "supports": [
+          "Centipede yaoguai posing as a Daoist whose golden-rayed magic traps the party until Pilanpo Bodhisattva intervenes."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The demon’s Daoist disguise is a literary device, not evidence about Daoist practitioners."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-030",
+    "canonical_name": "Lady Earthflow",
+    "aliases": [
+      "Demoness Earthflow",
+      "Jinbi"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 80–83",
+    "character_kind": "individual",
+    "description": "Rat yaoguai who abducts Tang Sanzang, seeks his yang, and is identified through a former Heavenly Court connection.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "yaoguai",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Native category retained."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "transformation",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "moderate",
+          "note": "No gender-essentializing mapping."
+        }
+      ],
+      "affiliations": [
+        {
+          "term": "Bottomless Cave",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel locale."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12893528.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 4, ch. 80–83.",
+        "supports": [
+          "Rat yaoguai who abducts Tang Sanzang, seeks his yang, and is identified through a former Heavenly Court connection."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The episode’s gendered and religious allegory is not a generic seductress archetype."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-031",
+    "canonical_name": "King Yama",
+    "aliases": [
+      "Yama King",
+      "King of Hell"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 3; 10–11",
+    "character_kind": "individual",
+    "description": "Underworld ruler whose officials summon Wukong and whose realm is later visited in the Taizong episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "underworld ruler",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Do not reduce Yama traditions to a generic death god."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "judge of the dead",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source office."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "underworld administration",
+          "archetype_ids": [
+            "COS-119"
+          ],
+          "confidence": "moderate",
+          "note": "Novel bureaucracy."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "underworld",
+          "archetype_ids": [
+            "COS-210"
+          ],
+          "confidence": "moderate",
+          "note": "No Christian infernal binary."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "soul judgment",
+          "archetype_ids": [
+            "LAW-704"
+          ],
+          "confidence": "moderate",
+          "note": "Novel episode."
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 3; 10–11.",
+        "supports": [
+          "Underworld ruler whose officials summon Wukong and whose realm is later visited in the Taizong episode."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "“Hell” in English chapter locators is not direct equivalence to Christian infernal cosmology."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC016-032",
+    "canonical_name": "Kṣitigarbha",
+    "aliases": [
+      "Dizang Wang",
+      "Earth Store King"
+    ],
+    "source_id": "SRC-016",
+    "source_title": "The Journey to the West (Xiyou ji) — Anthony C. Yu, trans./ed., revised edition",
+    "continuity": "Yu 2012 complete 100-chapter novel translation",
+    "work_or_witness": "The Journey to the West, ch. 8",
+    "character_kind": "individual",
+    "description": "Bodhisattva associated with the underworld assembly that receives the Buddha’s scripture mission.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "bodhisattva",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Not generic deity."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "underworld-associated Buddhist bodhisattva",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source status."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Buddha’s scripture mission",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Novel assembly."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "underworld assembly",
+          "archetype_ids": [
+            "COS-201"
+          ],
+          "confidence": "moderate",
+          "note": "Literary geography."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "principal named acting character under declared novel-only coverage rule",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/J/bo12079590.html",
+        "locator": "Anthony C. Yu, trans./ed., The Journey to the West, revised ed. (2012), vol. 1, ch. 8.",
+        "supports": [
+          "Bodhisattva associated with the underworld assembly that receives the Buddha’s scripture mission."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This record concerns the novel’s presentation, not living Buddhist practice."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

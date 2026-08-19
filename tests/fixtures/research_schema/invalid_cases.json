@@ -1,0 +1,16 @@
+[
+  {"id": "missing-name", "file": "characters.json", "record": 0, "path": ["canonical_name"], "operation": "delete", "expected": "missing required field canonical_name"},
+  {"id": "missing-aliases", "file": "characters.json", "record": 0, "path": ["aliases"], "operation": "delete", "expected": "missing required field aliases"},
+  {"id": "blank-name", "file": "characters.json", "record": 0, "path": ["canonical_name"], "value": " ", "expected": "canonical_name must be a non-empty string"},
+  {"id": "wrong-name-type", "file": "characters.json", "record": 0, "path": ["canonical_name"], "value": 42, "expected": "canonical_name must be a string"},
+  {"id": "invalid-date", "file": "sources.json", "record": 0, "path": ["last_reviewed"], "value": "2026-02-30", "expected": "last_reviewed must be a valid YYYY-MM-DD date"},
+  {"id": "invalid-status", "file": "sources.json", "record": 0, "path": ["completion_status"], "value": "complete", "expected": "invalid completion_status complete"},
+  {"id": "invalid-coverage-count", "file": "sources.json", "record": 1, "path": ["completed_character_count"], "value": 0, "expected": "narrow-metadata-pass-complete count does not match declared in-scope count"},
+  {"id": "missing-omissions", "file": "sources.json", "record": 0, "path": ["omissions"], "operation": "delete", "expected": "missing required field omissions"},
+  {"id": "wrong-uncertainties-type", "file": "sources.json", "record": 0, "path": ["uncertainties"], "value": "none", "expected": "uncertainties must be an array"},
+  {"id": "missing-dimension", "file": "characters.json", "record": 0, "path": ["dimensions", "being_types"], "operation": "delete", "expected": "missing dimensions being_types"},
+  {"id": "wrong-dimension-type", "file": "characters.json", "record": 0, "path": ["dimensions", "cultures"], "value": {}, "expected": "dimension cultures must be an array"},
+  {"id": "blank-dimension-term", "file": "characters.json", "record": 0, "path": ["dimensions", "being_types", 0, "term"], "value": "", "expected": "term must be a non-empty string"},
+  {"id": "wrong-citation-locator", "file": "characters.json", "record": 0, "path": ["citations", 0, "locator"], "value": 7, "expected": "locator must be a string"},
+  {"id": "wrong-citation-support", "file": "characters.json", "record": 0, "path": ["citations", 0, "supports"], "value": [7], "expected": "supports must contain only non-empty strings"}
+]

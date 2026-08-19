@@ -1,0 +1,165 @@
+[
+  {
+    "term_id": "STM-SRC012-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-012",
+    "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet I, lines 1–62 (Gilgameš and Uruk opening)",
+    "canonical_term": "šarru",
+    "original_language": "Akkadian",
+    "original_script": "LUGAL",
+    "transliteration": "šarru",
+    "literal_gloss": "king",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The royal title relevant to Gilgameš’s authority in Uruk; it is retained as a Mesopotamian title rather than mapped to a universal ruler package.",
+    "cultural_caution": "Do not infer that the poem is a direct document of one historical Uruk kingship or reduce ancient Mesopotamian royal ideology to a generic fantasy monarchy.",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=538",
+        "locator": "George 2003, Vol. I, Tablet I, lines 1–62 (Gilgameš and Uruk opening)",
+        "supports": [
+          "The Standard Babylonian opening frames Gilgameš through kingship and Uruk."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC012-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-012",
+    "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet V, lines 1–100 (approach to Ḫumbaba and Cedar Forest)",
+    "canonical_term": "mēlammu",
+    "original_language": "Akkadian",
+    "original_script": "ME.LAM",
+    "transliteration": "mēlammu",
+    "literal_gloss": "awe-inspiring radiance; terrifying splendor",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A source-native numinous/terrifying quality associated in the Cedar Forest episode with Ḫumbaba’s fearful presence; it is not treated as a transferable spell school or energy meter.",
+    "cultural_caution": "Translation varies (‘aura,’ ‘terror,’ ‘radiance,’ ‘splendour’). Do not turn this Mesopotamian concept into generic ‘magic power’ without contextual analysis.",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=599",
+        "locator": "George 2003, Vol. I, Tablet V, lines 1–100 (approach to Ḫumbaba and Cedar Forest)",
+        "supports": [
+          "Tablet V’s encounter supplies the immediate epic context for Ḫumbaba’s terrifying numinous quality."
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC012-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-012",
+    "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet XI, lines 1–34 (Gilgameš questions Uta-napišti’s exceptional condition); Epic of Gilgamesh · SOAS BAPLar, Tablet XI, lines 1–34, transcription and translation after George",
+    "canonical_term": "napīštu",
+    "original_language": "Akkadian",
+    "original_script": "NAPISTU",
+    "transliteration": "napīštu",
+    "literal_gloss": "life; living self",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "A core life/mortality concept in the Uta-napišti episode and in the name Uta-napišti (‘he found life’); it is not a game-life statistic.",
+    "cultural_caution": "Do not equate napīštu mechanically with soul, hit points, biological life, or a universal doctrine of immortality.",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–34 (Gilgameš questions Uta-napišti’s exceptional condition)",
+        "supports": [
+          "The tablet frames Gilgameš’s inquiry into Uta-napišti’s exceptional life."
+        ]
+      },
+      {
+        "url": "https://www.soas.ac.uk/baplar/recordings/epic-gilgames-standard-version-tablet-xi-lines-1-34-read-nathan-wasserman",
+        "locator": "SOAS BAPLar, Tablet XI, lines 1–34, transcription and translation after George",
+        "supports": [
+          "Accessible line-specific transcription of the encounter."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC012-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-012",
+    "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet X, lines 200–320 (Urshanabi and crossing toward Uta-napišti)",
+    "canonical_term": "mê mūti",
+    "original_language": "Akkadian",
+    "original_script": "A.MEŠ MÚ.TI",
+    "transliteration": "mê mūti",
+    "literal_gloss": "Waters of Death",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The perilous waters crossed with Urshanabi on the route to Uta-napišti; retained as a named source-native liminal feature, not a generic afterlife biome.",
+    "cultural_caution": "The phrase’s narrative and cosmological force belongs to this tablet reconstruction; it should not be used to impose a fixed Mesopotamian map of the afterlife.",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=669",
+        "locator": "George 2003, Vol. I, Tablet X, lines 200–320 (Urshanabi and crossing toward Uta-napišti)",
+        "supports": [
+          "The journey narrative identifies the Waters of Death and Urshanabi’s crossing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC012-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-012",
+    "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet V, lines 1–300 (Cedar Forest and Ḫumbaba episode)",
+    "canonical_term": "qīštu",
+    "original_language": "Akkadian",
+    "original_script": "GIŠ.TIR",
+    "transliteration": "qīštu",
+    "literal_gloss": "forest; woodland",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The Cedar Forest in the Standard Babylonian expedition, guarded by Ḫumbaba; it is a specific epic locale and not promoted to a visualization node.",
+    "cultural_caution": "Do not flatten the Cedar Forest into a generic enchanted forest or assume all related landscape traditions are identical.",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=599",
+        "locator": "George 2003, Vol. I, Tablet V, lines 1–300 (Cedar Forest and Ḫumbaba episode)",
+        "supports": [
+          "The tablet supplies the specific expedition and guardian context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC012-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-012",
+    "work_or_witness": "Epic of Gilgamesh · George 2003, Vol. I, Tablet III, lines 1–190",
+    "canonical_term": "Elders of Uruk",
+    "original_language": "Akkadian textual witness",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "affiliations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The collective advising body that counsels Gilgamesh and entrusts him to Enkidu's guidance before the Cedar Forest expedition. It is retained as an institution/collective term, not a character node.",
+    "cultural_caution": "A collective textual actor is not converted into an individual, a modern civic institution, or a generic fantasy council.",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=570",
+        "locator": "George 2003, Vol. I, Tablet III, lines 1–190",
+        "supports": [
+          "The Elders of Uruk counsel Gilgamesh and entrust him to Enkidu's guidance before the expedition."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

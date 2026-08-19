@@ -1,0 +1,159 @@
+[
+  {
+    "term_id": "STM-SRC009-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-009",
+    "work_or_witness": "Burton, The Book of the Thousand Nights and a Night, Vol. 1 · The Fisherman and the Jinni, Night 3",
+  "canonical_term": "Jinn / Jinni",
+  "identity_forms": ["Jinn", "Jinni"],
+    "original_language": "English (Burton translation)",
+    "original_script": "Jinn / Jinni",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Burton’s English terms for supernatural beings in the selected tales.",
+    "cultural_caution": "These are terms of a Victorian English translation and selected recensions, not a definition of Islamic belief, Arabic-language usage, or a game category.",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, Night 3",
+        "supports": [
+          "Burton’s Jinni terminology in the selected fisherman tale"
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC009-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-009",
+    "work_or_witness": "Burton, The Book of the Thousand Nights and a Night, Vol. 1 · The Fisherman and the Jinni, embedded ‘Tale of the Ensorcelled Prince’",
+    "canonical_term": "ensorcelled / enchanted",
+    "original_language": "English (Burton translation)",
+    "original_script": "ensorcelled / enchanted",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "power_traditions",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Burton’s English descriptive vocabulary for the magical alteration in the selected Black Isles embedded tale.",
+    "cultural_caution": "This translation-level wording does not establish the Arabic technical term siḥr, a universal magic system, or a game category.",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "The Fisherman and the Jinni, embedded ‘Tale of the Ensorcelled Prince’",
+        "supports": [
+          "Burton’s enchanted/ensorcelled descriptive wording"
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC009-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-009",
+    "work_or_witness": "Burton, The Book of the Thousand Nights and a Night, Vol. 10 · Ma’aruf the Cobbler and His Wife, talismanic-ring sequence",
+    "canonical_term": "talisman",
+    "original_language": "English (Burton translation)",
+    "original_script": "talisman",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "artifacts_and_vehicles",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Burton’s English talismanic-object wording in the selected Ma’aruf tale.",
+    "cultural_caution": "A translation-specific fictional object term; it does not establish a universal Arabic technical term or a game artifact category.",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Ma’aruf the Cobbler and His Wife, talismanic-ring sequence",
+        "supports": [
+          "Burton’s talismanic-object wording"
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC009-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-009",
+    "work_or_witness": "Burton, The Book of the Thousand Nights and a Night, Vol. 6 · Sindbad the Seaman and Sindbad the Landsman, beginning Night 536",
+    "canonical_term": "merchant",
+    "original_language": "English (Burton translation)",
+    "original_script": "merchant",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Burton’s English role word for Sindbad in the selected voyage tale.",
+    "cultural_caution": "A translation-specific narrative role, not evidence for Arabic term tājir, a real historical occupation, or a game class.",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3440/3440-h/3440-h.htm",
+        "locator": "Sindbad the Seaman and Sindbad the Landsman, beginning Night 536",
+        "supports": [
+          "Burton’s merchant wording for Sindbad"
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC009-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-009",
+    "work_or_witness": "Burton, The Book of the Thousand Nights and a Night, Vol. 1 · Story of King Shahryar and His Brother, Nights 1–3",
+    "canonical_term": "nightly narration",
+    "original_language": "English (Burton translation)",
+    "original_script": "nightly narration",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The recurring frame structure in which Shahrazad narrates across nights in Burton’s selected English translation.",
+    "cultural_caution": "A formal feature of this translation’s frame, not evidence that the Arabic term ḥakawātī appears in the witness or that one regional storytelling profession describes the Nights as a whole.",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "Story of King Shahryar and His Brother, Nights 1–3",
+        "supports": [
+          "nightly frame narration"
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  },
+  {
+    "term_id": "STM-SRC009-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-009",
+    "work_or_witness": "Burton, The Book of the Thousand Nights and a Night, Vol. 6 · Sindbad the Seaman and Sindbad the Landsman, Nights 536–566",
+    "canonical_term": "voyage",
+    "original_language": "English (Burton translation)",
+    "original_script": "voyage",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The English narrative structure of Sindbad’s successive voyages in the selected Burton witness.",
+    "cultural_caution": "A translation-level narrative label, not evidence that riḥla is the source’s technical term or that travel traditions across Arabic-speaking cultures form one category.",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3440/3440-h/3440-h.htm",
+        "locator": "Sindbad the Seaman and Sindbad the Landsman, Nights 536–566",
+        "supports": [
+          "successive voyage structure"
+        ]
+      }
+    ],
+    "review_status": "needs-review"
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "character_id": "CHR-SRC046-001",
+    "canonical_name": "Will",
+    "aliases": [],
+    "source_id": "SRC-046",
+    "source_title": "A Song of Ice and Fire",
+    "continuity": "A Game of Thrones novel continuity; Penguin Random House authorized Prologue excerpt, opening through mounted departure",
+    "work_or_witness": "A Game of Thrones, Prologue (authorized excerpt HTML lines 244–319)",
+    "character_kind": "individual",
+    "description": "A named member of the Night's Watch who reports on the apparent deaths at a camp and leads the mounted party onward in the selected opening excerpt.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "former hunter / described as a poacher",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The excerpt says Will had been a hunter and then identifies him as a poacher; it does not establish a durable vocation, legal analysis, class position, or moral category."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Night's Watch",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Selected-excerpt membership/context only; the fictional institution is not equated with a real military, prison, social class, or political body."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named individual directly acting in the selected authorized opening excerpt",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 255–266, 277–285, and 308–319",
+        "supports": [
+          "Will's name, Watch context, report, former hunter/poacher description, and role in leading the mounted party."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The stated choice between putting on the black and losing a hand is not classified as consent, criminality, class, punishment, disability, or a real-world legal analogue.",
+      "No later parentage, identity, death, supernatural encounter, relation, or adaptation portrayal is used."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC046-002",
+    "canonical_name": "Gared",
+    "aliases": [],
+    "source_id": "SRC-046",
+    "source_title": "A Song of Ice and Fire",
+    "continuity": "A Game of Thrones novel continuity; Penguin Random House authorized Prologue excerpt, opening through mounted departure",
+    "work_or_witness": "A Game of Thrones, Prologue (authorized excerpt HTML lines 244–319)",
+    "character_kind": "individual",
+    "description": "A named long-serving member of the Night's Watch who urges a return, supports Will's report, and rides at the rear of the party in the selected excerpt.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Night's Watch",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The excerpt explicitly describes decades of Watch service; no real-world institutional or class equivalence is asserted."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named individual directly acting in the selected authorized opening excerpt",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 246–266, 275–306, and 318–319",
+        "supports": [
+          "Gared's name, long Watch service, dialogue/report, and rear position in the mounted party."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The excerpt's account of cold injury and past bodily loss is not turned into a disability, diagnosis, age, medical, or violence classification.",
+      "No later fate, history, relationship, identity, or adaptation portrayal is used."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC046-003",
+    "canonical_name": "Ser Waymar Royce",
+    "aliases": [
+      "Waymar Royce",
+      "Ser Waymar"
+    ],
+    "source_id": "SRC-046",
+    "source_title": "A Song of Ice and Fire",
+    "continuity": "A Game of Thrones novel continuity; Penguin Random House authorized Prologue excerpt, opening through mounted departure",
+    "work_or_witness": "A Game of Thrones, Prologue (authorized excerpt HTML lines 244–319)",
+    "character_kind": "individual",
+    "description": "A named knight and recent sworn brother of the Night's Watch who commands the party and orders it onward in the selected excerpt.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "knight",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The source calls him a knight. The fictional title is not mapped to a real historical rank, class, ethnicity, or gender role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Night's Watch",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "He is described as a sworn brother for less than half a year; the record does not import later institutional facts."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named individual directly acting in the selected authorized opening excerpt",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780345535535",
+        "locator": "A Game of Thrones Prologue excerpt, HTML lines 250–270 and 297–319",
+        "supports": [
+          "Ser Waymar Royce's full name, knight and Watch wording, command role, and order/position in the mounted party."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The source's exact age, house language, “lordling” description, and male pronouns are not expanded into age-stage, gender-identity, class, race/ethnicity, or real-feudal claims.",
+      "No later fate, kinship, supernatural event, prowess, title, or adaptation portrayal is used."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-159",
+    "source_title":"Gothic",
+    "continuity_scope":"Gothic's 2001 English Windows release as witnessed by its English Xicat Interactive/Piranha Bytes manual. This separate localization/release witness is not treated as interchangeable with the original German Shoebox/Egmont edition, current GOG-maintained builds, the 2023 Switch port, the Gothic remake, sequels, expansions/mods, or later localizations.",
+    "work_or_witnesses":[
+      "Gothic English Rulebook/Manual, credited to Xicat Interactive and Piranha Bytes; Windows 98/2000/ME/XP requirements",
+      "GOG Gothic product page, Piranha Bytes/THQ Nordic company/current-build boundary only",
+      "Gothic German manual, ©2001 Egmont Interactive/Piranha Bytes/Shoebox, edition/localization boundary only"
+    ],
+    "coverage_rule":"All individually named dramatic agents directly role/action-profiled in the English manual's Story section: King Rhotbar, Gomez, Lares, and Y’Berion. The manual does not call the player character 'Nameless Hero'; it says only that 'another convict is thrown into the Barrier,' so no title-designated player-character record is made. Unnamed 12 Mages, Fire/Water Mages, prisoners, guards, camp members, generic roles, animals/monsters, and all names not profile-backed in this witness are excluded.",
+    "in_scope_character_count":4,
+    "completed_character_count":4,
+    "omissions":[
+      "The player-controlled convict: the exact English Story witness leaves the person unnamed and no stable title-designation is supplied. Player skill, magic, equipment, trainer, camp/faction, dialogue, combat, and quest choices remain variable attributes, not a record.",
+      "All individually named people not directly role/action-profiled by the selected 20-page manual, including direct-game NPCs absent from its Story and Who’s Who summaries.",
+      "Camps/factions, guilds, classes, monster kinds, magic circles, items, places, the Barrier, the King’s letter, and mechanics as character nodes.",
+      "Original German/other localized text, current GOG updates and added localizations, ports, Gothic II/III and expansions, mods, 2023 Switch release, the remake, teaser/prototype, adaptations, fan wikis, Wikipedia, walkthroughs, and databases."
+    ],
+    "uncertainties":[
+      "The English manual is accessed through a non-rightsholder archive. It bears internal Xicat Interactive/Piranha Bytes credits and proprietary-rights text, but host authorization, scan provenance, OCR fidelity, and exact retail-edition equivalence remain uncertain; claims are restricted to clear page-specific wording.",
+      "The manual spells the king 'Rhotbar'. This record preserves that witness spelling rather than silently normalizing it from another localization, sequel, or community source.",
+      "The story presents historical setup and camps, not a complete named NPC directory, dialogue archive, faction-choice matrix, or ending transcript. Pass completion is only against its stated manual profile rule.",
+      "GOG's current package lists current languages and 2025 changes, including added localizations/Union integration. It is used to demarcate the maintained release from the selected manual witness, not to add original 2001 claims.",
+      "The manual shows protagonists can spend learning points through trainers and join/operate around camp systems, but it gives no universal player faction, skill build, quest outcome, or spoiler conclusion."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Primary original-game documentation (English manual) with Piranha Bytes/Xicat credits; current THQ Nordic-associated GOG product information and the German 2001 manual serve only edition/localization-boundary context. No fan wiki, Wikipedia, walkthrough, community database, or uncredited guide is canonical evidence.",
+    "citations":[
+      {"url":"https://bin.gothicarchive.org/documents/manuals/Gothic-Manual_en.pdf","locator":"English manual: system/install pp. 4–5; Skills/Who’s Who pp. 10–13; Story pp. 14–16; credits/proprietary-rights pp. 16–18","supports":["English Windows-manual witness, named story figures, camps, Barrier, magic, player mechanics, and Piranha Bytes/Xicat credit"]},
+      {"url":"https://www.gog.com/en/game/gothic?countryCode=FI&currencyCode=USD","locator":"Product description and details, lines 675–689 and 739–820","supports":["Current THQ Nordic/Piranha Bytes product context, Colony premise, language/current-build and 2025-update boundary"]},
+      {"url":"https://www.mogelpower.de/manuals/Gothic_Handbuch.pdf","locator":"German manual copyright page 5 (PDF p. 1), lines 2–5","supports":["Separate 2001 German Egmont/Shoebox/Piranha Bytes edition and localization boundary"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

@@ -1,0 +1,359 @@
+[
+  {
+    "relationship_id": "REL-SRC019-001",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-001",
+    "target_character_id": "CHR-SRC019-002",
+    "relationship_type": "spouse",
+    "label": "Izanagi and Izanami create together",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Birth of the Deities",
+        "supports": [
+          "Izanagi and Izanami create together"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-002",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-001",
+    "target_character_id": "CHR-SRC019-003",
+    "relationship_type": "creator",
+    "label": "Izanagi births Amaterasu in purification",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Birth of the Deities",
+        "supports": [
+          "Izanagi births Amaterasu in purification"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-003",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-001",
+    "target_character_id": "CHR-SRC019-004",
+    "relationship_type": "creator",
+    "label": "Izanagi births Susanoo in purification",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Birth of the Deities",
+        "supports": [
+          "Izanagi births Susanoo in purification"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-004",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-002",
+    "target_character_id": "CHR-SRC019-006",
+    "relationship_type": "kin",
+    "label": "Izanami bears Kagutsuchi",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Birth of the Deities",
+        "supports": [
+          "Izanami bears Kagutsuchi"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-005",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-004",
+    "target_character_id": "CHR-SRC019-003",
+    "relationship_type": "opponent",
+    "label": "Susanoo’s acts lead to Amaterasu’s withdrawal",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Heavenly Rock-Cave",
+        "supports": [
+          "Susanoo’s acts lead to Amaterasu’s withdrawal"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-006",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-008",
+    "target_character_id": "CHR-SRC019-003",
+    "relationship_type": "other",
+    "label": "Ame-no-Uzume entices Amaterasu from the cave",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Heavenly Rock-Cave",
+        "supports": [
+          "Ame-no-Uzume entices Amaterasu from the cave"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-007",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-009",
+    "target_character_id": "CHR-SRC019-003",
+    "relationship_type": "other",
+    "label": "Tajikarao opens the cave for Amaterasu",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Heavenly Rock-Cave",
+        "supports": [
+          "Tajikarao opens the cave for Amaterasu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-008",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-004",
+    "target_character_id": "CHR-SRC019-010",
+    "relationship_type": "opponent",
+    "label": "Susanoo kills Yamata-no-Orochi",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Eight-Forked Serpent",
+        "supports": [
+          "Susanoo kills Yamata-no-Orochi"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-009",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-011",
+    "target_character_id": "CHR-SRC019-012",
+    "relationship_type": "other",
+    "label": "Ōkuninushi heals the White Hare",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Hare of Inaba",
+        "supports": [
+          "Ōkuninushi heals the White Hare"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-010",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-011",
+    "target_character_id": "CHR-SRC019-013",
+    "relationship_type": "ally",
+    "label": "Ōkuninushi and Sukunabikona order the land",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Ōkuninushi",
+        "supports": [
+          "Ōkuninushi and Sukunabikona order the land"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-011",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-014",
+    "target_character_id": "CHR-SRC019-011",
+    "relationship_type": "opponent",
+    "label": "Amewakahiko fails the heavenly land mission",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Cession of the Land",
+        "supports": [
+          "Amewakahiko fails the heavenly land mission"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-012",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-015",
+    "target_character_id": "CHR-SRC019-016",
+    "relationship_type": "spouse",
+    "label": "Ninigi marries Konohanasakuya-hime",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Descent",
+        "supports": [
+          "Ninigi marries Konohanasakuya-hime"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-013",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-017",
+    "target_character_id": "CHR-SRC019-018",
+    "relationship_type": "kin",
+    "label": "Hoderi and Hoori are brothers",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Sea Luck and Mountain Luck",
+        "supports": [
+          "Hoderi and Hoori are brothers"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-014",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-018",
+    "target_character_id": "CHR-SRC019-019",
+    "relationship_type": "spouse",
+    "label": "Hoori marries Toyotama-hime",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Sea Luck and Mountain Luck",
+        "supports": [
+          "Hoori marries Toyotama-hime"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-015",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-019",
+    "target_character_id": "CHR-SRC019-020",
+    "relationship_type": "kin",
+    "label": "Watatsumi is Toyotama-hime’s father",
+    "direction": "directed",
+    "continuity": "Kojiki selected witness",
+    "citations": [
+      {
+        "url": "https://jti.lib.virginia.edu/japanese/kojiki/kojiki.html",
+        "locator": "Book 1, Sea Luck and Mountain Luck",
+        "supports": [
+          "Watatsumi is Toyotama-hime’s father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-016",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-022",
+    "target_character_id": "CHR-SRC019-021",
+    "relationship_type": "other",
+    "label": "Yatagarasu guides Jimmu",
+    "direction": "directed",
+    "continuity": "Nihon Shoki selected witness",
+    "citations": [
+      {
+        "url": "https://www.sacred-texts.com/shi/nihon/",
+        "locator": "Book III, section 8",
+        "supports": [
+          "Yatagarasu guides Jimmu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC019-017",
+    "source_id": "SRC-019",
+    "source_character_id": "CHR-SRC019-024",
+    "target_character_id": "CHR-SRC019-025",
+    "relationship_type": "other",
+    "label": "Ōmononushi speaks through Mimaki-hime",
+    "direction": "directed",
+    "continuity": "Nihon Shoki selected witness",
+    "citations": [
+      {
+        "url": "https://www.sacred-texts.com/shi/nihon/",
+        "locator": "Book V, sections 5–8",
+        "supports": [
+          "Ōmononushi speaks through Mimaki-hime"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  }
+]

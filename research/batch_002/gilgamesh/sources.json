@@ -1,0 +1,66 @@
+[
+  {
+    "source_id": "SRC-012",
+    "source_title": "Epic of Gilgamesh",
+    "continuity_scope": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, as reconstructed in Andrew R. George’s critical edition (2003). Tablet XII is outside this narrative witness scope; Old Babylonian, Middle Babylonian, Hittite, Hurrian, and Sumerian compositions are not silently combined with it.",
+    "work_or_witnesses": [
+    {
+      "work": "Andrew R. George, The Babylonian Gilgamesh Epic: Introduction, Critical Edition and Cuneiform Texts, 2 vols. (Oxford University Press, 2003), Vol. I, Chapter 11, ‘Edition of the Standard Babylonian Epic,’ Tablets I–XII, pp. 531–726; this pass uses Tablets I–XI only.",
+      "edition": "SOAS-hosted author manuscript used for claim-specific tablet and line locators.",
+      "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf"
+    },
+      "SOAS BAPLar readings/transcriptions after George 2003, used as openly accessible line-specific corroboration for selected Standard Babylonian and Old Babylonian passages."
+    ],
+    "coverage_rule": "Include every individually named character who materially acts, speaks, creates, authorizes, opposes, guides, or is the object of sustained action in Standard Babylonian Tablets I–XI. Exclude collectives such as the Elders of Uruk, unnamed humans (the trapper/hunter, Utnapishtim’s wife, ferrymen’s unnamed crew), anonymous gods or collectives when named individual actors are supplied, and all Tablet XII-only agents.",
+    "in_scope_character_count": 18,
+    "completed_character_count": 18,
+    "omissions": [
+      "Tablet XII is excluded: it is a separate/sequel-like tablet in the Standard Babylonian series and not used to add a second Enkidu-underworld episode.",
+      "The named stories of the Sumerian Bilgames corpus, and the Old Babylonian version, are separate witnesses and are not synthesized into Standard Babylonian character actions.",
+      "Collective or unspecified actors such as the Elders of Uruk, the hunter/trapper, Utnapishtim’s wife, the Scorpion Man’s wife, and the great gods as an unnamed collective are deliberately not nodes; the elders are retained as a source term.",
+      "Fragmentary readings and portions of tablets lost in the manuscript record are not reconstructed as new character actions."
+    ],
+    "uncertainties": [
+      "The Standard Babylonian poem survives only in a composite scholarly reconstruction from fragmentary manuscripts; a cited tablet/line is a reconstructed text location, not a claim that one intact tablet preserves every word.",
+      "Names and divine identities have variant spellings/transliterations (for example, Gilgameš/Gilgamesh, Ištar/Ishtar, Uta-napišti/Utnapishtim, and Enlil/Ellil). Display labels follow cautious conventional English with aliases.",
+      "Old Babylonian material has a different textual organization and wording. It is cited only to document the distinction, never as a replacement for a missing Standard Babylonian line.",
+      "The Bull of Heaven is treated as a named mythic agent/title in this witness, while Humbaba’s ontology is left unmapped rather than equated to a generic demon."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Primary textual claims follow George’s scholarly Standard Babylonian reconstruction with tablet and line locators; accessible SOAS University of London BAPLar pages publish transcriptions/translations after George for selected passages. British Museum collection records identify surviving Tablet XI artefacts. Scholarly institutional references are used for witness and manuscript context.",
+    "citations": [
+      {
+        "url": "https://soas-repository.worktribe.com/output/446254/the-babylonian-gilgamesh-epic-introduction-critical-edition-and-cuneiform-texts",
+        "locator": "Repository record for George (2003), 2 vols.",
+        "supports": [
+          "identified scholarly critical edition and reconstruction witness"
+        ]
+      },
+      {
+        "url": "https://cdli.earth/publications/1786034",
+        "locator": "CDLI publication record: George 2003, Vol. I",
+        "supports": [
+          "bibliographic corroboration for the critical edition"
+        ]
+      },
+      {
+        "url": "https://www.soas.ac.uk/baplar/recordings/epic-gilgames-standard-version-tablet-xi-lines-1-34-read-nathan-wasserman",
+        "locator": "Standard Version, Tablet XI, lines 1–34; transcription based on George",
+        "supports": [
+          "open line-specific Standard Babylonian corroboration"
+        ]
+      },
+      {
+        "url": "https://www.soas.ac.uk/baplar/recordings/epic-gilgames-old-babylonian-version-tablet-ii-lines-1-36-read-stephanie-dalley",
+        "locator": "Old Babylonian Version, Tablet II, lines 1–36; translation after George",
+        "supports": [
+          "Old Babylonian witness is distinct from the Standard Babylonian scope"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04",
+    "source_id_legacy": "SRC-012",
+    "source_title_display": "Epic of Gilgamesh",
+    "audit_note": "‘Pass-complete’ means complete only for the declared Standard Babylonian Tablets I–XI named-acting-character rule, not complete for all Mesopotamian Gilgamesh traditions."
+  }
+]

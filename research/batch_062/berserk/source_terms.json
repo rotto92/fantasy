@@ -1,0 +1,172 @@
+[
+  {
+    "term_id": "STM-SRC195-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-195",
+    "work_or_witness": "Berserk Deluxe Volume 1 · Product details and edition description",
+    "canonical_term": "Berserk Deluxe Volume 1 English collection",
+    "original_language": "English publication metadata",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected Dark Horse Manga English hardcover: Berserk Deluxe Volume 1, ISBN 9781506711980, published 26 March 2019, 696 pages, collecting Berserk volumes 1–3.",
+    "cultural_caution": "A physical/edition boundary, not a claim that all Japanese, digital, translated, or later deluxe editions share identical pagination, lettering, wording, content, or supplemental material.",
+    "citations": [
+      {
+        "url": "https://www.penguinrandomhouse.com/books/606571/berserk-deluxe-volume-1-by-kentaro-miura/",
+        "locator": "Product details and edition description",
+        "supports": [
+          "ISBN, 2019 publication date, page count, Dark Horse Manga imprint, and volumes 1–3 collection."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC195-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-195",
+    "work_or_witness": "Berserk digital series page · Series description",
+    "canonical_term": "English translation in original Japanese right-to-left format",
+    "original_language": "English/Japanese publication-format lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Dark Horse describes its Berserk release as an English translation presented in the original Japanese right-to-left format.",
+    "cultural_caution": "Reading direction and translation status do not prove equivalence of dialogue, sound effects, typography, pagination, cultural nuance, or any unverified individual translator credit. Japanese editions and other localizations remain separate textual witnesses.",
+    "citations": [
+      {
+        "url": "https://digital.darkhorse.com/series/826/berserk",
+        "locator": "Series description",
+        "supports": [
+          "Dark Horse's English-translation and original Japanese right-to-left format description."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC195-003",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-195",
+    "work_or_witness": "Berserk digital series page · Series description and editor statement; Berserk Deluxe Volume 1 · Author & Illustrator metadata",
+    "canonical_term": "Kentaro Miura original-work boundary",
+    "original_language": "Japanese/English creator-credit lexicon",
+    "original_script": "三浦建太郎",
+    "transliteration": "Miura Kentarō",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected 2019 English collection is credited to Kentaro Miura; Dark Horse identifies Berserk as created by him.",
+    "cultural_caution": "Creator attribution is not a character node or narrative authority to infer unquoted plot claims. This selected early collection must not be conflated with material credited differently after Miura's death.",
+    "citations": [
+      {
+        "url": "https://digital.darkhorse.com/series/826/berserk",
+        "locator": "Series description and editor statement",
+        "supports": [
+          "Dark Horse identifies Kentaro Miura as Berserk's creator and discusses his death."
+        ]
+      },
+      {
+        "url": "https://www.penguinrandomhouse.com/books/606571/berserk-deluxe-volume-1-by-kentaro-miura/",
+        "locator": "Author & Illustrator metadata",
+        "supports": [
+          "The selected English collection's Kentaro Miura credit."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC195-004",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-195",
+    "work_or_witness": "Notice of Berserk's resumption · 『ベルセルク』再開のお知らせ, 7 June 2022; continuation credit",
+    "canonical_term": "post-Miura Studio Gaga / Kouji Mori continuation boundary",
+    "original_language": "Japanese publication-credit lexicon",
+    "original_script": "原作・三浦建太郎　漫画・スタジオ我画　監修・森恒二",
+    "transliteration": "Gensaku: Miura Kentarō; manga: Studio Gaga; kanshū: Mori Kōji",
+    "literal_gloss": "Original work: Kentaro Miura; manga: Studio Gaga; supervision: Kouji Mori",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Hakusensha's 2022 resumption notice assigns the continuation credit to Kentaro Miura for original work, Studio Gaga for manga, and Kouji Mori for supervision.",
+    "cultural_caution": "This later production/credit arrangement is a hard chronology and authorship boundary. It does not supply retrospective evidence for the selected English volumes 1–3 or license cross-era plot/character inferences.",
+    "citations": [
+      {
+        "url": "https://www.hakusensha.co.jp/information/63802/",
+        "locator": "『ベルセルク』再開のお知らせ, 7 June 2022; continuation credit",
+        "supports": [
+          "Hakusensha's stated continuation credit after resumption."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC195-005",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-195",
+    "work_or_witness": "Berserk digital series page · Series description",
+    "canonical_term": "adult horror and extreme-content boundary",
+    "original_language": "English publisher-content lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Dark Horse presents Berserk as adult/mature manga and characterizes it as violent and horrifying, advising that it is not for the squeamish or easily offended.",
+    "cultural_caution": "The selected edition can involve extreme graphic violence, sexual violence/abuse themes, body horror, coercion, torture, death, and trauma. This term is a content-access caution, not an attempt to sensationalize, normalize, or reproduce harmful material.",
+    "citations": [
+      {
+        "url": "https://digital.darkhorse.com/series/826/berserk",
+        "locator": "Series description",
+        "supports": [
+          "Dark Horse's mature, violent, horrifying, and reader-discretion framing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC195-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-195",
+    "work_or_witness": "Berserk digital series page · Series description; Berserk · Official Guidebook description and publication details",
+    "canonical_term": "adaptation and guidebook separation",
+    "original_language": "English publication-continuity lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Dark Horse describes Berserk as a source for internationally popular anime and separately markets a 2018 Official Guidebook covering the first 38 volumes.",
+    "cultural_caution": "Anime, films, games, and the guidebook are separate media/reference witnesses. None can establish character attributes, chronology, dialogue, or events for the selected English Deluxe Volume 1 without an exact primary-volume locator.",
+    "citations": [
+      {
+        "url": "https://digital.darkhorse.com/series/826/berserk",
+        "locator": "Series description",
+        "supports": [
+          "Dark Horse identifies the manga as the wellspring for anime adaptations."
+        ]
+      },
+      {
+        "url": "https://digital.darkhorse.com/books/0d62eb6c7b534e389b8396c1e4369004/berserk-official-guidebook-tpb",
+        "locator": "Official Guidebook description and publication details",
+        "supports": [
+          "The guidebook's distinct 2018 product identity and first-38-volume scope."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

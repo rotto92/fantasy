@@ -1,0 +1,758 @@
+[
+  {
+    "relationship_id": "REL-SRC003-001",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-006",
+    "target_character_id": "CHR-SRC003-002",
+    "relationship_type": "kin",
+    "label": "Cían fathers Lug with Ethniu",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Cían fathers Lug with Ethniu"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-002",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-007",
+    "target_character_id": "CHR-SRC003-002",
+    "relationship_type": "kin",
+    "label": "Ethniu bears Lug",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Ethniu bears Lug"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-003",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-005",
+    "target_character_id": "CHR-SRC003-007",
+    "relationship_type": "kin",
+    "label": "Balor is Ethniu's father",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Balor is Ethniu's father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-004",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-024",
+    "target_character_id": "CHR-SRC003-004",
+    "relationship_type": "kin",
+    "label": "Elatha fathers Bres",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text008.html",
+        "locator": "section 8",
+        "supports": [
+          "Elatha fathers Bres"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-005",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-001",
+    "target_character_id": "CHR-SRC003-004",
+    "relationship_type": "ruler",
+    "label": "Bres replaces Nuada as king after Nuada's mutilation",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text014.html",
+        "locator": "section 14",
+        "supports": [
+          "Bres replaces Nuada as king after Nuada's mutilation"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-006",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-026",
+    "target_character_id": "CHR-SRC003-001",
+    "relationship_type": "opponent",
+    "label": "Sreng cuts off Nuada's hand",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text011.html",
+        "locator": "section 11",
+        "supports": [
+          "Sreng cuts off Nuada's hand"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-007",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-008",
+    "target_character_id": "CHR-SRC003-001",
+    "relationship_type": "other",
+    "label": "Dian Cécht restores Nuada with a silver hand",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text011.html",
+        "locator": "section 11",
+        "supports": [
+          "Dian Cécht restores Nuada with a silver hand"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-008",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-009",
+    "target_character_id": "CHR-SRC003-001",
+    "relationship_type": "other",
+    "label": "Miach restores flesh and blood to Nuada's hand",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text033.html",
+        "locator": "section 33",
+        "supports": [
+          "Miach restores flesh and blood to Nuada's hand"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-009",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-008",
+    "target_character_id": "CHR-SRC003-009",
+    "relationship_type": "kin",
+    "label": "Dian Cécht is Miach's father",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text033.html",
+        "locator": "section 33",
+        "supports": [
+          "Dian Cécht is Miach's father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-010",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-010",
+    "target_character_id": "CHR-SRC003-009",
+    "relationship_type": "kin",
+    "label": "Airmed is Miach's sister",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text034.html",
+        "locator": "section 34",
+        "supports": [
+          "Airmed is Miach's sister"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-011",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-003",
+    "target_character_id": "CHR-SRC003-019",
+    "relationship_type": "kin",
+    "label": "The Dagda is Brigid's father",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text125.html",
+        "locator": "section 125",
+        "supports": [
+          "The Dagda is Brigid's father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-012",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-014",
+    "target_character_id": "CHR-SRC003-025",
+    "relationship_type": "other",
+    "label": "Ogma finds Tethra's sword",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text059.html",
+        "locator": "section 59",
+        "supports": [
+          "Ogma finds Tethra's sword"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-013",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-023",
+    "target_character_id": "CHR-SRC003-003",
+    "relationship_type": "opponent",
+    "label": "Indech's daughter confronts the Dagda",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text095.html",
+        "locator": "section 95",
+        "supports": [
+          "Indech's daughter confronts the Dagda"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-014",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-015",
+    "target_character_id": "CHR-SRC003-016",
+    "relationship_type": "kin",
+    "label": "Morrígan and Badb are named daughters of Ernmas",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Morrígan and Badb are named daughters of Ernmas"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Textual kinship only; identity relationship remains disputed."
+  },
+  {
+    "relationship_id": "REL-SRC003-015",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-015",
+    "target_character_id": "CHR-SRC003-017",
+    "relationship_type": "kin",
+    "label": "Morrígan and Macha are named daughters of Ernmas",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Morrígan and Macha are named daughters of Ernmas"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Textual kinship only; identity relationship remains disputed."
+  },
+  {
+    "relationship_id": "REL-SRC003-016",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-020",
+    "target_character_id": "CHR-SRC003-021",
+    "relationship_type": "kin",
+    "label": "Ériu and Banba are named daughters of Ernmas",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Ériu and Banba are named daughters of Ernmas"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-017",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-021",
+    "target_character_id": "CHR-SRC003-022",
+    "relationship_type": "kin",
+    "label": "Banba and Fódla are named daughters of Ernmas",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text047.html",
+        "locator": "section 47",
+        "supports": [
+          "Banba and Fódla are named daughters of Ernmas"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-018",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-027",
+    "target_character_id": "CHR-SRC003-001",
+    "relationship_type": "opponent",
+    "label": "Eochaid mac Eirc is defeated in the first battle recap",
+    "direction": "directed",
+    "continuity": "Cath Maige Tuired: The Second Battle of Mag Tuired",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300010/text010.html",
+        "locator": "section 10",
+        "supports": [
+          "Eochaid mac Eirc is defeated in the first battle recap"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-019",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-003",
+    "target_character_id": "CHR-SRC003-028",
+    "relationship_type": "lover",
+    "label": "The Dagda fathers Óengus with Boann",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "The Dagda fathers Óengus with Boann"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-020",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-028",
+    "target_character_id": "CHR-SRC003-030",
+    "relationship_type": "kin",
+    "label": "Boann bears Óengus",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Boann bears Óengus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-021",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-003",
+    "target_character_id": "CHR-SRC003-030",
+    "relationship_type": "kin",
+    "label": "The Dagda fathers Óengus",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "The Dagda fathers Óengus"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-022",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-029",
+    "target_character_id": "CHR-SRC003-028",
+    "relationship_type": "spouse",
+    "label": "Elcmar is Boann's husband",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "Elcmar is Boann's husband"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-023",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-003",
+    "target_character_id": "CHR-SRC003-029",
+    "relationship_type": "other",
+    "label": "The Dagda imposes geasa that send Elcmar away",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text001.html",
+        "locator": "section 1",
+        "supports": [
+          "The Dagda imposes geasa that send Elcmar away"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-024",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-031",
+    "target_character_id": "CHR-SRC003-032",
+    "relationship_type": "lover",
+    "label": "Midir seeks Étaín",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text005.html",
+        "locator": "section 5",
+        "supports": [
+          "Midir seeks Étaín"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-025",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-033",
+    "target_character_id": "CHR-SRC003-032",
+    "relationship_type": "opponent",
+    "label": "Fuamnach acts against Étaín",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text002.html",
+        "locator": "section 2",
+        "supports": [
+          "Fuamnach acts against Étaín"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-026",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-034",
+    "target_character_id": "CHR-SRC003-032",
+    "relationship_type": "spouse",
+    "label": "Eochaid Airem marries Étaín in this version",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text004.html",
+        "locator": "section 4",
+        "supports": [
+          "Eochaid Airem marries Étaín in this version"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Limited to the named version of Tochmarc Étaíne."
+  },
+  {
+    "relationship_id": "REL-SRC003-027",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-035",
+    "target_character_id": "CHR-SRC003-032",
+    "relationship_type": "kin",
+    "label": "Etar is Étaín's father in this version",
+    "direction": "directed",
+    "continuity": "Tochmarc Étaíne",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/G300012/text004.html",
+        "locator": "section 4",
+        "supports": [
+          "Etar is Étaín's father in this version"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-028",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-036",
+    "target_character_id": "CHR-SRC003-039",
+    "relationship_type": "kin",
+    "label": "Lir is Fionnguala's father",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text024.html",
+        "locator": "section 24",
+        "supports": [
+          "Lir is Fionnguala's father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-029",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-036",
+    "target_character_id": "CHR-SRC003-040",
+    "relationship_type": "kin",
+    "label": "Lir is Aed's father",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text024.html",
+        "locator": "section 24",
+        "supports": [
+          "Lir is Aed's father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-030",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-036",
+    "target_character_id": "CHR-SRC003-041",
+    "relationship_type": "kin",
+    "label": "Lir is Fiachra's father",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text024.html",
+        "locator": "section 24",
+        "supports": [
+          "Lir is Fiachra's father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-031",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-036",
+    "target_character_id": "CHR-SRC003-042",
+    "relationship_type": "kin",
+    "label": "Lir is Conn's father",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text024.html",
+        "locator": "section 24",
+        "supports": [
+          "Lir is Conn's father"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-032",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-038",
+    "target_character_id": "CHR-SRC003-039",
+    "relationship_type": "transformed-by",
+    "label": "Aoife changes Fionnguala into a swan",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text017.html",
+        "locator": "section 17",
+        "supports": [
+          "Aoife changes Fionnguala into a swan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-033",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-038",
+    "target_character_id": "CHR-SRC003-040",
+    "relationship_type": "transformed-by",
+    "label": "Aoife changes Aed into a swan",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text017.html",
+        "locator": "section 17",
+        "supports": [
+          "Aoife changes Aed into a swan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-034",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-038",
+    "target_character_id": "CHR-SRC003-041",
+    "relationship_type": "transformed-by",
+    "label": "Aoife changes Fiachra into a swan",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text017.html",
+        "locator": "section 17",
+        "supports": [
+          "Aoife changes Fiachra into a swan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-035",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-038",
+    "target_character_id": "CHR-SRC003-042",
+    "relationship_type": "transformed-by",
+    "label": "Aoife changes Conn into a swan",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text017.html",
+        "locator": "section 17",
+        "supports": [
+          "Aoife changes Conn into a swan"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": ""
+  },
+  {
+    "relationship_id": "REL-SRC003-036",
+    "source_id": "SRC-003",
+    "source_character_id": "CHR-SRC003-037",
+    "target_character_id": "CHR-SRC003-036",
+    "relationship_type": "ruler",
+    "label": "Bodb Derg is named as king in the Tuatha Dé Danann setting of Lir's tale",
+    "direction": "directed",
+    "continuity": "Oidhe Chloinne Lir / The Fate of the Children of Lir",
+    "citations": [
+      {
+        "url": "https://celt.ucc.ie/published/T300014/text048.html",
+        "locator": "section 48",
+        "supports": [
+          "Bodb Derg is named as king in the Tuatha Dé Danann setting of Lir's tale"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Political relationship is contextual rather than an asserted universal hierarchy."
+  }
+]

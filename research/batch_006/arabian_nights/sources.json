@@ -1,0 +1,86 @@
+[
+  {
+    "source_id": "SRC-009",
+    "source_title": "The Thousand and One Nights",
+    "continuity_scope": "Richard F. Burton’s public-domain English translation, selected frame, Fisherman, Sindbad, Ebony Horse, Kamar al-Zaman, Maruf, and Three Apples tales. Arabic manuscript/print recensions, Galland additions, and modern adaptations remain distinct; Aladdin and Ali Baba are outside this witness set.",
+    "work_or_witnesses": [
+      {
+        "work": "Burton, The Book of the Thousand Nights and a Night, Vol. 1",
+        "edition": "public-domain English translation; frame, Fisherman, and Three Apples witness",
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm"
+      },
+      {
+        "work": "Burton, The Book of the Thousand Nights and a Night, Vol. 3",
+        "edition": "public-domain English translation; Kamar al-Zaman witness",
+        "url": "https://www.gutenberg.org/files/3437/3437-h/3437-h.htm"
+      },
+      {
+        "work": "Burton, The Book of the Thousand Nights and a Night, Vol. 5",
+        "edition": "public-domain English translation; Ebony Horse witness",
+        "url": "https://www.gutenberg.org/files/3439/3439-h/3439-h.htm"
+      },
+      {
+        "work": "Burton, The Book of the Thousand Nights and a Night, Vol. 6",
+        "edition": "public-domain English translation; Sindbad witness",
+        "url": "https://www.gutenberg.org/files/3440/3440-h/3440-h.htm"
+      },
+      {
+        "work": "Burton, The Book of the Thousand Nights and a Night, Vol. 10",
+        "edition": "public-domain English translation; Ma’aruf witness",
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm"
+      }
+    ],
+    "coverage_rule": "Principal named acting characters in declared tales only.",
+    "in_scope_character_count": 30,
+    "completed_character_count": 30,
+    "omissions": [
+      "Aladdin and Ali Baba",
+      "Other recensions and additions",
+      "Most named minor figures"
+    ],
+    "uncertainties": [
+      "Burton is a Victorian translation, not a critical Arabic edition.",
+      "Night numbering varies by recension."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Accessible primary Burton translation across the five declared volumes, using tale and night locators; critical Arabic-edition verification remains needed.",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/3435/3435-h/3435-h.htm",
+        "locator": "Volume 1 contents: frame, Fisherman, and Three Apples",
+        "supports": [
+          "frame, Fisherman, and Three Apples witness"
+        ]
+      },
+      {
+        "url": "https://www.gutenberg.org/files/3437/3437-h/3437-h.htm",
+        "locator": "Volume 3, ‘Tale of Kamar al-Zaman’",
+        "supports": [
+          "Kamar al-Zaman and Budur witness"
+        ]
+      },
+      {
+        "url": "https://www.gutenberg.org/files/3439/3439-h/3439-h.htm",
+        "locator": "Volume 5, ‘The Ebony Horse’",
+        "supports": [
+          "Ebony Horse witness"
+        ]
+      },
+      {
+        "url": "https://www.gutenberg.org/files/3440/3440-h/3440-h.htm",
+        "locator": "Volume 6, ‘Sindbad the Seaman and Sindbad the Landsman’",
+        "supports": [
+          "Sindbad witness"
+        ]
+      },
+      {
+        "url": "https://www.gutenberg.org/files/3444/3444-h/3444-h.htm",
+        "locator": "Volume 10, ‘Ma’aruf the Cobbler and His Wife’",
+        "supports": [
+          "Ma’aruf witness"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

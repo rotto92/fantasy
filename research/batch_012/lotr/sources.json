@@ -1,0 +1,33 @@
+[
+  {
+    "source_id": "SRC-031",
+    "source_title": "The Lord of the Rings",
+    "continuity_scope": "J. R. R. Tolkien's published novel continuity only: the three-volume, six-book narrative of The Fellowship of the Ring, The Two Towers, and The Return of the King. This pass does not merge the novel with Peter Jackson films, Ralph Bakshi or Rankin/Bass animation, television, games, merchandise, drafts, posthumously edited Legendarium texts, or translations.",
+    "work_or_witnesses": [
+      {"work": "The Lord of the Rings", "edition": "HarperCollins UK 2009 one-volume electronic edition (ISBN 9780007322596), used with stable book/chapter locators; the volume preserves the three titled parts and six internal books.", "url": "https://books.google.com/books?id=FKziXsnqLTEC"},
+      {"work": "The Return of the King", "edition": "HarperCollins UK 2009, Book 3 (ISBN 9780007322558), used for its Book V–VI chapter locators.", "url": "https://books.google.com/books?id=dQkFLM8_5ZEC"}
+    ],
+    "coverage_rule": "Include exactly the nine named members selected for the Company at the Council of Elrond in The Fellowship of the Ring, Book II, chapter 2 (Frodo, Sam, Merry, Pippin, Aragorn, Boromir, Legolas, Gimli, and Gandalf), plus the three named antagonistic/ambivalent agents whose direct actions materially shape that cohort's quest within the novel (Gollum, Saruman, and Sauron). This is a cohort pass, not a character census of the novel or of Tolkien's Legendarium.",
+    "in_scope_character_count": 12,
+    "completed_character_count": 12,
+    "omissions": [
+      "All named characters outside the declared Company-plus-three-agents cohort, including Bilbo, Elrond, Galadriel, Arwen, Théoden, Éowyn, Faramir, Denethor, Treebeard, Shelob, and the Nazgûl",
+      "Unnamed or collective persons and beings, offices, peoples, orders, realms, objects, and metaphysical concepts, which are represented only as dimensions or source terms",
+      "Appendix-only genealogy and history except where the six-book narrative itself identifies an included character",
+      "All adaptive, translation-specific, draft, posthumous, tabletop, screen, game, and merchandise continuities"
+    ],
+    "uncertainties": [
+      "This record uses book/chapter locators because pagination differs among licensed print and electronic editions.",
+      "Terms such as Hobbit, Elf, Dwarf, Man, Maia, wizard, Ring-bearer, and Dark Lord are Tolkien's fictional terms; any cross-source taxonomy mapping is deliberately withheld in this first pass.",
+      "The novel contains historical and metaphysical background beyond this declared cohort. Inclusion of Sauron, Saruman, or Gandalf is not a claim that this pass establishes their complete wider-Legendarium histories."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Claim-level evidence is Tolkien's novel, cited by stable Book and chapter locators against licensed HarperCollins-indexed editions. The Tolkien Estate's timeline and work pages corroborate the novel's three-volume 1954–55 publication and distinguish Tolkien's book from adaptations; no fan wiki or Wikipedia is used as canonical evidence.",
+    "citations": [
+      {"url": "https://books.google.com/books?id=FKziXsnqLTEC", "locator": "J. R. R. Tolkien, The Lord of the Rings, HarperCollins UK (2009), Books I–VI", "supports": ["The declared primary novel witness and book/chapter citation scheme."]},
+      {"url": "https://www.tolkienestate.com/life/timeline-1950-2018/", "locator": "1954–1955 entries", "supports": ["The Fellowship of the Ring and The Two Towers were published in 1954 and The Return of the King in 1955."]},
+      {"url": "https://www.tolkienestate.com/frequently-asked-questions-and-links/", "locator": "TV Series; Merchandise; Translation Rights", "supports": ["Book rights and adaptation/merchandise contexts are distinct; this pass confines itself to the novel."]}
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

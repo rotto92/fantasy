@@ -1,0 +1,64 @@
+[
+  {
+    "source_id": "SRC-103",
+    "source_title": "The One Ring",
+    "continuity_scope": "Free League's licensed tabletop roleplaying game The One Ring, second-edition Core Rules (2022 product/rights notice), limited to the accessible official Core Rules product page, official game page, and official Core Rules errata. This is a rules adaptation of Tolkien's Middle-earth, not a replacement witness for Tolkien's literary characters or events. It does not merge the Tolkien literary passes SRC-031/026, first edition, the 5E Lord of the Rings Roleplaying adaptation, Adventures in Middle-earth, starter sets, expansions, Black Library-style unrelated works, videogames, fan material, or home campaigns.",
+    "work_or_witnesses": [
+      {
+        "work": "The One Ring Core Rules",
+        "edition": "Second edition; Free League official product page, rights notice © 2022 Sophisticated Games Ltd.",
+        "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/"
+      },
+      {
+        "work": "The One Ring game page",
+        "edition": "Free League official overview of the second-edition game, setting frame, and key features.",
+        "url": "https://freeleaguepublishing.com/games/the-one-ring/"
+      },
+      {
+        "work": "The One Ring Errata",
+        "edition": "Official Core Rules corrections for first and second printings; version-sensitive rules witness.",
+        "url": "https://freeleaguepublishing.com/wp-content/uploads/2023/09/TOR_CB_Errata_and_FAQ.pdf"
+      }
+    ],
+    "coverage_rule": "Terms-only licensed-rules audit. The accessible official Core Rules material establishes the product's mechanics and adaptation frame, but it does not give a bounded, claim-level dramatic-character corpus appropriate for duplicating Tolkien characters. No character or relationship records are made. Heroic cultures, callings, patrons, the Shadow, journeys, items, places, adversary types, and mechanics remain terms/dimensions. Any direct named-character record requires a separate exact official rulebook or adventure witness with claim-level profile evidence and must remain distinguished from Tolkien literary canon.",
+    "in_scope_character_count": 0,
+    "completed_character_count": 0,
+    "omissions": [
+      "All named literary Middle-earth figures, including the named patrons mentioned in product description, because this pass does not duplicate Tolkien character records from a licensed game overview.",
+      "Pre-generated heroes, Landmark-adventure figures, and all named NPCs from starter sets or supplements, which require separate product-specific passes.",
+      "Heroic cultures, callings, patrons, the Shadow, journeys, magical treasures, adversary types, places, and rules as character nodes.",
+      "The One Ring first edition, Tolkien literary texts, Adventures in Middle-earth, The Lord of the Rings Roleplaying 5E, all expansions, adaptations, fan creations, and home-campaign results."
+    ],
+    "uncertainties": [
+      "The core product page announces information on six patrons, including Bilbo Baggins and Gandalf the Grey, but accessible product copy does not supply a bounded claim-level profile set; no identities, attributes, or relationships are inferred from it.",
+      "The official errata corrects first and second printings. It supersedes affected printed mechanics only where its individual entries say so; it is not treated as literary or timeline retcon evidence.",
+      "The core game is explicitly a licensed adaptation designed to evoke The Hobbit and The Lord of the Rings. Its campaign framing and rules vocabulary can differ from a literary source without establishing a new fact about the literary canon."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Free League official product, game-overview, and errata material only. The Core Rules page identifies the game as an official tabletop RPG based on Tolkien's works, its second-edition status, Eriador focus, and rules features; the game page supplies the 2965 Third Age campaign frame and core game vocabulary; the official errata identifies corrections to the first and second printings. No wiki, unofficial conversion, or fan source is used.",
+    "citations": [
+      {
+        "url": "https://freeleaguepublishing.com/shop/the-one-ring/core-rules-2/",
+        "locator": "Core Rules product description and rights notice",
+        "supports": [
+          "Second-edition Core Rules product, licensed Tolkien adaptation, Eriador focus, and Journey/Combat/Council, Shadow, Eye of Mordor, Patron, and Landmark feature descriptions."
+        ]
+      },
+      {
+        "url": "https://freeleaguepublishing.com/games/the-one-ring/",
+        "locator": "The One Ring overview: The setting and Key Features",
+        "supports": [
+          "Official campaign frame in Third Age 2965, returning Shadow, and product-level rules terminology."
+        ]
+      },
+      {
+        "url": "https://freeleaguepublishing.com/wp-content/uploads/2023/09/TOR_CB_Errata_and_FAQ.pdf",
+        "locator": "Opening notice: corrections for first and second printings",
+        "supports": [
+          "Errata/version boundary for the selected Core Rules."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

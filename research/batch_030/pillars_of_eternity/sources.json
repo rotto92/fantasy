@@ -1,0 +1,37 @@
+[
+  {
+    "source_id":"SRC-144",
+    "source_title":"Pillars of Eternity",
+    "continuity_scope":"Pillars of Eternity: Definitive Edition, English PC/Mac/Linux release boundary (15 November 2017). It contains the 2015 original game, The White March Parts I and II, premium content, and the Deadfire Pack. This pass is not Pillars of Eternity II: Deadfire, does not apply 2026 patches, and does not infer a fixed Watcher/avatar identity.",
+    "work_or_witnesses":[
+      "Obsidian/Paradox: Pillars of Eternity: Definitive Edition Arrives November 15th for PC, Mac, and Linux!",
+      "Obsidian: Pillars of Eternity game page",
+      "Obsidian: Pillars of Eternity game overview (Project Eternity): Game Basics; Game System"
+    ],
+    "coverage_rule":"Zero-character evidence-constrained pass. The selected official sources document the game/edition, original campaign and expansion package, player-created main character, optional companion system, races, classes, souls, and custom rules. They do not provide a reproducible named individual companion/NPC roster with individual official character profiles or direct dialogue/journal/codex locators. The Watcher is not a node: the first-game selected witness frames the main character as player-authored. No fan or community source is used to manufacture a cast.",
+    "in_scope_character_count":0,
+    "completed_character_count":0,
+    "omissions":[
+      "The player-created main character/Watcher, all player-selected race, class, background, build, choices, party composition, dialogue, and endings.",
+      "All named companions, NPCs, antagonists, rulers, gods, and other dramatic individuals because no selected first-party witness supplies individual claim-level profiles or direct game-text locators.",
+      "Classes, races, factions, souls, gods, companion system, items, locations, spells, mechanics, and rules as character nodes.",
+      "Pillars of Eternity II: Deadfire, current 2026 patches, the original-only release as a separate patch state, editions/platform variants outside the named Definitive Edition, and all non-game, fan, community, wiki, walkthrough, novel, or adaptation material."
+    ],
+    "uncertainties":[
+      "The full game includes named companions and scripted dialogue, but no direct individual in-game dialogue/journal/codex material was accessible in the selected first-party evidence. The audit remains terms-only rather than using secondary sources.",
+      "The 2012 Project Eternity overview is pre-release design material. It is used only for high-level optional-party, race/class, soul, and custom-system terminology, not to establish a final named cast or an unqualified release behavior.",
+      "Companions are expressly optional and player paths shape outcomes. No universal party, relationship, recruitment, or ending is asserted.",
+      "Definitive Edition bundles The White March and Deadfire Pack; this pass records package scope only and does not import their story content. Localization variants and later fixes remain separate.",
+      "No plot-resolution claims are made, avoiding unmarked spoilers."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"First-party Obsidian/official publisher game, edition-announcement, and development overview pages. No fan wiki, Wikipedia, community forum, walkthrough, review, or secondary character directory is used as canonical evidence.",
+    "citations":[
+      {"url":"https://eternity.obsidian.net/eternity/news/pillars-of-eternity-definitive-edition-arrives-november-15th-for-pc-mac-and-linux","locator":"Full announcement, 2 November 2017","supports":["Definitive Edition release date, included original game/White March/premium content/Deadfire Pack, and edition boundary"]},
+      {"url":"https://www.obsidian.net/games/pillars-of-eternity","locator":"Pillars of Eternity game page: Release Date and Every action has a consequence","supports":["2015 original launch date, publisher, and player-agency premise"]},
+      {"url":"https://eternity.obsidian.net/eternity/game","locator":"Races; Classes; Spells and Abilities; Game System","supports":["Player options, souls, and custom-system terminology"]},
+      {"url":"https://eternity.obsidian.net/eternity/news/update-3-game-basics---your-party-your-characters-and-races","locator":"Your Party; Races","supports":["Optional companions, player-created main character framing, party size, and choice reactivity"]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

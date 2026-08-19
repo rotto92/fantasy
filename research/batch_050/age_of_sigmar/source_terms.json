@@ -1,0 +1,158 @@
+[
+  {
+    "term_id": "STM-SRC102-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-102",
+    "work_or_witness": "Warhammer Age of Sigmar · Official Core Book description, first paragraph",
+    "canonical_term": "Mortal Realms",
+    "original_language": "English Warhammer Age of Sigmar terminology",
+    "original_script": "Mortal Realms",
+    "transliteration": "not applicable",
+    "literal_gloss": "setting realms",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The Fourth Edition Core Book’s setting context, described in official launch material through its locales, cultures, history, and entwined cosmology.",
+    "cultural_caution": "A fictional setting-cosmology term, not a character endpoint, a real belief claim, or a statement that all Warhammer worlds share this cosmology.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/g2E0Tgyj/saturday-pre-orders-warhammer-age-of-sigmar-essentials/",
+        "locator": "Official Core Book description, first paragraph",
+        "supports": [
+          "Mortal Realms as the selected Fourth Edition Core Book setting context."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC102-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-102",
+    "work_or_witness": "Warhammer Age of Sigmar Core Book · Official preview, Core Book paragraph",
+    "canonical_term": "eight realms",
+    "original_language": "English Warhammer Age of Sigmar terminology",
+    "original_script": "eight realms",
+    "transliteration": "not applicable",
+    "literal_gloss": "setting-cosmology count",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The Core Book’s setting presentation is described by Games Workshop as exploring each of the eight realms from inhabitants’ perspectives.",
+    "cultural_caution": "A bounded Core Book cosmology description, not a complete cross-edition cosmological model or an individual/collective character node.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/pH2l08Cs/sunday-preview-skaventide-approaches/",
+        "locator": "Official preview, Core Book paragraph",
+        "supports": [
+          "The Fourth Edition Core Book’s eight-realm exploration."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC102-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-102",
+    "work_or_witness": "Download the Warhammer Age of Sigmar Core Rules, Battle Profiles, and More for Free · Official rules rollout, downloads description",
+    "canonical_term": "Core Rules",
+    "original_language": "English Warhammer Age of Sigmar rules terminology",
+    "original_script": "Core Rules",
+    "transliteration": "not applicable",
+    "literal_gloss": "foundational game rules",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The foundational Fourth Edition rules component distributed in the official 2024 rules rollout.",
+    "cultural_caution": "A tabletop rules component, not a setting entity, character endpoint, or an assertion that pre-Fourth-Edition rules remain current.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/kC5HtXzf/download-the-warhammer-age-of-sigmar-core-rules-battle-profiles-and-more-for-free/",
+        "locator": "Official rules rollout, downloads description",
+        "supports": [
+          "Core Rules as a Fourth Edition rules-document component."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC102-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-102",
+    "work_or_witness": "Download the Warhammer Age of Sigmar Core Rules, Battle Profiles, and More for Free · Official rules rollout, downloads description",
+    "canonical_term": "Advanced Rules",
+    "original_language": "English Warhammer Age of Sigmar rules terminology",
+    "original_script": "Advanced Rules",
+    "transliteration": "not applicable",
+    "literal_gloss": "advanced game rules",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The additional Fourth Edition rules component listed with the Core Rules in the official launch rollout.",
+    "cultural_caution": "A tabletop rules component, not a narrative caste, a character endpoint, or an inference about a player’s skill level.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/kC5HtXzf/download-the-warhammer-age-of-sigmar-core-rules-battle-profiles-and-more-for-free/",
+        "locator": "Official rules rollout, downloads description",
+        "supports": [
+          "Advanced Rules as a selected Fourth Edition rules component."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC102-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-102",
+    "work_or_witness": "Download the Warhammer Age of Sigmar Core Rules, Battle Profiles, and More for Free · Official rules rollout, downloads description",
+    "canonical_term": "Spearhead",
+    "original_language": "English Warhammer Age of Sigmar rules terminology",
+    "original_script": "Spearhead",
+    "transliteration": "not applicable",
+    "literal_gloss": "game mode",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "A Fourth Edition game mode with rules included in the official 2024 rules rollout.",
+    "cultural_caution": "A game-mode term, not a faction, a military-historical claim, or evidence that a named miniature has a narrative role.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/kC5HtXzf/download-the-warhammer-age-of-sigmar-core-rules-battle-profiles-and-more-for-free/",
+        "locator": "Official rules rollout, downloads description",
+        "supports": [
+          "Spearhead Rules as a selected Fourth Edition game-mode component."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC102-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-102",
+    "work_or_witness": "Warhammer Age of Sigmar · Official Skaventide article, Core Book contents paragraph",
+    "canonical_term": "Path to Glory: Ascension",
+    "original_language": "English Warhammer Age of Sigmar rules terminology",
+    "original_script": "Path to Glory: Ascension",
+    "transliteration": "not applicable",
+    "literal_gloss": "narrative-play battlepack",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The Path to Glory battlepack identified by official Fourth Edition Core Book launch material.",
+    "cultural_caution": "A tabletop narrative-play structure, not an in-world character transformation or a claim about a named figure’s rise to power.",
+    "citations": [
+      {
+        "url": "https://www.warhammer-community.com/en-gb/articles/yAqlr5Lh/skaventide-is-the-jam-packed-launch-box-for-the-new-edition-of-warhammer-age-of-sigmar/",
+        "locator": "Official Skaventide article, Core Book contents paragraph",
+        "supports": [
+          "Path to Glory (Ascension) as a selected Fourth Edition Core Book battlepack."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "character_id": "CHR-SRC001-001",
+    "canonical_name": "Complete Character",
+    "aliases": [],
+    "source_id": "SRC-001",
+    "source_title": "Complete Fixture",
+    "continuity": "Complete fixture witness",
+    "work_or_witness": "Complete fixture witness",
+    "character_kind": "individual",
+    "description": "The complete-pass fixture character.",
+    "dimensions": {
+      "being_types": [{"term": "fixture person", "archetype_ids": [], "confidence": "high", "note": "Fixture-only term."}],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Fixture witness only.",
+    "evidence_level": "official-metadata",
+    "citations": [{"url": "https://example.com/complete", "locator": "fixture section 1", "supports": ["Character identity."]}],
+    "comparison_cautions": [],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC002-001",
+    "canonical_name": "Limited Character",
+    "aliases": ["Metadata Character"],
+    "source_id": "SRC-002",
+    "source_title": "Limited Fixture",
+    "continuity": "Limited fixture witness",
+    "work_or_witness": "Limited fixture witness",
+    "character_kind": "individual",
+    "description": "The limited-pass fixture character.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Fixture metadata only.",
+    "evidence_level": "official-metadata",
+    "citations": [{"url": "https://example.com/limited", "locator": "fixture section 2", "supports": ["Character identity."]}],
+    "comparison_cautions": ["No claims beyond fixture metadata."],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

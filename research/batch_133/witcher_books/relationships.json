@@ -1,0 +1,23 @@
+[
+  {
+    "relationship_id": "REL-SRC047-001",
+    "source_id": "SRC-047",
+    "source_character_id": "CHR-SRC047-002",
+    "target_character_id": "CHR-SRC047-001",
+    "relationship_type": "other",
+    "label": "official contact concerning the Wyzima monster contract",
+    "direction": "directed",
+    "continuity": "The Last Wish, Danusia Stok English translation, Orbit 2022; ‘The Witcher,’ Section I",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "Andrzej Sapkowski, The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+        "supports": [
+          "Velerad’s direct official meeting with Geralt about the Section I monster-contract situation"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "A limited scene contact, not a claim of alliance, friendship, patronage, kinship, political loyalty, or later cooperation."
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity_scope": "The K’iche’ Popol Vuh manuscript/transcription tradition, catalogued through Allen J. Christenson’s 2007 translation and transcription. This is not a total account of precolonial Maya traditions, other Maya peoples, all K’iche’ oral traditions, or living K’iche’ religious and political life.",
+    "work_or_witnesses": [
+      {
+        "work": "Popol Vuh: Sacred Book of the Quiché Maya People",
+        "edition": "Allen J. Christenson, translation and commentary, electronic edition 2007 of 2003 publication",
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf"
+      },
+      {
+        "work": "Popol Vuh: Literal Poetic Version: Translation and Transcription",
+        "edition": "Allen J. Christenson, University of Oklahoma Press 2004; scholarly line-by-line translation/transcription",
+        "url": "https://www.oupress.com/9780806138411/popol-vuh/"
+      },
+      {
+        "work": "Popol Vuh: Original Text Transcription",
+        "edition": "Allen J. Christenson, electronic transcription of the 2004 Literal Poetic Version's original-text section",
+        "url": "https://www.mesoweb.com/publications/Christenson/PV-Original.pdf"
+      }
+    ],
+    "coverage_rule": "All major named agents who materially act in the declared creation, Seven Macaw, Hero Twins/Xibalba, maize-people, and ancestral-patron narrative scope, plus named Xibalba lords necessary to preserve the trial polity. Unnamed animals, collectives, and relational figures are not nodes.",
+    "in_scope_character_count": 32,
+    "completed_character_count": 32,
+    "omissions": [
+      "The extended dynastic and post-migration genealogies beyond the stated narrative scope",
+      "Unnamed animals, people, houses, natural forces, and collective groups",
+      "Other Maya textual traditions, regional K’iche’ variants, and living Maya ceremonial interpretations",
+      "Claims that the surviving colonial manuscript directly reproduces a single precontact original"
+    ],
+    "uncertainties": [
+      "The extant text is preserved through a colonial manuscript/transcription history; spelling, segmentation, translation, and title choices vary among editions.",
+      "K’iche’ names and titles are retained with aliases rather than forced into a single English gloss.",
+      "The term “Hero Twins” is an analytical label and is explicitly cautioned.",
+      "Xibalba and creator titles are not mapped to generic hells, demons, or pantheon categories."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Character and relationship claims cite Christenson’s scholarly translation/commentary at part and page level; a second Christenson primary transcription is used only where its folio/line text directly confirms a recorded K’iche’ form. Source terms retain K’iche’ forms and mark translation/cultural cautions. The edition is used as a translation/transcription witness, not as a substitute for living K’iche’ authority.",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "translator’s introduction and Parts 1–4, pp. 67–205",
+        "supports": [
+          "Christenson’s translation/transcription provides the declared textual witness and locators."
+        ]
+      },
+      {
+        "url": "https://www.oupress.com/9780806138411/popol-vuh/",
+        "locator": "book description",
+        "supports": [
+          "Christenson’s Literal Poetic Version is a line-by-line English translation with K’iche’ text."
+        ]
+      },
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PV-Original.pdf",
+        "locator": "Folio 1 recto, transcription lines 150–180",
+        "supports": [
+          "Direct transcription of the Tepeu/Gucumatz naming in the opening deliberation."
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-04"
+  }
+]

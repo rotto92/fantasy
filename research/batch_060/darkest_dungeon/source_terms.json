@@ -1,0 +1,205 @@
+[
+  {
+    "term_id": "STM-SRC189-001",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · Product header: Red Hook Studios developer/publisher and 19 Jan 2016 release date",
+    "canonical_term": "Darkest Dungeon original base-game witness",
+    "original_language": "English video-game product lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected English Darkest Dungeon base-game product witness: a Red Hook Studios developer/publisher Steam listing marked released on 19 January 2016.",
+    "cultural_caution": "This identifies a bounded product witness, not every platform, localization, patch, expansion, adaptation, or player campaign. Current web-store text is not treated as an archival reproduction of the 1.0 executable.",
+    "citations": [
+      {
+        "url": "https://store.steampowered.com/app/262060/Darkest_Dungeon/",
+        "locator": "Product header: Red Hook Studios developer/publisher and 19 Jan 2016 release date",
+        "supports": [
+          "The selected base-game product witness and date."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC189-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · Product overview",
+    "canonical_term": "psychological-stress gothic-horror expedition",
+    "original_language": "English game-premise lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Red Hook presents Darkest Dungeon as a gothic roguelike turn-based RPG about the psychological stresses of adventuring against horrors, including stress, disease, fear, and encroaching darkness.",
+    "cultural_caution": "A fictional horror premise whose language is mental-health-adjacent; it is not clinical guidance or a diagnosis framework. The cited game framing can be distressing and includes violence/horror themes.",
+    "citations": [
+      {
+        "url": "https://www.darkestdungeon.com/darkest-dungeon/",
+        "locator": "Product overview",
+        "supports": [
+          "Red Hook describes the genre and psychological stress, disease, fear, and darkness framing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC189-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · Affliction System",
+    "canonical_term": "Affliction System",
+    "original_language": "English game-system lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Red Hook's named system in which mounting adventuring stress can produce behaviors described as paranoia, masochism, fear, and irrationality, alongside gameplay-relevant quirks.",
+    "cultural_caution": "These are stylized fictional mechanic labels, not medical categories or evidence that real experiences of mental illness behave this way. No virtue terminology or detailed rule behavior is asserted here because the selected witness does not establish it.",
+    "citations": [
+      {
+        "url": "https://www.darkestdungeon.com/darkest-dungeon/",
+        "locator": "Affliction System",
+        "supports": [
+          "Red Hook names the system and its listed stress-linked behaviors and quirks."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC189-004",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · About This Game: hero classes; permanent death; procedural dungeons; Darkest Dungeon · Product overview",
+    "canonical_term": "hero-class and procedural-roster boundary",
+    "original_language": "English player-roster lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The official product describes recruiting, training, and leading flawed heroes and lists sixteen hero classes; it also describes permanent death and procedural dungeons. Together these establish game roles and variable campaign roster members rather than fixed individual dramatic endpoints.",
+    "cultural_caution": "Class names, player-applied names, builds, traits, deaths, and campaign histories are not shared-canon individuals in this audit. Permanent death can make outcomes emotionally intense and player-specific.",
+    "citations": [
+      {
+        "url": "https://store.steampowered.com/app/262060/Darkest_Dungeon/",
+        "locator": "About This Game: hero classes; permanent death; procedural dungeons",
+        "supports": [
+          "The product lists hero classes and describes permanent death and procedural dungeons."
+        ]
+      },
+      {
+        "url": "https://www.darkestdungeon.com/darkest-dungeon/",
+        "locator": "Product overview",
+        "supports": [
+          "Red Hook describes recruiting, training, and leading a team of flawed heroes."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC189-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · About This Game: town recovery and camp feature list",
+    "canonical_term": "town recovery and camp preparation",
+    "original_language": "English game-loop lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "The official product describes keeping heroes from physical and mental exhaustion by resting them in the Tavern or Abbey, and includes a camp feature for healing wounds, encouraging speeches, and lights-on-the-road preparation.",
+    "cultural_caution": "Tavern, Abbey, camp, exhaustion, and light-related presentation are gameplay terms, not character endpoints or claims about real mental-health treatment. Detailed town-building and light-rule semantics are outside the direct witness.",
+    "citations": [
+      {
+        "url": "https://store.steampowered.com/app/262060/Darkest_Dungeon/",
+        "locator": "About This Game: town recovery and camp feature list",
+        "supports": [
+          "The product describes Tavern/Abbey recovery and the camp feature."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC189-006",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · Reclaim Your Ancestor's Estate; The Crimson Court section; Darkest Dungeon · About This Game: narration system",
+    "canonical_term": "Ancestor's estate and narration framing boundary",
+    "original_language": "English narrative-framing lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Red Hook frames the goal as reclaiming an Ancestor's estate, while the product listing advertises narration for successes and failures. This supports an ancestral/narratorial frame but not a named, stable individual profile for an Ancestor character record.",
+    "cultural_caution": "A title/possessive narrative frame is not sufficient to conflate a narrator, estate owner, speaker, or expansion backstory into one named person. The separate Crimson Court expansion is not imported into the selected base-game continuity.",
+    "citations": [
+      {
+        "url": "https://www.darkestdungeon.com/darkest-dungeon/",
+        "locator": "Reclaim Your Ancestor's Estate; The Crimson Court section",
+        "supports": [
+          "Red Hook supplies the estate framing and identifies Crimson Court as a separate expansion that explores the Ancestor's early days."
+        ]
+      },
+      {
+        "url": "https://store.steampowered.com/app/262060/Darkest_Dungeon/",
+        "locator": "About This Game: narration system",
+        "supports": [
+          "The product listing describes a narration system for successes and failures."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC189-007",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-189",
+    "work_or_witness": "Darkest Dungeon · The Crimson Court and The Fire's Edge sections; Darkest Dungeon · Bundles and downloadable-content sections",
+    "canonical_term": "DLC, sequel, and post-release boundary",
+    "original_language": "English product-continuity lexicon",
+    "original_script": "",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "game_mechanics",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "Red Hook identifies The Crimson Court as an expansion running parallel to the main Darkest Dungeon campaign and announces The Fire's Edge as later DLC; the current publisher Steam page separately presents Darkest Dungeon II and multiple additional Darkest Dungeon content products. These are distinct from the selected original base-game witness.",
+    "cultural_caution": "Later DLC, sequel, bundles, patches, board-game material, mods, and player-created campaigns may add characters, stories, mechanics, or terminology. None is retroactively treated as evidence for this 2016 base-game audit.",
+    "citations": [
+      {
+        "url": "https://www.darkestdungeon.com/darkest-dungeon/",
+        "locator": "The Crimson Court and The Fire's Edge sections",
+        "supports": [
+          "Red Hook describes Crimson Court as an expansion parallel to the main campaign and presents The Fire's Edge as later DLC."
+        ]
+      },
+      {
+        "url": "https://store.steampowered.com/app/262060/Darkest_Dungeon/",
+        "locator": "Bundles and downloadable-content sections",
+        "supports": [
+          "The publisher product page distinguishes Darkest Dungeon II and multiple additional Darkest Dungeon products from the base listing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

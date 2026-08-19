@@ -1,0 +1,1216 @@
+[
+  {
+    "character_id": "CHR-SRC279-001",
+    "canonical_name": "Nüwa",
+    "aliases": [
+      "女媧"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Huainanzi, Lanming xun, passage on repairing the sky",
+    "character_kind": "individual",
+    "description": "In the Huainanzi cosmogonic account, Nüwa repairs the broken heavens and establishes the four poles.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "cosmogonic deity in this Han text",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "cosmic repair",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Witness-specific cosmogonic action."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/huainanzi/lan-ming-xun/zh",
+        "locator": "Huainanzi, Lanming xun, passage on repairing the sky",
+        "supports": [
+          "In the Huainanzi cosmogonic account, Nüwa repairs the broken heavens and establishes the four poles."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-002",
+    "canonical_name": "Jingwei",
+    "aliases": [
+      "精衛",
+      "Nüwa (daughter of Yan Emperor)"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Yiwén lèijù 92, quoting Shanhai jing; Guo Pu commentary",
+    "character_kind": "individual",
+    "description": "Daughter of the Flame Emperor who drowns in the East Sea, becomes Jingwei, and carries wood and stones to fill it.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "transformed bird-being",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Ancient textual transformation; not a species label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "postmortem transformation",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The cited Shanhai jing quotation and Guo Pu commentary describe the change."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "persistent adversary of the sea",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Literary-mythic function in this witness."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/text.pl?if=gb&node=550946&remap=gb",
+        "locator": "Yiwén lèijù 92, quoting Shanhai jing; Guo Pu commentary",
+        "supports": [
+          "Daughter of the Flame Emperor who drowns in the East Sea, becomes Jingwei, and carries wood and stones to fill it."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-003",
+    "canonical_name": "Xi Wangmu",
+    "aliases": [
+      "Queen Mother of the West",
+      "西王母"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Shanhai jing, Classic of the Western Great Wilderness",
+    "character_kind": "individual",
+    "description": "Named being dwelling in a cave at Kunlun, described with tiger teeth and leopard tail.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "named numinous being of Kunlun",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The early textual portrayal must not be replaced by later Daoist iconography."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Kunlun sacred geography",
+          "archetype_ids": [
+            "COS-501"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/shan-hai-jing/da-huang-xi-jing/zh",
+        "locator": "Shanhai jing, Classic of the Western Great Wilderness",
+        "supports": [
+          "Named being dwelling in a cave at Kunlun, described with tiger teeth and leopard tail."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-004",
+    "canonical_name": "Xingtian",
+    "aliases": [
+      "Xing Tian",
+      "刑天"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Shanhai jing, Classic of the Western Overseas, passage on Xingtian",
+    "character_kind": "individual",
+    "description": "Warrior who contests the Supreme Deity; after decapitation he uses breasts as eyes and navel as mouth and continues to wield shield and axe.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "post-decapitation extraordinary being",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Source-specific body configuration."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "warrior",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "survival after decapitation",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Do not equate with a generic undead condition."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/shan-hai-jing/hai-wai-xi-jing/zh",
+        "locator": "Shanhai jing, Classic of the Western Overseas, passage on Xingtian",
+        "supports": [
+          "Warrior who contests the Supreme Deity; after decapitation he uses breasts as eyes and navel as mouth and continues to wield shield and axe."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-005",
+    "canonical_name": "Kuafu",
+    "aliases": [
+      "夸父"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Shanhai jing, Classic of the Northern Great Wilderness, Kuafu passage",
+    "character_kind": "individual",
+    "description": "Figure who races the sun, dies of thirst, and whose staff becomes Deng Forest in the cited account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "mythic giant-like figure",
+          "archetype_ids": [],
+          "confidence": "low",
+          "note": "No generic giantkin equivalence asserted."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "solar pursuit figure",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Witness-specific function."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/shan-hai-jing/da-huang-bei-jing/zh",
+        "locator": "Shanhai jing, Classic of the Northern Great Wilderness, Kuafu passage",
+        "supports": [
+          "Figure who races the sun, dies of thirst, and whose staff becomes Deng Forest in the cited account."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-006",
+    "canonical_name": "Hou Yi",
+    "aliases": [
+      "Yi",
+      "羿",
+      "后羿"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Huainanzi, Lanming xun, Hou Yi/Chang’e passage",
+    "character_kind": "individual",
+    "description": "Archer who obtains the elixir of immortality from Xi Wangmu in the Huainanzi account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human heroic archer in this account",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "archer/hero",
+          "archetype_ids": [
+            "ROL-101"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [
+        {
+          "term": "elixir of immortality",
+          "archetype_ids": [
+            "ART-607"
+          ],
+          "confidence": "low",
+          "note": "The elixir is not an ontological anchor."
+        }
+      ],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/huainanzi/lan-ming-xun/zh",
+        "locator": "Huainanzi, Lanming xun, Hou Yi/Chang’e passage",
+        "supports": [
+          "Archer who obtains the elixir of immortality from Xi Wangmu in the Huainanzi account."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-007",
+    "canonical_name": "Chang’e",
+    "aliases": [
+      "Heng’e",
+      "嫦娥",
+      "姮娥"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Huainanzi, Lanming xun, Hou Yi/Chang’e passage",
+    "character_kind": "individual",
+    "description": "Wife of Hou Yi who steals the elixir and flees to the moon in the Huainanzi account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "lunar-transformed figure",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "Translation and later identification vary."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "elixir-mediated ascent",
+          "archetype_ids": [
+            "STA-209"
+          ],
+          "confidence": "low",
+          "note": "Very broad crosswalk; not an exact ritual category."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "moon",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Specific destination in the cited account."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/huainanzi/lan-ming-xun/zh",
+        "locator": "Huainanzi, Lanming xun, Hou Yi/Chang’e passage",
+        "supports": [
+          "Wife of Hou Yi who steals the elixir and flees to the moon in the Huainanzi account."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-008",
+    "canonical_name": "Liu Yi",
+    "aliases": [
+      "柳毅"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Li Chaowei, Liu Yi zhuan, opening through reunion",
+    "character_kind": "individual",
+    "description": "Human scholar who carries a letter from the distressed daughter of the Dragon King of Dongting and enters the underwater palace.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human scholar",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "messenger",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Literary action, not a formal office."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "cross-realm helper",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Tang tale only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan, opening through reunion",
+        "supports": [
+          "Human scholar who carries a letter from the distressed daughter of the Dragon King of Dongting and enters the underwater palace."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-009",
+    "canonical_name": "Dragon Princess of Dongting",
+    "aliases": [
+      "洞庭龍女"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Li Chaowei, Liu Yi zhuan, opening and final reunion",
+    "character_kind": "individual",
+    "description": "Daughter of the Dragon King of Dongting, abused in marriage, who entrusts Liu Yi with a letter and later reunites with him.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "dragon king’s daughter",
+          "archetype_ids": [
+            "PPL-801"
+          ],
+          "confidence": "low",
+          "note": "This is a Tang literary dragon-personage, not evidence for all dragon traditions."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "wronged petitioner",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Tang tale function."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan, opening and final reunion",
+        "supports": [
+          "Daughter of the Dragon King of Dongting, abused in marriage, who entrusts Liu Yi with a letter and later reunites with him."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-010",
+    "canonical_name": "Dragon King of Dongting",
+    "aliases": [
+      "洞庭君"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Li Chaowei, Liu Yi zhuan, underwater-palace scene",
+    "character_kind": "individual",
+    "description": "Dragon ruler who receives Liu Yi’s letter and responds to his daughter’s mistreatment.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "dragon ruler",
+          "archetype_ids": [
+            "PPL-801"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ruler",
+          "archetype_ids": [
+            "ROL-701"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "underwater dragon palace",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Literary realm in this tale."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan, underwater-palace scene",
+        "supports": [
+          "Dragon ruler who receives Liu Yi’s letter and responds to his daughter’s mistreatment."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-011",
+    "canonical_name": "Qiantang Dragon Lord",
+    "aliases": [
+      "錢塘君"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Li Chaowei, Liu Yi zhuan, Qiantang’s rescue and later dialogue",
+    "character_kind": "individual",
+    "description": "Brother of the Dragon King of Dongting who takes dragon form, rescues his niece, and is rebuked for destructive violence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "dragon lord",
+          "archetype_ids": [
+            "PPL-801"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "dragon ruler/champion",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "dragon manifestation",
+          "archetype_ids": [
+            "STA-210"
+          ],
+          "confidence": "low",
+          "note": "A broad comparison only."
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=570184&if=en",
+        "locator": "Li Chaowei, Liu Yi zhuan, Qiantang’s rescue and later dialogue",
+        "supports": [
+          "Brother of the Dragon King of Dongting who takes dragon form, rescues his niece, and is rebuked for destructive violence."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-012",
+    "canonical_name": "Yingning",
+    "aliases": [
+      "嬰寧"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Pu Songling, Liaozhai zhiyi, “Yingning,” opening and revelation",
+    "character_kind": "individual",
+    "description": "Fox-spirit woman in a Qing literary tale who enters a human household and marries Wang Zifu.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "fox spirit in a Qing tale",
+          "archetype_ids": [
+            "PPL-1001"
+          ],
+          "confidence": "low",
+          "note": "No claim about fox spirits outside this story."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "shape-changing spirit presentation",
+          "archetype_ids": [
+            "PWR-310"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "literary fox-spirit protagonist",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Literary witness only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=866956&if=gb",
+        "locator": "Pu Songling, Liaozhai zhiyi, “Yingning,” opening and revelation",
+        "supports": [
+          "Fox-spirit woman in a Qing literary tale who enters a human household and marries Wang Zifu."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-013",
+    "canonical_name": "Wang Zifu",
+    "aliases": [
+      "王子服"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Pu Songling, Liaozhai zhiyi, “Yingning,” sections 1–2",
+    "character_kind": "individual",
+    "description": "Human scholar who meets Yingning and becomes her husband in the tale.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human scholar",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "human spouse in fox-spirit tale",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Literary witness only."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=866956&if=gb",
+        "locator": "Pu Songling, Liaozhai zhiyi, “Yingning,” sections 1–2",
+        "supports": [
+          "Human scholar who meets Yingning and becomes her husband in the tale."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-014",
+    "canonical_name": "Jade Emperor",
+    "aliases": [
+      "Yuhuang Shangdi",
+      "玉皇上帝"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Yuhuang jing, Qingwei Heaven Palace Supernatural Powers, ch. 1",
+    "character_kind": "individual",
+    "description": "The scripture presents the Jade Emperor amid assembled perfected beings and celestial attendants.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist supreme deity in this scripture",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "low",
+          "note": "Do not universalize a scripture’s hierarchy across Daoist or popular contexts."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "celestial court",
+          "archetype_ids": [
+            "COS-119"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=379895&if=en&remap=gb",
+        "locator": "Yuhuang jing, Qingwei Heaven Palace Supernatural Powers, ch. 1",
+        "supports": [
+          "The scripture presents the Jade Emperor amid assembled perfected beings and celestial attendants."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-015",
+    "canonical_name": "Yuanshi Tianzun",
+    "aliases": [
+      "Primordial Heavenly Worthy",
+      "元始天尊"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Yuhuang jing, Qingwei Heaven Palace Supernatural Powers, ch. 1",
+    "character_kind": "individual",
+    "description": "The scripture opens with Yuanshi Tianzun teaching in Qingwei Heaven while the Jade Emperor and celestial assembly attend.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Daoist Heavenly Worthy in this scripture",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teacher",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Qingwei Heaven",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Scripture-specific realm."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=379895&if=en&remap=gb",
+        "locator": "Yuhuang jing, Qingwei Heaven Palace Supernatural Powers, ch. 1",
+        "supports": [
+          "The scripture opens with Yuanshi Tianzun teaching in Qingwei Heaven while the Jade Emperor and celestial assembly attend."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-016",
+    "canonical_name": "Dizang",
+    "aliases": [
+      "Kṣitigarbha",
+      "地藏菩薩"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra, vol. lower, ch. 8",
+    "character_kind": "individual",
+    "description": "Bodhisattva described by Yama as tirelessly rescuing suffering beings across the six paths.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Buddhist bodhisattva",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "No generic deity/class mapping."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "soteriological guide",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Buddhist textual role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "six paths and hell contexts",
+          "archetype_ids": [
+            "COS-301"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
+        "locator": "Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra, vol. lower, ch. 8",
+        "supports": [
+          "Bodhisattva described by Yama as tirelessly rescuing suffering beings across the six paths."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-017",
+    "canonical_name": "Yama",
+    "aliases": [
+      "Yama King",
+      "閻羅天子"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra, vol. lower, ch. 8, sections 1–5",
+    "character_kind": "individual",
+    "description": "King who comes with ghost kings to the Trāyastriṃśa assembly, questions the Buddha, and praises Dizang’s rescue work.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Buddhist underworld king in this sutra",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Not a blanket Chinese “hell ruler.”"
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "underworld administrator",
+          "archetype_ids": [
+            "ROL-636"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Buddhist hell/underworld context",
+          "archetype_ids": [
+            "COS-301",
+            "COS-304"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
+        "locator": "Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra, vol. lower, ch. 8, sections 1–5",
+        "supports": [
+          "King who comes with ghost kings to the Trāyastriṃśa assembly, questions the Buddha, and praises Dizang’s rescue work."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-018",
+    "canonical_name": "Śākyamuni Buddha",
+    "aliases": [
+      "Buddha",
+      "釋迦牟尼佛",
+      "世尊"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra, vol. lower, ch. 8, sections 2–5",
+    "character_kind": "individual",
+    "description": "The Buddha receives Yama’s question and explains Dizang’s saving activity.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Buddha in Mahāyāna scripture",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Do not reduce Buddhist categories to pantheon equivalence."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "teacher",
+          "archetype_ids": [
+            "ROL-628"
+          ],
+          "confidence": "moderate",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=887620&if=en",
+        "locator": "Kṣitigarbha Bodhisattva Pūrvapraṇidhāna Sūtra, vol. lower, ch. 8, sections 2–5",
+        "supports": [
+          "The Buddha receives Yama’s question and explains Dizang’s saving activity."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC279-019",
+    "canonical_name": "Qin Yubo",
+    "aliases": [
+      "秦裕伯"
+    ],
+    "source_id": "SRC-279",
+    "source_title": "Chinese Mythology and Religious Traditions — selected textual and institutional witnesses",
+    "continuity": "bounded, layered Chinese textual/religious systems pass (not a unified pantheon)",
+    "work_or_witness": "Shanghai fanchang ji, chapter 27, local chronicle notice",
+    "character_kind": "individual",
+    "description": "A historically named Shanghai figure identified in the local chronicle’s City God context and credited with miraculous traces after death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "local City God recipient in Shanghai record",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Strictly a local-historical witness, not a universal City God identity."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "local protective deity/official",
+          "archetype_ids": [
+            "ROL-636"
+          ],
+          "confidence": "low",
+          "note": "Comparative retrieval mapping only; the witness-specific term and context control."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "Shanghai City God temple network",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Local context only."
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "named acting figure in a specifically identified witness; not a cross-tradition identity claim",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://ctext.org/wiki.pl?chapter=893442&if=en",
+        "locator": "Shanghai fanchang ji, chapter 27, local chronicle notice",
+        "supports": [
+          "A historically named Shanghai figure identified in the local chronicle’s City God context and credited with miraculous traces after death."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Chinese religions and mythic materials are historically layered, regionally varied, and often living. This witness-specific record does not define a pan-Chinese canon."
+    ],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

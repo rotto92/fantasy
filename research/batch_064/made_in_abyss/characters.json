@@ -1,0 +1,64 @@
+[
+  {
+    "character_id": "CHR-SRC200-001",
+    "canonical_name": "Riko",
+    "aliases": [],
+    "source_id": "SRC-200",
+    "source_title": "Made in Abyss",
+    "continuity": "Seven Seas English Made in Abyss Vol. 1 product-witness continuity",
+    "work_or_witness": "Made in Abyss Vol. 1, Seven Seas English manga edition (2018)",
+    "character_kind": "individual",
+    "description": "A young orphan who dreams of following in her mother's footsteps as a Cave Raider; Seven Seas' Vol. 1 synopsis places her exploring the Abyss, where she encounters a strange robot.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "aspiring Cave Raider",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The selected Vol. 1 synopsis says Riko dreams of following her mother as a Cave Raider; it does not establish a rank, completed qualification, or later expedition status."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Abyss exploration setting",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "The source says Riko explores the Abyss. It provides no layer, curse, relic, or route detail for this record."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "young orphan explorer",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Direct publisher wording; this is descriptive, not an inference about age, psychology, competence, or later plot role."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Directly named in the selected English Vol. 1 publisher synopsis; attributes limited to that synopsis.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {
+        "url": "https://sevenseasentertainment.com/books/made-in-abyss-vol-1/",
+        "locator": "Vol. 1 synopsis",
+        "supports": [
+          "Riko is a young orphan who wants to follow her mother as a Cave Raider and explores the Abyss, where she meets a strange robot."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Riko is a child protagonist in a perilous setting. This record does not infer physical abilities, ancestry, relationships, the robot's identity, mother identity, later character development, or outcomes from later material.",
+      "Cave Raider is a source role, not a generic real-world vocation or a claim that Riko has a confirmed rank/affiliation beyond the stated aspiration."
+    ],
+    "spoiler_level": "none",
+    "review_status": "researched"
+  }
+]

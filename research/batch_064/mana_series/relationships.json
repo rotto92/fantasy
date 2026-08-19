@@ -1,0 +1,135 @@
+[
+  {
+    "relationship_id": "REL-SRC184-001",
+    "source_id": "SRC-184",
+    "source_character_id": "CHR-SRC184-001",
+    "target_character_id": "CHR-SRC184-002",
+    "relationship_type": "companion",
+    "label": "childhood friends; pilgrimage escort",
+    "direction": "undirected",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Val/Hinna, lines 66-78",
+        "supports": [
+          "Val and Hinna are childhood friends and travel together after Hinna's alm selection"
+        ]
+      },
+      {
+        "url": "https://mana.square-enix-games.com/en-us/games/visions-of-mana",
+        "locator": "The Story, lines 15-18",
+        "supports": [
+          "Val brings childhood friend Hinna to the festival and accompanies her after she is appointed Alm of Fire."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Records explicit friendship and the starting pilgrimage only; no later outcome is inferred."
+  },
+  {
+    "relationship_id": "REL-SRC184-002",
+    "source_id": "SRC-184",
+    "source_character_id": "CHR-SRC184-004",
+    "target_character_id": "CHR-SRC184-003",
+    "relationship_type": "other",
+    "label": "rescued Careena; best friends",
+    "direction": "directed",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Careena/Ramcoh, lines 88-93",
+        "supports": [
+          "Ramcoh saved Careena after her accident and is her best friend"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "A named individual-to-individual rescue/friendship; no generic sacred-beast relation is inferred."
+  },
+  {
+    "relationship_id": "REL-SRC184-003",
+    "source_id": "SRC-184",
+    "source_character_id": "CHR-SRC184-010",
+    "target_character_id": "CHR-SRC184-001",
+    "relationship_type": "mentor",
+    "label": "Val's mentor",
+    "direction": "directed",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Lyza, lines 148-153",
+        "supports": [
+          "Lyza is Val's mentor"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Direct official mentorship only."
+  },
+  {
+    "relationship_id": "REL-SRC184-004",
+    "source_id": "SRC-184",
+    "source_character_id": "CHR-SRC184-006",
+    "target_character_id": "CHR-SRC184-012",
+    "relationship_type": "kin",
+    "label": "siblings",
+    "direction": "undirected",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Palamena, lines 114-115",
+        "supports": [
+          "Iain is Palamena's young brother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directly stated sibling relationship."
+  },
+  {
+    "relationship_id": "REL-SRC184-005",
+    "source_id": "SRC-184",
+    "source_character_id": "CHR-SRC184-009",
+    "target_character_id": "CHR-SRC184-001",
+    "relationship_type": "other",
+    "label": "repeated travel encounter",
+    "direction": "undirected",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Eoren, lines 142-147",
+        "supports": [
+          "Eoren keeps stumbling upon Val and Hinna during their travels"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Records an explicit encounter pattern, not party membership."
+  },
+  {
+    "relationship_id": "REL-SRC184-006",
+    "source_id": "SRC-184",
+    "source_character_id": "CHR-SRC184-009",
+    "target_character_id": "CHR-SRC184-002",
+    "relationship_type": "other",
+    "label": "repeated travel encounter",
+    "direction": "undirected",
+    "continuity": "Visions of Mana English PS5 base release (2024)",
+    "citations": [
+      {
+        "url": "https://www.square-enix.com/asia/newsportal/en/topics/visions-of-mana/post04.html",
+        "locator": "Characters: Eoren, lines 142-147",
+        "supports": [
+          "Eoren keeps stumbling upon Val and Hinna during their travels"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Records an explicit encounter pattern, not party membership."
+  }
+]

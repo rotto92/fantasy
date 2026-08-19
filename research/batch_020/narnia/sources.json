@@ -1,0 +1,36 @@
+[
+  {
+    "source_id":"SRC-030",
+    "source_title":"The Chronicles of Narnia",
+    "continuity_scope":"C. S. Lewis, The Lion, the Witch and the Wardrobe: A Story for Children (London: Geoffrey Bles, 1950), the first Narnia novel published. This is a single-novel, original-English, publication-order witness, not a composite series account. Exact chapter locators are used because pagination varies among impressions and editions.",
+    "work_or_witnesses":[
+      {"work":"The Lion, the Witch and the Wardrobe: A Story for Children","edition":"Geoffrey Bles, London, 1950, first UK edition; English; Pauline Baynes illustrations. British National Bibliography record 50-9745.","url":"https://obnb.uk/p6975792-the-lion-the-witch-and-the-wardrobe-a-story-for-children"},
+      {"work":"The Lion, the Witch and the Wardrobe","edition":"Google Books bibliographic/viewer record for a 1950 Macmillan witness; used only to cross-check chapter vocabulary and bibliographic access, not to substitute a later continuity.","url":"https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ"},
+      {"work":"British National Bibliography at 75","edition":"British Library institutional account noting the 1950 BNB entry for the novel.","url":"https://www.bl.uk/stories/blogs/posts/75-years-of-the-bnb"}
+    ],
+    "coverage_rule":"Include the four named Pevensie siblings, the named faun who first receives Lucy, the named Beaver guide, Aslan, and the individual designated in this novel as the White Witch. This compact eight-person cohort covers the portal entry, betrayal pressure, guidance, and central conflict. Named but briefer figures (Professor Kirke, Father Christmas, the Dwarf, Fenris Ulf, Maugrim, and others), unnamed speakers, collectives, creatures as kinds, places, artifacts, and narrative/cosmological concepts remain outside the character graph.",
+    "in_scope_character_count":8,
+    "completed_character_count":8,
+    "omissions":[
+      "The other six Narnia novels, whether arranged by publication or internal chronology; their later names, explanations, events, and outcomes are not imported",
+      "All stage, radio, television, film, game, and other adaptations; adaptation-only casting, plot, visual design, and dialogue",
+      "Translations, retellings, abridgments, audiobook performances, and illustrations as independent continuity evidence",
+      "Named minor figures and collective peoples/species, as well as Narnia, the wardrobe, the Stone Table, prophecy, law, theology, and allegorical readings as character nodes"
+    ],
+    "uncertainties":[
+      "The title has appeared in different series sequences. This pass follows the documented 1950 publication witness only; it does not adjudicate preferred reading order or treat later internal chronology as evidence.",
+      "First-edition and later printing pagination differ. Chapter titles 1–17 are the stable primary-text locators; no later-edition page number is presented as if it were a 1950 page.",
+      "The individual is called the White Witch in this novel. Later-series names or biography are excluded, rather than retroactively attaching them to this witness.",
+      "The novel has often received Christian or allegorical interpretation. Records describe fictional text-level actions and terms only; they neither assert theological equivalence nor map fictional characters to religious figures, peoples, or real cultures.",
+      "The work remains copyright-controlled in many jurisdictions. Evidence records use bibliographic/authorized viewing sources and chapter locators, with no extended quotation."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Primary-text claims are anchored to named chapters in the declared 1950 English novel; Google Books' bibliographic/viewer record supports limited text-location cross-checking. The Open British National Bibliography and British Library supply institutional publication metadata. No fan wiki or Wikipedia is used.",
+    "citations":[
+      {"url":"https://obnb.uk/p6975792-the-lion-the-witch-and-the-wardrobe-a-story-for-children","locator":"Open British National Bibliography, record p6975792; original title/author record","supports":["1950 British publication witness and bibliographic identity."]},
+      {"url":"https://www.bl.uk/stories/blogs/posts/75-years-of-the-bnb","locator":"British Library, “75 Years of the BNB (and bewitching Narnia books),” section on the 1950 entry","supports":["Institutional confirmation that the BNB carried the novel in its first year."]},
+      {"url":"https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ","locator":"Google Books record, chapter-index/search metadata for The Lion, the Witch and the Wardrobe","supports":["Cross-checkable chapter vocabulary and controlled, non-extended primary-text access context."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "source_id": "SRC-182",
+    "source_title": "Vagrant Story",
+    "continuity_scope": "Vagrant Story, original Square PlayStation release (Japan: 10 February 2000) as witnessed through Square Enix's later official English PSOne Classics product page and Japanese archive page. Character names and descriptions are recorded in the English localization where supplied.",
+    "work_or_witnesses": [
+      "Vagrant Story original PlayStation release (Square; 10 February 2000, Japanese release date recorded by Square Enix archive)",
+      "Square Enix PSOne Classics English product page (2009)",
+      "Square Enix Japanese Vagrant Story archive",
+      "Square Enix Store Bring Arts Ashley Riot & Sydney Losstarot description (2021)"
+    ],
+    "coverage_rule": "Include only named dramatic individuals whose names, narrative function, and identifying description are directly supplied by the selected Square Enix first-party witnesses. This yields Ashley Riot and Sydney Losstarot. Include their explicitly described pursuit as a relationship. Do not construct a roster from music-track titles, fan archives, inferred gameplay, or unverified manual scans.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "Duke Bardorba is named as the owner of the assaulted residence but is not independently profiled in the selected witnesses, so is not a character record or relationship endpoint.",
+      "All other named or unnamed inhabitants, antagonists, monsters, and plot outcomes are omitted because the selected first-party web witnesses do not provide a reproducible roster or claim-level character profiles.",
+      "The original English physical PlayStation manual was not located in an official publisher/PlayStation archive during this pass; no non-first-party manual scan is used as evidence.",
+      "Weapons, affinities, magic, Risk, chain systems, creatures, locations, factions, and the game's later rereleases are terms/boundaries rather than character nodes.",
+      "No claim is made that Vagrant Story shares a narrative continuity with any other work associated with Ivalice; cross-title references are outside this source pass."
+    ],
+    "uncertainties": [
+      "The English Square Enix product page is a 2009 PSOne Classics rerelease witness, not a scanned 2000 English manual or inspected original disc; it supports the stated premise but not exhaustive game canon.",
+      "Square Enix's Japanese archive calls Ashley a Riskbreaker; the English PSOne Classics page calls him a VKP agent. The role terminology is preserved as localization/witness-specific rather than collapsed into one exact equivalence.",
+      "The later figure page calls Sydney the Müllenkamp leader and labels Holy Win 'Rood of St. Iocus' in the English game, but it is merchandise copy and is not used to infer story outcomes.",
+      "The official witnesses describe a pursuit and an assault allegation, not every motive, alliance, identity detail, or ending."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "Direct Square Enix archive, PSOne Classics product, and licensed merchandise descriptions; narrow scope reflects sparse claim-level first-party character evidence.",
+    "citations": [
+      {
+        "url": "https://dlgames.square-enix.com/eu/en/psga/2009/vagrantstory/",
+        "locator": "VAGRANT STORY / STORY and SUMMARY",
+        "supports": ["English PSOne Classics framing, Ashley, Sydney, VKP, Leá Monde, earthquake, Duke Bardorba assault, legendary entities, and release platform"]
+      },
+      {
+        "url": "https://www.jp.square-enix.com/archive/vagrantstory/",
+        "locator": "story text and product history",
+        "supports": ["Original PlayStation release date, Japanese source wording for Ashley/Riskbreaker, Leá Monde, VKP, Sydney, and later Game Archives/PS one Books boundaries"]
+      },
+      {
+        "url": "https://na.store.square-enix-games.com/vagrant-story-bring-arts-action-figure---ashley-riot-_-sydney-losstarot",
+        "locator": "Description",
+        "supports": ["2000 Square release framing, Ashley as skilled agent, Sydney as Müllenkamp leader, and English Rood of St. Iocus label"]
+      }
+    ],
+    "last_reviewed": "2026-08-06"
+  }
+]

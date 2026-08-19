@@ -1,0 +1,144 @@
+[
+  {
+    "character_id": "CHR-SRC167-001",
+    "canonical_name": "Valtan",
+    "aliases": ["Demon Beast Legion Commander", "Lord of Demon Beasts"],
+    "source_id": "SRC-167",
+    "source_title": "Lost Ark",
+    "continuity": "Amazon Games English Western service, Valtan Legion Raid launch material (May 2022)",
+    "work_or_witness": "Official Lost Ark Academy – Valtan Legion Raid, Valtan story/profile section",
+    "character_kind": "individual",
+    "description": "The Demon Beast Legion Commander, critically injured at Luterra's Wall of Glory; the official Academy says his soul was torn into pieces, later stitched back together into a new patchwork body, and that he seeks destruction in the Resurrected Demon Beast Lair.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [
+        {"term": "Demon Beast Legion Commander", "archetype_ids": [], "confidence": "high", "note": "Exact official title in the Academy profile."},
+        {"term": "Lord of Demon Beasts", "archetype_ids": [], "confidence": "high", "note": "The profile explicitly calls Valtan this before identifying him as a Legion Commander."}
+      ],
+      "power_traditions": [],
+      "affiliations": [
+        {"term": "Demon Beast Legion", "archetype_ids": [], "confidence": "high", "note": "Directly contained in his commander title."}
+      ],
+      "states_and_transformations": [
+        {"term": "soul torn into pieces and later reconstituted", "archetype_ids": [], "confidence": "high", "note": "The official profile says the pieces wandered the abyss until his soul was stitched back together."},
+        {"term": "new patchwork body", "archetype_ids": [], "confidence": "high", "note": "Directly described as the body in which the restored soul was placed."}
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {"term": "Luterra", "archetype_ids": [], "confidence": "high", "note": "The profile situates his critical injury at the Wall of Glory in Luterra."},
+        {"term": "abyss", "archetype_ids": [], "confidence": "high", "note": "The profile says the pieces of his soul wandered there."},
+        {"term": "Resurrected Demon Beast Lair", "archetype_ids": [], "confidence": "high", "note": "The source identifies the former Luterra peak as the Demon Beast Legion's camp."}
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {"term": "Legion Raid commander", "archetype_ids": [], "confidence": "high", "note": "The selected release material presents Valtan as the first Legion Raid commander for the Western version."}
+      ],
+      "game_mechanics": [
+        {"term": "eight-player, two-gate Legion Raid encounter", "archetype_ids": [], "confidence": "high", "note": "This is release-specific encounter framing, not an intrinsic fictional attribute."}
+      ]
+    },
+    "canon_status": "Named titled raid antagonist in the selected official Amazon Games Western-service Academy witness.",
+    "evidence_level": "official-reference",
+    "citations": [
+      {"url": "https://www.playlostark.com/en-us/news/articles/lost-ark-academy-valtan", "locator": "Valtan, Demon Beast Legion Commander; Resurrected Demon Beast Lair sections", "supports": ["Name, titles, injury, soul fragmentation/reconstitution, patchwork body, destruction motive, Luterra, abyss, and lair"]},
+      {"url": "https://www.playlostark.com/en-us/news/articles/may-2022-update-reveal", "locator": "Legion Raid – Valtan (Normal & Hard Modes)", "supports": ["First Western Legion Raid framing, eight-player/two-gate encounter, and release-specific raid mechanics"]}
+    ],
+    "comparison_cautions": [
+      "The profile names Kharmine and Akkan in contextual backstory, but neither receives an independent presentation under this pass's rule; no relationship edge is created.",
+      "Raid size, gates, item requirements, and rewards are dated live-service mechanics rather than fixed cross-region character traits."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC167-002",
+    "canonical_name": "Thirain",
+    "aliases": [],
+    "source_id": "SRC-167",
+    "source_title": "Lost Ark",
+    "continuity": "Amazon Games English Western service, Valtan Legion Raid launch material (May 2022)",
+    "work_or_witness": "Official Lost Ark Academy – Valtan Legion Raid, Sidereal Skills: Thirain",
+    "character_kind": "individual",
+    "description": "A named Sidereal whose supplied raid skill, Completed Vanquisher, awakens Vanquisher and smashes it with light to inflict heavy damage and weak-point damage.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Sidereal", "archetype_ids": [], "confidence": "high", "note": "The Academy introduces Thirain as one of three named Sidereal skills."}],
+      "power_traditions": [{"term": "light", "archetype_ids": [], "confidence": "high", "note": "The skill description says he smashes Vanquisher with light."}],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [{"term": "Vanquisher", "archetype_ids": [], "confidence": "high", "note": "Named within the Completed Vanquisher skill description; its wider history is not inferred."}],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": [{"term": "Completed Vanquisher Sidereal Skill", "archetype_ids": [], "confidence": "high", "note": "A supplied Valtan-raid skill with heavy damage and weak-point effects."}]
+    },
+    "canon_status": "Named Sidereal support figure explicitly represented by a supplied skill in the selected official Academy witness.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://www.playlostark.com/en-us/news/articles/lost-ark-academy-valtan", "locator": "Sidereal Skills: Thirain – Completed Vanquisher", "supports": ["Name, Sidereal-skill presentation, Vanquisher, light, and stated damage/weak-point effects"]}],
+    "comparison_cautions": ["The source documents a raid skill, not a complete biography, affiliation list, or universal ability set.", "The player activates the supplied skill; that player role does not make the Adventurer a character node."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC167-003",
+    "canonical_name": "Wei",
+    "aliases": [],
+    "source_id": "SRC-167",
+    "source_title": "Lost Ark",
+    "continuity": "Amazon Games English Western service, Valtan Legion Raid launch material (May 2022)",
+    "work_or_witness": "Official Lost Ark Academy – Valtan Legion Raid, Sidereal Skills: Wei",
+    "character_kind": "individual",
+    "description": "A named Sidereal whose supplied Awakened Dochul raid skill summons Dochul for three powerful attacks and produces massive stagger.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Sidereal", "archetype_ids": [], "confidence": "high", "note": "The Academy introduces Wei as one of three named Sidereal skills."}],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [{"term": "Dochul", "archetype_ids": [], "confidence": "high", "note": "The skill says Wei summons Dochul; Dochul has no independent character presentation in this witness."}],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": [{"term": "Awakened Dochul Sidereal Skill", "archetype_ids": [], "confidence": "high", "note": "A supplied Valtan-raid skill described as three attacks with massive stagger."}]
+    },
+    "canon_status": "Named Sidereal support figure explicitly represented by a supplied skill in the selected official Academy witness.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://www.playlostark.com/en-us/news/articles/lost-ark-academy-valtan", "locator": "Sidereal Skills: Wei – Awakened Dochul", "supports": ["Name, Sidereal-skill presentation, Dochul summon, three attacks, and massive stagger"]}],
+    "comparison_cautions": ["Dochul is only a named summoned element in Wei's skill here, not a separately presented character node.", "The source documents a raid skill, not a complete biography or universal ability set."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC167-004",
+    "canonical_name": "Balthorr",
+    "aliases": [],
+    "source_id": "SRC-167",
+    "source_title": "Lost Ark",
+    "continuity": "Amazon Games English Western service, Valtan Legion Raid launch material (May 2022)",
+    "work_or_witness": "Official Lost Ark Academy – Valtan Legion Raid, Sidereal Skills: Balthorr",
+    "character_kind": "individual",
+    "description": "A named Sidereal whose supplied Arcturus' Breath raid skill strikes an anvil with Earthen Strength, temporarily protecting nearby squad members with enchanted armor.",
+    "dimensions": {
+      "being_types": [],
+      "cultures": [],
+      "roles_and_vocations": [{"term": "Sidereal", "archetype_ids": [], "confidence": "high", "note": "The Academy introduces Balthorr as one of three named Sidereal skills."}],
+      "power_traditions": [{"term": "Earthen Strength", "archetype_ids": [], "confidence": "high", "note": "The skill description names the force used to strike the anvil."}],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [{"term": "anvil", "archetype_ids": [], "confidence": "high", "note": "The described skill strikes an anvil; no wider artifact identity is inferred."}],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": [{"term": "Arcturus' Breath Sidereal Skill", "archetype_ids": [], "confidence": "high", "note": "Temporarily grants nearby squad members enchanted armor, push immunity, damage reduction, and protection from some commander skills."}]
+    },
+    "canon_status": "Named Sidereal support figure explicitly represented by a supplied skill in the selected official Academy witness.",
+    "evidence_level": "official-reference",
+    "citations": [{"url": "https://www.playlostark.com/en-us/news/articles/lost-ark-academy-valtan", "locator": "Sidereal Skills: Balthorr – Arcturus' Breath", "supports": ["Name, Sidereal-skill presentation, Earthen Strength, anvil, and stated temporary squad protection effects"]}],
+    "comparison_cautions": ["The listed protection effects are dated raid mechanics, not a complete in-fiction power taxonomy.", "The source documents a raid skill, not a complete biography or universal ability set."],
+    "spoiler_level": "light",
+    "review_status": "researched"
+  }
+]

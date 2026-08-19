@@ -1,0 +1,28 @@
+[
+  {
+    "term_id": "STM-SRC084-001",
+    "record_kind": "research-boundary",
+    "source_id": "SRC-084",
+    "work_or_witness": "The Lions of Al-Rassan · Authorized work page, publication/context summary",
+    "canonical_term": "The Lions of Al-Rassan authorized work boundary",
+    "original_language": "English",
+    "original_script": "The Lions of Al-Rassan",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "mechanical",
+    "definition": "Guy Gavriel Kay's 1995 novel as identified by the authorized work page; this record preserves only the edition and fiction-versus-history boundary for an evidence-insufficient audit.",
+    "cultural_caution": "The cited fictional setting framing does not equate the novel's religions, peoples, places, or conflicts with historical Iberian communities or traditions, and does not support internal story claims without a primary-text locator.",
+    "citations": [
+      {
+        "url": "https://brightweavings.com/books/books/the-lions-of-al-rassan/",
+        "locator": "Authorized work page, publication/context summary",
+        "supports": [
+          "Novel identity, 1995 first-publication metadata, and the setting's fictional historical-fantasy framing."
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

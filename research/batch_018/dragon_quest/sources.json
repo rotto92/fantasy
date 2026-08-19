@@ -1,0 +1,46 @@
+[
+  {
+    "source_id": "SRC-132",
+    "source_title": "Dragon Quest",
+    "continuity_scope": "DRAGON QUEST III HD-2D Remake, North American English launch edition (14 November 2024), treated as one numbered-title continuity within the Dragon Quest anthology. It is not a shared-continuity claim for other numbered Dragon Quest titles, spinoffs, or crossover games.",
+    "work_or_witnesses": [
+      "Square Enix official DRAGON QUEST III HD-2D Remake product page (North American English)",
+      "Square Enix official release announcement: DRAGON QUEST III HD-2D Remake is releasing on 14th November 2024!"
+    ],
+    "coverage_rule": "All individually named, non-avatar characters explicitly named in the selected official launch-story synopsis: Ortega and Baramos. The selected official character section labels the protagonist as '(you)' and makes their gender/player presentation selectable, so that silent player avatar is retained only as a role/source term and is not a character record.",
+    "in_scope_character_count": 2,
+    "completed_character_count": 2,
+    "omissions": [
+      "The unnamed player-controlled protagonist/Hero of Aliahan, who the official page calls 'you' and presents as a selectable protagonist rather than a stable personal name.",
+      "The unnamed king of Aliahan, Ortega's unnamed wife, unnamed party allies, and all unnamed monsters/inhabitants.",
+      "Every character from Dragon Quest I, II, IV and later numbered titles; Dragon Quest Builders, Monsters, Heroes, Tact, The Adventure of Dai, and all crossovers.",
+      "Original 1988 versions, prior remakes/remasters, regional editions, and post-launch update-specific mechanics."
+    ],
+    "uncertainties": [
+      "The official product synopsis is deliberately high level and names only two non-avatar individuals. This pass is complete only under that explicit-name witness rule, not a complete cast reconstruction.",
+      "Names and wording follow the North American English official localization. Japanese names, other regional localization spellings, and older English localization variants are not merged without an edition-specific official witness.",
+      "This is a modern remake with stated new features, additional narrative, and secrets. No character or system claim from another version is treated as launch-remake evidence unless the selected official page says it.",
+      "The release announcement spoils Ortega's failure and the premise; no later plot outcome is included."
+    ],
+    "completion_status": "pass-complete",
+    "evidence_basis": "First-party Square Enix product-page story and character sections for all character, relationship, avatar, setting, and terminology claims; first-party Square Enix release announcement for the exact edition/date and remake boundary. No fan wiki, Wikipedia, or unofficial database was used.",
+    "citations": [
+      {
+        "url": "https://dragonquest.square-enix-games.com/games/en-us/dragon-quest-3-hd2d-remake/",
+        "locator": "Story (lines 12-17); Characters: Protagonist (you) (lines 30-37); The World (lines 40-54)",
+        "supports": [
+          "Ortega, Baramos, their stated conflict, Aliahan, avatar status, and party/allies wording"
+        ]
+      },
+      {
+        "url": "https://www.square-enix-games.com/en_GB/home/dragon-quest-iii-hd-2d-remake-releasing-14th-november-2024",
+        "locator": "Release announcement, published 18 June 2024; release-date paragraph",
+        "supports": [
+          "DRAGON QUEST III HD-2D Remake launch date of 14 November 2024",
+          "Modern-remake framing with new features and additional narrative"
+        ]
+      }
+    ],
+    "last_reviewed": "2026-08-05"
+  }
+]

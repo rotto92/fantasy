@@ -1,0 +1,35 @@
+[
+  {
+    "source_id":"SRC-066",
+    "source_title":"Kushiel's Legacy",
+    "continuity_scope":"Jacqueline Carey, Kushiel's Dart, Tor/Macmillan edition, 15 March 2002, ISBN 9781429910903, 704 pages. This pass is one original-English novel only, using its numbered chapters rather than repaginated later-format pages. Kushiel's Chosen, Kushiel's Avatar, later Phedre/Imriel/Naamah works, Cassiel's Servant, companion fiction, adaptations, and author commentary are not story canon here.",
+    "work_or_witnesses":[
+      {"work":"Kushiel's Dart","edition":"Tor/Macmillan edition, 15 March 2002, ISBN 9781429910903, 704 pages; declared primary novel witness.","url":"https://us.macmillan.com/books/9781429910903/kushielsdart/"},
+      {"work":"Kushiel's Dart","edition":"Macmillan 2002 Google Books limited preview, ISBN 9781429910903; preserves a numbered chapter contents record and bibliographic data.","url":"https://books.google.com/books/about/Kushiel_s_Dart.html?id=1QKLk_2o8zAC"},
+      {"work":"Kushiel's Dart Reader's Guide","edition":"Tor reader's guide for ISBN 9780765342980; used only as publisher-controlled orientation to its content cautions and novel-wide premise, not as a replacement for primary-text evidence.","url":"https://images.macmillan.com/folio-assets/readers-guides/9780765342980RG.pdf"}
+    ],
+    "coverage_rule":"Include the first-person protagonist Phèdre; her named Delaunay household/mentors Anafiel, Alcuin, and Joscelin; companion Hyacinthe; central court figures Melisande, Ysandre, and Barquiel; and the named Skaldi and Alban leaders Waldemar Selig and Drustan mab Necthana. This ten-person cohort covers the household that forms the protagonist, her travelling partnership, the core political conspiracy and monarchy, and the leaders materially affecting the Skaldia/Alba conflict. Named patrons, nobles, House adepts, soldiers, clergy, captors, members of the Tsingani kumpania, and other minor figures are omitted.",
+    "in_scope_character_count":10,
+    "completed_character_count":10,
+    "omissions":[
+      "All sequels, later trilogies, companion/retelling novels, short fiction, adaptations, games, author interviews, commentary, maps, and translations as independent continuities.",
+      "Named but non-cohort patrons, Court nobles, House personnel, Cassilines, Skaldi, Alba figures, sailors, prisoners, guards, and incidental historical figures.",
+      "Terre d'Ange, D'Angelines, the Night Court and Thirteen Houses, the service of Naamah, Elua and the Companions, Kushiel's mark, Cassiline Brotherhood, nations/peoples, social offices, magic, marques, artifacts, places, and institutions as character nodes."
+    ],
+    "uncertainties":[
+      "Phèdre narrates in the first person. Her perception, attraction, interpretation of religious language, and political inference are not silently promoted to an external omniscient account.",
+      "The novel's sacred and sexual vocabulary is fictional and context-sensitive. A voluntary adult Naamah service/assignation, a coerced or enslaved sexual context, romantic attachment, and politically instrumental intimacy are not flattened into one category.",
+      "The book includes consensual adult sexual content, BDSM-coded desire, indenture, sexual coercion and violence, slavery, abuse, torture, murder, war, and trauma. Records avoid explicit detail and do not endorse coercion.",
+      "D'Angeline, Skaldi, Alba, Tsingani, and other terms may evoke historical/cultural material, but no one-to-one real-world ethnicity, nation, religion, or sexual-practice equivalence is asserted.",
+      "The Tor site provides an authorized Chapter One/Two excerpt; Google Books is a limited preview. Exact chapter locators are therefore retained and no later work is used to resolve ambiguity or outcome."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Claim-level records cite the declared numbered-chapter primary novel witness, with the Tor/Macmillan page providing authorized opening primary text and official edition metadata. The publisher reader's guide corroborates general content framing only. No fan wiki or Wikipedia is used as evidence.",
+    "citations":[
+      {"url":"https://us.macmillan.com/books/9781429910903/kushielsdart/","locator":"Book details; authorized Chapter One and Chapter Two excerpt","supports":["Official series/edition metadata, Phèdre's first-person voice, scarlet mote, Night Court/Cereus context, Naamah/Elua vocabulary, and opening indenture background."]},
+      {"url":"https://books.google.com/books/about/Kushiel_s_Dart.html?id=1QKLk_2o8zAC","locator":"Macmillan 2002 bibliographic record, numbered contents, and limited preview","supports":["Primary-novel chapter orientation, 704-page ISBN record, named cohort, court/Skaldi/Alba plot, and source terminology."]},
+      {"url":"https://images.macmillan.com/folio-assets/readers-guides/9780765342980RG.pdf","locator":"Tor Reader's Guide, pp. 1–3","supports":["Publisher-controlled overview of Phèdre, Delaunay, Joscelin, Melisande, the Skaldi captivity, and consent/coercion discussion context."]}
+    ],
+    "last_reviewed":"2026-08-05"
+  }
+]

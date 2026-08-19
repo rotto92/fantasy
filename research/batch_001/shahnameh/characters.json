@@ -1,0 +1,2589 @@
+[
+  {
+    "character_id": "CHR-SRC011-001",
+    "canonical_name": "Gayumart (Keyumars)",
+    "aliases": [
+      "Keyumars",
+      "Gaiumart"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The first king in the poem’s opening royal genealogy; Ahriman’s hostility reaches him through the death of his son Siyamak.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 118–131, ‘Gaiumart,’ ‘Hushang,’ and ‘Tahmuras’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-002",
+    "canonical_name": "Siyamak",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Gayumart’s son, killed by a dīv; his death motivates Hushang’s retaliatory campaign.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 118–131, ‘Gaiumart,’ ‘Hushang,’ and ‘Tahmuras’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-003",
+    "canonical_name": "Hushang",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Siyamak’s son and successor, who defeats the Black Dīv and is credited with civilizing arts and the feast of Sada.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 118–131, ‘Gaiumart,’ ‘Hushang,’ and ‘Tahmuras’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-004",
+    "canonical_name": "Tahmuras",
+    "aliases": [
+      "Tahmuras the Binder of Demons"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Hushang’s successor, styled the binder of dīvs and credited with arts before his death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 118–131, ‘Gaiumart,’ ‘Hushang,’ and ‘Tahmuras’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-005",
+    "canonical_name": "Jamshid",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "A mighty king whose achievements and subsequent loss of royal grace precipitate his fall and Zahhak’s rise.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–169, ‘Jamshid’ and ‘Zahhak’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-006",
+    "canonical_name": "Zahhak",
+    "aliases": [
+      "Zahhāk",
+      "Aži Dahāka"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The tyrant who takes Jamshid’s throne, rules through violent custom, and is bound by Fereydun rather than killed.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–169, ‘Jamshid’ and ‘Zahhak’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-007",
+    "canonical_name": "Iblis",
+    "aliases": [
+      "Eblis"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The malicious tempter who approaches Zahhak in disguises and helps initiate the tyrant’s destructive rule.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "dīv / Iblis",
+          "archetype_ids": [
+            "PPL-501"
+          ],
+          "confidence": "moderate",
+          "note": "Partial comparative mapping: dīv and Iblis are not a stable generic demon species in Iranian tradition or in every poem context."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–169, ‘Jamshid’ and ‘Zahhak’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-008",
+    "canonical_name": "Kaveh",
+    "aliases": [
+      "Kaveh the Smith",
+      "Kāva"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The smith whose revolt against Zahhak publicly rallies support for Fereydun.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 131–169, ‘Jamshid’ and ‘Zahhak’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-009",
+    "canonical_name": "Fereydun",
+    "aliases": [
+      "Faridun",
+      "Ferēdun"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The deliverer who defeats and binds Zahhak, later divides the world among his three sons, and grieves Iraj’s murder.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-010",
+    "canonical_name": "Salm",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Fereydun’s elder son; jealousy of Iraj makes him a principal participant in the fraternal conflict.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-011",
+    "canonical_name": "Tur",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Fereydun’s son and Salm’s ally in the killing of their brother Iraj; later slain in Manuchehr’s campaign.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-012",
+    "canonical_name": "Iraj",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Fereydun’s youngest son and heir to Iran in the poem’s partition; he is murdered by his brothers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic death in the poem",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical narrative comparison, not a source-native category."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 174–232, ‘Faridun’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-013",
+    "canonical_name": "Manuchehr",
+    "aliases": [
+      "Minuchihr"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Iraj’s descendant and king who avenges Iraj against Tur and Salm, then presides over the early Zal cycle.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 237–334, ‘Minuchihr’ (Zal, Rudaba, and birth of Rustam)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-014",
+    "canonical_name": "Sam",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Zal’s father, initially ashamed of his white-haired son but later reconciled and politically central to Zal’s marriage.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 237–334, ‘Minuchihr’ (Zal, Rudaba, and birth of Rustam)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-015",
+    "canonical_name": "Zal",
+    "aliases": [
+      "Zāl",
+      "Zal-e Zarr"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The white-haired son of Sam, reared by Simorgh and later husband of Rudabeh and father of Rostam.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 237–334, ‘Minuchihr’ (Zal, Rudaba, and birth of Rustam)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-016",
+    "canonical_name": "Simorgh",
+    "aliases": [
+      "Sīmorgh",
+      "Simurgh bird"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The fabulous bird who nurses Zal, gives him a feather for aid, and later rescues and advises Rostam.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Simorgh",
+          "archetype_ids": [
+            "PPL-820"
+          ],
+          "confidence": "moderate",
+          "note": "Functional guardian-beast mapping only; Simorgh’s Iranian religious and literary history is not exhausted by this label."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 237–334, ‘Minuchihr’ (Zal, Rudaba, and birth of Rustam)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-017",
+    "canonical_name": "Rudabeh",
+    "aliases": [
+      "Rūdāba"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Daughter of Mihrab and Sindukht; her courtship and marriage to Zal produce Rostam.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama01firduoft",
+        "locator": "Vol. I, pp. 237–334, ‘Minuchihr’ (Zal, Rudaba, and birth of Rustam)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-018",
+    "canonical_name": "Rostam",
+    "aliases": [
+      "Rustam",
+      "Rustum"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The poem’s pre-eminent Iranian hero: son of Zal and Rudabeh, rider of Rakhsh, killer of Sohrab and Esfandiyar, and finally betrayed by Shaghad.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pahlavān (hero/champion)",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping; pahlavān is historically and poetically broader than a modern combat role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 29–76, ‘Kai Kaus: The War with Mazandaran’ and ‘The Seven Courses of Rustam’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-019",
+    "canonical_name": "Rakhsh",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Rostam’s named horse and active companion, notably fighting a lion during the Seven Courses and sharing the hero’s final trap.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Rakhsh, named horse",
+          "archetype_ids": [],
+          "confidence": "high",
+          "note": "Named animal companion; no generic legendary-beast type is asserted."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 29–76, ‘Kai Kaus: The War with Mazandaran’ and ‘The Seven Courses of Rustam’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-020",
+    "canonical_name": "Kay Kavus",
+    "aliases": [
+      "Kai Kaus",
+      "Kāvūs"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Kayanian king whose impulsive ventures, including Mazandaran and ascent to the sky, repeatedly require Rostam’s rescue.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 29–76, ‘Kai Kaus: The War with Mazandaran’ and ‘The Seven Courses of Rustam’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-021",
+    "canonical_name": "Sudabeh",
+    "aliases": [
+      "Sudaba"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Kay Kavus’s wife, whose desire for Siyavash and accusations against him trigger the fire ordeal episode.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-022",
+    "canonical_name": "Sohrab",
+    "aliases": [
+      "Suhrab"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The formidable son of Rostam and Tahmineh, who fights his unrecognized father and dies from Rostam’s wound.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic death in the poem",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical narrative comparison, not a source-native category."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 119–184, ‘Suhrab’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-023",
+    "canonical_name": "Tahmineh",
+    "aliases": [
+      "Tahmina"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Daughter of the king of Samangan; she meets Rostam, bears Sohrab, and receives news of her son’s death.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 119–184, ‘Suhrab’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-024",
+    "canonical_name": "Gordafarid",
+    "aliases": [
+      "Gurdafrid"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "A named woman warrior who fights Sohrab at the White Castle and delays him through courage and stratagem.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pahlavān (hero/champion)",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping; pahlavān is historically and poetically broader than a modern combat role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 119–184, ‘Suhrab’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-025",
+    "canonical_name": "Siyavash",
+    "aliases": [
+      "Siyāwakhsh",
+      "Siyawush"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Kay Kavus’s son, trained by Rostam; he passes through fire, makes peace with Afrasiyab, and is killed after Garsivaz’s intrigue.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic death in the poem",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical narrative comparison, not a source-native category."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-026",
+    "canonical_name": "Farangis",
+    "aliases": [],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Afrasiyab’s daughter, wife of Siyavash, and mother of Kay Khosrow; she preserves the familial link across the Iranian–Turanian conflict.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-027",
+    "canonical_name": "Afrasiyab",
+    "aliases": [
+      "Afrāsiāb"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "King of Turan, opponent of Iranian kings and Rostam; he receives Siyavash, later orders his death, and is ultimately defeated by Kay Khosrow.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-028",
+    "canonical_name": "Garsivaz",
+    "aliases": [
+      "Garsīvaz"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Afrasiyab’s brother and agent whose hostile reports help turn Afrasiyab against Siyavash.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-029",
+    "canonical_name": "Piran",
+    "aliases": [
+      "Pīrān"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Turanian noble and counselor who mediates around Siyavash and later figures prominently in the wars of Kay Khosrow.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama02firduoft",
+        "locator": "Vol. II, pp. 191–284, ‘The Story of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-030",
+    "canonical_name": "Kay Khosrow",
+    "aliases": [
+      "Kai Khusrau",
+      "Kay Khosrau"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Son of Siyavash and Farangis, raised within Turan and restored as Iranian king; he prosecutes the war that ends Afrasiyab’s rule.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, pp. 1–420, ‘Kai Khusrau’ and ‘The Story of Farud the Son of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-031",
+    "canonical_name": "Giv",
+    "aliases": [
+      "Giv the son of Gudarz"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Iranian champion who finds and brings Kay Khosrow from Turan, and acts in the later wars.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pahlavān (hero/champion)",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping; pahlavān is historically and poetically broader than a modern combat role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, pp. 1–420, ‘Kai Khusrau’ and ‘The Story of Farud the Son of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-032",
+    "canonical_name": "Bijan",
+    "aliases": [
+      "Bīzhan",
+      "Bizhan"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Iranian hero, son of Giv, imprisoned by Afrasiyab after his affair with Manizheh and rescued by Rostam.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pahlavān (hero/champion)",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping; pahlavān is historically and poetically broader than a modern combat role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, pp. 1–420, ‘Kai Khusrau’ and ‘The Story of Farud the Son of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-033",
+    "canonical_name": "Manizheh",
+    "aliases": [
+      "Manīzheh"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Afrasiyab’s daughter who loves Bijan and sustains him during his imprisonment, despite her father’s hostility.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama03firduoft",
+        "locator": "Vol. III, pp. 1–420, ‘Kai Khusrau’ and ‘The Story of Farud the Son of Siyawush’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-034",
+    "canonical_name": "Lohrasp",
+    "aliases": [
+      "Luhrasp"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The king to whom Kay Khosrow gives the kingship; he later withdraws to Balkh and is killed in Arjasp’s assault.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama04firduoft",
+        "locator": "Vol. IV, pp. 158–316, ‘The Great War of Kai Khusrau with Afrasiyab’ and ‘Luhrasp’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-035",
+    "canonical_name": "Goshtasp",
+    "aliases": [
+      "Gushtasp",
+      "Vishtāspa"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Lohrasp’s son and successor, recipient of Zardusht’s evangel in the poem and father of Esfandiyar.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 31–114, ‘The Coming of Zarduhsht and the War with Arjasp’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-036",
+    "canonical_name": "Katayun",
+    "aliases": [
+      "Katāyun"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Goshtasp’s wife and Esfandiyar’s mother; she counsels Esfandiyar when his conflict with Rostam escalates.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 167–256, ‘The Story of Asfandiyar’s Fight with Rustam’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-037",
+    "canonical_name": "Zardusht (Zoroaster)",
+    "aliases": [
+      "Zarduhsht",
+      "Zarathustra"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The religious teacher who appears to Goshtasp and whose evangel is accepted in the poem’s Goshtasp sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 31–114, ‘The Coming of Zarduhsht and the War with Arjasp’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-038",
+    "canonical_name": "Arjasp",
+    "aliases": [
+      "Arjāsp"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The hostile ruler who demands tribute from Goshtasp, wars against Iran, and is eventually killed by Esfandiyar.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 31–114, ‘The Coming of Zarduhsht and the War with Arjasp’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-039",
+    "canonical_name": "Zarir",
+    "aliases": [
+      "Zarīr"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Goshtasp’s brother and commander, killed in the war with Arjasp; his death helps draw Esfandiyar into battle.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "pahlavān (hero/champion)",
+          "archetype_ids": [
+            "ROL-139"
+          ],
+          "confidence": "moderate",
+          "note": "Functional mapping; pahlavān is historically and poetically broader than a modern combat role."
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 31–114, ‘The Coming of Zarduhsht and the War with Arjasp’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-040",
+    "canonical_name": "Esfandiyar",
+    "aliases": [
+      "Asfandiyār",
+      "Isfandiyar"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Goshtasp’s son and heroic claimant who defeats Arjasp, then is sent against Rostam and dies from Rostam’s arrow.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic death in the poem",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical narrative comparison, not a source-native category."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 167–256, ‘The Story of Asfandiyar’s Fight with Rustam’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-041",
+    "canonical_name": "Bahman",
+    "aliases": [
+      "Bahman son of Esfandiyar"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Esfandiyar’s son and emissary to Rostam; after the conflict he becomes king and seeks revenge upon Zal’s house.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 263–292, ‘The Story of Rustam and Shaghad’ and ‘Bahman’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-042",
+    "canonical_name": "Shaghad",
+    "aliases": [
+      "Shaghād"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Rostam’s half-brother, who conspires in the pit-trap that mortally wounds Rostam and Rakhsh; Rostam kills him with a final arrow.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 263–292, ‘The Story of Rustam and Shaghad’ and ‘Bahman’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-043",
+    "canonical_name": "Humay",
+    "aliases": [
+      "Humāy",
+      "Humay Chehrzad"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "A later Kayanian queen who succeeds Bahman in the poem’s dynastic sequence.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama05firduoft",
+        "locator": "Vol. V, pp. 293–311, ‘Humai’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-044",
+    "canonical_name": "Darab",
+    "aliases": [
+      "Dārāb"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "A later king in the poem’s legendary-historical sequence; father of Dara and a central figure in the transition to the Sikandar narrative.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 20–50, ‘Darab,’ ‘Dara,’ and ‘Sikandar’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-045",
+    "canonical_name": "Dara",
+    "aliases": [
+      "Dārā"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Darab’s son and king who fights Sikandar, is defeated, and dies after betrayal by his ministers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "tragic death in the poem",
+          "archetype_ids": [
+            "NAR-112"
+          ],
+          "confidence": "moderate",
+          "note": "Analytical narrative comparison, not a source-native category."
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 20–50, ‘Darab,’ ‘Dara,’ and ‘Sikandar’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-046",
+    "canonical_name": "Sikandar",
+    "aliases": [
+      "Iskandar",
+      "Alexander"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "The poem’s Sikandar: Dara’s victorious opponent who receives Dara’s final wishes and enters a distinct Iranian legendary Alexander cycle.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 20–50, ‘Darab,’ ‘Dara,’ and ‘Sikandar’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-047",
+    "canonical_name": "Ardashir Papakan",
+    "aliases": [
+      "Ardshir",
+      "Ardashir son of Papak"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Founder-king figure in the poem’s later sequence, whose rise and rule are narrated before the reign of his son Shapur.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 216–286, ‘Ardshir Papakan’ and ‘Shapur, Son of Ardshir’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-048",
+    "canonical_name": "Shapur son of Ardashir",
+    "aliases": [
+      "Shapur",
+      "Shāpūr"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Ardashir’s son and successor, whose reign includes wars, diplomacy, and the birth of his heir Urmuzd.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 216–286, ‘Ardshir Papakan’ and ‘Shapur, Son of Ardshir’",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC011-049",
+    "canonical_name": "Bahram Gur",
+    "aliases": [
+      "Bahrām Gūr"
+    ],
+    "source_id": "SRC-011",
+    "source_title": "Shāhnāmeh (The Book of Kings)",
+    "continuity": "Ferdowsi's Shāhnāmeh, Warner & Warner translation witness",
+    "work_or_witness": "The Shahnama of Firdausi, trans. Arthur George Warner and Edmond Warner (1905–1925)",
+    "character_kind": "individual",
+    "description": "Later Sasanian king in the poem’s dynastic sequence, represented in the Warner witness under the Bahram succession narrative.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human ruler or hero",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Analytical baseline only; the poem’s dynastic, Iranian, and Turanian identities are not biological subtypes."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "Included named agent in the identified poem witness; not an adaptation-only record.",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://archive.org/details/shahnama06firduoft",
+        "locator": "Vol. VI, pp. 374–409, ‘Yazdagird, Son of Shapur,’ sections 2–13 (Bahram Gur)",
+        "supports": [
+          "The character’s name, role, and actions stated in the description."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a record of Ferdowsi’s poem through the identified translation. It does not establish identity with earlier Iranian mythic traditions, later oral epic, or modern adaptations."
+    ],
+    "spoiler_level": "moderate",
+    "review_status": "researched"
+  }
+]

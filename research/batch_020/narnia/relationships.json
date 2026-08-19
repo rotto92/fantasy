@@ -1,0 +1,275 @@
+[
+  {
+    "relationship_id": "REL-SRC030-001",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-001",
+    "target_character_id": "CHR-SRC030-002",
+    "relationship_type": "kin",
+    "label": "Lucy and Edmund are Pevensie siblings.",
+    "direction": "undirected",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 1–5",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 1–5",
+        "supports": [
+          "The four Pevensie children are introduced as siblings."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Family relationship only; no later family history is used."
+  },
+  {
+    "relationship_id": "REL-SRC030-002",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-001",
+    "target_character_id": "CHR-SRC030-003",
+    "relationship_type": "kin",
+    "label": "Lucy and Peter are Pevensie siblings.",
+    "direction": "undirected",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 1–5",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 1–5",
+        "supports": [
+          "The four Pevensie children are introduced as siblings."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Family relationship only."
+  },
+  {
+    "relationship_id": "REL-SRC030-003",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-001",
+    "target_character_id": "CHR-SRC030-004",
+    "relationship_type": "kin",
+    "label": "Lucy and Susan are Pevensie siblings.",
+    "direction": "undirected",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 1–5",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 1–5",
+        "supports": [
+          "The four Pevensie children are introduced as siblings."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Family relationship only."
+  },
+  {
+    "relationship_id": "REL-SRC030-004",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-002",
+    "target_character_id": "CHR-SRC030-003",
+    "relationship_type": "kin",
+    "label": "Edmund and Peter are Pevensie siblings.",
+    "direction": "undirected",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 1–5",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 1–5",
+        "supports": [
+          "The four Pevensie children are introduced as siblings."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Family relationship only."
+  },
+  {
+    "relationship_id": "REL-SRC030-005",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-002",
+    "target_character_id": "CHR-SRC030-004",
+    "relationship_type": "kin",
+    "label": "Edmund and Susan are Pevensie siblings.",
+    "direction": "undirected",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 1–5",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 1–5",
+        "supports": [
+          "The four Pevensie children are introduced as siblings."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Family relationship only."
+  },
+  {
+    "relationship_id": "REL-SRC030-006",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-003",
+    "target_character_id": "CHR-SRC030-004",
+    "relationship_type": "kin",
+    "label": "Peter and Susan are Pevensie siblings.",
+    "direction": "undirected",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 1–5",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 1–5",
+        "supports": [
+          "The four Pevensie children are introduced as siblings."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Family relationship only."
+  },
+  {
+    "relationship_id": "REL-SRC030-007",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-005",
+    "target_character_id": "CHR-SRC030-001",
+    "relationship_type": "companion",
+    "label": "Mr Tumnus receives Lucy during her first visit to Narnia and helps her return through the wardrobe.",
+    "direction": "undirected",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapter 2",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapter 2, “What Lucy Found There”",
+        "supports": [
+          "Lucy meets Tumnus, visits his home, and returns after he refuses to surrender her."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "A single-visit companionship/host relation, not an imported later friendship history."
+  },
+  {
+    "relationship_id": "REL-SRC030-008",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-008",
+    "target_character_id": "CHR-SRC030-002",
+    "relationship_type": "other",
+    "label": "The White Witch pressures Edmund to bring the other Pevensies to her and later holds him under her control.",
+    "direction": "directed",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 4, 8–13",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 4, 8–13",
+        "supports": [
+          "The Witch's inducement, demand, and control of Edmund are narrated."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "‘Other’ preserves coercion without mislabeling it as voluntary alliance or kinship."
+  },
+  {
+    "relationship_id": "REL-SRC030-009",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-006",
+    "target_character_id": "CHR-SRC030-001",
+    "relationship_type": "other",
+    "label": "Mr Beaver guides Lucy toward Aslan's meeting place.",
+    "direction": "directed",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 6–8",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 6–8",
+        "supports": [
+          "Mr Beaver informs and leads the Pevensies during the journey toward Aslan."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "The guide relation is restricted to the stated journey."
+  },
+  {
+    "relationship_id": "REL-SRC030-010",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-006",
+    "target_character_id": "CHR-SRC030-002",
+    "relationship_type": "other",
+    "label": "Mr Beaver guides Edmund before he separates from the group.",
+    "direction": "directed",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 6–8",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 6–8",
+        "supports": [
+          "Mr Beaver gives the Pevensies information and sets their immediate route before Edmund's departure."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Journey-local relation only."
+  },
+  {
+    "relationship_id": "REL-SRC030-011",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-006",
+    "target_character_id": "CHR-SRC030-003",
+    "relationship_type": "other",
+    "label": "Mr Beaver guides Peter toward Aslan's meeting place.",
+    "direction": "directed",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 6–8",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 6–8",
+        "supports": [
+          "Mr Beaver informs and leads the Pevensies during the journey toward Aslan."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Journey-local relation only."
+  },
+  {
+    "relationship_id": "REL-SRC030-012",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-006",
+    "target_character_id": "CHR-SRC030-004",
+    "relationship_type": "other",
+    "label": "Mr Beaver guides Susan toward Aslan's meeting place.",
+    "direction": "directed",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 6–8",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 6–8",
+        "supports": [
+          "Mr Beaver informs and leads the Pevensies during the journey toward Aslan."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Journey-local relation only."
+  },
+  {
+    "relationship_id": "REL-SRC030-013",
+    "source_id": "SRC-030",
+    "source_character_id": "CHR-SRC030-007",
+    "target_character_id": "CHR-SRC030-008",
+    "relationship_type": "opponent",
+    "label": "Aslan and the White Witch contest Edmund's fate and command opposing sides in the final conflict.",
+    "direction": "undirected",
+    "continuity": "The Lion, the Witch and the Wardrobe (1950), Chapters 11–16",
+    "citations": [
+      {
+        "url": "https://books.google.com/books/about/The_Lion_the_Witch_and_the_Wardrobe.html?id=hn9WAAAAYAAJ",
+        "locator": "Chapters 11–16",
+        "supports": [
+          "Aslan and the Witch confront each other over Edmund, the Stone Table event, and the subsequent opposing forces are narrated."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Central novel-local conflict; no theological equivalence is implied."
+  }
+]

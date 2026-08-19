@@ -1,0 +1,172 @@
+[
+  {
+    "term_id": "STM-SRC047-001",
+    "record_kind": "source-term",
+    "source_id": "SRC-047",
+    "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · Orbit edition page: contributors, on-sale date, publisher, ISBN-13, and ‘Translated from original Polish by Danusia Stok’",
+    "canonical_term": "The Last Wish (Orbit 2022, Danusia Stok translation)",
+    "original_language": "English",
+    "original_script": "The Last Wish",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "narrative_archetypes",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The selected Orbit English-language edition of Andrzej Sapkowski’s collection, credited by the publisher as translated from Polish by Danusia Stok.",
+    "cultural_caution": "This is an edition and translation boundary, not a claim that its English wording equals the Polish original or other translations. It remains separate from games, screen adaptations, comics, later books, and folklore traditions.",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "Orbit edition page: contributors, on-sale date, publisher, ISBN-13, and ‘Translated from original Polish by Danusia Stok’",
+        "supports": [
+          "author", "translator", "publisher", "2022 edition date", "ISBN", "translation from Polish"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC047-002",
+    "record_kind": "source-term",
+    "source_id": "SRC-047",
+    "work_or_witness": "publisher description, paragraphs beginning ‘Geralt the Witcher’ and ‘Geralt is a Witcher’; The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+    "canonical_term": "witcher",
+    "original_language": "English",
+    "original_script": "Witcher",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "roles_and_vocations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The English edition’s source term for Geralt’s fantasy vocation/category, framed by the publisher as training- and magic-associated monster hunting.",
+    "cultural_caution": "A translated fictional term, not a real occupation, ethnic/racial category, caste, gender category, diagnosis, disability category, religion, or generic game class. The collection-level description does not settle every witcher’s history or ethics.",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "publisher description, paragraphs beginning ‘Geralt the Witcher’ and ‘Geralt is a Witcher’",
+        "supports": [
+          "English term ‘Witcher’", "publisher’s limited training/magic/monster-hunter framing"
+        ]
+      },
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+        "supports": [
+          "witcher term applied to Geralt in the selected story section"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC047-003",
+    "record_kind": "source-term",
+    "source_id": "SRC-047",
+    "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · publisher description, ‘monsters plaguing humanity’ and ‘monsters that plague the world’ wording; The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+    "canonical_term": "monster",
+    "original_language": "English",
+    "original_script": "monsters",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The collection-level English term for dangerous fantastical beings that Geralt is presented as hunting; the selected opening section sets a local monster-contract context.",
+    "cultural_caution": "A fictional and translation-bound category. It is not applied to real people or cultures, does not establish moral evil from appearance, and does not substitute for a named individual character record.",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "publisher description, ‘monsters plaguing humanity’ and ‘monsters that plague the world’ wording",
+        "supports": [
+          "collection-level English monster terminology", "Geralt’s hunting framing"
+        ]
+      },
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+        "supports": [
+          "local monster-contract context in the selected opening section"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC047-004",
+    "record_kind": "source-term",
+    "source_id": "SRC-047",
+    "work_or_witness": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+    "canonical_term": "Wyzima",
+    "original_language": "English",
+    "original_script": "Wyzima",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "cosmologies_and_realms",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The named fictional settlement/court setting of the selected opening story section.",
+    "cultural_caution": "A fictional place term, not a character node and not a statement about real places, nations, ethnicities, social classes, monarchy, or a game/screen adaptation map.",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+        "supports": [
+          "Wyzima as the selected section’s immediate setting"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC047-005",
+    "record_kind": "source-term",
+    "source_id": "SRC-047",
+    "work_or_witness": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+    "canonical_term": "striga",
+    "original_language": "English",
+    "original_script": "striga",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "being_types",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The named fictional monster term in the selected Section I contract discussion.",
+    "cultural_caution": "Retained only as the English translation’s fictional source term. No claim is made that it exactly represents a Polish, Slavic, or any other folklore being, nor is it a character node, diagnosis, gender category, or basis for graphic depiction.",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "The Last Wish, trans. Danusia Stok, Orbit 2022, ‘The Witcher,’ Section I (printed primary witness)",
+        "supports": [
+          "striga as the named monster term in the Section I contract discussion"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  },
+  {
+    "term_id": "STM-SRC047-006",
+    "record_kind": "source-term",
+    "source_id": "SRC-047",
+    "work_or_witness": "The Witcher (Sapkowski books) — The Last Wish, ‘The Witcher,’ Section I · publisher description, paragraph beginning ‘Geralt is a Witcher’",
+    "canonical_term": "mysterious elixir",
+    "original_language": "English",
+    "original_script": "mysterious elixir",
+    "transliteration": "",
+    "literal_gloss": "",
+    "dimension": "states_and_transformations",
+    "archetype_ids": [],
+    "mapping_relation": "none",
+    "definition": "The publisher’s collection-level English wording for an unspecified element associated with Geralt’s abilities and training.",
+    "cultural_caution": "This broad promotional wording is not used to specify ingredients, mechanism, consent, age, bodily alteration, fertility/infertility, disability, medical condition, or a universal witcher process; none of those claims is supported by the selected section.",
+    "citations": [
+      {
+        "url": "https://orbitgoldeditions.com/titles/andrzej-sapkowski/the-last-wish/9780316452465/",
+        "locator": "publisher description, paragraph beginning ‘Geralt is a Witcher’",
+        "supports": [
+          "the publisher’s ‘mysterious elixir’ wording"
+        ]
+      }
+    ],
+    "review_status": "researched"
+  }
+]

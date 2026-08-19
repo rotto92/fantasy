@@ -1,0 +1,1968 @@
+[
+  {
+    "character_id": "CHR-SRC021-001",
+    "canonical_name": "Tepeu",
+    "aliases": [],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 1: primordial deliberation",
+    "character_kind": "individual",
+    "description": "Creator named with Gucumatz in the deliberation that begins creation.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "K’iche’ creator/divine agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; do not turn K’iche’ sacred figures into a generic pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "creation through speech and thought",
+          "archetype_ids": [
+            "PWR-504",
+            "PWR-413"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 67–72",
+        "supports": [
+          "Creator named with Gucumatz in the deliberation that begins creation."
+        ]
+      },
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PV-Original.pdf",
+        "locator": "Folio 1 recto, transcription lines 150–180",
+        "supports": [
+          "Direct K’iche’ transcription of the Tepeu/Gucumatz naming in the opening deliberation."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Translation of names/titles differs among editions; this record follows Christenson’s spelling."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-002",
+    "canonical_name": "Gucumatz",
+    "aliases": [
+      "Q’ukumatz"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 1: primordial deliberation",
+    "character_kind": "individual",
+    "description": "Creator named with Tepeu in the initial deliberation of creation.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "K’iche’ creator/divine agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; do not turn K’iche’ sacred figures into a generic pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "creation through speech and thought",
+          "archetype_ids": [
+            "PWR-504",
+            "PWR-413"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 67–72",
+        "supports": [
+          "Creator named with Tepeu in the initial deliberation of creation."
+        ]
+      },
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PV-Original.pdf",
+        "locator": "Folio 1 recto, transcription lines 150–180",
+        "supports": [
+          "Direct K’iche’ transcription of the Tepeu/Gucumatz naming in the opening deliberation."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-003",
+    "canonical_name": "Heart of Sky",
+    "aliases": [
+      "Uk’u’x Kaj",
+      "Huracán"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 1: primordial deliberation",
+    "character_kind": "individual",
+    "description": "Creative power called on in the making of land and early beings.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "K’iche’ creator/divine agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; do not turn K’iche’ sacred figures into a generic pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "creation and storm",
+          "archetype_ids": [
+            "PWR-413",
+            "PWR-206"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: primordial deliberation; Christenson 2007, pp. 70–76",
+        "supports": [
+          "Creative power called on in the making of land and early beings."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "“Heart of Sky” and Huracán are translation/title choices; do not treat them as unqualified equivalents across K’iche’ traditions."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-004",
+    "canonical_name": "Xpiyacoc",
+    "aliases": [
+      "Xpiacoc"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 1: divination and first people",
+    "character_kind": "individual",
+    "description": "Elder diviner consulted in the creation of the successful people.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "K’iche’ creator/divine agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; do not turn K’iche’ sacred figures into a generic pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "diviner",
+          "archetype_ids": [
+            "ROL-316"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "divination",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: divination and first people; Christenson 2007, pp. 77–86",
+        "supports": [
+          "Elder diviner consulted in the creation of the successful people."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-005",
+    "canonical_name": "Xmucane",
+    "aliases": [
+      "Xmucané"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 1: divination and first people",
+    "character_kind": "individual",
+    "description": "Elder diviner and grandmother in the creation and Hero Twins narratives.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "K’iche’ creator/divine agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; do not turn K’iche’ sacred figures into a generic pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "diviner",
+          "archetype_ids": [
+            "ROL-316"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "divination",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 1: divination and first people; Christenson 2007, pp. 77–86",
+        "supports": [
+          "Elder diviner and grandmother in the creation and Hero Twins narratives."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Kinship title and divine status are narrative-contextual; no modern religious-office mapping is asserted."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-006",
+    "canonical_name": "Seven Macaw",
+    "aliases": [
+      "Vucub Caquix"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 2: defeat of Seven Macaw",
+    "character_kind": "individual",
+    "description": "Proud being who claims sun and moon status before the true lights exist and is defeated by the Hero Twins’ family.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "extraordinary being",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No non-flattening workbook being type is selected."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "boastful rival",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw; Christenson 2007, pp. 87–104",
+        "supports": [
+          "Proud being who claims sun and moon status before the true lights exist and is defeated by the Hero Twins’ family."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-007",
+    "canonical_name": "Zipacna",
+    "aliases": [],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 2: defeat of Seven Macaw’s sons",
+    "character_kind": "individual",
+    "description": "Son of Seven Macaw who claims to move mountains and is deceived and defeated.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "extraordinary being",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No non-flattening workbook being type is selected."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "mountain-moving strength",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw’s sons; Christenson 2007, pp. 94–101",
+        "supports": [
+          "Son of Seven Macaw who claims to move mountains and is deceived and defeated."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-008",
+    "canonical_name": "Cabracan",
+    "aliases": [
+      "Cabrakán"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 2: defeat of Seven Macaw’s sons",
+    "character_kind": "individual",
+    "description": "Son of Seven Macaw associated with shaking mountains and defeated by the twins.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "extraordinary being",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": "No non-flattening workbook being type is selected."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [
+        {
+          "term": "earth-shaking force",
+          "archetype_ids": [
+            "PWR-205"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 2: defeat of Seven Macaw’s sons; Christenson 2007, pp. 100–104",
+        "supports": [
+          "Son of Seven Macaw associated with shaking mountains and defeated by the twins."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-009",
+    "canonical_name": "One Hunahpu",
+    "aliases": [
+      "Jun Junajpu"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: first ballplayers",
+    "character_kind": "individual",
+    "description": "Father of the Hero Twins, summoned to Xibalba with Seven Hunahpu and killed after the ballgame trials.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ballplayer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "death in Xibalba",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld-realm mapping only."
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: first ballplayers; Christenson 2007, pp. 105–112",
+        "supports": [
+          "Father of the Hero Twins, summoned to Xibalba with Seven Hunahpu and killed after the ballgame trials."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-010",
+    "canonical_name": "Seven Hunahpu",
+    "aliases": [
+      "Vucub Junajpu"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: first ballplayers",
+    "character_kind": "individual",
+    "description": "Brother and ballgame companion of One Hunahpu, killed in Xibalba.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "ballplayer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "death in Xibalba",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: first ballplayers; Christenson 2007, pp. 105–112",
+        "supports": [
+          "Brother and ballgame companion of One Hunahpu, killed in Xibalba."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-011",
+    "canonical_name": "One Monkey",
+    "aliases": [
+      "Jun B’atz’"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: household before the twins",
+    "character_kind": "individual",
+    "description": "Older half-brother whose jealous treatment of the Hero Twins ends in transformation into a monkey.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "artist/scribe",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "monkey transformation",
+          "archetype_ids": [
+            "PWR-309",
+            "STA-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: household before the twins; Christenson 2007, pp. 112–119",
+        "supports": [
+          "Older half-brother whose jealous treatment of the Hero Twins ends in transformation into a monkey."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-012",
+    "canonical_name": "One Artisan",
+    "aliases": [
+      "Jun Chouen"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: household before the twins",
+    "character_kind": "individual",
+    "description": "Older half-brother transformed with One Monkey after mistreating the Hero Twins.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "artist/scribe",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "monkey transformation",
+          "archetype_ids": [
+            "PWR-309",
+            "STA-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: household before the twins; Christenson 2007, pp. 112–119",
+        "supports": [
+          "Older half-brother transformed with One Monkey after mistreating the Hero Twins."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-013",
+    "canonical_name": "Blood Moon",
+    "aliases": [
+      "Xquic"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: conception of the Hero Twins",
+    "character_kind": "individual",
+    "description": "Daughter of a Xibalba lord who receives One Hunahpu’s seed from his skull and bears the twins.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [
+        {
+          "term": "pregnancy",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: conception of the Hero Twins; Christenson 2007, pp. 119–124",
+        "supports": [
+          "Daughter of a Xibalba lord who receives One Hunahpu’s seed from his skull and bears the twins."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "The English name is a translation of a K’iche’ personal name; retain the alias rather than treating the gloss as exact."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-014",
+    "canonical_name": "Hunahpu",
+    "aliases": [
+      "Junajpu"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Hero Twins",
+    "character_kind": "individual",
+    "description": "One of the Hero Twins; defeats Seven Macaw’s family and the Xibalba lords with Xbalanque.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "heroic ballplayer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "transformation and performance",
+          "archetype_ids": [
+            "PWR-309"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "hero twin",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Hero Twins; Christenson 2007, pp. 124–155",
+        "supports": [
+          "One of the Hero Twins; defeats Seven Macaw’s family and the Xibalba lords with Xbalanque."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-015",
+    "canonical_name": "Xbalanque",
+    "aliases": [
+      "Xb’alanke"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Hero Twins",
+    "character_kind": "individual",
+    "description": "One of the Hero Twins; acts with Hunahpu in the Xibalba trials and transformations.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "heroic ballplayer",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [
+        {
+          "term": "transformation and performance",
+          "archetype_ids": [
+            "PWR-309"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [
+        {
+          "term": "hero twin",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Hero Twins; Christenson 2007, pp. 124–155",
+        "supports": [
+          "One of the Hero Twins; acts with Hunahpu in the Xibalba trials and transformations."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-016",
+    "canonical_name": "One Death",
+    "aliases": [
+      "Jun Kame"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Senior lord of Xibalba who summons the first ballplayers and later confronts the Hero Twins.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Xibalba ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 105–155",
+        "supports": [
+          "Senior lord of Xibalba who summons the first ballplayers and later confronts the Hero Twins."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-017",
+    "canonical_name": "Seven Death",
+    "aliases": [
+      "Vucub Kame"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Senior lord of Xibalba who acts with One Death in the trials.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "Xibalba ruler",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 105–155",
+        "supports": [
+          "Senior lord of Xibalba who acts with One Death in the trials."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-018",
+    "canonical_name": "Pus Master",
+    "aliases": [
+      "Ahal Puh"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Named Xibalba lord in the array of trial-makers confronted by the twins.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Named Xibalba lord in the array of trial-makers confronted by the twins."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-019",
+    "canonical_name": "Blood Gatherer",
+    "aliases": [
+      "Ahal Gana"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Named Xibalba lord in the array of trial-makers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Named Xibalba lord in the array of trial-makers."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-020",
+    "canonical_name": "Pus Demon",
+    "aliases": [
+      "Chamiabac"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Named Xibalba lord in the array of trial-makers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Named Xibalba lord in the array of trial-makers."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-021",
+    "canonical_name": "Jaundice Demon",
+    "aliases": [
+      "Chami Holom"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Named Xibalba lord in the array of trial-makers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Named Xibalba lord in the array of trial-makers."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-022",
+    "canonical_name": "Bone Scepter",
+    "aliases": [
+      "Ahal Mez"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Named Xibalba lord in the array of trial-makers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Named Xibalba lord in the array of trial-makers."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-023",
+    "canonical_name": "Skull Scepter",
+    "aliases": [
+      "Ahal Tohob"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Named Xibalba lord in the array of trial-makers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Named Xibalba lord in the array of trial-makers."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-024",
+    "canonical_name": "Wing",
+    "aliases": [
+      "Xic"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Named Xibalba lord in the array of trial-makers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Named Xibalba lord in the array of trial-makers."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-025",
+    "canonical_name": "Packstrap",
+    "aliases": [
+      "Patan"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 3: Xibalba trials",
+    "character_kind": "individual",
+    "description": "Named Xibalba lord in the array of trial-makers.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "Xibalba lord",
+          "archetype_ids": [
+            "PPL-1102"
+          ],
+          "confidence": "moderate",
+          "note": "Functional Otherworld mapping only; Xibalba is not a generic hell."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [
+        {
+          "term": "Xibalba",
+          "archetype_ids": [
+            "COS-211"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 3: Xibalba trials; Christenson 2007, pp. 132–155",
+        "supports": [
+          "Named Xibalba lord in the array of trial-makers."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-026",
+    "canonical_name": "Balam Quitze",
+    "aliases": [
+      "B’alam Q’itze’"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 4: creation of people and K’iche’ ancestors",
+    "character_kind": "individual",
+    "description": "One of the first four named people made from maize and an ancestor in the K’iche’ genealogy.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "first four people",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: creation of people and K’iche’ ancestors; Christenson 2007, pp. 156–176",
+        "supports": [
+          "One of the first four named people made from maize and an ancestor in the K’iche’ genealogy."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "This is a narrative genealogy in a colonial-era K’iche’ text, not a biological or racial origin claim."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-027",
+    "canonical_name": "Balam Acab",
+    "aliases": [
+      "B’alam Aq’ab’"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 4: creation of people and K’iche’ ancestors",
+    "character_kind": "individual",
+    "description": "One of the first four named people made from maize.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "first four people",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: creation of people and K’iche’ ancestors; Christenson 2007, pp. 156–176",
+        "supports": [
+          "One of the first four named people made from maize."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-028",
+    "canonical_name": "Mahucutah",
+    "aliases": [
+      "Majukutaj"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 4: creation of people and K’iche’ ancestors",
+    "character_kind": "individual",
+    "description": "One of the first four named people made from maize.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "first four people",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: creation of people and K’iche’ ancestors; Christenson 2007, pp. 156–176",
+        "supports": [
+          "One of the first four named people made from maize."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-029",
+    "canonical_name": "Iqui Balam",
+    "aliases": [
+      "Ik’i B’alam"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 4: creation of people and K’iche’ ancestors",
+    "character_kind": "individual",
+    "description": "One of the first four named people made from maize.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "human/person",
+          "archetype_ids": [
+            "PPL-101"
+          ],
+          "confidence": "high",
+          "note": "Narrative personhood, not an ethnic taxonomy."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [],
+      "power_traditions": [],
+      "affiliations": [
+        {
+          "term": "first four people",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: creation of people and K’iche’ ancestors; Christenson 2007, pp. 156–176",
+        "supports": [
+          "One of the first four named people made from maize."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-030",
+    "canonical_name": "Tohil",
+    "aliases": [
+      "Tojil"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 4: ancestral migration and patronage",
+    "character_kind": "individual",
+    "description": "Patron figure who gives fire to the K’iche’ ancestors and is central to their migration account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "K’iche’ creator/divine agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; do not turn K’iche’ sacred figures into a generic pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "patron",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [
+        {
+          "term": "gift and reciprocal obligation",
+          "archetype_ids": [
+            "LAW-211",
+            "LAW-213"
+          ],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: ancestral migration and patronage; Christenson 2007, pp. 176–205",
+        "supports": [
+          "Patron figure who gives fire to the K’iche’ ancestors and is central to their migration account."
+        ]
+      }
+    ],
+    "comparison_cautions": [
+      "Do not reduce patronage, offerings, or K’iche’ sacred relations to a game resource exchange."
+    ],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-031",
+    "canonical_name": "Avilix",
+    "aliases": [
+      "Awilix"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 4: ancestral migration and patronage",
+    "character_kind": "individual",
+    "description": "Patron figure associated with a K’iche’ ancestral line in the migration account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "K’iche’ creator/divine agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; do not turn K’iche’ sacred figures into a generic pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "patron",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: ancestral migration and patronage; Christenson 2007, pp. 176–205",
+        "supports": [
+          "Patron figure associated with a K’iche’ ancestral line in the migration account."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  },
+  {
+    "character_id": "CHR-SRC021-032",
+    "canonical_name": "Hacavitz",
+    "aliases": [
+      "Jaqawitz"
+    ],
+    "source_id": "SRC-021",
+    "source_title": "Popol Vuh",
+    "continuity": "K’iche’ manuscript tradition as translated by Allen J. Christenson (2007)",
+    "work_or_witness": "Part 4: ancestral migration and patronage",
+    "character_kind": "individual",
+    "description": "Patron figure associated with a K’iche’ ancestral line in the migration account.",
+    "dimensions": {
+      "being_types": [
+        {
+          "term": "K’iche’ creator/divine agent",
+          "archetype_ids": [
+            "PPL-401"
+          ],
+          "confidence": "moderate",
+          "note": "Partial analytical mapping only; do not turn K’iche’ sacred figures into a generic pantheon."
+        }
+      ],
+      "cultures": [],
+      "roles_and_vocations": [
+        {
+          "term": "patron",
+          "archetype_ids": [],
+          "confidence": "moderate",
+          "note": ""
+        }
+      ],
+      "power_traditions": [],
+      "affiliations": [],
+      "states_and_transformations": [],
+      "artifacts_and_vehicles": [],
+      "cosmologies_and_realms": [],
+      "metaphysical_laws_and_rituals": [],
+      "narrative_archetypes": [],
+      "game_mechanics": []
+    },
+    "canon_status": "attested in the declared translation/witness scope",
+    "evidence_level": "primary-text",
+    "citations": [
+      {
+        "url": "https://www.mesoweb.com/publications/Christenson/PopolVuh.pdf",
+        "locator": "Part 4: ancestral migration and patronage; Christenson 2007, pp. 176–205",
+        "supports": [
+          "Patron figure associated with a K’iche’ ancestral line in the migration account."
+        ]
+      }
+    ],
+    "comparison_cautions": [],
+    "spoiler_level": "major",
+    "review_status": "researched"
+  }
+]

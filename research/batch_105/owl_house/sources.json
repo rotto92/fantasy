@@ -1,0 +1,18 @@
+[
+  {
+    "source_id":"SRC-260",
+    "source_title":"The Owl House — Season 1, Episode 1: A Lying Witch and a Warden",
+    "continuity_scope":"Disney animated television-series continuity, restricted to Disney+'s official Season 1 Episode 1 listing and its concise episode premise: “Luz stumbles upon a portal to a magical new world.” The official Disney+ series description is used only for the same opening-premise identification of Luz, Eda, and King. Books, comics, games, shorts, later episodes/seasons, and fandom-derived lore are excluded.",
+    "work_or_witnesses":["The Owl House, Disney animated television series, S1:E1 “A Lying Witch and a Warden,” official Disney+ episode listing","Disney+ official The Owl House series details, opening premise text"],
+    "coverage_rule":"Include every named individual dramatic figure directly named in Disney+'s Episode 1 opening premise/associated official opening series description: Luz, Eda, and King. Witches, demons, species, portals, magic, the Owl House, schools, covens, artifacts, places, realms, and later relationships are terms/context rather than independent character nodes. The source directly calls Luz a teenage human girl, Eda a witch, and King a tiny warrior; it does not provide surnames, demon identity, magic mechanics, other named characters, or later characterization.",
+    "in_scope_character_count":3,
+    "completed_character_count":3,
+    "omissions":["All named people absent from the S1E1 official premise and all untranscribed visual/credit-only figures.","Every episode after S1E1, later seasons, books, comics, games, shorts, official-but-separate media, creator interviews, and fandom-derived lore.","Luz’s surname, all later identities/relationships, queerness/sexual orientation, gender identity, family conflict, adoption/family structure, disability, body-horror transformations, death, detailed demon identity, covens, spells, magic mechanics/morality, artifacts, schools, the Owl House as a detailed place, and realm-system lore.","Fan wikis, Wikipedia, databases, reviews, recaps, unlicensed transcripts, and social summaries."],
+    "uncertainties":["Disney+ explicitly calls Luz a teenage human girl; no numerical age is assigned. This source contains no child-safety event, school/family conflict detail, or age rating-to-character inference.","Disney+ calls Eda a rebellious witch and King an adorably tiny warrior. It does not call King a demon or give either individual a species taxonomy, disability, cultural identity, magical capability, or moral alignment; none is inferred.","Disney+ says Luz befriends Eda and King in the opening description. This supports a premise-level friendship relation only, not later household/found-family, mentorship, romance, identity, or consent claims.","Portal, magical-world, witch, and demon-adjacent language are fictional animation terms. No real religious, occult, medical, body-horror, or identity claim is made."
+    ],
+    "completion_status":"pass-complete",
+    "evidence_basis":"Official Disney+ series/episode metadata only. The primary episode locator supplies the S1E1 title and portal premise; the same official page’s opening series description supplies the named Luz/Eda/King encounter framing. No later or non-official source is used.",
+    "citations":[{"url":"https://www.disneyplus.com/browse/entity-4249e544-b4cd-4f3d-bb68-31967428ce13","locator":"Disney+ The Owl House details; Season 1 Episode 1 “A Lying Witch and a Warden” listing","supports":["Disney animated-series identity, Dana Terrace credit, S1E1 title, Luz portal premise, and official Luz/Eda/King opening-description roles/friendship"]}],
+    "last_reviewed":"2026-08-06"
+  }
+]

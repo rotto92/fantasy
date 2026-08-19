@@ -1,0 +1,54 @@
+[
+  {
+    "relationship_id": "REL-SRC160-001",
+    "source_id": "SRC-160",
+    "source_character_id": "CHR-SRC160-001",
+    "target_character_id": "CHR-SRC160-002",
+    "relationship_type": "ruler",
+    "label": "appoints Carlos commander of Harbour Town",
+    "direction": "directed",
+    "continuity": "Risen 2009 German Games for Windows PC manual witness",
+    "citations": [{"url":"https://www.mogelpower.de/manuals/Risen_Manual.pdf","locator":"German manual, Die HauptCharaktere, PDF p. 21: Mendoza and Kommandant Carlos profiles","supports":["Mendoza appoints Carlos commander of Harbour Town"]}],
+    "confidence": "high",
+    "note": "A command appointment, not a claim that Mendoza is a sovereign monarch."
+  },
+  {
+    "relationship_id": "REL-SRC160-002",
+    "source_id": "SRC-160",
+    "source_character_id": "CHR-SRC160-001",
+    "target_character_id": "CHR-SRC160-003",
+    "relationship_type": "ruler",
+    "label": "asserts command over Ignatius and the Volcano Fortress",
+    "direction": "directed",
+    "continuity": "Risen 2009 German Games for Windows PC manual witness",
+    "citations": [{"url":"https://www.mogelpower.de/manuals/Risen_Manual.pdf","locator":"German manual, Die HauptCharaktere, PDF p. 21: Meister Ignatius profile","supports":["Ignatius must obey Mendoza after Mendoza takes control of the Volcano Fortress"]}],
+    "confidence": "high",
+    "note": "The relation records explicit command authority in the manual, not a broader personal allegiance beyond its stated context."
+  },
+  {
+    "relationship_id": "REL-SRC160-003",
+    "source_id": "SRC-160",
+    "source_character_id": "CHR-SRC160-001",
+    "target_character_id": "CHR-SRC160-004",
+    "relationship_type": "opponent",
+    "label": "the Inquisition drives Esteban from Harbour Town",
+    "direction": "directed",
+    "continuity": "Risen 2009 German Games for Windows PC manual witness",
+    "citations": [{"url":"https://www.mogelpower.de/manuals/Risen_Manual.pdf","locator":"German manual, Die HauptCharaktere, PDF p. 21: Don Esteban profile","supports":["The Inquisition drives Esteban from Harbour Town into the swamp ruins"]}],
+    "confidence": "high",
+    "note": "Mendoza is the manual's named Inquisition commander; the profile describes the institutional action, so the individual-to-individual rendering is a cautious role-based inference."
+  },
+  {
+    "relationship_id": "REL-SRC160-004",
+    "source_id": "SRC-160",
+    "source_character_id": "CHR-SRC160-002",
+    "target_character_id": "CHR-SRC160-004",
+    "relationship_type": "other",
+    "label": "succeeds Esteban as Harbour Town's commander",
+    "direction": "directed",
+    "continuity": "Risen 2009 German Games for Windows PC manual witness",
+    "citations": [{"url":"https://www.mogelpower.de/manuals/Risen_Manual.pdf","locator":"German manual, Die HauptCharaktere, PDF p. 21: Kommandant Carlos profile","supports":["Carlos is the new commander of Harbour Town after Don Esteban flees"]}],
+    "confidence": "high",
+    "note": "This is a succession/displacement relationship, not a claim of personal rivalry beyond the office change."
+  }
+]

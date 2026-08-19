@@ -1,0 +1,569 @@
+[
+  {
+    "relationship_id": "REL-SRC012-001",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-006",
+    "target_character_id": "CHR-SRC012-002",
+    "relationship_type": "created",
+    "label": "Aruru fashions Enkidu in response to the gods’ request.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=538",
+        "locator": "George 2003, Vol. I, Tablet I, lines 1–110",
+        "supports": [
+          "Aruru fashions Enkidu in response to the gods’ request."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-002",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-003",
+    "target_character_id": "CHR-SRC012-002",
+    "relationship_type": "transformed-by",
+    "label": "Shamhat’s encounter separates Enkidu from the animals and begins his social transformation.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=538",
+        "locator": "George 2003, Vol. I, Tablet I, lines 1–110",
+        "supports": [
+          "Shamhat’s encounter separates Enkidu from the animals and begins his social transformation."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-003",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-001",
+    "target_character_id": "CHR-SRC012-002",
+    "relationship_type": "opponent",
+    "label": "Gilgamesh and Enkidu wrestle when they first meet in Uruk.",
+    "direction": "undirected",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=552",
+        "locator": "George 2003, Vol. I, Tablet II, lines 1–190",
+        "supports": [
+          "Gilgamesh and Enkidu wrestle when they first meet in Uruk."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-004",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-001",
+    "target_character_id": "CHR-SRC012-002",
+    "relationship_type": "companion",
+    "label": "After their contest, Gilgamesh and Enkidu become inseparable companions.",
+    "direction": "undirected",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=552",
+        "locator": "George 2003, Vol. I, Tablet II, lines 1–190",
+        "supports": [
+          "After their contest, Gilgamesh and Enkidu become inseparable companions."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-005",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-004",
+    "target_character_id": "CHR-SRC012-001",
+    "relationship_type": "kin",
+    "label": "Ninsun is Gilgamesh’s mother.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=570",
+        "locator": "George 2003, Vol. I, Tablet III, lines 1–190",
+        "supports": [
+          "Ninsun is Gilgamesh’s mother."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-006",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-004",
+    "target_character_id": "CHR-SRC012-002",
+    "relationship_type": "kin",
+    "label": "Ninsun adopts Enkidu as Gilgamesh’s brother before the expedition.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=570",
+        "locator": "George 2003, Vol. I, Tablet III, lines 1–190",
+        "supports": [
+          "Ninsun adopts Enkidu as Gilgamesh’s brother before the expedition."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-007",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-004",
+    "target_character_id": "CHR-SRC012-005",
+    "relationship_type": "patron",
+    "label": "Ninsun appeals to Shamash for protection of Gilgamesh and Enkidu.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=570",
+        "locator": "George 2003, Vol. I, Tablet III, lines 1–190",
+        "supports": [
+          "Ninsun appeals to Shamash for protection of Gilgamesh and Enkidu."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-008",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-005",
+    "target_character_id": "CHR-SRC012-001",
+    "relationship_type": "patron",
+    "label": "Shamash supports Gilgamesh in the Cedar Forest conflict.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=599",
+        "locator": "George 2003, Vol. I, Tablet V, lines 1–300",
+        "supports": [
+          "Shamash supports Gilgamesh in the Cedar Forest conflict."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-009",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-005",
+    "target_character_id": "CHR-SRC012-002",
+    "relationship_type": "patron",
+    "label": "Shamash supports Enkidu in the Cedar Forest conflict and speaks to him after the gods’ judgment.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=599",
+        "locator": "George 2003, Vol. I, Tablet V, lines 1–300",
+        "supports": [
+          "Shamash supports Enkidu in the Cedar Forest conflict and speaks to him after the gods’ judgment."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-010",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-001",
+    "target_character_id": "CHR-SRC012-007",
+    "relationship_type": "opponent",
+    "label": "Gilgamesh fights and kills Humbaba in the Cedar Forest.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=599",
+        "locator": "George 2003, Vol. I, Tablet V, lines 1–300",
+        "supports": [
+          "Gilgamesh fights and kills Humbaba in the Cedar Forest."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-011",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-002",
+    "target_character_id": "CHR-SRC012-007",
+    "relationship_type": "opponent",
+    "label": "Enkidu joins the fight and urges the killing of Humbaba.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=599",
+        "locator": "George 2003, Vol. I, Tablet V, lines 1–300",
+        "supports": [
+          "Enkidu joins the fight and urges the killing of Humbaba."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-012",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-008",
+    "target_character_id": "CHR-SRC012-001",
+    "relationship_type": "lover",
+    "label": "Ishtar proposes a union to Gilgamesh; he refuses her.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190",
+        "supports": [
+          "Ishtar proposes a union to Gilgamesh; he refuses her."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-013",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-009",
+    "target_character_id": "CHR-SRC012-008",
+    "relationship_type": "kin",
+    "label": "Anu is Ishtar’s father in the Tablet VI scene.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190",
+        "supports": [
+          "Anu is Ishtar’s father in the Tablet VI scene."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-014",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-009",
+    "target_character_id": "CHR-SRC012-010",
+    "relationship_type": "patron",
+    "label": "Anu gives Ishtar the Bull of Heaven after her demand.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190",
+        "supports": [
+          "Anu gives Ishtar the Bull of Heaven after her demand."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-015",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-008",
+    "target_character_id": "CHR-SRC012-010",
+    "relationship_type": "patron",
+    "label": "Ishtar releases the Bull of Heaven against Uruk.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190",
+        "supports": [
+          "Ishtar releases the Bull of Heaven against Uruk."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-016",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-010",
+    "target_character_id": "CHR-SRC012-001",
+    "relationship_type": "opponent",
+    "label": "The Bull of Heaven attacks Uruk and confronts Gilgamesh.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190",
+        "supports": [
+          "The Bull of Heaven attacks Uruk and confronts Gilgamesh."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-017",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-010",
+    "target_character_id": "CHR-SRC012-002",
+    "relationship_type": "opponent",
+    "label": "Enkidu assists in killing the Bull of Heaven.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=620",
+        "locator": "George 2003, Vol. I, Tablet VI, lines 1–190",
+        "supports": [
+          "Enkidu assists in killing the Bull of Heaven."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-018",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-015",
+    "target_character_id": "CHR-SRC012-002",
+    "relationship_type": "opponent",
+    "label": "The divine decision after the Bull’s death decrees Enkidu’s death; Enlil is named among the deciding gods.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=632",
+        "locator": "George 2003, Vol. I, Tablet VII, lines 1–250",
+        "supports": [
+          "The divine decision after the Bull’s death decrees Enkidu’s death; Enlil is named among the deciding gods."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-019",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-001",
+    "target_character_id": "CHR-SRC012-011",
+    "relationship_type": "student",
+    "label": "Gilgamesh seeks Utnapishtim’s account and instruction about the exceptional life he possesses.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300",
+        "supports": [
+          "Gilgamesh seeks Utnapishtim’s account and instruction about the exceptional life he possesses."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-020",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-012",
+    "target_character_id": "CHR-SRC012-001",
+    "relationship_type": "mentor",
+    "label": "Siduri questions Gilgamesh and directs him toward Urshanabi.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=669",
+        "locator": "George 2003, Vol. I, Tablet X, lines 1–320",
+        "supports": [
+          "Siduri questions Gilgamesh and directs him toward Urshanabi."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-021",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-012",
+    "target_character_id": "CHR-SRC012-013",
+    "relationship_type": "other",
+    "label": "Siduri identifies Urshanabi as the route to Utnapishtim.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=669",
+        "locator": "George 2003, Vol. I, Tablet X, lines 1–320",
+        "supports": [
+          "Siduri identifies Urshanabi as the route to Utnapishtim."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-022",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-013",
+    "target_character_id": "CHR-SRC012-001",
+    "relationship_type": "companion",
+    "label": "Urshanabi ferries Gilgamesh across the Waters of Death.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=669",
+        "locator": "George 2003, Vol. I, Tablet X, lines 1–320",
+        "supports": [
+          "Urshanabi ferries Gilgamesh across the Waters of Death."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-023",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-014",
+    "target_character_id": "CHR-SRC012-011",
+    "relationship_type": "patron",
+    "label": "Ea secretly warns Utnapishtim of the flood decision through the reed wall.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300",
+        "supports": [
+          "Ea secretly warns Utnapishtim of the flood decision through the reed wall."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-024",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-015",
+    "target_character_id": "CHR-SRC012-011",
+    "relationship_type": "other",
+    "label": "After the flood, Enlil grants Utnapishtim and his wife a life unlike other humans.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300",
+        "supports": [
+          "After the flood, Enlil grants Utnapishtim and his wife a life unlike other humans."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-025",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-016",
+    "target_character_id": "CHR-SRC012-011",
+    "relationship_type": "other",
+    "label": "In Utnapishtim’s narrative, Adad’s storm is part of the flood that Utnapishtim survives.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300",
+        "supports": [
+          "In Utnapishtim’s narrative, Adad’s storm is part of the flood that Utnapishtim survives."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-026",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-017",
+    "target_character_id": "CHR-SRC012-011",
+    "relationship_type": "other",
+    "label": "In Utnapishtim’s narrative, Ninurta acts in the divine preparation for the flood.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300",
+        "supports": [
+          "In Utnapishtim’s narrative, Ninurta acts in the divine preparation for the flood."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  },
+  {
+    "relationship_id": "REL-SRC012-027",
+    "source_id": "SRC-012",
+    "source_character_id": "CHR-SRC012-018",
+    "target_character_id": "CHR-SRC012-011",
+    "relationship_type": "other",
+    "label": "In Utnapishtim’s narrative, Ennugi acts in the divine preparation for the flood.",
+    "direction": "directed",
+    "continuity": "Standard Babylonian Epic of Gilgameš, Tablets I–XI, reconstructed in George 2003",
+    "citations": [
+      {
+        "url": "https://eprints.soas.ac.uk/1603/15/George%20Babylonian%20Gilgamesh%201.pdf#page=686",
+        "locator": "George 2003, Vol. I, Tablet XI, lines 1–300",
+        "supports": [
+          "In Utnapishtim’s narrative, Ennugi acts in the divine preparation for the flood."
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Recorded only in the declared Standard Babylonian witness scope; no Old Babylonian or Sumerian supplementation."
+  }
+]

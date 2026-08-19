@@ -1,0 +1,933 @@
+[
+  {
+    "relationship_id": "REL-SRC002-001",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-001",
+    "target_character_id": "CHR-SRC002-002",
+    "relationship_type": "spouse",
+    "label": "Óðinn and Frigg are spouses in Gylfaginning.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 35",
+        "supports": [
+          "marriage"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Prose-witness relationship."
+  },
+  {
+    "relationship_id": "REL-SRC002-002",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-001",
+    "target_character_id": "CHR-SRC002-006",
+    "relationship_type": "kin",
+    "label": "father of Baldr",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 22, 49",
+        "supports": [
+          "Óðinn's paternity of Baldr"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-003",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-002",
+    "target_character_id": "CHR-SRC002-006",
+    "relationship_type": "kin",
+    "label": "mother of Baldr",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 49",
+        "supports": [
+          "Frigg's maternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-004",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-006",
+    "target_character_id": "CHR-SRC002-007",
+    "relationship_type": "spouse",
+    "label": "Baldr and Nanna are spouses.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 49",
+        "supports": [
+          "marriage and funeral"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Prose-witness relationship."
+  },
+  {
+    "relationship_id": "REL-SRC002-005",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-006",
+    "target_character_id": "CHR-SRC002-008",
+    "relationship_type": "kin",
+    "label": "brothers",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 49",
+        "supports": [
+          "Höðr is Baldr's brother"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Relationship does not assign culpability beyond cited account."
+  },
+  {
+    "relationship_id": "REL-SRC002-006",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-008",
+    "target_character_id": "CHR-SRC002-006",
+    "relationship_type": "opponent",
+    "label": "Höðr shoots Baldr after Loki's prompting in the prose account.",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 49",
+        "supports": [
+          "shooting of Baldr"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Specific event; it does not erase their kinship."
+  },
+  {
+    "relationship_id": "REL-SRC002-007",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-020",
+    "target_character_id": "CHR-SRC002-008",
+    "relationship_type": "opponent",
+    "label": "Váli kills Höðr to avenge Baldr.",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 49",
+        "supports": [
+          "Váli's vengeance on Höðr"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Specific revenge event."
+  },
+  {
+    "relationship_id": "REL-SRC002-008",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-001",
+    "target_character_id": "CHR-SRC002-019",
+    "relationship_type": "kin",
+    "label": "father of Víðarr",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 29",
+        "supports": [
+          "Víðarr is Óðinn's son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-009",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-001",
+    "target_character_id": "CHR-SRC002-020",
+    "relationship_type": "kin",
+    "label": "father of Váli",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 49",
+        "supports": [
+          "Váli is Óðinn's son"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-010",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-001",
+    "target_character_id": "CHR-SRC002-049",
+    "relationship_type": "kin",
+    "label": "father of Hermóðr",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 49",
+        "supports": [
+          "Hermóðr is called Óðinn's son"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Follows the cited prose wording."
+  },
+  {
+    "relationship_id": "REL-SRC002-011",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-003",
+    "target_character_id": "CHR-SRC002-004",
+    "relationship_type": "spouse",
+    "label": "Þórr and Sif are spouses.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 31",
+        "supports": [
+          "Sif is Þórr's wife"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Prose-witness relationship."
+  },
+  {
+    "relationship_id": "REL-SRC002-012",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-003",
+    "target_character_id": "CHR-SRC002-023",
+    "relationship_type": "opponent",
+    "label": "Þórr fishes for and confronts Jörmungandr.",
+    "direction": "directed",
+    "continuity": "Poetic Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Hymiskviða st. 17–25",
+        "supports": [
+          "fishing confrontation"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Poem-specific event."
+  },
+  {
+    "relationship_id": "REL-SRC002-013",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-003",
+    "target_character_id": "CHR-SRC002-023",
+    "relationship_type": "opponent",
+    "label": "Þórr and Jörmungandr kill one another at Ragnarök.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 51",
+        "supports": [
+          "mutual destruction"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Separate relationship preserves distinct witness events."
+  },
+  {
+    "relationship_id": "REL-SRC002-014",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-003",
+    "target_character_id": "CHR-SRC002-035",
+    "relationship_type": "opponent",
+    "label": "Þórr kills Þrymr when Mjölnir is returned.",
+    "direction": "directed",
+    "continuity": "Poetic Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Þrymskviða st. 30–32",
+        "supports": [
+          "Þrymr's killing"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Specific poem event."
+  },
+  {
+    "relationship_id": "REL-SRC002-015",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-003",
+    "target_character_id": "CHR-SRC002-034",
+    "relationship_type": "companion",
+    "label": "Þórr and Hymir go fishing together.",
+    "direction": "undirected",
+    "continuity": "Poetic Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Hymiskviða st. 15–25",
+        "supports": [
+          "shared fishing expedition"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Event-specific companionship; not a lasting alliance."
+  },
+  {
+    "relationship_id": "REL-SRC002-016",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-003",
+    "target_character_id": "CHR-SRC002-036",
+    "relationship_type": "opponent",
+    "label": "Þórr kills Geirröðr in the prose account.",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Skáldskaparmál ch. 18",
+        "supports": [
+          "Geirröðr episode"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Prose-witness event."
+  },
+  {
+    "relationship_id": "REL-SRC002-017",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-003",
+    "target_character_id": "CHR-SRC002-038",
+    "relationship_type": "opponent",
+    "label": "Þórr duels and kills Hrungnir.",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Skáldskaparmál ch. 17",
+        "supports": [
+          "duel and killing"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Prose-witness event."
+  },
+  {
+    "relationship_id": "REL-SRC002-018",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-005",
+    "target_character_id": "CHR-SRC002-041",
+    "relationship_type": "spouse",
+    "label": "Loki and Sigyn are spouses.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 50",
+        "supports": [
+          "Sigyn called Loki's wife"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Prose-witness relationship."
+  },
+  {
+    "relationship_id": "REL-SRC002-019",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-005",
+    "target_character_id": "CHR-SRC002-040",
+    "relationship_type": "lover",
+    "label": "Loki and Angrboða are parents of three named children.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 34",
+        "supports": [
+          "joint parentage"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "'Lover' is the closest controlled relation; the source's claim is joint parentage."
+  },
+  {
+    "relationship_id": "REL-SRC002-020",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-005",
+    "target_character_id": "CHR-SRC002-021",
+    "relationship_type": "kin",
+    "label": "father of Hel",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 34",
+        "supports": [
+          "Loki's paternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-021",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-005",
+    "target_character_id": "CHR-SRC002-022",
+    "relationship_type": "kin",
+    "label": "father of Fenrir",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 34",
+        "supports": [
+          "Loki's paternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-022",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-005",
+    "target_character_id": "CHR-SRC002-023",
+    "relationship_type": "kin",
+    "label": "father of Jörmungandr",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 34",
+        "supports": [
+          "Loki's paternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-023",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-040",
+    "target_character_id": "CHR-SRC002-021",
+    "relationship_type": "kin",
+    "label": "mother of Hel",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 34",
+        "supports": [
+          "Angrboða's maternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-024",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-040",
+    "target_character_id": "CHR-SRC002-022",
+    "relationship_type": "kin",
+    "label": "mother of Fenrir",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 34",
+        "supports": [
+          "Angrboða's maternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-025",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-040",
+    "target_character_id": "CHR-SRC002-023",
+    "relationship_type": "kin",
+    "label": "mother of Jörmungandr",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 34",
+        "supports": [
+          "Angrboða's maternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-026",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-009",
+    "target_character_id": "CHR-SRC002-022",
+    "relationship_type": "opponent",
+    "label": "Týr loses his hand while Fenrir is bound.",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 34",
+        "supports": [
+          "binding and bitten hand"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Specific binding episode."
+  },
+  {
+    "relationship_id": "REL-SRC002-027",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-019",
+    "target_character_id": "CHR-SRC002-022",
+    "relationship_type": "opponent",
+    "label": "Víðarr kills Fenrir at Ragnarök.",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 51",
+        "supports": [
+          "Fenrir killing"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Final-battle event."
+  },
+  {
+    "relationship_id": "REL-SRC002-028",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-010",
+    "target_character_id": "CHR-SRC002-005",
+    "relationship_type": "opponent",
+    "label": "Heimdallr and Loki kill one another at Ragnarök.",
+    "direction": "undirected",
+    "continuity": "Poetic and Prose Edda witnesses",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Völuspá st. 51",
+        "supports": [
+          "final conflict"
+        ]
+      },
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 51",
+        "supports": [
+          "mutual killing"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "The prose supplies explicit mutual death wording."
+  },
+  {
+    "relationship_id": "REL-SRC002-029",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-011",
+    "target_character_id": "CHR-SRC002-012",
+    "relationship_type": "kin",
+    "label": "father of Freyr",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 23",
+        "supports": [
+          "Njörðr's paternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-030",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-011",
+    "target_character_id": "CHR-SRC002-013",
+    "relationship_type": "kin",
+    "label": "father of Freyja",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 23–24",
+        "supports": [
+          "Njörðr's paternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-031",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-011",
+    "target_character_id": "CHR-SRC002-014",
+    "relationship_type": "spouse",
+    "label": "Njörðr and Skaði marry in the prose account.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 23",
+        "supports": [
+          "marriage and differing residence preferences"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Prose-witness relationship."
+  },
+  {
+    "relationship_id": "REL-SRC002-032",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-012",
+    "target_character_id": "CHR-SRC002-039",
+    "relationship_type": "other",
+    "label": "Freyr seeks Gerðr and a meeting is agreed through Skírnir's mission.",
+    "direction": "directed",
+    "continuity": "Poetic Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Skírnismál st. 1–42",
+        "supports": [
+          "courtship mission and terms"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "'Other' preserves the source-specific courtship/pressure narrative without falsely labeling it romance."
+  },
+  {
+    "relationship_id": "REL-SRC002-033",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-032",
+    "target_character_id": "CHR-SRC002-033",
+    "relationship_type": "spouse",
+    "label": "Ægir and Rán are spouses.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 33",
+        "supports": [
+          "Rán named as Ægir's wife"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Prose-witness relationship."
+  },
+  {
+    "relationship_id": "REL-SRC002-035",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-027",
+    "target_character_id": "CHR-SRC002-028",
+    "relationship_type": "kin",
+    "label": "father of Borr",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 6",
+        "supports": [
+          "Búri's fatherhood"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-036",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-028",
+    "target_character_id": "CHR-SRC002-029",
+    "relationship_type": "spouse",
+    "label": "Borr and Bestla are parents of Óðinn, Vili, and Vé.",
+    "direction": "undirected",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 6",
+        "supports": [
+          "union and children"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "The prose gives parentage; spouse terminology is an analytic convenience."
+  },
+  {
+    "relationship_id": "REL-SRC002-037",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-028",
+    "target_character_id": "CHR-SRC002-001",
+    "relationship_type": "kin",
+    "label": "father of Óðinn",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 6",
+        "supports": [
+          "Borr's paternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-038",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-029",
+    "target_character_id": "CHR-SRC002-001",
+    "relationship_type": "kin",
+    "label": "mother of Óðinn",
+    "direction": "directed",
+    "continuity": "Prose Edda witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/18947/18947-h/18947-h.htm",
+        "locator": "Gylfaginning ch. 6",
+        "supports": [
+          "Bestla's maternity"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Directed parent-to-child kin label."
+  },
+  {
+    "relationship_id": "REL-SRC002-039",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-044",
+    "target_character_id": "CHR-SRC002-043",
+    "relationship_type": "student",
+    "label": "Sigurðr is fostered and instructed by Reginn.",
+    "direction": "directed",
+    "continuity": "Poetic Edda heroic witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Reginsmál prose opening and st. 1–26",
+        "supports": [
+          "fostering and instruction"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Student relation records the fostering/instruction relation."
+  },
+  {
+    "relationship_id": "REL-SRC002-040",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-043",
+    "target_character_id": "CHR-SRC002-042",
+    "relationship_type": "kin",
+    "label": "brothers",
+    "direction": "undirected",
+    "continuity": "Poetic Edda heroic witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Reginsmál prose opening",
+        "supports": [
+          "Reginn and Fáfnir's kinship"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Kin relationship."
+  },
+  {
+    "relationship_id": "REL-SRC002-041",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-044",
+    "target_character_id": "CHR-SRC002-042",
+    "relationship_type": "opponent",
+    "label": "Sigurðr kills Fáfnir.",
+    "direction": "directed",
+    "continuity": "Poetic Edda heroic witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Fáfnismál prose opening and st. 1–44",
+        "supports": [
+          "Fáfnir's killing and dialogue"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Heroic-poem event."
+  },
+  {
+    "relationship_id": "REL-SRC002-042",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-044",
+    "target_character_id": "CHR-SRC002-043",
+    "relationship_type": "opponent",
+    "label": "Sigurðr kills Reginn after warning from Fáfnir's heart/birds.",
+    "direction": "directed",
+    "continuity": "Poetic Edda heroic witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Fáfnismál prose conclusion",
+        "supports": [
+          "Reginn's killing"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "This later conflict coexists with the teacher relationship."
+  },
+  {
+    "relationship_id": "REL-SRC002-043",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-045",
+    "target_character_id": "CHR-SRC002-044",
+    "relationship_type": "mentor",
+    "label": "Sigrdrífa gives Sigurðr counsel and runic instruction.",
+    "direction": "directed",
+    "continuity": "Poetic Edda heroic witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Sigrdrífumál st. 1–37",
+        "supports": [
+          "instruction and counsel"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "The record retains the contested Sigrdrífa/Brynhildr identity caution."
+  },
+  {
+    "relationship_id": "REL-SRC002-044",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-046",
+    "target_character_id": "CHR-SRC002-044",
+    "relationship_type": "spouse",
+    "label": "Guðrún and Sigurðr are spouses in the heroic poem sequence.",
+    "direction": "undirected",
+    "continuity": "Poetic Edda heroic witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Guðrúnarkviða I prose introduction",
+        "supports": [
+          "marriage and bereavement context"
+        ]
+      }
+    ],
+    "confidence": "moderate",
+    "note": "Witness-specific heroic sequence."
+  },
+  {
+    "relationship_id": "REL-SRC002-045",
+    "source_id": "SRC-002",
+    "source_character_id": "CHR-SRC002-046",
+    "target_character_id": "CHR-SRC002-047",
+    "relationship_type": "spouse",
+    "label": "Guðrún and Atli are spouses.",
+    "direction": "undirected",
+    "continuity": "Poetic Edda heroic witness",
+    "citations": [
+      {
+        "url": "https://www.gutenberg.org/files/14726/14726-h/14726-h.htm",
+        "locator": "Atlakviða st. 1–46",
+        "supports": [
+          "marriage and conflict"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "note": "Heroic-poem relationship."
+  }
+]
